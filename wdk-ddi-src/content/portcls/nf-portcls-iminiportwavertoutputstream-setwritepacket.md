@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 28C73FBA-9122-4CFD-959E-495062CEEF41
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, audio.iminiportwavertoutputstream_setwritepacket, SetWritePacket, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream, portcls/IMiniportWaveRTOutputStream::SetWritePacket, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface
+ms.keywords: ",  , ,, ., :, I, IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, IMiniportWaveRTOutputStream::SetWritePacket, M, O, P, R, S, SetWritePacket method [Audio Devices], SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface, SetWritePacket,IMiniportWaveRTOutputStream.SetWritePacket, T, W, a, audio.iminiportwavertoutputstream_setwritepacket, c, e, i, k, m, n, o, p, portcls/IMiniportWaveRTOutputStream::SetWritePacket, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

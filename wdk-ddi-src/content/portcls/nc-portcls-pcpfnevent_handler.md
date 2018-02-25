@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 06239870-8ed8-49c9-a9d4-fd3e28f3ab58
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.eventhandler, EventHandler callback function [Audio Devices], EventHandler, PCPFNEVENT_HANDLER, PCPFNEVENT_HANDLER, portcls/EventHandler, audmp-routines_f75ad8d3-9abe-4f8a-97d4-605a18586ecb.xml
+ms.keywords: EventHandler, EventHandler callback function [Audio Devices], PCPFNEVENT_HANDLER, audio.eventhandler, audmp-routines_f75ad8d3-9abe-4f8a-97d4-605a18586ecb.xml, portcls/EventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,11 +115,11 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
-
-
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
 
 
 
@@ -127,7 +127,7 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
 
 
 
@@ -135,7 +135,7 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a>
 
 
 

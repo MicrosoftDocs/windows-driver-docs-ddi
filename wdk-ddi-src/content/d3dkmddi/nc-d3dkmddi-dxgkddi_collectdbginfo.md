@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f2f3d8f7-5a54-4830-b8f8-ac2f93096eda
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicollectdbginfo, DxgkDdiCollectDbgInfo callback function [Display Devices], DxgkDdiCollectDbgInfo, DXGKDDI_COLLECTDBGINFO, DXGKDDI_COLLECTDBGINFO, d3dkmddi/DxgkDdiCollectDbgInfo, DmFunctions_3b0ed5a8-f56d-4dbd-8426-667ff8f37ee5.xml
+ms.keywords: DXGKDDI_COLLECTDBGINFO, DmFunctions_3b0ed5a8-f56d-4dbd-8426-667ff8f37ee5.xml, DxgkDdiCollectDbgInfo, DxgkDdiCollectDbgInfo callback function [Display Devices], d3dkmddi/DxgkDdiCollectDbgInfo, display.dxgkddicollectdbginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -150,15 +150,15 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo.md">DXGKARG_COLLECTDBGINFO</a>
 
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetfromtimeout.md">DxgkDdiResetFromTimeout</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

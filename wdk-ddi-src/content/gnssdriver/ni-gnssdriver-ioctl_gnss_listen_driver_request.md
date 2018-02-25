@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 204D6F80-A458-45F8-B25F-4F5D3C33EB75
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.ioctl_gnss_listen_driver_request, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code [Sensor Devices], IOCTL_GNSS_LISTEN_DRIVER_REQUEST, gnssdriver/IOCTL_GNSS_LISTEN_DRIVER_REQUEST
+ms.keywords: IOCTL_GNSS_LISTEN_DRIVER_REQUEST, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_DRIVER_REQUEST, sensors.ioctl_gnss_listen_driver_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -126,11 +126,7 @@ The driver should use this IOCTL to get data in only rare circumstances and not 
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -138,7 +134,11 @@ The driver should use this IOCTL to get data in only rare circumstances and not 
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

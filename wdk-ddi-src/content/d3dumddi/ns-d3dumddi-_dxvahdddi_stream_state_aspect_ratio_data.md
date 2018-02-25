@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12d33e2d-63d3-4cc8-9b50-5156132b2e72
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, display.dxvahdddi_stream_state_aspect_ratio_data, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure [Display Devices], DXVA2_Structs_daab6809-2f81-4892-9f56-c57254047627.xml, d3dumddi/DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA
+ms.keywords: ",  , ,, A, C, D, DXVA2_Structs_daab6809-2f81-4892-9f56-c57254047627.xml, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure [Display Devices], E, H, I, M, O, P, R, S, T, V, X, _, _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, display.dxvahdddi_stream_state_aspect_ratio_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

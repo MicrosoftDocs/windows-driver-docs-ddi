@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3743db2a-d613-4efb-ae73-80eb1bfd9410
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d10umddi/D3D10_DDI_BLEND_OP_MIN, d3d10umddi/D3D10_DDI_BLEND_OP_MAX, d3d10umddi/D3D10_DDI_BLEND_OP_SUBTRACT, D3D10_DDI_BLEND_OP_SUBTRACT, D3D10_DDI_BLEND_OP_MAX, D3D10_DDI_BLEND_OP, D3D10_DDI_BLEND_OP enumeration [Display Devices], display.d3d10_ddi_blend_op, UMDisplayDriver_Dx10param_Structs_900c6f2c-fc2a-4982-a91e-b1ea29c5f0e4.xml, d3d10umddi/D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP, d3d10umddi/D3D10_DDI_BLEND_OP_REV_SUBTRACT, D3D10_DDI_BLEND_OP_REV_SUBTRACT, D3D10_DDI_BLEND_OP_MIN, D3D10_DDI_BLEND_OP_ADD
+ms.keywords: ",  , ,, 0, 1, 3, B, D, D3D10_DDI_BLEND_OP, D3D10_DDI_BLEND_OP enumeration [Display Devices], D3D10_DDI_BLEND_OP_ADD, D3D10_DDI_BLEND_OP_MAX, D3D10_DDI_BLEND_OP_MIN, D3D10_DDI_BLEND_OP_REV_SUBTRACT, D3D10_DDI_BLEND_OP_SUBTRACT, E, I, L, N, O, P, UMDisplayDriver_Dx10param_Structs_900c6f2c-fc2a-4982-a91e-b1ea29c5f0e4.xml, _, d3d10umddi/D3D10_DDI_BLEND_OP, d3d10umddi/D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP_MAX, d3d10umddi/D3D10_DDI_BLEND_OP_MIN, d3d10umddi/D3D10_DDI_BLEND_OP_REV_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP_SUBTRACT, display.d3d10_ddi_blend_op"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

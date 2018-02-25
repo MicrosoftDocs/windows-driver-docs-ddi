@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 730312DE-5F11-46C8-8298-55AA5756C995
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PPEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], _PEP_LOW_POWER_EPOCH, pepfx/PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH"
+ms.keywords: ",  , *, *PPEP_LOW_POWER_EPOCH, ,, C, E, H, L, O, P, PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], R, W, _, _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, pepfx/PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c5757dbb-16bf-46f9-836f-5a94089bbb1e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetInstructionOffset2 method [Windows Debugging], GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetInstructionOffset2, debugger.getinstructionoffset2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset2 method, GetInstructionOffset2, dbgeng/IDebugRegisters2::GetInstructionOffset2, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, IDebugRegisters2
+ms.keywords: ",  , ,, ., 2, :, D, G, GetInstructionOffset2 method [Windows Debugging], GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetInstructionOffset2,IDebugRegisters2.GetInstructionOffset2, I, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset2 method, IDebugRegisters2::GetInstructionOffset2, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, O, R, b, c, dbgeng/IDebugRegisters2::GetInstructionOffset2, debugger.getinstructionoffset2, e, f, g, i, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -163,11 +163,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546916">GetInstructionOffset</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 

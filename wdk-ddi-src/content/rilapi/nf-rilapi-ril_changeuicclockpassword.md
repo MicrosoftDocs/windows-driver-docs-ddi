@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85f401bb-b8bd-4bb9-9953-08945ffc4d8b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_ChangeUiccLockPassword, RIL_ChangeUiccLockPassword method [Network Drivers Starting with Windows Vista], netvista.ril_changeuicclockpassword, RIL_ChangeUiccLockPassword
+ms.keywords: ",  , C, I, L, P, R, RIL_ChangeUiccLockPassword, RIL_ChangeUiccLockPassword method [Network Drivers Starting with Windows Vista], U, _, a, c, d, e, g, h, i, k, n, netvista.ril_changeuicclockpassword, o, r, rilapi/RIL_ChangeUiccLockPassword, s, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

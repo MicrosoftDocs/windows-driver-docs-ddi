@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1da9bd59-d45e-40e0-9947-c4f56309acc7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], ifsk.fltcreatesystemvolumeinformationfolder, FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml, fltkernel/FltCreateSystemVolumeInformationFolder, FltCreateSystemVolumeInformationFolder
+ms.keywords: ",  , C, F, FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml, FltCreateSystemVolumeInformationFolder, FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], I, S, V, a, d, e, f, fltkernel/FltCreateSystemVolumeInformationFolder, i, ifsk.fltcreatesystemvolumeinformationfolder, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,11 +122,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 

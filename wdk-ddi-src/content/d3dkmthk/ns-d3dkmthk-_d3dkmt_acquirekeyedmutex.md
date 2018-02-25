@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], display.d3dkmt_acquirekeyedmutex, _D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX, OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], E, I, K, M, OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, Q, R, T, U, X, Y, _, _D3DKMT_ACQUIREKEYEDMUTEX, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: D3DKMT_ACQUIREKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> function acquires. 
+The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> function acquires. 
 
 
 ## -syntax
@@ -86,7 +86,7 @@ typedef struct _D3DKMT_ACQUIREKEYEDMUTEX {
 
 A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. 
 
-If *<b>pTimeout</b> = 0, <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> returns without waiting. If the caller supplies a <b>NULL</b> pointer, <b>D3DKMTAcquireKeyedMutex</b> waits indefinitely until the mutex object is set to the signaled state. 
+If *<b>pTimeout</b> = 0, <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> returns without waiting. If the caller supplies a <b>NULL</b> pointer, <b>D3DKMTAcquireKeyedMutex</b> waits indefinitely until the mutex object is set to the signaled state. 
 
 
 ### -field FenceValue
@@ -96,7 +96,7 @@ If *<b>pTimeout</b> = 0, <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmute
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
 
 
 

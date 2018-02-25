@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c1e8cce7-6fa4-45d3-a8c8-9f2ef0a8e846
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvadapterreset, Dot11ExtIhvAdapterReset callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvAdapterReset, DOT11EXTIHV_ADAPTER_RESET, DOT11EXTIHV_ADAPTER_RESET, wlanihv/Dot11ExtIhvAdapterReset, Native_802.11_IHV_Ext_1749484b-7d42-42c0-bae2-5de47406f26b.xml
+ms.keywords: DOT11EXTIHV_ADAPTER_RESET, Dot11ExtIhvAdapterReset, Dot11ExtIhvAdapterReset callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1749484b-7d42-42c0-bae2-5de47406f26b.xml, netvista.dot11extihvadapterreset, wlanihv/Dot11ExtIhvAdapterReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -124,11 +124,11 @@ For more information about the reset operation for WLAN adapters, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
 
 
 

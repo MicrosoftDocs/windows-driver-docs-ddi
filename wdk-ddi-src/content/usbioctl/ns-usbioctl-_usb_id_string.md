@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: e7af07ed-f1a7-4f66-8824-2e12492d037a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usb_id_string, *PUSB_ID_STRING, PUSB_ID_STRING structure pointer [Buses], usbioctl/PUSB_ID_STRING, usbioctl/USB_ID_STRING, PUSB_ID_STRING, USB_ID_STRING structure [Buses], _USB_ID_STRING, USB_ID_STRING
+ms.keywords: ",  , *, *PUSB_ID_STRING, ,, B, D, G, I, N, P, PUSB_ID_STRING, PUSB_ID_STRING structure pointer [Buses], R, S, T, U, USB_ID_STRING, USB_ID_STRING structure [Buses], _, _USB_ID_STRING, buses.usb_id_string, usbioctl/PUSB_ID_STRING, usbioctl/USB_ID_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

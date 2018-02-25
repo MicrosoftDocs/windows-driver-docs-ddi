@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3870e2c8-22cf-4f96-8c2b-4c3cac26d50f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml, ndis/NdisFreeMemoryWithTagPriority, NdisFreeMemoryWithTagPriority, netvista.ndisfreememorywithtagpriority, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , F, M, N, NdisFreeMemoryWithTagPriority, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], P, T, W, a, d, e, g, h, i, m, ndis/NdisFreeMemoryWithTagPriority, ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml, netvista.ndisfreememorywithtagpriority, o, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,11 +160,15 @@ When a caller of
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 
@@ -176,11 +180,7 @@ When a caller of
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 

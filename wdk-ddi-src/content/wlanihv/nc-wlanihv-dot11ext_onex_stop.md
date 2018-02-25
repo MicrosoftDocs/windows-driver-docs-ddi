@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b4893698-47ae-4888-9dcd-0dbdf051266b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extstoponex, Dot11ExtStopOneX callback function [Network Drivers Starting with Windows Vista], Dot11ExtStopOneX, DOT11EXT_ONEX_STOP, DOT11EXT_ONEX_STOP, wlanihv/Dot11ExtStopOneX, Native_802.11_IHV_Ext_fcc1f11d-938e-431e-8327-42d34fedff04.xml
+ms.keywords: DOT11EXT_ONEX_STOP, Dot11ExtStopOneX, Dot11ExtStopOneX callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_fcc1f11d-938e-431e-8327-42d34fedff04.xml, netvista.dot11extstoponex, wlanihv/Dot11ExtStopOneX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,24 +135,6 @@ For more information about using the 802.1X module for authentication, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
-   Dot11ExtIhvOneXIndicateResult</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
-   Dot11ExtIhvPerformPostAssociate</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
    Dot11ExtPostAssociateCompletion</a>
 
@@ -162,7 +144,25 @@ For more information about using the 802.1X module for authentication, see
 
 
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+   Dot11ExtIhvPerformPostAssociate</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+   Dot11ExtIhvOneXIndicateResult</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
 
 

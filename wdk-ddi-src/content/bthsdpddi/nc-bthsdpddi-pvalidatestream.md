@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: cd119590-b910-487f-b611-5ef59204a798
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.sdpvalidatestream, SdpValidateStream callback function [Bluetooth Devices], SdpValidateStream, PVALIDATESTREAM, PVALIDATESTREAM, bthsdpddi/SdpValidateStream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml
+ms.keywords: PVALIDATESTREAM, SdpValidateStream, SdpValidateStream callback function [Bluetooth Devices], bltooth.sdpvalidatestream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml, bthsdpddi/SdpValidateStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

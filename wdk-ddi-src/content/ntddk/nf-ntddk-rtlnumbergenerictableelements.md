@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7dea199f-ef98-4f7b-a3e4-de52fc23c8ef
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_f12988ba-01c3-4a34-8967-aafaf5b605f8.xml, ntddk/RtlNumberGenericTableElements, RtlNumberGenericTableElements routine [Installable File System Drivers], RtlNumberGenericTableElements, ifsk.rtlnumbergenerictableelements
+ms.keywords: ",  , E, G, N, R, RtlNumberGenericTableElements, RtlNumberGenericTableElements routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtlnumbergenerictableelements, l, m, n, ntddk/RtlNumberGenericTableElements, r, rtlref_f12988ba-01c3-4a34-8967-aafaf5b605f8.xml, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

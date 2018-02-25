@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e340eb98-34d4-49e7-92cd-4f57d8b6efb8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WIAS_HRESULT macro [Imaging Devices], IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, WIAS_HRESULT, image.wias_hresult, wiamdef/WIAS_HRESULT
+ms.keywords: ",  , A, E, H, I, IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, L, R, S, T, U, W, WIAS_HRESULT, WIAS_HRESULT macro [Imaging Devices], _, image.wias_hresult, wiamdef/WIAS_HRESULT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -99,15 +99,15 @@ This macro is the recommended way to output HRESULTS on Windows Vista.
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
+<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
+<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
+<a href="..\wiamdef\nf-wiamdef-wias_assert.md">WIAS_ASSERT</a>
 
 
 

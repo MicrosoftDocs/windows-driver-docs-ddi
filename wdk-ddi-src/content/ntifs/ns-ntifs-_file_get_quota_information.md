@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4c4d57bd-28b3-4db3-a172-bc1a27dd10b2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PFILE_GET_QUOTA_INFORMATION, ifsk.file_get_quota_information, PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], FILE_GET_QUOTA_INFORMATION, ntifs/FILE_GET_QUOTA_INFORMATION, _FILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml"
+ms.keywords: ",  , *, *PFILE_GET_QUOTA_INFORMATION, ,, A, E, F, FILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], G, I, L, M, N, O, P, PFILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], Q, R, T, U, _, _FILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, ifsk.file_get_quota_information, ntifs/FILE_GET_QUOTA_INFORMATION, ntifs/PFILE_GET_QUOTA_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,6 +97,10 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
 
 
@@ -110,10 +114,6 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 <a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
 
 

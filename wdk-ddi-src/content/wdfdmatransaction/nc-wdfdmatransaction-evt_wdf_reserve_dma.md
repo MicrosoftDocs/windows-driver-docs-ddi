@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3663EF19-5F16-43D1-BFBC-28280E28D4DE
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtreservedma, EvtReserveDma callback function, EvtReserveDma, EVT_WDF_RESERVE_DMA, EVT_WDF_RESERVE_DMA, wdfdmatransaction/EvtReserveDma, kmdf.evtreservedma
+ms.keywords: EVT_WDF_RESERVE_DMA, EvtReserveDma, EvtReserveDma callback function, kmdf.evtreservedma, wdf.evtreservedma, wdfdmatransaction/EvtReserveDma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -154,11 +154,11 @@ The <b>EVT_WDF_RESERVE_DMA</b> function type is defined in the WdfDmaTransaction
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md">WdfDmaTransactionFreeResources</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md">WdfDmaTransactionFreeResources</a>
 
 
 

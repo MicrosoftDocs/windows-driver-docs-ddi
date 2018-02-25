@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: c0ae41be-1b37-4410-8e7a-611a66c599c1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_usb_hcd_disable_port, IOCTL_USB_HCD_DISABLE_PORT control code [Buses], IOCTL_USB_HCD_DISABLE_PORT, usbioctl/IOCTL_USB_HCD_DISABLE_PORT, usbirp_558a0a61-e35f-4015-9f72-df33e85c8c59.xml
+ms.keywords: IOCTL_USB_HCD_DISABLE_PORT, IOCTL_USB_HCD_DISABLE_PORT control code [Buses], buses.ioctl_usb_hcd_disable_port, usbioctl/IOCTL_USB_HCD_DISABLE_PORT, usbirp_558a0a61-e35f-4015-9f72-df33e85c8c59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

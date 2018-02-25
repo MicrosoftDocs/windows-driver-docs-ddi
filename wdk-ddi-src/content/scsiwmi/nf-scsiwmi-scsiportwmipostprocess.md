@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: da1770bc-2233-47ef-afab-cfcb34edb4b9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml, ScsiPortWmiPostProcess routine [Storage Devices], storage.scsiportwmipostprocess, scsiwmi/ScsiPortWmiPostProcess, ScsiPortWmiPostProcess
+ms.keywords: ",  , P, S, ScsiPortWmiPostProcess, ScsiPortWmiPostProcess routine [Storage Devices], W, c, e, i, m, o, r, s, scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml, scsiwmi/ScsiPortWmiPostProcess, storage.scsiportwmipostprocess, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,7 @@ If a miniport driver sets <i>SrbStatus</i> to SRB_STATUS_DATA_OVERRUN and sets <
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
-
-
-
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 
@@ -123,7 +119,11 @@ If a miniport driver sets <i>SrbStatus</i> to SRB_STATUS_DATA_OVERRUN and sets <
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0C4888C7-B7F9-4B23-8AC9-41CB7863AF22
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugClient5::SetQuitLockString, IDebugClient5 interface [Windows Debugging], SetQuitLockString method, debugger.idebugclient5_setquitlockstring, SetQuitLockString, IDebugClient5::SetQuitLockString, SetQuitLockString method [Windows Debugging], SetQuitLockString method [Windows Debugging], IDebugClient5 interface, IDebugClient5
+ms.keywords: ",  , ,, ., 5, :, C, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], SetQuitLockString method, IDebugClient5::SetQuitLockString, L, Q, S, SetQuitLockString method [Windows Debugging], SetQuitLockString method [Windows Debugging], IDebugClient5 interface, SetQuitLockString,IDebugClient5.SetQuitLockString, b, c, dbgeng/IDebugClient5::SetQuitLockString, debugger.idebugclient5_setquitlockstring, e, g, i, k, l, n, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

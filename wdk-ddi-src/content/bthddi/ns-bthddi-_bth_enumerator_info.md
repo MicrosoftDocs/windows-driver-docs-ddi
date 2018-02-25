@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: e526d664-35cf-4738-9501-08298e90be1e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, bthddi/BTH_ENUMERATOR_INFO, *PBTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, bthddi/PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], PBTH_ENUMERATOR_INFO, _BTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices]
+ms.keywords: ",  , *, *PBTH_ENUMERATOR_INFO, ,, A, B, BTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], E, F, H, I, M, N, O, P, PBTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], R, T, U, _, _BTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, bthddi/BTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -189,11 +189,11 @@ The
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/d5acaec6-7b3b-4dd9-8901-f96b4e49149f">ENUMERATOR_ACTION</a>
-
-
-
 <a href="..\bthddi\ne-bthddi-_enumerator_type.md">ENUMERATOR_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/d5acaec6-7b3b-4dd9-8901-f96b4e49149f">ENUMERATOR_ACTION</a>
 
 
 

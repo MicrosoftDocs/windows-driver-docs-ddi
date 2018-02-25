@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cbcbb49a-8c45-4843-8c21-6c4d8c7bc6c6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_ba116904-80e2-4288-a8d1-d03c0194ef51.xml, ks/KsGateTurnInputOff, stream.ksgateturninputoff, KsGateTurnInputOff, KsGateTurnInputOff function [Streaming Media Devices]
+ms.keywords: ",  , G, I, K, KsGateTurnInputOff, KsGateTurnInputOff function [Streaming Media Devices], O, T, a, avfunc_ba116904-80e2-4288-a8d1-d03c0194ef51.xml, e, f, ks/KsGateTurnInputOff, n, p, r, s, stream.ksgateturninputoff, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,11 @@ Furthermore, if turning an input off would cause <i>Gate</i> to transition from 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
+<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
 
 
 
@@ -102,7 +106,15 @@ Furthermore, if turning an input off would cause <i>Gate</i> to transition from 
 
 
 
+<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
+
+
+
 <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
 
 
 
@@ -110,15 +122,7 @@ Furthermore, if turning an input off would cause <i>Gate</i> to transition from 
 
 
 
-<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
 
 
 
@@ -127,10 +131,6 @@ Furthermore, if turning an input off would cause <i>Gate</i> to transition from 
 
 
 <a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
 
 
 

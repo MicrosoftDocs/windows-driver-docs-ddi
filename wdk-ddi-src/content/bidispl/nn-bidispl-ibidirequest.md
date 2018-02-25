@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e7b16853-7f1d-45e4-af5e-4ae9cbb9b191
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ibidirequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices], described, IBidiRequest, bidispl/IBidiRequest, _win32_IBidiRequest, gdi.ibidirequest
+ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices], described, _win32_IBidiRequest, bidispl/IBidiRequest, gdi.ibidirequest, print.ibidirequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -117,11 +117,11 @@ Sets the bidi schema string.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
 <a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+
+
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 

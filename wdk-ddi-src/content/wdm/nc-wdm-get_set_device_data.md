@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F5BDB3DF-6AC9-424E-BC69-27071F3D3820
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.getbusdata, GetBusData routine [Kernel-Mode Driver Architecture], GetBusData, GET_SET_DEVICE_DATA, GET_SET_DEVICE_DATA, wdm/GetBusData, kernel.busgetdevicedata, drvr_interface_f4fd2eab-5924-4ffa-b39e-fd7e0f74e5df.xml
+ms.keywords: GET_SET_DEVICE_DATA, GetBusData, GetBusData routine [Kernel-Mode Driver Architecture], drvr_interface_f4fd2eab-5924-4ffa-b39e-fd7e0f74e5df.xml, kernel.busgetdevicedata, kernel.getbusdata, wdm/GetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -194,11 +194,11 @@ In order to read PCI Configuration data for the VF at IRQL = DISPATCH_LEVEL, the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
-
-
-
 <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a8ae2a9-21cd-4b0d-b293-60865a4fdfe6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: LPD3DHAL_DP2RESPONSE, LPD3DHAL_DP2RESPONSE structure pointer [Display Devices], D3DHAL_DP2RESPONSE structure [Display Devices], d3dhal/D3DHAL_DP2RESPONSE, *LPD3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE, _D3DHAL_DP2RESPONSE, display.d3dhal_dp2response, d3dhal/LPD3DHAL_DP2RESPONSE, d3dstrct_cd629a64-c8e9-45d2-a0bc-048ff623cc97.xml
+ms.keywords: ",  , *, *LPD3DHAL_DP2RESPONSE, ,, 2, 3, A, D, D3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE structure [Display Devices], E, H, L, LPD3DHAL_DP2RESPONSE, LPD3DHAL_DP2RESPONSE structure pointer [Display Devices], N, O, P, R, S, _, _D3DHAL_DP2RESPONSE, d3dhal/D3DHAL_DP2RESPONSE, d3dhal/LPD3DHAL_DP2RESPONSE, d3dstrct_cd629a64-c8e9-45d2-a0bc-048ff623cc97.xml, display.d3dhal_dp2response"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,7 +104,7 @@ Specifies the total size, in bytes, of the responses associated with this D3DHAL
 
 
 
-D3DDP2OP_RESPONSECONTINUE
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
 
 
 
@@ -112,7 +112,7 @@ D3DDP2OP_RESPONSEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
+D3DDP2OP_RESPONSECONTINUE
 
 
 

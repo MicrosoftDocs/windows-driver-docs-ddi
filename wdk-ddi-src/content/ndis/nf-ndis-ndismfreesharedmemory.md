@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndismfreesharedmemory, miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisMFreeSharedMemory, NdisMFreeSharedMemory
+ms.keywords: ",  , F, M, N, NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], S, a, d, e, h, i, m, miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory, o, r, s, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -167,16 +167,19 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
 
 
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
-   MiniportSharedMemoryAllocateComplete</a>
 
 
 
@@ -185,11 +188,8 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
 
 
 

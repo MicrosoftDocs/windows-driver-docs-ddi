@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 421bd075-e919-4389-af38-e0dd686f7c05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortWritePortUchar routine [Storage Devices], storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml, StorPortWritePortUchar, storage.storportwriteportuchar, storport/StorPortWritePortUchar
+ms.keywords: ",  , P, S, StorPortWritePortUchar, StorPortWritePortUchar routine [Storage Devices], U, W, a, c, e, h, i, o, r, storage.storportwriteportuchar, storport/StorPortWritePortUchar, storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -109,18 +109,18 @@ Contains the value to be written.
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferuchar.md">StorPortWritePortBufferUchar</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferuchar.md">StorPortWritePortBufferUchar</a>. 
 
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>
+
+
+
 <a href="..\storport\nf-storport-storportwriteportbufferuchar.md">StorPortWritePortBufferUchar</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>
 
 
 

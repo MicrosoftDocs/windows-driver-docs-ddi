@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60FE4E6C-38D4-438F-983B-7336926F6FE2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], NdisMRegisterWdiMiniportDriver
+ms.keywords: ",  , D, M, N, NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], R, W, d, dot11wdi/NdisMRegisterWdiMiniportDriver, e, g, i, n, netvista.ndismregisterwdiminiportdriver, o, p, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ NDIS_STATUS NdisMRegisterWdiMiniportDriver(
 ### -param DriverObject [in]
 
 A pointer to an opaque driver object that the miniport driver received in its 
-     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
      Miniport Drivers</a>).
@@ -85,7 +85,7 @@ A pointer to an opaque driver object that the miniport driver received in its
 ### -param RegistryPath [in]
 
 A pointer to an opaque registry path that the miniport driver received in its 
-     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
 

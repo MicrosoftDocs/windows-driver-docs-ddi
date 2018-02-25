@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 64c1b899-5737-474c-92ee-f18f7f2f06f5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_7a3503c8-84ed-4ec7-9b69-5b93daaa6596.xml, RtlGetOwnerSecurityDescriptor routine [Installable File System Drivers], RtlGetOwnerSecurityDescriptor, ifsk.rtlgetownersecuritydescriptor, ntifs/RtlGetOwnerSecurityDescriptor
+ms.keywords: ",  , D, G, O, R, RtlGetOwnerSecurityDescriptor, RtlGetOwnerSecurityDescriptor routine [Installable File System Drivers], S, c, e, i, ifsk.rtlgetownersecuritydescriptor, l, n, ntifs/RtlGetOwnerSecurityDescriptor, o, p, r, rtlref_7a3503c8-84ed-4ec7-9b69-5b93daaa6596.xml, s, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,23 +124,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
 
 
@@ -148,7 +136,19 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
 
 
 

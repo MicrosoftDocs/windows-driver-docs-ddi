@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 71f9d0c2-ffc9-4fe1-ae95-f38a1d1e82df
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, PFILTER_INITIALIZATION_DATA, _FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA structure [Storage Devices], PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, DUMP_FILTER_MAJOR_VERSION, ntdddump/FILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION_1, ntdddump/PFILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL, FILTER_INITIALIZATION_DATA, storage.filter_initialization_data, *PFILTER_INITIALIZATION_DATA
+ms.keywords: ",  , *, *PFILTER_INITIALIZATION_DATA, ,, A, D, DUMP_FILTER_CRITICAL, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, DUMP_FILTER_MAJOR_VERSION, DUMP_FILTER_MAJOR_VERSION_1, E, F, FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA structure [Storage Devices], I, L, N, O, P, PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], R, T, Z, _, _FILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, ntdddump/PFILTER_INITIALIZATION_DATA, storage.filter_initialization_data, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -184,11 +184,15 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_start.md">Dump_Start</a>
+<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
 
 
 
 <a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+
+
+
+<a href="..\ntdddump\nc-ntdddump-dump_start.md">Dump_Start</a>
 
 
 
@@ -197,10 +201,6 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 
 <a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
-
-
-
-<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
 
 
 

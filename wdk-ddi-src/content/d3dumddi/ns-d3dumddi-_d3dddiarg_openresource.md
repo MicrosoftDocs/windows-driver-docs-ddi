@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb1b7317-2e54-4e61-a3e5-b5ac0c09064e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dumddi/D3DDDIARG_OPENRESOURCE, _D3DDDIARG_OPENRESOURCE, display.d3dddiarg_openresource, D3DDDIARG_OPENRESOURCE, UMDisplayDriver_param_Structs_d0d23672-9994-4fad-b104-4eef57b3b03e.xml, D3DDDIARG_OPENRESOURCE structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_OPENRESOURCE, D3DDDIARG_OPENRESOURCE structure [Display Devices], E, G, I, N, O, P, R, S, U, UMDisplayDriver_param_Structs_d0d23672-9994-4fad-b104-4eef57b3b03e.xml, _, _D3DDDIARG_OPENRESOURCE, d3dumddi/D3DDDIARG_OPENRESOURCE, display.d3dddiarg_openresource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -147,19 +147,19 @@ The <b>Primary</b> and <b>SharedResource</b> bit-field flags are set in the <b>F
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
-
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
 
 
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_openresourceflags.md">D3DDDI_OPENRESOURCEFLAGS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: acc4e9d9-235f-4605-ae51-5056108843dc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_VIDPNSOURCEOWNER_FLAGS structure [Display Devices], display.d3dkmt_vidpnsourceowner_flags, D3DKMT_VIDPNSOURCEOWNER_FLAGS, _D3DKMT_VIDPNSOURCEOWNER_FLAGS, d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_VIDPNSOURCEOWNER_FLAGS, D3DKMT_VIDPNSOURCEOWNER_FLAGS structure [Display Devices], E, F, G, I, K, L, M, N, O, P, R, S, T, U, V, W, _, _D3DKMT_VIDPNSOURCEOWNER_FLAGS, d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS, display.d3dkmt_vidpnsourceowner_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: D3DKMT_VIDPNSOURCEOWNER_FLAGS
 ## -description
 
 
-Specifies output duplication options for use with the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetvidpnsourceowner1.md">D3DKMTSetVidPnSourceOwner1</a> function.
+Specifies output duplication options for use with the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_setvidpnsourceowner1.md">D3DKMTSetVidPnSourceOwner1</a> function.
 
 
 ## -syntax
@@ -100,7 +100,7 @@ Specifies the number of output duplication paths on the VidPN.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetvidpnsourceowner1.md">D3DKMTSetVidPnSourceOwner1</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_setvidpnsourceowner1.md">D3DKMTSetVidPnSourceOwner1</a>
 
 
 

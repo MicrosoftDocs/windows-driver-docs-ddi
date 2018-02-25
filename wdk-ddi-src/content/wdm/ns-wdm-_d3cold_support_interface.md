@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B681719-FBCC-417A-9FEB-ACB386FA3BE2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: D3COLD_SUPPORT_INTERFACE, wdm/D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], *PD3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, PD3COLD_SUPPORT_INTERFACE, _D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PD3COLD_SUPPORT_INTERFACE, ,, 3, A, C, D, D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], E, F, I, L, N, O, P, PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], R, S, T, U, _, _D3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, wdm/D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,12 +94,12 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field SetD3ColdSupport
@@ -144,23 +144,11 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 
 
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
-
-
-
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
-
-
-
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
 
 
 
@@ -169,6 +157,18 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 
 <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
 
 
 

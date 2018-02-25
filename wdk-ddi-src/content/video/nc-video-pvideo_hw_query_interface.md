@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f16a7fa3-3471-4ccb-b1b4-982d33f930d3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidqueryinterface, HwVidQueryInterface callback function [Display Devices], HwVidQueryInterface, PVIDEO_HW_QUERY_INTERFACE, PVIDEO_HW_QUERY_INTERFACE, video/HwVidQueryInterface, VideoMiniport_Functions_69dec180-d966-4082-b050-0ed2e0e03121.xml
+ms.keywords: HwVidQueryInterface, HwVidQueryInterface callback function [Display Devices], PVIDEO_HW_QUERY_INTERFACE, VideoMiniport_Functions_69dec180-d966-4082-b050-0ed2e0e03121.xml, display.hwvidqueryinterface, video/HwVidQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -136,11 +136,11 @@ A child device is enumerated by <a href="..\video\nc-video-pvideo_hw_get_child_d
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-
-
-
 <a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
+
+
+
+<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
 
 
 
@@ -148,7 +148,7 @@ A child device is enumerated by <a href="..\video\nc-video-pvideo_hw_get_child_d
 
 
 
-<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 

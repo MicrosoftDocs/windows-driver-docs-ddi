@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0327bdc0-e4a4-4c2f-a9b9-5854e3330068
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsiwmi/ScsiWmiDataBlockControl, SCSIWMI_ENABLE_DISABLE_CONTROL, SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, ScsiWmiDataBlockControl, storage.scsiwmi_enable_disable_control, scsiwmi/ScsiWmiEventControl, ScsiWmiEventControl, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml
+ms.keywords: ",  , ,, A, B, C, D, E, I, L, M, N, O, R, S, SCSIWMI_ENABLE_DISABLE_CONTROL, SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], ScsiWmiDataBlockControl, ScsiWmiEventControl, T, W, _, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, scsiwmi/ScsiWmiDataBlockControl, scsiwmi/ScsiWmiEventControl, storage.scsiwmi_enable_disable_control, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

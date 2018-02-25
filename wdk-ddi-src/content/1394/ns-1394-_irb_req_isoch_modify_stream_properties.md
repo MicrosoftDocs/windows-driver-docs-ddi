@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 06CA5F26-8042-4EAC-A381-A0C6E7023BFD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394/IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IEEE.irb_req_isoch_modify_stream_properties, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure [Buses]
+ms.keywords: ",  , ,, 1394/IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, A, B, C, D, E, F, H, I, IEEE.irb_req_isoch_modify_stream_properties, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure [Buses], M, O, P, Q, R, S, T, Y, _, _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

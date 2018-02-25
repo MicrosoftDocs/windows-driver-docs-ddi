@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13da18b3-682f-485a-9d74-0bbff4254862
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortWriteRegisterBufferUshort, storage.storportwriteregisterbufferushort, StorPortWriteRegisterBufferUshort routine [Storage Devices], StorPortWriteRegisterBufferUshort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml
+ms.keywords: ",  , B, P, R, S, StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort routine [Storage Devices], U, W, e, f, g, h, i, o, r, s, storage.storportwriteregisterbufferushort, storport/StorPortWriteRegisterBufferUshort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -118,7 +118,7 @@ Specifies the number of USHORT values to be transferred to the HBA.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteregisterbufferushort.md">ScsiPortWriteRegisterBufferUshort</a>
+<a href="..\storport\nf-storport-scsiportwriteregisterbufferushort.md">ScsiPortWriteRegisterBufferUshort</a>
 
 
 

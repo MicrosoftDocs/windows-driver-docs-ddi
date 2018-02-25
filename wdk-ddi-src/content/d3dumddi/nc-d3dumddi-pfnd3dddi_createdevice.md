@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce35bdac-af90-471f-af93-0e665be6c7f6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createdevice, CreateDevice callback function [Display Devices], CreateDevice, PFND3DDDI_CREATEDEVICE, PFND3DDDI_CREATEDEVICE, d3dumddi/CreateDevice, UserModeDisplayDriver_Functions_4603a980-54aa-4d90-859a-d84c2afe5f03.xml
+ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3DDDI_CREATEDEVICE, UserModeDisplayDriver_Functions_4603a980-54aa-4d90-859a-d84c2afe5f03.xml, d3dumddi/CreateDevice, display.createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -149,11 +149,11 @@ When the Direct3D runtime calls <b>CreateDevice</b> to create a device, the runt
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a>
 
 
 

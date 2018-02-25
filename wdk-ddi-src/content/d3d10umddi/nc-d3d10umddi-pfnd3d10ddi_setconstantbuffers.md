@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 159ee0ac-7ddf-4ffd-a07f-3d58130b90e8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.cssetconstantbuffers, CsSetConstantBuffers callback function [Display Devices], CsSetConstantBuffers, PFND3D10DDI_SETCONSTANTBUFFERS, PFND3D10DDI_SETCONSTANTBUFFERS, d3d10umddi/CsSetConstantBuffers, UserModeDisplayDriverDx11_Functions_ae0b7e35-f8c5-428d-97d0-e22d5b609c72.xml
+ms.keywords: CsSetConstantBuffers, CsSetConstantBuffers callback function [Display Devices], PFND3D10DDI_SETCONSTANTBUFFERS, UserModeDisplayDriverDx11_Functions_ae0b7e35-f8c5-428d-97d0-e22d5b609c72.xml, d3d10umddi/CsSetConstantBuffers, display.cssetconstantbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 86b0510b-54ed-463e-b5d4-a34b0a98c00e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILPOSITIONINFOGSM, RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPOSITIONINFOGSM, *LPRILPOSITIONINFOGSM, netvista.rilpositioninfogsm
+ms.keywords: ",  , *, *LPRILPOSITIONINFOGSM, ,, F, G, I, L, M, N, O, P, R, RILPOSITIONINFOGSM, RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilpositioninfogsm, rilapitypes/RILPOSITIONINFOGSM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

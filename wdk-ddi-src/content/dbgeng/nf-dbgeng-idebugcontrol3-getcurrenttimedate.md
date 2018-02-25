@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2b3c5a9d-32a9-4c2a-9f99-694b652c5653
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetCurrentTimeDate method [Windows Debugging], IDebugControl_166ad959-02b4-4b42-8acd-1456d224f9e7.xml, dbgeng/IDebugControl3::GetCurrentTimeDate, debugger.getcurrenttimedate, GetCurrentTimeDate method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetCurrentTimeDate method, IDebugControl2, IDebugControl3 interface [Windows Debugging], GetCurrentTimeDate method, GetCurrentTimeDate method [Windows Debugging], IDebugControl2 interface, GetCurrentTimeDate, IDebugControl2::GetCurrentTimeDate, dbgeng/IDebugControl2::GetCurrentTimeDate, IDebugControl3::GetCurrentTimeDate
+ms.keywords: ",  , ,, ., 3, :, C, D, G, GetCurrentTimeDate method [Windows Debugging], GetCurrentTimeDate method [Windows Debugging], IDebugControl2 interface, GetCurrentTimeDate method [Windows Debugging], IDebugControl3 interface, GetCurrentTimeDate,IDebugControl2.GetCurrentTimeDate, GetCurrentTimeDate,IDebugControl3.GetCurrentTimeDate, I, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetCurrentTimeDate method, IDebugControl2::GetCurrentTimeDate, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetCurrentTimeDate method, IDebugControl3::GetCurrentTimeDate, IDebugControl_166ad959-02b4-4b42-8acd-1456d224f9e7.xml, T, a, b, dbgeng/IDebugControl2::GetCurrentTimeDate, dbgeng/IDebugControl3::GetCurrentTimeDate, debugger.getcurrenttimedate, e, g, i, l, m, n, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

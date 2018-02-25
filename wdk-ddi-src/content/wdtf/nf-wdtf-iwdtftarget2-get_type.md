@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 76b13505-7404-475c-98d8-fe3b3ed25720
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Microsoft::WDTF::IWDTFTarget2::Type, IWDTFTarget2::get_Type, Type property [Windows Device Testing Framework], IWDTFTarget2 interface, Type property [Windows Device Testing Framework], wdtf/IWDTFTarget2::get_Type, IWDTFTarget2, get_Type, wdtf/IWDTFTarget2::Type, IWDTFTarget2.Type, Microsoft.WDTF.IWDTFTarget2.Type, IWDTFTarget2 interface [Windows Device Testing Framework], Type property, dtf.iwdtftarget2_type
+ms.keywords: ",  , ,, ., 2, :, D, F, I, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], Type property, IWDTFTarget2.Type, IWDTFTarget2::get_Type, Microsoft.WDTF.IWDTFTarget2.Type, Microsoft::WDTF::IWDTFTarget2::Type, T, Type property [Windows Device Testing Framework], Type property [Windows Device Testing Framework], IWDTFTarget2 interface, W, _, a, dtf.iwdtftarget2_type, e, g, get_Type,IWDTFTarget2.get_Type, p, r, t, wdtf/IWDTFTarget2::Type, wdtf/IWDTFTarget2::get_Type, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,15 +92,15 @@ The value can be one of the following:
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a>
 
 
 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 

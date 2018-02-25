@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 93dfe9fe-e1af-45db-ab28-fd166f511fcc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsFilterAcquireControl, avfunc_63930ae0-491f-4916-a24f-7de5c8fa1ad3.xml, KsFilterAcquireControl function [Streaming Media Devices], stream.ksfilteracquirecontrol, KsFilterAcquireControl
+ms.keywords: ",  , A, C, F, K, KsFilterAcquireControl, KsFilterAcquireControl function [Streaming Media Devices], avfunc_63930ae0-491f-4916-a24f-7de5c8fa1ad3.xml, c, e, i, ks/KsFilterAcquireControl, l, n, o, q, r, s, stream.ksfilteracquirecontrol, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

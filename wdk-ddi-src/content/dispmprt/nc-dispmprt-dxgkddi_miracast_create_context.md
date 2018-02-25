@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BFF952CE-AA0F-4622-BBFC-946A45859FB7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddimiracastcreatecontext, DxgkDdiMiracastCreateContext callback function [Display Devices], DxgkDdiMiracastCreateContext, DXGKDDI_MIRACAST_CREATE_CONTEXT, DXGKDDI_MIRACAST_CREATE_CONTEXT, dispmprt/DxgkDdiMiracastCreateContext
+ms.keywords: DXGKDDI_MIRACAST_CREATE_CONTEXT, DxgkDdiMiracastCreateContext, DxgkDdiMiracastCreateContext callback function [Display Devices], display.dxgkddimiracastcreatecontext, dispmprt/DxgkDdiMiracastCreateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,7 +135,7 @@ The operating system groups the <i>DxgkDdiMiracastCreateContext</i>, <a href="..
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
 
 
 
@@ -143,7 +143,7 @@ The operating system groups the <i>DxgkDdiMiracastCreateContext</i>, <a href="..
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

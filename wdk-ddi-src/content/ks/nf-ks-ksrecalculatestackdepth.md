@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0b8f23a5-af8a-4b99-8f17-092076523914
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsRecalculateStackDepth, KsRecalculateStackDepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, stream.ksrecalculatestackdepth, KsRecalculateStackDepth function [Streaming Media Devices]
+ms.keywords: ",  , D, K, KsRecalculateStackDepth, KsRecalculateStackDepth function [Streaming Media Devices], R, S, a, c, e, h, k, ks/KsRecalculateStackDepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, l, p, s, stream.ksrecalculatestackdepth, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,15 +105,15 @@ This function allows IRPs to be forwarded through an object by ensuring that any
 
 
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
 
 
 
 <a href="..\ks\nf-ks-kssettargetdeviceobject.md">KsSetTargetDeviceObject</a>
+
+
+
+<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
 

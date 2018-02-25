@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: f79071e3-7146-49c4-a730-ee13fde4f0d4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWHEA_PCIXBUS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], whea.whea_pcixbus_error_section, ntddk/PWHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PCIXBUS_ERROR_SECTION, *PWHEA_PCIXBUS_ERROR_SECTION, whearef_6979fd7e-8c18-443b-b9be-1e78316dcd7d.xml, *PWHEA_PCIXBUS_ERROR, ntddk/WHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR, PWHEA_PCIXBUS_ERROR_SECTION
+ms.keywords: ",  , *, *PWHEA_PCIXBUS_ERROR, *PWHEA_PCIXBUS_ERROR_SECTION, ,, A, B, C, E, H, I, N, O, P, PWHEA_PCIXBUS_ERROR_SECTION, PWHEA_PCIXBUS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], R, S, T, U, W, WHEA_PCIXBUS_ERROR, WHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR_SECTION structure [WHEA Drivers and Applications], X, _, _WHEA_PCIXBUS_ERROR_SECTION, ntddk/PWHEA_PCIXBUS_ERROR_SECTION, ntddk/WHEA_PCIXBUS_ERROR_SECTION, whea.whea_pcixbus_error_section, whearef_6979fd7e-8c18-443b-b9be-1e78316dcd7d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -290,19 +290,19 @@ The WHEA_PCIXBUS_ERROR_SECTION structure describes the error data that is contai
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
 
 
 
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section_validbits.md">WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 

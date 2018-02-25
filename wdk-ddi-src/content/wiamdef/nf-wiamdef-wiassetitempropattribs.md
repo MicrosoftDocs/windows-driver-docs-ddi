@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 354d09c3-8db4-4af9-b077-8e3bcda7a6f2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, image.wiassetitempropattribs, wiasSetItemPropAttribs function [Imaging Devices], wiamdef/wiasSetItemPropAttribs, wiasSetItemPropAttribs
+ms.keywords: ",  , A, I, P, S, a, b, e, i, image.wiassetitempropattribs, m, o, p, r, s, t, w, wiamdef/wiasSetItemPropAttribs, wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, wiasSetItemPropAttribs, wiasSetItemPropAttribs function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,11 +165,11 @@ Reboot the system and repeat the steps necessary to produce this error. There wi
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetpropertyattributes.md">wiasSetPropertyAttributes</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiassetpropertyattributes.md">wiasSetPropertyAttributes</a>
 
 
 

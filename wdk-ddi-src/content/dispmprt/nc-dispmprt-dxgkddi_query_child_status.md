@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 478e0c52-4324-4062-8e1e-381808b0f481
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiquerychildstatus, DxgkDdiQueryChildStatus callback function [Display Devices], DxgkDdiQueryChildStatus, DXGKDDI_QUERY_CHILD_STATUS, DXGKDDI_QUERY_CHILD_STATUS, dispmprt/DxgkDdiQueryChildStatus, DmFunctions_3da69961-14d3-4bf8-9427-9c47d9bbfb89.xml
+ms.keywords: DXGKDDI_QUERY_CHILD_STATUS, DmFunctions_3da69961-14d3-4bf8-9427-9c47d9bbfb89.xml, DxgkDdiQueryChildStatus, DxgkDdiQueryChildStatus callback function [Display Devices], display.dxgkddiquerychildstatus, dispmprt/DxgkDdiQueryChildStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -125,11 +125,11 @@ If ChildStatus-&gt;Type is equal to <b>StatusRotation</b>, return (in ChildStatu
 
 
 
-<a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
+<a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
 
 
 

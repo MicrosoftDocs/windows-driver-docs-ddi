@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: FD88E645-7CBB-4998-BEBA-5BBE2FF167FC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ufxclient/UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], buses.ufxdevicenotifyreset, UfxDeviceNotifyReset
+ms.keywords: ",  , D, N, R, U, UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], buses.ufxdevicenotifyreset, c, e, f, i, o, s, t, ufxclient/UfxDeviceNotifyReset, v, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

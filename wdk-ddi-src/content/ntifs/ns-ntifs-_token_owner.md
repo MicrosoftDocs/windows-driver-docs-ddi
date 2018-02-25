@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25f4a9c2-7146-422c-bd55-2520e7d8619b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TOKEN_OWNER, ntifs/PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Installable File System Drivers], PTOKEN_OWNER, *PTOKEN_OWNER, securitystructures_1be454bb-1b55-4fe5-bdbb-85bfcf9dc9c8.xml, _TOKEN_OWNER, ntifs/TOKEN_OWNER, ifsk.token_owner, TOKEN_OWNER structure [Installable File System Drivers]
+ms.keywords: ",  , *, *PTOKEN_OWNER, ,, E, K, N, O, P, PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Installable File System Drivers], R, T, TOKEN_OWNER, TOKEN_OWNER structure [Installable File System Drivers], W, _, _TOKEN_OWNER, ifsk.token_owner, ntifs/PTOKEN_OWNER, ntifs/TOKEN_OWNER, securitystructures_1be454bb-1b55-4fe5-bdbb-85bfcf9dc9c8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,11 +87,7 @@ If it is a group SID, the <b>Owner</b> must match a group SID in the token, wher
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 
@@ -99,11 +95,15 @@ If it is a group SID, the <b>Owner</b> must match a group SID in the token, wher
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 

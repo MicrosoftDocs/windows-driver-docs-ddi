@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1d61e35a-64c6-42e0-b20d-969ded8b9750
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfregistryqueryvalue, DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml, wdf.wdfregistryqueryvalue, WdfRegistryQueryValue, wdfregistry/WdfRegistryQueryValue, WdfRegistryQueryValue method
+ms.keywords: ",  , DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml, Q, R, V, W, WdfRegistryQueryValue, WdfRegistryQueryValue method, a, d, e, f, g, i, kmdf.wdfregistryqueryvalue, l, r, s, t, u, wdf.wdfregistryqueryvalue, wdfregistry/WdfRegistryQueryValue, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -248,6 +248,26 @@ status = WdfRegistryQueryValue(
 
 ## -see-also
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
+
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
 
 
@@ -257,26 +277,6 @@ status = WdfRegistryQueryValue(
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
 
 
 

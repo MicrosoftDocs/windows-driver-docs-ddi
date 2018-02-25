@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 058696e0-be4a-45f3-b3e8-55abccdce3ce
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.validatedevice, ValidateDevice callback function [Display Devices], ValidateDevice, PFND3DDDI_VALIDATEDEVICE, PFND3DDDI_VALIDATEDEVICE, d3dumddi/ValidateDevice, UserModeDisplayDriver_Functions_37e253ca-1d0f-4896-aaad-4c36053877c5.xml
+ms.keywords: PFND3DDDI_VALIDATEDEVICE, UserModeDisplayDriver_Functions_37e253ca-1d0f-4896-aaad-4c36053877c5.xml, ValidateDevice, ValidateDevice callback function [Display Devices], d3dumddi/ValidateDevice, display.validatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,11 @@ __checkReturn HRESULT APIENTRY ValidateDevice(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_validatetexturestagestate.md">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

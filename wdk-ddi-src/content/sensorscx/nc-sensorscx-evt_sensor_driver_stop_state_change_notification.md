@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 53B064AF-D06B-46A0-9D77-2DA72F0B47D6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.evt_sensor_driver_stop_state_change_notification, EvtSensorDriverStopStateChangeNotification callback function [Sensor Devices], EvtSensorDriverStopStateChangeNotification, EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, sensorscx/EvtSensorDriverStopStateChangeNotification, PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function pointer [Sensor Devices], PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
+ms.keywords: EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, EvtSensorDriverStopStateChangeNotification, EvtSensorDriverStopStateChangeNotification callback function [Sensor Devices], PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function pointer [Sensor Devices], sensors.evt_sensor_driver_stop_state_change_notification, sensorscx/EvtSensorDriverStopStateChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

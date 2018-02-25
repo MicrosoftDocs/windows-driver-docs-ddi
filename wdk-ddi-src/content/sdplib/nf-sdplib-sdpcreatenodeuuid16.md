@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d36b65e9-4e9e-40be-a89c-f04030cea459
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: sdplib/SdpCreateNodeUUID16, bltooth.sdpcreatenodeuuid16, SdpCreateNodeUUID16 function [Bluetooth Devices], bth_funcs_adf751aa-5dca-4356-8c15-84a4996acef9.xml, SdpCreateNodeUUID16
+ms.keywords: ",  , 1, 6, C, D, I, N, S, SdpCreateNodeUUID16, SdpCreateNodeUUID16 function [Bluetooth Devices], U, a, bltooth.sdpcreatenodeuuid16, bth_funcs_adf751aa-5dca-4356-8c15-84a4996acef9.xml, d, e, o, p, r, sdplib/SdpCreateNodeUUID16, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,11 +129,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
-
-
-
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
 
 

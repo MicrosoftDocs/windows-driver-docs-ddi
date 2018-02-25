@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 464AE3EA-D941-430F-8362-B66F4D00AE50
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/PSTOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], STOR_ADDRESS_TYPE_UNKNOWN, *PSTOR_ADDRESS, _STOR_ADDRESS, storage.stor_address, PSTOR_ADDRESS, STOR_ADDRESS_TYPE_BTL8, PSTOR_ADDRESS structure pointer [Storage Devices], STOR_ADDRESS, storport/STOR_ADDRESS
+ms.keywords: ",  , *, *PSTOR_ADDRESS, ,, A, D, E, O, P, PSTOR_ADDRESS, PSTOR_ADDRESS structure pointer [Storage Devices], R, S, STOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], STOR_ADDRESS_TYPE_BTL8, STOR_ADDRESS_TYPE_UNKNOWN, T, _, _STOR_ADDRESS, storage.stor_address, storport/PSTOR_ADDRESS, storport/STOR_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,7 +125,7 @@ The address data specific to an address type.
 
 
 
-<a href="..\minitape\ns-minitape-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+<a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 6BEB44C2-BB35-420F-B4A0-925FFAD7473C
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: RECORDER_LOG_CREATE_PARAMS, PRECORDER_LOG_CREATE_PARAMS structure pointer [Driver Development Tools], wpprecorder/RECORDER_LOG_CREATE_PARAMS, RECORDER_LOG_CREATE_PARAMS structure [Driver Development Tools], wpprecorder/PRECORDER_LOG_CREATE_PARAMS, PRECORDER_LOG_CREATE_PARAMS, _RECORDER_LOG_CREATE_PARAMS, devtest.recorder_log_create_params, *PRECORDER_LOG_CREATE_PARAMS
+ms.keywords: ",  , *, *PRECORDER_LOG_CREATE_PARAMS, ,, A, C, D, E, G, L, M, O, P, PRECORDER_LOG_CREATE_PARAMS, PRECORDER_LOG_CREATE_PARAMS structure pointer [Driver Development Tools], R, RECORDER_LOG_CREATE_PARAMS, RECORDER_LOG_CREATE_PARAMS structure [Driver Development Tools], S, T, _, _RECORDER_LOG_CREATE_PARAMS, devtest.recorder_log_create_params, wpprecorder/PRECORDER_LOG_CREATE_PARAMS, wpprecorder/RECORDER_LOG_CREATE_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

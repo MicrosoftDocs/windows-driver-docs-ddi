@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bcd33f64-7ad0-4e26-af73-e4f2b1b6e5fb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PFND3DKMT_OPENNTHANDLEFROMNAME, D3DKMTOpenNtHandleFromName function [Display Devices], d3dkmthk/D3DKMTOpenNtHandleFromName, display.d3dkmtopennthandlefromname, D3DKMTOpenNtHandleFromName
+ms.keywords: ",  , 3, D, D3DKMTOpenNtHandleFromName, D3DKMTOpenNtHandleFromName function [Display Devices], F, H, K, M, N, O, PFND3DKMT_OPENNTHANDLEFROMNAME, T, a, d, d3dkmthk/D3DKMTOpenNtHandleFromName, display.d3dkmtopennthandlefromname, e, l, m, n, o, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

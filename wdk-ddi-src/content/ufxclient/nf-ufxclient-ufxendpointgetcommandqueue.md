@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: BF84F0E4-3B0D-45B8-AC06-F6F761A37234
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UfxEndpointGetCommandQueue method [Buses], buses.ufxendpointgetcommandqueue, UfxEndpointGetCommandQueue, ufxclient/UfxEndpointGetCommandQueue
+ms.keywords: ",  , C, E, G, Q, U, UfxEndpointGetCommandQueue, UfxEndpointGetCommandQueue method [Buses], a, buses.ufxendpointgetcommandqueue, d, e, f, i, m, n, o, p, t, u, ufxclient/UfxEndpointGetCommandQueue, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

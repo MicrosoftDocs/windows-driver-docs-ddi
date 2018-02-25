@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 748951e3-9642-4c98-a3b0-5f6b18519bd4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltoplockbreaktononeex, fltkernel/FltOplockBreakToNoneEx, FltApiRef_e_to_o_7111d712-59f1-4c71-b02c-9bb415aa118f.xml, FltOplockBreakToNoneEx routine [Installable File System Drivers], FltOplockBreakToNoneEx
+ms.keywords: ",  , B, E, F, FltApiRef_e_to_o_7111d712-59f1-4c71-b02c-9bb415aa118f.xml, FltOplockBreakToNoneEx, FltOplockBreakToNoneEx routine [Installable File System Drivers], N, O, T, a, c, e, fltkernel/FltOplockBreakToNoneEx, ifsk.fltoplockbreaktononeex, k, l, n, o, p, r, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -235,19 +235,19 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex~r5.md">FsRtlOplockBreakToNoneEx</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex~r5.md">FsRtlOplockBreakToNoneEx</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 

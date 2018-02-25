@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 946e0206-7609-4dc7-91c2-a6aadad91751
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, IUsbTargetPipeContinuousReaderCallbackReadComplete, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion method, OnReaderCompletion, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion method
+ms.keywords: ",  , ,, ., :, C, I, IUsbTargetPipeContinuousReaderCallbackReadComplete, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, O, OnReaderCompletion method, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion,IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion, P, R, T, U, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, a, b, c, d, e, g, i, k, l, m, n, o, p, r, s, t, u, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -143,11 +143,11 @@ For more information about the <b>OnReaderCompletion</b> callback function and U
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md">IUsbTargetPipeContinuousReaderCallbackReadComplete</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md">IUsbTargetPipeContinuousReaderCallbackReadComplete</a>
 
 
 

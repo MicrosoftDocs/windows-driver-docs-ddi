@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: df62bc19-81c7-4d80-88ed-5e8a8438d269
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETDMPROFILECONFIGINFOPARAMS, netvista.rilgetdmprofileconfiginfoparams
+ms.keywords: ",  , *, *LPRILGETDMPROFILECONFIGINFOPARAMS, ,, A, C, D, E, F, G, I, L, M, N, O, P, R, RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilgetdmprofileconfiginfoparams, ntddrilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

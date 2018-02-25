@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 47793815-F7AC-4E0D-809C-DBB7497BDA30
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugplmclient2_launchplmbgtaskfordebugwide, dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, IDebugPlmClient2, LaunchPlmBgTaskForDebugWide method [Windows Debugging], LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide
+ms.keywords: ",  , ,, ., 2, :, B, C, D, F, I, IDebugPlmClient2, IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, L, LaunchPlmBgTaskForDebugWide method [Windows Debugging], LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, LaunchPlmBgTaskForDebugWide,IDebugPlmClient2.LaunchPlmBgTaskForDebugWide, P, T, W, a, b, c, d, dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, debugger.idebugplmclient2_launchplmbgtaskfordebugwide, e, g, h, i, k, l, m, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

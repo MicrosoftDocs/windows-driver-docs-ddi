@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3173e69e-a6e5-4459-a57e-94cf7b10ef32
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.debug_typed_data, *PDEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], DEBUG_TYPED_DATA, wdbgexts/DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA structure [Windows Debugging], Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, wdbgexts/PDEBUG_TYPED_DATA, _DEBUG_TYPED_DATA
+ms.keywords: ",  , *, *PDEBUG_TYPED_DATA, ,, A, B, D, DEBUG_TYPED_DATA, DEBUG_TYPED_DATA structure [Windows Debugging], E, G, P, PDEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, T, U, Y, _, _DEBUG_TYPED_DATA, debugger.debug_typed_data, wdbgexts/DEBUG_TYPED_DATA, wdbgexts/PDEBUG_TYPED_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -209,11 +209,11 @@ There is one exception to the preceding rule: the <b>EXT_TDOP_SET_FROM_TYPE_ID_A
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
 
 
 

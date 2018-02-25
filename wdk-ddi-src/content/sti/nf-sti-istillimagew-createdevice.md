@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 24491434-1ad2-48fa-85e6-516efbe0550d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStillImage interface [Imaging Devices], CreateDevice method, image.istillimage_createdevice, sti/IStillImage::CreateDevice, CreateDevice method [Imaging Devices], IStillImage::CreateDevice, IStillImageW, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml, IStillImageW::CreateDevice, CreateDevice method [Imaging Devices], IStillImage interface, CreateDevice
+ms.keywords: ",  , ,, ., :, C, CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices], IStillImage interface, CreateDevice,IStillImageW.CreateDevice, D, I, IStillImage interface [Imaging Devices], CreateDevice method, IStillImage::CreateDevice, IStillImageW, IStillImageW::CreateDevice, S, W, a, c, e, g, i, image.istillimage_createdevice, l, m, r, sti/IStillImage::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24d786df-2cdd-465c-b468-212e109d5ae1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_save_hardware_state, IOCTL_VIDEO_SAVE_HARDWARE_STATE control code [Display Devices], IOCTL_VIDEO_SAVE_HARDWARE_STATE, ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE, Video_IOCTLs_2595d8e2-5b1e-47dd-b3ba-627425f84215.xml
+ms.keywords: IOCTL_VIDEO_SAVE_HARDWARE_STATE, IOCTL_VIDEO_SAVE_HARDWARE_STATE control code [Display Devices], Video_IOCTLs_2595d8e2-5b1e-47dd-b3ba-627425f84215.xml, display.ioctl_video_save_hardware_state, ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

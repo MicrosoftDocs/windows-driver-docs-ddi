@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: de3fdbd4-9647-4369-9c23-4779aa768b1b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WhyConstrained, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml, IPrintCoreHelper::WhyConstrained, IPrintCoreHelper, prcomoem/IPrintCoreHelper::WhyConstrained, print.iprintcorehelper_whyconstrained, IPrintCoreHelper interface [Print Devices], WhyConstrained method, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices], IPrintCoreHelper interface
+ms.keywords: ",  , ,, ., :, C, H, I, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], WhyConstrained method, IPrintCoreHelper::WhyConstrained, P, W, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices], IPrintCoreHelper interface, WhyConstrained,IPrintCoreHelper.WhyConstrained, a, d, e, h, i, l, n, o, p, prcomoem/IPrintCoreHelper::WhyConstrained, print.iprintcorehelper_whyconstrained, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -166,11 +166,11 @@ Note that the results from this method might not contain all of the options that
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552952">IPrintCoreHelper::EnumConstrainedOptions</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552952">IPrintCoreHelper::EnumConstrainedOptions</a>
 
 
 

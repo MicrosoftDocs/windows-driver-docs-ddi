@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68fbaa04-ca7a-46b4-a7ca-c3d44443c2af
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfrequestprobeandlockuserbufferforread, kmdf.wdfrequestprobeandlockuserbufferforread, wdfrequest/WdfRequestProbeAndLockUserBufferForRead, WdfRequestProbeAndLockUserBufferForRead, DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, WdfRequestProbeAndLockUserBufferForRead method
+ms.keywords: ",  , A, B, DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, F, L, P, R, U, W, WdfRequestProbeAndLockUserBufferForRead, WdfRequestProbeAndLockUserBufferForRead method, a, b, c, d, e, f, k, kmdf.wdfrequestprobeandlockuserbufferforread, n, o, q, r, s, t, u, wdf.wdfrequestprobeandlockuserbufferforread, wdfrequest/WdfRequestProbeAndLockUserBufferForRead"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

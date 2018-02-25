@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9434f740-34c1-4244-813d-3fe9f1ead333
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/PsGetCurrentProcessId, k108_e38b09ef-d948-4eb9-bfdd-24b25ba55034.xml, PsGetCurrentProcessId, kernel.psgetcurrentprocessid, PsGetCurrentProcessId routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, G, I, P, PsGetCurrentProcessId, PsGetCurrentProcessId routine [Kernel-Mode Driver Architecture], c, d, e, k108_e38b09ef-d948-4eb9-bfdd-24b25ba55034.xml, kernel.psgetcurrentprocessid, n, ntddk/PsGetCurrentProcessId, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,15 +86,11 @@ HANDLE PsGetCurrentProcessId(void);
 
 
 
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
-
-
-
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
@@ -103,6 +99,10 @@ HANDLE PsGetCurrentProcessId(void);
 
 
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
 
 
 

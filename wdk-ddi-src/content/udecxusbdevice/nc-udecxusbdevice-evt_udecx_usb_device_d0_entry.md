@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 92CEEAF3-BD70-4B1C-8385-00720A195E50
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_udecx_usb_device_d0_entry, EvtUsbDeviceLinkPowerEntry callback function [Buses], EvtUsbDeviceLinkPowerEntry, EVT_UDECX_USB_DEVICE_D0_ENTRY, EVT_UDECX_USB_DEVICE_D0_ENTRY, udecxusbdevice/EvtUsbDeviceLinkPowerEntry
+ms.keywords: EVT_UDECX_USB_DEVICE_D0_ENTRY, EvtUsbDeviceLinkPowerEntry, EvtUsbDeviceLinkPowerEntry callback function [Buses], buses.evt_udecx_usb_device_d0_entry, udecxusbdevice/EvtUsbDeviceLinkPowerEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -111,19 +111,19 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicesignalwake.md">UdecxUsbDeviceSignalWake</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicesignalwake.md">UdecxUsbDeviceSignalWake</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+
+
+<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
 
 
 

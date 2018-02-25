@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0ca9aa92-7b9f-4fd4-a41e-663ac1aa5799
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_query_cursor_position, IOCTL_VIDEO_QUERY_CURSOR_POSITION control code [Display Devices], IOCTL_VIDEO_QUERY_CURSOR_POSITION, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_POSITION, Video_IOCTLs_f9790f8c-b853-4231-b058-a09bd42e15de.xml
+ms.keywords: IOCTL_VIDEO_QUERY_CURSOR_POSITION, IOCTL_VIDEO_QUERY_CURSOR_POSITION control code [Display Devices], Video_IOCTLs_f9790f8c-b853-4231-b058-a09bd42e15de.xml, display.ioctl_video_query_cursor_position, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

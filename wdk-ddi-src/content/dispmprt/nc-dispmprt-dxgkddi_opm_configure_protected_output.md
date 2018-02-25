@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7829587-c1e7-43ec-a0bb-92bca94b7c3d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiopmconfigureprotectedoutput, DxgkDdiOPMConfigureProtectedOutput callback function [Display Devices], DxgkDdiOPMConfigureProtectedOutput, DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT, DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT, dispmprt/DxgkDdiOPMConfigureProtectedOutput, Dm_Opm_functions_4e8394b3-68b4-4747-a375-a767edbccc2c.xml
+ms.keywords: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT, Dm_Opm_functions_4e8394b3-68b4-4747-a375-a767edbccc2c.xml, DxgkDdiOPMConfigureProtectedOutput, DxgkDdiOPMConfigureProtectedOutput callback function [Display Devices], display.dxgkddiopmconfigureprotectedoutput, dispmprt/DxgkDdiOPMConfigureProtectedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -165,7 +165,11 @@ The DirectX graphics kernel subsystem calls <a href="..\dispmprt\nc-dispmprt-dxg
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 
@@ -173,11 +177,7 @@ The DirectX graphics kernel subsystem calls <a href="..\dispmprt\nc-dispmprt-dxg
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28cc79e8-7078-4b29-ab2a-2eeca5c5b8b3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_interrupt_extended_policy, WDF_INTERRUPT_EXTENDED_POLICY structure, WDF_INTERRUPT_EXTENDED_POLICY, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY, wdfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, PWDF_INTERRUPT_EXTENDED_POLICY, _WDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY, kmdf.wdf_interrupt_extended_policy, DFInterruptObjectRef_db1feccc-0171-4163-b95f-6be057430176.xml
+ms.keywords: ",  , *, *PWDF_INTERRUPT_EXTENDED_POLICY, ,, C, D, DFInterruptObjectRef_db1feccc-0171-4163-b95f-6be057430176.xml, E, F, I, L, N, O, P, PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, R, T, U, W, WDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY structure, X, Y, _, _WDF_INTERRUPT_EXTENDED_POLICY, kmdf.wdf_interrupt_extended_policy, wdf.wdf_interrupt_extended_policy, wdfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,11 +106,11 @@ To initialize a <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure, your driver must
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
-
-
-
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>
+
+
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
 
 
 

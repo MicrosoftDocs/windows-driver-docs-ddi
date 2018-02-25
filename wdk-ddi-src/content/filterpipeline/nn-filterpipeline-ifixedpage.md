@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e9e309ed-42e5-40cc-a230-6ca001f9fb1b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ifixedpage, IFixedPage interface [Print Devices], IFixedPage interface [Print Devices], described, IFixedPage, filterpipeline/IFixedPage, filterpipeline_4070fd54-c1df-432a-b586-a93854bf7aee.xml
+ms.keywords: IFixedPage, IFixedPage interface [Print Devices], IFixedPage interface [Print Devices], described, filterpipeline/IFixedPage, filterpipeline_4070fd54-c1df-432a-b586-a93854bf7aee.xml, print.ifixedpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

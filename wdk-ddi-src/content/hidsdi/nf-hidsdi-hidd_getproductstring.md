@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: c0627fbf-4b64-4530-8c0f-45326a83f765
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidD_GetProductString, hidsdi/HidD_GetProductString, HidD_GetProductString routine [Human Input Devices], hidfunc_4909c6a7-11b7-489c-915c-889ad3124231.xml, hid.hidd_getproductstring
+ms.keywords: ",  , D, G, H, HidD_GetProductString, HidD_GetProductString routine [Human Input Devices], P, S, _, c, d, e, g, hid.hidd_getproductstring, hidfunc_4909c6a7-11b7-489c-915c-889ad3124231.xml, hidsdi/HidD_GetProductString, i, n, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,11 +120,15 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_product_string.md">IOCTL_HID_GET_PRODUCT_STRING</a>
+
+
+
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md">IOCTL_HID_GET_INDEXED_STRING</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_product_string.md">IOCTL_HID_GET_PRODUCT_STRING</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
 
 
 
@@ -137,10 +141,6 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_manufacturer_string.md">IOCTL_HID_GET_MANUFACTURER_STRING</a>
-
-
-
-<a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
 
 
 

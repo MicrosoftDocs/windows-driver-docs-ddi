@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 15046dc7-42ae-4ebe-acb9-2b0bbad1e833
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.pcnewminiport, portcls/PcNewMiniport, PcNewMiniport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, PcNewMiniport function [Audio Devices]
+ms.keywords: ",  , M, N, P, PcNewMiniport, PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, c, e, i, n, o, p, portcls/PcNewMiniport, r, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -187,15 +187,15 @@ The <i>OutMiniport</i> parameter follows the <a href="https://msdn.microsoft.com
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
+
+
+
 <a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a>
 
 
 
 <a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
 
 

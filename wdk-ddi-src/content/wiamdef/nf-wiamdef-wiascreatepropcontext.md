@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b820c19d-a12b-417b-a9a3-6a3d700009c0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiasCreatePropContext function [Imaging Devices], image.wiascreatepropcontext, wiasCreatePropContext, wiamdef/wiasCreatePropContext, wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml
+ms.keywords: ",  , C, P, a, e, i, image.wiascreatepropcontext, n, o, p, r, s, t, w, wiamdef/wiasCreatePropContext, wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -177,15 +177,15 @@ WIA_IPA_FORMAT
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
 
 
 
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B6A0F80C-8AE2-4FFE-A3EE-F0260A8774D6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE, kernel.pep_unregister_device, PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], *PPEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE, pepfx/PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture]"
+ms.keywords: ",  , *, *PPEP_UNREGISTER_DEVICE, ,, C, D, E, G, I, N, P, PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], R, S, T, U, V, _, _PEP_UNREGISTER_DEVICE, kernel.pep_unregister_device, pepfx/PEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 552eaf46-1710-4df5-bdc3-0fa7ce3adf54
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method, wdfusb/WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, kmdf.wdfusbtargetpipesetnomaximumpacketsizecheck, DFUsbRef_e750d0d1-6d91-498d-8bb5-2eb9bab0149d.xml, wdf.wdfusbtargetpipesetnomaximumpacketsizecheck
+ms.keywords: ",  , C, DFUsbRef_e750d0d1-6d91-498d-8bb5-2eb9bab0149d.xml, M, N, P, S, T, U, W, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method, a, b, c, d, e, f, g, h, i, k, kmdf.wdfusbtargetpipesetnomaximumpacketsizecheck, m, o, p, r, s, t, u, wdf.wdfusbtargetpipesetnomaximumpacketsizecheck, wdfusb/WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4a30efd9-8fef-4fef-8293-b7df5b954977
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: filterpipeline/IFixedPage::GetPrintTicket, IFixedPage, filterpipeline_13ccb2a1-7898-41d1-b11f-55ca3cc881ab.xml, IFixedPage::GetPrintTicket, GetPrintTicket, GetPrintTicket method [Print Devices], IFixedPage interface, GetPrintTicket method [Print Devices], print.ifixedpage_getprintticket, IFixedPage interface [Print Devices], GetPrintTicket method
+ms.keywords: ",  , ,, ., :, F, G, GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices], IFixedPage interface, GetPrintTicket,IFixedPage.GetPrintTicket, I, IFixedPage, IFixedPage interface [Print Devices], GetPrintTicket method, IFixedPage::GetPrintTicket, P, T, a, c, d, e, filterpipeline/IFixedPage::GetPrintTicket, filterpipeline_13ccb2a1-7898-41d1-b11f-55ca3cc881ab.xml, g, i, k, n, print.ifixedpage_getprintticket, r, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,7 +92,7 @@ After calling this method to get the page-level print ticket, a print driver fil
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550992">IFixedDocument::GetPrintTicket</a>
 
 
 
@@ -100,7 +100,7 @@ After calling this method to get the page-level print ticket, a print driver fil
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550992">IFixedDocument::GetPrintTicket</a>
+<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
 
 
 

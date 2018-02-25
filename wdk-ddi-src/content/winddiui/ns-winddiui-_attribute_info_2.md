@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c5bb9943-ee5b-4128-9e5f-438971119e3a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, PATTRIBUTE_INFO_2 structure pointer [Print Devices], _ATTRIBUTE_INFO_2, print.attribute_info_2, winddiui/PATTRIBUTE_INFO_2, winddiui/ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2 structure [Print Devices]"
+ms.keywords: ",  , *, *PATTRIBUTE_INFO_2, ,, 2, A, ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2 structure [Print Devices], B, E, F, I, N, O, P, PATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2 structure pointer [Print Devices], R, T, U, _, _ATTRIBUTE_INFO_2, print.attribute_info_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, winddiui/ATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -228,11 +228,11 @@ For more information about other structure members, see <a href="..\winddiui\ns-
 
 
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
 
 
 

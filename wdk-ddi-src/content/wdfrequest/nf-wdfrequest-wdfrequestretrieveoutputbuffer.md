@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5f12dd97-d8e7-4fef-91bf-00243c0cdd52
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfrequestretrieveoutputbuffer, WdfRequestRetrieveOutputBuffer method, WdfRequestRetrieveOutputBuffer, wdfrequest/WdfRequestRetrieveOutputBuffer, kmdf.wdfrequestretrieveoutputbuffer, DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml
+ms.keywords: ",  , B, DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, O, R, W, WdfRequestRetrieveOutputBuffer, WdfRequestRetrieveOutputBuffer method, d, e, f, i, kmdf.wdfrequestretrieveoutputbuffer, p, q, r, s, t, u, v, wdf.wdfrequestretrieveoutputbuffer, wdfrequest/WdfRequestRetrieveOutputBuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -295,11 +295,11 @@ MyEvtIoDeviceControl(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">WdfRequestRetrieveInputBuffer</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
 
 

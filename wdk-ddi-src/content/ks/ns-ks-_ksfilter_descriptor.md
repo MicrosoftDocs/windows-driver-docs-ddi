@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c9e3c1ea-a8c9-45db-a31c-7f8e95cf6b2b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR, stream.ksfilter_descriptor, _KSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR structure pointer [Streaming Media Devices], avstruct_f9b8c041-9001-42a5-989e-3de86daa56fe.xml, KSFILTER_DESCRIPTOR, KSFILTER_DESCRIPTOR structure [Streaming Media Devices], ks/PKSFILTER_DESCRIPTOR, *PKSFILTER_DESCRIPTOR
+ms.keywords: ",  , *, *PKSFILTER_DESCRIPTOR, ,, C, D, E, F, I, K, KSFILTER_DESCRIPTOR, KSFILTER_DESCRIPTOR structure [Streaming Media Devices], L, O, P, PKSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR structure pointer [Streaming Media Devices], R, S, T, _, _KSFILTER_DESCRIPTOR, avstruct_f9b8c041-9001-42a5-989e-3de86daa56fe.xml, ks/KSFILTER_DESCRIPTOR, ks/PKSFILTER_DESCRIPTOR, stream.ksfilter_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -313,15 +313,11 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a>
-
-
-
 <a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
 
 
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 
 
@@ -329,11 +325,15 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
 
 
+<a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a>
+
+
+
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 
 

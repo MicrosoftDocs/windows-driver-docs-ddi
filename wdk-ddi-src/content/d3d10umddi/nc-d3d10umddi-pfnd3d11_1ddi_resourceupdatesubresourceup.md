@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 67FCC9A4-B3C5-46FC-83ED-CFFB8186328F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.defaultconstantbufferupdatesubresourceup_d3d11_1_, DefaultConstantBufferUpdateSubresourceUP(D3D11_1) callback function [Display Devices], DefaultConstantBufferUpdateSubresourceUP(D3D11_1), PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP, PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP, d3d10umddi/DefaultConstantBufferUpdateSubresourceUP(D3D11_1)
+ms.keywords: DefaultConstantBufferUpdateSubresourceUP(D3D11_1), DefaultConstantBufferUpdateSubresourceUP(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP, d3d10umddi/DefaultConstantBufferUpdateSubresourceUP(D3D11_1), display.defaultconstantbufferupdatesubresourceup_d3d11_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -151,15 +151,15 @@ The driver should not encounter any error, except for <b>D3DDDIERR_DEVICEREMOVED
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
 
 
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_copy_flags.md">D3D11_1_DDI_COPY_FLAGS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

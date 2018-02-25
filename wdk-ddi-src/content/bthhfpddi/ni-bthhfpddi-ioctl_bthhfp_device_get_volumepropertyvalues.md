@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 56DA61CB-D4D3-40DF-861D-2A2EE257C194
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.ioctl_bthhfp_device_get_volumepropertyvalues, IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES control code [Audio Devices], IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
+ms.keywords: IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES, IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES control code [Audio Devices], audio.ioctl_bthhfp_device_get_volumepropertyvalues, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -123,11 +123,11 @@ This allows the Handsfree proofile (HFP) driver to almost entirely handle the pr
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563473(v=vs.85).aspx">KSNODE_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
+
+
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563473(v=vs.85).aspx">KSNODE_DESCRIPTOR</a>
 
 
 

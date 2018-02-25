@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: EF979267-BDF3-4C42-B18E-C77E2584BC2D
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.ioctl_gnss_send_platform_capability, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code [Sensor Devices], IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, gnssdriver/IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
+ms.keywords: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code [Sensor Devices], gnssdriver/IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, sensors.ioctl_gnss_send_platform_capability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -140,11 +140,7 @@ This should be called when the GNSS adapter is initializing the GNSS driver.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -152,7 +148,11 @@ This should be called when the GNSS adapter is initializing the GNSS driver.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

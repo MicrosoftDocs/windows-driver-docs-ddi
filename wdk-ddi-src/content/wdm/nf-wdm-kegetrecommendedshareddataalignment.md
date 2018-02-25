@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2faf5e30-bfbb-4b23-9cb9-bf9dd81a56c2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeGetRecommendedSharedDataAlignment, k105_537a55c5-9c7e-49cb-8a27-de61e92b78e2.xml, wdm/KeGetRecommendedSharedDataAlignment, kernel.kegetrecommendedshareddataalignment, KeGetRecommendedSharedDataAlignment routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, D, G, K, KeGetRecommendedSharedDataAlignment, KeGetRecommendedSharedDataAlignment routine [Kernel-Mode Driver Architecture], R, S, a, c, d, e, g, h, i, k105_537a55c5-9c7e-49cb-8a27-de61e92b78e2.xml, kernel.kegetrecommendedshareddataalignment, l, m, n, o, r, t, wdm/KeGetRecommendedSharedDataAlignment"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

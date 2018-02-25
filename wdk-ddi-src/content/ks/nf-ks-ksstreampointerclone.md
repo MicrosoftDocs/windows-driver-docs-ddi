@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b51e1c17-e6b5-4108-bfbc-29f1ee06d9f4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsStreamPointerClone function [Streaming Media Devices], KsStreamPointerClone, avfunc_29a7da58-5321-4c19-83df-c9deab062e78.xml, stream.ksstreampointerclone, ks/KsStreamPointerClone
+ms.keywords: ",  , C, K, KsStreamPointerClone, KsStreamPointerClone function [Streaming Media Devices], P, S, a, avfunc_29a7da58-5321-4c19-83df-c9deab062e78.xml, e, i, ks/KsStreamPointerClone, l, m, n, o, r, s, stream.ksstreampointerclone, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,7 +115,7 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
 
 
 
@@ -123,7 +123,7 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 
 
@@ -131,11 +131,11 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
 
 

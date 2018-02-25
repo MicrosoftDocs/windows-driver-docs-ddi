@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 24787963-98c6-4c32-9ba8-2cd4778f8436
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl4::GetProcessorTypeNamesWide, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface, GetProcessorTypeNamesWide, debugger.getprocessortypenameswide, IDebugControl4, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, IDebugControl4 interface [Windows Debugging], GetProcessorTypeNamesWide method, GetProcessorTypeNamesWide method [Windows Debugging]
+ms.keywords: ",  , ,, ., 4, :, C, D, G, GetProcessorTypeNamesWide method [Windows Debugging], GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface, GetProcessorTypeNamesWide,IDebugControl4.GetProcessorTypeNamesWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetProcessorTypeNamesWide method, IDebugControl4::GetProcessorTypeNamesWide, N, P, T, W, a, b, c, d, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, debugger.getprocessortypenameswide, e, g, i, l, m, n, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

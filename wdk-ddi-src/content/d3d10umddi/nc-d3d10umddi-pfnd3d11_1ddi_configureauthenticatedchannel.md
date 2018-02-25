@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 28d32813-15f5-4b9c-9bdb-5ad9b47bbe3b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.configureauthenticatedchannel1, ConfigureAuthenticatedChannel callback function [Display Devices], ConfigureAuthenticatedChannel, PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL, PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL, d3d10umddi/ConfigureAuthenticatedChannel
+ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel callback function [Display Devices], PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL, d3d10umddi/ConfigureAuthenticatedChannel, display.configureauthenticatedchannel1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -267,15 +267,15 @@ The <i>InputDataSize</i> parameter is less than the size of the <a href="..\d3d1
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a>
 
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
 
 
 

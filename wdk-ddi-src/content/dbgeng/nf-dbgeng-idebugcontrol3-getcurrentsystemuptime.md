@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0009e11d-73d0-4ca2-afbc-5f2999e829ac
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugControl3::GetCurrentSystemUpTime, debugger.getcurrentsystemuptime, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2::GetCurrentSystemUpTime, IDebugControl2 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl3, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl3 interface, IDebugControl2, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetCurrentSystemUpTime, GetCurrentSystemUpTime, dbgeng/IDebugControl2::GetCurrentSystemUpTime, IDebugControl3 interface [Windows Debugging], GetCurrentSystemUpTime method
+ms.keywords: ",  , ,, ., 3, :, C, D, G, GetCurrentSystemUpTime method [Windows Debugging], GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2 interface, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl3 interface, GetCurrentSystemUpTime,IDebugControl2.GetCurrentSystemUpTime, GetCurrentSystemUpTime,IDebugControl3.GetCurrentSystemUpTime, I, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl2::GetCurrentSystemUpTime, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl3::GetCurrentSystemUpTime, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, S, T, U, b, dbgeng/IDebugControl2::GetCurrentSystemUpTime, dbgeng/IDebugControl3::GetCurrentSystemUpTime, debugger.getcurrentsystemuptime, e, g, i, l, m, n, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,11 +116,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546553">GetCurrentTimeDate</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

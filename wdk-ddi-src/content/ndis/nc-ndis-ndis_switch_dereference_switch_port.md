@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 976D3A69-C539-4C8E-9664-F85717E5F712
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.DereferenceSwitchPort, DereferenceSwitchPort callback function [Network Drivers Starting with Windows Vista], DereferenceSwitchPort, NDIS_SWITCH_DEREFERENCE_SWITCH_PORT, NDIS_SWITCH_DEREFERENCE_SWITCH_PORT, ndis/DereferenceSwitchPort
+ms.keywords: DereferenceSwitchPort, DereferenceSwitchPort callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_PORT, ndis/DereferenceSwitchPort, netvista.DereferenceSwitchPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -108,11 +108,11 @@ The extension must call <i>DereferenceSwitchPort</i> if it had previously called
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5FD2E931-AC9F-4157-9C45-F93261FC834D">ReferenceSwitchPort</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/5FD2E931-AC9F-4157-9C45-F93261FC834D">ReferenceSwitchPort</a>
 
 
 

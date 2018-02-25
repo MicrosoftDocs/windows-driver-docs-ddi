@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F870E56B-5D80-4E9C-A06E-D21A9BFA1ED8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pep_query_component_perf_set, pepfx/PEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET, PPEP_QUERY_COMPONENT_PERF_SET, *PPEP_QUERY_COMPONENT_PERF_SET, pepfx/PPEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_SET, PPEP_QUERY_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PPEP_QUERY_COMPONENT_PERF_SET, ,, C, E, F, M, N, O, P, PEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_SET, PPEP_QUERY_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], Q, R, S, T, U, Y, _, _PEP_QUERY_COMPONENT_PERF_SET, kernel.pep_query_component_perf_set, pepfx/PEP_QUERY_COMPONENT_PERF_SET, pepfx/PPEP_QUERY_COMPONENT_PERF_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,7 +88,7 @@ typedef struct _PEP_QUERY_COMPONENT_PERF_SET {
 
 ### -field Component
 
-[in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="..\pep_x\ns-pep_x-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+[in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -field Set
@@ -103,12 +103,12 @@ typedef struct _PEP_QUERY_COMPONENT_PERF_SET {
 
 ### -field Unit
 
-[out] A <a href="..\pep_x\ne-pep_x-_pep_perf_state_unit.md">PEP_PERF_STATE_UNIT</a> enumeration value that indicates whether the values for this P-state set are expressed in hertz (frequency units) or bits per second (bandwidth units).
+[out] A <a href="..\pepfx\ne-pepfx-_pep_perf_state_unit.md">PEP_PERF_STATE_UNIT</a> enumeration value that indicates whether the values for this P-state set are expressed in hertz (frequency units) or bits per second (bandwidth units).
 
 
 ### -field Type
 
-[out] A <a href="..\pep_x\ne-pep_x-_pep_perf_state_type.md">PEP_PERF_STATE_TYPE</a> enumeration value that indicates whether the performance values for this P-state set are expressed as a list of discrete values or as a continuous range of values.
+[out] A <a href="..\pepfx\ne-pepfx-_pep_perf_state_type.md">PEP_PERF_STATE_TYPE</a> enumeration value that indicates whether the performance values for this P-state set are expressed as a list of discrete values or as a continuous range of values.
 
 
 ### -field Discrete
@@ -188,19 +188,19 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="..\pep_x\ne-pep_x-_pep_perf_state_unit.md">PEP_PERF_STATE_UNIT</a>
-
-
-
-<a href="..\pep_x\ns-pep_x-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
-
-
-
-<a href="..\pep_x\ne-pep_x-_pep_perf_state_type.md">PEP_PERF_STATE_TYPE</a>
+<a href="..\pepfx\ne-pepfx-_pep_perf_state_type.md">PEP_PERF_STATE_TYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186840">PEP_DPM_QUERY_COMPONENT_PERF_SET</a>
+
+
+
+<a href="..\pepfx\ne-pepfx-_pep_perf_state_unit.md">PEP_PERF_STATE_UNIT</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
 
 

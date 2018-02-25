@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 50AEF454-8E36-4348-9340-330094D2FDF8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpi.acpi_eval_input_buffer_complex_v2_ex, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure pointer [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX"
+ms.keywords: ",  , *, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, ,, 2, A, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure [ACPI Devices], B, C, E, F, I, L, M, N, O, P, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure pointer [ACPI Devices], R, T, U, V, X, _, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpi.acpi_eval_input_buffer_complex_v2_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

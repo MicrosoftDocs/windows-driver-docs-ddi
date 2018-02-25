@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D823EF66-1440-45B7-A0D8-A98522AA69E1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], *PPEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, _PEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PEP_QUERY_SOC_SUBSYSTEM_METADATA
+ms.keywords: ",  , *, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA, ,, A, B, C, D, E, M, O, P, PEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], Q, R, S, T, U, Y, _, _PEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,7 +99,7 @@ This member is reserved and should be set to zero.
 
 ### -field Metadata
 
-[in/out] An array of pointers to <a href="..\pep_x\ns-pep_x-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
+[in/out] An array of pointers to <a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
 
 
 ## -see-also
@@ -108,7 +108,7 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a>
+<a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a>
 
 
 

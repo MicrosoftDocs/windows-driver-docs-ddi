@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 91641007-57c0-4e55-8ac1-9a5cc62b80b0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: HasInterface method [Windows Device Testing Framework], IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], HasInterface method, wdtf/IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface, HasInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, HasInterface, dtf.iwdtftarget2_hasinterface, IWDTFTarget2::HasInterface, Microsoft::WDTF::IWDTFTarget2::HasInterface
+ms.keywords: ",  , ,, ., 2, :, D, F, H, HasInterface method [Windows Device Testing Framework], HasInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, HasInterface,IWDTFTarget2.HasInterface, I, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], HasInterface method, IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface, Microsoft::WDTF::IWDTFTarget2::HasInterface, T, W, a, c, dtf.iwdtftarget2_hasinterface, e, f, g, n, r, s, t, wdtf/IWDTFTarget2::HasInterface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

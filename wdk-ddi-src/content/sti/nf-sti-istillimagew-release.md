@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3c595531-a1b0-48a5-867c-f1e6558e46ff
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: Release, Release method [Imaging Devices], IStillImage interface [Imaging Devices], Release method, stifnc_e1ab4835-ed24-4c92-a879-f57061656825.xml, IStillImage::Release, IStillImageW::Release, sti/IStillImage::Release, IStillImageW, Release method [Imaging Devices], IStillImage interface, image.istillimage_release
+ms.keywords: ",  , ,, ., :, I, IStillImage interface [Imaging Devices], Release method, IStillImage::Release, IStillImageW, IStillImageW::Release, R, Release method [Imaging Devices], Release method [Imaging Devices], IStillImage interface, Release,IStillImageW.Release, S, W, a, e, g, i, image.istillimage_release, l, m, s, sti/IStillImage::Release, stifnc_e1ab4835-ed24-4c92-a879-f57061656825.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

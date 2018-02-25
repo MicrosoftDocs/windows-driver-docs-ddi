@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db08cc72-3797-46e3-8e4d-d8469dc126ab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks-struct_2fb3dcb7-5945-4f8a-b1f1-945910ec8396.xml, PKSNODE_CREATE, ks/PKSNODE_CREATE, KSNODE_CREATE, *PKSNODE_CREATE, PKSNODE_CREATE structure pointer [Streaming Media Devices], stream.ksnode_create, ks/KSNODE_CREATE, KSNODE_CREATE structure [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSNODE_CREATE, ,, A, C, D, E, K, KSNODE_CREATE, KSNODE_CREATE structure [Streaming Media Devices], N, O, P, PKSNODE_CREATE, PKSNODE_CREATE structure pointer [Streaming Media Devices], R, S, T, _, ks-struct_2fb3dcb7-5945-4f8a-b1f1-945910ec8396.xml, ks/KSNODE_CREATE, ks/PKSNODE_CREATE, stream.ksnode_create"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

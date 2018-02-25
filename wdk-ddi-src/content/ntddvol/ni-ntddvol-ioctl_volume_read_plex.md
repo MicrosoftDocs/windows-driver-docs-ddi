@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 187e15d2-b527-4dab-81ea-498663363f8b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_volume_read_plex, IOCTL_VOLUME_READ_PLEX control code [Storage Devices], IOCTL_VOLUME_READ_PLEX, ntddvol/IOCTL_VOLUME_READ_PLEX, k307_9f88e325-8c32-4be3-acaa-5df77ee023c2.xml
+ms.keywords: IOCTL_VOLUME_READ_PLEX, IOCTL_VOLUME_READ_PLEX control code [Storage Devices], k307_9f88e325-8c32-4be3-acaa-5df77ee023c2.xml, ntddvol/IOCTL_VOLUME_READ_PLEX, storage.ioctl_volume_read_plex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

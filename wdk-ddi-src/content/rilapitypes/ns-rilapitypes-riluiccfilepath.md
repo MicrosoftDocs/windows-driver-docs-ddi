@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d0321907-0a3c-43cc-97f1-a3a7e9b84311
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILUICCFILEPATH, netvista.riluiccfilepath_2, rilapitypes/RILUICCFILEPATH, *LPRILUICCFILEPATH, RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *LPRILUICCFILEPATH, ,, A, C, E, F, H, I, L, P, R, RILUICCFILEPATH, RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista], T, U, netvista.riluiccfilepath_2, rilapitypes/RILUICCFILEPATH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

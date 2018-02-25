@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 23B2A4AF-1255-4332-83A9-EEEB0007B966
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_usb_get_port_connector_properties, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
+ms.keywords: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], buses.ioctl_usb_get_port_connector_properties, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -136,11 +136,11 @@ Based on the <b>ActualLength</b> value, the caller can then allocate a buffer an
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b79dd6e7-361c-4051-9e7c-18c64d459a70
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: prcomoem/IPrintOemPS::Command, Command method [Print Devices], IPrintOemPS interface, print.iprintoemps_command, IPrintOemPS interface [Print Devices], Command method, Command method [Print Devices], IPrintOemPS, Command, print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml, IPrintOemPS::Command
+ms.keywords: ",  , ,, ., :, C, Command method [Print Devices], Command method [Print Devices], IPrintOemPS interface, Command,IPrintOemPS.Command, I, IPrintOemPS, IPrintOemPS interface [Print Devices], Command method, IPrintOemPS::Command, O, P, S, a, d, e, i, m, n, o, prcomoem/IPrintOemPS::Command, print.iprintoemps_command, print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9442df60-7280-4c09-bea0-45ed2ac70694
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure [Network Drivers Starting with Windows Vista], RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, netvista.rilcloseuicclogicalchannelgroupparams"
+ms.keywords: ",  , *, *LPRILCLOSEUICCLOGICALCHANNELGROUPPARAMS, ,, A, C, E, G, H, I, L, M, N, O, P, R, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure [Network Drivers Starting with Windows Vista], S, U, netvista.rilcloseuicclogicalchannelgroupparams, ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

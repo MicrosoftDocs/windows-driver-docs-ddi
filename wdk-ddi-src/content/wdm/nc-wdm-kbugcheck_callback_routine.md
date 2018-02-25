@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ecd777f0-bba2-4f14-9fa6-8f47ac83fe7f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.bugcheckcallback, BugCheckCallback, BugCheckCallback routine [Kernel-Mode Driver Architecture], BugCheckCallback, KBUGCHECK_CALLBACK_ROUTINE, KBUGCHECK_CALLBACK_ROUTINE, wdm/BugCheckCallback, DrvrRtns_e968f3db-9875-4f94-8781-074029354e2c.xml
+ms.keywords: BugCheckCallback, BugCheckCallback routine [Kernel-Mode Driver Architecture], DrvrRtns_e968f3db-9875-4f94-8781-074029354e2c.xml, KBUGCHECK_CALLBACK_ROUTINE, kernel.bugcheckcallback, wdm/BugCheckCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -150,15 +150,15 @@ The KBUGCHECK_CALLBACK_ROUTINE function type is defined in the Wdm.h header file
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kederegisterbugcheckcallback.md">KeDeregisterBugCheckCallback</a>
+
+
+
 <a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-kederegisterbugcheckcallback.md">KeDeregisterBugCheckCallback</a>
 
 
 

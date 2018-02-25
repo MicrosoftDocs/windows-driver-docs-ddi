@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c066a71-502a-4dc2-b117-32597c534cb6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetdefaultkey, Dot11ExtSetDefaultKey callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetDefaultKey, DOT11EXT_SET_DEFAULT_KEY, DOT11EXT_SET_DEFAULT_KEY, wlanihv/Dot11ExtSetDefaultKey, Native_802.11_IHV_Ext_c313f938-0a68-4470-b298-d9e6c0231268.xml
+ms.keywords: DOT11EXT_SET_DEFAULT_KEY, Dot11ExtSetDefaultKey, Dot11ExtSetDefaultKey callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c313f938-0a68-4470-b298-d9e6c0231268.xml, netvista.dot11extsetdefaultkey, wlanihv/Dot11ExtSetDefaultKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,15 +141,19 @@ A cipher key is deleted from the adapter's key tables if the
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
-
-
-
 <a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
 
 
 
@@ -158,11 +162,7 @@ A cipher key is deleted from the adapter's key tables if the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
-
-
-
-<a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
 
 

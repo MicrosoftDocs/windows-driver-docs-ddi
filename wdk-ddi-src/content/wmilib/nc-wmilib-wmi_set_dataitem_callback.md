@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 409adf29-7f2b-465b-aa2d-28bbcc31a574
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.dpwmisetdataitem, DpWmiSetDataItem, DpWmiSetDataItem callback function [Kernel-Mode Driver Architecture], DpWmiSetDataItem, WMI_SET_DATAITEM_CALLBACK, WMI_SET_DATAITEM_CALLBACK, wmilib/DpWmiSetDataItem, k903_d7afb1fc-f867-4c63-b0d6-8280a41d60f5.xml
+ms.keywords: DpWmiSetDataItem, DpWmiSetDataItem callback function [Kernel-Mode Driver Architecture], WMI_SET_DATAITEM_CALLBACK, k903_d7afb1fc-f867-4c63-b0d6-8280a41d60f5.xml, kernel.dpwmisetdataitem, wmilib/DpWmiSetDataItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -168,11 +168,11 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
+
+
+
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 

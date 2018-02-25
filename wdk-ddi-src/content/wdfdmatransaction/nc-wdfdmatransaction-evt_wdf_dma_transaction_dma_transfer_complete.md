@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C638A505-AAE1-48FC-B06B-F2F161ADC948
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdmatransactiondmatransfercomplete, EvtDmaTransactionDmaTransferComplete callback function, EvtDmaTransactionDmaTransferComplete, EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, wdfdmatransaction/EvtDmaTransactionDmaTransferComplete, kmdf.evtdmatransactiondmatransfercomplete
+ms.keywords: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, EvtDmaTransactionDmaTransferComplete, EvtDmaTransactionDmaTransferComplete callback function, kmdf.evtdmatransactiondmatransfercomplete, wdf.evtdmatransactiondmatransfercomplete, wdfdmatransaction/EvtDmaTransactionDmaTransferComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6ff5b9ff-d2b8-4ade-8b8b-20284efdf266
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugcontrol, IDebugControl interface [Windows Debugging], IDebugControl interface [Windows Debugging], described, IDebugControl, dbgeng/IDebugControl, IDebugControl_ce0030b2-73a7-49a8-9d21-942922a69184.xml
+ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], IDebugControl interface [Windows Debugging], described, IDebugControl_ce0030b2-73a7-49a8-9d21-942922a69184.xml, dbgeng/IDebugControl, debugger.idebugcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

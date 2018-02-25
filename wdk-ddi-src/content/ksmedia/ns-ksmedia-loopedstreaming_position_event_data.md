@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c9ce4ff9-1c69-40c4-8d82-d1ec4e134f34
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: LOOPEDSTREAMING_POSITION_EVENT_DATA, PLOOPEDSTREAMING_POSITION_EVENT_DATA structure pointer [Audio Devices], ksmedia/PLOOPEDSTREAMING_POSITION_EVENT_DATA, LOOPEDSTREAMING_POSITION_EVENT_DATA structure [Audio Devices], PLOOPEDSTREAMING_POSITION_EVENT_DATA, *PLOOPEDSTREAMING_POSITION_EVENT_DATA, ksmedia/LOOPEDSTREAMING_POSITION_EVENT_DATA, audio.loopedstreaming_position_event_data, aud-prop_637593e4-087a-4856-95e2-cb99f9df3d0c.xml
+ms.keywords: ",  , *, *PLOOPEDSTREAMING_POSITION_EVENT_DATA, ,, A, D, E, G, I, L, LOOPEDSTREAMING_POSITION_EVENT_DATA, LOOPEDSTREAMING_POSITION_EVENT_DATA structure [Audio Devices], M, N, O, P, PLOOPEDSTREAMING_POSITION_EVENT_DATA, PLOOPEDSTREAMING_POSITION_EVENT_DATA structure pointer [Audio Devices], R, S, T, V, _, aud-prop_637593e4-087a-4856-95e2-cb99f9df3d0c.xml, audio.loopedstreaming_position_event_data, ksmedia/LOOPEDSTREAMING_POSITION_EVENT_DATA, ksmedia/PLOOPEDSTREAMING_POSITION_EVENT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,19 +98,19 @@ For more information about looped buffers, buffer positions, and play and record
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537131">KSEVENT_LOOPEDSTREAMING_POSITION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563381">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
 
 
 
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/88baf1f0-d18f-4601-9ba3-fea957712cd6">KSEVENTSET_LoopedStreaming</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537131">KSEVENT_LOOPEDSTREAMING_POSITION</a>
 
 
 

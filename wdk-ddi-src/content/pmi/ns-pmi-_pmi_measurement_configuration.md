@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: dbabdd69-a97b-4de6-b35b-f3d8d2351c72
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_PMI_MEASUREMENT_CONFIGURATION, PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, pmi/PPMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], *PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], pmi/PMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration"
+ms.keywords: ",  , *, *PPMI_MEASUREMENT_CONFIGURATION, ,, A, C, E, F, G, I, M, N, O, P, PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, R, S, T, U, _, _PMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, pmi/PPMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxEndpointGetStaticStreamsReferenced, buses._ucxendpointgetstaticstreamsreferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], ucxendpoint/UcxEndpointGetStaticStreamsReferenced
+ms.keywords: ",  , E, G, R, S, U, UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], a, buses._ucxendpointgetstaticstreamsreferenced, c, d, e, f, i, m, n, o, p, r, s, t, ucxendpoint/UcxEndpointGetStaticStreamsReferenced, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

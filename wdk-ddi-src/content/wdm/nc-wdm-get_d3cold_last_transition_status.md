@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2ED5A28B-8668-411D-9462-8D6ED2F08B35
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.getlasttransitionstatus, GetLastTransitionStatus routine [Kernel-Mode Driver Architecture], GetLastTransitionStatus, GET_D3COLD_LAST_TRANSITION_STATUS, GET_D3COLD_LAST_TRANSITION_STATUS, wdm/GetLastTransitionStatus
+ms.keywords: GET_D3COLD_LAST_TRANSITION_STATUS, GetLastTransitionStatus, GetLastTransitionStatus routine [Kernel-Mode Driver Architecture], kernel.getlasttransitionstatus, wdm/GetLastTransitionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

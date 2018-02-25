@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 41E713D9-9499-40EB-8B21-DDB73362BAE3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/STOR_LIST_ENTRY, PSTOR_LIST_ENTRY, STOR_LIST_ENTRY, storport/PSTOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], PSTOR_LIST_ENTRY structure pointer [Storage Devices], _STOR_LIST_ENTRY, *PSTOR_LIST_ENTRY, storage.stor_list_entry
+ms.keywords: ",  , *, *PSTOR_LIST_ENTRY, ,, E, I, L, N, O, P, PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY structure pointer [Storage Devices], R, S, STOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], T, Y, _, _STOR_LIST_ENTRY, storage.stor_list_entry, storport/PSTOR_LIST_ENTRY, storport/STOR_LIST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,14 +108,6 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
 
 
@@ -124,19 +116,11 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
-
-
-
-<a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
 
 
 
-<a href="..\storport\nf-storport-storportinterlockedinsertheadlist.md">StorPortInterlockedInsertHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
 
 
 
@@ -145,6 +129,22 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 
 <a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedinsertheadlist.md">StorPortInterlockedInsertHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 

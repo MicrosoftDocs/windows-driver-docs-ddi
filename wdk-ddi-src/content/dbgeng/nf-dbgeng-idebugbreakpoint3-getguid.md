@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0D279F79-FFA8-4661-A9E9-EFA62A97EEC7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetGuid method [Windows Debugging], dbgeng/IDebugBreakpoint3::GetGuid, GetGuid method [Windows Debugging], IDebugBreakpoint3 interface, IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, GetGuid, IDebugBreakpoint3, debugger.idebugbreakpoint3_getguid, IDebugBreakpoint3::GetGuid
+ms.keywords: ",  , ,, ., 3, :, B, D, G, GetGuid method [Windows Debugging], GetGuid method [Windows Debugging], IDebugBreakpoint3 interface, GetGuid,IDebugBreakpoint3.GetGuid, I, IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, IDebugBreakpoint3::GetGuid, a, b, d, dbgeng/IDebugBreakpoint3::GetGuid, debugger.idebugbreakpoint3_getguid, e, g, i, k, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

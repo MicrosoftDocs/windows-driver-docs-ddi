@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1F802912-F99B-4C04-9ABD-8FCC50FD3859
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dukmdt/D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS structure [Display Devices], _D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags
+ms.keywords: ",  , ,, 2, 3, A, B, C, D, D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS structure [Display Devices], F, G, I, K, L, O, S, _, _D3DDDICB_LOCK2FLAGS, d3dukmdt/D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ This member must be zero.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">Lock</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">Lock</a>
 
 
 

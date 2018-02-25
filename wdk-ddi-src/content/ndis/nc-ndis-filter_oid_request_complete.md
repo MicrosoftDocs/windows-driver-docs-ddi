@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2dba21d8-512b-4a1a-9cf9-0240c94a69a0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.filteroidrequestcomplete, FilterOidRequestComplete callback function [Network Drivers Starting with Windows Vista], FilterOidRequestComplete, FILTER_OID_REQUEST_COMPLETE, FILTER_OID_REQUEST_COMPLETE, ndis/FilterOidRequestComplete, ndis_request_ref_c1c43e8e-536a-4d7a-9341-c39c33778db3.xml
+ms.keywords: FILTER_OID_REQUEST_COMPLETE, FilterOidRequestComplete, FilterOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequestComplete, ndis_request_ref_c1c43e8e-536a-4d7a-9341-c39c33778db3.xml, netvista.filteroidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -183,7 +183,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
 
 
 
@@ -192,18 +204,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
 
 

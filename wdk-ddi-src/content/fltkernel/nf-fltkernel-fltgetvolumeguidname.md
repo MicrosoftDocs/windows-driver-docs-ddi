@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 911d8b07-1313-4c4b-8d16-188857943327
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltApiRef_e_to_o_b3c6abed-dbf8-44a2-92d6-470806b9a80f.xml, FltGetVolumeGuidName routine [Installable File System Drivers], FltGetVolumeGuidName, fltkernel/FltGetVolumeGuidName, ifsk.fltgetvolumeguidname
+ms.keywords: ",  , F, FltApiRef_e_to_o_b3c6abed-dbf8-44a2-92d6-470806b9a80f.xml, FltGetVolumeGuidName, FltGetVolumeGuidName routine [Installable File System Drivers], G, N, V, a, d, e, fltkernel/FltGetVolumeGuidName, i, ifsk.fltgetvolumeguidname, l, m, o, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,7 +165,7 @@ On Windows operating systems earlier than Windows Vista, <b>FltGetVolumeGuidName
 
 It is important to note that the volume GUID is not the same as the volume object ID. The <i>volume GUID</i>, or <i>unique volume name</i>, is a file system-independent value; it is assigned to the underlying storage volume by the mount manager. The <i>volume object ID</i> is assigned to the file system volume by the file system. 
 
-To get the volume object ID for a volume, call <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, specifying <b>FileFsObjectIdInformation</b> for the <i>FsInformationClass</i> parameter. 
+To get the volume object ID for a volume, call <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, specifying <b>FileFsObjectIdInformation</b> for the <i>FsInformationClass</i> parameter. 
 
 <b>FltGetVolumeGuidName</b> is roughly equivalent to the Win32 <b>GetVolumeNameForVolumeMountPoint</b> function. (<b>GetVolumeNameForVolumeMountPoint</b> is documented in the Microsoft Windows SDK.) 
 
@@ -174,19 +174,19 @@ To get the volume object ID for a volume, call <a href="..\ntifs\nf-ntifs-zwquer
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2E659DDC-4012-4EA2-8E6C-033F2AB526B8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices], wiadef/WIA_BARCODE_INFO, _WIA_BARCODE_INFO, image.wia_barcode_info
+ms.keywords: ",  , ,, A, B, C, D, E, F, I, N, O, R, W, WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices], _, _WIA_BARCODE_INFO, image.wia_barcode_info, wiadef/WIA_BARCODE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

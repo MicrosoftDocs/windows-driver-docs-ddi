@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8191b375-537e-44df-920e-077c77ed2354
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsendnotification, Dot11ExtSendNotification callback function [Network Drivers Starting with Windows Vista], Dot11ExtSendNotification, DOT11EXT_SEND_NOTIFICATION, DOT11EXT_SEND_NOTIFICATION, wlanihv/Dot11ExtSendNotification, Native_802.11_IHV_Ext_163e65f4-108a-4d10-bcf7-b487bd3cc0c9.xml
+ms.keywords: DOT11EXT_SEND_NOTIFICATION, Dot11ExtSendNotification, Dot11ExtSendNotification callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_163e65f4-108a-4d10-bcf7-b487bd3cc0c9.xml, netvista.dot11extsendnotification, wlanihv/Dot11ExtSendNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

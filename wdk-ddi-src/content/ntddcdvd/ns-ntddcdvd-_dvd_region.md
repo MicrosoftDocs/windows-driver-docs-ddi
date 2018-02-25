@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a2e31a1a-59e4-4a83-b866-944ef1693f65
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DVD_REGION structure [Storage Devices], structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml, ntddcdvd/DVD_REGION, _DVD_REGION, storage.dvd_region, DVD_REGION, ntddcdvd/PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], PDVD_REGION, *PDVD_REGION
+ms.keywords: ",  , *, *PDVD_REGION, ,, D, DVD_REGION, DVD_REGION structure [Storage Devices], E, G, I, N, O, P, PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], R, V, _, _DVD_REGION, ntddcdvd/DVD_REGION, ntddcdvd/PDVD_REGION, storage.dvd_region, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

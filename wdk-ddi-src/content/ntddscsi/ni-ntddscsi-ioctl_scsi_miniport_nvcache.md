@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6331e850-34a7-4d03-a87b-527f3e38f735
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_scsi_miniport_nvcache, IOCTL_SCSI_MINIPORT_NVCACHE control code [Storage Devices], IOCTL_SCSI_MINIPORT_NVCACHE, ntddscsi/IOCTL_SCSI_MINIPORT_NVCACHE, k307_0a3946a8-c611-4499-b62c-25f920eeec1e.xml
+ms.keywords: IOCTL_SCSI_MINIPORT_NVCACHE, IOCTL_SCSI_MINIPORT_NVCACHE control code [Storage Devices], k307_0a3946a8-c611-4499-b62c-25f920eeec1e.xml, ntddscsi/IOCTL_SCSI_MINIPORT_NVCACHE, storage.ioctl_scsi_miniport_nvcache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -118,15 +118,15 @@ The <b>Information</b> field contains the number of bytes returned in the output
 
 
 
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
+
+
+
 <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
 
 
 
 <a href="..\ntddscsi\ns-ntddscsi-_nvcache_request_block.md">NVCACHE_REQUEST_BLOCK</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 

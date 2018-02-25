@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1f0ebadc-4a6c-4d57-ba96-936ce138142b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.iksqualityforwarder, IKsQualityForwarder interface [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices], described, IKsQualityForwarder, ksproxy/IKsQualityForwarder, ksproxy_ed147fca-8a84-407c-861a-f33625d90bc7.xml
+ms.keywords: IKsQualityForwarder, IKsQualityForwarder interface [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices], described, ksproxy/IKsQualityForwarder, ksproxy_ed147fca-8a84-407c-861a-f33625d90bc7.xml, stream.iksqualityforwarder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

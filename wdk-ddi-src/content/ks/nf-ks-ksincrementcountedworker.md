@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 282ffc00-ca62-4729-afe3-c13ea8069a18
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsIncrementCountedWorker function [Streaming Media Devices], stream.ksincrementcountedworker, KsIncrementCountedWorker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml, ks/KsIncrementCountedWorker
+ms.keywords: ",  , C, I, K, KsIncrementCountedWorker, KsIncrementCountedWorker function [Streaming Media Devices], W, c, d, e, k, ks/KsIncrementCountedWorker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml, m, n, o, r, s, stream.ksincrementcountedworker, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ This should be called after an addition has been made to the worker's list of ta
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
-
-
-
 <a href="..\ks\nf-ks-ksdecrementcountedworker.md">KsDecrementCountedWorker</a>
+
+
+
+<a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
 
 
 

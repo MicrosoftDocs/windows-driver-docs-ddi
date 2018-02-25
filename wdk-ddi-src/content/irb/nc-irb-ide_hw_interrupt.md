@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a061d993-78fc-45d8-857b-7269c3593847
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.idehwinterrupt, IdeHwInterrupt routine [Storage Devices], IdeHwInterrupt, IDE_HW_INTERRUPT, IDE_HW_INTERRUPT, irb/IdeHwInterrupt, atartns_6568f61d-e6f7-4d16-98ed-72c13aac0fe7.xml
+ms.keywords: IDE_HW_INTERRUPT, IdeHwInterrupt, IdeHwInterrupt routine [Storage Devices], atartns_6568f61d-e6f7-4d16-98ed-72c13aac0fe7.xml, irb/IdeHwInterrupt, storage.idehwinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,15 +141,15 @@ The worker routine must clear the interrupt on the HBA before it returns <b>TRUE
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaPortDeviceBusy</a>
-
-
-
 <a href="..\irb\nf-irb-ataportrequestworkerroutine.md">AtaPortRequestWorkerRoutine</a>
 
 
 
 <a href="..\irb\nf-irb-ataportcompleteallactiverequests.md">AtaPortCompleteAllActiveRequests</a>
+
+
+
+<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaPortDeviceBusy</a>
 
 
 

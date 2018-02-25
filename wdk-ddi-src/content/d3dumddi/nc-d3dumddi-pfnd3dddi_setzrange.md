@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 29ccde7c-801c-4e90-bc39-8581f262cc65
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setzrange, SetZRange callback function [Display Devices], SetZRange, PFND3DDDI_SETZRANGE, PFND3DDDI_SETZRANGE, d3dumddi/SetZRange, UserModeDisplayDriver_Functions_1f472784-89a0-4ddf-ae47-ee891774d03e.xml
+ms.keywords: PFND3DDDI_SETZRANGE, SetZRange, SetZRange callback function [Display Devices], UserModeDisplayDriver_Functions_1f472784-89a0-4ddf-ae47-ee891774d03e.xml, d3dumddi/SetZRange, display.setzrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,11 @@ __checkReturn HRESULT APIENTRY SetZRange(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_zrange.md">D3DDDIARG_ZRANGE</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_zrange.md">D3DDDIARG_ZRANGE</a>
 
 
 

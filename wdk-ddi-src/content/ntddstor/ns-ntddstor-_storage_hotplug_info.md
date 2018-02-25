@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dcfd5a42-cb76-4386-9f8f-98e0a217c49a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddstor/PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO, ntddstor/STORAGE_HOTPLUG_INFO, structs-general_36f1b63b-a574-47e7-85b0-10954c2d84d9.xml, STORAGE_HOTPLUG_INFO structure [Storage Devices], STORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer [Storage Devices], _STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO, storage.storage_hotplug_info
+ms.keywords: ",  , *, *PSTORAGE_HOTPLUG_INFO, ,, A, E, F, G, H, I, L, N, O, P, PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer [Storage Devices], R, S, STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure [Storage Devices], T, U, _, _STORAGE_HOTPLUG_INFO, ntddstor/PSTORAGE_HOTPLUG_INFO, ntddstor/STORAGE_HOTPLUG_INFO, storage.storage_hotplug_info, structs-general_36f1b63b-a574-47e7-85b0-10954c2d84d9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07b5d7ed-fc4c-45e5-8748-2630c91d912a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdevice/WdfDeviceSetCharacteristics, wdf.wdfdevicesetcharacteristics, DFDeviceObjectGeneralRef_a5d23cdb-a42e-48ef-9158-174354e13ca6.xml, WdfDeviceSetCharacteristics, WdfDeviceSetCharacteristics method, kmdf.wdfdevicesetcharacteristics
+ms.keywords: ",  , C, D, DFDeviceObjectGeneralRef_a5d23cdb-a42e-48ef-9158-174354e13ca6.xml, S, W, WdfDeviceSetCharacteristics, WdfDeviceSetCharacteristics method, a, c, d, e, f, h, i, kmdf.wdfdevicesetcharacteristics, r, s, t, v, wdf.wdfdevicesetcharacteristics, wdfdevice/WdfDeviceSetCharacteristics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

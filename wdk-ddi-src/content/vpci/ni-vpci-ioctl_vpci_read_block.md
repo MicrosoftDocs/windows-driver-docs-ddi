@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: C493724D-316B-4F64-866B-D26C2DBA822A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.ioctl_vpci_read_block, IOCTL_VPCI_READ_BLOCK control code, IOCTL_VPCI_READ_BLOCK, vpci/IOCTL_VPCI_READ_BLOCK
+ms.keywords: IOCTL_VPCI_READ_BLOCK, IOCTL_VPCI_READ_BLOCK control code, PCI.ioctl_vpci_read_block, vpci/IOCTL_VPCI_READ_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -350,6 +350,22 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
@@ -358,27 +374,11 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439637">ReadVfConfigBlock</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439637">ReadVfConfigBlock</a>
 
 
 

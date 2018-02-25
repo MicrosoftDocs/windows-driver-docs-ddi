@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0836a969-e484-485f-9b65-202c177b4f43
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbInterfaceGetConfiguredPipe method, kmdf.wdfusbinterfacegetconfiguredpipe, DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, wdfusb/WdfUsbInterfaceGetConfiguredPipe, wdf.wdfusbinterfacegetconfiguredpipe, WdfUsbInterfaceGetConfiguredPipe
+ms.keywords: ",  , C, DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, G, I, P, U, W, WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, a, b, c, d, e, f, g, i, kmdf.wdfusbinterfacegetconfiguredpipe, n, o, p, r, s, t, u, wdf.wdfusbinterfacegetconfiguredpipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,19 +152,19 @@ for (i = 0; i &lt; count; i++) {
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
 
 
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a>
+
+
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
 
 

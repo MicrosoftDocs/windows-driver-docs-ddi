@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef56da02-52ae-4f85-8820-fc310638bb89
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, _IO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PIO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION, *PIO_SESSION_STATE_INFORMATION, kernel.io_session_state_information, wdm/IO_SESSION_STATE_INFORMATION, wdm/PIO_SESSION_STATE_INFORMATION
+ms.keywords: ",  , *, *PIO_SESSION_STATE_INFORMATION, ,, A, E, F, I, IO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], M, N, O, P, PIO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, S, T, _, _IO_SESSION_STATE_INFORMATION, kernel.io_session_state_information, kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, wdm/IO_SESSION_STATE_INFORMATION, wdm/PIO_SESSION_STATE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,11 +112,11 @@ To obtain information about a user session, a driver calls the <b>IoGetContainer
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
-
-
-
 <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
 
 
 

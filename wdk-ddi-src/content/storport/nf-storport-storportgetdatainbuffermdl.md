@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9D41810A-7698-4462-802D-79EF793C9A9D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportgetdatainbuffermdl, StorPortGetDataInBufferMdl routine [Storage Devices], storport/StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl
+ms.keywords: ",  , B, D, G, I, M, P, S, StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl routine [Storage Devices], a, d, e, f, l, n, o, r, storage.storportgetdatainbuffermdl, storport/StorPortGetDataInBufferMdl, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

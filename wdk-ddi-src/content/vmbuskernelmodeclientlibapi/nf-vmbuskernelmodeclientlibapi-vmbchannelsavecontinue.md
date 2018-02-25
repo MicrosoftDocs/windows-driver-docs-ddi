@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57266CAE-C069-4379-92FD-0F93FECC6EB5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSaveContinue, netvista.vmbchannelsavecontinue, VmbChannelSaveContinue
+ms.keywords: ",  , C, S, V, VmbChannelSaveContinue, VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], a, b, e, h, i, l, m, n, netvista.vmbchannelsavecontinue, o, t, u, v, vmbuskernelmodeclientlibapi/VmbChannelSaveContinue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

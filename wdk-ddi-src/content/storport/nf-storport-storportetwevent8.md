@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FC0E8267-5AA6-47D6-9F98-B6B19CA3F260
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorportEtwEventOpcodeSuspend, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeStop, StorportEtwLevelLogAlways, StorPortEtwEvent8, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeInfo, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, storage.storportetwevent8, StorportEtwEventOpcodeDC_Stop, StorPortEtwEvent8 routine [Storage Devices], StorportEtwEventOpcodeResume, StorportEtwEventOpcodeReply, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwEventOpcodeDC_Start, StorportEtwLevelVerbose, StorportEtwEventOpcodeExtension, STORPORT_ETW_EVENT_KEYWORD_POWER, StorportEtwLevelCritical, StorportEtwLevelError, storport/StorPortEtwEvent8, StorportEtwLevelWarning, StorportEtwLevelInformational
+ms.keywords: ",  , 8, E, P, S, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, STORPORT_ETW_EVENT_KEYWORD_IO, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_POWER, StorPortEtwEvent8, StorPortEtwEvent8 routine [Storage Devices], StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeExtension, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeStop, StorportEtwEventOpcodeSuspend, StorportEtwLevelCritical, StorportEtwLevelError, StorportEtwLevelInformational, StorportEtwLevelLogAlways, StorportEtwLevelVerbose, StorportEtwLevelWarning, e, n, o, r, storage.storportetwevent8, storport/StorPortEtwEvent8, t, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -510,11 +510,11 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
-
-
-
 <a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
+
+
+
+<a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
 
 
 

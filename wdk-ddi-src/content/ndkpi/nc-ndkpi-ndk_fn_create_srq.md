@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83125C65-021F-4EEE-8819-B73752908DE7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_create_srq, NdkCreateSrq callback function [Network Drivers Starting with Windows Vista], NdkCreateSrq, NDK_FN_CREATE_SRQ, NDK_FN_CREATE_SRQ, ndkpi/NdkCreateSrq
+ms.keywords: NDK_FN_CREATE_SRQ, NdkCreateSrq, NdkCreateSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSrq, netvista.ndk_fn_create_srq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -221,15 +221,11 @@ The <i>NdkCreateSrq</i> function creates an NDK shared receive queue (SRQ) objec
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_srq_notification_callback.md">NDK_FN_SRQ_NOTIFICATION_CALLBACK</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
 
 
 
@@ -241,11 +237,15 @@ The <i>NdkCreateSrq</i> function creates an NDK shared receive queue (SRQ) objec
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_srq_notification_callback.md">NDK_FN_SRQ_NOTIFICATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
 
 
 

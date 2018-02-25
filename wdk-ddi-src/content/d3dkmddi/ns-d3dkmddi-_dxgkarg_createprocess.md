@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F4FDF254-1C36-43DC-B1FD-376AD7658E61
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS structure [Display Devices], *INOUT_PDXGKARG_CREATEPROCESS, _DXGKARG_CREATEPROCESS, display.dxgkarg_createprocess, DXGKARG_CREATEPROCESS
+ms.keywords: ",  , *, *INOUT_PDXGKARG_CREATEPROCESS, ,, A, C, D, DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS structure [Display Devices], E, G, I, K, N, O, P, R, S, T, U, X, _, _DXGKARG_CREATEPROCESS, d3dkmddi/DXGKARG_CREATEPROCESS, display.dxgkarg_createprocess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

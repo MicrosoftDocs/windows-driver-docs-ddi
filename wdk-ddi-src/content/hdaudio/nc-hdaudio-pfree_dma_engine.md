@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3f068ac0-2b18-4242-86de-7044ce558788
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.freedmaengine, FreeDmaEngine callback function [Audio Devices], FreeDmaEngine, PFREE_DMA_ENGINE, PFREE_DMA_ENGINE, hdaudio/FreeDmaEngine, aud-prop2_98407bc5-c9ae-499f-92b4-afd8c797dc1d.xml
+ms.keywords: FreeDmaEngine, FreeDmaEngine callback function [Audio Devices], PFREE_DMA_ENGINE, aud-prop2_98407bc5-c9ae-499f-92b4-afd8c797dc1d.xml, audio.freedmaengine, hdaudio/FreeDmaEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -160,19 +160,7 @@ An audio driver calls this routine to close the pin (and destroy the stream).
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
@@ -180,7 +168,19 @@ An audio driver calls this routine to close the pin (and destroy the stream).
 
 
 
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 

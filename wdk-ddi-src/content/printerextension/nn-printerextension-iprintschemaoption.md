@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B520875A-7882-43D5-A890-0F82654EFD6C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschemaoption_interface, IPrintSchemaOption interface [Print Devices], IPrintSchemaOption interface [Print Devices], described, IPrintSchemaOption, printerextension/IPrintSchemaOption
+ms.keywords: IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], IPrintSchemaOption interface [Print Devices], described, print.iprintschemaoption_interface, printerextension/IPrintSchemaOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -132,14 +132,6 @@ You must ensure that each Feature or Option in a PrintTicket or PrintCapabilitie
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoptioncollection.md">IPrintSchemaOptionCollection</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprintschemapagemediasizeoption.md">IPrintSchemaPageMediaSizeOption</a>
-
-
-
 <a href="https://msdn.microsoft.com/C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA">IPrintSchemaFeature::GetOption</a>
 
 
@@ -149,6 +141,14 @@ You must ensure that each Feature or Option in a PrintTicket or PrintCapabilitie
 
 
 <a href="..\printerextension\nn-printerextension-iprintschemadisplayableelement.md">IPrintSchemaDisplayableElement</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemapagemediasizeoption.md">IPrintSchemaPageMediaSizeOption</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemaoptioncollection.md">IPrintSchemaOptionCollection</a>
 
 
 

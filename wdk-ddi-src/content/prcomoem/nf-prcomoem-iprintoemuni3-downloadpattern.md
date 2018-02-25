@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7604a6df-c73a-4114-916f-1e777a323731
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: prcomoem/IPrintOemUni3::DownloadPattern, print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml, DownloadPattern, IPrintOemUni3::DownloadPattern, DownloadPattern method [Print Devices], IPrintOemUni3 interface [Print Devices], DownloadPattern method, IPrintOemUni3, print.iprintoemuni3_downloadpattern, DownloadPattern method [Print Devices], IPrintOemUni3 interface
+ms.keywords: ",  , ,, ., 3, :, D, DownloadPattern method [Print Devices], DownloadPattern method [Print Devices], IPrintOemUni3 interface, DownloadPattern,IPrintOemUni3.DownloadPattern, I, IPrintOemUni3, IPrintOemUni3 interface [Print Devices], DownloadPattern method, IPrintOemUni3::DownloadPattern, O, P, U, a, d, e, i, l, m, n, o, prcomoem/IPrintOemUni3::DownloadPattern, print.iprintoemuni3_downloadpattern, print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml, r, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

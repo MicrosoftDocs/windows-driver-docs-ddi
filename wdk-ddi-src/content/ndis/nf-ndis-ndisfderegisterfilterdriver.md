@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f97ecce3-73b9-4c51-b4a4-e114420af2c9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFDeregisterFilterDriver, filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml, netvista.ndisfderegisterfilterdriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], ndis/NdisFDeregisterFilterDriver
+ms.keywords: ",  , D, F, N, NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], d, e, filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml, g, i, l, ndis/NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 87265ABB-C2B7-468F-83FC-411AD9769517
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HciPacketAclData, _BTHX_HCI_PACKET_TYPE, bthxddi/BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], bthxddi/HciPacketCommand, bthxddi/HciPacketAclData, HciPacketCommand, BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketEvent, HciPacketEvent, bltooth.bthx_hci_packet_type
+ms.keywords: ",  , ,, A, B, BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], C, E, H, HciPacketAclData, HciPacketCommand, HciPacketEvent, I, K, P, T, X, Y, _, _BTHX_HCI_PACKET_TYPE, bltooth.bthx_hci_packet_type, bthxddi/BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketAclData, bthxddi/HciPacketCommand, bthxddi/HciPacketEvent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

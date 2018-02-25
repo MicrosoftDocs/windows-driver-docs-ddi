@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 17E98D35-8C63-4EEC-B8DD-896FA2B084A8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_GPIO_CONNECT_IO_PINS_MODE, ConnectModeMaximum, GPIO.gpio_connect_io_pins_mode, gpioclx/ConnectModeInvalid, gpioclx/ConnectModeOutput, *PGPIO_CONNECT_IO_PINS_MODE, gpioclx/GPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE, ConnectModeInput, gpioclx/ConnectModeInput, ConnectModeInvalid, gpioclx/ConnectModeMaximum, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], ConnectModeOutput"
+ms.keywords: ",  , *, *PGPIO_CONNECT_IO_PINS_MODE, ,, C, ConnectModeInput, ConnectModeInvalid, ConnectModeMaximum, ConnectModeOutput, D, E, G, GPIO.gpio_connect_io_pins_mode, GPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], I, M, N, O, P, S, T, _, _GPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeInput, gpioclx/ConnectModeInvalid, gpioclx/ConnectModeMaximum, gpioclx/ConnectModeOutput, gpioclx/GPIO_CONNECT_IO_PINS_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -107,11 +107,11 @@ The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439502">GPIO_CONNECT_IO_PINS_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406487">IOCTL_GPIO_WRITE_PINS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439502">GPIO_CONNECT_IO_PINS_PARAMETERS</a>
 
 
 

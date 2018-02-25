@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: A3D874CB-1F43-4AA0-975B-35C0C5F7A13C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.iwiaminidrvtransfercallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices], described, IWiaMiniDrvTransferCallback, wiamindr_lh/IWiaMiniDrvTransferCallback
+ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices], described, image.iwiaminidrvtransfercallback, wiamindr_lh/IWiaMiniDrvTransferCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -99,11 +99,11 @@ Periodically called by the WIA mini-driver during a data transfer, to update the
 
 
 
-<a href="http://msdn.microsoft.com/windows/hardware/gg463512">Introduction to WIA 2.0</a>
-
-
-
 <a href="https://msdn.microsoft.com/fb830522-f95e-4dd7-8c1b-de092a6c5a51">IStream Transfer Driver Example</a>
+
+
+
+<a href="http://msdn.microsoft.com/windows/hardware/gg463512">Introduction to WIA 2.0</a>
 
 
 

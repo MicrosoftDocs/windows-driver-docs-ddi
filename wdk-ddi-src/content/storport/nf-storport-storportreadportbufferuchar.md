@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8602efbf-8e90-43d3-992f-4d2ecbcc7043
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortReadPortBufferUchar, storage.storportreadportbufferuchar, storprt_e7304977-c32a-44c2-88ea-a08767ea5399.xml, StorPortReadPortBufferUchar routine [Storage Devices], StorPortReadPortBufferUchar
+ms.keywords: ",  , B, P, R, S, StorPortReadPortBufferUchar, StorPortReadPortBufferUchar routine [Storage Devices], U, a, c, d, e, f, h, o, r, storage.storportreadportbufferuchar, storport/StorPortReadPortBufferUchar, storprt_e7304977-c32a-44c2-88ea-a08767ea5399.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -120,18 +120,18 @@ Number of unsigned characters to be read.
 
 
 
-For more information, see the <a href="..\srb\nf-srb-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>. 
+For more information, see the <a href="..\storport\nf-storport-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>. 
 
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
+
+
+
 <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
 
 
 

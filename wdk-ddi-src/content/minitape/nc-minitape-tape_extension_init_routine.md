@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4837b9c2-a3c1-4574-8f5b-4bf7c7d037a0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.tapeminiextensioninit, (*TAPE_EXTENSION_INIT_ROUTINE) routine [Storage Devices], (*TAPE_EXTENSION_INIT_ROUTINE), TAPE_EXTENSION_INIT_ROUTINE, TAPE_EXTENSION_INIT_ROUTINE, minitape/(*TAPE_EXTENSION_INIT_ROUTINE), tapemini_858bcb61-472e-45c4-8438-060eb61f1c4a.xml
+ms.keywords: "(*TAPE_EXTENSION_INIT_ROUTINE), (*TAPE_EXTENSION_INIT_ROUTINE) routine [Storage Devices], TAPE_EXTENSION_INIT_ROUTINE, minitape/(*TAPE_EXTENSION_INIT_ROUTINE), storage.tapeminiextensioninit, tapemini_858bcb61-472e-45c4-8438-060eb61f1c4a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -111,15 +111,11 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 ## -see-also
 
-<a href="..\minitape\nc-minitape-tape_error_routine.md">TapeMiniTapeError</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
 
 
 
 <a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
 
 
 
@@ -128,6 +124,10 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+
+
+<a href="..\minitape\nc-minitape-tape_error_routine.md">TapeMiniTapeError</a>
 
 
 

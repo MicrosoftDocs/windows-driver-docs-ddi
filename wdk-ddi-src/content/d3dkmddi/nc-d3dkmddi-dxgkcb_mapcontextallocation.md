@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8EAC322D-B666-428A-99A3-96E489611832
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbmapcontextallocation, DxgkCbMapContextAllocation callback function [Display Devices], DxgkCbMapContextAllocation, DXGKCB_MAPCONTEXTALLOCATION, DXGKCB_MAPCONTEXTALLOCATION, d3dkmddi/DxgkCbMapContextAllocation
+ms.keywords: DXGKCB_MAPCONTEXTALLOCATION, DxgkCbMapContextAllocation, DxgkCbMapContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbMapContextAllocation, display.dxgkcbmapcontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

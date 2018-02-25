@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 49F4EEA1-BFA6-4A91-8306-E25569C679A6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortInitializeCryptoEngine, StorPortInitializeCryptoEngine routine [Storage Devices], storport/StorPortInitializeCryptoEngine, storage.storportinitializecryptoengine
+ms.keywords: ",  , C, E, I, P, S, StorPortInitializeCryptoEngine, StorPortInitializeCryptoEngine routine [Storage Devices], a, e, g, i, l, n, o, p, r, storage.storportinitializecryptoengine, storport/StorPortInitializeCryptoEngine, t, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: EB3A65B5-EB21-45CA-B26D-F57A28F9F2CB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UfxDevicePortDetectCompleteEx, buses.ufxdeviceportdetectcompleteex, UfxDevicePortDetectCompleteEx method [Buses], ufxclient/UfxDevicePortDetectCompleteEx
+ms.keywords: ",  , C, D, E, P, U, UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx method [Buses], buses.ufxdeviceportdetectcompleteex, c, e, f, i, l, m, o, p, r, t, ufxclient/UfxDevicePortDetectCompleteEx, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

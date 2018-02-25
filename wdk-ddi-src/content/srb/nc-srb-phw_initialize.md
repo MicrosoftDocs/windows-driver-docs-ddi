@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd678196-62f6-4c27-845f-a9b52c663e2a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.phw_initialize, (*PHW_INITIALIZE) callback function [Storage Devices], (*PHW_INITIALIZE), srb/(*PHW_INITIALIZE), ide_minikr_95bb126d-6d4c-4091-b2fa-6b891d587186.xml
+ms.keywords: "(*PHW_INITIALIZE), (*PHW_INITIALIZE) callback function [Storage Devices], ide_minikr_95bb126d-6d4c-4091-b2fa-6b891d587186.xml, srb/(*PHW_INITIALIZE), storage.phw_initialize"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

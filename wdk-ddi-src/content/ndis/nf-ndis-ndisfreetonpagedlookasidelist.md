@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2405a405-177a-420a-9628-a340e0d0acb3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, ndis/NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], netvista.ndisfreetonpagedlookasidelist
+ms.keywords: ",  , F, L, N, NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], P, T, a, d, e, g, i, k, ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -111,11 +111,6 @@ If the lookaside list has not reached the system-determined maximum number of en
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
    NdisDeleteNPagedLookasideList</a>
 
@@ -123,6 +118,11 @@ If the lookaside list has not reached the system-determined maximum number of en
 
 <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
    NdisInitializeNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFRegisterFilterDriver, netvista.ndisfregisterfilterdriver, filter_ndis_functions_ref_a772ecb2-0cba-439e-82f1-928c3b40f3fd.xml, NdisFRegisterFilterDriver function [Network Drivers Starting with Windows Vista], ndis/NdisFRegisterFilterDriver
+ms.keywords: ",  , D, F, N, NdisFRegisterFilterDriver, NdisFRegisterFilterDriver function [Network Drivers Starting with Windows Vista], R, d, e, filter_ndis_functions_ref_a772ecb2-0cba-439e-82f1-928c3b40f3fd.xml, g, i, l, ndis/NdisFRegisterFilterDriver, netvista.ndisfregisterfilterdriver, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ NDIS_STATUS NdisFRegisterFilterDriver(
 ### -param DriverObject [in]
 
 A pointer to an opaque driver object that the filter driver received in its 
-     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter. (For more information, see 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
      Drivers</a>.)
@@ -217,7 +217,7 @@ At least one of the input parameters that the driver passed to
 A filter driver calls the 
     <b>
     NdisFRegisterFilterDriver</b> function from its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
+    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
     Drivers</a>.
@@ -258,6 +258,10 @@ Filter drivers call the
 
 
 
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
    NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
 
@@ -267,16 +271,12 @@ Filter drivers call the
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
+   Drivers</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
-   Drivers</a>
 
 
 

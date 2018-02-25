@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6a4ab5a4-4d09-4fd5-bc7b-0a8e5a634eb3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeRegisterBugCheckCallback routine [Kernel-Mode Driver Architecture], kernel.keregisterbugcheckcallback, k105_42736e68-1f5a-47df-976a-df3bfa9a356e.xml, KeRegisterBugCheckCallback, wdm/KeRegisterBugCheckCallback
+ms.keywords: ",  , B, C, K, KeRegisterBugCheckCallback, KeRegisterBugCheckCallback routine [Kernel-Mode Driver Architecture], R, a, b, c, e, g, h, i, k, k105_42736e68-1f5a-47df-976a-df3bfa9a356e.xml, kernel.keregisterbugcheckcallback, l, r, s, t, u, wdm/KeRegisterBugCheckCallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,11 +123,7 @@ The <i>Component</i> string is used to identify the driver during crash-dump deb
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552109">KeInitializeCallbackRecord</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
 
 
@@ -139,11 +135,15 @@ The <i>Component</i> string is used to identify the driver during crash-dump deb
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552109">KeInitializeCallbackRecord</a>
+
+
+
+<a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a>
+
+
+
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
 
 

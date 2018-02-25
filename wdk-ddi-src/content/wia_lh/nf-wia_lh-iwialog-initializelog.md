@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ef637329-a291-445b-8ac7-6e55d5d7931e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IWiaLog_17cc24cb-d8dd-4f7c-b5d4-6720621b6534.xml, InitializeLog method [Imaging Devices], IWiaLog interface [Imaging Devices], InitializeLog method, wia_lh/IWiaLog::InitializeLog, IWiaLog::InitializeLog, image.iwialog_initializelog, InitializeLog, InitializeLog method [Imaging Devices], IWiaLog interface, IWiaLog
+ms.keywords: ",  , ,, ., :, I, IWiaLog, IWiaLog interface [Imaging Devices], InitializeLog method, IWiaLog::InitializeLog, IWiaLog_17cc24cb-d8dd-4f7c-b5d4-6720621b6534.xml, InitializeLog method [Imaging Devices], InitializeLog method [Imaging Devices], IWiaLog interface, InitializeLog,IWiaLog.InitializeLog, L, W, a, e, g, i, image.iwialog_initializelog, l, n, o, t, wia_lh/IWiaLog::InitializeLog, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

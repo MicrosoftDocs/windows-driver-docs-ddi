@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d0796a9b-9823-4f13-b2df-1fc8ca74cbd1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml, stream.usbcamd_initializenewinterface, USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], usbcamdi/USBCAMD_InitializeNewInterface
+ms.keywords: ",  , A, B, C, D, I, M, N, S, U, USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], _, a, c, e, f, i, l, n, r, stream.usbcamd_initializenewinterface, t, usbcamdi/USBCAMD_InitializeNewInterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml, w, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,11 +162,11 @@ The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568185">SRB_INITIALIZE_DEVICE</a>
-
-
-
 <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568185">SRB_INITIALIZE_DEVICE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: FAB86862-C0A1-4FC1-A80F-44F235B9B37D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_preparecontroller, CLIENT_PrepareController callback function [Parallel Ports], CLIENT_PrepareController, GPIO_CLIENT_PREPARE_CONTROLLER, GPIO_CLIENT_PREPARE_CONTROLLER, gpioclx/CLIENT_PrepareController
+ms.keywords: CLIENT_PrepareController, CLIENT_PrepareController callback function [Parallel Ports], GPIO.client_preparecontroller, GPIO_CLIENT_PREPARE_CONTROLLER, gpioclx/CLIENT_PrepareController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

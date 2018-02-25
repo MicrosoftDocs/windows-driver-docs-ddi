@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2b82b060-79ea-4add-b559-af37c954537e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PsIsThreadTerminating, psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml, ifsk.psisthreadterminating, PsIsThreadTerminating routine [Installable File System Drivers], PsIsThreadTerminating
+ms.keywords: ",  , I, P, PsIsThreadTerminating, PsIsThreadTerminating routine [Installable File System Drivers], T, a, d, e, g, h, i, ifsk.psisthreadterminating, m, n, ntifs/PsIsThreadTerminating, psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 092B54D7-FFEA-48BB-993E-14443BD0C7AA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.lba_filter_table_entry, PLBA_FILTER_TABLE_ENTRY, ehstorioctl/LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY, ehstorioctl/PLBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY, PLBA_FILTER_TABLE_ENTRY structure pointer [Storage Devices], _LBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY structure [Storage Devices]
+ms.keywords: ",  , *, *PLBA_FILTER_TABLE_ENTRY, ,, A, B, E, F, I, L, LBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY structure [Storage Devices], N, P, PLBA_FILTER_TABLE_ENTRY, PLBA_FILTER_TABLE_ENTRY structure pointer [Storage Devices], R, T, Y, _, _LBA_FILTER_TABLE_ENTRY, ehstorioctl/LBA_FILTER_TABLE_ENTRY, ehstorioctl/PLBA_FILTER_TABLE_ENTRY, storage.lba_filter_table_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,11 +101,11 @@ An LBA range is valid only if LbaCount is &gt; 0 and it is not overlapping with 
 
 ## -see-also
 
-<a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a>
-
-
-
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
+
+
+
+<a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a>
 
 
 

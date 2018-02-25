@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ac8cf336-c2b7-4949-8237-a2008b9d883f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/KeSetIdealProcessorThread, KeSetIdealProcessorThread, ifsk.kesetidealprocessorthread, KeSetIdealProcessorThread function [Installable File System Drivers], keref_3a412d87-c325-4369-99f6-1b31225eb02e.xml
+ms.keywords: ",  , I, K, KeSetIdealProcessorThread, KeSetIdealProcessorThread function [Installable File System Drivers], P, S, T, a, c, d, e, h, ifsk.kesetidealprocessorthread, keref_3a412d87-c325-4369-99f6-1b31225eb02e.xml, l, ntifs/KeSetIdealProcessorThread, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

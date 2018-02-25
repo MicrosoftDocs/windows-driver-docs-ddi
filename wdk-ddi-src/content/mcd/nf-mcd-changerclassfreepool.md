@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c20c39f9-ceee-47f0-849a-f8686fb05e6a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ChangerClassFreePool routine [Storage Devices], chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, mcd/ChangerClassFreePool, ChangerClassFreePool, storage.changerclassfreepool
+ms.keywords: ",  , C, ChangerClassFreePool, ChangerClassFreePool routine [Storage Devices], F, P, a, chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, e, g, h, l, mcd/ChangerClassFreePool, n, o, r, s, storage.changerclassfreepool"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

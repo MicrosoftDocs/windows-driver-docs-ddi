@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], PoFxRegisterCoreDevice, kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice
+ms.keywords: ",  , C, D, F, P, PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], R, c, e, g, i, kernel.pofxregistercoredevice, o, pepfx/PoFxRegisterCoreDevice, r, s, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ A string that uniquely identifies the core system resource. This member is a poi
 
 ### -param Device [in]
 
-A pointer to a <a href="..\pep_x\ns-pep_x-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a> structure that describes the power characteristics of the core system resource.
+A pointer to a <a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a> structure that describes the power characteristics of the core system resource.
 
 
 ### -param Handle [out]
@@ -139,7 +139,7 @@ The <b>PoFxRegisterCoreDevice</b> routine should be called at IRQL = PASSIVE_LEV
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
+<a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
 
 
 

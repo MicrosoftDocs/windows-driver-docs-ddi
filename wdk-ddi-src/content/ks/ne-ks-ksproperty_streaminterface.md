@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E771F59E-7F85-40B9-BBA9-D1CC398B12CA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSPROPERTY_STREAMINTERFACE, stream.ksproperty_streaminterface, ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], KSPROPERTY_STREAMINTERFACE_HEADERSIZE, ks/KSPROPERTY_STREAMINTERFACE
+ms.keywords: ",  , ,, A, C, E, F, I, K, KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], KSPROPERTY_STREAMINTERFACE_HEADERSIZE, M, N, O, P, R, S, T, Y, _, ks/KSPROPERTY_STREAMINTERFACE, ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE, stream.ksproperty_streaminterface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

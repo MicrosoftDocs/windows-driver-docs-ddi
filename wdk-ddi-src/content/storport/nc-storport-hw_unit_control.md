@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 33534C7A-C88D-4980-98A7-2B94488D3550
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorunitcontrol, HwStorUnitControl routine [Storage Devices], HwStorUnitControl, HW_UNIT_CONTROL, HW_UNIT_CONTROL, storport/HwStorUnitControl
+ms.keywords: HW_UNIT_CONTROL, HwStorUnitControl, HwStorUnitControl routine [Storage Devices], storage.hwstorunitcontrol, storport/HwStorUnitControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ca259e03-4770-48ce-a4c0-a26159a172aa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SeMarkLogonSessionForTerminationNotification, ifsk.semarklogonsessionforterminationnotification, ntifs/SeMarkLogonSessionForTerminationNotification, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml
+ms.keywords: ",  , F, L, M, N, S, SeMarkLogonSessionForTerminationNotification, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], T, a, c, e, f, g, i, ifsk.semarklogonsessionforterminationnotification, k, m, n, ntifs/SeMarkLogonSessionForTerminationNotification, o, r, s, seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

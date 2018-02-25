@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b50f0cf3-4cd5-4f9e-9749-49b1c9365a8f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ExtRemoteData class [Windows Debugging], WriteBuffer method, WriteBuffer, debugger.extremotedata_writebuffer, WriteBuffer method [Windows Debugging], ExtRemoteData class, ExtRemoteData, EngExtCpp_Ref_0a08b058-ddc3-44e4-9d80-bb20d6e8f952.xml, WriteBuffer method [Windows Debugging], ExtRemoteData::WriteBuffer
+ms.keywords: ",  , ,, ., :, B, D, E, EngExtCpp_Ref_0a08b058-ddc3-44e4-9d80-bb20d6e8f952.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], WriteBuffer method, ExtRemoteData::WriteBuffer, R, W, WriteBuffer method [Windows Debugging], WriteBuffer method [Windows Debugging], ExtRemoteData class, WriteBuffer,ExtRemoteData.WriteBuffer, a, debugger.extremotedata_writebuffer, e, f, i, m, o, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

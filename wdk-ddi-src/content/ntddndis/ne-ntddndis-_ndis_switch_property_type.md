@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: baa1b837-6f9b-41f4-acf8-e640f8e9f8da
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisSwitchPropertyTypeCustom, netvista.ndis_switch_property_type, PNDIS_SWITCH_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPropertyTypeCustom, NDIS_SWITCH_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPropertyTypeMaximum, PNDIS_SWITCH_PROPERTY_TYPE, _NDIS_SWITCH_PROPERTY_TYPE, *PNDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeMaximum, ntddndis/PNDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeUndefined, NDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeUndefined, ntddndis/NDIS_SWITCH_PROPERTY_TYPE
+ms.keywords: ",  , *, *PNDIS_SWITCH_PROPERTY_TYPE, ,, C, D, E, H, I, N, NDIS_SWITCH_PROPERTY_TYPE, NDIS_SWITCH_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPropertyTypeCustom, NdisSwitchPropertyTypeMaximum, NdisSwitchPropertyTypeUndefined, O, P, PNDIS_SWITCH_PROPERTY_TYPE, PNDIS_SWITCH_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], R, S, T, W, Y, _, _NDIS_SWITCH_PROPERTY_TYPE, netvista.ndis_switch_property_type, ntddndis/NDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeCustom, ntddndis/NdisSwitchPropertyTypeMaximum, ntddndis/NdisSwitchPropertyTypeUndefined, ntddndis/PNDIS_SWITCH_PROPERTY_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -123,15 +123,15 @@ For more information about extensible switch  policies, see <a href="https://msd
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_parameters.md">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_delete_parameters.md">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_parameters.md">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 820e7667-3adf-49c9-ab44-303f6ea7f4b2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER structure pointer [Display Devices], _D3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER structure [Display Devices], d3dstrct_f9a920b0-9018-4b87-ab28-d0b50753195b.xml, *LPD3DHAL_DP2PIXELSHADER, d3dhal/LPD3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER, display.d3dhal_dp2pixelshader, d3dhal/D3DHAL_DP2PIXELSHADER
+ms.keywords: ",  , *, *LPD3DHAL_DP2PIXELSHADER, ,, 2, 3, A, D, D3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER structure [Display Devices], E, H, I, L, LPD3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER structure pointer [Display Devices], P, R, S, X, _, _D3DHAL_DP2PIXELSHADER, d3dhal/D3DHAL_DP2PIXELSHADER, d3dhal/LPD3DHAL_DP2PIXELSHADER, d3dstrct_f9a920b0-9018-4b87-ab28-d0b50753195b.xml, display.d3dhal_dp2pixelshader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ When switching between programmable shaders, any constant register that has a va
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setpixelshaderconst.md">D3DHAL_DP2SETPIXELSHADERCONST</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createpixelshader.md">D3DHAL_DP2CREATEPIXELSHADER</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setpixelshaderconst.md">D3DHAL_DP2SETPIXELSHADERCONST</a>
 
 
 

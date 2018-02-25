@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: B20B2AE6-A408-451C-B46D-803139E8B57F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStiDeviceControl, image.istidevicecontrol_getmydevicehandle, GetMyDeviceHandle, GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl interface, GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl::GetMyDeviceHandle, stiusd/IStiDeviceControl::GetMyDeviceHandle, IStiDeviceControl interface [Imaging Devices], GetMyDeviceHandle method
+ms.keywords: ",  , ,, ., :, C, D, G, GetMyDeviceHandle method [Imaging Devices], GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl interface, GetMyDeviceHandle,IStiDeviceControl.GetMyDeviceHandle, H, I, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], GetMyDeviceHandle method, IStiDeviceControl::GetMyDeviceHandle, M, S, a, c, d, e, i, image.istidevicecontrol_getmydevicehandle, l, n, o, r, stiusd/IStiDeviceControl::GetMyDeviceHandle, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

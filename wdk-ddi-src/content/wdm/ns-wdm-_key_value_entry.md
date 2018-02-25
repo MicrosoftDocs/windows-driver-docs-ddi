@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a0e819e-6da7-4006-a276-9bfd324800d8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KEY_VALUE_ENTRY, KEY_VALUE_ENTRY structure [Kernel-Mode Driver Architecture], *PKEY_VALUE_ENTRY, PKEY_VALUE_ENTRY structure pointer [Kernel-Mode Driver Architecture], wdm/KEY_VALUE_ENTRY, kernel.key_value_entry, kstruct_c_750eac86-0e41-4623-8404-8c198c1ee96c.xml, PKEY_VALUE_ENTRY, _KEY_VALUE_ENTRY, wdm/PKEY_VALUE_ENTRY
+ms.keywords: ",  , *, *PKEY_VALUE_ENTRY, ,, A, E, K, KEY_VALUE_ENTRY, KEY_VALUE_ENTRY structure [Kernel-Mode Driver Architecture], L, N, P, PKEY_VALUE_ENTRY, PKEY_VALUE_ENTRY structure pointer [Kernel-Mode Driver Architecture], R, T, U, V, Y, _, _KEY_VALUE_ENTRY, kernel.key_value_entry, kstruct_c_750eac86-0e41-4623-8404-8c198c1ee96c.xml, wdm/KEY_VALUE_ENTRY, wdm/PKEY_VALUE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

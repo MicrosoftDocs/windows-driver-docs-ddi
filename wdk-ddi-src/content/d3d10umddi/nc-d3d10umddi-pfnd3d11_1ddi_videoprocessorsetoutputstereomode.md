@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e3eaaa6-2725-49de-bca6-df2da1b4324b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoprocessorsetoutputstereomode, pfnVideoProcessorSetOutputStereoMode callback function [Display Devices], pfnVideoProcessorSetOutputStereoMode, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, d3d10umddi/pfnVideoProcessorSetOutputStereoMode
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, d3d10umddi/pfnVideoProcessorSetOutputStereoMode, display.videoprocessorsetoutputstereomode, pfnVideoProcessorSetOutputStereoMode, pfnVideoProcessorSetOutputStereoMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

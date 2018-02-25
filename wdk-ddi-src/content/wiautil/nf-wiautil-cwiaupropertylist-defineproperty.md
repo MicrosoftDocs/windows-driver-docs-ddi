@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 599c97af-1285-4fb9-af0b-edcd48249692
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiautil/CWiauPropertyList::DefineProperty, CWiauPropertyList, DefineProperty method [Imaging Devices], CWiauPropertyList interface, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, image.cwiaupropertylist_defineproperty, DefineProperty, CWiauPropertyList::DefineProperty, DefineProperty method [Imaging Devices], CWiauPropertyList interface [Imaging Devices], DefineProperty method
+ms.keywords: ",  , ,, ., :, C, CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], DefineProperty method, CWiauPropertyList::DefineProperty, D, DefineProperty method [Imaging Devices], DefineProperty method [Imaging Devices], CWiauPropertyList interface, DefineProperty,CWiauPropertyList.DefineProperty, L, P, W, a, e, f, i, image.cwiaupropertylist_defineproperty, n, o, p, r, s, t, u, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, wiautil/CWiauPropertyList::DefineProperty, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

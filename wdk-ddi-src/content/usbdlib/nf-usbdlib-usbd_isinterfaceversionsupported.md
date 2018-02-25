@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: AEA5B6AA-8EEA-4D82-9991-1DE32BAE7DCE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbdlib/USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported routine [Buses], buses.usbd_isusbdinterfaceversionsupported
+ms.keywords: ",  , B, D, I, S, U, USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported routine [Buses], V, _, a, buses.usbd_isusbdinterfaceversionsupported, c, d, e, f, i, n, o, p, r, s, t, u, usbdlib/USBD_IsInterfaceVersionSupported"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

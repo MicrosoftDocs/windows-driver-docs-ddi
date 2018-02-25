@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d925862-49af-4579-b877-c9a033e73be0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolclmodifycallqoscomplete, ProtocolClModifyCallQoSComplete callback function [Network Drivers Starting with Windows Vista], ProtocolClModifyCallQoSComplete, PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE, PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE, ndis/ProtocolClModifyCallQoSComplete, condis_client_ref_19bed505-8cde-44c3-bee1-dd5cc7a26526.xml
+ms.keywords: PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE, ProtocolClModifyCallQoSComplete, ProtocolClModifyCallQoSComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_19bed505-8cde-44c3-bee1-dd5cc7a26526.xml, ndis/ProtocolClModifyCallQoSComplete, netvista.protocolclmodifycallqoscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -212,19 +212,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQoSComplete</a>
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 
 
@@ -232,11 +224,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQoSComplete</a>
 
 
 

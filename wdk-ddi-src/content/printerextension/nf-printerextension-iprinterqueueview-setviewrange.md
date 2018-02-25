@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterQueueView::SetViewRange, IPrinterQueueView interface [Print Devices], SetViewRange method, print.iprinterqueueview_setviewrange, SetViewRange method [Print Devices], SetViewRange, SetViewRange method [Print Devices], IPrinterQueueView interface, printerextension/IPrinterQueueView::SetViewRange, IPrinterQueueView
+ms.keywords: ",  , ,, ., :, I, IPrinterQueueView, IPrinterQueueView interface [Print Devices], SetViewRange method, IPrinterQueueView::SetViewRange, P, Q, R, S, SetViewRange method [Print Devices], SetViewRange method [Print Devices], IPrinterQueueView interface, SetViewRange,IPrinterQueueView.SetViewRange, V, a, e, g, i, n, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange, r, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,11 +101,11 @@ Invoking this method causes the events for status change to the jobs to be fired
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/C565288C-B014-4A92-9F50-1641EAA30D22">IPrinterQueue2::GetPrinterQueueView</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
+
+
+
+<a href="https://msdn.microsoft.com/C565288C-B014-4A92-9F50-1641EAA30D22">IPrinterQueue2::GetPrinterQueueView</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], *PWSK_TRANSPORT, netvista.wsk_transport, _WSK_TRANSPORT, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, PWSK_TRANSPORT, wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PWSK_TRANSPORT, ,, A, K, N, O, P, PWSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], R, S, T, W, WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], _, _WSK_TRANSPORT, netvista.wsk_transport, wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ab30d24f-4f14-4a84-a6e1-1a2506b4ba87
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSOBJECTTYPE, ks/KsObjectTypeFilterFactory, KsObjectTypeFilter, KsObjectTypeDevice, KsObjectTypePin, ks/KsObjectTypeFilter, KsObjectTypeFilterFactory, ks/KSOBJECTTYPE, ks/KsObjectTypeDevice, KSOBJECTTYPE enumeration [Streaming Media Devices], stream.ksobjecttype, ks/KsObjectTypePin, ks-struct_b8010334-0906-4d4b-8c65-b3919b7b8257.xml
+ms.keywords: ",  , ,, B, C, E, J, K, KSOBJECTTYPE, KSOBJECTTYPE enumeration [Streaming Media Devices], KsObjectTypeDevice, KsObjectTypeFilter, KsObjectTypeFilterFactory, KsObjectTypePin, O, P, S, T, Y, ks-struct_b8010334-0906-4d4b-8c65-b3919b7b8257.xml, ks/KSOBJECTTYPE, ks/KsObjectTypeDevice, ks/KsObjectTypeFilter, ks/KsObjectTypeFilterFactory, ks/KsObjectTypePin, stream.ksobjecttype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,11 +96,7 @@ Specifies that the object is a pin.
 
 
 
-<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
-
-
-
-<a href="..\ks\nf-ks-ksgetpinfromfileobject.md">KsGetPinFromFileObject</a>
+<a href="..\ks\nf-ks-ksgetfilterfromfileobject.md">KsGetFilterFromFileObject</a>
 
 
 
@@ -108,7 +104,11 @@ Specifies that the object is a pin.
 
 
 
-<a href="..\ks\nf-ks-ksgetfilterfromfileobject.md">KsGetFilterFromFileObject</a>
+<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetpinfromfileobject.md">KsGetPinFromFileObject</a>
 
 
 

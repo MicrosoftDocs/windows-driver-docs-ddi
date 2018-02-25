@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 57c94f04-82e2-4790-b198-d415e494d70b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ntddk/WheaFindErrorRecordSection, WheaFindErrorRecordSection, whea.wheafinderrorrecordsection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml
+ms.keywords: ",  , E, F, R, S, W, WheaFindErrorRecordSection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], a, c, d, e, h, i, n, ntddk/WheaFindErrorRecordSection, o, r, t, whea.wheafinderrorrecordsection, whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,11 +161,11 @@ The format of the hardware error data is dependent upon the <b>SectionType </b>m
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67f41d3e-d306-400b-9970-88c62f0f7a7f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture], kernel.iosetharderrororverifydevice, k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, IoSetHardErrorOrVerifyDevice, ntddk/IoSetHardErrorOrVerifyDevice
+ms.keywords: ",  , D, E, H, I, IoSetHardErrorOrVerifyDevice, IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture], O, S, V, a, c, d, e, f, i, k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, kernel.iosetharderrororverifydevice, ntddk/IoSetHardErrorOrVerifyDevice, o, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 249a55a3-f2cf-4838-8a0f-b7108a17cd78
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.volblt, VolBlt callback function [Display Devices], VolBlt, PFND3DDDI_VOLBLT, PFND3DDDI_VOLBLT, d3dumddi/VolBlt, UserModeDisplayDriver_Functions_2e451776-9da9-48d0-b766-979f361b96eb.xml
+ms.keywords: PFND3DDDI_VOLBLT, UserModeDisplayDriver_Functions_2e451776-9da9-48d0-b766-979f361b96eb.xml, VolBlt, VolBlt callback function [Display Devices], d3dumddi/VolBlt, display.volblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,11 @@ __checkReturn HRESULT APIENTRY VolBlt(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_volumeblt.md">D3DDDIARG_VOLUMEBLT</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

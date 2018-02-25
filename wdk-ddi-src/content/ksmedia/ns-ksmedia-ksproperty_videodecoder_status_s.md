@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 12b92834-dcab-4723-91e5-9b7ab0bdd719
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksmedia/PKSPROPERTY_VIDEODECODER_STATUS_S, stream.ksproperty_videodecoder_status_s, ksmedia/KSPROPERTY_VIDEODECODER_STATUS_S, KSPROPERTY_VIDEODECODER_STATUS_S, vidcapstruct_c030337a-0c67-4848-84cb-109367a78e07.xml, PKSPROPERTY_VIDEODECODER_STATUS_S, *PKSPROPERTY_VIDEODECODER_STATUS_S, KSPROPERTY_VIDEODECODER_STATUS_S structure [Streaming Media Devices], PKSPROPERTY_VIDEODECODER_STATUS_S structure pointer [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSPROPERTY_VIDEODECODER_STATUS_S, ,, A, C, D, E, I, K, KSPROPERTY_VIDEODECODER_STATUS_S, KSPROPERTY_VIDEODECODER_STATUS_S structure [Streaming Media Devices], O, P, PKSPROPERTY_VIDEODECODER_STATUS_S, PKSPROPERTY_VIDEODECODER_STATUS_S structure pointer [Streaming Media Devices], R, S, T, U, V, Y, _, ksmedia/KSPROPERTY_VIDEODECODER_STATUS_S, ksmedia/PKSPROPERTY_VIDEODECODER_STATUS_S, stream.ksproperty_videodecoder_status_s, vidcapstruct_c030337a-0c67-4848-84cb-109367a78e07.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

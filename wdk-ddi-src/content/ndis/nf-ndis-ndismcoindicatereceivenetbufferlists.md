@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dabd472f-9877-4434-a534-e07a047e092f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndismcoindicatereceivenetbufferlists, condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, ndis/NdisMCoIndicateReceiveNetBufferLists, NdisMCoIndicateReceiveNetBufferLists, NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , B, C, I, L, M, N, NdisMCoIndicateReceiveNetBufferLists, NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], R, a, c, condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, d, e, f, i, n, ndis/NdisMCoIndicateReceiveNetBufferLists, netvista.ndismcoindicatereceivenetbufferlists, o, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,7 +192,7 @@ The caller of
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
@@ -201,7 +201,7 @@ The caller of
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

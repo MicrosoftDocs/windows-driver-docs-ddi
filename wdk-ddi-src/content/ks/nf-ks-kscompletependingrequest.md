@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9bde557e-0759-4f5b-989e-a34a701d2ebd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, KsCompletePendingRequest function [Streaming Media Devices], stream.kscompletependingrequest, ks/KsCompletePendingRequest, KsCompletePendingRequest
+ms.keywords: ",  , C, K, KsCompletePendingRequest, KsCompletePendingRequest function [Streaming Media Devices], P, R, avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, d, e, g, i, ks/KsCompletePendingRequest, l, m, n, o, p, q, s, stream.kscompletependingrequest, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,7 +99,7 @@ If the dispatch function in question does not pass an IRP, it <b>cannot</b> retu
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 
 
@@ -107,7 +107,7 @@ If the dispatch function in question does not pass an IRP, it <b>cannot</b> retu
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 

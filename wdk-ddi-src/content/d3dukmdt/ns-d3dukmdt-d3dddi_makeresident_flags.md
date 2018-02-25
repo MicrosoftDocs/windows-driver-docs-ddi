@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1EC4F8EE-1284-4752-8941-F1C31415BF29
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddi_makeresident_flags, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices], D3DDDI_MAKERESIDENT_FLAGS, d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS
+ms.keywords: ",  , ,, 3, A, D, D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices], E, F, G, I, K, L, M, N, R, S, T, _, d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, display.d3dddi_makeresident_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 177AF27E-3EBA-4D43-BAF2-11834784F762
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function [Buses], UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT, buses.ucm_connector_pd_conn_state_changed_params_init, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
+ms.keywords: ",  , A, C, D, E, G, H, I, M, N, O, P, R, S, T, U, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function [Buses], _, buses.ucm_connector_pd_conn_state_changed_params_init, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

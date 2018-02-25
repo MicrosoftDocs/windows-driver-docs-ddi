@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 73894308-CFE0-49EF-BB09-E104CEE9C746
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndiswwan/NDIS_WWAN_SET_DEVICE_RESET, _NDIS_WWAN_SET_DEVICE_RESET, *PNDIS_WWAN_SET_DEVICE_RESET, ndiswwan/PNDIS_WWAN_SET_DEVICE_RESET, PNDIS_WWAN_SET_DEVICE_RESET structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_DEVICE_RESET structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_DEVICE_RESET, netvista.ndis_wwan_set_device_reset, PNDIS_WWAN_SET_DEVICE_RESET
+ms.keywords: ",  , *, *PNDIS_WWAN_SET_DEVICE_RESET, ,, A, C, D, E, I, N, NDIS_WWAN_SET_DEVICE_RESET, NDIS_WWAN_SET_DEVICE_RESET structure [Network Drivers Starting with Windows Vista], P, PNDIS_WWAN_SET_DEVICE_RESET, PNDIS_WWAN_SET_DEVICE_RESET structure pointer [Network Drivers Starting with Windows Vista], R, S, T, V, W, _, _NDIS_WWAN_SET_DEVICE_RESET, ndiswwan/NDIS_WWAN_SET_DEVICE_RESET, ndiswwan/PNDIS_WWAN_SET_DEVICE_RESET, netvista.ndis_wwan_set_device_reset"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

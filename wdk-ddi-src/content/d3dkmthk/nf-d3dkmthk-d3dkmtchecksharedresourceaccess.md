@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ca1861d3-a838-4b4a-9304-e75dcca04f0d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTCheckSharedResourceAccess, display.d3dkmtchecksharedresourceaccess, D3DKMTCheckSharedResourceAccess function [Display Devices], D3DKMTCheckSharedResourceAccess, PFND3DKMT_CHECKSHAREDRESOURCEACCESS, OpenGL_Functions_b9ffd997-0bfe-47ad-a769-c2ed8148fe4b.xml
+ms.keywords: ",  , 3, A, C, D, D3DKMTCheckSharedResourceAccess, D3DKMTCheckSharedResourceAccess function [Display Devices], K, M, OpenGL_Functions_b9ffd997-0bfe-47ad-a769-c2ed8148fe4b.xml, PFND3DKMT_CHECKSHAREDRESOURCEACCESS, R, S, T, a, c, d, d3dkmthk/D3DKMTCheckSharedResourceAccess, display.d3dkmtchecksharedresourceaccess, e, h, k, o, r, s, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

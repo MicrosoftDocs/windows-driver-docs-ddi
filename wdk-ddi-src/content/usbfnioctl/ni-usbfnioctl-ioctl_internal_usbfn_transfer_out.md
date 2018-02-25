@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: DDC99C5F-B959-44E4-A4A8-1CBA4E9BDA5A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usbfn_transfer_out, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control code [Buses], IOCTL_INTERNAL_USBFN_TRANSFER_OUT, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT
+ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_OUT, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control code [Buses], buses.ioctl_internal_usbfn_transfer_out, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

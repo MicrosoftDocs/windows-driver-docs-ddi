@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 47e6da4a-fa81-40ee-9bf5-80526dc0b865
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_GetUSBDIVersion, usbdlib/USBD_GetUSBDIVersion, USBD_GetUSBDIVersion routine [Buses], usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml, buses.usbd_getusbdiversion
+ms.keywords: ",  , B, D, G, I, S, U, USBD_GetUSBDIVersion, USBD_GetUSBDIVersion routine [Buses], V, _, buses.usbd_getusbdiversion, e, i, n, o, r, s, t, usbdlib/USBD_GetUSBDIVersion, usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

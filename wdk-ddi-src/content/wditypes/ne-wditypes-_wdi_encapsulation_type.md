@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6EDCC69B-F156-416B-9824-5E26F9834D14
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wdi_encapsulation_type, wditypes/WDI_ENCAPSULATION_TYPE, wditypes/WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_802_1H, wditypes/WDI_ENCAPSULATION_802_1H, netvista.wifi_encapsulation_type, _WDI_ENCAPSULATION_TYPE, WDI_ENCAPSULATION_TYPE enumeration [Device and Driver Installation], WDI_ENCAPSULATION_TYPE
+ms.keywords: ",  , ,, A, C, D, E, I, L, N, O, P, S, T, U, W, WDI_ENCAPSULATION_802_1H, WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_TYPE, WDI_ENCAPSULATION_TYPE enumeration [Device and Driver Installation], Y, _, _WDI_ENCAPSULATION_TYPE, netvista.wdi_encapsulation_type, netvista.wifi_encapsulation_type, wditypes/WDI_ENCAPSULATION_802_1H, wditypes/WDI_ENCAPSULATION_RFC_1042, wditypes/WDI_ENCAPSULATION_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

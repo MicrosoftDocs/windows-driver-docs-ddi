@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1917e0f0-47a3-4f95-97d6-c60d3f511a91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_scsi_get_capabilities, IOCTL_SCSI_GET_CAPABILITIES control code [Storage Devices], IOCTL_SCSI_GET_CAPABILITIES, ntddscsi/IOCTL_SCSI_GET_CAPABILITIES, k307_99c3b622-6b7f-4550-9740-22b46d141966.xml
+ms.keywords: IOCTL_SCSI_GET_CAPABILITIES, IOCTL_SCSI_GET_CAPABILITIES control code [Storage Devices], k307_99c3b622-6b7f-4550-9740-22b46d141966.xml, ntddscsi/IOCTL_SCSI_GET_CAPABILITIES, storage.ioctl_scsi_get_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D87C868D-9538-4752-AEBD-2A15E53628CF
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfinterrupt_disable, wudfddi/IWDFInterrupt::Disable, IWDFInterrupt::Disable, IWDFInterrupt, Disable method, IWDFInterrupt interface, IWDFInterrupt interface, Disable method, wdf.iwdfinterrupt_disable, Disable, Disable method
+ms.keywords: ",  , ,, ., :, D, Disable method, Disable method, IWDFInterrupt interface, Disable,IWDFInterrupt.Disable, F, I, IWDFInterrupt, IWDFInterrupt interface, Disable method, IWDFInterrupt::Disable, W, a, b, e, i, l, n, p, r, s, t, u, umdf.iwdfinterrupt_disable, wdf.iwdfinterrupt_disable, wudfddi/IWDFInterrupt::Disable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

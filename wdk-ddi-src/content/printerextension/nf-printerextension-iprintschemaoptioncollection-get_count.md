@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F2279727-168D-451B-8EDB-8A4A36ACA08F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterExtensionContextCollection::get_Count, printerextension/IPrinterExtensionContextCollection::get_Count, IPrinterExtensionContextCollection interface [Print Devices], Count property, Count property [Print Devices], IPrinterExtensionContextCollection interface, IPrintJobCollection, print.iprinterextensioncontextcollection_count, printerextension/IPrinterExtensionContextCollection::Count, IPrintJobCollection::get_Count, get_Count, IPrintSchemaOptionCollection::get_Count, IPrinterExtensionContextCollection.Count, IPrintSchemaOptionCollection, Count property [Print Devices], IPrinterExtensionContextCollection
+ms.keywords: ",  , ,, ., :, C, Count property [Print Devices], Count property [Print Devices], IPrinterExtensionContextCollection interface, I, IPrintJobCollection, IPrintJobCollection::get_Count, IPrintSchemaOptionCollection, IPrintSchemaOptionCollection::get_Count, IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], Count property, IPrinterExtensionContextCollection.Count, IPrinterExtensionContextCollection::get_Count, O, P, S, _, a, c, e, g, get_Count, get_Count,IPrintJobCollection.get_Count, get_Count,IPrintSchemaOptionCollection.get_Count, get_Count,IPrinterExtensionContextCollection.get_Count, h, i, l, m, n, o, p, print.iprinterextensioncontextcollection_count, printerextension/IPrinterExtensionContextCollection::Count, printerextension/IPrinterExtensionContextCollection::get_Count, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_Count(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
 
 

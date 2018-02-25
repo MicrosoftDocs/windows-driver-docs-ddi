@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 73085ca7-a442-4c16-b1e3-6de048e7f1f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorstartio, HwStorStartIo routine [Storage Devices], HwStorStartIo, HW_STARTIO, HW_STARTIO, storport/HwStorStartIo, stormini_8f910467-49f3-4f15-919d-84edee8ad053.xml
+ms.keywords: HW_STARTIO, HwStorStartIo, HwStorStartIo routine [Storage Devices], storage.hwstorstartio, stormini_8f910467-49f3-4f15-919d-84edee8ad053.xml, storport/HwStorStartIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,7 +101,7 @@ Storport calls <b>HwStorStartIo</b> in the following ways:
 
 <ul>
 <li>
-For <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/storage/overview-of-storage-virtual-miniport-drivers">storage non-virtual miniport drivers</a>, depending on the value of <b>SynchronizationModel</b> set in <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>, Storport always calls <b>HwStorStartIo</b> the same IRQL and uses an internal spin lock to ensure that I/O requests are initiated sequentially.  The IRQL is either DISPATCH_LEVEL (full-duplex mode) or DIRQL (half-duplex mode).
+For <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/storage/overview-of-storage-virtual-miniport-drivers">storage non-virtual miniport drivers</a>, depending on the value of <b>SynchronizationModel</b> set in <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>, Storport always calls <b>HwStorStartIo</b> the same IRQL and uses an internal spin lock to ensure that I/O requests are initiated sequentially.  The IRQL is either DISPATCH_LEVEL (full-duplex mode) or DIRQL (half-duplex mode).
 
 When handling I/O in  half-duplex mode, the <b>HwStorStartIo</b> routine does not have to acquire its own spin lock. Also, memory allocation using <a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a> and mutual exclusion via <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a> are not allowed in the <b>HwStorStartIo</b> routine. In full-duplex mode, <b>StorPortAllocatePool</b> and <b>StorPortAcquireSpinLock</b> may be used in the <b>HwStorStartIo</b> routine.
 
@@ -178,7 +178,7 @@ BOOLEAN
 </td>
 </tr>
 </table></span></div>
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
 
 #### Examples
@@ -229,15 +229,15 @@ The <b>HW_STARTIO</b> function type is defined in the Storport.h header file. To
 
 
 
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-
-
-
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

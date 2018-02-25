@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0D8198BB-583F-4828-8131-61EB17621F32
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugsymbols5_getcurrentscopeframeindexex, GetCurrentScopeFrameIndexEx method [Windows Debugging], GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface, GetCurrentScopeFrameIndexEx, dbgeng/IDebugSymbols5::GetCurrentScopeFrameIndexEx, IDebugSymbols5::GetCurrentScopeFrameIndexEx, IDebugSymbols5, IDebugSymbols5 interface [Windows Debugging], GetCurrentScopeFrameIndexEx method
+ms.keywords: ",  , ,, ., 5, :, C, D, E, F, G, GetCurrentScopeFrameIndexEx method [Windows Debugging], GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface, GetCurrentScopeFrameIndexEx,IDebugSymbols5.GetCurrentScopeFrameIndexEx, I, IDebugSymbols5, IDebugSymbols5 interface [Windows Debugging], GetCurrentScopeFrameIndexEx method, IDebugSymbols5::GetCurrentScopeFrameIndexEx, S, a, b, c, d, dbgeng/IDebugSymbols5::GetCurrentScopeFrameIndexEx, debugger.idebugsymbols5_getcurrentscopeframeindexex, e, g, l, m, n, o, p, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

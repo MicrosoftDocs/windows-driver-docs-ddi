@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a120831-deac-4075-9aa7-8ae39ac29363
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlUpperString, RtlUpperString routine [Kernel-Mode Driver Architecture], kernel.rtlupperstring, k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, RtlUpperString
+ms.keywords: ",  , R, RtlUpperString, RtlUpperString routine [Kernel-Mode Driver Architecture], S, U, e, g, i, k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, kernel.rtlupperstring, l, n, ntddk/RtlUpperString, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

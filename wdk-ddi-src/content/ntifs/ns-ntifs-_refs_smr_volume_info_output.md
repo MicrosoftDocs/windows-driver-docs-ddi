@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0DCBAF5F-AEBC-4C4B-9DBD-F7A6FD6C7712
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PREFS_SMR_VOLUME_INFO_OUTPUT structure pointer [Installable File System Drivers], *PREFS_SMR_VOLUME_INFO_OUTPUT, ntifs/REFS_SMR_VOLUME_INFO_OUTPUT, _REFS_SMR_VOLUME_INFO_OUTPUT, ifsk.refs_smr_volume_info_output, REFS_SMR_VOLUME_INFO_OUTPUT, REFS_SMR_VOLUME_INFO_OUTPUT structure [Installable File System Drivers], ntifs/PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT
+ms.keywords: ",  , *, *PREFS_SMR_VOLUME_INFO_OUTPUT, ,, E, F, I, L, M, N, O, P, PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT structure pointer [Installable File System Drivers], R, REFS_SMR_VOLUME_INFO_OUTPUT, REFS_SMR_VOLUME_INFO_OUTPUT structure [Installable File System Drivers], S, T, U, V, _, _REFS_SMR_VOLUME_INFO_OUTPUT, ifsk.refs_smr_volume_info_output, ntifs/PREFS_SMR_VOLUME_INFO_OUTPUT, ntifs/REFS_SMR_VOLUME_INFO_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

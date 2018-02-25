@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09d36c81-d480-48c6-8633-c79061420217
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_DOT11_PORT_STATE, Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, netvista.dot11_port_state, wlclient/DOT11_PORT_STATE, PDOT11_PORT_STATE, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], wlclient/PDOT11_PORT_STATE, DOT11_PORT_STATE, *PDOT11_PORT_STATE"
+ms.keywords: ",  , *, *PDOT11_PORT_STATE, ,, 1, A, D, DOT11_PORT_STATE, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], E, Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, O, P, PDOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, _DOT11_PORT_STATE, netvista.dot11_port_state, wlclient/DOT11_PORT_STATE, wlclient/PDOT11_PORT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,13 +120,13 @@ The operating system passes in the current port state of the security session th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
    Dot11ExtIhvPerformPostAssociate</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 
 

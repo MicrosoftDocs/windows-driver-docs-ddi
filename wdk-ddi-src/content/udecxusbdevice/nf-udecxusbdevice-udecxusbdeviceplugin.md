@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6F1A1545-5B64-4481-B795-0B6433304C06
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: udecxusbdevice/UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn function [Buses], buses.udecxusbdeviceplugin
+ms.keywords: ",  , D, I, P, U, UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn function [Buses], b, buses.udecxusbdeviceplugin, c, d, e, g, i, l, n, s, u, udecxusbdevice/UdecxUsbDevicePlugIn, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

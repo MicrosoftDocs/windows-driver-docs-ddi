@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7762bf83-82cc-4eef-9699-d093a8c2b986
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/NetworkOpenLocationLoopback, ntifs/NetworkOpenLocationAny, NetworkOpenLocationRemote, ntifs/NetworkOpenLocationRemote, ntifs/NETWORK_OPEN_LOCATION_QUALIFIER, ifsk.network_open_location_qualifier, NETWORK_OPEN_LOCATION_QUALIFIER, ECP_Structures_0e589e5b-5266-429b-acab-236c00a75c1c.xml, NETWORK_OPEN_LOCATION_QUALIFIER enumeration [Installable File System Drivers], NetworkOpenLocationLoopback, NetworkOpenLocationAny
+ms.keywords: ",  , ,, A, C, E, ECP_Structures_0e589e5b-5266-429b-acab-236c00a75c1c.xml, F, I, K, L, N, NETWORK_OPEN_LOCATION_QUALIFIER, NETWORK_OPEN_LOCATION_QUALIFIER enumeration [Installable File System Drivers], NetworkOpenLocationAny, NetworkOpenLocationLoopback, NetworkOpenLocationRemote, O, P, Q, R, T, U, W, _, ifsk.network_open_location_qualifier, ntifs/NETWORK_OPEN_LOCATION_QUALIFIER, ntifs/NetworkOpenLocationAny, ntifs/NetworkOpenLocationLoopback, ntifs/NetworkOpenLocationRemote"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

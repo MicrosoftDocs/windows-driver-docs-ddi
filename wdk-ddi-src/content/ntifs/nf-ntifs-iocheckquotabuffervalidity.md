@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8a003d78-3b7d-44af-a7cf-a2a516c2cc20
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, ntifs/IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], IoCheckQuotaBufferValidity, ifsk.iocheckquotabuffervalidity
+ms.keywords: ",  , B, C, I, IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], Q, V, a, c, d, e, f, h, i, ifsk.iocheckquotabuffervalidity, ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, k, l, ntifs/IoCheckQuotaBufferValidity, o, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,15 +140,15 @@ To be valid, the quota buffer must meet all of these conditions.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
 
 
 <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
 
 
 

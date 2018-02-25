@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: f5c0f3a7-5d90-4a95-9ba0-01aea98d8c79
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_hid_set_output_report, IOCTL_HID_SET_OUTPUT_REPORT control code [Human Input Devices], IOCTL_HID_SET_OUTPUT_REPORT, hidclass/IOCTL_HID_SET_OUTPUT_REPORT, hidioreq_1b4d06b6-4e28-4465-8b88-356d70bf1dee.xml
+ms.keywords: IOCTL_HID_SET_OUTPUT_REPORT, IOCTL_HID_SET_OUTPUT_REPORT control code [Human Input Devices], hid.ioctl_hid_set_output_report, hidclass/IOCTL_HID_SET_OUTPUT_REPORT, hidioreq_1b4d06b6-4e28-4465-8b88-356d70bf1dee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -123,6 +123,10 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 ## -see-also
 
+<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+
+
+
 <a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
 
 
@@ -135,15 +139,11 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
-
-
-
-<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
-
-
-
 <a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3cc6da15-8367-4430-afe8-956376eef1c7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.scatter_gather_list, _SCATTER_GATHER_LIST, *PSCATTER_GATHER_LIST, SCATTER_GATHER_LIST, wdm/PSCATTER_GATHER_LIST, SCATTER_GATHER_LIST structure [Kernel-Mode Driver Architecture], wdm/SCATTER_GATHER_LIST, kstruct_d_b8c13069-6d90-4fcf-8582-c57bf11509ea.xml, PSCATTER_GATHER_LIST, PSCATTER_GATHER_LIST structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PSCATTER_GATHER_LIST, ,, A, C, E, G, H, I, L, P, PSCATTER_GATHER_LIST, PSCATTER_GATHER_LIST structure pointer [Kernel-Mode Driver Architecture], R, S, SCATTER_GATHER_LIST, SCATTER_GATHER_LIST structure [Kernel-Mode Driver Architecture], T, _, _SCATTER_GATHER_LIST, kernel.scatter_gather_list, kstruct_d_b8c13069-6d90-4fcf-8582-c57bf11509ea.xml, wdm/PSCATTER_GATHER_LIST, wdm/SCATTER_GATHER_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,7 +105,7 @@ For more information about scatter/gather lists, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
 
 
 
@@ -113,7 +113,7 @@ For more information about scatter/gather lists, see <a href="https://msdn.micro
 
 
 
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
 
 
 

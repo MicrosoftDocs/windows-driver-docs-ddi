@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2bb23245-9d5c-4b9d-8f4a-ce5fe552efc2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetModuleByOffset2, GetModuleByOffset2 method [Windows Debugging], IDebugSymbols_0eead97d-6ca0-4682-bc06-71df2cf04c69.xml, IDebugSymbols3, dbgeng/IDebugSymbols3::GetModuleByOffset2, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset2 method, GetModuleByOffset2 method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetModuleByOffset2, debugger.getmodulebyoffset2
+ms.keywords: ",  , ,, ., 2, 3, :, B, D, G, GetModuleByOffset2 method [Windows Debugging], GetModuleByOffset2 method [Windows Debugging], IDebugSymbols3 interface, GetModuleByOffset2,IDebugSymbols3.GetModuleByOffset2, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset2 method, IDebugSymbols3::GetModuleByOffset2, IDebugSymbols_0eead97d-6ca0-4682-bc06-71df2cf04c69.xml, M, O, S, b, d, dbgeng/IDebugSymbols3::GetModuleByOffset2, debugger.getmodulebyoffset2, e, f, g, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,11 +165,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547132">GetModuleByOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
 
 
 

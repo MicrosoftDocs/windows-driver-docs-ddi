@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA4765CD-808C-438A-9CA6-5ADC27A70EC8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisIsolationModeExternalVirtualSubnet, ntddndis/NDIS_ISOLATION_MODE, NdisIsolationModeNone, ntddndis/NdisIsolationModeNone, _NDIS_ISOLATION_MODE, *PNDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeNativeVirtualSubnet, NdisIsolationModeNativeVirtualSubnet, NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], NdisIsolationModeVlan, ntddndis/NdisIsolationModeVlan, netvista.ndis_isolation_mode
+ms.keywords: ",  , *, *PNDIS_ISOLATION_MODE, ,, A, D, E, I, L, M, N, NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], NdisIsolationModeExternalVirtualSubnet, NdisIsolationModeNativeVirtualSubnet, NdisIsolationModeNone, NdisIsolationModeVlan, O, P, S, T, _, _NDIS_ISOLATION_MODE, netvista.ndis_isolation_mode, ntddndis/NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, ntddndis/NdisIsolationModeNativeVirtualSubnet, ntddndis/NdisIsolationModeNone, ntddndis/NdisIsolationModeVlan"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

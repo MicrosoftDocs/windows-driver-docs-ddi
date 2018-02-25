@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5a9facc7-c83e-4dd4-9fb4-e3385c1b94ea
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_scsi_miniport, IOCTL_SCSI_MINIPORT control code [Storage Devices], IOCTL_SCSI_MINIPORT, ntddscsi/IOCTL_SCSI_MINIPORT, k307_49b821f3-1a79-44aa-a6a1-92543177181d.xml
+ms.keywords: IOCTL_SCSI_MINIPORT, IOCTL_SCSI_MINIPORT control code [Storage Devices], k307_49b821f3-1a79-44aa-a6a1-92543177181d.xml, ntddscsi/IOCTL_SCSI_MINIPORT, storage.ioctl_scsi_miniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

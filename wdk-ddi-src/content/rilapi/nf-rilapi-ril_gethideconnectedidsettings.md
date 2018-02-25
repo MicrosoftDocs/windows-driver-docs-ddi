@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd5f8556-0038-4700-87cf-61e9daa17d90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetHideConnectedIdSettings method [Network Drivers Starting with Windows Vista], RIL_GetHideConnectedIdSettings, netvista.ril_gethideconnectedidsettings, rilapi/RIL_GetHideConnectedIdSettings
+ms.keywords: ",  , C, G, H, I, L, R, RIL_GetHideConnectedIdSettings, RIL_GetHideConnectedIdSettings method [Network Drivers Starting with Windows Vista], S, _, c, d, e, g, i, n, netvista.ril_gethideconnectedidsettings, o, rilapi/RIL_GetHideConnectedIdSettings, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

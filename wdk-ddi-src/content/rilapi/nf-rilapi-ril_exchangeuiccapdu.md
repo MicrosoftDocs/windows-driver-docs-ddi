@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e0d0eaa5-8f3a-4522-b99b-76f42402dae9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], rilapi/RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU, netvista.ril_exchangeuiccapdu
+ms.keywords: ",  , A, D, E, I, L, P, R, RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], U, _, a, c, e, g, h, i, n, netvista.ril_exchangeuiccapdu, rilapi/RIL_ExchangeUiccAPDU, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

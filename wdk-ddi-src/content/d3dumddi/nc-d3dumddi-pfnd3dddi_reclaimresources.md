@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F0533DBB-CB18-4556-9871-2DF4CA719172
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.reclaimresources, ReclaimResources callback function [Display Devices], ReclaimResources, PFND3DDDI_RECLAIMRESOURCES, PFND3DDDI_RECLAIMRESOURCES, d3dumddi/ReclaimResources
+ms.keywords: PFND3DDDI_RECLAIMRESOURCES, ReclaimResources, ReclaimResources callback function [Display Devices], d3dumddi/ReclaimResources, display.reclaimresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -151,11 +151,11 @@ This error code is returned if the driver calls the <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_offerresources.md">OfferResources</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439828">ReclaimResourcesDXGI</a>
 
 
 
@@ -163,11 +163,11 @@ This error code is returned if the driver calls the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_offerresources.md">OfferResources</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439828">ReclaimResourcesDXGI</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

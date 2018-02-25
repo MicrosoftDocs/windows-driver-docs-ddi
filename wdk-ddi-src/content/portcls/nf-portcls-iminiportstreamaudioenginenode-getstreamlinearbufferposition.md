@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C1C91ECE-7AFF-468B-84AE-9D289EECE1E1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: portcls/IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition, GetStreamLinearBufferPosition, IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition, audio.iminiportstreamaudioenginenode_getstreamlinearbufferposition, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamLinearBufferPosition method, GetStreamLinearBufferPosition method [Audio Devices], GetStreamLinearBufferPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface
+ms.keywords: ",  , ,, ., :, A, B, E, G, GetStreamLinearBufferPosition method [Audio Devices], GetStreamLinearBufferPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamLinearBufferPosition,IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition, I, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamLinearBufferPosition method, IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition, L, M, N, P, S, a, audio.iminiportstreamaudioenginenode_getstreamlinearbufferposition, d, e, f, g, i, m, n, o, p, portcls/IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

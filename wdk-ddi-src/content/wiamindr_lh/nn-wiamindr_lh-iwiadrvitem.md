@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 0609e1b2-48df-413c-90bd-d7ddea26510a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.iwiadrvitem_interface, IWiaDrvItem interface [Imaging Devices], IWiaDrvItem interface [Imaging Devices], described, IWiaDrvItem, wiamindr_lh/IWiaDrvItem, DrvItem_9dbe78e4-0823-4edc-b86e-75e25d4de981.xml
+ms.keywords: DrvItem_9dbe78e4-0823-4edc-b86e-75e25d4de981.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], IWiaDrvItem interface [Imaging Devices], described, image.iwiadrvitem_interface, wiamindr_lh/IWiaDrvItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

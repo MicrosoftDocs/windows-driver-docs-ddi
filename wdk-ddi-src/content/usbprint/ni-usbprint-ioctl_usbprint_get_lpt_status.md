@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 706e62f9-1be6-43bd-812a-dbb459877909
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ioctl_usbprint_get_lpt_status, IOCTL_USBPRINT_GET_LPT_STATUS control code [Print Devices], IOCTL_USBPRINT_GET_LPT_STATUS, usbprint/IOCTL_USBPRINT_GET_LPT_STATUS, usbioctl_1729d0c7-8762-426e-bdb8-aa0bf38f71ee.xml
+ms.keywords: IOCTL_USBPRINT_GET_LPT_STATUS, IOCTL_USBPRINT_GET_LPT_STATUS control code [Print Devices], print.ioctl_usbprint_get_lpt_status, usbioctl_1729d0c7-8762-426e-bdb8-aa0bf38f71ee.xml, usbprint/IOCTL_USBPRINT_GET_LPT_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -121,11 +121,7 @@ To retrieve a handle to the device, you must call the <b>CreateFile</b> function
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -133,7 +129,11 @@ To retrieve a handle to the device, you must call the <b>CreateFile</b> function
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

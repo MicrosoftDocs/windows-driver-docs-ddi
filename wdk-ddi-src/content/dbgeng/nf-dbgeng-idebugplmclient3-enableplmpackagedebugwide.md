@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6373B8BD-264D-4D03-9FE9-F87E45D617EE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugPlmClient3, dbgeng/IDebugPlmClient3::EnablePlmPackageDebugWide, EnablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3::EnablePlmPackageDebugWide, EnablePlmPackageDebugWide, IDebugPlmClient3 interface [Windows Debugging], EnablePlmPackageDebugWide method, EnablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_enableplmpackagedebugwide
+ms.keywords: ",  , ,, ., 3, :, C, D, E, EnablePlmPackageDebugWide method [Windows Debugging], EnablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, EnablePlmPackageDebugWide,IDebugPlmClient3.EnablePlmPackageDebugWide, I, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], EnablePlmPackageDebugWide method, IDebugPlmClient3::EnablePlmPackageDebugWide, P, W, a, b, c, d, dbgeng/IDebugPlmClient3::EnablePlmPackageDebugWide, debugger.idebugplmclient3_enableplmpackagedebugwide, e, g, i, k, l, m, n, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

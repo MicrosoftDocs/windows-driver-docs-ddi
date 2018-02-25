@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DEVICE_CAPABILITIES, kernel.device_capabilities, _DEVICE_CAPABILITIES, wdm/PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], wdm/DEVICE_CAPABILITIES, kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , ,, A, B, C, D, DEVICE_CAPABILITIES, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], E, I, L, P, PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], S, T, V, _, _DEVICE_CAPABILITIES, kernel.device_capabilities, kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, wdm/DEVICE_CAPABILITIES, wdm/PDEVICE_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -348,11 +348,11 @@ For more information about using the <b>DEVICE_CAPABILITIES</b> structure to des
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
 
 
 

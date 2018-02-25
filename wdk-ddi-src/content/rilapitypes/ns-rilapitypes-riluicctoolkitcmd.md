@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d5a50ec7-6b25-4854-9dca-dcd868816735
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILUICCTOOLKITCMD, rilapitypes/RILUICCTOOLKITCMD, RILUICCTOOLKITCMD, RILUICCTOOLKITCMD structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitcmd_2"
+ms.keywords: ",  , *, *LPRILUICCTOOLKITCMD, ,, C, D, I, K, L, M, O, P, R, RILUICCTOOLKITCMD, RILUICCTOOLKITCMD structure [Network Drivers Starting with Windows Vista], T, U, netvista.riluicctoolkitcmd_2, rilapitypes/RILUICCTOOLKITCMD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 822819CE-DF40-4AFD-966A-DA5C433646D7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dwddm1_3ddi_d3d11_options_data1, d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure [Display Devices]
+ms.keywords: ",  , ,, 1, 3, A, D, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure [Display Devices], I, M, N, O, P, S, T, W, _, d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, display.d3dwddm1_3ddi_d3d11_options_data1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

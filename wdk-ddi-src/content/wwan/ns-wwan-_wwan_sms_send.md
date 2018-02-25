@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2d2e5d13-56ca-452c-86fd-4a48b11d53ab
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanRef_5212cb88-8eeb-4aef-8ecd-8a0634db962c.xml, wwan/WWAN_SMS_SEND, wwan/PWWAN_SMS_SEND, WWAN_SMS_SEND, PWWAN_SMS_SEND, *PWWAN_SMS_SEND, netvista.wwan_sms_send, WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SMS_SEND
+ms.keywords: ",  , *, *PWWAN_SMS_SEND, ,, A, D, E, M, N, P, PWWAN_SMS_SEND, PWWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], S, W, WWAN_SMS_SEND, WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], WwanRef_5212cb88-8eeb-4aef-8ecd-8a0634db962c.xml, _, _WWAN_SMS_SEND, netvista.wwan_sms_send, wwan/PWWAN_SMS_SEND, wwan/WWAN_SMS_SEND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -156,7 +156,7 @@ Cdma
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_pdu.md">WWAN_SMS_SEND_PDU</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
 
 
 
@@ -164,7 +164,7 @@ Cdma
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_send_pdu.md">WWAN_SMS_SEND_PDU</a>
 
 
 

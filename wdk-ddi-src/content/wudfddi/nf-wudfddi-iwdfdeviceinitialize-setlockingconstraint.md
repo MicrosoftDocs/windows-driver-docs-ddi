@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0062ad4-6666-49db-9d53-70f2ed2353d1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDeviceInitialize::SetLockingConstraint, SetLockingConstraint method, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, SetLockingConstraint method, IWDFDeviceInitialize interface, IWDFDeviceInitialize, IWDFDeviceInitialize interface, SetLockingConstraint method, SetLockingConstraint, umdf.iwdfdeviceinitialize_setlockingconstraint, wudfddi/IWDFDeviceInitialize::SetLockingConstraint, wdf.iwdfdeviceinitialize_setlockingconstraint
+ms.keywords: ",  , ,, ., :, C, D, F, I, IWDFDeviceInitialize, IWDFDeviceInitialize interface, SetLockingConstraint method, IWDFDeviceInitialize::SetLockingConstraint, L, S, SetLockingConstraint method, SetLockingConstraint method, IWDFDeviceInitialize interface, SetLockingConstraint,IWDFDeviceInitialize.SetLockingConstraint, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, W, a, c, e, g, i, k, l, n, o, r, s, t, umdf.iwdfdeviceinitialize_setlockingconstraint, v, wdf.iwdfdeviceinitialize_setlockingconstraint, wudfddi/IWDFDeviceInitialize::SetLockingConstraint, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,11 +101,11 @@ For a code example of how to use the <b>SetLockingConstraint</b> method, see <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 

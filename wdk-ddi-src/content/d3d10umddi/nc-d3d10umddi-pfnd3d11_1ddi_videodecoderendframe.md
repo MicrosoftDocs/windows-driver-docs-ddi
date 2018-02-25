@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f0110435-d060-4f4b-ad29-baaeb8fc2e0e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videodecoderendframe, pfnVideoDecoderEndFrame callback function [Display Devices], pfnVideoDecoderEndFrame, PFND3D11_1DDI_VIDEODECODERENDFRAME, PFND3D11_1DDI_VIDEODECODERENDFRAME, d3d10umddi/pfnVideoDecoderEndFrame
+ms.keywords: PFND3D11_1DDI_VIDEODECODERENDFRAME, d3d10umddi/pfnVideoDecoderEndFrame, display.videodecoderendframe, pfnVideoDecoderEndFrame, pfnVideoDecoderEndFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -119,11 +119,11 @@ The <b>VideoDecoderEndFrame</b> completes the decoding operation that was starte
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
 
 
 

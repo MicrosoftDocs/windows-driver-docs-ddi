@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: be682bc7-61cb-40bd-920d-bc2224d6e426
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_Link_EventInfo structure [Storage Devices], HBA_Link_EventInfo, HBA_LINK_EVENTINFO structure [Storage Devices], PHBA_LINK_EVENTINFO structure pointer [Storage Devices], structs-Fibre_eb994375-ebac-41f5-af82-341f14400b1f.xml, hbaapi/PHBA_LINK_EVENTINFO, storage.hba_link_eventinfo, PHBA_LINK_EVENTINFO, *PHBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO, hbaapi/HBA_Link_EventInfo
+ms.keywords: ",  , *, *PHBA_LINK_EVENTINFO, ,, A, B, E, F, H, HBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO structure [Storage Devices], HBA_Link_EventInfo, HBA_Link_EventInfo structure [Storage Devices], I, K, L, N, O, P, PHBA_LINK_EVENTINFO, PHBA_LINK_EVENTINFO structure pointer [Storage Devices], T, V, _, e, f, hbaapi/HBA_Link_EventInfo, hbaapi/PHBA_LINK_EVENTINFO, i, k, n, o, storage.hba_link_eventinfo, structs-Fibre_eb994375-ebac-41f5-af82-341f14400b1f.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ Reserved.
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a>
 
 
 

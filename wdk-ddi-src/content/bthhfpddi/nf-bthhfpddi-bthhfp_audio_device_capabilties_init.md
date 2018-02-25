@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c00b8f19-6708-4ec2-928b-610158850247
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], audio.bthhfp_audio_device_capabilties_init
+ms.keywords: ",  , A, B, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], C, D, E, F, H, I, L, N, O, P, S, T, U, V, _, audio.bthhfp_audio_device_capabilties_init, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

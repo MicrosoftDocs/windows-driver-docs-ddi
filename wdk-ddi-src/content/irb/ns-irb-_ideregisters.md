@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, storage.ideregisters, irb/PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], PIDEREGISTERS, *PIDEREGISTERS, _IDEREGISTERS, irb/IDEREGISTERS, IDEREGISTERS structure [Storage Devices], IDEREGISTERS
+ms.keywords: ",  , *, *PIDEREGISTERS, ,, D, E, G, I, IDEREGISTERS, IDEREGISTERS structure [Storage Devices], P, PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], R, S, T, _, _IDEREGISTERS, irb/IDEREGISTERS, irb/PIDEREGISTERS, storage.ideregisters, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

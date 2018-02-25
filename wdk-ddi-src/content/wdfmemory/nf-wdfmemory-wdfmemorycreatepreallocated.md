@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8c4f9abc-f03d-4084-b0ce-34aea5dd7d96
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfmemorycreatepreallocated, wdfmemory/WdfMemoryCreatePreallocated, DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, kmdf.wdfmemorycreatepreallocated, WdfMemoryCreatePreallocated, WdfMemoryCreatePreallocated method
+ms.keywords: ",  , C, DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, M, P, W, WdfMemoryCreatePreallocated, WdfMemoryCreatePreallocated method, a, c, d, e, f, kmdf.wdfmemorycreatepreallocated, l, m, o, r, t, wdf.wdfmemorycreatepreallocated, wdfmemory/WdfMemoryCreatePreallocated, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -199,15 +199,11 @@ status = WdfMemoryCreatePreallocated(
 
 ## -see-also
 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemoryassignbuffer.md">WdfMemoryAssignBuffer</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
@@ -215,11 +211,15 @@ status = WdfMemoryCreatePreallocated(
 
 
 
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

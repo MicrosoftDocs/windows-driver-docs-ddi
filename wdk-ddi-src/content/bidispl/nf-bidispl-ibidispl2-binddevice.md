@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c5bd238d-4b85-4463-aa73-ff3a7798ccff
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BindDevice, gdi.ibidispl2_ibidispl2__binddevice, BindDevice method [Print Devices], IBidiSpl2 interface, BindDevice method [Print Devices], bidispl/IBidiSpl2::BindDevice, IBidiSpl2, _win32_IBidiSpl2_BindDevice, IBidiSpl2 interface [Print Devices], BindDevice method, BIDI_ACCESS_USER, IBidiSpl2::BindDevice, print.ibidispl2_ibidispl2__binddevice
+ms.keywords: ",  , ,, ., 2, :, B, BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice method [Print Devices], BindDevice method [Print Devices], IBidiSpl2 interface, BindDevice,IBidiSpl2.BindDevice, D, I, IBidiSpl2, IBidiSpl2 interface [Print Devices], BindDevice method, IBidiSpl2::BindDevice, S, _win32_IBidiSpl2_BindDevice, bidispl/IBidiSpl2::BindDevice, c, d, e, gdi.ibidispl2_ibidispl2__binddevice, i, l, n, p, print.ibidispl2_ibidispl2__binddevice, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,7 +158,7 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
@@ -174,7 +174,7 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 

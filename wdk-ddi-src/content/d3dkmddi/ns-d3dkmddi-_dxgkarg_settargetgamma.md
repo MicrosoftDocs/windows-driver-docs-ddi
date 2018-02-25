@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94BA40BD-3B56-44EF-BAD4-49556E68C550
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PDXGKARG_SETTARGETGAMMA structure pointer [Display Devices], DXGKARG_SETTARGETGAMMA, d3dkmddi/DXGKARG_SETTARGETGAMMA, display.dxgkarg_settargetgamma, PDXGKARG_SETTARGETGAMMA, _DXGKARG_SETTARGETGAMMA, d3dkmddi/PDXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA structure [Display Devices]
+ms.keywords: ",  , ,, A, D, DXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA structure [Display Devices], E, G, K, M, PDXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA structure pointer [Display Devices], R, S, T, X, _, _DXGKARG_SETTARGETGAMMA, d3dkmddi/DXGKARG_SETTARGETGAMMA, d3dkmddi/PDXGKARG_SETTARGETGAMMA, display.dxgkarg_settargetgamma"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

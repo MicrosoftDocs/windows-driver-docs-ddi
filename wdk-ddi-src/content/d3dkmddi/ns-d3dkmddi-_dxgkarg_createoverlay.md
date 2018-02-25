@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f95ef083-2b2f-4e13-ad60-6bc7da0fec33
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY structure [Display Devices], display.dxgkarg_createoverlay, DXGKARG_CREATEOVERLAY, DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, d3dkmddi/DXGKARG_CREATEOVERLAY, *INOUT_PDXGKARG_CREATEOVERLAY"
+ms.keywords: ",  , *, *INOUT_PDXGKARG_CREATEOVERLAY, ,, A, C, D, DXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY structure [Display Devices], DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, E, G, I, K, L, N, O, P, R, T, U, V, X, Y, _, _DXGKARG_CREATEOVERLAY, d3dkmddi/DXGKARG_CREATEOVERLAY, display.dxgkarg_createoverlay"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ typedef struct _DXGKARG_CREATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_overlayinfo.md">DXGK_OVERLAYINFO</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10f01d72-25cc-4a5a-b6e3-8475f09b12e4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PCIP_HDR2_FDF structure pointer [Streaming Media Devices], _CIP_HDR2_FDF, PCIP_HDR2_FDF, CIP_HDR2_FDF, avcsref_47436092-ff0a-4bd4-97f2-a241da9f328a.xml, avcstrm/CIP_HDR2_FDF, avcstrm/PCIP_HDR2_FDF, stream.cip_hdr2_fdf, *PCIP_HDR2_FDF, CIP_HDR2_FDF structure [Streaming Media Devices]
+ms.keywords: ",  , *, *PCIP_HDR2_FDF, ,, 2, C, CIP_HDR2_FDF, CIP_HDR2_FDF structure [Streaming Media Devices], D, F, H, I, P, PCIP_HDR2_FDF, PCIP_HDR2_FDF structure pointer [Streaming Media Devices], R, _, _CIP_HDR2_FDF, avcsref_47436092-ff0a-4bd4-97f2-a241da9f328a.xml, avcstrm/CIP_HDR2_FDF, avcstrm/PCIP_HDR2_FDF, stream.cip_hdr2_fdf"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

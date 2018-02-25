@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: daf84d1a-d499-4a6e-be87-39fd16f3d87d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IXpsRasterizer interface [Print Devices], SetMinimalLineWidth method, print.ixpsrasterizer_setminimallinewidth, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, IXpsRasterizer, IXpsRasterizer::SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], IXpsRasterizer interface, SetMinimalLineWidth method [Print Devices], SetMinimalLineWidth
+ms.keywords: ",  , ,, ., :, I, IXpsRasterizer, IXpsRasterizer interface [Print Devices], SetMinimalLineWidth method, IXpsRasterizer::SetMinimalLineWidth, L, M, R, S, SetMinimalLineWidth method [Print Devices], SetMinimalLineWidth method [Print Devices], IXpsRasterizer interface, SetMinimalLineWidth,IXpsRasterizer.SetMinimalLineWidth, W, X, a, d, e, h, i, l, m, n, p, print.ixpsrasterizer_setminimallinewidth, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, r, s, t, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,11 +93,11 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 ## -see-also
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
 
 
@@ -105,11 +105,11 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
 
 
 

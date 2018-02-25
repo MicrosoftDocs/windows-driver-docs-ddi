@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D2A8A131-E839-40E2-8897-DA74F7BA0FA8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ibidiasyncnotifychannel_asyncclosechannel, prnasntp/IBidiAsyncNotifyChannel::AsyncCloseChannel, AsyncCloseChannel method [Print Devices], IBidiAsyncNotifyChannel interface, AsyncCloseChannel method [Print Devices], AsyncCloseChannel, IBidiAsyncNotifyChannel interface [Print Devices], AsyncCloseChannel method, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel::AsyncCloseChannel
+ms.keywords: ",  , ,, ., :, A, AsyncCloseChannel method [Print Devices], AsyncCloseChannel method [Print Devices], IBidiAsyncNotifyChannel interface, AsyncCloseChannel,IBidiAsyncNotifyChannel.AsyncCloseChannel, B, C, I, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], AsyncCloseChannel method, IBidiAsyncNotifyChannel::AsyncCloseChannel, N, a, c, d, e, f, h, i, l, n, o, print.ibidiasyncnotifychannel_asyncclosechannel, prnasntp/IBidiAsyncNotifyChannel::AsyncCloseChannel, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e5dcb46e-5a8a-45b7-b6aa-150a9cec0155
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providersetobject, ProviderSetObject callback function [Network Drivers Starting with Windows Vista], ProviderSetObject, IF_SET_OBJECT, IF_SET_OBJECT, ndis/ProviderSetObject, *IFP_SET_OBJECT callback function [Network Drivers Starting with Windows Vista], *IFP_SET_OBJECT, net_if_provider_functions_ref_8da505c4-dd64-43c8-a6a4-ad13cc4b18d0.xml
+ms.keywords: "*IFP_SET_OBJECT, *IFP_SET_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_SET_OBJECT, ProviderSetObject, ProviderSetObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderSetObject, net_if_provider_functions_ref_8da505c4-dd64-43c8-a6a4-ad13cc4b18d0.xml, netvista.providersetobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

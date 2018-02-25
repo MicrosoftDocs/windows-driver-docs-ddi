@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FE6DA52C-6EE3-450E-A559-A7BCE47FA327
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_bandmgmt_set_band_location, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control code [Storage Devices], IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, storage.ioctl_ehstor_bandmgmt_set_band_location
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DXVA_VideoSample32
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -164,11 +164,11 @@ If <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOC
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
-
-
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_location_parameters.md">SET_BAND_LOCATION_PARAMETERS</a>
+
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
 
 
 

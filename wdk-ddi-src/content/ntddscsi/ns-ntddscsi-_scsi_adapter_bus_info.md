@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 786d6813-a9f3-437e-9b41-d69e0fce9a4c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml, _SCSI_ADAPTER_BUS_INFO, ntddscsi/PSCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO, storage.scsi_adapter_bus_info, ntddscsi/SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], SCSI_ADAPTER_BUS_INFO structure [Storage Devices], PSCSI_ADAPTER_BUS_INFO
+ms.keywords: ",  , *, *PSCSI_ADAPTER_BUS_INFO, ,, A, B, C, D, E, F, I, N, O, P, PSCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], R, S, SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO structure [Storage Devices], T, U, _, _SCSI_ADAPTER_BUS_INFO, ntddscsi/PSCSI_ADAPTER_BUS_INFO, ntddscsi/SCSI_ADAPTER_BUS_INFO, storage.scsi_adapter_bus_info, structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,11 +139,11 @@ You must use <b>NextInquiryDataOffset</b> member to locate the inquiry data for 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_inquiry_data.md">SCSI_INQUIRY_DATA</a>
-
-
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_inquiry_data.md">SCSI_INQUIRY_DATA</a>
 
 
 

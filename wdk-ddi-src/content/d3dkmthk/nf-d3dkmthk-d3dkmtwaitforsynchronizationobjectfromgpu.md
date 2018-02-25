@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93705446-8B87-46DD-9CFE-DD0473DEE6B6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTWaitForSynchronizationObjectFromGpu, display.d3dkmtwaitforsynchronizationobjectfromgpu, D3DKMTWaitForSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromGpu
+ms.keywords: ",  , 3, D, D3DKMTWaitForSynchronizationObjectFromGpu, D3DKMTWaitForSynchronizationObjectFromGpu function [Display Devices], F, G, K, M, O, S, T, W, a, b, c, d3dkmthk/D3DKMTWaitForSynchronizationObjectFromGpu, display.d3dkmtwaitforsynchronizationobjectfromgpu, e, h, i, j, m, n, o, p, r, t, u, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,7 +135,7 @@ This function semantics are similar to existing <a href="..\d3dkmthk\nf-d3dkmthk
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromgpu.md">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a>
 
 
 
@@ -143,7 +143,7 @@ This function semantics are similar to existing <a href="..\d3dkmthk\nf-d3dkmthk
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromgpu.md">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</a>
 
 
 

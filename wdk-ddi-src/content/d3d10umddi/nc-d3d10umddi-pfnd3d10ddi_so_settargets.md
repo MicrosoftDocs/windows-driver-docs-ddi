@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 96f1c439-7323-456e-8c9c-793d8e0973d9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.sosettargets, SoSetTargets callback function [Display Devices], SoSetTargets, PFND3D10DDI_SO_SETTARGETS, PFND3D10DDI_SO_SETTARGETS, d3d10umddi/SoSetTargets, UserModeDisplayDriverDx10_Functions_02cc8776-273f-4442-93da-34c2df9746ee.xml
+ms.keywords: PFND3D10DDI_SO_SETTARGETS, SoSetTargets, SoSetTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_02cc8776-273f-4442-93da-34c2df9746ee.xml, d3d10umddi/SoSetTargets, display.sosettargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -140,11 +140,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

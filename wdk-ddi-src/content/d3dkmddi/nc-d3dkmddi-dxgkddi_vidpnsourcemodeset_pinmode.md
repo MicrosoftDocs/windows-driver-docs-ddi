@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14bbdc35-e633-49a5-bdf0-6b60d330ca8e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_vidpnsourcemodeset_interface_pfnpinmode, pfnPinMode callback function [Display Devices], pfnPinMode, DXGKDDI_VIDPNSOURCEMODESET_PINMODE, DXGKDDI_VIDPNSOURCEMODESET_PINMODE, d3dkmddi/pfnPinMode, VidPnFunctions_7fb0636b-da59-4451-8cf2-57b944629499.xml
+ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_PINMODE, VidPnFunctions_7fb0636b-da59-4451-8cf2-57b944629499.xml, d3dkmddi/pfnPinMode, display.dxgk_vidpnsourcemodeset_interface_pfnpinmode, pfnPinMode, pfnPinMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

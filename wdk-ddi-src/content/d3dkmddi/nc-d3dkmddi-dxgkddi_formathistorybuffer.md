@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84417629-5C12-4CB5-B147-0A558A4F9090
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiformathistorybuffer, DxgkDdiFormatHistoryBuffer callback function [Display Devices], DxgkDdiFormatHistoryBuffer, DXGKDDI_FORMATHISTORYBUFFER, DXGKDDI_FORMATHISTORYBUFFER, d3dkmddi/DxgkDdiFormatHistoryBuffer
+ms.keywords: DXGKDDI_FORMATHISTORYBUFFER, DxgkDdiFormatHistoryBuffer, DxgkDdiFormatHistoryBuffer callback function [Display Devices], d3dkmddi/DxgkDdiFormatHistoryBuffer, display.dxgkddiformathistorybuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

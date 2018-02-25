@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aeb088f3-92c3-4619-9c3b-756bd70307e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoGetDeviceObjectPointer routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceObjectPointer, kernel.iogetdeviceobjectpointer, IoGetDeviceObjectPointer, k104_c57b87e5-8316-4c45-a245-0fe7592c3471.xml
+ms.keywords: ",  , D, G, I, IoGetDeviceObjectPointer, IoGetDeviceObjectPointer routine [Kernel-Mode Driver Architecture], O, P, b, c, e, i, j, k104_c57b87e5-8316-4c45-a245-0fe7592c3471.xml, kernel.iogetdeviceobjectpointer, n, o, r, t, v, wdm/IoGetDeviceObjectPointer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,15 +129,7 @@ Callers of <b>IoGetDeviceObjectPointer</b> must be running at IRQL = PASSIVE_LEV
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 
 
@@ -145,11 +137,7 @@ Callers of <b>IoGetDeviceObjectPointer</b> must be running at IRQL = PASSIVE_LEV
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
@@ -158,6 +146,18 @@ Callers of <b>IoGetDeviceObjectPointer</b> must be running at IRQL = PASSIVE_LEV
 
 
 <a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 

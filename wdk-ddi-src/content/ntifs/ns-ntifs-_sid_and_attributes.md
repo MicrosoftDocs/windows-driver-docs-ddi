@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 37c299ab-16a6-4fa2-8ac9-55d75cc98f60
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PSID_AND_ATTRIBUTES, ntifs/SID_AND_ATTRIBUTES, securitystructures_b0075789-13b6-4324-965b-33a162bff18b.xml, *PSID_AND_ATTRIBUTES, _SID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES structure pointer [Installable File System Drivers], SID_AND_ATTRIBUTES structure [Installable File System Drivers], PSID_AND_ATTRIBUTES, ifsk.sid_and_attributes, SID_AND_ATTRIBUTES
+ms.keywords: ",  , *, *PSID_AND_ATTRIBUTES, ,, A, B, D, E, I, N, P, PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES structure pointer [Installable File System Drivers], R, S, SID_AND_ATTRIBUTES, SID_AND_ATTRIBUTES structure [Installable File System Drivers], T, U, _, _SID_AND_ATTRIBUTES, ifsk.sid_and_attributes, ntifs/PSID_AND_ATTRIBUTES, ntifs/SID_AND_ATTRIBUTES, securitystructures_b0075789-13b6-4324-965b-33a162bff18b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,7 +93,7 @@ A group is represented by a SID. SIDs have attributes that indicate whether they
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
+<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
 
 
 
@@ -101,7 +101,7 @@ A group is represented by a SID. SIDs have attributes that indicate whether they
 
 
 
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B887CCD2-0747-483E-A4CF-632471AB19A2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugplmclient3_suspendplmpackagewide, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], SuspendPlmPackageWide method, IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging]
+ms.keywords: ",  , ,, ., 3, :, C, D, I, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], SuspendPlmPackageWide method, IDebugPlmClient3::SuspendPlmPackageWide, P, S, SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, SuspendPlmPackageWide,IDebugPlmClient3.SuspendPlmPackageWide, W, a, b, c, d, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, debugger.idebugplmclient3_suspendplmpackagewide, e, g, i, k, l, m, n, p, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

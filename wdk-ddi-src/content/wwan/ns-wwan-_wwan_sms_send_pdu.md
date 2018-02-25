@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 94d19d5b-8fa5-437d-9359-e35ef103f380
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_SMS_SEND_PDU structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_SEND_PDU structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_sms_send_pdu, WWAN_SMS_SEND_PDU, WwanRef_5994a030-78ea-42c2-913a-1b2a9fcc2ea4.xml, wwan/PWWAN_SMS_SEND_PDU, _WWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU, wwan/WWAN_SMS_SEND_PDU
+ms.keywords: ",  , *, *PWWAN_SMS_SEND_PDU, ,, A, D, E, M, N, P, PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU structure pointer [Network Drivers Starting with Windows Vista], S, U, W, WWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU structure [Network Drivers Starting with Windows Vista], WwanRef_5994a030-78ea-42c2-913a-1b2a9fcc2ea4.xml, _, _WWAN_SMS_SEND_PDU, netvista.wwan_sms_send_pdu, wwan/PWWAN_SMS_SEND_PDU, wwan/WWAN_SMS_SEND_PDU"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

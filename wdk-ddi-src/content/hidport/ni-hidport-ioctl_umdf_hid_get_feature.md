@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F22C5B0D-2E8B-4837-AC10-B3CEE56A336D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_umdf_hid_get_feature, IOCTL_UMDF_HID_GET_FEATURE control code, IOCTL_UMDF_HID_GET_FEATURE, hidport/IOCTL_UMDF_HID_GET_FEATURE, umdf.ioctl_umdf_hid_get_feature
+ms.keywords: IOCTL_UMDF_HID_GET_FEATURE, IOCTL_UMDF_HID_GET_FEATURE control code, hid.ioctl_umdf_hid_get_feature, hidport/IOCTL_UMDF_HID_GET_FEATURE, umdf.ioctl_umdf_hid_get_feature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

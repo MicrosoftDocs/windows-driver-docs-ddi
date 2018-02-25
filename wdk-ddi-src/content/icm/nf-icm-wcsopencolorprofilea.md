@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WcsOpenColorProfileW, WcsOpenColorProfileA, icm/WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, WcsOpenColorProfile, print.wcsopencolorprofile
+ms.keywords: ",  , A, C, O, P, W, WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, c, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, e, f, i, icm/WcsOpenColorProfile, l, n, o, p, print.wcsopencolorprofile, r, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

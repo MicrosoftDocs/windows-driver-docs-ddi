@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 31bfa863-459f-4fb2-af41-2d40d0396dd7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PHIDD_ATTRIBUTES structure pointer [Human Input Devices], HIDD_ATTRIBUTES structure [Human Input Devices], hidsdi/HIDD_ATTRIBUTES, hidstrct_450ed87e-655a-414d-b24a-8b1aec7564b8.xml, hidsdi/PHIDD_ATTRIBUTES, _HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES, HIDD_ATTRIBUTES, PHIDD_ATTRIBUTES, hid.hidd_attributes
+ms.keywords: ",  , *, *PHIDD_ATTRIBUTES, ,, A, B, D, E, H, HIDD_ATTRIBUTES, HIDD_ATTRIBUTES structure [Human Input Devices], I, P, PHIDD_ATTRIBUTES, PHIDD_ATTRIBUTES structure pointer [Human Input Devices], R, S, T, U, _, _HIDD_ATTRIBUTES, hid.hidd_attributes, hidsdi/HIDD_ATTRIBUTES, hidsdi/PHIDD_ATTRIBUTES, hidstrct_450ed87e-655a-414d-b24a-8b1aec7564b8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

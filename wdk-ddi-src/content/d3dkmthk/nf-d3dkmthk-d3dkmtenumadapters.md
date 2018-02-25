@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTEnumAdapters, PFND3DKMT_ENUMADAPTERS, d3dkmthk/D3DKMTEnumAdapters, display.d3dkmtenumadapters, D3DKMTEnumAdapters function [Display Devices]
+ms.keywords: ",  , 3, A, D, D3DKMTEnumAdapters, D3DKMTEnumAdapters function [Display Devices], E, K, M, PFND3DKMT_ENUMADAPTERS, T, a, d, d3dkmthk/D3DKMTEnumAdapters, display.d3dkmtenumadapters, e, m, n, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

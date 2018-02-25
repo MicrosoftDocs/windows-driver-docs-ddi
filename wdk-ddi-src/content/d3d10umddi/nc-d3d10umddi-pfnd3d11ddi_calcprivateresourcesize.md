@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b3a2571-012e-4acd-b836-f52e7b88a2fb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.calcprivateresourcesize_d3d11_, CalcPrivateResourceSize callback function [Display Devices], CalcPrivateResourceSize, PFND3D11DDI_CALCPRIVATERESOURCESIZE, PFND3D11DDI_CALCPRIVATERESOURCESIZE, d3d10umddi/CalcPrivateResourceSize, UserModeDisplayDriverDx11_Functions_85fd70d1-91ec-4b9d-b379-18b5d3d43e67.xml
+ms.keywords: CalcPrivateResourceSize, CalcPrivateResourceSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATERESOURCESIZE, UserModeDisplayDriverDx11_Functions_85fd70d1-91ec-4b9d-b379-18b5d3d43e67.xml, d3d10umddi/CalcPrivateResourceSize, display.calcprivateresourcesize_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,11 +104,11 @@ SIZE_T APIENTRY CalcPrivateResourceSize(
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createresource.md">D3D11DDIARG_CREATERESOURCE</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
 
 

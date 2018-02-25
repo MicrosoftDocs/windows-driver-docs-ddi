@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fd56c529-c7ad-4fc4-8fcc-950a1e8e21e5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfobjectcreate, WdfObjectCreate, wdfobject/WdfObjectCreate, WdfObjectCreate method, wdf.wdfobjectcreate, DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml
+ms.keywords: ",  , C, DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml, O, W, WdfObjectCreate, WdfObjectCreate method, a, b, c, d, e, f, j, kmdf.wdfobjectcreate, r, t, wdf.wdfobjectcreate, wdfobject/WdfObjectCreate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,7 +130,7 @@ status = WdfObjectCreate(
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
@@ -138,7 +138,7 @@ status = WdfObjectCreate(
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
 

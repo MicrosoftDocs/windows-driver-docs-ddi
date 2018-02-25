@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90d4ce0a-1f36-4f2e-bdbe-5f80c8dfb92a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_CREATEDEVICEFLAGS, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml, display.d3dkmt_createdeviceflags, D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], _D3DKMT_CREATEDEVICEFLAGS
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CREATEDEVICEFLAGS, D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], E, F, G, I, K, L, M, OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml, R, S, T, V, _, _D3DKMT_CREATEDEVICEFLAGS, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, display.d3dkmt_createdeviceflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: D3DKMT_CREATEDEVICEFLAGS
 ## -description
 
 
-The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function.
+The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function.
 
 
 ## -syntax

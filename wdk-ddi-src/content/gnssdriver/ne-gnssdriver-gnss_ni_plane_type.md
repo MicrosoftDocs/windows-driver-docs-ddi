@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F06FFABA-D7AB-4301-9F73-CE4BBB0B8AA6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GNSS_NI_PLANE_TYPE enumeration [Sensor Devices], GNSS_NI_PLANE_TYPE, gnssdriver/GNSS_NI_V2UPL, gnssdriver/GNSS_NI_PLANE_TYPE, GNSS_NI_CP, gnssdriver/GNSS_NI_CP, GNSS_NI_SUPL, sensors.gnss_ni_plane_type, GNSS_NI_V2UPL, gnssdriver/GNSS_NI_SUPL
+ms.keywords: ",  , ,, A, E, G, GNSS_NI_CP, GNSS_NI_PLANE_TYPE, GNSS_NI_PLANE_TYPE enumeration [Sensor Devices], GNSS_NI_SUPL, GNSS_NI_V2UPL, I, L, N, P, S, T, Y, _, gnssdriver/GNSS_NI_CP, gnssdriver/GNSS_NI_PLANE_TYPE, gnssdriver/GNSS_NI_SUPL, gnssdriver/GNSS_NI_V2UPL, sensors.gnss_ni_plane_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a1b8c406-0d83-4145-b2cc-24e1f00ab80b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ioctl_ks_method, IOCTL_KS_METHOD control code [Streaming Media Devices], IOCTL_KS_METHOD, ks/IOCTL_KS_METHOD, ks-ioctl_4e1471f0-3763-4828-9186-7771de6201bd.xml
+ms.keywords: IOCTL_KS_METHOD, IOCTL_KS_METHOD control code [Streaming Media Devices], ks-ioctl_4e1471f0-3763-4828-9186-7771de6201bd.xml, ks/IOCTL_KS_METHOD, stream.ioctl_ks_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames:
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -107,6 +107,10 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+
+
 <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 
@@ -115,15 +119,11 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 
 
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 
 
 <a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 
 

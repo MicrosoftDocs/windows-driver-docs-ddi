@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dfe37343-18a6-46f2-b23f-52fc0ca2f800
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGI_DDI_MODE_SCALING_STRETCHED, display.dxgi_ddi_mode_scaling, DXGI_DDI_MODE_SCALING, dxgiddi/DXGI_DDI_MODE_SCALING_CENTERED, DXGI_DDI_MODE_SCALING_UNSPECIFIED, dxgiddi/DXGI_DDI_MODE_SCALING_UNSPECIFIED, UMDisplayDriver_Dx10param_Structs_fce25008-9fff-4a5a-9bdc-2e9a6055ef06.xml, dxgiddi/DXGI_DDI_MODE_SCALING_STRETCHED, dxgiddi/DXGI_DDI_MODE_SCALING, DXGI_DDI_MODE_SCALING_CENTERED, DXGI_DDI_MODE_SCALING enumeration [Display Devices]
+ms.keywords: ",  , ,, A, C, D, DXGI_DDI_MODE_SCALING, DXGI_DDI_MODE_SCALING enumeration [Display Devices], DXGI_DDI_MODE_SCALING_CENTERED, DXGI_DDI_MODE_SCALING_STRETCHED, DXGI_DDI_MODE_SCALING_UNSPECIFIED, E, G, I, L, M, N, O, S, UMDisplayDriver_Dx10param_Structs_fce25008-9fff-4a5a-9bdc-2e9a6055ef06.xml, X, _, display.dxgi_ddi_mode_scaling, dxgiddi/DXGI_DDI_MODE_SCALING, dxgiddi/DXGI_DDI_MODE_SCALING_CENTERED, dxgiddi/DXGI_DDI_MODE_SCALING_STRETCHED, dxgiddi/DXGI_DDI_MODE_SCALING_UNSPECIFIED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

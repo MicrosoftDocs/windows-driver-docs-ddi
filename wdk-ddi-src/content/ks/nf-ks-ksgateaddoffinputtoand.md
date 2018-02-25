@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 53e03b1d-0995-43cf-945a-22834a9e8240
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsGateAddOffInputToAnd, stream.ksgateaddoffinputtoand, ks/KsGateAddOffInputToAnd, avfunc_52efe27b-d77a-490d-beba-3a05b3d5ed83.xml, KsGateAddOffInputToAnd function [Streaming Media Devices]
+ms.keywords: ",  , A, G, I, K, KsGateAddOffInputToAnd, KsGateAddOffInputToAnd function [Streaming Media Devices], O, T, a, avfunc_52efe27b-d77a-490d-beba-3a05b3d5ed83.xml, d, e, f, ks/KsGateAddOffInputToAnd, n, o, p, s, stream.ksgateaddoffinputtoand, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,7 +96,7 @@ This function should only be used on gates that were specifically created as AND
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 
@@ -108,11 +108,11 @@ This function should only be used on gates that were specifically created as AND
 
 
 
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
+
+
+
 <a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 

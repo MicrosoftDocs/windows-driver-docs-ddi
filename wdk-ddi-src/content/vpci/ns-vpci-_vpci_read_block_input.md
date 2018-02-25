@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8d68231-017a-42fc-ad09-8e7f5cc743d3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], vpci/PVPCI_READ_BLOCK_INPUT, vpci/VPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_READ_BLOCK_INPUT, *PVPCI_READ_BLOCK_INPUT, _VPCI_READ_BLOCK_INPUT, kernel.vpci_read_block_input, PVPCI_READ_BLOCK_INPUT
+ms.keywords: ",  , *, *PVPCI_READ_BLOCK_INPUT, ,, A, B, C, D, E, I, K, L, N, O, P, PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], R, T, U, V, VPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], _, _VPCI_READ_BLOCK_INPUT, kernel.vpci_read_block_input, vpci/PVPCI_READ_BLOCK_INPUT, vpci/VPCI_READ_BLOCK_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

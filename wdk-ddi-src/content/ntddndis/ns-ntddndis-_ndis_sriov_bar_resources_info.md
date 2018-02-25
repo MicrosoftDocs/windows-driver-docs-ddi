@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e5a5ac98-171d-4a31-8bc6-400f613b7dc9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_SRIOV_BAR_RESOURCES_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_BAR_RESOURCES_INFO, ntddndis/NDIS_SRIOV_BAR_RESOURCES_INFO, *PNDIS_SRIOV_BAR_RESOURCES_INFO, netvista.ndis_sriov_bar_resources_info, _NDIS_SRIOV_BAR_RESOURCES_INFO, ntddndis/PNDIS_SRIOV_BAR_RESOURCES_INFO, NDIS_SRIOV_BAR_RESOURCES_INFO, PNDIS_SRIOV_BAR_RESOURCES_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PNDIS_SRIOV_BAR_RESOURCES_INFO, ,, A, B, C, D, E, F, I, N, NDIS_SRIOV_BAR_RESOURCES_INFO, NDIS_SRIOV_BAR_RESOURCES_INFO structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_SRIOV_BAR_RESOURCES_INFO, PNDIS_SRIOV_BAR_RESOURCES_INFO structure pointer [Network Drivers Starting with Windows Vista], R, S, U, V, _, _NDIS_SRIOV_BAR_RESOURCES_INFO, netvista.ndis_sriov_bar_resources_info, ntddndis/NDIS_SRIOV_BAR_RESOURCES_INFO, ntddndis/PNDIS_SRIOV_BAR_RESOURCES_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

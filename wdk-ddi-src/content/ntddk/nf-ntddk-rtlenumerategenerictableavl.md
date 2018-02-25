@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 59EE8C41-1951-4EA7-BE49-B39C15B082E9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlEnumerateGenericTableAvl, RtlEnumerateGenericTableAvl, ifsk.rtlenumerategenerictableavl, RtlEnumerateGenericTableAvl routine [Installable File System Drivers]
+ms.keywords: ",  , A, E, G, R, RtlEnumerateGenericTableAvl, RtlEnumerateGenericTableAvl routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtlenumerategenerictableavl, l, m, n, ntddk/RtlEnumerateGenericTableAvl, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,7 +122,11 @@ Callers of <b>RtlEnumerateGenericTableAvl</b> must be running at IRQL &lt; DISPA
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
 
 
 
@@ -134,11 +138,7 @@ Callers of <b>RtlEnumerateGenericTableAvl</b> must be running at IRQL &lt; DISPA
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
 
 
 

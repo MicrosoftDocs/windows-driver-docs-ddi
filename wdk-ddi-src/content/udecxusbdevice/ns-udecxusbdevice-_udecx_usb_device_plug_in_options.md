@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D09A124A-82F6-4B0A-B60F-E60EB54B0EC1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PUDECX_USB_DEVICE_PLUG_IN_OPTIONS structure pointer [Buses], PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure [Buses], udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, _UDECX_USB_DEVICE_PLUG_IN_OPTIONS, buses.udecx_usb_device_plug_in_options, udecxusbdevice/ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ms.keywords: ",  , *, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, ,, B, C, D, E, G, I, L, N, O, P, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS structure pointer [Buses], S, T, U, UDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure [Buses], V, X, _, _UDECX_USB_DEVICE_PLUG_IN_OPTIONS, buses.udecx_usb_device_plug_in_options, udecxusbdevice/ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

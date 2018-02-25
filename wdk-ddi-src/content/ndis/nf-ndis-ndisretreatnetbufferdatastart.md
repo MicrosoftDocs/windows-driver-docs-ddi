@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4b58a1dc-8a5a-464b-a2a2-deb952febe25
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], netvista.ndisretreatnetbufferdatastart, ndis/NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart
+ms.keywords: ",  , B, D, N, NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], R, S, a, d, e, f, i, ndis/NdisRetreatNetBufferDataStart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, netvista.ndisretreatnetbufferdatastart, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

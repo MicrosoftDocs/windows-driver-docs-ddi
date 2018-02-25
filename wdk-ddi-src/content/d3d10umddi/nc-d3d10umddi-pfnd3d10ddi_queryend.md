@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a231d7e-7e47-40ad-99d1-82661dec41d0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.queryend, QueryEnd callback function [Display Devices], QueryEnd, PFND3D10DDI_QUERYEND, PFND3D10DDI_QUERYEND, d3d10umddi/QueryEnd, UserModeDisplayDriverDx10_Functions_9897bbe4-a58c-430b-815a-eb4360ce8043.xml
+ms.keywords: PFND3D10DDI_QUERYEND, QueryEnd, QueryEnd callback function [Display Devices], UserModeDisplayDriverDx10_Functions_9897bbe4-a58c-430b-815a-eb4360ce8043.xml, d3d10umddi/QueryEnd, display.queryend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -117,15 +117,15 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setpredication.md">SetPredication</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querybegin.md">QueryBegin</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 

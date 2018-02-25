@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d9f3e892-1ed5-4030-a656-7d2d294b1c82
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PFEATURE_DATA_RESTRICTED_OVERWRITE, FEATURE_DATA_RESTRICTED_OVERWRITE structure [Storage Devices], ntddmmc/FEATURE_DATA_RESTRICTED_OVERWRITE, ntddmmc/PFEATURE_DATA_RESTRICTED_OVERWRITE, FEATURE_DATA_RESTRICTED_OVERWRITE, PFEATURE_DATA_RESTRICTED_OVERWRITE structure pointer [Storage Devices], _FEATURE_DATA_RESTRICTED_OVERWRITE, structs-CD-ROM_d2d9725b-16c9-4361-a2fc-90bdc2d7905c.xml, *PFEATURE_DATA_RESTRICTED_OVERWRITE, storage.feature_data_restricted_overwrite
+ms.keywords: ",  , *, *PFEATURE_DATA_RESTRICTED_OVERWRITE, ,, A, C, D, E, F, FEATURE_DATA_RESTRICTED_OVERWRITE, FEATURE_DATA_RESTRICTED_OVERWRITE structure [Storage Devices], I, O, P, PFEATURE_DATA_RESTRICTED_OVERWRITE, PFEATURE_DATA_RESTRICTED_OVERWRITE structure pointer [Storage Devices], R, S, T, U, V, W, _, _FEATURE_DATA_RESTRICTED_OVERWRITE, ntddmmc/FEATURE_DATA_RESTRICTED_OVERWRITE, ntddmmc/PFEATURE_DATA_RESTRICTED_OVERWRITE, storage.feature_data_restricted_overwrite, structs-CD-ROM_d2d9725b-16c9-4361-a2fc-90bdc2d7905c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,11 +85,11 @@ When queried, devices supporting this feature must return the information indica
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 

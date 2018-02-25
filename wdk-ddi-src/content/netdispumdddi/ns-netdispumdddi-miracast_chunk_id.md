@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 30140530-63B6-4FE4-98A4-C6950D7D4D9A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: MIRACAST_CHUNK_ID union [Display Devices], MIRACAST_CHUNK_ID, netdispumdddi/MIRACAST_CHUNK_ID, display.miracast_chunk_id
+ms.keywords: ",  , ,, A, C, D, H, I, K, M, MIRACAST_CHUNK_ID, MIRACAST_CHUNK_ID union [Display Devices], N, R, S, T, U, _, display.miracast_chunk_id, netdispumdddi/MIRACAST_CHUNK_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

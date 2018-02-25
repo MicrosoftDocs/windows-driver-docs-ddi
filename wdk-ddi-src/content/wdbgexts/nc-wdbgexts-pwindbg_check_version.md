@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 82e16423-7e23-4229-9ba6-b43970a1135a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.checkversion, CheckVersion, CheckVersion callback function [Windows Debugging], CheckVersion, PWINDBG_CHECK_VERSION, PWINDBG_CHECK_VERSION, wdbgexts/CheckVersion, WdbgExts_Callbacks_9f917023-190d-4047-a272-7e46de9b5afb.xml
+ms.keywords: CheckVersion, CheckVersion callback function [Windows Debugging], PWINDBG_CHECK_VERSION, WdbgExts_Callbacks_9f917023-190d-4047-a272-7e46de9b5afb.xml, debugger.checkversion, wdbgexts/CheckVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

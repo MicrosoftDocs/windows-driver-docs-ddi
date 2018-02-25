@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 384BE20B-0F40-418D-B24E-9711BF7CE53A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PVHF_CONFIG structure pointer [Human Input Devices], vhf/PVHF_CONFIG, _VHF_CONFIG, VHF_CONFIG, VHF_CONFIG structure [Human Input Devices], *PVHF_CONFIG, PVHF_CONFIG, hid.vhf_config, vhf/VHF_CONFIG
+ms.keywords: ",  , *, *PVHF_CONFIG, ,, C, F, G, H, I, N, O, P, PVHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], V, VHF_CONFIG, VHF_CONFIG structure [Human Input Devices], _, _VHF_CONFIG, hid.vhf_config, vhf/PVHF_CONFIG, vhf/VHF_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

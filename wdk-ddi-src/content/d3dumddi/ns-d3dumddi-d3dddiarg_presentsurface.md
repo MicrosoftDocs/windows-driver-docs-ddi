@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2104BF68-DF35-44DE-AD83-3026FF9314B4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddiarg_presentsurface, D3DDDIARG_PRESENTSURFACE structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTSURFACE, D3DDDIARG_PRESENTSURFACE
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_PRESENTSURFACE, D3DDDIARG_PRESENTSURFACE structure [Display Devices], E, F, G, I, N, P, R, S, T, U, _, d3dumddi/D3DDDIARG_PRESENTSURFACE, display.d3dddiarg_presentsurface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 59E15EAA-4934-48D9-A9E3-7CDEEAE01985
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdffileobject/WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId function, wdf.wdffileobjectgetinitiatorprocessid
+ms.keywords: ",  , F, G, I, O, P, W, WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId function, a, b, c, d, e, f, i, j, l, n, o, r, s, t, wdf.wdffileobjectgetinitiatorprocessid, wdffileobject/WdfFileObjectGetInitiatorProcessId"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f54951fe-c79e-435e-9f31-9c39da26da6c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTOpenAdapterFromHdc function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromHdc, D3DKMTOpenAdapterFromHdc, OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, display.d3dkmtopenadapterfromhdc
+ms.keywords: ",  , 3, A, D, D3DKMTOpenAdapterFromHdc, D3DKMTOpenAdapterFromHdc function [Display Devices], F, H, K, M, O, OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, T, a, c, d, d3dkmthk/D3DKMTOpenAdapterFromHdc, display.d3dkmtopenadapterfromhdc, e, m, n, o, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

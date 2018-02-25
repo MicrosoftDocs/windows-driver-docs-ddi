@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e189d2f6-ef1c-45ed-8b55-8aae0661a426
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest2 interface, GetQueryInformationParameters method, IWDFIoRequest2::GetQueryInformationParameters, wudfddi/IWDFIoRequest2::GetQueryInformationParameters, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, IWDFIoRequest2, GetQueryInformationParameters, GetQueryInformationParameters method, wdf.iwdfiorequest2_getqueryinformationparameters, umdf.iwdfiorequest2_getqueryinformationparameters, GetQueryInformationParameters method, IWDFIoRequest2 interface
+ms.keywords: ",  , ,, ., 2, :, D, F, G, GetQueryInformationParameters method, GetQueryInformationParameters method, IWDFIoRequest2 interface, GetQueryInformationParameters,IWDFIoRequest2.GetQueryInformationParameters, I, IWDFIoRequest2, IWDFIoRequest2 interface, GetQueryInformationParameters method, IWDFIoRequest2::GetQueryInformationParameters, P, Q, R, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, W, a, e, f, i, m, n, o, q, r, s, t, u, umdf.iwdfiorequest2_getqueryinformationparameters, wdf.iwdfiorequest2_getqueryinformationparameters, wudfddi/IWDFIoRequest2::GetQueryInformationParameters, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -178,11 +178,11 @@ exit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559009">IWDFIoRequest2::GetSetInformationParameters</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559009">IWDFIoRequest2::GetSetInformationParameters</a>
 
 
 

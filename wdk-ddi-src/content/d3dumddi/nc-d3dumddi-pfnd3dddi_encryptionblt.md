@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a92bfff7-8af6-48c3-9e7f-95b9426aaaf2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.encryptionblt, EncryptionBlt callback function [Display Devices], EncryptionBlt, PFND3DDDI_ENCRYPTIONBLT, PFND3DDDI_ENCRYPTIONBLT, d3dumddi/EncryptionBlt, UserModeDisplayDriver_Functions_49cc68db-1210-44e5-80f1-347210dc6cf3.xml
+ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3DDDI_ENCRYPTIONBLT, UserModeDisplayDriver_Functions_49cc68db-1210-44e5-80f1-347210dc6cf3.xml, d3dumddi/EncryptionBlt, display.encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

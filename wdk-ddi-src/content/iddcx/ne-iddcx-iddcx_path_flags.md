@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7a9b20a-753c-487d-a2d5-3e1c08317519
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDDCX_PATH_FLAGS_ACTIVE, iddcx/IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS enumeration [Display Devices], IDDCX_PATH_FLAGS_CHANGED, iddcx/IDDCX_PATH_FLAGS_CHANGED, display.iddcx_path_flags, IDDCX_PATH_FLAGS_NONE, iddcx/IDDCX_PATH_FLAGS_ACTIVE, iddcx/IDDCX_PATH_FLAGS_NONE, IDDCX_PATH_FLAGS
+ms.keywords: ",  , A, C, D, F, G, H, I, IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS enumeration [Display Devices], IDDCX_PATH_FLAGS_ACTIVE, IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_NONE, L, P, S, T, X, _, display.iddcx_path_flags, iddcx/IDDCX_PATH_FLAGS, iddcx/IDDCX_PATH_FLAGS_ACTIVE, iddcx/IDDCX_PATH_FLAGS_CHANGED, iddcx/IDDCX_PATH_FLAGS_NONE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

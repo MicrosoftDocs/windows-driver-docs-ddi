@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 012e34c0-3cc6-49dc-94ad-d359d857720f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_request_parameters, WDF_REQUEST_PARAMETERS, wdfrequest/WDF_REQUEST_PARAMETERS, wdfrequest/PWDF_REQUEST_PARAMETERS, kmdf.wdf_request_parameters, DFRequestObjectRef_b3f1759e-7bdd-4222-8aea-502bd45e16bf.xml, PWDF_REQUEST_PARAMETERS, _WDF_REQUEST_PARAMETERS, *PWDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS structure, PWDF_REQUEST_PARAMETERS structure pointer
+ms.keywords: ",  , *, *PWDF_REQUEST_PARAMETERS, ,, A, D, DFRequestObjectRef_b3f1759e-7bdd-4222-8aea-502bd45e16bf.xml, E, F, M, P, PWDF_REQUEST_PARAMETERS, PWDF_REQUEST_PARAMETERS structure pointer, Q, R, S, T, U, W, WDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS structure, _, _WDF_REQUEST_PARAMETERS, kmdf.wdf_request_parameters, wdf.wdf_request_parameters, wdfrequest/PWDF_REQUEST_PARAMETERS, wdfrequest/WDF_REQUEST_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

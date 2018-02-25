@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dd073fde-d2ba-45c0-a52c-22e86718901a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStiDevice, GetLastNotificationData method [Imaging Devices], image.istidevice_getlastnotificationdata, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, IStiDevice interface [Imaging Devices], GetLastNotificationData method, GetLastNotificationData method [Imaging Devices], IStiDevice interface, sti/IStiDevice::GetLastNotificationData, IStiDevice::GetLastNotificationData, GetLastNotificationData
+ms.keywords: ",  , ,, ., :, D, G, GetLastNotificationData method [Imaging Devices], GetLastNotificationData method [Imaging Devices], IStiDevice interface, GetLastNotificationData,IStiDevice.GetLastNotificationData, I, IStiDevice, IStiDevice interface [Imaging Devices], GetLastNotificationData method, IStiDevice::GetLastNotificationData, L, N, S, a, c, e, f, i, image.istidevice_getlastnotificationdata, n, o, s, sti/IStiDevice::GetLastNotificationData, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

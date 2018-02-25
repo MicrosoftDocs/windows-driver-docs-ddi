@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5eb004d1-7cf8-45a3-aad5-2932b1a83bb8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfndataratenotify, pfnDataRateNotify callback function [Display Devices], pfnDataRateNotify, PFN_DATARATE_NOTIFICATION, PFN_DATARATE_NOTIFICATION, netdispumdddi/pfnDataRateNotify
+ms.keywords: PFN_DATARATE_NOTIFICATION, display.pfndataratenotify, netdispumdddi/pfnDataRateNotify, pfnDataRateNotify, pfnDataRateNotify callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,7 +105,7 @@ If data on the quality of service (QoS) of the network connection becomes unavai
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_register_datarate_notifications.md">RegisterForDataRateNotifications</a>
 
 
 
@@ -113,7 +113,7 @@ If data on the quality of service (QoS) of the network connection becomes unavai
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_register_datarate_notifications.md">RegisterForDataRateNotifications</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

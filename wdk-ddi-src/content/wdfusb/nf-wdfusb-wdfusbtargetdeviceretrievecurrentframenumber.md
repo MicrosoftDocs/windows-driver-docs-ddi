@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f73339f-adac-4569-92e7-1b166f93db92
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbTargetDeviceRetrieveCurrentFrameNumber method, wdfusb/WdfUsbTargetDeviceRetrieveCurrentFrameNumber, kmdf.wdfusbtargetdeviceretrievecurrentframenumber, WdfUsbTargetDeviceRetrieveCurrentFrameNumber, DFUsbRef_9dd2f1ce-06f7-43a2-8e65-931c03f69c6e.xml, wdf.wdfusbtargetdeviceretrievecurrentframenumber
+ms.keywords: ",  , C, D, DFUsbRef_9dd2f1ce-06f7-43a2-8e65-931c03f69c6e.xml, F, N, R, T, U, W, WdfUsbTargetDeviceRetrieveCurrentFrameNumber, WdfUsbTargetDeviceRetrieveCurrentFrameNumber method, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdeviceretrievecurrentframenumber, m, n, r, s, t, u, v, wdf.wdfusbtargetdeviceretrievecurrentframenumber, wdfusb/WdfUsbTargetDeviceRetrieveCurrentFrameNumber"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

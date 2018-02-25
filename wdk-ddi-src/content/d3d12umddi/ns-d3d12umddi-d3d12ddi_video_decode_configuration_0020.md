@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D689A7F3-87ED-4247-A28D-333C05C958F8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, display.d3d12ddi_video_decode_configuration, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 structure [Display Devices]
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 structure [Display Devices], E, F, G, I, N, O, R, T, U, V, _, d3d12umddi/D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, display.d3d12ddi_video_decode_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

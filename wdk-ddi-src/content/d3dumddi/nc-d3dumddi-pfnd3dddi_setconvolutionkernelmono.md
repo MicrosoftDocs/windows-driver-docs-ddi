@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b560352f-ca4e-4f03-88ac-13ec080834aa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setconvolutionkernelmono, SetConvolutionKernelMono callback function [Display Devices], SetConvolutionKernelMono, PFND3DDDI_SETCONVOLUTIONKERNELMONO, PFND3DDDI_SETCONVOLUTIONKERNELMONO, d3dumddi/SetConvolutionKernelMono, UserModeDisplayDriver_Functions_488a5fdd-562a-475b-a86d-23d05f35c6dc.xml
+ms.keywords: PFND3DDDI_SETCONVOLUTIONKERNELMONO, SetConvolutionKernelMono, SetConvolutionKernelMono callback function [Display Devices], UserModeDisplayDriver_Functions_488a5fdd-562a-475b-a86d-23d05f35c6dc.xml, d3dumddi/SetConvolutionKernelMono, display.setconvolutionkernelmono
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -168,11 +168,11 @@ alpha = V<sub>f</sub> - truncate(V<sub>f</sub>)
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setconvolutionkernelmono.md">D3DDDIARG_SETCONVOLUTIONKERNELMONO</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setconvolutionkernelmono.md">D3DDDIARG_SETCONVOLUTIONKERNELMONO</a>
 
 
 

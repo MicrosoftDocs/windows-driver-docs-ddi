@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 30687710-A813-4D3C-8612-9236D34EB9EB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTDestroyHwQueue, D3DKMTDestroyHwQueue function [Display Devices], display.d3dkmtdestroyhwqueue, D3DKMTDestroyHwQueue
+ms.keywords: ",  , 3, D, D3DKMTDestroyHwQueue, D3DKMTDestroyHwQueue function [Display Devices], H, K, M, Q, T, d3dkmthk/D3DKMTDestroyHwQueue, display.d3dkmtdestroyhwqueue, e, o, r, s, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

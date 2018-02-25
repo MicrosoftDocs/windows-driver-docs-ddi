@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eeea39eb-898a-47fe-befe-39c95dd1fc90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILREMOTEPARTYINFOVALUEPARAM, RIL_PARAM_RPI_ID, RIL_PARAM_RPI_ADDRESS, RIL_PARAM_RPI_DESCRIPTION, rilapitypes/RIL_PARAM_RPI_DESCRIPTION, RIL_PARAM_RPI_NUM_PRES_IND, rilapitypes/RIL_PARAM_RPI_NAME_PRES_IND, rilapitypes/RIL_PARAM_RPI_ID, RILREMOTEPARTYINFOPARAM, rilapitypes/RIL_PARAM_RPI_NUM_PRES_IND, RIL_PARAM_RPI_ALL, rilapitypes/RILREMOTEPARTYINFOVALUEPARAM, rilapitypes/RIL_PARAM_RPI_SUBADDRESS, netvista.rilremotepartyinfovalueparam_2, RIL_PARAM_RPI_NAME_PRES_IND, RILREMOTEPARTYINFOVALUEPARAM enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_RPI_SUBADDRESS, rilapitypes/RIL_PARAM_RPI_ALL, rilapitypes/RIL_PARAM_RPI_ADDRESS
+ms.keywords: ",  , ,, A, E, F, I, L, M, N, O, P, R, RILREMOTEPARTYINFOPARAM, RILREMOTEPARTYINFOVALUEPARAM, RILREMOTEPARTYINFOVALUEPARAM enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_RPI_ADDRESS, RIL_PARAM_RPI_ALL, RIL_PARAM_RPI_DESCRIPTION, RIL_PARAM_RPI_ID, RIL_PARAM_RPI_NAME_PRES_IND, RIL_PARAM_RPI_NUM_PRES_IND, RIL_PARAM_RPI_SUBADDRESS, T, U, V, Y, netvista.rilremotepartyinfovalueparam_2, rilapitypes/RILREMOTEPARTYINFOVALUEPARAM, rilapitypes/RIL_PARAM_RPI_ADDRESS, rilapitypes/RIL_PARAM_RPI_ALL, rilapitypes/RIL_PARAM_RPI_DESCRIPTION, rilapitypes/RIL_PARAM_RPI_ID, rilapitypes/RIL_PARAM_RPI_NAME_PRES_IND, rilapitypes/RIL_PARAM_RPI_NUM_PRES_IND, rilapitypes/RIL_PARAM_RPI_SUBADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

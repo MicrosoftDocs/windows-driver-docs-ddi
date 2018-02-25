@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 76f17ee0-5b81-4325-a295-4a6982b49b73
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_changer_exchange_medium, IOCTL_CHANGER_EXCHANGE_MEDIUM control code [Storage Devices], IOCTL_CHANGER_EXCHANGE_MEDIUM, ntddchgr/IOCTL_CHANGER_EXCHANGE_MEDIUM, k307_c132f9e2-bb9c-43b7-85c2-644f2b24acea.xml
+ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control code [Storage Devices], k307_c132f9e2-bb9c-43b7-85c2-644f2b24acea.xml, ntddchgr/IOCTL_CHANGER_EXCHANGE_MEDIUM, storage.ioctl_changer_exchange_medium
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

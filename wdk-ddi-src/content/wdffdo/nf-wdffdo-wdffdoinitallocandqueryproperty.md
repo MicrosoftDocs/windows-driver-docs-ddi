@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c275d89-e01d-445b-8c60-ae5268cd28c3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdffdoinitallocandqueryproperty, DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml, wdffdo/WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty method, wdf.wdffdoinitallocandqueryproperty, WdfFdoInitAllocAndQueryProperty
+ms.keywords: ",  , A, DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml, F, I, P, Q, W, WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty method, c, d, e, f, i, kmdf.wdffdoinitallocandqueryproperty, l, n, o, p, r, t, u, wdf.wdffdoinitallocandqueryproperty, wdffdo/WdfFdoInitAllocAndQueryProperty, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

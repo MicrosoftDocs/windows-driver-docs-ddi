@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4fc874ab-b31d-41ae-baeb-18819c4e3970
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wdbgexts/WriteIoSpaceEx64, WriteIoSpaceEx64 function [Windows Debugging], WriteIoSpaceEx64, WdbgExts_Ref_378f5c2e-fcbc-4401-8527-f6e98bfa6257.xml, debugger.writeiospaceex64
+ms.keywords: ",  , 4, 6, E, I, S, W, WdbgExts_Ref_378f5c2e-fcbc-4401-8527-f6e98bfa6257.xml, WriteIoSpaceEx64, WriteIoSpaceEx64 function [Windows Debugging], a, c, debugger.writeiospaceex64, e, i, o, p, r, t, wdbgexts/WriteIoSpaceEx64, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

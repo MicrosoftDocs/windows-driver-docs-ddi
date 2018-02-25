@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc27f7b8-8de0-4eae-a22b-0e5c76378b1a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.riluicclockstate, rilapitypes/RILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], *LPRILUICCLOCKSTATE, RILUICCLOCKSTATE
+ms.keywords: ",  , *, *LPRILUICCLOCKSTATE, ,, A, C, E, I, K, L, O, P, R, RILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.riluicclockstate, rilapitypes/RILUICCLOCKSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

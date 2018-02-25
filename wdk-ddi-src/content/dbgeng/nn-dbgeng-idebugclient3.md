@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 316a4d8b-4cf6-4270-8d9b-e1ede53d567d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugclient3, IDebugClient3 interface [Windows Debugging], IDebugClient3 interface [Windows Debugging], described, IDebugClient3, dbgeng/IDebugClient3
+ms.keywords: IDebugClient3, IDebugClient3 interface [Windows Debugging], IDebugClient3 interface [Windows Debugging], described, dbgeng/IDebugClient3, debugger.idebugclient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -109,15 +109,15 @@ Returns a description of the process that includes the executable image name, th
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

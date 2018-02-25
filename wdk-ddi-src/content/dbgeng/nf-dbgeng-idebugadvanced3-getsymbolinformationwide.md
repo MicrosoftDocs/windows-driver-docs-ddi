@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8fa6a00d-ad4e-47e2-bffe-4d9d70846fd6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetSymbolInformationWide, IDebugAdvanced3::GetSymbolInformationWide, GetSymbolInformationWide method [Windows Debugging], debugger.getsymbolinformationwide, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3
+ms.keywords: ",  , ,, ., 3, :, A, D, G, GetSymbolInformationWide method [Windows Debugging], GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformationWide,IDebugAdvanced3.GetSymbolInformationWide, I, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method, IDebugAdvanced3::GetSymbolInformationWide, S, W, a, b, c, d, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, debugger.getsymbolinformationwide, e, f, g, i, l, m, n, o, r, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

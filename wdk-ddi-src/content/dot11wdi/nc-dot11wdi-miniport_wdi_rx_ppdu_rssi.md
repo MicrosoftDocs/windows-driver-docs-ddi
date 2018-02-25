@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 34C34C42-E5E1-44F6-AC81-ADC77206DED0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdirxppdurssi, MiniportWdiRxPpduRssi callback function [Network Drivers Starting with Windows Vista], MiniportWdiRxPpduRssi, MINIPORT_WDI_RX_PPDU_RSSI, MINIPORT_WDI_RX_PPDU_RSSI, dot11wdi/MiniportWdiRxPpduRssi
+ms.keywords: MINIPORT_WDI_RX_PPDU_RSSI, MiniportWdiRxPpduRssi, MiniportWdiRxPpduRssi callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxPpduRssi, netvista.miniportwdirxppdurssi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -106,15 +106,15 @@ This callback function does not return a value.
 
 
 
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 

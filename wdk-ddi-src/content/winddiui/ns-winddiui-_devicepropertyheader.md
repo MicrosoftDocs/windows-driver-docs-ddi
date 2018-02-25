@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f1b9cd2f-fa5b-4f34-a237-06d00badf1d1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml, PDEVICEPROPERTYHEADER structure pointer [Print Devices], DEVICEPROPERTYHEADER, print.devicepropertyheader, winddiui/PDEVICEPROPERTYHEADER, *PDEVICEPROPERTYHEADER, winddiui/DEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER structure [Print Devices], PDEVICEPROPERTYHEADER, _DEVICEPROPERTYHEADER
+ms.keywords: ",  , *, *PDEVICEPROPERTYHEADER, ,, A, C, D, DEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER structure [Print Devices], E, H, I, O, P, PDEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER structure pointer [Print Devices], R, T, V, Y, _, _DEVICEPROPERTYHEADER, print.devicepropertyheader, print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml, winddiui/DEVICEPROPERTYHEADER, winddiui/PDEVICEPROPERTYHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

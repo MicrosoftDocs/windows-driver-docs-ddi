@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: AEEB014C-653F-459A-A04A-6E0732E8E5B0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.ioctl_gnss_respond_ni, IOCTL_GNSS_RESPOND_NI control code [Sensor Devices], IOCTL_GNSS_RESPOND_NI, gnssdriver/IOCTL_GNSS_RESPOND_NI
+ms.keywords: IOCTL_GNSS_RESPOND_NI, IOCTL_GNSS_RESPOND_NI control code [Sensor Devices], gnssdriver/IOCTL_GNSS_RESPOND_NI, sensors.ioctl_gnss_respond_ni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -139,11 +139,7 @@ It is the GNSS driver’s responsibility to pass the user’s response, containe
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -151,7 +147,11 @@ It is the GNSS driver’s responsibility to pass the user’s response, containe
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d1043d5b-6f2c-4c2f-894a-ae6870865257
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D10_DDI_DEPTH_STENCIL_DESC, UMDisplayDriver_Dx10param_Structs_4e9cbeba-8eb3-43ea-891a-1b57c82cd3ef.xml, D3D10_DDI_DEPTH_STENCIL_DESC structure [Display Devices], d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC, display.d3d10_ddi_depth_stencil_desc
+ms.keywords: ",  , ,, 0, 1, 3, C, D, D3D10_DDI_DEPTH_STENCIL_DESC, D3D10_DDI_DEPTH_STENCIL_DESC structure [Display Devices], E, H, I, L, N, P, S, T, UMDisplayDriver_Dx10param_Structs_4e9cbeba-8eb3-43ea-891a-1b57c82cd3ef.xml, _, d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC, display.d3d10_ddi_depth_stencil_desc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -165,11 +165,11 @@ If the <b>StencilEnable</b> member is set to <b>TRUE</b>, the <b>FrontEnable</b>
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_depth_stencilop_desc.md">D3D10_DDI_DEPTH_STENCILOP_DESC</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
 
 
 
@@ -177,7 +177,7 @@ If the <b>StencilEnable</b> member is set to <b>TRUE</b>, the <b>FrontEnable</b>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_depth_stencilop_desc.md">D3D10_DDI_DEPTH_STENCILOP_DESC</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
 
 
 

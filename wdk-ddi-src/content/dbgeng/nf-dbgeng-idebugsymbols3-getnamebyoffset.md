@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 47f87684-339a-49e0-a349-491054ab26ff
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], GetNameByOffset method, GetNameByOffset method [Windows Debugging], GetNameByOffset, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], GetNameByOffset method, IDebugSymbols::GetNameByOffset, dbgeng/IDebugSymbols3::GetNameByOffset, IDebugSymbols2::GetNameByOffset, IDebugSymbols_5045ed52-43b3-4f5c-90fe-d9725aeb5782.xml, GetNameByOffset method [Windows Debugging], IDebugSymbols interface, debugger.getnamebyoffset, IDebugSymbols, dbgeng/IDebugSymbols2::GetNameByOffset, IDebugSymbols3::GetNameByOffset, GetNameByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetNameByOffset method, GetNameByOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2, dbgeng/IDebugSymbols::GetNameByOffset
+ms.keywords: ",  , ,, ., 3, :, B, D, G, GetNameByOffset method [Windows Debugging], GetNameByOffset method [Windows Debugging], IDebugSymbols interface, GetNameByOffset method [Windows Debugging], IDebugSymbols2 interface, GetNameByOffset method [Windows Debugging], IDebugSymbols3 interface, GetNameByOffset,IDebugSymbols.GetNameByOffset, GetNameByOffset,IDebugSymbols2.GetNameByOffset, GetNameByOffset,IDebugSymbols3.GetNameByOffset, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetNameByOffset method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetNameByOffset method, IDebugSymbols2::GetNameByOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNameByOffset method, IDebugSymbols3::GetNameByOffset, IDebugSymbols::GetNameByOffset, IDebugSymbols_5045ed52-43b3-4f5c-90fe-d9725aeb5782.xml, N, O, S, a, b, dbgeng/IDebugSymbols2::GetNameByOffset, dbgeng/IDebugSymbols3::GetNameByOffset, dbgeng/IDebugSymbols::GetNameByOffset, debugger.getnamebyoffset, e, f, g, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -159,11 +159,7 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -171,11 +167,15 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547204">GetNearNameByOffset</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 

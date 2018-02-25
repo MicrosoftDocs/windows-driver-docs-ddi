@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9310dc82-b80f-45bb-9d8a-1239330bc799
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.getimagepath, IDebugSymbols2::GetImagePath, dbgeng/IDebugSymbols2::GetImagePath, IDebugSymbols::GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetImagePath method, GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, IDebugSymbols2, IDebugSymbols interface [Windows Debugging], GetImagePath method, IDebugSymbols3::GetImagePath, IDebugSymbols, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, GetImagePath method [Windows Debugging], dbgeng/IDebugSymbols::GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols3 interface, GetImagePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3 interface [Windows Debugging], GetImagePath method
+ms.keywords: ",  , ,, ., 2, :, D, G, GetImagePath method [Windows Debugging], GetImagePath method [Windows Debugging], IDebugSymbols interface, GetImagePath method [Windows Debugging], IDebugSymbols2 interface, GetImagePath method [Windows Debugging], IDebugSymbols3 interface, GetImagePath,IDebugSymbols.GetImagePath, GetImagePath,IDebugSymbols2.GetImagePath, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetImagePath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetImagePath method, IDebugSymbols2::GetImagePath, IDebugSymbols3 interface [Windows Debugging], GetImagePath method, IDebugSymbols3::GetImagePath, IDebugSymbols::GetImagePath, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, P, S, a, b, dbgeng/IDebugSymbols2::GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, dbgeng/IDebugSymbols::GetImagePath, debugger.getimagepath, e, g, h, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -138,11 +138,7 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -150,7 +146,11 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 

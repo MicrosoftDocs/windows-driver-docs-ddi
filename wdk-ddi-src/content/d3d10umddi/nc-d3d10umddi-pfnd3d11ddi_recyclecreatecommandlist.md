@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c387545e-2891-401d-b7ca-ee7549a52603
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.recyclecreatecommandlist, RecycleCreateCommandList callback function [Display Devices], RecycleCreateCommandList, PFND3D11DDI_RECYCLECREATECOMMANDLIST, PFND3D11DDI_RECYCLECREATECOMMANDLIST, d3d10umddi/RecycleCreateCommandList, UserModeDisplayDriverDx11_Functions_ae724488-211a-4590-abcc-f2c8f954531e.xml
+ms.keywords: PFND3D11DDI_RECYCLECREATECOMMANDLIST, RecycleCreateCommandList, RecycleCreateCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_ae724488-211a-4590-abcc-f2c8f954531e.xml, d3d10umddi/RecycleCreateCommandList, display.recyclecreatecommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -163,7 +163,7 @@ For more information about <i>RecycleCreateCommandList</i>, see <a href="https:/
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivatecommandlistsize.md">CalcPrivateCommandListSize</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createcommandlist.md">D3D11DDIARG_CREATECOMMANDLIST</a>
 
 
 
@@ -171,7 +171,7 @@ For more information about <i>RecycleCreateCommandList</i>, see <a href="https:/
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivatecommandlistsize.md">CalcPrivateCommandListSize</a>
 
 
 
@@ -179,7 +179,7 @@ For more information about <i>RecycleCreateCommandList</i>, see <a href="https:/
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createcommandlist.md">D3D11DDIARG_CREATECOMMANDLIST</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
 
 

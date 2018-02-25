@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9bb94db6-1d0d-471f-b2a5-71ca659afcd0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_GetAllEmergencyNumbers, RIL_GetAllEmergencyNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getallemergencynumbers, RIL_GetAllEmergencyNumbers
+ms.keywords: ",  , A, E, G, I, L, N, R, RIL_GetAllEmergencyNumbers, RIL_GetAllEmergencyNumbers method [Network Drivers Starting with Windows Vista], _, b, c, e, g, l, m, n, netvista.ril_getallemergencynumbers, r, rilapi/RIL_GetAllEmergencyNumbers, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

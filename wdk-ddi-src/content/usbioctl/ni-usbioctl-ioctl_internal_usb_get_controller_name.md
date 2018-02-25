@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 52390982-febe-4d6d-b53a-160fb281b099
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_get_controller_name, IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME control code [Buses], IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, usbioctl/IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, usbirp_36fbf149-8f7d-46ac-9ef3-017cbb000e1c.xml
+ms.keywords: IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME control code [Buses], buses.ioctl_internal_usb_get_controller_name, usbioctl/IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, usbirp_36fbf149-8f7d-46ac-9ef3-017cbb000e1c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

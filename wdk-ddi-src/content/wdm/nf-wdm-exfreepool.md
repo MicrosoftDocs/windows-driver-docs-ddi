@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c26f9b28-396d-40de-bdc3-287fc3ac4113
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exfreepool, ExFreePool, k102_134b475a-f669-4f1e-8836-f41945d7230c.xml, wdm/ExFreePool, ExFreePool routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , E, ExFreePool, ExFreePool routine [Kernel-Mode Driver Architecture], F, P, e, k102_134b475a-f669-4f1e-8836-f41945d7230c.xml, kernel.exfreepool, l, o, r, wdm/ExFreePool, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,7 +86,7 @@ None
 
 
 
-This routine releases memory allocated by <a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>, <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>, <a href="..\wdm\nf-wdm-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>, or <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>. The memory block must not be accessed after it is freed.
+This routine releases memory allocated by <a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>, <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>, <a href="..\classpnp\nf-classpnp-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>, or <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>. The memory block must not be accessed after it is freed.
 
 Drivers can also use the <b>ExFreePoolWithTag</b> routine to free buffers allocated by <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>.
 
@@ -97,15 +97,7 @@ Callers of <b>ExFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A cal
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-
-
-
-<a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\classpnp\nf-classpnp-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>
 
 
 
@@ -113,7 +105,15 @@ Callers of <b>ExFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A cal
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>
+<a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

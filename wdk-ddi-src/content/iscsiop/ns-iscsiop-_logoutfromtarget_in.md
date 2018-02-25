@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a52d5995-1fb7-4b73-9d3f-c945e7219a49
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PLogoutFromTarget_IN structure pointer [Storage Devices], *PLogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, _LogoutFromTarget_IN, iscsiop/LogoutFromTarget_IN, LogoutFromTarget_IN, PLogoutFromTarget_IN, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml, storage.logoutfromtarget_in, LogoutFromTarget_IN structure [Storage Devices]
+ms.keywords: ",  , *, *PLogoutFromTarget_IN, ,, F, I, L, LogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], N, P, PLogoutFromTarget_IN, PLogoutFromTarget_IN structure pointer [Storage Devices], T, _, _LogoutFromTarget_IN, a, e, g, iscsiop/LogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, m, o, r, storage.logoutfromtarget_in, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

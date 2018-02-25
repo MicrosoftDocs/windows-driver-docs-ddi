@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d80f8bc6-29dc-4cb0-87f5-414ec6418156
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminiintersecthandlerex, AVStrMiniIntersectHandlerEx, AVStrMiniIntersectHandlerEx routine [Streaming Media Devices], AVStrMiniIntersectHandlerEx, PFNKSINTERSECTHANDLEREX, PFNKSINTERSECTHANDLEREX, ks/AVStrMiniIntersectHandlerEx, avstclbk_7a9be78c-3ca2-4fe2-961c-37dbd122a4b8.xml
+ms.keywords: AVStrMiniIntersectHandlerEx, AVStrMiniIntersectHandlerEx routine [Streaming Media Devices], PFNKSINTERSECTHANDLEREX, avstclbk_7a9be78c-3ca2-4fe2-961c-37dbd122a4b8.xml, ks/AVStrMiniIntersectHandlerEx, stream.avstrminiintersecthandlerex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,7 +137,11 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
 
 
 
@@ -145,7 +149,7 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
+<a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
 
 
 
@@ -154,10 +158,6 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 
 

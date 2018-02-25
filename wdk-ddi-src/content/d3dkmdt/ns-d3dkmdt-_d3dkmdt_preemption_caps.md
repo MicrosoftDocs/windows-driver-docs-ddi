@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 52172edc-77a9-46b9-8382-c57c65b80b93
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmdt/D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS structure [Display Devices], D3DKMDT_PREEMPTION_CAPS, display.d3dkmdt_preemption_caps, _D3DKMDT_PREEMPTION_CAPS
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS structure [Display Devices], E, I, K, M, N, O, P, R, S, T, _, _D3DKMDT_PREEMPTION_CAPS, d3dkmdt/D3DKMDT_PREEMPTION_CAPS, display.d3dkmdt_preemption_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_compute_preemption_granularity.md">D3D
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_compute_preemption_granularity.md">D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY</a>
-
-
-
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_graphics_preemption_granularity.md">D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_compute_preemption_granularity.md">D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY</a>
 
 
 

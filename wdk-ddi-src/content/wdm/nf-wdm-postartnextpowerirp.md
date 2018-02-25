@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 92754668-5327-4e37-9da1-cc1870f923c5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PoStartNextPowerIrp, PoStartNextPowerIrp, portn_3e23c20a-d35e-45cd-a2da-3dbc0f249548.xml, kernel.postartnextpowerirp, PoStartNextPowerIrp routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , I, N, P, PoStartNextPowerIrp, PoStartNextPowerIrp routine [Kernel-Mode Driver Architecture], S, a, e, kernel.postartnextpowerirp, o, p, portn_3e23c20a-d35e-45cd-a2da-3dbc0f249548.xml, r, t, w, wdm/PoStartNextPowerIrp, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,15 +99,7 @@ Bus drivers must call <b>PoStartNextPowerIrp</b> before completing each IRP.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="..\wdm\nf-wdm-pocalldriver.md">PoCallDriver</a>
 
 
 
@@ -115,19 +107,27 @@ Bus drivers must call <b>PoStartNextPowerIrp</b> before completing each IRP.
 
 
 
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 
-<a href="..\wdm\nf-wdm-pocalldriver.md">PoCallDriver</a>
-
-
-
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
 
 

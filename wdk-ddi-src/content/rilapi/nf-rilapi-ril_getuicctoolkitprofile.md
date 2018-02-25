@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d2f79ba-0fdb-4743-938d-d99b135c68bb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetUiccToolkitProfile, rilapi/RIL_GetUiccToolkitProfile, RIL_GetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_getuicctoolkitprofile
+ms.keywords: ",  , G, I, L, P, R, RIL_GetUiccToolkitProfile, RIL_GetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], T, U, _, c, e, f, i, k, l, netvista.ril_getuicctoolkitprofile, o, r, rilapi/RIL_GetUiccToolkitProfile, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

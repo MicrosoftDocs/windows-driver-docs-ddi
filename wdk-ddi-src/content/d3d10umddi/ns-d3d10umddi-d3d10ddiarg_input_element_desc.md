@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cc052b73-8837-4756-a192-620dcd5cacb5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices], display.d3d10ddiarg_input_element_desc, D3D10DDIARG_INPUT_ELEMENT_DESC, UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml
+ms.keywords: ",  , ,, 0, 1, 3, A, C, D, D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices], E, G, I, L, M, N, P, R, S, T, U, UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml, _, d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, display.d3d10ddiarg_input_element_desc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

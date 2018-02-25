@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37e111be-5175-40d0-b862-0cc79d77d2bc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDICB_ESCAPE structure [Display Devices], _D3DDDICB_ESCAPE, d3dumddi/D3DDDICB_ESCAPE, D3DDDICB_ESCAPE, display.d3dddicb_escape, D3D_param_Structs_3981c7f8-973d-42c4-abfa-29613731df50.xml
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDICB_ESCAPE, D3DDDICB_ESCAPE structure [Display Devices], D3D_param_Structs_3981c7f8-973d-42c4-abfa-29613731df50.xml, E, I, P, S, _, _D3DDDICB_ESCAPE, d3dumddi/D3DDDICB_ESCAPE, display.d3dddicb_escape"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,7 +102,7 @@ typedef struct _D3DDDICB_ESCAPE {
 
 
 
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 
@@ -110,7 +110,7 @@ typedef struct _D3DDDICB_ESCAPE {
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
 
 

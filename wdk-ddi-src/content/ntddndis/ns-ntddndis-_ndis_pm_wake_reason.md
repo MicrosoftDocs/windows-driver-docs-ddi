@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9caed664-6367-4eb0-9c9f-551f8a5938bc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], NDIS_PM_WAKE_REASON, *PNDIS_PM_WAKE_REASON, ntddndis/NDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], netvista.ndis_pm_wake_reason, ntddndis/PNDIS_PM_WAKE_REASON, _NDIS_PM_WAKE_REASON
+ms.keywords: ",  , *, *PNDIS_PM_WAKE_REASON, ,, A, D, E, I, K, M, N, NDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], R, S, W, _, _NDIS_PM_WAKE_REASON, netvista.ndis_pm_wake_reason, ntddndis/NDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: AD5E6434-BBBF-44CB-8153-B8F4D4F75E94
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_SECURE_ELEMENT_ROUTING_TABLE, *PSECURE_ELEMENT_ROUTING_TABLE, PSECURE_ELEMENT_ROUTING_TABLE, P_SECURE_ELEMENT_ROUTING_TABLE structure pointer [Near-Field Proximity Drivers], P_SECURE_ELEMENT_ROUTING_TABLE, SECURE_ELEMENT_ROUTING_TABLE structure [Near-Field Proximity Drivers], nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE, nfpdrivers._secure_element_routing_table, nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE, SECURE_ELEMENT_ROUTING_TABLE"
+ms.keywords: ",  , *, *PSECURE_ELEMENT_ROUTING_TABLE, ,, A, B, C, E, G, I, L, M, N, O, P, PSECURE_ELEMENT_ROUTING_TABLE, P_SECURE_ELEMENT_ROUTING_TABLE, P_SECURE_ELEMENT_ROUTING_TABLE structure pointer [Near-Field Proximity Drivers], R, S, SECURE_ELEMENT_ROUTING_TABLE, SECURE_ELEMENT_ROUTING_TABLE structure [Near-Field Proximity Drivers], T, U, _, _SECURE_ELEMENT_ROUTING_TABLE, nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE, nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE, nfpdrivers._secure_element_routing_table"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 36169759-1ee3-4463-a381-67b0277cca25
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.readmemory, ReadMemory, ReadMemory callback function [Windows Debugging], ReadMemory, PWINDBG_READ_PROCESS_MEMORY_ROUTINE, PWINDBG_READ_PROCESS_MEMORY_ROUTINE, wdbgexts/ReadMemory, WdbgExts_Ref_53e869bc-03c9-4818-80fd-ca1bdafe2b96.xml
+ms.keywords: PWINDBG_READ_PROCESS_MEMORY_ROUTINE, ReadMemory, ReadMemory callback function [Windows Debugging], WdbgExts_Ref_53e869bc-03c9-4818-80fd-ca1bdafe2b96.xml, debugger.readmemory, wdbgexts/ReadMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

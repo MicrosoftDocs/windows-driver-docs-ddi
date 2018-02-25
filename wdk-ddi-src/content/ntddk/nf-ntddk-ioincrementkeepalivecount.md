@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A80754BD-0F23-4EE9-898F-30743AA82C72
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoIncrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.ioincrementkeepalivecount, ntddk/IoIncrementKeepAliveCount, IoIncrementKeepAliveCount
+ms.keywords: ",  , A, C, I, IoIncrementKeepAliveCount, IoIncrementKeepAliveCount routine [Kernel-Mode Driver Architecture], K, c, e, i, kernel.ioincrementkeepalivecount, l, m, n, ntddk/IoIncrementKeepAliveCount, o, p, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

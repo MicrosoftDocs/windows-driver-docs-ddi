@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 412d9a0b-429b-4ce5-bf74-f602533174d7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_MSGACKSTATUS_MAX, RILMSGACKSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGACKSTATUS_FAIL_MEM_FULL, rilapitypes/RIL_MSGACKSTATUS_MAX, rilapitypes/RIL_MSGACKSTATUS_ERROR, netvista.rilmsgackstatus_2, RIL_MSGACKSTATUS_ERROR, RILMSGACKSTATUS, rilapitypes/RILMSGACKSTATUS, rilapitypes/RIL_MSGACKSTATUS_FAIL_MEM_FULL
+ms.keywords: ",  , ,, A, C, G, I, K, L, M, R, RILMSGACKSTATUS, RILMSGACKSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGACKSTATUS_ERROR, RIL_MSGACKSTATUS_FAIL_MEM_FULL, RIL_MSGACKSTATUS_MAX, S, T, U, netvista.rilmsgackstatus_2, rilapitypes/RILMSGACKSTATUS, rilapitypes/RIL_MSGACKSTATUS_ERROR, rilapitypes/RIL_MSGACKSTATUS_FAIL_MEM_FULL, rilapitypes/RIL_MSGACKSTATUS_MAX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5ba271ba-ed92-402e-9ef9-ac198a8ea510
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KS_MPEG2Level_Main, KS_MPEG2Level_High1440, KS_MPEG2Level, ksmedia/KS_MPEG2Level_Main, ksmedia/KS_MPEG2Level_Low, stream.ks_mpeg2level, ksmedia/KS_MPEG2Level, ksmedia/KS_MPEG2Level_High1440, KS_MPEG2Level enumeration [Streaming Media Devices], ksmedia/KS_MPEG2Level_High, vidcapstruct_a97daeef-93e4-4ded-98dc-f583c1893095.xml, KS_MPEG2Level_Low, KS_MPEG2Level_High
+ms.keywords: ",  , ,, 2, E, G, K, KS_MPEG2Level, KS_MPEG2Level enumeration [Streaming Media Devices], KS_MPEG2Level_High, KS_MPEG2Level_High1440, KS_MPEG2Level_Low, KS_MPEG2Level_Main, L, M, P, S, _, e, ksmedia/KS_MPEG2Level, ksmedia/KS_MPEG2Level_High, ksmedia/KS_MPEG2Level_High1440, ksmedia/KS_MPEG2Level_Low, ksmedia/KS_MPEG2Level_Main, l, stream.ks_mpeg2level, v, vidcapstruct_a97daeef-93e4-4ded-98dc-f583c1893095.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

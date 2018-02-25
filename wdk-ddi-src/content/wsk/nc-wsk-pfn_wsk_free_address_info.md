@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 552b4024-03d3-4e9b-b149-cf584c7e7259
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskfreeaddressinfo, WskFreeAddressInfo callback function [Network Drivers Starting with Windows Vista], WskFreeAddressInfo, PFN_WSK_FREE_ADDRESS_INFO, PFN_WSK_FREE_ADDRESS_INFO, wsk/WskFreeAddressInfo, wskref_dff141b0-8164-439d-9ad7-69a4d2207f31.xml
+ms.keywords: PFN_WSK_FREE_ADDRESS_INFO, WskFreeAddressInfo, WskFreeAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskfreeaddressinfo, wsk/WskFreeAddressInfo, wskref_dff141b0-8164-439d-9ad7-69a4d2207f31.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7ff5787f-f663-4ceb-be59-4f48ecea03a9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.readphysicalwithflags, ReadPhysicalWithFlags, ReadPhysicalWithFlags function [Windows Debugging], wdbgexts/ReadPhysicalWithFlags, WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml
+ms.keywords: ",  , F, P, R, ReadPhysicalWithFlags, ReadPhysicalWithFlags function [Windows Debugging], W, WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml, a, c, d, debugger.readphysicalwithflags, e, g, h, i, l, s, t, wdbgexts/ReadPhysicalWithFlags, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

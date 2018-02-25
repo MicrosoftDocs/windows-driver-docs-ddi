@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 689296FA-E28A-4F9C-8E09-2CAC8A189808
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.ioctl_bthhfp_stream_close, IOCTL_BTHHFP_STREAM_CLOSE control code [Audio Devices], IOCTL_BTHHFP_STREAM_CLOSE, bthhfpddi/IOCTL_BTHHFP_STREAM_CLOSE
+ms.keywords: IOCTL_BTHHFP_STREAM_CLOSE, IOCTL_BTHHFP_STREAM_CLOSE control code [Audio Devices], audio.ioctl_bthhfp_stream_close, bthhfpddi/IOCTL_BTHHFP_STREAM_CLOSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

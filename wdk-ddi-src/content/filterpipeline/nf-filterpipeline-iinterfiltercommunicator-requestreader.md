@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2b38b1b7-0d65-4457-bc7d-c52ff11aba48
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IInterFilterCommunicator, filterpipeline/IInterFilterCommunicator::RequestReader, IInterFilterCommunicator interface [Print Devices], RequestReader method, print.iinterfiltercommunicator_requestreader, RequestReader method [Print Devices], IInterFilterCommunicator interface, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, RequestReader method [Print Devices], IInterFilterCommunicator::RequestReader, RequestReader
+ms.keywords: ",  , ,, ., :, C, F, I, IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], RequestReader method, IInterFilterCommunicator::RequestReader, R, RequestReader method [Print Devices], RequestReader method [Print Devices], IInterFilterCommunicator interface, RequestReader,IInterFilterCommunicator.RequestReader, a, c, d, e, filterpipeline/IInterFilterCommunicator::RequestReader, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, i, l, m, n, o, print.iinterfiltercommunicator_requestreader, q, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,11 +92,11 @@ The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a hr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a>
-
-
-
 <a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a>
 
 
 

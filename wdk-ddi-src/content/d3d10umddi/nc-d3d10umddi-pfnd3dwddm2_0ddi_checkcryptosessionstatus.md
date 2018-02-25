@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C7BA5CE0-F89E-4C4B-9976-B9CB6BF8DA81
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.checkcryptosessionstatus, CheckCryptoSessionStatus callback function [Display Devices], CheckCryptoSessionStatus, d3d10umddi/CheckCryptoSessionStatus
+ms.keywords: CheckCryptoSessionStatus, CheckCryptoSessionStatus callback function [Display Devices], d3d10umddi/CheckCryptoSessionStatus, display.checkcryptosessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,15 +104,15 @@ The application may call this DDI after receiving a hardware content protection 
 
 ## -see-also
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status.md">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status.md">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a>
 
 
 

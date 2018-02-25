@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4C9293CB-D92D-4C31-929F-16C1B8918933
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/WWAN_UICC_PASSTHROUGH_ACTION, netvista.wwan_uicc_passthrough_action, _WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION, WwanUiccPassThroughEnable, wwan/WwanUiccPassThroughDisable, *PWWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanUiccPassThroughEnable, wwan/WwanUiccPassThroughActionMaximum, WwanUiccPassThroughActionMaximum, WwanUiccPassThroughDisable
+ms.keywords: ",  , *, *PWWAN_UICC_PASSTHROUGH_ACTION, ,, A, C, G, H, I, N, O, P, R, S, T, U, W, WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughActionMaximum, WwanUiccPassThroughDisable, WwanUiccPassThroughEnable, _, _WWAN_UICC_PASSTHROUGH_ACTION, netvista.wwan_uicc_passthrough_action, wwan/WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughActionMaximum, wwan/WwanUiccPassThroughDisable, wwan/WwanUiccPassThroughEnable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

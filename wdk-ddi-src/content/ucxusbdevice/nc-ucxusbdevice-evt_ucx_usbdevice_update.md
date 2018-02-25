@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 5dbf3560-9968-4996-8bce-fb43e3918d72
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_update, EvtUcxUsbDeviceUpdate callback function [Buses], EvtUcxUsbDeviceUpdate, EVT_UCX_USBDEVICE_UPDATE, EVT_UCX_USBDEVICE_UPDATE, ucxusbdevice/EvtUcxUsbDeviceUpdate, PEVT_UCX_USBDEVICE_UPDATE callback function pointer [Buses], PEVT_UCX_USBDEVICE_UPDATE
+ms.keywords: EVT_UCX_USBDEVICE_UPDATE, EvtUcxUsbDeviceUpdate, EvtUcxUsbDeviceUpdate callback function [Buses], PEVT_UCX_USBDEVICE_UPDATE, PEVT_UCX_USBDEVICE_UPDATE callback function pointer [Buses], buses.evt_ucx_usbdevice_update, ucxusbdevice/EvtUcxUsbDeviceUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,11 +144,11 @@ UsbDevice_EvtUcxUsbDeviceUpdate(
 
 
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-
-
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
+
+
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 

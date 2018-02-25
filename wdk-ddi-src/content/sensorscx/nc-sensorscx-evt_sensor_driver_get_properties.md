@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 259C37C9-DE8C-4BC8-B18A-CDD96B97056D
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.evtsensorgetproperties, EvtSensorGetProperties callback function [Sensor Devices], EvtSensorGetProperties, EVT_SENSOR_DRIVER_GET_PROPERTIES, EVT_SENSOR_DRIVER_GET_PROPERTIES, sensorscx/EvtSensorGetProperties
+ms.keywords: EVT_SENSOR_DRIVER_GET_PROPERTIES, EvtSensorGetProperties, EvtSensorGetProperties callback function [Sensor Devices], sensors.evtsensorgetproperties, sensorscx/EvtSensorGetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c77b722f-e023-4e3e-9dff-616d0ab0a6a2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getvideoprocessorrateconversioncaps, pfnGetVideoProcessorRateConversionCaps callback function [Display Devices], pfnGetVideoProcessorRateConversionCaps, PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS, PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS, d3d10umddi/pfnGetVideoProcessorRateConversionCaps
+ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS, d3d10umddi/pfnGetVideoProcessorRateConversionCaps, display.getvideoprocessorrateconversioncaps, pfnGetVideoProcessorRateConversionCaps, pfnGetVideoProcessorRateConversionCaps callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

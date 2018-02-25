@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: aca4534a-871e-4d86-b329-cb4f84611a29
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winppi/GdiStartDocEMF, print.gdistartdocemf, GdiStartDocEMF, GdiStartDocEMF function [Print Devices], gdifnc_11790088-e5fa-4817-a7d7-79c654814062.xml
+ms.keywords: ",  , D, E, F, G, GdiStartDocEMF, GdiStartDocEMF function [Print Devices], M, S, a, c, d, gdifnc_11790088-e5fa-4817-a7d7-79c654814062.xml, i, o, print.gdistartdocemf, r, t, winppi/GdiStartDocEMF"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e32e4b7d-715b-4eae-832f-314980ab89b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_VerifyUiccLock, RIL_VerifyUiccLock, RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_verifyuicclock
+ms.keywords: ",  , I, L, R, RIL_VerifyUiccLock, RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], U, V, _, c, e, f, i, k, netvista.ril_verifyuicclock, o, r, rilapi/RIL_VerifyUiccLock, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

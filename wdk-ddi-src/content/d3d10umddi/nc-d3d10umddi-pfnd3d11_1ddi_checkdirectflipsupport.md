@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2acf84cb-5e51-4aa8-96ce-96abc6ceec8c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.checkdirectflipsupport_d3d11_1_, CheckDirectFlipSupport(D3D11_1) callback function [Display Devices], CheckDirectFlipSupport(D3D11_1), PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT, PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT, d3d10umddi/CheckDirectFlipSupport(D3D11_1), display.pfncheckdirectflipsupport
+ms.keywords: CheckDirectFlipSupport(D3D11_1), CheckDirectFlipSupport(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT, d3d10umddi/CheckDirectFlipSupport(D3D11_1), display.checkdirectflipsupport_d3d11_1_, display.pfncheckdirectflipsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -136,19 +136,19 @@ The user-mode driver might need to call the kernel-mode driver to perform these 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_check_direct_flip_flags.md">D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_check_direct_flip_flags.md">D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
 
 
 

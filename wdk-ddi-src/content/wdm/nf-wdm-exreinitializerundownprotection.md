@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41B7CE15-8702-49C8-9FD0-450DF6E4798C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExReInitializeRundownProtection, wdm/ExReInitializeRundownProtection, ExReInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreinitializerundownprotection
+ms.keywords: ",  , E, ExReInitializeRundownProtection, ExReInitializeRundownProtection routine [Kernel-Mode Driver Architecture], I, P, R, a, c, d, e, i, kernel.exreinitializerundownprotection, l, n, o, r, t, u, w, wdm/ExReInitializeRundownProtection, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
-
-
-
-<a href="..\wdm\nf-wdm-exwaitforrundownprotectionrelease.md">ExWaitForRundownProtectionRelease</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
 
 
 
@@ -113,11 +109,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
-
-
-
 <a href="..\wdm\nf-wdm-exrundowncompleted.md">ExRundownCompleted</a>
+
+
+
+<a href="..\wdm\nf-wdm-exwaitforrundownprotectionrelease.md">ExWaitForRundownProtectionRelease</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
 
 
 

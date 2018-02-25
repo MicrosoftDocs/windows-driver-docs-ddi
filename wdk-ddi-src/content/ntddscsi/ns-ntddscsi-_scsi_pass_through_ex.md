@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3D00B42C-7320-4044-BA7D-71A9BD05B30E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_SCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex, SCSI_PASS_THROUGH_EX structure [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, ntddscsi/PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices]"
+ms.keywords: ",  , *, *PSCSI_PASS_THROUGH_EX, ,, A, C, E, G, H, I, O, P, PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], R, S, SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], T, U, X, _, _SCSI_PASS_THROUGH_EX, ntddscsi/PSCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

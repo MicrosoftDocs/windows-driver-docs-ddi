@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EB156381-FC0E-40A3-A4AF-341AE70B97FF
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdmatransactionwdmgettransfercontext, WdfDmaTransactionWdmGetTransferContext method, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext, kmdf.wdfdmatransactionwdmgettransfercontext, WdfDmaTransactionWdmGetTransferContext
+ms.keywords: ",  , C, D, G, T, W, WdfDmaTransactionWdmGetTransferContext, WdfDmaTransactionWdmGetTransferContext method, a, c, d, e, f, i, kmdf.wdfdmatransactionwdmgettransfercontext, m, n, o, r, s, t, wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

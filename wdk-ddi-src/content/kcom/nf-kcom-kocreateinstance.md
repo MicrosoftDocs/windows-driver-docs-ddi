@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ee719cbe-0933-4adc-b5c7-62b66f2bf4e1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kocreateinstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, KoCreateInstance
+ms.keywords: ",  , C, I, K, KoCreateInstance, KoCreateInstance function [Streaming Media Devices], a, c, e, kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, n, o, r, s, stream.kocreateinstance, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

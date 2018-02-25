@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 43172627-2A05-44AD-8B39-8FC384F9F44E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksmedia/SOUNDDETECTOR_PATTERNHEADER, audio.sounddetector_patternheader, __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], SOUNDDETECTOR_PATTERNHEADER
+ms.keywords: ",  , ,, A, C, D, E, H, N, O, P, R, S, SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], T, U, _, __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001, audio.sounddetector_patternheader, ksmedia/SOUNDDETECTOR_PATTERNHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

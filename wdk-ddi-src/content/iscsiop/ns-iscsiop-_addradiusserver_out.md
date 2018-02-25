@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 512e66f6-d91f-4351-ba55-02ae3e84102e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.addradiusserver_out, *PAddRADIUSServer_OUT, PAddRADIUSServer_OUT structure pointer [Storage Devices], structs-iSCSI_4dd737cb-21a3-4f49-acbe-d40b5b172f3f.xml, AddRADIUSServer_OUT, _AddRADIUSServer_OUT, AddRADIUSServer_OUT structure [Storage Devices], iscsiop/AddRADIUSServer_OUT, PAddRADIUSServer_OUT, iscsiop/PAddRADIUSServer_OUT
+ms.keywords: ",  , *, *PAddRADIUSServer_OUT, ,, A, AddRADIUSServer_OUT, AddRADIUSServer_OUT structure [Storage Devices], D, I, O, P, PAddRADIUSServer_OUT, PAddRADIUSServer_OUT structure pointer [Storage Devices], R, S, T, U, _, _AddRADIUSServer_OUT, d, e, iscsiop/AddRADIUSServer_OUT, iscsiop/PAddRADIUSServer_OUT, r, storage.addradiusserver_out, structs-iSCSI_4dd737cb-21a3-4f49-acbe-d40b5b172f3f.xml, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,11 +83,11 @@ It is optional that you implement this method.
 
 ## -see-also
 
+<a href="..\iscsiop\ns-iscsiop-_addradiusserver_in.md">AddRADIUSServer_IN</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
 
 
 
@@ -95,7 +95,7 @@ It is optional that you implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_addradiusserver_in.md">AddRADIUSServer_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
 
 
 

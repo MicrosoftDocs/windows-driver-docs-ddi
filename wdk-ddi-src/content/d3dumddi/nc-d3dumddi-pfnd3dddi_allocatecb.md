@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnallocatecb, pfnAllocateCb callback function [Display Devices], pfnAllocateCb, PFND3DDDI_ALLOCATECB, PFND3DDDI_ALLOCATECB, d3dumddi/pfnAllocateCb, D3Druntime_Functions_1339f95d-018f-4153-b5b8-6753c38babd7.xml
+ms.keywords: D3Druntime_Functions_1339f95d-018f-4153-b5b8-6753c38babd7.xml, PFND3DDDI_ALLOCATECB, d3dumddi/pfnAllocateCb, display.pfnallocatecb, pfnAllocateCb, pfnAllocateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -245,43 +245,7 @@ The following code example shows how to allocate memory for a resource.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandleparent.md">DxgkCbGetHandleParent</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_allocate.md">D3DDDICB_ALLOCATE</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 
@@ -289,7 +253,43 @@ The following code example shows how to allocate memory for a resource.
 
 
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandleparent.md">DxgkCbGetHandleParent</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_allocate.md">D3DDDICB_ALLOCATE</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 658e32d2-40e2-4479-8212-df7140fe6b74
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.freedmabuffer, FreeDmaBuffer callback function [Audio Devices], FreeDmaBuffer, PFREE_DMA_BUFFER, PFREE_DMA_BUFFER, hdaudio/FreeDmaBuffer, aud-prop2_22e95124-bf77-40d9-9ad7-4edc394818df.xml
+ms.keywords: FreeDmaBuffer, FreeDmaBuffer callback function [Audio Devices], PFREE_DMA_BUFFER, aud-prop2_22e95124-bf77-40d9-9ad7-4edc394818df.xml, audio.freedmabuffer, hdaudio/FreeDmaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -165,15 +165,15 @@ The stream is in a state other than reset.
 
 ## -see-also
 
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
 
 
 
 <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 

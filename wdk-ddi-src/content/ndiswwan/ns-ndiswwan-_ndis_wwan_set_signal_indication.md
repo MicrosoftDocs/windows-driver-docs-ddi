@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ef6fdd4-7d52-436a-96ee-ed83fab33e7b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION, netvista.ndis_wwan_set_signal_indication, WwanRef_da95b173-97da-4e41-9628-2a101a851f1c.xml, *PNDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/PNDIS_WWAN_SET_SIGNAL_INDICATION, _NDIS_WWAN_SET_SIGNAL_INDICATION
+ms.keywords: ",  , *, *PNDIS_WWAN_SET_SIGNAL_INDICATION, ,, A, C, D, E, G, I, L, N, NDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], S, T, W, WwanRef_da95b173-97da-4e41-9628-2a101a851f1c.xml, _, _NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/PNDIS_WWAN_SET_SIGNAL_INDICATION, netvista.ndis_wwan_set_signal_indication"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

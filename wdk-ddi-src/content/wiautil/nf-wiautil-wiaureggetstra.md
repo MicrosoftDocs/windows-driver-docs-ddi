@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ff06737b-c37d-4f37-adfc-bbd51974c9e4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiauRegGetStr function [Imaging Devices], image.wiaureggetstr, wiauRegGetStrA, wiautil/wiauRegGetStr, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStrW, wiauRegGetStr
+ms.keywords: ",  , A, G, R, S, a, e, g, i, image.wiaureggetstr, r, t, u, w, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStr, wiauRegGetStr function [Imaging Devices], wiauRegGetStrA, wiauRegGetStrW, wiautil/wiauRegGetStr"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

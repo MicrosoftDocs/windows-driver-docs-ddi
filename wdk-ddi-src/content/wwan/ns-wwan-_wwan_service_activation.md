@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1893a929-c9e6-446e-a840-3825f4992c18
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/WWAN_SERVICE_ACTIVATION, wwan/PWWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION, WwanRef_90dec032-ce8e-4b19-a4d8-e9a7a22d681e.xml, WWAN_SERVICE_ACTIVATION, *PWWAN_SERVICE_ACTIVATION, WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], netvista.wwan_service_activation
+ms.keywords: ",  , *, *PWWAN_SERVICE_ACTIVATION, ,, A, C, E, I, N, O, P, PWWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], R, S, T, V, W, WWAN_SERVICE_ACTIVATION, WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], WwanRef_90dec032-ce8e-4b19-a4d8-e9a7a22d681e.xml, _, _WWAN_SERVICE_ACTIVATION, netvista.wwan_service_activation, wwan/PWWAN_SERVICE_ACTIVATION, wwan/WWAN_SERVICE_ACTIVATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

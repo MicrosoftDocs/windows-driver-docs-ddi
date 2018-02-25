@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F30A1DEA-2B54-417A-AFE7-289655C815E2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ibidiasyncnotifychannel_asyncgetnotificationsendresponse, prnasntp/IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, AsyncGetNotificationSendResponse method [Print Devices], IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, IBidiAsyncNotifyChannel, AsyncGetNotificationSendResponse, AsyncGetNotificationSendResponse method [Print Devices], IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices], AsyncGetNotificationSendResponse method
+ms.keywords: ",  , ,, ., :, A, AsyncGetNotificationSendResponse method [Print Devices], AsyncGetNotificationSendResponse method [Print Devices], IBidiAsyncNotifyChannel interface, AsyncGetNotificationSendResponse,IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse, B, C, G, I, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], AsyncGetNotificationSendResponse method, IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, N, R, S, a, c, d, e, f, h, i, l, n, o, p, print.ibidiasyncnotifychannel_asyncgetnotificationsendresponse, prnasntp/IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

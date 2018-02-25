@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4108EB7A-F8FB-4FA5-8426-BB434E89AF06
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/CcCopyReadEx, ifsk.cccopyreadex, CcCopyReadEx routine [Installable File System Drivers], CcCopyReadEx
+ms.keywords: ",  , C, CcCopyReadEx, CcCopyReadEx routine [Installable File System Drivers], E, R, a, c, d, e, ifsk.cccopyreadex, ntifs/CcCopyReadEx, o, p, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,14 +140,6 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
 
@@ -156,7 +148,15 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
 
 
 

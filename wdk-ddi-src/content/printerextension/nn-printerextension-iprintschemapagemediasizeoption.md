@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 631F5ECF-EA1E-4483-99F8-67C9A8C42EDF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschemapagemediasizeoption_interface, IPrintSchemaPageMediaSizeOption interface [Print Devices], IPrintSchemaPageMediaSizeOption interface [Print Devices], described, IPrintSchemaPageMediaSizeOption, printerextension/IPrintSchemaPageMediaSizeOption
+ms.keywords: IPrintSchemaPageMediaSizeOption, IPrintSchemaPageMediaSizeOption interface [Print Devices], IPrintSchemaPageMediaSizeOption interface [Print Devices], described, print.iprintschemapagemediasizeoption_interface, printerextension/IPrintSchemaPageMediaSizeOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

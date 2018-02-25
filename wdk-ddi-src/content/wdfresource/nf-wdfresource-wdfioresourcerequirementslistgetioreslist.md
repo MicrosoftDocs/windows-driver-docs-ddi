@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b15c0ccf-0863-4415-b31f-b4217f249feb
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFResourceObjectRef_a90ce2a4-5690-49c8-ac63-6ccf89f4e5f3.xml, WdfIoResourceRequirementsListGetIoResList method, kmdf.wdfioresourcerequirementslistgetioreslist, wdf.wdfioresourcerequirementslistgetioreslist, wdfresource/WdfIoResourceRequirementsListGetIoResList, WdfIoResourceRequirementsListGetIoResList
+ms.keywords: ",  , DFResourceObjectRef_a90ce2a4-5690-49c8-ac63-6ccf89f4e5f3.xml, G, I, L, R, W, WdfIoResourceRequirementsListGetIoResList, WdfIoResourceRequirementsListGetIoResList method, c, d, e, f, i, kmdf.wdfioresourcerequirementslistgetioreslist, m, n, o, q, r, s, t, u, wdf.wdfioresourcerequirementslistgetioreslist, wdfresource/WdfIoResourceRequirementsListGetIoResList"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,7 +171,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetdescriptor.md">WdfIoResourceListGetDescriptor</a>
 
 
 
@@ -179,11 +179,11 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 
 
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
+
+
+
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetcount.md">WdfIoResourceListGetCount</a>
-
-
-
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetdescriptor.md">WdfIoResourceListGetDescriptor</a>
 
 
 

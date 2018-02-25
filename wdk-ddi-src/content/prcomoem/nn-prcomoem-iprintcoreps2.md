@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bf7e15df-49ba-4850-acf6-dab5dc137f48
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintcoreps2_interface, IPrintCorePS2 interface [Print Devices], IPrintCorePS2 interface [Print Devices], described, IPrintCorePS2, prcomoem/IPrintCorePS2, print_unidrv-pscript_rendering_ee16e348-6dec-4820-ab6c-d41adecf8c74.xml
+ms.keywords: IPrintCorePS2, IPrintCorePS2 interface [Print Devices], IPrintCorePS2 interface [Print Devices], described, prcomoem/IPrintCorePS2, print.iprintcoreps2_interface, print_unidrv-pscript_rendering_ee16e348-6dec-4820-ab6c-d41adecf8c74.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

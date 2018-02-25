@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d8ef9e7f-8ce0-48df-973f-170c47e55777
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.pcnewregistrykey, PcNewRegistryKey function [Audio Devices], PcNewRegistryKey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, portcls/PcNewRegistryKey
+ms.keywords: ",  , K, N, P, PcNewRegistryKey, PcNewRegistryKey function [Audio Devices], R, audio.pcnewregistrykey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, c, e, g, i, portcls/PcNewRegistryKey, r, s, t, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -215,11 +215,7 @@ The <i>OutRegistryKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 
 
@@ -231,15 +227,19 @@ The <i>OutRegistryKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

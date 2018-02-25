@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: AF5E2559-151B-4176-A25E-6A1955747F1A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usbfn_get_interface_descriptor_set_, IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET control code [Buses], IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET
+ms.keywords: IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET, IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET control code [Buses], buses.ioctl_internal_usbfn_get_interface_descriptor_set_, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

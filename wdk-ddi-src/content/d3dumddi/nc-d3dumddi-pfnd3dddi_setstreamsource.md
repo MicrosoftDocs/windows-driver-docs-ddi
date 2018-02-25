@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 669dbabc-91fb-40f9-a034-11c3c2e70436
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setstreamsource, SetStreamSource callback function [Display Devices], SetStreamSource, PFND3DDDI_SETSTREAMSOURCE, PFND3DDDI_SETSTREAMSOURCE, d3dumddi/SetStreamSource, UserModeDisplayDriver_Functions_c84f438f-92b5-4d01-8d27-275deedc29e4.xml
+ms.keywords: PFND3DDDI_SETSTREAMSOURCE, SetStreamSource, SetStreamSource callback function [Display Devices], UserModeDisplayDriver_Functions_c84f438f-92b5-4d01-8d27-275deedc29e4.xml, d3dumddi/SetStreamSource, display.setstreamsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

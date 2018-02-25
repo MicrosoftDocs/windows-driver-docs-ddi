@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CD11AD87-D3F1-41E5-AE86-DC289504EF6D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_INTERRUPT_EXTENDED_POLICY structure, WDF_INTERRUPT_EXTENDED_POLICY, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY, wudfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, PWDF_INTERRUPT_EXTENDED_POLICY, _WDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY, umdf.wdf_interrupt_extended_policy, wdf.wdf_interrupt_extended_policy_umdf
+ms.keywords: ",  , *, *PWDF_INTERRUPT_EXTENDED_POLICY, ,, C, D, E, F, I, L, N, O, P, PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, R, T, U, W, WDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY structure, X, Y, _, _WDF_INTERRUPT_EXTENDED_POLICY, umdf.wdf_interrupt_extended_policy, wdf.wdf_interrupt_extended_policy_umdf, wudfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

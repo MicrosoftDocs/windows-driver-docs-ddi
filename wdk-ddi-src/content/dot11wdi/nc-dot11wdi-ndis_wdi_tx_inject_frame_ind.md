@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C384FAFF-E22D-4FA2-8B11-F6C046003C70
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswditxinjectframeindication, NdisWdiTxInjectFrameIndication callback function [Network Drivers Starting with Windows Vista], NdisWdiTxInjectFrameIndication, NDIS_WDI_TX_INJECT_FRAME_IND, NDIS_WDI_TX_INJECT_FRAME_IND, dot11wdi/NdisWdiTxInjectFrameIndication
+ms.keywords: NDIS_WDI_TX_INJECT_FRAME_IND, NdisWdiTxInjectFrameIndication, NdisWdiTxInjectFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxInjectFrameIndication, netvista.ndiswditxinjectframeindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,10 +144,6 @@ This callback function does not return a value.
 
 
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_exemption_action_type.md">WDI_EXEMPTION_ACTION_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
 
 
@@ -157,6 +153,10 @@ This callback function does not return a value.
 
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+
+
+
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_exemption_action_type.md">WDI_EXEMPTION_ACTION_TYPE</a>
 
 
 

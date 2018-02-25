@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: accc3600-9614-48e0-912d-1e8b324e659f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlInsertPerFileContext, ifsk.fsrtlinsertperfilecontext, ntifs/FsRtlInsertPerFileContext, fsrtlref_570a2352-733f-4b83-8f63-f4bfed0e2f56.xml, FsRtlInsertPerFileContext routine [Installable File System Drivers]
+ms.keywords: ",  , C, F, FsRtlInsertPerFileContext, FsRtlInsertPerFileContext routine [Installable File System Drivers], I, P, R, e, fsrtlref_570a2352-733f-4b83-8f63-f4bfed0e2f56.xml, i, ifsk.fsrtlinsertperfilecontext, l, n, ntifs/FsRtlInsertPerFileContext, o, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,7 +150,7 @@ For more information about how to use and create context objects, see <a href="h
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperfilecontext.md">FsRtlRemovePerFileContext</a>
+<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
 
 
 
@@ -158,7 +158,7 @@ For more information about how to use and create context objects, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperfilecontext.md">FsRtlRemovePerFileContext</a>
 
 
 

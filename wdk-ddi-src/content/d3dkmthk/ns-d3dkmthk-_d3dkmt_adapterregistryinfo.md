@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b1bad6e8-8592-457a-8f66-40fc5040ae96
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_ADAPTERREGISTRYINFO structure [Display Devices], OpenGL_Structs_0d97d602-7fc3-40a2-aa06-2966a6fc04f7.xml, display.d3dkmt_adapterregistryinfo, d3dkmthk/D3DKMT_ADAPTERREGISTRYINFO, _D3DKMT_ADAPTERREGISTRYINFO, D3DKMT_ADAPTERREGISTRYINFO
+ms.keywords: ",  , ,, 3, A, D, D3DKMT_ADAPTERREGISTRYINFO, D3DKMT_ADAPTERREGISTRYINFO structure [Display Devices], E, F, G, I, K, M, N, O, OpenGL_Structs_0d97d602-7fc3-40a2-aa06-2966a6fc04f7.xml, P, R, S, T, Y, _, _D3DKMT_ADAPTERREGISTRYINFO, d3dkmthk/D3DKMT_ADAPTERREGISTRYINFO, display.d3dkmt_adapterregistryinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

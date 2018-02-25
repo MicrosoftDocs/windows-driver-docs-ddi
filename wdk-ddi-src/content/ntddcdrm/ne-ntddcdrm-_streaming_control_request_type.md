@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A17F0E3C-402B-4484-B4AE-0583773AEDA8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdrm/CdromStreamingDisable, CdromStreamingEnableForWriteOnly, PSTREAMING_CONTROL_REQUEST_TYPE enumeration pointer [Storage Devices], _STREAMING_CONTROL_REQUEST_TYPE, *PSTREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/PSTREAMING_CONTROL_REQUEST_TYPE, CdromStreamingDisable, STREAMING_CONTROL_REQUEST_TYPE enumeration [Storage Devices], ntddcdrm/CdromStreamingEnableForReadOnly, ntddcdrm/STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingEnableForReadWrite, PSTREAMING_CONTROL_REQUEST_TYPE, CdromStreamingEnableForReadWrite, ntddcdrm/ CdromStreamingEnableForWriteOnly, STREAMING_CONTROL_REQUEST_TYPE, CdromStreamingEnableForReadOnly, storage.streaming_control_request_type
+ms.keywords: ",  , *, *PSTREAMING_CONTROL_REQUEST_TYPE, ,, A, C, CdromStreamingDisable, CdromStreamingEnableForReadOnly, CdromStreamingEnableForReadWrite, CdromStreamingEnableForWriteOnly, E, G, I, L, M, N, O, P, PSTREAMING_CONTROL_REQUEST_TYPE, PSTREAMING_CONTROL_REQUEST_TYPE enumeration pointer [Storage Devices], Q, R, S, STREAMING_CONTROL_REQUEST_TYPE, STREAMING_CONTROL_REQUEST_TYPE enumeration [Storage Devices], T, U, Y, _, _STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/ CdromStreamingEnableForWriteOnly, ntddcdrm/CdromStreamingDisable, ntddcdrm/CdromStreamingEnableForReadOnly, ntddcdrm/CdromStreamingEnableForReadWrite, ntddcdrm/PSTREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/STREAMING_CONTROL_REQUEST_TYPE, storage.streaming_control_request_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

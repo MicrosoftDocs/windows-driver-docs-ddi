@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0d5f96e8-dcb3-49e5-8347-ba20d757618b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiremovedevice, DxgkDdiRemoveDevice callback function [Display Devices], DxgkDdiRemoveDevice, DXGKDDI_REMOVE_DEVICE, DXGKDDI_REMOVE_DEVICE, dispmprt/DxgkDdiRemoveDevice, DmFunctions_b8ab26af-93dd-4e49-b2a2-9c620678457d.xml
+ms.keywords: DXGKDDI_REMOVE_DEVICE, DmFunctions_b8ab26af-93dd-4e49-b2a2-9c620678457d.xml, DxgkDdiRemoveDevice, DxgkDdiRemoveDevice callback function [Display Devices], display.dxgkddiremovedevice, dispmprt/DxgkDdiRemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

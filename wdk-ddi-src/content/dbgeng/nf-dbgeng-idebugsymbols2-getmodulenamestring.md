@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4264f5e1-08f5-4878-9e10-b98859043515
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.getmodulenamestring, IDebugSymbols_e00a93fb-08c4-4f37-9915-577a22d9c889.xml, IDebugSymbols2 interface [Windows Debugging], GetModuleNameString method, IDebugSymbols2::GetModuleNameString, dbgeng/IDebugSymbols3::GetModuleNameString, dbgeng/IDebugSymbols2::GetModuleNameString, GetModuleNameString method [Windows Debugging], IDebugSymbols2 interface, GetModuleNameString, GetModuleNameString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetModuleNameString method, IDebugSymbols3::GetModuleNameString, GetModuleNameString method [Windows Debugging], IDebugSymbols2
+ms.keywords: ",  , ,, ., 2, :, D, G, GetModuleNameString method [Windows Debugging], GetModuleNameString method [Windows Debugging], IDebugSymbols2 interface, GetModuleNameString method [Windows Debugging], IDebugSymbols3 interface, GetModuleNameString,IDebugSymbols2.GetModuleNameString, I, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetModuleNameString method, IDebugSymbols2::GetModuleNameString, IDebugSymbols3 interface [Windows Debugging], GetModuleNameString method, IDebugSymbols3::GetModuleNameString, IDebugSymbols_e00a93fb-08c4-4f37-9915-577a22d9c889.xml, M, N, S, a, b, d, dbgeng/IDebugSymbols2::GetModuleNameString, dbgeng/IDebugSymbols3::GetModuleNameString, debugger.getmodulenamestring, e, g, i, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -211,7 +211,7 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547146">GetModuleNames</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -219,7 +219,7 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547146">GetModuleNames</a>
 
 
 

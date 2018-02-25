@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6A4963A0-4724-4709-A940-817B8AEBE1C9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_SYS_CAPS_INFO, netvista.ndis_wwan_sys_caps, NDIS_WWAN_SYS_CAPS_INFO, PNDIS_WWAN_SYS_CAPS_INFO, _NDIS_WWAN_SYS_CAPS_INFO, NDIS_WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SYS_CAPS_INFO, ndiswwan/NDIS_WWAN_SYS_CAPS_INFO
+ms.keywords: ",  , *, *PNDIS_WWAN_SYS_CAPS_INFO, ,, A, C, D, F, I, N, NDIS_WWAN_SYS_CAPS_INFO, NDIS_WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_WWAN_SYS_CAPS_INFO, PNDIS_WWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista], S, W, Y, _, _NDIS_WWAN_SYS_CAPS_INFO, ndiswwan/NDIS_WWAN_SYS_CAPS_INFO, ndiswwan/PNDIS_WWAN_SYS_CAPS_INFO, netvista.ndis_wwan_sys_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -198,11 +198,11 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_sys_caps_info.md">WWAN_SYS_CAPS_INFO<
 
 
 
-<a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_sys_caps_info.md">WWAN_SYS_CAPS_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
 
 
 

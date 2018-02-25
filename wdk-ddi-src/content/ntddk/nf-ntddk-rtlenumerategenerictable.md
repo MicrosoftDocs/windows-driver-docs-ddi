@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 53a5348c-71d1-4d58-82bf-1f8bf8daff90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml, RtlEnumerateGenericTable routine [Installable File System Drivers], ifsk.rtlenumerategenerictable, RtlEnumerateGenericTable, ntddk/RtlEnumerateGenericTable
+ms.keywords: ",  , E, G, R, RtlEnumerateGenericTable, RtlEnumerateGenericTable routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtlenumerategenerictable, l, m, n, ntddk/RtlEnumerateGenericTable, r, rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,7 +128,7 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
 
 
 
@@ -136,11 +136,11 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5e72aa2e-3aa6-49e5-b49f-339722060d5b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlIsUnicodeCharacterWild, fsrtlref_90047321-d510-4139-bfcf-d2f48c126834.xml, FsRtlIsUnicodeCharacterWild, FsRtlIsUnicodeCharacterWild function [Installable File System Drivers], ifsk.fsrtlisunicodecharacterwild
+ms.keywords: ",  , C, F, FsRtlIsUnicodeCharacterWild, FsRtlIsUnicodeCharacterWild function [Installable File System Drivers], I, R, U, W, a, c, d, e, fsrtlref_90047321-d510-4139-bfcf-d2f48c126834.xml, h, i, ifsk.fsrtlisunicodecharacterwild, l, n, ntifs/FsRtlIsUnicodeCharacterWild, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

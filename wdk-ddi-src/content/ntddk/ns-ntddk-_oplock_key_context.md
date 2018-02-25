@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E6A61B8F-CB43-4858-B5CF-32DD022A569E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: POPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN8, _OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], ntddk/OPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN7, *POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], ifsk.oplock_key_context, OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_FLAG_PARENT_KEY, OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT
+ms.keywords: ",  , *, *POPLOCK_KEY_CONTEXT, ,, C, E, K, L, N, O, OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], OPLOCK_KEY_FLAG_PARENT_KEY, OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_VERSION_WIN8, P, POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], T, X, Y, _, _OPLOCK_KEY_CONTEXT, ifsk.oplock_key_context, ntddk/OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -164,11 +164,11 @@ If an oplock is requested for a file during an <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/5cbbfecc-2182-40f6-9f54-a8146c1f663f">Oplock Semantics</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
 
 
 

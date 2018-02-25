@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 0B8FF9EB-63E5-4532-B13C-CF0FF04D9A53
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete, UdecxUsbDeviceLinkPowerEntryComplete, buses.udecxusbdevicelinkpowerentrycomplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses]
+ms.keywords: ",  , C, D, E, L, P, U, UdecxUsbDeviceLinkPowerEntryComplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], b, buses.udecxusbdevicelinkpowerentrycomplete, c, d, e, i, k, l, m, n, o, p, r, s, t, udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete, v, w, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,15 +102,15 @@ After the client driver has performed the necessary steps for bringing the virtu
 
 ## -see-also
 
+<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8ca2c47-e3b6-4ead-8d8e-2b2a4fe97658
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringVPrintf, RtlUnicodeStringVPrintf, kernel.rtlunicodestringvprintf, safestrings_45fb9433-8fea-42ec-83fc-772e943a3169.xml, RtlUnicodeStringVPrintf function [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , P, R, RtlUnicodeStringVPrintf, RtlUnicodeStringVPrintf function [Kernel-Mode Driver Architecture], S, U, V, c, d, e, f, g, i, kernel.rtlunicodestringvprintf, l, n, ntstrsafe/RtlUnicodeStringVPrintf, o, r, safestrings_45fb9433-8fea-42ec-83fc-772e943a3169.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,19 +162,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvprintfex.md">RtlUnicodeStringVPrintfEx</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintfex.md">RtlUnicodeStringPrintfEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintf.md">RtlUnicodeStringPrintf</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvprintfex.md">RtlUnicodeStringVPrintfEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintfex.md">RtlUnicodeStringPrintfEx</a>
 
 
 

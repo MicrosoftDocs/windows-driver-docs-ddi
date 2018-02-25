@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 93684a1a-788d-4b90-b9cc-58a3c4f7b25e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_hid_get_collection_descriptor, IOCTL_HID_GET_COLLECTION_DESCRIPTOR control code [Human Input Devices], IOCTL_HID_GET_COLLECTION_DESCRIPTOR, hidclass/IOCTL_HID_GET_COLLECTION_DESCRIPTOR, hidioreq_3b297887-5287-463a-9a31-46b8bd7761b3.xml
+ms.keywords: IOCTL_HID_GET_COLLECTION_DESCRIPTOR, IOCTL_HID_GET_COLLECTION_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_collection_descriptor, hidclass/IOCTL_HID_GET_COLLECTION_DESCRIPTOR, hidioreq_3b297887-5287-463a-9a31-46b8bd7761b3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -149,11 +149,11 @@ The internal structure of a _HIDP_PREPARSED_DATA structure is reserved for inter
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getpreparseddata.md">HidD_GetPreparsedData</a>
-
-
-
 <a href="..\hidsdi\nf-hidsdi-hidd_freepreparseddata.md">HidD_FreePreparsedData</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_getpreparseddata.md">HidD_GetPreparsedData</a>
 
 
 

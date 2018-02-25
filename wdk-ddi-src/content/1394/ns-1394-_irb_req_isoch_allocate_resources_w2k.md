@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1192D655-7900-40B2-9D5F-480ACDB94624
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure [Buses], IEEE.irb_req_isoch_allocate_resources_w2k, 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, IRB_REQ_ISOCH_ALLOCATE_RESOURCES, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
+ms.keywords: ",  , ,, 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, 2, A, B, C, E, H, I, IEEE.irb_req_isoch_allocate_resources_w2k, IRB_REQ_ISOCH_ALLOCATE_RESOURCES, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure [Buses], K, L, O, Q, R, S, T, U, W, _, _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

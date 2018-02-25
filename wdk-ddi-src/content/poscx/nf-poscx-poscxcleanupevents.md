@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: AD97BA14-8786-47A2-B551-2DB6FC7F83A8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: pos.poscxcleanupevents, PosCxCleanupEvents function, PosCxCleanupEvents, poscx/PosCxCleanupEvents
+ms.keywords: ",  , C, E, P, PosCxCleanupEvents, PosCxCleanupEvents function, a, e, l, n, o, p, pos.poscxcleanupevents, poscx/PosCxCleanupEvents, s, t, u, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

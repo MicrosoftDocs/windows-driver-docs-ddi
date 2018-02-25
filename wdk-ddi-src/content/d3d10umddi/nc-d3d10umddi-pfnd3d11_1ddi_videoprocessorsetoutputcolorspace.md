@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a6d1020d-e8e1-465f-a133-59afdfe1cfce
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoprocessorsetoutputcolorspace, pfnVideoProcessorSetOutputColorSpace callback function [Display Devices], pfnVideoProcessorSetOutputColorSpace, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE, d3d10umddi/pfnVideoProcessorSetOutputColorSpace
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE, d3d10umddi/pfnVideoProcessorSetOutputColorSpace, display.videoprocessorsetoutputcolorspace, pfnVideoProcessorSetOutputColorSpace, pfnVideoProcessorSetOutputColorSpace callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

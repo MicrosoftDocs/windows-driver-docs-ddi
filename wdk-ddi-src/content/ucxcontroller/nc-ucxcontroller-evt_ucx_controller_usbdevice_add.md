@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 0f89b57a-3374-4f40-88b5-43d233ba0e47
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_controller_usbdevice_add, EvtUcxControllerUsbDeviceAdd callback function [Buses], EvtUcxControllerUsbDeviceAdd, EVT_UCX_CONTROLLER_USBDEVICE_ADD, EVT_UCX_CONTROLLER_USBDEVICE_ADD, ucxcontroller/EvtUcxControllerUsbDeviceAdd, PEVT_UCX_CONTROLLER_USBDEVICE_ADD callback function pointer [Buses], PEVT_UCX_CONTROLLER_USBDEVICE_ADD
+ms.keywords: EVT_UCX_CONTROLLER_USBDEVICE_ADD, EvtUcxControllerUsbDeviceAdd, EvtUcxControllerUsbDeviceAdd callback function [Buses], PEVT_UCX_CONTROLLER_USBDEVICE_ADD, PEVT_UCX_CONTROLLER_USBDEVICE_ADD callback function pointer [Buses], buses.evt_ucx_controller_usbdevice_add, ucxcontroller/EvtUcxControllerUsbDeviceAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

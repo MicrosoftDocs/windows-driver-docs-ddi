@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C9A0E3A8-CAB6-420D-A0FC-C598CFC9CB12
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddstor/PSTORAGE_OFFLOAD_TOKEN, *PSTORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN, Any other value, PSTORAGE_OFFLOAD_TOKEN, _STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN_TYPE_ZERO_DATA, storage.storage_offload_token, STORAGE_OFFLOAD_TOKEN structure [Storage Devices], PSTORAGE_OFFLOAD_TOKEN structure pointer [Storage Devices], ntddstor/STORAGE_OFFLOAD_TOKEN
+ms.keywords: ",  , *, *PSTORAGE_OFFLOAD_TOKEN, ,, A, Any other value, D, E, F, G, K, L, N, O, P, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer [Storage Devices], R, S, STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure [Storage Devices], STORAGE_OFFLOAD_TOKEN_TYPE_ZERO_DATA, T, _, _STORAGE_OFFLOAD_TOKEN, ntddstor/PSTORAGE_OFFLOAD_TOKEN, ntddstor/STORAGE_OFFLOAD_TOKEN, storage.storage_offload_token"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

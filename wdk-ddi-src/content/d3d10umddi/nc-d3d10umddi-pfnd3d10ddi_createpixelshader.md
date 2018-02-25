@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 67b7cc14-89f5-45f2-b1cf-53316f495c66
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createpixelshader_d3d10_, CreatePixelShader callback function [Display Devices], CreatePixelShader, PFND3D10DDI_CREATEPIXELSHADER, PFND3D10DDI_CREATEPIXELSHADER, d3d10umddi/CreatePixelShader, UserModeDisplayDriverDx10_Functions_23347d7f-4550-4b9e-a64a-8fcb9b1573c6.xml
+ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3D10DDI_CREATEPIXELSHADER, UserModeDisplayDriverDx10_Functions_23347d7f-4550-4b9e-a64a-8fcb9b1573c6.xml, d3d10umddi/CreatePixelShader, display.createpixelshader_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,14 +142,6 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize.md">CalcPrivateShaderSize</a>
 
 
@@ -158,7 +150,15 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

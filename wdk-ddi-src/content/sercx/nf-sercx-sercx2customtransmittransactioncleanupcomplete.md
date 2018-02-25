@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5B9EBE82-A49A-4AD9-B07B-C0D17C5F3732
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 2/SerCx2CustomTransmitTransactionCleanupComplete, SerCx2CustomTransmitTransactionCleanupComplete method [Serial Ports], SerCx2CustomTransmitTransactionCleanupComplete, serports.sercx2customtransmittransactioncleanupcomplete
+ms.keywords: ",  , 2, 2/SerCx2CustomTransmitTransactionCleanupComplete, C, S, SerCx2CustomTransmitTransactionCleanupComplete, SerCx2CustomTransmitTransactionCleanupComplete method [Serial Ports], T, a, c, e, i, l, m, n, o, p, r, s, serports.sercx2customtransmittransactioncleanupcomplete, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

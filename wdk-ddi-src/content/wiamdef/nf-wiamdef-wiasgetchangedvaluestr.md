@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b15f1ca4-e0ab-4afe-97ba-4e24c7f00c60
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.wiasgetchangedvaluestr, wiasGetChangedValueStr function [Imaging Devices], wiasFncs_24524e94-fa0a-4d40-b742-6fad76707014.xml, wiasGetChangedValueStr, wiamdef/wiasGetChangedValueStr
+ms.keywords: ",  , C, G, S, V, a, d, e, g, h, i, image.wiasgetchangedvaluestr, l, n, r, s, t, u, w, wiamdef/wiasGetChangedValueStr, wiasFncs_24524e94-fa0a-4d40-b742-6fad76707014.xml, wiasGetChangedValueStr, wiasGetChangedValueStr function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,15 +124,7 @@ The driver should validate the property only after the driver has updated the va
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
-
-
-
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
 
 
 
@@ -141,6 +133,14 @@ The driver should validate the property only after the driver has updated the va
 
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+
+
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
 
 
 

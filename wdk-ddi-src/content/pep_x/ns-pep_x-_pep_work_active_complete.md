@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD7D7E5F-D35C-40B4-B414-A6D2EB8D3A02
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pep_x/PPEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACTIVE_COMPLETE, pep_x/PEP_WORK_ACTIVE_COMPLETE, kernel.pep_work_active_complete, *PPEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACTIVE_COMPLETE
+ms.keywords: ",  , *, *PPEP_WORK_ACTIVE_COMPLETE, ,, A, C, E, I, K, L, M, O, P, PEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], R, T, V, W, _, _PEP_WORK_ACTIVE_COMPLETE, kernel.pep_work_active_complete, pep_x/PEP_WORK_ACTIVE_COMPLETE, pep_x/PPEP_WORK_ACTIVE_COMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,14 +75,14 @@ A handle that represents the registration of the device with the Windows <a href
 
 ### -field Component
 
-[in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="..\pep_x\ns-pep_x-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+[in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ## -remarks
 
 
 
-The <b>ActiveComplete</b> member of the <a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACTIVE_COMPLETE</b> structure.
+The <b>ActiveComplete</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACTIVE_COMPLETE</b> structure.
 
 
 
@@ -93,11 +93,11 @@ The <b>ActiveComplete</b> member of the <a href="..\pep_x\ns-pep_x-_pep_work_inf
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fac29ced-7acc-4c2a-ac8a-171b8dd1d45e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfPdoRetrieveIdentificationDescription, kmdf.wdfpdoretrieveidentificationdescription, DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, wdf.wdfpdoretrieveidentificationdescription, wdfpdo/WdfPdoRetrieveIdentificationDescription, WdfPdoRetrieveIdentificationDescription method
+ms.keywords: ",  , D, DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, I, P, R, W, WdfPdoRetrieveIdentificationDescription, WdfPdoRetrieveIdentificationDescription method, a, c, d, e, f, i, kmdf.wdfpdoretrieveidentificationdescription, n, o, p, r, s, t, v, wdf.wdfpdoretrieveidentificationdescription, wdfpdo/WdfPdoRetrieveIdentificationDescription"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

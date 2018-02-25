@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b9fd47f-c6b6-4541-a014-0cd6604eb3b3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnperformamortizedprocessingcb, pfnPerformAmortizedProcessingCb callback function [Display Devices], pfnPerformAmortizedProcessingCb, PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB, PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB, d3d10umddi/pfnPerformAmortizedProcessingCb, d3d11state_functions_7da0e622-fd33-44b6-a096-143ff6c47953.xml
+ms.keywords: PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB, d3d10umddi/pfnPerformAmortizedProcessingCb, d3d11state_functions_7da0e622-fd33-44b6-a096-143ff6c47953.xml, display.pfnperformamortizedprocessingcb, pfnPerformAmortizedProcessingCb, pfnPerformAmortizedProcessingCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,11 +104,11 @@ For more information about amortized processing, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 

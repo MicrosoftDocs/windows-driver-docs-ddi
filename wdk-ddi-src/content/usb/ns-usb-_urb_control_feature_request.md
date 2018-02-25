@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: b32c6a7e-84c2-412a-a13e-959aaddc81ac
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_URB_CONTROL_FEATURE_REQUEST structure [Buses], buses._urb_control_feature_request, usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml, _URB_CONTROL_FEATURE_REQUEST, usb/_URB_CONTROL_FEATURE_REQUEST"
+ms.keywords: ",  , A, B, C, E, F, L, N, O, Q, R, S, T, U, _, _URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST structure [Buses], buses._urb_control_feature_request, usb/_URB_CONTROL_FEATURE_REQUEST, usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -163,7 +163,7 @@ Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_R
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -171,7 +171,7 @@ Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_R
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

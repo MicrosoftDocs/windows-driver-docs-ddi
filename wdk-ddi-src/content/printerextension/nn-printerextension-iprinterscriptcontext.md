@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B44B47EA-6848-430E-9C10-F6DD460C2304
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterscriptcontext, IPrinterScriptContext interface [Print Devices], IPrinterScriptContext interface [Print Devices], described, IPrinterScriptContext, printerextension/IPrinterScriptContext
+ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], IPrinterScriptContext interface [Print Devices], described, print.iprinterscriptcontext, printerextension/IPrinterScriptContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

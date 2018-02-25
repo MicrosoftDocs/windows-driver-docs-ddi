@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3998eed5-398e-4835-b917-54f5ae814ddf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: spoolfnc_065c8a3a-5790-45f5-bf79-3af94fdd0571.xml, RouterFreeBidiResponseContainer, print.routerfreebidiresponsecontainer, RouterFreeBidiResponseContainer function [Print Devices], winsplp/RouterFreeBidiResponseContainer
+ms.keywords: ",  , B, C, F, R, RouterFreeBidiResponseContainer, RouterFreeBidiResponseContainer function [Print Devices], a, d, e, i, n, o, p, print.routerfreebidiresponsecontainer, r, s, spoolfnc_065c8a3a-5790-45f5-bf79-3af94fdd0571.xml, t, u, winsplp/RouterFreeBidiResponseContainer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

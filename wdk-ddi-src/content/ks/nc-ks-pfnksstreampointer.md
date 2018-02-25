@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4c95ccb6-c796-4bb2-b344-aa8eea28e131
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminicancelcallback, AVStrMiniCancelCallback, AVStrMiniCancelCallback routine [Streaming Media Devices], AVStrMiniCancelCallback, PFNKSSTREAMPOINTER, PFNKSSTREAMPOINTER, ks/AVStrMiniCancelCallback, avstclbk_b23a511e-6e6a-4eaf-a64e-707983534d6f.xml
+ms.keywords: AVStrMiniCancelCallback, AVStrMiniCancelCallback routine [Streaming Media Devices], PFNKSSTREAMPOINTER, avstclbk_b23a511e-6e6a-4eaf-a64e-707983534d6f.xml, ks/AVStrMiniCancelCallback, stream.avstrminicancelcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,15 +103,15 @@ Finally, the minidriver must call <a href="..\ks\nf-ks-ksstreampointerdelete.md"
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
+
+
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
 
 
 <a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
 
 
 

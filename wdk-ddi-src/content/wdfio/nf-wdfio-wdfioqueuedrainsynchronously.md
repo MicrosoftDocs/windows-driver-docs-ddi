@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e8e53a6d-8b8b-49ed-947b-d0bb69a4d050
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoQueueDrainSynchronously method, kmdf.wdfioqueuedrainsynchronously, WdfIoQueueDrainSynchronously, wdfio/WdfIoQueueDrainSynchronously, DFQueueObjectRef_8c2d977e-f24a-49b8-bb80-e4b3d369d23a.xml, wdf.wdfioqueuedrainsynchronously
+ms.keywords: ",  , D, DFQueueObjectRef_8c2d977e-f24a-49b8-bb80-e4b3d369d23a.xml, I, Q, S, W, WdfIoQueueDrainSynchronously, WdfIoQueueDrainSynchronously method, a, c, d, e, f, h, i, kmdf.wdfioqueuedrainsynchronously, l, n, o, r, s, u, wdf.wdfioqueuedrainsynchronously, wdfio/WdfIoQueueDrainSynchronously, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

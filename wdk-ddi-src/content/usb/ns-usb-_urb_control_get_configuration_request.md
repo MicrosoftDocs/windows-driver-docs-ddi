@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6f50b520-244e-4848-8696-969de82aa8ff
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbstrct_77d89ae2-eb81-48f0-b399-85d39a5feb6a.xml, buses._urb_control_get_configuration_request, _URB_CONTROL_GET_CONFIGURATION_REQUEST, usb/_URB_CONTROL_GET_CONFIGURATION_REQUEST, _URB_CONTROL_GET_CONFIGURATION_REQUEST structure [Buses]
+ms.keywords: ",  , A, B, C, E, F, G, I, L, N, O, Q, R, S, T, U, _, _URB_CONTROL_GET_CONFIGURATION_REQUEST, _URB_CONTROL_GET_CONFIGURATION_REQUEST structure [Buses], buses._urb_control_get_configuration_request, usb/_URB_CONTROL_GET_CONFIGURATION_REQUEST, usbstrct_77d89ae2-eb81-48f0-b399-85d39a5feb6a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,7 +139,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -147,7 +147,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

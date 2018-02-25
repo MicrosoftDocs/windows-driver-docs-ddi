@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4e5c8942-3ce2-40d8-8cd7-436a5ebbc8ee
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ForwardContentToDeviceObject method [Audio Devices], IDrmPort2 interface, IDrmPort2::ForwardContentToDeviceObject, audio.idrmport2_forwardcontenttodeviceobject, ForwardContentToDeviceObject, audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, portcls/IDrmPort2::ForwardContentToDeviceObject, IDrmPort2 interface [Audio Devices], ForwardContentToDeviceObject method, IDrmPort2, ForwardContentToDeviceObject method [Audio Devices]
+ms.keywords: ",  , ,, ., 2, :, C, D, F, ForwardContentToDeviceObject method [Audio Devices], ForwardContentToDeviceObject method [Audio Devices], IDrmPort2 interface, ForwardContentToDeviceObject,IDrmPort2.ForwardContentToDeviceObject, I, IDrmPort2, IDrmPort2 interface [Audio Devices], ForwardContentToDeviceObject method, IDrmPort2::ForwardContentToDeviceObject, O, P, T, a, audio.idrmport2_forwardcontenttodeviceobject, audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, b, c, d, e, i, j, m, n, o, portcls/IDrmPort2::ForwardContentToDeviceObject, r, t, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,11 +102,11 @@ See comments in <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">Drm
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-idrmport2.md">IDrmPort2</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+
+
+
+<a href="..\portcls\nn-portcls-idrmport2.md">IDrmPort2</a>
 
 
 

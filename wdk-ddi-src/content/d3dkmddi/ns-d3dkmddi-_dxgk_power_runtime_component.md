@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ed7e6fc4-651d-4dc3-9c90-cca3c5f0eb67
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], DXGK_POWER_RUNTIME_COMPONENT, display.dxgk_power_runtime_component, _DXGK_POWER_RUNTIME_COMPONENT, d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT
+ms.keywords: ",  , ,, C, D, DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], E, G, I, K, M, N, O, P, R, T, U, W, X, _, _DXGK_POWER_RUNTIME_COMPONENT, d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT, display.dxgk_power_runtime_component"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,11 +131,11 @@ Multiple power components should not be mapped to the same engine (node), to the
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_state.md">DXGK_POWER_RUNTIME_STATE</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
 
 
 

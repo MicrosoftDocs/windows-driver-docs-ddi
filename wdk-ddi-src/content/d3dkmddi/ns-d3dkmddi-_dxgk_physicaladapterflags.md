@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AACF0C99-D6E2-4C7C-BAE6-BF558FDAFDE0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags, DXGK_PHYSICALADAPTERFLAGS, _DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices]
+ms.keywords: ",  , ,, A, C, D, DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], E, F, G, H, I, K, L, P, R, S, T, X, Y, _, _DXGK_PHYSICALADAPTERFLAGS, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

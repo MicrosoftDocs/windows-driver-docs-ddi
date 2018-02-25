@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: e62c61e7-ef64-4939-ad24-686d137b6319
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_internal_mouse_disconnect, IOCTL_INTERNAL_MOUSE_DISCONNECT control code [Human Input Devices], IOCTL_INTERNAL_MOUSE_DISCONNECT, kbdmou/IOCTL_INTERNAL_MOUSE_DISCONNECT, mfilref_11062207-6bb0-4a84-aaee-c3c086812b90.xml
+ms.keywords: IOCTL_INTERNAL_MOUSE_DISCONNECT, IOCTL_INTERNAL_MOUSE_DISCONNECT control code [Human Input Devices], hid.ioctl_internal_mouse_disconnect, kbdmou/IOCTL_INTERNAL_MOUSE_DISCONNECT, mfilref_11062207-6bb0-4a84-aaee-c3c086812b90.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba1a1fcd-9551-41cb-b1f9-097b51a26380
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_query_color_capabilities, IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES control code [Display Devices], IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES, ntddvdeo/IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES, Video_IOCTLs_26b0d5c4-d7b5-4056-9d78-6b9fa9a8ab72.xml
+ms.keywords: IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES, IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES control code [Display Devices], Video_IOCTLs_26b0d5c4-d7b5-4056-9d78-6b9fa9a8ab72.xml, display.ioctl_video_query_color_capabilities, ntddvdeo/IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5ff63606-ced1-4482-b967-41db4746ac1d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmt_openresource, d3dkmthk/D3DKMT_OPENRESOURCE, _D3DKMT_OPENRESOURCE, OpenGL_Structs_b069a94a-b78c-4fbf-b78d-7c5b0d025655.xml, D3DKMT_OPENRESOURCE structure [Display Devices], D3DKMT_OPENRESOURCE
+ms.keywords: ",  , ,, 3, C, D, D3DKMT_OPENRESOURCE, D3DKMT_OPENRESOURCE structure [Display Devices], E, K, M, N, O, OpenGL_Structs_b069a94a-b78c-4fbf-b78d-7c5b0d025655.xml, P, R, S, T, U, _, _D3DKMT_OPENRESOURCE, d3dkmthk/D3DKMT_OPENRESOURCE, display.d3dkmt_openresource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -147,11 +147,11 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
 
 
 

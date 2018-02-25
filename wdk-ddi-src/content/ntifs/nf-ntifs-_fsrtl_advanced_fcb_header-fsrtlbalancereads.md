@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 06d55d5d-1b2e-43f9-8d01-2f81489cc861
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, FsRtlBalanceReads routine [Installable File System Drivers], ifsk.fsrtlbalancereads, ntifs/FsRtlBalanceReads, FsRtlBalanceReads
+ms.keywords: ",  , B, F, FsRtlBalanceReads, FsRtlBalanceReads routine [Installable File System Drivers], R, a, c, d, e, fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, ifsk.fsrtlbalancereads, l, n, ntifs/FsRtlBalanceReads, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

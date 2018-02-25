@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12b34b79-0154-4b25-83e7-b15642154b05
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdpc/WDF_DPC_CONFIG_INIT, WDF_DPC_CONFIG_INIT function, WDF_DPC_CONFIG_INIT, wdf.wdf_dpc_config_init, DFDpcObjectRef_ba15c593-3f2a-4e7f-9a58-a550ca47ccc1.xml, kmdf.wdf_dpc_config_init
+ms.keywords: ",  , C, D, DFDpcObjectRef_ba15c593-3f2a-4e7f-9a58-a550ca47ccc1.xml, F, G, I, N, O, P, T, W, WDF_DPC_CONFIG_INIT, WDF_DPC_CONFIG_INIT function, _, kmdf.wdf_dpc_config_init, wdf.wdf_dpc_config_init, wdfdpc/WDF_DPC_CONFIG_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

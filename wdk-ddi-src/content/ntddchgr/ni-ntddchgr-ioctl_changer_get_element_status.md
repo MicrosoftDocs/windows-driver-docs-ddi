@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5611bd28-16ed-4af1-a01c-07ef590bad65
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_changer_get_element_status, IOCTL_CHANGER_GET_ELEMENT_STATUS control code [Storage Devices], IOCTL_CHANGER_GET_ELEMENT_STATUS, ntddchgr/IOCTL_CHANGER_GET_ELEMENT_STATUS, k307_017d1ca9-974c-4a25-b28f-51e0bdc562d8.xml
+ms.keywords: IOCTL_CHANGER_GET_ELEMENT_STATUS, IOCTL_CHANGER_GET_ELEMENT_STATUS control code [Storage Devices], k307_017d1ca9-974c-4a25-b28f-51e0bdc562d8.xml, ntddchgr/IOCTL_CHANGER_GET_ELEMENT_STATUS, storage.ioctl_changer_get_element_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -114,19 +114,19 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status_ex.md">CHANGER_ELEMENT_STATUS_EX</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status_ex.md">CHANGER_ELEMENT_STATUS_EX</a>
 
 
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b282dcbe-f2ed-41f2-b97d-e9c409671197
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_query_pointer_capabilities, IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES control code [Display Devices], IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES, ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES, Video_IOCTLs_42064dfd-73fb-4afc-aa3b-4e1ec4829e99.xml
+ms.keywords: IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES, IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES control code [Display Devices], Video_IOCTLs_42064dfd-73fb-4afc-aa3b-4e1ec4829e99.xml, display.ioctl_video_query_pointer_capabilities, ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

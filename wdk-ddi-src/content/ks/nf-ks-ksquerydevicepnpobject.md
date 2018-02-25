@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 207b776a-8f51-4385-a171-a9d0e84e70b5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsQueryDevicePnpObject, KsQueryDevicePnpObject function [Streaming Media Devices], ksfunc_dd821abc-bd3b-45e9-a1de-1f9fd201db8e.xml, stream.ksquerydevicepnpobject, ks/KsQueryDevicePnpObject
+ms.keywords: ",  , D, K, KsQueryDevicePnpObject, KsQueryDevicePnpObject function [Streaming Media Devices], O, P, Q, b, c, e, i, j, ks/KsQueryDevicePnpObject, ksfunc_dd821abc-bd3b-45e9-a1de-1f9fd201db8e.xml, n, p, r, s, stream.ksquerydevicepnpobject, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9B6EA552-B576-45F3-A0BD-7EB721638D7F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMT_CREATEHWCONTEXT, _D3DKMT_CREATEHWCONTEXT, D3DKMT_CREATEHWCONTEXT, D3DKMT_CREATEHWCONTEXT structure [Display Devices], display.d3dkmt_createhwcontext
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CREATEHWCONTEXT, D3DKMT_CREATEHWCONTEXT structure [Display Devices], E, H, K, M, N, O, R, T, W, X, _, _D3DKMT_CREATEHWCONTEXT, d3dkmthk/D3DKMT_CREATEHWCONTEXT, display.d3dkmt_createhwcontext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9389536e-30c3-4651-bb1e-2c75741694b2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], GetBreakpointByIndex method, debugger.getbreakpointbyindex, IDebugControl2 interface [Windows Debugging], GetBreakpointByIndex method, GetBreakpointByIndex method [Windows Debugging], IDebugControl interface, GetBreakpointByIndex method [Windows Debugging], dbgeng/IDebugControl2::GetBreakpointByIndex, GetBreakpointByIndex method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetBreakpointByIndex, IDebugControl, dbgeng/IDebugControl::GetBreakpointByIndex, IDebugControl2, GetBreakpointByIndex, IDebugControl3::GetBreakpointByIndex, IDebugControl interface [Windows Debugging], GetBreakpointByIndex method, GetBreakpointByIndex method [Windows Debugging], IDebugControl3 interface, IDebugControl_d290fd1e-da1d-4d02-9503-a3c0f8337cec.xml, IDebugControl2::GetBreakpointByIndex, IDebugControl::GetBreakpointByIndex
+ms.keywords: ",  , ,, ., 2, :, B, C, D, G, GetBreakpointByIndex method [Windows Debugging], GetBreakpointByIndex method [Windows Debugging], IDebugControl interface, GetBreakpointByIndex method [Windows Debugging], IDebugControl2 interface, GetBreakpointByIndex method [Windows Debugging], IDebugControl3 interface, GetBreakpointByIndex,IDebugControl.GetBreakpointByIndex, GetBreakpointByIndex,IDebugControl2.GetBreakpointByIndex, I, IDebugControl, IDebugControl interface [Windows Debugging], GetBreakpointByIndex method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetBreakpointByIndex method, IDebugControl2::GetBreakpointByIndex, IDebugControl3 interface [Windows Debugging], GetBreakpointByIndex method, IDebugControl3::GetBreakpointByIndex, IDebugControl::GetBreakpointByIndex, IDebugControl_d290fd1e-da1d-4d02-9503-a3c0f8337cec.xml, a, b, d, dbgeng/IDebugControl2::GetBreakpointByIndex, dbgeng/IDebugControl3::GetBreakpointByIndex, dbgeng/IDebugControl::GetBreakpointByIndex, debugger.getbreakpointbyindex, e, g, i, k, l, n, o, p, r, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -130,19 +130,19 @@ The index and returned breakpoint are specific to the current process.  The same
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547880">GetNumberBreakpoints</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

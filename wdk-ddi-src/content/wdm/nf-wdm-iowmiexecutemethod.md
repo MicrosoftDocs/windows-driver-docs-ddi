@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 462165e5-2823-4559-bd3e-18850d442cdb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iowmiexecutemethod, wdm/IoWMIExecuteMethod, IoWMIExecuteMethod, k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , E, I, IoWMIExecuteMethod, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], M, W, c, d, e, h, k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, kernel.iowmiexecutemethod, o, t, u, wdm/IoWMIExecuteMethod, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ebc90e0-328b-4830-9942-027d3f19d186
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfWmiInstanceGetDevice, WdfWmiInstanceGetDevice method, kmdf.wdfwmiinstancegetdevice, wdf.wdfwmiinstancegetdevice, DFWMIRef_adc116bf-d2bc-41b0-8d1d-5cc90440d778.xml, wdfwmi/WdfWmiInstanceGetDevice
+ms.keywords: ",  , D, DFWMIRef_adc116bf-d2bc-41b0-8d1d-5cc90440d778.xml, G, I, W, WdfWmiInstanceGetDevice, WdfWmiInstanceGetDevice method, a, c, d, e, f, i, kmdf.wdfwmiinstancegetdevice, m, n, s, t, v, wdf.wdfwmiinstancegetdevice, wdfwmi/WdfWmiInstanceGetDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

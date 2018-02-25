@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee4499d0-3275-419d-9ab2-89edd77e0374
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/DOT11_PRIVACY_EXEMPTION, *PDOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], DOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, netvista.dot11_privacy_exemption, PDOT11_PRIVACY_EXEMPTION
+ms.keywords: ",  , *, *PDOT11_PRIVACY_EXEMPTION, ,, 1, A, C, D, DOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], E, I, M, N, Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, O, P, PDOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], R, T, V, X, Y, _, netvista.dot11_privacy_exemption, windot11/DOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

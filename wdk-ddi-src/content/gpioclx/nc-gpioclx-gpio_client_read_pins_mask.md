@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: EFF7C3D8-9E52-446A-BF55-0308A0D2835E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_readgpiopinsusingmask, CLIENT_ReadGpioPinsUsingMask callback function [Parallel Ports], CLIENT_ReadGpioPinsUsingMask, GPIO_CLIENT_READ_PINS_MASK, GPIO_CLIENT_READ_PINS_MASK, gpioclx/CLIENT_ReadGpioPinsUsingMask
+ms.keywords: CLIENT_ReadGpioPinsUsingMask, CLIENT_ReadGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_readgpiopinsusingmask, GPIO_CLIENT_READ_PINS_MASK, gpioclx/CLIENT_ReadGpioPinsUsingMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,11 +153,11 @@ The GPIO_CLIENT_READ_PINS_MASK function type is defined in the Gpioclx.h header 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698254">GPIO_READ_PINS_MASK_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698254">GPIO_READ_PINS_MASK_PARAMETERS</a>
 
 
 

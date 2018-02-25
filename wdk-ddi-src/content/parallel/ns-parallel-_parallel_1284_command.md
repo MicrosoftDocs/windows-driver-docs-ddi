@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 5b46253c-c111-4675-898e-78b81ecbddb8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parallel/PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND structure [Parallel Ports], parallel/PARALLEL_1284_COMMAND, _PARALLEL_1284_COMMAND, parports.parallel_1284_command, *PPARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], PARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml
+ms.keywords: ",  , *, *PPARALLEL_1284_COMMAND, ,, 1, 2, 4, 8, A, C, D, E, L, M, N, O, P, PARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND structure [Parallel Ports], PPARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], R, _, _PARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, parallel/PARALLEL_1284_COMMAND, parallel/PPARALLEL_1284_COMMAND, parports.parallel_1284_command"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

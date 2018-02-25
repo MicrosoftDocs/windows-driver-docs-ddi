@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: FE3DE2A8-8EE5-4F34-BEE6-731987E5F5BD
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: imp_WppRecorderDumpLiveDriverData, imp_WppRecorderDumpLiveDriverData function [Driver Development Tools], wpprecorder/imp_WppRecorderDumpLiveDriverData, WppRecorderDumpLiveDriverData, devtest.wpprecorderdumplivedriverdata
+ms.keywords: ",  , D, L, R, W, WppRecorderDumpLiveDriverData, a, c, d, devtest.wpprecorderdumplivedriverdata, e, i, imp_WppRecorderDumpLiveDriverData, imp_WppRecorderDumpLiveDriverData function [Driver Development Tools], m, o, p, r, t, u, v, wpprecorder/imp_WppRecorderDumpLiveDriverData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

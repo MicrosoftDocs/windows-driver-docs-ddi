@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e6316816-5260-4dd5-9c44-897ed5a88cc8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_c6ae5181-a478-47d7-8f0c-49f4f5a7f318.xml, display.d3dkmtopensynchronizationobject, D3DKMTOpenSynchronizationObject function [Display Devices], D3DKMTOpenSynchronizationObject, d3dkmthk/D3DKMTOpenSynchronizationObject
+ms.keywords: ",  , 3, D, D3DKMTOpenSynchronizationObject, D3DKMTOpenSynchronizationObject function [Display Devices], K, M, O, OpenGL_Functions_c6ae5181-a478-47d7-8f0c-49f4f5a7f318.xml, S, T, a, b, c, d3dkmthk/D3DKMTOpenSynchronizationObject, display.d3dkmtopensynchronizationobject, e, h, i, j, n, o, p, r, t, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

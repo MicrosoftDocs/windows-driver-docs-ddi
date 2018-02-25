@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: edf59add-0155-4619-9c7c-fdb63b954f85
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices], _D3DKMDT_SHAREDPRIMARYSURFACEDATA, display.d3dkmdt_sharedprimarysurfacedata
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices], DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, E, F, H, I, K, M, P, R, S, T, U, Y, _, _D3DKMDT_SHAREDPRIMARYSURFACEDATA, d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, display.d3dkmdt_sharedprimarysurfacedata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,15 +107,15 @@ Multiple processes can lock a shared primary surface. The video memory manager p
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
-
-
-
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5eea0877-329d-4fa3-847e-365d6a545b07
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/ZwWaitForSingleObject, ZwWaitForSingleObject, k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, kernel.zwwaitforsingleobject, ntifs/NtWaitForSingleObject, NtWaitForSingleObject, ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , F, NtWaitForSingleObject, O, S, W, Z, ZwWaitForSingleObject, ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture], a, b, c, e, g, i, j, k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, kernel.zwwaitforsingleobject, l, n, ntifs/NtWaitForSingleObject, ntifs/ZwWaitForSingleObject, o, r, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -220,19 +220,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
 
 
 
@@ -240,15 +228,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
 
 
 
@@ -256,7 +248,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
+<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

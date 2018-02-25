@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ffb1493f-6076-4b93-8431-b3ffd4679f96
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltAllocatePoolAlignedWithTag function [Installable File System Drivers], fltkernel/FltAllocatePoolAlignedWithTag, FltAllocatePoolAlignedWithTag, ifsk.fltallocatepoolalignedwithtag, FltApiRef_a_to_d_b617aed0-5103-4a1e-aa0d-86247d99e803.xml
+ms.keywords: ",  , A, F, FltAllocatePoolAlignedWithTag, FltAllocatePoolAlignedWithTag function [Installable File System Drivers], FltApiRef_a_to_d_b617aed0-5103-4a1e-aa0d-86247d99e803.xml, P, T, W, a, c, d, e, fltkernel/FltAllocatePoolAlignedWithTag, g, h, i, ifsk.fltallocatepoolalignedwithtag, l, n, o, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,11 +131,11 @@ Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreepoolalignedwithtag.md">FltFreePoolAlignedWithTag</a>
 
 
 
@@ -143,7 +143,7 @@ Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreepoolalignedwithtag.md">FltFreePoolAlignedWithTag</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

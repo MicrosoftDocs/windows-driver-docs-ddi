@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98B8EE79-18D2-4C57-964B-74DB550C1330
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfncheckcounterinfo, pfnCheckCounterInfo callback function [Display Devices], pfnCheckCounterInfo, PFND3DDDI_CHECKCOUNTERINFO, PFND3DDDI_CHECKCOUNTERINFO, d3dumddi/pfnCheckCounterInfo
+ms.keywords: PFND3DDDI_CHECKCOUNTERINFO, d3dumddi/pfnCheckCounterInfo, display.pfncheckcounterinfo, pfnCheckCounterInfo, pfnCheckCounterInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -118,11 +118,11 @@ The driver's <i>pfnCheckCounterInfo</i> function cannot call the <a href="..\d3d
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_counter_info.md">D3DDDIARG_COUNTER_INFO</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

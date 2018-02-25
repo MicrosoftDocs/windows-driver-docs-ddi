@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D020B8AA-7353-47E1-A111-82BFE6F5F03D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfdevice3_assigns0idlesettingsex, AssignS0IdleSettingsEx method, AssignS0IdleSettingsEx, IWDFDevice3, IWDFDevice3::AssignS0IdleSettingsEx, umdf.iwdfdevice3_assigns0idlesettingsex, AssignS0IdleSettingsEx method, IWDFDevice3 interface, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx, IWDFDevice3 interface, AssignS0IdleSettingsEx method
+ms.keywords: ",  , ,, ., 0, 3, :, A, AssignS0IdleSettingsEx method, AssignS0IdleSettingsEx method, IWDFDevice3 interface, AssignS0IdleSettingsEx,IWDFDevice3.AssignS0IdleSettingsEx, D, E, F, I, IWDFDevice3, IWDFDevice3 interface, AssignS0IdleSettingsEx method, IWDFDevice3::AssignS0IdleSettingsEx, S, W, c, d, e, g, i, l, n, s, t, umdf.iwdfdevice3_assigns0idlesettingsex, v, wdf.iwdfdevice3_assigns0idlesettingsex, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

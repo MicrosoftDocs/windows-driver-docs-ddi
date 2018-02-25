@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a827df55-ff88-439a-8d56-fba8212105a6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortDoDma function [Display Devices], VideoPortDoDma, display.videoportdodma, video/VideoPortDoDma, VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml
+ms.keywords: ",  , D, P, V, VideoPortDoDma, VideoPortDoDma function [Display Devices], VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, a, d, display.videoportdodma, e, i, m, o, r, t, video/VideoPortDoDma"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

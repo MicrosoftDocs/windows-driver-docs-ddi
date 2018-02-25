@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9a56ac86-2d39-4367-8e64-b6f6bc0da0ea
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_performance_off, IOCTL_DISK_PERFORMANCE_OFF control code [Storage Devices], IOCTL_DISK_PERFORMANCE_OFF, ntdddisk/IOCTL_DISK_PERFORMANCE_OFF, k307_af1f6a33-e2e5-4ba0-96ad-f1d84c30ef76.xml
+ms.keywords: IOCTL_DISK_PERFORMANCE_OFF, IOCTL_DISK_PERFORMANCE_OFF control code [Storage Devices], k307_af1f6a33-e2e5-4ba0-96ad-f1d84c30ef76.xml, ntdddisk/IOCTL_DISK_PERFORMANCE_OFF, storage.ioctl_disk_performance_off
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

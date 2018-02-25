@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d223712d-2c77-4bec-b8c0-d677d4caeac2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DDICONTENTPROTECTIONCAPS structure [Display Devices], D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, DDICONTENTPROTECTIONCAPS, d3dumddi/DDICONTENTPROTECTIONCAPS, display.ddicontentprotectioncaps, _DDICONTENTPROTECTIONCAPS
+ms.keywords: ",  , ,, A, C, D, D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS structure [Display Devices], E, I, N, O, P, R, S, T, _, _DDICONTENTPROTECTIONCAPS, d3dumddi/DDICONTENTPROTECTIONCAPS, display.ddicontentprotectioncaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,11 +111,11 @@ If the runtime specifies NULL_GUID in the <b>CryptoType</b> member, the driver s
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 

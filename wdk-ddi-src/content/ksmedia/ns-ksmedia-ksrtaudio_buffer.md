@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b80efaf0-ecee-40cd-befb-2139a20840a5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKSRTAUDIO_BUFFER structure pointer [Audio Devices], aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, ksmedia/PKSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices], *PKSRTAUDIO_BUFFER, audio.ksrtaudio_buffer, PKSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER, ksmedia/KSRTAUDIO_BUFFER
+ms.keywords: ",  , *, *PKSRTAUDIO_BUFFER, ,, A, B, D, E, F, I, K, KSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices], O, P, PKSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], R, S, T, U, _, aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, audio.ksrtaudio_buffer, ksmedia/KSRTAUDIO_BUFFER, ksmedia/PKSRTAUDIO_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPRO
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPROPERTY_RTAUDIO_BUFFER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537494">KSRTAUDIO_BUFFER_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPROPERTY_RTAUDIO_BUFFER</a>
 
 
 

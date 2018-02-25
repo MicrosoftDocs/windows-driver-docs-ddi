@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57f8006c-defe-4975-9d21-0eaecae5a873
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WmiTraceMessageVa, kernel.wmitracemessageva, k902_c9c7dd80-d7a8-4b53-bcf1-f64c822e9e6d.xml, wdm/WmiTraceMessageVa, WmiTraceMessageVa routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , M, T, V, W, WmiTraceMessageVa, WmiTraceMessageVa routine [Kernel-Mode Driver Architecture], a, c, e, g, i, k902_c9c7dd80-d7a8-4b53-bcf1-f64c822e9e6d.xml, kernel.wmitracemessageva, m, r, s, wdm/WmiTraceMessageVa"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -247,19 +247,19 @@ All message buffers allocated to software tracing session are full.
 
 
 
-<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
-
-
-
 <a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
 
 
 
+<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
+
+
+
 <a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
 
 
 

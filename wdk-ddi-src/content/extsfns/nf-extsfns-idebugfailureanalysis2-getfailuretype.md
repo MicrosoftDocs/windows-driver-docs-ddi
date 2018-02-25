@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3BE85B65-DAE0-41E7-AB24-B5E8E7073E1A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetFailureType method [Windows Debugging], IDebugFailureAnalysis2 interface, extsfns/IDebugFailureAnalysis2::GetFailureType, GetFailureType, GetFailureType method [Windows Debugging], IDebugFailureAnalysis2::GetFailureType, debugger.idebugfailureanalysis2_getfailuretype, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureType method, IDebugFailureAnalysis2
+ms.keywords: ",  , ,, ., 2, :, A, D, F, G, GetFailureType method [Windows Debugging], GetFailureType method [Windows Debugging], IDebugFailureAnalysis2 interface, GetFailureType,IDebugFailureAnalysis2.GetFailureType, I, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureType method, IDebugFailureAnalysis2::GetFailureType, T, a, b, debugger.idebugfailureanalysis2_getfailuretype, e, extsfns/IDebugFailureAnalysis2::GetFailureType, g, i, l, n, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,11 +78,11 @@ This method returns a value in the <a href="..\extsfns\ne-extsfns-_debug_failure
 
 ## -see-also
 
+<b>GetFailureClass</b>
+
+
+
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 
@@ -90,7 +90,7 @@ This method returns a value in the <a href="..\extsfns\ne-extsfns-_debug_failure
 
 
 
-<b>GetFailureClass</b>
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C68CC6F1-83D6-43D9-93F3-99E3A990C7D7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisetpowercomponentfstate, DxgkDdiSetPowerComponentFState callback function [Display Devices], DxgkDdiSetPowerComponentFState, DXGKDDISETPOWERCOMPONENTFSTATE, DXGKDDISETPOWERCOMPONENTFSTATE, d3dkmddi/DxgkDdiSetPowerComponentFState
+ms.keywords: DXGKDDISETPOWERCOMPONENTFSTATE, DxgkDdiSetPowerComponentFState, DxgkDdiSetPowerComponentFState callback function [Display Devices], d3dkmddi/DxgkDdiSetPowerComponentFState, display.dxgkddisetpowercomponentfstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -122,11 +122,11 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -134,11 +134,11 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 
 
 

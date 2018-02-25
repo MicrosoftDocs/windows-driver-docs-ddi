@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7998B753-8E43-471F-9BDE-729D0E38E022
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsDeviceRegisterThermalDispatch function [Streaming Media Devices], KsDeviceRegisterThermalDispatch, ks/KsDeviceRegisterThermalDispatch, stream.ksdeviceregisterthermaldispatch
+ms.keywords: ",  , D, K, KsDeviceRegisterThermalDispatch, KsDeviceRegisterThermalDispatch function [Streaming Media Devices], R, T, a, c, e, g, h, i, ks/KsDeviceRegisterThermalDispatch, l, m, p, r, s, stream.ksdeviceregisterthermaldispatch, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

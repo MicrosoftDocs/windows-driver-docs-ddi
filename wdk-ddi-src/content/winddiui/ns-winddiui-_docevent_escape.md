@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54ac7c45-63a1-4003-8250-524e6f9e8d06
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices], _DOCEVENT_ESCAPE, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, *PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE structure [Print Devices], winddiui/PDOCEVENT_ESCAPE, winddiui/DOCEVENT_ESCAPE, print.docevent_escape
+ms.keywords: ",  , *, *PDOCEVENT_ESCAPE, ,, A, C, D, DOCEVENT_ESCAPE, DOCEVENT_ESCAPE structure [Print Devices], E, N, O, P, PDOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices], S, T, V, _, _DOCEVENT_ESCAPE, print.docevent_escape, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, winddiui/DOCEVENT_ESCAPE, winddiui/PDOCEVENT_ESCAPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,11 +100,11 @@ Refer to the Microsoft Windows SDK documentation for a description of the <b>Ext
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
+
+
+
+<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
 
 
 

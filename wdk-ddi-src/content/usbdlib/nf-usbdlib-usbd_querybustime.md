@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: ae59daf6-da7b-4b04-bb5c-dfd353b937a0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_QueryBusTime, buses.usbd_querybustime, USBD_QueryBusTime routine [Buses], usbdlib/USBD_QueryBusTime, usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml
+ms.keywords: ",  , B, D, Q, S, T, U, USBD_QueryBusTime, USBD_QueryBusTime routine [Buses], _, buses.usbd_querybustime, e, i, m, r, s, u, usbdlib/USBD_QueryBusTime, usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

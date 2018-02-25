@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 592a5146-a2fe-41d1-854b-df27a97bd513
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.checkcounter, CheckCounter callback function [Display Devices], CheckCounter, PFND3D10DDI_CHECKCOUNTER, PFND3D10DDI_CHECKCOUNTER, d3d10umddi/CheckCounter, UserModeDisplayDriverDx10_Functions_450a0976-fc56-4a5a-8a01-9c9d1041b628.xml
+ms.keywords: CheckCounter, CheckCounter callback function [Display Devices], PFND3D10DDI_CHECKCOUNTER, UserModeDisplayDriverDx10_Functions_450a0976-fc56-4a5a-8a01-9c9d1041b628.xml, d3d10umddi/CheckCounter, display.checkcounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -215,11 +215,11 @@ The driver's <b>CheckCounter</b> function cannot call the <a href="..\d3d10umddi
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

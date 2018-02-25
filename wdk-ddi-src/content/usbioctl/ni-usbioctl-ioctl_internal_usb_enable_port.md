@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6f15a559-fb6b-47d5-a101-43464ed80d0f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_enable_port, IOCTL_INTERNAL_USB_ENABLE_PORT control code [Buses], IOCTL_INTERNAL_USB_ENABLE_PORT, usbioctl/IOCTL_INTERNAL_USB_ENABLE_PORT, usbirp_eee71b69-fc0a-446a-807b-6f776e634c9d.xml
+ms.keywords: IOCTL_INTERNAL_USB_ENABLE_PORT, IOCTL_INTERNAL_USB_ENABLE_PORT control code [Buses], buses.ioctl_internal_usb_enable_port, usbioctl/IOCTL_INTERNAL_USB_ENABLE_PORT, usbirp_eee71b69-fc0a-446a-807b-6f776e634c9d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

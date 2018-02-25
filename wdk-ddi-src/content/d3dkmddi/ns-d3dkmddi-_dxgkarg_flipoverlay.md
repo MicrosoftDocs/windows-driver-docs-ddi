@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c5396581-e9f2-47eb-bb82-1e54f5def4d0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkarg_flipoverlay, DXGKARG_FLIPOVERLAY, d3dkmddi/DXGKARG_FLIPOVERLAY, _DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY structure [Display Devices], DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml
+ms.keywords: ",  , ,, A, D, DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY structure [Display Devices], DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml, E, F, G, I, K, L, O, P, R, V, X, Y, _, _DXGKARG_FLIPOVERLAY, d3dkmddi/DXGKARG_FLIPOVERLAY, display.dxgkarg_flipoverlay"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

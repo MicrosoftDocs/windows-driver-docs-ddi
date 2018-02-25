@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4efe4b23-eb4f-4170-8d73-05cae2ba21c2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.getwallclockregister, GetWallClockRegister callback function [Audio Devices], GetWallClockRegister, PGET_WALL_CLOCK_REGISTER, PGET_WALL_CLOCK_REGISTER, hdaudio/GetWallClockRegister, aud-prop2_1600e03f-4be0-4a61-9596-7970ace3df2f.xml
+ms.keywords: GetWallClockRegister, GetWallClockRegister callback function [Audio Devices], PGET_WALL_CLOCK_REGISTER, aud-prop2_1600e03f-4be0-4a61-9596-7970ace3df2f.xml, audio.getwallclockregister, hdaudio/GetWallClockRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

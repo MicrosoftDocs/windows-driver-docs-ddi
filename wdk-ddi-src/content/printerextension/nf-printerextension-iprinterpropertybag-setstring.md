@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: FF063DFE-FD80-4E30-8289-5B40642C867F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterpropertybag_setstring, SetString method [Print Devices], SetString, IPrinterPropertyBag interface [Print Devices], SetString method, IPrinterPropertyBag::SetString, SetString method [Print Devices], IPrinterPropertyBag interface, printerextension/IPrinterPropertyBag::SetString, IPrinterPropertyBag
+ms.keywords: ",  , ,, ., :, B, I, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], SetString method, IPrinterPropertyBag::SetString, P, S, SetString method [Print Devices], SetString method [Print Devices], IPrinterPropertyBag interface, SetString,IPrinterPropertyBag.SetString, a, e, g, i, n, o, p, print.iprinterpropertybag_setstring, printerextension/IPrinterPropertyBag::SetString, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

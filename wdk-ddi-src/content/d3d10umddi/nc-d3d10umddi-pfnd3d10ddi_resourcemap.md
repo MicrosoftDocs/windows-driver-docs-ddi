@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1310a3f8-02dd-4d35-98ad-4016e57d1eb2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.resourcemap, ResourceMap callback function [Display Devices], ResourceMap, PFND3D10DDI_RESOURCEMAP, PFND3D10DDI_RESOURCEMAP, d3d10umddi/ResourceMap, UserModeDisplayDriverDx10_Functions_2c1f2d21-4d2c-4e3f-993d-c6af5177e793.xml
+ms.keywords: PFND3D10DDI_RESOURCEMAP, ResourceMap, ResourceMap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_2c1f2d21-4d2c-4e3f-993d-c6af5177e793.xml, d3d10umddi/ResourceMap, display.resourcemap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -411,11 +411,7 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map_flag.md">D3D10_DDI_MAP_FLAG</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
 
 
 
@@ -431,15 +427,19 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map_flag.md">D3D10_DDI_MAP_FLAG</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
 
 
 

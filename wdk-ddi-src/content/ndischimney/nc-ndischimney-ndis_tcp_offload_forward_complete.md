@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 080949ab-8a27-4d13-992e-597210d4882c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndistcpoffloadforwardcomplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], NdisTcpOffloadForwardComplete, NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, ndischimney/NdisTcpOffloadForwardComplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
+ms.keywords: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -123,19 +123,19 @@ An offload target must write one of the following status values to each NET_BUFF
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
 
 
 

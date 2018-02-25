@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18242351-3dec-40df-b112-2335253903d2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, netvista.ndismcooidrequestcomplete, NdisMCoOidRequestComplete, ndis/NdisMCoOidRequestComplete, NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , C, M, N, NdisMCoOidRequestComplete, NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], O, R, condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, d, e, i, l, m, ndis/NdisMCoOidRequestComplete, netvista.ndismcooidrequestcomplete, o, p, q, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -149,7 +149,15 @@ A call to
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
@@ -163,14 +171,6 @@ A call to
 
 
 <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

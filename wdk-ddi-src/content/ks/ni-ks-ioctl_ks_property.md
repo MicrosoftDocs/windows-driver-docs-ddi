@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 66f29543-9677-4bae-baa4-6be8ebc52b66
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ioctl_ks_property, IOCTL_KS_PROPERTY control code [Streaming Media Devices], IOCTL_KS_PROPERTY, ks/IOCTL_KS_PROPERTY, ks-ioctl_58152402-30ed-4938-af47-9e6a1838fec1.xml
+ms.keywords: IOCTL_KS_PROPERTY, IOCTL_KS_PROPERTY control code [Streaming Media Devices], ks-ioctl_58152402-30ed-4938-af47-9e6a1838fec1.xml, ks/IOCTL_KS_PROPERTY, stream.ioctl_ks_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames:
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -123,14 +123,6 @@ For a list of valid flags and corresponding descriptions, see the reference page
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
-
-
-
 <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
 
 
@@ -139,11 +131,19 @@ For a list of valid flags and corresponding descriptions, see the reference page
 
 
 
-<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
+<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
 
 
 

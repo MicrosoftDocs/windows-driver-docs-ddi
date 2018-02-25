@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 16FBD831-D7AE-4B10-B76E-6CA42C9CABEB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugclient7, IDebugClient7 interface [Windows Debugging], IDebugClient7 interface [Windows Debugging], described, IDebugClient7, dbgeng/IDebugClient7
+ms.keywords: IDebugClient7, IDebugClient7 interface [Windows Debugging], IDebugClient7 interface [Windows Debugging], described, dbgeng/IDebugClient7, debugger.idebugclient7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed239516-bbaf-4e16-a3b8-4f9f34cab4ef
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.iksaggregatecontrol, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices], described, IKsAggregateControl, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml
+ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices], described, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml, stream.iksaggregatecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -134,19 +134,19 @@ For more information about <b>IDistributorNotify</b>, <b>IUnknown</b>, and <b>Co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/9808bdb9-17f9-4a80-90c7-e85ab35b74ae">KsAddAggregate</a>
-
-
-
 <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
-
-
-
 <a href="https://msdn.microsoft.com/f625b1ed-ccab-4072-9eb9-c4ebbddb1199">KsRemoveAggregate</a>
+
+
+
+<a href="https://msdn.microsoft.com/9808bdb9-17f9-4a80-90c7-e85ab35b74ae">KsAddAggregate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
 
 
 

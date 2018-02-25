@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7b66ed24-64c2-49bc-a417-05fe11178b9f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.pdev_adjust_imageable_origin_area, PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure pointer [Print Devices], print_unidrv-pscript_rendering_64db57fb-903d-411f-8106-b4c9a4c2a04e.xml, _PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, printoem/PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, printoem/PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, *PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure [Print Devices]
+ms.keywords: ",  , *, *PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, ,, A, B, D, E, G, I, J, L, M, N, O, P, PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure [Print Devices], PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure pointer [Print Devices], R, S, T, U, V, _, _PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, print.pdev_adjust_imageable_origin_area, print_unidrv-pscript_rendering_64db57fb-903d-411f-8106-b4c9a4c2a04e.xml, printoem/PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, printoem/PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

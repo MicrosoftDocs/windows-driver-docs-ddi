@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f52557f-b65d-479d-aab4-1e4f7298c8f9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaTransactionExecute method, wdf.wdfdmatransactionexecute, WdfDmaTransactionExecute, DFDmaObjectRef_012a66e9-0ed7-458f-9068-c7d2ce58d86a.xml, kmdf.wdfdmatransactionexecute, wdfdmatransaction/WdfDmaTransactionExecute
+ms.keywords: ",  , D, DFDmaObjectRef_012a66e9-0ed7-458f-9068-c7d2ce58d86a.xml, E, T, W, WdfDmaTransactionExecute, WdfDmaTransactionExecute method, a, c, d, e, f, i, kmdf.wdfdmatransactionexecute, m, n, o, r, s, t, u, wdf.wdfdmatransactionexecute, wdfdmatransaction/WdfDmaTransactionExecute, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -261,31 +261,7 @@ NICInitiateDmaTransfer(
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
-
-
-
-<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
-
-
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
 
 
 
@@ -293,7 +269,31 @@ NICInitiateDmaTransfer(
 
 
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
+
+
+
+<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
+
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedfinal.md">WdfDmaTransactionDmaCompletedFinal</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 23E99282-16BD-4E1E-9419-C1F44B913C4F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbioctl/USB_HUB_INFORMATION_EX, PUSB_HUB_INFORMATION_EX, USB_HUB_INFORMATION_EX, *PUSB_HUB_INFORMATION_EX, USB_HUB_INFORMATION_EX structure [Buses], _USB_HUB_INFORMATION_EX, usbioctl/PUSB_HUB_INFORMATION_EX, PUSB_HUB_INFORMATION_EX structure pointer [Buses], buses.usb_hub_information_ex
+ms.keywords: ",  , *, *PUSB_HUB_INFORMATION_EX, ,, A, B, E, F, H, I, M, N, O, P, PUSB_HUB_INFORMATION_EX, PUSB_HUB_INFORMATION_EX structure pointer [Buses], R, S, T, U, USB_HUB_INFORMATION_EX, USB_HUB_INFORMATION_EX structure [Buses], X, _, _USB_HUB_INFORMATION_EX, buses.usb_hub_information_ex, usbioctl/PUSB_HUB_INFORMATION_EX, usbioctl/USB_HUB_INFORMATION_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,11 +110,11 @@ If <b>HubType</b> indicates a USB 3.0 hub,  <b>u.UsbHub30Descriptor</b> is a <a 
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a>
 
 
 

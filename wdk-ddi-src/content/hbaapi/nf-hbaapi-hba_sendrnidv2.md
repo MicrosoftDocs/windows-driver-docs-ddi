@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c46aee6e-f31d-4b8d-8244-3c364aa79ae4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_SendRNIDV2 routine [Storage Devices], storage.hba_sendrnidv2, HBA_SendRNIDV2, hbaapi/HBA_SendRNIDV2, fibreHBA_rtns_8e5796fe-6cfa-42e8-9855-9ab89752bfec.xml
+ms.keywords: ",  , 2, A, B, D, H, HBA_SendRNIDV2, HBA_SendRNIDV2 routine [Storage Devices], I, N, R, S, V, _, d, e, fibreHBA_rtns_8e5796fe-6cfa-42e8-9855-9ab89752bfec.xml, hbaapi/HBA_SendRNIDV2, n, storage.hba_sendrnidv2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -157,15 +157,15 @@ The <b>HBA_SendRNIDV2</b> library routine serves a purpose very similar to the <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
-
-
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 
 <a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5E90FB65-AF23-47C0-B0E9-2B6EF353D095
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_WWAN_USSD_EVENT, wwan/WWAN_USSD_EVENT, *PWWAN_USSD_EVENT, WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], PWWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_USSD_EVENT, WWAN_USSD_EVENT, PWWAN_USSD_EVENT, netvista.wwan_ussd_event"
+ms.keywords: ",  , *, *PWWAN_USSD_EVENT, ,, A, D, E, N, P, PWWAN_USSD_EVENT, PWWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], S, T, U, V, W, WWAN_USSD_EVENT, WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], _, _WWAN_USSD_EVENT, netvista.wwan_ussd_event, wwan/PWWAN_USSD_EVENT, wwan/WWAN_USSD_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

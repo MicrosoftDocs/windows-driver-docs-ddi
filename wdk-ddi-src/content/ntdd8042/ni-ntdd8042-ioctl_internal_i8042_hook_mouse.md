@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 606b9ae4-186c-47b1-84aa-3d380eaad672
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_internal_i8042_hook_mouse, IOCTL_INTERNAL_I8042_HOOK_MOUSE control code [Human Input Devices], IOCTL_INTERNAL_I8042_HOOK_MOUSE, ntdd8042/IOCTL_INTERNAL_I8042_HOOK_MOUSE, mfilref_d95cd233-bc97-4bd6-8675-2560b83f4715.xml
+ms.keywords: IOCTL_INTERNAL_I8042_HOOK_MOUSE, IOCTL_INTERNAL_I8042_HOOK_MOUSE control code [Human Input Devices], hid.ioctl_internal_i8042_hook_mouse, mfilref_d95cd233-bc97-4bd6-8675-2560b83f4715.xml, ntdd8042/IOCTL_INTERNAL_I8042_HOOK_MOUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

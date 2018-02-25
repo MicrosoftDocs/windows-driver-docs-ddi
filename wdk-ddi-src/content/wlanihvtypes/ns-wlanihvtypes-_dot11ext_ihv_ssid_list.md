@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 10ef8868-5a65-4ed9-9f1d-440cda30cba4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PDOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST structure [Network Drivers Starting with Windows Vista], wlanihvtypes/DOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_SSID_LIST, Native_802.11_data_types_c4e6c252-de57-4173-b6e1-df48dca0404f.xml, _DOT11EXT_IHV_SSID_LIST, wlanihvtypes/PDOT11EXT_IHV_SSID_LIST, netvista.dot11ext_ihv_ssid_list, DOT11EXT_IHV_SSID_LIST"
+ms.keywords: ",  , *, *PDOT11EXT_IHV_SSID_LIST, ,, 1, D, DOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST structure [Network Drivers Starting with Windows Vista], E, H, I, L, Native_802.11_data_types_c4e6c252-de57-4173-b6e1-df48dca0404f.xml, O, P, PDOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST structure pointer [Network Drivers Starting with Windows Vista], S, T, V, X, _, _DOT11EXT_IHV_SSID_LIST, netvista.dot11ext_ihv_ssid_list, wlanihvtypes/DOT11EXT_IHV_SSID_LIST, wlanihvtypes/PDOT11EXT_IHV_SSID_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

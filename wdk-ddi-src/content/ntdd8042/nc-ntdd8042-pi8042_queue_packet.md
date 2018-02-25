@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: f5d42701-b418-4bda-b936-3e0a1f57ac9d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.pi8042_queue_packet, QueuePacket callback function [Human Input Devices], QueuePacket, PI8042_QUEUE_PACKET, PI8042_QUEUE_PACKET, ntdd8042/QueuePacket, i8042ref_44eb4361-586b-4390-8aea-4e1470a70691.xml
+ms.keywords: PI8042_QUEUE_PACKET, QueuePacket, QueuePacket callback function [Human Input Devices], hid.pi8042_queue_packet, i8042ref_44eb4361-586b-4390-8aea-4e1470a70691.xml, ntdd8042/QueuePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,7 @@ The PI8042_QUEUE_PACKET callback runs in kernel mode at the same IRQL as the I80
 
 ## -see-also
 
-<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
-
-
-
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
+<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
 
 
 
@@ -113,7 +109,11 @@ The PI8042_QUEUE_PACKET callback runs in kernel mode at the same IRQL as the I80
 
 
 
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
+<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
+
+
+
+<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
 
 
 

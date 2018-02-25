@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtldissectname, ntifs/FsRtlDissectName, FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml
+ms.keywords: ",  , D, F, FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], N, R, a, c, e, fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, i, ifsk.fsrtldissectname, l, m, ntifs/FsRtlDissectName, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

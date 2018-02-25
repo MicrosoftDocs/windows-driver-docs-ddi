@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 627f43e7-1561-4822-b2b6-a49b54550bf5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: video/VideoPortReleaseBuffer, VideoPortReleaseBuffer function [Display Devices], VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, display.videoportreleasebuffer, VideoPortReleaseBuffer
+ms.keywords: ",  , B, P, R, V, VideoPortReleaseBuffer, VideoPortReleaseBuffer function [Display Devices], VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, a, d, display.videoportreleasebuffer, e, f, i, l, o, r, s, t, u, video/VideoPortReleaseBuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

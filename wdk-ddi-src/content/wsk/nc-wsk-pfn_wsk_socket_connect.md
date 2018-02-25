@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b1482160-49db-4490-b347-ff9396abf2ff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wsksocketconnect, WskSocketConnect callback function [Network Drivers Starting with Windows Vista], WskSocketConnect, PFN_WSK_SOCKET_CONNECT, PFN_WSK_SOCKET_CONNECT, wsk/WskSocketConnect, wskref_326c63cb-233d-4b6e-9c36-15e7f2cb1f1c.xml
+ms.keywords: PFN_WSK_SOCKET_CONNECT, WskSocketConnect, WskSocketConnect callback function [Network Drivers Starting with Windows Vista], netvista.wsksocketconnect, wsk/WskSocketConnect, wskref_326c63cb-233d-4b6e-9c36-15e7f2cb1f1c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -317,15 +317,7 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
 
 
 
@@ -338,7 +330,15 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
 
 
 
@@ -346,11 +346,11 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
 
 

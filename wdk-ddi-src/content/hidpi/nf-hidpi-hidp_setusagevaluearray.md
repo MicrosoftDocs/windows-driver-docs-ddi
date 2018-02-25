@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8c18c224-6d55-405d-87ec-cca99d702713
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.hidp_setusagevaluearray, HidP_SetUsageValueArray, hidpi/HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices], hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml
+ms.keywords: ",  , A, H, HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices], P, S, U, V, _, a, d, e, g, hid.hidp_setusagevaluearray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml, hidpi/HidP_SetUsageValueArray, i, l, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,7 +118,7 @@ Pointer to a HID report.
 
 ### -param ReportLength [in]
 
-Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
 
 ## -returns
@@ -265,11 +265,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_setusagevalue.md">HidP_SetUsageValue</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 
 

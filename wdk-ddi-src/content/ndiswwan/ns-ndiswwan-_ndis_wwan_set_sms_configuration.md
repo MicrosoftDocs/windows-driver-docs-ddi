@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aa191c47-4b3b-464a-8a12-db673fca0f20
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_SET_SMS_CONFIGURATION, PNDIS_WWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_set_sms_configuration, PNDIS_WWAN_SET_SMS_CONFIGURATION, WwanRef_f118e481-c8ed-4b8b-a6f9-ba1e26fc564f.xml, *PNDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION, _NDIS_WWAN_SET_SMS_CONFIGURATION
+ms.keywords: ",  , *, *PNDIS_WWAN_SET_SMS_CONFIGURATION, ,, A, C, D, E, F, G, I, M, N, NDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_WWAN_SET_SMS_CONFIGURATION, PNDIS_WWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, W, WwanRef_f118e481-c8ed-4b8b-a6f9-ba1e26fc564f.xml, _, _NDIS_WWAN_SET_SMS_CONFIGURATION, ndiswwan/NDIS_WWAN_SET_SMS_CONFIGURATION, ndiswwan/PNDIS_WWAN_SET_SMS_CONFIGURATION, netvista.ndis_wwan_set_sms_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,11 +130,11 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

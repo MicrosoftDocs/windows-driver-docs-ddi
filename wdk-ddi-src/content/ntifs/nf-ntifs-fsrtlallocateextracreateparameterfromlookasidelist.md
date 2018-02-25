@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6dd1aa9d-58e6-484b-b372-4c1d9f6d04f3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlAllocateExtraCreateParameterFromLookasideList, ifsk.fsrtlallocateextracreateparameterfromlookasidelist, fsrtlref_c85ee3ff-e71f-4c6e-bc37-4187cad9855f.xml, FsRtlAllocateExtraCreateParameterFromLookasideList, FsRtlAllocateExtraCreateParameterFromLookasideList routine [Installable File System Drivers]
+ms.keywords: ",  , A, C, E, F, FsRtlAllocateExtraCreateParameterFromLookasideList, FsRtlAllocateExtraCreateParameterFromLookasideList routine [Installable File System Drivers], L, P, R, a, c, d, e, fsrtlref_c85ee3ff-e71f-4c6e-bc37-4187cad9855f.xml, i, ifsk.fsrtlallocateextracreateparameterfromlookasidelist, k, l, m, ntifs/FsRtlAllocateExtraCreateParameterFromLookasideList, o, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,7 +158,7 @@ For more information about using lookaside lists with drivers, see <a href="http
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlinitextracreateparameterlookasidelist.md">FsRtlInitExtraCreateParameterLookasideList</a>
+<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
 
 
 
@@ -166,11 +166,11 @@ For more information about using lookaside lists with drivers, see <a href="http
 
 
 
+<a href="..\ntifs\nf-ntifs-fsrtlinitextracreateparameterlookasidelist.md">FsRtlInitExtraCreateParameterLookasideList</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-fsrtldeleteextracreateparameterlookasidelist.md">FsRtlDeleteExtraCreateParameterLookasideList</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
 
 
 

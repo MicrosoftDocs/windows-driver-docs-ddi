@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 59eb490e-66d5-4108-8d00-5503fa56665d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetScope method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::GetScope, IDebugSymbols2::GetScope, IDebugSymbols3::GetScope, GetScope method [Windows Debugging], IDebugSymbols3 interface, GetScope, GetScope method [Windows Debugging], dbgeng/IDebugSymbols3::GetScope, dbgeng/IDebugSymbols2::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, IDebugSymbols interface [Windows Debugging], GetScope method, GetScope method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols, dbgeng/IDebugSymbols::GetScope, IDebugSymbols2 interface [Windows Debugging], GetScope method, debugger.getscope, IDebugSymbols3 interface [Windows Debugging], GetScope method
+ms.keywords: ",  , ,, ., :, D, G, GetScope method [Windows Debugging], GetScope method [Windows Debugging], IDebugSymbols interface, GetScope method [Windows Debugging], IDebugSymbols2 interface, GetScope method [Windows Debugging], IDebugSymbols3 interface, GetScope,IDebugSymbols.GetScope, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetScope method, IDebugSymbols2 interface [Windows Debugging], GetScope method, IDebugSymbols2::GetScope, IDebugSymbols3 interface [Windows Debugging], GetScope method, IDebugSymbols3::GetScope, IDebugSymbols::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, S, b, c, dbgeng/IDebugSymbols2::GetScope, dbgeng/IDebugSymbols3::GetScope, dbgeng/IDebugSymbols::GetScope, debugger.getscope, e, g, l, m, o, p, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -142,7 +142,7 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -150,19 +150,19 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+<a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
 
 
 

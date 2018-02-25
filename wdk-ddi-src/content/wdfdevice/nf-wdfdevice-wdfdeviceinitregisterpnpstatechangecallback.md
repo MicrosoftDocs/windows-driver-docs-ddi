@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a14b790a-28d7-4fb8-823f-f37f05e7529f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdeviceinitregisterpnpstatechangecallback, WdfDeviceInitRegisterPnpStateChangeCallback method, WdfDeviceInitRegisterPnpStateChangeCallback, wdfdevice/WdfDeviceInitRegisterPnpStateChangeCallback, DFDeviceObjectGeneralRef_51127783-092b-409d-85ad-e502760b62e7.xml, wdf.wdfdeviceinitregisterpnpstatechangecallback
+ms.keywords: ",  , C, D, DFDeviceObjectGeneralRef_51127783-092b-409d-85ad-e502760b62e7.xml, I, P, R, S, W, WdfDeviceInitRegisterPnpStateChangeCallback, WdfDeviceInitRegisterPnpStateChangeCallback method, a, b, c, d, e, f, g, h, i, k, kmdf.wdfdeviceinitregisterpnpstatechangecallback, l, n, p, r, s, t, v, wdf.wdfdeviceinitregisterpnpstatechangecallback, wdfdevice/WdfDeviceInitRegisterPnpStateChangeCallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -166,11 +166,7 @@ The following code example registers an event callback function that the framewo
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_pnp_state_change_notification.md">EvtDevicePnpStateChange</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+<a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>
 
 
 
@@ -178,7 +174,11 @@ The following code example registers an event callback function that the framewo
 
 
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_pnp_state_change_notification.md">EvtDevicePnpStateChange</a>
 
 
 

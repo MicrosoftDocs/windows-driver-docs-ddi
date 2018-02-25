@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f40c5734-2546-40c3-a6fb-58f728c3cc5e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PIP_OFFLOAD_STATS, ndischimney/PIP_OFFLOAD_STATS, PIP_OFFLOAD_STATS, ndischimney/IP_OFFLOAD_STATS, netvista.ip_offload_stats, IP_OFFLOAD_STATS, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml, _IP_OFFLOAD_STATS"
+ms.keywords: ",  , *, *PIP_OFFLOAD_STATS, ,, A, D, F, I, IP_OFFLOAD_STATS, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], L, O, P, PIP_OFFLOAD_STATS, PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], S, T, _, _IP_OFFLOAD_STATS, ndischimney/IP_OFFLOAD_STATS, ndischimney/PIP_OFFLOAD_STATS, netvista.ip_offload_stats, tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -212,12 +212,7 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
 
 
 
@@ -225,7 +220,12 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3918d764-c5bb-42b6-8b06-a2d544511a96
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfremotetarget_getstate, GetState, wudfddi/IWDFRemoteTarget::GetState, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, IWDFRemoteTarget, IWDFRemoteTarget::GetState, GetState method, umdf.iwdfremotetarget_getstate, GetState method, IWDFRemoteTarget interface, IWDFRemoteTarget interface, GetState method
+ms.keywords: ",  , ,, ., :, D, F, G, GetState method, GetState method, IWDFRemoteTarget interface, GetState,IWDFRemoteTarget.GetState, I, IWDFRemoteTarget, IWDFRemoteTarget interface, GetState method, IWDFRemoteTarget::GetState, R, S, T, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, W, a, e, g, m, o, r, t, umdf.iwdfremotetarget_getstate, wdf.iwdfremotetarget_getstate, wudfddi/IWDFRemoteTarget::GetState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,7 +74,7 @@ WDF_IO_TARGET_STATE GetState();
 
 
 
-<b>GetState</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the remote I/O target.
+<b>GetState</b> returns a <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the remote I/O target.
 
 
 
@@ -108,11 +108,11 @@ The following code example determines whether a remote I/O target is closed.
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
 
 
 

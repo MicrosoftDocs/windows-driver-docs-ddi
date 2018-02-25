@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a501a693-bea1-43eb-af8c-5512c8ee9d50
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksevent_item, *PKSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], KSEVENT_ITEM structure [Streaming Media Devices], ks/KSEVENT_ITEM, ks/PKSEVENT_ITEM, ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, KSEVENT_ITEM, PKSEVENT_ITEM
+ms.keywords: ",  , *, *PKSEVENT_ITEM, ,, E, I, K, KSEVENT_ITEM, KSEVENT_ITEM structure [Streaming Media Devices], M, N, P, PKSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], S, T, V, _, ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, ks/KSEVENT_ITEM, ks/PKSEVENT_ITEM, stream.ksevent_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ Not used by the stream class driver.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
-
-
-
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
+<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 28908305-69aa-4bf0-98a1-6cee4aa1c349
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILRADIOCONFIGURATIONS, netvista.rilradioconfigurations, ntddrilapitypes/RILRADIOCONFIGURATIONS, *LPRILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *LPRILRADIOCONFIGURATIONS, ,, A, C, D, F, G, I, L, N, O, P, R, RILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.rilradioconfigurations, ntddrilapitypes/RILRADIOCONFIGURATIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

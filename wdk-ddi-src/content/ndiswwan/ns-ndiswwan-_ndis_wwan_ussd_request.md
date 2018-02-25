@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B98143A1-7F7D-4130-A388-72A21B89E6D8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_wwan_ussd_request, PNDIS_WWAN_USSD_REQUEST, _NDIS_WWAN_USSD_REQUEST, *PNDIS_WWAN_USSD_REQUEST, PNDIS_WWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_USSD_REQUEST
+ms.keywords: ",  , *, *PNDIS_WWAN_USSD_REQUEST, ,, A, D, E, I, N, NDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], P, PNDIS_WWAN_USSD_REQUEST, PNDIS_WWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], Q, R, S, T, U, W, _, _NDIS_WWAN_USSD_REQUEST, ndiswwan/NDIS_WWAN_USSD_REQUEST, ndiswwan/PNDIS_WWAN_USSD_REQUEST, netvista.ndis_wwan_ussd_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

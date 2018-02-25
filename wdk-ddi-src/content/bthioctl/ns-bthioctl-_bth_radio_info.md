@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 24e28912-13d1-460f-8d32-78bb3715adc6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bthioctl/BTH_RADIO_INFO, PBTH_RADIO_INFO structure pointer [Bluetooth Devices], PBTH_RADIO_INFO, BTH_RADIO_INFO, BTH_RADIO_INFO structure [Bluetooth Devices], *PBTH_RADIO_INFO, bltooth.bth_radio_info, bth_structs_5fa8e736-47a7-4ba5-bd40-f375ac6db8af.xml, bthioctl/PBTH_RADIO_INFO, _BTH_RADIO_INFO
+ms.keywords: ",  , *, *PBTH_RADIO_INFO, ,, A, B, BTH_RADIO_INFO, BTH_RADIO_INFO structure [Bluetooth Devices], D, F, H, I, N, O, P, PBTH_RADIO_INFO, PBTH_RADIO_INFO structure pointer [Bluetooth Devices], R, T, _, _BTH_RADIO_INFO, bltooth.bth_radio_info, bth_structs_5fa8e736-47a7-4ba5-bd40-f375ac6db8af.xml, bthioctl/BTH_RADIO_INFO, bthioctl/PBTH_RADIO_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

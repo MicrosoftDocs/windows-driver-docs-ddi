@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c60f3dd5-2a74-4d7c-8804-35b9dd91dce4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestSetCompletionRoutine, wdf.wdfrequestsetcompletionroutine, DFRequestObjectRef_4dea9104-1bfd-4add-b991-f02d57f840cb.xml, WdfRequestSetCompletionRoutine method, kmdf.wdfrequestsetcompletionroutine, wdfrequest/WdfRequestSetCompletionRoutine
+ms.keywords: ",  , C, DFRequestObjectRef_4dea9104-1bfd-4add-b991-f02d57f840cb.xml, R, S, W, WdfRequestSetCompletionRoutine, WdfRequestSetCompletionRoutine method, d, e, f, i, kmdf.wdfrequestsetcompletionroutine, l, m, n, o, p, q, s, t, u, wdf.wdfrequestsetcompletionroutine, wdfrequest/WdfRequestSetCompletionRoutine"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c9010a08-3c62-481a-8545-253d7b24b1ac
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFreeMemoryWithTag, netvista.ndisfreememorywithtag, ndis_shared_memory_ref_2a68decc-2cef-4606-9679-c29c0e5362a2.xml, ndis/NdisFreeMemoryWithTag, NdisFreeMemoryWithTag function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , F, M, N, NdisFreeMemoryWithTag, NdisFreeMemoryWithTag function [Network Drivers Starting with Windows Vista], T, W, a, d, e, g, h, i, m, ndis/NdisFreeMemoryWithTag, ndis_shared_memory_ref_2a68decc-2cef-4606-9679-c29c0e5362a2.xml, netvista.ndisfreememorywithtag, o, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

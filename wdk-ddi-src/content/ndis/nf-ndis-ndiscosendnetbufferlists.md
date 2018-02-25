@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8284fdd4-26de-4622-b164-f33aee1d8742
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisCoSendNetBufferLists, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, NdisCoSendNetBufferLists, netvista.ndiscosendnetbufferlists
+ms.keywords: ",  , B, C, L, N, NdisCoSendNetBufferLists, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], S, condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, d, e, f, i, n, ndis/NdisCoSendNetBufferLists, netvista.ndiscosendnetbufferlists, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,7 +159,7 @@ The protocol driver must allocate each NET_BUFFER_LIST structure from a pool by 
 </li>
 </ul>
 The protocol driver can preallocate NET_BUFFER_LIST structures--for example, in its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. Alternatively, the protocol
+    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. Alternatively, the protocol
     driver can allocate the structures immediately prior to calling 
     <b>NdisCoSendNetBufferLists</b> and then can free them when the send operation is complete. When NDIS
     returns a NET_BUFFER_LIST structure to the 
@@ -209,7 +209,26 @@ Until NDIS calls
 
 ## -see-also
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+   NdisAllocateCloneNetBufferList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_send_net_buffer_lists.md">
+   MiniportCoSendNetBufferLists</a>
 
 
 
@@ -222,35 +241,16 @@ Until NDIS calls
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_send_net_buffer_lists.md">
-   MiniportCoSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
-   NdisAllocateCloneNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismcosendnetbufferlistscomplete.md">
    NdisMCoSendNetBufferListsComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

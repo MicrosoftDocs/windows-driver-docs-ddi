@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ac23ec89-b455-4bfd-93a5-2294d8b8ffc2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, printoem/OEMOutputCharStr, OEMOutputCharStr, OEMOutputCharStr function [Print Devices], print.oemoutputcharstr
+ms.keywords: ",  , C, E, M, O, OEMOutputCharStr, OEMOutputCharStr function [Print Devices], S, a, h, p, print.oemoutputcharstr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, printoem/OEMOutputCharStr, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

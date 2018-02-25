@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5574d8ee-8a52-488f-849d-9288af5fed2b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml, storage.scsiportreadregisterbufferuchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices], srb/ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar
+ms.keywords: ",  , B, P, R, S, ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices], U, a, c, d, e, f, g, h, i, o, r, s, scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml, srb/ScsiPortReadRegisterBufferUchar, storage.scsiportreadregisterbufferuchar, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

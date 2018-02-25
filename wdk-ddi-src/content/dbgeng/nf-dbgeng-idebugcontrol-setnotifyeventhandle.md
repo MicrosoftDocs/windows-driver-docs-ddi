@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c0059a7-4b0f-4b74-b543-ad5904d40033
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugControl2::SetNotifyEventHandle, IDebugControl interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl3::SetNotifyEventHandle, IDebugControl_9934efa7-aed4-4706-8885-71d78f6950a8.xml, IDebugControl3 interface [Windows Debugging], SetNotifyEventHandle method, SetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, IDebugControl::SetNotifyEventHandle, SetNotifyEventHandle method [Windows Debugging], IDebugControl interface, SetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, SetNotifyEventHandle method [Windows Debugging], dbgeng/IDebugControl::SetNotifyEventHandle, IDebugControl2 interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl, IDebugControl2::SetNotifyEventHandle, debugger.setnotifyeventhandle, dbgeng/IDebugControl3::SetNotifyEventHandle, SetNotifyEventHandle
+ms.keywords: ",  , ,, ., :, C, D, E, H, I, IDebugControl, IDebugControl interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl2 interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl2::SetNotifyEventHandle, IDebugControl3 interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl3::SetNotifyEventHandle, IDebugControl::SetNotifyEventHandle, IDebugControl_9934efa7-aed4-4706-8885-71d78f6950a8.xml, N, S, SetNotifyEventHandle method [Windows Debugging], SetNotifyEventHandle method [Windows Debugging], IDebugControl interface, SetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, SetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, SetNotifyEventHandle,IDebugControl.SetNotifyEventHandle, a, b, d, dbgeng/IDebugControl2::SetNotifyEventHandle, dbgeng/IDebugControl3::SetNotifyEventHandle, dbgeng/IDebugControl::SetNotifyEventHandle, debugger.setnotifyeventhandle, e, f, g, i, l, n, o, r, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,6 +115,10 @@ The event will only be signaled once.  After it has been signaled, <b>GetNotifyE
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
@@ -124,10 +128,6 @@ The event will only be signaled once.  After it has been signaled, <b>GetNotifyE
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

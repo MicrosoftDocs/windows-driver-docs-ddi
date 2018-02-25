@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2f26ff14-dd2c-4e80-aea5-38a7dd16d904
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: GetSecurityUserInfo function [Installable File System Drivers], GetSecurityUserInfo, IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ntifs/GetSecurityUserInfo, ifsk.getsecurityuserinfo
+ms.keywords: ",  , G, GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers], I, IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, S, U, c, e, f, i, ifsk.getsecurityuserinfo, n, ntifs/GetSecurityUserInfo, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

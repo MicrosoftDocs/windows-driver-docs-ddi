@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9a4d04de-2c44-4f13-ac6f-32e2fe879e4e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/GetPortAttributesByWWN_OUT, structs-Fibre_bf13c322-2b55-4113-8e04-5cacfecbea8e.xml, GetPortAttributesByWWN_OUT structure [Storage Devices], hbapiwmi/PGetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT, storage.getportattributesbywwn_out, _GetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT structure pointer [Storage Devices], *PGetPortAttributesByWWN_OUT
+ms.keywords: ",  , *, *PGetPortAttributesByWWN_OUT, ,, A, B, G, GetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT structure [Storage Devices], N, O, P, PGetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT structure pointer [Storage Devices], T, U, W, _, _GetPortAttributesByWWN_OUT, b, e, hbapiwmi/GetPortAttributesByWWN_OUT, hbapiwmi/PGetPortAttributesByWWN_OUT, i, o, r, s, storage.getportattributesbywwn_out, structs-Fibre_bf13c322-2b55-4113-8e04-5cacfecbea8e.xml, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,15 +89,15 @@ The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT str
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

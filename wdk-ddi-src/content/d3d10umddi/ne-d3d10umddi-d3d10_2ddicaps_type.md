@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ca906d4-6d09-4624-a985-a47794acc959
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D10_2DDICAPS_TYPE, d3d10umddi/D3DWDDM1_3DDICAPS_D3D11_OPTIONS1, D3D11_1DDICAPS_ARCHITECTURE_INFO, d3d10umddi/D3D11DDICAPS_SHADER, d3d10umddi/D3D11_1DDICAPS_SHADER_MIN_PRECISION_SUPPORT, display.d3d10_2ddicaps_type, D3D11_1DDICAPS_SHADER_MIN_PRECISION_SUPPORT, d3d10umddi/D3D11_1DDICAPS_ARCHITECTURE_INFO, D3D10_2DDICAPS_TYPE enumeration [Display Devices], d3d10umddi/D3D11DDICAPS_THREADING, D3D11DDICAPS_SHADER, d3d10umddi/D3DWDDM1_3DDICAPS_MARKER, D3D11_1DDICAPS_D3D11_OPTIONS, d3d10umddi/D3D11_1DDICAPS_D3D11_OPTIONS, D3DWDDM1_3DDICAPS_MARKER, d3d10umddi/D3D10_2DDICAPS_TYPE, D3D11DDICAPS_3DPIPELINESUPPORT, D3D11DDICAPS_THREADING, UMDisplayDriver_Dx11param_Structs_cde2c336-2e65-43c4-970c-83b83765df38.xml, d3d10umddi/D3D11DDICAPS_3DPIPELINESUPPORT, D3DWDDM1_3DDICAPS_D3D11_OPTIONS1
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D10_2DDICAPS_TYPE, D3D10_2DDICAPS_TYPE enumeration [Display Devices], D3D11DDICAPS_3DPIPELINESUPPORT, D3D11DDICAPS_SHADER, D3D11DDICAPS_THREADING, D3D11_1DDICAPS_ARCHITECTURE_INFO, D3D11_1DDICAPS_D3D11_OPTIONS, D3D11_1DDICAPS_SHADER_MIN_PRECISION_SUPPORT, D3DWDDM1_3DDICAPS_D3D11_OPTIONS1, D3DWDDM1_3DDICAPS_MARKER, E, I, P, S, T, UMDisplayDriver_Dx11param_Structs_cde2c336-2e65-43c4-970c-83b83765df38.xml, Y, _, d3d10umddi/D3D10_2DDICAPS_TYPE, d3d10umddi/D3D11DDICAPS_3DPIPELINESUPPORT, d3d10umddi/D3D11DDICAPS_SHADER, d3d10umddi/D3D11DDICAPS_THREADING, d3d10umddi/D3D11_1DDICAPS_ARCHITECTURE_INFO, d3d10umddi/D3D11_1DDICAPS_D3D11_OPTIONS, d3d10umddi/D3D11_1DDICAPS_SHADER_MIN_PRECISION_SUPPORT, d3d10umddi/D3DWDDM1_3DDICAPS_D3D11_OPTIONS1, d3d10umddi/D3DWDDM1_3DDICAPS_MARKER, display.d3d10_2ddicaps_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -173,15 +173,11 @@ To allow a driver to unify capability concepts, the values in the D3D10_2DDICAPS
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_d3d11_options_data.md">D3D11_1DDI_D3D11_OPTIONS_DATA</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_d3d11_options_data1.md">D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_d3d11_options_data.md">D3D11_1DDI_D3D11_OPTIONS_DATA</a>
 
 
 
@@ -193,11 +189,15 @@ To allow a driver to unify capability concepts, the values in the D3D10_2DDICAPS
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps.md">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
 
 
 
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps.md">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
 
 
 

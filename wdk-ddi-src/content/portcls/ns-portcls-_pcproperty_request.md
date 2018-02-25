@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3683735d-ce00-4615-9782-dee9f4753cc7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PPCPROPERTY_REQUEST, portcls/PPCPROPERTY_REQUEST, audio.pcproperty_request, *PPCPROPERTY_REQUEST, PCPROPERTY_REQUEST, _PCPROPERTY_REQUEST, PCPROPERTY_REQUEST structure [Audio Devices], PPCPROPERTY_REQUEST structure pointer [Audio Devices], audpc-struct_f153c6fb-8b21-4a81-ab9b-d7b7fef9f9db.xml, portcls/PCPROPERTY_REQUEST
+ms.keywords: ",  , *, *PPCPROPERTY_REQUEST, ,, C, E, O, P, PCPROPERTY_REQUEST, PCPROPERTY_REQUEST structure [Audio Devices], PPCPROPERTY_REQUEST, PPCPROPERTY_REQUEST structure pointer [Audio Devices], Q, R, S, T, U, Y, _, _PCPROPERTY_REQUEST, audio.pcproperty_request, audpc-struct_f153c6fb-8b21-4a81-ab9b-d7b7fef9f9db.xml, portcls/PCPROPERTY_REQUEST, portcls/PPCPROPERTY_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -211,7 +211,7 @@ For background information about audio properties, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_3.md">PCPROPERTY_ITEM</a>
+<a href="..\ksmedia\ns-ksmedia-ksnodeproperty_audio_channel.md">KSNODEPROPERTY_AUDIO_CHANNEL</a>
 
 
 
@@ -219,11 +219,11 @@ For background information about audio properties, see <a href="https://msdn.mic
 
 
 
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_3.md">PCPROPERTY_ITEM</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksnodeproperty_audio_channel.md">KSNODEPROPERTY_AUDIO_CHANNEL</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5C208DF7-C6CB-419D-B775-74E09DC4D448
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], ntifs/PWOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], PWOF_EXTERNAL_FILE_ID, ntifs/WOF_EXTERNAL_FILE_ID, _WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID, ifsk.wof_external_file_id
+ms.keywords: ",  , *, *PWOF_EXTERNAL_FILE_ID, ,, A, D, E, F, I, L, N, O, P, PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], R, T, W, WOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], X, _, _WOF_EXTERNAL_FILE_ID, ifsk.wof_external_file_id, ntifs/PWOF_EXTERNAL_FILE_ID, ntifs/WOF_EXTERNAL_FILE_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,11 +83,11 @@ Use the <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a> f
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_wof_version_info.md">WOF_VERSION_INFO</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_wof_version_info.md">WOF_VERSION_INFO</a>
 
 
 

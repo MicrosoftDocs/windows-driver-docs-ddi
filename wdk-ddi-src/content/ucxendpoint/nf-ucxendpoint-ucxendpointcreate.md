@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2BB3B2CE-FD15-4D28-BBDA-29C3BB523874
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxEndpointCreate method [Buses], buses._ucxendpointcreate, UcxEndpointCreate, ucxendpoint/UcxEndpointCreate
+ms.keywords: ",  , C, E, U, UcxEndpointCreate, UcxEndpointCreate method [Buses], a, buses._ucxendpointcreate, c, d, e, i, n, o, p, r, t, ucxendpoint/UcxEndpointCreate, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

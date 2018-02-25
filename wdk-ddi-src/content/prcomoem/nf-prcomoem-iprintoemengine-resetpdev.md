@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: DD8E4DAC-A4CA-4F1A-A898-E4A68A2D6715
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintOemEngine, ResetPDEV method [Print Devices], prcomoem/IPrintOemEngine::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], IPrintOemEngine interface, print.iprintoemengine_resetpdev, IPrintOemEngine interface [Print Devices], ResetPDEV method, IPrintOemEngine::ResetPDEV
+ms.keywords: ",  , ,, ., :, D, E, I, IPrintOemEngine, IPrintOemEngine interface [Print Devices], ResetPDEV method, IPrintOemEngine::ResetPDEV, O, P, R, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices], IPrintOemEngine interface, ResetPDEV,IPrintOemEngine.ResetPDEV, V, e, g, i, m, n, prcomoem/IPrintOemEngine::ResetPDEV, print.iprintoemengine_resetpdev, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

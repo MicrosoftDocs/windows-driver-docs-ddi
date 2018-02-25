@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2fc5689f-e1d6-481d-b137-301f10b386e8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsAllocateObjectBag, avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, stream.ksallocateobjectbag, KsAllocateObjectBag function [Streaming Media Devices], ks/KsAllocateObjectBag
+ms.keywords: ",  , A, B, K, KsAllocateObjectBag, KsAllocateObjectBag function [Streaming Media Devices], O, a, avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, b, c, e, g, j, ks/KsAllocateObjectBag, l, o, s, stream.ksallocateobjectbag, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,15 +101,11 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
-
-
-
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
 
 
 
@@ -118,6 +114,10 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
+
+
+
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
 
 
 

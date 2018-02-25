@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cdcd0437-e4fc-4041-827f-caa3c435325c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: printoem/DEVOBJ, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, DEVOBJ structure [Print Devices], print.devobj, _DEVOBJ, *PDEVOBJ, DEVOBJ
+ms.keywords: ",  , *, *PDEVOBJ, ,, B, D, DEVOBJ, DEVOBJ structure [Print Devices], E, J, O, P, V, _, _DEVOBJ, print.devobj, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, printoem/DEVOBJ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,11 +127,7 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554249">IPrintOemUni::EnablePDEV</a>
 
 
 
@@ -139,7 +135,11 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554249">IPrintOemUni::EnablePDEV</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
 
 
 
@@ -147,7 +147,7 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
 
 
 

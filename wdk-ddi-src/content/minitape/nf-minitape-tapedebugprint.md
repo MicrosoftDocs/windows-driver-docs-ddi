@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d06e4308-f1a9-4acd-bc25-b3fd53129064
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: minitape/TapeDebugPrint, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml, TapeDebugPrint routine [Storage Devices], TapeDebugPrint, storage.tapedebugprint
+ms.keywords: ",  , D, P, T, TapeDebugPrint, TapeDebugPrint routine [Storage Devices], a, b, e, g, i, minitape/TapeDebugPrint, n, p, r, storage.tapedebugprint, t, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

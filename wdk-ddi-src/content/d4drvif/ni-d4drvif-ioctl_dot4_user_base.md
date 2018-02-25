@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 600AF104-C80B-4ECE-A662-68CF38235078
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ioctl_ioctl_dot4_user_base, IOCTL_DOT4_USER_BASE control code [Print Devices], IOCTL_DOT4_USER_BASE, d4drvif/IOCTL_DOT4_USER_BASE
+ms.keywords: IOCTL_DOT4_USER_BASE, IOCTL_DOT4_USER_BASE control code [Print Devices], d4drvif/IOCTL_DOT4_USER_BASE, print.ioctl_ioctl_dot4_user_base
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -99,11 +99,7 @@ This topic describes <b>IOCTL_DOT4_USER_BASE</b>.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -111,7 +107,11 @@ This topic describes <b>IOCTL_DOT4_USER_BASE</b>.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a90b1318-ce21-4483-b253-767674fe0a2f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, ndis/NdisGetNetBufferListProtocolId, netvista.ndisgetnetbufferlistprotocolid
+ms.keywords: ",  , B, G, I, L, N, NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], P, c, d, e, f, i, l, ndis/NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, netvista.ndisgetnetbufferlistprotocolid, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,12 +160,12 @@ Protocol drivers that create NET_BUFFER_LIST structures should set the protocol 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="https://msdn.microsoft.com/e143c914-cfb0-4c06-9da7-a2f5ef09afe2">
    NdisSetNetBufferListProtocolId</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2867CA25-B140-4EBA-A8F9-57C12C3700CF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_SYSTEM_SCOPED_POLICY_ID_ACE, SYSTEM_SCOPED_POLICY_ID_ACE, *PSYSTEM_SCOPED_POLICY_ID_ACE, ifsk.system_scoped_policy_id_ace, PSYSTEM_SCOPED_POLICY_ID_ACE structure pointer [Installable File System Drivers], PSYSTEM_SCOPED_POLICY_ID_ACE, ntifs/PSYSTEM_SCOPED_POLICY_ID_ACE, ntifs/SYSTEM_SCOPED_POLICY_ID_ACE, SYSTEM_SCOPED_POLICY_ID_ACE structure [Installable File System Drivers]"
+ms.keywords: ",  , *, *PSYSTEM_SCOPED_POLICY_ID_ACE, ,, A, C, D, E, I, L, M, O, P, PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE structure pointer [Installable File System Drivers], S, SYSTEM_SCOPED_POLICY_ID_ACE, SYSTEM_SCOPED_POLICY_ID_ACE structure [Installable File System Drivers], T, Y, _, _SYSTEM_SCOPED_POLICY_ID_ACE, ifsk.system_scoped_policy_id_ace, ntifs/PSYSTEM_SCOPED_POLICY_ID_ACE, ntifs/SYSTEM_SCOPED_POLICY_ID_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,15 +90,15 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f774dde1-3498-423b-bf09-239d3d3421b4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbols3::GetSourceFileLineOffsetsWide, IDebugSymbols3, GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, GetSourceFileLineOffsetsWide method [Windows Debugging], GetSourceFileLineOffsetsWide
+ms.keywords: ",  , ,, ., 3, :, D, F, G, GetSourceFileLineOffsetsWide method [Windows Debugging], GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, GetSourceFileLineOffsetsWide,IDebugSymbols3.GetSourceFileLineOffsetsWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, IDebugSymbols3::GetSourceFileLineOffsetsWide, L, O, S, W, b, c, d, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide, e, f, g, i, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -140,15 +140,15 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

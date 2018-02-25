@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1ce67fb6-190e-4de2-9877-f06cd08cf424
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], audio.drmforwardcontenttodeviceobject, drmk/DrmForwardContentToDeviceObject
+ms.keywords: ",  , C, D, DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], F, O, T, a, aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, audio.drmforwardcontenttodeviceobject, b, c, d, drmk/DrmForwardContentToDeviceObject, e, i, j, m, n, o, r, t, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -211,11 +211,11 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 ## -see-also
 
+<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
+
+
+
 <a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 
 
@@ -223,19 +223,19 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
+
 <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
 
 
 

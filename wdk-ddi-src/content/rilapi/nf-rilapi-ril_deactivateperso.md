@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3116482a-aa56-4a1d-98ef-da06c5c1b789
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_deactivateperso, rilapi/RIL_DeactivatePerso, RIL_DeactivatePerso method [Network Drivers Starting with Windows Vista], RIL_DeactivatePerso
+ms.keywords: ",  , D, I, L, P, R, RIL_DeactivatePerso, RIL_DeactivatePerso method [Network Drivers Starting with Windows Vista], _, a, c, e, i, netvista.ril_deactivateperso, o, r, rilapi/RIL_DeactivatePerso, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

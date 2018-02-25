@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: CC043EA0-391F-48D5-B37D-13136527BFCE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.sercx2_custom_transmit_config, PSERCX2_CUSTOM_TRANSMIT_CONFIG, 2/PSERCX2_CUSTOM_TRANSMIT_CONFIG, PSERCX2_CUSTOM_TRANSMIT_CONFIG structure pointer [Serial Ports], _SERCX2_CUSTOM_TRANSMIT_CONFIG, *PSERCX2_CUSTOM_TRANSMIT_CONFIG, SERCX2_CUSTOM_TRANSMIT_CONFIG, 2/SERCX2_CUSTOM_TRANSMIT_CONFIG, SERCX2_CUSTOM_TRANSMIT_CONFIG structure [Serial Ports]
+ms.keywords: ",  , *, *PSERCX2_CUSTOM_TRANSMIT_CONFIG, ,, 2, 2/PSERCX2_CUSTOM_TRANSMIT_CONFIG, 2/SERCX2_CUSTOM_TRANSMIT_CONFIG, A, C, E, F, G, I, M, N, O, P, PSERCX2_CUSTOM_TRANSMIT_CONFIG, PSERCX2_CUSTOM_TRANSMIT_CONFIG structure pointer [Serial Ports], R, S, SERCX2_CUSTOM_TRANSMIT_CONFIG, SERCX2_CUSTOM_TRANSMIT_CONFIG structure [Serial Ports], T, U, X, _, _SERCX2_CUSTOM_TRANSMIT_CONFIG, serports.sercx2_custom_transmit_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,10 +118,6 @@ The <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransm
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
-
-
-
 <a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
 
 
@@ -131,6 +127,10 @@ The <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransm
 
 
 <a href="..\sercx\nf-sercx-sercx2_custom_transmit_config_init.md">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
 
 
 

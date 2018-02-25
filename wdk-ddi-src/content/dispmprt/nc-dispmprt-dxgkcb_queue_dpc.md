@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8c26675-8b87-4818-ad51-4e0a341965d0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbqueuedpc, DxgkCbQueueDpc callback function [Display Devices], DxgkCbQueueDpc, DXGKCB_QUEUE_DPC, DXGKCB_QUEUE_DPC, dispmprt/DxgkCbQueueDpc, DpFunctions_0d1685f8-bd6f-45cc-a958-54330281a44f.xml
+ms.keywords: DXGKCB_QUEUE_DPC, DpFunctions_0d1685f8-bd6f-45cc-a958-54330281a44f.xml, DxgkCbQueueDpc, DxgkCbQueueDpc callback function [Display Devices], display.dxgkcbqueuedpc, dispmprt/DxgkCbQueueDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -107,11 +107,11 @@ For more information on the use of this function, see these topics:
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_dpc_routine.md">DxgkDdiDpcRoutine</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
 
 
 

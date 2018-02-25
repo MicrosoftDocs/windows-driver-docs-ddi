@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a6f1d56-12be-4185-97bf-06f265ee6fe3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.draw, Draw callback function [Display Devices], Draw, PFND3D10DDI_DRAW, PFND3D10DDI_DRAW, d3d10umddi/Draw, UserModeDisplayDriverDx10_Functions_aec9f82d-41e9-41bc-b8e7-c07c531caf4c.xml
+ms.keywords: Draw, Draw callback function [Display Devices], PFND3D10DDI_DRAW, UserModeDisplayDriverDx10_Functions_aec9f82d-41e9-41bc-b8e7-c07c531caf4c.xml, d3d10umddi/Draw, display.draw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -121,11 +121,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

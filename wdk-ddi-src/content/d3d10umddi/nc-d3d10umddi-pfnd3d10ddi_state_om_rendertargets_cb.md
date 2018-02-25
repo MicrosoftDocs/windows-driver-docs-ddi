@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d17cd31d-44a1-4f7d-82be-1201c0d5769f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstateomrendertargetscb, pfnStateOmRenderTargetsCb callback function [Display Devices], pfnStateOmRenderTargetsCb, PFND3D10DDI_STATE_OM_RENDERTARGETS_CB, PFND3D10DDI_STATE_OM_RENDERTARGETS_CB, d3d10umddi/pfnStateOmRenderTargetsCb, d3d10state_functions_d1d161af-c985-4d8d-b734-7acda03b13ce.xml
+ms.keywords: PFND3D10DDI_STATE_OM_RENDERTARGETS_CB, d3d10state_functions_d1d161af-c985-4d8d-b734-7acda03b13ce.xml, d3d10umddi/pfnStateOmRenderTargetsCb, display.pfnstateomrendertargetscb, pfnStateOmRenderTargetsCb, pfnStateOmRenderTargetsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -108,11 +108,11 @@ The <b>pfnStateOmRenderTargetsCb</b> function calls the user-mode display driver
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 

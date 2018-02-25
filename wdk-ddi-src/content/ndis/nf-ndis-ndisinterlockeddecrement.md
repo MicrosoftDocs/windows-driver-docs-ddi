@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf425cd6-88e6-479f-a5c7-364ae896145d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, netvista.ndisinterlockeddecrement, NdisInterlockedDecrement, ndis/NdisInterlockedDecrement, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , D, I, N, NdisInterlockedDecrement, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], c, d, e, i, k, l, m, n, ndis/NdisInterlockedDecrement, ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, netvista.ndisinterlockeddecrement, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

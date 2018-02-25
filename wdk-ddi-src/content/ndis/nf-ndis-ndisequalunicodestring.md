@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f3abf40-bb47-4fa6-862b-6126edb00b36
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], netvista.ndisequalunicodestring, ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, NdisEqualUnicodeString, ndis/NdisEqualUnicodeString
+ms.keywords: ",  , E, N, NdisEqualUnicodeString, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], S, U, a, c, d, e, g, i, l, n, ndis/NdisEqualUnicodeString, ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, netvista.ndisequalunicodestring, o, q, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

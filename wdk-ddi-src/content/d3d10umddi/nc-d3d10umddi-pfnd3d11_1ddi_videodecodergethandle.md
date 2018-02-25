@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 05c16416-d48c-44ce-b025-d62d763682bc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videodecodergethandle, pfnVideoDecoderGetHandle callback function [Display Devices], pfnVideoDecoderGetHandle, PFND3D11_1DDI_VIDEODECODERGETHANDLE, PFND3D11_1DDI_VIDEODECODERGETHANDLE, d3d10umddi/pfnVideoDecoderGetHandle
+ms.keywords: PFND3D11_1DDI_VIDEODECODERGETHANDLE, d3d10umddi/pfnVideoDecoderGetHandle, display.videodecodergethandle, pfnVideoDecoderGetHandle, pfnVideoDecoderGetHandle callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

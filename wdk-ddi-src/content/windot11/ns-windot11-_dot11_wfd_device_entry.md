@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 548A40F7-1C02-4BF0-8F78-EB8C3C97CEB4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DOT11_WFD_DEVICE_ENTRY structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_DEVICE_ENTRY, PDOT11_WFD_DEVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_ENTRY, *PDOT11_WFD_DEVICE_ENTRY, windot11/ DOT11_WFD_DEVICE_ENTRY, DOT11_WFD_DEVICE_ENTRY, netvista._dot11_wfd_device_entry, _DOT11_WFD_DEVICE_ENTRY
+ms.keywords: ",  , *, *PDOT11_WFD_DEVICE_ENTRY, ,, 1, C, D, DOT11_WFD_DEVICE_ENTRY, DOT11_WFD_DEVICE_ENTRY structure [Network Drivers Starting with Windows Vista], E, F, I, N, O, P, PDOT11_WFD_DEVICE_ENTRY, PDOT11_WFD_DEVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], R, T, V, W, Y, _, _DOT11_WFD_DEVICE_ENTRY, netvista._dot11_wfd_device_entry, windot11/ DOT11_WFD_DEVICE_ENTRY, windot11/PDOT11_WFD_DEVICE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -165,7 +165,7 @@ The length, in bytes, of the IEs at <b>uProbeResponseIEsOffset</b>. This is an e
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451796">OID_DOT11_WFD_ENUM_DEVICE_LIST</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 
 
@@ -173,11 +173,15 @@ The length, in bytes, of the IEs at <b>uProbeResponseIEsOffset</b>. This is an e
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451796">OID_DOT11_WFD_ENUM_DEVICE_LIST</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451704">NDIS_STATUS_DOT11_WFD_DISCOVER_COMPLETE</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 
 
@@ -186,10 +190,6 @@ The length, in bytes, of the IEs at <b>uProbeResponseIEsOffset</b>. This is an e
 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
-
-
-
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
 
 

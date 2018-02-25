@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 02A86A3E-D543-4F0F-9985-7D42F381F8F1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.getvirtualfunctionprobedbars, GetVirtualFunctionProbedBars routine, GetVirtualFunctionProbedBars, GET_VIRTUAL_FUNCTION_PROBED_BARS, GET_VIRTUAL_FUNCTION_PROBED_BARS, wdm/GetVirtualFunctionProbedBars
+ms.keywords: GET_VIRTUAL_FUNCTION_PROBED_BARS, GetVirtualFunctionProbedBars, GetVirtualFunctionProbedBars routine, PCI.getvirtualfunctionprobedbars, wdm/GetVirtualFunctionProbedBars
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -179,11 +179,11 @@ address space for each BAR after the physical device has started. At that point,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 

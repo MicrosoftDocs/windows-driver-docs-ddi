@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: A1773CCB-971E-4439-A11F-82761FF8AF71
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SerCxProgressReceive, 1/SerCxProgressReceive, SerCxProgressReceive method [Serial Ports], serports.sercxprogressreceive
+ms.keywords: ",  , 1/SerCxProgressReceive, C, P, R, S, SerCxProgressReceive, SerCxProgressReceive method [Serial Ports], c, e, g, i, o, r, s, serports.sercxprogressreceive, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

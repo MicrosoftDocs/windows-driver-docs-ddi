@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0576D73A-0A36-4AB7-952C-19B56FD246D8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.pcmp_notify_routine, CmpNotifyRoutine callback function, CmpNotifyRoutine, PCMP_NOTIFY_ROUTINE, PCMP_NOTIFY_ROUTINE, 61883/CmpNotifyRoutine, CmpNotifyRoutine callback function, CmpNotifyRoutine
+ms.keywords: 61883/CmpNotifyRoutine, CmpNotifyRoutine, CmpNotifyRoutine callback function, IEEE.pcmp_notify_routine, PCMP_NOTIFY_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

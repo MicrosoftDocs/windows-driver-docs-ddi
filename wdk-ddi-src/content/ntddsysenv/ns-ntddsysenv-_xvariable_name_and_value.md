@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46E892A7-2813-4C50-BE91-B5267696E2A5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.xvariable_name_and_value, PXVARIABLE_NAME_AND_VALUE structure pointer [Kernel-Mode Driver Architecture], ntddsysenv/PXVARIABLE_NAME_AND_VALUE, XVARIABLE_NAME_AND_VALUE, SYSENV_VARIABLE_AND_VALUE, XVARIABLE_NAME_AND_VALUE structure [Kernel-Mode Driver Architecture], *PSYSENV_VARIABLE_AND_VALUE, ntddsysenv/XVARIABLE_NAME_AND_VALUE, *PXVARIABLE_NAME_AND_VALUE, PXVARIABLE_NAME_AND_VALUE, _XVARIABLE_NAME_AND_VALUE
+ms.keywords: ",  , *, *PSYSENV_VARIABLE_AND_VALUE, *PXVARIABLE_NAME_AND_VALUE, ,, A, B, D, E, I, L, M, N, P, PXVARIABLE_NAME_AND_VALUE, PXVARIABLE_NAME_AND_VALUE structure pointer [Kernel-Mode Driver Architecture], R, S, SYSENV_VARIABLE_AND_VALUE, U, V, X, XVARIABLE_NAME_AND_VALUE, XVARIABLE_NAME_AND_VALUE structure [Kernel-Mode Driver Architecture], Y, _, _XVARIABLE_NAME_AND_VALUE, kernel.xvariable_name_and_value, ntddsysenv/PXVARIABLE_NAME_AND_VALUE, ntddsysenv/XVARIABLE_NAME_AND_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

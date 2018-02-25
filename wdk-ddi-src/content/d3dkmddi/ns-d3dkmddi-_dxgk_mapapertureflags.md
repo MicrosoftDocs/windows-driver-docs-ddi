@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c6a6f98f-a4e3-47ed-b9e9-7303c824612d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_MAPAPERTUREFLAGS, DXGK_MAPAPERTUREFLAGS, DmStructs_74b5ec6e-0c62-419f-beb2-676d993c7496.xml, d3dkmddi/DXGK_MAPAPERTUREFLAGS, display.dxgk_mapapertureflags, DXGK_MAPAPERTUREFLAGS structure [Display Devices]"
+ms.keywords: ",  , ,, A, D, DXGK_MAPAPERTUREFLAGS, DXGK_MAPAPERTUREFLAGS structure [Display Devices], DmStructs_74b5ec6e-0c62-419f-beb2-676d993c7496.xml, E, F, G, K, L, M, P, R, S, T, U, X, _, _DXGK_MAPAPERTUREFLAGS, d3dkmddi/DXGK_MAPAPERTUREFLAGS, display.dxgk_mapapertureflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

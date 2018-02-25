@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 886120f0-da2a-4a00-b440-ce1274c516d4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbTargetDeviceFormatRequestForUrb method, DFUsbRef_c7b76463-570c-4f0d-b4d5-37ef192ba30f.xml, wdfusb/WdfUsbTargetDeviceFormatRequestForUrb, kmdf.wdfusbtargetdeviceformatrequestforurb, WdfUsbTargetDeviceFormatRequestForUrb, wdf.wdfusbtargetdeviceformatrequestforurb
+ms.keywords: ",  , D, DFUsbRef_c7b76463-570c-4f0d-b4d5-37ef192ba30f.xml, F, R, T, U, W, WdfUsbTargetDeviceFormatRequestForUrb, WdfUsbTargetDeviceFormatRequestForUrb method, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdeviceformatrequestforurb, m, o, q, r, s, t, u, v, wdf.wdfusbtargetdeviceformatrequestforurb, wdfusb/WdfUsbTargetDeviceFormatRequestForUrb"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -239,11 +239,7 @@ if (WdfRequestSend(
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -251,7 +247,11 @@ if (WdfRequestSend(
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 

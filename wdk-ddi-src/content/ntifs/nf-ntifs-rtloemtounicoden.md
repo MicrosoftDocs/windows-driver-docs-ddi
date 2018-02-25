@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fe00b980-4bb5-4ad7-84c0-99d47d2f7c51
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/RtlOemToUnicodeN, RtlOemToUnicodeN routine [Installable File System Drivers], rtlref_7159eedf-5a97-4dc5-a9e8-c4a7f2ac2ee2.xml, ifsk.rtloemtounicoden, RtlOemToUnicodeN
+ms.keywords: ",  , N, O, R, RtlOemToUnicodeN, RtlOemToUnicodeN routine [Installable File System Drivers], T, U, c, d, e, i, ifsk.rtloemtounicoden, l, m, n, ntifs/RtlOemToUnicodeN, o, rtlref_7159eedf-5a97-4dc5-a9e8-c4a7f2ac2ee2.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,15 +124,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlunicodetooemn.md">RtlUnicodeToOemN</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtloemstringtounicodestring.md">RtlOemStringToUnicodeString</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
 
 
 

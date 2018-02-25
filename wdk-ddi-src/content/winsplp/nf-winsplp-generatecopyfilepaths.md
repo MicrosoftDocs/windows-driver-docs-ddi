@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 61274493-1ec4-483b-85fa-f6087cf0631e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GenerateCopyFilePaths function [Print Devices], poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, GenerateCopyFilePaths, winsplp/GenerateCopyFilePaths, print.generatecopyfilepaths
+ms.keywords: ",  , C, F, G, GenerateCopyFilePaths, GenerateCopyFilePaths function [Print Devices], P, a, e, h, i, l, n, o, p, poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, print.generatecopyfilepaths, r, s, t, winsplp/GenerateCopyFilePaths, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

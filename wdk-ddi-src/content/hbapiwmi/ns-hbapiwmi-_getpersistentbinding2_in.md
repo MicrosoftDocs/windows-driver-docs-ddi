@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 646378f8-9037-4c40-bcbc-5ffe380e6279
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PGetPersistentBinding2_IN structure pointer [Storage Devices], PGetPersistentBinding2_IN, storage.getpersistentbinding2_in, _GetPersistentBinding2_IN, *PGetPersistentBinding2_IN, GetPersistentBinding2_IN structure [Storage Devices], GetPersistentBinding2_IN, hbapiwmi/PGetPersistentBinding2_IN, hbapiwmi/GetPersistentBinding2_IN, structs-Fibre_3be7645f-006d-4a32-9739-d97e632edf58.xml
+ms.keywords: ",  , *, *PGetPersistentBinding2_IN, ,, 2, B, G, GetPersistentBinding2_IN, GetPersistentBinding2_IN structure [Storage Devices], I, N, P, PGetPersistentBinding2_IN, PGetPersistentBinding2_IN structure pointer [Storage Devices], _, _GetPersistentBinding2_IN, d, e, g, hbapiwmi/GetPersistentBinding2_IN, hbapiwmi/PGetPersistentBinding2_IN, i, n, r, s, storage.getpersistentbinding2_in, structs-Fibre_3be7645f-006d-4a32-9739-d97e632edf58.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40d5eb14-b7bd-42b6-a3f5-fe9e8c5c806e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminidevicesetpower, AVStrMiniDeviceSetPower, AVStrMiniDeviceSetPower routine [Streaming Media Devices], AVStrMiniDeviceSetPower, PFNKSDEVICESETPOWER, PFNKSDEVICESETPOWER, ks/AVStrMiniDeviceSetPower, avstclbk_8b833d83-a199-44a9-97b8-c4afc624d6d5.xml
+ms.keywords: AVStrMiniDeviceSetPower, AVStrMiniDeviceSetPower routine [Streaming Media Devices], PFNKSDEVICESETPOWER, avstclbk_8b833d83-a199-44a9-97b8-c4afc624d6d5.xml, ks/AVStrMiniDeviceSetPower, stream.avstrminidevicesetpower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

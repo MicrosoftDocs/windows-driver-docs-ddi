@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 53881aca-e49c-43e9-b68e-b91a1868e3f5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntddpcm/PPCMCIA_SOCKET_INFORMATION, PCMCIA.pcmcia_socket_information, PPCMCIA_SOCKET_INFORMATION structure pointer [Buses], ntddpcm/PCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION, memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, PCMCIA_SOCKET_INFORMATION structure [Buses], _PCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION
+ms.keywords: ",  , *, *PPCMCIA_SOCKET_INFORMATION, ,, A, C, E, F, I, K, M, N, O, P, PCMCIA.pcmcia_socket_information, PCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION structure [Buses], PPCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION structure pointer [Buses], R, S, T, _, _PCMCIA_SOCKET_INFORMATION, memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, ntddpcm/PCMCIA_SOCKET_INFORMATION, ntddpcm/PPCMCIA_SOCKET_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

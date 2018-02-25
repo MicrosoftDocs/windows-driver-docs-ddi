@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F44C7FCC-0693-4F43-BF23-7160B67EDD3D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE, kernel.pep_ppm_idle_complete, _PEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE, pepfx/PEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PPEP_PPM_IDLE_COMPLETE, ,, C, D, E, I, L, M, O, P, PEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], T, _, _PEP_PPM_IDLE_COMPLETE, kernel.pep_ppm_idle_complete, pepfx/PEP_PPM_IDLE_COMPLETE, pepfx/PPEP_PPM_IDLE_COMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

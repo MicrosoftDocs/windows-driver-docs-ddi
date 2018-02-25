@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicreateprocess, DxgkDdiCreateProcess callback function [Display Devices], DxgkDdiCreateProcess, DXGKDDI_CREATEPROCESS, DXGKDDI_CREATEPROCESS, dispmprt/DxgkDdiCreateProcess, d3dkmddi/DxgkDdiCreateProcess
+ms.keywords: DXGKDDI_CREATEPROCESS, DxgkDdiCreateProcess, DxgkDdiCreateProcess callback function [Display Devices], d3dkmddi/DxgkDdiCreateProcess, display.dxgkddicreateprocess, dispmprt/DxgkDdiCreateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

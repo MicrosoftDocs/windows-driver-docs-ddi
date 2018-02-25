@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1d56c71f-0108-4088-a5e0-3b41b781f361
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.relocatedevicefuncs_d3d11_, RelocateDeviceFuncs callback function [Display Devices], RelocateDeviceFuncs, PFND3D11DDI_RELOCATEDEVICEFUNCS, PFND3D11DDI_RELOCATEDEVICEFUNCS, d3d10umddi/RelocateDeviceFuncs, UserModeDisplayDriverDx11_Functions_ef0af03c-0ab5-4ea2-a568-410d1f68c183.xml
+ms.keywords: PFND3D11DDI_RELOCATEDEVICEFUNCS, RelocateDeviceFuncs, RelocateDeviceFuncs callback function [Display Devices], UserModeDisplayDriverDx11_Functions_ef0af03c-0ab5-4ea2-a568-410d1f68c183.xml, d3d10umddi/RelocateDeviceFuncs, display.relocatedevicefuncs_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

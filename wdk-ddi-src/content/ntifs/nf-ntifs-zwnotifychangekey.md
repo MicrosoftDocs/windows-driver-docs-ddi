@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 660c04b0-499b-40e7-94c2-5cb457e93f00
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/NtNotifyChangeKey, NtNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], kernel.zwnotifychangekey, ZwNotifyChangeKey, ntifs/ZwNotifyChangeKey, k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml
+ms.keywords: ",  , C, K, N, NtNotifyChangeKey, Z, ZwNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], a, e, f, g, h, i, k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, kernel.zwnotifychangekey, n, ntifs/NtNotifyChangeKey, ntifs/ZwNotifyChangeKey, o, t, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -189,11 +189,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 
 
@@ -201,7 +197,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a>
 
 
 
@@ -210,6 +206,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

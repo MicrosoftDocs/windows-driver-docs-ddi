@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 16a9417c-6d47-49fc-9ba9-e2b522255942
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EnumConstrainedOptions method [Print Devices], IPrintCoreHelper, EnumConstrainedOptions, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, print.iprintcorehelper_enumconstrainedoptions, print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml, EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper::EnumConstrainedOptions, IPrintCoreHelper interface [Print Devices], EnumConstrainedOptions method
+ms.keywords: ",  , ,, ., :, C, E, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface, EnumConstrainedOptions,IPrintCoreHelper.EnumConstrainedOptions, H, I, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], EnumConstrainedOptions method, IPrintCoreHelper::EnumConstrainedOptions, O, P, a, d, e, i, l, m, n, o, p, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, print.iprintcorehelper_enumconstrainedoptions, print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -176,15 +176,15 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552965">IPrintCoreHelper::WhyConstrained</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
 
 
 

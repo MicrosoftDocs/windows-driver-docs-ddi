@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a83c6eb9-a29a-4695-99d3-168dff68c4a2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: NewStream, NewStream method [Audio Devices], IMiniportWaveCyclic interface, IMiniportWaveCyclic interface [Audio Devices], NewStream method, NewStream method [Audio Devices], portcls/IMiniportWaveCyclic::NewStream, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, IMiniportWaveCyclic, audio.iminiportwavecyclic_newstream, IMiniportWaveCyclic::NewStream
+ms.keywords: ",  , ,, ., :, C, I, IMiniportWaveCyclic, IMiniportWaveCyclic interface [Audio Devices], NewStream method, IMiniportWaveCyclic::NewStream, M, N, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportWaveCyclic interface, NewStream,IMiniportWaveCyclic.NewStream, S, W, a, audio.iminiportwavecyclic_newstream, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, c, e, i, l, m, n, o, p, portcls/IMiniportWaveCyclic::NewStream, r, t, v, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -162,19 +162,7 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
-
-
-
 <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
@@ -182,11 +170,23 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 
 
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cc2394ce-128e-46a2-8688-a71851af06cf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k109_da737a74-2fce-4731-b24d-9014272991f1.xml, RtlCmDecodeMemIoResource, RtlCmDecodeMemIoResource routine [Kernel-Mode Driver Architecture], kernel.rtlcmdecodememioresource, wdm/RtlCmDecodeMemIoResource
+ms.keywords: ",  , C, D, I, M, R, RtlCmDecodeMemIoResource, RtlCmDecodeMemIoResource routine [Kernel-Mode Driver Architecture], c, d, e, k109_da737a74-2fce-4731-b24d-9014272991f1.xml, kernel.rtlcmdecodememioresource, l, m, o, r, s, t, u, wdm/RtlCmDecodeMemIoResource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

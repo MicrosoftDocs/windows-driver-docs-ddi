@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: B367D0F7-5026-4C88-B88A-69068F76B675
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_USBFN_DEVICE_STATE, UsbfnDeviceStateAddressed, UsbfnDeviceStateAttached, UsbfnDeviceStateStateMaximum, UsbfnDeviceStateMinimum, usbfnbase/USBFN_DEVICE_STATE, UsbfnDeviceStateDefault, *PUSBFN_DEVICE_STATE, UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateAttached, UsbfnDeviceStateSuspended, buses.usbfn_device_state, usbfnbase/UsbfnDeviceStateSuspended, usbfnbase/UsbfnDeviceStateStateMaximum, UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateConfigured, USBFN_DEVICE_STATE, USBFN_DEVICE_STATE enumeration [Buses], usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum"
+ms.keywords: ",  , *, *PUSBFN_DEVICE_STATE, ,, A, B, C, D, E, F, I, N, P, S, T, U, USBFN_DEVICE_STATE, USBFN_DEVICE_STATE enumeration [Buses], UsbfnDeviceStateAddressed, UsbfnDeviceStateAttached, UsbfnDeviceStateConfigured, UsbfnDeviceStateDefault, UsbfnDeviceStateDetached, UsbfnDeviceStateMinimum, UsbfnDeviceStateStateMaximum, UsbfnDeviceStateSuspended, V, _, _USBFN_DEVICE_STATE, buses.usbfn_device_state, usbfnbase/USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateAttached, usbfnbase/UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateStateMaximum, usbfnbase/UsbfnDeviceStateSuspended"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

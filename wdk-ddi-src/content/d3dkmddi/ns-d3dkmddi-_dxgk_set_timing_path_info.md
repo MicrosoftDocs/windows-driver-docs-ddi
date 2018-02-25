@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23B42F75-6313-430F-8CD3-EBAAE87C7815
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], display.dxgk_set_timing_path_info, _DXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices]
+ms.keywords: ",  , ,, A, D, DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], E, F, G, H, I, K, M, N, O, P, PDXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], S, T, X, _, _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, display.dxgk_set_timing_path_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

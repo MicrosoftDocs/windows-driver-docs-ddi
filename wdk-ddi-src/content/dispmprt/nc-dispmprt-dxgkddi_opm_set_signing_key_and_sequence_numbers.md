@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 285521c7-4034-4db8-9441-6c4eaee27ee3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiopmsetsigningkeyandsequencenumbers, DxgkDdiOPMSetSigningKeyAndSequenceNumbers callback function [Display Devices], DxgkDdiOPMSetSigningKeyAndSequenceNumbers, DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, dispmprt/DxgkDdiOPMSetSigningKeyAndSequenceNumbers, Dm_Opm_functions_4ffbc6e2-7239-4c02-88be-aa6276629c7d.xml
+ms.keywords: DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, Dm_Opm_functions_4ffbc6e2-7239-4c02-88be-aa6276629c7d.xml, DxgkDdiOPMSetSigningKeyAndSequenceNumbers, DxgkDdiOPMSetSigningKeyAndSequenceNumbers callback function [Display Devices], display.dxgkddiopmsetsigningkeyandsequencenumbers, dispmprt/DxgkDdiOPMSetSigningKeyAndSequenceNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -203,7 +203,7 @@ RSAES-OAEP is a parameterized encryption scheme and MGF1 is a parameterized mask
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
 
 
 
@@ -211,7 +211,7 @@ RSAES-OAEP is a parameterized encryption scheme and MGF1 is a parameterized mask
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_encrypted_parameters.md">DXGKMDT_OPM_ENCRYPTED_PARAMETERS</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 
@@ -219,11 +219,11 @@ RSAES-OAEP is a parameterized encryption scheme and MGF1 is a parameterized mask
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_encrypted_parameters.md">DXGKMDT_OPM_ENCRYPTED_PARAMETERS</a>
 
 
 

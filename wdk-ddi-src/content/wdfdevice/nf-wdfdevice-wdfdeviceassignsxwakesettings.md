@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af25d03f-32c5-4e2c-930f-1b905edc566b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, WdfDeviceAssignSxWakeSettings method, wdf.wdfdeviceassignsxwakesettings, wdfdevice/WdfDeviceAssignSxWakeSettings, kmdf.wdfdeviceassignsxwakesettings, WdfDeviceAssignSxWakeSettings
+ms.keywords: ",  , A, D, DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, S, W, WdfDeviceAssignSxWakeSettings, WdfDeviceAssignSxWakeSettings method, a, c, d, e, f, g, i, k, kmdf.wdfdeviceassignsxwakesettings, n, s, t, v, wdf.wdfdeviceassignsxwakesettings, wdfdevice/WdfDeviceAssignSxWakeSettings, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -188,11 +188,11 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a>
 
 
 

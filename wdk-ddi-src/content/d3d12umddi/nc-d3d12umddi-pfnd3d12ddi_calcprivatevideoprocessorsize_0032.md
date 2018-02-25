@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7CE581B5-A6B5-4108-A678-554221386636
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3d12ddi_calcprivatevideoprocessorsize_0032, PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032 entry point [Display Devices], PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032, d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032
+ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032, PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032, display.pfnd3d12ddi_calcprivatevideoprocessorsize_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

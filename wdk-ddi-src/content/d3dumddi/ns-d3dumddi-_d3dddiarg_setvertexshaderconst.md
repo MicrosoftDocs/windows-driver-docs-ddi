@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac3c4609-094d-4003-a5ee-b609f7ec13e1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_D3DDDIARG_SETVERTEXSHADERCONST, D3DDDIARG_SETVERTEXSHADERCONSTI, D3DDDIARG_SETVERTEXSHADERCONST structure [Display Devices], d3dumddi/D3DDDIARG_SETVERTEXSHADERCONST, D3DDDIARG_SETVERTEXSHADERCONST, display.d3dddiarg_setvertexshaderconst, D3DDDIARG_SETVERTEXSHADERCONSTB, UMDisplayDriver_param_Structs_1d6878e5-ecbe-493c-bcbc-58eabc4b0972.xml"
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDIARG_SETVERTEXSHADERCONST, D3DDDIARG_SETVERTEXSHADERCONST structure [Display Devices], D3DDDIARG_SETVERTEXSHADERCONSTB, D3DDDIARG_SETVERTEXSHADERCONSTI, E, G, H, I, N, O, R, S, T, UMDisplayDriver_param_Structs_1d6878e5-ecbe-493c-bcbc-58eabc4b0972.xml, V, X, _, _D3DDDIARG_SETVERTEXSHADERCONST, d3dumddi/D3DDDIARG_SETVERTEXSHADERCONST, display.d3dddiarg_setvertexshaderconst"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

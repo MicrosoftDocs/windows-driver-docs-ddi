@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ACCB45DA-1233-4276-A0F5-466E50D9377B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswditxdequeueindication, NdisWdiTxDequeueIndication callback function [Network Drivers Starting with Windows Vista], NdisWdiTxDequeueIndication, NDIS_WDI_TX_DEQUEUE_IND, NDIS_WDI_TX_DEQUEUE_IND, dot11wdi/NdisWdiTxDequeueIndication
+ms.keywords: NDIS_WDI_TX_DEQUEUE_IND, NdisWdiTxDequeueIndication, NdisWdiTxDequeueIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxDequeueIndication, netvista.ndiswditxdequeueindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,15 +135,7 @@ The TxMgr may return a list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_dequeue_ind.md">NdisWdiTxDequeueIndication</a>
 
 
 
@@ -151,7 +143,15 @@ The TxMgr may return a list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET
 
 
 
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
+
+
+
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_dequeue_ind.md">NdisWdiTxDequeueIndication</a>
 
 
 

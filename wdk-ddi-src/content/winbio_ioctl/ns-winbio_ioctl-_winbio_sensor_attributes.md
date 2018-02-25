@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: edfd5b49-f658-46c7-a3f3-221afb35abb7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES, _WINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES structure [Biometric Devices], WINBIO_SENSOR_ATTRIBUTES, biometric.winbio_sensor_attributes, biometric_ref_958b511b-a855-4897-87d8-f0d7bb4970ce.xml, PWINBIO_SENSOR_ATTRIBUTES structure pointer [Biometric Devices], *PWINBIO_SENSOR_ATTRIBUTES, winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES
+ms.keywords: ",  , *, *PWINBIO_SENSOR_ATTRIBUTES, ,, A, B, E, I, N, O, P, PWINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES structure pointer [Biometric Devices], R, S, T, U, W, WINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES structure [Biometric Devices], _, _WINBIO_SENSOR_ATTRIBUTES, biometric.winbio_sensor_attributes, biometric_ref_958b511b-a855-4897-87d8-f0d7bb4970ce.xml, winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES, winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

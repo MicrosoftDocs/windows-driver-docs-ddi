@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0f3fd5ae-f8ce-4a2f-b8c0-4ac101569e09
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ioctl_ks_reset_state, IOCTL_KS_RESET_STATE control code [Streaming Media Devices], IOCTL_KS_RESET_STATE, ks/IOCTL_KS_RESET_STATE, ks-ioctl_ce7c174b-952d-4b08-ab05-f8843155af33.xml
+ms.keywords: IOCTL_KS_RESET_STATE, IOCTL_KS_RESET_STATE control code [Streaming Media Devices], ks-ioctl_ce7c174b-952d-4b08-ab05-f8843155af33.xml, ks/IOCTL_KS_RESET_STATE, stream.ioctl_ks_reset_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames:
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -124,19 +124,19 @@ When the reset state is terminated, the pin can again accept new data and pass d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksacquireresetvalue.md">KsAcquireResetValue</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556354">AVStrMiniPinReset</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
-
-
-
 <a href="..\ks\nc-ks-pfnksfiltervoid.md">AVStrMiniFilterReset</a>
+
+
+
+<a href="..\ks\nf-ks-ksacquireresetvalue.md">KsAcquireResetValue</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a79f6f98-1ebb-498e-9e20-cfdd22a0da7a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRegistryOpenKey method, kmdf.wdfregistryopenkey, wdf.wdfregistryopenkey, WdfRegistryOpenKey, wdfregistry/WdfRegistryOpenKey, DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml
+ms.keywords: ",  , DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml, K, O, R, W, WdfRegistryOpenKey, WdfRegistryOpenKey method, d, e, f, g, i, kmdf.wdfregistryopenkey, n, p, r, s, t, wdf.wdfregistryopenkey, wdfregistry/WdfRegistryOpenKey, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -258,11 +258,15 @@ if (NT_SUCCESS(status)){
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistrycreatekey.md">WdfRegistryCreateKey</a>
 
 
 
@@ -274,11 +278,7 @@ if (NT_SUCCESS(status)){
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
-<a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -286,11 +286,11 @@ if (NT_SUCCESS(status)){
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistrycreatekey.md">WdfRegistryCreateKey</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
 
 
 

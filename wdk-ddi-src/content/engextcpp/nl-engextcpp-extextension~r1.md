@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9c6c4633-df49-4f49-8116-d680bb20c3f5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.extextension, ExtExtension class [Windows Debugging], ExtExtension class [Windows Debugging], described, ExtExtension, engextcpp/ExtExtension, EngExtCpp_Ref_3a533353-f008-4887-b937-2098acf1c68e.xml
+ms.keywords: EngExtCpp_Ref_3a533353-f008-4887-b937-2098acf1c68e.xml, ExtExtension, ExtExtension class [Windows Debugging], ExtExtension class [Windows Debugging], described, debugger.extextension, engextcpp/ExtExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

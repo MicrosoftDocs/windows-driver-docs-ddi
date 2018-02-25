@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 39f486b4-a22e-473b-9a0d-ba2c1046995a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_mountmgr_check_unprocessed_volumes, IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES control code [Storage Devices], IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, mountmgr/IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, k307_eb4defdf-c3d0-41b6-8bd4-3ef1dbd3f795.xml
+ms.keywords: IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES control code [Storage Devices], k307_eb4defdf-c3d0-41b6-8bd4-3ef1dbd3f795.xml, mountmgr/IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, storage.ioctl_mountmgr_check_unprocessed_volumes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 24d10f3a-5188-4dda-8e4e-1dc7ae2ddc88
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PPCI_CORRECTABLE_ERROR_STATUS, _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, PPCI_CORRECTABLE_ERROR_STATUS union pointer [Buses], PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union [Buses], PPCI_CORRECTABLE_ERROR_STATUS, PCI.pci_express_correctable_error_status, pci_struct_1366a090-7405-4cd8-b725-19753a248441.xml, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, wdm/PPCI_CORRECTABLE_ERROR_STATUS, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_STATUS"
+ms.keywords: ",  , *, *PPCI_CORRECTABLE_ERROR_STATUS, ,, A, B, C, E, I, L, O, P, PCI.pci_express_correctable_error_status, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union [Buses], PPCI_CORRECTABLE_ERROR_STATUS, PPCI_CORRECTABLE_ERROR_STATUS union pointer [Buses], R, S, T, U, X, _, _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, pci_struct_1366a090-7405-4cd8-b725-19753a248441.xml, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, wdm/PPCI_CORRECTABLE_ERROR_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,15 +146,15 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is contained in the <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 

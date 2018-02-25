@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 56be82fc-c438-4cd1-8fcc-1184699f03e6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PAACS_MEDIA_ID, AACS_MEDIA_ID, storage.aacs_media_id, structs-DVD_413a14c6-75e0-444f-b325-8dfeb9c0c074.xml, PAACS_MEDIA_ID, _AACS_MEDIA_ID, AACS_MEDIA_ID structure [Storage Devices], ntddcdvd/AACS_MEDIA_ID, ntddcdvd/PAACS_MEDIA_ID, PAACS_MEDIA_ID structure pointer [Storage Devices]"
+ms.keywords: ",  , *, *PAACS_MEDIA_ID, ,, A, AACS_MEDIA_ID, AACS_MEDIA_ID structure [Storage Devices], C, D, E, I, M, P, PAACS_MEDIA_ID, PAACS_MEDIA_ID structure pointer [Storage Devices], S, _, _AACS_MEDIA_ID, ntddcdvd/AACS_MEDIA_ID, ntddcdvd/PAACS_MEDIA_ID, storage.aacs_media_id, structs-DVD_413a14c6-75e0-444f-b325-8dfeb9c0c074.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

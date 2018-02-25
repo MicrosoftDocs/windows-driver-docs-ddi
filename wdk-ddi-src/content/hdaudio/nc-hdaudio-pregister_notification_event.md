@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 44702d79-80ac-411f-ae47-bf60b9cb541d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.registernotificationevent, RegisterNotificationEvent callback function [Audio Devices], RegisterNotificationEvent, PREGISTER_NOTIFICATION_EVENT, PREGISTER_NOTIFICATION_EVENT, hdaudio/RegisterNotificationEvent, aud-prop2_fa7a1f01-c553-40df-971b-932f8da48353.xml
+ms.keywords: PREGISTER_NOTIFICATION_EVENT, RegisterNotificationEvent, RegisterNotificationEvent callback function [Audio Devices], aud-prop2_fa7a1f01-c553-40df-971b-932f8da48353.xml, audio.registernotificationevent, hdaudio/RegisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -129,15 +129,15 @@ A pointer to a kernel event that must be notified as DMA progresses.  Depending 
 
 
 
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
+
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
 
 
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
 
 

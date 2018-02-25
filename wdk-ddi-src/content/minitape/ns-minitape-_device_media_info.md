@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 87906511-7bcb-4f4d-9383-44b0501536e3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDEVICE_MEDIA_INFO, MEDIA_ERASEABLE, MEDIA_CURRENTLY_MOUNTED, ntddstor/DEVICE_MEDIA_INFO, MEDIA_READ_WRITE, MEDIA_WRITE_PROTECTED, MEDIA_WRITE_ONCE, storage.device_media_info, ntddstor/PDEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, _DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure [Storage Devices], MEDIA_READ_ONLY, PDEVICE_MEDIA_INFO structure pointer [Storage Devices], structs-general_e2c363ff-f053-45be-a807-f90480c0ae1f.xml
+ms.keywords: ",  , *, *PDEVICE_MEDIA_INFO, ,, A, C, D, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure [Storage Devices], E, F, I, M, MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, N, O, P, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer [Storage Devices], V, _, _DEVICE_MEDIA_INFO, ntddstor/DEVICE_MEDIA_INFO, ntddstor/PDEVICE_MEDIA_INFO, storage.device_media_info, structs-general_e2c363ff-f053-45be-a807-f90480c0ae1f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -273,11 +273,11 @@ The driver fills in an array of <b>DEVICE_MEDIA_INFO</b> structures, one for eac
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567939">TapeMiniGetMediaTypes</a>
-
-
-
 <a href="..\minitape\ne-minitape-_storage_media_type.md">STORAGE_MEDIA_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567939">TapeMiniGetMediaTypes</a>
 
 
 

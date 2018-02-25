@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 3FA3494F-DFFF-414E-B88C-DF7C034B96C6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._roothub_30port_info_ex, ucxroothub/_ROOTHUB_30PORT_INFO_EX, ROOTHUB_30PORT_INFO_EX, P_ROOTHUB_30PORT_INFO_EX, ucxroothub/P_ROOTHUB_30PORT_INFO_EX, P_ROOTHUB_30PORT_INFO_EX structure pointer [Buses], *PROOTHUB_30PORT_INFO_EX, ROOTHUB_30PORT_INFO_EX structure [Buses], _ROOTHUB_30PORT_INFO_EX
+ms.keywords: ",  , *, *PROOTHUB_30PORT_INFO_EX, ,, 0, 3, B, E, F, H, I, N, O, P, P_ROOTHUB_30PORT_INFO_EX, P_ROOTHUB_30PORT_INFO_EX structure pointer [Buses], R, ROOTHUB_30PORT_INFO_EX, ROOTHUB_30PORT_INFO_EX structure [Buses], T, U, X, _, _ROOTHUB_30PORT_INFO_EX, buses._roothub_30port_info_ex, ucxroothub/P_ROOTHUB_30PORT_INFO_EX, ucxroothub/_ROOTHUB_30PORT_INFO_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

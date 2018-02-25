@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08D0CE94-E37E-4BAE-99C8-FB4EDF7BCDDB
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_remove_lock_options_init, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_INIT, kmdf.wdf_remove_lock_options_init, WDF_REMOVE_LOCK_OPTIONS_INIT function, WDF_REMOVE_LOCK_OPTIONS_INIT
+ms.keywords: ",  , C, D, E, F, I, K, L, M, N, O, P, R, S, T, V, W, WDF_REMOVE_LOCK_OPTIONS_INIT, WDF_REMOVE_LOCK_OPTIONS_INIT function, _, kmdf.wdf_remove_lock_options_init, wdf.wdf_remove_lock_options_init, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

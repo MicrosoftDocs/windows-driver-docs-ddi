@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: BC260058-1E33-43BA-B75E-79540E36A08D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaTransactionSetImmediateExecution, WdfDmaTransactionSetImmediateExecution method, wdf.wdfdmatransactionsetimmediateexecution, wdfdmatransaction/WdfDmaTransactionSetImmediateExecution, kmdf.wdfdmatransactionsetimmediateexecution
+ms.keywords: ",  , D, E, I, S, T, W, WdfDmaTransactionSetImmediateExecution, WdfDmaTransactionSetImmediateExecution method, a, c, d, e, f, i, kmdf.wdfdmatransactionsetimmediateexecution, m, n, o, r, s, t, u, wdf.wdfdmatransactionsetimmediateexecution, wdfdmatransaction/WdfDmaTransactionSetImmediateExecution, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

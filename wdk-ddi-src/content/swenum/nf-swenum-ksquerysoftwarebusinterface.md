@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: swenum/KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, stream.ksquerysoftwarebusinterface, KsQuerySoftwareBusInterface
+ms.keywords: ",  , B, I, K, KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], Q, S, a, c, e, f, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, n, o, r, s, stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -52,7 +52,7 @@ req.product: Windows 10 or later.
 
 <i>This function is intended for internal use only.</i>
 
-The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
+The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. 
 
 
 ## -syntax
@@ -101,15 +101,15 @@ A minidriver can access this function through the <b>QueryReferenceString</b> me
 
 ## -see-also
 
+<a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
+
+
+
 <a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
 
 
 
 <a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
-
-
-
-<a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
 
 
 

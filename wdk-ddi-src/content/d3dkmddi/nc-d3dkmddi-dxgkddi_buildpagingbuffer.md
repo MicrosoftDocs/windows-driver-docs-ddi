@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d315ff53-4a9f-46a3-ad74-d65a5eb72de1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddibuildpagingbuffer, DxgkDdiBuildPagingBuffer callback function [Display Devices], DxgkDdiBuildPagingBuffer, DXGKDDI_BUILDPAGINGBUFFER, DXGKDDI_BUILDPAGINGBUFFER, d3dkmddi/DxgkDdiBuildPagingBuffer, DmFunctions_0d7a4d5b-3cd4-4c3c-9ffc-7b6e88342f81.xml
+ms.keywords: DXGKDDI_BUILDPAGINGBUFFER, DmFunctions_0d7a4d5b-3cd4-4c3c-9ffc-7b6e88342f81.xml, DxgkDdiBuildPagingBuffer, DxgkDdiBuildPagingBuffer callback function [Display Devices], d3dkmddi/DxgkDdiBuildPagingBuffer, display.dxgkddibuildpagingbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -333,11 +333,15 @@ do {
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -346,10 +350,6 @@ do {
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
 
 
 

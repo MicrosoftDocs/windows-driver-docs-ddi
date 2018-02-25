@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F403179A-B339-432D-AAF9-E7D9965F8B00
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxusbdevice/P_USBDEVICE_HUB_INFO, _USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], ucxusbdevice/_USBDEVICE_HUB_INFO, *PUSBDEVICE_HUB_INFO, buses._usbdevice_hub_info, P_USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO structure pointer [Buses]
+ms.keywords: ",  , *, *PUSBDEVICE_HUB_INFO, ,, B, C, D, E, F, H, I, N, O, P, P_USBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO structure pointer [Buses], S, U, USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], V, _, _USBDEVICE_HUB_INFO, buses._usbdevice_hub_info, ucxusbdevice/P_USBDEVICE_HUB_INFO, ucxusbdevice/_USBDEVICE_HUB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

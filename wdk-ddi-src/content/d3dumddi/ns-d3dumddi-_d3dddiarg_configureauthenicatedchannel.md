@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f27fe6d-fe34-4006-a8b1-d2f2190ec044
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDisplayDriver_param_Structs_ce65fb22-4c07-4b0f-b0cc-356f0010c88d.xml, _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure [Display Devices], D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, d3dumddi/D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, display.d3dddiarg_configureauthenticatedchannel
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure [Display Devices], E, F, G, H, I, L, N, O, R, T, U, UMDisplayDriver_param_Structs_ce65fb22-4c07-4b0f-b0cc-356f0010c88d.xml, _, _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL, d3dumddi/D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, display.d3dddiarg_configureauthenticatedchannel"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

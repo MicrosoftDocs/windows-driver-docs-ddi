@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95D9C564-92F3-4165-8063-49D928F30475
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, display.dxgk_plane_specific_output_flags, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
+ms.keywords: ",  , ,, A, C, D, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure [Display Devices], E, F, G, I, K, L, N, O, P, S, T, U, X, _, _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, display.dxgk_plane_specific_output_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

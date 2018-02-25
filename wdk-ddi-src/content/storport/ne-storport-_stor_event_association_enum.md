@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e0672b6-e692-43c8-8a20-7947c854c4c9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/STOR_EVENT_ASSOCIATION_ENUM, StorEventAdapterAssociation, storport/StorEventInvalidAssociation, storport/StorEventTargetAssociation, STOR_EVENT_ASSOCIATION_ENUM enumeration [Storage Devices], StorEventInvalidAssociation, StorEventTargetAssociation, storport/StorEventAdapterAssociation, structs-storport_2aea4a7c-1734-45e0-9aeb-09ffa8923641.xml, STOR_EVENT_ASSOCIATION_ENUM, storage.stor_event_association_enum, _STOR_EVENT_ASSOCIATION_ENUM, storport/StorEventLunAssociation, StorEventLunAssociation
+ms.keywords: ",  , ,, A, C, E, I, M, N, O, R, S, STOR_EVENT_ASSOCIATION_ENUM, STOR_EVENT_ASSOCIATION_ENUM enumeration [Storage Devices], StorEventAdapterAssociation, StorEventInvalidAssociation, StorEventLunAssociation, StorEventTargetAssociation, T, U, V, _, _STOR_EVENT_ASSOCIATION_ENUM, storage.stor_event_association_enum, storport/STOR_EVENT_ASSOCIATION_ENUM, storport/StorEventAdapterAssociation, storport/StorEventInvalidAssociation, storport/StorEventLunAssociation, storport/StorEventTargetAssociation, structs-storport_2aea4a7c-1734-45e0-9aeb-09ffa8923641.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

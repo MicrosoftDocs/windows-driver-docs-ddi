@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d75f3fad-3bcd-44ad-9bd5-f61f5346cf8d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.bufblt, BufBlt callback function [Display Devices], BufBlt, PFND3DDDI_BUFBLT, PFND3DDDI_BUFBLT, d3dumddi/BufBlt, UserModeDisplayDriver_Functions_87f3469d-cae9-43e7-a0ae-d19bef34314e.xml
+ms.keywords: BufBlt, BufBlt callback function [Display Devices], PFND3DDDI_BUFBLT, UserModeDisplayDriver_Functions_87f3469d-cae9-43e7-a0ae-d19bef34314e.xml, d3dumddi/BufBlt, display.bufblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

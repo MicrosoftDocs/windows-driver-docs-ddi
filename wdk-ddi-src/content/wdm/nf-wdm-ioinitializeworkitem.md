@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7f4370e-75db-4238-8e23-9e48028a03f5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/IoInitializeWorkItem, IoInitializeWorkItem, kernel.ioinitializeworkitem, k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , I, IoInitializeWorkItem, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture], W, a, e, i, k, k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml, kernel.ioinitializeworkitem, l, m, n, o, r, t, wdm/IoInitializeWorkItem, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,15 +107,7 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iouninitializeworkitem.md">IoUninitializeWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosizeofworkitem.md">IoSizeofWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
 
 
 
@@ -123,11 +115,19 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
+
+
+<a href="..\wdm\nf-wdm-iouninitializeworkitem.md">IoUninitializeWorkItem</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosizeofworkitem.md">IoSizeofWorkItem</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: b50a63cd-69eb-46a8-9d0b-660795c7047f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.deregisteropregionhandler, DeRegisterOpRegionHandler, DeRegisterOpRegionHandler routine [ACPI Devices], oprghdlr/DeRegisterOpRegionHandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml
+ms.keywords: ",  , D, DeRegisterOpRegionHandler, DeRegisterOpRegionHandler routine [ACPI Devices], H, O, R, a, acpi.deregisteropregionhandler, d, e, g, i, l, n, o, opregref_e991e152-6162-4d45-9418-282afb447d18.xml, oprghdlr/DeRegisterOpRegionHandler, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,11 +142,11 @@ For more information about operation regions, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
-
-
-
 <a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>
+
+
+
+<a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
 
 
 

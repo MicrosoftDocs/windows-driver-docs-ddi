@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 87e20abc-eb65-40c0-943e-eb194022a2de
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, kernel.mmgetsystemroutineaddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], wdm/MmGetSystemRoutineAddress, MmGetSystemRoutineAddress
+ms.keywords: ",  , A, G, M, MmGetSystemRoutineAddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], R, S, d, e, i, k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, kernel.mmgetsystemroutineaddress, m, n, o, r, s, t, u, wdm/MmGetSystemRoutineAddress, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F37BFBBE-B175-40AE-BE34-A4D6B00735D0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_ucmtcpci_port_controller_set_control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL control code [Buses], IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL
+ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_control, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -125,11 +125,7 @@ The UcmTcpciCx class extension sends this IOCTL request to set values to the con
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -137,7 +133,11 @@ The UcmTcpciCx class extension sends this IOCTL request to set values to the con
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

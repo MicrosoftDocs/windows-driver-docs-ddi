@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: FF33471A-692B-4568-BF37-1870DEC367D0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream, GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback interface, GetNextStream method [Imaging Devices], image.iwiaminidrvtransfercallback_getnextstream, IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], GetNextStream method, GetNextStream, IWiaMiniDrvTransferCallback::GetNextStream
+ms.keywords: ",  , ,, ., :, C, D, G, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback interface, GetNextStream,IWiaMiniDrvTransferCallback.GetNextStream, I, IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], GetNextStream method, IWiaMiniDrvTransferCallback::GetNextStream, M, N, S, T, W, a, b, c, e, f, i, image.iwiaminidrvtransfercallback_getnextstream, k, l, m, n, r, s, t, v, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,15 +113,15 @@ When the current transfer sequence is cancelled, the <b>GetNextStream</b> method
 
 ## -see-also
 
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvtransfercallback.md">IWiaMiniDrvTransferCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551590">WIA_IPA_ITEM_NAME</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551561">WIA_IPA_FULL_ITEM_NAME</a>
-
-
-
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvtransfercallback.md">IWiaMiniDrvTransferCallback</a>
 
 
 

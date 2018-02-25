@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 8bfe92c9-6049-4d68-80a9-3a8f8dda3bcc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bth_sdp_connect, IOCTL_BTH_SDP_CONNECT control code [Bluetooth Devices], IOCTL_BTH_SDP_CONNECT, bthioctl/IOCTL_BTH_SDP_CONNECT, bth_ioctls_e03c93b3-b2af-40d0-a296-bb76f33c38a2.xml
+ms.keywords: IOCTL_BTH_SDP_CONNECT, IOCTL_BTH_SDP_CONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_connect, bth_ioctls_e03c93b3-b2af-40d0-a296-bb76f33c38a2.xml, bthioctl/IOCTL_BTH_SDP_CONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -205,11 +205,11 @@ The IOCTL_BTH_SDP_CONNECT request allows a profile driver to obtain an SDP conne
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a>
-
-
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>
+
+
+
+<a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a>
 
 
 

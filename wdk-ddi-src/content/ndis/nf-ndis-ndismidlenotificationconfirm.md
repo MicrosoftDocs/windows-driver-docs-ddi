@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 726B392E-3C7F-4F55-B045-CE022C242F0A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisMIdleNotificationConfirm, NdisMIdleNotificationConfirm, NdisMIdleNotificationConfirm function [Network Drivers Starting with Windows Vista], netvista.ndismidlenotificationconfirm
+ms.keywords: ",  , C, I, M, N, NdisMIdleNotificationConfirm, NdisMIdleNotificationConfirm function [Network Drivers Starting with Windows Vista], a, c, d, e, f, i, l, m, n, ndis/NdisMIdleNotificationConfirm, netvista.ndismidlenotificationconfirm, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,11 +122,11 @@ For more information about how to handle NDIS selective suspend idle notificatio
 
 
 
-<a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_submit_idle_notification.md">IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 175030c1-95d9-4a3b-976c-16e04852cb91
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidgetvideochilddescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], HwVidGetVideoChildDescriptor, PVIDEO_HW_GET_CHILD_DESCRIPTOR, PVIDEO_HW_GET_CHILD_DESCRIPTOR, video/HwVidGetVideoChildDescriptor, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml
+ms.keywords: HwVidGetVideoChildDescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], PVIDEO_HW_GET_CHILD_DESCRIPTOR, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml, display.hwvidgetvideochilddescriptor, video/HwVidGetVideoChildDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -241,15 +241,7 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
-
-
-
 <a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
-
-
-
-<a href="..\video\nf-video-videoportenumeratechildren.md">VideoPortEnumerateChildren</a>
 
 
 
@@ -257,7 +249,15 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 
 
+<a href="..\video\nf-video-videoportenumeratechildren.md">VideoPortEnumerateChildren</a>
+
+
+
 <a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
 
 
 

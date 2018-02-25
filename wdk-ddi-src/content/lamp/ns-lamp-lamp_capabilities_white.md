@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: F407B953-8B03-4053-A5F4-3E96E9F9645E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices], stream.lamp_capabilities_white, lamp/LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE
+ms.keywords: ",  , ,, A, B, C, E, H, I, L, LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices], M, P, S, T, W, _, lamp/LAMP_CAPABILITIES_WHITE, stream.lamp_capabilities_white"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

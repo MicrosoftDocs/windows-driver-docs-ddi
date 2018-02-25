@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f133f6cc-6e09-4eb8-b6fe-50d207391621
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, *PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, ntddndis/NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, netvista.ndis_switch_property_enum_parameters, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS"
+ms.keywords: ",  , *, *PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, ,, A, C, D, E, H, I, M, N, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, W, Y, _, _NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, netvista.ndis_switch_property_enum_parameters, ntddndis/NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -145,15 +145,15 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_info.md">NDIS_SWITCH_PROPERTY_ENUM_INFO</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598282">OID_SWITCH_PROPERTY_ENUM</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 

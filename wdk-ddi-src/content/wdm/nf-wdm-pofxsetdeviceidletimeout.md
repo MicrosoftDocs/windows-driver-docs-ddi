@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8378D5F1-92AC-4C59-BA66-68246C011199
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , D, F, I, P, PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], S, T, c, d, e, i, kernel.pofxsetdeviceidletimeout, l, m, o, t, u, v, wdm/PoFxSetDeviceIdleTimeout, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

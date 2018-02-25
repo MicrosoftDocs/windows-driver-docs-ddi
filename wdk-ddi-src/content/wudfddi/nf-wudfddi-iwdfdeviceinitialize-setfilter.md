@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5f61a83-43db-4ad7-9b18-0cdf574ea546
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: SetFilter method, IWDFDeviceInitialize interface, wdf.iwdfdeviceinitialize_setfilter, wudfddi/IWDFDeviceInitialize::SetFilter, umdf.iwdfdeviceinitialize_setfilter, IWDFDeviceInitialize, IWDFDeviceInitialize interface, SetFilter method, SetFilter method, IWDFDeviceInitialize::SetFilter, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, SetFilter
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFDeviceInitialize, IWDFDeviceInitialize interface, SetFilter method, IWDFDeviceInitialize::SetFilter, S, SetFilter method, SetFilter method, IWDFDeviceInitialize interface, SetFilter,IWDFDeviceInitialize.SetFilter, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, W, a, c, e, i, l, n, r, t, umdf.iwdfdeviceinitialize_setfilter, v, wdf.iwdfdeviceinitialize_setfilter, wudfddi/IWDFDeviceInitialize::SetFilter, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,11 +102,11 @@ For a code example of how to use the <b>SetFilter</b> method, see <a href="https
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 

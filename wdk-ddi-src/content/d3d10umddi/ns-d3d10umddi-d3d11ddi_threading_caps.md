@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11715852-8af2-4ae1-b3a2-c80153ef7cde
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3d11ddi_threading_caps, D3D11DDI_THREADING_CAPS, UMDisplayDriver_Dx11param_Structs_0f59187b-c545-4e95-aa28-c2627cb62538.xml, D3D11DDI_THREADING_CAPS structure [Display Devices], d3d10umddi/D3D11DDI_THREADING_CAPS
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11DDI_THREADING_CAPS, D3D11DDI_THREADING_CAPS structure [Display Devices], E, G, H, I, N, P, R, S, T, UMDisplayDriver_Dx11param_Structs_0f59187b-c545-4e95-aa28-c2627cb62538.xml, _, d3d10umddi/D3D11DDI_THREADING_CAPS, display.d3d11ddi_threading_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,11 +112,11 @@ The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS_BUILD_2,
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
 
 
 

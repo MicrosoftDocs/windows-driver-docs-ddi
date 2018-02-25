@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cae95c4f-0af3-49de-a312-83958896006a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, netvista.ndis_net_buffer_list_media_specific_info, PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure [Network Drivers Starting with Windows Vista], ndis/NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, *PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, _NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO
+ms.keywords: ",  , *, *PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, ,, A, B, C, D, E, F, I, L, M, N, NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, _, _NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, ndis/NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, ndis/PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, netvista.ndis_net_buffer_list_media_specific_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

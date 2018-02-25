@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ea97cc22-6057-427d-90c1-4f23ced932aa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GdiResetDCEMF, winppi/GdiResetDCEMF, print.gdiresetdcemf, gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, GdiResetDCEMF function [Print Devices]
+ms.keywords: ",  , C, D, E, F, G, GdiResetDCEMF, GdiResetDCEMF function [Print Devices], M, R, d, e, gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, i, print.gdiresetdcemf, s, t, winppi/GdiResetDCEMF"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 505e2ab7-13c3-4cdd-90ba-a37bb38fe160
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], RtlFreeUnicodeString, wdm/RtlFreeUnicodeString, kernel.rtlfreeunicodestring
+ms.keywords: ",  , F, R, RtlFreeUnicodeString, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], S, U, c, d, e, g, i, k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml, kernel.rtlfreeunicodestring, l, n, o, r, t, wdm/RtlFreeUnicodeString"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

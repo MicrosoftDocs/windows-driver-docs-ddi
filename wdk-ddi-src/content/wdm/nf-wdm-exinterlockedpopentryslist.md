@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dbea07e1-f987-45d8-91cb-bde45df0672b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExInterlockedPopEntrySList, kernel.exinterlockedpopentryslist, ExInterlockedPopEntrySList, ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml
+ms.keywords: ",  , E, ExInterlockedPopEntrySList, ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], I, L, P, S, c, d, e, i, k, k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, kernel.exinterlockedpopentryslist, l, n, o, p, r, s, t, wdm/ExInterlockedPopEntrySList, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -99,6 +99,10 @@ On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
 
 
@@ -107,15 +111,11 @@ On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch 
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
-
-
-
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
 
 

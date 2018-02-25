@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 837f5a55-ca07-4462-85d7-203d02df168c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/HARDWARE_COUNTER_TYPE, PHARDWARE_COUNTER_TYPE, kernel.hardware_counter_type, ntddk/PMCCounter, PMCCounter, sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], HARDWARE_COUNTER_TYPE, _HARDWARE_COUNTER_TYPE, MaxHardwareCounterType, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], *PHARDWARE_COUNTER_TYPE, ntddk/PHARDWARE_COUNTER_TYPE, ntddk/MaxHardwareCounterType
+ms.keywords: ",  , *, *PHARDWARE_COUNTER_TYPE, ,, A, C, D, E, H, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], MaxHardwareCounterType, N, O, P, PHARDWARE_COUNTER_TYPE, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PMCCounter, R, T, U, W, Y, _, _HARDWARE_COUNTER_TYPE, kernel.hardware_counter_type, ntddk/HARDWARE_COUNTER_TYPE, ntddk/MaxHardwareCounterType, ntddk/PHARDWARE_COUNTER_TYPE, ntddk/PMCCounter, sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

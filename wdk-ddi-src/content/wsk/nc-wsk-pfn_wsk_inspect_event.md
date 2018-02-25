@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40f184ac-4ef3-485a-a529-71c1f2716427
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskinspectevent, WskInspectEvent callback function [Network Drivers Starting with Windows Vista], WskInspectEvent, PFN_WSK_INSPECT_EVENT, PFN_WSK_INSPECT_EVENT, wsk/WskInspectEvent, wskref_096ba538-90c2-454b-9334-d6241425945e.xml
+ms.keywords: PFN_WSK_INSPECT_EVENT, WskInspectEvent, WskInspectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectevent, wsk/WskInspectEvent, wskref_096ba538-90c2-454b-9334-d6241425945e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -231,30 +231,6 @@ A WSK application's <i>WskInspectEvent</i> event callback function must not wait
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
 
@@ -263,7 +239,31 @@ A WSK application's <i>WskInspectEvent</i> event callback function must not wait
 
 
 
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
 
 

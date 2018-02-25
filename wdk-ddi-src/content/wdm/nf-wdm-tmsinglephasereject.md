@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8fc92d51-40be-439b-abee-54ad19a86a89
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ktm_ref_16802b39-057c-4d45-9da0-3f63f4589a44.xml, wdm/TmSinglePhaseReject, kernel.tmsinglephasereject, TmSinglePhaseReject routine [Kernel-Mode Driver Architecture], TmSinglePhaseReject
+ms.keywords: ",  , P, R, S, T, TmSinglePhaseReject, TmSinglePhaseReject routine [Kernel-Mode Driver Architecture], a, c, e, g, h, i, j, kernel.tmsinglephasereject, ktm_ref_16802b39-057c-4d45-9da0-3f63f4589a44.xml, l, m, n, s, t, wdm/TmSinglePhaseReject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,15 +124,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 
@@ -144,7 +136,15 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwsinglephasereject.md">ZwSinglePhaseReject</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 

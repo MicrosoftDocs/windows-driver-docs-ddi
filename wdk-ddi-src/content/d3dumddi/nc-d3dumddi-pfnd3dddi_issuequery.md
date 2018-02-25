@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e31b2b6a-3721-472a-8044-6516a8419ad3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.issuequery, IssueQuery callback function [Display Devices], IssueQuery, PFND3DDDI_ISSUEQUERY, PFND3DDDI_ISSUEQUERY, d3dumddi/IssueQuery, UserModeDisplayDriver_Functions_59755967-2a97-4c5c-9210-c4e85cdcdd38.xml
+ms.keywords: IssueQuery, IssueQuery callback function [Display Devices], PFND3DDDI_ISSUEQUERY, UserModeDisplayDriver_Functions_59755967-2a97-4c5c-9210-c4e85cdcdd38.xml, d3dumddi/IssueQuery, display.issuequery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,11 +142,11 @@ If the call to <i>IssueQuery</i> requires the driver to return data, the driver 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_issuequery.md">D3DDDIARG_ISSUEQUERY</a>
 
 
 
@@ -154,7 +154,7 @@ If the call to <i>IssueQuery</i> requires the driver to return data, the driver 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_issuequery.md">D3DDDIARG_ISSUEQUERY</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 

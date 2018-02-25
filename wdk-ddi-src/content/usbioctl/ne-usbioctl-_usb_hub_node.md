@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: fdd69121-2b3c-4394-b67e-c29f43daf113
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USB_HUB_NODE, buses.usb_hub_node, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml, UsbMIParent, usbioctl/USB_HUB_NODE, usbioctl/UsbMIParent, UsbHub, USB_HUB_NODE enumeration [Buses], _USB_HUB_NODE, usbioctl/UsbHub
+ms.keywords: ",  , ,, B, D, E, H, N, O, S, U, USB_HUB_NODE, USB_HUB_NODE enumeration [Buses], UsbHub, UsbMIParent, _, _USB_HUB_NODE, buses.usb_hub_node, usbioctl/USB_HUB_NODE, usbioctl/UsbHub, usbioctl/UsbMIParent, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,11 +90,11 @@ Composite devices are devices that have multiple interfaces. Windows loads the U
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E536B66D-EAF2-4377-8452-7D37A277E7C8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelSetPointer, VmbChannelSetPointer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsetpointer, VmbChannelSetPointer
+ms.keywords: ",  , C, P, S, V, VmbChannelSetPointer, VmbChannelSetPointer function [Network Drivers Starting with Windows Vista], a, b, e, h, i, l, m, n, netvista.vmbchannelsetpointer, o, r, t, vmbuskernelmodeclientlibapi/VmbChannelSetPointer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

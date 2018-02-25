@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortWritePortBufferUlong, storage.storportwriteportbufferulong, StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml
+ms.keywords: ",  , B, P, S, StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], U, W, e, f, g, i, l, n, o, r, storage.storportwriteportbufferulong, storport/StorPortWritePortBufferUlong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -120,7 +120,7 @@ Contains the number of data items of size <b>sizeof</b>(ULONG) to be written.
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>. 
 
 
 
@@ -131,7 +131,7 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferulong.md
 
 
 
-<a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
+<a href="..\storport\nf-storport-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
 
 
 

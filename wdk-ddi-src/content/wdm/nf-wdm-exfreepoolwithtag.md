@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ebf404dd-479a-4573-9372-4b777c3cd5e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExFreePoolWithTag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], wdm/ExFreePoolWithTag, kernel.exfreepoolwithtag, k102_03ac2997-acff-40b6-a110-718261627130.xml
+ms.keywords: ",  , E, ExFreePoolWithTag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], F, P, T, W, a, e, g, h, i, k102_03ac2997-acff-40b6-a110-718261627130.xml, kernel.exfreepoolwithtag, l, o, r, t, wdm/ExFreePoolWithTag, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,15 +99,15 @@ Callers of <b>ExFreePoolWithTag</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

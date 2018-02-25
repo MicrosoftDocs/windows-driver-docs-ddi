@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: db7980c1-3da6-408e-a3a4-509bc9c0ef2e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], wdm/KeSetSystemAffinityThreadEx, k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml, kernel.kesetsystemaffinitythreadex, KeSetSystemAffinityThreadEx
+ms.keywords: ",  , A, E, K, KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], S, T, a, d, e, f, h, i, k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml, kernel.kesetsystemaffinitythreadex, m, n, r, s, t, wdm/KeSetSystemAffinityThreadEx, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,15 +123,15 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
 
 
-<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-kesetsystemaffinitythread.md">KeSetSystemAffinityThread</a>
 
 
 
 <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
 
 
 

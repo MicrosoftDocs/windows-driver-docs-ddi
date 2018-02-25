@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: F0ABD318-AC63-40D5-B94E-BD6FEA1A57AC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRB_REQ_CONTROL structure [Buses], _IRB_REQ_CONTROL, IRB_REQ_CONTROL, IEEE.irb_req_control, 1394/IRB_REQ_CONTROL
+ms.keywords: ",  , ,, 1394/IRB_REQ_CONTROL, B, C, E, I, IEEE.irb_req_control, IRB_REQ_CONTROL, IRB_REQ_CONTROL structure [Buses], L, N, O, Q, R, T, _, _IRB_REQ_CONTROL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

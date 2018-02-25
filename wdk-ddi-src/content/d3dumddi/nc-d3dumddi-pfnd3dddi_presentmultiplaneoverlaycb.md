@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f355c29a-8a8d-46aa-b3b3-c93c0afef266
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnpresentmultiplaneoverlaycb_d3d, pfnPresentMultiPlaneOverlayCb callback function [Display Devices], pfnPresentMultiPlaneOverlayCb, PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB, PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB, d3dumddi/pfnPresentMultiPlaneOverlayCb
+ms.keywords: PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB, d3dumddi/pfnPresentMultiPlaneOverlayCb, display.pfnpresentmultiplaneoverlaycb_d3d, pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -156,15 +156,15 @@ The user-mode display driver should call this function only after it has success
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_presentmultiplaneoverlay.md">D3DDDIARG_PRESENTMULTIPLANEOVERLAY</a>
+
+
+
 <a href="https://msdn.microsoft.com/3AC47977-A5F3-44A6-8F89-A1EA5E0BB6E4">pfnPresentMultiplaneOverlay (D3D)</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_presentmultiplaneoverlay.md">D3DDDICB_PRESENTMULTIPLANEOVERLAY</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_presentmultiplaneoverlay.md">D3DDDIARG_PRESENTMULTIPLANEOVERLAY</a>
 
 
 

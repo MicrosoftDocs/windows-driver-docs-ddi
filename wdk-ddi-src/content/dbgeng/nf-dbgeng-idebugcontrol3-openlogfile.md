@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aba8839e-4c44-4c10-8b6f-9f5832c12166
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], OpenLogFile method, dbgeng/IDebugControl2::OpenLogFile, OpenLogFile method [Windows Debugging], IDebugControl3 interface, debugger.openlogfile, IDebugControl interface [Windows Debugging], OpenLogFile method, dbgeng/IDebugControl3::OpenLogFile, dbgeng/IDebugControl::OpenLogFile, IDebugControl2::OpenLogFile, OpenLogFile method [Windows Debugging], IDebugControl2 interface, IDebugControl, IDebugControl2, IDebugControl_984f684e-c1c0-4819-b8ac-02718581c6ad.xml, IDebugControl3, OpenLogFile method [Windows Debugging], IDebugControl interface, OpenLogFile method [Windows Debugging], IDebugControl3::OpenLogFile, IDebugControl3 interface [Windows Debugging], OpenLogFile method, OpenLogFile, IDebugControl::OpenLogFile
+ms.keywords: ",  , ,, ., 3, :, C, D, F, I, IDebugControl, IDebugControl interface [Windows Debugging], OpenLogFile method, IDebugControl2, IDebugControl2 interface [Windows Debugging], OpenLogFile method, IDebugControl2::OpenLogFile, IDebugControl3, IDebugControl3 interface [Windows Debugging], OpenLogFile method, IDebugControl3::OpenLogFile, IDebugControl::OpenLogFile, IDebugControl_984f684e-c1c0-4819-b8ac-02718581c6ad.xml, L, O, OpenLogFile method [Windows Debugging], OpenLogFile method [Windows Debugging], IDebugControl interface, OpenLogFile method [Windows Debugging], IDebugControl2 interface, OpenLogFile method [Windows Debugging], IDebugControl3 interface, OpenLogFile,IDebugControl.OpenLogFile, OpenLogFile,IDebugControl2.OpenLogFile, OpenLogFile,IDebugControl3.OpenLogFile, b, dbgeng/IDebugControl2::OpenLogFile, dbgeng/IDebugControl3::OpenLogFile, dbgeng/IDebugControl::OpenLogFile, debugger.openlogfile, e, g, i, l, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,27 +123,11 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
 
 
@@ -155,11 +139,27 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
 
 
 

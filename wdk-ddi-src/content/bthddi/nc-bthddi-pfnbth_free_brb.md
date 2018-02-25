@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: fc24cdaf-0695-4e10-82be-a7f7a916f550
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.bthfreebrb, BthFreeBrb callback function [Bluetooth Devices], BthFreeBrb, PFNBTH_FREE_BRB, PFNBTH_FREE_BRB, bthddi/BthFreeBrb, bth_funcs_434cd24f-2604-4526-ac74-14a151365658.xml
+ms.keywords: BthFreeBrb, BthFreeBrb callback function [Bluetooth Devices], PFNBTH_FREE_BRB, bltooth.bthfreebrb, bth_funcs_434cd24f-2604-4526-ac74-14a151365658.xml, bthddi/BthFreeBrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

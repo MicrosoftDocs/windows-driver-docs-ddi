@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4CCDA951-A583-48C4-98D7-D278183D8893
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PDXGK_PRE_START_INFO, dispmprt/PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], _DXGK_PRE_START_INFO, PDXGK_PRE_START_INFO structure pointer [Display Devices], display.dxgk_pre_start_info, DXGK_PRE_START_INFO, PDXGK_PRE_START_INFO, dispmprt/DXGK_PRE_START_INFO"
+ms.keywords: ",  , *, *PDXGK_PRE_START_INFO, ,, A, D, DXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], E, F, G, I, K, N, O, P, PDXGK_PRE_START_INFO, PDXGK_PRE_START_INFO structure pointer [Display Devices], R, S, T, X, _, _DXGK_PRE_START_INFO, display.dxgk_pre_start_info, dispmprt/DXGK_PRE_START_INFO, dispmprt/PDXGK_PRE_START_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

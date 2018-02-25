@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D52888A2-4CC1-4C5A-890E-5585424339E0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_WRITE_REGISTER_BUFFER_ULONG, wdf.wdf_write_register_buffer_ulong, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_ULONG, WDF_WRITE_REGISTER_BUFFER_ULONG function
+ms.keywords: ",  , B, D, E, F, G, I, L, N, O, R, S, T, U, W, WDF_WRITE_REGISTER_BUFFER_ULONG, WDF_WRITE_REGISTER_BUFFER_ULONG function, _, wdf.wdf_write_register_buffer_ulong, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_ULONG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 75576152-0afd-4602-b481-bf1d6d9348b3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getvideodecoderprofile, pfnGetVideoDecoderProfile callback function [Display Devices], pfnGetVideoDecoderProfile, PFND3D11_1DDI_GETVIDEODECODERPROFILE, PFND3D11_1DDI_GETVIDEODECODERPROFILE, d3d10umddi/pfnGetVideoDecoderProfile
+ms.keywords: PFND3D11_1DDI_GETVIDEODECODERPROFILE, d3d10umddi/pfnGetVideoDecoderProfile, display.getvideodecoderprofile, pfnGetVideoDecoderProfile, pfnGetVideoDecoderProfile callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -124,11 +124,11 @@ The Microsoft Direct3D runtime verifies that the <i>Index</i> parameter data is 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount.md">GetVideoDecoderProfileCount</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount.md">GetVideoDecoderProfileCount</a>
 
 
 

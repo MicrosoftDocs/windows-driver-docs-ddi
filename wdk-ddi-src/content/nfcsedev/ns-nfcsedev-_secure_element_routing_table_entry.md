@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 199FEA6A-A57F-4B13-832A-65DB7729455F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure pointer [Near-Field Proximity Drivers], _SECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY, P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfpdrivers._secure_element_routing_table_entry, nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure [Near-Field Proximity Drivers]
+ms.keywords: ",  , *, *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY, ,, A, B, C, E, G, I, L, M, N, O, P, P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure pointer [Near-Field Proximity Drivers], R, S, SECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure [Near-Field Proximity Drivers], T, U, Y, _, _SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfpdrivers._secure_element_routing_table_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

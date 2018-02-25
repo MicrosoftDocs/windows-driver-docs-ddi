@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1398056B-6AC3-4F92-8981-58C193907D6F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing, ifsk.ioisfileobjectignoringsharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers]
+ms.keywords: ",  , F, I, IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], O, S, a, b, c, e, g, h, i, ifsk.ioisfileobjectignoringsharing, j, l, n, ntddk/IoIsFileObjectIgnoringSharing, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

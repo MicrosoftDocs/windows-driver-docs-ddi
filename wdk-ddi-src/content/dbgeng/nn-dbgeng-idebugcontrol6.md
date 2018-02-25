@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3361EB55-0765-405E-AA75-D1DF3BDE0003
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugcontrol6, IDebugControl6 interface [Windows Debugging], IDebugControl6 interface [Windows Debugging], described, IDebugControl6, dbgeng/IDebugControl6
+ms.keywords: IDebugControl6, IDebugControl6 interface [Windows Debugging], IDebugControl6 interface [Windows Debugging], described, dbgeng/IDebugControl6, debugger.idebugcontrol6
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -90,11 +90,7 @@ The GetSynchronizationStatus method returns information about the synchronizatio
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -106,7 +102,11 @@ The GetSynchronizationStatus method returns information about the synchronizatio
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8b166fbb-f6fa-4d90-9b32-40ce213cbd71
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Structs_a6a0807b-454b-48a4-91d1-26d62e592280.xml, _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, d3dkmthk/D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, display.d3dkmt_openadapterfromgdidisplayname, D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, D, D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure [Display Devices], E, F, G, I, K, L, M, N, O, OpenGL_Structs_a6a0807b-454b-48a4-91d1-26d62e592280.xml, P, R, S, T, Y, _, _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, d3dkmthk/D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, display.d3dkmt_openadapterfromgdidisplayname"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

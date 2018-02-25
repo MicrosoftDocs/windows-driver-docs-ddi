@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7027735-0ec4-4fad-81fb-1c3aca4ebf2d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicreatedevice, DxgkDdiCreateDevice callback function [Display Devices], DxgkDdiCreateDevice, DXGKDDI_CREATEDEVICE, DXGKDDI_CREATEDEVICE, d3dkmddi/DxgkDdiCreateDevice, DmFunctions_15d9141a-ec58-41f7-a925-768079604525.xml
+ms.keywords: DXGKDDI_CREATEDEVICE, DmFunctions_15d9141a-ec58-41f7-a925-768079604525.xml, DxgkDdiCreateDevice, DxgkDdiCreateDevice callback function [Display Devices], d3dkmddi/DxgkDdiCreateDevice, display.dxgkddicreatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,11 +137,11 @@ Generally, devices are independent of each other; in other words, resources that
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

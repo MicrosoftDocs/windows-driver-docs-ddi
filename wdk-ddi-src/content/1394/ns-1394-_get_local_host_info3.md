@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 49c24328-dfd9-4d4d-a40f-a375f1384a5c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394/PGET_LOCAL_HOST_INFO3, 1394stct_327b0f83-9367-41ef-8b04-a07338f8725b.xml, PGET_LOCAL_HOST_INFO3, *PGET_LOCAL_HOST_INFO3, PGET_LOCAL_HOST_INFO3 structure pointer [Buses], GET_LOCAL_HOST_INFO3 structure [Buses], IEEE.get_local_host_info3, _GET_LOCAL_HOST_INFO3, GET_LOCAL_HOST_INFO3, 1394/GET_LOCAL_HOST_INFO3
+ms.keywords: ",  , *, *PGET_LOCAL_HOST_INFO3, ,, 1394/GET_LOCAL_HOST_INFO3, 1394/PGET_LOCAL_HOST_INFO3, 1394stct_327b0f83-9367-41ef-8b04-a07338f8725b.xml, 3, A, C, E, F, G, GET_LOCAL_HOST_INFO3, GET_LOCAL_HOST_INFO3 structure [Buses], H, I, IEEE.get_local_host_info3, L, N, O, P, PGET_LOCAL_HOST_INFO3, PGET_LOCAL_HOST_INFO3 structure pointer [Buses], S, T, _, _GET_LOCAL_HOST_INFO3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

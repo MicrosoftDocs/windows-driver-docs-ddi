@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 738c426e-aa4f-4f59-b955-fbf67071303f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolcmderegistersap, ProtocolCmDeregisterSap callback function [Network Drivers Starting with Windows Vista], ProtocolCmDeregisterSap, PROTOCOL_CM_DEREGISTER_SAP, PROTOCOL_CM_DEREGISTER_SAP, ndis/ProtocolCmDeregisterSap, condis_call_manager_ref_fce09df2-cd92-4c6e-8596-91ecdb5f0c2c.xml
+ms.keywords: PROTOCOL_CM_DEREGISTER_SAP, ProtocolCmDeregisterSap, ProtocolCmDeregisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_fce09df2-cd92-4c6e-8596-91ecdb5f0c2c.xml, ndis/ProtocolCmDeregisterSap, netvista.protocolcmderegistersap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -200,7 +200,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
 
 
@@ -208,11 +208,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
 
 

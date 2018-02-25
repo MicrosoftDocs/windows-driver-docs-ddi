@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7127b6ff-164b-4645-a602-3969f87a47d0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTGetProcessDeviceLostSupport, display.d3dkmtgetprocessdevicelostsupport, D3DKMTGetProcessDeviceLostSupport method [Display Devices], D3DKMTGetProcessDeviceLostSupport
+ms.keywords: ",  , 3, D, D3DKMTGetProcessDeviceLostSupport, D3DKMTGetProcessDeviceLostSupport method [Display Devices], G, K, L, M, P, S, T, c, d3dkmthk/D3DKMTGetProcessDeviceLostSupport, display.d3dkmtgetprocessdevicelostsupport, e, i, o, p, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

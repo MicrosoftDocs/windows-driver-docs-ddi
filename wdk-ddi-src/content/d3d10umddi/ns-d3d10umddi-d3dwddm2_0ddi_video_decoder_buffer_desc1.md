@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BF57E573-852E-4784-8E76-B5E7D86A57EB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dwddm2_0ddi_video_decoder_buffer_desc1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
+ms.keywords: ",  , ,, 0, 1, 2, 3, B, C, D, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure [Display Devices], E, F, I, M, O, R, S, U, V, W, _, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, display.d3dwddm2_0ddi_video_decoder_buffer_desc1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,11 +123,11 @@ The number of <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_s
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block.md">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block.md">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a>
 
 
 

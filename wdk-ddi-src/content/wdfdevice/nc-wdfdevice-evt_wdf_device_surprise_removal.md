@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0fa0eb7e-7fbb-4838-b1d7-ef5a9d5024d4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicesurpriseremoval, EvtDeviceSurpriseRemoval callback function, EvtDeviceSurpriseRemoval, EVT_WDF_DEVICE_SURPRISE_REMOVAL, EVT_WDF_DEVICE_SURPRISE_REMOVAL, wdfdevice/EvtDeviceSurpriseRemoval, DFDeviceObjectGeneralRef_3623a2b6-f452-4e7d-98a3-d9e42d815f35.xml, kmdf.evtdevicesurpriseremoval
+ms.keywords: DFDeviceObjectGeneralRef_3623a2b6-f452-4e7d-98a3-d9e42d815f35.xml, EVT_WDF_DEVICE_SURPRISE_REMOVAL, EvtDeviceSurpriseRemoval, EvtDeviceSurpriseRemoval callback function, kmdf.evtdevicesurpriseremoval, wdf.evtdevicesurpriseremoval, wdfdevice/EvtDeviceSurpriseRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

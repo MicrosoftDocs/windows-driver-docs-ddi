@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: F5748E93-9761-423B-9971-011FC4D7F6B8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2systemdmatransmitconfiguredmachannel, EvtSerCx2SystemDmaTransmitConfigureDmaChannel callback function [Serial Ports], EvtSerCx2SystemDmaTransmitConfigureDmaChannel, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL, 2/EvtSerCx2SystemDmaTransmitConfigureDmaChannel
+ms.keywords: 2/EvtSerCx2SystemDmaTransmitConfigureDmaChannel, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL, EvtSerCx2SystemDmaTransmitConfigureDmaChannel, EvtSerCx2SystemDmaTransmitConfigureDmaChannel callback function [Serial Ports], serports.evtsercx2systemdmatransmitconfiguredmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -160,19 +160,19 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL</b> function type is
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitgetdmaenabler.md">SerCx2SystemDmaTransmitGetDmaEnabler</a>
-
-
-
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2systemdmatransmitgetdmaenabler.md">SerCx2SystemDmaTransmitGetDmaEnabler</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e7073fb3-0cb7-425e-9ffb-d7eaa963a70f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddigetchildcontainerid, DxgkDdiGetChildContainerId callback function [Display Devices], DxgkDdiGetChildContainerId, DXGKDDI_GET_CHILD_CONTAINER_ID, DXGKDDI_GET_CHILD_CONTAINER_ID, dispmprt/DxgkDdiGetChildContainerId
+ms.keywords: DXGKDDI_GET_CHILD_CONTAINER_ID, DxgkDdiGetChildContainerId, DxgkDdiGetChildContainerId callback function [Display Devices], display.dxgkddigetchildcontainerid, dispmprt/DxgkDdiGetChildContainerId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,7 +153,7 @@ For more information about Container IDs, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
 
 
@@ -161,7 +161,7 @@ For more information about Container IDs, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

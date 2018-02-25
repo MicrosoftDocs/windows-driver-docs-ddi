@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A77277D2-B644-469D-A668-78C23BF41367
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.requestworker, RequestWorker, RequestWorker routine [Kernel-Mode Driver Architecture], RequestWorker, POFXCALLBACKREQUESTWORKER, POFXCALLBACKREQUESTWORKER, pepfx/RequestWorker
+ms.keywords: POFXCALLBACKREQUESTWORKER, RequestWorker, RequestWorker routine [Kernel-Mode Driver Architecture], kernel.requestworker, pepfx/RequestWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -88,7 +88,7 @@ None.
 
 
 
-This routine is implemented by PoFx and is called by the PEP. The <b>RequestWorker</b> member of the <a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>RequestWorker</b> routine.
+This routine is implemented by PoFx and is called by the PEP. The <b>RequestWorker</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>RequestWorker</b> routine.
 
 Each time the PEP calls this routine, PoFx responds by sending a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification to the PEP. This notification might be delayed if a worker thread is not immediately available to process the work request.
 
@@ -99,7 +99,7 @@ A PEP can call this routine at IRQL &lt;= DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 

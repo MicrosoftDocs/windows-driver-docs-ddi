@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 8C0874CD-EAFD-4443-B394-AAA4DD265835
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 2/SerCx2PioReceiveCleanupTransactionComplete, SerCx2PioReceiveCleanupTransactionComplete method [Serial Ports], SerCx2PioReceiveCleanupTransactionComplete, serports.sercx2pioreceivecleanuptransactioncomplete
+ms.keywords: ",  , 2, 2/SerCx2PioReceiveCleanupTransactionComplete, C, P, R, S, SerCx2PioReceiveCleanupTransactionComplete, SerCx2PioReceiveCleanupTransactionComplete method [Serial Ports], T, a, c, e, i, l, m, n, o, p, r, s, serports.sercx2pioreceivecleanuptransactioncomplete, t, u, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_cleanup_transaction.md">EvtSerCx2PioReceiveCleanupTransaction</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
 
 
 

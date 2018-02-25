@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4A109CDF-C5DE-4BAE-AA4E-294EA5CE86C5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: TryToAcquireInterruptLock method, IWDFInterrupt interface, IWDFInterrupt, TryToAcquireInterruptLock, wdf.iwdfinterrupt_trytoacquireinterruptlock, wudfddi/IWDFInterrupt::TryToAcquireInterruptLock, IWDFInterrupt interface, TryToAcquireInterruptLock method, umdf.iwdfinterrupt_trytoacquireinterruptlock, TryToAcquireInterruptLock method, IWDFInterrupt::TryToAcquireInterruptLock
+ms.keywords: ",  , ,, ., :, A, D, F, I, IWDFInterrupt, IWDFInterrupt interface, TryToAcquireInterruptLock method, IWDFInterrupt::TryToAcquireInterruptLock, L, T, TryToAcquireInterruptLock method, TryToAcquireInterruptLock method, IWDFInterrupt interface, TryToAcquireInterruptLock,IWDFInterrupt.TryToAcquireInterruptLock, W, c, e, i, k, n, o, p, q, r, t, u, umdf.iwdfinterrupt_trytoacquireinterruptlock, wdf.iwdfinterrupt_trytoacquireinterruptlock, wudfddi/IWDFInterrupt::TryToAcquireInterruptLock, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,11 +102,11 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
-
-
-
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md">WdfInterruptTryToAcquireLock</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
 
 

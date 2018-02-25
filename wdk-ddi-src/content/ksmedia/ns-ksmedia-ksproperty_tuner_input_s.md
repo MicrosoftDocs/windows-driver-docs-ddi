@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 02873563-7448-4406-a8ab-599569abbf7e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksproperty_tuner_input_s, ksmedia/KSPROPERTY_TUNER_INPUT_S, *PKSPROPERTY_TUNER_INPUT_S, vidcapstruct_db1848a6-76f7-4f65-923e-cfd678a90b64.xml, KSPROPERTY_TUNER_INPUT_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_INPUT_S, PKSPROPERTY_TUNER_INPUT_S structure pointer [Streaming Media Devices], PKSPROPERTY_TUNER_INPUT_S, KSPROPERTY_TUNER_INPUT_S
+ms.keywords: ",  , *, *PKSPROPERTY_TUNER_INPUT_S, ,, E, I, K, KSPROPERTY_TUNER_INPUT_S, KSPROPERTY_TUNER_INPUT_S structure [Streaming Media Devices], N, O, P, PKSPROPERTY_TUNER_INPUT_S, PKSPROPERTY_TUNER_INPUT_S structure pointer [Streaming Media Devices], R, S, T, U, Y, _, ksmedia/KSPROPERTY_TUNER_INPUT_S, ksmedia/PKSPROPERTY_TUNER_INPUT_S, stream.ksproperty_tuner_input_s, vidcapstruct_db1848a6-76f7-4f65-923e-cfd678a90b64.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ Specifies the connection index to be used as the tuner input. This value should 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
 
 

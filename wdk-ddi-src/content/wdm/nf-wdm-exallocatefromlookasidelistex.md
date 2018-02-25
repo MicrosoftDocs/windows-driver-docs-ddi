@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70782045-7026-4771-8072-9057fc31a642
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k102_d3c72529-8c0d-48bf-8b5f-dc19d801bf8f.xml, ExAllocateFromLookasideListEx, ExAllocateFromLookasideListEx routine [Kernel-Mode Driver Architecture], kernel.exallocatefromlookasidelistex, wdm/ExAllocateFromLookasideListEx
+ms.keywords: ",  , A, E, ExAllocateFromLookasideListEx, ExAllocateFromLookasideListEx routine [Kernel-Mode Driver Architecture], F, L, a, c, d, e, i, k, k102_d3c72529-8c0d-48bf-8b5f-dc19d801bf8f.xml, kernel.exallocatefromlookasidelistex, l, m, o, r, s, t, wdm/ExAllocateFromLookasideListEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,7 +101,7 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
 
 
@@ -113,7 +113,7 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
 
 
 

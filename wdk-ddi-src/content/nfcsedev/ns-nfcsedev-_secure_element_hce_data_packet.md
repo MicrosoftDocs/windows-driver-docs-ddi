@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: A287CBC7-BB22-487E-8E06-47702DF29DCE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PSECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/PSECURE_ELEMENT_HCE_DATA_PACKET, nfpdrivers._secure_element_hce_data_packet, PSECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_HCE_DATA_PACKET structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/_SECURE_ELEMENT_HCE_DATA_PACKET"
+ms.keywords: ",  , *, *PSECURE_ELEMENT_HCE_DATA_PACKET, ,, A, C, D, E, H, K, L, M, N, P, PSECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET structure pointer [Near-Field Proximity Drivers], R, S, SECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET structure [Near-Field Proximity Drivers], T, U, _, _SECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/PSECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/_SECURE_ELEMENT_HCE_DATA_PACKET, nfpdrivers._secure_element_hce_data_packet"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3BB31389-EB1B-4443-9FCF-70B420D71126
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl, ifsk.fsrtlissuedeviceiocontrol, FsRtlIssueDeviceIoControl routine [Installable File System Drivers]
+ms.keywords: ",  , C, D, F, FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl routine [Installable File System Drivers], I, R, c, e, i, ifsk.fsrtlissuedeviceiocontrol, l, n, ntifs/FsRtlIssueDeviceIoControl, o, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

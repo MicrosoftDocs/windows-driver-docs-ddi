@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 815a20f4-9bd7-4f8d-8444-545097d1c4b3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], EnumConstrainedOptions method, EnumConstrainedOptions method [Print Devices], print.iprintcoreui2_enumconstrainedoptions, EnumConstrainedOptions, prcomoem/IPrintCoreUI2::EnumConstrainedOptions, print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml, IPrintCoreUI2::EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], IPrintCoreUI2 interface
+ms.keywords: ",  , ,, ., 2, :, C, E, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices], IPrintCoreUI2 interface, EnumConstrainedOptions,IPrintCoreUI2.EnumConstrainedOptions, I, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], EnumConstrainedOptions method, IPrintCoreUI2::EnumConstrainedOptions, O, P, U, a, d, e, i, m, n, o, p, prcomoem/IPrintCoreUI2::EnumConstrainedOptions, print.iprintcoreui2_enumconstrainedoptions, print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -196,7 +196,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 
@@ -204,11 +204,11 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
+
+
+
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 

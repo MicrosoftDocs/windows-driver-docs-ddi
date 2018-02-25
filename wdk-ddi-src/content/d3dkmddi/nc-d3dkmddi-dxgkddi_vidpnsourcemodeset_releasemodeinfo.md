@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 614283cc-90bf-44f2-bab2-1aeec5e7de01
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_vidpnsourcemodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo callback function [Display Devices], pfnReleaseModeInfo, DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO, DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO, d3dkmddi/pfnReleaseModeInfo, VidPnFunctions_4516c897-bcf8-4a32-9517-45c86690d746.xml
+ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO, VidPnFunctions_4516c897-bcf8-4a32-9517-45c86690d746.xml, d3dkmddi/pfnReleaseModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo, pfnReleaseModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -168,19 +168,19 @@ The D3DKMDT_HVIDPNSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirepinnedmodeinfo.md">pfnAcquirePinnedModeInfo</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a>
 
 
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirepinnedmodeinfo.md">pfnAcquirePinnedModeInfo</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
 
 
 

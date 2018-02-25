@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39D070BE-FF6F-4EC8-A4E4-DF45C5089AA7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswdiidlenotificationconfirm, NdisWdiIdleNotificationConfirm callback function [Network Drivers Starting with Windows Vista], NdisWdiIdleNotificationConfirm, NDIS_WDI_IDLE_NOTIFICATION_CONFIRM, NDIS_WDI_IDLE_NOTIFICATION_CONFIRM, dot11wdi/NdisWdiIdleNotificationConfirm
+ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_CONFIRM, NdisWdiIdleNotificationConfirm, NdisWdiIdleNotificationConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationConfirm, netvista.ndiswdiidlenotificationconfirm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -98,11 +98,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/02D13260-5816-4621-8527-E1E79C9AE975">Handling the NDIS Selective Suspend Idle Notification</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
 
 
 

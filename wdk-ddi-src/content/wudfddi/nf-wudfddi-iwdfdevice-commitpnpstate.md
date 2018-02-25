@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 650ad98a-81e5-4ec8-b276-a5dc79366652
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFDevice::CommitPnpState, wdf.iwdfdevice_commitpnpstate, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, IWDFDevice interface, CommitPnpState method, umdf.iwdfdevice_commitpnpstate, IWDFDevice::CommitPnpState, CommitPnpState, CommitPnpState method, CommitPnpState method, IWDFDevice interface, IWDFDevice
+ms.keywords: ",  , ,, ., :, C, CommitPnpState method, CommitPnpState method, IWDFDevice interface, CommitPnpState,IWDFDevice.CommitPnpState, D, F, I, IWDFDevice, IWDFDevice interface, CommitPnpState method, IWDFDevice::CommitPnpState, P, S, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, W, a, c, e, i, m, n, o, p, t, umdf.iwdfdevice_commitpnpstate, v, wdf.iwdfdevice_commitpnpstate, wudfddi/IWDFDevice::CommitPnpState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,7 +96,7 @@ For a code example of how to use the <b>CommitPnpState</b> method, see <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
 
 
 
@@ -104,7 +104,7 @@ For a code example of how to use the <b>CommitPnpState</b> method, see <a href="
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82f922a1-34c1-475b-b12a-210ae602a4bd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfrequest/WdfRequestGetStatus, WdfRequestGetStatus method, wdf.wdfrequestgetstatus, DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, kmdf.wdfrequestgetstatus, WdfRequestGetStatus
+ms.keywords: ",  , DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, G, R, S, W, WdfRequestGetStatus, WdfRequestGetStatus method, a, d, e, f, kmdf.wdfrequestgetstatus, q, s, t, u, wdf.wdfrequestgetstatus, wdfrequest/WdfRequestGetStatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,15 +161,15 @@ KbFilter_ForwardRequest(
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
+
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 

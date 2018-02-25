@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0137a872-63e9-4630-86fa-accfaa9b6d6b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2, ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, IDebugBreakpoint2::GetFlags, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetFlags, IDebugBreakpoint, GetFlags, debugger.getflags, IDebugBreakpoint::GetFlags, IDebugBreakpoint interface [Windows Debugging], GetFlags method, dbgeng/IDebugBreakpoint::GetFlags, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetFlags method
+ms.keywords: ",  , ,, ., 2, :, B, ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, D, F, G, GetFlags method [Windows Debugging], GetFlags method [Windows Debugging], IDebugBreakpoint interface, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface, GetFlags,IDebugBreakpoint.GetFlags, GetFlags,IDebugBreakpoint2.GetFlags, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetFlags method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetFlags method, IDebugBreakpoint2::GetFlags, IDebugBreakpoint::GetFlags, a, b, dbgeng/IDebugBreakpoint2::GetFlags, dbgeng/IDebugBreakpoint::GetFlags, debugger.getflags, e, g, i, k, l, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 018cb4a0-e71d-407e-8fe9-716312099b73
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddigetbacklightreduction, DxgkDdiGetBacklightReduction callback function [Display Devices], DxgkDdiGetBacklightReduction, DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION, DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION, dispmprt/DxgkDdiGetBacklightReduction
+ms.keywords: DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION, DxgkDdiGetBacklightReduction, DxgkDdiGetBacklightReduction callback function [Display Devices], display.dxgkddigetbacklightreduction, dispmprt/DxgkDdiGetBacklightReduction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,11 +112,11 @@ As an example, if <i>BRR</i> = 0.2, the driver will typically boost brightness b
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_backlight_info.md">DXGK_BACKLIGHT_INFO</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

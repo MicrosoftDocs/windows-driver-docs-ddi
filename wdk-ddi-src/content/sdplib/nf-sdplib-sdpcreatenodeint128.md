@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d39bb0a4-1ff0-46b5-becf-2c08eeca4ca8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SdpCreateNodeInt128, SdpCreateNodeInt128 function [Bluetooth Devices], bth_funcs_527e4bcb-9a87-4c76-aa59-f155fc9c3db1.xml, bltooth.sdpcreatenodeint128, sdplib/SdpCreateNodeInt128
+ms.keywords: ",  , 1, 2, 8, C, I, N, S, SdpCreateNodeInt128, SdpCreateNodeInt128 function [Bluetooth Devices], a, bltooth.sdpcreatenodeint128, bth_funcs_527e4bcb-9a87-4c76-aa59-f155fc9c3db1.xml, d, e, n, o, p, r, sdplib/SdpCreateNodeInt128, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,11 +128,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
-
-
-
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
 
 

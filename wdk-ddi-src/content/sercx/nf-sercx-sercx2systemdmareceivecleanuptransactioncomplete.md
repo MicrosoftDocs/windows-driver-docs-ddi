@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B56FEA86-E171-43DA-8207-148298E72313
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.sercx2systemdmareceivecleanuptransactioncomplete, SerCx2SystemDmaReceiveCleanupTransactionComplete method [Serial Ports], 2/SerCx2SystemDmaReceiveCleanupTransactionComplete, SerCx2SystemDmaReceiveCleanupTransactionComplete
+ms.keywords: ",  , 2, 2/SerCx2SystemDmaReceiveCleanupTransactionComplete, C, D, R, S, SerCx2SystemDmaReceiveCleanupTransactionComplete, SerCx2SystemDmaReceiveCleanupTransactionComplete method [Serial Ports], T, a, c, e, i, l, m, n, o, p, r, s, serports.sercx2systemdmareceivecleanuptransactioncomplete, t, u, v, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,7 @@ For more information, see <a href="https://msdn.microsoft.com/0374D1BE-96ED-43D6
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
+<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
 
 
@@ -105,7 +105,7 @@ For more information, see <a href="https://msdn.microsoft.com/0374D1BE-96ED-43D6
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
 
 
 

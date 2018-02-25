@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 62ce7a36-87ce-40d1-bdd4-8a4f4bc60b00
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kspin_connect, *PKSPIN_CONNECT, KSPIN_CONNECT, PKSPIN_CONNECT structure pointer [Streaming Media Devices], ks/PKSPIN_CONNECT, PKSPIN_CONNECT, ks-struct_07642f18-c766-4649-b97a-12582aa0fffb.xml, ks/KSPIN_CONNECT, KSPIN_CONNECT structure [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSPIN_CONNECT, ,, C, E, I, K, KSPIN_CONNECT, KSPIN_CONNECT structure [Streaming Media Devices], N, O, P, PKSPIN_CONNECT, PKSPIN_CONNECT structure pointer [Streaming Media Devices], S, T, _, ks-struct_07642f18-c766-4649-b97a-12582aa0fffb.xml, ks/KSPIN_CONNECT, ks/PKSPIN_CONNECT, stream.kspin_connect"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

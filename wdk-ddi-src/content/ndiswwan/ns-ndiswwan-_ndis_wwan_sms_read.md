@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2c15c16f-773b-415d-80a1-fd0b3bcf6fbf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_wwan_sms_read, _NDIS_WWAN_SMS_READ, NDIS_WWAN_SMS_READ, ndiswwan/PNDIS_WWAN_SMS_READ, ndiswwan/NDIS_WWAN_SMS_READ, PNDIS_WWAN_SMS_READ, WwanRef_7264d34b-78a0-4537-a386-bd77d210d7ae.xml, *PNDIS_WWAN_SMS_READ, NDIS_WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PNDIS_WWAN_SMS_READ, ,, A, D, E, I, M, N, NDIS_WWAN_SMS_READ, NDIS_WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], P, PNDIS_WWAN_SMS_READ, PNDIS_WWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], R, S, W, WwanRef_7264d34b-78a0-4537-a386-bd77d210d7ae.xml, _, _NDIS_WWAN_SMS_READ, ndiswwan/NDIS_WWAN_SMS_READ, ndiswwan/PNDIS_WWAN_SMS_READ, netvista.ndis_wwan_sms_read"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C79BF9FC-4836-48AD-8E9F-41278BB01E11
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_result_ex, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], PNDK_RESULT_EX, _NDK_RESULT_EX, NDK_RESULT_EX, ndkpi/NDK_RESULT_EX
+ms.keywords: ",  , ,, D, E, K, L, N, NDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], PNDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, X, _, _NDK_RESULT_EX, ndkpi/NDK_RESULT_EX, ndkpi/PNDK_RESULT_EX, netvista.ndk_result_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,15 +104,15 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
 
 
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
 
 

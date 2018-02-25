@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 81e62377-66af-4588-8be5-f6bb89a11fe0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_cycle_port, IOCTL_INTERNAL_USB_CYCLE_PORT control code [Buses], IOCTL_INTERNAL_USB_CYCLE_PORT, usbioctl/IOCTL_INTERNAL_USB_CYCLE_PORT, usbirp_0f04d439-7813-4da8-9279-a4d113871687.xml
+ms.keywords: IOCTL_INTERNAL_USB_CYCLE_PORT, IOCTL_INTERNAL_USB_CYCLE_PORT control code [Buses], buses.ioctl_internal_usb_cycle_port, usbioctl/IOCTL_INTERNAL_USB_CYCLE_PORT, usbirp_0f04d439-7813-4da8-9279-a4d113871687.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

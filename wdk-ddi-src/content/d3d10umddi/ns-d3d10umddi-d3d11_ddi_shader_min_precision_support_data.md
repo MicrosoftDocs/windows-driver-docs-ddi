@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e93649d1-4ad0-4873-99c7-b2f3ed48aac6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3d11_ddi_shader_min_precision_support_data, D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA, D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA structure [Display Devices]
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA, D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA structure [Display Devices], E, H, I, M, N, O, P, R, S, T, U, _, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA, display.d3d11_ddi_shader_min_precision_support_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

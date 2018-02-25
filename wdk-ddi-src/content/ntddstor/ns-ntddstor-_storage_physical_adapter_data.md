@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 404A7AFC-291E-4056-9076-F9E62A07C9FB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], *PSTORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data, ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, _STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], PSTORAGE_PHYSICAL_ADAPTER_DATA
+ms.keywords: ",  , *, *PSTORAGE_PHYSICAL_ADAPTER_DATA, ,, A, C, D, E, G, H, I, L, O, P, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], R, S, STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], T, Y, _, _STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

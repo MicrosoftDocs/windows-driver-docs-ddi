@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 28984c89-a1d9-4720-8c4c-2b2ce34e0899
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbpowerruntimecontrolrequest, PDXGKCB_POWERRUNTIMECONTROLREQUEST, DxgkCbPowerRuntimeControlRequest callback function [Display Devices], DxgkCbPowerRuntimeControlRequest, DXGKCB_POWERRUNTIMECONTROLREQUEST, DXGKCB_POWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkCbPowerRuntimeControlRequest
+ms.keywords: DXGKCB_POWERRUNTIMECONTROLREQUEST, DxgkCbPowerRuntimeControlRequest, DxgkCbPowerRuntimeControlRequest callback function [Display Devices], PDXGKCB_POWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkCbPowerRuntimeControlRequest, display.dxgkcbpowerruntimecontrolrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -199,11 +199,11 @@ These GUIDs do not imply that there is any communication protocol between the di
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 944A593D-D623-400C-80F9-6DCD973681C9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kspublishdeviceprofile, ks/KsPublishDeviceProfile, KsPublishDeviceProfile, KsPublishDeviceProfile function [Streaming Media Devices]
+ms.keywords: ",  , D, K, KsPublishDeviceProfile, KsPublishDeviceProfile function [Streaming Media Devices], P, b, c, e, f, h, i, ks/KsPublishDeviceProfile, l, o, r, s, stream.kspublishdeviceprofile, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

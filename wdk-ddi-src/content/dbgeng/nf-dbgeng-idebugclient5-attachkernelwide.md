@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ddcd45-4848-402b-a0fa-5223b8fde52e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: AttachKernelWide method [Windows Debugging], IDebugClient5 interface, AttachKernelWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], AttachKernelWide method, dbgeng/IDebugClient5::AttachKernelWide, IDebugClient5::AttachKernelWide, debugger.attachkernelwide, AttachKernelWide, IDebugClient5
+ms.keywords: ",  , ,, ., 5, :, A, AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging], IDebugClient5 interface, AttachKernelWide,IDebugClient5.AttachKernelWide, C, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], AttachKernelWide method, IDebugClient5::AttachKernelWide, K, W, a, b, c, d, dbgeng/IDebugClient5::AttachKernelWide, debugger.attachkernelwide, e, g, h, i, l, n, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -161,19 +161,19 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551088">IsKernelDebuggerEnabled</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

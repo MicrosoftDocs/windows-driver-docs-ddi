@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AECBA6E8-B030-4418-A561-9E48B4880D15
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IsManagedModule method [Windows Debugging], debugger.idebugsymbols3_ismanagedmodule, IDebugSymbols3, IsManagedModule, IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, dbgeng/IDebugSymbols3::IsManagedModule, IDebugSymbols3::IsManagedModule, IsManagedModule method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: ",  , ,, ., 3, :, D, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, IDebugSymbols3::IsManagedModule, IsManagedModule method [Windows Debugging], IsManagedModule method [Windows Debugging], IDebugSymbols3 interface, IsManagedModule,IDebugSymbols3.IsManagedModule, M, S, a, b, d, dbgeng/IDebugSymbols3::IsManagedModule, debugger.idebugsymbols3_ismanagedmodule, e, g, l, m, n, o, s, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

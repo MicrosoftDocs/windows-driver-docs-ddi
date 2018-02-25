@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fe3c6010-532b-4f3d-b3d3-a1c27d4a05f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlUpcaseUnicodeString, RtlUpcaseUnicodeString routine [Kernel-Mode Driver Architecture], RtlUpcaseUnicodeString, k109_617db3d7-18d8-46eb-a555-59f99d9cae78.xml, kernel.rtlupcaseunicodestring
+ms.keywords: ",  , R, RtlUpcaseUnicodeString, RtlUpcaseUnicodeString routine [Kernel-Mode Driver Architecture], S, U, a, c, d, e, g, i, k109_617db3d7-18d8-46eb-a555-59f99d9cae78.xml, kernel.rtlupcaseunicodestring, l, n, ntddk/RtlUpcaseUnicodeString, o, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

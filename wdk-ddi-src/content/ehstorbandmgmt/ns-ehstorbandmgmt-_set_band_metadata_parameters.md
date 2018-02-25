@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FCCFFE1-C341-4C8D-8EEC-E07C7ECFC317
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS, *PSET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], storage.set_band_metadata_parameters, ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], PSET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS, _SET_BAND_METADATA_PARAMETERS
+ms.keywords: ",  , *, *PSET_BAND_METADATA_PARAMETERS, ,, A, B, D, E, M, N, P, PSET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], R, S, SET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], T, _, _SET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS, storage.set_band_metadata_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

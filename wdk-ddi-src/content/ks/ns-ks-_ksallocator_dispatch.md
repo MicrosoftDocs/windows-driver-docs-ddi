@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6e6e6dde-3b41-44a7-b51d-1b1f06db0853
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_KSALLOCATOR_DISPATCH, PKSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH structure [Streaming Media Devices], PKSALLOCATOR_DISPATCH structure pointer [Streaming Media Devices], ks/KSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH, avstruct_73d2c793-a55a-45f3-af31-fc18240ca1df.xml, *PKSALLOCATOR_DISPATCH, stream.ksallocator_dispatch, ks/PKSALLOCATOR_DISPATCH"
+ms.keywords: ",  , *, *PKSALLOCATOR_DISPATCH, ,, A, C, D, H, I, K, KSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH structure [Streaming Media Devices], L, O, P, PKSALLOCATOR_DISPATCH, PKSALLOCATOR_DISPATCH structure pointer [Streaming Media Devices], R, S, T, _, _KSALLOCATOR_DISPATCH, avstruct_73d2c793-a55a-45f3-af31-fc18240ca1df.xml, ks/KSALLOCATOR_DISPATCH, ks/PKSALLOCATOR_DISPATCH, stream.ksallocator_dispatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

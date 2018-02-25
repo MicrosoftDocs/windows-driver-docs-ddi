@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 99e10a70-90a7-4d96-ae5f-ba82d8c4c1a8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskgetnameinfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], WskGetNameInfo, PFN_WSK_GET_NAME_INFO, PFN_WSK_GET_NAME_INFO, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
+ms.keywords: PFN_WSK_GET_NAME_INFO, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -305,7 +305,7 @@ The process to which the
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
 
@@ -313,7 +313,7 @@ The process to which the
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
 
 
@@ -321,7 +321,7 @@ The process to which the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

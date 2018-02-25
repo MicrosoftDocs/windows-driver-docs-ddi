@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C5830688-4FC6-4D3F-82EB-15354B28C5F1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3d12ddi_set_predication, pfnSetPredication callback function [Display Devices], pfnSetPredication, PFND3D12DDI_SET_PREDICATION, PFND3D12DDI_SET_PREDICATION, d3d12umddi/pfnSetPredication
+ms.keywords: PFND3D12DDI_SET_PREDICATION, d3d12umddi/pfnSetPredication, display.pfnd3d12ddi_set_predication, pfnSetPredication, pfnSetPredication callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

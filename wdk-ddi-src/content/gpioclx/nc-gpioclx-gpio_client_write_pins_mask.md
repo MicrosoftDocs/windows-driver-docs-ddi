@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 6B3667AA-4658-4EDE-A8E1-925064BCD249
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_writegpiopinsusingmask, CLIENT_WriteGpioPinsUsingMask callback function [Parallel Ports], CLIENT_WriteGpioPinsUsingMask, GPIO_CLIENT_WRITE_PINS_MASK, GPIO_CLIENT_WRITE_PINS_MASK, gpioclx/CLIENT_WriteGpioPinsUsingMask
+ms.keywords: CLIENT_WriteGpioPinsUsingMask, CLIENT_WriteGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_writegpiopinsusingmask, GPIO_CLIENT_WRITE_PINS_MASK, gpioclx/CLIENT_WriteGpioPinsUsingMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,15 +153,15 @@ The GPIO_CLIENT_WRITE_PINS_MASK function type is defined in the Gpioclx.h header
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698258">GPIO_WRITE_PINS_MASK_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698258">GPIO_WRITE_PINS_MASK_PARAMETERS</a>
 
 
 

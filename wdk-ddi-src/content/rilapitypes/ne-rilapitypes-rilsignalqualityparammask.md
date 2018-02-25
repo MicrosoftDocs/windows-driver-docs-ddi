@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: be6c46bb-9c14-4daf-b76a-679d71269965
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilsignalqualityparammask_2, RIL_PARAM_SQ_SIGNALSTRENGTH, RILSIGNALQUALITYPARAMMASK, RIL_PARAM_SQ_SYSTEMTYPE, RIL_PARAM_SQ_SNR, rilapitypes/RIL_PARAM_SQ_SYSTEMTYPE, rilapitypes/RILSIGNALQUALITYPARAMMASK, rilapitypes/RIL_PARAM_SQ_NUMSIGNALBARS, rilapitypes/RIL_PARAM_SQ_SNR, rilapitypes/RIL_PARAM_SQ_SIGNALSTRENGTH, RILSIGNALQUALITYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SQ_ALL, rilapitypes/RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_NUMSIGNALBARS
+ms.keywords: ",  , ,, A, G, I, K, L, M, N, P, Q, R, RILSIGNALQUALITYPARAMMASK, RILSIGNALQUALITYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_NUMSIGNALBARS, RIL_PARAM_SQ_SIGNALSTRENGTH, RIL_PARAM_SQ_SNR, RIL_PARAM_SQ_SYSTEMTYPE, S, T, U, Y, netvista.rilsignalqualityparammask_2, rilapitypes/RILSIGNALQUALITYPARAMMASK, rilapitypes/RIL_PARAM_SQ_ALL, rilapitypes/RIL_PARAM_SQ_NUMSIGNALBARS, rilapitypes/RIL_PARAM_SQ_SIGNALSTRENGTH, rilapitypes/RIL_PARAM_SQ_SNR, rilapitypes/RIL_PARAM_SQ_SYSTEMTYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

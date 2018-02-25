@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d522b0f3-ca9c-4e79-96ad-ea9477858ef4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setdecoderendertarget, SetDecodeRenderTarget callback function [Display Devices], SetDecodeRenderTarget, PFND3DDDI_SETDECODERENDERTARGET, PFND3DDDI_SETDECODERENDERTARGET, d3dumddi/SetDecodeRenderTarget, UserModeDisplayDriver_Functions_e5c55218-5663-4689-a696-6b9b1c0a7cce.xml
+ms.keywords: PFND3DDDI_SETDECODERENDERTARGET, SetDecodeRenderTarget, SetDecodeRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_e5c55218-5663-4689-a696-6b9b1c0a7cce.xml, d3dumddi/SetDecodeRenderTarget, display.setdecoderendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,11 +142,7 @@ Decode render targets are always created atomically through calls to the <a href
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeendframe.md">DecodeEndFrame</a>
 
 
 
@@ -154,11 +150,7 @@ Decode render targets are always created atomically through calls to the <a href
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeendframe.md">DecodeEndFrame</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags.md">D3DDDI_RESOURCEFLAGS</a>
 
 
 
@@ -166,7 +158,15 @@ Decode render targets are always created atomically through calls to the <a href
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags.md">D3DDDI_RESOURCEFLAGS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
 
 

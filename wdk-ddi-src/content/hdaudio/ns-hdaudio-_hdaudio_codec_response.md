@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 56b9cdb5-2734-45b5-aeaf-ae6d606d1a5c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PHDAUDIO_CODEC_RESPONSE, hdaudio/HDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], hdaudio/PHDAUDIO_CODEC_RESPONSE, aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, _HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE, audio.hdaudio_codec_response, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], PHDAUDIO_CODEC_RESPONSE"
+ms.keywords: ",  , *, *PHDAUDIO_CODEC_RESPONSE, ,, A, C, D, E, H, HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], I, N, O, P, PHDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], R, S, U, _, _HDAUDIO_CODEC_RESPONSE, aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, audio.hdaudio_codec_response, hdaudio/HDAUDIO_CODEC_RESPONSE, hdaudio/PHDAUDIO_CODEC_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -213,15 +213,15 @@ The unnamed 25-bitfield between the <b>UnsolicitedResponse</b> and <b>HasFifoOve
 
 ## -see-also
 
+<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
 
 
 
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 
 

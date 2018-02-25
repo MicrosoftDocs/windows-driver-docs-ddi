@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aba4cccd-267d-48cc-a6ff-be19802adfdc
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectGeneralRef_d1874c0c-e889-4225-8bbf-e8292edcb716.xml, WdfDeviceConfigureRequestDispatching, WdfDeviceConfigureRequestDispatching method, wdf.wdfdeviceconfigurerequestdispatching, wdfdevice/WdfDeviceConfigureRequestDispatching, kmdf.wdfdeviceconfigurerequestdispatching
+ms.keywords: ",  , C, D, DFDeviceObjectGeneralRef_d1874c0c-e889-4225-8bbf-e8292edcb716.xml, R, W, WdfDeviceConfigureRequestDispatching, WdfDeviceConfigureRequestDispatching method, a, c, d, e, f, g, h, i, kmdf.wdfdeviceconfigurerequestdispatching, n, o, p, q, r, s, t, u, v, wdf.wdfdeviceconfigurerequestdispatching, wdfdevice/WdfDeviceConfigureRequestDispatching"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

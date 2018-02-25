@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d2071ea0-737d-4a61-90d6-614d77983f0b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfmemorycreate, WdfMemoryCreate method, WdfMemoryCreate, wdfmemory/WdfMemoryCreate, DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, kmdf.wdfmemorycreate
+ms.keywords: ",  , C, DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, M, W, WdfMemoryCreate, WdfMemoryCreate method, a, d, e, f, kmdf.wdfmemorycreate, m, o, r, t, wdf.wdfmemorycreate, wdfmemory/WdfMemoryCreate, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -211,11 +211,11 @@ status = WdfMemoryCreate(
 
 ## -see-also
 
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
-
-
-
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
@@ -223,7 +223,7 @@ status = WdfMemoryCreate(
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 

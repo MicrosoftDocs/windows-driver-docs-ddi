@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExAllocatePoolWithQuota, wdm/ExAllocatePoolWithQuota, k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], kernel.exallocatepoolwithquota
+ms.keywords: ",  , A, E, ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], P, Q, W, a, c, e, h, i, k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, kernel.exallocatepoolwithquota, l, o, t, u, wdm/ExAllocatePoolWithQuota, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,7 +117,11 @@ Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL &lt;= DISPAT
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 
 
@@ -125,11 +129,7 @@ Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL &lt;= DISPAT
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

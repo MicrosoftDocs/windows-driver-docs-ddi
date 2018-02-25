@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WriteToHardware method, IWDFDevice3 interface, IWDFDevice3 interface, WriteToHardware method, WriteToHardware, umdf.iwdfdevice3_writetohardware, IWDFDevice3, wdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware, IWDFDevice3::WriteToHardware, WriteToHardware method
+ms.keywords: ",  , ,, ., 3, :, D, F, H, I, IWDFDevice3, IWDFDevice3 interface, WriteToHardware method, IWDFDevice3::WriteToHardware, T, W, WriteToHardware method, WriteToHardware method, IWDFDevice3 interface, WriteToHardware,IWDFDevice3.WriteToHardware, a, c, d, e, i, o, r, t, umdf.iwdfdevice3_writetohardware, v, w, wdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

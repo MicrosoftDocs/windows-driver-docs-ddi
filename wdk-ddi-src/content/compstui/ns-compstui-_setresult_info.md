@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54701f88-1145-4a50-bf5a-36be1d88355d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: compstui/SETRESULT_INFO, *PSETRESULT_INFO, PSETRESULT_INFO structure pointer [Print Devices], compstui/PSETRESULT_INFO, SETRESULT_INFO structure [Print Devices], SETRESULT_INFO, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, PSETRESULT_INFO, print.setresult_info, _SETRESULT_INFO
+ms.keywords: ",  , *, *PSETRESULT_INFO, ,, E, F, I, L, N, O, P, PSETRESULT_INFO, PSETRESULT_INFO structure pointer [Print Devices], R, S, SETRESULT_INFO, SETRESULT_INFO structure [Print Devices], T, U, _, _SETRESULT_INFO, compstui/PSETRESULT_INFO, compstui/SETRESULT_INFO, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, print.setresult_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df640b7a-865a-4a8b-94be-ebc60e44cf72
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_QUERYSEGMENTOUT structure [Display Devices], _DXGK_QUERYSEGMENTOUT, DXGK_QUERYSEGMENTOUT, DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, display.dxgk_querysegmentout, d3dkmddi/DXGK_QUERYSEGMENTOUT
+ms.keywords: ",  , ,, D, DXGK_QUERYSEGMENTOUT, DXGK_QUERYSEGMENTOUT structure [Display Devices], DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, E, G, K, M, N, O, Q, R, S, T, U, X, Y, _, _DXGK_QUERYSEGMENTOUT, d3dkmddi/DXGK_QUERYSEGMENTOUT, display.dxgk_querysegmentout"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,6 +109,10 @@ The video memory manager allocates a paging buffer either from an aperture segme
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
 
@@ -118,10 +122,6 @@ The video memory manager allocates a paging buffer either from an aperture segme
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
 
 

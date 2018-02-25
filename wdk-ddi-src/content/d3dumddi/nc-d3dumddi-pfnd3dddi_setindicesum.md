@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9ca38004-8953-4416-8552-c76813192561
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setindicesum, SetIndicesUM callback function [Display Devices], SetIndicesUM, PFND3DDDI_SETINDICESUM, PFND3DDDI_SETINDICESUM, d3dumddi/SetIndicesUM, UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml
+ms.keywords: PFND3DDDI_SETINDICESUM, SetIndicesUM, SetIndicesUM callback function [Display Devices], UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml, d3dumddi/SetIndicesUM, display.setindicesum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 077fc4ab-94a0-42eb-a0c5-684e447cb038
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PAVC_STREAM_REQUEST_BLOCK, avcsref_1ea2a63f-ba4a-4fc3-834c-0f0a88de5023.xml, *PAVC_STREAM_REQUEST_BLOCK, avcstrm/PAVC_STREAM_REQUEST_BLOCK, stream.avc_stream_request_block, avcstrm/AVC_STREAM_REQUEST_BLOCK, _AVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], PAVC_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices]
+ms.keywords: ",  , *, *PAVC_STREAM_REQUEST_BLOCK, ,, A, AVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], B, C, E, K, L, M, O, P, PAVC_STREAM_REQUEST_BLOCK, PAVC_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], Q, R, S, T, U, V, _, _AVC_STREAM_REQUEST_BLOCK, avcsref_1ea2a63f-ba4a-4fc3-834c-0f0a88de5023.xml, avcstrm/AVC_STREAM_REQUEST_BLOCK, avcstrm/PAVC_STREAM_REQUEST_BLOCK, stream.avc_stream_request_block"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -198,31 +198,7 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
-
-
-
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
-
-
-
-<a href="..\avcstrm\ne-avcstrm-_avcstrm_function.md">AVCSTRM_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
 
 
 
@@ -234,11 +210,23 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
+
+
+
 <a href="..\avcstrm\ns-avcstrm-_avcstrm_open_struct.md">AVCSTRM_OPEN_STRUCT</a>
 
 
 
-<a href="..\avcstrm\ns-avcstrm-_avcstrm_buffer_struct.md">AVCSTRM_BUFFER_STRUCT</a>
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
 
 
 
@@ -246,7 +234,19 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+<a href="..\avcstrm\ne-avcstrm-_avcstrm_function.md">AVCSTRM_FUNCTION</a>
+
+
+
+<a href="..\avcstrm\ns-avcstrm-_avcstrm_buffer_struct.md">AVCSTRM_BUFFER_STRUCT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
 
 
 

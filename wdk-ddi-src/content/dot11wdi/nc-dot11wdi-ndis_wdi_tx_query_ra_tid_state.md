@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 76949336-3349-4869-83C7-60D7D8A6BE24
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswditxqueryratidstate, NdisWdiTxQueryRATIDState callback function [Network Drivers Starting with Windows Vista], NdisWdiTxQueryRATIDState, NDIS_WDI_TX_QUERY_RA_TID_STATE, NDIS_WDI_TX_QUERY_RA_TID_STATE, dot11wdi/NdisWdiTxQueryRATIDState
+ms.keywords: NDIS_WDI_TX_QUERY_RA_TID_STATE, NdisWdiTxQueryRATIDState, NdisWdiTxQueryRATIDState callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxQueryRATIDState, netvista.ndiswditxqueryratidstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,11 +141,11 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
-
-
-
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
 
 

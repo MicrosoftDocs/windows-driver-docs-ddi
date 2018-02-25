@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 26cf79d7-1df3-40a3-8536-b672f9bf13a8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_PosStringType, pointofservicedriverinterface/PosStringType, PosStringType structure, pos.posstringtype, PosStringType"
+ms.keywords: ",  , ,, P, PosStringType, PosStringType structure, S, T, _, _PosStringType, e, g, i, n, o, p, pointofservicedriverinterface/PosStringType, pos.posstringtype, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

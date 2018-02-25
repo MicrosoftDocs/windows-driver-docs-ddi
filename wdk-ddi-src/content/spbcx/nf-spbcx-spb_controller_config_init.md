@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 78D46903-A13D-4BC2-803F-E1656A43E865
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: spbcx/SPB_CONTROLLER_CONFIG_INIT, SPB_CONTROLLER_CONFIG_INIT, SPB.spb_controller_config_init, SPB_CONTROLLER_CONFIG_INIT function [Buses]
+ms.keywords: ",  , B, C, E, F, G, I, L, N, O, P, R, S, SPB.spb_controller_config_init, SPB_CONTROLLER_CONFIG_INIT, SPB_CONTROLLER_CONFIG_INIT function [Buses], T, _, spbcx/SPB_CONTROLLER_CONFIG_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

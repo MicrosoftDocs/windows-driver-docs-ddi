@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 682fe2b7-3166-4691-8959-ec7f34c414f7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], tagKS_DATARANGE_VIDEO, ksmedia/KS_DATARANGE_VIDEO, stream.ks_datarange_video, KS_DATARANGE_VIDEO structure [Streaming Media Devices], vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml, *PKS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO, ksmedia/PKS_DATARANGE_VIDEO
+ms.keywords: ",  , *, *PKS_DATARANGE_VIDEO, ,, A, D, E, G, I, K, KS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO structure [Streaming Media Devices], N, O, P, PKS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], R, S, T, V, _, a, g, ksmedia/KS_DATARANGE_VIDEO, ksmedia/PKS_DATARANGE_VIDEO, stream.ks_datarange_video, t, tagKS_DATARANGE_VIDEO, vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,15 +131,15 @@ For example, a stream that supports RGB16, RGB24, YVU9, and JPEG capture formats
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 

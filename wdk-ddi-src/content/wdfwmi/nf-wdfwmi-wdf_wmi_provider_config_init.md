@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a63079ab-45ec-44b2-8769-f5b30f378972
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfwmi/WDF_WMI_PROVIDER_CONFIG_INIT, wdf.wdf_wmi_provider_config_init, WDF_WMI_PROVIDER_CONFIG_INIT function, WDF_WMI_PROVIDER_CONFIG_INIT, kmdf.wdf_wmi_provider_config_init, DFWMIRef_34f9d195-3f6b-419d-bab7-29ad49c3d177.xml
+ms.keywords: ",  , C, D, DFWMIRef_34f9d195-3f6b-419d-bab7-29ad49c3d177.xml, E, F, G, I, M, N, O, P, R, T, V, W, WDF_WMI_PROVIDER_CONFIG_INIT, WDF_WMI_PROVIDER_CONFIG_INIT function, _, kmdf.wdf_wmi_provider_config_init, wdf.wdf_wmi_provider_config_init, wdfwmi/WDF_WMI_PROVIDER_CONFIG_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e87a4078-dbd4-4df2-bbfb-efbf76fc6279
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExIsResourceAcquiredSharedLite, ExIsResourceAcquiredSharedLite routine [Kernel-Mode Driver Architecture], k102_e1ae158d-fd02-4962-813f-7bd87943f033.xml, ExIsResourceAcquiredLite, kernel.exisresourceacquiredsharedlite, ExIsResourceAcquiredSharedLite
+ms.keywords: ",  , A, E, ExIsResourceAcquiredLite, ExIsResourceAcquiredSharedLite, ExIsResourceAcquiredSharedLite routine [Kernel-Mode Driver Architecture], I, L, R, S, a, c, d, e, h, i, k102_e1ae158d-fd02-4962-813f-7bd87943f033.xml, kernel.exisresourceacquiredsharedlite, o, q, r, s, t, u, wdm/ExIsResourceAcquiredSharedLite, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bd369651-57d4-406f-ba51-9632362de15d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_vidpn_interface_pfnreleasetargetmodeset, pfnReleaseTargetModeSet callback function [Display Devices], pfnReleaseTargetModeSet, DXGKDDI_VIDPN_RELEASETARGETMODESET, DXGKDDI_VIDPN_RELEASETARGETMODESET, d3dkmddi/pfnReleaseTargetModeSet, VidPnFunctions_c1609a38-53ff-49e0-a11a-26ceb5d64cdb.xml
+ms.keywords: DXGKDDI_VIDPN_RELEASETARGETMODESET, VidPnFunctions_c1609a38-53ff-49e0-a11a-26ceb5d64cdb.xml, d3dkmddi/pfnReleaseTargetModeSet, display.dxgk_vidpn_interface_pfnreleasetargetmodeset, pfnReleaseTargetModeSet, pfnReleaseTargetModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -159,11 +159,11 @@ The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNTARGETMODESET data types are defined in <i>
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewtargetmodeset.md">pfnCreateNewTargetModeSet</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a>
 
 
 

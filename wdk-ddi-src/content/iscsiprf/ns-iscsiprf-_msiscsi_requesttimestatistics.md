@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fb884cff-dedb-44cf-b9ea-306bfa66b06f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml, MSiSCSI_RequestTimeStatistics structure [Storage Devices], iscsiprf/MSiSCSI_RequestTimeStatistics, *PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], _MSiSCSI_RequestTimeStatistics, storage.msiscsi_requesttimestatistics, iscsiprf/PMSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics
+ms.keywords: ",  , *, *PMSiSCSI_RequestTimeStatistics, ,, C, I, M, MSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics structure [Storage Devices], P, PMSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], R, S, T, _, _MSiSCSI_RequestTimeStatistics, a, c, e, i, iscsiprf/MSiSCSI_RequestTimeStatistics, iscsiprf/PMSiSCSI_RequestTimeStatistics, m, q, s, storage.msiscsi_requesttimestatistics, structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-
-
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 

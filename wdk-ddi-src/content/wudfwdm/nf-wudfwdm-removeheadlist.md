@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8748451c-3e57-4acf-b1e6-b80fe7f461d8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RemoveHeadList routine [Kernel-Mode Driver Architecture], kernel.removeheadlist, k109_f16481a9-4fd3-4b81-9fd3-aa77b20f9873.xml, wdm/RemoveHeadList, RemoveHeadList
+ms.keywords: ",  , H, L, R, RemoveHeadList, RemoveHeadList routine [Kernel-Mode Driver Architecture], a, d, e, i, k109_f16481a9-4fd3-4b81-9fd3-aa77b20f9873.xml, kernel.removeheadlist, m, o, s, t, v, wdm/RemoveHeadList"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,14 +97,6 @@ Callers of <b>RemoveHeadList</b> can be running at any IRQL. If <b>RemoveHeadLis
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
 
 
@@ -113,7 +105,15 @@ Callers of <b>RemoveHeadList</b> can be running at any IRQL. If <b>RemoveHeadLis
 
 
 
+<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+
+
+
 <a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 

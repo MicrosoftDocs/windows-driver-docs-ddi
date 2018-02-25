@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a5e151d-2a2d-4477-a736-8a5f3d3820a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_oid_request, ndis/PNDIS_OID_REQUEST, ndis_request_ref_c431d090-b403-40a7-90de-5f47ca6213f4.xml, _NDIS_OID_REQUEST, *PNDIS_OID_REQUEST, ndis/NDIS_OID_REQUEST, NDIS_OID_REQUEST, PNDIS_OID_REQUEST structure pointer [Network Drivers Starting with Windows Vista], PNDIS_OID_REQUEST, NDIS_OID_REQUEST structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PNDIS_OID_REQUEST, ,, D, E, I, N, NDIS_OID_REQUEST, NDIS_OID_REQUEST structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_OID_REQUEST, PNDIS_OID_REQUEST structure pointer [Network Drivers Starting with Windows Vista], Q, R, S, T, U, _, _NDIS_OID_REQUEST, ndis/NDIS_OID_REQUEST, ndis/PNDIS_OID_REQUEST, ndis_request_ref_c431d090-b403-40a7-90de-5f47ca6213f4.xml, netvista.ndis_oid_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -524,15 +524,15 @@ The
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_request_type.md">NDIS_REQUEST_TYPE</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569641">OID_GEN_SUPPORTED_GUIDS</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_request_type.md">NDIS_REQUEST_TYPE</a>
 
 
 

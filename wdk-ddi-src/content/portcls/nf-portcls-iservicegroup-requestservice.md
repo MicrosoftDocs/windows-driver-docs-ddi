@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9CB0CE26-2F26-424E-9EF5-C6780F521E09
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: RequestService method [Audio Devices], RequestService, IServiceGroup::RequestService, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, RequestService method [Audio Devices], IServiceGroup interface, portcls/IServiceGroup::RequestService, IServiceGroup, IServiceGroup interface [Audio Devices], RequestService method, audio.iservicegroup_requestservice
+ms.keywords: ",  , ,, ., :, G, I, IServiceGroup, IServiceGroup interface [Audio Devices], RequestService method, IServiceGroup::RequestService, R, RequestService method [Audio Devices], RequestService method [Audio Devices], IServiceGroup interface, RequestService,IServiceGroup.RequestService, S, audio.iservicegroup_requestservice, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, c, e, i, o, p, portcls/IServiceGroup::RequestService, q, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

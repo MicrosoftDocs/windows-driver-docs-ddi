@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: adc4bd3a-fbff-4a63-b818-b778762956ac
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgi_ddi_arg_resolvesharedresource, UMDisplayDriver_Dx10param_Structs_16bbb236-75b5-4d2c-a6ca-b61010d5e08d.xml, dxgiddi/DXGI_DDI_ARG_RESOLVESHAREDRESOURCE, DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure [Display Devices], DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
+ms.keywords: ",  , ,, A, C, D, DXGI_DDI_ARG_RESOLVESHAREDRESOURCE, DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure [Display Devices], E, G, H, I, L, O, R, S, U, UMDisplayDriver_Dx10param_Structs_16bbb236-75b5-4d2c-a6ca-b61010d5e08d.xml, V, X, _, display.dxgi_ddi_arg_resolvesharedresource, dxgiddi/DXGI_DDI_ARG_RESOLVESHAREDRESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 47C0C369-B31B-4291-A420-A1E75BA990CF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3d12ddi_video_format_description, d3d12umddi/D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure [Display Devices], D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure [Display Devices], E, F, I, M, N, O, P, R, S, T, V, _, d3d12umddi/D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, display.d3d12ddi_video_format_description"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

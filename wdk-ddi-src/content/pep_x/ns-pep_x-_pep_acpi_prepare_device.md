@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F8D6680D-EFA7-4DED-B808-0E738A852641
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPEP_ACPI_PREPARE_DEVICE, kernel.pep_acpi_prepare_device, PEP_ACPI_PREPARE_DEVICE, *PPEP_ACPI_PREPARE_DEVICE, PPEP_ACPI_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_PREPARE_DEVICE, pepfx/PPEP_ACPI_PREPARE_DEVICE, pepfx/PEP_ACPI_PREPARE_DEVICE, PEP_ACPI_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PPEP_ACPI_PREPARE_DEVICE, ,, A, C, D, E, I, P, PEP_ACPI_PREPARE_DEVICE, PEP_ACPI_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_PREPARE_DEVICE, PPEP_ACPI_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], R, V, _, _PEP_ACPI_PREPARE_DEVICE, kernel.pep_acpi_prepare_device, pepfx/PEP_ACPI_PREPARE_DEVICE, pepfx/PPEP_ACPI_PREPARE_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a1e41b5-cd62-436b-a4ed-6dee99c03cac
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgi_ddi_check_multiplaneoverlaysupport_plane_info, DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO structure [Display Devices], dxgiddi/DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO, DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO structure [Display Devices], DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO, DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
+ms.keywords: ",  , ,, A, C, D, DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO, DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO structure [Display Devices], DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO, DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO structure [Display Devices], E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, _, display.dxgi_ddi_check_multiplaneoverlaysupport_plane_info, dxgiddi/DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

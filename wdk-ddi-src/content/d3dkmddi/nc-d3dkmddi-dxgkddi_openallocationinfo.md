@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 551154d7-950d-40e5-810b-8d803c1731ca
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiopenallocation, DxgkDdiOpenAllocation callback function [Display Devices], DxgkDdiOpenAllocation, DXGKDDI_OPENALLOCATIONINFO, DXGKDDI_OPENALLOCATIONINFO, d3dkmddi/DxgkDdiOpenAllocation, DmFunctions_e27ad0cd-ae79-4207-abb0-68f048452101.xml
+ms.keywords: DXGKDDI_OPENALLOCATIONINFO, DmFunctions_e27ad0cd-ae79-4207-abb0-68f048452101.xml, DxgkDdiOpenAllocation, DxgkDdiOpenAllocation callback function [Display Devices], d3dkmddi/DxgkDdiOpenAllocation, display.dxgkddiopenallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -161,7 +161,7 @@ The driver can modify the allocation private driver data that is passed in the <
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
 
 
 
@@ -169,15 +169,15 @@ The driver can modify the allocation private driver data that is passed in the <
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a>
 
 
 

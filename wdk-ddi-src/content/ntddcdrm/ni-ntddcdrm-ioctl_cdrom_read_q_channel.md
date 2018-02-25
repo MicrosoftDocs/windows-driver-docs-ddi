@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bbcf1535-6454-45b5-bcbd-752b8bfd6517
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_read_q_channel, IOCTL_CDROM_READ_Q_CHANNEL control code [Storage Devices], IOCTL_CDROM_READ_Q_CHANNEL, ntddcdrm/IOCTL_CDROM_READ_Q_CHANNEL, k307_1b91e5f3-ecd0-429d-a4d1-8b77170d14e7.xml
+ms.keywords: IOCTL_CDROM_READ_Q_CHANNEL, IOCTL_CDROM_READ_Q_CHANNEL control code [Storage Devices], k307_1b91e5f3-ecd0-429d-a4d1-8b77170d14e7.xml, ntddcdrm/IOCTL_CDROM_READ_Q_CHANNEL, storage.ioctl_cdrom_read_q_channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

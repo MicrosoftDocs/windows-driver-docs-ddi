@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5e257b72-fe16-49a0-9232-9c791a88e903
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iogetremainingstacksize, wdm/IoGetRemainingStackSize, IoGetRemainingStackSize routine [Kernel-Mode Driver Architecture], IoGetRemainingStackSize, k104_bc84d6dd-0874-440d-8f73-b403d18aa660.xml
+ms.keywords: ",  , G, I, IoGetRemainingStackSize, IoGetRemainingStackSize routine [Kernel-Mode Driver Architecture], R, S, a, c, e, g, i, k, k104_bc84d6dd-0874-440d-8f73-b403d18aa660.xml, kernel.iogetremainingstacksize, m, n, o, t, wdm/IoGetRemainingStackSize, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40fe1e3b-22b2-4d78-a306-977188246935
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wsksend, WskSend callback function [Network Drivers Starting with Windows Vista], WskSend, PFN_WSK_SEND, PFN_WSK_SEND, wsk/WskSend, wskref_978af27f-fa9e-4c21-9940-1d47b3fcb997.xml
+ms.keywords: PFN_WSK_SEND, WskSend, WskSend callback function [Network Drivers Starting with Windows Vista], netvista.wsksend, wsk/WskSend, wskref_978af27f-fa9e-4c21-9940-1d47b3fcb997.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -237,11 +237,7 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
 
@@ -249,11 +245,15 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 
 
@@ -262,7 +262,7 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 

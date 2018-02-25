@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeFormatRequestForRead, DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, wdf.wdfusbtargetpipeformatrequestforread, WdfUsbTargetPipeFormatRequestForRead, kmdf.wdfusbtargetpipeformatrequestforread, WdfUsbTargetPipeFormatRequestForRead method
+ms.keywords: ",  , DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, F, P, R, T, U, W, WdfUsbTargetPipeFormatRequestForRead, WdfUsbTargetPipeFormatRequestForRead method, a, b, d, e, f, g, i, kmdf.wdfusbtargetpipeformatrequestforread, m, o, p, q, r, s, t, u, wdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -331,11 +331,15 @@ Exit:
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
 
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetstatus.md">WdfRequestGetStatus</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 
@@ -348,10 +352,6 @@ Exit:
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
 
 
 

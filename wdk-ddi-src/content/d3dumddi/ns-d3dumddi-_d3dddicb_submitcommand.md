@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53D4890A-D075-4DF7-97E6-A8E8A174866B
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddicb_submitcommand, d3dumddi/D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], D3DDDICB_SUBMITCOMMAND, _D3DDDICB_SUBMITCOMMAND
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], I, M, N, O, S, T, U, _, _D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -237,11 +237,11 @@ If the driver receives a call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_crea
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_submitcommandcb.md">pfnSubmitCommandCb</a>
-
-
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_submitcommandcb.md">pfnSubmitCommandCb</a>
 
 
 

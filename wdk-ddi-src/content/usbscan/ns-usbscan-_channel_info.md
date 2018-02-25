@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1f1cb952-9a63-461f-b70f-4cc41b8d88f8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PCHANNEL_INFO structure pointer [Imaging Devices], usbscan/PCHANNEL_INFO, CHANNEL_INFO, PCHANNEL_INFO, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, *PCHANNEL_INFO, CHANNEL_INFO structure [Imaging Devices], image.channel_info, usbscan/CHANNEL_INFO, _CHANNEL_INFO
+ms.keywords: ",  , *, *PCHANNEL_INFO, ,, A, C, CHANNEL_INFO, CHANNEL_INFO structure [Imaging Devices], E, F, H, I, L, N, O, P, PCHANNEL_INFO, PCHANNEL_INFO structure pointer [Imaging Devices], _, _CHANNEL_INFO, image.channel_info, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, usbscan/CHANNEL_INFO, usbscan/PCHANNEL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

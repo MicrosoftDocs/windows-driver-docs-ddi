@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b2cf728-8859-4b7d-99f0-2ee7604ab480
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ClfsLsnBlockOffset, ClfsLsnBlockOffset routine [Kernel-Mode Driver Architecture], kernel.clfslsnblockoffset, Clfs_700ff9e8-40ea-4659-b4a5-99432fb1577c.xml, wdm/ClfsLsnBlockOffset
+ms.keywords: ",  , B, C, ClfsLsnBlockOffset, ClfsLsnBlockOffset routine [Kernel-Mode Driver Architecture], Clfs_700ff9e8-40ea-4659-b4a5-99432fb1577c.xml, L, O, c, e, f, k, kernel.clfslsnblockoffset, l, n, o, s, t, wdm/ClfsLsnBlockOffset"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,7 +96,7 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
+<a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
 
 
 
@@ -104,7 +104,7 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
+<a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
 
 
 

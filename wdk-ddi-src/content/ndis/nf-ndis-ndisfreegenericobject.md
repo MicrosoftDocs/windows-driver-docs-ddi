@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 02c0ea87-d25d-4363-85e3-e47c4c5d8a9b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisfreegenericobject, ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, NdisFreeGenericObject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeGenericObject
+ms.keywords: ",  , F, G, N, NdisFreeGenericObject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], O, b, c, d, e, i, j, n, ndis/NdisFreeGenericObject, ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, netvista.ndisfreegenericobject, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

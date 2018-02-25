@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5d1c8c2d-7886-4876-b48e-1e6b252ae8f7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setpalette, SetPalette callback function [Display Devices], SetPalette, PFND3DDDI_SETPALETTE, PFND3DDDI_SETPALETTE, d3dumddi/SetPalette, UserModeDisplayDriver_Functions_9366fa90-a9d7-4c03-9c96-a8bc4eba6abb.xml
+ms.keywords: PFND3DDDI_SETPALETTE, SetPalette, SetPalette callback function [Display Devices], UserModeDisplayDriver_Functions_9366fa90-a9d7-4c03-9c96-a8bc4eba6abb.xml, d3dumddi/SetPalette, display.setpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 16D8981B-53D3-4886-A85F-B487701ED172
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: TRISTATE, TriStateUnknown, ucxroothub/TriStateTrue, TriStateFalse, ucxroothub/TRISTATE, _TRISTATE, buses.tristate, TriStateTrue, ucxroothub/TriStateFalse, ucxroothub/TriStateUnknown, TRISTATE enumeration [Buses]
+ms.keywords: ",  , ,, A, E, I, R, S, T, TRISTATE, TRISTATE enumeration [Buses], TriStateFalse, TriStateTrue, TriStateUnknown, _, _TRISTATE, buses.tristate, ucxroothub/TRISTATE, ucxroothub/TriStateFalse, ucxroothub/TriStateTrue, ucxroothub/TriStateUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7060b86-8ff6-4229-94e0-7965ae59aa90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SeDeassignSecurity routine [Kernel-Mode Driver Architecture], kernel.sedeassignsecurity, k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml, SeDeassignSecurity, wdm/SeDeassignSecurity
+ms.keywords: ",  , D, S, SeDeassignSecurity, SeDeassignSecurity routine [Kernel-Mode Driver Architecture], a, c, e, g, i, k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml, kernel.sedeassignsecurity, n, r, s, t, u, wdm/SeDeassignSecurity, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,11 +85,11 @@ If the deallocation succeeds, <b>SeDeassignSecurity</b> returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 

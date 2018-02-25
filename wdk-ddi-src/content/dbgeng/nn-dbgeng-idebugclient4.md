@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fcfa64f3-6cdf-4e5a-bb02-13a748fd6dda
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugclient4, IDebugClient4 interface [Windows Debugging], IDebugClient4 interface [Windows Debugging], described, IDebugClient4, dbgeng/IDebugClient4
+ms.keywords: IDebugClient4, IDebugClient4 interface [Windows Debugging], IDebugClient4 interface [Windows Debugging], described, dbgeng/IDebugClient4, debugger.idebugclient4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -128,11 +128,11 @@ Creates a user-mode or kernel-mode crash dump file.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

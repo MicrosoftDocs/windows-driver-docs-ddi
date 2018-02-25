@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: f8ebf57a-1d2f-4362-8713-c37b6ef62cb6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_get_chars, IOCTL_SERIAL_GET_CHARS control code [Serial Ports], IOCTL_SERIAL_GET_CHARS, ntddser/IOCTL_SERIAL_GET_CHARS, serref_103c18cc-6260-4a9d-8f2f-01ef8b82aebe.xml
+ms.keywords: IOCTL_SERIAL_GET_CHARS, IOCTL_SERIAL_GET_CHARS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_CHARS, serports.ioctl_serial_get_chars, serref_103c18cc-6260-4a9d-8f2f-01ef8b82aebe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -111,11 +111,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
-
-
-
 <a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
 
 
 

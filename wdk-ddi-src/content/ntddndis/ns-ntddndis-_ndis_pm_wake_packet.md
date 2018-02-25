@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b3d7adcf-79cd-42f4-ada2-c57de6310020
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_PM_WAKE_PACKET structure [Network Drivers Starting with Windows Vista], netvista.ndis_pm_wake_packet, PNDIS_PM_WAKE_PACKET, NDIS_PM_WAKE_PACKET, _NDIS_PM_WAKE_PACKET, PNDIS_PM_WAKE_PACKET structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_WAKE_PACKET, ntddndis/NDIS_PM_WAKE_PACKET, *PNDIS_PM_WAKE_PACKET
+ms.keywords: ",  , *, *PNDIS_PM_WAKE_PACKET, ,, A, C, D, E, I, K, M, N, NDIS_PM_WAKE_PACKET, NDIS_PM_WAKE_PACKET structure [Network Drivers Starting with Windows Vista], P, PNDIS_PM_WAKE_PACKET, PNDIS_PM_WAKE_PACKET structure pointer [Network Drivers Starting with Windows Vista], S, T, W, _, _NDIS_PM_WAKE_PACKET, netvista.ndis_pm_wake_packet, ntddndis/NDIS_PM_WAKE_PACKET, ntddndis/PNDIS_PM_WAKE_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -147,7 +147,7 @@ The <b>NDIS_PM_WAKE_PACKET</b> structure is used in the <a href="https://msdn.mi
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
 
 
 
@@ -155,7 +155,7 @@ The <b>NDIS_PM_WAKE_PACKET</b> structure is used in the <a href="https://msdn.mi
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
 
 

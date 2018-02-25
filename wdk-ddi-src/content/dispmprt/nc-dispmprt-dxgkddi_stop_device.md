@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c17c7cf-9cfa-421d-a503-88726519fb6c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddistopdevice, DxgkDdiStopDevice callback function [Display Devices], DxgkDdiStopDevice, DXGKDDI_STOP_DEVICE, DXGKDDI_STOP_DEVICE, dispmprt/DxgkDdiStopDevice, DmFunctions_c2d7e95b-beba-488a-b046-98e5daa728b9.xml
+ms.keywords: DXGKDDI_STOP_DEVICE, DmFunctions_c2d7e95b-beba-488a-b046-98e5daa728b9.xml, DxgkDdiStopDevice, DxgkDdiStopDevice callback function [Display Devices], display.dxgkddistopdevice, dispmprt/DxgkDdiStopDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

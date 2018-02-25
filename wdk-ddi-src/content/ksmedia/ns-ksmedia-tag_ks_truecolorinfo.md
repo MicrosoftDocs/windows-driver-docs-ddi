@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8297a687-1c8f-4c19-913d-2796e7ef3a60
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKS_TRUECOLORINFO structure pointer [Streaming Media Devices], vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml, PKS_TRUECOLORINFO, tag_KS_TRUECOLORINFO, ksmedia/KS_TRUECOLORINFO, stream.ks_truecolorinfo, KS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices], *PKS_TRUECOLORINFO, ksmedia/PKS_TRUECOLORINFO
+ms.keywords: ",  , *, *PKS_TRUECOLORINFO, ,, C, E, F, I, K, KS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices], L, N, O, P, PKS_TRUECOLORINFO, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices], R, S, T, U, _, a, g, ksmedia/KS_TRUECOLORINFO, ksmedia/PKS_TRUECOLORINFO, stream.ks_truecolorinfo, t, tag_KS_TRUECOLORINFO, vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

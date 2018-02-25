@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9c195d7-debe-495e-a355-e176d06884f8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicloseallocation, DxgkDdiCloseAllocation callback function [Display Devices], DxgkDdiCloseAllocation, DXGKDDI_CLOSEALLOCATION, DXGKDDI_CLOSEALLOCATION, d3dkmddi/DxgkDdiCloseAllocation, DmFunctions_357920c4-694d-48f8-97ef-aa367e210a59.xml
+ms.keywords: DXGKDDI_CLOSEALLOCATION, DmFunctions_357920c4-694d-48f8-97ef-aa367e210a59.xml, DxgkDdiCloseAllocation, DxgkDdiCloseAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCloseAllocation, display.dxgkddicloseallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,15 +105,11 @@ For a resource that contains multiple allocations, the DirectX graphics kernel s
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_closeallocation.md">DXGKARG_CLOSEALLOCATION</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
 
 
 
@@ -122,6 +118,10 @@ For a resource that contains multiple allocations, the DirectX graphics kernel s
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_closeallocation.md">DXGKARG_CLOSEALLOCATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: DCC7087B-0A1B-4E96-A82F-BDEF09D8CEE2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: BDA_BUFFER, stream.bda_buffer, bdatypes/PBDA_BUFFER, BDA_BUFFER structure [Streaming Media Devices], *PBDA_BUFFER, PBDA_BUFFER structure pointer [Streaming Media Devices], _BDA_BUFFER, bdatypes/BDA_BUFFER, PBDA_BUFFER
+ms.keywords: ",  , *, *PBDA_BUFFER, ,, A, B, BDA_BUFFER, BDA_BUFFER structure [Streaming Media Devices], D, E, F, P, PBDA_BUFFER, PBDA_BUFFER structure pointer [Streaming Media Devices], R, U, _, _BDA_BUFFER, bdatypes/BDA_BUFFER, bdatypes/PBDA_BUFFER, stream.bda_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

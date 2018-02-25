@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 994a73bc-81a1-4d73-959c-cc89b242c073
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.int10callbios, Int10CallBios callback function [Display Devices], Int10CallBios, PINT10_CALL_BIOS, PINT10_CALL_BIOS, video/Int10CallBios, VideoPort_Functions_7a9921fa-ea1e-49fa-8881-ea0792d91123.xml
+ms.keywords: Int10CallBios, Int10CallBios callback function [Display Devices], PINT10_CALL_BIOS, VideoPort_Functions_7a9921fa-ea1e-49fa-8881-ea0792d91123.xml, display.int10callbios, video/Int10CallBios
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 674e0a65-1763-41b0-896b-2ef9debc32a5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvLockWiaDevice method, drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv::drvLockWiaDevice, wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice, MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, drvLockWiaDevice, image.iwiaminidrv_drvlockwiadevice, IWiaMiniDrv, drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface
+ms.keywords: ",  , ,, ., :, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvLockWiaDevice method, IWiaMiniDrv::drvLockWiaDevice, L, M, MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, W, a, c, d, drvLockWiaDevice method [Imaging Devices], drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, drvLockWiaDevice,IWiaMiniDrv.drvLockWiaDevice, e, i, image.iwiaminidrv_drvlockwiadevice, k, n, o, r, v, wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

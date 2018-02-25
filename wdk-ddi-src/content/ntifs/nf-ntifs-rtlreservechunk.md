@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d6cd676c-32ed-457f-84a3-999246eba0d8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlReserveChunk function [Installable File System Drivers], RtlReserveChunk, ifsk.rtlreservechunk, ntifs/RtlReserveChunk, rtlref_cfca6b3d-c505-464e-83fc-8bbff476e93d.xml
+ms.keywords: ",  , C, R, RtlReserveChunk, RtlReserveChunk function [Installable File System Drivers], e, h, ifsk.rtlreservechunk, k, l, n, ntifs/RtlReserveChunk, r, rtlref_cfca6b3d-c505-464e-83fc-8bbff476e93d.xml, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

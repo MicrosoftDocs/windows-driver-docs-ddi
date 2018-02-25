@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a169a5b2-5303-41fc-80d2-69b44fd45c47
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT, _SetCHAPSharedSecret_OUT, iscsiop/PSetCHAPSharedSecret_OUT, storage.setchapsharedsecret_out, PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT structure pointer [Storage Devices], *PSetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices], structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml
+ms.keywords: ",  , *, *PSetCHAPSharedSecret_OUT, ,, A, C, H, O, P, PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT structure pointer [Storage Devices], S, SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices], T, U, _, _SetCHAPSharedSecret_OUT, a, c, d, e, h, iscsiop/PSetCHAPSharedSecret_OUT, iscsiop/SetCHAPSharedSecret_OUT, r, storage.setchapsharedsecret_out, structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,11 +83,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-
-
 <a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_in.md">SetCHAPSharedSecret_IN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 

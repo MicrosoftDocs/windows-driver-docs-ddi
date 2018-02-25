@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 3d355489-cc70-4fa1-b08f-08ccf84f5490
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_SHORT_TRANSFER_OK, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml, USBD_TRANSFER_DIRECTION_IN, buses._urb_control_vendor_or_class_request, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses]
+ms.keywords: ",  , A, B, C, D, E, L, N, O, Q, R, S, T, U, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, V, _, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], buses._urb_control_vendor_or_class_request, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -203,7 +203,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -211,7 +211,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

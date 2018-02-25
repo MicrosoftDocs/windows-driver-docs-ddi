@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f0efa17c-9318-46a4-bc08-d4d372cc07ba
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsCreateAllocator2, KsCreateAllocator2, stream.kscreateallocator2, KsCreateAllocator2 function [Streaming Media Devices]
+ms.keywords: ",  , 2, A, C, K, KsCreateAllocator2, KsCreateAllocator2 function [Streaming Media Devices], a, c, e, ks/KsCreateAllocator2, l, o, r, s, stream.kscreateallocator2, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,15 +106,15 @@ This is a new version of the <a href="..\ks\nf-ks-kscreateallocator.md">KsCreate
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
+
+
+
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 
 
 <a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
-
-
-
-<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
 
 
 

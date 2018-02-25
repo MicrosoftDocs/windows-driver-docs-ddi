@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 76040e0d-a43c-4e3d-aaaa-b84fc2613603
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/RtlIsValidOemCharacter, rtlref_ebbaa5fc-63da-4eef-b8ac-be10a6e062a0.xml, ifsk.rtlisvalidoemcharacter, RtlIsValidOemCharacter routine [Installable File System Drivers], RtlIsValidOemCharacter
+ms.keywords: ",  , C, I, O, R, RtlIsValidOemCharacter, RtlIsValidOemCharacter routine [Installable File System Drivers], V, a, c, d, e, h, i, ifsk.rtlisvalidoemcharacter, l, m, ntifs/RtlIsValidOemCharacter, r, rtlref_ebbaa5fc-63da-4eef-b8ac-be10a6e062a0.xml, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,15 +94,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlunicodetooemn.md">RtlUnicodeToOemN</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtloemstringtounicodestring.md">RtlOemStringToUnicodeString</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
 
 
 

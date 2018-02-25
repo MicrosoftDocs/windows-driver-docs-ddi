@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b035b101-2667-4962-ae49-781ddd30e0be
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RTL_SPLAY_LINKS, PRTL_SPLAY_LINKS, othersystemstructures_3a91f0e3-8f7c-4f45-8707-2392d2637cf4.xml, _RTL_SPLAY_LINKS, ifsk.rtl_splay_links, ntddk/RTL_SPLAY_LINKS, *PRTL_SPLAY_LINKS, ntddk/PRTL_SPLAY_LINKS, RTL_SPLAY_LINKS structure [Installable File System Drivers], PRTL_SPLAY_LINKS structure pointer [Installable File System Drivers]
+ms.keywords: ",  , *, *PRTL_SPLAY_LINKS, ,, A, I, K, L, N, P, PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS structure pointer [Installable File System Drivers], R, RTL_SPLAY_LINKS, RTL_SPLAY_LINKS structure [Installable File System Drivers], S, T, Y, _, _RTL_SPLAY_LINKS, ifsk.rtl_splay_links, ntddk/PRTL_SPLAY_LINKS, ntddk/RTL_SPLAY_LINKS, othersystemstructures_3a91f0e3-8f7c-4f45-8707-2392d2637cf4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,11 +124,7 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
 
 
 
@@ -144,7 +140,11 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
 
 
 

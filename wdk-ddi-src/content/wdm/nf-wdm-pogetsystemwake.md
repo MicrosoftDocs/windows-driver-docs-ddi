@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f2e6bcd6-ed6b-4c88-af96-768284bddb24
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoGetSystemWake routine [Kernel-Mode Driver Architecture], wdm/PoGetSystemWake, kernel.pogetsystemwake, portn_0762df5c-0956-4561-9984-83c680bdd764.xml, PoGetSystemWake
+ms.keywords: ",  , G, P, PoGetSystemWake, PoGetSystemWake routine [Kernel-Mode Driver Architecture], S, W, a, e, k, kernel.pogetsystemwake, m, o, portn_0762df5c-0956-4561-9984-83c680bdd764.xml, s, t, wdm/PoGetSystemWake, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

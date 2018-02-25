@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa897435-443b-4145-b6ca-7bafdb36b9c1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_VIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES, VIDEO_POINTER_ATTRIBUTES structure [Display Devices], ntddvdeo/PVIDEO_POINTER_ATTRIBUTES, VIDEO_MODE_ANIMATE_START, PVIDEO_POINTER_ATTRIBUTES structure pointer [Display Devices], VIDEO_MODE_COLOR_POINTER, ntddvdeo/VIDEO_POINTER_ATTRIBUTES, VIDEO_MODE_ANIMATE_UPDATE, VIDEO_MODE_ASYNC_POINTER, VIDEO_MODE_MONO_POINTER, display.video_pointer_attributes, VIDEO_POINTER_ATTRIBUTES, *PVIDEO_POINTER_ATTRIBUTES, Video_Structs_5ade2674-a930-46b3-aaad-6d3a8d017453.xml"
+ms.keywords: ",  , *, *PVIDEO_POINTER_ATTRIBUTES, ,, A, B, D, E, I, N, O, P, PVIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES structure pointer [Display Devices], R, S, T, U, V, VIDEO_MODE_ANIMATE_START, VIDEO_MODE_ANIMATE_UPDATE, VIDEO_MODE_ASYNC_POINTER, VIDEO_MODE_COLOR_POINTER, VIDEO_MODE_MONO_POINTER, VIDEO_POINTER_ATTRIBUTES, VIDEO_POINTER_ATTRIBUTES structure [Display Devices], Video_Structs_5ade2674-a930-46b3-aaad-6d3a8d017453.xml, _, _VIDEO_POINTER_ATTRIBUTES, display.video_pointer_attributes, ntddvdeo/PVIDEO_POINTER_ATTRIBUTES, ntddvdeo/VIDEO_POINTER_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -174,11 +174,11 @@ The pointer data, in device-compatible DIB format. Mask data is always in 1-bpp 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_pointer_attr.md">IOCTL_VIDEO_QUERY_POINTER_ATTR</a>
-
-
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_pointer_attr.md">IOCTL_VIDEO_SET_POINTER_ATTR</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_pointer_attr.md">IOCTL_VIDEO_QUERY_POINTER_ATTR</a>
 
 
 

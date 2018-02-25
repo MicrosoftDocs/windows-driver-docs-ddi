@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 00f8b16c-3ec1-48ac-930b-17aca16cc04f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_LOCK, _D3DDDIARG_LOCK, display.d3dddiarg_lock, D3DDDIARG_LOCK structure [Display Devices], UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml, d3dumddi/D3DDDIARG_LOCK
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_LOCK, D3DDDIARG_LOCK structure [Display Devices], G, I, K, L, O, R, UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml, _, _D3DDDIARG_LOCK, d3dumddi/D3DDDIARG_LOCK, display.d3dddiarg_lock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -151,11 +151,11 @@ The <b>ReadOnly</b> bit-field flag must not be simultaneously set with the <b>Di
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockflags.md">D3DDDI_LOCKFLAGS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
 
 
 

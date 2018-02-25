@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e1ea63d1-9322-44c7-8196-2fe1a7b6a220
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFreeNetBufferPool, ndis/NdisFreeNetBufferPool, netvista.ndisfreenetbufferpool, ndis_netbuf_functions_ref_8fcb5f46-efc3-4059-9774-cbdf14c5500a.xml, NdisFreeNetBufferPool function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , B, F, N, NdisFreeNetBufferPool, NdisFreeNetBufferPool function [Network Drivers Starting with Windows Vista], P, d, e, f, i, l, ndis/NdisFreeNetBufferPool, ndis_netbuf_functions_ref_8fcb5f46-efc3-4059-9774-cbdf14c5500a.xml, netvista.ndisfreenetbufferpool, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,11 @@ You should free all the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
 
 
 

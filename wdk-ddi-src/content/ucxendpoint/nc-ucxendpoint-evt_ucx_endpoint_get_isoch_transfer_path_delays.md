@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E400CCAE-8F0F-4814-8B63-EB4E116543A2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_endpoint_get_isoch_transfer_path_delays_, EvtUcxEndpointGetIsochTransferPathDelays callback function [Buses], EvtUcxEndpointGetIsochTransferPathDelays, EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS, EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS, ucxendpoint/EvtUcxEndpointGetIsochTransferPathDelays
+ms.keywords: EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS, EvtUcxEndpointGetIsochTransferPathDelays, EvtUcxEndpointGetIsochTransferPathDelays callback function [Buses], buses.evt_ucx_endpoint_get_isoch_transfer_path_delays_, ucxendpoint/EvtUcxEndpointGetIsochTransferPathDelays
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -106,11 +106,11 @@ The UCX client driver registers this callback function with the USB host control
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_get_isoch_pipe_transfer_path_delays.md">_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_get_isoch_pipe_transfer_path_delays.md">_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS</a>
 
 
 

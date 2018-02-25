@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2db9b1b4-0149-4477-9f68-588c55fcbdca
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.synchcritsection, SynchCritSection routine [Kernel-Mode Driver Architecture], SynchCritSection, KSYNCHRONIZE_ROUTINE, KSYNCHRONIZE_ROUTINE, wdm/SynchCritSection, DrvrRtns_ead80ba6-d012-4140-923c-683d877d5b60.xml
+ms.keywords: DrvrRtns_ead80ba6-d012-4140-923c-683d877d5b60.xml, KSYNCHRONIZE_ROUTINE, SynchCritSection, SynchCritSection routine [Kernel-Mode Driver Architecture], kernel.synchcritsection, wdm/SynchCritSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

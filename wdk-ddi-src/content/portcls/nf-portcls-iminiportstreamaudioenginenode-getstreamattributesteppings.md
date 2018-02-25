@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2EC0C859-5479-4A55-9180-DB9938400DF7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iminiportstreamaudioenginenode_getstreamattributesteppings, GetStreamAttributeSteppings, portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamAttributeSteppings method, GetStreamAttributeSteppings method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamAttributeSteppings method [Audio Devices]
+ms.keywords: ",  , ,, ., :, A, E, G, GetStreamAttributeSteppings method [Audio Devices], GetStreamAttributeSteppings method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamAttributeSteppings,IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings, I, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamAttributeSteppings method, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, M, N, S, a, audio.iminiportstreamaudioenginenode_getstreamattributesteppings, b, d, e, g, i, m, n, o, p, portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -97,15 +97,15 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
 
 
 
 <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 

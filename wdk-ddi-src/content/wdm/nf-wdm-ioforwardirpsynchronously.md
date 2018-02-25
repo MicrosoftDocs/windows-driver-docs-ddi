@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3e7c79f-2a0d-4011-887d-0f01537cd6e6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoForwardIrpSynchronously, IoForwardIrpSynchronously routine [Kernel-Mode Driver Architecture], wdm/IoForwardIrpSynchronously, k104_130c736e-6408-4484-b306-91ba275eaac0.xml, kernel.ioforwardirpsynchronously
+ms.keywords: ",  , F, I, IoForwardIrpSynchronously, IoForwardIrpSynchronously routine [Kernel-Mode Driver Architecture], S, a, c, d, h, k104_130c736e-6408-4484-b306-91ba275eaac0.xml, kernel.ioforwardirpsynchronously, l, n, o, p, r, s, u, w, wdm/IoForwardIrpSynchronously, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,15 +101,15 @@ The <b>IoForwardIrpSynchronously</b> routine copies the current stack location t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
-
-
-
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
 
 
 

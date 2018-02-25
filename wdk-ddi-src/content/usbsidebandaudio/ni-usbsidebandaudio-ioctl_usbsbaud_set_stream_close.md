@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0D7B03AB-28D7-4B70-AE24-8CB60616768D
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.ioctl_usbsbaud_set_stream_close, IOCTL_USBSBAUD_SET_STREAM_CLOSE control code [Audio Devices], IOCTL_USBSBAUD_SET_STREAM_CLOSE, usbsidebandaudio/IOCTL_USBSBAUD_SET_STREAM_CLOSE
+ms.keywords: IOCTL_USBSBAUD_SET_STREAM_CLOSE, IOCTL_USBSBAUD_SET_STREAM_CLOSE control code [Audio Devices], audio.ioctl_usbsbaud_set_stream_close, usbsidebandaudio/IOCTL_USBSBAUD_SET_STREAM_CLOSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -111,11 +111,7 @@ TBD
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -123,7 +119,11 @@ TBD
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

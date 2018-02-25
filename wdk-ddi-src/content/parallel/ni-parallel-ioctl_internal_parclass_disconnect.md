@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 05dae212-62b8-4cd3-9fd1-495ae56dfada
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_internal_parclass_disconnect, IOCTL_INTERNAL_PARCLASS_DISCONNECT control code [Parallel Ports], IOCTL_INTERNAL_PARCLASS_DISCONNECT, parallel/IOCTL_INTERNAL_PARCLASS_DISCONNECT, cisspd_6459be75-4a0e-4a38-9bc4-b862766951fb.xml
+ms.keywords: IOCTL_INTERNAL_PARCLASS_DISCONNECT, IOCTL_INTERNAL_PARCLASS_DISCONNECT control code [Parallel Ports], cisspd_6459be75-4a0e-4a38-9bc4-b862766951fb.xml, parallel/IOCTL_INTERNAL_PARCLASS_DISCONNECT, parports.ioctl_internal_parclass_disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

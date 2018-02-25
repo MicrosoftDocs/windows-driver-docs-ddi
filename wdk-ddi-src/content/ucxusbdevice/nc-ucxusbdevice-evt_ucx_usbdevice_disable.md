@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 85aa1d5e-e660-4fd7-a58d-8d32bbd966f2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_disable, EvtUcxUsbDeviceDisable callback function [Buses], EvtUcxUsbDeviceDisable, EVT_UCX_USBDEVICE_DISABLE, EVT_UCX_USBDEVICE_DISABLE, ucxusbdevice/EvtUcxUsbDeviceDisable, PEVT_UCX_USBDEVICE_DISABLE callback function pointer [Buses], PEVT_UCX_USBDEVICE_DISABLE
+ms.keywords: EVT_UCX_USBDEVICE_DISABLE, EvtUcxUsbDeviceDisable, EvtUcxUsbDeviceDisable callback function [Buses], PEVT_UCX_USBDEVICE_DISABLE, PEVT_UCX_USBDEVICE_DISABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_disable, ucxusbdevice/EvtUcxUsbDeviceDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

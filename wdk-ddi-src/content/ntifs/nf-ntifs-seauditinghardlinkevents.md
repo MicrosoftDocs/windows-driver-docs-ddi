@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d90be4f-83bf-45c6-9a74-03a9b19c431a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: seref_b63ee159-df1c-405e-9ac2-44e56b2bd51c.xml, SeAuditingHardLinkEvents function [Installable File System Drivers], ntifs/SeAuditingHardLinkEvents, SeAuditingHardLinkEvents, ifsk.seauditinghardlinkevents
+ms.keywords: ",  , A, E, H, L, S, SeAuditingHardLinkEvents, SeAuditingHardLinkEvents function [Installable File System Drivers], a, d, e, g, i, ifsk.seauditinghardlinkevents, k, n, ntifs/SeAuditingHardLinkEvents, r, s, seref_b63ee159-df1c-405e-9ac2-44e56b2bd51c.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

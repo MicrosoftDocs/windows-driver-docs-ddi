@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37A9A957-344F-48F6-93DE-D81DE5C20076
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkarg_createprotectedsession, _DXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION structure [Display Devices], DXGKARG_CREATEPROTECTEDSESSION, *INOUT_PDXGKARG_CREATEPROTECTEDSESSION, d3dkmddi/DXGKARG_CREATEPROTECTEDSESSION
+ms.keywords: ",  , *, *INOUT_PDXGKARG_CREATEPROTECTEDSESSION, ,, A, C, D, DXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION structure [Display Devices], E, G, I, K, N, O, P, R, S, T, U, X, _, _DXGKARG_CREATEPROTECTEDSESSION, d3dkmddi/DXGKARG_CREATEPROTECTEDSESSION, display.dxgkarg_createprotectedsession"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

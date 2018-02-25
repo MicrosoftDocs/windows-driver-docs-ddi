@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2330fda2-71f5-4a8b-8124-775a40926bc1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeBugCheckEx routine [Kernel-Mode Driver Architecture], kernel.kebugcheckex, wdm/KeBugCheckEx, KeBugCheckEx, k105_17af10bb-b21d-408e-bf73-421ce705d117.xml
+ms.keywords: ",  , B, C, E, K, KeBugCheckEx, KeBugCheckEx routine [Kernel-Mode Driver Architecture], c, e, g, h, k, k105_17af10bb-b21d-408e-bf73-421ce705d117.xml, kernel.kebugcheckex, u, wdm/KeBugCheckEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,7 +119,7 @@ However, even during driver development, this routine is of only limited utility
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 
 
@@ -131,7 +131,7 @@ However, even during driver development, this routine is of only limited utility
 
 
 
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+<a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
 
 
 

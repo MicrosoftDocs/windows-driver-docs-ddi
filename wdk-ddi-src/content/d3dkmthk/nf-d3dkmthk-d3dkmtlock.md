@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d64abd43-edf2-465a-8d99-8fdce1fcd25f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, D3DKMTLock, d3dkmthk/D3DKMTLock, D3DKMTLock function [Display Devices], display.d3dkmtlock
+ms.keywords: ",  , 3, D, D3DKMTLock, D3DKMTLock function [Display Devices], K, L, M, OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, T, c, d3dkmthk/D3DKMTLock, display.d3dkmtlock, k, o"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

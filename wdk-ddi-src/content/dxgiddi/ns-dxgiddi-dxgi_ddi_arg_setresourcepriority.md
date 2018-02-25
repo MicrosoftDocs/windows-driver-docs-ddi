@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9d3f5687-bc49-4831-bf56-5d4201ed45de
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGI_DDI_ARG_SETRESOURCEPRIORITY structure [Display Devices], dxgiddi/DXGI_DDI_ARG_SETRESOURCEPRIORITY, UMDisplayDriver_Dx10param_Structs_fda8895f-9cc7-496b-ae2e-bf6b076fc0b3.xml, display.dxgi_ddi_arg_setresourcepriority, DXGI_DDI_ARG_SETRESOURCEPRIORITY
+ms.keywords: ",  , ,, A, C, D, DXGI_DDI_ARG_SETRESOURCEPRIORITY, DXGI_DDI_ARG_SETRESOURCEPRIORITY structure [Display Devices], E, G, I, O, P, R, S, T, U, UMDisplayDriver_Dx10param_Structs_fda8895f-9cc7-496b-ae2e-bf6b076fc0b3.xml, X, Y, _, display.dxgi_ddi_arg_setresourcepriority, dxgiddi/DXGI_DDI_ARG_SETRESOURCEPRIORITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

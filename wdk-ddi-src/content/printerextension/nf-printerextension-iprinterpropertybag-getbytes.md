@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F75E182D-90FA-4597-95E0-60A6326CF68D
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterPropertyBag::GetBytes, GetBytes method [Print Devices], IPrinterPropertyBag interface [Print Devices], GetBytes method, printerextension/IPrinterPropertyBag::GetBytes, GetBytes method [Print Devices], IPrinterPropertyBag interface, GetBytes, IPrinterPropertyBag, print.iprinterpropertybag_getbytes
+ms.keywords: ",  , ,, ., :, B, G, GetBytes method [Print Devices], GetBytes method [Print Devices], IPrinterPropertyBag interface, GetBytes,IPrinterPropertyBag.GetBytes, I, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetBytes method, IPrinterPropertyBag::GetBytes, P, a, e, g, i, n, o, p, print.iprinterpropertybag_getbytes, printerextension/IPrinterPropertyBag::GetBytes, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

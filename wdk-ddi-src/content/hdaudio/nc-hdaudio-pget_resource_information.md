@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ba1f0fa2-77dd-4ec3-86c8-c5d74465743f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.getresourceinformation, GetResourceInformation callback function [Audio Devices], GetResourceInformation, PGET_RESOURCE_INFORMATION, PGET_RESOURCE_INFORMATION, hdaudio/GetResourceInformation, aud-prop2_03b48e3f-0650-45eb-b1d2-0db5e2e98636.xml
+ms.keywords: GetResourceInformation, GetResourceInformation callback function [Audio Devices], PGET_RESOURCE_INFORMATION, aud-prop2_03b48e3f-0650-45eb-b1d2-0db5e2e98636.xml, audio.getresourceinformation, hdaudio/GetResourceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

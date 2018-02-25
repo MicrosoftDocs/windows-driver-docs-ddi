@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: fc6b719d-3e05-4ff5-9d81-1e9326ff4ad4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: pos.ioctl_point_of_service_msr_authenticate_device, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
+ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_authenticate_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PosPropertyId
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

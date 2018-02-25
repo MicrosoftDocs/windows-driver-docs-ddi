@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f3e0ee33-42cd-4544-aad2-c353f7c30675
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_PDO_EVENT_CALLBACKS_INIT, kmdf.wdf_pdo_event_callbacks_init, wdf.wdf_pdo_event_callbacks_init, wdfpdo/WDF_PDO_EVENT_CALLBACKS_INIT, DFDeviceObjectFdoPdoRef_22fa36a8-bdfa-4aac-88aa-3fb50a4c1c42.xml, WDF_PDO_EVENT_CALLBACKS_INIT function
+ms.keywords: ",  , A, B, C, D, DFDeviceObjectFdoPdoRef_22fa36a8-bdfa-4aac-88aa-3fb50a4c1c42.xml, E, F, I, K, L, N, O, P, S, T, V, W, WDF_PDO_EVENT_CALLBACKS_INIT, WDF_PDO_EVENT_CALLBACKS_INIT function, _, kmdf.wdf_pdo_event_callbacks_init, wdf.wdf_pdo_event_callbacks_init, wdfpdo/WDF_PDO_EVENT_CALLBACKS_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ For a code example that uses <b>WDF_PDO_EVENT_CALLBACKS_INIT</b>, see <a href=".
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
-
-
-
 <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
+
+
+
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
 
 
 

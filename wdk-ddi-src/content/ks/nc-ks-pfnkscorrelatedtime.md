@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6f1b2e93-bc3a-4256-af7b-b015a874112b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kstrcorrelatedtime, KStrCorrelatedTime routine [Streaming Media Devices], KStrCorrelatedTime, PFNKSCORRELATEDTIME, PFNKSCORRELATEDTIME, ks/KStrCorrelatedTime, ksfunc_06af0f33-8ffd-4f9e-83ad-9f37f3b18f5d.xml
+ms.keywords: KStrCorrelatedTime, KStrCorrelatedTime routine [Streaming Media Devices], PFNKSCORRELATEDTIME, ks/KStrCorrelatedTime, ksfunc_06af0f33-8ffd-4f9e-83ad-9f37f3b18f5d.xml, stream.kstrcorrelatedtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -111,11 +111,11 @@ The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteri
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D8677CD9-46CB-41AB-8F05-418A31468C07
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.vmbchannelsetincomingprocessingatpassive, vmbuskernelmodeclientlibapi/VmbChannelSetIncomingProcessingAtPassive, VmbChannelSetIncomingProcessingAtPassive function [Network Drivers Starting with Windows Vista], VmbChannelSetIncomingProcessingAtPassive
+ms.keywords: ",  , A, C, I, P, S, V, VmbChannelSetIncomingProcessingAtPassive, VmbChannelSetIncomingProcessingAtPassive function [Network Drivers Starting with Windows Vista], a, b, c, e, g, h, i, l, m, n, netvista.vmbchannelsetincomingprocessingatpassive, o, r, s, t, v, vmbuskernelmodeclientlibapi/VmbChannelSetIncomingProcessingAtPassive"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

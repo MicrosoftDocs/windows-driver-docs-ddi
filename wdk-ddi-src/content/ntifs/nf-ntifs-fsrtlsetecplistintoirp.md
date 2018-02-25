@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 370da53a-3c20-4e45-8732-8f08aa2d96ae
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, FsRtlSetEcpListIntoIrp routine [Installable File System Drivers], FsRtlSetEcpListIntoIrp, ifsk.fsrtlsetecplistintoirp, ntifs/FsRtlSetEcpListIntoIrp
+ms.keywords: ",  , E, F, FsRtlSetEcpListIntoIrp, FsRtlSetEcpListIntoIrp routine [Installable File System Drivers], I, L, R, S, c, e, fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, i, ifsk.fsrtlsetecplistintoirp, l, n, ntifs/FsRtlSetEcpListIntoIrp, o, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

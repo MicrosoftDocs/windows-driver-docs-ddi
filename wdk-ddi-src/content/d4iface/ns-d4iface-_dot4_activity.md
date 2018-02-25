@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CD3DBBA5-AE5C-4DC1-BE52-696138494701
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PDOT4_ACTIVITY, PDOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY, _DOT4_ACTIVITY, print.dot4_activity, d4iface/DOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], DOT4_ACTIVITY, PDOT4_ACTIVITY structure pointer [Print Devices]"
+ms.keywords: ",  , *, *PDOT4_ACTIVITY, ,, 4, A, C, D, DOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], I, O, P, PDOT4_ACTIVITY, PDOT4_ACTIVITY structure pointer [Print Devices], T, V, Y, _, _DOT4_ACTIVITY, d4iface/DOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY, print.dot4_activity"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

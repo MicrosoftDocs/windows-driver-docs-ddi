@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: b9c38199-810a-462b-a805-9751de2a419e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_default_endpoint_add, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], EvtUcxUsbDeviceDefaultEndpointAdd, EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
+ms.keywords: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EvtUcxUsbDeviceDefaultEndpointAdd, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_default_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -218,11 +218,7 @@ EvtUsbDeviceDefaultEndpointAddEnd:
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
-
-
-
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
 
 
 
@@ -230,7 +226,7 @@ EvtUsbDeviceDefaultEndpointAddEnd:
 
 
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
 
 
@@ -238,7 +234,11 @@ EvtUsbDeviceDefaultEndpointAddEnd:
 
 
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
 
 
 

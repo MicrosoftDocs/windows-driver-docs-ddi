@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DDB42924-5C28-4737-92C1-4FB7A00B09AA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.logmarkerstringtable, LogMarkerStringTable callback function [Display Devices], LogMarkerStringTable, PFND3DDDI_LOGSTRINGTABLE, PFND3DDDI_LOGSTRINGTABLE, d3dumddi/LogMarkerStringTable
+ms.keywords: LogMarkerStringTable, LogMarkerStringTable callback function [Display Devices], PFND3DDDI_LOGSTRINGTABLE, d3dumddi/LogMarkerStringTable, display.logmarkerstringtable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

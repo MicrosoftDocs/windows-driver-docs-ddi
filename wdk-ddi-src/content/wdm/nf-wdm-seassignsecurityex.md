@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 94f6d3a3-7f0d-4f57-8240-3c4a10cf4488
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.seassignsecurityex, SeAssignSecurityEx, k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], wdm/SeAssignSecurityEx
+ms.keywords: ",  , A, E, S, SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], c, e, g, i, k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, n, r, s, t, u, wdm/SeAssignSecurityEx, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -353,19 +353,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
 
 
 
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-
-
-
 <a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 
 
 

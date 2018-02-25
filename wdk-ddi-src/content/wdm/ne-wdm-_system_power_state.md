@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PowerSystemSleeping1, PowerSystemUnspecified, PowerSystemHibernate, PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, wdm/PowerSystemSleeping3, PowerSystemShutdown, wdm/PowerSystemShutdown, PowerSystemWorking, wdm/PowerSystemWorking, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, SYSTEM_POWER_STATE, kernel.system_power_state, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], wdm/PowerSystemSleeping1, PowerSystemSleeping3, *PSYSTEM_POWER_STATE, _SYSTEM_POWER_STATE, wdm/PowerSystemMaximum, wdm/PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PowerSystemUnspecified, PowerSystemMaximum, wdm/PowerSystemSleeping2, PowerSystemSleeping2, wdm/SYSTEM_POWER_STATE
+ms.keywords: ",  , *, *PSYSTEM_POWER_STATE, ,, A, E, M, O, P, PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, PowerSystemMaximum, PowerSystemShutdown, PowerSystemSleeping1, PowerSystemSleeping2, PowerSystemSleeping3, PowerSystemUnspecified, PowerSystemWorking, R, S, SYSTEM_POWER_STATE, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], T, W, Y, _, _SYSTEM_POWER_STATE, kernel.system_power_state, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, wdm/PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, wdm/PowerSystemMaximum, wdm/PowerSystemShutdown, wdm/PowerSystemSleeping1, wdm/PowerSystemSleeping2, wdm/PowerSystemSleeping3, wdm/PowerSystemUnspecified, wdm/PowerSystemWorking, wdm/SYSTEM_POWER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

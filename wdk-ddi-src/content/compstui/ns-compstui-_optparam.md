@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d0cd2867-783c-4a41-a819-e919d4ffc1e3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_OPTPARAM, compstui/POPTPARAM, POPTPARAM structure pointer [Print Devices], compstui/OPTPARAM, POPTPARAM, OPTPARAM, *POPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, OPTPARAM structure [Print Devices], print.optparam"
+ms.keywords: ",  , *, *POPTPARAM, ,, A, M, O, OPTPARAM, OPTPARAM structure [Print Devices], P, POPTPARAM, POPTPARAM structure pointer [Print Devices], R, T, _, _OPTPARAM, compstui/OPTPARAM, compstui/POPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, print.optparam"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

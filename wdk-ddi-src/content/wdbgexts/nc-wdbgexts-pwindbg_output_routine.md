@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 33bcf4d4-1a79-4950-858e-10543faa9432
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], dprintf, PWINDBG_OUTPUT_ROUTINE, PWINDBG_OUTPUT_ROUTINE, wdbgexts/dprintf, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml
+ms.keywords: PWINDBG_OUTPUT_ROUTINE, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml, debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], wdbgexts/dprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

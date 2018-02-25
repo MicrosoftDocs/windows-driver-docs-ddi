@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d9703786-c46e-4466-a229-9ed0348cb45e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksinstallbusenuminterface, ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, swenum/KsInstallBusEnumInterface, KsInstallBusEnumInterface, KsInstallBusEnumInterface function [Streaming Media Devices]
+ms.keywords: ",  , B, E, I, K, KsInstallBusEnumInterface, KsInstallBusEnumInterface function [Streaming Media Devices], a, c, e, f, ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, l, m, n, r, s, stream.ksinstallbusenuminterface, swenum/KsInstallBusEnumInterface, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

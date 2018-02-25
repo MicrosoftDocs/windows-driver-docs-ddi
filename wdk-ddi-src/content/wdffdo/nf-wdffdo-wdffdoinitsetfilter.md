@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6e195025-4e70-44fa-a12d-0a98417381a0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfFdoInitSetFilter, wdffdo/WdfFdoInitSetFilter, WdfFdoInitSetFilter method, DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml, kmdf.wdffdoinitsetfilter, wdf.wdffdoinitsetfilter
+ms.keywords: ",  , DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml, F, I, S, W, WdfFdoInitSetFilter, WdfFdoInitSetFilter method, d, e, f, i, kmdf.wdffdoinitsetfilter, l, n, o, r, t, wdf.wdffdoinitsetfilter, wdffdo/WdfFdoInitSetFilter"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

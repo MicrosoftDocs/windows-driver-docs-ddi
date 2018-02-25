@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0d9627c3-ed1d-49d4-bdca-bc0e49efc234
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PFND3DKMT_ACQUIREKEYEDMUTEX, D3DKMTAcquireKeyedMutex function [Display Devices], d3dkmthk/D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex, OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, display.d3dkmtacquirekeyedmutex
+ms.keywords: ",  , 3, A, D, D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex function [Display Devices], K, M, OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, PFND3DKMT_ACQUIREKEYEDMUTEX, T, c, d, d3dkmthk/D3DKMTAcquireKeyedMutex, display.d3dkmtacquirekeyedmutex, e, i, q, r, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,7 +129,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> could not complete because of insufficient memory.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> could not complete because of insufficient memory.
 
 </td>
 </tr>

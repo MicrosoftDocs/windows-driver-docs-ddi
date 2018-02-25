@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 872A4445-8E0B-4804-ADDC-8CD9608E3EBF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, audio.iminiportstreamaudioenginenode_getstreampresentationposition, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode, GetStreamPresentationPosition method [Audio Devices], GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, GetStreamPresentationPosition
+ms.keywords: ",  , ,, ., :, A, E, G, GetStreamPresentationPosition method [Audio Devices], GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamPresentationPosition,IMiniportStreamAudioEngineNode.GetStreamPresentationPosition, I, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, M, N, P, S, a, audio.iminiportstreamaudioenginenode_getstreampresentationposition, d, e, g, i, m, n, o, p, portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

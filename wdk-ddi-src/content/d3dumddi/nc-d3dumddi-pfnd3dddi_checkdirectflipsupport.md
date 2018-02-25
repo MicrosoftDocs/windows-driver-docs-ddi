@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BB909041-0194-4828-ACA2-E3F6B1974DBB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.checkdirectflipsupport, CheckDirectFlipSupport callback function [Display Devices], CheckDirectFlipSupport, PFND3DDDI_CHECKDIRECTFLIPSUPPORT, PFND3DDDI_CHECKDIRECTFLIPSUPPORT, d3dumddi/CheckDirectFlipSupport
+ms.keywords: CheckDirectFlipSupport, CheckDirectFlipSupport callback function [Display Devices], PFND3DDDI_CHECKDIRECTFLIPSUPPORT, d3dumddi/CheckDirectFlipSupport, display.checkdirectflipsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

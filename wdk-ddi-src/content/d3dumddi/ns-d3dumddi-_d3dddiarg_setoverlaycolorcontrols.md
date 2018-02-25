@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8f04d2e-4c8c-4d1e-92e8-0f8722dbee5a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_SETOVERLAYCOLORCONTROLS structure [Display Devices], D3DDDIARG_SETOVERLAYCOLORCONTROLS, display.d3dddiarg_setoverlaycolorcontrols, d3dumddi/D3DDDIARG_SETOVERLAYCOLORCONTROLS, UMDisplayDriver_param_Structs_f6504b3e-8129-4936-add8-5bbf6ba8ee54.xml, _D3DDDIARG_SETOVERLAYCOLORCONTROLS
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_SETOVERLAYCOLORCONTROLS, D3DDDIARG_SETOVERLAYCOLORCONTROLS structure [Display Devices], E, G, I, L, N, O, R, S, T, UMDisplayDriver_param_Structs_f6504b3e-8129-4936-add8-5bbf6ba8ee54.xml, V, Y, _, _D3DDDIARG_SETOVERLAYCOLORCONTROLS, d3dumddi/D3DDDIARG_SETOVERLAYCOLORCONTROLS, display.d3dddiarg_setoverlaycolorcontrols"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ typedef struct _D3DDDIARG_SETOVERLAYCOLORCONTROLS {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols.md">SetOverlayColorControls</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols.md">SetOverlayColorControls</a>
 
 
 

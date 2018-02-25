@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 79213f47-ba4c-41b0-b095-1b5c25c79456
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsiwmi/ScsiPortWmiGetReturnStatus, storage.scsiportwmigetreturnstatus, ScsiPortWmiGetReturnStatus, scsiprt_cb3693a3-2fab-4d25-9c64-84327a7ef61c.xml, ScsiPortWmiGetReturnStatus macro [Storage Devices]
+ms.keywords: ",  , G, P, R, S, ScsiPortWmiGetReturnStatus, ScsiPortWmiGetReturnStatus macro [Storage Devices], W, a, c, e, i, m, n, o, r, s, scsiprt_cb3693a3-2fab-4d25-9c64-84327a7ef61c.xml, scsiwmi/ScsiPortWmiGetReturnStatus, storage.scsiportwmigetreturnstatus, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -84,15 +84,15 @@ A miniport driver must call <b>ScsiPortWmiGetReturnStatus</b> to obtain the valu
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
-
-
-
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 
 
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
 
 
 

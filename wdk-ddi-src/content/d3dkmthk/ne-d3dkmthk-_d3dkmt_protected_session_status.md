@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87a7de73-5e94-4016-b760-f3501ead08ac
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_PROTECTED_SESSION_STATUS, D3DKMT_PROTECTED_SESSION_STATUS_INVALID, display.d3dkmt-protected-session-status, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS_OK, D3DKMT_PROTECTED_SESSION_STATUS enumeration [Display Devices], _D3DKMT_PROTECTED_SESSION_STATUS, D3DKMT_PROTECTED_SESSION_STATUS_OK, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS_INVALID
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_PROTECTED_SESSION_STATUS, D3DKMT_PROTECTED_SESSION_STATUS enumeration [Display Devices], D3DKMT_PROTECTED_SESSION_STATUS_INVALID, D3DKMT_PROTECTED_SESSION_STATUS_OK, E, I, K, M, N, O, P, R, S, T, U, _, _D3DKMT_PROTECTED_SESSION_STATUS, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS_INVALID, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS_OK, display.d3dkmt-protected-session-status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 topictype:
 -	APIRef

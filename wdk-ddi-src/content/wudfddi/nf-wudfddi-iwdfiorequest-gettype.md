@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3be2ef6c-391e-4d1c-a1a6-e3228f5cc67d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest::GetType, wudfddi/IWDFIoRequest::GetType, GetType method, wdf.iwdfiorequest_gettype, GetType method, IWDFIoRequest interface, IWDFIoRequest interface, GetType method, UMDFRequestObjectRef_8f8bc7b0-b527-4325-a2dc-a9ef5e73cc28.xml, umdf.iwdfiorequest_gettype, IWDFIoRequest, GetType
+ms.keywords: ",  , ,, ., :, D, F, G, GetType method, GetType method, IWDFIoRequest interface, GetType,IWDFIoRequest.GetType, I, IWDFIoRequest, IWDFIoRequest interface, GetType method, IWDFIoRequest::GetType, R, T, UMDFRequestObjectRef_8f8bc7b0-b527-4325-a2dc-a9ef5e73cc28.xml, W, e, o, p, q, s, t, u, umdf.iwdfiorequest_gettype, wdf.iwdfiorequest_gettype, wudfddi/IWDFIoRequest::GetType, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,11 +81,11 @@ WDF_REQUEST_TYPE  GetType();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

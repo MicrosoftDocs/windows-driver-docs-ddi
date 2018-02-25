@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2DD7D46A-2E2B-482D-BFD6-D0AFD975107E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbmiracastsendmessagecallback, DxgkCbMiracastSendMessageCallback callback function [Display Devices], DxgkCbMiracastSendMessageCallback, DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK, DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK, dispmprt/DxgkCbMiracastSendMessageCallback
+ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK, DxgkCbMiracastSendMessageCallback, DxgkCbMiracastSendMessageCallback callback function [Display Devices], display.dxgkcbmiracastsendmessagecallback, dispmprt/DxgkCbMiracastSendMessageCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,11 +104,11 @@ The operating system guarantees that this function follows the zero level synchr
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 

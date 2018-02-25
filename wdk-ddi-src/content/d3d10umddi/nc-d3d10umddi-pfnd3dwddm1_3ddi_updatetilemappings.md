@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1C8FC920-145F-4AE9-B049-F6BDAE29D1F1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.updatetilemappings, UpdateTileMappings callback function [Display Devices], UpdateTileMappings, PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS, PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS, d3d10umddi/UpdateTileMappings
+ms.keywords: PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS, UpdateTileMappings, UpdateTileMappings callback function [Display Devices], d3d10umddi/UpdateTileMappings, display.updatetilemappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

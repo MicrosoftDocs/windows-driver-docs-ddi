@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.extremotedata_set_offset_bytes, engextcpp/ExtRemoteData::Set, Set method [Windows Debugging], ExtRemoteData interface, ExtRemoteData interface [Windows Debugging], Set method, ExtRemoteData, Set, ExtRemoteData::Set, Set method [Windows Debugging]
+ms.keywords: ",  , ,, ., :, D, E, ExtRemoteData, ExtRemoteData interface [Windows Debugging], Set method, ExtRemoteData::Set, R, S, Set method [Windows Debugging], Set method [Windows Debugging], ExtRemoteData interface, Set,ExtRemoteData.Set, a, debugger.extremotedata_set_offset_bytes, e, engextcpp/ExtRemoteData::Set, m, o, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,7 +98,7 @@ The <b>Set</b> method will read the contents of the specified region of memory a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 
 
@@ -106,11 +106,11 @@ The <b>Set</b> method will read the contents of the specified region of memory a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
 
 
 

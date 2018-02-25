@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a3552042-15e6-4778-8026-a4b615228dc7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlstringcchvprintf, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], RtlStringCchVPrintf, ntstrsafe/RtlStringCchVPrintfW, RtlStringCchVPrintfA, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml, RtlStringCchVPrintfW, ntstrsafe/RtlStringCchVPrintfA
+ms.keywords: ",  , C, P, R, RtlStringCchVPrintf, RtlStringCchVPrintfA, RtlStringCchVPrintfW, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], S, V, W, c, f, g, h, i, kernel.rtlstringcchvprintf, l, n, ntstrsafe/RtlStringCchVPrintfA, ntstrsafe/RtlStringCchVPrintfW, r, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -229,15 +229,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
+
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
 
 
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
-
-
-
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
 
 
 

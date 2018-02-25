@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0f3ca59b-f7e9-4bd7-a652-f7f0a6075d80
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], DvdCopyrightDescriptor, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], ntddcdvd/DvdDiskKeyDescriptor, ntddcdvd/DvdMaxDescriptor, storage.dvd_structure_format, ntddcdvd/DvdBCADescriptor, DvdManufacturerDescriptor, ntddcdvd/DvdPhysicalDescriptor, DvdPhysicalDescriptor, DvdBCADescriptor, ntddcdvd/DvdManufacturerDescriptor, ntddcdvd/DVD_STRUCTURE_FORMAT, ntddcdvd/DvdCopyrightDescriptor, DvdMaxDescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT, DvdDiskKeyDescriptor, PDVD_STRUCTURE_FORMAT, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml
+ms.keywords: ",  , *, *PDVD_STRUCTURE_FORMAT, ,, A, C, D, DVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], DvdBCADescriptor, DvdCopyrightDescriptor, DvdDiskKeyDescriptor, DvdManufacturerDescriptor, DvdMaxDescriptor, DvdPhysicalDescriptor, E, F, M, O, P, PDVD_STRUCTURE_FORMAT, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], R, S, T, U, V, _, ntddcdvd/DVD_STRUCTURE_FORMAT, ntddcdvd/DvdBCADescriptor, ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdDiskKeyDescriptor, ntddcdvd/DvdManufacturerDescriptor, ntddcdvd/DvdMaxDescriptor, ntddcdvd/DvdPhysicalDescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, storage.dvd_structure_format, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

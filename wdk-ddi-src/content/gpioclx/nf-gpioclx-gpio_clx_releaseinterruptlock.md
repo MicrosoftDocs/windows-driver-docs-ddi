@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 195B9FA2-F7B2-4EA0-9D53-63E438666760
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: gpioclx/GPIO_CLX_ReleaseInterruptLock, GPIO_CLX_ReleaseInterruptLock method [Parallel Ports], GPIO.gpio_clx_releaseinterruptlock, GPIO_CLX_ReleaseInterruptLock
+ms.keywords: ",  , C, G, GPIO.gpio_clx_releaseinterruptlock, GPIO_CLX_ReleaseInterruptLock, GPIO_CLX_ReleaseInterruptLock method [Parallel Ports], I, L, O, P, R, X, _, a, c, e, gpioclx/GPIO_CLX_ReleaseInterruptLock, k, l, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

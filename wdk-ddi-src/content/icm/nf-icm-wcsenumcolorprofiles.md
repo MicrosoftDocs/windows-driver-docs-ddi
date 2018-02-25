@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: icm/WcsEnumColorProfiles, print.wcsenumcolorprofiles, colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml, WcsEnumColorProfiles, WcsEnumColorProfiles function [Print Devices]
+ms.keywords: ",  , C, E, P, W, WcsEnumColorProfiles, WcsEnumColorProfiles function [Print Devices], c, colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml, e, f, i, icm/WcsEnumColorProfiles, l, m, n, o, print.wcsenumcolorprofiles, r, s, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,11 +118,11 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
-
-
-
 <a href="..\icm\nf-icm-wcsenumcolorprofilessize.md">WcsEnumColorProfilesSize</a>
+
+
+
+<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
 
 

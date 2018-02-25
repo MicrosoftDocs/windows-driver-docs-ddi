@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4D3DA81A-D79A-4299-A743-AFB0118DDF3F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_tcgdrv_relinquish_silo, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control code [Storage Devices], IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
+ms.keywords: IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, storage.ioctl_ehstor_tcgdrv_relinquish_silo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DXVA_VideoSample32
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

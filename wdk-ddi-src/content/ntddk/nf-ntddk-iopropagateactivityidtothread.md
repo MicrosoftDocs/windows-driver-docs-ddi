@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8E824793-53DF-4573-81B0-6FE925CCB4C4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iopropagateactivityidtothread, ntddk/IoPropagateActivityIdToThread, IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, I, IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture], P, T, a, c, d, e, g, h, i, kernel.iopropagateactivityidtothread, ntddk/IoPropagateActivityIdToThread, o, p, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

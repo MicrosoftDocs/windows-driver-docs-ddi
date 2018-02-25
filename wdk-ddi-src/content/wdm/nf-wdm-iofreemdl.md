@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e984400a-b94f-4848-af56-79695b327404
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoFreeMdl, kernel.iofreemdl, k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, IoFreeMdl routine [Kernel-Mode Driver Architecture], wdm/IoFreeMdl
+ms.keywords: ",  , F, I, IoFreeMdl, IoFreeMdl routine [Kernel-Mode Driver Architecture], M, d, e, k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, kernel.iofreemdl, l, o, r, wdm/IoFreeMdl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,11 @@ This routine frees only the specified MDL. Any MDLs that are chained to this MDL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
 
 

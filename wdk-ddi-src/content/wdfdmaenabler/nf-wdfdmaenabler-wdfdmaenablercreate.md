@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 750c9293-7662-41e0-9a2a-5c19e49ad20e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaEnablerCreate, WdfDmaEnablerCreate method, wdfdmaenabler/WdfDmaEnablerCreate, kmdf.wdfdmaenablercreate, wdf.wdfdmaenablercreate, DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml
+ms.keywords: ",  , C, D, DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, E, W, WdfDmaEnablerCreate, WdfDmaEnablerCreate method, a, b, d, e, f, kmdf.wdfdmaenablercreate, l, m, n, r, t, wdf.wdfdmaenablercreate, wdfdmaenabler/WdfDmaEnablerCreate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -230,11 +230,7 @@ WdfDeviceSetAlignmentRequirement(
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
-
-
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -242,7 +238,11 @@ WdfDeviceSetAlignmentRequirement(
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
 
 
 

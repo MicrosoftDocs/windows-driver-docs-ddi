@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0675dce8-4724-4880-b311-204fbb6fe194
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide, IDebugSymbols3::SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide, IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method
+ms.keywords: ",  , ,, ., 3, :, D, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method, IDebugSymbols3::SetImagePathWide, P, S, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, SetImagePathWide,IDebugSymbols3.SetImagePathWide, W, a, b, d, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide, e, g, h, i, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,11 +117,11 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
 
 
 

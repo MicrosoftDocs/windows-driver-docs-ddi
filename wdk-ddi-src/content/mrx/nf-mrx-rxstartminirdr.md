@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d5b091fa-13bf-4761-a03d-1790e7045b69
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxStartMinirdr, ifsk.rxstartminirdr, mrx/RxStartMinirdr, rxref_0ecf01ed-771f-44e8-a107-6d3a0d2beb02.xml, RxStartMinirdr function [Installable File System Drivers]
+ms.keywords: ",  , M, R, RxStartMinirdr, RxStartMinirdr function [Installable File System Drivers], S, a, d, i, ifsk.rxstartminirdr, mrx/RxStartMinirdr, n, r, rxref_0ecf01ed-771f-44e8-a107-6d3a0d2beb02.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,7 +178,7 @@ IRP_MJ_CREATE_NAMED_PIPE
 
 </li>
 </ul>
-The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the <b>RxStartMinirdr</b> routine is called. The RDBSS <b>RxStartMinirdr </b>routine is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to start the network mini-redirector. The call to <b>RxStartMinirdr </b>cannot be made from the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine of the network mini-redirector after a successful call to <b>RxRegisterMinirdr </b>since some of the start processing requires that the driver initialization be completed. 
+The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the <b>RxStartMinirdr</b> routine is called. The RDBSS <b>RxStartMinirdr </b>routine is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to start the network mini-redirector. The call to <b>RxStartMinirdr </b>cannot be made from the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine of the network mini-redirector after a successful call to <b>RxRegisterMinirdr </b>since some of the start processing requires that the driver initialization be completed. 
 
 When RDBSS receives an FSCTL or IOCTL request sent to network mini-redirector driver from user mode, RDBSS creates an RX_CONTEXT structure and passes this call to the network mini-redirector's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550709">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550715">MRxLowIOSubmit[LOWIO_OP_IOCTL]</a> call back routine defined in the MINIRDR_DISPATCH structure. The network mini-redirector's implementation of this call back routine would recognize the request to start and call <b>RxStartMinirdr</b>. This normal process of events is listed below in more detail:
 
@@ -245,11 +245,11 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 ## -see-also
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+
+
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -261,15 +261,7 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 
 
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">, RxpUnregisterMinirdr</a>
 
 
 
@@ -277,7 +269,19 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 
 
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">, RxpUnregisterMinirdr</a>
+
+
+
 <a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_calldown_ctx.md">MRxStart</a>
 
 
 
@@ -290,10 +294,6 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 
 <a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_calldown_ctx.md">MRxStart</a>
 
 
 

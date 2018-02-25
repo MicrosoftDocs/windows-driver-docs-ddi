@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77996a5f-aaf0-4c8c-9d29-498612ae9c0d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, GetSystemVersionValues method [Windows Debugging], IDebugControl4 interface, debugger.getsystemversionvalues, dbgeng/IDebugControl4::GetSystemVersionValues, IDebugControl4, GetSystemVersionValues, IDebugControl4 interface [Windows Debugging], GetSystemVersionValues method, IDebugControl4::GetSystemVersionValues, GetSystemVersionValues method [Windows Debugging]
+ms.keywords: ",  , ,, ., 4, :, C, D, G, GetSystemVersionValues method [Windows Debugging], GetSystemVersionValues method [Windows Debugging], IDebugControl4 interface, GetSystemVersionValues,IDebugControl4.GetSystemVersionValues, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSystemVersionValues method, IDebugControl4::GetSystemVersionValues, IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, S, V, a, b, dbgeng/IDebugControl4::GetSystemVersionValues, debugger.getsystemversionvalues, e, g, i, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

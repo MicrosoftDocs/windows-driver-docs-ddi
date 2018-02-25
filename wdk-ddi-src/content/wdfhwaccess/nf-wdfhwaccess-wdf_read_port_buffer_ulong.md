@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ED85628-E5EA-4D51-97B0-383C606CCC42
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_READ_PORT_BUFFER_ULONG function, WDF_READ_PORT_BUFFER_ULONG, wdfhwaccess/WDF_READ_PORT_BUFFER_ULONG, wdf.wdf_read_port_buffer_ulong
+ms.keywords: ",  , A, B, D, E, F, G, L, N, O, P, R, T, U, W, WDF_READ_PORT_BUFFER_ULONG, WDF_READ_PORT_BUFFER_ULONG function, _, wdf.wdf_read_port_buffer_ulong, wdfhwaccess/WDF_READ_PORT_BUFFER_ULONG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

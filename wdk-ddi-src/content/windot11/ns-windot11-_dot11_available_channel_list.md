@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11fee366-5853-4702-8179-d5b764174dce
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DOT11_AVAILABLE_CHANNEL_LIST, Native_802.11_data_types_c36ff4d6-283a-484c-8d68-0109c6150f4f.xml, windot11/DOT11_AVAILABLE_CHANNEL_LIST, _DOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST, netvista.dot11_available_channel_list
+ms.keywords: ",  , *, *PDOT11_AVAILABLE_CHANNEL_LIST, ,, 1, A, B, C, D, DOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], E, H, I, L, N, Native_802.11_data_types_c36ff4d6-283a-484c-8d68-0109c6150f4f.xml, O, P, PDOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], S, T, V, _, _DOT11_AVAILABLE_CHANNEL_LIST, netvista.dot11_available_channel_list, windot11/DOT11_AVAILABLE_CHANNEL_LIST, windot11/PDOT11_AVAILABLE_CHANNEL_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,12 +141,12 @@ This structure is used with
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-available-channel-list">
    OID_DOT11_AVAILABLE_CHANNEL_LIST</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

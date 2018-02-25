@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ea6f37e0-a46f-41d9-84f2-624f5727863a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/NDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER, ntddndis/PNDIS_WMI_SET_HEADER, netvista.ndis_wmi_set_header, PNDIS_WMI_SET_HEADER, ndis_wmi_ref_c7789da2-ca0f-48e3-8000-8abff7fe866e.xml, NDIS_WMI_SET_HEADER structure [Network Drivers Starting with Windows Vista], *PNDIS_WMI_SET_HEADER, _NDIS_WMI_SET_HEADER, PNDIS_WMI_SET_HEADER structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PNDIS_WMI_SET_HEADER, ,, A, D, E, H, I, M, N, NDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER structure [Network Drivers Starting with Windows Vista], P, PNDIS_WMI_SET_HEADER, PNDIS_WMI_SET_HEADER structure pointer [Network Drivers Starting with Windows Vista], R, S, T, W, _, _NDIS_WMI_SET_HEADER, ndis_wmi_ref_c7789da2-ca0f-48e3-8000-8abff7fe866e.xml, netvista.ndis_wmi_set_header, ntddndis/NDIS_WMI_SET_HEADER, ntddndis/PNDIS_WMI_SET_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -148,15 +148,15 @@ WMI GUID set requests that are specific to NDIS 6.0 and later versions include a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddienumvidpncofuncmodality, DxgkDdiEnumVidPnCofuncModality callback function [Display Devices], DxgkDdiEnumVidPnCofuncModality, DXGKDDI_ENUMVIDPNCOFUNCMODALITY, DXGKDDI_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DxgkDdiEnumVidPnCofuncModality, DmFunctions_e8c49ebf-a4af-4a36-a32b-0ab6874e660a.xml
+ms.keywords: DXGKDDI_ENUMVIDPNCOFUNCMODALITY, DmFunctions_e8c49ebf-a4af-4a36-a32b-0ab6874e660a.xml, DxgkDdiEnumVidPnCofuncModality, DxgkDdiEnumVidPnCofuncModality callback function [Display Devices], d3dkmddi/DxgkDdiEnumVidPnCofuncModality, display.dxgkddienumvidpncofuncmodality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

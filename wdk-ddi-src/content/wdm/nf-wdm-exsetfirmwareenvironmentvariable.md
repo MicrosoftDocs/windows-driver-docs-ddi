@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04447D92-EB9E-400B-A018-E70B186EA3DB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exsetfirmwareenvironmentvariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], ExSetFirmwareEnvironmentVariable, wdm/ExSetFirmwareEnvironmentVariable
+ms.keywords: ",  , E, ExSetFirmwareEnvironmentVariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], F, S, V, a, b, e, i, kernel.exsetfirmwareenvironmentvariable, l, m, n, o, r, t, v, w, wdm/ExSetFirmwareEnvironmentVariable, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -175,7 +175,7 @@ If you create a backup datastore, you can use the  <a href="..\wdm\nf-wdm-exgetf
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>
+<a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a>
 
 
 
@@ -183,7 +183,7 @@ If you create a backup datastore, you can use the  <a href="..\wdm\nf-wdm-exgetf
 
 
 
-<a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a>
+<a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>
 
 
 

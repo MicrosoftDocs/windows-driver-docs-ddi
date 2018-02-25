@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cd6cf9af-c600-465c-b8f3-ca0f972780a5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.flushadapterbuffers, FlushAdapterBuffers, FlushAdapterBuffers callback function [Kernel-Mode Driver Architecture], FlushAdapterBuffers, PFLUSH_ADAPTER_BUFFERS, PFLUSH_ADAPTER_BUFFERS, wdm/FlushAdapterBuffers, kdma_97ac2c04-7f7e-495d-b846-d4f0ea27bdac.xml
+ms.keywords: FlushAdapterBuffers, FlushAdapterBuffers callback function [Kernel-Mode Driver Architecture], PFLUSH_ADAPTER_BUFFERS, kdma_97ac2c04-7f7e-495d-b846-d4f0ea27bdac.xml, kernel.flushadapterbuffers, wdm/FlushAdapterBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -133,14 +133,6 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
-
-
-
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
@@ -149,11 +141,19 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
 <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
+
+
+
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 

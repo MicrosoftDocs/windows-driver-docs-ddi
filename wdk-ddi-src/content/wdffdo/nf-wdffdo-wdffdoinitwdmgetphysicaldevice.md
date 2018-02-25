@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: eba64244-50ff-4c59-a30f-46874c683e63
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdffdoinitwdmgetphysicaldevice, kmdf.wdffdoinitwdmgetphysicaldevice, WdfFdoInitWdmGetPhysicalDevice, wdffdo/WdfFdoInitWdmGetPhysicalDevice, WdfFdoInitWdmGetPhysicalDevice method, DFDeviceObjectFdoPdoRef_49386e60-3427-449c-8c36-fe2e8bc7fabb.xml
+ms.keywords: ",  , D, DFDeviceObjectFdoPdoRef_49386e60-3427-449c-8c36-fe2e8bc7fabb.xml, F, G, I, P, W, WdfFdoInitWdmGetPhysicalDevice, WdfFdoInitWdmGetPhysicalDevice method, a, c, d, e, f, h, i, kmdf.wdffdoinitwdmgetphysicaldevice, l, m, n, o, s, t, v, wdf.wdffdoinitwdmgetphysicaldevice, wdffdo/WdfFdoInitWdmGetPhysicalDevice, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

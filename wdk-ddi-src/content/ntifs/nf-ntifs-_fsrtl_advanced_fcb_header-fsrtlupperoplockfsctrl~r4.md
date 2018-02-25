@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1E3C48A0-A161-481C-BF69-69D3FA7B941F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlUpperOplockFsctrl, OPLOCK_LEVEL_CACHE_HANDLE, ifsk.fsrtlupperoplockfsctrl, OPLOCK_LEVEL_CACHE_READ, FsRtlUpperOplockFsctrl routine [Installable File System Drivers], FsRtlUpperOplockFsctrl, OPLOCK_LEVEL_CACHE_WRITE
+ms.keywords: ",  , F, FsRtlUpperOplockFsctrl, FsRtlUpperOplockFsctrl routine [Installable File System Drivers], O, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, R, U, c, e, ifsk.fsrtlupperoplockfsctrl, k, l, ntifs/FsRtlUpperOplockFsctrl, o, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

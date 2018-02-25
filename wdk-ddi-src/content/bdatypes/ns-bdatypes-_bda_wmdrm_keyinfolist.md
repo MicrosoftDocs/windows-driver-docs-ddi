@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0A151425-C22F-4201-855F-FF6FECE611D7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PBDA_WMDRM_KEYINFOLIST structure pointer [Streaming Media Devices], PBDA_WMDRM_KEYINFOLIST, _BDA_WMDRM_KEYINFOLIST, bdatypes/PBDA_WMDRM_KEYINFOLIST, bdatypes/BDA_WMDRM_KEYINFOLIST, stream.bda_wmdrm_keyinfolist, *PBDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST structure [Streaming Media Devices], BDA_WMDRM_KEYINFOLIST
+ms.keywords: ",  , *, *PBDA_WMDRM_KEYINFOLIST, ,, A, B, BDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST structure [Streaming Media Devices], D, E, F, I, K, L, M, N, O, P, PBDA_WMDRM_KEYINFOLIST, PBDA_WMDRM_KEYINFOLIST structure pointer [Streaming Media Devices], R, S, T, W, Y, _, _BDA_WMDRM_KEYINFOLIST, bdatypes/BDA_WMDRM_KEYINFOLIST, bdatypes/PBDA_WMDRM_KEYINFOLIST, stream.bda_wmdrm_keyinfolist"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

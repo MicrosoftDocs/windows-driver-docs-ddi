@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6a0a1953-070d-4335-a906-4ca3fe8a04e1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.querybustime, QueryBusTime, PUSB_BUSIFFN_QUERY_BUS_TIME, QueryBusTime callback function [Buses], QueryBusTime, USB_BUSIFFN_QUERY_BUS_TIME, USB_BUSIFFN_QUERY_BUS_TIME, usbbusif/QueryBusTime, usbinterKR_857e67cf-8b61-43e3-b07f-25968e2672d4.xml
+ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME, QueryBusTime, QueryBusTime callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME, buses.querybustime, usbbusif/QueryBusTime, usbinterKR_857e67cf-8b61-43e3-b07f-25968e2672d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c96ed5ad-34d8-4530-8d00-483e5aee7261
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.getdmaalignment, GetDmaAlignment, GetDmaAlignment callback function [Kernel-Mode Driver Architecture], GetDmaAlignment, PGET_DMA_ALIGNMENT, PGET_DMA_ALIGNMENT, wdm/GetDmaAlignment, kdma_3b830c2d-6c3d-477c-b781-c9d1a7dbe5bf.xml
+ms.keywords: GetDmaAlignment, GetDmaAlignment callback function [Kernel-Mode Driver Architecture], PGET_DMA_ALIGNMENT, kdma_3b830c2d-6c3d-477c-b781-c9d1a7dbe5bf.xml, kernel.getdmaalignment, wdm/GetDmaAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,15 +105,15 @@ A driver can call this routine to determine alignment requirements for DMA buffe
 
 
 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

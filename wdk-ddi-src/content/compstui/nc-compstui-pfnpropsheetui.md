@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b78d0dd7-1fe9-4b7e-8f51-4b5dc5fa2571
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.pfnpropsheetui, PFNPROPSHEETUI callback function [Print Devices], PFNPROPSHEETUI, compstui/PFNPROPSHEETUI, cpsuifnc_a30dfbce-634a-4eb9-b86c-fdd14d8333fd.xml
+ms.keywords: PFNPROPSHEETUI, PFNPROPSHEETUI callback function [Print Devices], compstui/PFNPROPSHEETUI, cpsuifnc_a30dfbce-634a-4eb9-b86c-fdd14d8333fd.xml, print.pfnpropsheetui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

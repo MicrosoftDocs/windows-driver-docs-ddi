@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2eb4b5c3-db06-4d21-8937-847734d7ac2f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_get_configuration, IOCTL_CDROM_GET_CONFIGURATION control code [Storage Devices], IOCTL_CDROM_GET_CONFIGURATION, ntddcdrm/IOCTL_CDROM_GET_CONFIGURATION, k307_355fe40f-4056-4bd7-8e79-8824c38589f6.xml
+ms.keywords: IOCTL_CDROM_GET_CONFIGURATION, IOCTL_CDROM_GET_CONFIGURATION control code [Storage Devices], k307_355fe40f-4056-4bd7-8e79-8824c38589f6.xml, ntddcdrm/IOCTL_CDROM_GET_CONFIGURATION, storage.ioctl_cdrom_get_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -116,11 +116,11 @@ The <b>Information</b> field is set to the number of bytes that are returned. Th
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ns-ntddmmc-_get_configuration_ioctl_input.md">GET_CONFIGURATION_IOCTL_INPUT</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
 
 
 

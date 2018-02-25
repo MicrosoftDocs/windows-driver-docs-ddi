@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82951291-cf3e-486b-ad0e-f347fefe0370
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidstartio, HwVidStartIO callback function [Display Devices], HwVidStartIO, PVIDEO_HW_START_IO, PVIDEO_HW_START_IO, video/HwVidStartIO, VideoMiniport_Functions_5dd4317e-f80d-4f93-86b5-b7c83aca2546.xml
+ms.keywords: HwVidStartIO, HwVidStartIO callback function [Display Devices], PVIDEO_HW_START_IO, VideoMiniport_Functions_5dd4317e-f80d-4f93-86b5-b7c83aca2546.xml, display.hwvidstartio, video/HwVidStartIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -128,15 +128,15 @@ However, every miniport driver's <i>HwVidStartIO</i> function must complete each
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
-
-
-
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
 
 
 <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
 
 
 

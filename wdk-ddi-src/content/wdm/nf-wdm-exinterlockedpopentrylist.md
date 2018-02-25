@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 339e688f-64ec-402f-bd28-9fa487acb984
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k102_4673c5a1-a650-48c3-934f-c35c202277cc.xml, ExInterlockedPopEntryList, wdm/ExInterlockedPopEntryList, kernel.exinterlockedpopentrylist, ExInterlockedPopEntryList routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , E, ExInterlockedPopEntryList, ExInterlockedPopEntryList routine [Kernel-Mode Driver Architecture], I, L, P, c, d, e, i, k, k102_4673c5a1-a650-48c3-934f-c35c202277cc.xml, kernel.exinterlockedpopentrylist, l, n, o, p, r, s, t, wdm/ExInterlockedPopEntryList, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,7 +103,15 @@ The <b>ExInterlockedPopEntryList</b> routine can be called at any IRQL. The stor
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+
+
+
 <a href="..\wudfwdm\nf-wudfwdm-popentrylist.md">PopEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
 
 
 
@@ -111,15 +119,7 @@ The <b>ExInterlockedPopEntryList</b> routine can be called at any IRQL. The stor
 
 
 
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
 
 
 

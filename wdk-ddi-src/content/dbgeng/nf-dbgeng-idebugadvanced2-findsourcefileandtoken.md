@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 92748e47-c536-4bf2-be10-91b8c5f1206d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugAdvanced3::FindSourceFileAndToken, debugger.findsourcefileandtoken, dbgeng/IDebugAdvanced2::FindSourceFileAndToken, IDebugAdvanced2, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced2 interface, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced3 interface, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced3::FindSourceFileAndToken, IDebugAdvanced2::FindSourceFileAndToken, FindSourceFileAndToken, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, IDebugAdvanced2 interface [Windows Debugging], FindSourceFileAndToken method
+ms.keywords: ",  , ,, ., 2, :, A, D, F, FindSourceFileAndToken method [Windows Debugging], FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced2 interface, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced3 interface, FindSourceFileAndToken,IDebugAdvanced2.FindSourceFileAndToken, I, IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced2::FindSourceFileAndToken, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced3::FindSourceFileAndToken, IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, S, T, a, b, c, d, dbgeng/IDebugAdvanced2::FindSourceFileAndToken, dbgeng/IDebugAdvanced3::FindSourceFileAndToken, debugger.findsourcefileandtoken, e, g, i, k, l, n, o, r, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -277,11 +277,7 @@ The value DEBUG_FIND_SOURCE_DEFULT defines the default set of flags, which means
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
 
 
@@ -289,7 +285,7 @@ The value DEBUG_FIND_SOURCE_DEFULT defines the default set of flags, which means
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
 
 
 
@@ -298,6 +294,10 @@ The value DEBUG_FIND_SOURCE_DEFULT defines the default set of flags, which means
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
 
 

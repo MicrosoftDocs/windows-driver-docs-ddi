@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d7160747-d81c-407a-bbf0-7ec5b3210c13
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PPRINTPROCESSOROPENDATA structure pointer [Print Devices], PRINTPROCESSOROPENDATA structure [Print Devices], PPRINTPROCESSOROPENDATA, winsplp/LPPRINTPROCESSOROPENDATA, winsplp/PRINTPROCESSOROPENDATA, _PRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA, spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, PRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA, winsplp/PPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], print.printprocessoropendata, *PPRINTPROCESSOROPENDATA
+ms.keywords: ",  , *, *LPPRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, ,, A, C, D, E, I, L, LPPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], N, O, P, PPRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA structure pointer [Print Devices], PRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA structure [Print Devices], R, S, T, _, _PRINTPROCESSOROPENDATA, print.printprocessoropendata, spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, winsplp/LPPRINTPROCESSOROPENDATA, winsplp/PPRINTPROCESSOROPENDATA, winsplp/PRINTPROCESSOROPENDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a884920c-1824-418f-90c8-0edf1381678b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winsplp/PartialReplyPrinterChangeNotification, print.partialreplyprinterchangenotification, PartialReplyPrinterChangeNotification, spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, PartialReplyPrinterChangeNotification function [Print Devices]
+ms.keywords: ",  , C, N, P, PartialReplyPrinterChangeNotification, PartialReplyPrinterChangeNotification function [Print Devices], R, a, c, e, f, g, h, i, l, n, o, p, print.partialreplyprinterchangenotification, r, spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, t, winsplp/PartialReplyPrinterChangeNotification, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9e9a53f-9f4a-4f44-befa-f11d1fb3372a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SeAuditingFileEvents, ntifs/SeAuditingFileEvents, ifsk.seauditingfileevents, SeAuditingFileEvents routine [Installable File System Drivers], seref_b4b8468e-cfb2-4685-9811-2b2733e9fb36.xml
+ms.keywords: ",  , A, E, F, S, SeAuditingFileEvents, SeAuditingFileEvents routine [Installable File System Drivers], d, e, g, i, ifsk.seauditingfileevents, l, n, ntifs/SeAuditingFileEvents, s, seref_b4b8468e-cfb2-4685-9811-2b2733e9fb36.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,10 +98,6 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
 
 
@@ -110,11 +106,15 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37e69980-fb3a-4abe-a76b-b2bd6827ae64
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dumddi/D3DDDIARG_VIEWPORTINFO, UMDisplayDriver_param_Structs_ece888d8-61e4-4e7f-b052-c6e0169a6a97.xml, _D3DDDIARG_VIEWPORTINFO, D3DDDIARG_VIEWPORTINFO structure [Display Devices], D3DDDIARG_VIEWPORTINFO, display.d3dddiarg_viewportinfo
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_VIEWPORTINFO, D3DDDIARG_VIEWPORTINFO structure [Display Devices], E, F, G, I, N, O, P, R, T, UMDisplayDriver_param_Structs_ece888d8-61e4-4e7f-b052-c6e0169a6a97.xml, V, W, _, _D3DDDIARG_VIEWPORTINFO, d3dumddi/D3DDDIARG_VIEWPORTINFO, display.d3dddiarg_viewportinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

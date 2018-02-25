@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 0f2c321c-f03b-4655-bbd1-25fcc6c52cfa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntddk/PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER union [Buses], *PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER union pointer [Buses], pci_struct_ef335e30-c046-4066-8411-27bf96cbcd08.xml, _PCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI.pci_express_root_control_register
+ms.keywords: ",  , *, *PPCI_EXPRESS_ROOT_CONTROL_REGISTER, ,, C, E, G, I, L, N, O, P, PCI.pci_express_root_control_register, PCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER union pointer [Buses], R, S, T, X, _, _PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CONTROL_REGISTER, pci_struct_ef335e30-c046-4066-8411-27bf96cbcd08.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: aa04ef8c-5b69-4d7e-8af4-8cbdb680a23a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiasWritePageBufToFile, wiamdef/wiasWritePageBufToFile, image.wiaswritepagebuftofile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, wiasWritePageBufToFile function [Imaging Devices]
+ms.keywords: ",  , B, F, P, T, W, a, e, f, g, i, image.wiaswritepagebuftofile, l, o, r, s, t, u, w, wiamdef/wiasWritePageBufToFile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, wiasWritePageBufToFile, wiasWritePageBufToFile function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,15 +139,15 @@ This is essentially what you would do if you used the file handle directly. The 
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md">wiasWriteBufToFile</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftostream.md">wiasWritePageBufToStream</a>
 
 
 
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md">wiasWriteBufToFile</a>
 
 
 

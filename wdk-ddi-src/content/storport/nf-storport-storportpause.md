@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 304df6fb-8586-454a-a89a-24ac8848d3a1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortPause routine [Storage Devices], storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml, StorPortPause, storport/StorPortPause, storage.storportpause
+ms.keywords: ",  , P, S, StorPortPause, StorPortPause routine [Storage Devices], a, e, o, r, s, storage.storportpause, storport/StorPortPause, storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

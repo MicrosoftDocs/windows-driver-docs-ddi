@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9891e360-ca09-4ebb-8cf4-d08b3456910c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetNameCount method, GetNameCount, IWDFNamedPropertyStore, IWDFNamedPropertyStore interface, GetNameCount method, wdf.iwdfnamedpropertystore_getnamecount, umdf.iwdfnamedpropertystore_getnamecount, UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml, wudfddi/IWDFNamedPropertyStore::GetNameCount, GetNameCount method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore::GetNameCount
+ms.keywords: ",  , ,, ., :, C, D, F, G, GetNameCount method, GetNameCount method, IWDFNamedPropertyStore interface, GetNameCount,IWDFNamedPropertyStore.GetNameCount, I, IWDFNamedPropertyStore, IWDFNamedPropertyStore interface, GetNameCount method, IWDFNamedPropertyStore::GetNameCount, N, P, S, UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml, W, a, d, e, m, n, o, p, r, t, u, umdf.iwdfnamedpropertystore_getnamecount, wdf.iwdfnamedpropertystore_getnamecount, wudfddi/IWDFNamedPropertyStore::GetNameCount, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

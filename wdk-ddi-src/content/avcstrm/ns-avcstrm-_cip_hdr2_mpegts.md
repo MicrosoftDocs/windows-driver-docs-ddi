@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e1f46926-8c2b-46ff-9adb-5332fba17e3b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.cip_hdr2_mpegts, avcstrm/PCIP_HDR2_MPEGTS, PCIP_HDR2_MPEGTS structure pointer [Streaming Media Devices], CIP_HDR2_MPEGTS structure [Streaming Media Devices], avcsref_80577192-cbb5-401a-a840-5970841111ab.xml, _CIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS, avcstrm/CIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS, PCIP_HDR2_MPEGTS
+ms.keywords: ",  , *, *PCIP_HDR2_MPEGTS, ,, 2, C, CIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS structure [Streaming Media Devices], D, E, G, H, I, M, P, PCIP_HDR2_MPEGTS, PCIP_HDR2_MPEGTS structure pointer [Streaming Media Devices], R, S, T, _, _CIP_HDR2_MPEGTS, avcsref_80577192-cbb5-401a-a840-5970841111ab.xml, avcstrm/CIP_HDR2_MPEGTS, avcstrm/PCIP_HDR2_MPEGTS, stream.cip_hdr2_mpegts"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

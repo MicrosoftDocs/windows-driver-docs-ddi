@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a20e955-7ef1-4cb7-8081-42fb69b55fb6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMDT_VIDPN_TARGET_MODE, D3DKMDT_VIDPN_TARGET_MODE structure [Display Devices], _D3DKMDT_VIDPN_TARGET_MODE, display.d3dkmdt_vidpn_target_mode, DmStructs_a1ac1f39-cd89-458b-95b5-91fd5cbc507e.xml, d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE
+ms.keywords: ",  , ,, 3, A, D, D3DKMDT_VIDPN_TARGET_MODE, D3DKMDT_VIDPN_TARGET_MODE structure [Display Devices], DmStructs_a1ac1f39-cd89-458b-95b5-91fd5cbc507e.xml, E, G, I, K, M, N, O, P, R, T, V, _, _D3DKMDT_VIDPN_TARGET_MODE, d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE, display.d3dkmdt_vidpn_target_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

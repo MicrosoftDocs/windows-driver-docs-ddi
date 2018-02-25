@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69a8ad3f-641d-4aaf-9184-e56dee6ca347
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeQueryPriorityThread, k105_6a330d84-aa5a-4822-a4d3-7b68aa9e8882.xml, KeQueryPriorityThread routine [Kernel-Mode Driver Architecture], kernel.kequeryprioritythread, wdm/KeQueryPriorityThread
+ms.keywords: ",  , K, KeQueryPriorityThread, KeQueryPriorityThread routine [Kernel-Mode Driver Architecture], P, Q, T, a, d, e, h, i, k105_6a330d84-aa5a-4822-a4d3-7b68aa9e8882.xml, kernel.kequeryprioritythread, o, r, t, u, wdm/KeQueryPriorityThread, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,11 @@ Thread priorities range from 0 to 31, where 0 is the lowest priority and 31 is t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
@@ -102,10 +106,6 @@ Thread priorities range from 0 to 31, where 0 is the lowest priority and 31 is t
 
 
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
-
-
-
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
 
 
 

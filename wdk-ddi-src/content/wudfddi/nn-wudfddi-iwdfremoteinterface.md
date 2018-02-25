@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10d4cd20-c797-455c-b16d-00982be5c1b7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfremoteinterface, IWDFRemoteInterface interface, IWDFRemoteInterface interface, described, IWDFRemoteInterface, wudfddi/IWDFRemoteInterface
+ms.keywords: IWDFRemoteInterface, IWDFRemoteInterface interface, IWDFRemoteInterface interface, described, wdf.iwdfremoteinterface, wudfddi/IWDFRemoteInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -61,7 +61,7 @@ UMDF drivers receive a pointer to this interface by calling the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556889">IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent</a>
 
 
 
@@ -69,7 +69,7 @@ UMDF drivers receive a pointer to this interface by calling the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556889">IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 
 

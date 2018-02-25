@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4579703-0d51-4e23-b458-b2be43951dac
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlValidSid routine [Installable File System Drivers], ntifs/RtlValidSid, ifsk.rtlvalidsid, RtlValidSid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml
+ms.keywords: ",  , R, RtlValidSid, RtlValidSid routine [Installable File System Drivers], S, V, a, d, i, ifsk.rtlvalidsid, l, ntifs/RtlValidSid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtllengthrequiredsid.md">RtlLengthRequiredSid</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtllengthrequiredsid.md">RtlLengthRequiredSid</a>
 
 
 
@@ -105,7 +105,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
 
 
 
@@ -117,7 +117,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
 
 
 

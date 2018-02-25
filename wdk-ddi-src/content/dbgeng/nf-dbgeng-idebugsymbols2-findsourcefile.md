@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 960d02a8-0929-4ac5-acf8-8386cae543f8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: FindSourceFile method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], FindSourceFile method, FindSourceFile method [Windows Debugging], IDebugSymbols2 interface, FindSourceFile, debugger.findsourcefile, FindSourceFile method [Windows Debugging], IDebugSymbols2::FindSourceFile, IDebugSymbols2, FindSourceFile method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::FindSourceFile, IDebugSymbols, IDebugSymbols::FindSourceFile, IDebugSymbols2 interface [Windows Debugging], FindSourceFile method, IDebugSymbols3::FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, dbgeng/IDebugSymbols3::FindSourceFile, IDebugSymbols3 interface [Windows Debugging], FindSourceFile method
+ms.keywords: ",  , ,, ., 2, :, D, F, FindSourceFile method [Windows Debugging], FindSourceFile method [Windows Debugging], IDebugSymbols interface, FindSourceFile method [Windows Debugging], IDebugSymbols2 interface, FindSourceFile method [Windows Debugging], IDebugSymbols3 interface, FindSourceFile,IDebugSymbols.FindSourceFile, FindSourceFile,IDebugSymbols2.FindSourceFile, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], FindSourceFile method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], FindSourceFile method, IDebugSymbols2::FindSourceFile, IDebugSymbols3 interface [Windows Debugging], FindSourceFile method, IDebugSymbols3::FindSourceFile, IDebugSymbols::FindSourceFile, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, S, b, c, d, dbgeng/IDebugSymbols2::FindSourceFile, dbgeng/IDebugSymbols3::FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, debugger.findsourcefile, e, g, i, l, m, n, o, r, s, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -186,23 +186,15 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -210,7 +202,15 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
 
 
 

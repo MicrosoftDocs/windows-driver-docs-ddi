@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 673f53e8-67ce-481d-be1b-ea4146b9776a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoTargetFormatRequestForIoctl method, DFIOTargetRef_065d8ea7-7be0-41c4-be6b-648606404139.xml, wdf.wdfiotargetformatrequestforioctl, WdfIoTargetFormatRequestForIoctl, wdfiotarget/WdfIoTargetFormatRequestForIoctl, kmdf.wdfiotargetformatrequestforioctl
+ms.keywords: ",  , DFIOTargetRef_065d8ea7-7be0-41c4-be6b-648606404139.xml, F, I, R, T, W, WdfIoTargetFormatRequestForIoctl, WdfIoTargetFormatRequestForIoctl method, a, c, d, e, f, g, kmdf.wdfiotargetformatrequestforioctl, l, m, o, q, r, s, t, u, wdf.wdfiotargetformatrequestforioctl, wdfiotarget/WdfIoTargetFormatRequestForIoctl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -350,27 +350,15 @@ NICSendOidRequestToTargetAsync(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforinternalioctl.md">WdfIoTargetFormatRequestForInternalIoctl</a>
 
 
 
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 
@@ -382,7 +370,19 @@ NICSendOidRequestToTargetAsync(
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 
@@ -390,7 +390,7 @@ NICSendOidRequestToTargetAsync(
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
 
 
@@ -398,7 +398,7 @@ NICSendOidRequestToTargetAsync(
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
 
 
 

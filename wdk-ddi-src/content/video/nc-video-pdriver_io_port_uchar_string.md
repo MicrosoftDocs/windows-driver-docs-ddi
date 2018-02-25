@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7158cd6c-a662-46e8-bb7c-ea852797c39e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.svgahwioportucharstring, SvgaHwIoPortUcharString callback function [Display Devices], SvgaHwIoPortUcharString, PDRIVER_IO_PORT_UCHAR_STRING, PDRIVER_IO_PORT_UCHAR_STRING, video/SvgaHwIoPortUcharString, VideoMiniport_Functions_4008d0c6-1185-46fd-acb1-60a8ddd3b45b.xml
+ms.keywords: PDRIVER_IO_PORT_UCHAR_STRING, SvgaHwIoPortUcharString, SvgaHwIoPortUcharString callback function [Display Devices], VideoMiniport_Functions_4008d0c6-1185-46fd-acb1-60a8ddd3b45b.xml, display.svgahwioportucharstring, video/SvgaHwIoPortUcharString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,19 +137,7 @@ If one or more application-issued x86 <b>INSB</b> or <b>OUTSB</b> instructions m
 
 ## -see-also
 
-<a href="..\video\nc-video-pdriver_io_port_uchar.md">SvgaHwIoPortUchar</a>
-
-
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
-
-
-
-<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
 
 
 
@@ -157,11 +145,23 @@ If one or more application-issued x86 <b>INSB</b> or <b>OUTSB</b> instructions m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
 
 
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+
+
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\video\nc-video-pdriver_io_port_uchar.md">SvgaHwIoPortUchar</a>
 
 
 

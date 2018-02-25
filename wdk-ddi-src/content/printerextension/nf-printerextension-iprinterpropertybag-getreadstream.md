@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: BDA58F6A-A245-4616-866C-6D1734EFB469
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetReadStream method [Print Devices], IPrinterPropertyBag interface, print.iprinterpropertybag_getreadstream, IPrinterPropertyBag::GetReadStream, GetReadStream method [Print Devices], IPrinterPropertyBag interface [Print Devices], GetReadStream method, GetReadStream, IPrinterPropertyBag, printerextension/IPrinterPropertyBag::GetReadStream
+ms.keywords: ",  , ,, ., :, B, G, GetReadStream method [Print Devices], GetReadStream method [Print Devices], IPrinterPropertyBag interface, GetReadStream,IPrinterPropertyBag.GetReadStream, I, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetReadStream method, IPrinterPropertyBag::GetReadStream, P, R, S, a, d, e, g, i, m, n, o, p, print.iprinterpropertybag_getreadstream, printerextension/IPrinterPropertyBag::GetReadStream, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

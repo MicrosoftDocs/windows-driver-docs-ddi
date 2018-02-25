@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 11fd8fc0-98aa-4b06-973c-2b175144da42
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: portcls/PPCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR, portcls/PCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR structure [Audio Devices], audio.pcfilter_descriptor, audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml, *PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR structure pointer [Audio Devices]
+ms.keywords: ",  , *, *PPCFILTER_DESCRIPTOR, ,, C, D, E, F, I, L, O, P, PCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR structure [Audio Devices], PPCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR structure pointer [Audio Devices], R, S, T, _, audio.pcfilter_descriptor, audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml, portcls/PCFILTER_DESCRIPTOR, portcls/PPCFILTER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,124 +78,62 @@ typedef struct {
 
 
 
-### -field portcls.Version
-
- 
-
-
-### -field portcls.AutomationTable
-
- 
-
-
-### -field portcls.PinSize
-
- 
-
-
-### -field portcls.PinCount
-
- 
-
-
-### -field portcls.Pins
-
- 
-
-
-### -field portcls.NodeSize
-
- 
-
-
-### -field portcls.NodeCount
-
- 
-
-
-### -field portcls.Nodes
-
- 
-
-
-### -field portcls.ConnectionCount
-
- 
-
-
-### -field portcls.Connections
-
- 
-
-
-### -field portcls.CategoryCount
-
- 
-
-
-### -field portcls.Categories
-
- 
-
-
-
-
-#### - Version
+### -field Version
 
 Reserved. Initialize to zero.
 
 
-#### - AutomationTable
+### -field AutomationTable
 
 Pointer to the automation table. This is a structure of type <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>. The automation table specifies the handlers for the properties of the filter instance.
 
 
-#### - PinSize
+### -field PinSize
 
 Specifies the size in bytes of each element in the <b>Pins</b> array. This value should be a multiple of eight and should be at least <b>sizeof</b>(<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a>). Larger values allow client-specific descriptor information to be appended to pin descriptors.
 
 
-#### - PinCount
+### -field PinCount
 
 Specifies the number of pin descriptors in the <b>Pins</b> array.
 
 
-#### - Pins
+### -field Pins
 
 Pointer to the array of pin descriptors. Each array element is a <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a> structure.
 
 
-#### - NodeSize
+### -field NodeSize
 
 Specifies the size in bytes of each element in the <b>Nodes</b> array. This value should be a multiple of eight and should be at least <b>sizeof</b>(<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_8.md">PCNODE_DESCRIPTOR</a>). Larger values allow client-specific descriptor information to be appended to node descriptors.
 
 
-#### - NodeCount
+### -field NodeCount
 
 Specifies the number of node descriptors in the <b>Nodes</b> array.
 
 
-#### - Nodes
+### -field Nodes
 
 Pointer to the array of node descriptors. Each array element is a <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_8.md">PCNODE_DESCRIPTOR</a> structure.
 
 
-#### - ConnectionCount
+### -field ConnectionCount
 
 Specifies the number of connections in the <b>Connections</b> array.
 
 
-#### - Connections
+### -field Connections
 
 Pointer to the array of connections descriptors. Each array element is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> structure.
 
 
-#### - CategoryCount
+### -field CategoryCount
 
 Specifies the number of GUIDs in the <b>Categories</b> array.
 
 
-#### - Categories
+### -field Categories
 
 Pointer to the array of GUIDs that specifies the categories that the object belongs to. See the discussion of topology categories in <a href="https://msdn.microsoft.com/824cc6a2-702a-4e51-91b1-ab776b1babf1">Installing Device Interfaces for an Audio Adapter</a>.
 
@@ -211,6 +149,10 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 ## -see-also
 
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a>
+
+
+
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
 
 
@@ -219,15 +161,11 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
 
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_8.md">PCNODE_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E30A169E-0EC6-4128-B268-5FC1CD37A877
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.evt_vmb_channel_processing_complete, EvtVmbChannelProcessingComplete callback function [Network Drivers Starting with Windows Vista], EvtVmbChannelProcessingComplete, EVT_VMB_CHANNEL_PROCESSING_COMPLETE, EVT_VMB_CHANNEL_PROCESSING_COMPLETE, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessingComplete, PFN_VMB_CHANNEL_PROCESSING_COMPLETE callback function pointer [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESSING_COMPLETE
+ms.keywords: EVT_VMB_CHANNEL_PROCESSING_COMPLETE, EvtVmbChannelProcessingComplete, EvtVmbChannelProcessingComplete callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESSING_COMPLETE, PFN_VMB_CHANNEL_PROCESSING_COMPLETE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_processing_complete, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessingComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

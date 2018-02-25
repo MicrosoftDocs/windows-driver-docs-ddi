@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 29EEB068-EFFB-42BF-8D92-D56D010DE46A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION, netvista.wwan_device_service_session, PWWAN_DEVICE_SERVICE_SESSION, wwan/WWAN_DEVICE_SERVICE_SESSION, wwan/PWWAN_DEVICE_SERVICE_SESSION, *PWWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PWWAN_DEVICE_SERVICE_SESSION, ,, A, C, D, E, I, N, O, P, PWWAN_DEVICE_SERVICE_SESSION, PWWAN_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], R, S, V, W, WWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], _, _WWAN_DEVICE_SERVICE_SESSION, netvista.wwan_device_service_session, wwan/PWWAN_DEVICE_SERVICE_SESSION, wwan/WWAN_DEVICE_SERVICE_SESSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

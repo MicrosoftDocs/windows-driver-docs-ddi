@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 99D075A0-4483-47D1-BA24-80C45BFF407A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnupdategpuvirtualaddresscb, pfnUpdateGpuVirtualAddressCb callback function [Display Devices], pfnUpdateGpuVirtualAddressCb, PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB, PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB, d3dumddi/pfnUpdateGpuVirtualAddressCb
+ms.keywords: PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB, d3dumddi/pfnUpdateGpuVirtualAddressCb, display.pfnupdategpuvirtualaddresscb, pfnUpdateGpuVirtualAddressCb, pfnUpdateGpuVirtualAddressCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

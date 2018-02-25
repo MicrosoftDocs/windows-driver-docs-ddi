@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A5925EE4-768C-421A-9813-015513751A91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], DEVICE_POWER_DESCRIPTOR, ntddstor/PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], storage.device_power_descriptor, PDEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR"
+ms.keywords: ",  , *, *PDEVICE_POWER_DESCRIPTOR, ,, C, D, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], E, I, O, P, PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], R, S, T, V, W, _, _DEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR, ntddstor/PDEVICE_POWER_DESCRIPTOR, storage.device_power_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

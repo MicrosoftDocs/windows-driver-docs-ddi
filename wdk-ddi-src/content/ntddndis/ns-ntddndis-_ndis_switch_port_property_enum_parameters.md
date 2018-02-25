@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 026b86e0-dd71-4073-93f0-2f93777b1af1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, _NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, netvista.ndis_switch_port_property_enum_parameters, NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, *PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, ,, A, C, D, E, H, I, M, N, NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, W, Y, _, _NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, netvista.ndis_switch_port_property_enum_parameters, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -157,11 +157,7 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598277">OID_SWITCH_PORT_PROPERTY_ENUM</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598237">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO</a>
 
 
 
@@ -169,7 +165,11 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598237">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598277">OID_SWITCH_PORT_PROPERTY_ENUM</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 

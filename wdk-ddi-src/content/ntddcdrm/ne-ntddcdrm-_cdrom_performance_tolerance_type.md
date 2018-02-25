@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2369582F-D042-474D-9191-F9E7BDD3725E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CDROM_PERFORMANCE_TOLERANCE_TYPE, ntddcdrm/ Cdrom10Nominal20Exceptions, ntddcdrm/PCDROM_PERFORMANCE_TOLERANCE_TYPE, Cdrom10Nominal20Exceptions, PCDROM_PERFORMANCE_TOLERANCE_TYPE enumeration pointer [Storage Devices], CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration [Storage Devices], PCDROM_PERFORMANCE_TOLERANCE_TYPE, storage.cdrom_performance_tolerance_type, ntddcdrm/CDROM_PERFORMANCE_TOLERANCE_TYPE, *PCDROM_PERFORMANCE_TOLERANCE_TYPE, _CDROM_PERFORMANCE_TOLERANCE_TYPE
+ms.keywords: ",  , *, *PCDROM_PERFORMANCE_TOLERANCE_TYPE, ,, A, C, CDROM_PERFORMANCE_TOLERANCE_TYPE, CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration [Storage Devices], Cdrom10Nominal20Exceptions, D, E, F, L, M, N, O, P, PCDROM_PERFORMANCE_TOLERANCE_TYPE, PCDROM_PERFORMANCE_TOLERANCE_TYPE enumeration pointer [Storage Devices], R, T, Y, _, _CDROM_PERFORMANCE_TOLERANCE_TYPE, ntddcdrm/ Cdrom10Nominal20Exceptions, ntddcdrm/CDROM_PERFORMANCE_TOLERANCE_TYPE, ntddcdrm/PCDROM_PERFORMANCE_TOLERANCE_TYPE, storage.cdrom_performance_tolerance_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

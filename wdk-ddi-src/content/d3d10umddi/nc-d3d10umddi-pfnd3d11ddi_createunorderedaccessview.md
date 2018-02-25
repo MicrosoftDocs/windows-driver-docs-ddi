@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c5a258e7-6645-46bb-ab2c-a1c8f5e593b7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createunorderedaccessview, CreateUnorderedAccessView callback function [Display Devices], CreateUnorderedAccessView, PFND3D11DDI_CREATEUNORDEREDACCESSVIEW, PFND3D11DDI_CREATEUNORDEREDACCESSVIEW, d3d10umddi/CreateUnorderedAccessView, UserModeDisplayDriverDx11_Functions_4b9c2d38-c780-47be-a5fa-dec2c860732b.xml
+ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView callback function [Display Devices], PFND3D11DDI_CREATEUNORDEREDACCESSVIEW, UserModeDisplayDriverDx11_Functions_4b9c2d38-c780-47be-a5fa-dec2c860732b.xml, d3d10umddi/CreateUnorderedAccessView, display.createunorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -133,11 +133,15 @@ The driver might run out of memory. Therefore, the driver can pass E_OUTOFMEMORY
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_destroyunorderedaccessview.md">DestroyUnorderedAccessView</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateunorderedaccessviewsize.md">CalcPrivateUnorderedAccessViewSize</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
 
 
@@ -145,11 +149,7 @@ The driver might run out of memory. Therefore, the driver can pass E_OUTOFMEMORY
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_destroyunorderedaccessview.md">DestroyUnorderedAccessView</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateunorderedaccessviewsize.md">CalcPrivateUnorderedAccessViewSize</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
 
 

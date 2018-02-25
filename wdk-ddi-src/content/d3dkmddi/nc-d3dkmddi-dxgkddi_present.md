@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1a46b129-1e78-44e6-a609-59eab206692b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddipresent, DxgkDdiPresent callback function [Display Devices], DxgkDdiPresent, DXGKDDI_PRESENT, DXGKDDI_PRESENT, d3dkmddi/DxgkDdiPresent, DmFunctions_9dfdaa11-723f-48de-a0d1-5559b5841e7e.xml
+ms.keywords: DXGKDDI_PRESENT, DmFunctions_9dfdaa11-723f-48de-a0d1-5559b5841e7e.xml, DxgkDdiPresent, DxgkDdiPresent callback function [Display Devices], d3dkmddi/DxgkDdiPresent, display.dxgkddipresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -260,6 +260,14 @@ If the display miniport driver previously indicated, in a call to its <a href=".
 
 
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
 
 
@@ -268,7 +276,7 @@ If the display miniport driver previously indicated, in a call to its <a href=".
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
 
 
@@ -276,11 +284,11 @@ If the display miniport driver previously indicated, in a call to its <a href=".
 
 
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 
@@ -289,14 +297,6 @@ If the display miniport driver previously indicated, in a call to its <a href=".
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
 
 

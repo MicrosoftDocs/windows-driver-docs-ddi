@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 82E17C75-BE81-4263-AC04-D3C93505917D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_udecx_usb_device_endpoint_add, EvtUsbDeviceEndpointAdd callback function [Buses], EvtUsbDeviceEndpointAdd, EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, udecxusbdevice/EvtUsbDeviceEndpointAdd
+ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, EvtUsbDeviceEndpointAdd, EvtUsbDeviceEndpointAdd callback function [Buses], buses.evt_udecx_usb_device_endpoint_add, udecxusbdevice/EvtUsbDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,15 +104,15 @@ In the implementation, the client driver is expected to create the endpoint by c
 
 ## -see-also
 
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b62e6752-0804-41c4-84f4-49ad145acaf3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DriverDMS method [Print Devices], IPrintOemUni interface, print.iprintoemuni_driverdms, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml, IPrintOemUni::DriverDMS, DriverDMS, DriverDMS method [Print Devices], prcomoem/IPrintOemUni::DriverDMS, IPrintOemUni interface [Print Devices], DriverDMS method, IPrintOemUni
+ms.keywords: ",  , ,, ., :, D, DriverDMS method [Print Devices], DriverDMS method [Print Devices], IPrintOemUni interface, DriverDMS,IPrintOemUni.DriverDMS, I, IPrintOemUni, IPrintOemUni interface [Print Devices], DriverDMS method, IPrintOemUni::DriverDMS, M, O, P, S, U, e, i, m, n, prcomoem/IPrintOemUni::DriverDMS, print.iprintoemuni_driverdms, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

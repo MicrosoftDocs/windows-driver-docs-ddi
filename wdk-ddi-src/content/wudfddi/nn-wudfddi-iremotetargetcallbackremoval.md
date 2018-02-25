@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 72271173-8851-4980-9b52-f9e14f1fe071
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iremotetargetcallbackremoval, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface, described, IRemoteTargetCallbackRemoval, wudfddi/IRemoteTargetCallbackRemoval, UMDFIoTargetObjectRef_7508512a-9bfc-4563-bf01-48e9caf6ba4f.xml, umdf.iremotetargetcallbackremoval
+ms.keywords: IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface, described, UMDFIoTargetObjectRef_7508512a-9bfc-4563-bf01-48e9caf6ba4f.xml, umdf.iremotetargetcallbackremoval, wdf.iremotetargetcallbackremoval, wudfddi/IRemoteTargetCallbackRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

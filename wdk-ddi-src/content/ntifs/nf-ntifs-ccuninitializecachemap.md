@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 00e5abd6-c2d7-4408-aaf4-27a67dd3ee51
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/CcUninitializeCacheMap, CcUninitializeCacheMap routine [Installable File System Drivers], CcUninitializeCacheMap, ccref_737f8e52-0bb4-4dfd-8516-16de77410b9a.xml, ifsk.ccuninitializecachemap
+ms.keywords: ",  , C, CcUninitializeCacheMap, CcUninitializeCacheMap routine [Installable File System Drivers], M, U, a, c, ccref_737f8e52-0bb4-4dfd-8516-16de77410b9a.xml, e, h, i, ifsk.ccuninitializecachemap, l, n, ntifs/CcUninitializeCacheMap, p, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 

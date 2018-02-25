@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c11d801a-4870-42c4-9374-e0f849d57cde
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_mountmgr_delete_points, IOCTL_MOUNTMGR_DELETE_POINTS control code [Storage Devices], IOCTL_MOUNTMGR_DELETE_POINTS, mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS, k307_c218ecf5-b934-4cad-934c-738cde9bff2b.xml
+ms.keywords: IOCTL_MOUNTMGR_DELETE_POINTS, IOCTL_MOUNTMGR_DELETE_POINTS control code [Storage Devices], k307_c218ecf5-b934-4cad-934c-738cde9bff2b.xml, mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS, storage.ioctl_mountmgr_delete_points
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

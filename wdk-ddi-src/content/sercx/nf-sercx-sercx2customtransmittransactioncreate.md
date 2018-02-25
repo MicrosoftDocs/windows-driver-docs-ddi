@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 1A308BD8-E28E-4618-99D0-55FBD6FA7CF4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 2/SerCx2CustomTransmitTransactionCreate, SerCx2CustomTransmitTransactionCreate method [Serial Ports], serports.sercx2customtransmittransactioncreate, SerCx2CustomTransmitTransactionCreate
+ms.keywords: ",  , 2, 2/SerCx2CustomTransmitTransactionCreate, C, S, SerCx2CustomTransmitTransactionCreate, SerCx2CustomTransmitTransactionCreate method [Serial Ports], T, a, c, e, i, m, n, o, r, s, serports.sercx2customtransmittransactioncreate, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,11 +171,7 @@ For more information about creating custom-transmit-transaction objects, see <a 
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_start.md">EvtSerCx2CustomTransmitTransactionStart</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -183,7 +179,7 @@ For more information about creating custom-transmit-transaction objects, see <a 
 
 
 
-<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
 
 
 
@@ -199,7 +195,11 @@ For more information about creating custom-transmit-transaction objects, see <a 
 
 
 
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
+
+
+
+<a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a>
 
 
 
@@ -207,7 +207,7 @@ For more information about creating custom-transmit-transaction objects, see <a 
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_start.md">EvtSerCx2CustomTransmitTransactionStart</a>
 
 
 

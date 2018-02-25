@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e6dd18f4-725f-4611-ad70-029654cf4375
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IFileCallbackCleanup::OnCleanupFile, OnCleanupFile method, IFileCallbackCleanup interface, IFileCallbackCleanup interface, OnCleanupFile method, OnCleanupFile, IFileCallbackCleanup::OnCleanupFile, wdf.ifilecallbackcleanup_oncleanupfile, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, IFileCallbackCleanup, OnCleanupFile method, umdf.ifilecallbackcleanup_oncleanupfile
+ms.keywords: ",  , ,, ., :, C, F, I, IFileCallbackCleanup, IFileCallbackCleanup interface, OnCleanupFile method, IFileCallbackCleanup::OnCleanupFile, O, OnCleanupFile method, OnCleanupFile method, IFileCallbackCleanup interface, OnCleanupFile,IFileCallbackCleanup.OnCleanupFile, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, a, b, c, e, i, k, l, n, p, u, umdf.ifilecallbackcleanup_oncleanupfile, wdf.ifilecallbackcleanup_oncleanupfile, wudfddi/IFileCallbackCleanup::OnCleanupFile"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

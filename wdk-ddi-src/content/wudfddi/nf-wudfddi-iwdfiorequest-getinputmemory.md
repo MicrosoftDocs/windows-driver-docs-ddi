@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be3f965b-69fe-4d5e-b1b6-3a370603cd7b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetInputMemory method, IWDFIoRequest interface, IWDFIoRequest, IWDFIoRequest interface, GetInputMemory method, GetInputMemory method, wdf.iwdfiorequest_getinputmemory, GetInputMemory, umdf.iwdfiorequest_getinputmemory, IWDFIoRequest::GetInputMemory, wudfddi/IWDFIoRequest::GetInputMemory, UMDFRequestObjectRef_80c18660-b423-42b0-879d-a8732d2e7796.xml
+ms.keywords: ",  , ,, ., :, D, F, G, GetInputMemory method, GetInputMemory method, IWDFIoRequest interface, GetInputMemory,IWDFIoRequest.GetInputMemory, I, IWDFIoRequest, IWDFIoRequest interface, GetInputMemory method, IWDFIoRequest::GetInputMemory, M, R, UMDFRequestObjectRef_80c18660-b423-42b0-879d-a8732d2e7796.xml, W, e, m, n, o, p, q, r, s, t, u, umdf.iwdfiorequest_getinputmemory, wdf.iwdfiorequest_getinputmemory, wudfddi/IWDFIoRequest::GetInputMemory, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -109,7 +109,11 @@ For a code example of how to use the <b>GetInputMemory</b> method, see <a href="
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
 
 
 
@@ -117,11 +121,7 @@ For a code example of how to use the <b>GetInputMemory</b> method, see <a href="
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 8be34d4d-b2f1-4d34-911a-95ac2e19df87
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_usb_hcd_get_stats_1, IOCTL_USB_HCD_GET_STATS_1 control code [Buses], IOCTL_USB_HCD_GET_STATS_1, usbioctl/IOCTL_USB_HCD_GET_STATS_1, usbirp_2817a2bf-23af-43f8-8c50-c945cf2544f0.xml
+ms.keywords: IOCTL_USB_HCD_GET_STATS_1, IOCTL_USB_HCD_GET_STATS_1 control code [Buses], buses.ioctl_usb_hcd_get_stats_1, usbioctl/IOCTL_USB_HCD_GET_STATS_1, usbirp_2817a2bf-23af-43f8-8c50-c945cf2544f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

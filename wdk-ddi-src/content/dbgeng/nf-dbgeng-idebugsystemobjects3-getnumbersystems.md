@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 27465cd9-77bc-4c9e-bac6-bd471ca93261
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSystemObjects3::GetNumberSystems, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects3::GetNumberSystems, GetNumberSystems, GetNumberSystems method [Windows Debugging], IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, debugger.getnumbersystems, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects4::GetNumberSystems, dbgeng/IDebugSystemObjects4::GetNumberSystems, GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml
+ms.keywords: ",  , ,, ., 3, :, D, G, GetNumberSystems method [Windows Debugging], GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface, GetNumberSystems,IDebugSystemObjects3.GetNumberSystems, I, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, N, O, S, b, c, dbgeng/IDebugSystemObjects3::GetNumberSystems, dbgeng/IDebugSystemObjects4::GetNumberSystems, debugger.getnumbersystems, e, g, j, m, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

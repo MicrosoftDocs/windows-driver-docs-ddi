@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 883a7a56-ecb9-428f-a15a-ba428a626bed
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml, PGetPersistentBinding2_OUT structure pointer [Storage Devices], GetPersistentBinding2_OUT, _GetPersistentBinding2_OUT, PGetPersistentBinding2_OUT, storage.getpersistentbinding2_out, hbapiwmi/GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT structure [Storage Devices], hbapiwmi/PGetPersistentBinding2_OUT
+ms.keywords: ",  , *, *PGetPersistentBinding2_OUT, ,, 2, B, G, GetPersistentBinding2_OUT, GetPersistentBinding2_OUT structure [Storage Devices], O, P, PGetPersistentBinding2_OUT, PGetPersistentBinding2_OUT structure pointer [Storage Devices], T, U, _, _GetPersistentBinding2_OUT, d, e, g, hbapiwmi/GetPersistentBinding2_OUT, hbapiwmi/PGetPersistentBinding2_OUT, i, n, r, s, storage.getpersistentbinding2_out, structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

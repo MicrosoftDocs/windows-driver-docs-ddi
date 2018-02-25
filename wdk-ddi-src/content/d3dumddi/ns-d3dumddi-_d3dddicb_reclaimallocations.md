@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61c8fdbf-b003-4caa-af13-ba6f1e22400c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddicb_reclaimallocations, d3dumddi/D3DDDICB_RECLAIMALLOCATIONS, D3DDDICB_RECLAIMALLOCATIONS, D3DDDICB_RECLAIMALLOCATIONS structure [Display Devices], _D3DDDICB_RECLAIMALLOCATIONS
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDICB_RECLAIMALLOCATIONS, D3DDDICB_RECLAIMALLOCATIONS structure [Display Devices], E, I, L, M, N, O, R, S, T, _, _D3DDDICB_RECLAIMALLOCATIONS, d3dumddi/D3DDDICB_RECLAIMALLOCATIONS, display.d3dddicb_reclaimallocations"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,15 +104,15 @@ The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>N
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
 
 
 

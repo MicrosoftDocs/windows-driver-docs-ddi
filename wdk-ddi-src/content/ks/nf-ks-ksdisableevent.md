@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4af94bc4-9df3-4b37-a810-303748cc4b75
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksdisableevent, KsDisableEvent, KsDisableEvent function [Streaming Media Devices], ks/KsDisableEvent, ksfunc_e430d502-c847-43ee-bdea-d53200f45e53.xml
+ms.keywords: ",  , D, E, K, KsDisableEvent, KsDisableEvent function [Streaming Media Devices], a, b, e, i, ks/KsDisableEvent, ksfunc_e430d502-c847-43ee-bdea-d53200f45e53.xml, l, n, s, stream.ksdisableevent, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

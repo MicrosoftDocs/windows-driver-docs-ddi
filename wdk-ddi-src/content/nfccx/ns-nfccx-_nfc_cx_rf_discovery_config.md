@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 4EF45183-335C-40FC-8693-BF3D17B18DF2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], PNFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], _NFC_CX_RF_DISCOVERY_CONFIG, nfccx/NFC_CX_RF_DISCOVERY_CONFIG, nfpdrivers.nfc_cx_rf_discovery_config, nfccx/PNFC_CX_RF_DISCOVERY_CONFIG
+ms.keywords: ",  , *, *PNFC_CX_RF_DISCOVERY_CONFIG, ,, C, D, E, F, G, I, N, NFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], O, P, PNFC_CX_RF_DISCOVERY_CONFIG, PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], R, S, V, X, Y, _, _NFC_CX_RF_DISCOVERY_CONFIG, nfccx/NFC_CX_RF_DISCOVERY_CONFIG, nfccx/PNFC_CX_RF_DISCOVERY_CONFIG, nfpdrivers.nfc_cx_rf_discovery_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,11 +122,11 @@ This member enables configuration of PA_BAIL_OUT and PB_BAIL_OUT as described in
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FAF30768-5DE4-4284-8CB5-2E518A2E37E7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: bdatypes/BDA_CAS_OPENMMIDATA, bdatypes/PBDA_CAS_OPENMMIDATA, PBDA_CAS_OPENMMIDATA structure pointer [Streaming Media Devices], PBDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA structure [Streaming Media Devices], *PBDA_CAS_OPENMMIDATA, stream.bda_cas_openmmidata, BDA_CAS_OPENMMIDATA, _BDA_CAS_OPENMMIDATA
+ms.keywords: ",  , *, *PBDA_CAS_OPENMMIDATA, ,, A, B, BDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA structure [Streaming Media Devices], C, D, E, I, M, N, O, P, PBDA_CAS_OPENMMIDATA, PBDA_CAS_OPENMMIDATA structure pointer [Streaming Media Devices], S, T, _, _BDA_CAS_OPENMMIDATA, bdatypes/BDA_CAS_OPENMMIDATA, bdatypes/PBDA_CAS_OPENMMIDATA, stream.bda_cas_openmmidata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

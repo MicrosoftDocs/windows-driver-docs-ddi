@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a08cdb2-f4e5-4c32-b98e-e854412954e9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminidevicepoststart, AVStrMiniDevicePostStart, AVStrMiniDevicePostStart routine [Streaming Media Devices], AVStrMiniDevicePostStart, PFNKSDEVICE, PFNKSDEVICE, ks/AVStrMiniDevicePostStart, avstclbk_2eb05ad1-c345-4625-9f76-f979e3ea7962.xml
+ms.keywords: AVStrMiniDevicePostStart, AVStrMiniDevicePostStart routine [Streaming Media Devices], PFNKSDEVICE, avstclbk_2eb05ad1-c345-4625-9f76-f979e3ea7962.xml, ks/AVStrMiniDevicePostStart, stream.avstrminidevicepoststart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

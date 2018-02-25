@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1e33f284-6cb9-426f-a900-76b827341927
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Requeue method, IWDFIoRequest2 interface, IWDFIoRequest2 interface, Requeue method, Requeue method, wdf.iwdfiorequest2_requeue, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, IWDFIoRequest2, wudfddi/IWDFIoRequest2::Requeue, IWDFIoRequest2::Requeue, Requeue, umdf.iwdfiorequest2_requeue
+ms.keywords: ",  , ,, ., 2, :, D, F, I, IWDFIoRequest2, IWDFIoRequest2 interface, Requeue method, IWDFIoRequest2::Requeue, R, Requeue method, Requeue method, IWDFIoRequest2 interface, Requeue,IWDFIoRequest2.Requeue, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, W, e, o, q, s, t, u, umdf.iwdfiorequest2_requeue, wdf.iwdfiorequest2_requeue, wudfddi/IWDFIoRequest2::Requeue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

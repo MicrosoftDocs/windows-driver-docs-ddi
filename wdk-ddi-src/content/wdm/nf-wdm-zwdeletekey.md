@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/NtDeleteKey, ZwDeleteKey, k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, ZwDeleteKey routine [Kernel-Mode Driver Architecture], kernel.zwdeletekey, wdm/ZwDeleteKey, NtDeleteKey
+ms.keywords: ",  , D, K, NtDeleteKey, Z, ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], e, k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, kernel.zwdeletekey, l, t, w, wdm/NtDeleteKey, wdm/ZwDeleteKey, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,15 +102,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8e6042e4-b004-4250-b208-b0614d2d11fd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfchildlist/WdfChildListRetrievePdo, wdf.wdfchildlistretrievepdo, kmdf.wdfchildlistretrievepdo, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, WdfChildListRetrievePdo, WdfChildListRetrievePdo method
+ms.keywords: ",  , C, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, L, P, R, W, WdfChildListRetrievePdo, WdfChildListRetrievePdo method, d, e, f, h, i, kmdf.wdfchildlistretrievepdo, l, o, r, s, t, v, wdf.wdfchildlistretrievepdo, wdfchildlist/WdfChildListRetrievePdo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,7 +143,7 @@ hChild = WdfChildListRetrievePdo(
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_retrieve_info_init.md">WDF_CHILD_RETRIEVE_INFO_INIT</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
 
 
@@ -151,7 +151,7 @@ hChild = WdfChildListRetrievePdo(
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_retrieve_info_init.md">WDF_CHILD_RETRIEVE_INFO_INIT</a>
 
 
 

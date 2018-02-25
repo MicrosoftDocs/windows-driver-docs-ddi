@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e6fd96d-c78e-44f3-ae4c-3688da48a494
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ikspinex, IKsPinEx interface [Streaming Media Devices], IKsPinEx interface [Streaming Media Devices], described, IKsPinEx, ksproxy/IKsPinEx, ksproxy_3c92d570-f22f-4165-bafd-9a22f5516137.xml
+ms.keywords: IKsPinEx, IKsPinEx interface [Streaming Media Devices], IKsPinEx interface [Streaming Media Devices], described, ksproxy/IKsPinEx, ksproxy_3c92d570-f22f-4165-bafd-9a22f5516137.xml, stream.ikspinex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

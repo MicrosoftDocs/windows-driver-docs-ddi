@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36aeb826-251e-404e-8ce3-6b2246ff07bc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.decryptionblt1, DecryptionBlt callback function [Display Devices], DecryptionBlt, PFND3D11_1DDI_DECRYPTIONBLT, PFND3D11_1DDI_DECRYPTIONBLT, d3d10umddi/DecryptionBlt
+ms.keywords: DecryptionBlt, DecryptionBlt callback function [Display Devices], PFND3D11_1DDI_DECRYPTIONBLT, d3d10umddi/DecryptionBlt, display.decryptionblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -166,15 +166,15 @@ For other encryption types, a different structure might be used, or the encrypti
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
 
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
 
 
 

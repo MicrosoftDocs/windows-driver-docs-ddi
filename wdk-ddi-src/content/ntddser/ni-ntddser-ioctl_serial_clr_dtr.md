@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: e537c39a-4f79-4854-91df-7a08346c17ea
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_clr_dtr, IOCTL_SERIAL_CLR_DTR control code [Serial Ports], IOCTL_SERIAL_CLR_DTR, ntddser/IOCTL_SERIAL_CLR_DTR, serref_37ec12d3-15ad-4a49-90c7-766ffb3943f7.xml
+ms.keywords: IOCTL_SERIAL_CLR_DTR, IOCTL_SERIAL_CLR_DTR control code [Serial Ports], ntddser/IOCTL_SERIAL_CLR_DTR, serports.ioctl_serial_clr_dtr, serref_37ec12d3-15ad-4a49-90c7-766ffb3943f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

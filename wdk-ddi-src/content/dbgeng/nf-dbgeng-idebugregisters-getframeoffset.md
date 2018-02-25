@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09473106-3ab8-43ee-a424-2930b6bd3fcf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetFrameOffset method [Windows Debugging], IDebugRegisters interface, IDebugRegisters, GetFrameOffset, IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml, GetFrameOffset method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::GetFrameOffset, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset method, dbgeng/IDebugRegisters::GetFrameOffset, IDebugRegisters::GetFrameOffset, IDebugRegisters2::GetFrameOffset, GetFrameOffset method [Windows Debugging], IDebugRegisters interface [Windows Debugging], GetFrameOffset method, debugger.getframeoffset
+ms.keywords: ",  , ,, ., :, D, F, G, GetFrameOffset method [Windows Debugging], GetFrameOffset method [Windows Debugging], IDebugRegisters interface, GetFrameOffset method [Windows Debugging], IDebugRegisters2 interface, GetFrameOffset,IDebugRegisters.GetFrameOffset, I, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetFrameOffset method, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset method, IDebugRegisters2::GetFrameOffset, IDebugRegisters::GetFrameOffset, IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml, O, R, a, b, dbgeng/IDebugRegisters2::GetFrameOffset, dbgeng/IDebugRegisters::GetFrameOffset, debugger.getframeoffset, e, f, g, i, m, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,15 +116,15 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
 
 

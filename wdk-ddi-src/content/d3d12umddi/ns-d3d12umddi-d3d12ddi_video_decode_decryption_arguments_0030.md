@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cdd89f48-1b27-4362-81b3-ed3b89b80b6e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030 structure [Display Devices], display.d3d12ddi-video-decode-decryption-arguments-0030, d3d12umddi/D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030, D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030, D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030 structure [Display Devices], E, G, I, M, N, O, P, R, S, T, U, V, Y, _, d3d12umddi/D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030, display.d3d12ddi-video-decode-decryption-arguments-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

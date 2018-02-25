@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 99c9d60d-5f19-4b31-a8f3-aff69bc3a2a6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPortEvents interface [Audio Devices], GenerateEventList method, GenerateEventList, GenerateEventList method [Audio Devices], IPortEvents interface, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, IPortEvents, audio.iportevents_generateeventlist, portcls/IPortEvents::GenerateEventList, GenerateEventList method [Audio Devices], IPortEvents::GenerateEventList
+ms.keywords: ",  , ,, ., :, E, G, GenerateEventList method [Audio Devices], GenerateEventList method [Audio Devices], IPortEvents interface, GenerateEventList,IPortEvents.GenerateEventList, I, IPortEvents, IPortEvents interface [Audio Devices], GenerateEventList method, IPortEvents::GenerateEventList, L, P, a, audio.iportevents_generateeventlist, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, e, i, n, o, portcls/IPortEvents::GenerateEventList, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac1bf173-8c18-4bb4-9a85-79b59f27ee55
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d10umddi/D3D10DDIARG_OPENADAPTER, D3D10DDIARG_OPENADAPTER, D3D10DDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3dd9df89-1d5e-4eab-bbe5-c6585543c093.xml, display.d3d10ddiarg_openadapter
+ms.keywords: ",  , ,, 0, 1, 3, A, D, D3D10DDIARG_OPENADAPTER, D3D10DDIARG_OPENADAPTER structure [Display Devices], E, G, I, N, O, P, R, T, UMDisplayDriver_Dx10param_Structs_3dd9df89-1d5e-4eab-bbe5-c6585543c093.xml, _, d3d10umddi/D3D10DDIARG_OPENADAPTER, display.d3d10ddiarg_openadapter"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,11 +118,11 @@ Supported in Windows 7 and later versions.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddi_adapterfuncs.md">D3D10_2DDI_ADAPTERFUNCS</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_adapterfuncs.md">D3D10DDI_ADAPTERFUNCS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
 
 
 
@@ -130,7 +130,7 @@ Supported in Windows 7 and later versions.
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddi_adapterfuncs.md">D3D10_2DDI_ADAPTERFUNCS</a>
 
 
 

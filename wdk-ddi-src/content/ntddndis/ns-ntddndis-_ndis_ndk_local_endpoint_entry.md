@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83B88D3D-8FBF-4DC1-8A73-FAB306281F36
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_NDIS_NDK_LOCAL_ENDPOINT_ENTRY, NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NDK_LOCAL_ENDPOINT_ENTRY, netvista.ndis_ndk_local_endpoint_entry, NDIS_NDK_LOCAL_ENDPOINT_ENTRY"
+ms.keywords: ",  , ,, A, C, D, E, I, K, L, N, NDIS_NDK_LOCAL_ENDPOINT_ENTRY, NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure [Network Drivers Starting with Windows Vista], O, P, R, S, T, Y, _, _NDIS_NDK_LOCAL_ENDPOINT_ENTRY, netvista.ndis_ndk_local_endpoint_entry, ntddndis/NDIS_NDK_LOCAL_ENDPOINT_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

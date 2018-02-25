@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e5e0e37-5f01-4bc3-b660-c65c540af04e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlaretherecurrentorinprogressfilelocks, ntifs/FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks, fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers]
+ms.keywords: ",  , A, C, F, FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers], I, L, O, P, R, T, c, e, fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, g, h, i, ifsk.fsrtlaretherecurrentorinprogressfilelocks, k, l, n, ntifs/FsRtlAreThereCurrentOrInProgressFileLocks, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,7 +96,7 @@ File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routin
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
 
 
@@ -104,11 +104,11 @@ File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routin
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
 
 
 

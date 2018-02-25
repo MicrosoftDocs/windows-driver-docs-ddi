@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 34E016AF-439C-44CC-A2AE-78CD7B2B5443
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2systemdmareceiveinitializetransaction, EvtSerCx2SystemDmaReceiveInitializeTransaction callback function [Serial Ports], EvtSerCx2SystemDmaReceiveInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION, 2/EvtSerCx2SystemDmaReceiveInitializeTransaction
+ms.keywords: 2/EvtSerCx2SystemDmaReceiveInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION, EvtSerCx2SystemDmaReceiveInitializeTransaction, EvtSerCx2SystemDmaReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmareceiveinitializetransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,15 +144,15 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION</b> function type is
 
 ## -see-also
 
+<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+
+
+
 <a href="..\sercx\nf-sercx-sercx2systemdmareceiveinitializetransactioncomplete.md">SerCx2SystemDmaReceiveInitializeTransactionComplete</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
 
 

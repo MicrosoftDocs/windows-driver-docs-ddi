@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cd0551fc-c276-45c3-a560-bded300a4535
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ob_post_operation_parameters, *POB_POST_OPERATION_PARAMETERS, wdm/OB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS, wdm/POB_POST_OPERATION_PARAMETERS, _OB_POST_OPERATION_PARAMETERS
+ms.keywords: ",  , *, *POB_POST_OPERATION_PARAMETERS, ,, A, B, E, I, M, N, O, OB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], P, POB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], R, S, T, _, _OB_POST_OPERATION_PARAMETERS, kernel.ob_post_operation_parameters, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, wdm/OB_POST_OPERATION_PARAMETERS, wdm/POB_POST_OPERATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,15 +81,15 @@ An <a href="..\wdm\ns-wdm-_ob_post_duplicate_handle_information.md">OB_POST_DUPL
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
-
-
-
 <a href="..\wdm\ns-wdm-_ob_post_duplicate_handle_information.md">OB_POST_DUPLICATE_HANDLE_INFORMATION</a>
 
 
 
 <a href="..\wdm\ns-wdm-_ob_post_create_handle_information.md">OB_POST_CREATE_HANDLE_INFORMATION</a>
+
+
+
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
 
 

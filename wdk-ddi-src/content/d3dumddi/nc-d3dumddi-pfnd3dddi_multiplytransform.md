@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 69d94062-5655-4d49-a116-7fa7e2b51a91
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.multiplytransform, MultiplyTransform callback function [Display Devices], MultiplyTransform, PFND3DDDI_MULTIPLYTRANSFORM, PFND3DDDI_MULTIPLYTRANSFORM, d3dumddi/MultiplyTransform, UserModeDisplayDriver_Functions_4058eef2-8ccd-46e2-ad8d-fd0905811651.xml
+ms.keywords: MultiplyTransform, MultiplyTransform callback function [Display Devices], PFND3DDDI_MULTIPLYTRANSFORM, UserModeDisplayDriver_Functions_4058eef2-8ccd-46e2-ad8d-fd0905811651.xml, d3dumddi/MultiplyTransform, display.multiplytransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

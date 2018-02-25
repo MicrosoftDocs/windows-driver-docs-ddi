@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C565288C-B014-4A92-9F50-1641EAA30D22
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterqueue2_getprinterqueueview, IPrinterQueue2, printerextension/IPrinterQueue2::GetPrinterQueueView, GetPrinterQueueView method [Print Devices], IPrinterQueue2 interface, GetPrinterQueueView, IPrinterQueue2 interface [Print Devices], GetPrinterQueueView method, IPrinterQueue2::GetPrinterQueueView, GetPrinterQueueView method [Print Devices]
+ms.keywords: ",  , ,, ., 2, :, G, GetPrinterQueueView method [Print Devices], GetPrinterQueueView method [Print Devices], IPrinterQueue2 interface, GetPrinterQueueView,IPrinterQueue2.GetPrinterQueueView, I, IPrinterQueue2, IPrinterQueue2 interface [Print Devices], GetPrinterQueueView method, IPrinterQueue2::GetPrinterQueueView, P, Q, V, e, i, n, print.iprinterqueue2_getprinterqueueview, printerextension/IPrinterQueue2::GetPrinterQueueView, r, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -129,11 +129,11 @@ However it is possible to move around the single view that you retrieve. In othe
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterqueue2.md">IPrinterQueue2</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
 
 
 

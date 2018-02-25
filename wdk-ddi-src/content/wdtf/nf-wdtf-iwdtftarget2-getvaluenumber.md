@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 16f0e9be-129a-4d7d-94c8-bd27ec010b26
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetValueNumber method [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2, IWDTFTarget2::GetValueNumber, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueNumber method, Microsoft::WDTF::IWDTFTarget2::GetValueNumber, GetValueNumber, Microsoft.WDTF.IWDTFTarget2.GetValueNumber, GetValueNumber method [Windows Device Testing Framework], dtf.iwdtftarget2_getvaluenumber, wdtf/IWDTFTarget2::GetValueNumber
+ms.keywords: ",  , ,, ., 2, :, D, F, G, GetValueNumber method [Windows Device Testing Framework], GetValueNumber method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueNumber,IWDTFTarget2.GetValueNumber, I, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueNumber method, IWDTFTarget2::GetValueNumber, Microsoft.WDTF.IWDTFTarget2.GetValueNumber, Microsoft::WDTF::IWDTFTarget2::GetValueNumber, N, T, V, W, a, b, dtf.iwdtftarget2_getvaluenumber, e, g, l, m, r, t, u, wdtf/IWDTFTarget2::GetValueNumber"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

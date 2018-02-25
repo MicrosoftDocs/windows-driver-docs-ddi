@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1b66f203-1c74-4b5e-82ae-7dfdc88da2b4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3d11_1ddi_video_processor_rate_conversion_caps, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Display Devices]
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Display Devices], E, I, N, O, P, R, S, T, V, _, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, display.d3d11_1ddi_video_processor_rate_conversion_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,10 +98,6 @@ The number of custom frame rates that the driver supports. To get the list of cu
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_rate_conversion_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate.md">GetVideoProcessorCustomRate</a>
 
 
@@ -111,6 +107,10 @@ The number of custom frame rates that the driver supports. To get the list of cu
 
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_itelecine_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_rate_conversion_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a>
 
 
 

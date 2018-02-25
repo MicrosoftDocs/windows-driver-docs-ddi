@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 59ca5035-f4d8-4a9c-a298-c8dca604f4db
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksfunc_11097907-6879-43bb-879b-b74eb13d6109.xml, KsFreeObjectHeader, KsFreeObjectHeader function [Streaming Media Devices], stream.ksfreeobjectheader, ks/KsFreeObjectHeader
+ms.keywords: ",  , F, H, K, KsFreeObjectHeader, KsFreeObjectHeader function [Streaming Media Devices], O, a, b, c, d, e, j, ks/KsFreeObjectHeader, ksfunc_11097907-6879-43bb-879b-b74eb13d6109.xml, r, s, stream.ksfreeobjectheader, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

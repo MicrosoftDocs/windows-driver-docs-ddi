@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6a026c2b-e2ed-41bf-9482-0fdc64b175f2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: virtual_machine_queue_ref_126f14fb-44b8-47bc-bc0d-eaa435470a6c.xml, _NDIS_RECEIVE_QUEUE_INFO_ARRAY, PNDIS_RECEIVE_QUEUE_INFO_ARRAY, *PNDIS_RECEIVE_QUEUE_INFO_ARRAY, PNDIS_RECEIVE_QUEUE_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RECEIVE_QUEUE_INFO_ARRAY, NDIS_RECEIVE_QUEUE_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.ndis_receive_queue_info_array, ntddndis/NDIS_RECEIVE_QUEUE_INFO_ARRAY, NDIS_RECEIVE_QUEUE_INFO_ARRAY
+ms.keywords: ",  , *, *PNDIS_RECEIVE_QUEUE_INFO_ARRAY, ,, A, C, D, E, F, I, N, NDIS_RECEIVE_QUEUE_INFO_ARRAY, NDIS_RECEIVE_QUEUE_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_RECEIVE_QUEUE_INFO_ARRAY, PNDIS_RECEIVE_QUEUE_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], Q, R, S, U, V, Y, _, _NDIS_RECEIVE_QUEUE_INFO_ARRAY, netvista.ndis_receive_queue_info_array, ntddndis/NDIS_RECEIVE_QUEUE_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_QUEUE_INFO_ARRAY, virtual_machine_queue_ref_126f14fb-44b8-47bc-bc0d-eaa435470a6c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

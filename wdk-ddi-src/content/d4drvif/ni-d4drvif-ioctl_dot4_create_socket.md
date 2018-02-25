@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CF5BF5D1-FF78-4461-AC0D-A7A7529FB59E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ioctl_ioctl_dot4_create_socket, IOCTL_DOT4_CREATE_SOCKET control code [Print Devices], IOCTL_DOT4_CREATE_SOCKET, d4drvif/IOCTL_DOT4_CREATE_SOCKET
+ms.keywords: IOCTL_DOT4_CREATE_SOCKET, IOCTL_DOT4_CREATE_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_CREATE_SOCKET, print.ioctl_ioctl_dot4_create_socket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -99,11 +99,7 @@ This topic describes <b>IOCTL_DOT4_CREATE_SOCKET</b>.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -111,7 +107,11 @@ This topic describes <b>IOCTL_DOT4_CREATE_SOCKET</b>.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

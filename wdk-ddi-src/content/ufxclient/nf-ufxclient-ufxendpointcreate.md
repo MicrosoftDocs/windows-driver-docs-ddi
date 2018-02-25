@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 060CADB7-AAC9-401A-9198-FC306CE74A34
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UfxEndpointCreate, buses.ufxendpointcreate, UfxEndpointCreate method [Buses], ufxclient/UfxEndpointCreate
+ms.keywords: ",  , C, E, U, UfxEndpointCreate, UfxEndpointCreate method [Buses], a, buses.ufxendpointcreate, d, e, f, i, n, o, p, r, t, ufxclient/UfxEndpointCreate, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e67bb33-c2e5-4f3c-9ea6-feeb4a1fe645
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, _DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], display.dxgk_gdiarg_cleartypeblend, DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml
+ms.keywords: ",  , ,, A, B, C, D, DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, E, G, I, K, L, N, P, R, T, X, Y, _, _DXGK_GDIARG_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ef7ffca-9192-4578-8397-c7fbb2ea2239
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: iddcx/IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], display.iddcx_monitor_description
+ms.keywords: ",  , C, D, E, I, IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], M, N, O, P, R, S, T, X, _, display.iddcx_monitor_description, iddcx/IDDCX_MONITOR_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

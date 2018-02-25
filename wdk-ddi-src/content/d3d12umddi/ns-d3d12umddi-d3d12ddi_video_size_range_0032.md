@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a4781fea-4efc-442d-8503-12be17afa9b1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_SIZE_RANGE_0032, display.d3d12ddi-video-size-range-0032, D3D12DDI_VIDEO_SIZE_RANGE_0032 structure [Display Devices], D3D12DDI_VIDEO_SIZE_RANGE_0032
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, D, D3D12DDI_VIDEO_SIZE_RANGE_0032, D3D12DDI_VIDEO_SIZE_RANGE_0032 structure [Display Devices], E, G, I, N, O, R, S, V, Z, _, d3d12umddi/D3D12DDI_VIDEO_SIZE_RANGE_0032, display.d3d12ddi-video-size-range-0032"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A7C405C1-D059-41A6-8A3B-B3D2EBACE22D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_ucmtcpci_port_controller_get_control, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL control code [Buses], IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL
+ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL control code [Buses], buses.ioctl_ucmtcpci_port_controller_get_control, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -117,11 +117,7 @@ The UcmTcpciCx class extension sends this IOCTL request to retrieve the values o
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -129,7 +125,11 @@ The UcmTcpciCx class extension sends this IOCTL request to retrieve the values o
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

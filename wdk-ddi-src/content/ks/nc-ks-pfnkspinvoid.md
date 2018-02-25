@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 64bcbc05-8dbd-4f97-afbb-dadd44b60078
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminipindisconnect, AVStrMiniPinDisconnect, AVStrMiniPinReset, MyAVStrMiniPin routine [Streaming Media Devices], MyAVStrMiniPin, PFNKSPINVOID, PFNKSPINVOID, ks/MyAVStrMiniPin, avstclbk_7d4db969-3c67-4f42-9b06-723964af1147.xml
+ms.keywords: AVStrMiniPinDisconnect, AVStrMiniPinReset, MyAVStrMiniPin, MyAVStrMiniPin routine [Streaming Media Devices], PFNKSPINVOID, avstclbk_7d4db969-3c67-4f42-9b06-723964af1147.xml, ks/MyAVStrMiniPin, stream.avstrminipindisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

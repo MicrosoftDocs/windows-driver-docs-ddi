@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c30e1bae-08fc-496e-8781-2f47398a7b82
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksfunc_11744207-4d37-4b6c-a0bf-c454d7502b38.xml, KsValidateAllocatorFramingEx, stream.ksvalidateallocatorframingex, KsValidateAllocatorFramingEx function [Streaming Media Devices], ks/KsValidateAllocatorFramingEx
+ms.keywords: ",  , A, E, F, K, KsValidateAllocatorFramingEx, KsValidateAllocatorFramingEx function [Streaming Media Devices], V, a, c, d, e, g, i, ks/KsValidateAllocatorFramingEx, ksfunc_11744207-4d37-4b6c-a0bf-c454d7502b38.xml, l, m, n, o, r, s, stream.ksvalidateallocatorframingex, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

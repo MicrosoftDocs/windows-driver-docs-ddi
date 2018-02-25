@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e343b11c-7cd1-4aea-a87c-e33577456851
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_RELEASEKEYEDMUTEX2 structure [Display Devices], display.d3dkmt_releasekeyedmutex2, D3DKMT_RELEASEKEYEDMUTEX2, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2, _D3DKMT_RELEASEKEYEDMUTEX2
+ms.keywords: ",  , ,, 2, 3, A, D, D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2 structure [Display Devices], E, K, L, M, R, S, T, U, X, Y, _, _D3DKMT_RELEASEKEYEDMUTEX2, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2, display.d3dkmt_releasekeyedmutex2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: D3DKMT_RELEASEKEYEDMUTEX2
 ## -description
 
 
-Describes a keyed mutex object that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex2.md">D3DKMTReleaseKeyedMutex2</a> function releases that includes private data.
+Describes a keyed mutex object that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_releasekeyedmutex2.md">D3DKMTReleaseKeyedMutex2</a> function releases that includes private data.
 
 
 ## -syntax
@@ -98,7 +98,7 @@ typedef struct _D3DKMT_RELEASEKEYEDMUTEX2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex2.md">D3DKMTReleaseKeyedMutex2</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_releasekeyedmutex2.md">D3DKMTReleaseKeyedMutex2</a>
 
 
 

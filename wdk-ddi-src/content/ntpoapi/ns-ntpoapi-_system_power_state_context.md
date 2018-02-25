@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C924C7BD-071C-4A98-9A9B-2BEFA1101DF3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], kernel.system_power_state_context, wdm/SYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT, wdm/PSYSTEM_POWER_STATE_CONTEXT
+ms.keywords: ",  , *, *PSYSTEM_POWER_STATE_CONTEXT, ,, A, C, E, M, N, O, P, PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], R, S, SYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], T, W, X, Y, _, _SYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, wdm/PSYSTEM_POWER_STATE_CONTEXT, wdm/SYSTEM_POWER_STATE_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,7 +101,7 @@ Opaque member. Reserved for system use.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.TargetSystemState
 
-The target system power state of the previous <a href="https://msdn.microsoft.com/a37e8dda-af7a-4f28-bf04-908a74bb5b2f">system power IRP</a> that the driver received. This member is set to a <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration value. Drivers should treat this member as read-only.
+The target system power state of the previous <a href="https://msdn.microsoft.com/a37e8dda-af7a-4f28-bf04-908a74bb5b2f">system power IRP</a> that the driver received. This member is set to a <a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration value. Drivers should treat this member as read-only.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EffectiveSystemState
@@ -147,11 +147,11 @@ The size of the <b>SYSTEM_POWER_STATE_CONTEXT</b> structure is four bytes. This 
 
 ## -see-also
 
+<a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
 

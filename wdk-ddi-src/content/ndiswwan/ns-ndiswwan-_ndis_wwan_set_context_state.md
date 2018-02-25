@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8aadbfe0-e925-4c58-9ca0-d07dc40a0ff3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_WWAN_SET_CONTEXT_STATE, ndiswwan/NDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_538105aa-7c75-4c30-96ed-4763cf59575d.xml, _NDIS_WWAN_SET_CONTEXT_STATE, *PNDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE, netvista.ndis_wwan_set_context_state, NDIS_WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_CONTEXT_STATE
+ms.keywords: ",  , *, *PNDIS_WWAN_SET_CONTEXT_STATE, ,, A, C, D, E, I, N, NDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], S, T, W, WwanRef_538105aa-7c75-4c30-96ed-4763cf59575d.xml, X, _, _NDIS_WWAN_SET_CONTEXT_STATE, ndiswwan/NDIS_WWAN_SET_CONTEXT_STATE, ndiswwan/PNDIS_WWAN_SET_CONTEXT_STATE, netvista.ndis_wwan_set_context_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,11 +129,11 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

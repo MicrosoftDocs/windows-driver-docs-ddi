@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3, debugger.getconstantnamewide, GetConstantNameWide, GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, GetConstantNameWide method [Windows Debugging]
+ms.keywords: ",  , ,, ., 3, :, C, D, G, GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, GetConstantNameWide,IDebugSymbols3.GetConstantNameWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3::GetConstantNameWide, N, S, W, a, b, d, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide, e, g, i, l, m, n, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

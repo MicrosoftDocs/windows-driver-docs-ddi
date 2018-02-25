@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: dc10fd33-e330-4c74-934b-2d178b17c51b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfdriversetupsystemaction2_importdriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage, IWDTFDriverSetupSystemAction2::ImportDriverPackage, IWDTFDriverSetupSystemAction2, ImportDriverPackage method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ImportDriverPackage method, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, ImportDriverPackage
+ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ImportDriverPackage method, IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], ImportDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, ImportDriverPackage,IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, P, S, T, W, a, c, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, e, g, i, k, m, n, o, p, r, s, t, u, v, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

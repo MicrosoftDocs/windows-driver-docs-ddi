@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e7b25a47-e197-4670-9907-409d5aeb5462
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbTargetDeviceQueryString, DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml, wdf.wdfusbtargetdevicequerystring, wdfusb/WdfUsbTargetDeviceQueryString, kmdf.wdfusbtargetdevicequerystring, WdfUsbTargetDeviceQueryString method
+ms.keywords: ",  , D, DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml, Q, S, T, U, W, WdfUsbTargetDeviceQueryString, WdfUsbTargetDeviceQueryString method, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdevicequerystring, n, r, s, t, u, v, wdf.wdfusbtargetdevicequerystring, wdfusb/WdfUsbTargetDeviceQueryString, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -267,15 +267,11 @@ status = WdfUsbTargetDeviceQueryString(
 
 ## -see-also
 
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
-
-
-
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 
@@ -283,15 +279,19 @@ status = WdfUsbTargetDeviceQueryString(
 
 
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
-
-
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+
+
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 

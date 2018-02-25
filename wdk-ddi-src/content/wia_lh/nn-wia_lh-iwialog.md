@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b56cb3f0-1053-4104-b223-e7448a832f33
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.iwialog_interface, IWiaLog interface [Imaging Devices], IWiaLog interface [Imaging Devices], described, IWiaLog, wia_lh/IWiaLog, IWiaLog_0284e394-6bc5-40b8-8174-0041bfc0d5dd.xml
+ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], IWiaLog interface [Imaging Devices], described, IWiaLog_0284e394-6bc5-40b8-8174-0041bfc0d5dd.xml, image.iwialog_interface, wia_lh/IWiaLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

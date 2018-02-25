@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 32C96259-3A35-4BD3-96A4-A9F2A5FDAB99
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET, 1394/IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], IEEE.irb_req_send_phy_packet"
+ms.keywords: ",  , ,, 1394/IRB_REQ_SEND_PHY_PACKET, A, B, C, D, E, H, I, IEEE.irb_req_send_phy_packet, IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], K, N, P, Q, R, S, T, Y, _, _IRB_REQ_SEND_PHY_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

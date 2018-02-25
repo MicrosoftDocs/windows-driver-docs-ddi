@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8F83F94E-CF4F-4709-A860-DDF1850A7264
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.debugextensionunload, DebugExtensionUnload, DebugExtensionUnload callback function [Windows Debugging], DebugExtensionUnload, PDEBUG_EXTENSION_UNLOAD, PDEBUG_EXTENSION_UNLOAD, dbgeng/DebugExtensionUnload
+ms.keywords: DebugExtensionUnload, DebugExtensionUnload callback function [Windows Debugging], PDEBUG_EXTENSION_UNLOAD, dbgeng/DebugExtensionUnload, debugger.debugextensionunload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

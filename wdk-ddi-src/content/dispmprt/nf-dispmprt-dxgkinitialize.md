@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0eda4184-2852-4a31-b4da-1fbb99ed4670
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dispmprt/DxgkInitialize, DpFunctions_a3ffc7d5-f2bc-42f0-97f3-411bfe7b95e7.xml, display.dxgkinitialize, DxgkInitialize, DxgkInitialize function [Display Devices]
+ms.keywords: ",  , D, DpFunctions_a3ffc7d5-f2bc-42f0-97f3-411bfe7b95e7.xml, DxgkInitialize, DxgkInitialize function [Display Devices], I, a, display.dxgkinitialize, dispmprt/DxgkInitialize, e, g, i, k, l, n, t, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -212,11 +212,7 @@ DriverEntry(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
-
-
-
-<a href="..\dispmprt\ns-dispmprt-_driver_initialization_data.md">DRIVER_INITIALIZATION_DATA</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -224,7 +220,11 @@ DriverEntry(
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\dispmprt\ns-dispmprt-_driver_initialization_data.md">DRIVER_INITIALIZATION_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 663fd3c3-7a8f-446d-b45a-392716116407
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.settextfiltersize, SetTextFilterSize callback function [Display Devices], SetTextFilterSize, PFND3D10DDI_SETTEXTFILTERSIZE, PFND3D10DDI_SETTEXTFILTERSIZE, d3d10umddi/SetTextFilterSize, UserModeDisplayDriverDx10_Functions_418992fe-bd22-446c-94a2-2a4d23fd63a7.xml
+ms.keywords: PFND3D10DDI_SETTEXTFILTERSIZE, SetTextFilterSize, SetTextFilterSize callback function [Display Devices], UserModeDisplayDriverDx10_Functions_418992fe-bd22-446c-94a2-2a4d23fd63a7.xml, d3d10umddi/SetTextFilterSize, display.settextfiltersize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -125,15 +125,15 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_filter.md">D3D10_DDI_FILTER</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

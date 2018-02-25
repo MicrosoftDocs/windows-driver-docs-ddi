@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d853643d-d3e8-40cc-a8a8-848f36f3bdae
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PINTERFACE structure pointer [Kernel-Mode Driver Architecture], kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml, wdm/INTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], kernel.interface, wdm/PINTERFACE, *PINTERFACE, PINTERFACE, INTERFACE, _INTERFACE
+ms.keywords: ",  , *, *PINTERFACE, ,, A, C, E, F, I, INTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], N, P, PINTERFACE, PINTERFACE structure pointer [Kernel-Mode Driver Architecture], R, T, _, _INTERFACE, kernel.interface, kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml, wdm/INTERFACE, wdm/PINTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,12 +88,12 @@ Pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-Pointer to a driver-supplied <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+Pointer to a driver-supplied <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-Pointer to a driver-supplied <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+Pointer to a driver-supplied <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ## -remarks
@@ -115,11 +115,11 @@ Each driver that imports the interface (whether by sending <b>IRP_MN_QUERY_INTER
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
 
 
 

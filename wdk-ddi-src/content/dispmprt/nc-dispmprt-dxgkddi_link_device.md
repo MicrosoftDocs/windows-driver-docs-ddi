@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fb9b7c58-1c4f-42e4-a59f-4a529d3caca2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddilinkdevice, DxgkDdiLinkDevice callback function [Display Devices], DxgkDdiLinkDevice, DXGKDDI_LINK_DEVICE, DXGKDDI_LINK_DEVICE, dispmprt/DxgkDdiLinkDevice, DmFunctions_3dcba945-b441-49a2-9d1e-af0ff235136c.xml
+ms.keywords: DXGKDDI_LINK_DEVICE, DmFunctions_3dcba945-b441-49a2-9d1e-af0ff235136c.xml, DxgkDdiLinkDevice, DxgkDdiLinkDevice callback function [Display Devices], display.dxgkddilinkdevice, dispmprt/DxgkDdiLinkDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

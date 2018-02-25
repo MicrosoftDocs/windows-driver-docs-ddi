@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 370A4EBA-80BF-46B2-8F52-9F04A4EC98D7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: AddString method [Windows Debugging], IDebugFailureAnalysis2::AddString, AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, AddExtensionCommand, IDebugFailureAnalysis2::AddExtensionCommand, debugger.idebugfailureanalysis2_addextensioncommand, IDebugFailureAnalysis2 interface [Windows Debugging], AddString method, extsfns/IDebugFailureAnalysis2::AddString, IDebugFailureAnalysis2
+ms.keywords: ",  , ,, ., 2, :, A, AddExtensionCommand,IDebugFailureAnalysis2.AddExtensionCommand, AddString method [Windows Debugging], AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, C, D, E, F, I, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddString method, IDebugFailureAnalysis2::AddExtensionCommand, IDebugFailureAnalysis2::AddString, a, b, d, debugger.idebugfailureanalysis2_addextensioncommand, e, extsfns/IDebugFailureAnalysis2::AddString, g, i, l, m, n, o, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,11 +136,7 @@ Question: When does the data type of a tag get fixed? Is it when the first FA en
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
 
 
 
@@ -148,11 +144,15 @@ Question: When does the data type of a tag get fixed? Is it when the first FA en
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 

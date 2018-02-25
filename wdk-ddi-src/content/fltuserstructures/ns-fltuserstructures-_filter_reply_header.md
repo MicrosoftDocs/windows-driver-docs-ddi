@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2765ccb0-3389-4962-8a7d-8080cb3c8806
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PFILTER_REPLY_HEADER structure pointer [Installable File System Drivers], fltuserstructures/FILTER_REPLY_HEADER, *PFILTER_REPLY_HEADER, _FILTER_REPLY_HEADER, FILTER_REPLY_HEADER structure [Installable File System Drivers], FltSystemStructures_93e9fad2-e89d-40af-8614-c09a51f07e7b.xml, fltuserstructures/PFILTER_REPLY_HEADER, FILTER_REPLY_HEADER, ifsk.filter_reply_header, PFILTER_REPLY_HEADER
+ms.keywords: ",  , *, *PFILTER_REPLY_HEADER, ,, A, D, E, F, FILTER_REPLY_HEADER, FILTER_REPLY_HEADER structure [Installable File System Drivers], FltSystemStructures_93e9fad2-e89d-40af-8614-c09a51f07e7b.xml, H, I, L, P, PFILTER_REPLY_HEADER, PFILTER_REPLY_HEADER structure pointer [Installable File System Drivers], R, T, Y, _, _FILTER_REPLY_HEADER, fltuserstructures/FILTER_REPLY_HEADER, fltuserstructures/PFILTER_REPLY_HEADER, ifsk.filter_reply_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ This structure is allocated by a user-mode application. It is a container for a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
-
-
-
 <a href="..\fltuserstructures\ns-fltuserstructures-_filter_message_header.md">FILTER_MESSAGE_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c5a49bbd-ddb7-4faa-934a-d5846273d648
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.readdmacounter, ReadDmaCounter, ReadDmaCounter callback function [Kernel-Mode Driver Architecture], ReadDmaCounter, PREAD_DMA_COUNTER, PREAD_DMA_COUNTER, wdm/ReadDmaCounter, kdma_81865501-ca01-4f66-b2a9-da0493d72589.xml
+ms.keywords: PREAD_DMA_COUNTER, ReadDmaCounter, ReadDmaCounter callback function [Kernel-Mode Driver Architecture], kdma_81865501-ca01-4f66-b2a9-da0493d72589.xml, kernel.readdmacounter, wdm/ReadDmaCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,11 @@ Pointer to the adapter object previously returned by <a href="..\wdm\nf-wdm-ioge
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
 
 
@@ -113,7 +113,7 @@ Pointer to the adapter object previously returned by <a href="..\wdm\nf-wdm-ioge
 
 
 
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
 
 

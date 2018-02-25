@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c87a0b8-f355-48a4-a119-11e047e159d0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PFORMAT_EX_PARAMETERS, storage.format_ex_parameters, PFORMAT_EX_PARAMETERS, ntdddisk/PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, _FORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], ntdddisk/FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Storage Devices], structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml"
+ms.keywords: ",  , *, *PFORMAT_EX_PARAMETERS, ,, A, E, F, FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Storage Devices], M, O, P, PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], R, S, T, X, _, _FORMAT_EX_PARAMETERS, ntdddisk/FORMAT_EX_PARAMETERS, ntdddisk/PFORMAT_EX_PARAMETERS, storage.format_ex_parameters, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

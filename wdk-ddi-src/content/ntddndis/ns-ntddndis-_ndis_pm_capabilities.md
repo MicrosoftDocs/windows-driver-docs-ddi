@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 713c8ecc-e0a5-480a-9c53-e331aeaeb38e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, ntddndis/NDIS_PM_CAPABILITIES, netvista.ndis_pm_capabilities, _NDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES
+ms.keywords: ",  , *, *PNDIS_PM_CAPABILITIES, ,, A, B, C, D, E, I, L, M, N, NDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], P, PNDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], S, T, _, _NDIS_PM_CAPABILITIES, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, netvista.ndis_pm_capabilities, ntddndis/NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -613,12 +613,16 @@ The
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
    NDIS_STATUS_PM_CAPABILITIES_CHANGE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 
 
@@ -626,7 +630,7 @@ The
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
 
 
 
@@ -635,11 +639,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

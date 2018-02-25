@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 89fa481a-b6f4-4948-8fda-e1e19c58da28
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_wmi_enum_adapter, ntddndis/NDIS_WMI_ENUM_ADAPTER, ndis_wmi_ref_a64c64b4-2108-4b99-937d-098197c5a72c.xml, NDIS_WMI_ENUM_ADAPTER structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_WMI_ENUM_ADAPTER, NDIS_WMI_ENUM_ADAPTER, PNDIS_WMI_ENUM_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WMI_ENUM_ADAPTER, PNDIS_WMI_ENUM_ADAPTER, _NDIS_WMI_ENUM_ADAPTER
+ms.keywords: ",  , *, *PNDIS_WMI_ENUM_ADAPTER, ,, A, D, E, I, M, N, NDIS_WMI_ENUM_ADAPTER, NDIS_WMI_ENUM_ADAPTER structure [Network Drivers Starting with Windows Vista], P, PNDIS_WMI_ENUM_ADAPTER, PNDIS_WMI_ENUM_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, W, _, _NDIS_WMI_ENUM_ADAPTER, ndis_wmi_ref_a64c64b4-2108-4b99-937d-098197c5a72c.xml, netvista.ndis_wmi_enum_adapter, ntddndis/NDIS_WMI_ENUM_ADAPTER, ntddndis/PNDIS_WMI_ENUM_ADAPTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

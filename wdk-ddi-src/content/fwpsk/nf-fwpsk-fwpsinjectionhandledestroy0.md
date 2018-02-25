@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a00917b-36e8-4e06-a001-d8e6ac2e3573
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], FwpsInjectionHandleDestroy0, netvista.fwpsinjectionhandledestroy0, fwpsk/FwpsInjectionHandleDestroy0, wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml
+ms.keywords: ",  , 0, D, F, FwpsInjectionHandleDestroy0, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], H, I, a, c, d, e, fwpsk/FwpsInjectionHandleDestroy0, i, j, l, n, netvista.fwpsinjectionhandledestroy0, o, p, r, s, t, w, wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

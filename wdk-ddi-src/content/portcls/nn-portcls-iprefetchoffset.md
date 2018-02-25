@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8c6a3766-c959-4979-8dc9-3b5234003272
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iprefetchoffset, IPreFetchOffset interface [Audio Devices], IPreFetchOffset interface [Audio Devices], described, IPreFetchOffset, portcls/IPreFetchOffset, audmp-routines_71e52125-c3a2-4434-96f3-e3a66b482a3a.xml
+ms.keywords: IPreFetchOffset, IPreFetchOffset interface [Audio Devices], IPreFetchOffset interface [Audio Devices], described, audio.iprefetchoffset, audmp-routines_71e52125-c3a2-4434-96f3-e3a66b482a3a.xml, portcls/IPreFetchOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

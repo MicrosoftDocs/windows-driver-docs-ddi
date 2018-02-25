@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a800eaf5-249e-4f17-9584-55dc6deb7bff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILMESSAGEIN_V2, *LPRILMESSAGEIN, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMESSAGEIN_V2, netvista.rilmessagein_v2_2, RILMESSAGEIN
+ms.keywords: ",  , *, *LPRILMESSAGEIN, ,, 2, A, E, G, I, L, M, N, P, R, RILMESSAGEIN, RILMESSAGEIN_V2, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], S, V, _, netvista.rilmessagein_v2_2, rilapitypes/RILMESSAGEIN_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

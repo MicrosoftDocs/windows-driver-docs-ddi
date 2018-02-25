@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23b15bb5-4394-406b-8869-f9d1e4e2b539
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getoverlaycolorcontrols, GetOverlayColorControls callback function [Display Devices], GetOverlayColorControls, PFND3DDDI_GETOVERLAYCOLORCONTROLS, PFND3DDDI_GETOVERLAYCOLORCONTROLS, d3dumddi/GetOverlayColorControls, UserModeDisplayDriver_Functions_b50c3637-892b-4cc9-ad9a-97feeeb649fc.xml
+ms.keywords: GetOverlayColorControls, GetOverlayColorControls callback function [Display Devices], PFND3DDDI_GETOVERLAYCOLORCONTROLS, UserModeDisplayDriver_Functions_b50c3637-892b-4cc9-ad9a-97feeeb649fc.xml, d3dumddi/GetOverlayColorControls, display.getoverlaycolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,11 +153,11 @@ The runtime can also call <i>GetOverlayColorControls</i> for an overlay that is 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getoverlaycolorcontrols.md">D3DDDIARG_GETOVERLAYCOLORCONTROLS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

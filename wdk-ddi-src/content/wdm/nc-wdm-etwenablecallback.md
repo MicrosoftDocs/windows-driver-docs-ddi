@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 5953a3ae-b130-42fd-9dc8-974d15c6dfc5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.etwenablecallback, EtwEnableCallback callback function [Driver Development Tools], EtwEnableCallback, PETWENABLECALLBACK, PETWENABLECALLBACK, wdm/EtwEnableCallback, etw_km_6405d4d5-382c-4950-9b91-0cb224a3d069.xml
+ms.keywords: EtwEnableCallback, EtwEnableCallback callback function [Driver Development Tools], PETWENABLECALLBACK, devtest.etwenablecallback, etw_km_6405d4d5-382c-4950-9b91-0cb224a3d069.xml, wdm/EtwEnableCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -145,18 +145,6 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545684">Event Filter Descriptor</a>
 
 
@@ -166,6 +154,18 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 
 <a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
+
+
+
+<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6D4DB988-D339-4B2F-A9B8-41B4FD21FE66
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnsetmarker, pfnSetMarker callback function [Display Devices], pfnSetMarker, PFND3DDDI_SETMARKER, PFND3DDDI_SETMARKER, d3dumddi/pfnSetMarker
+ms.keywords: PFND3DDDI_SETMARKER, d3dumddi/pfnSetMarker, display.pfnsetmarker, pfnSetMarker, pfnSetMarker callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -110,11 +110,11 @@ If the marker event type from the  <i>Type</i> parameter of the <a href="..\d3du
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarker.md">SetMarker</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarker.md">SetMarker</a>
 
 
 

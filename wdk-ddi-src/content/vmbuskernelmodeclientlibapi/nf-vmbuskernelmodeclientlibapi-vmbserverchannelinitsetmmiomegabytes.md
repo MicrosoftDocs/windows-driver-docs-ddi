@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9E19BCC0-5529-470C-BF69-521FEFA3303E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbServerChannelInitSetMmioMegabytes, VmbServerChannelInitSetMmioMegabytes function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbServerChannelInitSetMmioMegabytes, netvista.vmbserverchannelinitsetmmiomegabytes
+ms.keywords: ",  , C, I, M, S, V, VmbServerChannelInitSetMmioMegabytes, VmbServerChannelInitSetMmioMegabytes function [Network Drivers Starting with Windows Vista], a, b, e, g, h, i, l, m, n, netvista.vmbserverchannelinitsetmmiomegabytes, o, r, s, t, v, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetMmioMegabytes, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

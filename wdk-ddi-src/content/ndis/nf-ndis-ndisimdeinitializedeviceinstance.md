@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: badfab43-ba58-4711-a181-af87dcfeba4d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisIMDeInitializeDeviceInstance, netvista.ndisimdeinitializedeviceinstance, NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml
+ms.keywords: ",  , D, I, M, N, NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], a, c, d, e, i, intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, l, n, ndis/NdisIMDeInitializeDeviceInstance, netvista.ndisimdeinitializedeviceinstance, s, t, v, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

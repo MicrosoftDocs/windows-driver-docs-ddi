@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e10091c0-0da6-4acd-8104-9d353262836a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.putscattergatherlist, PutScatterGatherList, PutScatterGatherList callback function [Kernel-Mode Driver Architecture], PutScatterGatherList, PPUT_SCATTER_GATHER_LIST, PPUT_SCATTER_GATHER_LIST, ntddk/PutScatterGatherList, kdma_0f73e6d3-bf6c-4f2b-aff9-ae783b2130c5.xml
+ms.keywords: PPUT_SCATTER_GATHER_LIST, PutScatterGatherList, PutScatterGatherList callback function [Kernel-Mode Driver Architecture], kdma_0f73e6d3-bf6c-4f2b-aff9-ae783b2130c5.xml, kernel.putscattergatherlist, ntddk/PutScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -117,19 +117,19 @@ Drivers should call <b>PutScatterGatherList</b> after completing scatter/gather 
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 
 <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 

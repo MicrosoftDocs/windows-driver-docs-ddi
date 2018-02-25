@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a2fbb125-42cf-4c33-83bb-3fc875712be3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetgroupsecuritydescriptor, RtlGetGroupSecurityDescriptor, rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml, ntifs/RtlGetGroupSecurityDescriptor
+ms.keywords: ",  , D, G, R, RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], S, c, e, i, ifsk.rtlgetgroupsecuritydescriptor, l, ntifs/RtlGetGroupSecurityDescriptor, o, p, r, rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,7 +131,7 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\ntifs\nf-ntifs-rtlsetgroupsecuritydescriptor.md">RtlSetGroupSecurityDescriptor</a>
 
 
 
@@ -139,11 +139,11 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsetgroupsecuritydescriptor.md">RtlSetGroupSecurityDescriptor</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 

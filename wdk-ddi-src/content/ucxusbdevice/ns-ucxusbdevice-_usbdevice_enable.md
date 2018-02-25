@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: DC54CC46-6ECC-4D1F-9C8C-5579EE759B6F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxusbdevice/_USBDEVICE_ENABLE, _USBDEVICE_ENABLE, buses._usbdevice_enable, *PUSBDEVICE_ENABLE, USBDEVICE_ENABLE, ucxusbdevice/P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE structure [Buses]
+ms.keywords: ",  , *, *PUSBDEVICE_ENABLE, ,, A, B, C, D, E, I, L, N, P, P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], S, U, USBDEVICE_ENABLE, USBDEVICE_ENABLE structure [Buses], V, _, _USBDEVICE_ENABLE, buses._usbdevice_enable, ucxusbdevice/P_USBDEVICE_ENABLE, ucxusbdevice/_USBDEVICE_ENABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

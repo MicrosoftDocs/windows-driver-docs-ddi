@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: efae077e-2698-4392-ac2a-8f41acdb12a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SeReleaseSubjectContext, seref_f46fe5d3-13d1-4907-85b4-47eb78116fe0.xml, ntifs/SeReleaseSubjectContext, SeReleaseSubjectContext routine [Installable File System Drivers], ifsk.sereleasesubjectcontext
+ms.keywords: ",  , C, R, S, SeReleaseSubjectContext, SeReleaseSubjectContext routine [Installable File System Drivers], a, b, c, e, ifsk.sereleasesubjectcontext, j, l, n, ntifs/SeReleaseSubjectContext, o, s, seref_f46fe5d3-13d1-4907-85b4-47eb78116fe0.xml, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 
 
@@ -115,11 +111,15 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
+
+
+
 <a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
 
 
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 118ea0b9-6463-4050-9f33-192a3d42fdce
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbreaddevicespace, DxgkCbReadDeviceSpace callback function [Display Devices], DxgkCbReadDeviceSpace, DXGKCB_READ_DEVICE_SPACE, DXGKCB_READ_DEVICE_SPACE, dispmprt/DxgkCbReadDeviceSpace, DpFunctions_54853b5b-487d-410e-a08d-eb777b3686e9.xml
+ms.keywords: DXGKCB_READ_DEVICE_SPACE, DpFunctions_54853b5b-487d-410e-a08d-eb777b3686e9.xml, DxgkCbReadDeviceSpace, DxgkCbReadDeviceSpace callback function [Display Devices], display.dxgkcbreaddevicespace, dispmprt/DxgkCbReadDeviceSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

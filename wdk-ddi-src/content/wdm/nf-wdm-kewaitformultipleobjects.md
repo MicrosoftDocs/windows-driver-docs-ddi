@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2e533d7b-be70-4601-b9e1-4fe3ce51817f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.kewaitformultipleobjects, KeWaitForMultipleObjects, k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml, KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture], wdm/KeWaitForMultipleObjects
+ms.keywords: ",  , F, K, KeWaitForMultipleObjects, KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture], M, O, W, a, b, c, e, i, j, k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml, kernel.kewaitformultipleobjects, l, o, p, r, s, t, u, wdm/KeWaitForMultipleObjects"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -221,19 +221,7 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 
@@ -241,11 +229,23 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH
 
 
 
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 
 

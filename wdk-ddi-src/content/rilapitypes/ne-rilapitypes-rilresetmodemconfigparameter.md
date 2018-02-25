@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6467bd24-bc2f-4d41-ba8a-a6b46fcc9853
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILRESETMODEMCONFIGPARAMETER, RIL_RESETMODEMCONFIGPARAMETER_MAX, rilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigparameter_2, rilapitypes/RILRESETMODEMCONFIGPARAMETER
+ms.keywords: ",  , ,, A, C, D, E, F, G, I, L, M, N, O, P, R, RILRESETMODEMCONFIGPARAMETER, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMCONFIGPARAMETER_MAX, S, T, netvista.rilresetmodemconfigparameter_2, rilapitypes/RILRESETMODEMCONFIGPARAMETER, rilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

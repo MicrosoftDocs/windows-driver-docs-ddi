@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B9A2C636-BF18-4D1B-A013-8CAE65FCC56F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugClient5::SetQuitLockStringWide, SetQuitLockStringWide, SetQuitLockStringWide method [Windows Debugging], SetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], SetQuitLockStringWide method, debugger.idebugclient5_setquitlockstringwide, dbgeng/IDebugClient5::SetQuitLockStringWide, IDebugClient5
+ms.keywords: ",  , ,, ., 5, :, C, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], SetQuitLockStringWide method, IDebugClient5::SetQuitLockStringWide, L, Q, S, SetQuitLockStringWide method [Windows Debugging], SetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, SetQuitLockStringWide,IDebugClient5.SetQuitLockStringWide, W, b, c, d, dbgeng/IDebugClient5::SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide, e, g, i, k, l, n, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d7402839-2afe-43d3-9747-7b2e98d1c238
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure [Display Devices], D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, display.d3dkmt_brightness_possible_levels, d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+ms.keywords: ",  , ,, 3, B, D, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure [Display Devices], E, G, H, I, K, L, M, N, O, P, R, S, T, V, _, _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, display.d3dkmt_brightness_possible_levels"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

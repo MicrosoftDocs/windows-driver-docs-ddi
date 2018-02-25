@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e19e8a1-0cb6-4d57-862c-2e3a785b949b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmt_vidsch_escape, _D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices], d3dkmthk/D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE, OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices], E, H, I, K, M, OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml, P, S, T, V, _, _D3DKMT_VIDSCH_ESCAPE, d3dkmthk/D3DKMT_VIDSCH_ESCAPE, display.d3dkmt_vidsch_escape"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -147,11 +147,11 @@ Time period to suspend.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
-
-
-
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_vidschescapetype.md">D3DKMT_VIDSCHESCAPETYPE</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
 
 
 

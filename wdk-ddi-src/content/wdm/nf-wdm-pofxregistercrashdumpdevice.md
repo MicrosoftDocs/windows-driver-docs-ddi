@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3237B68F-838A-4443-89FD-DC7815EAB403
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], wdm/PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice, kernel.pofxregistercrashdumpdevice
+ms.keywords: ",  , C, D, F, P, PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], R, a, c, d, e, g, h, i, kernel.pofxregistercrashdumpdevice, m, o, p, r, s, t, u, v, wdm/PoFxRegisterCrashdumpDevice, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,11 +132,11 @@ For more information about crash dumps, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxpoweroncrashdumpdevice.md">PoFxPowerOnCrashdumpDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxpoweroncrashdumpdevice.md">PoFxPowerOnCrashdumpDevice</a>
 
 
 

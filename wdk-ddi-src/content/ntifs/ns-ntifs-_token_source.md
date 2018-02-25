@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0820f6f2-bec2-4d38-9a95-cfff6151ef02
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TOKEN_SOURCE, ntifs/TOKEN_SOURCE, PTOKEN_SOURCE, securitystructures_caf23dc4-0bfe-40e1-9b94-b58bb0eb893e.xml, _TOKEN_SOURCE, ntifs/PTOKEN_SOURCE, TOKEN_SOURCE structure [Installable File System Drivers], ifsk.token_source, *PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Installable File System Drivers]
+ms.keywords: ",  , *, *PTOKEN_SOURCE, ,, C, E, K, N, O, P, PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Installable File System Drivers], R, S, T, TOKEN_SOURCE, TOKEN_SOURCE structure [Installable File System Drivers], U, _, _TOKEN_SOURCE, ifsk.token_source, ntifs/PTOKEN_SOURCE, ntifs/TOKEN_SOURCE, securitystructures_caf23dc4-0bfe-40e1-9b94-b58bb0eb893e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ Specifies a locally unique identifier (LUID) provided by the source component na
 
 ## -see-also
 
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+
+
+
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 
@@ -92,11 +92,11 @@ Specifies a locally unique identifier (LUID) provided by the source component na
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 

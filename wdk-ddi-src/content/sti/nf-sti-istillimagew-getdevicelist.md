@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 43c8a5d2-7f34-4b68-b316-020049e98444
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStillImage::GetDeviceList, IStillImageW::GetDeviceList, image.istillimage_getdevicelist, GetDeviceList, IStillImage interface [Imaging Devices], GetDeviceList method, stifnc_eb4712d7-33b5-40d3-87f9-6f5eef639039.xml, IStillImageW, GetDeviceList method [Imaging Devices], IStillImage interface, GetDeviceList method [Imaging Devices], sti/IStillImage::GetDeviceList
+ms.keywords: ",  , ,, ., :, D, G, GetDeviceList method [Imaging Devices], GetDeviceList method [Imaging Devices], IStillImage interface, GetDeviceList,IStillImageW.GetDeviceList, I, IStillImage interface [Imaging Devices], GetDeviceList method, IStillImage::GetDeviceList, IStillImageW, IStillImageW::GetDeviceList, L, S, W, a, c, e, g, i, image.istillimage_getdevicelist, l, m, s, sti/IStillImage::GetDeviceList, stifnc_eb4712d7-33b5-40d3-87f9-6f5eef639039.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3B4C0CF0-8153-446E-A834-C1FE28651718
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlptrdifftadd, RtlPtrdiffTAdd, RtlPtrdiffTAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlPtrdiffTAdd
+ms.keywords: ",  , A, P, R, RtlPtrdiffTAdd, RtlPtrdiffTAdd function [Kernel-Mode Driver Architecture], T, d, f, i, kernel.rtlptrdifftadd, l, ntintsafe/RtlPtrdiffTAdd, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

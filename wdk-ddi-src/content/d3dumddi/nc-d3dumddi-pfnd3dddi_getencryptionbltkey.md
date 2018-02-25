@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3c3e792-bc8a-485e-a208-66b7d921cc15
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getencryptionbltkey, GetEncryptionBltKey callback function [Display Devices], GetEncryptionBltKey, PFND3DDDI_GETENCRYPTIONBLTKEY, PFND3DDDI_GETENCRYPTIONBLTKEY, d3dumddi/GetEncryptionBltKey, UserModeDisplayDriver_Functions_c20ad527-141e-404f-a52e-47b893b2a2bb.xml
+ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey callback function [Display Devices], PFND3DDDI_GETENCRYPTIONBLTKEY, UserModeDisplayDriver_Functions_c20ad527-141e-404f-a52e-47b893b2a2bb.xml, d3dumddi/GetEncryptionBltKey, display.getencryptionbltkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,7 +142,7 @@ Each time the Direct3D runtime calls the driver's <i>GetEncryptionBltKey</i> fun
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
@@ -150,11 +150,11 @@ Each time the Direct3D runtime calls the driver's <i>GetEncryptionBltKey</i> fun
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createcryptosession.md">D3DDDIARG_CREATECRYPTOSESSION</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
 
 
 

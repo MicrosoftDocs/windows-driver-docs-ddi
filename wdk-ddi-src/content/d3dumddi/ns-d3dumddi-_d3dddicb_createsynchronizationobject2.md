@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 090fe0df-d2b4-4bfd-a3f3-38bc228337ab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, display.d3dddicb_createsynchronizationobject2, _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
+ms.keywords: ",  , ,, 2, 3, A, B, C, D, D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], E, H, I, J, N, O, R, S, T, Y, Z, _, _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, display.d3dddicb_createsynchronizationobject2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

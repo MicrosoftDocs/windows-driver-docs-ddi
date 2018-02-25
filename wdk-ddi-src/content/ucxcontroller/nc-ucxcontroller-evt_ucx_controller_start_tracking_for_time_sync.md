@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 8465B255-E36E-481D-B063-597B9C861DCD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_controller_start_tracking_for_time_sync, EvUcxControllerStartTrackingForTimeSync callback function [Buses], EvUcxControllerStartTrackingForTimeSync, EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, ucxcontroller/EvUcxControllerStartTrackingForTimeSync
+ms.keywords: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, EvUcxControllerStartTrackingForTimeSync, EvUcxControllerStartTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_start_tracking_for_time_sync, ucxcontroller/EvUcxControllerStartTrackingForTimeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

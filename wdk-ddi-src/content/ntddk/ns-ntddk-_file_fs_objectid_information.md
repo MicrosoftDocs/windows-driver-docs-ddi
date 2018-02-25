@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 37da9699-2edb-4a32-a865-2bf3b1cef157
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_FILE_FS_OBJECTID_INFORMATION, fileinformationstructures_6a17f2c2-0aae-44a7-a65c-02c1ed2a9ed4.xml, PFILE_FS_OBJECTID_INFORMATION, *PFILE_FS_OBJECTID_INFORMATION, ifsk.file_fs_objectid_information, PFILE_FS_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], FILE_FS_OBJECTID_INFORMATION structure [Installable File System Drivers], ntddk/PFILE_FS_OBJECTID_INFORMATION, FILE_FS_OBJECTID_INFORMATION, ntddk/FILE_FS_OBJECTID_INFORMATION"
+ms.keywords: ",  , *, *PFILE_FS_OBJECTID_INFORMATION, ,, A, B, C, D, E, F, FILE_FS_OBJECTID_INFORMATION, FILE_FS_OBJECTID_INFORMATION structure [Installable File System Drivers], I, J, L, M, N, O, P, PFILE_FS_OBJECTID_INFORMATION, PFILE_FS_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], R, S, T, _, _FILE_FS_OBJECTID_INFORMATION, fileinformationstructures_6a17f2c2-0aae-44a7-a65c-02c1ed2a9ed4.xml, ifsk.file_fs_objectid_information, ntddk/FILE_FS_OBJECTID_INFORMATION, ntddk/PFILE_FS_OBJECTID_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,7 +86,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing FileFsObjectIdInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_OBJECTID_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing FileFsObjectIdInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_OBJECTID_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -116,7 +116,7 @@ It is important to note that the volume object ID is not the same as the volume 
 
 To get the volume GUID for a volume, use the Win32 <b>GetVolumeNameForVolumeMountPoint</b> function or the <a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a> routine. 
 
-The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>, <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, or <a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_OBJECTID_INFORMATION). 
+The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>, <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, or <a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_OBJECTID_INFORMATION). 
 
 This structure must be aligned on a LONGLONG (8-byte) boundary. 
 
@@ -125,23 +125,11 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 
@@ -149,7 +137,19 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
 
 
 

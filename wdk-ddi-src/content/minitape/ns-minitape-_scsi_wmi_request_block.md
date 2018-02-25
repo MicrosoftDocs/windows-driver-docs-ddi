@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6dc10c3a-b47e-42c3-a209-34977fb219f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-scsibus_6188bca6-990b-4471-b8ea-2cd5b2b27d51.xml, srb/SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK structure [Storage Devices], PSCSI_WMI_REQUEST_BLOCK structure pointer [Storage Devices], _SCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK, srb/PSCSI_WMI_REQUEST_BLOCK, *PSCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK, storage.scsi_wmi_request_block
+ms.keywords: ",  , *, *PSCSI_WMI_REQUEST_BLOCK, ,, B, C, E, I, K, L, M, O, P, PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK structure pointer [Storage Devices], Q, R, S, SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK structure [Storage Devices], T, U, W, _, _SCSI_WMI_REQUEST_BLOCK, srb/PSCSI_WMI_REQUEST_BLOCK, srb/SCSI_WMI_REQUEST_BLOCK, storage.scsi_wmi_request_block, structs-scsibus_6188bca6-990b-4471-b8ea-2cd5b2b27d51.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: SCSI_WMI_REQUEST_BLOCK, *PSCSI_WMI_REQUEST_BLOCK
 ## -description
 
 
-This structure is a special version of a <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> for use with WMI commands. 
+This structure is a special version of a <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> for use with WMI commands. 
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
@@ -249,23 +249,23 @@ For information about supporting WMI in miniport drivers, see the <a href="https
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-
-
-
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
 
 
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
+
+
+
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 

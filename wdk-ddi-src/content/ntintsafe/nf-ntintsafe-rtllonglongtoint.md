@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CED66199-041A-432D-99C6-002D7BC83775
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtllonglongtoint, RtlLongLongToInt function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongLongToInt, RtlLongLongToInt
+ms.keywords: ",  , I, L, R, RtlLongLongToInt, RtlLongLongToInt function [Kernel-Mode Driver Architecture], T, g, kernel.rtllonglongtoint, l, n, ntintsafe/RtlLongLongToInt, o, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

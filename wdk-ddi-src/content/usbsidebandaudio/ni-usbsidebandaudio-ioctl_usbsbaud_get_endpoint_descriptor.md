@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: D004AD6D-C1D1-4413-B40A-DFE33914CDF2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.ioctl_usbsbaud_get_endpoint_descriptor, IOCTL_USBSBAUD_GET_ENDPOINT_DESCRIPTOR control code [Audio Devices], IOCTL_USBSBAUD_GET_ENDPOINT_DESCRIPTOR, usbsidebandaudio/IOCTL_USBSBAUD_GET_ENDPOINT_DESCRIPTOR
+ms.keywords: IOCTL_USBSBAUD_GET_ENDPOINT_DESCRIPTOR, IOCTL_USBSBAUD_GET_ENDPOINT_DESCRIPTOR control code [Audio Devices], audio.ioctl_usbsbaud_get_endpoint_descriptor, usbsidebandaudio/IOCTL_USBSBAUD_GET_ENDPOINT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -111,11 +111,7 @@ TBD
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -123,7 +119,11 @@ TBD
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

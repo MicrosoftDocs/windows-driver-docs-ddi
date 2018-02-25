@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f77a2701-bde2-42c2-8393-88a7e4576f1b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ioconnectinterruptex, WdmlibIoConnectInterruptEx, k104_17833453-ee13-4346-9c58-a1c47dccf636.xml, wdm/WdmlibIoConnectInterruptEx, wdm/IoConnectInterruptEx, IoConnectInterruptEx, IoConnectInterruptEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, E, I, IoConnectInterruptEx, IoConnectInterruptEx routine [Kernel-Mode Driver Architecture], WdmlibIoConnectInterruptEx, c, e, k104_17833453-ee13-4346-9c58-a1c47dccf636.xml, kernel.ioconnectinterruptex, n, o, p, r, t, u, wdm/IoConnectInterruptEx, wdm/WdmlibIoConnectInterruptEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

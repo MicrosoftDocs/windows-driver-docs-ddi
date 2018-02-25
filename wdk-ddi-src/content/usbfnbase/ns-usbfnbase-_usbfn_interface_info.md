@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 54647A9E-E0AB-4DE7-93FB-D0232D6AC646
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PUSBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO, usbfnbase/PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], USBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO structure pointer [Buses], buses.usbfn_interface_info, *PUSBFN_INTERFACE_INFO, _USBFN_INTERFACE_INFO
+ms.keywords: ",  , *, *PUSBFN_INTERFACE_INFO, ,, A, B, C, E, F, I, N, O, P, PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO structure pointer [Buses], R, S, T, U, USBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], _, _USBFN_INTERFACE_INFO, buses.usbfn_interface_info, usbfnbase/PUSBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

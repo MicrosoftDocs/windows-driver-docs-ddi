@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cb510aa6-7156-4b02-bab1-6951becbc1a0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintOemUI2 interface [Print Devices], QueryJobAttributes method, print.iprintoemui2_queryjobattributes, prcomoem/IPrintOemUI2::QueryJobAttributes, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml, QueryJobAttributes method [Print Devices], QueryJobAttributes method [Print Devices], IPrintOemUI2 interface, IPrintOemUI2::QueryJobAttributes, QueryJobAttributes, IPrintOemUI2
+ms.keywords: ",  , ,, ., 2, :, A, I, IPrintOemUI2, IPrintOemUI2 interface [Print Devices], QueryJobAttributes method, IPrintOemUI2::QueryJobAttributes, J, O, P, Q, QueryJobAttributes method [Print Devices], QueryJobAttributes method [Print Devices], IPrintOemUI2 interface, QueryJobAttributes,IPrintOemUI2.QueryJobAttributes, U, b, e, i, m, n, o, prcomoem/IPrintOemUI2::QueryJobAttributes, print.iprintoemui2_queryjobattributes, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -171,19 +171,7 @@ See <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttrib
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
-
-
-
-<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
 
 
@@ -191,11 +179,23 @@ See <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttrib
 
 
 
-<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
 
 
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
+
+
+
+<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
 
 

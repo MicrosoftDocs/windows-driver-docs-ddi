@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 563ece3e-1359-4e3c-9ae7-61b94bf90ad0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPowerDeviceD3, storport/StorPowerDeviceD2, _STOR_DEVICE_POWER_STATE, storport/PSTOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceMaximum, PSTOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], StorPowerDeviceUnspecified, StorPowerDeviceD0, StorPowerDeviceMaximum, StorPowerDeviceD1, storport/StorPowerDeviceD0, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml, StorPowerDeviceD3, storport/STOR_DEVICE_POWER_STATE, storage.stor_device_power_state, storport/StorPowerDeviceUnspecified, StorPowerDeviceD2, storport/StorPowerDeviceD1, PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices]
+ms.keywords: ",  , *, *PSTOR_DEVICE_POWER_STATE, ,, A, C, D, E, I, O, P, PSTOR_DEVICE_POWER_STATE, PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices], R, S, STOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], StorPowerDeviceD0, StorPowerDeviceD1, StorPowerDeviceD2, StorPowerDeviceD3, StorPowerDeviceMaximum, StorPowerDeviceUnspecified, T, V, W, _, _STOR_DEVICE_POWER_STATE, storage.stor_device_power_state, storport/PSTOR_DEVICE_POWER_STATE, storport/STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD0, storport/StorPowerDeviceD1, storport/StorPowerDeviceD2, storport/StorPowerDeviceD3, storport/StorPowerDeviceMaximum, storport/StorPowerDeviceUnspecified, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -105,7 +105,7 @@ The upper delimiting value on device power states.
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
 
 
 

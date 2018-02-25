@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F35F80E7-E1B6-4219-96AF-687E0014CCB3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaTransactionFreeResources method, wdfdmatransaction/WdfDmaTransactionFreeResources, kmdf.wdfdmatransactionfreeresources, WdfDmaTransactionFreeResources, wdf.wdfdmatransactionfreeresources
+ms.keywords: ",  , D, F, R, T, W, WdfDmaTransactionFreeResources, WdfDmaTransactionFreeResources method, a, c, d, e, f, i, kmdf.wdfdmatransactionfreeresources, m, n, o, r, s, t, u, wdf.wdfdmatransactionfreeresources, wdfdmatransaction/WdfDmaTransactionFreeResources"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

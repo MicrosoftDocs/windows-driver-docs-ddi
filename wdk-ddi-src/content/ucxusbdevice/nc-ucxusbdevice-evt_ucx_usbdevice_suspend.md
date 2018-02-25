@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 809F946C-DDD4-4C4D-9F0F-F2B4A4657D12
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_suspend, EvtUcxDeviceSuspend callback function [Buses], EvtUcxDeviceSuspend, EVT_UCX_USBDEVICE_SUSPEND, EVT_UCX_USBDEVICE_SUSPEND, ucxusbdevice/EvtUcxDeviceSuspend, *PFN_UCX_USBDEVICE_SUSPEND callback function [Buses], *PFN_UCX_USBDEVICE_SUSPEND
+ms.keywords: "*PFN_UCX_USBDEVICE_SUSPEND, *PFN_UCX_USBDEVICE_SUSPEND callback function [Buses], EVT_UCX_USBDEVICE_SUSPEND, EvtUcxDeviceSuspend, EvtUcxDeviceSuspend callback function [Buses], buses.evt_ucx_usbdevice_suspend, ucxusbdevice/EvtUcxDeviceSuspend"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

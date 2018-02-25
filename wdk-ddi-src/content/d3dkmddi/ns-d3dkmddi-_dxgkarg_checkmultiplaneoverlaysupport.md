@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BAFC7DD1-56F8-47CE-8914-54531BBC3165
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT structure pointer [Display Devices], *IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, d3dkmddi/PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.dxgkarg_checkmultiplaneoverlaysupport, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
+ms.keywords: ",  , *, *IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, ,, A, C, D, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], E, G, H, I, K, L, M, N, O, P, PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT structure pointer [Display Devices], R, S, T, U, V, X, Y, _, _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, d3dkmddi/PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.dxgkarg_checkmultiplaneoverlaysupport"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ Specifies limitations on hardware support of multiplane overlays.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_check_multiplane_overlay_support_plane.md">DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport.md">DxgkDdiCheckMultiPlaneOverlaySupport</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_check_multiplane_overlay_support_plane.md">DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE</a>
 
 
 

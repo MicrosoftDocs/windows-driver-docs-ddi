@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: c97c1081-6f8c-4aa3-b34a-b8f7455dc2ef
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_get_parent_hub_info, IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO control code [Buses], IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO, usbioctl/IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO
+ms.keywords: IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO, IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO control code [Buses], buses.ioctl_internal_usb_get_parent_hub_info, usbioctl/IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

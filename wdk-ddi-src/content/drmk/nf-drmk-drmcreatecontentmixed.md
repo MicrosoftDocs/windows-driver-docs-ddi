@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: cec501d9-17e3-46a1-929e-4f9ba35ba721
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: drmk/DrmCreateContentMixed, aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml, audio.drmcreatecontentmixed, DrmCreateContentMixed, DrmCreateContentMixed function [Audio Devices]
+ms.keywords: ",  , C, D, DrmCreateContentMixed, DrmCreateContentMixed function [Audio Devices], M, a, aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml, audio.drmcreatecontentmixed, d, drmk/DrmCreateContentMixed, e, i, m, n, o, r, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,23 +115,7 @@ After a KS audio filter finishes using a content ID that it created using <code>
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-
-
-
 <a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536581">IDrmPort::CreateContentMixed</a>
 
 
 
@@ -140,6 +124,22 @@ After a KS audio filter finishes using a content ID that it created using <code>
 
 
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536581">IDrmPort::CreateContentMixed</a>
 
 
 

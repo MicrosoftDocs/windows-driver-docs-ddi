@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 25898500-f16e-4838-854f-5eb299727e2b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugBreakpoint interface [Windows Debugging], SetOffset method, dbgeng/IDebugBreakpoint::SetOffset, debugger.setoffset, SetOffset method [Windows Debugging], IDebugBreakpoint::SetOffset, IDebugBreakpoint2::SetOffset, ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, dbgeng/IDebugBreakpoint2::SetOffset, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint, SetOffset, IDebugBreakpoint2, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, SetOffset method [Windows Debugging], IDebugBreakpoint interface
+ms.keywords: ",  , ,, ., 2, :, B, ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, D, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetOffset method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint2::SetOffset, IDebugBreakpoint::SetOffset, O, S, SetOffset method [Windows Debugging], SetOffset method [Windows Debugging], IDebugBreakpoint interface, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, SetOffset,IDebugBreakpoint.SetOffset, SetOffset,IDebugBreakpoint2.SetOffset, a, b, dbgeng/IDebugBreakpoint2::SetOffset, dbgeng/IDebugBreakpoint::SetOffset, debugger.setoffset, e, f, g, i, k, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

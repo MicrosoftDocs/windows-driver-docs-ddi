@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b3bfd54d-9fd2-401a-b01d-32983f0a6021
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ioref_67d57dbb-a3b0-4f78-9454-36c8b04e515c.xml, ifsk.iocheckquerysetvolumeinformation, ntifs/IoCheckQuerySetVolumeInformation, IoCheckQuerySetVolumeInformation, IoCheckQuerySetVolumeInformation function [Installable File System Drivers]
+ms.keywords: ",  , C, I, IoCheckQuerySetVolumeInformation, IoCheckQuerySetVolumeInformation function [Installable File System Drivers], Q, S, V, a, c, e, f, h, i, ifsk.iocheckquerysetvolumeinformation, ioref_67d57dbb-a3b0-4f78-9454-36c8b04e515c.xml, k, l, m, n, ntifs/IoCheckQuerySetVolumeInformation, o, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -49,7 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoCheckQuerySetVolumeInformation</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>.
+The <b>IoCheckQuerySetVolumeInformation</b> routine is reserved for system use. See <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>.
 
 
 ## -syntax

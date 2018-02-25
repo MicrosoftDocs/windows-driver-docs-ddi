@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 737EDB43-FAFF-4EFD-A7A1-206D646F23E1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usbfn_bus_event_notification, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code [Buses], IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION, usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
+ms.keywords: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_internal_usbfn_bus_event_notification, usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -120,11 +120,11 @@ UFX completes this request in response to an event on the bus. It is recommended
 
 ## -see-also
 
-<a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>
-
-
-
 <a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_NOTIFICATION</a>
+
+
+
+<a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: EC6EDD7A-B57F-4350-9EB9-56721EAC19BD
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnssdriver/PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, sensors.gnss_drivercommand_param, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], gnssdriver/GNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM"
+ms.keywords: ",  , *, *PGNSS_DRIVERCOMMAND_PARAM, ,, A, C, D, E, G, GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], I, M, N, O, P, PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], R, S, V, _, gnssdriver/GNSS_DRIVERCOMMAND_PARAM, gnssdriver/PGNSS_DRIVERCOMMAND_PARAM, sensors.gnss_drivercommand_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

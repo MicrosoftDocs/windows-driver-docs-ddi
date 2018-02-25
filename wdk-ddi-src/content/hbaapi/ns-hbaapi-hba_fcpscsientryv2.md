@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 28f0118b-8c16-4075-8dc9-78e1e2636f02
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_FCPSCSIENTRYV2, hbaapi/HBA_FcpScsiEntryV2, HBA_FCPSCSIENTRYV2 structure [Storage Devices], structs-Fibre_b450dd9b-aeb7-4ba1-86df-4bdc6ef34e5a.xml, storage.hba_fcpscsientryv2, HBA_FcpScsiEntryV2 structure [Storage Devices], PHBA_FCPSCSIENTRYV2, PHBA_FCPSCSIENTRYV2 structure pointer [Storage Devices], HBA_FcpScsiEntryV2, hbaapi/PHBA_FCPSCSIENTRYV2, *PHBA_FCPSCSIENTRYV2
+ms.keywords: ",  , *, *PHBA_FCPSCSIENTRYV2, ,, 2, A, B, C, E, F, H, HBA_FCPSCSIENTRYV2, HBA_FCPSCSIENTRYV2 structure [Storage Devices], HBA_FcpScsiEntryV2, HBA_FcpScsiEntryV2 structure [Storage Devices], I, N, P, PHBA_FCPSCSIENTRYV2, PHBA_FCPSCSIENTRYV2 structure pointer [Storage Devices], R, S, T, V, Y, _, c, hbaapi/HBA_FcpScsiEntryV2, hbaapi/PHBA_FCPSCSIENTRYV2, i, n, p, r, s, storage.hba_fcpscsientryv2, structs-Fibre_b450dd9b-aeb7-4ba1-86df-4bdc6ef34e5a.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,19 +95,19 @@ The HBA_FcpScsiEntryV2 structure includes all of the information contained in th
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_fcpscsientry.md">HBA_FcpScsiEntry</a>
 
 
 
 <a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
 
 
 

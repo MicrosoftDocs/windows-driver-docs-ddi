@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/IrqPriorityHigh, IRQ_PRIORITY, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, wdm/IrqPriorityUndefined, IrqPriorityLow, PIRQ_PRIORITY, *PIRQ_PRIORITY, wdm/IrqPriorityLow, kernel.irq_priority, IrqPriorityHigh, wdm/PIRQ_PRIORITY, IrqPriorityUndefined, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], _IRQ_PRIORITY, wdm/IRQ_PRIORITY, wdm/IrqPriorityNormal, IrqPriorityNormal, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PIRQ_PRIORITY, ,, I, IRQ_PRIORITY, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IrqPriorityHigh, IrqPriorityLow, IrqPriorityNormal, IrqPriorityUndefined, O, P, PIRQ_PRIORITY, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], Q, R, T, Y, _, _IRQ_PRIORITY, kernel.irq_priority, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, wdm/IRQ_PRIORITY, wdm/IrqPriorityHigh, wdm/IrqPriorityLow, wdm/IrqPriorityNormal, wdm/IrqPriorityUndefined, wdm/PIRQ_PRIORITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

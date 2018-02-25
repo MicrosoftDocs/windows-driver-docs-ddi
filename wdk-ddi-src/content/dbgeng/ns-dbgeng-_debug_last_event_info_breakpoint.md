@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: DAE22E2C-E8A9-4FF0-B9E9-D652C4E7B0B8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DEBUG_LAST_EVENT_INFO_BREAKPOINT, DEBUG_LAST_EVENT_INFO_BREAKPOINT, debugger.debug_last_event_info_breakpoint, PDEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/DEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/PDEBUG_LAST_EVENT_INFO_BREAKPOINT, PDEBUG_LAST_EVENT_INFO_BREAKPOINT structure pointer [Windows Debugging], *PDEBUG_LAST_EVENT_INFO_BREAKPOINT, DEBUG_LAST_EVENT_INFO_BREAKPOINT structure [Windows Debugging]"
+ms.keywords: ",  , *, *PDEBUG_LAST_EVENT_INFO_BREAKPOINT, ,, A, B, D, DEBUG_LAST_EVENT_INFO_BREAKPOINT, DEBUG_LAST_EVENT_INFO_BREAKPOINT structure [Windows Debugging], E, F, G, I, K, L, N, O, P, PDEBUG_LAST_EVENT_INFO_BREAKPOINT, PDEBUG_LAST_EVENT_INFO_BREAKPOINT structure pointer [Windows Debugging], R, S, T, U, V, _, _DEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/DEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/PDEBUG_LAST_EVENT_INFO_BREAKPOINT, debugger.debug_last_event_info_breakpoint"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

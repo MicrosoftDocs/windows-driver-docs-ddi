@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2E8EE398-A33A-4978-8198-72AF9608C517
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.ioctl_usbsbaud_set_sidetone_property, IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY control code [Audio Devices], IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY, usbsidebandaudio/IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY
+ms.keywords: IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY, IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY control code [Audio Devices], audio.ioctl_usbsbaud_set_sidetone_property, usbsidebandaudio/IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -111,11 +111,7 @@ TBD
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -123,7 +119,11 @@ TBD
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

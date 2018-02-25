@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BF255782-0C3E-4F36-BD38-79CE88E7F37D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.allocateadapterchannelex, AllocateAdapterChannelEx, AllocateAdapterChannelEx callback function [Kernel-Mode Driver Architecture], AllocateAdapterChannelEx, PALLOCATE_ADAPTER_CHANNEL_EX, PALLOCATE_ADAPTER_CHANNEL_EX, wdm/AllocateAdapterChannelEx, DMA_SYNCHRONOUS_CALLBACK
+ms.keywords: AllocateAdapterChannelEx, AllocateAdapterChannelEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PALLOCATE_ADAPTER_CHANNEL_EX, kernel.allocateadapterchannelex, wdm/AllocateAdapterChannelEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -224,27 +224,7 @@ If the driver does not supply an <a href="..\wdm\nc-wdm-driver_control.md">Adapt
 
 
 
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-
-
-
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
-
-
-
 <a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 
@@ -252,11 +232,19 @@ If the driver does not supply an <a href="..\wdm\nc-wdm-driver_control.md">Adapt
 
 
 
+<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
 
 
 
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
@@ -264,7 +252,19 @@ If the driver does not supply an <a href="..\wdm\nc-wdm-driver_control.md">Adapt
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 

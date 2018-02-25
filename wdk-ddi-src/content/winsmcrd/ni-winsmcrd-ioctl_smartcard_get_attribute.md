@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 5B5F4CA1-0E49-4D60-AD78-3294C80844E1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfpdrivers.ioctl_smartcard_get_attribute, IOCTL_SMARTCARD_GET_ATTRIBUTE control code [Near-Field Proximity Drivers], IOCTL_SMARTCARD_GET_ATTRIBUTE, winsmcrd/IOCTL_SMARTCARD_GET_ATTRIBUTE
+ms.keywords: IOCTL_SMARTCARD_GET_ATTRIBUTE, IOCTL_SMARTCARD_GET_ATTRIBUTE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_attribute, winsmcrd/IOCTL_SMARTCARD_GET_ATTRIBUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

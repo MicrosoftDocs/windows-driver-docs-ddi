@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5fd9b381-c0e3-45bf-9061-da816da5e29f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: scsiscan/PSCSISCAN_INFO, scsiscan/SCSISCAN_INFO, stifnc_157af712-4f72-49f3-9da6-b8f750826d3e.xml, SCSISCAN_INFO structure [Imaging Devices], *PSCSISCAN_INFO, image.scsiscan_info, SCSISCAN_INFO, PSCSISCAN_INFO structure pointer [Imaging Devices], PSCSISCAN_INFO, _SCSISCAN_INFO
+ms.keywords: ",  , *, *PSCSISCAN_INFO, ,, A, C, F, I, N, O, P, PSCSISCAN_INFO, PSCSISCAN_INFO structure pointer [Imaging Devices], S, SCSISCAN_INFO, SCSISCAN_INFO structure [Imaging Devices], _, _SCSISCAN_INFO, image.scsiscan_info, scsiscan/PSCSISCAN_INFO, scsiscan/SCSISCAN_INFO, stifnc_157af712-4f72-49f3-9da6-b8f750826d3e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

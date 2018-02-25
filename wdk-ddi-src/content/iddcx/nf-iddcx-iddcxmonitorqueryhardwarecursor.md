@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e954b7e7-9e4a-47ae-9b0f-8c7e051cc00e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.iddcxmonitorqueryhardwarecursor, iddcx/IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor method [Display Devices]
+ms.keywords: ",  , C, H, I, IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor method [Display Devices], M, Q, a, d, display.iddcxmonitorqueryhardwarecursor, e, i, iddcx/IddCxMonitorQueryHardwareCursor, n, o, r, s, t, u, w, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0227751d-739b-4e0c-84bd-9135f117ec9b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoAttachDevice routine [Kernel-Mode Driver Architecture], IoAttachDevice, wdm/IoAttachDevice, kernel.ioattachdevice, k104_a4f21237-9d2c-4336-9956-5e24da79f4b2.xml
+ms.keywords: ",  , A, D, I, IoAttachDevice, IoAttachDevice routine [Kernel-Mode Driver Architecture], a, c, e, h, i, k104_a4f21237-9d2c-4336-9956-5e24da79f4b2.xml, kernel.ioattachdevice, o, t, v, wdm/IoAttachDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,7 +116,7 @@ This routine sets the <b>AlignmentRequirement</b> in <i>SourceDevice</i> to the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
+<a href="..\ntddk\nf-ntddk-ioattachdevicetodevicestacksafe.md">IoAttachDeviceToDeviceStackSafe</a>
 
 
 
@@ -124,19 +124,19 @@ This routine sets the <b>AlignmentRequirement</b> in <i>SourceDevice</i> to the 
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioattachdevicetodevicestacksafe.md">IoAttachDeviceToDeviceStackSafe</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
 
 
 

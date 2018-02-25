@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e0e1bd3e-ee8d-40f2-904d-d6dcc4185406
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_STORAGE_DEVICE_ID_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_ID_DESCRIPTOR, STORAGE_DEVICE_ID_DESCRIPTOR structure [Storage Devices], PSTORAGE_DEVICE_ID_DESCRIPTOR structure pointer [Storage Devices], PSTORAGE_DEVICE_ID_DESCRIPTOR, storage.storage_device_id_descriptor, structs-general_65dcf7da-1241-4d3d-b8c6-a53c15c0763c.xml, ntddstor/STORAGE_DEVICE_ID_DESCRIPTOR, STORAGE_DEVICE_ID_DESCRIPTOR"
+ms.keywords: ",  , ,, A, C, D, E, G, I, O, P, PSTORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR structure pointer [Storage Devices], R, S, STORAGE_DEVICE_ID_DESCRIPTOR, STORAGE_DEVICE_ID_DESCRIPTOR structure [Storage Devices], T, V, _, _STORAGE_DEVICE_ID_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_ID_DESCRIPTOR, ntddstor/STORAGE_DEVICE_ID_DESCRIPTOR, storage.storage_device_id_descriptor, structs-general_65dcf7da-1241-4d3d-b8c6-a53c15c0763c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,19 +101,19 @@ The device descriptor consists of an array of device IDs taken from the SCSI-3 v
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
-<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
 <a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
+
+
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 

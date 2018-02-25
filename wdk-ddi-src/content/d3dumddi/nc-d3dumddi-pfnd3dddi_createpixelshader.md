@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b80a1823-6d91-440f-89e4-f7248579cc8f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createpixelshader, CreatePixelShader callback function [Display Devices], CreatePixelShader, PFND3DDDI_CREATEPIXELSHADER, PFND3DDDI_CREATEPIXELSHADER, d3dumddi/CreatePixelShader, UserModeDisplayDriver_Functions_4e9d378f-d5aa-4b5d-9a66-ff2dd2f8fae8.xml
+ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3DDDI_CREATEPIXELSHADER, UserModeDisplayDriver_Functions_4e9d378f-d5aa-4b5d-9a66-ff2dd2f8fae8.xml, d3dumddi/CreatePixelShader, display.createpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

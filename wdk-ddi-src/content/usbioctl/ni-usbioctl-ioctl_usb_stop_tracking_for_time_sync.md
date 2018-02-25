@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 232AC14B-CE3C-44AC-9428-5594993CD749
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._ioctl_usb_stop_tracking_for_time_sync, IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC control code [Buses], IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC, usbioctl/ IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
+ms.keywords: IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC, IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC control code [Buses], buses._ioctl_usb_stop_tracking_for_time_sync, usbioctl/ IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -116,11 +116,7 @@ The size of the <a href="..\usbioctl\ns-usbioctl-_usb_stop_tracking_for_time_syn
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -128,7 +124,11 @@ The size of the <a href="..\usbioctl\ns-usbioctl-_usb_stop_tracking_for_time_syn
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

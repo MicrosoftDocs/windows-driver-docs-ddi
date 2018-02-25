@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ee65716-496c-4b0f-baa7-34a625847d5f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddidescribeallocation, DxgkDdiDescribeAllocation callback function [Display Devices], DxgkDdiDescribeAllocation, DXGKDDI_DESCRIBEALLOCATION, DXGKDDI_DESCRIBEALLOCATION, d3dkmddi/DxgkDdiDescribeAllocation, DmFunctions_ba74cf3f-f0be-401c-8232-0672d490221a.xml
+ms.keywords: DXGKDDI_DESCRIBEALLOCATION, DmFunctions_ba74cf3f-f0be-401c-8232-0672d490221a.xml, DxgkDdiDescribeAllocation, DxgkDdiDescribeAllocation callback function [Display Devices], d3dkmddi/DxgkDdiDescribeAllocation, display.dxgkddidescribeallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -117,7 +117,7 @@ Allocations that might be the source of a presentation (that is, allocations tha
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_describeallocation.md">DXGKARG_DESCRIBEALLOCATION</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
 
 
 
@@ -125,11 +125,11 @@ Allocations that might be the source of a presentation (that is, allocations tha
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_describeallocation.md">DXGKARG_DESCRIBEALLOCATION</a>
 
 
 

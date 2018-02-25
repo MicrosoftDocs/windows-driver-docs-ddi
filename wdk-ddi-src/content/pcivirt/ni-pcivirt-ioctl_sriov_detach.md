@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 8ede4a48-317b-46be-834a-a67b638b28c0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.ioctl-sriov-detach, IOCTL_SRIOV_DETACH control code [Buses], IOCTL_SRIOV_DETACH, pcivirt/IOCTL_SRIOV_DETACH
+ms.keywords: IOCTL_SRIOV_DETACH, IOCTL_SRIOV_DETACH control code [Buses], PCI.ioctl-sriov-detach, pcivirt/IOCTL_SRIOV_DETACH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -183,11 +183,15 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -196,10 +200,6 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 

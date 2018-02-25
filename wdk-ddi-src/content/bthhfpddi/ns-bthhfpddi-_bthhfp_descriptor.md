@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A3C1E53B-2E41-437A-8613-C43DCD4768B5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: bthhfpddi/PBTHHFP_DESCRIPTOR, _BTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR, *PBTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR structure [Audio Devices], audio.bthhfp_descriptor, bthhfpddi/BTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices]
+ms.keywords: ",  , *, *PBTHHFP_DESCRIPTOR, ,, B, BTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR structure [Audio Devices], C, D, E, F, H, I, O, P, PBTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices], R, S, T, _, _BTHHFP_DESCRIPTOR, audio.bthhfp_descriptor, bthhfpddi/BTHHFP_DESCRIPTOR, bthhfpddi/PBTHHFP_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,15 +129,7 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 ## -see-also
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265129">KSPROPERTY_JACK_CONTAINERID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
 
 
 
@@ -145,11 +137,19 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+
+
+
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265129">KSPROPERTY_JACK_CONTAINERID</a>
 
 
 

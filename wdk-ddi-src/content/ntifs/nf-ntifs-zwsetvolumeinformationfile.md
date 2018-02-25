@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6afc3e8b-0be0-4728-b00f-deea5e60d27e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.zwsetvolumeinformationfile, ntifs/ZwSetVolumeInformationFile, NtSetInformationFile, ntifs/NtSetInformationFile, ZwSetVolumeInformationFile, k111_580470b4-9769-4fec-9811-04f703473131.xml, ZwSetVolumeInformationFile routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , F, I, NtSetInformationFile, S, V, Z, ZwSetVolumeInformationFile, ZwSetVolumeInformationFile routine [Kernel-Mode Driver Architecture], a, e, f, i, k111_580470b4-9769-4fec-9811-04f703473131.xml, kernel.zwsetvolumeinformationfile, l, m, n, ntifs/NtSetInformationFile, ntifs/ZwSetVolumeInformationFile, o, r, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,7 +190,7 @@ An invalid value was specified for <i>FsInformationClass</i>. This is an error c
 
 
 
-To query volume information, call <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>. 
+To query volume information, call <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>. 
 
 To change information about a file, call <b>ZwSetVolumeInformationFile</b>. 
 
@@ -205,7 +205,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_file_fs_label_information.md">FILE_FS_LABEL_INFORMATION</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 
@@ -217,23 +221,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_fs_label_information.md">FILE_FS_LABEL_INFORMATION</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

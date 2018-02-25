@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 85304F27-A522-44B7-86EC-31F670828354
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3d12ddi_deallocate_cb_0022, pfnDeallocateCb callback function [Display Devices], pfnDeallocateCb, PFND3D12DDI_DEALLOCATE_CB_0022, PFND3D12DDI_DEALLOCATE_CB_0022, d3d12umddi/pfnDeallocateCb
+ms.keywords: PFND3D12DDI_DEALLOCATE_CB_0022, d3d12umddi/pfnDeallocateCb, display.pfnd3d12ddi_deallocate_cb_0022, pfnDeallocateCb, pfnDeallocateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,11 +115,11 @@ The driver must check the return value of the function.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022.md">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a>
-
-
-
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddicb_deallocate_0022.md">D3D12DDICB_DEALLOCATE_0022</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022.md">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18eb526b-d615-4f02-b724-236c6bf16945
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PUFF_FILEHEADER structure pointer [Print Devices], UFF_FILEHEADER structure [Print Devices], print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, _UFF_FILEHEADER, prntfont/PUFF_FILEHEADER, print.uff_fileheader, UFF_FILEHEADER, prntfont/UFF_FILEHEADER, *PUFF_FILEHEADER, PUFF_FILEHEADER
+ms.keywords: ",  , *, *PUFF_FILEHEADER, ,, A, D, E, F, H, I, L, P, PUFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices], R, U, UFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], _, _UFF_FILEHEADER, print.uff_fileheader, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, prntfont/PUFF_FILEHEADER, prntfont/UFF_FILEHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,11 +141,11 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a>
 
 
 

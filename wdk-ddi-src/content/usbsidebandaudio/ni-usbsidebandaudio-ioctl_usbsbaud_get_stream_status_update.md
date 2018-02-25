@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F50F7AEC-EEF5-4055-9877-8FE221177D12
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.ioctl_usbsbaud_get_stream_status_update, IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE control code [Audio Devices], IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE, usbsidebandaudio/IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE
+ms.keywords: IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE, IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE control code [Audio Devices], audio.ioctl_usbsbaud_get_stream_status_update, usbsidebandaudio/IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -111,11 +111,7 @@ TBD
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -123,7 +119,11 @@ TBD
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

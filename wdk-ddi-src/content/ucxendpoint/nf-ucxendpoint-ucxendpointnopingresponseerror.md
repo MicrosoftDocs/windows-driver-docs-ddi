@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxEndpointNoPingResponseError method [Buses], ucxendpoint/UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError, buses._ucxendpointnopingresponseerror
+ms.keywords: ",  , E, N, P, R, U, UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, c, d, e, g, i, n, o, p, r, s, t, ucxendpoint/UcxEndpointNoPingResponseError, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

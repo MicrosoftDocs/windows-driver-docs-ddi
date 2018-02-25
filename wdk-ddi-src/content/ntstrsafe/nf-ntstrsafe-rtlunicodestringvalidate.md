@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c4f452e-df7b-401b-a62e-20e0b2164172
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlunicodestringvalidate, RtlUnicodeStringValidate, RtlUnicodeStringValidate function [Kernel-Mode Driver Architecture], safestrings_65cec2b6-a948-423e-b7e3-786ae2a9ab1a.xml, ntstrsafe/RtlUnicodeStringValidate
+ms.keywords: ",  , R, RtlUnicodeStringValidate, RtlUnicodeStringValidate function [Kernel-Mode Driver Architecture], S, U, V, a, c, d, e, g, i, kernel.rtlunicodestringvalidate, l, n, ntstrsafe/RtlUnicodeStringValidate, o, r, safestrings_65cec2b6-a948-423e-b7e3-786ae2a9ab1a.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

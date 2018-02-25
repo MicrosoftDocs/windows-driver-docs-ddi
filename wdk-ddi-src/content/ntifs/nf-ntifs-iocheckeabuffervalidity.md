@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1f9a4fcb-0e70-4f13-bd38-e87bee909a26
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml, ifsk.iocheckeabuffervalidity, IoCheckEaBufferValidity function [Installable File System Drivers], IoCheckEaBufferValidity, ntifs/IoCheckEaBufferValidity
+ms.keywords: ",  , B, C, E, I, IoCheckEaBufferValidity, IoCheckEaBufferValidity function [Installable File System Drivers], V, a, c, d, e, f, h, i, ifsk.iocheckeabuffervalidity, ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml, k, l, ntifs/IoCheckEaBufferValidity, o, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

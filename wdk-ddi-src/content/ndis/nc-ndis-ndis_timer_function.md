@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 76e59376-58a4-4e35-bac4-ec5938c88cd7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.nettimercallback, NetTimerCallback callback function [Network Drivers Starting with Windows Vista], NetTimerCallback, NDIS_TIMER_FUNCTION, NDIS_TIMER_FUNCTION, ndis/NetTimerCallback, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml
+ms.keywords: NDIS_TIMER_FUNCTION, NetTimerCallback, NetTimerCallback callback function [Network Drivers Starting with Windows Vista], ndis/NetTimerCallback, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -185,11 +185,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6a80a55b-4c7e-4a48-8903-0a1fb28af153">Servicing Timers</a>
-
-
-
-<a href="https://msdn.microsoft.com/75f348f7-173f-4799-88aa-1ca50a6df023">Setting and Clearing Timers</a>
+<a href="https://msdn.microsoft.com/2f304f5c-fa70-441e-853e-a48ad70d61a0">Initializing NDIS Timers</a>
 
 
 
@@ -197,11 +193,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/2f304f5c-fa70-441e-853e-a48ad70d61a0">Initializing NDIS Timers</a>
+<a href="https://msdn.microsoft.com/6a80a55b-4c7e-4a48-8903-0a1fb28af153">Servicing Timers</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 
@@ -209,7 +205,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/75f348f7-173f-4799-88aa-1ca50a6df023">Setting and Clearing Timers</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 
 

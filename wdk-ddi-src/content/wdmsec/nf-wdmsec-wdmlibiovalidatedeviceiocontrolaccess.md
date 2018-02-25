@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdmsec/WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, FILE_READ_ACCESS, FILE_WRITE_ACCESS, wdmsec/IoValidateDeviceIoControlAccess, kernel.wdmlibiovalidatedeviceiocontrolaccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], IoValidateDeviceIoControlAccess
+ms.keywords: ",  , A, C, D, FILE_READ_ACCESS, FILE_WRITE_ACCESS, I, IoValidateDeviceIoControlAccess, V, W, WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], a, b, c, d, e, i, kernel.wdmlibiovalidatedeviceiocontrolaccess, l, m, n, o, r, s, t, v, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

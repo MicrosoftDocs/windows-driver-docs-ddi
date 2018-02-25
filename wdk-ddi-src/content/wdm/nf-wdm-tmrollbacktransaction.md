@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5626a92e-bd26-41a3-8475-916efb2292ff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TmRollbackTransaction, wdm/TmRollbackTransaction, ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, kernel.tmrollbacktransaction, TmRollbackTransaction routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , R, T, TmRollbackTransaction, TmRollbackTransaction routine [Kernel-Mode Driver Architecture], a, b, c, i, k, kernel.tmrollbacktransaction, ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, l, m, n, o, r, s, t, wdm/TmRollbackTransaction"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,7 +150,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
-<a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
@@ -158,7 +158,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
 
 
 

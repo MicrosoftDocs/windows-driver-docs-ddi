@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82B8F3F2-62E5-475B-AAE0-F6DF2B2B9814
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, display.d3dwddm2_0ddi_video_processor_stream_behavior_hint, D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
+ms.keywords: ",  , ,, 0, 2, 3, A, B, C, D, D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT structure [Display Devices], E, H, I, M, N, O, P, R, S, T, V, W, _, d3d10umddi/D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, display.d3dwddm2_0ddi_video_processor_stream_behavior_hint"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 2DE7417D-C616-4D1F-835D-29F477410F1E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.getvirtualfunctiondata, GetVirtualFunctionData routine, GetVirtualFunctionData, GET_VIRTUAL_DEVICE_DATA, GET_VIRTUAL_DEVICE_DATA, wdm/GetVirtualFunctionData
+ms.keywords: GET_VIRTUAL_DEVICE_DATA, GetVirtualFunctionData, GetVirtualFunctionData routine, PCI.getvirtualfunctiondata, wdm/GetVirtualFunctionData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -129,15 +129,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVi
 
 
 
+<a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E076E9E6-FA7E-4F46-88B4-D3971E62DE1A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmtfreegpuvirtualaddress, D3DKMTFreeGpuVirtualAddress, D3DKMTFreeGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTFreeGpuVirtualAddress
+ms.keywords: ",  , 3, A, D, D3DKMTFreeGpuVirtualAddress, D3DKMTFreeGpuVirtualAddress function [Display Devices], F, G, K, M, T, V, a, d, d3dkmthk/D3DKMTFreeGpuVirtualAddress, display.d3dkmtfreegpuvirtualaddress, e, i, l, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,11 +132,11 @@ The freed virtual address should not be accessed immediately after the call. If 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmapgpuvirtualaddress.md">MapGpuVirtualAddress</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtupdategpuvirtualaddress.md">UpdateGpuVirtualAddress</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmapgpuvirtualaddress.md">MapGpuVirtualAddress</a>
 
 
 

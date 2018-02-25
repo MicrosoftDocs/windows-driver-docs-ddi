@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7a36f278-45eb-4ee9-9bdf-370c546245c0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.startserverwide, StartServerWide method [Windows Debugging], StartServerWide, dbgeng/IDebugClient5::StartServerWide, IDebugClient5 interface [Windows Debugging], StartServerWide method, IDebugClient5::StartServerWide, IDebugClient5, StartServerWide method [Windows Debugging], IDebugClient5 interface
+ms.keywords: ",  , ,, ., 5, :, C, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], StartServerWide method, IDebugClient5::StartServerWide, S, StartServerWide method [Windows Debugging], StartServerWide method [Windows Debugging], IDebugClient5 interface, StartServerWide,IDebugClient5.StartServerWide, W, a, b, d, dbgeng/IDebugClient5::StartServerWide, debugger.startserverwide, e, g, i, l, n, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,7 +113,7 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
 
 
@@ -121,11 +121,11 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

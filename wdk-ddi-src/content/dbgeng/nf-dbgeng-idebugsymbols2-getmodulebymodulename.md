@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 243b79fe-b1b2-48b4-bb0b-c56b787e7b83
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetModuleByModuleName method [Windows Debugging], GetModuleByModuleName method [Windows Debugging], IDebugSymbols2 interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols interface, debugger.getmodulebymodulename, IDebugSymbols::GetModuleByModuleName, IDebugSymbols2, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols3::GetModuleByModuleName, IDebugSymbols interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols2 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols, dbgeng/IDebugSymbols::GetModuleByModuleName, dbgeng/IDebugSymbols2::GetModuleByModuleName, GetModuleByModuleName, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, dbgeng/IDebugSymbols3::GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::GetModuleByModuleName
+ms.keywords: ",  , ,, ., 2, :, B, D, G, GetModuleByModuleName method [Windows Debugging], GetModuleByModuleName method [Windows Debugging], IDebugSymbols interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols2 interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleName,IDebugSymbols.GetModuleByModuleName, GetModuleByModuleName,IDebugSymbols2.GetModuleByModuleName, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols2::GetModuleByModuleName, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols3::GetModuleByModuleName, IDebugSymbols::GetModuleByModuleName, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, M, N, S, a, b, d, dbgeng/IDebugSymbols2::GetModuleByModuleName, dbgeng/IDebugSymbols3::GetModuleByModuleName, dbgeng/IDebugSymbols::GetModuleByModuleName, debugger.getmodulebymodulename, e, g, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -144,11 +144,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547102">GetModuleByModuleName2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 

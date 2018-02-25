@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 0E0480BA-0F9D-4AD4-8FEC-35B3757494B9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_maskinterrupts, CLIENT_MaskInterrupts callback function [Parallel Ports], CLIENT_MaskInterrupts, GPIO_CLIENT_MASK_INTERRUPTS, GPIO_CLIENT_MASK_INTERRUPTS, gpioclx/CLIENT_MaskInterrupts
+ms.keywords: CLIENT_MaskInterrupts, CLIENT_MaskInterrupts callback function [Parallel Ports], GPIO.client_maskinterrupts, GPIO_CLIENT_MASK_INTERRUPTS, gpioclx/CLIENT_MaskInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,11 +153,11 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698252">GPIO_MASK_INTERRUPT_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698252">GPIO_MASK_INTERRUPT_PARAMETERS</a>
 
 
 

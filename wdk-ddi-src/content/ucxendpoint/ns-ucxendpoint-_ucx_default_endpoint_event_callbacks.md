@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A22E96FC-E219-4F6C-B8AF-AC86FAD89543
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], *PUCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, buses._ucx_default_endpoint_event_callbacks, ucxendpoint/P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure [Buses], ucxendpoint/_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
+ms.keywords: ",  , *, *PUCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, ,, A, B, C, D, E, F, I, K, L, N, O, P, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], S, T, U, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure [Buses], V, X, _, _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, buses._ucx_default_endpoint_event_callbacks, ucxendpoint/P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,11 +111,11 @@ Do not use.
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
-
-
-
 <a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+
+
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
 
 
 

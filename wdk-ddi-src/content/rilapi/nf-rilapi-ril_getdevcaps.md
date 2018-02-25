@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eb239b03-7e46-4091-adff-86ed95a06704
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_GetDevCaps, RIL_GetDevCaps method [Network Drivers Starting with Windows Vista], RIL_GetDevCaps, netvista.ril_getdevcaps
+ms.keywords: ",  , C, D, G, I, L, R, RIL_GetDevCaps, RIL_GetDevCaps method [Network Drivers Starting with Windows Vista], _, a, e, netvista.ril_getdevcaps, p, rilapi/RIL_GetDevCaps, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

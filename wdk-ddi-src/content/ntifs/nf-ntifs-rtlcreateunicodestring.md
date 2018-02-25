@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f101fc66-40a9-4077-b651-cef0a0e247d4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlCreateUnicodeString routine [Installable File System Drivers], RtlCreateUnicodeString, ifsk.rtlcreateunicodestring, ntifs/RtlCreateUnicodeString, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml
+ms.keywords: ",  , C, R, RtlCreateUnicodeString, RtlCreateUnicodeString routine [Installable File System Drivers], S, U, a, c, d, e, g, i, ifsk.rtlcreateunicodestring, l, n, ntifs/RtlCreateUnicodeString, o, r, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

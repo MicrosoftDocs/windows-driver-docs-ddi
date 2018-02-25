@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d0a2303-df2b-45fe-9c88-df4bb19a2a9f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_DEVICE_STATE, kmdf.wdf_device_state, PWDF_DEVICE_STATE structure pointer, WDF_DEVICE_STATE structure, wdf.wdf_device_state, *PWDF_DEVICE_STATE, _WDF_DEVICE_STATE, PWDF_DEVICE_STATE, wdfdevice/WDF_DEVICE_STATE, wdfdevice/PWDF_DEVICE_STATE, DFDeviceObjectGeneralRef_a5705164-b38f-4307-8b7d-5b3156aadf62.xml
+ms.keywords: ",  , *, *PWDF_DEVICE_STATE, ,, A, C, D, DFDeviceObjectGeneralRef_a5705164-b38f-4307-8b7d-5b3156aadf62.xml, E, F, I, P, PWDF_DEVICE_STATE, PWDF_DEVICE_STATE structure pointer, S, T, V, W, WDF_DEVICE_STATE, WDF_DEVICE_STATE structure, _, _WDF_DEVICE_STATE, kmdf.wdf_device_state, wdf.wdf_device_state, wdfdevice/PWDF_DEVICE_STATE, wdfdevice/WDF_DEVICE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 80444a10-91f3-44b5-ad20-3d3d8f49ca60
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FirstEntrySList routine [Kernel-Mode Driver Architecture], FirstEntrySList, wdm/FirstEntrySList, k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml, kernel.firstentryslist
+ms.keywords: ",  , E, F, FirstEntrySList, FirstEntrySList routine [Kernel-Mode Driver Architecture], L, S, i, k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml, kernel.firstentryslist, n, r, s, t, wdm/FirstEntrySList, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

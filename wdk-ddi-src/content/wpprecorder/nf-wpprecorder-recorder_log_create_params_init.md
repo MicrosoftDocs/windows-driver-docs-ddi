@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: C91A4DD7-3DDA-4BD9-BA84-233253B72EC7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: RECORDER_LOG_CREATE_PARAMS_INIT function [Driver Development Tools], devtest.recorder_log_create_params_init, wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT, RECORDER_LOG_CREATE_PARAMS_INIT
+ms.keywords: ",  , A, C, D, E, G, I, L, M, N, O, P, R, RECORDER_LOG_CREATE_PARAMS_INIT, RECORDER_LOG_CREATE_PARAMS_INIT function [Driver Development Tools], S, T, _, devtest.recorder_log_create_params_init, wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

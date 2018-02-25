@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a634355a-c508-4f1b-9b8b-9325cb34cde0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCALLWAITINGINFO structure [Network Drivers Starting with Windows Vista], RILCALLWAITINGINFO, *LPRILCALLWAITINGINFO, netvista.rilcallwaitinginfo_2, rilapitypes/RILCALLWAITINGINFO
+ms.keywords: ",  , *, *LPRILCALLWAITINGINFO, ,, A, C, F, G, I, L, N, O, P, R, RILCALLWAITINGINFO, RILCALLWAITINGINFO structure [Network Drivers Starting with Windows Vista], T, W, netvista.rilcallwaitinginfo_2, rilapitypes/RILCALLWAITINGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

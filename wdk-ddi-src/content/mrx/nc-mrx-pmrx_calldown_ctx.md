@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5985fc4-dd1a-455d-b2ad-3dc2dfec2e6e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.mrxstart, MRxStart, MRxStart routine [Installable File System Drivers], MRxStart, PMRX_CALLDOWN_CTX, PMRX_CALLDOWN_CTX, mrx/MRxStart, mrxref_e76b85d0-b290-4206-a16c-5d5ed9a5cfff.xml
+ms.keywords: MRxStart, MRxStart routine [Installable File System Drivers], PMRX_CALLDOWN_CTX, ifsk.mrxstart, mrx/MRxStart, mrxref_e76b85d0-b290-4206-a16c-5d5ed9a5cfff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -145,15 +145,15 @@ A network mini-redirector would normally maintain an internal variable indicatin
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549876">MRxDevFcbXXXControlFile</a>
+
+
+
 <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550833">MRxStop</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549876">MRxDevFcbXXXControlFile</a>
 
 
 

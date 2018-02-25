@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F175ED42-3DB6-4568-96CA-EFC283B14887
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], storport/StorPortPoFxSetComponentLatency, storage.storportpofxsetcomponentlatency
+ms.keywords: ",  , C, F, L, P, S, StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], a, c, e, m, n, o, p, r, storage.storportpofxsetcomponentlatency, storport/StorPortPoFxSetComponentLatency, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

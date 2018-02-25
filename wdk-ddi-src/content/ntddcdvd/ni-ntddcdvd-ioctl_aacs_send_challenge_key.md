@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 762776f1-5423-4d02-8b59-de1e9ada8044
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_aacs_send_challenge_key, IOCTL_AACS_SEND_CHALLENGE_KEY control code [Storage Devices], IOCTL_AACS_SEND_CHALLENGE_KEY, ntddcdvd/IOCTL_AACS_SEND_CHALLENGE_KEY, k307_064ac0c8-c4f9-4232-a41a-72159ff13fd2.xml
+ms.keywords: IOCTL_AACS_SEND_CHALLENGE_KEY, IOCTL_AACS_SEND_CHALLENGE_KEY control code [Storage Devices], k307_064ac0c8-c4f9-4232-a41a-72159ff13fd2.xml, ntddcdvd/IOCTL_AACS_SEND_CHALLENGE_KEY, storage.ioctl_aacs_send_challenge_key
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

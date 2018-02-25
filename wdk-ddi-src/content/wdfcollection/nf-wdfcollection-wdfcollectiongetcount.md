@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 95b6e441-f564-4642-8474-8e10e83177b9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfCollectionGetCount, WdfCollectionGetCount method, wdf.wdfcollectiongetcount, wdfcollection/WdfCollectionGetCount, kmdf.wdfcollectiongetcount, DFCollectionObjectRef_835a8d24-fd48-4de9-83bc-62a8b5a3a93b.xml
+ms.keywords: ",  , C, DFCollectionObjectRef_835a8d24-fd48-4de9-83bc-62a8b5a3a93b.xml, G, W, WdfCollectionGetCount, WdfCollectionGetCount method, c, d, e, f, i, kmdf.wdfcollectiongetcount, l, n, o, t, u, wdf.wdfcollectiongetcount, wdfcollection/WdfCollectionGetCount"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

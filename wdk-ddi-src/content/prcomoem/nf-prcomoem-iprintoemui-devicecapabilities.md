@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a3d3e986-41ab-489a-a930-b10e9989553f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DeviceCapabilities, print.iprintoemui_devicecapabilities, IPrintOemUI::DeviceCapabilities, IPrintOemUI, IPrintOemUI interface [Print Devices], DeviceCapabilities method, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml, DeviceCapabilities method [Print Devices], IPrintOemUI interface, prcomoem/IPrintOemUI::DeviceCapabilities, DeviceCapabilities method [Print Devices]
+ms.keywords: ",  , ,, ., :, C, D, DeviceCapabilities method [Print Devices], DeviceCapabilities method [Print Devices], IPrintOemUI interface, DeviceCapabilities,IPrintOemUI.DeviceCapabilities, I, IPrintOemUI, IPrintOemUI interface [Print Devices], DeviceCapabilities method, IPrintOemUI::DeviceCapabilities, O, P, U, a, b, c, e, i, l, m, n, p, prcomoem/IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

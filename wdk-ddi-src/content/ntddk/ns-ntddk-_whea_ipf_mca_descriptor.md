@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2961a568-32e0-4c48-b5bc-5cfb0f78272d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WHEA_IPF_MCA_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_IPF_MCA_DESCRIPTOR, ntddk/PWHEA_IPF_MCA_DESCRIPTOR, _WHEA_IPF_MCA_DESCRIPTOR, *PWHEA_IPF_MCA_DESCRIPTOR, whea.whea_ipf_mca_descriptor, ntddk/WHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_IPF_MCA_DESCRIPTOR, whearef_855b78be-e404-4bc0-a9fa-a0f03e61151d.xml
+ms.keywords: ",  , *, *PWHEA_IPF_MCA_DESCRIPTOR, ,, A, C, D, E, F, H, I, M, O, P, PWHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR structure pointer [WHEA Drivers and Applications], R, S, T, W, WHEA_IPF_MCA_DESCRIPTOR, WHEA_IPF_MCA_DESCRIPTOR structure [WHEA Drivers and Applications], _, _WHEA_IPF_MCA_DESCRIPTOR, ntddk/PWHEA_IPF_MCA_DESCRIPTOR, ntddk/WHEA_IPF_MCA_DESCRIPTOR, whea.whea_ipf_mca_descriptor, whearef_855b78be-e404-4bc0-a9fa-a0f03e61151d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

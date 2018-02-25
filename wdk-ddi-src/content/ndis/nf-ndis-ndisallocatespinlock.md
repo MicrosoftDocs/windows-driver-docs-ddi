@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e6199eab-a1e8-428f-8a3c-4828d3899cec
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisAllocateSpinLock function [Network Drivers Starting with Windows Vista], ndis_spin_lock_ref_f42dc321-9805-443e-a7b3-315ab403aeba.xml, NdisAllocateSpinLock, ndis/NdisAllocateSpinLock, netvista.ndisallocatespinlock
+ms.keywords: ",  , A, L, N, NdisAllocateSpinLock, NdisAllocateSpinLock function [Network Drivers Starting with Windows Vista], S, a, c, d, e, i, k, l, n, ndis/NdisAllocateSpinLock, ndis_spin_lock_ref_f42dc321-9805-443e-a7b3-315ab403aeba.xml, netvista.ndisallocatespinlock, o, p, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,7 +190,11 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 
@@ -198,12 +202,7 @@ Callers of
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
-   NdisMSynchronizeWithInterruptEx</a>
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 
@@ -212,19 +211,29 @@ Callers of
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
+<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+   NdisMSynchronizeWithInterruptEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
+   NdisInterlockedInsertTailList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 
 
@@ -233,29 +242,20 @@ Callers of
 
 
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
    NdisInterlockedInsertHeadList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
 
 
 

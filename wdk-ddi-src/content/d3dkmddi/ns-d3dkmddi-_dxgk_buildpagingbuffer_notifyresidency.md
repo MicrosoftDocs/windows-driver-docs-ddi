@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], display.dxgk_buildpagingbuffer_notifyresidency
+ms.keywords: ",  , ,, A, B, C, D, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], E, F, G, I, K, L, N, O, P, R, S, T, U, X, Y, _, _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

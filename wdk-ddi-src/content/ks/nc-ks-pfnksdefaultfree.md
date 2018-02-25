@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac8dd796-bc14-4b63-a0cb-5200cc1f0ce2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminiallocatorfreeframe, AVStrMiniAllocatorFreeFrame, AVStrMiniAllocatorFreeFrame routine [Streaming Media Devices], AVStrMiniAllocatorFreeFrame, PFNKSDEFAULTFREE, PFNKSDEFAULTFREE, ks/AVStrMiniAllocatorFreeFrame, avstclbk_c8c89d05-d36c-4a86-b92f-5465c1bc3eb2.xml
+ms.keywords: AVStrMiniAllocatorFreeFrame, AVStrMiniAllocatorFreeFrame routine [Streaming Media Devices], PFNKSDEFAULTFREE, avstclbk_c8c89d05-d36c-4a86-b92f-5465c1bc3eb2.xml, ks/AVStrMiniAllocatorFreeFrame, stream.avstrminiallocatorfreeframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,11 +105,11 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>
-
-
-
 <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
+
+
+
+<a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>
 
 
 

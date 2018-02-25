@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 33da3d63-0909-45fe-9a3b-d268b352231c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_hid_get_hardware_id, IOCTL_HID_GET_HARDWARE_ID control code [Human Input Devices], IOCTL_HID_GET_HARDWARE_ID, hidclass/IOCTL_HID_GET_HARDWARE_ID, hidioreq_e5eb1673-bf55-451b-b8de-f8d735aa54eb.xml
+ms.keywords: IOCTL_HID_GET_HARDWARE_ID, IOCTL_HID_GET_HARDWARE_ID control code [Human Input Devices], hid.ioctl_hid_get_hardware_id, hidclass/IOCTL_HID_GET_HARDWARE_ID, hidioreq_e5eb1673-bf55-451b-b8de-f8d735aa54eb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -119,7 +119,7 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md">IOCTL_HID_GET_INDEXED_STRING</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_getmanufacturerstring.md">HidD_GetManufacturerString</a>
 
 
 
@@ -127,15 +127,7 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_serialnumber_string.md">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
-
-
-
-<a href="..\hidsdi\nf-hidsdi-hidd_getmanufacturerstring.md">HidD_GetManufacturerString</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_manufacturer_string.md">IOCTL_HID_GET_MANUFACTURER_STRING</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md">IOCTL_HID_GET_INDEXED_STRING</a>
 
 
 
@@ -144,6 +136,14 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 
 <a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_serialnumber_string.md">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_manufacturer_string.md">IOCTL_HID_GET_MANUFACTURER_STRING</a>
 
 
 

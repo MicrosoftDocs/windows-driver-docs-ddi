@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 71f887ed-ab80-4b5f-bc74-d4333984fdd2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_1xBROADCAST_CMAS_EXTREME, ntddrilapitypes/RIL_1xBROADCAST_CMAS_AMBER, RILMSGCDMABROADCASTSERVICEID enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_1xBROADCAST_CMAS_SEVERE, RIL_1xBROADCAST_CMAS_TEST, ntddrilapitypes/RILMSGCDMABROADCASTSERVICEID, RILMSGCDMABROADCASTSERVICEID, ntddrilapitypes/RIL_1xBROADCAST_CMAS_TEST, ntddrilapitypes/RIL_1xBROADCAST_CMAS_EXTREME, RIL_1xBROADCAST_CMAS_SEVERE, netvista.rilmsgcdmabroadcastserviceid, RIL_1xBROADCAST_CMAS_AMBER
+ms.keywords: ",  , ,, A, B, C, D, E, G, I, L, M, O, R, RILMSGCDMABROADCASTSERVICEID, RILMSGCDMABROADCASTSERVICEID enumeration [Network Drivers Starting with Windows Vista], RIL_1xBROADCAST_CMAS_AMBER, RIL_1xBROADCAST_CMAS_EXTREME, RIL_1xBROADCAST_CMAS_SEVERE, RIL_1xBROADCAST_CMAS_TEST, S, T, V, netvista.rilmsgcdmabroadcastserviceid, ntddrilapitypes/RILMSGCDMABROADCASTSERVICEID, ntddrilapitypes/RIL_1xBROADCAST_CMAS_AMBER, ntddrilapitypes/RIL_1xBROADCAST_CMAS_EXTREME, ntddrilapitypes/RIL_1xBROADCAST_CMAS_SEVERE, ntddrilapitypes/RIL_1xBROADCAST_CMAS_TEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

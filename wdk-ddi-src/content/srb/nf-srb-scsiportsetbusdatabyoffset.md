@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 64f46049-fbf0-4d9b-b5fe-9877a964755f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortSetBusDataByOffset, storage.scsiportsetbusdatabyoffset, scsiprt_83fdaa63-8e40-41e6-8f60-b9cc98c6eade.xml, ScsiPortSetBusDataByOffset routine [Storage Devices], srb/ScsiPortSetBusDataByOffset
+ms.keywords: ",  , B, D, O, P, S, ScsiPortSetBusDataByOffset, ScsiPortSetBusDataByOffset routine [Storage Devices], a, c, e, f, i, o, r, s, scsiprt_83fdaa63-8e40-41e6-8f60-b9cc98c6eade.xml, srb/ScsiPortSetBusDataByOffset, storage.scsiportsetbusdatabyoffset, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param BusDataType [in]
 
-Contains a value of type <a href="..\miniport\ne-miniport-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of bus data to be set. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
+Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of bus data to be set. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
 
 
 ### -param SystemIoBusNumber [in]
@@ -136,6 +136,14 @@ Miniport drivers of HBAs on a PCI bus seldom call <b>ScsiPortSetBusDataByOffset<
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+
+
+<a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+
+
+
 <a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
 
 
@@ -144,19 +152,11 @@ Miniport drivers of HBAs on a PCI bus seldom call <b>ScsiPortSetBusDataByOffset<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
-
-
-
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-
-
-
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 76B7F24C-5376-4DE1-86E7-D2D688B86BCF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxcontroller/UcxControllerSetFailed, buses._ucxcontrollersetfailed, UcxControllerSetFailed method [Buses], UcxControllerSetFailed
+ms.keywords: ",  , C, F, S, U, UcxControllerSetFailed, UcxControllerSetFailed method [Buses], a, buses._ucxcontrollersetfailed, c, d, e, i, l, n, o, r, t, ucxcontroller/UcxControllerSetFailed, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

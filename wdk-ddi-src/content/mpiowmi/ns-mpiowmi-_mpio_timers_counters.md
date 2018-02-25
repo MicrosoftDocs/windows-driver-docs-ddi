@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: edbca8b0-53c1-4538-ac96-52238d75168d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: mpiowmi/PMPIO_TIMERS_COUNTERS, PMPIO_TIMERS_COUNTERS, mpiowmi/MPIO_TIMERS_COUNTERS, PMPIO_TIMERS_COUNTERS structure pointer [Storage Devices], storage.mpio_timers_counters, structs-scsibus_4e4255c8-94e3-4eb0-bf6b-e5c8cddba010.xml, MPIO_TIMERS_COUNTERS, _MPIO_TIMERS_COUNTERS, *PMPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS structure [Storage Devices]
+ms.keywords: ",  , *, *PMPIO_TIMERS_COUNTERS, ,, C, E, I, M, MPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS structure [Storage Devices], N, O, P, PMPIO_TIMERS_COUNTERS, PMPIO_TIMERS_COUNTERS structure pointer [Storage Devices], R, S, T, U, _, _MPIO_TIMERS_COUNTERS, mpiowmi/MPIO_TIMERS_COUNTERS, mpiowmi/PMPIO_TIMERS_COUNTERS, storage.mpio_timers_counters, structs-scsibus_4e4255c8-94e3-4eb0-bf6b-e5c8cddba010.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

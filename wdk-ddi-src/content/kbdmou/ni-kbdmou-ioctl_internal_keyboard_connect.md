@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 90014194-e790-4b23-9f3d-f5879dd94063
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_internal_keyboard_connect, IOCTL_INTERNAL_KEYBOARD_CONNECT control code [Human Input Devices], IOCTL_INTERNAL_KEYBOARD_CONNECT, kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT, kfilref_b9a87851-bbc4-4567-a459-9e647d6d3315.xml
+ms.keywords: IOCTL_INTERNAL_KEYBOARD_CONNECT, IOCTL_INTERNAL_KEYBOARD_CONNECT control code [Human Input Devices], hid.ioctl_internal_keyboard_connect, kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT, kfilref_b9a87851-bbc4-4567-a459-9e647d6d3315.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

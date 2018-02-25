@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 92955e1e-6c5b-4e8e-a365-65ff4d0889a5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, ndis/NdisCmDeregisterSapComplete, NdisCmDeregisterSapComplete, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista], netvista.ndiscmderegistersapcomplete
+ms.keywords: ",  , C, D, N, NdisCmDeregisterSapComplete, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista], S, a, condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, d, e, g, i, l, m, ndis/NdisCmDeregisterSapComplete, netvista.ndiscmderegistersapcomplete, o, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,10 +117,6 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
    ProtocolClDeregisterSapComplete</a>
 
@@ -131,6 +127,10 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 <a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
 
 

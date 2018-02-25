@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 483147CF-B15D-435C-B5AA-31723D4C2A85
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxControllerResetComplete method [Buses], ucxcontroller/UcxControllerResetComplete, buses._ucxcontrollerresetcomplete, UcxControllerResetComplete
+ms.keywords: ",  , C, R, U, UcxControllerResetComplete, UcxControllerResetComplete method [Buses], buses._ucxcontrollerresetcomplete, c, e, l, m, n, o, p, r, s, t, ucxcontroller/UcxControllerResetComplete, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

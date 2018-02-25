@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 639A90E8-4B2D-413B-B6F9-078C9DF1B02F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.reconstructstack, ReconstructStack, ReconstructStack callback function [Windows Debugging], ReconstructStack, PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, dbgeng/ReconstructStack
+ms.keywords: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, ReconstructStack, ReconstructStack callback function [Windows Debugging], dbgeng/ReconstructStack, debugger.reconstructstack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

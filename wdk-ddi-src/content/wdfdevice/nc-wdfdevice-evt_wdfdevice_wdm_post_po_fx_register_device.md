@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4CE227F5-9ED4-4484-AFBF-44D1260EB99D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicewdmpostpofxregisterdevice, EvtDeviceWdmPostPoFxRegisterDevice callback function, EvtDeviceWdmPostPoFxRegisterDevice, EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE, EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE, wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice, kmdf.evtdevicewdmpostpofxregisterdevice
+ms.keywords: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE, EvtDeviceWdmPostPoFxRegisterDevice, EvtDeviceWdmPostPoFxRegisterDevice callback function, kmdf.evtdevicewdmpostpofxregisterdevice, wdf.evtdevicewdmpostpofxregisterdevice, wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -155,11 +155,11 @@ The <b>EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE</b> function type is defined
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md">EvtDeviceWdmPrePoFxUnregisterDevice</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
 
 
 

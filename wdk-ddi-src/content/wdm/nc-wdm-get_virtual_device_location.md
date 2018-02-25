@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: A08294EC-7A1B-4A2D-A425-D19ABDCB9DCA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.getlocation, GetLocation routine, GetLocation, GET_VIRTUAL_DEVICE_LOCATION, GET_VIRTUAL_DEVICE_LOCATION, wdm/GetLocation
+ms.keywords: GET_VIRTUAL_DEVICE_LOCATION, GetLocation, GetLocation routine, PCI.getlocation, wdm/GetLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -160,11 +160,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 

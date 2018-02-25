@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fd111e80-fc3e-4f21-97cb-1f75ae34d1e9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.bdagetchangestate, bdasup/BdaGetChangeState, BdaGetChangeState function [Streaming Media Devices], bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml, BdaGetChangeState
+ms.keywords: ",  , B, BdaGetChangeState, BdaGetChangeState function [Streaming Media Devices], C, G, S, a, bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml, bdasup/BdaGetChangeState, d, e, g, h, n, stream.bdagetchangestate, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,15 +144,15 @@ See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">De
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563417">KSMETHOD_BDA_GET_CHANGE_STATE</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563417">KSMETHOD_BDA_GET_CHANGE_STATE</a>
 
 
 

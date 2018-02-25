@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: aa625cbf-fa0f-420a-b8ec-2babf4c4ec17
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_tape_set_drive_params, IOCTL_TAPE_SET_DRIVE_PARAMS control code [Storage Devices], IOCTL_TAPE_SET_DRIVE_PARAMS, ntddtape/IOCTL_TAPE_SET_DRIVE_PARAMS, k307_8467b086-c211-4e26-ac65-2d12ea1c4c73.xml
+ms.keywords: IOCTL_TAPE_SET_DRIVE_PARAMS, IOCTL_TAPE_SET_DRIVE_PARAMS control code [Storage Devices], k307_8467b086-c211-4e26-ac65-2d12ea1c4c73.xml, ntddtape/IOCTL_TAPE_SET_DRIVE_PARAMS, storage.ioctl_tape_set_drive_params
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -111,15 +111,15 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567952">TapeMiniSetDriveParameters</a>
 
 
 
 <a href="..\ntddtape\ns-ntddtape-_tape_set_drive_parameters.md">TAPE_SET_DRIVE_PARAMETERS</a>
+
+
+
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 

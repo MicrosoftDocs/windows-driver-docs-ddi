@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f5116986-aa0c-4cc3-9893-c93e83e922f7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_GETINFO_FONTOBJ, PGETINFO_FONTOBJ structure pointer [Print Devices], GETINFO_FONTOBJ structure [Print Devices], PGETINFO_FONTOBJ, printoem/PGETINFO_FONTOBJ, GETINFO_FONTOBJ, *PGETINFO_FONTOBJ, print.getinfo_fontobj, print_unidrv-pscript_rendering_2fdbe41f-95af-46ef-be82-04c1dc02297f.xml, printoem/GETINFO_FONTOBJ"
+ms.keywords: ",  , *, *PGETINFO_FONTOBJ, ,, B, E, F, G, GETINFO_FONTOBJ, GETINFO_FONTOBJ structure [Print Devices], I, J, N, O, P, PGETINFO_FONTOBJ, PGETINFO_FONTOBJ structure pointer [Print Devices], T, _, _GETINFO_FONTOBJ, print.getinfo_fontobj, print_unidrv-pscript_rendering_2fdbe41f-95af-46ef-be82-04c1dc02297f.xml, printoem/GETINFO_FONTOBJ, printoem/PGETINFO_FONTOBJ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

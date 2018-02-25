@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 350d9777-18d7-412a-ab60-1e17070a12af
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ata_pass_through, IOCTL_ATA_PASS_THROUGH control code [Storage Devices], IOCTL_ATA_PASS_THROUGH, ntddscsi/IOCTL_ATA_PASS_THROUGH, k307_e93738e1-b773-452b-8776-854f9c616967.xml
+ms.keywords: IOCTL_ATA_PASS_THROUGH, IOCTL_ATA_PASS_THROUGH control code [Storage Devices], k307_e93738e1-b773-452b-8776-854f9c616967.xml, ntddscsi/IOCTL_ATA_PASS_THROUGH, storage.ioctl_ata_pass_through
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -150,11 +150,11 @@ The <b>Information</b> member is set to the number of bytes returned in the outp
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
 
 
 

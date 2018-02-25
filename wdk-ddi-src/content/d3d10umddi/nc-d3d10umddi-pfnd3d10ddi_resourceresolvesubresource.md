@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9f4a6e2-bc01-477f-a919-ec71871f665b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.resourceresolvesubresource, ResourceResolveSubresource callback function [Display Devices], ResourceResolveSubresource, PFND3D10DDI_RESOURCERESOLVESUBRESOURCE, PFND3D10DDI_RESOURCERESOLVESUBRESOURCE, d3d10umddi/ResourceResolveSubresource, UserModeDisplayDriverDx10_Functions_bddd44ef-1872-4285-9b04-fdd509e84527.xml
+ms.keywords: PFND3D10DDI_RESOURCERESOLVESUBRESOURCE, ResourceResolveSubresource, ResourceResolveSubresource callback function [Display Devices], UserModeDisplayDriverDx10_Functions_bddd44ef-1872-4285-9b04-fdd509e84527.xml, d3d10umddi/ResourceResolveSubresource, display.resourceresolvesubresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -161,11 +161,11 @@ If both resources are prestructured plus typeless, they must be equal formats, a
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md">ResourceCopyRegion</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

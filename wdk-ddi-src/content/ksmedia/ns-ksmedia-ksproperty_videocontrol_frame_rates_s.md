@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fbd45594-a7cb-4376-b05c-d1e09462c78c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, stream.ksproperty_videocontrol_frame_rates_s, *PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, vidcapstruct_6f4d2262-8995-4b48-9029-595a7e7c1e15.xml, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure pointer [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, ,, A, C, D, E, F, I, K, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure [Streaming Media Devices], L, M, N, O, P, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure pointer [Streaming Media Devices], R, S, T, V, Y, _, ksmedia/KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, stream.ksproperty_videocontrol_frame_rates_s, vidcapstruct_6f4d2262-8995-4b48-9029-595a7e7c1e15.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,11 +101,11 @@ The minidriver should return a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIP
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
 
 
 

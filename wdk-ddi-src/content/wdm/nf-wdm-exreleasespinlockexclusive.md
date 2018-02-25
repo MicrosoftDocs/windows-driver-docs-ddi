@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D10C65A6-96E7-4BE0-BDD5-EFD129DC424C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], wdm/ExReleaseSpinLockExclusive, kernel.exreleasespinlockexclusive_
+ms.keywords: ",  , E, ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], L, R, S, a, c, e, i, k, kernel.exreleasespinlockexclusive_, l, n, o, p, s, u, v, wdm/ExReleaseSpinLockExclusive, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

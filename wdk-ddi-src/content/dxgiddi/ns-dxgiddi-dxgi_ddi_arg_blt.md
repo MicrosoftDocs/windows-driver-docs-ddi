@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 695f2aff-cce3-4358-a9e2-48eea43e8ef5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgi_ddi_arg_blt, dxgiddi/DXGI_DDI_ARG_BLT, DXGI_DDI_ARG_BLT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_299fa1c4-8c06-4a7e-a81c-741eb2e8c00a.xml, DXGI_DDI_ARG_BLT
+ms.keywords: ",  , ,, A, B, D, DXGI_DDI_ARG_BLT, DXGI_DDI_ARG_BLT structure [Display Devices], G, I, L, R, T, UMDisplayDriver_Dx10param_Structs_299fa1c4-8c06-4a7e-a81c-741eb2e8c00a.xml, X, _, display.dxgi_ddi_arg_blt, dxgiddi/DXGI_DDI_ARG_BLT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

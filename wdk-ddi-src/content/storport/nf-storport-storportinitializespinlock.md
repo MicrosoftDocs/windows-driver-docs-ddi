@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 150B1ED3-572A-4986-BED6-628ED6C54CCF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortInitializeSpinlock routine [Storage Devices], StorPortInitializeSpinlock, storage.storportinitializespinlock, storport/StorPortInitializeSpinlock
+ms.keywords: ",  , I, P, S, StorPortInitializeSpinlock, StorPortInitializeSpinlock routine [Storage Devices], a, c, e, i, k, l, n, o, p, r, storage.storportinitializespinlock, storport/StorPortInitializeSpinlock, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,19 +144,19 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567494">StorPortReleaseMSISpinLock</a>
-
-
-
 <a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
-
-
-
 <a href="..\storport\nf-storport-storportreleasespinlock.md">StorPortReleaseSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567494">StorPortReleaseMSISpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
 
 
 

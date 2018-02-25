@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 358C060B-23A0-4F02-A5D3-07ADC3435849
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_multiplane_overlay_plane_with_source, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE
+ms.keywords: ",  , ,, A, C, D, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE structure [Display Devices], E, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W, X, Y, _, _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, display.dxgk_multiplane_overlay_plane_with_source"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

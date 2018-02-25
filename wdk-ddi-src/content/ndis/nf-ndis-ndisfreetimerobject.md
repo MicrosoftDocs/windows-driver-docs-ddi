@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b3edeebb-7a8f-4cd2-bd52-1b8ce044caa2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisFreeTimerObject, netvista.ndisfreetimerobject, ndis_timer_ref_0f4b2edb-47fb-481c-a1e9-6940d15cb354.xml, NdisFreeTimerObject, NdisFreeTimerObject function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , F, N, NdisFreeTimerObject, NdisFreeTimerObject function [Network Drivers Starting with Windows Vista], O, T, b, c, d, e, i, j, m, ndis/NdisFreeTimerObject, ndis_timer_ref_0f4b2edb-47fb-481c-a1e9-6940d15cb354.xml, netvista.ndisfreetimerobject, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,7 @@ To cancel a timer, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 
@@ -114,7 +114,7 @@ To cancel a timer, call the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 
 

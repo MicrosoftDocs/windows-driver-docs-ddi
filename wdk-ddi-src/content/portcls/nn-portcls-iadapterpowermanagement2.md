@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 86cab3f1-2792-486f-91a3-4fb88be2a1da
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iadapterpowermanagement2, IAdapterPowerManagement2 interface [Audio Devices], IAdapterPowerManagement2 interface [Audio Devices], described, IAdapterPowerManagement2, portcls/IAdapterPowerManagement2, audmp-routines_c7d21546-b88c-46e6-9612-6244155058b0.xml
+ms.keywords: IAdapterPowerManagement2, IAdapterPowerManagement2 interface [Audio Devices], IAdapterPowerManagement2 interface [Audio Devices], described, audio.iadapterpowermanagement2, audmp-routines_c7d21546-b88c-46e6-9612-6244155058b0.xml, portcls/IAdapterPowerManagement2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

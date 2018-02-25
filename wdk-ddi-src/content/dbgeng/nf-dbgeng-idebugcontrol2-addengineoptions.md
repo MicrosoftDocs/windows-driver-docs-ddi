@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 088036f5-13cb-47ba-953c-a71c923f028e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], AddEngineOptions method, debugger.addengineoptions, IDebugControl2 interface [Windows Debugging], AddEngineOptions method, IDebugControl3::AddEngineOptions, dbgeng/IDebugControl::AddEngineOptions, AddEngineOptions method [Windows Debugging], IDebugControl2 interface, IDebugControl2::AddEngineOptions, AddEngineOptions method [Windows Debugging], AddEngineOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl::AddEngineOptions, IDebugControl, IDebugControl2, IDebugControl interface [Windows Debugging], AddEngineOptions method, AddEngineOptions method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::AddEngineOptions, IDebugControl_6042b0b9-8175-4790-be19-43f8659716dc.xml, AddEngineOptions, dbgeng/IDebugControl2::AddEngineOptions
+ms.keywords: ",  , ,, ., 2, :, A, AddEngineOptions method [Windows Debugging], AddEngineOptions method [Windows Debugging], IDebugControl interface, AddEngineOptions method [Windows Debugging], IDebugControl2 interface, AddEngineOptions method [Windows Debugging], IDebugControl3 interface, AddEngineOptions,IDebugControl.AddEngineOptions, AddEngineOptions,IDebugControl2.AddEngineOptions, C, D, E, I, IDebugControl, IDebugControl interface [Windows Debugging], AddEngineOptions method, IDebugControl2, IDebugControl2 interface [Windows Debugging], AddEngineOptions method, IDebugControl2::AddEngineOptions, IDebugControl3 interface [Windows Debugging], AddEngineOptions method, IDebugControl3::AddEngineOptions, IDebugControl::AddEngineOptions, IDebugControl_6042b0b9-8175-4790-be19-43f8659716dc.xml, O, b, d, dbgeng/IDebugControl2::AddEngineOptions, dbgeng/IDebugControl3::AddEngineOptions, dbgeng/IDebugControl::AddEngineOptions, debugger.addengineoptions, e, g, i, l, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,7 +113,7 @@ After the engine options have been changed, the engine sends out notification to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -125,7 +125,7 @@ After the engine options have been changed, the engine sends out notification to
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9ba7c42a-4140-4d8c-abb3-ae5f9285dbd9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxvaddi_queryprocampinput, DXVADDI_QUERYPROCAMPINPUT structure [Display Devices], d3dumddi/DXVADDI_QUERYPROCAMPINPUT, _DXVADDI_QUERYPROCAMPINPUT, DXVA2_Structs_64cd50ed-940a-46a1-8a4d-b43d40e85b25.xml, DXVADDI_QUERYPROCAMPINPUT
+ms.keywords: ",  , ,, A, C, D, DXVA2_Structs_64cd50ed-940a-46a1-8a4d-b43d40e85b25.xml, DXVADDI_QUERYPROCAMPINPUT, DXVADDI_QUERYPROCAMPINPUT structure [Display Devices], E, I, M, N, O, P, Q, R, T, U, V, X, Y, _, _DXVADDI_QUERYPROCAMPINPUT, d3dumddi/DXVADDI_QUERYPROCAMPINPUT, display.dxvaddi_queryprocampinput"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,6 +96,10 @@ typedef struct _DXVADDI_QUERYPROCAMPINPUT {
 
 
 
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
@@ -104,7 +108,7 @@ typedef struct _DXVADDI_QUERYPROCAMPINPUT {
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
@@ -113,10 +117,6 @@ typedef struct _DXVADDI_QUERYPROCAMPINPUT {
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
-
-
-
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 

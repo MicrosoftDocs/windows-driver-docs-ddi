@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c100aad1-2fb9-49e0-b68e-20b165a69701
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisrawreadportbufferushort, NdisRawReadPortBufferUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_fc8d7120-4fbc-46e3-9946-c269f2992f56.xml, NdisRawReadPortBufferUshort, ndis/NdisRawReadPortBufferUshort
+ms.keywords: ",  , B, N, NdisRawReadPortBufferUshort, NdisRawReadPortBufferUshort macro [Network Drivers Starting with Windows Vista], P, R, U, a, d, e, f, h, i, miniport_port_raw_ref_fc8d7120-4fbc-46e3-9946-c269f2992f56.xml, ndis/NdisRawReadPortBufferUshort, netvista.ndisrawreadportbufferushort, o, r, s, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -101,11 +101,11 @@ Specifies how many USHORTs to transfer from the NIC.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
 
 
 
@@ -113,7 +113,7 @@ Specifies how many USHORTs to transfer from the NIC.
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
 
 
 
@@ -121,7 +121,7 @@ Specifies how many USHORTs to transfer from the NIC.
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 

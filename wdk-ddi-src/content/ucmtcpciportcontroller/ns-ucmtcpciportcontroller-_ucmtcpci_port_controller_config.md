@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: a9027cda-0851-46e2-9006-0d757109fc3a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG structure pointer [Buses], buses.ucmtcpci_port_controller_config, _UCMTCPCI_PORT_CONTROLLER_CONFIG, *PUCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG structure [Buses], UCMTCPCI_PORT_CONTROLLER_CONFIG
+ms.keywords: ",  , *, *PUCMTCPCI_PORT_CONTROLLER_CONFIG, ,, C, E, F, G, I, L, M, N, O, P, PUCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG structure pointer [Buses], R, T, U, UCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG structure [Buses], _, _UCMTCPCI_PORT_CONTROLLER_CONFIG, buses.ucmtcpci_port_controller_config, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CONFIG, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

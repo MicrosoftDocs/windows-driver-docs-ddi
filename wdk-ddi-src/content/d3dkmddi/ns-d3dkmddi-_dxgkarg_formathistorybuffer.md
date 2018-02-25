@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40E00234-C22B-4F86-AC5D-197223298FD7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKARG_FORMATHISTORYBUFFER structure [Display Devices], _DXGKARG_FORMATHISTORYBUFFER, display.dxgkarg_formathistorybuffer, DXGKARG_FORMATHISTORYBUFFER, d3dkmddi/DXGKARG_FORMATHISTORYBUFFER
+ms.keywords: ",  , ,, A, B, D, DXGKARG_FORMATHISTORYBUFFER, DXGKARG_FORMATHISTORYBUFFER structure [Display Devices], E, F, G, H, I, K, M, O, R, S, T, U, X, Y, _, _DXGKARG_FORMATHISTORYBUFFER, d3dkmddi/DXGKARG_FORMATHISTORYBUFFER, display.dxgkarg_formathistorybuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,11 +131,11 @@ The driver should obtain time stamp entries and the number of usable time stamps
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
 
 
 

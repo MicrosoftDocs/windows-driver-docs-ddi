@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 94e7c36a-e45c-4d98-aeb7-f23769347ca5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcmTcpciPortControllerStart, ucmtcpciportcontroller/UcmTcpciPortControllerStart, UcmTcpciPortControllerStart method [Buses], buses.ucmtcpciportcontrollerstart
+ms.keywords: ",  , C, P, S, T, U, UcmTcpciPortControllerStart, UcmTcpciPortControllerStart method [Buses], a, buses.ucmtcpciportcontrollerstart, c, e, i, l, m, n, o, p, r, t, ucmtcpciportcontroller/UcmTcpciPortControllerStart"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

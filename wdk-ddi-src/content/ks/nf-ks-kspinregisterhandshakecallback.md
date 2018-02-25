@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a5b9f731-e029-40c2-9fbb-d7a3b63615df
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices], avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, stream.kspinregisterhandshakecallback, ks/KsPinRegisterHandshakeCallback
+ms.keywords: ",  , C, H, K, KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices], P, R, a, avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, b, c, d, e, g, h, i, k, ks/KsPinRegisterHandshakeCallback, l, n, r, s, stream.kspinregisterhandshakecallback, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,15 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 ## -see-also
 
+<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+
+
+
 <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 
 
 
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
 
 
 
@@ -118,10 +122,6 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 
 <a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
-
-
-
-<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
 
 
 

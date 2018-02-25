@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b7b9f3b-df33-4886-bd22-23429cb05ea7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/PAddRADIUSServer_IN, structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml, AddRADIUSServer_IN structure [Storage Devices], iscsiop/AddRADIUSServer_IN, *PAddRADIUSServer_IN, storage.addradiusserver_in, PAddRADIUSServer_IN, _AddRADIUSServer_IN, AddRADIUSServer_IN, PAddRADIUSServer_IN structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PAddRADIUSServer_IN, ,, A, AddRADIUSServer_IN, AddRADIUSServer_IN structure [Storage Devices], D, I, N, P, PAddRADIUSServer_IN, PAddRADIUSServer_IN structure pointer [Storage Devices], R, S, U, _, _AddRADIUSServer_IN, d, e, iscsiop/AddRADIUSServer_IN, iscsiop/PAddRADIUSServer_IN, r, storage.addradiusserver_in, structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

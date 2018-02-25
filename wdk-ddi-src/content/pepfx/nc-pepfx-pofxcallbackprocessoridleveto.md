@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 505276EE-5D41-4AB2-82FB-FBDEF994F372
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.processoridleveto, ProcessorIdleVetoreadv, ProcessorIdleVeto routine [Kernel-Mode Driver Architecture], ProcessorIdleVeto, POFXCALLBACKPROCESSORIDLEVETO, POFXCALLBACKPROCESSORIDLEVETO, pepfx/ProcessorIdleVeto
+ms.keywords: POFXCALLBACKPROCESSORIDLEVETO, ProcessorIdleVeto, ProcessorIdleVeto routine [Kernel-Mode Driver Architecture], ProcessorIdleVetoreadv, kernel.processoridleveto, pepfx/ProcessorIdleVeto
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,7 +109,7 @@ This routine does not return a value.
 
 
 
-This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>ProcessorIdleVeto</b> member of the <a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>ProcessorIdleVeto</b> routine.
+This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>ProcessorIdleVeto</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>ProcessorIdleVeto</b> routine.
 
 
 
@@ -118,7 +118,7 @@ This routine is implemented by the power management framework (PoFx) and is call
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 

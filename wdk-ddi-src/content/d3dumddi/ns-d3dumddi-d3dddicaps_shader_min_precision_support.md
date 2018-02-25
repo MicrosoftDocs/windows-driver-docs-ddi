@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3ad65e7-8a91-464b-9a7f-e5c47ee54048
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT structure [Display Devices], D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, display.d3dddicaps_shader_min_precision_support
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT structure [Display Devices], E, H, I, M, N, O, P, R, S, T, U, _, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, display.d3dddicaps_shader_min_precision_support"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

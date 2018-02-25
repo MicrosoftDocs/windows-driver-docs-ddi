@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1118503c-868b-423c-b459-7db32bf5b82b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCchCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyunicodestringex, RtlStringCchCopyUnicodeStringEx, safestrings_fd016973-3ea3-432d-80dc-f23a3821d607.xml, ntstrsafe/RtlStringCchCopyUnicodeStringEx
+ms.keywords: ",  , C, E, R, RtlStringCchCopyUnicodeStringEx, RtlStringCchCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], S, U, c, d, e, g, h, i, kernel.rtlstringcchcopyunicodestringex, l, n, ntstrsafe/RtlStringCchCopyUnicodeStringEx, o, p, r, safestrings_fd016973-3ea3-432d-80dc-f23a3821d607.xml, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -221,11 +221,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestringex.md">RtlStringCbCopyUnicodeStringEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyunicodestring.md">RtlStringCchCopyUnicodeString</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestringex.md">RtlStringCbCopyUnicodeStringEx</a>
 
 
 

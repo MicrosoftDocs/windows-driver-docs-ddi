@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5c2ec27c-2d88-4e0c-8f11-4f58d720df46
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtchildlistidentificationdescriptionduplicate, EvtChildListIdentificationDescriptionDuplicate callback function, EvtChildListIdentificationDescriptionDuplicate, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE, wdfchildlist/EvtChildListIdentificationDescriptionDuplicate, DFDeviceObjectChildListRef_3ee2ef4e-8131-454a-b821-19eb5de4c8f9.xml, kmdf.evtchildlistidentificationdescriptionduplicate
+ms.keywords: DFDeviceObjectChildListRef_3ee2ef4e-8131-454a-b821-19eb5de4c8f9.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE, EvtChildListIdentificationDescriptionDuplicate, EvtChildListIdentificationDescriptionDuplicate callback function, kmdf.evtchildlistidentificationdescriptionduplicate, wdf.evtchildlistidentificationdescriptionduplicate, wdfchildlist/EvtChildListIdentificationDescriptionDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,7 +135,7 @@ The framework can use <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
 <ol>
 <li>
-Allocate additional memory, typically by calling <a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>.
+Allocate additional memory, typically by calling <a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>.
 
 </li>
 <li>
@@ -200,6 +200,26 @@ The <b>EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE</b> function type
 
 ## -see-also
 
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md">EvtChildListIdentificationDescriptionCompare</a>
+
+
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_copy.md">EvtChildListIdentificationDescriptionCopy</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistgetdevice.md">WdfChildListGetDevice</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
+
+
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
@@ -208,27 +228,7 @@ The <b>EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE</b> function type
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
-
-
-
-<a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>
-
-
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistgetdevice.md">WdfChildListGetDevice</a>
-
-
-
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_copy.md">EvtChildListIdentificationDescriptionCopy</a>
-
-
-
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md">EvtChildListIdentificationDescriptionCompare</a>
-
-
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
+<a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>
 
 
 
@@ -236,7 +236,7 @@ The <b>EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE</b> function type
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
 
 
 

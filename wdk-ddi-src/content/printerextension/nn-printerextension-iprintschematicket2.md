@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 52D9FA01-578B-43C2-A0B1-F3CD0BAAFAE4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschematicket2, IPrintSchemaTicket2 interface [Print Devices], IPrintSchemaTicket2 interface [Print Devices], described, IPrintSchemaTicket2, printerextension/IPrintSchemaTicket2
+ms.keywords: IPrintSchemaTicket2, IPrintSchemaTicket2 interface [Print Devices], IPrintSchemaTicket2 interface [Print Devices], described, print.iprintschematicket2, printerextension/IPrintSchemaTicket2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

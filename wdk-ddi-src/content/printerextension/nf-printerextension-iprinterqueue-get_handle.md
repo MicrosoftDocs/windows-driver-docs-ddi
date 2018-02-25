@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: FE8A8822-28C8-4255-86A4-A77F17C1C281
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterQueue.Handle, IPrinterQueue, printerextension/IPrinterQueue::get_Handle, get_Handle, Handle property [Print Devices], IPrinterQueue interface [Print Devices], Handle property, printerextension/IPrinterQueue::Handle, Handle property [Print Devices], IPrinterQueue interface, IPrinterQueue::get_Handle, print.iprinterqueue_handle
+ms.keywords: ",  , ,, ., :, H, Handle property [Print Devices], Handle property [Print Devices], IPrinterQueue interface, I, IPrinterQueue, IPrinterQueue interface [Print Devices], Handle property, IPrinterQueue.Handle, IPrinterQueue::get_Handle, P, Q, _, a, d, e, g, get_Handle, get_Handle,IPrinterQueue.get_Handle, i, l, n, print.iprinterqueue_handle, printerextension/IPrinterQueue::Handle, printerextension/IPrinterQueue::get_Handle, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

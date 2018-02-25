@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ee9b9b6c-c76e-4979-9f23-c411fe1b002a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], Breakpoint method, debugger.idebugeventcallbackswide_breakpoint, IDebugEventCallbacksWide::Breakpoint, IDebugEventCallbacksWide, Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::Breakpoint, Breakpoint
+ms.keywords: ",  , ,, ., :, B, Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface, Breakpoint,IDebugEventCallbacksWide.Breakpoint, C, D, E, I, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], Breakpoint method, IDebugEventCallbacksWide::Breakpoint, W, a, b, c, d, dbgeng/IDebugEventCallbacksWide::Breakpoint, debugger.idebugeventcallbackswide_breakpoint, e, g, i, k, l, n, o, p, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

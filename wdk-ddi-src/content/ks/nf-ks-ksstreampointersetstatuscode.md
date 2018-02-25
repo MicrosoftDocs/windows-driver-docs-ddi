@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 88d554d9-55b7-42d4-b799-f8cb2029b1ae
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsStreamPointerSetStatusCode, KsStreamPointerSetStatusCode function [Streaming Media Devices], KsStreamPointerSetStatusCode, avfunc_48c373d0-2d32-4ad3-b8de-3008e2e11f59.xml, stream.ksstreampointersetstatuscode
+ms.keywords: ",  , C, K, KsStreamPointerSetStatusCode, KsStreamPointerSetStatusCode function [Streaming Media Devices], P, S, a, avfunc_48c373d0-2d32-4ad3-b8de-3008e2e11f59.xml, d, e, i, ks/KsStreamPointerSetStatusCode, m, n, o, r, s, stream.ksstreampointersetstatuscode, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

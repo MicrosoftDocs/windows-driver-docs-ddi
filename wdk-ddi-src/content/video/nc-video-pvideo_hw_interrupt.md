@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 523471e3-cf1e-48d2-b5f0-2f8d19ad71e0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidinterrupt, HwVidInterrupt callback function [Display Devices], HwVidInterrupt, PVIDEO_HW_INTERRUPT, PVIDEO_HW_INTERRUPT, video/HwVidInterrupt, VideoMiniport_Functions_9c3ff1cb-9812-461c-8ac5-b6cbdbe63c59.xml
+ms.keywords: HwVidInterrupt, HwVidInterrupt callback function [Display Devices], PVIDEO_HW_INTERRUPT, VideoMiniport_Functions_9c3ff1cb-9812-461c-8ac5-b6cbdbe63c59.xml, display.hwvidinterrupt, video/HwVidInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -163,15 +163,7 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportlogerror.md">VideoPortLogError</a>
-
-
-
-<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 
@@ -179,7 +171,7 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 
 
-<a href="..\video\nf-video-videoportenableinterrupt.md">VideoPortEnableInterrupt</a>
+<a href="..\video\nf-video-videoportlogerror.md">VideoPortLogError</a>
 
 
 
@@ -187,7 +179,11 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+<a href="..\video\nf-video-videoportstallexecution.md">VideoPortStallExecution</a>
+
+
+
+<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
 
 
 
@@ -195,7 +191,11 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 
 
-<a href="..\video\nf-video-videoportstallexecution.md">VideoPortStallExecution</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>
+
+
+
+<a href="..\video\nf-video-videoportenableinterrupt.md">VideoPortEnableInterrupt</a>
 
 
 

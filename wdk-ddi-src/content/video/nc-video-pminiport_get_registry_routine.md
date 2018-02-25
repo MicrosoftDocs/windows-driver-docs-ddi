@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90020700-b9c8-42e6-bafa-908cbc3eb233
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidquerynamedvaluecallback, HwVidQueryNamedValueCallback callback function [Display Devices], HwVidQueryNamedValueCallback, PMINIPORT_GET_REGISTRY_ROUTINE, PMINIPORT_GET_REGISTRY_ROUTINE, video/HwVidQueryNamedValueCallback, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml
+ms.keywords: HwVidQueryNamedValueCallback, HwVidQueryNamedValueCallback callback function [Display Devices], PMINIPORT_GET_REGISTRY_ROUTINE, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml, display.hwvidquerynamedvaluecallback, video/HwVidQueryNamedValueCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -134,7 +134,11 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
 
 
@@ -142,15 +146,11 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 
 
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-
-
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
 
 

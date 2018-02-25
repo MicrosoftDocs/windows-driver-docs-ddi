@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 06459A1F-A14B-43BA-9771-47205CC3F388
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterqueue2, IPrinterQueue2 interface [Print Devices], IPrinterQueue2 interface [Print Devices], described, IPrinterQueue2, printerextension/IPrinterQueue2
+ms.keywords: IPrinterQueue2, IPrinterQueue2 interface [Print Devices], IPrinterQueue2 interface [Print Devices], described, print.iprinterqueue2, printerextension/IPrinterQueue2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -102,7 +102,7 @@ Uses an XML string value to send a Bidi Set request as an asynchronous operation
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
+<a href="https://msdn.microsoft.com/310E92A9-F751-4346-9B2D-0578A136AD20">Device Maintenance</a>
 
 
 
@@ -110,7 +110,7 @@ Uses an XML string value to send a Bidi Set request as an asynchronous operation
 
 
 
-<a href="https://msdn.microsoft.com/310E92A9-F751-4346-9B2D-0578A136AD20">Device Maintenance</a>
+<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
 
 

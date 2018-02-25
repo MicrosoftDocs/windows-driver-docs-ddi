@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 262c4b9b-fdca-4899-a635-fb273bbf4cc8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidexecutedma, HwVidExecuteDma callback function [Display Devices], HwVidExecuteDma, PEXECUTE_DMA, PEXECUTE_DMA, video/HwVidExecuteDma, VideoMiniport_Functions_5819a796-9dfd-41fe-9158-6ec09ac14760.xml
+ms.keywords: HwVidExecuteDma, HwVidExecuteDma callback function [Display Devices], PEXECUTE_DMA, VideoMiniport_Functions_5819a796-9dfd-41fe-9158-6ec09ac14760.xml, display.hwvidexecutedma, video/HwVidExecuteDma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -124,11 +124,7 @@ The last task that the video port driver's <b>VideoPortStartDma</b> function per
 
 
 
-<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
+<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 
 
 
@@ -136,7 +132,11 @@ The last task that the video port driver's <b>VideoPortStartDma</b> function per
 
 
 
-<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
+<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
 
 
 

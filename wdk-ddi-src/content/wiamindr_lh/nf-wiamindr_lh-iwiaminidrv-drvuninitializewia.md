@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 974de3b5-c129-42ee-a522-071c26726cf1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvUnInitializeWia, image.iwiaminidrv_drvuninitializewia, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia, IWiaMiniDrv interface [Imaging Devices], drvUnInitializeWia method, IWiaMiniDrv, drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv::drvUnInitializeWia
+ms.keywords: ",  , ,, ., :, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvUnInitializeWia method, IWiaMiniDrv::drvUnInitializeWia, M, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, U, W, a, d, drvUnInitializeWia method [Imaging Devices], drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvUnInitializeWia,IWiaMiniDrv.drvUnInitializeWia, e, i, image.iwiaminidrv_drvuninitializewia, l, n, r, t, v, wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,11 +100,11 @@ The WIA service calls the <b>IWiaMiniDrv::drvUnInitializeWia</b> method when the
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544986">IWiaMiniDrv::drvInitializeWia</a>
+
+
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 

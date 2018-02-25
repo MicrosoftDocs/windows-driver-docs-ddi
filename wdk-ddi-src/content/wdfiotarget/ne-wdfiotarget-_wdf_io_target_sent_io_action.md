@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4295ef73-b9a8-4593-8114-d0b836275b13
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_io_target_sent_io_action, wdfiotarget/WdfIoTargetCancelSentIo, DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, kmdf.wdf_io_target_sent_io_action, WdfIoTargetSentIoUndefined, WdfIoTargetLeaveSentIoPending, wdfiotarget/WdfIoTargetWaitForSentIoToComplete, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION, _WDF_IO_TARGET_SENT_IO_ACTION, wdfiotarget/WdfIoTargetSentIoUndefined, WdfIoTargetCancelSentIo, wdfiotarget/WdfIoTargetLeaveSentIoPending, WdfIoTargetWaitForSentIoToComplete, WDF_IO_TARGET_SENT_IO_ACTION enumeration
+ms.keywords: ",  , ,, A, C, D, DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, E, F, G, I, N, O, R, S, T, W, WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration, WdfIoTargetCancelSentIo, WdfIoTargetLeaveSentIoPending, WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, _, _WDF_IO_TARGET_SENT_IO_ACTION, kmdf.wdf_io_target_sent_io_action, wdf.wdf_io_target_sent_io_action, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, wdfiotarget/WdfIoTargetCancelSentIo, wdfiotarget/WdfIoTargetLeaveSentIoPending, wdfiotarget/WdfIoTargetSentIoUndefined, wdfiotarget/WdfIoTargetWaitForSentIoToComplete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

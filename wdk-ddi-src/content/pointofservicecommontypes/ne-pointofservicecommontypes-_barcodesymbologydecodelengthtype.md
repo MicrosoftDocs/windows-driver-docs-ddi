@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 155D1C71-7935-4512-8AA2-0EB167FCBF5E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_BarcodeSymbologyDecodeLengthType, pos.barcodesymbologydecodelengthtype, DecodeLengthType_Range, DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_AnyLength, DecodeLengthType_AnyLength, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_Range"
+ms.keywords: ",  , ,, B, BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, D, DecodeLengthType_AnyLength, DecodeLengthType_Discrete, DecodeLengthType_Range, L, S, T, _, _BarcodeSymbologyDecodeLengthType, a, b, c, d, e, g, h, l, m, n, o, p, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_AnyLength, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_Range, pos.barcodesymbologydecodelengthtype, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

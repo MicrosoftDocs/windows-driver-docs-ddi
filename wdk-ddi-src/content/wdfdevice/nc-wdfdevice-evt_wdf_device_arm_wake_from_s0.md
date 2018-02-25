@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a3579239-517f-4df0-a632-31e1176c6552
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicearmwakefroms0, EvtDeviceArmWakeFromS0 callback function, EvtDeviceArmWakeFromS0, EVT_WDF_DEVICE_ARM_WAKE_FROM_S0, EVT_WDF_DEVICE_ARM_WAKE_FROM_S0, wdfdevice/EvtDeviceArmWakeFromS0, DFDeviceObjectGeneralRef_c5a02b74-5290-4eaf-9994-eef5e71116fe.xml, kmdf.evtdevicearmwakefroms0
+ms.keywords: DFDeviceObjectGeneralRef_c5a02b74-5290-4eaf-9994-eef5e71116fe.xml, EVT_WDF_DEVICE_ARM_WAKE_FROM_S0, EvtDeviceArmWakeFromS0, EvtDeviceArmWakeFromS0 callback function, kmdf.evtdevicearmwakefroms0, wdf.evtdevicearmwakefroms0, wdfdevice/EvtDeviceArmWakeFromS0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

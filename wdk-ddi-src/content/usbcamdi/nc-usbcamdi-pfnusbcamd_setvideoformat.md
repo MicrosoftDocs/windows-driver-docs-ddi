@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 84a63c69-0f27-42e4-ae10-e394dd8b715d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.usbcamd_setvideoformat, USBCAMD_SetVideoFormat routine [Streaming Media Devices], USBCAMD_SetVideoFormat, PFNUSBCAMD_SetVideoFormat, PFNUSBCAMD_SetVideoFormat, usbcamdi/USBCAMD_SetVideoFormat, usbcmdpr_c4209df8-d0e2-4727-b9f8-4b9b734be34c.xml
+ms.keywords: PFNUSBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat routine [Streaming Media Devices], stream.usbcamd_setvideoformat, usbcamdi/USBCAMD_SetVideoFormat, usbcmdpr_c4209df8-d0e2-4727-b9f8-4b9b734be34c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

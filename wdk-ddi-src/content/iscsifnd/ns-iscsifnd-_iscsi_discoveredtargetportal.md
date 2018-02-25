@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af5d0ad6-a035-4291-9390-889fdc3429ee
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml, storage.iscsi_discoveredtargetportal, ISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal structure [Storage Devices], PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], iscsifnd/ISCSI_DiscoveredTargetPortal, _ISCSI_DiscoveredTargetPortal
+ms.keywords: ",  , *, *PISCSI_DiscoveredTargetPortal, ,, C, D, I, ISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal structure [Storage Devices], P, PISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], S, T, _, _ISCSI_DiscoveredTargetPortal, a, c, d, e, g, i, iscsifnd/ISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, l, o, r, s, storage.iscsi_discoveredtargetportal, structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,7 +95,7 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
 
 
 
@@ -103,7 +103,7 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
 
 

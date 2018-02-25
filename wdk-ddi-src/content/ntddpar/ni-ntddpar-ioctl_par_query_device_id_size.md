@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: f593e36e-8c2b-4cdc-ade1-d1e260f37667
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_par_query_device_id_size, IOCTL_PAR_QUERY_DEVICE_ID_SIZE control code [Parallel Ports], IOCTL_PAR_QUERY_DEVICE_ID_SIZE, ntddpar/IOCTL_PAR_QUERY_DEVICE_ID_SIZE, cisspd_a1c3f5cd-d1bc-40e5-a1e0-dc4306107826.xml
+ms.keywords: IOCTL_PAR_QUERY_DEVICE_ID_SIZE, IOCTL_PAR_QUERY_DEVICE_ID_SIZE control code [Parallel Ports], cisspd_a1c3f5cd-d1bc-40e5-a1e0-dc4306107826.xml, ntddpar/IOCTL_PAR_QUERY_DEVICE_ID_SIZE, parports.ioctl_par_query_device_id_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

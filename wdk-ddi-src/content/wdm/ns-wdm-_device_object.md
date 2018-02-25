@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3522315-cf15-41f7-ac87-c625c7dc8040
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PDEVICE_OBJECT, _DEVICE_OBJECT, DEVICE_OBJECT, *PDEVICE_OBJECT, wdm/DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, kernel.device_object, PDEVICE_OBJECT
+ms.keywords: ",  , *, *PDEVICE_OBJECT, ,, B, C, D, DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], E, I, J, O, P, PDEVICE_OBJECT, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], T, V, _, _DEVICE_OBJECT, kernel.device_object, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, wdm/DEVICE_OBJECT, wdm/PDEVICE_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,7 +112,7 @@ Used by the I/O manager to track the number of open handles for the device that 
 
 ### -field DriverObject
 
-A pointer to the driver object (<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>), that represents the loaded image of the driver that was input to the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. This member is set by the I/O manager upon a successful call to <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>. This is a read-only member.
+A pointer to the driver object (<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>), that represents the loaded image of the driver that was input to the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. This member is set by the I/O manager upon a successful call to <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>. This is a read-only member.
 
 
 ### -field _DRIVER_OBJECT
@@ -436,7 +436,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 
 
@@ -444,11 +444,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
 
 
@@ -456,7 +452,11 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 

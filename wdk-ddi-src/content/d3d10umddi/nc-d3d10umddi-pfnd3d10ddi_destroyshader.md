@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 51a3e5aa-0f17-49a6-824d-7cfe8e0a1ded
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroyshader, DestroyShader callback function [Display Devices], DestroyShader, PFND3D10DDI_DESTROYSHADER, PFND3D10DDI_DESTROYSHADER, d3d10umddi/DestroyShader, UserModeDisplayDriverDx10_Functions_798387e4-b7c1-4b03-bef7-1dad6931b432.xml
+ms.keywords: DestroyShader, DestroyShader callback function [Display Devices], PFND3D10DDI_DESTROYSHADER, UserModeDisplayDriverDx10_Functions_798387e4-b7c1-4b03-bef7-1dad6931b432.xml, d3d10umddi/DestroyShader, display.destroyshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,11 +115,11 @@ The driver should not encounter any error, except for <b>D3DDDIERR_DEVICEREMOVED
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aa410f46-7bd9-436e-9c97-495f35cff778
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugClient_375aab38-2821-4154-911f-1df9e204146c.xml, DetachProcesses method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient::DetachProcesses, dbgeng/IDebugClient3::DetachProcesses, dbgeng/IDebugClient5::DetachProcesses, IDebugClient interface [Windows Debugging], DetachProcesses method, IDebugClient4::DetachProcesses, DetachProcesses method [Windows Debugging], IDebugClient interface, IDebugClient4, IDebugClient3::DetachProcesses, IDebugClient::DetachProcesses, IDebugClient3, DetachProcesses method [Windows Debugging], DetachProcesses method [Windows Debugging], IDebugClient2 interface, DetachProcesses method [Windows Debugging], IDebugClient5 interface, DetachProcesses method [Windows Debugging], IDebugClient4 interface, IDebugClient2 interface [Windows Debugging], DetachProcesses method, dbgeng/IDebugClient4::DetachProcesses, dbgeng/IDebugClient2::DetachProcesses, IDebugClient2, IDebugClient2::DetachProcesses, debugger.detachprocesses, IDebugClient4 interface [Windows Debugging], DetachProcesses method, IDebugClient3 interface [Windows Debugging], DetachProcesses method, IDebugClient, IDebugClient5 interface [Windows Debugging], DetachProcesses method, DetachProcesses, IDebugClient5::DetachProcesses
+ms.keywords: ",  , ,, ., 4, :, C, D, DetachProcesses method [Windows Debugging], DetachProcesses method [Windows Debugging], IDebugClient interface, DetachProcesses method [Windows Debugging], IDebugClient2 interface, DetachProcesses method [Windows Debugging], IDebugClient3 interface, DetachProcesses method [Windows Debugging], IDebugClient4 interface, DetachProcesses method [Windows Debugging], IDebugClient5 interface, DetachProcesses,IDebugClient.DetachProcesses, DetachProcesses,IDebugClient2.DetachProcesses, DetachProcesses,IDebugClient3.DetachProcesses, DetachProcesses,IDebugClient4.DetachProcesses, I, IDebugClient, IDebugClient interface [Windows Debugging], DetachProcesses method, IDebugClient2, IDebugClient2 interface [Windows Debugging], DetachProcesses method, IDebugClient2::DetachProcesses, IDebugClient3, IDebugClient3 interface [Windows Debugging], DetachProcesses method, IDebugClient3::DetachProcesses, IDebugClient4, IDebugClient4 interface [Windows Debugging], DetachProcesses method, IDebugClient4::DetachProcesses, IDebugClient5 interface [Windows Debugging], DetachProcesses method, IDebugClient5::DetachProcesses, IDebugClient::DetachProcesses, IDebugClient_375aab38-2821-4154-911f-1df9e204146c.xml, P, a, b, c, dbgeng/IDebugClient2::DetachProcesses, dbgeng/IDebugClient3::DetachProcesses, dbgeng/IDebugClient4::DetachProcesses, dbgeng/IDebugClient5::DetachProcesses, dbgeng/IDebugClient::DetachProcesses, debugger.detachprocesses, e, g, h, i, l, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,27 +112,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558867">TerminateProcesses</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562334">.detach (Detach from Process)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 
 
@@ -140,7 +120,23 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558867">TerminateProcesses</a>
 
 
 
@@ -148,7 +144,11 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F9076ED0-A9D2-441A-A084-941C05EF9CCA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCM_CONNECTOR_CONFIG_INIT function [Buses], UCM_CONNECTOR_CONFIG_INIT, ucmmanager/UCM_CONNECTOR_CONFIG_INIT, buses.ucm_connector_config_init
+ms.keywords: ",  , C, E, F, G, I, M, N, O, R, T, U, UCM_CONNECTOR_CONFIG_INIT, UCM_CONNECTOR_CONFIG_INIT function [Buses], _, buses.ucm_connector_config_init, ucmmanager/UCM_CONNECTOR_CONFIG_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e6ad67bf-cd16-469e-af49-6a640a4319c0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilterminalcapabilityinfo, ntddrilapitypes/RILTERMINALCAPABILITYINFO"
+ms.keywords: ",  , *, *LPRILTERMINALCAPABILITYINFO, ,, A, B, C, E, F, I, L, M, N, O, P, R, RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO structure [Network Drivers Starting with Windows Vista], T, Y, netvista.rilterminalcapabilityinfo, ntddrilapitypes/RILTERMINALCAPABILITYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

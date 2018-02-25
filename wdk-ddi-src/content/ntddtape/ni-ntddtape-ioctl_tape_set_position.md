@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 93918e09-2742-47ca-94a5-043af2a3a338
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_tape_set_position, IOCTL_TAPE_SET_POSITION control code [Storage Devices], IOCTL_TAPE_SET_POSITION, ntddtape/IOCTL_TAPE_SET_POSITION, k307_3fc298fe-1a00-4bb5-8a10-09b5fec325b3.xml
+ms.keywords: IOCTL_TAPE_SET_POSITION, IOCTL_TAPE_SET_POSITION control code [Storage Devices], k307_3fc298fe-1a00-4bb5-8a10-09b5fec325b3.xml, ntddtape/IOCTL_TAPE_SET_POSITION, storage.ioctl_tape_set_position
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -114,11 +114,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-
-
 <a href="..\ntddtape\ns-ntddtape-_tape_set_position.md">TAPE_SET_POSITION</a>
+
+
+
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 

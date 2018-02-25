@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 45ceff8e-a013-45de-be2e-42c6ca30147e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], USBD_ISO_PACKET_DESCRIPTOR, usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml, _USBD_ISO_PACKET_DESCRIPTOR, usb/PUSBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR, *PUSBD_ISO_PACKET_DESCRIPTOR, buses.usbd_iso_packet_descriptor, usb/USBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR structure [Buses]
+ms.keywords: ",  , *, *PUSBD_ISO_PACKET_DESCRIPTOR, ,, A, B, C, D, E, I, K, O, P, PUSBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], R, S, T, U, USBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR structure [Buses], _, _USBD_ISO_PACKET_DESCRIPTOR, buses.usbd_iso_packet_descriptor, usb/PUSBD_ISO_PACKET_DESCRIPTOR, usb/USBD_ISO_PACKET_DESCRIPTOR, usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,7 +96,11 @@ This structure is used as part of an isochronous transfer request to the host co
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
 
 
 
@@ -104,11 +108,7 @@ This structure is used as part of an isochronous transfer request to the host co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 
 

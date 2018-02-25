@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a765829-3558-48ea-b788-7cce6c4b64c6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_FILTER_INTERFACE, netvista.ndis_filter_interface, ndis/PNDIS_FILTER_INTERFACE, *PNDIS_FILTER_INTERFACE, filter_structures_ref_ec1f81f5-4aac-4e69-a8e1-96bc0c5f9958.xml, NDIS_FILTER_INTERFACE, _NDIS_FILTER_INTERFACE, NDIS_FILTER_INTERFACE structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_FILTER_INTERFACE
+ms.keywords: ",  , *, *PNDIS_FILTER_INTERFACE, ,, A, C, D, E, F, I, L, N, NDIS_FILTER_INTERFACE, NDIS_FILTER_INTERFACE structure [Network Drivers Starting with Windows Vista], P, PNDIS_FILTER_INTERFACE, PNDIS_FILTER_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, _NDIS_FILTER_INTERFACE, filter_structures_ref_ec1f81f5-4aac-4e69-a8e1-96bc0c5f9958.xml, ndis/NDIS_FILTER_INTERFACE, ndis/PNDIS_FILTER_INTERFACE, netvista.ndis_filter_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -208,15 +208,15 @@ A light-weight filter may dynamically insert or remove itself from the send or r
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 

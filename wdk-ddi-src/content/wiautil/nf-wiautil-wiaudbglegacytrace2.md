@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 911a7089-d4ac-4da0-8be6-a3a36567635c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiauDbgLegacyTrace2 function [Imaging Devices], image.wiaudbglegacytrace2, wiautil/wiauDbgLegacyTrace2, wiauDbgLegacyTrace2, wiauFncs_8fbdcd6b-cb2b-461b-81f0-880675d0124b.xml
+ms.keywords: ",  , 2, D, L, T, a, b, c, e, g, i, image.wiaudbglegacytrace2, r, u, w, wiauDbgLegacyTrace2, wiauDbgLegacyTrace2 function [Imaging Devices], wiauFncs_8fbdcd6b-cb2b-461b-81f0-880675d0124b.xml, wiautil/wiauDbgLegacyTrace2, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

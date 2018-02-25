@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 765A420C-F406-4A46-BDCC-26A451549F8D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.stor_rich_device_description, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], _STOR_RICH_DEVICE_DESCRIPTION, storport/STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION, storport/PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PSTOR_RICH_DEVICE_DESCRIPTION, ,, C, D, E, H, I, N, O, P, PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], R, S, STOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], T, V, _, _STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, storport/PSTOR_RICH_DEVICE_DESCRIPTION, storport/STOR_RICH_DEVICE_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

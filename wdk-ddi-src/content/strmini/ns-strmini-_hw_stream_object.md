@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0cb2041a-844d-4ddb-9dab-e1c77c28835a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PHW_STREAM_OBJECT, strmini/PHW_STREAM_OBJECT, strmini/HW_STREAM_OBJECT, PHW_STREAM_OBJECT structure pointer [Streaming Media Devices], _HW_STREAM_OBJECT, HW_STREAM_OBJECT structure [Streaming Media Devices], strclass-struct_c409633a-dccd-4f70-a412-0da08feeae43.xml, HW_STREAM_OBJECT, PHW_STREAM_OBJECT, stream.hw_stream_object"
+ms.keywords: ",  , *, *PHW_STREAM_OBJECT, ,, A, B, C, E, H, HW_STREAM_OBJECT, HW_STREAM_OBJECT structure [Streaming Media Devices], J, M, O, P, PHW_STREAM_OBJECT, PHW_STREAM_OBJECT structure pointer [Streaming Media Devices], R, S, T, W, _, _HW_STREAM_OBJECT, strclass-struct_c409633a-dccd-4f70-a412-0da08feeae43.xml, stream.hw_stream_object, strmini/HW_STREAM_OBJECT, strmini/PHW_STREAM_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,7 +93,7 @@ Specifies the offset of the stream within the minidriver's <a href="..\strmini\n
 
 ### -field HwStreamExtension
 
-Points to the stream extension, a buffer allocated by the class driver for the minidriver to use to hold private information about this stream. The minidriver sets the size of the buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself with the stream class driver.
+Points to the stream extension, a buffer allocated by the class driver for the minidriver to use to hold private information about this stream. The minidriver sets the size of the buffer in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself with the stream class driver.
 
 
 ### -field ReceiveDataPacket
@@ -123,7 +123,7 @@ If <b>TRUE</b>, the device uses programmed I/O to transfer data for this stream.
 
 ### -field HwDeviceExtension
 
-Pointer to the minidriver's device extension. The minidriver may use this buffer to record private information. The minidriver sets the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver also passes pointers to this buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver may use this buffer to record private information. The minidriver sets the size of this buffer in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver also passes pointers to this buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 
 ### -field StreamHeaderMediaSpecific

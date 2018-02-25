@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9dfd1894-c9b5-43c2-8377-c28577898754
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCbVPrintfW, RtlStringCbVPrintf, ntstrsafe/RtlStringCbVPrintfA, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml, kernel.rtlstringcbvprintf, ntstrsafe/RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], RtlStringCbVPrintfA
+ms.keywords: ",  , A, C, P, R, RtlStringCbVPrintf, RtlStringCbVPrintfA, RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], S, V, b, f, g, i, kernel.rtlstringcbvprintf, l, n, ntstrsafe/RtlStringCbVPrintfA, ntstrsafe/RtlStringCbVPrintfW, r, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

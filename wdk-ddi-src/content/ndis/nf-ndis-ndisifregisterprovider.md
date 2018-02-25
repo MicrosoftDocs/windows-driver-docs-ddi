@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterProvider, NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, netvista.ndisifregisterprovider
+ms.keywords: ",  , I, N, NdisIfRegisterProvider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], P, R, d, e, f, g, i, ndis/NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, netvista.ndisifregisterprovider, o, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,7 +173,7 @@ NDIS drivers call the
     <b>NdisIfRegisterProvider</b> function once during initialization to register as an NDIS interface
     provider. For example, the driver can call 
     <b>NdisIfRegisterProvider</b> from its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. An interface provider is a
+    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. An interface provider is a
     software component that manages network interfaces to support the MIB (
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>).
 
@@ -210,15 +210,15 @@ A component that is no longer an interface provider can call the
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
+
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 

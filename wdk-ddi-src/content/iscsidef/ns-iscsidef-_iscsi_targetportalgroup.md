@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 28f48224-90b8-45f5-b69d-6bb6a34f64e0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ISCSI_TargetPortalGroup, storage.iscsi_targetportalgroup, structs-iSCSI_27b8d554-5021-49d0-837c-302e7ac033ed.xml, *PISCSI_TargetPortalGroup, PISCSI_TargetPortalGroup, _ISCSI_TargetPortalGroup, iscsidef/PISCSI_TargetPortalGroup, iscsidef/ISCSI_TargetPortalGroup, PISCSI_TargetPortalGroup structure pointer [Storage Devices], ISCSI_TargetPortalGroup structure [Storage Devices]
+ms.keywords: ",  , *, *PISCSI_TargetPortalGroup, ,, C, G, I, ISCSI_TargetPortalGroup, ISCSI_TargetPortalGroup structure [Storage Devices], P, PISCSI_TargetPortalGroup, PISCSI_TargetPortalGroup structure pointer [Storage Devices], S, T, _, _ISCSI_TargetPortalGroup, a, e, g, iscsidef/ISCSI_TargetPortalGroup, iscsidef/PISCSI_TargetPortalGroup, l, o, p, r, storage.iscsi_targetportalgroup, structs-iSCSI_27b8d554-5021-49d0-837c-302e7ac033ed.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ A variable-length array of <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561576">ISCSI_TargetPortalGroup WMI Class</a>
+
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
 
 

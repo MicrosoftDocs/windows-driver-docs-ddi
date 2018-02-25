@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b1fa9fc-f033-4d93-a2ec-f31159d6a69d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbols3, debugger.getfunctionentrybyoffset, IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, IDebugSymbols3::GetFunctionEntryByOffset, GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface, GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset
+ms.keywords: ",  , ,, ., 3, :, B, D, E, F, G, GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface, GetFunctionEntryByOffset,IDebugSymbols3.GetFunctionEntryByOffset, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, O, S, b, c, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, debugger.getfunctionentrybyoffset, e, f, g, i, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -161,7 +161,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/da3ddebc-109e-43fb-a0e9-fd89d90dbbc7">IDebugSymbolGroup::GetSymbolOffset</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -169,11 +173,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/da3ddebc-109e-43fb-a0e9-fd89d90dbbc7">IDebugSymbolGroup::GetSymbolOffset</a>
 
 
 

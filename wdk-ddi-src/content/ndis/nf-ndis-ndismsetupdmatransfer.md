@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisMSetupDmaTransfer, dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], netvista.ndismsetupdmatransfer, NdisMSetupDmaTransfer
+ms.keywords: ",  , D, M, N, NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], S, T, a, d, dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, e, f, i, m, n, ndis/NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -208,11 +208,11 @@ When the transfer is complete, the miniport driver must call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
 
 

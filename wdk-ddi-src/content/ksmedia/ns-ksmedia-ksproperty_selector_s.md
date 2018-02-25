@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cc9928b7-fab2-44c1-8613-3a94b5e8dcab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: vidcapstruct_7e180fae-5237-4b71-8719-7d3c5ee66592.xml, *PKSPROPERTY_SELECTOR_S, stream.ksproperty_selector_s, KSPROPERTY_SELECTOR_S, KSPROPERTY_SELECTOR_S structure [Streaming Media Devices], PKSPROPERTY_SELECTOR_S, ksmedia/KSPROPERTY_SELECTOR_S, PKSPROPERTY_SELECTOR_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_SELECTOR_S
+ms.keywords: ",  , *, *PKSPROPERTY_SELECTOR_S, ,, C, E, K, KSPROPERTY_SELECTOR_S, KSPROPERTY_SELECTOR_S structure [Streaming Media Devices], L, O, P, PKSPROPERTY_SELECTOR_S, PKSPROPERTY_SELECTOR_S structure pointer [Streaming Media Devices], R, S, T, Y, _, ksmedia/KSPROPERTY_SELECTOR_S, ksmedia/PKSPROPERTY_SELECTOR_S, stream.ksproperty_selector_s, vidcapstruct_7e180fae-5237-4b71-8719-7d3c5ee66592.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

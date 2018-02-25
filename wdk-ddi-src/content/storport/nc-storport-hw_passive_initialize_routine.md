@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 70f65a4e-0a98-4135-bb38-530c729538a3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorpassiveinitializeroutine, HwStorPassiveInitializeRoutine routine [Storage Devices], HwStorPassiveInitializeRoutine, HW_PASSIVE_INITIALIZE_ROUTINE, HW_PASSIVE_INITIALIZE_ROUTINE, storport/HwStorPassiveInitializeRoutine, stormini_e2404f14-1cdc-44d7-bd58-97acfa57bc36.xml
+ms.keywords: HW_PASSIVE_INITIALIZE_ROUTINE, HwStorPassiveInitializeRoutine, HwStorPassiveInitializeRoutine routine [Storage Devices], storage.hwstorpassiveinitializeroutine, stormini_e2404f14-1cdc-44d7-bd58-97acfa57bc36.xml, storport/HwStorPassiveInitializeRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

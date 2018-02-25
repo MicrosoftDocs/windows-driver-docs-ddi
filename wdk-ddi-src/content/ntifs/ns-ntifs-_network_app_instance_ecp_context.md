@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ADB7550F-9191-4EAA-BEBA-0D0D29EC7B03
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PNETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTEXT, ifsk.network_app_instance_ecp_context, PNETWORK_APP_INSTANCE_ECP_CONTEXT structure pointer [Installable File System Drivers], *PNETWORK_APP_INSTANCE_ECP_CONTEXT, ntifs/NETWORK_APP_INSTANCE_ECP_CONTEXT, _NETWORK_APP_INSTANCE_ECP_CONTEXT, PNETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTEXT structure [Installable File System Drivers]
+ms.keywords: ",  , *, *PNETWORK_APP_INSTANCE_ECP_CONTEXT, ,, A, C, E, I, K, N, NETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTEXT structure [Installable File System Drivers], O, P, PNETWORK_APP_INSTANCE_ECP_CONTEXT, PNETWORK_APP_INSTANCE_ECP_CONTEXT structure pointer [Installable File System Drivers], R, S, T, W, X, _, _NETWORK_APP_INSTANCE_ECP_CONTEXT, ifsk.network_app_instance_ecp_context, ntifs/NETWORK_APP_INSTANCE_ECP_CONTEXT, ntifs/PNETWORK_APP_INSTANCE_ECP_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,11 +101,11 @@ For information about how to use ECPs to associate extra information with a file
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 

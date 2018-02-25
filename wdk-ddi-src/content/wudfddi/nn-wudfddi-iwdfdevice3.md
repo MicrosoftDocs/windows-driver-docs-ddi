@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C4AEC0DA-EB93-481D-A94C-7BB7BF15EFBC
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfdevice3, IWDFDevice3 interface, IWDFDevice3 interface, described, IWDFDevice3, wudfddi/IWDFDevice3, umdf.iwdfdevice3
+ms.keywords: IWDFDevice3, IWDFDevice3 interface, IWDFDevice3 interface, described, umdf.iwdfdevice3, wdf.iwdfdevice3, wudfddi/IWDFDevice3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

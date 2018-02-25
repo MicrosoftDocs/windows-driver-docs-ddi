@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 52c3238f-4d3a-4241-95bf-630e57e8a6e1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_msix_config_parameters, ndis/NDIS_MSIX_CONFIG_PARAMETERS, PNDIS_MSIX_CONFIG_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_MSIX_CONFIG_PARAMETERS, *PNDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS, ndis/PNDIS_MSIX_CONFIG_PARAMETERS, ndis_msix_ref_01a237b1-bb32-4aad-8552-b36b66141061.xml, _NDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PNDIS_MSIX_CONFIG_PARAMETERS, ,, A, C, D, E, F, G, I, M, N, NDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_MSIX_CONFIG_PARAMETERS, PNDIS_MSIX_CONFIG_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, X, _, _NDIS_MSIX_CONFIG_PARAMETERS, ndis/NDIS_MSIX_CONFIG_PARAMETERS, ndis/PNDIS_MSIX_CONFIG_PARAMETERS, ndis_msix_ref_01a237b1-bb32-4aad-8552-b36b66141061.xml, netvista.ndis_msix_config_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,11 +118,11 @@ To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ndis\ne-ndis-_ndis_msix_table_config.md">NDIS_MSIX_TABLE_OPERATION</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

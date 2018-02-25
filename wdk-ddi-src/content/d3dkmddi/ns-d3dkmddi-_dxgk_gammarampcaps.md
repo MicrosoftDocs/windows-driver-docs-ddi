@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e160700-5d90-4241-8ed4-8d87b545b9c3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_GAMMARAMPCAPS, d3dkmddi/DXGK_GAMMARAMPCAPS, DXGK_GAMMARAMPCAPS structure [Display Devices], DXGK_GAMMARAMPCAPS, display.dxgk_gammarampcaps, DmStructs_2f60099d-a359-41f4-b3d0-a7c0d0a6cca4.xml"
+ms.keywords: ",  , ,, A, C, D, DXGK_GAMMARAMPCAPS, DXGK_GAMMARAMPCAPS structure [Display Devices], DmStructs_2f60099d-a359-41f4-b3d0-a7c0d0a6cca4.xml, G, K, M, P, R, S, X, _, _DXGK_GAMMARAMPCAPS, d3dkmddi/DXGK_GAMMARAMPCAPS, display.dxgk_gammarampcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,11 +90,11 @@ A member in the union that DXGK_GAMMARAMPCAPS contains that can hold a 32-bit va
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
 
 

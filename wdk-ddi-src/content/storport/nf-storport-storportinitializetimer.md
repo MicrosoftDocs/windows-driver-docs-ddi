@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1F43EEDC-5DB4-4ABE-BBC6-A4A51FCAF0B6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortInitializeTimer routine [Storage Devices], storport/StorPortInitializeTimer, StorPortInitializeTimer, storage.storportinitializetimer
+ms.keywords: ",  , I, P, S, StorPortInitializeTimer, StorPortInitializeTimer routine [Storage Devices], T, a, e, i, l, m, n, o, r, storage.storportinitializetimer, storport/StorPortInitializeTimer, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,11 +173,11 @@ Starting with Windows 8, there is no maximum timers limitation.
 
 
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
-
-
 <a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+
+
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 
 

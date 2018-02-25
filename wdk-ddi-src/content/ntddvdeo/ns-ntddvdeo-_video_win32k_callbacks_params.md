@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d533721f-b4c8-44f9-9c39-f312e1ec9895
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PVIDEO_WIN32K_CALLBACKS_PARAMS structure pointer [Display Devices], PVIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS, _VIDEO_WIN32K_CALLBACKS_PARAMS, VIDEO_WIN32K_CALLBACKS_PARAMS structure [Display Devices], VIDEO_WIN32K_CALLBACKS_PARAMS, Video_Structs_1a8e1e6c-1019-4d0f-9a62-7802059cafd2.xml, ntddvdeo/VIDEO_WIN32K_CALLBACKS_PARAMS, display.video_win32k_callbacks_params, ntddvdeo/PVIDEO_WIN32K_CALLBACKS_PARAMS
+ms.keywords: ",  , *, *PVIDEO_WIN32K_CALLBACKS_PARAMS, ,, 2, 3, A, B, C, D, E, I, K, L, M, N, O, P, PVIDEO_WIN32K_CALLBACKS_PARAMS, PVIDEO_WIN32K_CALLBACKS_PARAMS structure pointer [Display Devices], R, S, V, VIDEO_WIN32K_CALLBACKS_PARAMS, VIDEO_WIN32K_CALLBACKS_PARAMS structure [Display Devices], Video_Structs_1a8e1e6c-1019-4d0f-9a62-7802059cafd2.xml, W, _, _VIDEO_WIN32K_CALLBACKS_PARAMS, display.video_win32k_callbacks_params, ntddvdeo/PVIDEO_WIN32K_CALLBACKS_PARAMS, ntddvdeo/VIDEO_WIN32K_CALLBACKS_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

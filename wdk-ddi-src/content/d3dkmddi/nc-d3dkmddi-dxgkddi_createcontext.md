@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aea21a36-f3d5-4541-bd2d-aa026668c562
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicreatecontext, DxgkDdiCreateContext callback function [Display Devices], DxgkDdiCreateContext, DXGKDDI_CREATECONTEXT, DXGKDDI_CREATECONTEXT, d3dkmddi/DxgkDdiCreateContext, DmFunctions_b1519a67-52c0-4432-9059-ef1c98f075b6.xml
+ms.keywords: DXGKDDI_CREATECONTEXT, DmFunctions_b1519a67-52c0-4432-9059-ef1c98f075b6.xml, DxgkDdiCreateContext, DxgkDdiCreateContext callback function [Display Devices], d3dkmddi/DxgkDdiCreateContext, display.dxgkddicreatecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -154,11 +154,11 @@ Typically, each context can reference any resource that was previously created f
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
 
 
 

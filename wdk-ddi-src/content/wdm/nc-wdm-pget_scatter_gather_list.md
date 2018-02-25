@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 44c597ed-a41e-4170-b75b-dcd61aa70350
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.getscattergatherlist, GetScatterGatherList, GetScatterGatherList callback function [Kernel-Mode Driver Architecture], GetScatterGatherList, PGET_SCATTER_GATHER_LIST, PGET_SCATTER_GATHER_LIST, ntddk/GetScatterGatherList, kdma_b451cb34-7181-4272-a1ef-0c8fc233a7fd.xml
+ms.keywords: GetScatterGatherList, GetScatterGatherList callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST, kdma_b451cb34-7181-4272-a1ef-0c8fc233a7fd.xml, kernel.getscattergatherlist, ntddk/GetScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -192,11 +192,7 @@ This routine can handle chained MDLs, provided that the total number of map regi
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -204,7 +200,11 @@ This routine can handle chained MDLs, provided that the total number of map regi
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
 
 
 
@@ -212,7 +212,7 @@ This routine can handle chained MDLs, provided that the total number of map regi
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 

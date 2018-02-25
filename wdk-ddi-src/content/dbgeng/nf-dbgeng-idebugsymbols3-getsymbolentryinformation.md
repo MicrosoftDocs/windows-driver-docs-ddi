@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02fe418f-1793-4585-9891-1274a4ddba74
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbols3::GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetSymbolEntryInformation, dbgeng/IDebugSymbols3::GetSymbolEntryInformation, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryInformation method, debugger.getsymbolentryinformation
+ms.keywords: ",  , ,, ., 3, :, D, E, G, GetSymbolEntryInformation method [Windows Debugging], GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntryInformation,IDebugSymbols3.GetSymbolEntryInformation, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryInformation method, IDebugSymbols3::GetSymbolEntryInformation, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, S, a, b, dbgeng/IDebugSymbols3::GetSymbolEntryInformation, debugger.getsymbolentryinformation, e, f, g, i, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,11 +117,11 @@ For details on the symbol entry information, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d">IdebugSymbolGroup2::GetSymbolEntryInformation</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d">IdebugSymbolGroup2::GetSymbolEntryInformation</a>
 
 
 

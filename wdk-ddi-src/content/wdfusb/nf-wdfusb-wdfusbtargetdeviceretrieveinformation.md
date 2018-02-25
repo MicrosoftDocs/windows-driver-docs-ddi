@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68fc8d8b-3ba2-4f22-8a7e-29971a38544b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceRetrieveInformation, DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, kmdf.wdfusbtargetdeviceretrieveinformation, WdfUsbTargetDeviceRetrieveInformation, wdf.wdfusbtargetdeviceretrieveinformation, WdfUsbTargetDeviceRetrieveInformation method
+ms.keywords: ",  , D, DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, I, R, T, U, W, WdfUsbTargetDeviceRetrieveInformation, WdfUsbTargetDeviceRetrieveInformation method, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdeviceretrieveinformation, m, n, o, r, s, t, v, wdf.wdfusbtargetdeviceretrieveinformation, wdfusb/WdfUsbTargetDeviceRetrieveInformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -187,15 +187,15 @@ MyEvtDevicePrepareHardware(
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequeryusbcapability.md">WdfUsbTargetDeviceQueryUsbCapability</a>
 
 
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
 
 
 

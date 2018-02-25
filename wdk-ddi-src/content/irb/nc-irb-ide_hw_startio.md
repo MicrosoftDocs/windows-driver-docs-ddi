@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9172e62e-263c-471c-bcc2-9be4e1d6b1a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.idehwstartio, IdeHwStartIo routine [Storage Devices], IdeHwStartIo, IDE_HW_STARTIO, IDE_HW_STARTIO, irb/IdeHwStartIo, atartns_5be92425-7e5b-4a9b-9673-baea4aace64a.xml
+ms.keywords: IDE_HW_STARTIO, IdeHwStartIo, IdeHwStartIo routine [Storage Devices], atartns_5be92425-7e5b-4a9b-9673-baea4aace64a.xml, irb/IdeHwStartIo, storage.idehwstartio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,11 +105,11 @@ After this routine returns, the miniport driver should be prepared to receive th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
 
 
 

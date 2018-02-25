@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ae478779-8ec1-4a50-a37c-3017aca2c912
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SetPrint method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_setprint, SetPrint method [Windows Debugging], ExtRemoteTyped::SetPrint, ExtRemoteTyped, SetPrint, EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, ExtRemoteTyped interface [Windows Debugging], SetPrint method
+ms.keywords: ",  , ,, ., :, E, EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], SetPrint method, ExtRemoteTyped::SetPrint, P, R, S, SetPrint method [Windows Debugging], SetPrint method [Windows Debugging], ExtRemoteTyped interface, SetPrint,ExtRemoteTyped.SetPrint, T, d, debugger.extremotetyped_setprint, e, i, m, n, o, p, r, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,6 +98,10 @@ This method does not return a value.
 
 ## -see-also
 
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
+
+
+
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
 
 
@@ -111,10 +115,6 @@ This method does not return a value.
 
 
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
 
 
 

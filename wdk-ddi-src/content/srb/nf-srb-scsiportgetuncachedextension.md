@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d32da7d9-7f26-4c99-8c10-3b9e1a7c9c22
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortGetUncachedExtension, storage.scsiportgetuncachedextension, srb/ScsiPortGetUncachedExtension, ScsiPortGetUncachedExtension routine [Storage Devices], scsiprt_b3764d3f-3e99-4a2f-b17c-30d6fcafe255.xml
+ms.keywords: ",  , E, G, P, S, ScsiPortGetUncachedExtension, ScsiPortGetUncachedExtension routine [Storage Devices], U, a, c, d, e, h, i, n, o, r, s, scsiprt_b3764d3f-3e99-4a2f-b17c-30d6fcafe255.xml, srb/ScsiPortGetUncachedExtension, storage.scsiportgetuncachedextension, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,15 +118,15 @@ The ScsiPort driver will free the memory allocated by <b>ScsiPortGetUncachedExte
 
 ## -see-also
 
+<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
+
+
 <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
 
 
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+<a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
 
 

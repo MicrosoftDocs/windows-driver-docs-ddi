@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6827df53-f970-4ceb-961d-b4b95fa56cfe
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, PKSQUERYBUFFER, KSQUERYBUFFER, *PKSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], ks/PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], stream.ksquerybuffer, ks/KSQUERYBUFFER
+ms.keywords: ",  , *, *PKSQUERYBUFFER, ,, B, E, F, K, KSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], P, PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], Q, R, S, U, Y, ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, ks/KSQUERYBUFFER, ks/PKSQUERYBUFFER, stream.ksquerybuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -157,11 +157,11 @@ life is good.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
-
-
-
 <a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
 
 
 

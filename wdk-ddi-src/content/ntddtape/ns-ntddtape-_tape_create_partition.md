@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5020d2c6-f435-4d22-98a3-23318ffc0baf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TAPE_CREATE_PARTITION, PTAPE_CREATE_PARTITION, _TAPE_CREATE_PARTITION, ntddtape/TAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION structure [Storage Devices], structs-tape_3d86a9f7-45b2-48e8-ae21-2ad87641bcf9.xml, ntddtape/PTAPE_CREATE_PARTITION, *PTAPE_CREATE_PARTITION, storage.tape_create_partition, PTAPE_CREATE_PARTITION structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PTAPE_CREATE_PARTITION, ,, A, C, E, I, N, O, P, PTAPE_CREATE_PARTITION, PTAPE_CREATE_PARTITION structure pointer [Storage Devices], R, T, TAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION structure [Storage Devices], _, _TAPE_CREATE_PARTITION, ntddtape/PTAPE_CREATE_PARTITION, ntddtape/TAPE_CREATE_PARTITION, storage.tape_create_partition, structs-tape_3d86a9f7-45b2-48e8-ae21-2ad87641bcf9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,11 +124,11 @@ Indicates the size of each partition, in bytes.
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_create_partition.md">IOCTL_TAPE_CREATE_PARTITION</a>
-
-
-
 <a href="..\minitape\nc-minitape-tape_process_command_routine.md">TapeMiniCreatePartition</a>
+
+
+
+<a href="..\ntddtape\ni-ntddtape-ioctl_tape_create_partition.md">IOCTL_TAPE_CREATE_PARTITION</a>
 
 
 

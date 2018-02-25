@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c06cb000-837d-4ee9-baa1-0217ad8b14cb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, wdm/IoAllocateMdl, kernel.ioallocatemdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], IoAllocateMdl
+ms.keywords: ",  , A, I, IoAllocateMdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], M, a, c, d, e, k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, kernel.ioallocatemdl, l, o, t, wdm/IoAllocateMdl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,7 +123,7 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 
@@ -131,7 +131,7 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
 
 

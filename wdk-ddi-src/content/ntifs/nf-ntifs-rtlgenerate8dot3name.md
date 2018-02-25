@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7e8f84c4-c251-4f80-a8fc-465e44c14405
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlGenerate8dot3Name, ifsk.rtlgenerate8dot3name, RtlGenerate8dot3Name routine [Installable File System Drivers], ntifs/RtlGenerate8dot3Name, rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml
+ms.keywords: ",  , 3, 8, G, N, R, RtlGenerate8dot3Name, RtlGenerate8dot3Name routine [Installable File System Drivers], a, d, e, ifsk.rtlgenerate8dot3name, l, m, n, ntifs/RtlGenerate8dot3Name, o, r, rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,11 +142,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlisvalidoemcharacter.md">RtlIsValidOemCharacter</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlisnamelegaldos8dot3.md">RtlIsNameLegalDOS8Dot3</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlisvalidoemcharacter.md">RtlIsValidOemCharacter</a>
 
 
 

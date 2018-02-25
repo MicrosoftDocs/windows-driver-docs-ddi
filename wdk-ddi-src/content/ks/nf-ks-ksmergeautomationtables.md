@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ef90f9da-3169-4b49-9ba2-2cab058e5d00
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, ks/KsMergeAutomationTables, stream.ksmergeautomationtables, KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices]
+ms.keywords: ",  , A, K, KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], M, T, a, avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, b, e, g, i, ks/KsMergeAutomationTables, l, m, n, o, r, s, stream.ksmergeautomationtables, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,11 +119,11 @@ Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-
-
-
 <a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+
+
+
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
 
 
 

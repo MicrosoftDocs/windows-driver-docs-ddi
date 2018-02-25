@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63A3C2AA-6EBF-469D-933A-C51F5EC31C47
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_WWAN_UICCSLOT_STATE, WWAN_UICCSLOT_STATE, wwan/UICCSlotStateUnknown, wwan/WWAN_UICCSLOT_STATE, UICCSlotStateUnknown, UICCSlotStateActive, wwan/UICCSlotStateError, *PWWAN_UICCSLOT_STATE, UICCSlotStateEmpty, wwan/UICCSlotStateOffEmpty, netvista.wwan_uiccslot_state, wwan/UICCSlotStateActive, UICCSlotStateError, wwan/UICCSlotStateEmpty, wwan/UICCSlotStateNotReady, UICCSlotStateNotReady, wwan/UICCSlotStateOff, UICCSlotStateOff, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], UICCSlotStateOffEmpty"
+ms.keywords: ",  , *, *PWWAN_UICCSLOT_STATE, ,, A, C, E, I, L, N, O, P, S, T, U, UICCSlotStateActive, UICCSlotStateEmpty, UICCSlotStateError, UICCSlotStateNotReady, UICCSlotStateOff, UICCSlotStateOffEmpty, UICCSlotStateUnknown, W, WWAN_UICCSLOT_STATE, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], _, _WWAN_UICCSLOT_STATE, netvista.wwan_uiccslot_state, wwan/UICCSlotStateActive, wwan/UICCSlotStateEmpty, wwan/UICCSlotStateError, wwan/UICCSlotStateNotReady, wwan/UICCSlotStateOff, wwan/UICCSlotStateOffEmpty, wwan/UICCSlotStateUnknown, wwan/WWAN_UICCSLOT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

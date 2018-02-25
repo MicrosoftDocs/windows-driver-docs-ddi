@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netioddk/NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, netvista.nmrregisterprovider, NmrRegisterProvider
+ms.keywords: ",  , N, NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], P, R, d, e, g, i, m, netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, o, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,7 +162,7 @@ A provider module calls the
 
 A provider module typically calls the 
     <b>NmrRegisterProvider</b> function from its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function after it has completed
+    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function after it has completed
     all other initialization tasks. The call to the 
     <b>NmrRegisterProvider</b> function indicates to the NMR that the provider module is ready to attach to
     any client modules that have registered or will register as clients of the same 
@@ -174,15 +174,15 @@ A provider module typically calls the
 
 ## -see-also
 
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+
+
+
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 

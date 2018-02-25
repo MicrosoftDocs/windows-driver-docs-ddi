@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 99bc222f-9c27-45b7-ade1-2401dfa41d7c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bth_get_device_info, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], IOCTL_BTH_GET_DEVICE_INFO, bthioctl/IOCTL_BTH_GET_DEVICE_INFO, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml
+ms.keywords: IOCTL_BTH_GET_DEVICE_INFO, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_device_info, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml, bthioctl/IOCTL_BTH_GET_DEVICE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

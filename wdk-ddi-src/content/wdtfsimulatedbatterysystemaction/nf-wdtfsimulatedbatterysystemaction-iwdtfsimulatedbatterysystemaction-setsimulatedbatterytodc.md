@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 7564c5f0-ea36-4009-bd34-3119ef23149e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC, IWDTFSimulatedBatterySystemAction, SetSimulatedBatteryToDC, SetSimulatedBatteryToDC method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, SetSimulatedBatteryToDC method [Windows Device Testing Framework], dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytodc, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], SetSimulatedBatteryToDC method
+ms.keywords: ",  , ,, ., :, A, B, C, D, F, I, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], SetSimulatedBatteryToDC method, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC, S, SetSimulatedBatteryToDC method [Windows Device Testing Framework], SetSimulatedBatteryToDC method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, SetSimulatedBatteryToDC,IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC, T, W, a, c, d, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytodc, e, i, l, m, n, o, r, s, t, u, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

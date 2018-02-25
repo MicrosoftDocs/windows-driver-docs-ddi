@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 514a5b40-c9ba-4ed1-871d-fd6ffde583a6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCbPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, ntstrsafe/RtlStringCbPrintfExA, STRSAFE_NULL_ON_FAILURE, RtlStringCbPrintfExA, kernel.rtlstringcbprintfex, RtlStringCbPrintfEx, ntstrsafe/RtlStringCbPrintfExW, STRSAFE_NO_TRUNCATION, RtlStringCbPrintfExW, STRSAFE_IGNORE_NULLS, safestrings_44a6ae33-3b6e-4de4-893c-4a198dfa75da.xml
+ms.keywords: ",  , C, E, P, R, RtlStringCbPrintfEx, RtlStringCbPrintfExA, RtlStringCbPrintfExW, RtlStringCbPrintfExW function [Kernel-Mode Driver Architecture], S, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, W, b, f, g, i, kernel.rtlstringcbprintfex, l, n, ntstrsafe/RtlStringCbPrintfExA, ntstrsafe/RtlStringCbPrintfExW, r, safestrings_44a6ae33-3b6e-4de4-893c-4a198dfa75da.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

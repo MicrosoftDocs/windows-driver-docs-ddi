@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b75b8937-793d-4d75-9bb7-2226096044f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.adaptercontrol, AdapterControl, ControllerControl, MyControl routine [Kernel-Mode Driver Architecture], MyControl, DRIVER_CONTROL, DRIVER_CONTROL, wdm/MyControl, DrvrRtns_1e3fb66d-8977-4894-a3ac-d310fdfa6515.xml
+ms.keywords: AdapterControl, ControllerControl, DRIVER_CONTROL, DrvrRtns_1e3fb66d-8977-4894-a3ac-d310fdfa6515.xml, MyControl, MyControl routine [Kernel-Mode Driver Architecture], kernel.adaptercontrol, wdm/MyControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

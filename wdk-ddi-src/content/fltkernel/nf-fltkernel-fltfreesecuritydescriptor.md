@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ebf7ad37-6c3b-4216-87e6-ea5d6a0cba20
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fltkernel/FltFreeSecurityDescriptor, FltFreeSecurityDescriptor, ifsk.fltfreesecuritydescriptor, FltFreeSecurityDescriptor routine [Installable File System Drivers], FltApiRef_e_to_o_ee21346e-6629-4ffd-bf82-b3915f4e1649.xml
+ms.keywords: ",  , D, F, FltApiRef_e_to_o_ee21346e-6629-4ffd-bf82-b3915f4e1649.xml, FltFreeSecurityDescriptor, FltFreeSecurityDescriptor routine [Installable File System Drivers], S, c, e, fltkernel/FltFreeSecurityDescriptor, i, ifsk.fltfreesecuritydescriptor, l, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,11 +92,11 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltbuilddefaultsecuritydescriptor.md">FltBuildDefaultSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 

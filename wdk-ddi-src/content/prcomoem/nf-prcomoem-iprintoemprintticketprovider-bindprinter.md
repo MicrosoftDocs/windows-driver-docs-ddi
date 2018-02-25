@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml, BindPrinter, IPrintOemPrintTicketProvider::BindPrinter, BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, BindPrinter method [Print Devices], IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, print.iprintoemprintticketprovider_bindprinter, prcomoem/IPrintOemPrintTicketProvider::BindPrinter
+ms.keywords: ",  , ,, ., :, B, BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, BindPrinter,IPrintOemPrintTicketProvider.BindPrinter, I, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, IPrintOemPrintTicketProvider::BindPrinter, O, P, T, c, d, e, i, k, m, n, o, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -167,10 +167,6 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
 
 
@@ -180,6 +176,10 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
 
 
 <a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
 
 
 

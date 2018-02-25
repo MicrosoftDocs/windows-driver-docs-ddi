@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4b1028a1-8c86-4958-a19f-32c490dda790
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kstrclockgettime, KStrClockGetTime, KStrClockGetPhysicalTime, SystemClockGetTime routine [Streaming Media Devices], SystemClockGetTime, PFNKSCLOCK_GETTIME, PFNKSCLOCK_GETTIME, ks/SystemClockGetTime, ksfunc_a60a332c-ffc8-4969-9e81-cccaac9b5c0a.xml
+ms.keywords: KStrClockGetPhysicalTime, KStrClockGetTime, PFNKSCLOCK_GETTIME, SystemClockGetTime, SystemClockGetTime routine [Streaming Media Devices], ks/SystemClockGetTime, ksfunc_a60a332c-ffc8-4969-9e81-cccaac9b5c0a.xml, stream.kstrclockgettime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

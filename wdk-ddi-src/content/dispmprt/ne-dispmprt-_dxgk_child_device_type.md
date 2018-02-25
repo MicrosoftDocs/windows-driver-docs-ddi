@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b16ba776-a6b2-46d0-9b6f-18ea17cf4fce
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dispmprt/TypeVideoOutput, dispmprt/TypeUninitialized, TypeIntegratedDisplay, PDXGK_CHILD_DEVICE_TYPE, *PDXGK_CHILD_DEVICE_TYPE, dispmprt/DXGK_CHILD_DEVICE_TYPE, PDXGK_CHILD_DEVICE_TYPE enumeration pointer [Display Devices], TypeOther, dispmprt/TypeOther, DmEnums_afd3654c-ffb4-49d6-ba59-235148e59d2c.xml, DXGK_CHILD_DEVICE_TYPE enumeration [Display Devices], DXGK_CHILD_DEVICE_TYPE, dispmprt/PDXGK_CHILD_DEVICE_TYPE, display.dxgk_child_device_type, _DXGK_CHILD_DEVICE_TYPE, dispmprt/TypeIntegratedDisplay, TypeUninitialized, TypeVideoOutput
+ms.keywords: ",  , *, *PDXGK_CHILD_DEVICE_TYPE, ,, C, D, DXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE enumeration [Display Devices], DmEnums_afd3654c-ffb4-49d6-ba59-235148e59d2c.xml, E, G, H, I, K, L, P, PDXGK_CHILD_DEVICE_TYPE, PDXGK_CHILD_DEVICE_TYPE enumeration pointer [Display Devices], T, TypeIntegratedDisplay, TypeOther, TypeUninitialized, TypeVideoOutput, V, X, Y, _, _DXGK_CHILD_DEVICE_TYPE, display.dxgk_child_device_type, dispmprt/DXGK_CHILD_DEVICE_TYPE, dispmprt/PDXGK_CHILD_DEVICE_TYPE, dispmprt/TypeIntegratedDisplay, dispmprt/TypeOther, dispmprt/TypeUninitialized, dispmprt/TypeVideoOutput"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -103,11 +103,11 @@ For more information about child devices of display adapters, see <a href="https
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
 
 

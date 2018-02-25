@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 214ea4d8-3bf9-4248-8bfa-7180635769be
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PrinterEvent method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], PrinterEvent method, IPrintOemUI::PrinterEvent, IPrintOemUI, prcomoem/IPrintOemUI::PrinterEvent, PrinterEvent method [Print Devices], print.iprintoemui_printerevent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml, PrinterEvent
+ms.keywords: ",  , ,, ., :, E, I, IPrintOemUI, IPrintOemUI interface [Print Devices], PrinterEvent method, IPrintOemUI::PrinterEvent, O, P, PrinterEvent method [Print Devices], PrinterEvent method [Print Devices], IPrintOemUI interface, PrinterEvent,IPrintOemUI.PrinterEvent, U, e, i, m, n, prcomoem/IPrintOemUI::PrinterEvent, print.iprintoemui_printerevent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,11 +158,11 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
 
 
 

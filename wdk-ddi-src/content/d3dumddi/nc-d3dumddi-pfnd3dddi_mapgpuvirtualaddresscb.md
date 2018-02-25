@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DA67A98C-BE9C-412D-9382-CAC5B05FEE3B
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnmapgpuvirtualaddresscb, pfnMapGpuVirtualAddressCb callback function [Display Devices], pfnMapGpuVirtualAddressCb, PFND3DDDI_MAPGPUVIRTUALADDRESSCB, PFND3DDDI_MAPGPUVIRTUALADDRESSCB, d3dumddi/pfnMapGpuVirtualAddressCb
+ms.keywords: PFND3DDDI_MAPGPUVIRTUALADDRESSCB, d3dumddi/pfnMapGpuVirtualAddressCb, display.pfnmapgpuvirtualaddresscb, pfnMapGpuVirtualAddressCb, pfnMapGpuVirtualAddressCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

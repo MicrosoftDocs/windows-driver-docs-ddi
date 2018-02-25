@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7d8ca52-a1e1-4f5f-9ffe-d64cec47eac7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KeGetProcessorIndexFromNumber, KeGetProcessorIndexFromNumber, KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture], k105_57b362f6-81dc-4630-a940-0d91577bf886.xml, kernel.kegetprocessorindexfromnumber
+ms.keywords: ",  , F, G, I, K, KeGetProcessorIndexFromNumber, KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture], N, P, b, c, d, e, k105_57b362f6-81dc-4630-a940-0d91577bf886.xml, kernel.kegetprocessorindexfromnumber, m, n, o, r, s, t, u, wdm/KeGetProcessorIndexFromNumber, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,7 @@ This routine accepts as input a <b>PROCESSOR_NUMBER</b> structure that identifie
 
 For example, if a multiprocessor system contains two groups, and each group contains 64 logical processors, the processor numbers in each group range from 0 to 63, but the systemwide processor indexes range from 0 to 127.
 
-To obtain the total number of active logical processors in the system, call the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine and set this routine's <i>GroupNumber</i> parameter to ALL_PROCESSOR_GROUPS.
+To obtain the total number of active logical processors in the system, call the <a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine and set this routine's <i>GroupNumber</i> parameter to ALL_PROCESSOR_GROUPS.
 
 The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a> routine converts a systemwide processor index to a group number and a group-relative processor number.
 
@@ -107,7 +107,7 @@ The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumbe
 
 
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+<a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
 
 
 

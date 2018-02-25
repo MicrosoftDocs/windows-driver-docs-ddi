@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6C8CA2A8-D39E-4524-A909-102D8310AC72
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, wdf.wdf_io_target_open_params_init_open_by_file
+ms.keywords: ",  , A, B, D, E, F, G, I, L, M, N, O, P, R, S, T, W, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function, Y, _, wdf.wdf_io_target_open_params_init_open_by_file, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

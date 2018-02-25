@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 543EB710-9BF5-428E-B5CE-7088B98586EA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_bandmgmt_get_band_metadata, IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control code [Storage Devices], IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, storage.ioctl_ehstor_bandmgmt_get_band_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DXVA_VideoSample32
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

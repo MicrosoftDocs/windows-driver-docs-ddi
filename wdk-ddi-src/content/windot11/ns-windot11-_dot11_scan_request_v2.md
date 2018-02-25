@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd6dd2f4-ee58-46da-ba87-5aecaff35dd0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_SCAN_REQUEST_V2, _DOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2, netvista.dot11_scan_request_v2, Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, windot11/PDOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2
+ms.keywords: ",  , *, *PDOT11_SCAN_REQUEST_V2, ,, 1, 2, A, C, D, DOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], E, N, Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, O, P, PDOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], Q, R, S, T, U, V, _, _DOT11_SCAN_REQUEST_V2, netvista.dot11_scan_request_v2, windot11/DOT11_SCAN_REQUEST_V2, windot11/PDOT11_SCAN_REQUEST_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -311,11 +311,11 @@ For more information about the ExtSTA operation mode, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-
-
-
 <a href="..\windot11\ns-windot11-_dot11_phy_type_info.md">DOT11_PHY_TYPE_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
 
 
 

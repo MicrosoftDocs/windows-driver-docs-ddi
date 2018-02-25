@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 86c4e9da-7c71-4d79-b8e2-f602489da647
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: strmini/StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], stream.streamclasscallatnewpriority, strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, StreamClassCallAtNewPriority
+ms.keywords: ",  , A, C, N, P, S, StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], a, e, i, l, m, o, r, s, strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority, t, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,7 +80,7 @@ Pointer to an HW_STREAM_OBJECT structure specifying the stream is associated wit
 
 ### -param HwDeviceExtension [in]
 
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 
 ### -param Priority [in]

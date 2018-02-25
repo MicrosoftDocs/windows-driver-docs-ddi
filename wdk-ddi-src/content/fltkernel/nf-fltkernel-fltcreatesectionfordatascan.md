@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D1215495-C737-45B6-BECD-8CB430C71DE8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fltkernel/FltCreateSectionForDataScan, FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan, FltCreateSectionForDataScan routine [Installable File System Drivers]
+ms.keywords: ",  , C, D, F, FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], S, a, c, e, fltkernel/FltCreateSectionForDataScan, i, ifsk.fltcreatesectionfordatascan, l, n, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -413,18 +413,6 @@ For overview  information on creating mapped sections and views of memory, see <
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
@@ -433,7 +421,7 @@ For overview  information on creating mapped sections and views of memory, see <
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
@@ -441,11 +429,23 @@ For overview  information on creating mapped sections and views of memory, see <
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfordatascan.md">FltRegisterForDataScan</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfordatascan.md">FltRegisterForDataScan</a>
 
 
 

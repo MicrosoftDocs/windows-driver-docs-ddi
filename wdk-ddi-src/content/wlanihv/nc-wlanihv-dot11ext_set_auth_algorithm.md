@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 49fbdd9d-4352-48b5-81bc-3092eef2e255
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetauthalgorithm, Dot11ExtSetAuthAlgorithm callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetAuthAlgorithm, DOT11EXT_SET_AUTH_ALGORITHM, DOT11EXT_SET_AUTH_ALGORITHM, wlanihv/Dot11ExtSetAuthAlgorithm, Native_802.11_IHV_Ext_85806dab-a810-4b45-9c94-7b0b7e40a6a2.xml
+ms.keywords: DOT11EXT_SET_AUTH_ALGORITHM, Dot11ExtSetAuthAlgorithm, Dot11ExtSetAuthAlgorithm callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_85806dab-a810-4b45-9c94-7b0b7e40a6a2.xml, netvista.dot11extsetauthalgorithm, wlanihv/Dot11ExtSetAuthAlgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -114,12 +114,12 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
    Dot11ExtPreAssociateCompletion</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: e7e9fdae-4951-4878-a5b6-81d681eca472
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, acpi.acpi_enum_children_output_buffer, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, *PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
+ms.keywords: ",  , *, *PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ,, A, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], B, C, D, E, F, H, I, L, M, N, O, P, R, T, U, _, _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, acpi.acpi_enum_children_output_buffer, acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

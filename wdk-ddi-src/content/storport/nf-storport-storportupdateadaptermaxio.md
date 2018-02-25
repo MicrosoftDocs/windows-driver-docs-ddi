@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], storage.storportupdateadaptermaxio, StorPortUpdateAdapterMaxIO
+ms.keywords: ",  , A, I, M, O, P, S, StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], U, a, d, e, o, p, r, storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: acddecb5-f3e9-413e-a68c-91d71119e0f6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kstrirplistcallback, KStrIrpListCallback routine [Streaming Media Devices], KStrIrpListCallback, PFNKSIRPLISTCALLBACK, PFNKSIRPLISTCALLBACK, ks/KStrIrpListCallback, ksfunc_90be2b49-883f-476a-9d01-d1e1296844ab.xml
+ms.keywords: KStrIrpListCallback, KStrIrpListCallback routine [Streaming Media Devices], PFNKSIRPLISTCALLBACK, ks/KStrIrpListCallback, ksfunc_90be2b49-883f-476a-9d01-d1e1296844ab.xml, stream.kstrirplistcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

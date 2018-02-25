@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 26d88928-798f-46ee-9805-3b7da2056e2e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, kernel.iobuildpartialmdl, IoBuildPartialMdl, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], wdm/IoBuildPartialMdl
+ms.keywords: ",  , B, I, IoBuildPartialMdl, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], M, P, a, d, i, k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, kernel.iobuildpartialmdl, l, o, r, t, u, wdm/IoBuildPartialMdl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,19 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554660">MmPrepareMdlForReuse</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 
@@ -133,15 +141,7 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
-
-
-
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d02af0c8-f963-4bec-a8b6-fe334fd75a68
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfusbtargetpipegettype, WdfUsbTargetPipeGetType method, DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, kmdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType
+ms.keywords: ",  , DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, G, P, T, U, W, WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType method, a, b, d, e, f, g, i, kmdf.wdfusbtargetpipegettype, p, r, s, t, wdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

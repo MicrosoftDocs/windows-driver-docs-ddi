@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cbea7a3c-faae-4779-9a27-6c2b60f2b35c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdriverretrieveversionstring, wdf.wdfdriverretrieveversionstring, DFDriverObjectRef_42298067-6221-4d0c-af6b-8579f95d2047.xml, wdfdriver/WdfDriverRetrieveVersionString, WdfDriverRetrieveVersionString method, WdfDriverRetrieveVersionString
+ms.keywords: ",  , D, DFDriverObjectRef_42298067-6221-4d0c-af6b-8579f95d2047.xml, R, S, V, W, WdfDriverRetrieveVersionString, WdfDriverRetrieveVersionString method, d, e, f, g, i, kmdf.wdfdriverretrieveversionstring, n, o, r, s, t, v, wdf.wdfdriverretrieveversionstring, wdfdriver/WdfDriverRetrieveVersionString"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -168,11 +168,11 @@ if (NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
-
-
-
 <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+
+
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
 
 
 
@@ -184,11 +184,11 @@ if (NT_SUCCESS(status)) {
 
 
 
+<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+
+
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-
-
-<a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
 
 
 

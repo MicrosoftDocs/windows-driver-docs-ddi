@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 881F93B2-999F-4E3A-A71D-731946E8AA97
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], d3dkmddi/DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], display.dxgkarg_controlinterrupt2, DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTTERUPT2, _DXGKARG_CONTROLINTERRUPT2
+ms.keywords: ",  , ,, 2, A, C, D, DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], DXGKARG_CONTROLINTTERUPT2, DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], E, G, I, K, L, N, O, P, R, T, U, X, _, _DXGKARG_CONTROLINTERRUPT2, d3dkmddi/DXGKARG_CONTROLINTERRUPT2, display.dxgkarg_controlinterrupt2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

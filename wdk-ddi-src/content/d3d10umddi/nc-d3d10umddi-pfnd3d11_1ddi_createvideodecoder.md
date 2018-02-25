@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41254f99-1806-428c-8bf3-7e736dbeec84
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createvideodecoder, CreateVideoDecoder callback function [Display Devices], CreateVideoDecoder, PFND3D11_1DDI_CREATEVIDEODECODER, PFND3D11_1DDI_CREATEVIDEODECODER, d3d10umddi/CreateVideoDecoder
+ms.keywords: CreateVideoDecoder, CreateVideoDecoder callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODER, d3d10umddi/CreateVideoDecoder, display.createvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -181,11 +181,11 @@ The driver must keep track of the handle to the display device that was used to 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
 
 
 

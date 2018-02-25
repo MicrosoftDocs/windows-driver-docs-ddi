@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4801a7c4-8bd4-4372-bcdd-49e5570d833e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, wudfddi/IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0 method, UMDFDeviceObjectRef_7b2a2ca8-d8d4-4da2-ae51-15aabf150973.xml, OnArmWakeFromS0, wdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, IPowerPolicyCallbackWakeFromS0, umdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0
+ms.keywords: ",  , ,, ., 0, :, A, C, F, I, IPowerPolicyCallbackWakeFromS0, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, O, OnArmWakeFromS0 method, OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0,IPowerPolicyCallbackWakeFromS0.OnArmWakeFromS0, P, S, UMDFDeviceObjectRef_7b2a2ca8-d8d4-4da2-ae51-15aabf150973.xml, W, a, b, c, e, i, k, l, m, n, o, r, umdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, w, wdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

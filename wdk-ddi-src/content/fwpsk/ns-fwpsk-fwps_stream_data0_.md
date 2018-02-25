@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7e9daf20-12d6-42dc-99fb-9e9efe5a9900
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FWPS_STREAM_DATA0_, netvista.fwps_stream_data0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml, fwpsk/FWPS_STREAM_DATA0, FWPS_STREAM_DATA0, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , ,, 0, A, D, E, F, FWPS_STREAM_DATA0, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA0_, M, P, R, S, T, W, _, fwpsk/FWPS_STREAM_DATA0, netvista.fwps_stream_data0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -191,7 +191,7 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -199,11 +199,11 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

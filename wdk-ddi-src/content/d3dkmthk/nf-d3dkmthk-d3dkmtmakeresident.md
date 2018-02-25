@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5F4E17CB-3B8B-4BBA-A819-B8E28183F1CB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmtmakeresident, D3DKMTMakeResident, d3dkmthk/D3DKMTMakeResident, D3DKMTMakeResident function [Display Devices]
+ms.keywords: ",  , 3, D, D3DKMTMakeResident, D3DKMTMakeResident function [Display Devices], K, M, R, T, a, d, d3dkmthk/D3DKMTMakeResident, display.d3dkmtmakeresident, e, i, k, n, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

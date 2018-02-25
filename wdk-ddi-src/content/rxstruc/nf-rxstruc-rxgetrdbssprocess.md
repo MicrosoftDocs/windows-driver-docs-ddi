@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2d3717c2-c809-48b9-a84b-1e69a04b767e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxGetRDBSSProcess function [Installable File System Drivers], rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, RxGetRDBSSProcess, ifsk.rxgetrdbssprocess, rxstruc/RxGetRDBSSProcess
+ms.keywords: ",  , B, D, G, P, R, RxGetRDBSSProcess, RxGetRDBSSProcess function [Installable File System Drivers], S, c, e, ifsk.rxgetrdbssprocess, o, r, rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, rxstruc/RxGetRDBSSProcess, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

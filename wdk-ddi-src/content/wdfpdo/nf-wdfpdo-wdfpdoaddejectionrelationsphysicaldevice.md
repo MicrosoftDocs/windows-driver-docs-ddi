@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23a9ab2a-be8e-40ff-8654-adf170adc6f2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfpdoaddejectionrelationsphysicaldevice, DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml, WdfPdoAddEjectionRelationsPhysicalDevice, WdfPdoAddEjectionRelationsPhysicalDevice method, wdf.wdfpdoaddejectionrelationsphysicaldevice, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice
+ms.keywords: ",  , A, D, DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml, E, P, R, W, WdfPdoAddEjectionRelationsPhysicalDevice, WdfPdoAddEjectionRelationsPhysicalDevice method, a, c, d, e, f, h, i, j, kmdf.wdfpdoaddejectionrelationsphysicaldevice, l, n, o, s, t, v, wdf.wdfpdoaddejectionrelationsphysicaldevice, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

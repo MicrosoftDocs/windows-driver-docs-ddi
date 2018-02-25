@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6112360C-B74F-4A77-8DE5-3EF1AAF49533
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pep_x/PepIdleCancelMax, pep_x/PepIdleCancelNoCState, PepIdleCancelWorkPending, PEP_PROCESSOR_IDLE_CANCEL_CODE, *PPEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], pep_x/PepIdleCancelWorkPending, PepIdleCancelMax, PepIdleCancelDependencyCheckFailed, PepIdleCancelNoCState, pep_x/PepIdleCancelDependencyCheckFailed, kernel.pep_processor_idle_cancel_code, pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE
+ms.keywords: ",  , *, *PPEP_PROCESSOR_IDLE_CANCEL_CODE, ,, A, C, D, E, I, L, N, O, P, PEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], PepIdleCancelDependencyCheckFailed, PepIdleCancelMax, PepIdleCancelNoCState, PepIdleCancelWorkPending, R, S, _, kernel.pep_processor_idle_cancel_code, pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelDependencyCheckFailed, pep_x/PepIdleCancelMax, pep_x/PepIdleCancelNoCState, pep_x/PepIdleCancelWorkPending"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

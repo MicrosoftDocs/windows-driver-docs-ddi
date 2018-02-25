@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b6186c05-ccb9-432c-bd83-9a3fb3af7f0b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfworkitem/WDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG structure pointer, kmdf.wdf_workitem_config, wdf.wdf_workitem_config, WDF_WORKITEM_CONFIG structure, WDF_WORKITEM_CONFIG, wdfworkitem/PWDF_WORKITEM_CONFIG, _WDF_WORKITEM_CONFIG, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml, *PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG
+ms.keywords: ",  , *, *PWDF_WORKITEM_CONFIG, ,, C, D, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml, E, F, G, I, K, M, N, O, P, PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG structure pointer, R, T, W, WDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG structure, _, _WDF_WORKITEM_CONFIG, kmdf.wdf_workitem_config, wdf.wdf_workitem_config, wdfworkitem/PWDF_WORKITEM_CONFIG, wdfworkitem/WDF_WORKITEM_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,11 +104,11 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 
 ## -see-also
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
-
-
-
 <a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
 
 

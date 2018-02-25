@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 809ffee1-b087-4bf0-ba8a-1ac0b2d02f2f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisimcancelinitializedeviceinstance, NdisIMCancelInitializeDeviceInstance, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, ndis/NdisIMCancelInitializeDeviceInstance
+ms.keywords: ",  , C, D, I, M, N, NdisIMCancelInitializeDeviceInstance, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], a, c, d, e, i, intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, l, n, ndis/NdisIMCancelInitializeDeviceInstance, netvista.ndisimcancelinitializedeviceinstance, s, t, v, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,16 +122,16 @@ An intermediate driver calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
    NdisIMInitializeDeviceInstanceEx</a>
 
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

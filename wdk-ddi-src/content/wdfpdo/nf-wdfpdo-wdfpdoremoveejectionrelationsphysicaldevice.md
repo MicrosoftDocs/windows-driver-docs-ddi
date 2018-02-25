@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d224b93b-4c3e-4e14-bc5d-404cb703752c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfpdo/WdfPdoRemoveEjectionRelationsPhysicalDevice, DFDeviceObjectFdoPdoRef_7a599cb2-dbb7-4fce-b04b-1b92638e17de.xml, wdf.wdfpdoremoveejectionrelationsphysicaldevice, WdfPdoRemoveEjectionRelationsPhysicalDevice method, WdfPdoRemoveEjectionRelationsPhysicalDevice, kmdf.wdfpdoremoveejectionrelationsphysicaldevice
+ms.keywords: ",  , D, DFDeviceObjectFdoPdoRef_7a599cb2-dbb7-4fce-b04b-1b92638e17de.xml, E, P, R, W, WdfPdoRemoveEjectionRelationsPhysicalDevice, WdfPdoRemoveEjectionRelationsPhysicalDevice method, a, c, d, e, f, h, i, j, kmdf.wdfpdoremoveejectionrelationsphysicaldevice, l, m, n, o, s, t, v, wdf.wdfpdoremoveejectionrelationsphysicaldevice, wdfpdo/WdfPdoRemoveEjectionRelationsPhysicalDevice, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,11 @@ status = WdfPdoRemoveEjectionRelationsPhysicalDevice(
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md">WdfPdoAddEjectionRelationsPhysicalDevice</a>
-
-
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoclearejectionrelationsdevices.md">WdfPdoClearEjectionRelationsDevices</a>
+
+
+
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md">WdfPdoAddEjectionRelationsPhysicalDevice</a>
 
 
 

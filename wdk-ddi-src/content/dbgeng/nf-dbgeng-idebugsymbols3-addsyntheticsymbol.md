@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 17fe1fbc-ca55-4d4d-af79-73baad410bfb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol, IDebugSymbols3, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, IDebugSymbols3::AddSyntheticSymbol, AddSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AddSyntheticSymbol, debugger.addsyntheticsymbol, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbol method
+ms.keywords: ",  , ,, ., 3, :, A, AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, AddSyntheticSymbol,IDebugSymbols3.AddSyntheticSymbol, D, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbol method, IDebugSymbols3::AddSyntheticSymbol, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, S, b, c, d, dbgeng/IDebugSymbols3::AddSyntheticSymbol, debugger.addsyntheticsymbol, e, g, h, i, l, m, n, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

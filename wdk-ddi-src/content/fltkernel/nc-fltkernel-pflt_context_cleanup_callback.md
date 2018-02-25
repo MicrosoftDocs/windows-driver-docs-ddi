@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f17eb108-58d1-4640-a0cc-ae568b0c844c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.pflt_context_cleanup_callback, ContextCleanupCallback routine [Installable File System Drivers], ContextCleanupCallback, PFLT_CONTEXT_CLEANUP_CALLBACK, PFLT_CONTEXT_CLEANUP_CALLBACK, fltkernel/ContextCleanupCallback, FltCallbacks_870edcbe-dbd7-4fad-b4f3-628bffe6fb44.xml
+ms.keywords: ContextCleanupCallback, ContextCleanupCallback routine [Installable File System Drivers], FltCallbacks_870edcbe-dbd7-4fad-b4f3-628bffe6fb44.xml, PFLT_CONTEXT_CLEANUP_CALLBACK, fltkernel/ContextCleanupCallback, ifsk.pflt_context_cleanup_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -108,7 +108,7 @@ None.
 
 
 
-A minifilter driver can optionally specify a routine of type PFLT_CONTEXT_CLEANUP_CALLBACK as the minifilter driver's <i>ContextCleanupCallback</i> routine for each context type that it registers when it calls <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a> from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. To specify this routine, the minifilter driver stores a pointer to the routine in the <i>ContextCleanupCallback</i> member of the FLT_CONTEXT_REGISTRATION structure for the context type. 
+A minifilter driver can optionally specify a routine of type PFLT_CONTEXT_CLEANUP_CALLBACK as the minifilter driver's <i>ContextCleanupCallback</i> routine for each context type that it registers when it calls <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. To specify this routine, the minifilter driver stores a pointer to the routine in the <i>ContextCleanupCallback</i> member of the FLT_CONTEXT_REGISTRATION structure for the context type. 
 
 If the minifilter driver specifies a <i>ContextCleanupCallback</i> routine for a context type, the filter manager calls this routine before freeing any of the minifilter driver's contexts of that type. In this routine, the minifilter driver performs any needed cleanup, such as freeing additional memory that the minifilter driver allocated inside the context structure. After the <i>ContextCleanupCallback</i> routine returns, the filter manager frees the context. 
 
@@ -119,14 +119,6 @@ For more information about context registration, see the reference entry for <a 
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_context_allocate_callback.md">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-
-
-
 <a href="..\fltkernel\nc-fltkernel-pflt_context_free_callback.md">PFLT_CONTEXT_FREE_CALLBACK</a>
 
 
@@ -136,6 +128,14 @@ For more information about context registration, see the reference entry for <a 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_context_allocate_callback.md">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
 
 
 

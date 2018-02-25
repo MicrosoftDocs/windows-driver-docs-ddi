@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B5AEA98A-223D-4D14-A36B-EB5266F80AF8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_bandmgmt_create_band, IOCTL_EHSTOR_BANDMGMT_CREATE_BAND control code [Storage Devices], IOCTL_EHSTOR_BANDMGMT_CREATE_BAND, ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_CREATE_BAND
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_CREATE_BAND, IOCTL_EHSTOR_BANDMGMT_CREATE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_CREATE_BAND, storage.ioctl_ehstor_bandmgmt_create_band
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DXVA_VideoSample32
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

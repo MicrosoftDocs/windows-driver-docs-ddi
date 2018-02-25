@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1841be02-e30f-4685-82ea-2d9c02ce7277
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.usbcamd_device_data, *PUSBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA, _USBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA structure [Streaming Media Devices], usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml, USBCAMD_DEVICE_DATA, usbcamdi/PUSBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], usbcamdi/USBCAMD_DEVICE_DATA
+ms.keywords: ",  , *, *PUSBCAMD_DEVICE_DATA, ,, A, B, C, D, E, I, M, P, PUSBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], S, T, U, USBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA structure [Streaming Media Devices], V, _, _USBCAMD_DEVICE_DATA, stream.usbcamd_device_data, usbcamdi/PUSBCAMD_DEVICE_DATA, usbcamdi/USBCAMD_DEVICE_DATA, usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

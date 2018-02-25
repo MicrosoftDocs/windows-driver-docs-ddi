@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d40b0bc6-fad0-4c83-b1ca-c5105112ae2d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoportenableinterrupt, VideoPortEnableInterrupt function [Display Devices], VideoPortEnableInterrupt, VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, video/VideoPortEnableInterrupt
+ms.keywords: ",  , E, I, P, V, VideoPortEnableInterrupt, VideoPortEnableInterrupt function [Display Devices], VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, a, b, d, display.videoportenableinterrupt, e, i, l, n, o, p, r, t, u, video/VideoPortEnableInterrupt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,7 +113,7 @@ If the video miniport driver has not registered an <a href="..\video\nc-video-pv
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
 
 
 
@@ -121,11 +121,11 @@ If the video miniport driver has not registered an <a href="..\video\nc-video-pv
 
 
 
-<a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
-
-
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 

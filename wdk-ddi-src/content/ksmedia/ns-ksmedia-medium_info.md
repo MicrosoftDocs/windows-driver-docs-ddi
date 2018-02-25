@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: MEDIUM_INFO structure [Streaming Media Devices], *PMEDIUM_INFO, stream.medium_info, ksmedia/PMEDIUM_INFO, ksmedia/MEDIUM_INFO, MEDIUM_INFO, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml, PMEDIUM_INFO structure pointer [Streaming Media Devices], PMEDIUM_INFO
+ms.keywords: ",  , *, *PMEDIUM_INFO, ,, D, E, F, I, M, MEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices], N, O, P, PMEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], U, _, ksmedia/MEDIUM_INFO, ksmedia/PMEDIUM_INFO, stream.medium_info, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

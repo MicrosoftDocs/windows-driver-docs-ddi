@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmtofferallocations, d3dkmthk/D3DKMTOfferAllocations, PFND3DKMT_OFFERALLOCATIONS, D3DKMTOfferAllocations function [Display Devices], D3DKMTOfferAllocations
+ms.keywords: ",  , 3, A, D, D3DKMTOfferAllocations, D3DKMTOfferAllocations function [Display Devices], K, M, O, PFND3DKMT_OFFERALLOCATIONS, T, a, c, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations, e, f, i, l, n, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,11 +134,11 @@ Parameters were validated and determined to be incorrect.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreclaimallocations.md">D3DKMTReclaimAllocations</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_offerallocations.md">D3DKMT_OFFERALLOCATIONS</a>
+
+
+
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_reclaimallocations.md">D3DKMTReclaimAllocations</a>
 
 
 

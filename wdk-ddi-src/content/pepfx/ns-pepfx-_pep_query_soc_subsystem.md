@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F4571085-19C2-46FD-B754-D4937BE5A500
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PPEP_QUERY_SOC_SUBSYSTEM, kernel.pep_query_soc_subsystem, PEP_QUERY_SOC_SUBSYSTEM structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM, *PPEP_QUERY_SOC_SUBSYSTEM, _PEP_QUERY_SOC_SUBSYSTEM, PPEP_QUERY_SOC_SUBSYSTEM structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_QUERY_SOC_SUBSYSTEM
+ms.keywords: ",  , *, *PPEP_QUERY_SOC_SUBSYSTEM, ,, B, C, E, M, O, P, PEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM, PPEP_QUERY_SOC_SUBSYSTEM structure pointer [Kernel-Mode Driver Architecture], Q, R, S, T, U, Y, _, _PEP_QUERY_SOC_SUBSYSTEM, kernel.pep_query_soc_subsystem, pepfx/PEP_QUERY_SOC_SUBSYSTEM, pepfx/PPEP_QUERY_SOC_SUBSYSTEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

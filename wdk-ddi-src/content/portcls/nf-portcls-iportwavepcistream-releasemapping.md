@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c4464fba-cc23-47d2-87d6-82b3eba8ddbe
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ReleaseMapping, ReleaseMapping method [Audio Devices], IPortWavePciStream interface, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, IPortWavePciStream interface [Audio Devices], ReleaseMapping method, IPortWavePciStream::ReleaseMapping, portcls/IPortWavePciStream::ReleaseMapping, audio.iportwavepcistream_releasemapping, ReleaseMapping method [Audio Devices], IPortWavePciStream
+ms.keywords: ",  , ,, ., :, I, IPortWavePciStream, IPortWavePciStream interface [Audio Devices], ReleaseMapping method, IPortWavePciStream::ReleaseMapping, M, P, R, ReleaseMapping method [Audio Devices], ReleaseMapping method [Audio Devices], IPortWavePciStream interface, ReleaseMapping,IPortWavePciStream.ReleaseMapping, S, W, a, audio.iportwavepcistream_releasemapping, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, c, e, g, i, l, m, n, o, p, portcls/IPortWavePciStream::ReleaseMapping, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,6 +96,14 @@ To avoid potential deadlocks, the miniport driver must avoid holding a spin lock
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
+
+
+
 <a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
 
 
@@ -105,14 +113,6 @@ To avoid potential deadlocks, the miniport driver must avoid holding a spin lock
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
-
-
-
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 
 

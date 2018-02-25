@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba58942c-f491-423e-805a-375165117a30
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT, display.d3d11_1ddi_authenticated_query_unrestricted_protected_shared_resource_count_output, D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT structure [Display Devices]
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT structure [Display Devices], E, H, I, N, O, P, Q, R, S, T, U, Y, _, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT, display.d3d11_1ddi_authenticated_query_unrestricted_protected_shared_resource_count_output"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

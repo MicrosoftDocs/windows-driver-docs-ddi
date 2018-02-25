@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A1250501-DC33-4AA8-8AD7-9938ECAC8AFB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_remote_wakeup_signal, EvtUfxDeviceRemoteWakeupSignal callback function [Buses], EvtUfxDeviceRemoteWakeupSignal, EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, ufxclient/EvtUfxDeviceRemoteWakeupSignal, PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback function pointer [Buses], PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL
+ms.keywords: EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, EvtUfxDeviceRemoteWakeupSignal, EvtUfxDeviceRemoteWakeupSignal callback function [Buses], PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback function pointer [Buses], buses.evt_ufx_device_remote_wakeup_signal, ufxclient/EvtUfxDeviceRemoteWakeupSignal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -172,11 +172,11 @@ End:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 

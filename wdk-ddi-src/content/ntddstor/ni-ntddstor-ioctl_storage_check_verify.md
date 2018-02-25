@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 12e98642-2ed5-47d6-9461-9d6c52149749
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_check_verify, IOCTL_STORAGE_CHECK_VERIFY control code [Storage Devices], IOCTL_STORAGE_CHECK_VERIFY, ntddstor/IOCTL_STORAGE_CHECK_VERIFY, k307_5ec9ef19-a741-4fb9-876e-7cfc35699dbe.xml
+ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control code [Storage Devices], k307_5ec9ef19-a741-4fb9-876e-7cfc35699dbe.xml, ntddstor/IOCTL_STORAGE_CHECK_VERIFY, storage.ioctl_storage_check_verify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

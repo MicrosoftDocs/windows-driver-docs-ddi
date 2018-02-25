@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, WAVEFORMATEXTENSIBLE, audio.waveformatextensible, ksmedia/WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], ksmedia/PWAVEFORMATEXTENSIBLE
+ms.keywords: ",  , *, *PWAVEFORMATEXTENSIBLE, ,, A, B, E, F, I, L, M, N, O, P, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], R, S, T, V, W, WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], X, aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -427,11 +427,11 @@ Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can desc
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_channel_config.md">KSAUDIO_CHANNEL_CONFIG</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksaudio_channel_config.md">KSAUDIO_CHANNEL_CONFIG</a>
 
 
 

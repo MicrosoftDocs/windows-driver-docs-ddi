@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 032e203a-9cb0-4232-91fc-883528e15a81
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.selocksubjectcontext, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml, ntifs/SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], SeLockSubjectContext
+ms.keywords: ",  , C, L, S, SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], b, c, e, ifsk.selocksubjectcontext, j, k, n, ntifs/SeLockSubjectContext, o, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,7 +99,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
+<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
 
 
 
@@ -107,7 +107,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
 
 

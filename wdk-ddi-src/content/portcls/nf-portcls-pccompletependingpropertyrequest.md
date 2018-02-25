@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4b59403-9a2f-4857-947b-dff8e3ea079c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PcCompletePendingPropertyRequest function [Audio Devices], portcls/PcCompletePendingPropertyRequest, audio.pccompletependingpropertyrequest, PcCompletePendingPropertyRequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml
+ms.keywords: ",  , C, P, PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest function [Audio Devices], R, audio.pccompletependingpropertyrequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, c, d, e, g, i, l, m, n, o, p, portcls/PcCompletePendingPropertyRequest, q, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ The driver should call <b>PcCompletePendingPropertyRequest</b> only when the req
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+
+
+<a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
 
 
 

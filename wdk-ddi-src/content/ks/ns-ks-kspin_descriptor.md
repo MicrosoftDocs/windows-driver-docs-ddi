@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0e7fccd1-1ced-41e7-8e75-8f4fa496ea06
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kspin_descriptor, KSPIN_DESCRIPTOR structure [Streaming Media Devices], KSPIN_DESCRIPTOR, PKSPIN_DESCRIPTOR, ks/PKSPIN_DESCRIPTOR, ks/KSPIN_DESCRIPTOR, ks-struct_adeadb36-6cf2-4c36-a1b4-a7852e98303f.xml, *PKSPIN_DESCRIPTOR, PKSPIN_DESCRIPTOR structure pointer [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSPIN_DESCRIPTOR, ,, C, D, E, I, K, KSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR structure [Streaming Media Devices], N, O, P, PKSPIN_DESCRIPTOR, PKSPIN_DESCRIPTOR structure pointer [Streaming Media Devices], R, S, T, _, ks-struct_adeadb36-6cf2-4c36-a1b4-a7852e98303f.xml, ks/KSPIN_DESCRIPTOR, ks/PKSPIN_DESCRIPTOR, stream.kspin_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,7 +159,7 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565194">KSPROPERTY_PIN_COMMUNICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
 
 
 
@@ -167,7 +167,7 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565194">KSPROPERTY_PIN_COMMUNICATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d776b815-815b-491d-b84b-5bf1944c9fac
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], KeQueryDpcWatchdogInformation, wdm/KeQueryDpcWatchdogInformation, kernel.kequerydpcwatchdoginformation, k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml
+ms.keywords: ",  , D, I, K, KeQueryDpcWatchdogInformation, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], Q, W, a, c, d, e, f, g, h, i, k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, kernel.kequerydpcwatchdoginformation, m, n, o, p, r, t, u, wdm/KeQueryDpcWatchdogInformation, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

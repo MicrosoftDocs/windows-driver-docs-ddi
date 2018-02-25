@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 86e9662e-d308-4e3a-98c1-4134186f1bad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FwpsNetBufferListAssociateContext1, FwpsNetBufferListAssociateContext1, FwpsNetBufferListAssociateContext1 function [Network Drivers Starting with Windows Vista], netvista.fwpsnetbufferlistassociatecontext1
+ms.keywords: ",  , 1, A, B, C, F, FwpsNetBufferListAssociateContext1, FwpsNetBufferListAssociateContext1 function [Network Drivers Starting with Windows Vista], L, N, a, c, e, f, fwpsk/FwpsNetBufferListAssociateContext1, i, n, netvista.fwpsnetbufferlistassociatecontext1, o, p, r, s, t, u, w, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -194,17 +194,12 @@ This function is essentially identical to the previous version,
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
+   FwpsNetBufferListRetrieveContext0</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
-   FwpsNetBufferListRemoveContext0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
-   FwpsNetBufferListGetTagForContext0</a>
 
 
 
@@ -220,8 +215,13 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
-   FwpsNetBufferListRetrieveContext0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+   FwpsNetBufferListRemoveContext0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
+   FwpsNetBufferListGetTagForContext0</a>
 
 
 

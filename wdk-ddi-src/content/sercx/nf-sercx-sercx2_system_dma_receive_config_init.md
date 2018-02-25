@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9BD18E2C-731D-4C7D-8363-67136521B4A7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function [Serial Ports], SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT, 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT, serports.sercx2_system_dma_receive_config_init
+ms.keywords: ",  , 2, 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT, A, C, D, E, F, G, I, M, N, O, R, S, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function [Serial Ports], T, V, X, Y, _, serports.sercx2_system_dma_receive_config_init"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,7 +119,7 @@ Your serial controller driver must use either this function or the <a href="..\s
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-_sercx2_system_dma_receive_config.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>
+<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
 
 
@@ -127,7 +127,7 @@ Your serial controller driver must use either this function or the <a href="..\s
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+<a href="..\sercx\ns-sercx-_sercx2_system_dma_receive_config.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>
 
 
 

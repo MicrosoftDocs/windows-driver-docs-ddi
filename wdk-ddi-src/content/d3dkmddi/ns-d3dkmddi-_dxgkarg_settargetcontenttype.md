@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BD849954-97CC-4314-B375-22829B0CEE86
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGKARG_SETTARGETCONTENTTYPE, display.dxgkarg_settargetcontenttype, PDXGKARG_SETTARGETCONTENTTYPE structure pointer [Display Devices], DXGKARG_SETTARGETCONTENTTYPE, PDXGKARG_SETTARGETCONTENTTYPE, DXGKARG_SETTARGETCONTENTTYPE structure [Display Devices], d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/PDXGKARG_SETTARGETCONTENTTYPE"
+ms.keywords: ",  , ,, A, C, D, DXGKARG_SETTARGETCONTENTTYPE, DXGKARG_SETTARGETCONTENTTYPE structure [Display Devices], E, G, K, N, O, P, PDXGKARG_SETTARGETCONTENTTYPE, PDXGKARG_SETTARGETCONTENTTYPE structure pointer [Display Devices], R, S, T, X, Y, _, _DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/PDXGKARG_SETTARGETCONTENTTYPE, display.dxgkarg_settargetcontenttype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: B5FF5B24-12E6-424A-B09A-4B0572621088
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SMARTCARD_REQUEST, _SMARTCARD_REQUEST, PSMARTCARD_REQUEST, SMARTCARD_REQUEST structure [Smart Card Reader Devices], *PSMARTCARD_REQUEST, smclib/PSMARTCARD_REQUEST, smclib/SMARTCARD_REQUEST, smartcrd.smartcard_request, PSMARTCARD_REQUEST structure pointer [Smart Card Reader Devices]
+ms.keywords: ",  , *, *PSMARTCARD_REQUEST, ,, A, C, D, E, M, P, PSMARTCARD_REQUEST, PSMARTCARD_REQUEST structure pointer [Smart Card Reader Devices], Q, R, S, SMARTCARD_REQUEST, SMARTCARD_REQUEST structure [Smart Card Reader Devices], T, U, _, _SMARTCARD_REQUEST, smartcrd.smartcard_request, smclib/PSMARTCARD_REQUEST, smclib/SMARTCARD_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

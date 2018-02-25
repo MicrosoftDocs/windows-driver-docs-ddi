@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea88d1de-70c1-424a-a3a0-cce46cc3fe39
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.geteventfiltercommand, IDebugControl2::GetEventFilterCommand, dbgeng/IDebugControl3::GetEventFilterCommand, GetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetEventFilterCommand, GetEventFilterCommand method [Windows Debugging], IDebugControl3::GetEventFilterCommand, IDebugControl, GetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, GetEventFilterCommand, IDebugControl2, IDebugControl interface [Windows Debugging], GetEventFilterCommand method, dbgeng/IDebugControl2::GetEventFilterCommand, IDebugControl::GetEventFilterCommand, IDebugControl3 interface [Windows Debugging], GetEventFilterCommand method, GetEventFilterCommand method [Windows Debugging], IDebugControl interface, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, IDebugControl2 interface [Windows Debugging], GetEventFilterCommand method
+ms.keywords: ",  , ,, ., 2, :, C, D, E, F, G, GetEventFilterCommand method [Windows Debugging], GetEventFilterCommand method [Windows Debugging], IDebugControl interface, GetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, GetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, GetEventFilterCommand,IDebugControl.GetEventFilterCommand, GetEventFilterCommand,IDebugControl2.GetEventFilterCommand, I, IDebugControl, IDebugControl interface [Windows Debugging], GetEventFilterCommand method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetEventFilterCommand method, IDebugControl2::GetEventFilterCommand, IDebugControl3 interface [Windows Debugging], GetEventFilterCommand method, IDebugControl3::GetEventFilterCommand, IDebugControl::GetEventFilterCommand, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, a, b, d, dbgeng/IDebugControl2::GetEventFilterCommand, dbgeng/IDebugControl3::GetEventFilterCommand, dbgeng/IDebugControl::GetEventFilterCommand, debugger.geteventfiltercommand, e, g, i, l, m, n, o, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -131,7 +131,7 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -143,11 +143,11 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

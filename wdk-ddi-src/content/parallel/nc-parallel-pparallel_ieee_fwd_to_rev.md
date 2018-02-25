@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: cb7e01e3-7aff-436c-af82-bc7716d2fe1f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.pparallel_ieee_fwd_to_rev, PPARALLEL_IEEE_FWD_TO_REV function pointer [Parallel Ports], PPARALLEL_IEEE_FWD_TO_REV, parallel/PPARALLEL_IEEE_FWD_TO_REV, cisspd_a22a220b-a633-48b8-9e53-434f362d15f0.xml
+ms.keywords: PPARALLEL_IEEE_FWD_TO_REV, PPARALLEL_IEEE_FWD_TO_REV function pointer [Parallel Ports], cisspd_a22a220b-a633-48b8-9e53-434f362d15f0.xml, parallel/PPARALLEL_IEEE_FWD_TO_REV, parports.pparallel_ieee_fwd_to_rev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -124,23 +124,11 @@ The PPARALLEL_IEEE_FWD_TO_REV callback runs in the caller's thread at the caller
 
 ## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
-
-
-
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
 
 
 
-<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
-
-
-
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
-
-
-
-<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
 
 
 
@@ -148,7 +136,19 @@ The PPARALLEL_IEEE_FWD_TO_REV callback runs in the caller's thread at the caller
 
 
 
+<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+
+
+
 <a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
+
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
+
+
+
+<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
 
 
 

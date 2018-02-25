@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a321ee2-f246-498d-b658-a01e275644be
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_vidpntargetmodeset_interface_pfnacquirepinnedmodeinfo, pfnAcquirePinnedModeInfo callback function [Display Devices], pfnAcquirePinnedModeInfo, DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO, DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO, d3dkmddi/pfnAcquirePinnedModeInfo, VidPnFunctions_81cb0000-6d1d-448f-8e4a-ca5df30d97ea.xml
+ms.keywords: DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO, VidPnFunctions_81cb0000-6d1d-448f-8e4a-ca5df30d97ea.xml, d3dkmddi/pfnAcquirePinnedModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnacquirepinnedmodeinfo, pfnAcquirePinnedModeInfo, pfnAcquirePinnedModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b5c3a750-7ccb-42ab-9648-17c43e390ec8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml, _D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], D3DDDIARG_DRAWPRIMITIVE, display.d3dddiarg_drawprimitive, d3dumddi/D3DDDIARG_DRAWPRIMITIVE
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], E, G, I, M, P, R, T, UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml, V, W, _, _D3DDDIARG_DRAWPRIMITIVE, d3dumddi/D3DDDIARG_DRAWPRIMITIVE, display.d3dddiarg_drawprimitive"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

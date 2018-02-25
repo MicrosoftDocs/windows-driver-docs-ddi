@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a3ddeec4-0414-48ed-ab3b-5df252682655
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisOidRequest, netvista.ndisoidrequest, NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml
+ms.keywords: ",  , N, NdisOidRequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], O, R, d, e, i, ndis/NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest, q, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -283,7 +283,11 @@ For more information about the general and media-specific OIDs and their respect
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -291,11 +295,7 @@ For more information about the general and media-specific OIDs and their respect
 
 
 
-<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 
 

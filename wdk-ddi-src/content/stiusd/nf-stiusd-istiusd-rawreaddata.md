@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6ae64309-da53-420b-bf87-e8924e902dba
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStiUSD::RawReadData, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, RawReadData method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::RawReadData, image.istiusd_rawreaddata, IStiUSD, RawReadData, IStiUSD interface [Imaging Devices], RawReadData method, RawReadData method [Imaging Devices]
+ms.keywords: ",  , ,, ., :, D, I, IStiUSD, IStiUSD interface [Imaging Devices], RawReadData method, IStiUSD::RawReadData, R, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices], IStiUSD interface, RawReadData,IStiUSD.RawReadData, S, U, a, d, e, i, image.istiusd_rawreaddata, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, stiusd/IStiUSD::RawReadData, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

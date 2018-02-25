@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: umdprovider/UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], UMDEtwLogMapAllocation, display.umdetwlogmapallocation
+ms.keywords: ",  , A, D, E, L, M, U, UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], a, c, display.umdetwlogmapallocation, g, i, l, n, o, p, t, umdprovider/UMDEtwLogMapAllocation, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -189,11 +189,11 @@ FORCEINLINE void UMDEtwLogMapAllocation(ULONGLONG hD3DAllocation,
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
-
-
-<a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a>
 
 
 
@@ -201,7 +201,7 @@ FORCEINLINE void UMDEtwLogMapAllocation(ULONGLONG hD3DAllocation,
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+<a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 855ef77c-2a85-4c8c-b8e3-c4aaa0d2a089
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: BdaCreateTopology, bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, BdaCreateTopology function [Streaming Media Devices], bdasup/BdaCreateTopology, stream.bdacreatetopology
+ms.keywords: ",  , B, BdaCreateTopology, BdaCreateTopology function [Streaming Media Devices], C, T, a, bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, bdasup/BdaCreateTopology, d, e, g, l, o, p, r, stream.bdacreatetopology, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,7 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.md">BdaMethodCreateTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
 
 
 
@@ -119,7 +119,7 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
+<a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.md">BdaMethodCreateTopology</a>
 
 
 

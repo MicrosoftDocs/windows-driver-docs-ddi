@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1fc71718-a1fb-4e82-9805-7830e761cd6d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kstrclockgetcorrelatedtime, KStrClockGetCorrelatedTime, KStrClockGetCorrelatedPhysicalTime, SystemCorrelatedTime routine [Streaming Media Devices], SystemCorrelatedTime, PFNKSCLOCK_CORRELATEDTIME, PFNKSCLOCK_CORRELATEDTIME, ks/SystemCorrelatedTime, ksfunc_dd229adf-e2be-44ac-bda2-f947b0f559a3.xml
+ms.keywords: KStrClockGetCorrelatedPhysicalTime, KStrClockGetCorrelatedTime, PFNKSCLOCK_CORRELATEDTIME, SystemCorrelatedTime, SystemCorrelatedTime routine [Streaming Media Devices], ks/SystemCorrelatedTime, ksfunc_dd229adf-e2be-44ac-bda2-f947b0f559a3.xml, stream.kstrclockgetcorrelatedtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -110,15 +110,15 @@ Both time values are specified in 100 nanosecond units.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
 
 <a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
-
-
-
-<a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
 
 
 

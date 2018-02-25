@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d2b1ec10-3d59-469f-a92e-e28a6c2aef92
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_scsi_rescan_bus, IOCTL_SCSI_RESCAN_BUS control code [Storage Devices], IOCTL_SCSI_RESCAN_BUS, ntddscsi/IOCTL_SCSI_RESCAN_BUS, k307_36067418-9daa-4fed-a8a6-98fe65ca7fe2.xml
+ms.keywords: IOCTL_SCSI_RESCAN_BUS, IOCTL_SCSI_RESCAN_BUS control code [Storage Devices], k307_36067418-9daa-4fed-a8a6-98fe65ca7fe2.xml, ntddscsi/IOCTL_SCSI_RESCAN_BUS, storage.ioctl_scsi_rescan_bus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

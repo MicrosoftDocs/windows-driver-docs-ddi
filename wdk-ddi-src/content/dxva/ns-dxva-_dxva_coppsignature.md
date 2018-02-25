@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12520b5d-b994-4af5-9bcf-5140616786e8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dxva/LPDXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], DXVA_COPPSignature, _DXVA_COPPSignature, dxva/DXVA_COPPSignature, *LPDXVA_COPPSignature, LPDXVA_COPPSignature, display.dxva_coppsignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml, LPDXVA_COPPSignature structure pointer [Display Devices]
+ms.keywords: ",  , *, *LPDXVA_COPPSignature, ,, A, C, D, DXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], L, LPDXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], O, P, S, V, X, _, _DXVA_COPPSignature, a, display.dxva_coppsignature, dxva/DXVA_COPPSignature, dxva/LPDXVA_COPPSignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml, e, g, i, n, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,11 +103,11 @@ The array at <b>Signature</b> consists of the following items concatenated toget
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539646">COPPKeyExchange</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
 
 
 

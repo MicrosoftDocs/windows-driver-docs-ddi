@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c120421d-6a10-4d37-b936-98dac75e236b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.colorfill, ColorFill callback function [Display Devices], ColorFill, PFND3DDDI_COLORFILL, PFND3DDDI_COLORFILL, d3dumddi/ColorFill, UserModeDisplayDriver_Functions_ce1cba12-de0d-426d-981f-b95d58caa33d.xml
+ms.keywords: ColorFill, ColorFill callback function [Display Devices], PFND3DDDI_COLORFILL, UserModeDisplayDriver_Functions_ce1cba12-de0d-426d-981f-b95d58caa33d.xml, d3dumddi/ColorFill, display.colorfill
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,11 @@ __checkReturn HRESULT APIENTRY ColorFill(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

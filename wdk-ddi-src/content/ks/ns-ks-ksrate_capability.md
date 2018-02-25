@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 70866a87-0ebd-4230-9958-ace18116fa23
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks-struct_4697e3ed-7ef5-4278-be5f-96083d755ab0.xml, KSRATE_CAPABILITY structure [Streaming Media Devices], PKSRATE_CAPABILITY structure pointer [Streaming Media Devices], stream.ksrate_capability, ks/PKSRATE_CAPABILITY, PKSRATE_CAPABILITY, ks/KSRATE_CAPABILITY, *PKSRATE_CAPABILITY, KSRATE_CAPABILITY
+ms.keywords: ",  , *, *PKSRATE_CAPABILITY, ,, A, B, C, E, I, K, KSRATE_CAPABILITY, KSRATE_CAPABILITY structure [Streaming Media Devices], L, P, PKSRATE_CAPABILITY, PKSRATE_CAPABILITY structure pointer [Streaming Media Devices], R, S, T, Y, _, ks-struct_4697e3ed-7ef5-4278-be5f-96083d755ab0.xml, ks/KSRATE_CAPABILITY, ks/PKSRATE_CAPABILITY, stream.ksrate_capability"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

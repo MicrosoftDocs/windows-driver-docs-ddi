@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: E056400C-A0FE-4740-945D-C529C8804DF3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hpmi/HpmiBoolFalse, powermeter.hpmi_hint_bool, *PHPMI_HINT_BOOL, HPMI_HINT_BOOL, _HPMI_HINT_BOOL, HpmiBoolTrue, hpmi/HPMI_HINT_BOOL, hpmi/HpmiBoolTrue, hpmi/HpmiBoolUnavailable, HpmiBoolMax, HpmiBoolUnavailable, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], HpmiBoolFalse, hpmi/HpmiBoolMax
+ms.keywords: ",  , *, *PHPMI_HINT_BOOL, ,, B, H, HPMI_HINT_BOOL, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], HpmiBoolFalse, HpmiBoolMax, HpmiBoolTrue, HpmiBoolUnavailable, I, L, M, N, O, P, T, _, _HPMI_HINT_BOOL, hpmi/HPMI_HINT_BOOL, hpmi/HpmiBoolFalse, hpmi/HpmiBoolMax, hpmi/HpmiBoolTrue, hpmi/HpmiBoolUnavailable, powermeter.hpmi_hint_bool"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -94,7 +94,7 @@ Value is not used.
 
 ## -see-also
 
-<a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
+<a href="..\hpmi\ns-hpmi-_hpmi_battery_utilization_hint.md">HPMI_BATTERY_UTILIZATION_HINT</a>
 
 
 
@@ -102,7 +102,7 @@ Value is not used.
 
 
 
-<a href="..\hpmi\ns-hpmi-_hpmi_battery_utilization_hint.md">HPMI_BATTERY_UTILIZATION_HINT</a>
+<a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
 
 
 

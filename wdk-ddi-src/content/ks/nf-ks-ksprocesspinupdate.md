@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9f6c28ad-d3dd-4be4-a637-10958a9cbd20
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml, KsProcessPinUpdate function [Streaming Media Devices], KsProcessPinUpdate, ks/KsProcessPinUpdate, stream.ksprocesspinupdate
+ms.keywords: ",  , K, KsProcessPinUpdate, KsProcessPinUpdate function [Streaming Media Devices], P, U, a, avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml, c, d, e, i, ks/KsProcessPinUpdate, n, o, p, r, s, stream.ksprocesspinupdate, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
-
-
-
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
+
+
+
+<a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
 
 
 

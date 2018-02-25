@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4ce9f377-ca5e-4574-9d80-60b74ee0de85
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k103_053aab44-4a1f-4eb3-a052-ee00f16a349d.xml, kernel.read_register_buffer_uchar, READ_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], READ_REGISTER_BUFFER_UCHAR, wdm/READ_REGISTER_BUFFER_UCHAR
+ms.keywords: ",  , A, B, C, D, E, F, G, H, I, R, READ_REGISTER_BUFFER_UCHAR, READ_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], S, T, U, _, k103_053aab44-4a1f-4eb3-a052-ee00f16a349d.xml, kernel.read_register_buffer_uchar, wdm/READ_REGISTER_BUFFER_UCHAR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

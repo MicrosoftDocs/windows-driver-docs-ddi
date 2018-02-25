@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 624da381-86c9-46d8-82eb-1f21e752ea57
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGI1_1_DDI_BASE_FUNCTIONS, UMDisplayDriver_Dx10param_Structs_92bae538-7b48-48d5-a26f-c593ff5875cf.xml, display.dxgi1_1_ddi_base_functions, DXGI1_1_DDI_BASE_FUNCTIONS structure [Display Devices], dxgiddi/DXGI1_1_DDI_BASE_FUNCTIONS
+ms.keywords: ",  , ,, 1, A, B, C, D, DXGI1_1_DDI_BASE_FUNCTIONS, DXGI1_1_DDI_BASE_FUNCTIONS structure [Display Devices], E, F, G, I, N, O, S, T, U, UMDisplayDriver_Dx10param_Structs_92bae538-7b48-48d5-a26f-c593ff5875cf.xml, X, _, display.dxgi1_1_ddi_base_functions, dxgiddi/DXGI1_1_DDI_BASE_FUNCTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -175,6 +175,26 @@ Windows 7 provides the IS_DXGI1_1_BASE_FUNCTIONS macro (which is defined in the 
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_resolvesharedresource.md">ResolveSharedResource</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a>
 
 
@@ -183,23 +203,7 @@ Windows 7 provides the IS_DXGI1_1_BASE_FUNCTIONS macro (which is defined in the 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_resolvesharedresource.md">ResolveSharedResource</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569657">SetResourcePriorityDXGI</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 
@@ -207,7 +211,7 @@ Windows 7 provides the IS_DXGI1_1_BASE_FUNCTIONS macro (which is defined in the 
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
 
 
 
@@ -215,15 +219,11 @@ Windows 7 provides the IS_DXGI1_1_BASE_FUNCTIONS macro (which is defined in the 
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569514">RotateResourceIdentitiesDXGI</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569657">SetResourcePriorityDXGI</a>
 
 
 

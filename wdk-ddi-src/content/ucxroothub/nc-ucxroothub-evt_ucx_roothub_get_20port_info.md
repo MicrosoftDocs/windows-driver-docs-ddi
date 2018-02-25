@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: c4a328fb-ffbf-4da4-b52d-6cea58e56b5e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_roothub_get_20port_info, EvtUcxRootHubGet20PortInfo callback function [Buses], EvtUcxRootHubGet20PortInfo, EVT_UCX_ROOTHUB_GET_20PORT_INFO, EVT_UCX_ROOTHUB_GET_20PORT_INFO, ucxroothub/EvtUcxRootHubGet20PortInfo, PEVT_UCX_ROOTHUB_GET_20PORT_INFO callback function pointer [Buses], PEVT_UCX_ROOTHUB_GET_20PORT_INFO
+ms.keywords: EVT_UCX_ROOTHUB_GET_20PORT_INFO, EvtUcxRootHubGet20PortInfo, EvtUcxRootHubGet20PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_20PORT_INFO, PEVT_UCX_ROOTHUB_GET_20PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_20port_info, ucxroothub/EvtUcxRootHubGet20PortInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AAA62659-D12C-4EEC-8D74-6138B34128CE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pcreate_thread_notify_routine, SetCreateThreadNotifyRoutine callback function [Kernel-Mode Driver Architecture], SetCreateThreadNotifyRoutine, PCREATE_THREAD_NOTIFY_ROUTINE, PCREATE_THREAD_NOTIFY_ROUTINE, ntddk/SetCreateThreadNotifyRoutine
+ms.keywords: PCREATE_THREAD_NOTIFY_ROUTINE, SetCreateThreadNotifyRoutine, SetCreateThreadNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_thread_notify_routine, ntddk/SetCreateThreadNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,11 +109,11 @@ The driver's thread-notify routine runs at IRQL = PASSIVE_LEVEL or APC_LEVEL. Wh
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
 
 
 

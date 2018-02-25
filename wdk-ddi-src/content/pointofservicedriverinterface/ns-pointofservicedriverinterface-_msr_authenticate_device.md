@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: b75dce2c-5ad5-4340-b1b7-5fcf4440e58c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE, _MSR_AUTHENTICATE_DEVICE, PMSR_AUTHENTICATE_DEVICE structure pointer, *PMSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE, PMSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE structure, pos.msr_authenticate_device
+ms.keywords: ",  , *, *PMSR_AUTHENTICATE_DEVICE, ,, A, C, D, E, H, I, M, MSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE structure, N, P, PMSR_AUTHENTICATE_DEVICE, PMSR_AUTHENTICATE_DEVICE structure pointer, R, S, T, U, V, _, _MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_AUTHENTICATE_DEVICE, pos.msr_authenticate_device"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

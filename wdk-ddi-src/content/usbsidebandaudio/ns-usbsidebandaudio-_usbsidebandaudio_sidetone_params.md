@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: FE97B772-CD08-4F76-88DA-05F24881D062
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PUSBSIDEBANDAUDIO_SIDETONE_PARAMS structure pointer [Audio Devices], _USBSIDEBANDAUDIO_SIDETONE_PARAMS, usbsidebandaudio/PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, *PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, USBSIDEBANDAUDIO_SIDETONE_PARAMS structure [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_SIDETONE_PARAMS, PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, audio.usbsidebandaudio_sidetone_params, USBSIDEBANDAUDIO_SIDETONE_PARAMS
+ms.keywords: ",  , *, *PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, ,, A, B, D, E, I, M, N, O, P, PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, PUSBSIDEBANDAUDIO_SIDETONE_PARAMS structure pointer [Audio Devices], R, S, T, U, USBSIDEBANDAUDIO_SIDETONE_PARAMS, USBSIDEBANDAUDIO_SIDETONE_PARAMS structure [Audio Devices], _, _USBSIDEBANDAUDIO_SIDETONE_PARAMS, audio.usbsidebandaudio_sidetone_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_SIDETONE_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

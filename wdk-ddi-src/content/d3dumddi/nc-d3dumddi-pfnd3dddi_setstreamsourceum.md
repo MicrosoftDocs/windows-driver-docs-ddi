@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 75a70801-0338-45ed-a691-5f84202575d5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setstreamsourceum, SetStreamSourceUM callback function [Display Devices], SetStreamSourceUM, PFND3DDDI_SETSTREAMSOURCEUM, PFND3DDDI_SETSTREAMSOURCEUM, d3dumddi/SetStreamSourceUM, UserModeDisplayDriver_Functions_0bea09c2-3bd9-4c60-9688-1c5a687e0dc9.xml
+ms.keywords: PFND3DDDI_SETSTREAMSOURCEUM, SetStreamSourceUM, SetStreamSourceUM callback function [Display Devices], UserModeDisplayDriver_Functions_0bea09c2-3bd9-4c60-9688-1c5a687e0dc9.xml, d3dumddi/SetStreamSourceUM, display.setstreamsourceum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -107,11 +107,11 @@ __checkReturn HRESULT APIENTRY SetStreamSourceUM(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourceum.md">D3DDDIARG_SETSTREAMSOURCEUM</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 8F38C4EC-08BD-4CEF-97AB-B282ECC19627
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_host_connect, EvtUfxDeviceHostConnect callback function [Buses], EvtUfxDeviceHostConnect, EVT_UFX_DEVICE_HOST_CONNECT, EVT_UFX_DEVICE_HOST_CONNECT, ufxclient/EvtUfxDeviceHostConnect, PFN_UFX_DEVICE_HOST_CONNECT callback function pointer [Buses], PFN_UFX_DEVICE_HOST_CONNECT
+ms.keywords: EVT_UFX_DEVICE_HOST_CONNECT, EvtUfxDeviceHostConnect, EvtUfxDeviceHostConnect callback function [Buses], PFN_UFX_DEVICE_HOST_CONNECT, PFN_UFX_DEVICE_HOST_CONNECT callback function pointer [Buses], buses.evt_ufx_device_host_connect, ufxclient/EvtUfxDeviceHostConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -163,11 +163,11 @@ Arguments:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 

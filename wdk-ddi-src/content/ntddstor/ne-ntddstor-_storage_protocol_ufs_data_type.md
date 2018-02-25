@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A4324FAD-A925-4D65-9697-9CC2878DBE0B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storage_protocol_ufs_data_type, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], UfsDataTypeQueryDescriptor, UfsDataTypeUnknown, UfsDataTypeMax, ntddstor/UfsDataTypeUnknown, *PSTORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/ UfsDataTypeQueryDescriptor, ntddstor/ UfsDataTypeMax, _STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE
+ms.keywords: ",  , *, *PSTORAGE_PROTOCOL_UFS_DATA_TYPE, ,, A, C, D, E, F, G, L, O, P, R, S, STORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], T, U, UfsDataTypeMax, UfsDataTypeQueryDescriptor, UfsDataTypeUnknown, Y, _, _STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/ UfsDataTypeMax, ntddstor/ UfsDataTypeQueryDescriptor, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/UfsDataTypeUnknown, storage.storage_protocol_ufs_data_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

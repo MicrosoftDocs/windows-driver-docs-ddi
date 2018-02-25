@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f5b72de2-c2e9-44ac-a2a7-04271e9253d3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, SdpAddAttributeToTree function [Bluetooth Devices], SdpAddAttributeToTree, bltooth.sdpaddattributetotree, sdplib/SdpAddAttributeToTree
+ms.keywords: ",  , A, S, SdpAddAttributeToTree, SdpAddAttributeToTree function [Bluetooth Devices], T, b, bltooth.sdpaddattributetotree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, d, e, i, o, p, r, sdplib/SdpAddAttributeToTree, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 959d17f1-588b-4b65-a3ea-e4609aa84eed
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_PRESENT structure [Display Devices], display.d3dkmt_present, D3DKMT_PRESENT, d3dkmthk/D3DKMT_PRESENT, OpenGL_Structs_f3a9c661-7b2d-4f75-864f-c5f2a3c591ad.xml, _D3DKMT_PRESENT
+ms.keywords: ",  , ,, 3, D, D3DKMT_PRESENT, D3DKMT_PRESENT structure [Display Devices], E, K, M, N, OpenGL_Structs_f3a9c661-7b2d-4f75-864f-c5f2a3c591ad.xml, P, R, S, T, _, _D3DKMT_PRESENT, d3dkmthk/D3DKMT_PRESENT, display.d3dkmt_present"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -236,11 +236,11 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presentflags.md">D3DKMT_PRESENTFLAGS</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 
@@ -248,15 +248,15 @@ Supported starting with Windows 8.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presentflags.md">D3DKMT_PRESENTFLAGS</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
 
 
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c9150c02-a53e-4ffc-8cf1-ca668680cdd9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kstrsettimer, KStrSetTimer routine [Streaming Media Devices], KStrSetTimer, PFNKSSETTIMER, PFNKSSETTIMER, ks/KStrSetTimer, ksfunc_a1a590b8-ea16-45bd-8517-45e4bfc46ad3.xml
+ms.keywords: KStrSetTimer, KStrSetTimer routine [Streaming Media Devices], PFNKSSETTIMER, ks/KStrSetTimer, ksfunc_a1a590b8-ea16-45bd-8517-45e4bfc46ad3.xml, stream.kstrsettimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -121,10 +121,6 @@ The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
@@ -134,6 +130,10 @@ The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics a
 
 
 <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 
 

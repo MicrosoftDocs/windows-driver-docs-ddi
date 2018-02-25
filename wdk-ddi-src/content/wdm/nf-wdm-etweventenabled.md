@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 19aa5905-f611-46e2-8d70-a6cc4649c911
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdm/EtwEventEnabled, devtest.etweventenabled, EtwEventEnabled function [Driver Development Tools], EtwEventEnabled, etw_km_4a6453a7-cff8-4941-83fd-8184772ef161.xml
+ms.keywords: ",  , E, EtwEventEnabled, EtwEventEnabled function [Driver Development Tools], a, b, d, devtest.etweventenabled, e, etw_km_4a6453a7-cff8-4941-83fd-8184772ef161.xml, l, n, t, v, w, wdm/EtwEventEnabled"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

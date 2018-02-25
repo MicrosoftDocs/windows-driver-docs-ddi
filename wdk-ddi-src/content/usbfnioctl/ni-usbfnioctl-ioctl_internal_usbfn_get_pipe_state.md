@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: CFBFC5E4-852C-4287-A85E-2EF3C89FE474
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usbfn_get_pipe_state, IOCTL_INTERNAL_USBFN_GET_PIPE_STATE control code [Buses], IOCTL_INTERNAL_USBFN_GET_PIPE_STATE, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
+ms.keywords: IOCTL_INTERNAL_USBFN_GET_PIPE_STATE, IOCTL_INTERNAL_USBFN_GET_PIPE_STATE control code [Buses], buses.ioctl_internal_usbfn_get_pipe_state, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

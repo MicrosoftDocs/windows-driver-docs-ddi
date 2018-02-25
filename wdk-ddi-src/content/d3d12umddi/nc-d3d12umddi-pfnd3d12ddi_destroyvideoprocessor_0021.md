@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93C1FA5F-064F-41AC-B854-FF59A5CC172C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3d12ddi_destroyvideoprocessor, pfnDestroyVideoProcessor callback function [Display Devices], pfnDestroyVideoProcessor, PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, d3d12umddi/pfnDestroyVideoProcessor
+ms.keywords: PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, d3d12umddi/pfnDestroyVideoProcessor, display.pfnd3d12ddi_destroyvideoprocessor, pfnDestroyVideoProcessor, pfnDestroyVideoProcessor callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

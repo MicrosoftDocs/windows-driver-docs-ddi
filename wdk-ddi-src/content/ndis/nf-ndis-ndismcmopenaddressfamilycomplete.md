@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2d6c7db-09b3-4e5a-a6da-607c67e03054
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: condis_mcm_ref_b03ae7ee-6f52-4d98-a7ff-f8b5840b6472.xml, netvista.ndismcmopenaddressfamilycomplete, NdisMCmOpenAddressFamilyComplete, ndis/NdisMCmOpenAddressFamilyComplete, NdisMCmOpenAddressFamilyComplete macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , A, C, F, M, N, NdisMCmOpenAddressFamilyComplete, NdisMCmOpenAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], O, a, condis_mcm_ref_b03ae7ee-6f52-4d98-a7ff-f8b5840b6472.xml, d, e, i, l, m, n, ndis/NdisMCmOpenAddressFamilyComplete, netvista.ndismcmopenaddressfamilycomplete, o, p, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -153,21 +153,21 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
-   NdisCmOpenAddressFamilyComplete</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
+   NdisCmOpenAddressFamilyComplete</a>
 
 
 

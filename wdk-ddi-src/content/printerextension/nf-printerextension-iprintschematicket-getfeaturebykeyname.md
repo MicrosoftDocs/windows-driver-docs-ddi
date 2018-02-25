@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3BD7B8D6-B06F-492F-A73E-DA0799387B2A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintSchemaTicket::GetFeatureByKeyName, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], GetFeatureByKeyName method, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface, print.iprintschematicket_getfeaturebykeyname, printerextension/IPrintSchemaTicket::GetFeatureByKeyName, GetFeatureByKeyName
+ms.keywords: ",  , ,, ., :, B, F, G, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface, GetFeatureByKeyName,IPrintSchemaTicket.GetFeatureByKeyName, I, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaTicket::GetFeatureByKeyName, K, N, P, S, T, a, c, e, h, i, k, m, n, print.iprintschematicket_getfeaturebykeyname, printerextension/IPrintSchemaTicket::GetFeatureByKeyName, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,10 +103,6 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
@@ -115,11 +111,15 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
-<a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a>
+<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
 
 
 
 <a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
+
+
+
+<a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a>
 
 
 

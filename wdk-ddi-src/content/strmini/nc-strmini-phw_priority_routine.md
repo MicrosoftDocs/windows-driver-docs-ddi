@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 775ab6aa-eda7-4774-8fe8-8b1838b3972f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.strminipriorityroutine, StrMiniPriorityRoutine, StrMiniPriorityRoutine routine [Streaming Media Devices], StrMiniPriorityRoutine, PHW_PRIORITY_ROUTINE, PHW_PRIORITY_ROUTINE, strmini/StrMiniPriorityRoutine, strmini-routines_718339c9-e072-4d3e-a9ec-a0ce2cce4f90.xml
+ms.keywords: PHW_PRIORITY_ROUTINE, StrMiniPriorityRoutine, StrMiniPriorityRoutine routine [Streaming Media Devices], stream.strminipriorityroutine, strmini-routines_718339c9-e072-4d3e-a9ec-a0ce2cce4f90.xml, strmini/StrMiniPriorityRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c1b03ff5-1924-4221-b177-15214a8bf4f1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.istiusd_rawwritecommand, RawWriteCommand method [Imaging Devices], IStiUSD interface, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, IStiUSD interface [Imaging Devices], RawWriteCommand method, IStiUSD, RawWriteCommand, RawWriteCommand method [Imaging Devices], stiusd/IStiUSD::RawWriteCommand, IStiUSD::RawWriteCommand
+ms.keywords: ",  , ,, ., :, C, D, I, IStiUSD, IStiUSD interface [Imaging Devices], RawWriteCommand method, IStiUSD::RawWriteCommand, R, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices], IStiUSD interface, RawWriteCommand,IStiUSD.RawWriteCommand, S, U, W, a, d, e, i, image.istiusd_rawwritecommand, m, n, o, r, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, stiusd/IStiUSD::RawWriteCommand, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

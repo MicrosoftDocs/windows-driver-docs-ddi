@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: B4BE0BDC-C1A3-4230-8F4B-78DE34F5554D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], ufxclient/UfxDeviceNotifyHardwareReady, buses.ufxdevicenotifyhardwareready
+ms.keywords: ",  , D, H, N, R, U, UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], a, buses.ufxdevicenotifyhardwareready, c, d, e, f, i, o, r, t, ufxclient/UfxDeviceNotifyHardwareReady, v, w, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

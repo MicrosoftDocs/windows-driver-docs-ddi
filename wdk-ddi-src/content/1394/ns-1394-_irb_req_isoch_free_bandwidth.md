@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1401F3B5-4F3F-47C1-88F9-96AFCCF2AA7E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.irb_req_isoch_free_bandwidth, 1394/IRB_REQ_ISOCH_FREE_BANDWIDTH, IRB_REQ_ISOCH_FREE_BANDWIDTH, IRB_REQ_ISOCH_FREE_BANDWIDTH structure [Buses], _IRB_REQ_ISOCH_FREE_BANDWIDTH
+ms.keywords: ",  , ,, 1394/IRB_REQ_ISOCH_FREE_BANDWIDTH, A, B, C, D, E, F, H, I, IEEE.irb_req_isoch_free_bandwidth, IRB_REQ_ISOCH_FREE_BANDWIDTH, IRB_REQ_ISOCH_FREE_BANDWIDTH structure [Buses], N, O, Q, R, S, T, W, _, _IRB_REQ_ISOCH_FREE_BANDWIDTH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

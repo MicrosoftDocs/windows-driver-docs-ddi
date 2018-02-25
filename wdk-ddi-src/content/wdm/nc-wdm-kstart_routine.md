@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4a4e4e0f-fadf-4f4c-9759-6d52ef9f663d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.threadstart, ThreadStart routine [Kernel-Mode Driver Architecture], ThreadStart, KSTART_ROUTINE, KSTART_ROUTINE, wdm/ThreadStart, DrvrRtns_913b72f4-9f6b-4967-879d-c4e565d219dd.xml
+ms.keywords: DrvrRtns_913b72f4-9f6b-4967-879d-c4e565d219dd.xml, KSTART_ROUTINE, ThreadStart, ThreadStart routine [Kernel-Mode Driver Architecture], kernel.threadstart, wdm/ThreadStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

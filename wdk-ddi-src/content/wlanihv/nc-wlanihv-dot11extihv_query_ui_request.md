@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 37c01180-0742-4764-88c3-9ceb807a0086
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvqueryuirequest, Dot11ExtIhvQueryUIRequest callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvQueryUIRequest, DOT11EXTIHV_QUERY_UI_REQUEST, DOT11EXTIHV_QUERY_UI_REQUEST, wlanihv/Dot11ExtIhvQueryUIRequest, Native_802.11_IHV_Ext_b820a678-9e05-4f96-87bd-ed1154317091.xml
+ms.keywords: DOT11EXTIHV_QUERY_UI_REQUEST, Dot11ExtIhvQueryUIRequest, Dot11ExtIhvQueryUIRequest callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_b820a678-9e05-4f96-87bd-ed1154317091.xml, netvista.dot11extihvqueryuirequest, wlanihv/Dot11ExtIhvQueryUIRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -175,19 +175,19 @@ For example, if
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd5f0bf2-ccb8-446c-b1e5-2e32538ebfbd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DrvSplClose function [Print Devices], print.drvsplclose, winddiui/DrvSplClose, print_interface-graphics_e43f66ed-0e5e-4a27-ad52-0faebe549ac5.xml, DrvSplClose
+ms.keywords: ",  , C, D, DrvSplClose, DrvSplClose function [Print Devices], S, e, l, o, p, print.drvsplclose, print_interface-graphics_e43f66ed-0e5e-4a27-ad52-0faebe549ac5.xml, r, s, v, winddiui/DrvSplClose"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

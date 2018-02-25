@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 9DE2AF2D-D6B5-4FC4-8871-246F3661980F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCM_CONNECTOR_PD_CONFIG structure [Buses], UCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], PUCM_CONNECTOR_PD_CONFIG, *PUCM_CONNECTOR_PD_CONFIG, buses.ucm_connector_pd_config, _UCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG, ucmmanager/PUCM_CONNECTOR_PD_CONFIG
+ms.keywords: ",  , *, *PUCM_CONNECTOR_PD_CONFIG, ,, C, D, E, F, G, I, M, N, O, P, PUCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], R, T, U, UCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses], _, _UCM_CONNECTOR_PD_CONFIG, buses.ucm_connector_pd_config, ucmmanager/PUCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

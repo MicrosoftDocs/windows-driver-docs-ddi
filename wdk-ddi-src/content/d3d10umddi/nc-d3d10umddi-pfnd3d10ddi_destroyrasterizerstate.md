@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7d730528-dc97-4490-a9fa-3d7916eef2e6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroyrasterizerstate, DestroyRasterizerState callback function [Display Devices], DestroyRasterizerState, PFND3D10DDI_DESTROYRASTERIZERSTATE, PFND3D10DDI_DESTROYRASTERIZERSTATE, d3d10umddi/DestroyRasterizerState, UserModeDisplayDriverDx10_Functions_09ed2d7c-4191-4b5e-a18f-b42177106145.xml
+ms.keywords: DestroyRasterizerState, DestroyRasterizerState callback function [Display Devices], PFND3D10DDI_DESTROYRASTERIZERSTATE, UserModeDisplayDriverDx10_Functions_09ed2d7c-4191-4b5e-a18f-b42177106145.xml, d3d10umddi/DestroyRasterizerState, display.destroyrasterizerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,11 +115,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

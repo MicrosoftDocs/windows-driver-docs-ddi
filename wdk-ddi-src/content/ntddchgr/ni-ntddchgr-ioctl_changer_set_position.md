@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd4f5872-d2cb-42ee-b78c-6b7d48d41e34
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_changer_set_position, IOCTL_CHANGER_SET_POSITION control code [Storage Devices], IOCTL_CHANGER_SET_POSITION, ntddchgr/IOCTL_CHANGER_SET_POSITION, k307_f4580e0a-0f44-4c7f-9d89-81fe6db548c6.xml
+ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control code [Storage Devices], k307_f4580e0a-0f44-4c7f-9d89-81fe6db548c6.xml, ntddchgr/IOCTL_CHANGER_SET_POSITION, storage.ioctl_changer_set_position
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -111,11 +111,11 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_SET_POSITION). The 
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
-
-
-
 <a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
 
 
 

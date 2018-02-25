@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 884a5577-3ae8-4444-bf09-3fe4f72dc7d9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetImagePathWide method, debugger.getimagepathwide, GetImagePathWide, dbgeng/IDebugSymbols3::GetImagePathWide, GetImagePathWide method [Windows Debugging], IDebugSymbols3::GetImagePathWide
+ms.keywords: ",  , ,, ., 3, :, D, G, GetImagePathWide method [Windows Debugging], GetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, GetImagePathWide,IDebugSymbols3.GetImagePathWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetImagePathWide method, IDebugSymbols3::GetImagePathWide, P, S, W, a, b, d, dbgeng/IDebugSymbols3::GetImagePathWide, debugger.getimagepathwide, e, g, h, i, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,7 +136,7 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -144,7 +144,7 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
 
 
 

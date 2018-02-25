@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9677C044-354B-4575-B2EC-187D1B4E8C61
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSTOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES, _STOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], storage.stor_unit_attributes, storport/PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], STOR_UNIT_ATTRIBUTES
+ms.keywords: ",  , *, *PSTOR_UNIT_ATTRIBUTES, ,, A, B, E, I, N, O, P, PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], R, S, STOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], T, U, _, _STOR_UNIT_ATTRIBUTES, storage.stor_unit_attributes, storport/PSTOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,11 +104,11 @@ If the miniport driver supports asynchronous notifications, the <b>AsyncNotifica
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
-
-
-
 <a href="..\storport\nf-storport-storportasyncnotificationdetected.md">StorPortAsyncNotificationDetected</a>
+
+
+
+<a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
 
 
 

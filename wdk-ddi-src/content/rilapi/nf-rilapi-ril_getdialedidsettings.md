@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 088fd502-a209-4fec-bec0-9f47f61022ee
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetDialedIdSettings, RIL_GetDialedIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getdialedidsettings, rilapi/RIL_GetDialedIdSettings
+ms.keywords: ",  , D, G, I, L, R, RIL_GetDialedIdSettings, RIL_GetDialedIdSettings method [Network Drivers Starting with Windows Vista], S, _, a, d, e, g, i, l, n, netvista.ril_getdialedidsettings, rilapi/RIL_GetDialedIdSettings, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

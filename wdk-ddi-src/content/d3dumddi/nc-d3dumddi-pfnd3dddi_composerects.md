@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6a6b549-7590-4b27-b759-631fa62a76d2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.composerects, ComposeRects callback function [Display Devices], ComposeRects, PFND3DDDI_COMPOSERECTS, PFND3DDDI_COMPOSERECTS, d3dumddi/ComposeRects, UserModeDisplayDriver_Functions_fca43b4e-1c5d-46b9-a68f-928378ed22a1.xml
+ms.keywords: ComposeRects, ComposeRects callback function [Display Devices], PFND3DDDI_COMPOSERECTS, UserModeDisplayDriver_Functions_fca43b4e-1c5d-46b9-a68f-928378ed22a1.xml, d3dumddi/ComposeRects, display.composerects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

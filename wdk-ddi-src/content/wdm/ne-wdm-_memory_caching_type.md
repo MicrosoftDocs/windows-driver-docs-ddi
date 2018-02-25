@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_MEMORY_CACHING_TYPE, wdm/MmMaximumCacheType, MmUSWCCached, wdm/MmNonCachedUnordered, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/MmCached, MmNonCachedUnordered, MEMORY_CACHING_TYPE, MmHardwareCoherentCached, MmWriteCombined, wdm/MmUSWCCached, MmMaximumCacheType, MmCached, wdm/MmNonCached, MmNonCached, kernel.memory_caching_type, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MEMORY_CACHING_TYPE, wdm/MmWriteCombined, wdm/MmHardwareCoherentCached"
+ms.keywords: ",  , ,, A, C, E, G, H, I, M, MEMORY_CACHING_TYPE, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], MmCached, MmHardwareCoherentCached, MmMaximumCacheType, MmNonCached, MmNonCachedUnordered, MmUSWCCached, MmWriteCombined, N, O, P, R, T, Y, _, _MEMORY_CACHING_TYPE, kernel.memory_caching_type, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MEMORY_CACHING_TYPE, wdm/MmCached, wdm/MmHardwareCoherentCached, wdm/MmMaximumCacheType, wdm/MmNonCached, wdm/MmNonCachedUnordered, wdm/MmUSWCCached, wdm/MmWriteCombined"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -125,7 +125,7 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
+<a href="..\ntddk\nf-ntddk-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
 
 
 
@@ -133,15 +133,15 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 
 
-<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
 
 
 

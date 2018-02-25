@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5bbebf1f-ca0f-44b7-a5cd-f06b637aa3de
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/NormalWorkQueue, wdm/BackgroundWorkQueue, SuperCriticalWorkQueue, wdm/DelayedWorkQueue, DelayedWorkQueue, NormalWorkQueue, wdm/MaximumWorkQueue, wdm/WORK_QUEUE_TYPE, BackgroundWorkQueue, wdm/RealTimeWorkQueue, kernel.work_queue_type, CustomPriorityWorkQueue, wdm/CustomPriorityWorkQueue, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/CriticalWorkQueue, HyperCriticalWorkQueue, WORK_QUEUE_TYPE, wdm/SuperCriticalWorkQueue, CriticalWorkQueue, RealTimeWorkQueue, MaximumWorkQueue, wdm/HyperCriticalWorkQueue, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, _WORK_QUEUE_TYPE
+ms.keywords: ",  , ,, BackgroundWorkQueue, CriticalWorkQueue, CustomPriorityWorkQueue, DelayedWorkQueue, E, HyperCriticalWorkQueue, K, MaximumWorkQueue, NormalWorkQueue, O, P, Q, R, RealTimeWorkQueue, SuperCriticalWorkQueue, T, U, W, WORK_QUEUE_TYPE, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], Y, _, _WORK_QUEUE_TYPE, kernel.work_queue_type, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, wdm/BackgroundWorkQueue, wdm/CriticalWorkQueue, wdm/CustomPriorityWorkQueue, wdm/DelayedWorkQueue, wdm/HyperCriticalWorkQueue, wdm/MaximumWorkQueue, wdm/NormalWorkQueue, wdm/RealTimeWorkQueue, wdm/SuperCriticalWorkQueue, wdm/WORK_QUEUE_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -143,11 +143,11 @@ For more information about system worker threads, see <a href="https://msdn.micr
 
 
 
-<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn683917">IoTryQueueWorkItem</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
 
 
 

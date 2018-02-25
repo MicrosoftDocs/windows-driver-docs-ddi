@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b8f53d7-361c-40a3-b93c-39e653bd9032
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl3::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::ExecuteCommandFile, ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], debugger.executecommandfile, ExecuteCommandFile method [Windows Debugging], IDebugControl2 interface, IDebugControl_61c4589a-321e-4574-8565-87bdc7b36a73.xml, IDebugControl2 interface [Windows Debugging], ExecuteCommandFile method, dbgeng/IDebugControl2::ExecuteCommandFile, IDebugControl3, IDebugControl, IDebugControl2, IDebugControl2::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], ExecuteCommandFile method, IDebugControl::ExecuteCommandFile, IDebugControl interface [Windows Debugging], ExecuteCommandFile method, dbgeng/IDebugControl::ExecuteCommandFile
+ms.keywords: ",  , ,, ., 3, :, C, D, E, ExecuteCommandFile method [Windows Debugging], ExecuteCommandFile method [Windows Debugging], IDebugControl interface, ExecuteCommandFile method [Windows Debugging], IDebugControl2 interface, ExecuteCommandFile method [Windows Debugging], IDebugControl3 interface, ExecuteCommandFile,IDebugControl.ExecuteCommandFile, ExecuteCommandFile,IDebugControl2.ExecuteCommandFile, ExecuteCommandFile,IDebugControl3.ExecuteCommandFile, F, I, IDebugControl, IDebugControl interface [Windows Debugging], ExecuteCommandFile method, IDebugControl2, IDebugControl2 interface [Windows Debugging], ExecuteCommandFile method, IDebugControl2::ExecuteCommandFile, IDebugControl3, IDebugControl3 interface [Windows Debugging], ExecuteCommandFile method, IDebugControl3::ExecuteCommandFile, IDebugControl::ExecuteCommandFile, IDebugControl_61c4589a-321e-4574-8565-87bdc7b36a73.xml, a, b, c, d, dbgeng/IDebugControl2::ExecuteCommandFile, dbgeng/IDebugControl3::ExecuteCommandFile, dbgeng/IDebugControl::ExecuteCommandFile, debugger.executecommandfile, e, g, i, l, m, n, o, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,11 +125,7 @@ This method reads the specified file and execute the commands one line at a time
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -137,7 +133,11 @@ This method reads the specified file and execute the commands one line at a time
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
 
 
 

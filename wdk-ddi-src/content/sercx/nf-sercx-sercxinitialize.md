@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2837C3BE-71EB-4949-AB46-5333CF4575A8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1/SerCxInitialize, serports.sercxinitialize, SerCxInitialize, SerCxInitialize method [Serial Ports]
+ms.keywords: ",  , 1/SerCxInitialize, C, I, S, SerCxInitialize, SerCxInitialize method [Serial Ports], a, e, i, l, n, r, serports.sercxinitialize, t, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,11 +139,11 @@ This routine must be called before committing the device (returning from <a href
 
 
 
-<a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
+
+
+
+<a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
 
 
 

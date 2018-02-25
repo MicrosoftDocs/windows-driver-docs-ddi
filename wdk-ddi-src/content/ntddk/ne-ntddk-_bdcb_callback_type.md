@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 22698DF4-7B8C-40B8-9B07-EEDCC03D0D0F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/BdCbInitializeImage, *PBDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE enumeration [Kernel-Mode Driver Architecture], BDCB_CALLBACK_TYPE, ntddk/BDCB_CALLBACK_TYPE, BdCbInitializeImage, _BDCB_CALLBACK_TYPE, BdCbStatusUpdate, kernel.bdcb_callback_type, ntddk/BdCbStatusUpdate
+ms.keywords: ",  , *, *PBDCB_CALLBACK_TYPE, ,, A, B, BDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbInitializeImage, BdCbStatusUpdate, C, D, E, K, L, P, T, Y, _, _BDCB_CALLBACK_TYPE, kernel.bdcb_callback_type, ntddk/BDCB_CALLBACK_TYPE, ntddk/BdCbInitializeImage, ntddk/BdCbStatusUpdate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

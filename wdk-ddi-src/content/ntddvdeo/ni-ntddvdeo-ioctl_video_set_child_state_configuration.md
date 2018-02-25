@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae70c0e5-0ce0-4e44-983c-9bc0f9a1f600
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_set_child_state_configuration, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control code [Display Devices], IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION, ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION, Video_IOCTLs_bd76ef78-623a-4f72-b0fd-1ac70b211a98.xml
+ms.keywords: IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control code [Display Devices], Video_IOCTLs_bd76ef78-623a-4f72-b0fd-1ac70b211a98.xml, display.ioctl_video_set_child_state_configuration, ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -124,11 +124,11 @@ The miniport driver sets the <b>Status</b> member to NO_ERROR if it is capable o
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
-
-
-
 <a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
 
 
 

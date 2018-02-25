@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b2c70976-00ce-4563-af60-0bbdd1a65540
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbTargetDeviceGetDeviceDescriptor, kmdf.wdfusbtargetdevicegetdevicedescriptor, wdf.wdfusbtargetdevicegetdevicedescriptor, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method, DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml
+ms.keywords: ",  , D, DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml, G, T, U, W, WdfUsbTargetDeviceGetDeviceDescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdevicegetdevicedescriptor, o, p, r, s, t, v, wdf.wdfusbtargetdevicegetdevicedescriptor, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,11 +128,11 @@ WdfUsbTargetDeviceGetDeviceDescriptor(
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 

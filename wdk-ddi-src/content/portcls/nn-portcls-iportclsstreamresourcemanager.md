@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: FC13CB2E-2027-4BCE-AEEE-346CB0784819
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iportclsstreamresourcemanager, IPortClsStreamResourceManager interface [Audio Devices], IPortClsStreamResourceManager interface [Audio Devices], described, IPortClsStreamResourceManager, portcls/IPortClsStreamResourceManager
+ms.keywords: IPortClsStreamResourceManager, IPortClsStreamResourceManager interface [Audio Devices], IPortClsStreamResourceManager interface [Audio Devices], described, audio.iportclsstreamresourcemanager, portcls/IPortClsStreamResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

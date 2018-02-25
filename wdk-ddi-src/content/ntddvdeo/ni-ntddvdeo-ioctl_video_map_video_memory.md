@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e17502a-b5bf-4f17-8e74-1974f7e65e01
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_map_video_memory, IOCTL_VIDEO_MAP_VIDEO_MEMORY control code [Display Devices], IOCTL_VIDEO_MAP_VIDEO_MEMORY, ntddvdeo/IOCTL_VIDEO_MAP_VIDEO_MEMORY, Video_IOCTLs_8a343fc8-9ebe-4079-a175-94d39222adee.xml
+ms.keywords: IOCTL_VIDEO_MAP_VIDEO_MEMORY, IOCTL_VIDEO_MAP_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_8a343fc8-9ebe-4079-a175-94d39222adee.xml, display.ioctl_video_map_video_memory, ntddvdeo/IOCTL_VIDEO_MAP_VIDEO_MEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -120,19 +120,19 @@ If the miniport driver successfully maps the memory, it sets the <b>Information<
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
-
-
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
+<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
 
 
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
 
 
 

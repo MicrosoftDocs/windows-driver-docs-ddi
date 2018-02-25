@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 53312cb8-a974-4394-969b-2a39def64109
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SdpCreateNodeNil, bltooth.sdpcreatenodenil, sdplib/SdpCreateNodeNil, SdpCreateNodeNil function [Bluetooth Devices], bth_funcs_5f7d1244-67e0-436e-8658-8adcc2aa3a65.xml
+ms.keywords: ",  , C, N, S, SdpCreateNodeNil, SdpCreateNodeNil function [Bluetooth Devices], a, bltooth.sdpcreatenodenil, bth_funcs_5f7d1244-67e0-436e-8658-8adcc2aa3a65.xml, d, e, i, l, o, p, r, sdplib/SdpCreateNodeNil, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

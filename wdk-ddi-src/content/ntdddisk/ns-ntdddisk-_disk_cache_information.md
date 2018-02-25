@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17ea8b6b-d41f-4224-880a-49443756d0de
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], ntdddisk/DISK_CACHE_INFORMATION, ntdddisk/PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], _DISK_CACHE_INFORMATION, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml, storage.disk_cache_information"
+ms.keywords: ",  , *, *PDISK_CACHE_INFORMATION, ,, A, C, D, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], E, F, H, I, K, M, N, O, P, PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], R, S, T, _, _DISK_CACHE_INFORMATION, ntdddisk/DISK_CACHE_INFORMATION, ntdddisk/PDISK_CACHE_INFORMATION, storage.disk_cache_information, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -157,11 +157,11 @@ Contains the scalar multiplier of the transfer length of the request when <b>Pre
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
+
+
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a>
 
 
 

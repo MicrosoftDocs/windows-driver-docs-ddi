@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f7b1f2a6-d57a-44ec-b14b-8b41b020935e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_getpsmediaconfiguration, RIL_GetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetPSMediaConfiguration, RIL_GetPSMediaConfiguration
+ms.keywords: ",  , C, G, I, L, M, P, R, RIL_GetPSMediaConfiguration, RIL_GetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], S, _, a, d, e, f, g, i, n, netvista.ril_getpsmediaconfiguration, o, r, rilapi/RIL_GetPSMediaConfiguration, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

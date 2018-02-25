@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c771f360-3641-4e3e-9536-86b31af97932
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0033 structure [Display Devices], display.d3d12ddi-device-funcs-core-0033, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0033, D3D12DDI_DEVICE_FUNCS_CORE_0033
+ms.keywords: ",  , ,, 0, 1, 2, 3, C, D, D3D12DDI_DEVICE_FUNCS_CORE_0033, D3D12DDI_DEVICE_FUNCS_CORE_0033 structure [Display Devices], E, F, I, N, O, R, S, U, V, _, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0033, display.d3d12ddi-device-funcs-core-0033"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b50f462-667e-4772-89bb-32d01e1bb7fc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstatedsshadercb, pfnStateDsShaderCb callback function [Display Devices], pfnStateDsShaderCb, PFND3D11DDI_STATE_DS_SHADER_CB, PFND3D11DDI_STATE_DS_SHADER_CB, d3d10umddi/pfnStateDsShaderCb, d3d11state_functions_5ab17831-b238-4b96-89bf-84c658463597.xml
+ms.keywords: PFND3D11DDI_STATE_DS_SHADER_CB, d3d10umddi/pfnStateDsShaderCb, d3d11state_functions_5ab17831-b238-4b96-89bf-84c658463597.xml, display.pfnstatedsshadercb, pfnStateDsShaderCb, pfnStateDsShaderCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -95,11 +95,11 @@ None
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D663C47D-C59E-4210-84D8-9773A3003990
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicewdmprepofxunregisterdevice, EvtDeviceWdmPrePoFxUnregisterDevice callback function, EvtDeviceWdmPrePoFxUnregisterDevice, EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE, EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE, wdfdevice/EvtDeviceWdmPrePoFxUnregisterDevice, kmdf.evtdevicewdmprepofxunregisterdevice
+ms.keywords: EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE, EvtDeviceWdmPrePoFxUnregisterDevice, EvtDeviceWdmPrePoFxUnregisterDevice callback function, kmdf.evtdevicewdmprepofxunregisterdevice, wdf.evtdevicewdmprepofxunregisterdevice, wdfdevice/EvtDeviceWdmPrePoFxUnregisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

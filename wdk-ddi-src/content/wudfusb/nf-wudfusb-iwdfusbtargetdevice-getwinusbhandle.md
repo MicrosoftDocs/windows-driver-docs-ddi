@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 458cbe27-be75-49f4-9849-969d881e0cd2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfusbtargetdevice_getwinusbhandle, IWDFUsbTargetDevice, umdf.iwdfusbtargetdevice_getwinusbhandle, GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, GetWinUsbHandle method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface, GetWinUsbHandle method, GetWinUsbHandle method, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle, IWDFUsbTargetDevice::GetWinUsbHandle
+ms.keywords: ",  , ,, ., :, D, F, G, GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbTargetDevice interface, GetWinUsbHandle,IWDFUsbTargetDevice.GetWinUsbHandle, H, I, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, GetWinUsbHandle method, IWDFUsbTargetDevice::GetWinUsbHandle, T, U, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, W, a, b, c, d, e, g, i, l, n, r, s, t, umdf.iwdfusbtargetdevice_getwinusbhandle, v, wdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,11 +94,11 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
 
 
 

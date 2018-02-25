@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 951b688f-21fa-4555-b877-e140e46a1700
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/WRITE_PORT_UCHAR, WRITE_PORT_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_PORT_UCHAR, kernel.write_port_uchar, k103_1495098b-03fb-4677-ac5a-2a1de9223f8b.xml
+ms.keywords: ",  , A, C, E, H, I, O, P, R, T, U, W, WRITE_PORT_UCHAR, WRITE_PORT_UCHAR routine [Kernel-Mode Driver Architecture], _, k103_1495098b-03fb-4677-ac5a-2a1de9223f8b.xml, kernel.write_port_uchar, wdm/WRITE_PORT_UCHAR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

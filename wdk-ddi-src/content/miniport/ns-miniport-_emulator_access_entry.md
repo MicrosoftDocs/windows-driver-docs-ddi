@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 966922b6-fa83-491e-bf03-848f798ebc69
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: miniport/EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, miniport/PEMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY, display.emulator_access_entry, _EMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], EMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY
+ms.keywords: ",  , *, *PEMULATOR_ACCESS_ENTRY, ,, A, C, E, EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], L, M, N, O, P, PEMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], R, S, T, U, Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, Y, _, _EMULATOR_ACCESS_ENTRY, display.emulator_access_entry, miniport/EMULATOR_ACCESS_ENTRY, miniport/PEMULATOR_ACCESS_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,11 +124,11 @@ Data in each EMULATOR_ACCESS_ENTRY-type element is used to determine which I/O p
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
+
+
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 
 
@@ -136,11 +136,11 @@ Data in each EMULATOR_ACCESS_ENTRY-type element is used to determine which I/O p
 
 
 
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-
-
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 
 

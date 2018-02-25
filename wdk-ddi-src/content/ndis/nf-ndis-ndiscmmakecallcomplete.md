@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2c1f849-daf0-479c-9f1d-906149ac550e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiscmmakecallcomplete, NdisCmMakeCallComplete, condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCmMakeCallComplete
+ms.keywords: ",  , C, M, N, NdisCmMakeCallComplete, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista], a, condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, d, e, i, k, l, m, ndis/NdisCmMakeCallComplete, netvista.ndiscmmakecallcomplete, o, p, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -180,7 +180,15 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+<a href="..\ndis\nf-ndis-ndismcmmakecallcomplete.md">NdisMCmMakeCallComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
@@ -189,7 +197,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
 
 
@@ -197,15 +205,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmmakecallcomplete.md">NdisMCmMakeCallComplete</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 947063C6-563A-4BB7-918E-479941B4583F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OnPrinterQueuesEnumerated method [Print Devices], IPrinterExtensionEvent interface, IPrinterExtensionEvent interface [Print Devices], OnPrinterQueuesEnumerated method, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated, print.iprinterextensionevent_onprinterqueuesenumerated, IPrinterExtensionEvent, OnPrinterQueuesEnumerated method [Print Devices], printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated
+ms.keywords: ",  , ,, ., :, E, I, IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], OnPrinterQueuesEnumerated method, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, O, OnPrinterQueuesEnumerated method [Print Devices], OnPrinterQueuesEnumerated method [Print Devices], IPrinterExtensionEvent interface, OnPrinterQueuesEnumerated,IPrinterExtensionEvent.OnPrinterQueuesEnumerated, P, Q, a, d, e, i, m, n, o, print.iprinterextensionevent_onprinterqueuesenumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated, r, s, t, u, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,15 +93,15 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
 
 
 
 <a href="..\printerextension\nn-printerextension-iprinterextensionevent.md">IPrinterExtensionEvent</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 976b812e-deb2-445f-b69d-e00d10c6e5d8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: pmi/PPMI_CONFIGURATION, *PPMI_CONFIGURATION, powermeter.pmi_configuration, pmi/PMI_CONFIGURATION, PPMI_CONFIGURATION, PMI_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_f3279ebc-cd57-40e8-8571-a7d0d6bf3edc.xml, _PMI_CONFIGURATION, PMI_CONFIGURATION
+ms.keywords: ",  , *, *PPMI_CONFIGURATION, ,, A, C, F, G, I, M, N, O, P, PMI_CONFIGURATION, PMI_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_CONFIGURATION, PPMI_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_f3279ebc-cd57-40e8-8571-a7d0d6bf3edc.xml, R, T, U, _, _PMI_CONFIGURATION, pmi/PMI_CONFIGURATION, pmi/PPMI_CONFIGURATION, powermeter.pmi_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,7 +149,7 @@ The <b>Configuration</b> member contains data that is  formatted as a <a href=".
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
 
 
 
@@ -161,7 +161,7 @@ The <b>Configuration</b> member contains data that is  formatted as a <a href=".
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
 
 
 

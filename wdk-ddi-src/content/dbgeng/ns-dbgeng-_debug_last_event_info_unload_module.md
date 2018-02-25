@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: D569C1DD-0ACB-41AA-8589-BD4332006CA2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, debugger.debug_last_event_info_unload_module, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure pointer [Windows Debugging], dbgeng/PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure [Windows Debugging]"
+ms.keywords: ",  , *, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, ,, A, B, D, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure [Windows Debugging], E, F, G, I, L, M, N, O, P, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure pointer [Windows Debugging], S, T, U, V, _, _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, debugger.debug_last_event_info_unload_module"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

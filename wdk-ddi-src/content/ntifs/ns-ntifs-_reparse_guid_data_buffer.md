@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9acb3b65-46c7-4b29-8d7a-c5d8fcd4563d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.reparse_guid_data_buffer, REPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER, _REPARSE_GUID_DATA_BUFFER, ntifs/PREPARSE_GUID_DATA_BUFFER, fileinformationstructures_d020fad8-2a4b-4fe6-a1ca-bbf7575418b5.xml, *PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER structure pointer [Installable File System Drivers], REPARSE_GUID_DATA_BUFFER structure [Installable File System Drivers], ntifs/REPARSE_GUID_DATA_BUFFER
+ms.keywords: ",  , *, *PREPARSE_GUID_DATA_BUFFER, ,, A, B, D, E, F, G, I, P, PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER structure pointer [Installable File System Drivers], R, REPARSE_GUID_DATA_BUFFER, REPARSE_GUID_DATA_BUFFER structure [Installable File System Drivers], S, T, U, _, _REPARSE_GUID_DATA_BUFFER, fileinformationstructures_d020fad8-2a4b-4fe6-a1ca-bbf7575418b5.xml, ifsk.reparse_guid_data_buffer, ntifs/PREPARSE_GUID_DATA_BUFFER, ntifs/REPARSE_GUID_DATA_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,7 +125,19 @@ For more information about reparse points and reparse point tags, see the Window
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
 
 
 
@@ -137,31 +149,7 @@ For more information about reparse points and reparse point tags, see the Window
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
 
 
 
@@ -169,7 +157,19 @@ For more information about reparse points and reparse point tags, see the Window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
+<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
 
 
 

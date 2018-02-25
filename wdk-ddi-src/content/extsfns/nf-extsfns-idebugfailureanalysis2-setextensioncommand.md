@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 741B3D1F-FA7B-4260-AD0C-461D76605CBA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: extsfns/IDebugFailureAnalysis2::SetExtensionCommand, IDebugFailureAnalysis2 interface [Windows Debugging], SetExtensionCommand method, SetExtensionCommand method [Windows Debugging], IDebugFailureAnalysis2 interface, SetExtensionCommand, SetExtensionCommand method [Windows Debugging], IDebugFailureAnalysis2::SetExtensionCommand, debugger.idebugfailureanalysis2_setextensioncommand, IDebugFailureAnalysis2
+ms.keywords: ",  , ,, ., 2, :, A, C, D, E, F, I, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], SetExtensionCommand method, IDebugFailureAnalysis2::SetExtensionCommand, S, SetExtensionCommand method [Windows Debugging], SetExtensionCommand method [Windows Debugging], IDebugFailureAnalysis2 interface, SetExtensionCommand,IDebugFailureAnalysis2.SetExtensionCommand, a, b, d, debugger.idebugfailureanalysis2_setextensioncommand, e, extsfns/IDebugFailureAnalysis2::SetExtensionCommand, g, i, l, m, n, o, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,7 +104,7 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -112,7 +112,7 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 

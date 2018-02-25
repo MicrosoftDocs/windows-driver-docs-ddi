@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: FD78074D-E128-4085-A178-0133C9256E42
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCX_CONTROLLER_PARENT_BUS_TYPE enumeration [Buses], ucxcontroller/UcxControllerParentBusTypeAcpi, UCX_CONTROLLER_PARENT_BUS_TYPE, ucxcontroller/UcxControllerParentBusTypeCustom, ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE, UcxControllerParentBusTypePci, buses.ucx_controller_parent_bus_type, _UCX_CONTROLLER_PARENT_BUS_TYPE, ucxcontroller/UcxControllerParentBusTypePci, UcxControllerParentBusTypeAcpi, UcxControllerParentBusTypeCustom
+ms.keywords: ",  , ,, A, B, C, E, L, N, O, P, R, S, T, U, UCX_CONTROLLER_PARENT_BUS_TYPE, UCX_CONTROLLER_PARENT_BUS_TYPE enumeration [Buses], UcxControllerParentBusTypeAcpi, UcxControllerParentBusTypeCustom, UcxControllerParentBusTypePci, X, Y, _, _UCX_CONTROLLER_PARENT_BUS_TYPE, buses.ucx_controller_parent_bus_type, ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE, ucxcontroller/UcxControllerParentBusTypeAcpi, ucxcontroller/UcxControllerParentBusTypeCustom, ucxcontroller/UcxControllerParentBusTypePci"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

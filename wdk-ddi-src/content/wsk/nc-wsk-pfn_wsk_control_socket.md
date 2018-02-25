@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskcontrolsocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], WskControlSocket, PFN_WSK_CONTROL_SOCKET, PFN_WSK_CONTROL_SOCKET, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
+ms.keywords: PFN_WSK_CONTROL_SOCKET, WskControlSocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolsocket, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -361,15 +361,7 @@ Callers of the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
@@ -378,11 +370,15 @@ Callers of the
 
 
 
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
@@ -391,7 +387,11 @@ Callers of the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
 
 
 

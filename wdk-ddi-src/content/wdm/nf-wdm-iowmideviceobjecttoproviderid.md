@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 211d41ae-18d3-4ca5-b9f5-868d97fab6fb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoWMIDeviceObjectToProviderId, wdm/IoWMIDeviceObjectToProviderId, k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], kernel.iowmideviceobjecttoproviderid
+ms.keywords: ",  , D, I, IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], M, O, P, T, W, b, c, d, e, i, j, k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml, kernel.iowmideviceobjecttoproviderid, o, r, t, v, wdm/IoWMIDeviceObjectToProviderId"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,15 +95,15 @@ When running on a 32-bit operating system, the provider ID and the device object
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
 
 
 
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 

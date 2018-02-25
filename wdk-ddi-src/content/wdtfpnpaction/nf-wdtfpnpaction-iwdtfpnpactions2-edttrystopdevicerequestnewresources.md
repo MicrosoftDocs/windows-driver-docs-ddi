@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 20f1ff95-55d3-46d2-816b-edf2b42e6e86
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFPNPActions2, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTTryStopDeviceRequestNewResources, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method, IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpactions2_edttrystopdevicerequestnewresources
+ms.keywords: ",  , ,, ., 2, :, A, D, E, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTTryStopDeviceRequestNewResources,IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources, F, I, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method, IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources, N, P, R, S, T, W, c, dtf.iwdtfpnpactions2_edttrystopdevicerequestnewresources, e, i, n, o, p, q, r, s, t, u, v, w, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

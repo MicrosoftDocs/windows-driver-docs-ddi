@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f43137ed-2ea3-4b7c-8d61-bda76bcb5f34
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml, ndis/NdisMRestartComplete, NdisMRestartComplete, netvista.ndismrestartcomplete, NdisMRestartComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , C, M, N, NdisMRestartComplete, NdisMRestartComplete function [Network Drivers Starting with Windows Vista], R, a, d, e, i, l, m, miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml, ndis/NdisMRestartComplete, netvista.ndismrestartcomplete, o, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

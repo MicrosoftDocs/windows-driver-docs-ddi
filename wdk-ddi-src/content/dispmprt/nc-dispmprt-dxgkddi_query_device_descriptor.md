@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0dfcc012-9fff-40b6-b71f-da2ca229896c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiquerydevicedescriptor, DxgkDdiQueryDeviceDescriptor callback function [Display Devices], DxgkDdiQueryDeviceDescriptor, DXGKDDI_QUERY_DEVICE_DESCRIPTOR, DXGKDDI_QUERY_DEVICE_DESCRIPTOR, dispmprt/DxgkDdiQueryDeviceDescriptor, DmFunctions_84688704-46fd-40d6-993e-298c6d3d5dcd.xml
+ms.keywords: DXGKDDI_QUERY_DEVICE_DESCRIPTOR, DmFunctions_84688704-46fd-40d6-993e-298c6d3d5dcd.xml, DxgkDdiQueryDeviceDescriptor, DxgkDdiQueryDeviceDescriptor callback function [Display Devices], display.dxgkddiquerydevicedescriptor, dispmprt/DxgkDdiQueryDeviceDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -167,15 +167,15 @@ The <i>DxgkDdiQueryDeviceDescriptor</i> function can be called several times for
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
 
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
 
 

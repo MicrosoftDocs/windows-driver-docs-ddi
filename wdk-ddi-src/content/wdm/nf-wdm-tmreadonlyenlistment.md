@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7d375152-c1d2-4e6d-a6a8-7394a7ef0e35
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TmReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_fbd80117-d891-4e06-b271-5d838e7ecab0.xml, kernel.tmreadonlyenlistment, wdm/TmReadOnlyEnlistment, TmReadOnlyEnlistment
+ms.keywords: ",  , E, O, R, T, TmReadOnlyEnlistment, TmReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], a, d, e, i, kernel.tmreadonlyenlistment, ktm_ref_fbd80117-d891-4e06-b271-5d838e7ecab0.xml, l, m, n, s, t, wdm/TmReadOnlyEnlistment, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,15 +124,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-zwreadonlyenlistment.md">ZwReadOnlyEnlistment</a>
 
 
 
@@ -144,7 +136,15 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
-<a href="..\wdm\nf-wdm-zwreadonlyenlistment.md">ZwReadOnlyEnlistment</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 

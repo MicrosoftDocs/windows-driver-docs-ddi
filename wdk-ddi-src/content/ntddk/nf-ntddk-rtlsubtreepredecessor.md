@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 19c1bea8-dba7-45a5-9620-0d6a928019ce
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlsubtreepredecessor, RtlSubtreePredecessor, ntddk/RtlSubtreePredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml, RtlSubtreePredecessor routine [Installable File System Drivers]
+ms.keywords: ",  , P, R, RtlSubtreePredecessor, RtlSubtreePredecessor routine [Installable File System Drivers], S, b, c, d, e, ifsk.rtlsubtreepredecessor, l, ntddk/RtlSubtreePredecessor, o, r, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,11 @@ Callers of <b>RtlSubtreePredecessor</b> must be running at IRQL &lt;= DISPATCH_L
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 

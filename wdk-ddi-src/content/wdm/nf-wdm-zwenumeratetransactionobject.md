@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, wdm/NtEnumerateTransactionObject, wdm/ZwEnumerateTransactionObject, kernel.zwenumeratetransactionobject, NtEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], ZwEnumerateTransactionObject
+ms.keywords: ",  , E, NtEnumerateTransactionObject, O, T, Z, ZwEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], a, b, c, e, i, j, kernel.zwenumeratetransactionobject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, m, n, o, r, s, t, u, w, wdm/NtEnumerateTransactionObject, wdm/ZwEnumerateTransactionObject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

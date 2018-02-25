@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 205d0f4e-0a10-4e0e-8fea-4f1e5ed8c701
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: etw_km_04787c1b-049f-4b92-b75c-3da660d51164.xml, wdm/EtwUnregister, EtwUnregister function [Driver Development Tools], devtest.etwunregister, EtwUnregister
+ms.keywords: ",  , E, EtwUnregister, EtwUnregister function [Driver Development Tools], U, devtest.etwunregister, e, etw_km_04787c1b-049f-4b92-b75c-3da660d51164.xml, g, i, n, r, s, t, w, wdm/EtwUnregister"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ce983953-53fc-4a32-8072-8a9f74d11ae3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_37d4bd5d-6090-49b8-ab45-c898871f22e8.xml, kernel.iogetdriverobjectextension, IoGetDriverObjectExtension, wdm/IoGetDriverObjectExtension, IoGetDriverObjectExtension routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , D, E, G, I, IoGetDriverObjectExtension, IoGetDriverObjectExtension routine [Kernel-Mode Driver Architecture], O, b, c, e, i, j, k104_37d4bd5d-6090-49b8-ab45-c898871f22e8.xml, kernel.iogetdriverobjectextension, n, o, r, s, t, v, wdm/IoGetDriverObjectExtension, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25bd13de-cbac-408f-b985-e131499f05f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, ntifs/FsRtlRegisterUncProvider, FsRtlRegisterUncProvider, ifsk.fsrtlregisteruncprovider, FsRtlRegisterUncProvider routine [Installable File System Drivers]
+ms.keywords: ",  , F, FsRtlRegisterUncProvider, FsRtlRegisterUncProvider routine [Installable File System Drivers], P, R, U, c, d, e, fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, g, i, ifsk.fsrtlregisteruncprovider, l, n, ntifs/FsRtlRegisterUncProvider, o, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -235,11 +235,7 @@ For more information, see the following sections in the Design Guide:
 
 ## -see-also
 
-<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
 
 
 
@@ -247,7 +243,11 @@ For more information, see the following sections in the Design Guide:
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
+<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 

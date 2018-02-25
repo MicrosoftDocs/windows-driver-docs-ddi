@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2B3C52FD-80D7-4ECA-9B33-7916FB47B0B2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltclosesectionfordatascan, fltkernel/FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], FltCloseSectionForDataScan
+ms.keywords: ",  , C, D, F, FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], S, a, c, e, fltkernel/FltCloseSectionForDataScan, i, ifsk.fltclosesectionfordatascan, l, n, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,15 +125,15 @@ After <b>FltCloseSectionForDataScan</b> returns, operations that conflict with t
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c97fcbba-a127-4974-bda7-47456c05558f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_CALLHANDOVERPHASE_MAX, ntddrilapitypes/RIL_CALLHANDOVERPHASE_FAILED, RIL_CALLHANDOVERPHASE_FAILED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_COMPLETED, RILCALLHANDOVERPHASE, ntddrilapitypes/RILCALLHANDOVERPHASE, ntddrilapitypes/RIL_CALLHANDOVERPHASE_MAX, netvista.rilcallhandoverphase, RIL_CALLHANDOVERPHASE_COMPLETED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_CANCELLED, RIL_CALLHANDOVERPHASE_CANCELLED, RILCALLHANDOVERPHASE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , ,, A, C, D, E, H, I, L, N, O, P, R, RILCALLHANDOVERPHASE, RILCALLHANDOVERPHASE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLHANDOVERPHASE_CANCELLED, RIL_CALLHANDOVERPHASE_COMPLETED, RIL_CALLHANDOVERPHASE_FAILED, RIL_CALLHANDOVERPHASE_MAX, S, V, netvista.rilcallhandoverphase, ntddrilapitypes/RILCALLHANDOVERPHASE, ntddrilapitypes/RIL_CALLHANDOVERPHASE_CANCELLED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_COMPLETED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_FAILED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_MAX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

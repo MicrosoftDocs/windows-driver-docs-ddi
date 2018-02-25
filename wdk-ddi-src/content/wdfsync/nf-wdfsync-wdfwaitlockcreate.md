@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a0ffa493-4490-440b-9f67-426a7b5d4442
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFSynchroRef_19d02cf5-4fa3-449c-8913-4a5ff80bd578.xml, wdf.wdfwaitlockcreate, wdfsync/WdfWaitLockCreate, kmdf.wdfwaitlockcreate, WdfWaitLockCreate method, WdfWaitLockCreate
+ms.keywords: ",  , C, DFSynchroRef_19d02cf5-4fa3-449c-8913-4a5ff80bd578.xml, L, W, WdfWaitLockCreate, WdfWaitLockCreate method, a, c, d, e, f, i, k, kmdf.wdfwaitlockcreate, o, r, t, wdf.wdfwaitlockcreate, wdfsync/WdfWaitLockCreate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,11 +135,7 @@ status = WdfWaitLockCreate(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
-
-
-
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -147,7 +143,11 @@ status = WdfWaitLockCreate(
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 

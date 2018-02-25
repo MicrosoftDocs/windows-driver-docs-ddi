@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19a0eec7-1a67-42ad-86d2-20566a2c1268
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, OnRemoteInterfaceArrival, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, IPnpCallbackRemoteInterfaceNotification, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method
+ms.keywords: ",  , ,, ., :, A, C, I, IPnpCallbackRemoteInterfaceNotification, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, N, O, OnRemoteInterfaceArrival method, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival,IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival, P, R, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, a, b, c, e, f, i, k, l, m, n, o, p, r, t, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, v, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,14 +116,6 @@ For more information about using remote interface objects to access device inter
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackremoteinterfacenotification.md">IPnpCallbackRemoteInterfaceNotification</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
 
 
@@ -133,6 +125,14 @@ For more information about using remote interface objects to access device inter
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackremoteinterfacenotification.md">IPnpCallbackRemoteInterfaceNotification</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DE7A88BA-2E59-4E8C-B315-CA6260E3D68E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dwddm1_3ddi_devicefuncs, d3d10umddi/D3D11_1DDI_DEVICEFUNCS, D3DWDDM1_3DDI_DEVICEFUNCS structure [Display Devices], D3D11_1DDI_DEVICEFUNCS, D3D11_1DDI_DEVICEFUNCS structure [Display Devices], D3DWDDM1_3DDI_DEVICEFUNCS
+ms.keywords: ",  , ,, 1, 3, C, D, D3D11_1DDI_DEVICEFUNCS, D3D11_1DDI_DEVICEFUNCS structure [Display Devices], D3DWDDM1_3DDI_DEVICEFUNCS, D3DWDDM1_3DDI_DEVICEFUNCS structure [Display Devices], E, F, I, M, N, S, U, V, W, _, d3d10umddi/D3D11_1DDI_DEVICEFUNCS, display.d3dwddm1_3ddi_devicefuncs"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -1075,10 +1075,6 @@ The <b>pfnResetPrimitiveID</b> and  <b>pfnSetVertexPipelineOutput</b> members (n
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_relocatedevicefuncs.md">RelocateDeviceFuncs(D3D11_2)</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
 
 
@@ -1088,6 +1084,10 @@ The <b>pfnResetPrimitiveID</b> and  <b>pfnSetVertexPipelineOutput</b> members (n
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_relocatedevicefuncs.md">RelocateDeviceFuncs(D3D11_2)</a>
 
 
 

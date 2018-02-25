@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1e407bcc-0a2b-42fa-982d-8ab0f12f082b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.csqinsertirpex, CsqInsertIrpEx routine [Kernel-Mode Driver Architecture], CsqInsertIrpEx, IO_CSQ_INSERT_IRP_EX, IO_CSQ_INSERT_IRP_EX, wdm/CsqInsertIrpEx, DrvrRtns_8914d2b4-6049-4d81-8f5f-4458b8bff2ed.xml
+ms.keywords: CsqInsertIrpEx, CsqInsertIrpEx routine [Kernel-Mode Driver Architecture], DrvrRtns_8914d2b4-6049-4d81-8f5f-4458b8bff2ed.xml, IO_CSQ_INSERT_IRP_EX, kernel.csqinsertirpex, wdm/CsqInsertIrpEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -151,11 +151,27 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
+<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
 
 
 
@@ -163,7 +179,15 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
+<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
 
 
 
@@ -175,31 +199,7 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
+<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
 
 
 

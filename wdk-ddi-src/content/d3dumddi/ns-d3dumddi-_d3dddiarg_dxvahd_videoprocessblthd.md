@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16eb6131-89d5-48da-b5f8-f51b9c37e061
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, display.d3dddiarg_dxvahd_videoprocessblthd, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure [Display Devices], UMDisplayDriver_param_Structs_8a72018a-706f-4c26-adca-109365e03ff1.xml"
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure [Display Devices], E, G, H, I, L, O, P, R, S, T, UMDisplayDriver_param_Structs_8a72018a-706f-4c26-adca-109365e03ff1.xml, V, X, _, _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, display.d3dddiarg_dxvahd_videoprocessblthd"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,7 +131,7 @@ Input streams are indexed from zero to less than the number that the driver sets
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
 
 
 
@@ -143,7 +143,7 @@ Input streams are indexed from zero to less than the number that the driver sets
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9C21732B-0AB1-4F3E-8F3D-F0B12007920A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.dot4_dc_create_data, d4drvif/PDOT4_DC_CREATE_DATA, _DOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA, *PDOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA structure pointer [Print Devices], d4drvif/DOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA structure [Print Devices]
+ms.keywords: ",  , *, *PDOT4_DC_CREATE_DATA, ,, 4, A, C, D, DOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA structure [Print Devices], E, O, P, PDOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA structure pointer [Print Devices], R, T, _, _DOT4_DC_CREATE_DATA, d4drvif/DOT4_DC_CREATE_DATA, d4drvif/PDOT4_DC_CREATE_DATA, print.dot4_dc_create_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

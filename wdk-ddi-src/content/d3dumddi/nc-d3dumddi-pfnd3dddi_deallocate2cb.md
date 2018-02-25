@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 68C7EC44-D744-4C69-86D9-35B3B089875A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfndeallocate2cb, pfnDeallocate2Cb callback function [Display Devices], pfnDeallocate2Cb, PFND3DDDI_DEALLOCATE2CB, PFND3DDDI_DEALLOCATE2CB, d3dumddi/pfnDeallocate2Cb
+ms.keywords: PFND3DDDI_DEALLOCATE2CB, d3dumddi/pfnDeallocate2Cb, display.pfndeallocate2cb, pfnDeallocate2Cb, pfnDeallocate2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -146,11 +146,11 @@ If an application or UMD would like to ensure allocation memory is reclaimed pri
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_deallocate2.md">D3DDDICB_DEALLOCATE2</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_deallocate2.md">D3DDDICB_DEALLOCATE2</a>
 
 
 

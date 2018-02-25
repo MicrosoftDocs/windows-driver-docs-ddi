@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb2fd11c-c6a5-4499-a340-f96ffcfbbe0f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_TASK_SEND_OPTIONS structure, *PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS, _WDF_TASK_SEND_OPTIONS, wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS structure pointer, WDF_TASK_SEND_OPTIONS, wdf.wdf_task_send_options
+ms.keywords: ",  , *, *PWDF_TASK_SEND_OPTIONS, ,, A, D, E, F, I, K, N, O, P, PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS structure pointer, S, T, W, WDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS structure, _, _WDF_TASK_SEND_OPTIONS, wdf.wdf_task_send_options, wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

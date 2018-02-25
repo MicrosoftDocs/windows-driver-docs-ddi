@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1D47C803-693B-4205-9D25-82489BFEC82C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], *PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE, pepfx/PEP_PREPARE_DEVICE, kernel.pep_prepare_device, _PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PPEP_PREPARE_DEVICE, ,, A, C, D, E, I, P, PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], R, V, _, _PEP_PREPARE_DEVICE, kernel.pep_prepare_device, pepfx/PEP_PREPARE_DEVICE, pepfx/PPEP_PREPARE_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186832">PEP_DPM_PREPARE_DEVICE</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186832">PEP_DPM_PREPARE_DEVICE</a>
 
 
 

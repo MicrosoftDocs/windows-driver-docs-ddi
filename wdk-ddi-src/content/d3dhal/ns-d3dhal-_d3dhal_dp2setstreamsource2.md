@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a8e1ea01-2050-413a-991f-55c29977b6dd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DHAL_DP2SETSTREAMSOURCE2 structure [Display Devices], d3dstrct_81c5d4ff-bd3e-4f52-a062-c30755da9416.xml, LPD3DHAL_DP2SETSTREAMSOURCE2 structure pointer [Display Devices], display.d3dhal_dp2setstreamsource2, LPD3DHAL_DP2SETSTREAMSOURCE2, D3DHAL_DP2SETSTREAMSOURCE2, *LPD3DHAL_DP2SETSTREAMSOURCE2, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE2, _D3DHAL_DP2SETSTREAMSOURCE2, d3dhal/D3DHAL_DP2SETSTREAMSOURCE2
+ms.keywords: ",  , *, *LPD3DHAL_DP2SETSTREAMSOURCE2, ,, 2, 3, A, C, D, D3DHAL_DP2SETSTREAMSOURCE2, D3DHAL_DP2SETSTREAMSOURCE2 structure [Display Devices], E, H, L, LPD3DHAL_DP2SETSTREAMSOURCE2, LPD3DHAL_DP2SETSTREAMSOURCE2 structure pointer [Display Devices], M, O, P, R, S, T, U, _, _D3DHAL_DP2SETSTREAMSOURCE2, d3dhal/D3DHAL_DP2SETSTREAMSOURCE2, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE2, d3dstrct_81c5d4ff-bd3e-4f52-a062-c30755da9416.xml, display.d3dhal_dp2setstreamsource2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,11 +96,11 @@ Specifies the vertex size in bytes.
 
 ## -see-also
 
-D3DDP2OP_SETSTREAMSOURCE2
-
-
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+D3DDP2OP_SETSTREAMSOURCE2
 
 
 

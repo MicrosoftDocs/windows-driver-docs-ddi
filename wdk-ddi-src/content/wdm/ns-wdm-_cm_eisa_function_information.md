@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06034776-4faf-4918-b9ec-bc095455cf14
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.cm_eisa_function_information, CM_EISA_FUNCTION_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_a_0ecf5914-f26d-415f-b410-ff2f131b2b08.xml, CM_EISA_FUNCTION_INFORMATION, wdm/CM_EISA_FUNCTION_INFORMATION, *PCM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION, _CM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PCM_EISA_FUNCTION_INFORMATION
+ms.keywords: ",  , *, *PCM_EISA_FUNCTION_INFORMATION, ,, A, C, CM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION structure [Kernel-Mode Driver Architecture], E, F, I, M, N, O, P, PCM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, S, T, U, _, _CM_EISA_FUNCTION_INFORMATION, kernel.cm_eisa_function_information, kstruct_a_0ecf5914-f26d-415f-b410-ff2f131b2b08.xml, wdm/CM_EISA_FUNCTION_INFORMATION, wdm/PCM_EISA_FUNCTION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -241,15 +241,15 @@ The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
-
-
-
 <a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37878f3a-f61e-423c-ab03-94318089f7af
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset, pfnGetAdditionalMonitorModeSet callback function [Display Devices], pfnGetAdditionalMonitorModeSet, DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET, DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET, d3dkmddi/pfnGetAdditionalMonitorModeSet, VidPnFunctions_c86b07fb-c73c-4990-86a0-15c93ba7e2dd.xml
+ms.keywords: DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET, VidPnFunctions_c86b07fb-c73c-4990-86a0-15c93ba7e2dd.xml, d3dkmddi/pfnGetAdditionalMonitorModeSet, display.dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset, pfnGetAdditionalMonitorModeSet, pfnGetAdditionalMonitorModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -178,19 +178,15 @@ This function is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_targetmode_detail_timing.md">DXGK_TARGETMODE_DETAIL_TIMING</a>
-
-
-
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_releaseadditionalmonitormodeset.md">DXGK_MONITOR_INTERFACE_V2::pfnReleaseAdditionalMonitorModeSet</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
 
 
@@ -198,7 +194,11 @@ This function is available beginning with Windows 7.
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_releaseadditionalmonitormodeset.md">DXGK_MONITOR_INTERFACE_V2::pfnReleaseAdditionalMonitorModeSet</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_targetmode_detail_timing.md">DXGK_TARGETMODE_DETAIL_TIMING</a>
 
 
 

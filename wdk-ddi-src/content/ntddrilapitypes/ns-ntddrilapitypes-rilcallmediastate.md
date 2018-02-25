@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1fe4b90e-f89a-4ccc-bc92-b6f2edfb0b98
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediastate, *LPRILCALLMEDIASTATE, RILCALLMEDIASTATE
+ms.keywords: ",  , *, *LPRILCALLMEDIASTATE, ,, A, C, D, E, I, L, M, P, R, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilcallmediastate, ntddrilapitypes/RILCALLMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

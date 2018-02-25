@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c43ee3dd-552a-41ab-9b4f-01611e44f453
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ISCSI_Persistent_Login, iscsiop/PISCSI_Persistent_Login, iscsiop/ISCSI_Persistent_Login, PISCSI_Persistent_Login, structs-iSCSI_86b54cb5-df75-47c0-8dc4-337a5f46bea0.xml, _ISCSI_Persistent_Login, *PISCSI_Persistent_Login, storage.iscsi_persistent_login, ISCSI_Persistent_Login structure [Storage Devices], PISCSI_Persistent_Login structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PISCSI_Persistent_Login, ,, C, I, ISCSI_Persistent_Login, ISCSI_Persistent_Login structure [Storage Devices], L, P, PISCSI_Persistent_Login, PISCSI_Persistent_Login structure pointer [Storage Devices], S, _, _ISCSI_Persistent_Login, e, g, i, iscsiop/ISCSI_Persistent_Login, iscsiop/PISCSI_Persistent_Login, n, o, r, s, storage.iscsi_persistent_login, structs-iSCSI_86b54cb5-df75-47c0-8dc4-337a5f46bea0.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,11 +132,7 @@ A variable-length array of characters that specifies the challenge handshake aut
 
 
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
+<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
 
 
 
@@ -144,7 +140,11 @@ A variable-length array of characters that specifies the challenge handshake aut
 
 
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
+
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
 
 

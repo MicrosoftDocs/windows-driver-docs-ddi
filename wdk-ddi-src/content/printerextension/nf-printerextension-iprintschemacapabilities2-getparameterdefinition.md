@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface, GetParameterDefinition, IPrintSchemaCapabilities2, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method, GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2::GetParameterDefinition
+ms.keywords: ",  , ,, ., 2, :, C, D, G, GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface, GetParameterDefinition,IPrintSchemaCapabilities2.GetParameterDefinition, I, IPrintSchemaCapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method, IPrintSchemaCapabilities2::GetParameterDefinition, P, S, a, b, c, e, f, h, i, l, m, n, o, p, print.iprintschemacapabilities2_getparameterdefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

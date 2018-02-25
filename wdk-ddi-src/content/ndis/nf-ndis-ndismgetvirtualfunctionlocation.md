@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 772A7763-67C0-4218-8C5F-23972475D2C9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], NdisMGetVirtualFunctionLocation, ndis/NdisMGetVirtualFunctionLocation, netvista.ndismgetvirtualfunctionlocation
+ms.keywords: ",  , F, G, L, M, N, NdisMGetVirtualFunctionLocation, NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], V, a, c, d, e, i, l, n, ndis/NdisMGetVirtualFunctionLocation, netvista.ndismgetvirtualfunctionlocation, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,11 +143,11 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451557">NDIS_MAKE_RID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLocation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451557">NDIS_MAKE_RID</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eed64347-fa5a-4b80-a28d-9190ae30b169
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMT_DEVICEPRESENT_STATE, _D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE structure [Display Devices], display.d3dkmt_devicepresent_state, D3DKMT_DEVICEPRESENT_STATE, OpenGL_Structs_d1f2fcff-dfb8-411f-a4f8-4016924b4ebd.xml
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE structure [Display Devices], E, I, K, M, N, OpenGL_Structs_d1f2fcff-dfb8-411f-a4f8-4016924b4ebd.xml, P, R, S, T, V, _, _D3DKMT_DEVICEPRESENT_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_STATE, display.d3dkmt_devicepresent_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cec1db47-640c-467a-ba7d-270659ebbba2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS, netvista.rilsetpreferredoperatorlistparams, *LPRILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *LPRILSETPREFERREDOPERATORLISTPARAMS, ,, A, D, E, F, I, L, M, O, P, R, RILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilsetpreferredoperatorlistparams, ntddrilapitypes/RILSETPREFERREDOPERATORLISTPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

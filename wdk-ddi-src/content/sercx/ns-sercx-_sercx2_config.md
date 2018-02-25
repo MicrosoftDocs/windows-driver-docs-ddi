@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9F33E535-21C1-446F-93AA-B86157904F68
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PSERCX2_CONFIG structure pointer [Serial Ports], 2/SERCX2_CONFIG, SERCX2_CONFIG structure [Serial Ports], _SERCX2_CONFIG, serports.sercx2_config, *PSERCX2_CONFIG, 2/PSERCX2_CONFIG, PSERCX2_CONFIG, SERCX2_CONFIG
+ms.keywords: ",  , *, *PSERCX2_CONFIG, ,, 2, 2/PSERCX2_CONFIG, 2/SERCX2_CONFIG, C, E, F, G, I, N, O, P, PSERCX2_CONFIG, PSERCX2_CONFIG structure pointer [Serial Ports], R, S, SERCX2_CONFIG, SERCX2_CONFIG structure [Serial Ports], X, _, _SERCX2_CONFIG, serports.sercx2_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -144,15 +144,23 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 ## -see-also
 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_fileclose.md">EvtSerCx2FileClose</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_control.md">EvtSerCx2Control</a>
+
+
+
 <a href="..\sercx\nc-sercx-evt_sercx2_fileopen.md">EvtSerCx2FileOpen</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2_config_init.md">SERCX2_CONFIG_INIT</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_set_wait_mask.md">EvtSerCx2SetWaitmask</a>
 
 
 
@@ -164,15 +172,15 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.md">EvtSerCx2SelectNextReceiveTransactionType</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+<a href="..\sercx\nf-sercx-sercx2_config_init.md">SERCX2_CONFIG_INIT</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_set_wait_mask.md">EvtSerCx2SetWaitmask</a>
 
 
 
@@ -180,15 +188,7 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_control.md">EvtSerCx2Control</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.md">EvtSerCx2SelectNextReceiveTransactionType</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_fileclose.md">EvtSerCx2FileClose</a>
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
 
 
 

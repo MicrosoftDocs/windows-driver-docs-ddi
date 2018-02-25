@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8e0d406e-748c-4b37-90fb-c7b9dfc28362
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_devices_ref_57ed58e5-f149-4cbe-ad9d-667f433a7e77.xml, NdisRegisterDeviceEx function [Network Drivers Starting with Windows Vista], netvista.ndisregisterdeviceex, ndis/NdisRegisterDeviceEx, NdisRegisterDeviceEx
+ms.keywords: ",  , D, E, N, NdisRegisterDeviceEx, NdisRegisterDeviceEx function [Network Drivers Starting with Windows Vista], R, c, d, e, g, i, ndis/NdisRegisterDeviceEx, ndis_devices_ref_57ed58e5-f149-4cbe-ad9d-667f433a7e77.xml, netvista.ndisregisterdeviceex, r, s, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,12 +190,11 @@ The driver must subsequently call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetdevicereservedextension.md">
-   NdisGetDeviceReservedExtension</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">NDIS_DEVICE_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -203,11 +202,12 @@ The driver must subsequently call the
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nf-ndis-ndisgetdevicereservedextension.md">
+   NdisGetDeviceReservedExtension</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">NDIS_DEVICE_OBJECT_ATTRIBUTES</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

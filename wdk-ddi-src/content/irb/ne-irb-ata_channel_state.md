@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 97df2db8-6a42-46d4-bc31-babb124635ee
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ChannelStateEnabled, irb/ATA_CHANNEL_STATE, irb/ChannelStateDisabled, storage.ata_channel_state, ChannelStateUnKnown, ATA_CHANNEL_STATE enumeration [Storage Devices], structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml, irb/ChannelStateUnKnown, ChannelStateDisabled, ATA_CHANNEL_STATE, irb/ChannelStateEnabled
+ms.keywords: ",  , ,, A, ATA_CHANNEL_STATE, ATA_CHANNEL_STATE enumeration [Storage Devices], C, ChannelStateDisabled, ChannelStateEnabled, ChannelStateUnKnown, E, H, L, N, S, T, _, irb/ATA_CHANNEL_STATE, irb/ChannelStateDisabled, irb/ChannelStateEnabled, irb/ChannelStateUnKnown, storage.ata_channel_state, structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

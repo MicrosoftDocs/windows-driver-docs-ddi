@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2cc2fc91-eb14-4f15-a8ad-c35b4667406f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.lookasidelistfreeex, LookasideListFreeEx routine [Kernel-Mode Driver Architecture], LookasideListFreeEx, FREE_FUNCTION_EX, FREE_FUNCTION_EX, wdm/LookasideListFreeEx, DrvrRtns_8e1790bd-6b06-4eed-afec-eb8055f2cbde.xml
+ms.keywords: DrvrRtns_8e1790bd-6b06-4eed-afec-eb8055f2cbde.xml, FREE_FUNCTION_EX, LookasideListFreeEx, LookasideListFreeEx routine [Kernel-Mode Driver Architecture], kernel.lookasidelistfreeex, wdm/LookasideListFreeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -152,7 +152,7 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
 
 
@@ -160,7 +160,7 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1421fae5-1c90-47da-ae9c-fc9eb4d47a05
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ipartcolorprofile, IPartColorProfile interface [Print Devices], IPartColorProfile interface [Print Devices], described, IPartColorProfile, filterpipeline/IPartColorProfile, filterpipeline_53a5ba2a-17ce-4c9a-981b-1ab5067bddc2.xml
+ms.keywords: IPartColorProfile, IPartColorProfile interface [Print Devices], IPartColorProfile interface [Print Devices], described, filterpipeline/IPartColorProfile, filterpipeline_53a5ba2a-17ce-4c9a-981b-1ab5067bddc2.xml, print.ipartcolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

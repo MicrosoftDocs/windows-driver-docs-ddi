@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10AC7347-6C6B-4A37-9298-B773ADCB3FDA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsAcquireOnly, ks/KsAcquireAndRemove, ks/KsAcquireAndRemoveOnlySingleItem, KsAcquireOnlySingleItem, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices], ks/KSIRP_REMOVAL_OPERATION, ks/KsAcquireOnlySingleItem, KSIRP_REMOVAL_OPERATION, ks/KsAcquireOnly, KsAcquireAndRemove, KsAcquireAndRemoveOnlySingleItem, stream.ksirp_removal_operation
+ms.keywords: ",  , ,, A, E, I, K, KSIRP_REMOVAL_OPERATION, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices], KsAcquireAndRemove, KsAcquireAndRemoveOnlySingleItem, KsAcquireOnly, KsAcquireOnlySingleItem, L, M, N, O, P, R, S, T, V, _, ks/KSIRP_REMOVAL_OPERATION, ks/KsAcquireAndRemove, ks/KsAcquireAndRemoveOnlySingleItem, ks/KsAcquireOnly, ks/KsAcquireOnlySingleItem, stream.ksirp_removal_operation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8fd4e642-5ed4-409e-bcc2-94d309a1e04c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PCDROM_SEEK_AUDIO_MSF structure pointer [Storage Devices], CDROM_SEEK_AUDIO_MSF structure [Storage Devices], *PCDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF, ntddcdrm/CDROM_SEEK_AUDIO_MSF, PCDROM_SEEK_AUDIO_MSF, storage.cdrom_seek_audio_msf, ntddcdrm/PCDROM_SEEK_AUDIO_MSF, _CDROM_SEEK_AUDIO_MSF, structs-CD-ROM_1e8a9382-37c6-4473-831e-3547774a5b9d.xml
+ms.keywords: ",  , *, *PCDROM_SEEK_AUDIO_MSF, ,, A, C, CDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF structure [Storage Devices], D, E, F, I, K, M, O, P, PCDROM_SEEK_AUDIO_MSF, PCDROM_SEEK_AUDIO_MSF structure pointer [Storage Devices], R, S, U, _, _CDROM_SEEK_AUDIO_MSF, ntddcdrm/CDROM_SEEK_AUDIO_MSF, ntddcdrm/PCDROM_SEEK_AUDIO_MSF, storage.cdrom_seek_audio_msf, structs-CD-ROM_1e8a9382-37c6-4473-831e-3547774a5b9d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

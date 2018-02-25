@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2f0c10f7-009a-4108-ad23-d6b6e2e1257e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugoutputcallbackswide, IDebugOutputCallbacksWide interface [Windows Debugging], IDebugOutputCallbacksWide interface [Windows Debugging], described, IDebugOutputCallbacksWide, dbgeng/IDebugOutputCallbacksWide
+ms.keywords: IDebugOutputCallbacksWide, IDebugOutputCallbacksWide interface [Windows Debugging], IDebugOutputCallbacksWide interface [Windows Debugging], described, dbgeng/IDebugOutputCallbacksWide, debugger.idebugoutputcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

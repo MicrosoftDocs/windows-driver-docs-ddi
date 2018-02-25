@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: usbcamdi/USBCAMD_ControlVendorCommand, stream.usbcamd_controlvendorcommand, USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml, USBCAMD_ControlVendorCommand function [Streaming Media Devices]
+ms.keywords: ",  , A, B, C, D, M, S, U, USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand function [Streaming Media Devices], V, _, a, d, e, l, m, n, o, r, stream.usbcamd_controlvendorcommand, t, usbcamdi/USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

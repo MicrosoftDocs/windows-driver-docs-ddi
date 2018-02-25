@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 01689a2f-115a-4db8-b53d-38717c10a0ff
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKCB_GETHANDLEDATAFLAGS structure [Display Devices], DmStructs_a0288df8-0513-4823-9445-cd86ff45a186.xml, display.dxgkcb_gethandledataflags, d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS, _DXGKCB_GETHANDLEDATAFLAGS, DXGKCB_GETHANDLEDATAFLAGS
+ms.keywords: ",  , ,, A, B, C, D, DXGKCB_GETHANDLEDATAFLAGS, DXGKCB_GETHANDLEDATAFLAGS structure [Display Devices], DmStructs_a0288df8-0513-4823-9445-cd86ff45a186.xml, E, F, G, H, K, L, N, S, T, X, _, _DXGKCB_GETHANDLEDATAFLAGS, d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS, display.dxgkcb_gethandledataflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

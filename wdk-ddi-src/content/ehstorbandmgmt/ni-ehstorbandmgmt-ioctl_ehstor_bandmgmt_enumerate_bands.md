@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 80F7546C-3683-460B-A0D9-AD41386E6195
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_bandmgmt_enumerate_bands, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control code [Storage Devices], IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, storage.ioctl_ehstor_bandmgmt_enumerate_bands
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DXVA_VideoSample32
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8ef093e-81f9-443c-9d85-d0d1b6c03416
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDEVICEDESC_V2, d3dstrct_93cd326d-38b8-4911-87de-a0b4e81f897c.xml, display.d3ddevicedesc_v2, _D3DDeviceDesc_V2, *LPD3DDEVICEDESC_V2, d3dhal/, D3DDEVICEDESC_V2 structure [Display Devices]
+ms.keywords: ",  , *, *LPD3DDEVICEDESC_V2, ,, 2, 3, C, D, D3DDEVICEDESC_V2, D3DDEVICEDESC_V2 structure [Display Devices], E, I, L, P, S, V, _, _D3DDeviceDesc_V2, c, d3dhal/, d3dstrct_93cd326d-38b8-4911-87de-a0b4e81f897c.xml, display.d3ddevicedesc_v2, e, i, s, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

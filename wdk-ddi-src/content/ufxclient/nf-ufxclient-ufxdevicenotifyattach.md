@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E45FA08C-3E00-4AF6-A983-6E9C808AFA11
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ufxclient/UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, UfxDeviceNotifyAttach
+ms.keywords: ",  , A, D, N, U, UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], a, buses.ufxdevicenotifyattach, c, e, f, h, i, o, t, ufxclient/UfxDeviceNotifyAttach, v, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

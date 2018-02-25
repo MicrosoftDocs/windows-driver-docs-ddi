@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 0ba0abfe-a32d-4650-ad08-f40d0b14f9a5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_reset_port, IOCTL_INTERNAL_USB_RESET_PORT control code [Buses], IOCTL_INTERNAL_USB_RESET_PORT, usbioctl/IOCTL_INTERNAL_USB_RESET_PORT, usbirp_d96d4c35-d399-444e-905b-c59360a01754.xml
+ms.keywords: IOCTL_INTERNAL_USB_RESET_PORT, IOCTL_INTERNAL_USB_RESET_PORT control code [Buses], buses.ioctl_internal_usb_reset_port, usbioctl/IOCTL_INTERNAL_USB_RESET_PORT, usbirp_d96d4c35-d399-444e-905b-c59360a01754.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

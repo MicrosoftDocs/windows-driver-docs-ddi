@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8f537ddb-ba94-4423-95a8-6497710d234f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.phw_timer, (*PHW_TIMER) callback function [Storage Devices], (*PHW_TIMER), srb/(*PHW_TIMER), ide_minikr_55cc9012-04fa-434c-b2b9-d24bbd1d1404.xml
+ms.keywords: "(*PHW_TIMER), (*PHW_TIMER) callback function [Storage Devices], ide_minikr_55cc9012-04fa-434c-b2b9-d24bbd1d1404.xml, srb/(*PHW_TIMER), storage.phw_timer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

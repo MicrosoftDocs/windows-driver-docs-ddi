@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 01654107-29a1-4f34-bb9a-a17fe36a84fe
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksmedia/TIMECODE_SAMPLE, tagTIMECODE_SAMPLE, stream.timecode_sample, *PTIMECODE_SAMPLE, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml
+ms.keywords: ",  , *, *PTIMECODE_SAMPLE, ,, A, C, D, E, I, L, M, O, P, S, T, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], _, a, g, ksmedia/TIMECODE_SAMPLE, stream.timecode_sample, t, tagTIMECODE_SAMPLE, vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

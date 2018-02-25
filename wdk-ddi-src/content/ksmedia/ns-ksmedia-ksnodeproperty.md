@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbcf7597-217a-499b-b0f2-deef1e85becc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKSNODEPROPERTY, ksmedia/KSNODEPROPERTY, *PKSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], PKSNODEPROPERTY structure pointer [Audio Devices], ksmedia/PKSNODEPROPERTY, aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, KSNODEPROPERTY, audio.ksnodeproperty
+ms.keywords: ",  , *, *PKSNODEPROPERTY, ,, D, E, K, KSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], N, O, P, PKSNODEPROPERTY, PKSNODEPROPERTY structure pointer [Audio Devices], R, S, T, Y, aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, audio.ksnodeproperty, ksmedia/KSNODEPROPERTY, ksmedia/PKSNODEPROPERTY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,11 +97,11 @@ See the discussion of the KSNODEPROPERTY structure in <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
 
 
 

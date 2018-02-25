@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c6c70f15-2614-4623-8979-6046cdc6239b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorinitialize, HwStorInitialize routine [Storage Devices], HwStorInitialize, HW_INITIALIZE, HW_INITIALIZE, storport/HwStorInitialize, stormini_ef5f6b0d-443d-4ee4-a319-117e5be40831.xml
+ms.keywords: HW_INITIALIZE, HwStorInitialize, HwStorInitialize routine [Storage Devices], storage.hwstorinitialize, stormini_ef5f6b0d-443d-4ee4-a319-117e5be40831.xml, storport/HwStorInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -166,11 +166,11 @@ The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file.
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
-
-
-
 <a href="..\storport\nc-storport-hw_dpc_routine.md">HwStorDpcRoutine</a>
+
+
+
+<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 
 
 

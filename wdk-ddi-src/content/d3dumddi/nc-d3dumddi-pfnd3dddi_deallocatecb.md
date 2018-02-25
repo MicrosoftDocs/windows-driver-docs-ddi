@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ffa0367-0451-45d2-be05-e450c45be116
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfndeallocatecb, pfnDeallocateCb callback function [Display Devices], pfnDeallocateCb, PFND3DDDI_DEALLOCATECB, PFND3DDDI_DEALLOCATECB, d3dumddi/pfnDeallocateCb, D3Druntime_Functions_0162df86-f479-45d9-887b-75f05de150f9.xml
+ms.keywords: D3Druntime_Functions_0162df86-f479-45d9-887b-75f05de150f9.xml, PFND3DDDI_DEALLOCATECB, d3dumddi/pfnDeallocateCb, display.pfndeallocatecb, pfnDeallocateCb, pfnDeallocateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -187,10 +187,6 @@ The following code example shows how to release a resource.
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyresource.md">DestroyResource(D3D10)</a>
 
 
@@ -200,6 +196,10 @@ The following code example shows how to release a resource.
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 

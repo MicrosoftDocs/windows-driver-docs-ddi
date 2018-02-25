@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b9a2a59-b2d1-468e-998b-902bc2a75cb3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.queryresourceresidency, QueryResourceResidency callback function [Display Devices], QueryResourceResidency, PFND3DDDI_QUERYRESOURCERESIDENCY, PFND3DDDI_QUERYRESOURCERESIDENCY, d3dumddi/QueryResourceResidency, UserModeDisplayDriver_Functions_2d646d44-dbbb-471d-9337-2cdf8c9a4245.xml
+ms.keywords: PFND3DDDI_QUERYRESOURCERESIDENCY, QueryResourceResidency, QueryResourceResidency callback function [Display Devices], UserModeDisplayDriver_Functions_2d646d44-dbbb-471d-9337-2cdf8c9a4245.xml, d3dumddi/QueryResourceResidency, display.queryresourceresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -183,15 +183,15 @@ For each resource that the runtime queries through a call to <i>QueryResourceRes
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_queryresourceresidency.md">D3DDDIARG_QUERYRESOURCERESIDENCY</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_queryresidency.md">D3DDDICB_QUERYRESIDENCY</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_queryresourceresidency.md">D3DDDIARG_QUERYRESOURCERESIDENCY</a>
 
 
 

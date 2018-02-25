@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: F6D60B8C-488A-4A3F-85AE-40A10BF2DC9F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: pos.evt_pos_cx_device_remote_release, EvtPosCxDeviceRemoteRelease callback function, EvtPosCxDeviceRemoteRelease, EVT_POS_CX_DEVICE_REMOTE_RELEASE, EVT_POS_CX_DEVICE_REMOTE_RELEASE, poscx/EvtPosCxDeviceRemoteRelease
+ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RELEASE, EvtPosCxDeviceRemoteRelease, EvtPosCxDeviceRemoteRelease callback function, pos.evt_pos_cx_device_remote_release, poscx/EvtPosCxDeviceRemoteRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DC31EABA-CE58-4B6F-ADCD-0BF72A92C6AB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_enable_streaming, IOCTL_CDROM_ENABLE_STREAMING control code [Storage Devices], IOCTL_CDROM_ENABLE_STREAMING, ntddcdrm/IOCTL_CDROM_ENABLE_STREAMING
+ms.keywords: IOCTL_CDROM_ENABLE_STREAMING, IOCTL_CDROM_ENABLE_STREAMING control code [Storage Devices], ntddcdrm/IOCTL_CDROM_ENABLE_STREAMING, storage.ioctl_cdrom_enable_streaming
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

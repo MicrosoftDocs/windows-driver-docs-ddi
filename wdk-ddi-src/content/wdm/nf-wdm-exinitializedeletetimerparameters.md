@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2AD23AE1-05FF-44AF-807F-1ABD9D0D24DA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], wdm/ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters, kernel.exinitializedeletetimerparameters
+ms.keywords: ",  , D, E, ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], I, P, T, a, e, i, kernel.exinitializedeletetimerparameters, l, m, n, r, s, t, wdm/ExInitializeDeleteTimerParameters, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ Your driver must call <b>ExInitializeDeleteTimerParameters</b> to initialize an 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
-
-
-
 <a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PARAMETERS</a>
+
+
+
+<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
 
 
 

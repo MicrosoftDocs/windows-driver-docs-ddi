@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0C7ED962-F4E2-4F2F-B2CF-96DCFC71C4DD
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterPropertyBag interface [Print Devices], GetBool method, print.iprinterpropertybag_getbool, GetBool method [Print Devices], printerextension/IPrinterPropertyBag::GetBool, GetBool method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag::GetBool, GetBool, IPrinterPropertyBag
+ms.keywords: ",  , ,, ., :, B, G, GetBool method [Print Devices], GetBool method [Print Devices], IPrinterPropertyBag interface, GetBool,IPrinterPropertyBag.GetBool, I, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetBool method, IPrinterPropertyBag::GetBool, P, a, e, g, i, l, n, o, p, print.iprinterpropertybag_getbool, printerextension/IPrinterPropertyBag::GetBool, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

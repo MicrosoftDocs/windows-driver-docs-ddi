@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: EEC61313-5796-42BC-84BF-CF29F8BE0C96
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterscriptcontext_queueproperties, printerextension/IPrinterScriptContext::QueueProperties, IPrinterScriptContext interface [Print Devices], QueueProperties property, get_QueueProperties, IPrinterScriptContext, IPrinterScriptContext::get_QueueProperties, IPrinterScriptContext.QueueProperties, QueueProperties property [Print Devices], IPrinterScriptContext interface, QueueProperties property [Print Devices], printerextension/IPrinterScriptContext::get_QueueProperties
+ms.keywords: ",  , ,, ., :, C, I, IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], QueueProperties property, IPrinterScriptContext.QueueProperties, IPrinterScriptContext::get_QueueProperties, P, Q, QueueProperties property [Print Devices], QueueProperties property [Print Devices], IPrinterScriptContext interface, S, _, c, e, g, get_QueueProperties, get_QueueProperties,IPrinterScriptContext.get_QueueProperties, i, n, o, p, print.iprinterscriptcontext_queueproperties, printerextension/IPrinterScriptContext::QueueProperties, printerextension/IPrinterScriptContext::get_QueueProperties, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

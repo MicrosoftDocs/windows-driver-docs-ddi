@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f0488502-8c0c-4e2d-81d0-98b206c74d78
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilcardappadded, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCARDAPPADDED, *LPRILCARDAPPADDED, RILCARDAPPADDED
+ms.keywords: ",  , *, *LPRILCARDAPPADDED, ,, A, C, D, E, I, L, P, R, RILCARDAPPADDED, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], netvista.rilcardappadded, ntddrilapitypes/RILCARDAPPADDED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

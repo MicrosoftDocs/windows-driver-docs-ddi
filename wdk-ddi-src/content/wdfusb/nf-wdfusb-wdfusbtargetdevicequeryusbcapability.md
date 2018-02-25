@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B6C3E94F-AFC9-45EC-91F1-F0E3586DBDA1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceQueryUsbCapability, kmdf.wdfusbtargetdevicequeryusbcapability, WdfUsbTargetDeviceQueryUsbCapability, wdf.wdfusbtargetdevicequeryusbcapability, WdfUsbTargetDeviceQueryUsbCapability method
+ms.keywords: ",  , C, D, Q, T, U, W, WdfUsbTargetDeviceQueryUsbCapability, WdfUsbTargetDeviceQueryUsbCapability method, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdevicequeryusbcapability, l, p, r, s, t, u, v, wdf.wdfusbtargetdevicequeryusbcapability, wdfusb/WdfUsbTargetDeviceQueryUsbCapability, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

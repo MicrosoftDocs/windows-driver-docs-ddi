@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4d7dd4f5-9792-48cb-bf69-3903ac9dda75
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.resourcereadafterwritehazard, ResourceReadAfterWriteHazard callback function [Display Devices], ResourceReadAfterWriteHazard, PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD, PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD, d3d10umddi/ResourceReadAfterWriteHazard, UserModeDisplayDriverDx10_Functions_6a240dd4-86e0-4876-b4c3-8dd2d3f086e8.xml
+ms.keywords: PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD, ResourceReadAfterWriteHazard, ResourceReadAfterWriteHazard callback function [Display Devices], UserModeDisplayDriverDx10_Functions_6a240dd4-86e0-4876-b4c3-8dd2d3f086e8.xml, d3d10umddi/ResourceReadAfterWriteHazard, display.resourcereadafterwritehazard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -119,11 +119,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

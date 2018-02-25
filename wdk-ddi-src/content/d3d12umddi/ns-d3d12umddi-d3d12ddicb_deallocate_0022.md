@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 977868D1-02E1-4460-9194-2079B986045E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d12umddi/D3D12DDICB_DEALLOCATE_0022, D3D12DDICB_DEALLOCATE_0022, D3D12DDICB_DEALLOCATE_0022 structure [Display Devices], display.d3d12ddicb_deallocate_0022
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, B, C, D, D3D12DDICB_DEALLOCATE_0022, D3D12DDICB_DEALLOCATE_0022 structure [Display Devices], E, I, L, O, T, _, d3d12umddi/D3D12DDICB_DEALLOCATE_0022, display.d3d12ddicb_deallocate_0022"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

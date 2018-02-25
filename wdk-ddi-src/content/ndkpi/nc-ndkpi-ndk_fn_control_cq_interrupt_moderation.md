@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 44EB6C92-1ADA-4675-9E19-BAB79097FF5B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_control_cq_interrupt_moderation, NdkControlCqInterruptModeration callback function [Network Drivers Starting with Windows Vista], NdkControlCqInterruptModeration, NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION, NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION, ndkpi/NdkControlCqInterruptModeration
+ms.keywords: NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION, NdkControlCqInterruptModeration, NdkControlCqInterruptModeration callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlCqInterruptModeration, netvista.ndk_fn_control_cq_interrupt_moderation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

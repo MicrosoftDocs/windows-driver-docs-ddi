@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f28a66a-9c17-4020-bfe2-295c22af6ba7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtinterruptisr, EvtInterruptIsr callback function, EvtInterruptIsr, EVT_WDF_INTERRUPT_ISR, EVT_WDF_INTERRUPT_ISR, wdfinterrupt/EvtInterruptIsr, DFInterruptObjectRef_0a8902c4-d292-418f-bab3-d7fc36d69fd5.xml, kmdf.evtinterruptisr
+ms.keywords: DFInterruptObjectRef_0a8902c4-d292-418f-bab3-d7fc36d69fd5.xml, EVT_WDF_INTERRUPT_ISR, EvtInterruptIsr, EvtInterruptIsr callback function, kmdf.evtinterruptisr, wdf.evtinterruptisr, wdfinterrupt/EvtInterruptIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -161,23 +161,15 @@ The <b>EVT_WDF_INTERRUPT_ISR</b> function type is defined in the Wdfinterrupt.h 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
-
-
-
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptwdmgetinterrupt.md">WdfInterruptWdmGetInterrupt</a>
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
+<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
 
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
-
-
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetdevice.md">WdfInterruptGetDevice</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
 
 
 
@@ -185,7 +177,15 @@ The <b>EVT_WDF_INTERRUPT_ISR</b> function type is defined in the Wdfinterrupt.h 
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
+
+
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetdevice.md">WdfInterruptGetDevice</a>
+
+
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
 
 
 

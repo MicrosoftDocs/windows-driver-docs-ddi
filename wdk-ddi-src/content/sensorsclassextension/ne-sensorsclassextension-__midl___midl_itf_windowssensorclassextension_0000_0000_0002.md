@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 63df4f99-ddc2-4a0b-b19b-63390771d529
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SensorConnectionType enumeration [Sensor Devices], SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsclassextension/SensorConnectionType, sensors.sensorconnectiontype, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_EXTERNAL, Sensor_Enums_bca4556b-94f3-4213-9daa-3571f403d556.xml, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002, SENSOR_CONNECTION_TYPE_PC_ATTACHED, SensorConnectionType, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_ATTACHED
+ms.keywords: ",  , ,, 0, 2, C, D, I, L, M, S, SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType, SensorConnectionType enumeration [Sensor Devices], Sensor_Enums_bca4556b-94f3-4213-9daa-3571f403d556.xml, T, _, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002, a, c, d, e, f, i, l, n, o, p, r, s, sensors.sensorconnectiontype, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_ATTACHED, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_EXTERNAL, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsclassextension/SensorConnectionType, t, w, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -88,11 +88,11 @@ Indicates that the sensor is connected by external means, such as through a netw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
 
 
 

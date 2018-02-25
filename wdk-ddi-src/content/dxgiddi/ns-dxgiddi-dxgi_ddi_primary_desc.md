@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb6db822-c6d3-43d0-91af-49d19189ed83
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGI_DDI_PRIMARY_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_a733016c-aa05-4d79-b13b-96d1bc33dac2.xml, dxgiddi/DXGI_DDI_PRIMARY_DESC, display.dxgi_ddi_primary_desc, DXGI_DDI_PRIMARY_DESC
+ms.keywords: ",  , ,, A, C, D, DXGI_DDI_PRIMARY_DESC, DXGI_DDI_PRIMARY_DESC structure [Display Devices], E, G, I, M, P, R, S, UMDisplayDriver_Dx10param_Structs_a733016c-aa05-4d79-b13b-96d1bc33dac2.xml, X, Y, _, display.dxgi_ddi_primary_desc, dxgiddi/DXGI_DDI_PRIMARY_DESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -136,11 +136,11 @@ The DXGI_DDI_PRIMARY_DRIVER_FLAG_NO_SCANOUT (0x1) value is currently the only su
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
 
 
 

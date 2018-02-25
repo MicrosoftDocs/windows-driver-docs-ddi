@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: CBEB68C2-549F-4EB6-9AF4-4DCA6749F75D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, 1394/IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure [Buses], IEEE.irb_req_isoch_set_channel_bandwidth
+ms.keywords: ",  , ,, 1394/IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, A, B, C, D, E, H, I, IEEE.irb_req_isoch_set_channel_bandwidth, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure [Buses], L, N, O, Q, R, S, T, W, _, _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

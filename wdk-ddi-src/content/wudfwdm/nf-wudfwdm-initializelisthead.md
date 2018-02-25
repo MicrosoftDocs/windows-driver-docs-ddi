@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 123434fd-4e83-4042-834b-1eb4cf13dd10
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: InitializeListHead routine [Kernel-Mode Driver Architecture], InitializeListHead, kernel.initializelisthead, k109_2e5e02a0-26d3-4c8a-b712-ee3d515b8a23.xml, wdm/InitializeListHead
+ms.keywords: ",  , H, I, InitializeListHead, InitializeListHead routine [Kernel-Mode Driver Architecture], L, a, d, e, i, k109_2e5e02a0-26d3-4c8a-b712-ee3d515b8a23.xml, kernel.initializelisthead, l, n, s, t, wdm/InitializeListHead, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,7 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
+<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
 
 
 
@@ -109,19 +105,7 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
 
 
 
@@ -129,7 +113,7 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
 
 
 
@@ -137,11 +121,11 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
+<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
 
 
 
@@ -150,6 +134,22 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 <a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
 
 
 

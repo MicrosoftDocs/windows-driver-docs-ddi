@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fc0f5a3b-3ab0-4103-85a2-f7b5ce64ec79
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetAllAdditionalNumberStrings, netvista.ril_getalladditionalnumberstrings, rilapi/RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , A, G, I, L, N, R, RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista], S, _, a, b, d, e, g, i, l, m, n, netvista.ril_getalladditionalnumberstrings, o, r, rilapi/RIL_GetAllAdditionalNumberStrings, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

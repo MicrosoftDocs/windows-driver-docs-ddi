@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxIoDeviceControl method [Buses], ucxcontroller/UcxIoDeviceControl, UcxIoDeviceControl, buses._ucxiodevicecontrol
+ms.keywords: ",  , C, D, I, U, UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, c, e, i, l, n, o, r, t, ucxcontroller/UcxIoDeviceControl, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

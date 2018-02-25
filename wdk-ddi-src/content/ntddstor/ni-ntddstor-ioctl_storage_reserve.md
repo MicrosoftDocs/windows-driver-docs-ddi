@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: acafac18-63c7-4965-a1d6-e7c961507b4b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_reserve, IOCTL_STORAGE_RESERVE control code [Storage Devices], IOCTL_STORAGE_RESERVE, ntddstor/IOCTL_STORAGE_RESERVE, k307_3cb0baa4-c551-44a1-8728-c0053ab04e79.xml
+ms.keywords: IOCTL_STORAGE_RESERVE, IOCTL_STORAGE_RESERVE control code [Storage Devices], k307_3cb0baa4-c551-44a1-8728-c0053ab04e79.xml, ntddstor/IOCTL_STORAGE_RESERVE, storage.ioctl_storage_reserve
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

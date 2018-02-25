@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc651954-2048-4358-91b0-4d99e38e9a67
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_get_cache_information, IOCTL_DISK_GET_CACHE_INFORMATION control code [Storage Devices], IOCTL_DISK_GET_CACHE_INFORMATION, ntdddisk/IOCTL_DISK_GET_CACHE_INFORMATION, k307_1471eb7a-169f-4653-9bfe-01714d6299b7.xml
+ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control code [Storage Devices], k307_1471eb7a-169f-4653-9bfe-01714d6299b7.xml, ntdddisk/IOCTL_DISK_GET_CACHE_INFORMATION, storage.ioctl_disk_get_cache_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

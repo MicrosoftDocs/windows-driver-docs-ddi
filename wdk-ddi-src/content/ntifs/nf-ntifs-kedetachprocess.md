@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25cb0b53-f5b2-460a-bcab-56196f568d12
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.kedetachprocess, KeDetachProcess, KeDetachProcess function [Installable File System Drivers], ntifs/KeDetachProcess, keref_0038ac90-7d97-45db-9a0d-028238af943d.xml
+ms.keywords: ",  , D, K, KeDetachProcess, KeDetachProcess function [Installable File System Drivers], P, a, c, e, h, ifsk.kedetachprocess, keref_0038ac90-7d97-45db-9a0d-028238af943d.xml, ntifs/KeDetachProcess, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

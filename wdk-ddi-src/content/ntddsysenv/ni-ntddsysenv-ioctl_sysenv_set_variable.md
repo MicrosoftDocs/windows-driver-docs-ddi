@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2BA555D8-CFD3-4D27-BC38-3B261D2F95EF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ioctl_ioctl_sysenv_set_variable, IOCTL_SYSENV_SET_VARIABLE control code [Kernel-Mode Driver Architecture], IOCTL_SYSENV_SET_VARIABLE, ntddsysenv/IOCTL_SYSENV_SET_VARIABLE
+ms.keywords: IOCTL_SYSENV_SET_VARIABLE, IOCTL_SYSENV_SET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_set_variable, ntddsysenv/IOCTL_SYSENV_SET_VARIABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -120,11 +120,7 @@ The size of the <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name_and_value.m
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -132,7 +128,11 @@ The size of the <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name_and_value.m
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

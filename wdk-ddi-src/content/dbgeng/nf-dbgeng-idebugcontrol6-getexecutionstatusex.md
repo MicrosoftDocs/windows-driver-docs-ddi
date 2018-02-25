@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C14A3106-AEF7-4BA2-9E21-32D8B2D5BD7E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl6 interface [Windows Debugging], GetExecutionStatusEx method, GetExecutionStatusEx method [Windows Debugging], IDebugControl6, debugger.idebugcontrol6_getexecutionstatusex, GetExecutionStatusEx, dbgeng/IDebugControl6::GetExecutionStatusEx, GetExecutionStatusEx method [Windows Debugging], IDebugControl6 interface, IDebugControl6::GetExecutionStatusEx
+ms.keywords: ",  , ,, ., 6, :, C, D, E, G, GetExecutionStatusEx method [Windows Debugging], GetExecutionStatusEx method [Windows Debugging], IDebugControl6 interface, GetExecutionStatusEx,IDebugControl6.GetExecutionStatusEx, I, IDebugControl6, IDebugControl6 interface [Windows Debugging], GetExecutionStatusEx method, IDebugControl6::GetExecutionStatusEx, S, a, b, c, dbgeng/IDebugControl6::GetExecutionStatusEx, debugger.idebugcontrol6_getexecutionstatusex, e, g, i, l, n, o, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

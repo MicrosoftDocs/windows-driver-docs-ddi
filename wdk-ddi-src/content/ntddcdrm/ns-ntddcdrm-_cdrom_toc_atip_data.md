@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4caf59d4-262a-49e3-8b66-9cf29ed5cee5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdrm/CDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA structure [Storage Devices], ntddcdrm/PCDROM_TOC_ATIP_DATA, PCDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml, PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices], CDROM_TOC_ATIP_DATA, *PCDROM_TOC_ATIP_DATA, _CDROM_TOC_ATIP_DATA
+ms.keywords: ",  , *, *PCDROM_TOC_ATIP_DATA, ,, A, C, CDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA structure [Storage Devices], D, I, M, O, P, PCDROM_TOC_ATIP_DATA, PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices], R, T, _, _CDROM_TOC_ATIP_DATA, ntddcdrm/CDROM_TOC_ATIP_DATA, ntddcdrm/PCDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,15 +92,15 @@ Contains zero or more ATIP data block descriptors of type <a href="..\ntddcdrm\n
 
 ## -see-also
 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
+
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data_block.md">CDROM_TOC_ATIP_DATA_BLOCK</a>
 
 
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
 
 
 

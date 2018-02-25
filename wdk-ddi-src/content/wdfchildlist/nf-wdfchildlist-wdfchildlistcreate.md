@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfchildlist/WdfChildListCreate, wdf.wdfchildlistcreate, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate, kmdf.wdfchildlistcreate, WdfChildListCreate method
+ms.keywords: ",  , C, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, L, W, WdfChildListCreate, WdfChildListCreate method, a, d, e, f, h, i, kmdf.wdfchildlistcreate, l, r, s, t, wdf.wdfchildlistcreate, wdfchildlist/WdfChildListCreate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b327bdd4-f145-4211-a77c-80dffad16547
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_get_inquiry_data, IOCTL_CDROM_GET_INQUIRY_DATA control code [Storage Devices], IOCTL_CDROM_GET_INQUIRY_DATA, ntddcdrm/IOCTL_CDROM_GET_INQUIRY_DATA, k307_9b073c58-022f-47c3-aeba-716277accce5.xml
+ms.keywords: IOCTL_CDROM_GET_INQUIRY_DATA, IOCTL_CDROM_GET_INQUIRY_DATA control code [Storage Devices], k307_9b073c58-022f-47c3-aeba-716277accce5.xml, ntddcdrm/IOCTL_CDROM_GET_INQUIRY_DATA, storage.ioctl_cdrom_get_inquiry_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -119,11 +119,11 @@ TBD
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
-
-
-
 <a href="..\storport\ns-storport-_inquirydata.md">INQUIRYDATA</a>
+
+
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bbd3ad3a-cf16-490b-83fe-107a0d802406
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_SetSMSC, RIL_SetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_setsmsc, rilapi/RIL_SetSMSC
+ms.keywords: ",  , C, I, L, M, R, RIL_SetSMSC, RIL_SetSMSC method [Network Drivers Starting with Windows Vista], S, _, e, netvista.ril_setsmsc, rilapi/RIL_SetSMSC, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

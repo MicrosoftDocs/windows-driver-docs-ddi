@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5c3ac56-9e9f-40b8-b8a8-2eb4d41bca52
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.clfsadvancetailcallback, ClfsAdvanceTailCallback, ClfsAdvanceTailCallback callback function [Kernel-Mode Driver Architecture], ClfsAdvanceTailCallback, PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK, PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK, wdm/ClfsAdvanceTailCallback, Clfs_management_86e7d14f-866d-4023-9f97-d495ac16989f.xml
+ms.keywords: ClfsAdvanceTailCallback, ClfsAdvanceTailCallback callback function [Kernel-Mode Driver Architecture], Clfs_management_86e7d14f-866d-4023-9f97-d495ac16989f.xml, PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK, kernel.clfsadvancetailcallback, wdm/ClfsAdvanceTailCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -126,15 +126,15 @@ When a client calls the <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md"
 
 
 
+<a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
 
 
 
 <a href="..\wdm\nf-wdm-clfsmgmttailadvancefailure.md">ClfsMgmtTailAdvanceFailure</a>
-
-
-
-<a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4863fe31-2c89-47af-99ed-02055e67621d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_netbuf_functions_ref_73b9ab32-14a8-4441-a057-c6fe91ddfb43.xml, NdisAllocateMdl, ndis/NdisAllocateMdl, NdisAllocateMdl function [Network Drivers Starting with Windows Vista], netvista.ndisallocatemdl
+ms.keywords: ",  , A, M, N, NdisAllocateMdl, NdisAllocateMdl function [Network Drivers Starting with Windows Vista], a, c, d, e, i, l, ndis/NdisAllocateMdl, ndis_netbuf_functions_ref_73b9ab32-14a8-4441-a057-c6fe91ddfb43.xml, netvista.ndisallocatemdl, o, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,7 @@ An NDIS handle that was obtained during caller initialization. For more informat
 
 A pointer to the base virtual address of the buffer that the MDL is to describe.
 
-<div class="alert"><b>Important</b>  <p class="note">The <b>VirtualAddress</b> parameter for <b>NdisAllocateMdl</b> only accepts memory from the nonpaged pool. In other words, it requires memory from <a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>*(NonPagedNx), <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>, or <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>. In particular, it should <b>not</b> be used with memory from the stack, paged pool, driver global data, or other memory regions.
+<div class="alert"><b>Important</b>  <p class="note">The <b>VirtualAddress</b> parameter for <b>NdisAllocateMdl</b> only accepts memory from the nonpaged pool. In other words, it requires memory from <a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>*(NonPagedNx), <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>, or <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>. In particular, it should <b>not</b> be used with memory from the stack, paged pool, driver global data, or other memory regions.
 
 <p class="note">If a driver needs to build an MDL for one of these non-nonpaged pool regions, it should use the appropriate kernel APIs for that type of memory, such as <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a> combined with <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages.</a>
 
@@ -125,19 +125,7 @@ All MDLs that are allocated by calling
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
-
-
-
-<a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>
 
 
 
@@ -149,7 +137,19 @@ All MDLs that are allocated by calling
 
 
 
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 

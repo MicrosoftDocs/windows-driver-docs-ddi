@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 057b548a-d9e4-4db4-b34f-d867b7be3971
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: Scan, wiamicro/Scan, image.scan, Scan function [Imaging Devices], MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml
+ms.keywords: ",  , MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, S, Scan, Scan function [Imaging Devices], a, c, image.scan, n, wiamicro/Scan"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -155,15 +155,15 @@ If the function succeeds, it returns S_OK. If the function fails, it returns a s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
 
 
 
 <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
 
 
 

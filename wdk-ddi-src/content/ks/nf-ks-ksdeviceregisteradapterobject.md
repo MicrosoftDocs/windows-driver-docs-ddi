@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6e3c33fe-eb28-4985-98f3-cafa85543d68
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsDeviceRegisterAdapterObject, avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, ks/KsDeviceRegisterAdapterObject, KsDeviceRegisterAdapterObject function [Streaming Media Devices], stream.ksdeviceregisteradapterobject
+ms.keywords: ",  , A, D, K, KsDeviceRegisterAdapterObject, KsDeviceRegisterAdapterObject function [Streaming Media Devices], O, R, a, avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, b, c, d, e, g, i, j, ks/KsDeviceRegisterAdapterObject, p, r, s, stream.ksdeviceregisteradapterobject, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,11 @@ Also see <a href="https://msdn.microsoft.com/1173a83f-8d9e-4678-bfb5-f2fb91e827b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 
 
@@ -139,7 +139,7 @@ Also see <a href="https://msdn.microsoft.com/1173a83f-8d9e-4678-bfb5-f2fb91e827b
 
 
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 

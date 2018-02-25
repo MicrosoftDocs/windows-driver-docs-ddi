@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b774f05-f2f6-4148-8fee-0efe209f7e4d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportdevicebusy, storport/StorPortDeviceBusy, storprt_c1496cbe-e4b0-4b2b-8947-587b2467c57f.xml, StorPortDeviceBusy, StorPortDeviceBusy routine [Storage Devices]
+ms.keywords: ",  , B, D, P, S, StorPortDeviceBusy, StorPortDeviceBusy routine [Storage Devices], c, e, i, o, r, s, storage.storportdevicebusy, storport/StorPortDeviceBusy, storprt_c1496cbe-e4b0-4b2b-8947-587b2467c57f.xml, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,11 +120,11 @@ The port driver will not issue any new requests to the logical unit until the lo
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportready.md">StorPortReady</a>
-
-
-
 <a href="..\storport\nf-storport-storportbusy.md">StorPortBusy</a>
+
+
+
+<a href="..\storport\nf-storport-storportready.md">StorPortReady</a>
 
 
 

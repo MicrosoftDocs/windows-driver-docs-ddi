@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ca82e408-6b22-4b0b-ac44-0650d3890674
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS, netvista.rilgetphonebookoptionsparams_2, rilapitypes/RILGETPHONEBOOKOPTIONSPARAMS
+ms.keywords: ",  , *, *LPRILGETPHONEBOOKOPTIONSPARAMS, ,, A, B, E, G, H, I, K, L, M, N, O, P, R, RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilgetphonebookoptionsparams_2, rilapitypes/RILGETPHONEBOOKOPTIONSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

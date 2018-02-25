@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ecddaf4-bce7-4ea0-b53d-e4872fa21f81
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDisplayDriver_param_Structs_5acf671e-94e3-4752-89c1-b3c9e33cba7a.xml, d3dumddi/D3DDDIARG_RENAME, D3DDDIARG_RENAME, D3DDDIARG_RENAME structure [Display Devices], _D3DDDIARG_RENAME, display.d3dddiarg_rename
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_RENAME, D3DDDIARG_RENAME structure [Display Devices], E, G, I, M, N, R, UMDisplayDriver_param_Structs_5acf671e-94e3-4752-89c1-b3c9e33cba7a.xml, _, _D3DDDIARG_RENAME, d3dumddi/D3DDDIARG_RENAME, display.d3dddiarg_rename"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,11 +96,11 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
 
 
 

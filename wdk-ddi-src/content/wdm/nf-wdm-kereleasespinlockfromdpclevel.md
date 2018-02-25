@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5f7a92ee-ebaf-442f-a197-2fb58dd65a25
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KeReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], wdm/KefReleaseSpinLockFromDpcLevel, KefReleaseSpinLockFromDpcLevel, kernel.kereleasespinlockfromdpclevel
+ms.keywords: ",  , D, F, K, KeReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], KefReleaseSpinLockFromDpcLevel, L, R, S, a, c, e, i, k, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, kernel.kereleasespinlockfromdpclevel, l, m, n, o, p, r, s, v, wdm/KeReleaseSpinLockFromDpcLevel, wdm/KefReleaseSpinLockFromDpcLevel"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -102,11 +102,11 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
-
-
-
 <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
 
 

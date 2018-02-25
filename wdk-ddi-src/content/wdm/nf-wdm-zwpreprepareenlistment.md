@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: adf2513c-9a0e-4552-baad-010ab243e9dc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_42a63780-131c-4b65-ad22-ec32b713c0fe.xml, wdm/NtPrePrepareEnlistment, ZwPrePrepareEnlistment, kernel.zwpreprepareenlistment, NtPrePrepareEnlistment, wdm/ZwPrePrepareEnlistment
+ms.keywords: ",  , E, NtPrePrepareEnlistment, P, Z, ZwPrePrepareEnlistment, ZwPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], a, e, i, kernel.zwpreprepareenlistment, ktm_ref_42a63780-131c-4b65-ad22-ec32b713c0fe.xml, l, m, n, p, r, s, t, w, wdm/NtPrePrepareEnlistment, wdm/ZwPrePrepareEnlistment"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -186,6 +186,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
@@ -195,10 +199,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 

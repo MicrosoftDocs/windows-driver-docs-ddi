@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 21339CB5-8529-4649-9F1A-9D8C80709407
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function [Buses], buses.udecxusbdevicesetfunctionsuspendandwakecomplete
+ms.keywords: ",  , A, C, D, F, S, U, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function [Buses], W, a, b, buses.udecxusbdevicesetfunctionsuspendandwakecomplete, c, d, e, i, k, l, m, n, o, p, s, t, u, udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

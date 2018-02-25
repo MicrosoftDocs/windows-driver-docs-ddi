@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 4bb44aab-7032-4cc7-89e3-6ac3bee233d3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DbgPrompt, devtest.dbgprompt, ntddk/DbgPrompt, DebugFns_bf0bb6f5-3664-4f8d-811e-5d55fbb94081.xml, DbgPrompt routine [Driver Development Tools]
+ms.keywords: ",  , D, DbgPrompt, DbgPrompt routine [Driver Development Tools], DebugFns_bf0bb6f5-3664-4f8d-811e-5d55fbb94081.xml, P, b, devtest.dbgprompt, g, m, ntddk/DbgPrompt, o, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

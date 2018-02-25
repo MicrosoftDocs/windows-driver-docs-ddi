@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2a662b6-6a16-4e63-b5a8-5701a7180f60
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmtgetcontextinprocessschedulingpriority, D3DKMTGetContextInProcessSchedulingPriority function [Display Devices], D3DKMTGetContextInProcessSchedulingPriority, d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority
+ms.keywords: ",  , 3, C, D, D3DKMTGetContextInProcessSchedulingPriority, D3DKMTGetContextInProcessSchedulingPriority function [Display Devices], G, I, K, M, P, S, T, c, d, d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority, display.d3dkmtgetcontextinprocessschedulingpriority, e, g, h, i, l, n, o, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

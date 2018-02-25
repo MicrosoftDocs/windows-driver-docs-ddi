@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7E87D610-6449-47E0-AB6B-9D926B490B45
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisetvidpnsourceaddresswithmultiplaneoverlay2, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2 callback function [Display Devices], DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, d3dkmddi/DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2
+ms.keywords: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2 callback function [Display Devices], d3dkmddi/DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2, display.dxgkddisetvidpnsourceaddresswithmultiplaneoverlay2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

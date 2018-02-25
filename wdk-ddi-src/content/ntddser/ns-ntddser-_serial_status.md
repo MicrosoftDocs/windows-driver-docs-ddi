@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: F77EF32F-FAB6-4800-9241-5AAA9885DEF5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntddser/SERIAL_STATUS, ntddser/PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], *PSERIAL_STATUS, PSERIAL_STATUS, serports.serial_status, SERIAL_STATUS structure [Serial Ports], _SERIAL_STATUS, SERIAL_STATUS
+ms.keywords: ",  , *, *PSERIAL_STATUS, ,, A, E, I, L, P, PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], R, S, SERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], T, U, _, _SERIAL_STATUS, ntddser/PSERIAL_STATUS, ntddser/SERIAL_STATUS, serports.serial_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -177,11 +177,11 @@ This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_commstatus.md">IOCTL_SERIAL_GET_COMMSTATUS</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_immediate_char.md">IOCTL_SERIAL_IMMEDIATE_CHAR</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_commstatus.md">IOCTL_SERIAL_GET_COMMSTATUS</a>
 
 
 

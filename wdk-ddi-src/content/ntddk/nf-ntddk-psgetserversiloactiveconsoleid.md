@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 66b3c35d-681c-464a-86fa-972825bf3e97
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/PsGetServerSiloActiveConsoleId, PsGetServerSiloActiveConsoleId, kernel.psgetserversiloactiveconsoleid, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, C, G, I, P, PsGetServerSiloActiveConsoleId, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture], S, c, d, e, i, kernel.psgetserversiloactiveconsoleid, l, n, ntddk/PsGetServerSiloActiveConsoleId, o, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

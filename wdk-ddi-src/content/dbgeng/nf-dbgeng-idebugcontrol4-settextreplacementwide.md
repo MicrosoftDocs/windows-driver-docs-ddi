@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bbd3fbc0-6dbe-4200-8fe8-e7ca9e4c9478
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::SetTextReplacementWide, IDebugControl4::SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], SetTextReplacementWide, debugger.settextreplacementwide, IDebugControl4, IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method
+ms.keywords: ",  , ,, ., 4, :, C, D, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method, IDebugControl4::SetTextReplacementWide, R, S, SetTextReplacementWide method [Windows Debugging], SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, SetTextReplacementWide,IDebugControl4.SetTextReplacementWide, T, W, a, b, c, d, dbgeng/IDebugControl4::SetTextReplacementWide, debugger.settextreplacementwide, e, g, i, l, m, n, o, p, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,11 +123,15 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
 
 
@@ -135,7 +139,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
 
 
 
@@ -143,11 +147,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
 
 

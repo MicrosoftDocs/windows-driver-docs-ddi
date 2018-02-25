@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8EBCBC06-8373-43EA-91F5-6C8A439C0EAD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.psgetjobserversilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], ntddk/PsGetJobServerSilo, PsGetJobServerSilo
+ms.keywords: ",  , G, J, P, PsGetJobServerSilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], S, b, e, i, kernel.psgetjobserversilo, l, ntddk/PsGetJobServerSilo, o, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

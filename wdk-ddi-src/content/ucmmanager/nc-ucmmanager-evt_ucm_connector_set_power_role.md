@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 56D5A78D-546E-439E-A69E-A87B0A3B288F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucm_connector_set_power_role, EvtSetDataRole callback function [Buses], EvtSetDataRole, EVT_UCM_CONNECTOR_SET_POWER_ROLE, EVT_UCM_CONNECTOR_SET_POWER_ROLE, ucmmanager/EvtSetDataRole, PFN_UCM_CONNECTOR_SET_POWER_ROLE callback function pointer [Buses], PFN_UCM_CONNECTOR_SET_POWER_ROLE
+ms.keywords: EVT_UCM_CONNECTOR_SET_POWER_ROLE, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_POWER_ROLE, PFN_UCM_CONNECTOR_SET_POWER_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_power_role, ucmmanager/EvtSetDataRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

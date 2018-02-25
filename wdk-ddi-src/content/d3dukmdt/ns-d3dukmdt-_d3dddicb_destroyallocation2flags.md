@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50D4BFB7-B5AC-4202-B426-F152B06C9F46
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags, D3DDDICB_DESTROYALLOCATION2FLAGS, _D3DDDICB_DESTROYALLOCATION2FLAGS
+ms.keywords: ",  , ,, 2, 3, A, B, C, D, D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], E, F, G, I, L, N, O, R, S, T, Y, _, _D3DDDICB_DESTROYALLOCATION2FLAGS, d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9a3ec86a-6a1d-4c65-a65a-7cb85bbd1ab8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfioqueue, IWDFIoQueue interface, IWDFIoQueue interface, described, IWDFIoQueue, wudfddi/IWDFIoQueue, UMDFQueueObjectRef_57878b3d-0771-425d-b8ca-3e4713c96fcc.xml, umdf.iwdfioqueue
+ms.keywords: IWDFIoQueue, IWDFIoQueue interface, IWDFIoQueue interface, described, UMDFQueueObjectRef_57878b3d-0771-425d-b8ca-3e4713c96fcc.xml, umdf.iwdfioqueue, wdf.iwdfioqueue, wudfddi/IWDFIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

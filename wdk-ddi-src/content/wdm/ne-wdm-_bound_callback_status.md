@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/BOUND_CALLBACK_STATUS, BoundExceptionMaximum, kernel.bound_callback_status, wdm/BoundExceptionContinueSearch, BoundExceptionHandled, wdm/BoundExceptionHandled, wdm/BoundExceptionMaximum, BOUND_CALLBACK_STATUS, BoundExceptionError, wdm/BoundExceptionError, BoundExceptionContinueSearch, _BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PBOUND_CALLBACK_STATUS, ,, A, B, BOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], BoundExceptionContinueSearch, BoundExceptionError, BoundExceptionHandled, BoundExceptionMaximum, C, D, K, L, N, O, P, S, T, U, _, _BOUND_CALLBACK_STATUS, kernel.bound_callback_status, wdm/BOUND_CALLBACK_STATUS, wdm/BoundExceptionContinueSearch, wdm/BoundExceptionError, wdm/BoundExceptionHandled, wdm/BoundExceptionMaximum"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

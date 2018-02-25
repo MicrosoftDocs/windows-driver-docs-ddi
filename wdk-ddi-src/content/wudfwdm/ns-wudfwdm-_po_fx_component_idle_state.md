@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4F0BF45D-F854-480C-B0AC-8134C6BF3266
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PO_FX_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE, wdm/PO_FX_COMPONENT_IDLE_STATE, *PPO_FX_COMPONENT_IDLE_STATE, wdm/PPO_FX_COMPONENT_IDLE_STATE, PPO_FX_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], kernel.po_fx_component_idle_state, _PO_FX_COMPONENT_IDLE_STATE
+ms.keywords: ",  , *, *PPO_FX_COMPONENT_IDLE_STATE, ,, A, C, D, E, F, I, L, M, N, O, P, PO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_IDLE_STATE, PPO_FX_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], S, T, X, _, _PO_FX_COMPONENT_IDLE_STATE, kernel.po_fx_component_idle_state, wdm/PO_FX_COMPONENT_IDLE_STATE, wdm/PPO_FX_COMPONENT_IDLE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,7 +90,7 @@ The power, in microwatts, that the component consumes in this Fx state. Set this
 
 
 
- The <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a> structure contains a pointer to an array of <b>PO_FX_COMPONENT_IDLE_STATE</b> structures. Each array element specifies the attributes of an Fx state. Element 0 describes F0, element 1 describes F1, and so on.
+ The <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a> structure contains a pointer to an array of <b>PO_FX_COMPONENT_IDLE_STATE</b> structures. Each array element specifies the attributes of an Fx state. Element 0 describes F0, element 1 describes F1, and so on.
 
 When the driver registers a device with PoFx, the driver supplies an array of <b>PO_FX_COMPONENT</b> structures. Each array element describes the power attributes of a component in the device.
 
@@ -101,7 +101,7 @@ Do not set <b>TransitionLatency</b> and <b>ResidencyRequirement</b> to <b>PO_FX_
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
+<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
 
 
 

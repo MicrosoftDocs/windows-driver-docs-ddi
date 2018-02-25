@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee669f35-87a5-4c5e-9936-b9135a1459e1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.reenumerateself, ReenumerateSelf routine [Kernel-Mode Driver Architecture], ReenumerateSelf, PREENUMERATE_SELF, PREENUMERATE_SELF, wdm/ReenumerateSelf, drvr_interface_208efec1-4236-441b-a4b8-45a9539e4d84.xml
+ms.keywords: PREENUMERATE_SELF, ReenumerateSelf, ReenumerateSelf routine [Kernel-Mode Driver Architecture], drvr_interface_208efec1-4236-441b-a4b8-45a9539e4d84.xml, kernel.reenumerateself, wdm/ReenumerateSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -98,11 +98,7 @@ If the bus driver can process the request at the time of the routine call, the b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
-
-
-
-<a href="..\wdm\ns-wdm-_reenumerate_self_interface_standard.md">REENUMERATE_SELF_INTERFACE_STANDARD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
 
 
@@ -110,7 +106,11 @@ If the bus driver can process the request at the time of the routine call, the b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_reenumerate_self_interface_standard.md">REENUMERATE_SELF_INTERFACE_STANDARD</a>
 
 
 

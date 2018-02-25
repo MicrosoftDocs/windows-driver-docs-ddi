@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dc68f6d8-a2d5-4940-a708-fe761c3a8a0d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSDEVICE_DESCRIPTOR, stream.ksdevice_descriptor, ks/PKSDEVICE_DESCRIPTOR, PKSDEVICE_DESCRIPTOR structure pointer [Streaming Media Devices], _KSDEVICE_DESCRIPTOR, *PKSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR structure [Streaming Media Devices], avstruct_b51d9c2c-278f-4357-b84a-da6959ea9959.xml, ks/KSDEVICE_DESCRIPTOR, PKSDEVICE_DESCRIPTOR
+ms.keywords: ",  , *, *PKSDEVICE_DESCRIPTOR, ,, C, D, E, I, K, KSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR structure [Streaming Media Devices], O, P, PKSDEVICE_DESCRIPTOR, PKSDEVICE_DESCRIPTOR structure pointer [Streaming Media Devices], R, S, T, V, _, _KSDEVICE_DESCRIPTOR, avstruct_b51d9c2c-278f-4357-b84a-da6959ea9959.xml, ks/KSDEVICE_DESCRIPTOR, ks/PKSDEVICE_DESCRIPTOR, stream.ksdevice_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -172,11 +172,11 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-
-
 <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 

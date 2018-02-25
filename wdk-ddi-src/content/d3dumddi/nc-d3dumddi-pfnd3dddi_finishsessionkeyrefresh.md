@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e245f6f9-f4ea-429d-8421-be4fef1bf17e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.finishsessionkeyrefresh, FinishSessionKeyRefresh callback function [Display Devices], FinishSessionKeyRefresh, PFND3DDDI_FINISHSESSIONKEYREFRESH, PFND3DDDI_FINISHSESSIONKEYREFRESH, d3dumddi/FinishSessionKeyRefresh, UserModeDisplayDriver_Functions_6b7be711-8539-4b49-99d0-efbd424b33cc.xml
+ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh callback function [Display Devices], PFND3DDDI_FINISHSESSIONKEYREFRESH, UserModeDisplayDriver_Functions_6b7be711-8539-4b49-99d0-efbd424b33cc.xml, d3dumddi/FinishSessionKeyRefresh, display.finishsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -148,11 +148,11 @@ When the runtime subsequently calls the driver's <i>FinishSessionKeyRefresh</i> 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_finishsessionkeyrefresh.md">D3DDDIARG_FINISHSESSIONKEYREFRESH</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_startsessionkeyrefresh.md">StartSessionKeyRefresh</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_finishsessionkeyrefresh.md">D3DDDIARG_FINISHSESSIONKEYREFRESH</a>
 
 
 

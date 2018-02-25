@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 905BA306-29A5-4AAB-BA30-6B459E0062F6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UrsSetHardwareEventSupport function [Buses], ursdevice/UrsSetHardwareEventSupport, buses.urssethardwareeventsupport, UrsSetHardwareEventSupport
+ms.keywords: ",  , E, H, S, U, UrsSetHardwareEventSupport, UrsSetHardwareEventSupport function [Buses], a, buses.urssethardwareeventsupport, d, e, n, o, p, r, s, t, u, ursdevice/UrsSetHardwareEventSupport, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 60d320d2-24ca-4c7a-bdcf-ed3322a02f00
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.ioctl_get_pipe_configuration, IOCTL_GET_PIPE_CONFIGURATION control code [Imaging Devices], IOCTL_GET_PIPE_CONFIGURATION, usbscan/IOCTL_GET_PIPE_CONFIGURATION, stifnc_d8b8d478-b15d-402e-b449-052a25ff38fc.xml
+ms.keywords: IOCTL_GET_PIPE_CONFIGURATION, IOCTL_GET_PIPE_CONFIGURATION control code [Imaging Devices], image.ioctl_get_pipe_configuration, stifnc_d8b8d478-b15d-402e-b449-052a25ff38fc.xml, usbscan/IOCTL_GET_PIPE_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

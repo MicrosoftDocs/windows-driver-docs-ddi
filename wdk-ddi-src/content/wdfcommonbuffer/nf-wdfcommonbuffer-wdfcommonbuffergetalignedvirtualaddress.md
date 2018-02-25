@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6874a1bc-e16e-4052-85a4-dba617a69ccd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfCommonBufferGetAlignedVirtualAddress method, WdfCommonBufferGetAlignedVirtualAddress, DFCommonBufferObjectRef_469df6c0-51ef-480a-93fe-dee452eaf216.xml, kmdf.wdfcommonbuffergetalignedvirtualaddress, wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress, wdf.wdfcommonbuffergetalignedvirtualaddress
+ms.keywords: ",  , A, B, C, DFCommonBufferObjectRef_469df6c0-51ef-480a-93fe-dee452eaf216.xml, G, V, W, WdfCommonBufferGetAlignedVirtualAddress, WdfCommonBufferGetAlignedVirtualAddress method, a, d, e, f, g, i, kmdf.wdfcommonbuffergetalignedvirtualaddress, l, m, n, o, r, s, t, u, wdf.wdfcommonbuffergetalignedvirtualaddress, wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ For a code example that uses <b>WdfCommonBufferGetAlignedVirtualAddress</b>, see
 
 
 
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
+
+
+
+<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
 
 
 

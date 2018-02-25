@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 80c24c5b-49a3-4ecc-92fe-3477cbb8a544
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_ae11e9b8-bc4f-4c56-84a7-8e328e215415.xml, FsRtlFindInTunnelCache, ifsk.fsrtlfindintunnelcache, FsRtlFindInTunnelCache routine [Installable File System Drivers], ntifs/FsRtlFindInTunnelCache
+ms.keywords: ",  , C, F, FsRtlFindInTunnelCache, FsRtlFindInTunnelCache routine [Installable File System Drivers], I, R, T, a, c, d, e, fsrtlref_ae11e9b8-bc4f-4c56-84a7-8e328e215415.xml, h, i, ifsk.fsrtlfindintunnelcache, l, n, ntifs/FsRtlFindInTunnelCache, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,11 +151,11 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
 
 
 

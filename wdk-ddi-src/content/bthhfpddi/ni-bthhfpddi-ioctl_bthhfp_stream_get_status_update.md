@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1D591422-4ED4-41B9-92E0-189A5EABE7D0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.ioctl_bthhfp_stream_get_status_update, IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE control code [Audio Devices], IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE, bthhfpddi/IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
+ms.keywords: IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE, IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_stream_get_status_update, bthhfpddi/IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

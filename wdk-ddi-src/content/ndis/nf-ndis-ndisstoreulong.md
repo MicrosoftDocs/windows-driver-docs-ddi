@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4fb0b803-1fe2-409b-8543-dddc5df67fe4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_memory_ref_99349378-c2ab-4f96-82a3-7d76b15aaca3.xml, netvista.ndisstoreulong, ndis/NdisStoreUlong, NdisStoreUlong, NdisStoreUlong macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , N, NdisStoreUlong, NdisStoreUlong macro [Network Drivers Starting with Windows Vista], S, U, d, e, g, i, l, n, ndis/NdisStoreUlong, ndis_memory_ref_99349378-c2ab-4f96-82a3-7d76b15aaca3.xml, netvista.ndisstoreulong, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

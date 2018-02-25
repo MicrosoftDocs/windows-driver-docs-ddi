@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f1a38276-4964-422d-9b3c-8450b1028f27
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfcmresourcelistgetcount, WdfCmResourceListGetCount, WdfCmResourceListGetCount method, DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, wdfresource/WdfCmResourceListGetCount, kmdf.wdfcmresourcelistgetcount
+ms.keywords: ",  , C, DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, G, L, R, W, WdfCmResourceListGetCount, WdfCmResourceListGetCount method, c, d, e, f, i, kmdf.wdfcmresourcelistgetcount, m, n, o, r, s, t, u, wdf.wdfcmresourcelistgetcount, wdfresource/WdfCmResourceListGetCount"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

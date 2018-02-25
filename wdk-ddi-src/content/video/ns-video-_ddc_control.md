@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 993c4913-1613-4ffb-86dd-fd8846139a46
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: Video_Structs_d3006e08-ed2e-471d-b9c1-326a35aaf8bf.xml, _DDC_CONTROL, display.ddc_control, DDC_CONTROL structure [Display Devices], *PDDC_CONTROL, video/DDC_CONTROL, video/PDDC_CONTROL, DDC_CONTROL, PDDC_CONTROL, PDDC_CONTROL structure pointer [Display Devices]
+ms.keywords: ",  , *, *PDDC_CONTROL, ,, C, D, DDC_CONTROL, DDC_CONTROL structure [Display Devices], L, N, O, P, PDDC_CONTROL, PDDC_CONTROL structure pointer [Display Devices], R, T, Video_Structs_d3006e08-ed2e-471d-b9c1-326a35aaf8bf.xml, _, _DDC_CONTROL, display.ddc_control, video/DDC_CONTROL, video/PDDC_CONTROL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,15 +87,7 @@ Specifies the particular EDID segment. Currently, this member is meaningful only
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
-
-
-
-<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
 
 
 
@@ -103,7 +95,15 @@ Specifies the particular EDID segment. Currently, this member is meaningful only
 
 
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
+
+
+
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+
+
+
+<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
 
 
 

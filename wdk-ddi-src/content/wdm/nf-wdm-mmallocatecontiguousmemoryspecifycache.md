@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e35544ed-d113-476e-85a8-6b3f613c1dc2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MmAllocateContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], kernel.mmallocatecontiguousmemoryspecifycache, MmAllocateContiguousMemorySpecifyCache, k106_764af538-9f9b-432b-af6a-4a6b7addd95d.xml, wdm/MmAllocateContiguousMemorySpecifyCache
+ms.keywords: ",  , A, C, M, MmAllocateContiguousMemorySpecifyCache, MmAllocateContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], S, a, c, e, f, g, h, i, k106_764af538-9f9b-432b-af6a-4a6b7addd95d.xml, kernel.mmallocatecontiguousmemoryspecifycache, l, m, n, o, p, r, s, t, u, wdm/MmAllocateContiguousMemorySpecifyCache, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,9 +114,9 @@ Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE<
 
 Drivers must not access memory beyond the requested allocation size. For example, developers should not assume that their drivers can safely use memory between the end of their requested allocation and the next page boundary.
 
-Because contiguous physical memory is usually in short supply, it should be used sparingly and only when necessary. A driver that must use contiguous memory should allocate this memory during driver initialization because physical memory is likely to become fragmented over time as the operating system allocates and frees memory. Typically, a driver calls <b>MmAllocateContiguousMemorySpecifyCache</b> from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine to allocate an internal buffer for long-term use, and frees the buffer just before the driver is unloaded.
+Because contiguous physical memory is usually in short supply, it should be used sparingly and only when necessary. A driver that must use contiguous memory should allocate this memory during driver initialization because physical memory is likely to become fragmented over time as the operating system allocates and frees memory. Typically, a driver calls <b>MmAllocateContiguousMemorySpecifyCache</b> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine to allocate an internal buffer for long-term use, and frees the buffer just before the driver is unloaded.
 
-Memory allocated by <b>MmAllocateContiguousMemorySpecifyCache</b> must be freed when the memory is no longer needed. Call the <a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a> routine to free memory that is allocated by <b>MmAllocateContiguousMemorySpecifyCache</b>.
+Memory allocated by <b>MmAllocateContiguousMemorySpecifyCache</b> must be freed when the memory is no longer needed. Call the <a href="..\ntddk\nf-ntddk-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a> routine to free memory that is allocated by <b>MmAllocateContiguousMemorySpecifyCache</b>.
 
 If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter, the physical address range of the allocated memory block will not cross an address boundary that is an integer multiple of this value. A driver should set this parameter to zero unless a nonzero value is required to work around a hardware limitation. For example, if a device cannot transfer data across 16-megabyte physical boundaries, the driver should specify a value of 0x1000000 for this parameter to ensure that the addresses that the device sees do not wrap around at a 16-megabyte boundary.
 
@@ -129,11 +129,11 @@ If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter,
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
+<a href="..\ntddk\nf-ntddk-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
 
 
 

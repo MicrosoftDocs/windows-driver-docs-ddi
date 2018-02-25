@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f861e055-70db-4e0a-9c62-87e2d41f92ae
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiacquireswizzlingrange, DxgkDdiAcquireSwizzlingRange callback function [Display Devices], DxgkDdiAcquireSwizzlingRange, DXGKDDI_ACQUIRESWIZZLINGRANGE, DXGKDDI_ACQUIRESWIZZLINGRANGE, d3dkmddi/DxgkDdiAcquireSwizzlingRange, DmFunctions_6dd5b0ee-666c-45bf-ae39-05e37d74c137.xml
+ms.keywords: DXGKDDI_ACQUIRESWIZZLINGRANGE, DmFunctions_6dd5b0ee-666c-45bf-ae39-05e37d74c137.xml, DxgkDdiAcquireSwizzlingRange, DxgkDdiAcquireSwizzlingRange callback function [Display Devices], d3dkmddi/DxgkDdiAcquireSwizzlingRange, display.dxgkddiacquireswizzlingrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -164,7 +164,19 @@ A call to <i>DxgkDdiAcquireSwizzlingRange</i> to acquire a swizzling range might
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_acquireswizzlingrange.md">DXGKARG_ACQUIRESWIZZLINGRANGE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_releaseswizzlingrange.md">DxgkDdiReleaseSwizzlingRange</a>
 
 
 
@@ -176,19 +188,7 @@ A call to <i>DxgkDdiAcquireSwizzlingRange</i> to acquire a swizzling range might
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_releaseswizzlingrange.md">DxgkDdiReleaseSwizzlingRange</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_acquireswizzlingrange.md">DXGKARG_ACQUIRESWIZZLINGRANGE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

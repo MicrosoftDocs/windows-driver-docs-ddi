@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5405A9A6-243B-4E80-85D7-46C6FCC8339F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NDIS_PD_QUEUE, _NDIS_PD_QUEUE, PNDIS_PD_QUEUE structure pointer [Network Drivers Starting with Windows Vista], NDIS_PD_QUEUE, netvista.ndis_pd_queue, ndis/PNDIS_PD_QUEUE, NDIS_PD_QUEUE structure [Network Drivers Starting with Windows Vista], PNDIS_PD_QUEUE
+ms.keywords: ",  , ,, D, E, I, N, NDIS_PD_QUEUE, NDIS_PD_QUEUE structure [Network Drivers Starting with Windows Vista], P, PNDIS_PD_QUEUE, PNDIS_PD_QUEUE structure pointer [Network Drivers Starting with Windows Vista], Q, S, U, _, _NDIS_PD_QUEUE, ndis/NDIS_PD_QUEUE, ndis/PNDIS_PD_QUEUE, netvista.ndis_pd_queue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

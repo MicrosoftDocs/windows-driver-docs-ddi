@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5ea7bf77-2069-4335-862e-7f805f3a7491
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILOPERATORINFOPARAMMASK, RIL_PARAM_OI_ALL, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_OI_STATUS, RIL_PARAM_OI_NAMES, ntddrilapitypes/RIL_PARAM_OI_NAMES, ntddrilapitypes/RILOPERATORINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_OI_ALL, ntddrilapitypes/RIL_PARAM_OI_STATUS, netvista.riloperatorinfoparammask
+ms.keywords: ",  , ,, A, E, F, I, K, L, M, N, O, P, R, RILOPERATORINFOPARAMMASK, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_OI_ALL, RIL_PARAM_OI_NAMES, RIL_PARAM_OI_STATUS, S, T, netvista.riloperatorinfoparammask, ntddrilapitypes/RILOPERATORINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_OI_ALL, ntddrilapitypes/RIL_PARAM_OI_NAMES, ntddrilapitypes/RIL_PARAM_OI_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

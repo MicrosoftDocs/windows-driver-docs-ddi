@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 964B305F-5B9E-4705-89BA-DBAE43464FB1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.configureadapterchannel, ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], ConfigureAdapterChannel, PCONFIGURE_ADAPTER_CHANNEL, PCONFIGURE_ADAPTER_CHANNEL, wdm/ConfigureAdapterChannel
+ms.keywords: ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], PCONFIGURE_ADAPTER_CHANNEL, kernel.configureadapterchannel, wdm/ConfigureAdapterChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

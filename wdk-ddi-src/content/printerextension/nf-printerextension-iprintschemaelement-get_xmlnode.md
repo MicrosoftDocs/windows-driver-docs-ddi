@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5E7F2292-1F71-4581-8E34-86F1464EC08F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintSchemaElement::get_XmlNode, get_XmlNode, XmlNode property [Print Devices], IPrintSchemaElement interface, IPrintSchemaElement, printerextension/IPrintSchemaElement::get_XmlNode, printerextension/IPrintSchemaElement::XmlNode, IPrintSchemaElement.XmlNode, print.iprintschemaelement_xmlnode, IPrintSchemaElement interface [Print Devices], XmlNode property, XmlNode property [Print Devices]
+ms.keywords: ",  , ,, ., :, E, I, IPrintSchemaElement, IPrintSchemaElement interface [Print Devices], XmlNode property, IPrintSchemaElement.XmlNode, IPrintSchemaElement::get_XmlNode, N, P, S, X, XmlNode property [Print Devices], XmlNode property [Print Devices], IPrintSchemaElement interface, _, a, c, d, e, g, get_XmlNode, get_XmlNode,IPrintSchemaElement.get_XmlNode, h, i, l, m, n, o, print.iprintschemaelement_xmlnode, printerextension/IPrintSchemaElement::XmlNode, printerextension/IPrintSchemaElement::get_XmlNode, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,15 +80,11 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/B9A0C9EC-6C37-4C42-A10A-8CEE028C5998">IPrintSchemaTicket::NotifyXmlChanged</a>
-
-
-
-<a href="https://msdn.microsoft.com/5556BD5E-6489-4CCF-8C62-DDA53AD9F368">IPrintSchemaTicket_GetCapabilities</a>
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
@@ -96,11 +92,15 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="https://msdn.microsoft.com/B9A0C9EC-6C37-4C42-A10A-8CEE028C5998">IPrintSchemaTicket::NotifyXmlChanged</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
+
+
+
+<a href="https://msdn.microsoft.com/5556BD5E-6489-4CCF-8C62-DDA53AD9F368">IPrintSchemaTicket_GetCapabilities</a>
 
 
 

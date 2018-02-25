@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 71e4be0a-a5a6-469a-948b-bc5277bc8cbe
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IKsInterfaceHandler::KsSetPin, ksproxy_3746aba4-11e3-45a5-8495-eda1cad5bf9b.xml, stream.iksinterfacehandler_kssetpin, IKsInterfaceHandler, KsSetPin, KsSetPin method [Streaming Media Devices], IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsSetPin, KsSetPin method [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices], KsSetPin method
+ms.keywords: ",  , ,, ., :, H, I, IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], KsSetPin method, IKsInterfaceHandler::KsSetPin, K, KsSetPin method [Streaming Media Devices], KsSetPin method [Streaming Media Devices], IKsInterfaceHandler interface, KsSetPin,IKsInterfaceHandler.KsSetPin, P, S, a, c, d, e, f, i, ksproxy/IKsInterfaceHandler::KsSetPin, ksproxy_3746aba4-11e3-45a5-8495-eda1cad5bf9b.xml, l, n, r, s, stream.iksinterfacehandler_kssetpin, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,11 +92,11 @@ The <b>KsSetPin</b> method is called after an instance of the interface handler 
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>
-
-
-
 <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>
 
 
 

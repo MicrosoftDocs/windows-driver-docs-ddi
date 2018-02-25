@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5523d4d6-8eb5-48eb-a652-6612101b8422
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwscsiwmisetdatablock, HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], HwScsiWmiSetDataBlock, PSCSIWMI_SET_DATABLOCK, PSCSIWMI_SET_DATABLOCK, scsiwmi/HwScsiWmiSetDataBlock, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml
+ms.keywords: HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], PSCSIWMI_SET_DATABLOCK, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml, scsiwmi/HwScsiWmiSetDataBlock, storage.hwscsiwmisetdatablock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -131,7 +131,7 @@ The miniport driver should call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostpr
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 
@@ -139,7 +139,7 @@ The miniport driver should call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostpr
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 

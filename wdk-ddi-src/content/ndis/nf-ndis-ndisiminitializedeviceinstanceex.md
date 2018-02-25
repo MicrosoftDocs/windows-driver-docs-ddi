@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f65c2974-4bf4-4948-ac07-527e69c96303
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisIMInitializeDeviceInstanceEx, intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, netvista.ndisiminitializedeviceinstanceex, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], NdisIMInitializeDeviceInstanceEx
+ms.keywords: ",  , D, E, I, M, N, NdisIMInitializeDeviceInstanceEx, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], a, c, d, e, i, intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, l, n, ndis/NdisIMInitializeDeviceInstanceEx, netvista.ndisiminitializedeviceinstanceex, s, t, v, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -214,16 +214,7 @@ After NDIS calls an intermediate driver's
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
@@ -231,11 +222,7 @@ After NDIS calls an intermediate driver's
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
 
 
 
@@ -248,16 +235,17 @@ After NDIS calls an intermediate driver's
 
 
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
    NdisIMCancelInitializeDeviceInstance</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
 
 
 
@@ -265,8 +253,20 @@ After NDIS calls an intermediate driver's
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+   NdisIMInitializeDeviceInstanceEx</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 

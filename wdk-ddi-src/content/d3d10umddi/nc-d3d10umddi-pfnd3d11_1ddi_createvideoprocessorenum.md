@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38c27502-7e8a-45a1-8a7c-315300502480
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createvideoprocessorenum, CreateVideoProcessorEnum callback function [Display Devices], CreateVideoProcessorEnum, PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, d3d10umddi/CreateVideoProcessorEnum
+ms.keywords: CreateVideoProcessorEnum, CreateVideoProcessorEnum callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, d3d10umddi/CreateVideoProcessorEnum, display.createvideoprocessorenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -166,11 +166,11 @@ When the runtime  calls <i>CreateVideoProcessorEnum</i>, it passes the handle to
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorsize.md">CalcPrivateVideoProcessorEnumSize </a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a>
 
 
 

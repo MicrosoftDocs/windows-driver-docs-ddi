@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c56d767f-598c-46b8-bab1-ce4de0780076
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioreaddisksignature, IoReadDiskSignature routine [Storage Devices], IoReadDiskSignature, ntddk/IoReadDiskSignature, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml
+ms.keywords: ",  , D, I, IoReadDiskSignature, IoReadDiskSignature routine [Storage Devices], R, S, a, d, e, g, i, k, n, ntddk/IoReadDiskSignature, o, r, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, s, storage.ioreaddisksignature, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,11 +104,11 @@ The routine returns STATUS_SUCCESS on success, or the appropriate error code on 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_disk_signature.md">DISK_SIGNATURE</a>
-
-
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry_ex.md">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_disk_signature.md">DISK_SIGNATURE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 9411437c-60d8-424e-b54c-7750f1c4dd9e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Item property [Windows Device Testing Framework], Microsoft.WDTF.IWDTFDeviceDepot2.Item, Microsoft::WDTF::IWDTFDeviceDepot2::Item, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Item property, IWDTFActions2::get_Item, wdtf/IWDTFDeviceDepot2::get_Item, dtf.iwdtfdevicedepot2_item, IWDTFDeviceDepot2.Item, wdtf/IWDTFDeviceDepot2::Item, Item property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFActions2, IWDTFDeviceDepot2::get_Item, get_Item
+ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IWDTFActions2, IWDTFActions2::get_Item, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Item property, IWDTFDeviceDepot2.Item, IWDTFDeviceDepot2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, Microsoft.WDTF.IWDTFDeviceDepot2.Item, Microsoft::WDTF::IWDTFDeviceDepot2::Item, T, W, _, c, dtf.iwdtfdevicedepot2_item, e, g, get_Item,IWDTFActions2.get_Item, i, m, n, o, s, t, wdtf/IWDTFDeviceDepot2::Item, wdtf/IWDTFDeviceDepot2::get_Item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,11 +72,11 @@ HRESULT get_Item(
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 

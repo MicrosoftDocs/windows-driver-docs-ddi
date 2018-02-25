@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9F6A20F0-94B1-4DA2-9FEA-F44D6AFDD16D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.maptransferex, MapTransferEx, MapTransferEx callback function [Kernel-Mode Driver Architecture], MapTransferEx, PMAP_TRANSFER_EX, PMAP_TRANSFER_EX, wdm/MapTransferEx
+ms.keywords: MapTransferEx, MapTransferEx callback function [Kernel-Mode Driver Architecture], PMAP_TRANSFER_EX, kernel.maptransferex, wdm/MapTransferEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -258,23 +258,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
 
 
 
 <a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
-
-
-
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 
 
@@ -286,11 +274,23 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
 <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
 
 
 

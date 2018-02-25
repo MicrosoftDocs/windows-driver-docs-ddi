@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c56dc6df-e547-42f4-9656-01de5e66909a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILPHONEBOOKADDITIONALNUMBERINFO, *LPRILPHONEBOOKADDITIONALNUMBERINFO, netvista.rilphonebookadditionalnumberinfo_2, RILPHONEBOOKADDITIONALNUMBERINFO structure [Network Drivers Starting with Windows Vista], RILPHONEBOOKADDITIONALNUMBERINFO
+ms.keywords: ",  , *, *LPRILPHONEBOOKADDITIONALNUMBERINFO, ,, A, B, D, E, F, H, I, K, L, M, N, O, P, R, RILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO structure [Network Drivers Starting with Windows Vista], T, U, netvista.rilphonebookadditionalnumberinfo_2, rilapitypes/RILPHONEBOOKADDITIONALNUMBERINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

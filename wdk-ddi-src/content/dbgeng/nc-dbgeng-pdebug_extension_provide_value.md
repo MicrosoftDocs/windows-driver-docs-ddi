@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b4b1953c-dc1b-495a-ab58-5cfaa6064b23
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.debugextensionprovidevalue, DebugExtensionProvideValue, DebugExtensionProvideValue callback function [Windows Debugging], DebugExtensionProvideValue, PDEBUG_EXTENSION_PROVIDE_VALUE, PDEBUG_EXTENSION_PROVIDE_VALUE, dbgeng/DebugExtensionProvideValue, DEBUG_EXT_PVTYPE_IS_VALUE, DEBUG_EXT_PVTYPE_IS_POINTER, Extensions_Ref_fa822b69-6941-46e9-8b68-d57dd8d19d14.xml
+ms.keywords: DEBUG_EXT_PVTYPE_IS_POINTER, DEBUG_EXT_PVTYPE_IS_VALUE, DebugExtensionProvideValue, DebugExtensionProvideValue callback function [Windows Debugging], Extensions_Ref_fa822b69-6941-46e9-8b68-d57dd8d19d14.xml, PDEBUG_EXTENSION_PROVIDE_VALUE, dbgeng/DebugExtensionProvideValue, debugger.debugextensionprovidevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -184,10 +184,6 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
-
-
-
 <i>DebugExtensionQueryValueNames</i>
 
 
@@ -197,6 +193,10 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 <i>DebugExtensionNotify</i>
+
+
+
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 
 

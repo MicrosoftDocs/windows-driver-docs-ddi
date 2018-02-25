@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3a4b55b1-977d-43fb-9968-7a734e04b21b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PMSiSCSI_BootConfiguration, storage.msiscsi_bootconfiguration, _MSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration, PMSiSCSI_BootConfiguration structure pointer [Storage Devices], *PMSiSCSI_BootConfiguration, iscsicfg/MSiSCSI_BootConfiguration, iscsicfg/PMSiSCSI_BootConfiguration, structs-iSCSI_eb9ca716-5f5e-4bec-a4e0-e00d5a93b329.xml, MSiSCSI_BootConfiguration structure [Storage Devices]
+ms.keywords: ",  , *, *PMSiSCSI_BootConfiguration, ,, B, C, I, M, MSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration structure [Storage Devices], P, PMSiSCSI_BootConfiguration, PMSiSCSI_BootConfiguration structure pointer [Storage Devices], S, _, _MSiSCSI_BootConfiguration, a, f, g, i, iscsicfg/MSiSCSI_BootConfiguration, iscsicfg/PMSiSCSI_BootConfiguration, n, o, r, storage.msiscsi_bootconfiguration, structs-iSCSI_eb9ca716-5f5e-4bec-a4e0-e00d5a93b329.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,7 +137,7 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConf
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
 
 
 
@@ -145,11 +145,11 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConf
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
 
 
 

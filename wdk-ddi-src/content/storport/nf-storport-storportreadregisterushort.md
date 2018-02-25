@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 11659e7d-db54-401c-a179-75cc5d411b55
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_f477688d-54cb-4cb6-b713-0e70cfbf2139.xml, storage.storportreadregisterushort, StorPortReadRegisterUshort routine [Storage Devices], StorPortReadRegisterUshort, storport/StorPortReadRegisterUshort
+ms.keywords: ",  , P, R, S, StorPortReadRegisterUshort, StorPortReadRegisterUshort routine [Storage Devices], U, a, d, e, g, h, i, o, r, s, storage.storportreadregisterushort, storport/StorPortReadRegisterUshort, storprt_f477688d-54cb-4cb6-b713-0e70cfbf2139.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,18 +98,18 @@ Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadregisterushort.md">ScsiPortReadRegisterUshort</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferushort.md">StorPortReadRegisterBufferUshort</a>.
+For more information, see <a href="..\storport\nf-storport-scsiportreadregisterushort.md">ScsiPortReadRegisterUshort</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferushort.md">StorPortReadRegisterBufferUshort</a>.
 
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-scsiportreadregisterushort.md">ScsiPortReadRegisterUshort</a>
+
+
+
 <a href="..\storport\nf-storport-storportreadregisterbufferushort.md">StorPortReadRegisterBufferUshort</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportreadregisterushort.md">ScsiPortReadRegisterUshort</a>
 
 
 

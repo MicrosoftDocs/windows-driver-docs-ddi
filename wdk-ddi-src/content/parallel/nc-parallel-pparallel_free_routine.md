@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 730872ee-3dfd-48c7-a86e-1a420e59471f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.pparallel_free_routine, (*PPARALLEL_FREE_ROUTINE) callback function [Parallel Ports], (*PPARALLEL_FREE_ROUTINE), parallel/(*PPARALLEL_FREE_ROUTINE), cisspd_5f5bcbed-0df6-4b2a-ab88-a26f48976ad7.xml
+ms.keywords: "(*PPARALLEL_FREE_ROUTINE), (*PPARALLEL_FREE_ROUTINE) callback function [Parallel Ports], cisspd_5f5bcbed-0df6-4b2a-ab88-a26f48976ad7.xml, parallel/(*PPARALLEL_FREE_ROUTINE), parports.pparallel_free_routine"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -100,15 +100,15 @@ For more information, see <a href="https://msdn.microsoft.com/ea3a1998-9e31-4047
 
 
 
+<a href="..\parallel\nc-parallel-pparallel_query_waiters_routine.md">PPARALLEL_QUERY_WAITERS_ROUTINE</a>
+
+
+
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
 
 
 <a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
-
-
-
-<a href="..\parallel\nc-parallel-pparallel_query_waiters_routine.md">PPARALLEL_QUERY_WAITERS_ROUTINE</a>
 
 
 

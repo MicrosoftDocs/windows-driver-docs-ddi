@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22ba50eb-e428-433f-aca0-1d61f31fcd0c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_FIRMWARE_TABLE_INTERFACE, _DXGK_FIRMWARE_TABLE_INTERFACE, display.dxgk_firmware_table_interface, DXGK_FIRMWARE_TABLE_INTERFACE structure [Display Devices], PDXGK_FIRMWARE_TABLE_INTERFACE, PDXGK_FIRMWARE_TABLE_INTERFACE structure pointer [Display Devices], dispmprt/DXGK_FIRMWARE_TABLE_INTERFACE, 'RSMB', dispmprt/PDXGK_FIRMWARE_TABLE_INTERFACE, 'ACPI', *PDXGK_FIRMWARE_TABLE_INTERFACE, 'FIRM'
+ms.keywords: ",  , 'ACPI', 'FIRM', 'RSMB', *, *PDXGK_FIRMWARE_TABLE_INTERFACE, ,, A, B, C, D, DXGK_FIRMWARE_TABLE_INTERFACE, DXGK_FIRMWARE_TABLE_INTERFACE structure [Display Devices], E, F, G, I, K, L, M, N, P, PDXGK_FIRMWARE_TABLE_INTERFACE, PDXGK_FIRMWARE_TABLE_INTERFACE structure pointer [Display Devices], R, T, W, X, _, _DXGK_FIRMWARE_TABLE_INTERFACE, display.dxgk_firmware_table_interface, dispmprt/DXGK_FIRMWARE_TABLE_INTERFACE, dispmprt/PDXGK_FIRMWARE_TABLE_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

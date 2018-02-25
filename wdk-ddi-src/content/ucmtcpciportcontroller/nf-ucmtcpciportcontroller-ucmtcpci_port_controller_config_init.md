@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 8e9718e1-2f7c-4322-a34d-2faa45f4f97e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT, UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT method [Buses], buses.ucmtcpci_port_controller_config_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT
+ms.keywords: ",  , C, E, F, G, I, L, M, N, O, P, R, T, U, UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT, UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT method [Buses], _, buses.ucmtcpci_port_controller_config_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

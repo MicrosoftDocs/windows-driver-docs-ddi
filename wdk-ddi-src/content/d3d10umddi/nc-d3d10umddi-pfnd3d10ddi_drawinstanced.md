@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c539cf8b-e056-476a-9b23-7e360917a7d9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.drawinstanced, DrawInstanced callback function [Display Devices], DrawInstanced, PFND3D10DDI_DRAWINSTANCED, PFND3D10DDI_DRAWINSTANCED, d3d10umddi/DrawInstanced, UserModeDisplayDriverDx10_Functions_15fe8a07-36ca-4ab1-8570-01250eed4866.xml
+ms.keywords: DrawInstanced, DrawInstanced callback function [Display Devices], PFND3D10DDI_DRAWINSTANCED, UserModeDisplayDriverDx10_Functions_15fe8a07-36ca-4ab1-8570-01250eed4866.xml, d3d10umddi/DrawInstanced, display.drawinstanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -133,11 +133,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

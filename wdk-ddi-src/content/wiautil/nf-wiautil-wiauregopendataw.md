@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f289dfa8-26e4-426b-8058-8c2464e47e2a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiauRegOpenDataW, wiauRegOpenData function [Imaging Devices], image.wiauregopendata, wiauRegOpenDataA, wiautil/wiauRegOpenData, wiauRegOpenData, wiauFncs_1718e270-b13c-4325-bb4a-a872becaa8bb.xml
+ms.keywords: ",  , D, O, R, W, a, e, g, i, image.wiauregopendata, n, p, t, u, w, wiauFncs_1718e270-b13c-4325-bb4a-a872becaa8bb.xml, wiauRegOpenData, wiauRegOpenData function [Imaging Devices], wiauRegOpenDataA, wiauRegOpenDataW, wiautil/wiauRegOpenData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

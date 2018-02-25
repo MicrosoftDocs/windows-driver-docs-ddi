@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0734fac3-9327-4765-a50b-57be45ce2817
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V2, netvista.rilsystemselectionprefs_v2, *LPRILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2 structure [Network Drivers Starting with Windows Vista], *LPRILSYSTEMSELECTIONPREFS, RILSYSTEMSELECTIONPREFS, RILSYSTEMSELECTIONPREFS_V2
+ms.keywords: ",  , *, *LPRILSYSTEMSELECTIONPREFS, *LPRILSYSTEMSELECTIONPREFS_V2, ,, 2, C, E, F, I, L, M, N, O, P, R, RILSYSTEMSELECTIONPREFS, RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2 structure [Network Drivers Starting with Windows Vista], S, T, V, Y, _, netvista.rilsystemselectionprefs_v2, ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

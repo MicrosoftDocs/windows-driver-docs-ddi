@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8f435a52-f087-4d36-bf95-e82f5ab061e4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ProbeForWrite routine [Kernel-Mode Driver Architecture], ProbeForWrite, kernel.probeforwrite, wdm/ProbeForWrite, k102_62889c29-62cb-43c2-ac19-e8b933783443.xml
+ms.keywords: ",  , F, P, ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], W, b, e, i, k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, kernel.probeforwrite, o, r, t, wdm/ProbeForWrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

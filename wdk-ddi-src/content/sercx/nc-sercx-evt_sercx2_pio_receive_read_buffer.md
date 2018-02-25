@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B69A128A-B1B0-47BC-9783-32780FC9C447
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2pioreceivereadbuffer, EvtSerCx2PioReceiveReadBuffer callback function [Serial Ports], EvtSerCx2PioReceiveReadBuffer, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER, 2/EvtSerCx2PioReceiveReadBuffer
+ms.keywords: 2/EvtSerCx2PioReceiveReadBuffer, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER, EvtSerCx2PioReceiveReadBuffer, EvtSerCx2PioReceiveReadBuffer callback function [Serial Ports], serports.evtsercx2pioreceivereadbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -164,7 +164,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_READ_BUFFER</b> function type is defined in the Se
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_cleanup_transaction.md">EvtSerCx2PioReceiveCleanupTransaction</a>
 
 
 
@@ -172,15 +172,15 @@ The <b>EVT_SERCX2_PIO_RECEIVE_READ_BUFFER</b> function type is defined in the Se
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_enable_ready_notification.md">EvtSerCx2PioReceiveEnableReadyNotification</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_cleanup_transaction.md">EvtSerCx2PioReceiveCleanupTransaction</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
 
 
 

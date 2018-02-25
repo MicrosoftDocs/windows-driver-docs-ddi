@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_GPUENGINETOPOLOGY structure [Display Devices], DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml, DXGK_GPUENGINETOPOLOGY, _DXGK_GPUENGINETOPOLOGY, d3dkmddi/DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology
+ms.keywords: ",  , ,, D, DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY structure [Display Devices], DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml, E, G, I, K, L, N, O, P, T, U, X, Y, _, _DXGK_GPUENGINETOPOLOGY, d3dkmddi/DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

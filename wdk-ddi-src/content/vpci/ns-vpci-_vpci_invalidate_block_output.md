@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6971C724-CE5E-44BC-8D3A-FAD248771E6F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VPCI_INVALIDATE_BLOCK_OUTPUT, vpci/VPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, _VPCI_INVALIDATE_BLOCK_OUTPUT, kernel.vpci_invalidate_block_output, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PVPCI_INVALIDATE_BLOCK_OUTPUT, ,, A, B, C, D, E, I, K, L, N, O, P, PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], T, U, V, VPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], _, _VPCI_INVALIDATE_BLOCK_OUTPUT, kernel.vpci_invalidate_block_output, vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, vpci/VPCI_INVALIDATE_BLOCK_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

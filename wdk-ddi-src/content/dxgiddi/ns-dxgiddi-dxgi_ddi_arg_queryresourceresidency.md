@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 140a92a8-4b82-47d0-855c-6bc1f9a3d167
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDisplayDriver_Dx10param_Structs_c6e97d75-9ef8-4ae5-9b1f-c4a25234b906.xml, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure [Display Devices], display.dxgi_ddi_arg_queryresourceresidency, dxgiddi/DXGI_DDI_ARG_QUERYRESOURCERESIDENCY, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
+ms.keywords: ",  , ,, A, C, D, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure [Display Devices], E, G, I, N, O, Q, R, S, U, UMDisplayDriver_Dx10param_Structs_c6e97d75-9ef8-4ae5-9b1f-c4a25234b906.xml, X, Y, _, display.dxgi_ddi_arg_queryresourceresidency, dxgiddi/DXGI_DDI_ARG_QUERYRESOURCERESIDENCY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 98ccf623-8232-4bcb-bd72-39dd31c7ede3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_mountdev_link_created, IOCTL_MOUNTDEV_LINK_CREATED control code [Storage Devices], IOCTL_MOUNTDEV_LINK_CREATED, mountdev/IOCTL_MOUNTDEV_LINK_CREATED, k307_b93a8e67-8e02-4d7d-aac2-a11f3d4297c2.xml
+ms.keywords: IOCTL_MOUNTDEV_LINK_CREATED, IOCTL_MOUNTDEV_LINK_CREATED control code [Storage Devices], k307_b93a8e67-8e02-4d7d-aac2-a11f3d4297c2.xml, mountdev/IOCTL_MOUNTDEV_LINK_CREATED, storage.ioctl_mountdev_link_created
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: fb5c6cbe-b1f4-4aed-afe3-1a4e8e26416e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.ioctl_acpi_async_eval_method_ex, IOCTL_ACPI_ASYNC_EVAL_METHOD_EX control code [ACPI Devices], IOCTL_ACPI_ASYNC_EVAL_METHOD_EX, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_EX, acpi-meth-eval-ref_d6847663-52f2-4ae0-9ee5-defba8aed0cf.xml
+ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_EX, IOCTL_ACPI_ASYNC_EVAL_METHOD_EX control code [ACPI Devices], acpi-meth-eval-ref_d6847663-52f2-4ae0-9ee5-defba8aed0cf.xml, acpi.ioctl_acpi_async_eval_method_ex, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -182,15 +182,11 @@ IOCTL_ACPI_ASYNC_EVAL_METHOD_EX can be used only at IRQL &lt;= DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_integer_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX</a>
-
-
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
 
 
 
@@ -198,7 +194,7 @@ IOCTL_ACPI_ASYNC_EVAL_METHOD_EX can be used only at IRQL &lt;= DISPATCH_LEVEL.
 
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
 
 
 
@@ -210,7 +206,11 @@ IOCTL_ACPI_ASYNC_EVAL_METHOD_EX can be used only at IRQL &lt;= DISPATCH_LEVEL.
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_integer_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX</a>
 
 
 

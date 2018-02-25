@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0320AB36-CA88-40E7-859E-B940401474DD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exsettimer, ExSetTimer routine [Kernel-Mode Driver Architecture], wdm/ExSetTimer, ExSetTimer
+ms.keywords: ",  , E, ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture], S, T, e, i, kernel.exsettimer, m, r, t, wdm/ExSetTimer, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,15 +132,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
-
-
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
 
 
 
@@ -152,11 +144,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+<a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
 
 
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
 
 
 

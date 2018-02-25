@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 01c34bb8-b164-425d-b81c-7eefc08296e2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, structs-CD-ROM_87a067ea-0911-429b-808a-102f9600ecac.xml, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure [Storage Devices], ntddmmc/PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure pointer [Storage Devices], PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, storage.feature_data_cd_audio_analog_play"
+ms.keywords: ",  , *, *PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ,, A, C, D, E, F, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure [Storage Devices], G, I, L, N, O, P, PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure pointer [Storage Devices], R, T, U, Y, _, _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, storage.feature_data_cd_audio_analog_play, structs-CD-ROM_87a067ea-0911-429b-808a-102f9600ecac.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,11 +117,11 @@ This structure holds data for the feature named "CD Audio External Play" by the 
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 

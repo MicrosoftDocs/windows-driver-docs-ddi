@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: e7118f5b-819f-428f-a5e6-80a36705d626
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: vDbgPrintEx, DebugFns_e3774486-d60a-4853-8d86-5ffb99ef4bcb.xml, vDbgPrintEx routine [Driver Development Tools], devtest.vdbgprintex, wdm/vDbgPrintEx
+ms.keywords: ",  , D, DebugFns_e3774486-d60a-4853-8d86-5ffb99ef4bcb.xml, E, P, b, devtest.vdbgprintex, g, i, n, r, t, v, vDbgPrintEx, vDbgPrintEx routine [Driver Development Tools], wdm/vDbgPrintEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

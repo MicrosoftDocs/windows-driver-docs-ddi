@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 328dca02-9276-4a3d-acac-e00721863243
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PBTH_SDP_CONNECT structure pointer [Bluetooth Devices], BTH_SDP_CONNECT structure [Bluetooth Devices], bthioctl/BTH_SDP_CONNECT, _BTH_SDP_CONNECT, *PBTH_SDP_CONNECT, bthioctl/PBTH_SDP_CONNECT, PBTH_SDP_CONNECT, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml, bltooth.bth_sdp_connect, BTH_SDP_CONNECT
+ms.keywords: ",  , *, *PBTH_SDP_CONNECT, ,, B, BTH_SDP_CONNECT, BTH_SDP_CONNECT structure [Bluetooth Devices], C, D, E, H, N, O, P, PBTH_SDP_CONNECT, PBTH_SDP_CONNECT structure pointer [Bluetooth Devices], S, T, _, _BTH_SDP_CONNECT, bltooth.bth_sdp_connect, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml, bthioctl/BTH_SDP_CONNECT, bthioctl/PBTH_SDP_CONNECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

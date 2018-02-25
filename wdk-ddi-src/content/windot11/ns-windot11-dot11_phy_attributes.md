@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9e81144e-e562-4f61-83de-7b7659106de8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], DOT11_PHY_ATTRIBUTES, windot11/PDOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES, Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, windot11/DOT11_PHY_ATTRIBUTES, netvista.dot11_phy_attributes, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PDOT11_PHY_ATTRIBUTES, ,, 1, A, B, D, DOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], E, H, I, Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, O, P, PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, Y, _, netvista.dot11_phy_attributes, windot11/DOT11_PHY_ATTRIBUTES, windot11/PDOT11_PHY_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -275,24 +275,19 @@ The
 
 ## -see-also
 
+<a href="..\windot11\ns-windot11-dot11_ofdm_phy_attributes.md">DOT11_OFDM_PHY_ATTRIBUTES</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">DOT11_HRDSSS_PHY_ATTRIBUTES</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a>
-
-
-
-<a href="..\windot11\ns-windot11-_dot11_supported_data_rates_value_v2.md">
-   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</a>
-
-
-
-<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
 
 
 
@@ -305,15 +300,16 @@ The
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">DOT11_HRDSSS_PHY_ATTRIBUTES</a>
+<a href="..\windot11\ns-windot11-_dot11_supported_data_rates_value_v2.md">
+   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</a>
 
 
 
-<a href="..\windot11\ns-windot11-dot11_ofdm_phy_attributes.md">DOT11_OFDM_PHY_ATTRIBUTES</a>
+<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
 
 
 
@@ -321,11 +317,15 @@ The
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
 
 
 
-<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
+<a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
 
 
 

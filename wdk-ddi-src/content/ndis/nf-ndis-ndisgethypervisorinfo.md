@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5469c6aa-90df-4379-b670-23aaa6919055
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisGetHypervisorInfo, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml, netvista.ndisgethypervisorinfo, NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , G, H, I, N, NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], d, e, f, i, n, ndis/NdisGetHypervisorInfo, netvista.ndisgethypervisorinfo, o, p, r, s, t, v, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

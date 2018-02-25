@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 923693a2-cb46-4f74-bb1b-cd7bb07014e8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidP_GetSpecificButtonCaps, hidpi/HidP_GetSpecificButtonCaps, HidP_GetSpecificButtonCaps routine [Human Input Devices], hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, hid.hidp_getspecificbuttoncaps
+ms.keywords: ",  , B, C, G, H, HidP_GetSpecificButtonCaps, HidP_GetSpecificButtonCaps routine [Human Input Devices], P, S, _, a, c, d, e, f, hid.hidp_getspecificbuttoncaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, hidpi/HidP_GetSpecificButtonCaps, i, n, o, p, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,7 +165,7 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
 
 
 
@@ -173,11 +173,11 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
 
 
 

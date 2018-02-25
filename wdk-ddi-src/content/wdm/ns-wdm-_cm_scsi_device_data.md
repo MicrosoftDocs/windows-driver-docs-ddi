@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5cb213c9-24c8-456a-a868-87f1577a8d44
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_CM_SCSI_DEVICE_DATA, kernel.cm_scsi_device_data, CM_SCSI_DEVICE_DATA, PCM_SCSI_DEVICE_DATA, wdm/PCM_SCSI_DEVICE_DATA, CM_SCSI_DEVICE_DATA structure [Kernel-Mode Driver Architecture], *PCM_SCSI_DEVICE_DATA, wdm/CM_SCSI_DEVICE_DATA, kstruct_a_af6c0c9a-2191-45f9-ba0f-20c54a202e0a.xml, PCM_SCSI_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture]"
+ms.keywords: ",  , *, *PCM_SCSI_DEVICE_DATA, ,, A, C, CM_SCSI_DEVICE_DATA, CM_SCSI_DEVICE_DATA structure [Kernel-Mode Driver Architecture], D, E, I, M, P, PCM_SCSI_DEVICE_DATA, PCM_SCSI_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], S, T, V, _, _CM_SCSI_DEVICE_DATA, kernel.cm_scsi_device_data, kstruct_a_af6c0c9a-2191-45f9-ba0f-20c54a202e0a.xml, wdm/CM_SCSI_DEVICE_DATA, wdm/PCM_SCSI_DEVICE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,15 +87,15 @@ The SCSI bus identifier used by the ARC firmware.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
 
 
 

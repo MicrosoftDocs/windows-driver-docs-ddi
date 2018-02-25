@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10C3077A-1A6A-4AA1-BC9B-829353A8A895
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_bandmgmt_activate, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code [Storage Devices], IOCTL_EHSTOR_BANDMGMT_ACTIVATE, ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ACTIVATE
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_ACTIVATE, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ACTIVATE, storage.ioctl_ehstor_bandmgmt_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DXVA_VideoSample32
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

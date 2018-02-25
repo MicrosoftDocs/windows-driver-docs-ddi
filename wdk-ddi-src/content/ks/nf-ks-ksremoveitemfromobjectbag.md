@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8644b5eb-e038-4cdb-b461-d643ff929736
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksremoveitemfromobjectbag, KsRemoveItemFromObjectBag, avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, ks/KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag function [Streaming Media Devices]
+ms.keywords: ",  , B, F, I, K, KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag function [Streaming Media Devices], O, R, a, avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, b, c, e, g, j, ks/KsRemoveItemFromObjectBag, m, o, r, s, stream.ksremoveitemfromobjectbag, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
-
-
-
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+
+
+
+<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
 
 
 

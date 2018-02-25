@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 92F2A43C-699B-4580-8A56-472D837A76E2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnfreegpuvirtualaddresscb, pfnFreeGpuVirtualAddressCb callback function [Display Devices], pfnFreeGpuVirtualAddressCb, PFND3DDDI_FREEGPUVIRTUALADDRESSCB, PFND3DDDI_FREEGPUVIRTUALADDRESSCB, d3dumddi/pfnFreeGpuVirtualAddressCb
+ms.keywords: PFND3DDDI_FREEGPUVIRTUALADDRESSCB, d3dumddi/pfnFreeGpuVirtualAddressCb, display.pfnfreegpuvirtualaddresscb, pfnFreeGpuVirtualAddressCb, pfnFreeGpuVirtualAddressCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,19 +112,19 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
 
 
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_freegpuvirtualaddress.md">D3DDDICB_FREEGPUVIRTUALADDRESS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a>
 
 
 

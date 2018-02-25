@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a624373-e483-484f-b9d1-f9d7aed1caa8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_CREATEDEVICE, d3dkmthk/D3DKMT_CREATEDEVICE, display.d3dkmt_createdevice, D3DKMT_CREATEDEVICE structure [Display Devices], _D3DKMT_CREATEDEVICE, OpenGL_Structs_ed68c4a8-21a9-4754-8909-666a581f7759.xml
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CREATEDEVICE, D3DKMT_CREATEDEVICE structure [Display Devices], E, I, K, M, OpenGL_Structs_ed68c4a8-21a9-4754-8909-666a581f7759.xml, R, T, V, _, _D3DKMT_CREATEDEVICE, d3dkmthk/D3DKMT_CREATEDEVICE, display.d3dkmt_createdevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,45 +85,45 @@ typedef struct _D3DKMT_CREATEDEVICE {
 
 ### -field hDevice
 
-[out] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function.
+[out] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function.
 
 
 ### -field pCommandBuffer
 
-[out] A pointer to command buffer memory that the OpenGL ICD places commands into. The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function returns this memory pointer.
+[out] A pointer to command buffer memory that the OpenGL ICD places commands into. The <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function returns this memory pointer.
 
 
 ### -field CommandBufferSize
 
-[out] The size, in bytes, of the memory block that <b>pCommandBuffer</b> points to. The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function returns this size value.
+[out] The size, in bytes, of the memory block that <b>pCommandBuffer</b> points to. The <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function returns this size value.
 
 
 ### -field pAllocationList
 
 [out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a> structures that the OpenGL ICD inserts referenced allocations in.
 
-The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function returns this value. 
+The <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function returns this value. 
 
 
 ### -field AllocationListSize
 
 [out] The number of elements in the array of allocations that is pointed to by <b>pAllocationList</b>. This quantity of allocations is available when submitting the command buffer that is pointed to by <b>pCommandBuffer</b> to the display miniport driver. 
 
-The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function returns this value. 
+The <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function returns this value. 
 
 
 ### -field pPatchLocationList
 
 [out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures that the OpenGL ICD inserts patching information in.
 
-The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function returns this value. 
+The <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function returns this value. 
 
 
 ### -field PatchLocationListSize
 
 [out] The number of elements in the patch-location list that is pointed to by <b>pPatchLocationList</b>. This quantity of patch locations is available when submitting the command buffer that is pointed to by <b>pCommandBuffer</b> to the display miniport driver. 
 
-The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function returns this value. 
+The <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function returns this value. 
 
 
 #### - hAdapter
@@ -138,11 +138,11 @@ The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdeviceflags.md">D3DKMT_CREATEDEVICEFLAGS</a>
+
+
+
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a>
 
 
 

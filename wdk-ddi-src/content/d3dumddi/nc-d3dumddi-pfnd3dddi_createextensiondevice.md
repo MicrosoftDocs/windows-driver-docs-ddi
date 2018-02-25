@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e6dbb70-2e74-4ddb-a504-2c8145af99d9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createextensiondevice, CreateExtensionDevice callback function [Display Devices], CreateExtensionDevice, PFND3DDDI_CREATEEXTENSIONDEVICE, PFND3DDDI_CREATEEXTENSIONDEVICE, d3dumddi/CreateExtensionDevice, UserModeDisplayDriver_Functions_342ee084-e24a-43a8-99a9-c83c2670e2e4.xml
+ms.keywords: CreateExtensionDevice, CreateExtensionDevice callback function [Display Devices], PFND3DDDI_CREATEEXTENSIONDEVICE, UserModeDisplayDriver_Functions_342ee084-e24a-43a8-99a9-c83c2670e2e4.xml, d3dumddi/CreateExtensionDevice, display.createextensiondevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -132,11 +132,11 @@ The extension device is successfully created.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyextensiondevice.md">DestroyExtensionDevice</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createextensiondevice.md">D3DDDIARG_CREATEEXTENSIONDEVICE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyextensiondevice.md">DestroyExtensionDevice</a>
 
 
 

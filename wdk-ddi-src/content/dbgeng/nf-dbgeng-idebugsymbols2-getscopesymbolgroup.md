@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 002af3f1-4879-40e9-a5c6-bf62a3b26e02
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], GetScopeSymbolGroup method, debugger.getscopesymbolgroup, IDebugSymbols2 interface [Windows Debugging], GetScopeSymbolGroup method, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols2, IDebugSymbols::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols interface, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetScopeSymbolGroup, dbgeng/IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup method, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: ",  , ,, ., 2, :, D, G, GetScopeSymbolGroup method [Windows Debugging], GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols interface, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, GetScopeSymbolGroup,IDebugSymbols.GetScopeSymbolGroup, GetScopeSymbolGroup,IDebugSymbols2.GetScopeSymbolGroup, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, S, b, c, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, dbgeng/IDebugSymbols::GetScopeSymbolGroup, debugger.getscopesymbolgroup, e, g, l, m, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -156,6 +156,10 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
@@ -169,10 +173,6 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c290c313-14ee-4554-9bb1-8adec1892426
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicancelcommand, DxgkDdiCancelCommand callback function [Display Devices], DxgkDdiCancelCommand, DXGKDDI_CANCELCOMMAND, DXGKDDI_CANCELCOMMAND, d3dkmddi/DxgkDdiCancelCommand
+ms.keywords: DXGKDDI_CANCELCOMMAND, DxgkDdiCancelCommand, DxgkDdiCancelCommand callback function [Display Devices], d3dkmddi/DxgkDdiCancelCommand, display.dxgkddicancelcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,15 +109,15 @@ If the driver returns an error code, the DirectX graphics kernel subsystem  caus
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidschcaps.md">DXGK_VIDSCHCAPS</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_cancelcommand.md">DXGKARG_CANCELCOMMAND</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidschcaps.md">DXGK_VIDSCHCAPS</a>
 
 
 

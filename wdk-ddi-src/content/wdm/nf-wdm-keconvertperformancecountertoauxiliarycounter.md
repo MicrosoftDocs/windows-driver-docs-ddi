@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69F7C73E-C609-4080-8CB8-2F4D9A8C695B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KeConvertPerformanceCounterToAuxiliaryCounter, KeConvertPerformanceCounterToAuxiliaryCounter routine [Kernel-Mode Driver Architecture], kernel.keconvertperformancecountertoauxiliarycounter, KeConvertPerformanceCounterToAuxiliaryCounter
+ms.keywords: ",  , A, C, K, KeConvertPerformanceCounterToAuxiliaryCounter, KeConvertPerformanceCounterToAuxiliaryCounter routine [Kernel-Mode Driver Architecture], P, T, a, c, e, f, i, kernel.keconvertperformancecountertoauxiliarycounter, l, m, n, o, r, t, u, v, wdm/KeConvertPerformanceCounterToAuxiliaryCounter, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

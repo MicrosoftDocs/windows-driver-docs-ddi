@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6d4e957e-ad9c-45da-8d1d-0ef5f108c692
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.agpfreepool, AgpFreePool callback function [Display Devices], AgpFreePool, DXGKCB_AGP_FREE_POOL, DXGKCB_AGP_FREE_POOL, dispmprt/AgpFreePool, DpFunctions_ffe16de5-aa04-4f4b-bae5-de5b25682f65.xml
+ms.keywords: AgpFreePool, AgpFreePool callback function [Display Devices], DXGKCB_AGP_FREE_POOL, DpFunctions_ffe16de5-aa04-4f4b-bae5-de5b25682f65.xml, display.agpfreepool, dispmprt/AgpFreePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,19 +113,19 @@ None.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_set_command.md">AgpSetCommand</a>
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_allocate_pool.md">AgpAllocatePool</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
 
 
 

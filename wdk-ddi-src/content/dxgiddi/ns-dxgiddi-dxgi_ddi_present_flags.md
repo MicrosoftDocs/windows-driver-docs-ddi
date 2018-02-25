@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87f3b66a-0fcb-4325-ae23-7f89d6b389e6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGI_DDI_PRESENT_FLAGS structure [Display Devices], DXGI_DDI_PRESENT_FLAGS, display.dxgi_ddi_present_flags, dxgiddi/DXGI_DDI_PRESENT_FLAGS, UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml
+ms.keywords: ",  , ,, A, D, DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS structure [Display Devices], E, F, G, I, L, N, P, R, S, T, UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml, X, _, display.dxgi_ddi_present_flags, dxgiddi/DXGI_DDI_PRESENT_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,11 +132,11 @@ A member in the union that is contained in DXGI_DDI_PRESENT_FLAGS that can hold 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
-
-
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
 
 
 

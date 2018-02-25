@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A3396CC8-153E-401A-BAD6-18FEE4D14EE5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_detect_proprietary_charger, EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER, EvtDeviceProprietaryChargerDetect, EvtUfxDeviceDetectProprietaryCharger callback function [Buses], EvtUfxDeviceDetectProprietaryCharger, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, ufxclient/EvtUfxDeviceDetectProprietaryCharger, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT
+ms.keywords: EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, EvtDeviceProprietaryChargerDetect, EvtUfxDeviceDetectProprietaryCharger, EvtUfxDeviceDetectProprietaryCharger callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], buses.evt_ufx_device_detect_proprietary_charger, ufxclient/EvtUfxDeviceDetectProprietaryCharger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,11 +109,11 @@ The client driver sends a request to the lower filter driver to determine if a p
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md">UfxDeviceProprietaryChargerDetectComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md">UfxDeviceProprietaryChargerDetectComplete</a>
 
 
 

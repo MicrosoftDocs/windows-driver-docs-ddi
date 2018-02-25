@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 68819fe9-fd90-4391-a129-5aa0cae1558b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsStreamPointerDelete, avfunc_b21da27c-abf4-4277-8a22-232c31fbfe97.xml, KsStreamPointerDelete function [Streaming Media Devices], stream.ksstreampointerdelete, KsStreamPointerDelete
+ms.keywords: ",  , D, K, KsStreamPointerDelete, KsStreamPointerDelete function [Streaming Media Devices], P, S, a, avfunc_b21da27c-abf4-4277-8a22-232c31fbfe97.xml, e, i, ks/KsStreamPointerDelete, l, m, n, o, r, s, stream.ksstreampointerdelete, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,15 +97,15 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
-
-
-
 <a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
 
 
 
 <a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
 
 
 

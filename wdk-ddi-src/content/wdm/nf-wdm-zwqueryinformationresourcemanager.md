@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6faeb410-486e-4b79-b942-62d16039d24b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NtQueryInformationResourceManager, wdm/NtQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], wdm/ZwQueryInformationResourceManager, kernel.zwqueryinformationresourcemanager, ZwQueryInformationResourceManager, ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml
+ms.keywords: ",  , I, M, NtQueryInformationResourceManager, Q, R, Z, ZwQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], a, c, e, f, g, i, kernel.zwqueryinformationresourcemanager, ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml, m, n, o, r, s, t, u, w, wdm/NtQueryInformationResourceManager, wdm/ZwQueryInformationResourceManager, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -198,6 +198,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwsetinformationresourcemanager.md">ZwSetInformationResourceManager</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
 
 
@@ -206,15 +210,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\wdm\ns-wdm-_resourcemanager_basic_information.md">RESOURCEMANAGER_BASIC_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationresourcemanager.md">ZwSetInformationResourceManager</a>
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
 
 
 
@@ -222,7 +222,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

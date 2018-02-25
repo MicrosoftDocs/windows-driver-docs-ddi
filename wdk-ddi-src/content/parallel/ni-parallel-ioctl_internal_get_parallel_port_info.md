@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: c621e510-1c86-4029-aeb7-e16a38e96f03
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_internal_get_parallel_port_info, IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO control code [Parallel Ports], IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO, parallel/IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO, cisspd_c38efa0a-2f2b-481d-82e2-911a152430fd.xml
+ms.keywords: IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO, IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO control code [Parallel Ports], cisspd_c38efa0a-2f2b-481d-82e2-911a152430fd.xml, parallel/IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO, parports.ioctl_internal_get_parallel_port_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

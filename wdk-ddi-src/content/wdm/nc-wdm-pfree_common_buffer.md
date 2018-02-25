@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9e026bde-657a-42ea-907c-71cc217dbd8d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.freecommonbuffer, FreeCommonBuffer, FreeCommonBuffer callback function [Kernel-Mode Driver Architecture], FreeCommonBuffer, PFREE_COMMON_BUFFER, PFREE_COMMON_BUFFER, wdm/FreeCommonBuffer, kdma_73f76fbd-2641-4002-90c8-ca412e969418.xml
+ms.keywords: FreeCommonBuffer, FreeCommonBuffer callback function [Kernel-Mode Driver Architecture], PFREE_COMMON_BUFFER, kdma_73f76fbd-2641-4002-90c8-ca412e969418.xml, kernel.freecommonbuffer, wdm/FreeCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

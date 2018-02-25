@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1a87da8a-a495-4451-a6f3-1261efda09f3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintCorePS2::GetFeatureAttribute, GetFeatureAttribute, GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface, GetFeatureAttribute method [Print Devices], print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml, IPrintCorePS2 interface [Print Devices], GetFeatureAttribute method, prcomoem/IPrintCorePS2::GetFeatureAttribute, IPrintCorePS2, print.iprintcoreps2_getfeatureattribute
+ms.keywords: ",  , ,, ., 2, :, A, C, F, G, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface, GetFeatureAttribute,IPrintCorePS2.GetFeatureAttribute, I, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], GetFeatureAttribute method, IPrintCorePS2::GetFeatureAttribute, P, S, a, b, e, i, n, o, prcomoem/IPrintCorePS2::GetFeatureAttribute, print.iprintcoreps2_getfeatureattribute, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -199,15 +199,7 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
 
 
 
@@ -215,7 +207,15 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
+
+
+
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
 
 
 

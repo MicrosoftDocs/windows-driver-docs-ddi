@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c1acc574-6e9e-40a1-8892-00572fcc545c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: oemrilapitypes/RILGBACAPABLE, oemrilapitypes/RIL_GBA_UNKNOWN, netvista.rilgbacapable, RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], RIL_GBA_ME_SUPPORTED, RIL_GBA_UNKNOWN, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, RILGBACAPABLE, oemrilapitypes/RIL_GBA_U_SUPPORTED, RIL_GBA_U_SUPPORTED, RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_ME_SUPPORTED
+ms.keywords: ",  , ,, A, B, C, E, G, I, L, P, R, RILGBACAPABLE, RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], RIL_GBA_ME_SUPPORTED, RIL_GBA_NOT_SUPPORTED, RIL_GBA_UNKNOWN, RIL_GBA_U_SUPPORTED, netvista.rilgbacapable, oemrilapitypes/RILGBACAPABLE, oemrilapitypes/RIL_GBA_ME_SUPPORTED, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_UNKNOWN, oemrilapitypes/RIL_GBA_U_SUPPORTED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

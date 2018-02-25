@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df9b3231-4c43-4d4b-b128-e8d6a9f21b17
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: strmini/StreamClassDebugAssert, strclass-routines_6f9302e6-592f-4097-830c-83b05a54d335.xml, StreamClassDebugAssert routine [Streaming Media Devices], stream.streamclassdebugassert, StreamClassDebugAssert
+ms.keywords: ",  , A, C, D, S, StreamClassDebugAssert, StreamClassDebugAssert routine [Streaming Media Devices], a, b, e, g, l, m, r, s, strclass-routines_6f9302e6-592f-4097-830c-83b05a54d335.xml, stream.streamclassdebugassert, strmini/StreamClassDebugAssert, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

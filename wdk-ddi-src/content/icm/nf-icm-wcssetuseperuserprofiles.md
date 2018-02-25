@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e14f944f-67fe-4eb8-85b2-9ba262e2e549
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WcsSetUsePerUserProfiles, colorfnc_e56a2693-0dec-4b5a-96be-2934ec336d2b.xml, WcsSetUsePerUserProfiles function [Print Devices], print.wcssetuseperuserprofiles, icm/WcsSetUsePerUserProfiles
+ms.keywords: ",  , P, S, U, W, WcsSetUsePerUserProfiles, WcsSetUsePerUserProfiles function [Print Devices], c, colorfnc_e56a2693-0dec-4b5a-96be-2934ec336d2b.xml, e, f, i, icm/WcsSetUsePerUserProfiles, l, o, print.wcssetuseperuserprofiles, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

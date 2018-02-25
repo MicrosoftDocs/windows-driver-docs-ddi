@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A5AA5E73-3DC1-4977-9B64-9E0FB3E6609E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ResetDevice routine [Kernel-Mode Driver Architecture], ResetDevice, PDEVICE_RESET_HANDLER, PDEVICE_RESET_HANDLER, wdm/ResetDevice, kernel.devicereset
+ms.keywords: PDEVICE_RESET_HANDLER, ResetDevice, ResetDevice routine [Kernel-Mode Driver Architecture], kernel.devicereset, wdm/ResetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

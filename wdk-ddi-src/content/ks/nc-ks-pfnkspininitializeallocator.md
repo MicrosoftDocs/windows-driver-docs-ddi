@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9c6d3856-702c-416b-a5d2-b3578a55bbcd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminiinitializeallocator, AVStrMiniInitializeAllocator, AVStrMiniInitializeAllocator routine [Streaming Media Devices], AVStrMiniInitializeAllocator, PFNKSPININITIALIZEALLOCATOR, PFNKSPININITIALIZEALLOCATOR, ks/AVStrMiniInitializeAllocator, avstclbk_979c0a29-7e4b-463c-8ff3-62124b0d49d1.xml
+ms.keywords: AVStrMiniInitializeAllocator, AVStrMiniInitializeAllocator routine [Streaming Media Devices], PFNKSPININITIALIZEALLOCATOR, avstclbk_979c0a29-7e4b-463c-8ff3-62124b0d49d1.xml, ks/AVStrMiniInitializeAllocator, stream.avstrminiinitializeallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,10 +113,6 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnksdeleteallocator.md">AVStrMiniDeleteAllocator</a>
-
-
-
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
@@ -126,6 +122,10 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+
+
+<a href="..\ks\nc-ks-pfnksdeleteallocator.md">AVStrMiniDeleteAllocator</a>
 
 
 

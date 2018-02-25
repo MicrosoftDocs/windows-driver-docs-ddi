@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08246843-9b6e-4694-8475-acb02fbdd82b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KbCallbackSecondaryDumpData, kernel.kbugcheck_callback_reason, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], wdm/KbCallbackAddPages, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, _KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackSecondaryDumpData, KbCallbackAddPages, KbCallbackInvalid, wdm/KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackReserved1, KbCallbackDumpIo, wdm/KbCallbackDumpIo, KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackInvalid, KbCallbackReserved1
+ms.keywords: ",  , ,, A, B, C, E, G, H, K, KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], KbCallbackAddPages, KbCallbackDumpIo, KbCallbackInvalid, KbCallbackReserved1, KbCallbackSecondaryDumpData, L, N, O, R, S, U, _, _KBUGCHECK_CALLBACK_REASON, kernel.kbugcheck_callback_reason, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, wdm/KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackAddPages, wdm/KbCallbackDumpIo, wdm/KbCallbackInvalid, wdm/KbCallbackReserved1, wdm/KbCallbackSecondaryDumpData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -107,7 +107,7 @@ Specifies that the callback is executed to provide one or more pages of data tha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
 
 
@@ -115,15 +115,15 @@ Specifies that the callback is executed to provide one or more pages of data tha
 
 
 
-<a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
+
+
+
+<a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
 
 
 

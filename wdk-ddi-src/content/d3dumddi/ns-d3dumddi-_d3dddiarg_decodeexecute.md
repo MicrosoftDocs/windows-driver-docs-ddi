@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7f5bdf39-68a7-4466-b4d9-3620b638db62
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddiarg_decodeexecute, _D3DDDIARG_DECODEEXECUTE, D3DDDIARG_DECODEEXECUTE, D3DDDIARG_DECODEEXECUTE structure [Display Devices], d3dumddi/D3DDDIARG_DECODEEXECUTE, UMDisplayDriver_param_Structs_bd4aee7e-91f5-41dc-bb63-0fed88e04c7d.xml
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_DECODEEXECUTE, D3DDDIARG_DECODEEXECUTE structure [Display Devices], E, G, I, O, R, T, U, UMDisplayDriver_param_Structs_bd4aee7e-91f5-41dc-bb63-0fed88e04c7d.xml, X, _, _D3DDDIARG_DECODEEXECUTE, d3dumddi/D3DDDIARG_DECODEEXECUTE, display.d3dddiarg_decodeexecute"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,11 +90,11 @@ typedef struct _D3DDDIARG_DECODEEXECUTE {
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a>
 
 
 

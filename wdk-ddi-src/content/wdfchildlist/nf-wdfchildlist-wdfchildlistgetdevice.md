@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d51ec82-4891-47f1-8fc1-b20cb611d7fe
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfchildlistgetdevice, wdfchildlist/WdfChildListGetDevice, WdfChildListGetDevice, WdfChildListGetDevice method, kmdf.wdfchildlistgetdevice, DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml
+ms.keywords: ",  , C, D, DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, G, L, W, WdfChildListGetDevice, WdfChildListGetDevice method, c, d, e, f, h, i, kmdf.wdfchildlistgetdevice, l, s, t, v, wdf.wdfchildlistgetdevice, wdfchildlist/WdfChildListGetDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

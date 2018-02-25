@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3925bf83-1900-4d88-8100-1ecaa952dead
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstateiaindexbufcb, pfnStateIaIndexBufCb callback function [Display Devices], pfnStateIaIndexBufCb, PFND3D10DDI_STATE_IA_INDEXBUF_CB, PFND3D10DDI_STATE_IA_INDEXBUF_CB, d3d10umddi/pfnStateIaIndexBufCb, d3d10state_functions_0bf4b875-3cd1-4a62-a8b5-4dd61259188b.xml
+ms.keywords: PFND3D10DDI_STATE_IA_INDEXBUF_CB, d3d10state_functions_0bf4b875-3cd1-4a62-a8b5-4dd61259188b.xml, d3d10umddi/pfnStateIaIndexBufCb, display.pfnstateiaindexbufcb, pfnStateIaIndexBufCb, pfnStateIaIndexBufCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

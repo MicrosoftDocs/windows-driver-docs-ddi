@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 76B45154-5E81-4515-ADEE-11401FDF4681
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsStackCopyToNewLocation, KsStackReuseCurrentLocation, ks/KSSTACK_USE, KSSTACK_USE enumeration [Streaming Media Devices], ks/KsStackUseNewLocation, KSSTACK_USE, KsStackCopyToNewLocation, ks/KsStackReuseCurrentLocation, KsStackUseNewLocation, stream.ksstack_use
+ms.keywords: ",  , ,, A, C, E, K, KSSTACK_USE, KSSTACK_USE enumeration [Streaming Media Devices], KsStackCopyToNewLocation, KsStackReuseCurrentLocation, KsStackUseNewLocation, S, T, U, _, ks/KSSTACK_USE, ks/KsStackCopyToNewLocation, ks/KsStackReuseCurrentLocation, ks/KsStackUseNewLocation, stream.ksstack_use"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

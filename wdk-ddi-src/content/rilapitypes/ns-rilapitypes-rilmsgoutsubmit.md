@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e310fc1-383c-4dbc-9c72-3eb8aa8db285
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], *LPRILMSGOUTSUBMIT, netvista.rilmsgoutsubmit_2, RILMSGOUTSUBMIT, rilapitypes/RILMSGOUTSUBMIT
+ms.keywords: ",  , *, *LPRILMSGOUTSUBMIT, ,, B, G, I, L, M, O, P, R, RILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.rilmsgoutsubmit_2, rilapitypes/RILMSGOUTSUBMIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

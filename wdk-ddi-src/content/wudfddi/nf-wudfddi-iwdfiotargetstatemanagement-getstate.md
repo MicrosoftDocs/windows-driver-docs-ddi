@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f915294f-457f-4913-b4b0-e94e1806a06d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoTargetStateManagement::GetState, IWDFIoTargetStateManagement, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, IWDFIoTargetStateManagement interface, GetState method, wdf.iwdfiotargetstatemanagement_getstate, umdf.iwdfiotargetstatemanagement_getstate, GetState, GetState method, wudfddi/IWDFIoTargetStateManagement::GetState, GetState method, IWDFIoTargetStateManagement interface
+ms.keywords: ",  , ,, ., :, D, F, G, GetState method, GetState method, IWDFIoTargetStateManagement interface, GetState,IWDFIoTargetStateManagement.GetState, I, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, GetState method, IWDFIoTargetStateManagement::GetState, M, S, T, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, W, a, e, g, m, n, o, r, t, umdf.iwdfiotargetstatemanagement_getstate, wdf.iwdfiotargetstatemanagement_getstate, wudfddi/IWDFIoTargetStateManagement::GetState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,7 +74,7 @@ WDF_IO_TARGET_STATE  GetState();
 
 
 
-<b>GetState</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the I/O target.
+<b>GetState</b> returns a <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the I/O target.
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F4B06D2E-A024-4F0B-91A2-7A7775AD99DC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WdmlibIoCreateDeviceSecure, IoCreateDeviceSecure, kernel.wdmlibiocreatedevicesecure, wdmsec/IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, D, I, IoCreateDeviceSecure, S, W, WdmlibIoCreateDeviceSecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], a, b, c, d, e, i, kernel.wdmlibiocreatedevicesecure, l, m, o, r, t, u, v, wdmsec/IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,7 +80,7 @@ NTSTATUS WdmlibIoCreateDeviceSecure(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. WDM function and filter drivers also receive a driver object pointer in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. 
+Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. WDM function and filter drivers also receive a driver object pointer in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. 
 
 
 ### -param DeviceExtensionSize [in]
@@ -165,19 +165,15 @@ If a driver's call to <b>WdmlibIoCreateDeviceSecure</b> returns an error, the dr
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -185,7 +181,11 @@ If a driver's call to <b>WdmlibIoCreateDeviceSecure</b> returns an error, the dr
 
 
 
-<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 

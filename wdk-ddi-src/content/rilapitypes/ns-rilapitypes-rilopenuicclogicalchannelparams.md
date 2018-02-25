@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 067d33bf-33d5-49b7-9923-8c893d0b9184
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILOPENUICCLOGICALCHANNELPARAMS, rilapitypes/RILOPENUICCLOGICALCHANNELPARAMS, netvista.rilopenuicclogicalchannelparams_2, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILOPENUICCLOGICALCHANNELPARAMS
+ms.keywords: ",  , *, *LPRILOPENUICCLOGICALCHANNELPARAMS, ,, A, C, E, G, H, I, L, M, N, O, P, R, RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], S, U, netvista.rilopenuicclogicalchannelparams_2, rilapitypes/RILOPENUICCLOGICALCHANNELPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

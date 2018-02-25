@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 69022797-432a-410b-8cbf-e1ef7111e7ea
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnlockcb, pfnLockCb callback function [Display Devices], pfnLockCb, PFND3DDDI_LOCKCB, PFND3DDDI_LOCKCB, d3dumddi/pfnLockCb, D3Druntime_Functions_25ad9d8e-34e0-4b1e-9a3a-4d170322fbca.xml
+ms.keywords: D3Druntime_Functions_25ad9d8e-34e0-4b1e-9a3a-4d170322fbca.xml, PFND3DDDI_LOCKCB, d3dumddi/pfnLockCb, display.pfnlockcb, pfnLockCb, pfnLockCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -294,11 +294,11 @@ ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);</pre>
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
 
 
 
@@ -306,15 +306,15 @@ ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);</pre>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createresource.md">D3D11DDIARG_CREATERESOURCE</a>
 
 
 
@@ -322,7 +322,7 @@ ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);</pre>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createresource.md">D3D11DDIARG_CREATERESOURCE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 

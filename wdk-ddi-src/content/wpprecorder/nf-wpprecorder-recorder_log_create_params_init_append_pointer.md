@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: EC94E27C-C863-49F0-B13C-B661E96991B7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER, RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER, devtest.recorder_log_create_params_init_append_pointer, RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function [Driver Development Tools]
+ms.keywords: ",  , A, C, D, E, G, I, L, M, N, O, P, R, RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER, RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function [Driver Development Tools], S, T, _, devtest.recorder_log_create_params_init_append_pointer, wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

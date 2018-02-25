@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2e479563-8ffd-40cd-a584-d34de2530e1d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: CreateProcessAndAttach2, debugger.createprocessandattach2, CreateProcessAndAttach2 method [Windows Debugging], IDebugClient5::CreateProcessAndAttach2, CreateProcessAndAttach2 method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::CreateProcessAndAttach2, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttach2 method, IDebugClient5, IDebugClient_898e4cd4-45bf-43b8-80be-f761743e7f5c.xml
+ms.keywords: ",  , ,, ., 2, 5, :, A, C, CreateProcessAndAttach2 method [Windows Debugging], CreateProcessAndAttach2 method [Windows Debugging], IDebugClient5 interface, CreateProcessAndAttach2,IDebugClient5.CreateProcessAndAttach2, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttach2 method, IDebugClient5::CreateProcessAndAttach2, IDebugClient_898e4cd4-45bf-43b8-80be-f761743e7f5c.xml, P, a, b, c, d, dbgeng/IDebugClient5::CreateProcessAndAttach2, debugger.createprocessandattach2, e, g, h, i, l, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -184,23 +184,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
 
 
 
@@ -208,15 +192,11 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562135">.attach (Attach to Process)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
 
 
@@ -225,6 +205,26 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

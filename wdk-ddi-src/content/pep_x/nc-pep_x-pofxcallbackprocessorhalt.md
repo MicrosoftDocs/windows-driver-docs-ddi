@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DEBE74B2-DFBD-43D7-8B14-86B4DA7D4C98
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.processorhalt, ProcessorHalt, ProcessorHalt routine [Kernel-Mode Driver Architecture], ProcessorHalt, POFXCALLBACKPROCESSORHALT, POFXCALLBACKPROCESSORHALT, pepfx/ProcessorHalt
+ms.keywords: POFXCALLBACKPROCESSORHALT, ProcessorHalt, ProcessorHalt routine [Kernel-Mode Driver Architecture], kernel.processorhalt, pepfx/ProcessorHalt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -164,7 +164,7 @@ The PEP's <i>Halt</i> callback routine unexpectedly returned from an idle state 
 
 
 
-This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>ProcessorHalt</b> member of the <a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>ProcessorHalt</b> routine.
+This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>ProcessorHalt</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>ProcessorHalt</b> routine.
 
 Before halting the processor, the PEP calls the <b>ProcessorHalt</b> routine to give PoFx an opportunity to save the processor's hardware context. If necessary, <b>ProcessorHalt</b> saves this state internally in PoFx so that the state can later be restored when the processor exits the idle state. After preparing the processor to enter the idle state, <b>ProcessorHalt</b> calls the PEP's <i>Halt</i> callback routine to halt the processor.
 
@@ -211,7 +211,7 @@ The PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 

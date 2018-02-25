@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 11beef0b-061a-4d73-b723-d0214f479503
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winsplp/RouterFreePrinterNotifyInfo, print.routerfreeprinternotifyinfo, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo function [Print Devices]
+ms.keywords: ",  , F, I, N, P, R, RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo function [Print Devices], e, f, i, n, o, print.routerfreeprinternotifyinfo, r, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, t, u, winsplp/RouterFreePrinterNotifyInfo, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,11 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
 
 
 

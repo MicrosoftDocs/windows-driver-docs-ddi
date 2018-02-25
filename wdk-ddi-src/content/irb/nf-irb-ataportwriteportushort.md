@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14b47f0a-5de8-4650-8a90-40e9da8537f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AtaPortWritePortUshort routine [Storage Devices], irb/AtaPortWritePortUshort, storage.ataportwriteportushort, AtaPortWritePortUshort, atartns_1766efcd-f235-43ae-8fbe-ab56a858a7ee.xml
+ms.keywords: ",  , A, AtaPortWritePortUshort, AtaPortWritePortUshort routine [Storage Devices], P, U, W, a, atartns_1766efcd-f235-43ae-8fbe-ab56a858a7ee.xml, e, h, i, irb/AtaPortWritePortUshort, o, r, s, storage.ataportwriteportushort, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

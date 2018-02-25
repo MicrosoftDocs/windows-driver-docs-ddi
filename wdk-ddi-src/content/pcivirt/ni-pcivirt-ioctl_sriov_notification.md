@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 3f2d67e0-abab-40a1-b4a9-cb65e81884e9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.ioctl-sriov-notification, IOCTL_SRIOV_NOTIFICATION control code [Buses], IOCTL_SRIOV_NOTIFICATION, pcivirt/IOCTL_SRIOV_NOTIFICATION
+ms.keywords: IOCTL_SRIOV_NOTIFICATION, IOCTL_SRIOV_NOTIFICATION control code [Buses], PCI.ioctl-sriov-notification, pcivirt/IOCTL_SRIOV_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

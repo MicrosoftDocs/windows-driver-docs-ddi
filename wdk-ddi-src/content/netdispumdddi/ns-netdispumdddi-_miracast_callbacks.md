@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2168a4d8-a33d-4534-b4e8-126a41e528f5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PMIRACAST_CALLBACKS structure pointer [Display Devices], MIRACAST_CALLBACKS structure [Display Devices], display.miracast_callbacks, _MIRACAST_CALLBACKS, *PMIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS, netdispumdddi/MIRACAST_CALLBACKS, MIRACAST_CALLBACKS, PMIRACAST_CALLBACKS
+ms.keywords: ",  , *, *PMIRACAST_CALLBACKS, ,, A, B, C, I, K, L, M, MIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], P, PMIRACAST_CALLBACKS, PMIRACAST_CALLBACKS structure pointer [Display Devices], R, S, T, _, _MIRACAST_CALLBACKS, display.miracast_callbacks, netdispumdddi/MIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9dd3632c-4c88-470d-8419-10959eda0454
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/DebugCreate, debugger.debugcreate, DebugCreate function [Windows Debugging], ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, DebugCreate
+ms.keywords: ",  , C, ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, D, DebugCreate, DebugCreate function [Windows Debugging], a, b, dbgeng/DebugCreate, debugger.debugcreate, e, g, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

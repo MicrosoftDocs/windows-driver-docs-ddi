@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 80877e8e-378f-4849-a8ce-b0651fdc2755
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ixpspartiterator_isdone, IXpsPartIterator::IsDone, IXpsPartIterator, IsDone method [Print Devices], IXpsPartIterator interface [Print Devices], IsDone method, filterpipeline_c3b7b22e-6a29-463a-a516-d7857413050e.xml, IsDone method [Print Devices], IXpsPartIterator interface, IsDone, filterpipeline/IXpsPartIterator::IsDone
+ms.keywords: ",  , ,, ., :, D, I, IXpsPartIterator, IXpsPartIterator interface [Print Devices], IsDone method, IXpsPartIterator::IsDone, IsDone method [Print Devices], IsDone method [Print Devices], IXpsPartIterator interface, IsDone,IXpsPartIterator.IsDone, P, X, a, e, filterpipeline/IXpsPartIterator::IsDone, filterpipeline_c3b7b22e-6a29-463a-a516-d7857413050e.xml, n, o, p, print.ixpspartiterator_isdone, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: aa221279-8d59-4f6f-8fc6-ad09e36a12a9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: NewStream, NewStream method [Audio Devices], IMiniportDMus, NewStream method [Audio Devices], IMiniportDMus interface, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, IMiniportDMus::NewStream, audio.iminiportdmus_newstream, IMiniportDMus interface [Audio Devices], NewStream method, dmusicks/IMiniportDMus::NewStream
+ms.keywords: ",  , ,, ., :, D, I, IMiniportDMus, IMiniportDMus interface [Audio Devices], NewStream method, IMiniportDMus::NewStream, M, N, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportDMus interface, NewStream,IMiniportDMus.NewStream, S, a, audio.iminiportdmus_newstream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, dmusicks/IMiniportDMus::NewStream, e, i, m, n, o, p, r, s, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -226,23 +226,11 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
 
 
 
-<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
+<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
 
 
 
@@ -250,11 +238,23 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 
 
+<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
+
+
+
+<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+
+
+
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
-<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
@@ -266,7 +266,7 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
 
 
 

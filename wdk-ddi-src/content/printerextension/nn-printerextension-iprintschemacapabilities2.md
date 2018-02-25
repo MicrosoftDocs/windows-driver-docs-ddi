@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1C361DC6-6517-4845-BEA6-09D2BB3B3232
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschemacapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], IPrintSchemaCapabilities2 interface [Print Devices], described, IPrintSchemaCapabilities2, printerextension/IPrintSchemaCapabilities2
+ms.keywords: IPrintSchemaCapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], IPrintSchemaCapabilities2 interface [Print Devices], described, print.iprintschemacapabilities2, printerextension/IPrintSchemaCapabilities2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

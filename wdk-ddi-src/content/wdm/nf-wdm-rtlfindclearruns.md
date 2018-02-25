@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ad44c7ba-1d8e-4ba4-8d1b-83ff8b2e3d06
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/RtlFindClearRuns, RtlFindClearRuns routine [Kernel-Mode Driver Architecture], k109_10c01954-483b-4ec8-a54d-50928663dc16.xml, RtlFindClearRuns, kernel.rtlfindclearruns
+ms.keywords: ",  , C, F, R, RtlFindClearRuns, RtlFindClearRuns routine [Kernel-Mode Driver Architecture], a, d, e, i, k109_10c01954-483b-4ec8-a54d-50928663dc16.xml, kernel.rtlfindclearruns, l, n, r, s, t, u, wdm/RtlFindClearRuns"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,26 +113,6 @@ Callers of <b>RtlFindClearRuns</b> must be running at IRQL &lt;= APC_LEVEL if th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
 
 
@@ -141,7 +121,27 @@ Callers of <b>RtlFindClearRuns</b> must be running at IRQL &lt;= APC_LEVEL if th
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
 
 
 

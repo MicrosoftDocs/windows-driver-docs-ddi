@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76b0d865-a620-4ced-904c-d1d613dbadd1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl4::GetEventFilterTextWide, dbgeng/IDebugControl4::GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, debugger.geteventfiltertextwide, IDebugControl4, GetEventFilterTextWide, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method
+ms.keywords: ",  , ,, ., 4, :, C, D, E, F, G, GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, GetEventFilterTextWide,IDebugControl4.GetEventFilterTextWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, IDebugControl4::GetEventFilterTextWide, T, W, b, d, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide, e, g, i, l, n, o, r, t, u, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -140,11 +140,11 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

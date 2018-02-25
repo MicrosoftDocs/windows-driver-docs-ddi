@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5d1fff23-f1e8-41a5-9cd6-a20bd4a7883e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iocalldriver, k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, IoCallDriver, wdm/IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, D, I, IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], a, e, i, k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, l, o, r, v, wdm/IoCallDriver"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -110,11 +110,7 @@ Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
 
 
 
@@ -122,15 +118,19 @@ Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="
 
 
 
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
-
-
-
 <a href="..\wdm\nf-wdm-pocalldriver.md">PoCallDriver</a>
 
 
 
+<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
+
+
 <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 

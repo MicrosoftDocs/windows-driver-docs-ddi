@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79dd9ff3-2a5f-457a-8a8a-4963a799055c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PTRANSACTION_BASIC_INFORMATION, _TRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PTRANSACTION_BASIC_INFORMATION, ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, TRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION, wdm/TRANSACTION_BASIC_INFORMATION, kernel.transaction_basic_information, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PTRANSACTION_BASIC_INFORMATION, ,, A, B, C, F, I, M, N, O, P, PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, S, T, TRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _, _TRANSACTION_BASIC_INFORMATION, kernel.transaction_basic_information, ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, wdm/PTRANSACTION_BASIC_INFORMATION, wdm/TRANSACTION_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,11 +96,11 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
-
-
-
 <a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
+
+
+
+<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
 
 
 
@@ -108,11 +108,11 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\
 
 
 
+<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
-
-
-
-<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
 
 
 

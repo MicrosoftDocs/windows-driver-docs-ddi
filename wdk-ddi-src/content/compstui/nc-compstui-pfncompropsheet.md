@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d9654346-1f28-4e02-8f6c-17e37ed09b92
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.compropsheet, ComPropSheet, ComPropSheet routine [Print Devices], ComPropSheet, PFNCOMPROPSHEET, PFNCOMPROPSHEET, compstui/ComPropSheet, cpsuifnc_2586427b-a3ae-4c2e-b081-06d58ec310c3.xml
+ms.keywords: ComPropSheet, ComPropSheet routine [Print Devices], PFNCOMPROPSHEET, compstui/ComPropSheet, cpsuifnc_2586427b-a3ae-4c2e-b081-06d58ec310c3.xml, print.compropsheet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

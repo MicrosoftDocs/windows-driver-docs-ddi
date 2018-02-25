@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8b940eec-dac6-4a01-afc8-73115bf994c3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortFlushRegistry, VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, VideoPortFlushRegistry function [Display Devices], video/VideoPortFlushRegistry, display.videoportflushregistry
+ms.keywords: ",  , F, P, R, V, VideoPortFlushRegistry, VideoPortFlushRegistry function [Display Devices], VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, d, display.videoportflushregistry, e, g, h, i, l, o, r, s, t, u, video/VideoPortFlushRegistry, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

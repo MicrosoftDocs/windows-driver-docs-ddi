@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4792107C-BAAA-48B5-AC9A-829C05795303
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, *IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps, _DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices]
+ms.keywords: ",  , *, *IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, ,, A, C, D, DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], E, G, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, _, _DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

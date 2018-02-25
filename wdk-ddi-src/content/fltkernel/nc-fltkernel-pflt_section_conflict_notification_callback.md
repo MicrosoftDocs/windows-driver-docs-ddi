@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 22840772-7DFC-4339-9C06-4900E47048B4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.pflt_section_conflict_notification_callback, SectionNotificationCallback routine [Installable File System Drivers], SectionNotificationCallback, PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, fltkernel/SectionNotificationCallback
+ms.keywords: PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, SectionNotificationCallback, SectionNotificationCallback routine [Installable File System Drivers], fltkernel/SectionNotificationCallback, ifsk.pflt_section_conflict_notification_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,10 +109,6 @@ Certain situations can occur where holding a section open is incompatible with c
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
@@ -122,6 +118,10 @@ Certain situations can occur where holding a section open is incompatible with c
 
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 
 

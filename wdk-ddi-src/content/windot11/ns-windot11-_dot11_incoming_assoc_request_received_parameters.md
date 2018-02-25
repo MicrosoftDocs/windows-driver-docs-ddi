@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bd65cac6-ca53-46fc-943f-0f698c531554
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: Native_802.11_data_types_00b02485-5af1-4945-a902-cceb1ac2e345.xml, netvista.dot11_incoming_assoc_request_received_parameters, windot11/DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, *PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS
+ms.keywords: ",  , *, *PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, ,, 1, A, C, D, DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure [Network Drivers Starting with Windows Vista], E, G, I, M, N, Native_802.11_data_types_00b02485-5af1-4945-a902-cceb1ac2e345.xml, O, P, PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], Q, R, S, T, U, V, _, _DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, netvista.dot11_incoming_assoc_request_received_parameters, windot11/DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,12 +152,12 @@ The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_REQUEST_RECEIV
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_REQUEST_RECEIVED</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

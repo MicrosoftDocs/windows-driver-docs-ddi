@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 2C53ABFD-127C-42E6-86B6-EB0DC6FC62F1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.evtsensorgetdatainterval, EvtSensorGetDataInterval callback function [Sensor Devices], EvtSensorGetDataInterval, EVT_SENSOR_DRIVER_GET_DATA_INTERVAL, EVT_SENSOR_DRIVER_GET_DATA_INTERVAL, sensorscx/EvtSensorGetDataInterval
+ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_INTERVAL, EvtSensorGetDataInterval, EvtSensorGetDataInterval callback function [Sensor Devices], sensors.evtsensorgetdatainterval, sensorscx/EvtSensorGetDataInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

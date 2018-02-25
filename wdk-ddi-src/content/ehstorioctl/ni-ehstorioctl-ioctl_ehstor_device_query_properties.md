@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2F9B880F-7F3A-4B2B-816E-AD85ADFB280B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_device_query_properties, IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES control code [Storage Devices], IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, ehstorioctl/IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
+ms.keywords: IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, storage.ioctl_ehstor_device_query_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PDO_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

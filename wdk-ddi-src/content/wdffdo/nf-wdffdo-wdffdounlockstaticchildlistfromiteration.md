@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ba0eb090-a03c-4723-a30c-16b161e50198
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfFdoUnlockStaticChildListFromIteration, wdffdo/WdfFdoUnlockStaticChildListFromIteration, kmdf.wdffdounlockstaticchildlistfromiteration, wdf.wdffdounlockstaticchildlistfromiteration, DFDeviceObjectFdoPdoRef_5d630e1f-4c2d-4fce-92d8-c59cc472ceb5.xml, WdfFdoUnlockStaticChildListFromIteration method
+ms.keywords: ",  , C, DFDeviceObjectFdoPdoRef_5d630e1f-4c2d-4fce-92d8-c59cc472ceb5.xml, F, I, L, S, U, W, WdfFdoUnlockStaticChildListFromIteration, WdfFdoUnlockStaticChildListFromIteration method, a, c, d, e, f, h, i, k, kmdf.wdffdounlockstaticchildlistfromiteration, l, m, n, o, r, s, t, wdf.wdffdounlockstaticchildlistfromiteration, wdffdo/WdfFdoUnlockStaticChildListFromIteration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

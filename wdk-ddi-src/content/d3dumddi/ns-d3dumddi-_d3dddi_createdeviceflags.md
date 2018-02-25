@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9415dc9-352a-4e93-a0c1-2519c8c89762
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDI_CREATEDEVICEFLAGS, d3dumddi/D3DDDI_CREATEDEVICEFLAGS, D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, display.d3dddi_createdeviceflags, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], _D3DDDI_CREATEDEVICEFLAGS
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, E, F, G, I, L, R, S, T, V, _, _D3DDDI_CREATEDEVICEFLAGS, d3dumddi/D3DDDI_CREATEDEVICEFLAGS, display.d3dddi_createdeviceflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,11 +102,11 @@ A member in the union that is contained in D3DDDI_CREATEDEVICEFLAGS that can hol
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 

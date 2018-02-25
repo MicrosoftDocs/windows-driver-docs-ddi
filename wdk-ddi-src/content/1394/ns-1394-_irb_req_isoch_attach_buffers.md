@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 7EA6E82C-D803-48CD-9955-CF576BF978CA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_ATTACH_BUFFERS, IEEE.irb_req_isoch_attach_buffers, 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS
+ms.keywords: ",  , ,, 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS, A, B, C, E, F, H, I, IEEE.irb_req_isoch_attach_buffers, IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS structure [Buses], O, Q, R, S, T, U, _, _IRB_REQ_ISOCH_ATTACH_BUFFERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

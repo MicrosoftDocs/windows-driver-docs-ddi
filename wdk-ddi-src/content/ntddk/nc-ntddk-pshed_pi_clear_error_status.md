@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 8b29edf3-be7f-4a8d-af96-2b1e985ba061
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.clearerrorstatus, ClearErrorStatus callback function [WHEA Drivers and Applications], ClearErrorStatus, PSHED_PI_CLEAR_ERROR_STATUS, PSHED_PI_CLEAR_ERROR_STATUS, ntddk/ClearErrorStatus, whearef_022b6321-f051-4d35-ad0c-e6528d03a411.xml
+ms.keywords: ClearErrorStatus, ClearErrorStatus callback function [WHEA Drivers and Applications], PSHED_PI_CLEAR_ERROR_STATUS, ntddk/ClearErrorStatus, whea.clearerrorstatus, whearef_022b6321-f051-4d35-ad0c-e6528d03a411.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -162,15 +162,7 @@ The PSHED calls a PSHED plug-in's <i>ClearErrorStatus</i> callback function at I
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 
@@ -178,7 +170,15 @@ The PSHED calls a PSHED plug-in's <i>ClearErrorStatus</i> callback function at I
 
 
 
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 

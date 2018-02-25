@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: b590493d-59a0-460d-b025-8fac63e62f6a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usb_bus_information_level_0, USB_BUS_INFORMATION_LEVEL_0, USB_BUS_INFORMATION_LEVEL_0 structure [Buses], usbstrct_19a2e4ab-663a-4cb9-b21c-182d1de11b68.xml, usbbusif/PUSB_BUS_INFORMATION_LEVEL_0, PUSB_BUS_INFORMATION_LEVEL_0 structure pointer [Buses], *PUSB_BUS_INFORMATION_LEVEL_0, _USB_BUS_INFORMATION_LEVEL_0, PUSB_BUS_INFORMATION_LEVEL_0, usbbusif/USB_BUS_INFORMATION_LEVEL_0
+ms.keywords: ",  , *, *PUSB_BUS_INFORMATION_LEVEL_0, ,, 0, A, B, E, F, I, L, M, N, O, P, PUSB_BUS_INFORMATION_LEVEL_0, PUSB_BUS_INFORMATION_LEVEL_0 structure pointer [Buses], R, S, T, U, USB_BUS_INFORMATION_LEVEL_0, USB_BUS_INFORMATION_LEVEL_0 structure [Buses], V, _, _USB_BUS_INFORMATION_LEVEL_0, buses.usb_bus_information_level_0, usbbusif/PUSB_BUS_INFORMATION_LEVEL_0, usbbusif/USB_BUS_INFORMATION_LEVEL_0, usbstrct_19a2e4ab-663a-4cb9-b21c-182d1de11b68.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ For more information about how to obtain the proper level of USB interface, see 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c">QueryBusInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c">QueryBusInformation</a>
 
 
 

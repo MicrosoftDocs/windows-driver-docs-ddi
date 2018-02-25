@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 59394a14-e3f0-450a-a96c-df0f6ee51768
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_RadioStateGetPasswordRetryCount method [Network Drivers Starting with Windows Vista], rilapi/RIL_RadioStateGetPasswordRetryCount, RIL_RadioStateGetPasswordRetryCount, netvista.ril_radiostategetpasswordretrycount
+ms.keywords: ",  , C, G, I, L, P, R, RIL_RadioStateGetPasswordRetryCount, RIL_RadioStateGetPasswordRetryCount method [Network Drivers Starting with Windows Vista], S, _, a, d, e, i, n, netvista.ril_radiostategetpasswordretrycount, o, r, rilapi/RIL_RadioStateGetPasswordRetryCount, s, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

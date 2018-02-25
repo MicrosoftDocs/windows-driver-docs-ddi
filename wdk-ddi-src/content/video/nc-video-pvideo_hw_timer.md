@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bd41bbbf-4ec8-4e6c-8620-d8a9fe0b8bad
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidtimer, HwVidTimer callback function [Display Devices], HwVidTimer, PVIDEO_HW_TIMER, PVIDEO_HW_TIMER, video/HwVidTimer, VideoMiniport_Functions_80fa0df4-2b7c-4ffa-9048-e252b8af26cf.xml
+ms.keywords: HwVidTimer, HwVidTimer callback function [Display Devices], PVIDEO_HW_TIMER, VideoMiniport_Functions_80fa0df4-2b7c-4ffa-9048-e252b8af26cf.xml, display.hwvidtimer, video/HwVidTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,11 +104,11 @@ Note that the <i>HwVidTimer</i> function <i>must not</i> disable the timer with 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
-
-
-
 <a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
+
+
+
+<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
 
 
 

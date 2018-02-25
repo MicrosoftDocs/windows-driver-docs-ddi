@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 12ceb592-97ca-41c9-89d0-26fd2dc87981
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PsReturnPoolQuota, ifsk.psreturnpoolquota, PsReturnPoolQuota, PsReturnPoolQuota routine [Installable File System Drivers], psref_7dc67879-8f0e-41a1-96cf-018dcf60afcd.xml
+ms.keywords: ",  , P, PsReturnPoolQuota, PsReturnPoolQuota routine [Installable File System Drivers], Q, R, a, e, ifsk.psreturnpoolquota, l, n, ntifs/PsReturnPoolQuota, o, psref_7dc67879-8f0e-41a1-96cf-018dcf60afcd.xml, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

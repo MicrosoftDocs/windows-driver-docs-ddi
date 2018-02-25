@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltCopyOpenReparseList, FltAddOpenReparseEntry routine [Installable File System Drivers], ifsk.fltcopyopenreparselist, fltkernel/FltAddOpenReparseEntry, FltAddOpenReparseEntry
+ms.keywords: ",  , C, F, FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltCopyOpenReparseList, L, O, R, a, e, fltkernel/FltAddOpenReparseEntry, i, ifsk.fltcopyopenreparselist, l, n, o, p, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

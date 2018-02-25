@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4c9df63e-b0cb-4a49-9a01-9fc8f8c592f6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.lookasidelistallocateex, LookasideListAllocateEx routine [Kernel-Mode Driver Architecture], LookasideListAllocateEx, ALLOCATE_FUNCTION_EX, ALLOCATE_FUNCTION_EX, wdm/LookasideListAllocateEx, DrvrRtns_a8e59075-4ed4-49d3-a516-6cee5b6390c8.xml
+ms.keywords: ALLOCATE_FUNCTION_EX, DrvrRtns_a8e59075-4ed4-49d3-a516-6cee5b6390c8.xml, LookasideListAllocateEx, LookasideListAllocateEx routine [Kernel-Mode Driver Architecture], kernel.lookasidelistallocateex, wdm/LookasideListAllocateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -178,11 +178,19 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
 
 
 
 <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
 
 
 
@@ -191,14 +199,6 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
 
 

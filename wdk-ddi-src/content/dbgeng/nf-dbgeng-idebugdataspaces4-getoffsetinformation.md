@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5ef00c92-7b32-473a-8401-4c02e864c181
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], GetOffsetInformation method, GetOffsetInformation, IDebugDataSpaces4, IDebugDataSpaces4::GetOffsetInformation, GetOffsetInformation method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::GetOffsetInformation, IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, debugger.getoffsetinformation, GetOffsetInformation method [Windows Debugging]
+ms.keywords: ",  , ,, ., 4, :, D, G, GetOffsetInformation method [Windows Debugging], GetOffsetInformation method [Windows Debugging], IDebugDataSpaces4 interface, GetOffsetInformation,IDebugDataSpaces4.GetOffsetInformation, I, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], GetOffsetInformation method, IDebugDataSpaces4::GetOffsetInformation, IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, O, S, a, b, c, dbgeng/IDebugDataSpaces4::GetOffsetInformation, debugger.getoffsetinformation, e, f, g, i, m, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 617e80c2-2823-4393-81eb-b2cbd2b21be8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_REGISTER_STATE, netvista.wwan_set_register_state, wwan/WWAN_SET_REGISTER_STATE, *PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE, wwan/PWWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_SET_REGISTER_STATE, WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml
+ms.keywords: ",  , *, *PWWAN_SET_REGISTER_STATE, ,, A, E, G, I, N, P, PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], R, S, T, W, WWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml, _, _WWAN_SET_REGISTER_STATE, netvista.wwan_set_register_state, wwan/PWWAN_SET_REGISTER_STATE, wwan/WWAN_SET_REGISTER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

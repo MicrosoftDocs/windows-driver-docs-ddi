@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d5691fa-f5dc-4d13-b19c-a169a43aa7b9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, GetReadParameters, wudfddi/IWDFIoRequest::GetReadParameters, GetReadParameters method, GetReadParameters method, IWDFIoRequest interface, IWDFIoRequest interface, GetReadParameters method, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, IWDFIoRequest
+ms.keywords: ",  , ,, ., :, D, F, G, GetReadParameters method, GetReadParameters method, IWDFIoRequest interface, GetReadParameters,IWDFIoRequest.GetReadParameters, I, IWDFIoRequest, IWDFIoRequest interface, GetReadParameters method, IWDFIoRequest::GetReadParameters, P, R, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, W, a, d, e, m, o, q, r, s, t, u, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, wudfddi/IWDFIoRequest::GetReadParameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,11 +124,11 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pSizeI
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

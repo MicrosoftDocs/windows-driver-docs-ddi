@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f8afda8b-12de-4955-8f25-0b2dae031ff1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices], bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, bltooth._brb_sco_get_system_info, _BRB_SCO_GET_SYSTEM_INFO, bthddi/_BRB_SCO_GET_SYSTEM_INFO"
+ms.keywords: ",  , B, C, E, F, G, I, M, N, O, R, S, T, Y, _, _BRB_SCO_GET_SYSTEM_INFO, _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices], bltooth._brb_sco_get_system_info, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, bthddi/_BRB_SCO_GET_SYSTEM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

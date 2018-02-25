@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 057fb78f-6f1c-4b16-b9fa-6fcff299a90d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.idehwbuildio, IdeHwBuildIo routine [Storage Devices], IdeHwBuildIo, IDE_HW_BUILDIO, IDE_HW_BUILDIO, irb/IdeHwBuildIo, atartns_9111d60c-e0e1-4c5c-aacf-2af56fcf7338.xml
+ms.keywords: IDE_HW_BUILDIO, IdeHwBuildIo, IdeHwBuildIo routine [Storage Devices], atartns_9111d60c-e0e1-4c5c-aacf-2af56fcf7338.xml, irb/IdeHwBuildIo, storage.idehwbuildio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -111,11 +111,11 @@ The <b><i>IdeHwBuildIo</i></b> routine resembles Storport's <a href="..\storport
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
 
 
 

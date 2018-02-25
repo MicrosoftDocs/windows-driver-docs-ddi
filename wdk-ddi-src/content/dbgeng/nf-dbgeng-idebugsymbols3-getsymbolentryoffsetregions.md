@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 986774F6-5256-4703-990A-EAB4AB09AF55
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbols3::GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryOffsetRegions method, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, debugger.idebugsymbols3_getsymbolentryoffsetregions, GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions method [Windows Debugging]
+ms.keywords: ",  , ,, ., 3, :, D, E, G, GetSymbolEntryOffsetRegions method [Windows Debugging], GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntryOffsetRegions,IDebugSymbols3.GetSymbolEntryOffsetRegions, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryOffsetRegions method, IDebugSymbols3::GetSymbolEntryOffsetRegions, O, R, S, b, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, debugger.idebugsymbols3_getsymbolentryoffsetregions, e, f, g, i, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,11 @@ The quality of information returned is highly
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
 
 
 

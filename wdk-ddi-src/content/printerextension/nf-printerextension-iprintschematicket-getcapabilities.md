@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5556BD5E-6489-4CCF-8C62-DDA53AD9F368
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschematicket_getcapabilities, GetCapabilities, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], GetCapabilities method, GetCapabilities method [Print Devices], printerextension/IPrintSchemaTicket::GetCapabilities, IPrintSchemaTicket::GetCapabilities, GetCapabilities method [Print Devices], IPrintSchemaTicket interface
+ms.keywords: ",  , ,, ., :, C, G, GetCapabilities method [Print Devices], GetCapabilities method [Print Devices], IPrintSchemaTicket interface, GetCapabilities,IPrintSchemaTicket.GetCapabilities, I, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], GetCapabilities method, IPrintSchemaTicket::GetCapabilities, P, S, T, a, b, c, e, h, i, k, l, m, n, p, print.iprintschematicket_getcapabilities, printerextension/IPrintSchemaTicket::GetCapabilities, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,11 +100,7 @@ Because this method retrieves a new PrintCapabilities document every time it is 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/DF788C8F-DA60-47F1-83DB-2E1947E41142">IPrintSchemaTicket::put_JobCopiesAllDocuments</a>
-
-
-
-<a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 
@@ -112,11 +108,15 @@ Because this method retrieves a new PrintCapabilities document every time it is 
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
+
+<a href="https://msdn.microsoft.com/DF788C8F-DA60-47F1-83DB-2E1947E41142">IPrintSchemaTicket::put_JobCopiesAllDocuments</a>
+
+
+
+<a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>
 
 
 

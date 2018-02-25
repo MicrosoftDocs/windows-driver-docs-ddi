@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 19fb7a3e-d795-4d5a-9f28-cfbf37dbcd96
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsPinGetConnectedFilterInterface, KsPinGetConnectedFilterInterface function [Streaming Media Devices], stream.kspingetconnectedfilterinterface, ks/KsPinGetConnectedFilterInterface, avfunc_d6f6f675-4d44-47c8-aa37-9ad533966603.xml
+ms.keywords: ",  , C, F, G, I, K, KsPinGetConnectedFilterInterface, KsPinGetConnectedFilterInterface function [Streaming Media Devices], P, a, avfunc_d6f6f675-4d44-47c8-aa37-9ad533966603.xml, c, d, e, f, i, ks/KsPinGetConnectedFilterInterface, l, n, o, r, s, stream.kspingetconnectedfilterinterface, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,11 +125,7 @@ Otherwise, STATUS_UNSUCCESSFUL is returned.
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
-
-
-
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
 
 
 
@@ -137,15 +133,19 @@ Otherwise, STATUS_UNSUCCESSFUL is returned.
 
 
 
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+
+
 <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
 
 
 
-<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
-
-
-
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c7df21b-c7cd-4492-b457-6c2e82286961
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.addconnectiontosession_out, iscsiop/PAddConnectionToSession_OUT, *PAddConnectionToSession_OUT, _AddConnectionToSession_OUT, AddConnectionToSession_OUT, iscsiop/AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml, PAddConnectionToSession_OUT, PAddConnectionToSession_OUT structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PAddConnectionToSession_OUT, ,, A, AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], C, O, P, PAddConnectionToSession_OUT, PAddConnectionToSession_OUT structure pointer [Storage Devices], S, T, U, _, _AddConnectionToSession_OUT, c, d, e, i, iscsiop/AddConnectionToSession_OUT, iscsiop/PAddConnectionToSession_OUT, n, o, s, storage.addconnectiontosession_out, structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,7 +93,7 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_in.md">AddConnectionToSession_IN</a>
 
 
 
@@ -101,7 +101,7 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_in.md">AddConnectionToSession_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 

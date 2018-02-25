@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 761f1ab6-75e6-4c40-b79c-01f2e92df495
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILUICCCARDINFO, ntddrilapitypes/RILUICCCARDINFO, RILUICCCARDINFO structure [Network Drivers Starting with Windows Vista], netvista.riluicccardinfo, *LPRILUICCCARDINFO
+ms.keywords: ",  , *, *LPRILUICCCARDINFO, ,, A, C, D, F, I, L, N, O, P, R, RILUICCCARDINFO, RILUICCCARDINFO structure [Network Drivers Starting with Windows Vista], U, netvista.riluicccardinfo, ntddrilapitypes/RILUICCCARDINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

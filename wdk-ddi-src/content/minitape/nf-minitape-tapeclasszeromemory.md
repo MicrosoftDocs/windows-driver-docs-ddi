@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a1f15890-ded8-4aba-8b67-6f1fb1490178
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: minitape/TapeClassZeroMemory, TapeClassZeroMemory, TapeClassZeroMemory routine [Storage Devices], tapeclas_f48cbbef-af5f-4d1b-b79e-0982d4d09bde.xml, storage.tapeclasszeromemory
+ms.keywords: ",  , C, M, T, TapeClassZeroMemory, TapeClassZeroMemory routine [Storage Devices], Z, a, e, l, m, minitape/TapeClassZeroMemory, o, p, r, s, storage.tapeclasszeromemory, tapeclas_f48cbbef-af5f-4d1b-b79e-0982d4d09bde.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6128ff7a-0d2c-48df-8b5e-cab33c5a74f5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3ddrawprimitives2, D3dDrawPrimitives2 callback function [Display Devices], D3dDrawPrimitives2, LPD3DHAL_DRAWPRIMITIVES2CB, LPD3DHAL_DRAWPRIMITIVES2CB, d3dhal/D3dDrawPrimitives2, d3dfncs_5f3743b4-be3f-4216-883a-af5103a38c7a.xml
+ms.keywords: D3dDrawPrimitives2, D3dDrawPrimitives2 callback function [Display Devices], LPD3DHAL_DRAWPRIMITIVES2CB, d3dfncs_5f3743b4-be3f-4216-883a-af5103a38c7a.xml, d3dhal/D3dDrawPrimitives2, display.d3ddrawprimitives2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -218,7 +218,7 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglelist.md">D3DHAL_DP2TRIANGLELIST</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglelist.md">D3DHAL_DP2INDEXEDTRIANGLELIST</a>
 
 
 
@@ -226,19 +226,7 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linelist.md">D3DHAL_DP2LINELIST</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglefan.md">D3DHAL_DP2TRIANGLEFAN</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linestrip.md">D3DHAL_DP2LINESTRIP</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2points.md">D3DHAL_DP2POINTS</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglestrip.md">D3DHAL_DP2INDEXEDTRIANGLESTRIP</a>
 
 
 
@@ -246,7 +234,11 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglelist.md">D3DHAL_DP2INDEXEDTRIANGLELIST</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linestrip.md">D3DHAL_DP2LINESTRIP</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglelist.md">D3DHAL_DP2TRIANGLELIST</a>
 
 
 
@@ -254,7 +246,11 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglefan.md">D3DHAL_DP2INDEXEDTRIANGLEFAN</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglefan.md">D3DHAL_DP2TRIANGLEFAN</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2points.md">D3DHAL_DP2POINTS</a>
 
 
 
@@ -262,7 +258,11 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglestrip.md">D3DHAL_DP2INDEXEDTRIANGLESTRIP</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linelist.md">D3DHAL_DP2LINELIST</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglefan.md">D3DHAL_DP2INDEXEDTRIANGLEFAN</a>
 
 
 

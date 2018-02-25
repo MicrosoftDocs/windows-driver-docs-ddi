@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3993202-c49d-4de9-8881-9e3786575e17
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfrequest/WDF_REQUEST_COMPLETION_PARAMS, *PWDF_REQUEST_COMPLETION_PARAMS, _WDF_REQUEST_COMPLETION_PARAMS, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, WDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS structure, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS, kmdf.wdf_request_completion_params, PWDF_REQUEST_COMPLETION_PARAMS structure pointer, PWDF_REQUEST_COMPLETION_PARAMS, wdf.wdf_request_completion_params
+ms.keywords: ",  , *, *PWDF_REQUEST_COMPLETION_PARAMS, ,, A, C, D, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, E, F, I, L, M, N, O, P, PWDF_REQUEST_COMPLETION_PARAMS, PWDF_REQUEST_COMPLETION_PARAMS structure pointer, Q, R, S, T, U, W, WDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS structure, _, _WDF_REQUEST_COMPLETION_PARAMS, kmdf.wdf_request_completion_params, wdf.wdf_request_completion_params, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -271,15 +271,7 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_completion_params_init.md">WDF_REQUEST_COMPLETION_PARAMS_INIT</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 
@@ -288,6 +280,14 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
 
 
 

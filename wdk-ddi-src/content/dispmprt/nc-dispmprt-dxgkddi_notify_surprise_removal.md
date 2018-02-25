@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e6403e7-7463-479a-8be9-4136287b375e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddinotifysurpriseremoval, DxgkDdiNotifySurpriseRemoval callback function [Display Devices], DxgkDdiNotifySurpriseRemoval, DXGKDDI_NOTIFY_SURPRISE_REMOVAL, DXGKDDI_NOTIFY_SURPRISE_REMOVAL, dispmprt/DxgkDdiNotifySurpriseRemoval
+ms.keywords: DXGKDDI_NOTIFY_SURPRISE_REMOVAL, DxgkDdiNotifySurpriseRemoval, DxgkDdiNotifySurpriseRemoval callback function [Display Devices], display.dxgkddinotifysurpriseremoval, dispmprt/DxgkDdiNotifySurpriseRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -110,10 +110,6 @@ If the driver returns an error code, does not set <a href="..\d3dkmddi\ns-d3dkmd
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\dispmprt\ne-dispmprt-_dxgk_surprise_removal_type.md">DXGK_SURPRISE_REMOVAL_TYPE</a>
 
 
@@ -123,6 +119,10 @@ If the driver returns an error code, does not set <a href="..\d3dkmddi\ns-d3dkmd
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c7da4303-2ba4-4ac3-ad24-4ff25bb5466d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D11_1DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], D3D11_1DDIARG_STAGE_IO_SIGNATURES, d3d10umddi/D3D11_1DDIARG_STAGE_IO_SIGNATURES, display.d3d11_1ddiarg_stage_io_signatures
+ms.keywords: ",  , ,, 1, 3, A, D, D3D11_1DDIARG_STAGE_IO_SIGNATURES, D3D11_1DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], E, G, I, N, O, R, S, T, U, _, d3d10umddi/D3D11_1DDIARG_STAGE_IO_SIGNATURES, display.d3d11_1ddiarg_stage_io_signatures"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

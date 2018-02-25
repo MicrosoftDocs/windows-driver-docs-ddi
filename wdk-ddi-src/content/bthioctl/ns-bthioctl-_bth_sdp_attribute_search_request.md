@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 46198c94-df83-42bb-ad3e-181f252ccd99
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], bthioctl/PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bth_structs_7856642e-a720-490e-9240-d61ac6f257b4.xml, *PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_attribute_search_request, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST
+ms.keywords: ",  , *, *PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, ,, A, B, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], C, D, E, H, I, P, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], Q, R, S, T, U, _, _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_attribute_search_request, bth_structs_7856642e-a720-490e-9240-d61ac6f257b4.xml, bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bthioctl/PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,19 +126,19 @@ The Bluetooth driver stack determines the number of array items in the
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
-
-
-
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
-
-
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
 
 
 
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
 
 
 

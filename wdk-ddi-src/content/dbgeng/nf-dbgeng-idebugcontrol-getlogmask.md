@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 32d36b6d-9887-43ac-9314-fc682705131e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.getlogmask, IDebugControl2::GetLogMask, IDebugControl2 interface [Windows Debugging], GetLogMask method, dbgeng/IDebugControl3::GetLogMask, dbgeng/IDebugControl2::GetLogMask, GetLogMask, GetLogMask method [Windows Debugging], IDebugControl3 interface, GetLogMask method [Windows Debugging], GetLogMask method [Windows Debugging], IDebugControl2 interface, IDebugControl, IDebugControl3 interface [Windows Debugging], GetLogMask method, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, dbgeng/IDebugControl::GetLogMask, IDebugControl3::GetLogMask, IDebugControl::GetLogMask, IDebugControl interface [Windows Debugging], GetLogMask method, GetLogMask method [Windows Debugging], IDebugControl interface
+ms.keywords: ",  , ,, ., :, C, D, G, GetLogMask method [Windows Debugging], GetLogMask method [Windows Debugging], IDebugControl interface, GetLogMask method [Windows Debugging], IDebugControl2 interface, GetLogMask method [Windows Debugging], IDebugControl3 interface, GetLogMask,IDebugControl.GetLogMask, I, IDebugControl, IDebugControl interface [Windows Debugging], GetLogMask method, IDebugControl2 interface [Windows Debugging], GetLogMask method, IDebugControl2::GetLogMask, IDebugControl3 interface [Windows Debugging], GetLogMask method, IDebugControl3::GetLogMask, IDebugControl::GetLogMask, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, L, M, a, b, dbgeng/IDebugControl2::GetLogMask, dbgeng/IDebugControl3::GetLogMask, dbgeng/IDebugControl::GetLogMask, debugger.getlogmask, e, g, k, l, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,15 +113,11 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -130,6 +126,10 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

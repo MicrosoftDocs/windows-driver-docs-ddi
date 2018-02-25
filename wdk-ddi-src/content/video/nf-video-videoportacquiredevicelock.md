@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eeb2d1ad-ad99-4099-9560-8653a627aa08
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml, VideoPortAcquireDeviceLock function [Display Devices], video/VideoPortAcquireDeviceLock, display.videoportacquiredevicelock, VideoPortAcquireDeviceLock
+ms.keywords: ",  , A, D, L, P, V, VideoPortAcquireDeviceLock, VideoPortAcquireDeviceLock function [Display Devices], VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml, c, d, display.videoportacquiredevicelock, e, i, k, o, q, r, t, u, v, video/VideoPortAcquireDeviceLock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ The miniport driver should release the device lock as quickly as possible by cal
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
-
-
-
 <a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
 
 
 

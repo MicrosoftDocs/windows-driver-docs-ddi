@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 219ecf09-54eb-4972-ae71-0eb3e7ea8ea9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MmCanFileBeTruncated, ifsk.mmcanfilebetruncated, ntifs/MmCanFileBeTruncated, mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, MmCanFileBeTruncated routine [Installable File System Drivers]
+ms.keywords: ",  , B, C, F, M, MmCanFileBeTruncated, MmCanFileBeTruncated routine [Installable File System Drivers], T, a, c, d, e, i, ifsk.mmcanfilebetruncated, l, m, mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, n, ntifs/MmCanFileBeTruncated, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,11 +118,11 @@ One or more users hold references to the data section for the file, and <i>NewFi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 

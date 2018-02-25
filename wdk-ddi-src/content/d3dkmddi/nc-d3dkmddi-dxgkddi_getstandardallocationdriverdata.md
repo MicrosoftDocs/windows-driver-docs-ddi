@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38a9859f-ed9f-41a5-9bf1-c734480499ea
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddigetstandardallocationdriverdata, DxgkDdiGetStandardAllocationDriverData callback function [Display Devices], DxgkDdiGetStandardAllocationDriverData, DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA, DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA, d3dkmddi/DxgkDdiGetStandardAllocationDriverData, DmFunctions_e28fa3aa-909e-4dd0-8ae7-1355e0aa69cf.xml
+ms.keywords: DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA, DmFunctions_e28fa3aa-909e-4dd0-8ae7-1355e0aa69cf.xml, DxgkDdiGetStandardAllocationDriverData, DxgkDdiGetStandardAllocationDriverData callback function [Display Devices], d3dkmddi/DxgkDdiGetStandardAllocationDriverData, display.dxgkddigetstandardallocationdriverdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,15 +135,15 @@ Beginning with Windows 7, if a display miniport driver processes a call to the <
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
 
 
 

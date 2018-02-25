@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2ff3d7b-319d-4256-a574-cb32595fd02f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wsk/WskDeregister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml, WskDeregister function [Network Drivers Starting with Windows Vista], WskDeregister, netvista.wskderegister
+ms.keywords: ",  , D, W, WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista], e, g, i, k, netvista.wskderegister, r, s, t, wsk/WskDeregister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,11 +126,11 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
 
 

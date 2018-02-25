@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 184f40ff-be43-482c-8620-382f11f95548
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugSymbols3::AppendSymbolPathWide, IDebugSymbols3::AppendSymbolPathWide, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPathWide method, AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, debugger.appendsymbolpathwide, AppendSymbolPathWide, AppendSymbolPathWide method [Windows Debugging]
+ms.keywords: ",  , ,, ., 3, :, A, AppendSymbolPathWide method [Windows Debugging], AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, AppendSymbolPathWide,IDebugSymbols3.AppendSymbolPathWide, D, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPathWide method, IDebugSymbols3::AppendSymbolPathWide, P, S, W, a, b, d, dbgeng/IDebugSymbols3::AppendSymbolPathWide, debugger.appendsymbolpathwide, e, g, h, i, l, m, n, o, p, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,11 +115,11 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
 
 
 

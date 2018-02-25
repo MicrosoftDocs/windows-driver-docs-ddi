@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: F4FAA5C9-B7D9-43B6-8B1D-CA790522900C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugeventcontextcallbacks, IDebugEventContextCallbacks interface [Windows Debugging], IDebugEventContextCallbacks interface [Windows Debugging], described, IDebugEventContextCallbacks, dbgeng/IDebugEventContextCallbacks
+ms.keywords: IDebugEventContextCallbacks, IDebugEventContextCallbacks interface [Windows Debugging], IDebugEventContextCallbacks interface [Windows Debugging], described, dbgeng/IDebugEventContextCallbacks, debugger.idebugeventcontextcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

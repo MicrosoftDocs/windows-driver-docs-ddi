@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 583263fc-8b95-47d9-9f20-306b2200b573
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_internal_i8042_keyboard_write_buffer, IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER control code [Human Input Devices], IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER, ntdd8042/IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER, i8042ref_a981431f-38cd-4cc4-899e-a79799da0e01.xml
+ms.keywords: IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER, IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_keyboard_write_buffer, i8042ref_a981431f-38cd-4cc4-899e-a79799da0e01.xml, ntdd8042/IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -134,11 +134,11 @@ The request timed out.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542076">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542067">IOCTL_KEYBOARD_SET_INDICATORS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542076">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
 
 
 

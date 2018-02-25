@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0749d03d-8174-4f6e-816e-4689594c0c84
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: BmRequestToEndpoint, _WDF_USB_BMREQUEST_RECIPIENT, wdfusb/BmRequestToDevice, DFUsbRef_646fa8bb-2b05-4247-b3e8-01daad8b204e.xml, BmRequestToDevice, wdf.wdf_usb_bmrequest_recipient, wdfusb/WDF_USB_BMREQUEST_RECIPIENT, BmRequestToInterface, wdfusb/BmRequestToInterface, BmRequestToOther, wdfusb/BmRequestToOther, WDF_USB_BMREQUEST_RECIPIENT enumeration, WDF_USB_BMREQUEST_RECIPIENT, kmdf.wdf_usb_bmrequest_recipient, wdfusb/BmRequestToEndpoint
+ms.keywords: ",  , ,, B, BmRequestToDevice, BmRequestToEndpoint, BmRequestToInterface, BmRequestToOther, C, D, DFUsbRef_646fa8bb-2b05-4247-b3e8-01daad8b204e.xml, E, F, I, M, N, P, Q, R, S, T, U, W, WDF_USB_BMREQUEST_RECIPIENT, WDF_USB_BMREQUEST_RECIPIENT enumeration, _, _WDF_USB_BMREQUEST_RECIPIENT, kmdf.wdf_usb_bmrequest_recipient, wdf.wdf_usb_bmrequest_recipient, wdfusb/BmRequestToDevice, wdfusb/BmRequestToEndpoint, wdfusb/BmRequestToInterface, wdfusb/BmRequestToOther, wdfusb/WDF_USB_BMREQUEST_RECIPIENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

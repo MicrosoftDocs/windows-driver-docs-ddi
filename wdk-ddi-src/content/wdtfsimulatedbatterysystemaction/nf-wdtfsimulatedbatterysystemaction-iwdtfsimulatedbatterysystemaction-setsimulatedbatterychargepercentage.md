@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: b330c423-b295-4b5b-b6bf-1f48549e8bfa
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFSimulatedBatterySystemAction, SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], SetSimulatedBatteryChargePercentage method, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargepercentage, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage, SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework], SetSimulatedBatteryChargePercentage
+ms.keywords: ",  , ,, ., :, A, B, C, D, F, I, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], SetSimulatedBatteryChargePercentage method, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage, P, S, SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework], SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, SetSimulatedBatteryChargePercentage,IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryChargePercentage, T, W, a, c, d, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargepercentage, e, g, h, i, l, m, n, o, r, s, t, u, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

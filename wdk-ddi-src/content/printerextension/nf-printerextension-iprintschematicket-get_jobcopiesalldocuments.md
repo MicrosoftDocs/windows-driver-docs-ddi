@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 592753D2-9121-4935-B966-390B3E7778C7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschematicket_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket, get_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], IPrintSchemaTicket interface, printerextension/IPrintSchemaTicket::get_JobCopiesAllDocuments, IPrintSchemaTicket::get_JobCopiesAllDocuments, IPrintSchemaTicket interface [Print Devices], JobCopiesAllDocuments property
+ms.keywords: ",  , ,, ., :, A, C, D, I, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket::get_JobCopiesAllDocuments, J, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices], IPrintSchemaTicket interface, P, S, T, _, a, b, c, e, g, get_JobCopiesAllDocuments, get_JobCopiesAllDocuments,IPrintSchemaTicket.get_JobCopiesAllDocuments, h, i, k, l, m, n, o, p, print.iprintschematicket_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::get_JobCopiesAllDocuments, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 050752CC-FBD6-4EB1-A17F-53C5C569E3FB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: QuerySetRequestMaximumType, QueryBankInterruptBindingInformation, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankInterruptBindingInformation, gpioclx/QuerySetRequestMaximumType, QueryBankPowerInformation, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankPowerInformation, QueryControllerFunctionBankMappingInformation, gpioclx/QueryControllerFunctionBankMappingInformation, GPIO.client_controller_query_set_request_type
+ms.keywords: ",  , *, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, ,, C, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], E, GPIO.client_controller_query_set_request_type, I, L, N, O, P, Q, QueryBankInterruptBindingInformation, QueryBankPowerInformation, QueryControllerFunctionBankMappingInformation, QuerySetRequestMaximumType, R, S, T, U, Y, _, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankInterruptBindingInformation, gpioclx/QueryBankPowerInformation, gpioclx/QueryControllerFunctionBankMappingInformation, gpioclx/QuerySetRequestMaximumType"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

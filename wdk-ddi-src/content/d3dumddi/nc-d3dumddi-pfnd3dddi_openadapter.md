@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.openadapter, OpenAdapter callback function [Display Devices], OpenAdapter, PFND3DDDI_OPENADAPTER, PFND3DDDI_OPENADAPTER, d3dumddi/OpenAdapter, UserModeDisplayDriver_Functions_1b93a0e5-3f89-47aa-9e63-3ae50f1acd1e.xml
+ms.keywords: OpenAdapter, OpenAdapter callback function [Display Devices], PFND3DDDI_OPENADAPTER, UserModeDisplayDriver_Functions_1b93a0e5-3f89-47aa-9e63-3ae50f1acd1e.xml, d3dumddi/OpenAdapter, display.openadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -136,11 +136,11 @@ The Direct3D runtime can open multiple graphics adapter objects from a single gr
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_openadapter.md">D3DDDIARG_OPENADAPTER</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 
 

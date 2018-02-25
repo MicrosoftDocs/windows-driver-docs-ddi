@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E03B5319-BBBE-4396-8D03-8BC82FB97D15
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2pioreceiveinitializetransaction, EvtSerCx2PioReceiveInitializeTransaction callback function [Serial Ports], EvtSerCx2PioReceiveInitializeTransaction, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION, 2/EvtSerCx2PioReceiveInitializeTransaction
+ms.keywords: 2/EvtSerCx2PioReceiveInitializeTransaction, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION, EvtSerCx2PioReceiveInitializeTransaction, EvtSerCx2PioReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2pioreceiveinitializetransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -148,11 +148,11 @@ The <b>EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION</b> function type is define
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2pioreceiveinitializetransactioncomplete.md">SerCx2PioReceiveInitializeTransactionComplete</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
 
 
 

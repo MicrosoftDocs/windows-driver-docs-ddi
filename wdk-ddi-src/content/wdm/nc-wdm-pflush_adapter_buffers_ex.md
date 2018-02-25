@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D211CB5B-9FE6-4829-950D-F7DDD1A00F76
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.flushadapterbuffersex, FlushAdapterBuffersEx, FlushAdapterBuffersEx callback function [Kernel-Mode Driver Architecture], FlushAdapterBuffersEx, PFLUSH_ADAPTER_BUFFERS_EX, PFLUSH_ADAPTER_BUFFERS_EX, wdm/FlushAdapterBuffersEx
+ms.keywords: FlushAdapterBuffersEx, FlushAdapterBuffersEx callback function [Kernel-Mode Driver Architecture], PFLUSH_ADAPTER_BUFFERS_EX, kernel.flushadapterbuffersex, wdm/FlushAdapterBuffersEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -155,6 +155,10 @@ If <b>FlushAdapterBuffersEx</b> is called before the DMA transfer operation fini
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
@@ -163,19 +167,15 @@ If <b>FlushAdapterBuffersEx</b> is called before the DMA transfer operation fini
 
 
 
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+
+
+
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
-
-
-
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
 
 

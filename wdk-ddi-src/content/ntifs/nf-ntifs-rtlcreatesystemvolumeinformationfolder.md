@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bcbbddc7-6675-4555-bd05-588762148554
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml, ntifs/RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers], ifsk.rtlcreatesystemvolumeinformationfolder
+ms.keywords: ",  , C, F, I, R, RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers], S, V, a, d, e, f, i, ifsk.rtlcreatesystemvolumeinformationfolder, l, m, n, ntifs/RtlCreateSystemVolumeInformationFolder, o, r, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 

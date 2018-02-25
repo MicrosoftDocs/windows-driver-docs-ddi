@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1025c89f-8d63-4aeb-be7c-16b555cfa58a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, ks/KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices], stream.kspingetconnectedpinfileobject
+ms.keywords: ",  , C, F, G, K, KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices], O, P, avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, b, c, d, e, i, j, ks/KsPinGetConnectedPinFileObject, l, n, o, s, stream.kspingetconnectedpinfileobject, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,11 +84,11 @@ If <i>Pin</i> is a source pin, <b>KsPinGetConnectedPinFileObject</b> returns a p
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
 
 

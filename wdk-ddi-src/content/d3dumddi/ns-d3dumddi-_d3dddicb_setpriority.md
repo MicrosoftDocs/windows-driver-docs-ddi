@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d828d7b-2f86-4fe9-864c-9d0ac4b0ed65
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDICB_SETPRIORITY, _D3DDDICB_SETPRIORITY, D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, d3dumddi/D3DDDICB_SETPRIORITY, display.d3dddicb_setpriority, D3DDDICB_SETPRIORITY structure [Display Devices]
+ms.keywords: ",  , ,, 3, B, C, D, D3DDDICB_SETPRIORITY, D3DDDICB_SETPRIORITY structure [Display Devices], D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, E, I, O, P, R, S, T, Y, _, _D3DDDICB_SETPRIORITY, d3dumddi/D3DDDICB_SETPRIORITY, display.d3dddicb_setpriority"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d9bcbad5-ce2c-4968-9544-4fb024b1e933
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: mcd/ChangerAdditionalExtensionSize, ChangerAdditionalExtensionSize, chgrmini_22c1f2f6-d441-4208-b104-46711c4204cd.xml, ChangerAdditionalExtensionSize function [Storage Devices], storage.changeradditionalextensionsize
+ms.keywords: ",  , A, C, ChangerAdditionalExtensionSize, ChangerAdditionalExtensionSize function [Storage Devices], E, S, a, chgrmini_22c1f2f6-d441-4208-b104-46711c4204cd.xml, d, e, g, h, i, l, mcd/ChangerAdditionalExtensionSize, n, o, r, s, storage.changeradditionalextensionsize, t, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

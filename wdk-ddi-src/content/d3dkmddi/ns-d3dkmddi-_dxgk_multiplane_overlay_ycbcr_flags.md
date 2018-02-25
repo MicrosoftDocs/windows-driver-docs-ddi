@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3a463b1-fc6f-4834-87e5-1d694f2823f9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgk_multiplane_overlay_ycbcr_flags, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices]"
+ms.keywords: ",  , ,, A, C, D, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices], E, F, G, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, _, _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, b, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgk_multiplane_overlay_ycbcr_flags, r"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

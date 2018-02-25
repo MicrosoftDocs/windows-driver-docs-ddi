@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7c2a7484-452f-4801-b650-3d8221740892
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DmStructs_232178f2-9a25-40aa-8604-0414128c1a91.xml, _DXGK_OVERLAYINFO, d3dkmddi/DXGK_OVERLAYINFO, display.dxgk_overlayinfo, DXGK_OVERLAYINFO structure [Display Devices], DXGK_OVERLAYINFO
+ms.keywords: ",  , ,, A, D, DXGK_OVERLAYINFO, DXGK_OVERLAYINFO structure [Display Devices], DmStructs_232178f2-9a25-40aa-8604-0414128c1a91.xml, E, F, G, I, K, L, N, O, R, V, X, Y, _, _DXGK_OVERLAYINFO, d3dkmddi/DXGK_OVERLAYINFO, display.dxgk_overlayinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,7 +118,7 @@ typedef struct _DXGK_OVERLAYINFO {
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateoverlay.md">DxgkDdiUpdateOverlay</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
 
 
 
@@ -126,7 +126,7 @@ typedef struct _DXGK_OVERLAYINFO {
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateoverlay.md">DxgkDdiUpdateOverlay</a>
 
 
 

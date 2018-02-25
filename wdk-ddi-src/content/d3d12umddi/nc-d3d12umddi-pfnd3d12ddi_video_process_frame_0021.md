@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C4908916-D91F-4E89-A17B-87ABF3546C6A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3d12ddi_video_process_frame, pfnProcessFrame callback function [Display Devices], pfnProcessFrame, PFND3D12DDI_VIDEO_PROCESS_FRAME_0021, PFND3D12DDI_VIDEO_PROCESS_FRAME_0021, d3d12umddi/pfnProcessFrame
+ms.keywords: PFND3D12DDI_VIDEO_PROCESS_FRAME_0021, d3d12umddi/pfnProcessFrame, display.pfnd3d12ddi_video_process_frame, pfnProcessFrame, pfnProcessFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -114,11 +114,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a>
-
-
-
 <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_processor_trim_allocations_0021.md">pfnProcessorTrimAllocations</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a>
 
 
 

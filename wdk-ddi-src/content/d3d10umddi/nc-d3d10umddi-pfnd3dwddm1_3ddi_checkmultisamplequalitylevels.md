@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A3AD5F2F-4FB9-407C-A436-A0B5F96002D7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.checkmultisamplequalitylevels_d3d11_2_, CheckMultisampleQualityLevels callback function [Display Devices], CheckMultisampleQualityLevels, PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, d3d10umddi/CheckMultisampleQualityLevels
+ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels callback function [Display Devices], PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, d3d10umddi/CheckMultisampleQualityLevels, display.checkmultisamplequalitylevels_d3d11_2_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -127,11 +127,11 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a>
 
 
 
@@ -139,7 +139,7 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

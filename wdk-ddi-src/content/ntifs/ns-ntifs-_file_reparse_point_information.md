@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: de6e8b39-9e0c-4817-82b4-d64e81a95e79
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PFILE_REPARSE_POINT_INFORMATION, FILE_REPARSE_POINT_INFORMATION structure [Installable File System Drivers], ifsk.file_reparse_point_information, PFILE_REPARSE_POINT_INFORMATION structure pointer [Installable File System Drivers], _FILE_REPARSE_POINT_INFORMATION, fileinformationstructures_5e939a71-0fcc-41e9-be0f-c2c1b5327239.xml, FILE_REPARSE_POINT_INFORMATION, ntifs/PFILE_REPARSE_POINT_INFORMATION, *PFILE_REPARSE_POINT_INFORMATION, ntifs/FILE_REPARSE_POINT_INFORMATION
+ms.keywords: ",  , *, *PFILE_REPARSE_POINT_INFORMATION, ,, A, E, F, FILE_REPARSE_POINT_INFORMATION, FILE_REPARSE_POINT_INFORMATION structure [Installable File System Drivers], I, L, M, N, O, P, PFILE_REPARSE_POINT_INFORMATION, PFILE_REPARSE_POINT_INFORMATION structure pointer [Installable File System Drivers], R, S, T, _, _FILE_REPARSE_POINT_INFORMATION, fileinformationstructures_5e939a71-0fcc-41e9-be0f-c2c1b5327239.xml, ifsk.file_reparse_point_information, ntifs/FILE_REPARSE_POINT_INFORMATION, ntifs/PFILE_REPARSE_POINT_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ This structure must be LONG-aligned.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83efb1eb-4c45-4bfc-84dd-88032e40076a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exdeleteresourcelite, ExDeleteResourceLite routine [Kernel-Mode Driver Architecture], ExDeleteResourceLite, wdm/ExDeleteResourceLite, k102_92907ac3-1391-4ede-8ffa-71a211c7634e.xml
+ms.keywords: ",  , D, E, ExDeleteResourceLite, ExDeleteResourceLite routine [Kernel-Mode Driver Architecture], L, R, c, e, i, k102_92907ac3-1391-4ede-8ffa-71a211c7634e.xml, kernel.exdeleteresourcelite, l, o, r, s, t, u, wdm/ExDeleteResourceLite, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,11 @@ After calling <b>ExDeleteResourceLite</b>, the caller can free the memory it all
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 
 

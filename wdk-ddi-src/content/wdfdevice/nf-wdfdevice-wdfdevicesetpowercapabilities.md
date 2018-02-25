@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e04558e3-a95a-408b-961b-e8ea7ac9136d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceSetPowerCapabilities, wdf.wdfdevicesetpowercapabilities, WdfDeviceSetPowerCapabilities method, DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, wdfdevice/WdfDeviceSetPowerCapabilities, kmdf.wdfdevicesetpowercapabilities
+ms.keywords: ",  , C, D, DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, P, S, W, WdfDeviceSetPowerCapabilities, WdfDeviceSetPowerCapabilities method, a, b, c, d, e, f, i, kmdf.wdfdevicesetpowercapabilities, l, o, p, r, s, t, v, w, wdf.wdfdevicesetpowercapabilities, wdfdevice/WdfDeviceSetPowerCapabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -170,7 +170,7 @@ WdfDeviceSetPowerCapabilities(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpnpcapabilities.md">WdfDeviceSetPnpCapabilities</a>
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
 
 
 
@@ -178,7 +178,7 @@ WdfDeviceSetPowerCapabilities(
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpnpcapabilities.md">WdfDeviceSetPnpCapabilities</a>
 
 
 

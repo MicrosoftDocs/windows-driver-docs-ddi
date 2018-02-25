@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4c17f679-6b01-4c6e-8dda-9aa43dc43dc6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_USB_CONTROL_SETUP_PACKET_INIT, wdf.wdf_usb_control_setup_packet_init, WDF_USB_CONTROL_SETUP_PACKET_INIT function, DFUsbRef_1789fa32-1646-43f8-9673-c0d935b92a4f.xml, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT, kmdf.wdf_usb_control_setup_packet_init
+ms.keywords: ",  , A, B, C, D, DFUsbRef_1789fa32-1646-43f8-9673-c0d935b92a4f.xml, E, F, I, K, L, N, O, P, R, S, T, U, W, WDF_USB_CONTROL_SETUP_PACKET_INIT, WDF_USB_CONTROL_SETUP_PACKET_INIT function, _, kmdf.wdf_usb_control_setup_packet_init, wdf.wdf_usb_control_setup_packet_init, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -195,19 +195,7 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_feature.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
-
-
-
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_class.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
 
 
 
@@ -215,11 +203,23 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT(
 
 
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_class.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_feature.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE</a>
 
 
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
+
+
+
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>
 
 
 

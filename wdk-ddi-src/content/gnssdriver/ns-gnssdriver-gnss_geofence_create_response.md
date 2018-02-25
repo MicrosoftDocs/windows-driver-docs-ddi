@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D832B534-34E2-402F-833A-C072007E3106
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.gnss_geofence_create_response, gnssdriver/PGNSS_GEOFENCE_CREATE_RESPONSE, *PGNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE, PGNSS_GEOFENCE_CREATE_RESPONSE, gnssdriver/GNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_RESPONSE structure pointer [Sensor Devices]
+ms.keywords: ",  , *, *PGNSS_GEOFENCE_CREATE_RESPONSE, ,, A, C, E, F, G, GNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE structure [Sensor Devices], N, O, P, PGNSS_GEOFENCE_CREATE_RESPONSE, PGNSS_GEOFENCE_CREATE_RESPONSE structure pointer [Sensor Devices], R, S, T, _, gnssdriver/GNSS_GEOFENCE_CREATE_RESPONSE, gnssdriver/PGNSS_GEOFENCE_CREATE_RESPONSE, sensors.gnss_geofence_create_response"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

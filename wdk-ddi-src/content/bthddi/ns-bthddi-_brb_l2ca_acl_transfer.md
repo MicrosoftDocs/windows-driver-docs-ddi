@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 8ab1365a-99bd-47b3-bf3d-8f70b4a7028a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bth_structs_5dfd1186-d8a1-4ec5-9ce8-028d462fcb21.xml, _BRB_L2CA_ACL_TRANSFER structure [Bluetooth Devices], bthddi/_BRB_L2CA_ACL_TRANSFER, _BRB_L2CA_ACL_TRANSFER, bltooth._brb_l2ca_acl_transfer
+ms.keywords: ",  , 2, A, B, C, E, F, L, N, R, S, T, _, _BRB_L2CA_ACL_TRANSFER, _BRB_L2CA_ACL_TRANSFER structure [Bluetooth Devices], bltooth._brb_l2ca_acl_transfer, bth_structs_5dfd1186-d8a1-4ec5-9ce8-028d462fcb21.xml, bthddi/_BRB_L2CA_ACL_TRANSFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -218,12 +218,12 @@ If the ACL_TRANSFER_TIMEOUT flag is set in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a>
 
 
 

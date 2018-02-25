@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1416ad56-548c-4f12-9922-9ab9a7e4fd3a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolcostatusex, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], ProtocolCoStatusEx, PROTOCOL_CO_STATUS_EX, PROTOCOL_CO_STATUS_EX, ndis/ProtocolCoStatusEx, condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml
+ms.keywords: PROTOCOL_CO_STATUS_EX, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -170,6 +170,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
@@ -179,10 +183,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 
 

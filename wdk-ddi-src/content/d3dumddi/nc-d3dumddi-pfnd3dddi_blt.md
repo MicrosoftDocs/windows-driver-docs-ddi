@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e87576c6-0173-4d8e-bbaf-b82e2907140a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.blt, Blt callback function [Display Devices], Blt, PFND3DDDI_BLT, PFND3DDDI_BLT, d3dumddi/Blt, UserModeDisplayDriver_Functions_d2dfd3c9-e7e0-4953-bc88-3d3330aff161.xml
+ms.keywords: Blt, Blt callback function [Display Devices], PFND3DDDI_BLT, UserModeDisplayDriver_Functions_d2dfd3c9-e7e0-4953-bc88-3d3330aff161.xml, d3dumddi/Blt, display.blt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -163,11 +163,11 @@ The Direct3D runtime can call the user-mode display driver's <b>Blt</b> function
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_blt.md">D3DDDIARG_BLT</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 

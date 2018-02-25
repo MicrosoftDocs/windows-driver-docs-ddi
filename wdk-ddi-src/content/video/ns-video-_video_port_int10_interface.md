@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 551b2255-c221-4a95-a812-dec34f09438b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.video_port_int10_interface, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], video/VIDEO_PORT_INT10_INTERFACE, video/PVIDEO_PORT_INT10_INTERFACE, _VIDEO_PORT_INT10_INTERFACE, *PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE, Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, VIDEO_PORT_INT10_INTERFACE structure [Display Devices], VIDEO_PORT_INT10_INTERFACE
+ms.keywords: ",  , *, *PVIDEO_PORT_INT10_INTERFACE, ,, 0, 1, A, C, D, E, F, I, N, O, P, PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], R, T, V, VIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE structure [Display Devices], Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, _, _VIDEO_PORT_INT10_INTERFACE, display.video_port_int10_interface, video/PVIDEO_PORT_INT10_INTERFACE, video/VIDEO_PORT_INT10_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

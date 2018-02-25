@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2C5B3C90-04A9-48CF-9162-0E069A483C5F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pcreate_process_notify_routine, SetCreateProcessNotifyRoutine callback function [Kernel-Mode Driver Architecture], SetCreateProcessNotifyRoutine, PCREATE_PROCESS_NOTIFY_ROUTINE, PCREATE_PROCESS_NOTIFY_ROUTINE, ntddk/SetCreateProcessNotifyRoutine
+ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE, SetCreateProcessNotifyRoutine, SetCreateProcessNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine, ntddk/SetCreateProcessNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

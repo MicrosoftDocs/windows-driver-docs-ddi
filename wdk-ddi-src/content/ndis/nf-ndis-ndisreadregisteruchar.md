@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1723672b-aff7-49ca-a027-14a6eb3c2196
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisReadRegisterUchar macro [Network Drivers Starting with Windows Vista], netvista.ndisreadregisteruchar, NdisReadRegisterUchar, miniport_register_ref_04023727-eaf7-45fb-b70d-5a67eda4a54d.xml, ndis/NdisReadRegisterUchar
+ms.keywords: ",  , N, NdisReadRegisterUchar, NdisReadRegisterUchar macro [Network Drivers Starting with Windows Vista], R, U, a, c, d, e, g, h, i, miniport_register_ref_04023727-eaf7-45fb-b70d-5a67eda4a54d.xml, ndis/NdisReadRegisterUchar, netvista.ndisreadregisteruchar, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -94,11 +94,7 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswriteregisteruchar.md">NdisWriteRegisterUchar</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 
@@ -106,11 +102,15 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 
 
+<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiswriteregisteruchar.md">NdisWriteRegisterUchar</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 

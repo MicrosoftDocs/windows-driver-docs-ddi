@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41518F04-4AD1-4057-8988-5934F3875B8E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, display.d3d12ddi_video_process_max_input_streams_data, D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 structure [Display Devices], E, I, M, N, O, P, R, S, T, U, V, X, _, d3d12umddi/D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, display.d3d12ddi_video_process_max_input_streams_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

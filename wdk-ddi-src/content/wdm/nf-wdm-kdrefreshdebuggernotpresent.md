@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 3b43943d-99b7-4d60-96fe-019f4ba2b809
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DebugFns_77b08eed-2f06-4ede-b02f-f1a7a5ab9ba5.xml, KdRefreshDebuggerNotPresent function [Driver Development Tools], devtest.kdrefreshdebuggernotpresent, KdRefreshDebuggerNotPresent, ntddk/KdRefreshDebuggerNotPresent
+ms.keywords: ",  , D, DebugFns_77b08eed-2f06-4ede-b02f-f1a7a5ab9ba5.xml, K, KdRefreshDebuggerNotPresent, KdRefreshDebuggerNotPresent function [Driver Development Tools], N, P, R, b, d, devtest.kdrefreshdebuggernotpresent, e, f, g, h, n, ntddk/KdRefreshDebuggerNotPresent, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

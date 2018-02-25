@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f1940737-4543-4e48-8a4a-90430b16890a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iocopycurrentirpstacklocationtonext, IoCopyCurrentIrpStackLocationToNext, IoCopyCurrentIrpStackLocationToNext routine [Kernel-Mode Driver Architecture], k104_11dd3823-a387-4699-a4c4-db88f8961b37.xml, wdm/IoCopyCurrentIrpStackLocationToNext
+ms.keywords: ",  , C, I, IoCopyCurrentIrpStackLocationToNext, IoCopyCurrentIrpStackLocationToNext routine [Kernel-Mode Driver Architecture], L, N, S, T, a, c, e, i, k, k104_11dd3823-a387-4699-a4c4-db88f8961b37.xml, kernel.iocopycurrentirpstacklocationtonext, n, o, p, r, t, u, wdm/IoCopyCurrentIrpStackLocationToNext, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,7 @@ If your driver calls <b>IoSkipCurrentIrpStackLocation</b>, be careful not to mod
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 
@@ -113,7 +109,11 @@ If your driver calls <b>IoSkipCurrentIrpStackLocation</b>, be careful not to mod
 
 
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
 
 
 

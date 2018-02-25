@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: eae6f032-2f31-43e1-9ac0-38ccc4840580
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.idriverentry, IDriverEntry interface, IDriverEntry interface, described, IDriverEntry, wudfddi/IDriverEntry, UMDFDriverObjectRef_83709367-02f2-433f-a20b-b98eff736657.xml, umdf.idriverentry
+ms.keywords: IDriverEntry, IDriverEntry interface, IDriverEntry interface, described, UMDFDriverObjectRef_83709367-02f2-433f-a20b-b98eff736657.xml, umdf.idriverentry, wdf.idriverentry, wudfddi/IDriverEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

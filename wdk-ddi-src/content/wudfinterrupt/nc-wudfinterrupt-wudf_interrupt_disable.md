@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3ADBD4C2-075E-4988-BF13-EB0C3E0C02BF
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.oninterruptdisable, OnInterruptDisable callback function, OnInterruptDisable, WUDF_INTERRUPT_DISABLE, WUDF_INTERRUPT_DISABLE, wudfinterrupt/OnInterruptDisable, umdf.oninterruptdisable
+ms.keywords: OnInterruptDisable, OnInterruptDisable callback function, WUDF_INTERRUPT_DISABLE, umdf.oninterruptdisable, wdf.oninterruptdisable, wudfinterrupt/OnInterruptDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -181,11 +181,11 @@ Then, implement your callback function as follows:
 
 ## -see-also
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
-
-
-
 <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_enable.md">OnInterruptEnable</a>
+
+
+
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
 
 
 

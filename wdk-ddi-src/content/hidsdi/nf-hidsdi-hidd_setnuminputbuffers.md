@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: da2d2b10-c02a-4786-9658-957271e9ba58
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidD_SetNumInputBuffers, HidD_SetNumInputBuffers routine [Human Input Devices], hidfunc_d091d988-7b9d-44ef-ae48-e00af69c12f5.xml, hid.hidd_setnuminputbuffers, hidsdi/HidD_SetNumInputBuffers
+ms.keywords: ",  , B, D, H, HidD_SetNumInputBuffers, HidD_SetNumInputBuffers routine [Human Input Devices], I, N, S, _, d, e, f, hid.hidd_setnuminputbuffers, hidfunc_d091d988-7b9d-44ef-ae48-e00af69c12f5.xml, hidsdi/HidD_SetNumInputBuffers, i, m, n, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

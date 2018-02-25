@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 172579A1-9B81-42C7-BAC9-C977C69E7E45
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_IRB_REQ_GET_LOCAL_HOST_INFORMATION, 1394/IRB_REQ_GET_LOCAL_HOST_INFORMATION, IRB_REQ_GET_LOCAL_HOST_INFORMATION, IRB_REQ_GET_LOCAL_HOST_INFORMATION structure [Buses], IEEE.irb_req_get_local_host_information"
+ms.keywords: ",  , ,, 1394/IRB_REQ_GET_LOCAL_HOST_INFORMATION, A, B, C, E, F, G, H, I, IEEE.irb_req_get_local_host_information, IRB_REQ_GET_LOCAL_HOST_INFORMATION, IRB_REQ_GET_LOCAL_HOST_INFORMATION structure [Buses], L, M, N, O, Q, R, S, T, _, _IRB_REQ_GET_LOCAL_HOST_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

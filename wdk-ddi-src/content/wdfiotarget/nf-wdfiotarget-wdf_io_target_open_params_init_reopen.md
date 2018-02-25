@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00f1e870-4c74-44d3-9ee9-c8b9e63e5f3b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdf_io_target_open_params_init_reopen, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN, WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN function, wdf.wdf_io_target_open_params_init_reopen, DFIOTargetRef_f0c123bb-3ecc-401f-ad91-4ed1b359454d.xml, WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN
+ms.keywords: ",  , A, D, DFIOTargetRef_f0c123bb-3ecc-401f-ad91-4ed1b359454d.xml, E, F, G, I, M, N, O, P, R, S, T, W, WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN, WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN function, _, kmdf.wdf_io_target_open_params_init_reopen, wdf.wdf_io_target_open_params_init_reopen, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,7 +129,7 @@ MyEvtIoTargetRemoveCanceled(
 
 ## -see-also
 
-<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_canceled.md">EvtIoTargetRemoveCanceled</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 
 
@@ -141,7 +141,7 @@ MyEvtIoTargetRemoveCanceled(
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
+<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_canceled.md">EvtIoTargetRemoveCanceled</a>
 
 
 

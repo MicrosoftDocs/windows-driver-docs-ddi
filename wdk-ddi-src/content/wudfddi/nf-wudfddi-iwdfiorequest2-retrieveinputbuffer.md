@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f727d9b7-d7ea-4551-bc5a-7829f9807e02
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest2 interface, RetrieveInputBuffer method, RetrieveInputBuffer method, IWDFIoRequest2::RetrieveInputBuffer, umdf.iwdfiorequest2_retrieveinputbuffer, RetrieveInputBuffer, IWDFIoRequest2, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, wudfddi/IWDFIoRequest2::RetrieveInputBuffer, wdf.iwdfiorequest2_retrieveinputbuffer, RetrieveInputBuffer method, IWDFIoRequest2 interface
+ms.keywords: ",  , ,, ., 2, :, B, D, F, I, IWDFIoRequest2, IWDFIoRequest2 interface, RetrieveInputBuffer method, IWDFIoRequest2::RetrieveInputBuffer, R, RetrieveInputBuffer method, RetrieveInputBuffer method, IWDFIoRequest2 interface, RetrieveInputBuffer,IWDFIoRequest2.RetrieveInputBuffer, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, W, e, f, i, n, o, p, q, r, s, t, u, umdf.iwdfiorequest2_retrieveinputbuffer, v, wdf.iwdfiorequest2_retrieveinputbuffer, wudfddi/IWDFIoRequest2::RetrieveInputBuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -201,7 +201,19 @@ STDMETHODCALLTYPE
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
 
 
@@ -210,18 +222,6 @@ STDMETHODCALLTYPE
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
 
 

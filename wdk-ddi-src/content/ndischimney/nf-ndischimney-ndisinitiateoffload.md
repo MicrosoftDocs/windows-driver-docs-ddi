@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a1979227-a447-4dd3-8a5d-7986362020cd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisInitiateOffload function [Network Drivers Starting with Windows Vista], NdisInitiateOffload, tcp_chim_ndis_func_c93e8055-91b1-42d4-a227-6b21086c6e7b.xml, ndischimney/NdisInitiateOffload, netvista.ndisinitiateoffload
+ms.keywords: ",  , I, N, NdisInitiateOffload, NdisInitiateOffload function [Network Drivers Starting with Windows Vista], O, a, d, e, f, i, l, n, ndischimney/NdisInitiateOffload, netvista.ndisinitiateoffload, o, s, t, tcp_chim_ndis_func_c93e8055-91b1-42d4-a227-6b21086c6e7b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,8 +123,21 @@ From the
 
 ## -see-also
 
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -134,19 +147,6 @@ From the
 
 <a href="..\ndischimney\nc-ndischimney-initiate_offload_complete_handler.md">
    ProtocolInitiateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

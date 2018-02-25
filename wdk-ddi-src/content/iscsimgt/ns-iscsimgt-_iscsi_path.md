@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eebc3e2e-41fe-4087-8916-7c8a71929913
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsimgt/PISCSI_Path, ISCSI_Path structure [Storage Devices], structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml, *PISCSI_Path, _ISCSI_Path, storage.iscsi_path, PISCSI_Path structure pointer [Storage Devices], ISCSI_Path, PISCSI_Path, iscsimgt/ISCSI_Path
+ms.keywords: ",  , *, *PISCSI_Path, ,, C, I, ISCSI_Path, ISCSI_Path structure [Storage Devices], P, PISCSI_Path, PISCSI_Path structure pointer [Storage Devices], S, _, _ISCSI_Path, a, h, iscsimgt/ISCSI_Path, iscsimgt/PISCSI_Path, storage.iscsi_path, structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

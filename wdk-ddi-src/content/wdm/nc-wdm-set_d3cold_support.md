@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 423C621D-0AE3-468A-94A0-AA3922B410F0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.setd3coldsupport, SetD3ColdSupport routine [Kernel-Mode Driver Architecture], SetD3ColdSupport, SET_D3COLD_SUPPORT, SET_D3COLD_SUPPORT, wdm/SetD3ColdSupport
+ms.keywords: SET_D3COLD_SUPPORT, SetD3ColdSupport, SetD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.setd3coldsupport, wdm/SetD3ColdSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,15 +144,11 @@ Windows 8 is the first version of Windows to support devices that can enter and
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a>
 
 
 
@@ -160,7 +156,11 @@ Windows 8 is the first version of Windows to support devices that can enter and
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
 
 
 

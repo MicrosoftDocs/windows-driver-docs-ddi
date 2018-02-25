@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38601573-750f-46fc-ae04-cef0d90d9ea9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exflushlookasidelistex, k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, wdm/ExFlushLookasideListEx, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], ExFlushLookasideListEx
+ms.keywords: ",  , E, ExFlushLookasideListEx, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], F, L, a, d, e, h, i, k, k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, kernel.exflushlookasidelistex, l, o, s, t, u, wdm/ExFlushLookasideListEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
 
 
 

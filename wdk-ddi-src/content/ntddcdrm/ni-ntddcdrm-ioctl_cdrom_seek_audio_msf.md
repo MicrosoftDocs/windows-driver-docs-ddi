@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 081a5d8d-7cc7-4499-9360-dfaa5a7c436b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_seek_audio_msf, IOCTL_CDROM_SEEK_AUDIO_MSF control code [Storage Devices], IOCTL_CDROM_SEEK_AUDIO_MSF, ntddcdrm/IOCTL_CDROM_SEEK_AUDIO_MSF, k307_4c88dbd2-30ef-41aa-9330-57319605ec88.xml
+ms.keywords: IOCTL_CDROM_SEEK_AUDIO_MSF, IOCTL_CDROM_SEEK_AUDIO_MSF control code [Storage Devices], k307_4c88dbd2-30ef-41aa-9330-57319605ec88.xml, ntddcdrm/IOCTL_CDROM_SEEK_AUDIO_MSF, storage.ioctl_cdrom_seek_audio_msf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

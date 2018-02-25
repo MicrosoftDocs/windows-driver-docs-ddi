@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22AA35D4-D287-443B-A49D-87C20BD436AA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitsignalsyncobjectstohwqueue, _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], E, G, H, I, J, L, M, N, O, Q, S, T, U, W, Y, _, _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitsignalsyncobjectstohwqueue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

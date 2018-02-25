@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1E4620A9-5CAA-4E45-9D43-1E183D7EB572
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntintsafe/RtlUIntToChar, RtlUIntToChar function [Kernel-Mode Driver Architecture], RtlUIntToChar, kernel.rtluinttochar
+ms.keywords: ",  , C, I, R, RtlUIntToChar, RtlUIntToChar function [Kernel-Mode Driver Architecture], T, U, a, h, kernel.rtluinttochar, l, n, ntintsafe/RtlUIntToChar, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

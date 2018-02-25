@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fd76dfed-2c47-4289-a672-1db8129f5a9e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MmPrefetchPages, ifsk.mmprefetchpages, MmPrefetchPages routine [Installable File System Drivers], ntifs/MmPrefetchPages, mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml
+ms.keywords: ",  , M, MmPrefetchPages, MmPrefetchPages routine [Installable File System Drivers], P, a, c, e, f, g, h, ifsk.mmprefetchpages, m, mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ntifs/MmPrefetchPages, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

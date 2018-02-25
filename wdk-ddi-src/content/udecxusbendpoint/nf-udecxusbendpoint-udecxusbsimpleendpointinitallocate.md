@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 1BF79756-F55D-4F13-A03C-35F7880C5B21
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUsbSimpleEndpointInitAllocate function [Buses], buses.udecxusbsimpleendpointinitallocate, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate
+ms.keywords: ",  , A, E, I, S, U, UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate function [Buses], a, b, buses.udecxusbsimpleendpointinitallocate, c, d, e, i, l, m, n, o, p, s, t, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,15 +97,15 @@ The only valid time to create simple endpoints is after creating a the UDE devic
 
 ## -see-also
 
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
 
 

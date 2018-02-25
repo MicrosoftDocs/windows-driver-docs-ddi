@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: gnssdriver/GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, sensors.gnss_supl_cert_config, gnssdriver/PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices]
+ms.keywords: ",  , *, *PGNSS_SUPL_CERT_CONFIG, ,, C, E, F, G, GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], I, L, N, O, P, PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], R, S, T, U, _, gnssdriver/GNSS_SUPL_CERT_CONFIG, gnssdriver/PGNSS_SUPL_CERT_CONFIG, sensors.gnss_supl_cert_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

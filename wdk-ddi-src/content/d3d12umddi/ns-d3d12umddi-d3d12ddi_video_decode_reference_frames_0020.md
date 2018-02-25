@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B7ED4ADA-572A-4D15-B8FD-6EAF2DB87157
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3d12ddi_video_decode_reference_frames, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 structure [Display Devices], D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 structure [Display Devices], E, F, I, M, N, O, R, S, V, _, d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, display.d3d12ddi_video_decode_reference_frames"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

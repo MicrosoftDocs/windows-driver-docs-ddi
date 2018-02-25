@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5ebacb12-4ccd-4e92-ba73-b79c1969eb4f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, RIL_PARAM_TONESIGNAL_EXECUTOR, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2TONE, ntddrilapitypes/RIL_PARAM_TONESIGNAL_EXECUTOR, RIL_PARAM_TONESIGNAL_GPP2TONE, RILTONESIGNALINFOPARAMMASK, RILTONESIGNALINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILTONESIGNALINFOPARAMMASK, netvista.riltonesignalinfoparammask, RIL_PARAM_TONESIGNAL_All, ntddrilapitypes/RIL_PARAM_TONESIGNAL_All
+ms.keywords: ",  , ,, A, E, F, G, I, K, L, M, N, O, P, R, RILTONESIGNALINFOPARAMMASK, RILTONESIGNALINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TONESIGNAL_All, RIL_PARAM_TONESIGNAL_EXECUTOR, RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, RIL_PARAM_TONESIGNAL_GPP2TONE, S, T, netvista.riltonesignalinfoparammask, ntddrilapitypes/RILTONESIGNALINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_TONESIGNAL_All, ntddrilapitypes/RIL_PARAM_TONESIGNAL_EXECUTOR, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2TONE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

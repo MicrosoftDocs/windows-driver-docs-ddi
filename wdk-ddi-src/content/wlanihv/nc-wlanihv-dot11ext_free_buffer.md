@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6e49914-29c0-47d2-936b-17c48958cb36
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extfreebuffer, Dot11ExtFreeBuffer callback function [Network Drivers Starting with Windows Vista], Dot11ExtFreeBuffer, DOT11EXT_FREE_BUFFER, DOT11EXT_FREE_BUFFER, wlanihv/Dot11ExtFreeBuffer, Native_802.11_IHV_Ext_af721540-28a8-43c2-a649-ce0f6fb9adce.xml
+ms.keywords: DOT11EXT_FREE_BUFFER, Dot11ExtFreeBuffer, Dot11ExtFreeBuffer callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_af721540-28a8-43c2-a649-ce0f6fb9adce.xml, netvista.dot11extfreebuffer, wlanihv/Dot11ExtFreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,12 +105,12 @@ For more information about the IHV Handler functions, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
 
 
 

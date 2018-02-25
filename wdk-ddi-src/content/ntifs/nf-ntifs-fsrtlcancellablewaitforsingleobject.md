@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b29d35bd-d27d-4507-9fa7-5648bcb1f825
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_5515496d-6e38-488c-8fbf-439aa4ac555a.xml, ntifs/FsRtlCancellableWaitForSingleObject, FsRtlCancellableWaitForSingleObject, FsRtlCancellableWaitForSingleObject routine [Installable File System Drivers], ifsk.fsrtlcancellablewaitforsingleobject
+ms.keywords: ",  , C, F, FsRtlCancellableWaitForSingleObject, FsRtlCancellableWaitForSingleObject routine [Installable File System Drivers], O, R, S, W, a, b, c, e, fsrtlref_5515496d-6e38-488c-8fbf-439aa4ac555a.xml, g, i, ifsk.fsrtlcancellablewaitforsingleobject, j, l, n, ntifs/FsRtlCancellableWaitForSingleObject, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -285,7 +285,7 @@ FunctionCompletionRoutine(
 </td>
 </tr>
 </table></span></div>
-<b>FsRtlCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the optional <i>Irp</i> parameter points to a valid IRP. If the <i>Irp</i> parameter is not used, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
+<b>FsRtlCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the optional <i>Irp</i> parameter points to a valid IRP. If the <i>Irp</i> parameter is not used, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
 
 <b>FsRtlCancellableWaitForSingleObject</b> will assert on debug builds if the IRQL is greater or equal to APC_LEVEL and the optional <i>Irp</i> parameter points to a valid IRP.
 
@@ -294,19 +294,7 @@ FunctionCompletionRoutine(
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 
@@ -318,7 +306,7 @@ FunctionCompletionRoutine(
 
 
 
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
@@ -327,6 +315,18 @@ FunctionCompletionRoutine(
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 
 

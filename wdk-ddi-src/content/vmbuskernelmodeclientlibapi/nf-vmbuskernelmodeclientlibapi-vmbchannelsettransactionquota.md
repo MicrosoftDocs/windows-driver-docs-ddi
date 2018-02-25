@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C88F03BE-96D3-46A7-8269-1ECBFA539111
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbChannelSetTransactionQuota function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSetTransactionQuota, netvista.vmbchannelsettransactionquota, VmbChannelSetTransactionQuota
+ms.keywords: ",  , C, Q, S, T, V, VmbChannelSetTransactionQuota, VmbChannelSetTransactionQuota function [Network Drivers Starting with Windows Vista], a, b, c, e, h, i, l, m, n, netvista.vmbchannelsettransactionquota, o, r, s, t, u, vmbuskernelmodeclientlibapi/VmbChannelSetTransactionQuota"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

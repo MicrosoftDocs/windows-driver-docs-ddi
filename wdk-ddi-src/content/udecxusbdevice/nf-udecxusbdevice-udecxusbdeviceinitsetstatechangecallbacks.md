@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A4D0B6BC-56FD-4378-A8F9-0A306D3FF22F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], UdecxUsbDeviceInitSetStateChangeCallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks, buses.udecxusbdeviceinitsetstatechangecallbacks
+ms.keywords: ",  , C, D, I, S, U, UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], a, b, buses.udecxusbdeviceinitsetstatechangecallbacks, c, d, e, g, h, i, k, l, n, s, t, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

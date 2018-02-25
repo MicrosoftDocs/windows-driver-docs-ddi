@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fc24e764-d584-4927-942f-3b8b4b83af79
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fltkernel/FltStartFiltering, FltApiRef_p_to_z_f88abc20-f8b7-4399-85be-bd43674fe536.xml, ifsk.fltstartfiltering, FltStartFiltering function [Installable File System Drivers], FltStartFiltering
+ms.keywords: ",  , F, FltApiRef_p_to_z_f88abc20-f8b7-4399-85be-bd43674fe536.xml, FltStartFiltering, FltStartFiltering function [Installable File System Drivers], S, a, e, fltkernel/FltStartFiltering, g, i, ifsk.fltstartfiltering, l, n, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

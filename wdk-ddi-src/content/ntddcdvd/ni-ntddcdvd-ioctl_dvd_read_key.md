@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 42745dae-f472-4f64-8f16-9f4dec1e986a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_dvd_read_key, IOCTL_DVD_READ_KEY control code [Storage Devices], IOCTL_DVD_READ_KEY, ntddcdvd/IOCTL_DVD_READ_KEY, k307_6baca45d-504c-46b9-9724-f82132c2bead.xml
+ms.keywords: IOCTL_DVD_READ_KEY, IOCTL_DVD_READ_KEY control code [Storage Devices], k307_6baca45d-504c-46b9-9724-f82132c2bead.xml, ntddcdvd/IOCTL_DVD_READ_KEY, storage.ioctl_dvd_read_key
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

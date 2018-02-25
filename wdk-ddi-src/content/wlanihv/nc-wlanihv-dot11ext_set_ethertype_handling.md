@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0681519e-022a-487c-ae5e-39a293b060ec
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetethertypehandling, Dot11ExtSetEtherTypeHandling callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetEtherTypeHandling, DOT11EXT_SET_ETHERTYPE_HANDLING, DOT11EXT_SET_ETHERTYPE_HANDLING, wlanihv/Dot11ExtSetEtherTypeHandling, Native_802.11_IHV_Ext_6265fb16-690c-4ada-a79d-fa39760a63d2.xml
+ms.keywords: DOT11EXT_SET_ETHERTYPE_HANDLING, Dot11ExtSetEtherTypeHandling, Dot11ExtSetEtherTypeHandling callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_6265fb16-690c-4ada-a79d-fa39760a63d2.xml, netvista.dot11extsetethertypehandling, wlanihv/Dot11ExtSetEtherTypeHandling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -180,17 +180,16 @@ The operating system defaults to an empty list of privacy exemptions and EtherTy
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
    Dot11ExtPreAssociateCompletion</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
+<a href="..\windot11\ns-windot11-dot11_privacy_exemption.md">DOT11_PRIVACY_EXEMPTION</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
@@ -199,7 +198,8 @@ The operating system defaults to an empty list of privacy exemptions and EtherTy
 
 
 
-<a href="..\windot11\ns-windot11-dot11_privacy_exemption.md">DOT11_PRIVACY_EXEMPTION</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 
 

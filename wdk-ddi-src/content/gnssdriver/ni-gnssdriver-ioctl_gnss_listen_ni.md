@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DDC85717-7CF7-421D-9521-09E272FFFCF0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.ioctl_gnss_listen_ni, IOCTL_GNSS_LISTEN_NI control code [Sensor Devices], IOCTL_GNSS_LISTEN_NI, gnssdriver/IOCTL_GNSS_LISTEN_NI
+ms.keywords: IOCTL_GNSS_LISTEN_NI, IOCTL_GNSS_LISTEN_NI control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_NI, sensors.ioctl_gnss_listen_ni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -136,11 +136,7 @@ These certificates, which are specified by the mobile operator and configured vi
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -148,7 +144,11 @@ These certificates, which are specified by the mobile operator and configured vi
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

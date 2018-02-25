@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8aa5a8a6-2024-4b3e-a500-5a484d937a62
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortAcquireMSISpinLock, storprt_0db1ab5c-a2a5-4362-84e0-493a5cebc2d3.xml, storage.storportacquiremsispinlock, StorPortAcquireMSISpinLock routine [Storage Devices], StorPortAcquireMSISpinLock
+ms.keywords: ",  , A, I, L, M, P, S, StorPortAcquireMSISpinLock, StorPortAcquireMSISpinLock routine [Storage Devices], c, e, i, k, n, o, p, q, r, storage.storportacquiremsispinlock, storport/StorPortAcquireMSISpinLock, storprt_0db1ab5c-a2a5-4362-84e0-493a5cebc2d3.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,7 +144,7 @@ The <i>HwDeviceExtension</i> was <b>NULL</b>.
 
 
 
-A miniport driver calls the <b>StorPortAcquireMSISpinLock</b> routine to acquire the MSI spin lock for a particular message. To release the spin lock, the miniport driver calls the <a href="..\storport\nf-storport-storportreleasemsispinlock.md">StorPortReleaseMSISpinLock</a> routine. This routine is used by a miniport drivers to acquire a  the MSI spin lock for an individual message only when the <b>InterruptSynchronizationMode</b> member of the <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure is set to <b>InterruptSynchronizePerMessage</b>.
+A miniport driver calls the <b>StorPortAcquireMSISpinLock</b> routine to acquire the MSI spin lock for a particular message. To release the spin lock, the miniport driver calls the <a href="..\storport\nf-storport-storportreleasemsispinlock.md">StorPortReleaseMSISpinLock</a> routine. This routine is used by a miniport drivers to acquire a  the MSI spin lock for an individual message only when the <b>InterruptSynchronizationMode</b> member of the <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure is set to <b>InterruptSynchronizePerMessage</b>.
 
 When a miniport needs to synchronize with all messages, it can use one call to <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a> which will acquire a lock for each message in the proper order.
 
@@ -157,11 +157,11 @@ When a miniport needs to synchronize with all messages, it can use one call to <
 
 
 
+<a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
+
 <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
-
-
-
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 

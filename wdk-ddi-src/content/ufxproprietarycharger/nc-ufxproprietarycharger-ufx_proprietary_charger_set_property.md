@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 504878FA-3234-4BE7-95D9-6CCE08DB4D8A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ufx_proprietary_charger_set_property, UfxProprietaryChargerSetProperty callback function [Buses], UfxProprietaryChargerSetProperty, UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UFX_PROPRIETARY_CHARGER_SET_PROPERTY, ufxproprietarycharger/UfxProprietaryChargerSetProperty, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
+ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UfxProprietaryChargerSetProperty, UfxProprietaryChargerSetProperty callback function [Buses], buses.ufx_proprietary_charger_set_property, ufxproprietarycharger/UfxProprietaryChargerSetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

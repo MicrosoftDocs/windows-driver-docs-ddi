@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90ae3382-0a2d-46cf-89e6-2148f0cbfc83
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmt_present_rgns, D3DKMT_PRESENT_RGNS structure [Display Devices], _D3DKMT_PRESENT_RGNS, d3dkmthk/D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS
+ms.keywords: ",  , ,, 3, D, D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS structure [Display Devices], E, G, K, M, N, P, R, S, T, _, _D3DKMT_PRESENT_RGNS, d3dkmthk/D3DKMT_PRESENT_RGNS, display.d3dkmt_present_rgns"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

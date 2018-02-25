@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 274232FF-573A-47B4-B363-2FA7F810BF84
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbTargetDeviceCreateUrb, kmdf.wdfusbtargetdevicecreateurb, WdfUsbTargetDeviceCreateUrb method, wdfusb/WdfUsbTargetDeviceCreateUrb, wdf.wdfusbtargetdevicecreateurb
+ms.keywords: ",  , C, D, T, U, W, WdfUsbTargetDeviceCreateUrb, WdfUsbTargetDeviceCreateUrb method, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdevicecreateurb, r, s, t, v, wdf.wdfusbtargetdevicecreateurb, wdfusb/WdfUsbTargetDeviceCreateUrb"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -216,19 +216,19 @@ if (WdfRequestSend(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateisochurb.md">WdfUsbTargetDeviceCreateIsochUrb</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_create_config_init.md">WDF_USB_DEVICE_CREATE_CONFIG_INIT</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateisochurb.md">WdfUsbTargetDeviceCreateIsochUrb</a>
 
 
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforurb.md">WdfUsbTargetDeviceFormatRequestForUrb</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 

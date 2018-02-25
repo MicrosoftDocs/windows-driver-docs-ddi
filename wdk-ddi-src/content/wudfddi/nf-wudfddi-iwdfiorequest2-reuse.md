@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 21d04633-3b68-4c89-a0b9-81507a1bb6d3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Reuse method, umdf.iwdfiorequest2_reuse, Reuse, UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml, IWDFIoRequest2::Reuse, wdf.iwdfiorequest2_reuse, wudfddi/IWDFIoRequest2::Reuse, IWDFIoRequest2, IWDFIoRequest2 interface, Reuse method, Reuse method, IWDFIoRequest2 interface
+ms.keywords: ",  , ,, ., 2, :, D, F, I, IWDFIoRequest2, IWDFIoRequest2 interface, Reuse method, IWDFIoRequest2::Reuse, R, Reuse method, Reuse method, IWDFIoRequest2 interface, Reuse,IWDFIoRequest2.Reuse, UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml, W, e, o, q, s, t, u, umdf.iwdfiorequest2_reuse, wdf.iwdfiorequest2_reuse, wudfddi/IWDFIoRequest2::Reuse"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -133,11 +133,11 @@ CMyRemoteDevice::OnCompletion(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
 
 
 

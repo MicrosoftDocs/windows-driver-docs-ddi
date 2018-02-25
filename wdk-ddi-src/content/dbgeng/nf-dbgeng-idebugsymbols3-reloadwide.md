@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3975bc55-15e3-45ca-82df-76c5ed3b0086
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ReloadWide, debugger.reloadwide, IDebugSymbols3 interface [Windows Debugging], ReloadWide method, ReloadWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3::ReloadWide, ReloadWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::ReloadWide
+ms.keywords: ",  , ,, ., 3, :, D, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], ReloadWide method, IDebugSymbols3::ReloadWide, R, ReloadWide method [Windows Debugging], ReloadWide method [Windows Debugging], IDebugSymbols3 interface, ReloadWide,IDebugSymbols3.ReloadWide, S, W, a, b, d, dbgeng/IDebugSymbols3::ReloadWide, debugger.reloadwide, e, g, i, l, m, o, s, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: DFD953F7-06DF-4FBD-8BEC-3A15943D6462
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.sercx2pioreceivecreate, SerCx2PioReceiveCreate, SerCx2PioReceiveCreate method [Serial Ports], 2/SerCx2PioReceiveCreate
+ms.keywords: ",  , 2, 2/SerCx2PioReceiveCreate, C, P, R, S, SerCx2PioReceiveCreate, SerCx2PioReceiveCreate method [Serial Ports], a, c, e, i, o, r, serports.sercx2pioreceivecreate, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,11 +171,7 @@ For more information about creating PIO-receive objects, see <a href="https://do
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2_pio_receive_config_init.md">SERCX2_PIO_RECEIVE_CONFIG_INIT</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -183,7 +179,11 @@ For more information about creating PIO-receive objects, see <a href="https://do
 
 
 
-<a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a>
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2_pio_receive_config_init.md">SERCX2_PIO_RECEIVE_CONFIG_INIT</a>
 
 
 
@@ -191,19 +191,19 @@ For more information about creating PIO-receive objects, see <a href="https://do
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+
+
+
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+<a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a>
 
 
 
 <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

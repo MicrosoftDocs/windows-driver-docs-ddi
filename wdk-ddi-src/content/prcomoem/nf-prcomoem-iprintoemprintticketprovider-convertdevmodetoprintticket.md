@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b2e029b7-32c0-4cef-8388-9d30aa5610d3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: prcomoem/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, print.iprintoemprintticketprovider_convertdevmodetoprintticket, IPrintOemPrintTicketProvider, ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml, IPrintOemPrintTicketProvider interface [Print Devices], ConvertDevModeToPrintTicket method, ConvertDevModeToPrintTicket
+ms.keywords: ",  , ,, ., :, C, ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket method [Print Devices], ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, ConvertDevModeToPrintTicket,IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket, D, I, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], ConvertDevModeToPrintTicket method, IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, M, O, P, T, c, d, e, i, k, m, n, o, prcomoem/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, print.iprintoemprintticketprovider_convertdevmodetoprintticket, print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,11 @@ The DEVMODEW structure fields that correlate with the part of the DEVMODEW struc
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
 
 
 

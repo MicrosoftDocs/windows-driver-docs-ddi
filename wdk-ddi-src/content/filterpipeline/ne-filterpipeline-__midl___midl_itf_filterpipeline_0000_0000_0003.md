@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9fab1cba-fe67-4654-ae33-3de41f0427f7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: filterpipeline/XpsJob_DocumentSequenceAdded, XpsJob_FixedPageAdded, print.expsjobconsumption, filterpipeline_67998379-96d5-4e6f-abc3-602526b12276.xml, EXpsJobConsumption, filterpipeline/XpsJob_FixedPageAdded, __MIDL___MIDL_itf_filterpipeline_0000_0000_0003, XpsJob_FixedDocumentAdded, EXpsJobConsumption enumeration [Print Devices], filterpipeline/XpsJob_FixedDocumentAdded, filterpipeline/EXpsJobConsumption, XpsJob_DocumentSequenceAdded
+ms.keywords: ",  , ,, 0, 3, C, D, E, EXpsJobConsumption, EXpsJobConsumption enumeration [Print Devices], I, J, L, M, X, XpsJob_DocumentSequenceAdded, XpsJob_FixedDocumentAdded, XpsJob_FixedPageAdded, _, __MIDL___MIDL_itf_filterpipeline_0000_0000_0003, b, e, f, filterpipeline/EXpsJobConsumption, filterpipeline/XpsJob_DocumentSequenceAdded, filterpipeline/XpsJob_FixedDocumentAdded, filterpipeline/XpsJob_FixedPageAdded, filterpipeline_67998379-96d5-4e6f-abc3-602526b12276.xml, i, l, m, n, o, p, print.expsjobconsumption, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

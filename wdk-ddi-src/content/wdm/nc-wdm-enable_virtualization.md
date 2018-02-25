@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: BC833231-CA7B-4E68-9498-46F1D4B32B88
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.enablevirtualization, EnableVirtualization routine, EnableVirtualization, ENABLE_VIRTUALIZATION, ENABLE_VIRTUALIZATION, wdm/EnableVirtualization
+ms.keywords: ENABLE_VIRTUALIZATION, EnableVirtualization, EnableVirtualization routine, PCI.enablevirtualization, wdm/EnableVirtualization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -177,11 +177,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">Enabl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f8d49d61-f15e-4972-bcd2-d20f1be5786c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], wdm/TRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], _TRANSACTION_ENLISTMENT_PAIR, kernel.transaction_enlistment_pair, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml, *PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR, wdm/PTRANSACTION_ENLISTMENT_PAIR
+ms.keywords: ",  , *, *PTRANSACTION_ENLISTMENT_PAIR, ,, A, C, E, I, L, M, N, O, P, PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], R, S, T, TRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], _, _TRANSACTION_ENLISTMENT_PAIR, kernel.transaction_enlistment_pair, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml, wdm/PTRANSACTION_ENLISTMENT_PAIR, wdm/TRANSACTION_ENLISTMENT_PAIR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

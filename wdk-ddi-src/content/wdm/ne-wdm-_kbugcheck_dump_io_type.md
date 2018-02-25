@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928be338-a588-4535-8395-229ec6f3ecb7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KbDumpIoHeader, KbDumpIoSecondaryData, KbDumpIoInvalid, wdm/KbDumpIoComplete, wdm/KbDumpIoBody, wdm/KBUGCHECK_DUMP_IO_TYPE, _KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE, kernel.kbugcheck_dump_io_type, wdm/KbDumpIoInvalid, wdm/KbDumpIoSecondaryData, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, KbDumpIoBody, wdm/KbDumpIoHeader, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], KbDumpIoComplete
+ms.keywords: ",  , ,, B, C, D, E, G, H, I, K, KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], KbDumpIoBody, KbDumpIoComplete, KbDumpIoHeader, KbDumpIoInvalid, KbDumpIoSecondaryData, M, O, P, T, U, Y, _, _KBUGCHECK_DUMP_IO_TYPE, kernel.kbugcheck_dump_io_type, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, wdm/KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoBody, wdm/KbDumpIoComplete, wdm/KbDumpIoHeader, wdm/KbDumpIoInvalid, wdm/KbDumpIoSecondaryData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

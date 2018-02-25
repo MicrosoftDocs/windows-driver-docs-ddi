@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5a00f401-89e5-4863-ab14-a8ab7eec1869
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SYM_DUMP_PARAM structure [Windows Debugging], *PSYM_DUMP_PARAM, wdbgexts/PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, debugger.ig_dump_symbol_info, wdbgexts/SYM_DUMP_PARAM, PSYM_DUMP_PARAM, SYM_DUMP_PARAM, _SYM_DUMP_PARAM
+ms.keywords: ",  , *, *PSYM_DUMP_PARAM, ,, A, D, M, P, PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], R, S, SYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], U, WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, Y, _, _SYM_DUMP_PARAM, debugger.ig_dump_symbol_info, wdbgexts/PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -488,15 +488,15 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540433">DBG_DUMP_XXX</a>
+
+
+
 <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
 
 
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540433">DBG_DUMP_XXX</a>
 
 
 

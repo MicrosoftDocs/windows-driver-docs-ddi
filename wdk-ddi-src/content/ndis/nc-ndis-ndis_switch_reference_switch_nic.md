@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8F4C76FA-A386-4A3D-8C9F-3CFF69382702
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ReferenceSwitchNic, ReferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], ReferenceSwitchNic, NDIS_SWITCH_REFERENCE_SWITCH_NIC, NDIS_SWITCH_REFERENCE_SWITCH_NIC, ndis/ReferenceSwitchNic
+ms.keywords: NDIS_SWITCH_REFERENCE_SWITCH_NIC, ReferenceSwitchNic, ReferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], ndis/ReferenceSwitchNic, netvista.ReferenceSwitchNic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,6 +141,14 @@ The extension calls <i>ReferenceSwitchNic</i> after the network adapter connecti
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598266">OID_SWITCH_NIC_REQUEST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
 
 
@@ -149,19 +157,11 @@ The extension calls <i>ReferenceSwitchNic</i> after the network adapter connecti
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
-
-
-
 <a href="https://msdn.microsoft.com/58C72F81-07B9-45FE-A8BA-0405DBE4CA20">DereferenceSwitchNic</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598266">OID_SWITCH_NIC_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
 
 
 

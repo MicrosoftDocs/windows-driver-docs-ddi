@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0fce82e9-0932-4838-b247-af0b2b8642d3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, DXVADDI_AYUVSAMPLE8 structure [Display Devices], d3dumddi/DXVADDI_AYUVSAMPLE8, display.dxvaddi_ayuvsample8, DXVADDI_AYUVSAMPLE8, _DXVADDI_AYUVSAMPLE8
+ms.keywords: ",  , ,, 8, A, D, DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, DXVADDI_AYUVSAMPLE8, DXVADDI_AYUVSAMPLE8 structure [Display Devices], E, I, L, M, P, S, U, V, X, Y, _, _DXVADDI_AYUVSAMPLE8, d3dumddi/DXVADDI_AYUVSAMPLE8, display.dxvaddi_ayuvsample8"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -121,11 +121,11 @@ The width and height of the AYUV alpha-blending surface are specified in the ass
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1e5b71cf-98c4-42bc-984d-6278ff30e8c1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetSymbolTypeNameWide, IDebugSymbolGroup2::GetSymbolTypeNameWide, debugger.getsymboltypenamewide, GetSymbolTypeNameWide method [Windows Debugging], GetSymbolTypeNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::GetSymbolTypeNameWide, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeNameWide method
+ms.keywords: ",  , ,, ., 2, :, D, G, GetSymbolTypeNameWide method [Windows Debugging], GetSymbolTypeNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolTypeNameWide,IDebugSymbolGroup2.GetSymbolTypeNameWide, I, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeNameWide method, IDebugSymbolGroup2::GetSymbolTypeNameWide, N, S, T, W, a, b, d, dbgeng/IDebugSymbolGroup2::GetSymbolTypeNameWide, debugger.getsymboltypenamewide, e, g, i, l, m, o, p, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -140,11 +140,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/09aa3ba9-d5b6-4c08-93f1-f7beca9350a1">IDebugSymbols::GetTypeName</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/09aa3ba9-d5b6-4c08-93f1-f7beca9350a1">IDebugSymbols::GetTypeName</a>
 
 
 

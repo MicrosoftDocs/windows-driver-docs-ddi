@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3F5DB2F5-40B6-4A8D-983C-065D17E62AE6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winsplp/BranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], BranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed, *PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], print.branchofficejobdatapipelinefailed
+ms.keywords: ",  , *, *PBranchOfficeJobDataPipelineFailed, ,, B, BranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], D, F, J, O, P, PBranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], a, b, c, d, e, f, h, i, l, n, o, p, print.branchofficejobdatapipelinefailed, r, t, winsplp/BranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

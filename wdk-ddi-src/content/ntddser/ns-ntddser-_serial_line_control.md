@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2D11187E-B21B-4211-BAC0-248B93BAB6D5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], serports.serial_line_control, *PSERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports], PSERIAL_LINE_CONTROL, ntddser/SERIAL_LINE_CONTROL, _SERIAL_LINE_CONTROL
+ms.keywords: ",  , *, *PSERIAL_LINE_CONTROL, ,, A, C, E, I, L, N, O, P, PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], R, S, SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports], T, _, _SERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, ntddser/SERIAL_LINE_CONTROL, serports.serial_line_control"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

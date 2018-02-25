@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21737c1a-dd9d-4011-85c0-7ff871265ed5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.interfacereference, InterfaceReference, InterfaceReference routine [Kernel-Mode Driver Architecture], InterfaceReference, PINTERFACE_REFERENCE, PINTERFACE_REFERENCE, wdm/InterfaceReference, drvr_interface_d7092619-d2e6-4ca6-bbd3-f857d775f73e.xml
+ms.keywords: InterfaceReference, InterfaceReference routine [Kernel-Mode Driver Architecture], PINTERFACE_REFERENCE, drvr_interface_d7092619-d2e6-4ca6-bbd3-f857d775f73e.xml, kernel.interfacereference, wdm/InterfaceReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -89,7 +89,7 @@ None
 
 
 
-You can use the <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine to decrement the reference count for the interface.
+You can use the <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine to decrement the reference count for the interface.
 
 The driver that exports the interface is responsible for calling <i>InterfaceReference</i> to increment the reference count before the driver exports the interface. For example, the driver that initially exported the interface in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> request calls <i>InterfaceReference</i>. Also, a driver that passes a pointer to the interface to another driver must call <i>InterfaceReference</i>.
 
@@ -106,7 +106,7 @@ The driver that exports the interface is responsible for calling <i>InterfaceRef
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
 
 

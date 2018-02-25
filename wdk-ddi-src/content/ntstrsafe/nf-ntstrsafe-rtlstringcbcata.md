@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1034384f-6295-42ca-bf78-47c383417500
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture], RtlStringCbCat, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml, kernel.rtlstringcbcat, RtlStringCbCatA, ntstrsafe/RtlStringCbCatA, ntstrsafe/RtlStringCbCatW
+ms.keywords: ",  , A, C, R, RtlStringCbCat, RtlStringCbCatA, RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture], S, a, b, g, i, kernel.rtlstringcbcat, l, n, ntstrsafe/RtlStringCbCatA, ntstrsafe/RtlStringCbCatW, r, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -217,11 +217,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
 
 
 

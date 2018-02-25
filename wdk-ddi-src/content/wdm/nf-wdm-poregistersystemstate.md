@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoRegisterSystemState, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], wdm/PoRegisterSystemState, kernel.poregistersystemstate
+ms.keywords: ",  , P, PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], R, S, a, e, g, i, kernel.poregistersystemstate, m, o, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, r, s, t, wdm/PoRegisterSystemState, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,11 +153,11 @@ To set the system power state, call <a href="..\wdm\nf-wdm-posetsystemstate.md">
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>
-
-
-
 <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
+
+
+
+<a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>
 
 
 

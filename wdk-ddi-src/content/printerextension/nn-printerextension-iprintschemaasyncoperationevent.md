@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4ADF74C0-F196-476F-889D-EB1A0B881920
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschemaasyncoperationevent_interface, IPrintSchemaAsyncOperationEvent interface [Print Devices], IPrintSchemaAsyncOperationEvent interface [Print Devices], described, IPrintSchemaAsyncOperationEvent, printerextension/IPrintSchemaAsyncOperationEvent
+ms.keywords: IPrintSchemaAsyncOperationEvent, IPrintSchemaAsyncOperationEvent interface [Print Devices], IPrintSchemaAsyncOperationEvent interface [Print Devices], described, print.iprintschemaasyncoperationevent_interface, printerextension/IPrintSchemaAsyncOperationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -94,11 +94,11 @@ An event sink that implements <b>IPrintSchemaAsyncOperationEvent</b> and the eve
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms694318(v=vs.85).aspx">IConnectionPoint</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a>
 
 
 

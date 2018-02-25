@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2455d09a-608e-4529-9c27-ed760c7da675
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, PcNewInterruptSync function [Audio Devices], portcls/PcNewInterruptSync, PcNewInterruptSync, audio.pcnewinterruptsync
+ms.keywords: ",  , I, N, P, PcNewInterruptSync, PcNewInterruptSync function [Audio Devices], S, audio.pcnewinterruptsync, audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, c, e, n, p, portcls/PcNewInterruptSync, r, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,15 +159,15 @@ The <i>OutInterruptSync</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parame
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+
+
+
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
-
-
-
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 758733a4-9657-48a4-bbcc-f266c72c1d6a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsCopyStreamDataToBuffer0, netvista.fwpscopystreamdatatobuffer0, FwpsCopyStreamDataToBuffer0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_C_dc46f99c-31e7-4e45-8f0b-fc3d0a96989e.xml, fwpsk/FwpsCopyStreamDataToBuffer0
+ms.keywords: ",  , 0, B, C, D, F, FwpsCopyStreamDataToBuffer0, FwpsCopyStreamDataToBuffer0 function [Network Drivers Starting with Windows Vista], S, T, a, e, f, fwpsk/FwpsCopyStreamDataToBuffer0, m, netvista.fwpscopystreamdatatobuffer0, o, p, r, s, t, u, w, wfp_ref_2_funct_3_fwps_C_dc46f99c-31e7-4e45-8f0b-fc3d0a96989e.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0926e8c4-f2ca-401f-abe8-76aec359a1e2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providerstartdma, ProviderStartDma callback function [Network Drivers Starting with Windows Vista], ProviderStartDma, DMA_START_HANDLER, DMA_START_HANDLER, netdma/ProviderStartDma, netdma_ref_76be9ff2-b865-4516-ad7b-ab3951133f41.xml
+ms.keywords: DMA_START_HANDLER, ProviderStartDma, ProviderStartDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderStartDma, netdma_ref_76be9ff2-b865-4516-ad7b-ab3951133f41.xml, netvista.providerstartdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -213,7 +213,7 @@ NetDMA calls
 
 
 
-<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
 
 
@@ -221,7 +221,7 @@ NetDMA calls
 
 
 
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
 
 
 

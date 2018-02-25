@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7039749-3f7d-4eca-919c-db27f9e62bf2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilsmsreadystatus_2, rilapitypes/RILSMSREADYSTATUS, *LPRILSMSREADYSTATUS, RILSMSREADYSTATUS, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *LPRILSMSREADYSTATUS, ,, A, D, E, I, L, M, P, R, RILSMSREADYSTATUS, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista], S, T, U, Y, netvista.rilsmsreadystatus_2, rilapitypes/RILSMSREADYSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2dc6a60-b3a6-4b2a-8a6c-aa513ca9b87b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILIMSI structure [Network Drivers Starting with Windows Vista], rilapitypes/RILIMSI, *LPRILIMSI, RILIMSI, netvista.rilimsi
+ms.keywords: ",  , *, *LPRILIMSI, ,, I, L, M, P, R, RILIMSI, RILIMSI structure [Network Drivers Starting with Windows Vista], S, netvista.rilimsi, rilapitypes/RILIMSI"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

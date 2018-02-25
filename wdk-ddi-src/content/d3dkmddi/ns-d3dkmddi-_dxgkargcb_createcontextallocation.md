@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2f5338a9-2a53-4fee-af6a-8a052ef8c423
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkargcb_createcontextallocation, _DXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION structure [Display Devices], *INOUT_PDXGKARGCB_CREATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION
+ms.keywords: ",  , *, *INOUT_PDXGKARGCB_CREATECONTEXTALLOCATION, ,, A, B, C, D, DXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION structure [Display Devices], E, G, I, K, L, N, O, P, R, T, U, X, _, _DXGKARGCB_CREATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_CREATECONTEXTALLOCATION, display.dxgkargcb_createcontextallocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -171,11 +171,15 @@ The display miniport driver calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_create
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextallocationflags.md">DXGK_CREATECONTEXTALLOCATIONFLAGS</a>
 
 
 
@@ -183,11 +187,7 @@ The display miniport driver calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_create
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextallocationflags.md">DXGK_CREATECONTEXTALLOCATIONFLAGS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 4463a68f-ef03-43a1-b3e2-7baf43f47e80
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_roothub_control_urb, EvtUcxRootHubControlUrb callback function [Buses], EvtUcxRootHubControlUrb, EVT_UCX_ROOTHUB_CONTROL_URB, EVT_UCX_ROOTHUB_CONTROL_URB, ucxroothub/EvtUcxRootHubControlUrb, PEVT_UCX_ROOTHUB_CONTROL_URB callback function pointer [Buses], PEVT_UCX_ROOTHUB_CONTROL_URB
+ms.keywords: EVT_UCX_ROOTHUB_CONTROL_URB, EvtUcxRootHubControlUrb, EvtUcxRootHubControlUrb callback function [Buses], PEVT_UCX_ROOTHUB_CONTROL_URB, PEVT_UCX_ROOTHUB_CONTROL_URB callback function pointer [Buses], buses.evt_ucx_roothub_control_urb, ucxroothub/EvtUcxRootHubControlUrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

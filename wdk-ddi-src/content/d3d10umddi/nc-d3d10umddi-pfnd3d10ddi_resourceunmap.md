@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fb2b714e-232d-40b2-88ad-ee8dcd70a057
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.resourceunmap, ResourceUnmap callback function [Display Devices], ResourceUnmap, PFND3D10DDI_RESOURCEUNMAP, PFND3D10DDI_RESOURCEUNMAP, d3d10umddi/ResourceUnmap, UserModeDisplayDriverDx10_Functions_473ebdfc-f365-4194-9d52-6338e19ca0d5.xml
+ms.keywords: PFND3D10DDI_RESOURCEUNMAP, ResourceUnmap, ResourceUnmap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_473ebdfc-f365-4194-9d52-6338e19ca0d5.xml, d3d10umddi/ResourceUnmap, display.resourceunmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -127,11 +127,11 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

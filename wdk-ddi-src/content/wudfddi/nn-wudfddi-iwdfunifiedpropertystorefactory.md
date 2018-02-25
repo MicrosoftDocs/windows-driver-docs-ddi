@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 34884B88-187A-4079-843D-F777287442F7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfunifiedpropertystorefactory, IWDFUnifiedPropertyStoreFactory interface, IWDFUnifiedPropertyStoreFactory interface, described, IWDFUnifiedPropertyStoreFactory, wudfddi/IWDFUnifiedPropertyStoreFactory, umdf.iwdfunifiedpropertystorefactory
+ms.keywords: IWDFUnifiedPropertyStoreFactory, IWDFUnifiedPropertyStoreFactory interface, IWDFUnifiedPropertyStoreFactory interface, described, umdf.iwdfunifiedpropertystorefactory, wdf.iwdfunifiedpropertystorefactory, wudfddi/IWDFUnifiedPropertyStoreFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

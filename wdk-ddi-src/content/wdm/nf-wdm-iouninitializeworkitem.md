@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8e7713a5-534d-42b4-a719-7b7ce911245a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoUninitializeWorkItem routine [Kernel-Mode Driver Architecture], wdm/IoUninitializeWorkItem, k104_05634a73-eb65-4572-a776-4dcd6b116f52.xml, kernel.iouninitializeworkitem, IoUninitializeWorkItem
+ms.keywords: ",  , I, IoUninitializeWorkItem, IoUninitializeWorkItem routine [Kernel-Mode Driver Architecture], U, W, a, e, i, k, k104_05634a73-eb65-4572-a776-4dcd6b116f52.xml, kernel.iouninitializeworkitem, l, m, n, o, r, t, wdm/IoUninitializeWorkItem, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>
 
 
 

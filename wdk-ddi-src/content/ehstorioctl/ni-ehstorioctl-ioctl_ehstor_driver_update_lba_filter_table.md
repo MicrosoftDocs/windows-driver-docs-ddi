@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 295EE3CC-4244-4411-9684-7C5D38B10EA9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_driver_update_lba_filter_table, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control code [Storage Devices], IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
+ms.keywords: IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, storage.ioctl_ehstor_driver_update_lba_filter_table
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PDO_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cebeceb1-f845-42cf-9a8b-3414e4a420b6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminipinhandshake, AVStrMiniPinHandshake, AVStrMiniPinHandshake routine [Streaming Media Devices], AVStrMiniPinHandshake, PFNKSPINHANDSHAKE, PFNKSPINHANDSHAKE, ks/AVStrMiniPinHandshake, avstclbk_3a87dcb0-5825-4ba0-b9b3-dfb6a1af20a2.xml
+ms.keywords: AVStrMiniPinHandshake, AVStrMiniPinHandshake routine [Streaming Media Devices], PFNKSPINHANDSHAKE, avstclbk_3a87dcb0-5825-4ba0-b9b3-dfb6a1af20a2.xml, ks/AVStrMiniPinHandshake, stream.avstrminipinhandshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

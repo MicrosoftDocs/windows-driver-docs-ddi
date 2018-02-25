@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76984F28-7AC9-44FD-9D8B-CC184484C73E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.endthreadstackreconstruction, EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], EndThreadStackReconstruction, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, dbgeng/EndThreadStackReconstruction
+ms.keywords: EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, dbgeng/EndThreadStackReconstruction, debugger.endthreadstackreconstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

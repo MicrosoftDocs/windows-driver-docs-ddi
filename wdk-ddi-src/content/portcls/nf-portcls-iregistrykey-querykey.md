@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1b2642da-1b04-49a8-942e-6eb93afd12f2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IRegistryKey, IRegistryKey::QueryKey, QueryKey method [Audio Devices], IRegistryKey interface, IRegistryKey interface [Audio Devices], QueryKey method, QueryKey method [Audio Devices], audio.iregistrykey_querykey, audmp-routines_88fe19d0-095e-4f70-b8aa-a0c908600296.xml, QueryKey, portcls/IRegistryKey::QueryKey
+ms.keywords: ",  , ,, ., :, I, IRegistryKey, IRegistryKey interface [Audio Devices], QueryKey method, IRegistryKey::QueryKey, K, Q, QueryKey method [Audio Devices], QueryKey method [Audio Devices], IRegistryKey interface, QueryKey,IRegistryKey.QueryKey, R, audio.iregistrykey_querykey, audmp-routines_88fe19d0-095e-4f70-b8aa-a0c908600296.xml, e, g, i, portcls/IRegistryKey::QueryKey, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -143,6 +143,10 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 
@@ -151,15 +155,11 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 
 
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-
-
-
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
 
 

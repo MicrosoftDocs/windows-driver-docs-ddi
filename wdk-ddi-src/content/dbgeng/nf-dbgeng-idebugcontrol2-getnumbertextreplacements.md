@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d15400a8-3d8d-48dd-86f0-4e53f8b04add
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetNumberTextReplacements method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetNumberTextReplacements, IDebugControl_34139b78-b8a1-4096-a54c-7fdfac7024ce.xml, GetNumberTextReplacements method [Windows Debugging], IDebugControl2::GetNumberTextReplacements, debugger.getnumbertextreplacements, GetNumberTextReplacements, IDebugControl3::GetNumberTextReplacements, IDebugControl2 interface [Windows Debugging], GetNumberTextReplacements method, IDebugControl2, GetNumberTextReplacements method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetNumberTextReplacements, IDebugControl3 interface [Windows Debugging], GetNumberTextReplacements method
+ms.keywords: ",  , ,, ., 2, :, C, D, G, GetNumberTextReplacements method [Windows Debugging], GetNumberTextReplacements method [Windows Debugging], IDebugControl2 interface, GetNumberTextReplacements method [Windows Debugging], IDebugControl3 interface, GetNumberTextReplacements,IDebugControl2.GetNumberTextReplacements, I, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetNumberTextReplacements method, IDebugControl2::GetNumberTextReplacements, IDebugControl3 interface [Windows Debugging], GetNumberTextReplacements method, IDebugControl3::GetNumberTextReplacements, IDebugControl_34139b78-b8a1-4096-a54c-7fdfac7024ce.xml, N, R, T, a, b, c, dbgeng/IDebugControl2::GetNumberTextReplacements, dbgeng/IDebugControl3::GetNumberTextReplacements, debugger.getnumbertextreplacements, e, g, l, m, n, o, p, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,7 +112,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -120,19 +120,19 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
 
 

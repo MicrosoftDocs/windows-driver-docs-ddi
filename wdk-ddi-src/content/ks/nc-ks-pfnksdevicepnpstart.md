@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a09a8b1-7a20-42e3-a58d-ecd4e7a0558e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminidevicestart, AVStrMiniDeviceStart, AVStrMiniDeviceStart routine [Streaming Media Devices], AVStrMiniDeviceStart, PFNKSDEVICEPNPSTART, PFNKSDEVICEPNPSTART, ks/AVStrMiniDeviceStart, avstclbk_b9fd90e7-3d9b-47a3-86c4-8df35f000269.xml
+ms.keywords: AVStrMiniDeviceStart, AVStrMiniDeviceStart routine [Streaming Media Devices], PFNKSDEVICEPNPSTART, avstclbk_b9fd90e7-3d9b-47a3-86c4-8df35f000269.xml, ks/AVStrMiniDeviceStart, stream.avstrminidevicestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -121,11 +121,11 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 

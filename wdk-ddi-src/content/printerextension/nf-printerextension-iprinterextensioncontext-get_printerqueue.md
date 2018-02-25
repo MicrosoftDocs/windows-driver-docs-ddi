@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 304C8AF5-EA4E-4401-A8EC-6E1B279038E8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PrinterQueue property [Print Devices], IPrinterExtensionContext interface, IPrinterExtensionContext::get_PrinterQueue, PrinterQueue property [Print Devices], IPrinterExtensionContext, printerextension/IPrinterExtensionContext::get_PrinterQueue, IPrinterExtensionContext interface [Print Devices], PrinterQueue property, get_PrinterQueue, printerextension/IPrinterExtensionContext::PrinterQueue, print.iprinterextensioncontext_printerqueue, IPrinterExtensionContext.PrinterQueue
+ms.keywords: ",  , ,, ., :, C, E, I, IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], PrinterQueue property, IPrinterExtensionContext.PrinterQueue, IPrinterExtensionContext::get_PrinterQueue, P, PrinterQueue property [Print Devices], PrinterQueue property [Print Devices], IPrinterExtensionContext interface, Q, _, e, g, get_PrinterQueue, get_PrinterQueue,IPrinterExtensionContext.get_PrinterQueue, i, n, o, print.iprinterextensioncontext_printerqueue, printerextension/IPrinterExtensionContext::PrinterQueue, printerextension/IPrinterExtensionContext::get_PrinterQueue, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

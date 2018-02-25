@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b09ea915-070d-4ebb-a40d-d60add5df3d8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3d10_ddi_box, D3D10_DDI_BOX, UMDisplayDriver_Dx10param_Structs_11ac8e3e-48db-469b-a6e6-d42fd491d56e.xml, d3d10umddi/D3D10_DDI_BOX, D3D10_DDI_BOX structure [Display Devices]
+ms.keywords: ",  , ,, 0, 1, 3, B, D, D3D10_DDI_BOX, D3D10_DDI_BOX structure [Display Devices], I, O, UMDisplayDriver_Dx10param_Structs_11ac8e3e-48db-469b-a6e6-d42fd491d56e.xml, X, _, d3d10umddi/D3D10_DDI_BOX, display.d3d10_ddi_box"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6205df9f-a6b1-4dd1-97a8-5d0d57a7ddd1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: LPD3DHAL_DP2INDEXEDLINELIST, *LPD3DHAL_DP2INDEXEDLINELIST, _D3DHAL_DP2INDEXEDLINELIST, LPD3DHAL_DP2INDEXEDLINELIST structure pointer [Display Devices], d3dstrct_895bb4b6-3e98-4275-a61d-38d89ec23a6f.xml, D3DHAL_DP2INDEXEDLINELIST, display.d3dhal_dp2indexedlinelist, D3DHAL_DP2INDEXEDLINELIST structure [Display Devices], d3dhal/D3DHAL_DP2INDEXEDLINELIST, d3dhal/LPD3DHAL_DP2INDEXEDLINELIST
+ms.keywords: ",  , *, *LPD3DHAL_DP2INDEXEDLINELIST, ,, 2, 3, A, D, D3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST structure [Display Devices], E, H, I, L, LPD3DHAL_DP2INDEXEDLINELIST, LPD3DHAL_DP2INDEXEDLINELIST structure pointer [Display Devices], N, P, S, T, X, _, _D3DHAL_DP2INDEXEDLINELIST, d3dhal/D3DHAL_DP2INDEXEDLINELIST, d3dhal/LPD3DHAL_DP2INDEXEDLINELIST, d3dstrct_895bb4b6-3e98-4275-a61d-38d89ec23a6f.xml, display.d3dhal_dp2indexedlinelist"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,15 +116,15 @@ D3DDP2OP_INDEXEDLINELIST
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
 
 
 

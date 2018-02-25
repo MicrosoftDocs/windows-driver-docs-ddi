@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E364130B-9709-4FD9-8654-9FBC52E29145
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psdetachsilofromcurrentthread, PsDetachSiloFromCurrentThread, ntddk/PsDetachSiloFromCurrentThread
+ms.keywords: ",  , C, D, F, P, PsDetachSiloFromCurrentThread, PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], S, T, a, c, d, e, h, i, kernel.psdetachsilofromcurrentthread, l, m, n, ntddk/PsDetachSiloFromCurrentThread, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

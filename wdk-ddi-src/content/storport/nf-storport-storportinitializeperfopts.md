@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fbaf864c-d499-456c-be3b-b486c637877e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortInitializePerfOpts function [Storage Devices], storprt_84998f54-51fe-40fd-a8cc-ba0367a592ce.xml, storport/StorPortInitializePerfOpts, StorPortInitializePerfOpts, storage.storportinitializeperfopts
+ms.keywords: ",  , I, O, P, S, StorPortInitializePerfOpts, StorPortInitializePerfOpts function [Storage Devices], a, e, f, i, l, n, o, p, r, s, storage.storportinitializeperfopts, storport/StorPortInitializePerfOpts, storprt_84998f54-51fe-40fd-a8cc-ba0367a592ce.xml, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

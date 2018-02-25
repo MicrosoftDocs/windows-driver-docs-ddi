@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: BC43B6AB-E34C-45A9-B666-1B323104FC48
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUsbDeviceInitAddDescriptor, udecxusbdevice/UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses], buses.udecxusbdeviceinitadddescriptor
+ms.keywords: ",  , A, D, I, U, UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses], b, buses.udecxusbdeviceinitadddescriptor, c, d, e, i, n, o, p, r, s, t, udecxusbdevice/UdecxUsbDeviceInitAddDescriptor, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,11 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn303349">Standard USB descriptors</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 
@@ -109,7 +109,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn303349">Standard USB descriptors</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

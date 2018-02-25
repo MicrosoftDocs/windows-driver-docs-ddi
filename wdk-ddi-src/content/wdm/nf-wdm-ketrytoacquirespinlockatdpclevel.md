@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7791969-027e-4df7-b720-1eb612597c56
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeTryToAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], kernel.ketrytoacquirespinlockatdpclevel, k105_416ac5db-d064-4ced-8cf8-311aca8dae7f.xml, wdm/KeTryToAcquireSpinLockAtDpcLevel, KeTryToAcquireSpinLockAtDpcLevel
+ms.keywords: ",  , A, D, K, KeTryToAcquireSpinLockAtDpcLevel, KeTryToAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], L, S, T, c, e, i, k, k105_416ac5db-d064-4ced-8cf8-311aca8dae7f.xml, kernel.ketrytoacquirespinlockatdpclevel, l, n, o, p, q, r, t, u, v, wdm/KeTryToAcquireSpinLockAtDpcLevel, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,11 +107,11 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
-
-
-
 <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
 
 

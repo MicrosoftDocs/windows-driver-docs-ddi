@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a7ed65f3-40a9-4b08-b59d-7c65c250d5cb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_set_read_ahead, IOCTL_STORAGE_SET_READ_AHEAD control code [Storage Devices], IOCTL_STORAGE_SET_READ_AHEAD, ntddcdvd/IOCTL_STORAGE_SET_READ_AHEAD, k307_0112afc4-1b4b-47c1-9ace-1d82a41b120f.xml
+ms.keywords: IOCTL_STORAGE_SET_READ_AHEAD, IOCTL_STORAGE_SET_READ_AHEAD control code [Storage Devices], k307_0112afc4-1b4b-47c1-9ace-1d82a41b120f.xml, ntddcdvd/IOCTL_STORAGE_SET_READ_AHEAD, storage.ioctl_storage_set_read_ahead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

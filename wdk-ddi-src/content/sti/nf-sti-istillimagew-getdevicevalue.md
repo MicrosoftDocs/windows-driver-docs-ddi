@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 506c50fa-f162-4b30-bfb9-91987e064c39
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStillImageW::GetDeviceValue, GetDeviceValue method [Imaging Devices], IStillImage interface, IStillImage::GetDeviceValue, sti/IStillImage::GetDeviceValue, GetDeviceValue method [Imaging Devices], IStillImageW, image.istillimage_getdevicevalue, IStillImage interface [Imaging Devices], GetDeviceValue method, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml, GetDeviceValue
+ms.keywords: ",  , ,, ., :, D, G, GetDeviceValue method [Imaging Devices], GetDeviceValue method [Imaging Devices], IStillImage interface, GetDeviceValue,IStillImageW.GetDeviceValue, I, IStillImage interface [Imaging Devices], GetDeviceValue method, IStillImage::GetDeviceValue, IStillImageW, IStillImageW::GetDeviceValue, S, V, W, a, c, e, g, i, image.istillimage_getdevicevalue, l, m, sti/IStillImage::GetDeviceValue, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

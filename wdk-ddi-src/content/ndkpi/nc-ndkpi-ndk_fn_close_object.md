@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9547DCCE-6B3C-434F-A8CA-1AA59AB7152A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_close_object, NdkCloseObject callback function [Network Drivers Starting with Windows Vista], NdkCloseObject, NDK_FN_CLOSE_OBJECT, NDK_FN_CLOSE_OBJECT, ndkpi/NdkCloseObject
+ms.keywords: NDK_FN_CLOSE_OBJECT, NdkCloseObject, NdkCloseObject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseObject, netvista.ndk_fn_close_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -159,7 +159,7 @@ The NDK provider must ensure that the <i>NdkCloseCompletion</i> function (<a hre
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
@@ -167,7 +167,7 @@ The NDK provider must ensure that the <i>NdkCloseCompletion</i> function (<a hre
 
 
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
 
 
 

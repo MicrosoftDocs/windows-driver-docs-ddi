@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e5360f75-53cf-4025-9a1c-665c098329dd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ntddk/PWHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR structure pointer [WHEA Drivers and Applications], _WHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR structure [WHEA Drivers and Applications], WHEA_XPF_MC_BANK_DESCRIPTOR, whearef_9f1970bd-6dbf-4104-9525-2018ab2f766e.xml, *PWHEA_XPF_MC_BANK_DESCRIPTOR, ntddk/WHEA_XPF_MC_BANK_DESCRIPTOR, whea.whea_xpf_mc_bank_descriptor, PWHEA_XPF_MC_BANK_DESCRIPTOR
+ms.keywords: ",  , *, *PWHEA_XPF_MC_BANK_DESCRIPTOR, ,, A, B, C, D, E, F, H, I, K, M, N, O, P, PWHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR structure pointer [WHEA Drivers and Applications], R, S, T, W, WHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR structure [WHEA Drivers and Applications], X, _, _WHEA_XPF_MC_BANK_DESCRIPTOR, ntddk/PWHEA_XPF_MC_BANK_DESCRIPTOR, ntddk/WHEA_XPF_MC_BANK_DESCRIPTOR, whea.whea_xpf_mc_bank_descriptor, whearef_9f1970bd-6dbf-4104-9525-2018ab2f766e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

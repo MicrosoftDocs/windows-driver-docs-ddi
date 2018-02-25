@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AA4B2578-61C9-47C3-A114-4B873B475124
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterqueueevent_interface, IPrinterQueueEvent interface [Print Devices], IPrinterQueueEvent interface [Print Devices], described, IPrinterQueueEvent, printerextension/IPrinterQueueEvent
+ms.keywords: IPrinterQueueEvent, IPrinterQueueEvent interface [Print Devices], IPrinterQueueEvent interface [Print Devices], described, print.iprinterqueueevent_interface, printerextension/IPrinterQueueEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -94,11 +94,11 @@ An event sink that implements <b>IPrinterQueueEvent</b> and the event source, <a
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms694318(v=vs.85).aspx">IConnectionPoint</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
 
 

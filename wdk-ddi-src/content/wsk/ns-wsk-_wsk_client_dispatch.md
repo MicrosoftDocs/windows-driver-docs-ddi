@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6a6116b0-2070-4b46-8359-3c84529cd1c5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WSK_CLIENT_DISPATCH structure [Network Drivers Starting with Windows Vista], netvista.wsk_client_dispatch, wskref_59bad29c-be6f-4a0d-8bf6-7112cd2c8855.xml, PWSK_CLIENT_DISPATCH, WSK_CLIENT_DISPATCH, *PWSK_CLIENT_DISPATCH, wsk/PWSK_CLIENT_DISPATCH, PWSK_CLIENT_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _WSK_CLIENT_DISPATCH, wsk/WSK_CLIENT_DISPATCH
+ms.keywords: ",  , *, *PWSK_CLIENT_DISPATCH, ,, A, C, D, E, H, I, K, L, N, P, PWSK_CLIENT_DISPATCH, PWSK_CLIENT_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], S, T, W, WSK_CLIENT_DISPATCH, WSK_CLIENT_DISPATCH structure [Network Drivers Starting with Windows Vista], _, _WSK_CLIENT_DISPATCH, netvista.wsk_client_dispatch, wsk/PWSK_CLIENT_DISPATCH, wsk/WSK_CLIENT_DISPATCH, wskref_59bad29c-be6f-4a0d-8bf6-7112cd2c8855.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -138,7 +138,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
 
 
@@ -146,7 +146,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
 
 
@@ -154,7 +154,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
 
 

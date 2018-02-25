@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8d991192-2df8-4b4d-a4c5-df5091492e67
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iocancelirp, wdm/IoCancelIrp, k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml, IoCancelIrp, IoCancelIrp routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, I, IoCancelIrp, IoCancelIrp routine [Kernel-Mode Driver Architecture], a, c, e, k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml, kernel.iocancelirp, l, n, o, p, r, wdm/IoCancelIrp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

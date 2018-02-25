@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 265912e2-2076-4435-811f-70a3dd1a0bd7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDisplayDriver_param_Structs_6fb950bf-0a0f-4d87-950d-7030251ed074.xml, D3DDDIARG_SETPALETTE, display.d3dddiarg_setpalette, _D3DDDIARG_SETPALETTE, d3dumddi/D3DDDIARG_SETPALETTE, D3DDDIARG_SETPALETTE structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_SETPALETTE, D3DDDIARG_SETPALETTE structure [Display Devices], E, G, I, L, P, R, S, T, UMDisplayDriver_param_Structs_6fb950bf-0a0f-4d87-950d-7030251ed074.xml, _, _D3DDDIARG_SETPALETTE, d3dumddi/D3DDDIARG_SETPALETTE, display.d3dddiarg_setpalette"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

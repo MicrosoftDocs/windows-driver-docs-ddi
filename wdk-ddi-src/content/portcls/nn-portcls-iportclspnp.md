@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: AC04051E-8412-4B61-B452-C05A9D8D5CD9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iportclspnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices], described, IPortClsPnp, portcls/IPortClsPnp
+ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices], described, audio.iportclspnp, portcls/IPortClsPnp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

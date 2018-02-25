@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71E2E98D-4C97-4C04-A379-88C2A7CC8428
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddicb_lock2, _D3DDDICB_LOCK2, d3dumddi/D3DDDICB_LOCK2, D3DDDICB_LOCK2, D3DDDICB_LOCK2 structure [Display Devices]
+ms.keywords: ",  , ,, 2, 3, B, C, D, D3DDDICB_LOCK2, D3DDDICB_LOCK2 structure [Display Devices], I, K, L, O, _, _D3DDDICB_LOCK2, d3dumddi/D3DDDICB_LOCK2, display.d3dddicb_lock2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

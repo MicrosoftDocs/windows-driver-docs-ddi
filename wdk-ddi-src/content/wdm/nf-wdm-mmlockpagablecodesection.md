@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dd2764d0-5775-4a89-8cdd-ba6806fb867d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k106_734069f7-1412-48d9-bae4-106391273a38.xml, MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], kernel.mmlockpagablecodesection, wdm/MmLockPagableCodeSection
+ms.keywords: ",  , C, L, M, MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], P, S, a, b, c, d, e, g, i, k, k106_734069f7-1412-48d9-bae4-106391273a38.xml, kernel.mmlockpagablecodesection, l, m, n, o, t, wdm/MmLockPagableCodeSection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

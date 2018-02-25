@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 433babb7-9a53-4079-9a65-43a5ed0c201a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddirestartfromtimeout, DxgkDdiRestartFromTimeout callback function [Display Devices], DxgkDdiRestartFromTimeout, DXGKDDI_RESTARTFROMTIMEOUT, DXGKDDI_RESTARTFROMTIMEOUT, d3dkmddi/DxgkDdiRestartFromTimeout, DmFunctions_ba675ea3-7f25-446f-bf13-af2228aa1e65.xml
+ms.keywords: DXGKDDI_RESTARTFROMTIMEOUT, DmFunctions_ba675ea3-7f25-446f-bf13-af2228aa1e65.xml, DxgkDdiRestartFromTimeout, DxgkDdiRestartFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiRestartFromTimeout, display.dxgkddirestartfromtimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -97,11 +97,11 @@ The operating system calls the <i>DxgkDdiRestartFromTimeout</i> function after t
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetfromtimeout.md">DxgkDdiResetFromTimeout</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 97a5c14f-949a-4455-9109-79355e5dec37
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml, wdm/IoGetCurrentProcess, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], IoGetCurrentProcess, kernel.iogetcurrentprocess
+ms.keywords: ",  , C, G, I, IoGetCurrentProcess, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], P, c, e, k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml, kernel.iogetcurrentprocess, n, o, r, s, t, u, wdm/IoGetCurrentProcess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,7 @@ This routine is identical to <a href="https://msdn.microsoft.com/library/windows
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 

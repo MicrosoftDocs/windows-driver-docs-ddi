@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 957cfebe-4cd9-4a35-822e-ebde4cd9e84c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOR, D3D11_1DDIARG_CREATEVIDEOPROCESSOR structure [Display Devices], D3D11_1DDIARG_CREATEVIDEOPROCESSOR, display.d3d11_1ddiarg_createvideoprocessor
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDIARG_CREATEVIDEOPROCESSOR, D3D11_1DDIARG_CREATEVIDEOPROCESSOR structure [Display Devices], E, G, I, O, P, R, S, T, V, _, d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOR, display.d3d11_1ddiarg_createvideoprocessor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

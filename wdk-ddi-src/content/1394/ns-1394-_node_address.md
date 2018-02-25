@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ecafa166-356e-48d6-84c4-0f0c339289ac
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PNODE_ADDRESS structure pointer [Buses], PNODE_ADDRESS, NODE_ADDRESS, *PNODE_ADDRESS, _NODE_ADDRESS, IEEE.node_address, 1394/PNODE_ADDRESS, 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, NODE_ADDRESS structure [Buses], 1394/NODE_ADDRESS
+ms.keywords: ",  , *, *PNODE_ADDRESS, ,, 1394/NODE_ADDRESS, 1394/PNODE_ADDRESS, 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, A, D, E, IEEE.node_address, N, NODE_ADDRESS, NODE_ADDRESS structure [Buses], O, P, PNODE_ADDRESS, PNODE_ADDRESS structure pointer [Buses], R, S, _, _NODE_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ Specifies the 10-bit bus number. This member specifies bits 0-10 of the node add
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537020">BUS_GENERATION_NODE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537020">BUS_GENERATION_NODE</a>
 
 
 

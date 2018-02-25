@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 636cf517-5ab0-4709-8026-b51425c81118
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.pcregisterphysicalconnectionfromexternal, audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml, PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices], portcls/PcRegisterPhysicalConnectionFromExternal
+ms.keywords: ",  , C, E, F, P, PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices], R, a, audio.pcregisterphysicalconnectionfromexternal, audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml, c, e, g, h, i, l, m, n, o, portcls/PcRegisterPhysicalConnectionFromExternal, r, s, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,11 +125,19 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537027">IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal</a>
 
 
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcregisterphysicalconnectiontoexternal.md">PcRegisterPhysicalConnectionToExternal</a>
 
 
 
@@ -138,14 +146,6 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnectiontoexternal.md">PcRegisterPhysicalConnectionToExternal</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83c1c4cb-b28b-4980-92fb-a1a49d95406e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdmatransactiondmacompleted, DFDmaObjectRef_d7fd815f-7c21-4b84-b4f2-0dcc13cf068a.xml, WdfDmaTransactionDmaCompleted method, WdfDmaTransactionDmaCompleted, wdfdmatransaction/WdfDmaTransactionDmaCompleted, kmdf.wdfdmatransactiondmacompleted
+ms.keywords: ",  , C, D, DFDmaObjectRef_d7fd815f-7c21-4b84-b4f2-0dcc13cf068a.xml, T, W, WdfDmaTransactionDmaCompleted, WdfDmaTransactionDmaCompleted method, a, c, d, e, f, i, kmdf.wdfdmatransactiondmacompleted, l, m, n, o, p, r, s, t, wdf.wdfdmatransactiondmacompleted, wdfdmatransaction/WdfDmaTransactionDmaCompleted"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -263,31 +263,11 @@ AmccPciEvtInterruptDpc(
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
-
-
-
-<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
-
-
-
 <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
-
-
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
 
 
 
@@ -295,7 +275,27 @@ AmccPciEvtInterruptDpc(
 
 
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedfinal.md">WdfDmaTransactionDmaCompletedFinal</a>
+
+
+
+<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+
+
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
 
 
 

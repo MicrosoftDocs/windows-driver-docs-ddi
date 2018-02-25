@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1722e6f6-7509-4ae1-b394-3c69f4596e6d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoResourceListGetDescriptor method, wdfresource/WdfIoResourceListGetDescriptor, wdf.wdfioresourcelistgetdescriptor, WdfIoResourceListGetDescriptor, DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, kmdf.wdfioresourcelistgetdescriptor
+ms.keywords: ",  , D, DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, G, I, L, R, W, WdfIoResourceListGetDescriptor, WdfIoResourceListGetDescriptor method, c, d, e, f, i, kmdf.wdfioresourcelistgetdescriptor, o, p, r, s, t, u, wdf.wdfioresourcelistgetdescriptor, wdfresource/WdfIoResourceListGetDescriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

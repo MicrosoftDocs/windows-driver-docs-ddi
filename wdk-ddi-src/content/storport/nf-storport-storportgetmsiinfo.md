@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3c98c04c-246a-42a0-bb40-f7771f7ae968
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortGetMSIInfo, StorPortGetMSIInfo routine [Storage Devices], storport/StorPortGetMSIInfo, storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml, storage.storportgetmsiinfo
+ms.keywords: ",  , G, I, M, P, S, StorPortGetMSIInfo, StorPortGetMSIInfo routine [Storage Devices], e, f, n, o, r, storage.storportgetmsiinfo, storport/StorPortGetMSIInfo, storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

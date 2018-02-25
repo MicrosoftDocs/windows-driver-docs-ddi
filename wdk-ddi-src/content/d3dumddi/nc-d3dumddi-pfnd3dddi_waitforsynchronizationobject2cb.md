@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4542C49F-C26C-45BE-B961-C5F65BDA78CF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnwaitforsynchronizationobject2cb, pfnWaitForSynchronizationObject2Cb callback function [Display Devices], pfnWaitForSynchronizationObject2Cb, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB, d3dumddi/pfnWaitForSynchronizationObject2Cb
+ms.keywords: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB, d3dumddi/pfnWaitForSynchronizationObject2Cb, display.pfnwaitforsynchronizationobject2cb, pfnWaitForSynchronizationObject2Cb, pfnWaitForSynchronizationObject2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -164,7 +164,7 @@ Do not call this function if the synchronization object is of type <b>D3DDDI_CPU
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
 
 
 
@@ -172,11 +172,7 @@ Do not call this function if the synchronization object is of type <b>D3DDDI_CPU
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject2.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT2</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
 
 
 
@@ -184,7 +180,11 @@ Do not call this function if the synchronization object is of type <b>D3DDDI_CPU
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject2.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT2</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 

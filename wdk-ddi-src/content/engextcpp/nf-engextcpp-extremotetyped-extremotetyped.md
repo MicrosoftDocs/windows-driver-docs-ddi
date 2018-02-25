@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8ae4c301-5001-467f-8821-f51cdb0ff303
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped, debugger.extremotetyped_extremotetyped, EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], ExtRemoteTyped constructor
+ms.keywords: ",  , ,, ., :, E, EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], ExtRemoteTyped constructor, ExtRemoteTyped,ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped, R, T, d, debugger.extremotetyped_extremotetyped, e, m, o, p, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ ExtRemoteTyped();
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
 
 
 
@@ -77,27 +77,7 @@ ExtRemoteTyped();
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (DEBUG_TYPED_DATA)</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (PCSTR, ULONG64)</a>
-
-
-
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (PCSTR)</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (ExtRemoteTyped)</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
-
-
-<a href="https://msdn.microsoft.com/ae478779-8ec1-4a50-a37c-3017aca2c912">SetPrint</a>
 
 
 
@@ -105,11 +85,19 @@ ExtRemoteTyped();
 
 
 
+<a href="https://msdn.microsoft.com/ae478779-8ec1-4a50-a37c-3017aca2c912">SetPrint</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (DEBUG_TYPED_DATA)</a>
+
+
+
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
 
 
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (ExtRemoteTyped)</a>
 
 
 
@@ -117,11 +105,23 @@ ExtRemoteTyped();
 
 
 
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (PCSTR, ULONG64)</a>
+
+
+
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
 
 
 

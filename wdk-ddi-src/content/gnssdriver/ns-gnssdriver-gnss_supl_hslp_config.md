@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 08CCC4A8-2D85-436D-B18E-77C91A24F59C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.gnss_supl_hslp_config, PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, gnssdriver/GNSS_SUPL_HSLP_CONFIG, *PGNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices]
+ms.keywords: ",  , *, *PGNSS_SUPL_HSLP_CONFIG, ,, C, F, G, GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], H, I, L, N, O, P, PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], S, U, _, gnssdriver/GNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG, sensors.gnss_supl_hslp_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

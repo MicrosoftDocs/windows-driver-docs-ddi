@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8A652E64-3DB4-4BBA-A02C-FA8B218AA08F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: CreateNotificationChannel method [Print Devices], CreateNotificationChannel method [Print Devices], IBidiAsyncNotifyChannel interface, prnasntp/IBidiAsyncNotifyChannel::CreateNotificationChannel, IBidiAsyncNotifyChannel interface [Print Devices], CreateNotificationChannel method, CreateNotificationChannel, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel::CreateNotificationChannel, print.ibidiasyncnotifychannel_createnotificationchannel
+ms.keywords: ",  , ,, ., :, A, B, C, CreateNotificationChannel method [Print Devices], CreateNotificationChannel method [Print Devices], IBidiAsyncNotifyChannel interface, CreateNotificationChannel,IBidiAsyncNotifyChannel.CreateNotificationChannel, I, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], CreateNotificationChannel method, IBidiAsyncNotifyChannel::CreateNotificationChannel, N, a, c, d, e, f, h, i, l, n, o, print.ibidiasyncnotifychannel_createnotificationchannel, prnasntp/IBidiAsyncNotifyChannel::CreateNotificationChannel, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

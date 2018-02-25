@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f6e2d8e3-294d-45d8-8fc6-33af3a746244
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.extremotetypedlist_settypeandlink, ExtRemoteTypedList::SetTypeAndLink, EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, SetTypeAndLink, ExtRemoteTypedList class [Windows Debugging], SetTypeAndLink method, SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList class, SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList
+ms.keywords: ",  , ,, ., :, A, E, EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], SetTypeAndLink method, ExtRemoteTypedList::SetTypeAndLink, L, R, S, SetTypeAndLink method [Windows Debugging], SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList class, SetTypeAndLink,ExtRemoteTypedList.SetTypeAndLink, T, d, debugger.extremotetypedlist_settypeandlink, e, i, k, m, n, o, p, s, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -118,7 +118,7 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
 
 
 
@@ -134,7 +134,7 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
 
 
 

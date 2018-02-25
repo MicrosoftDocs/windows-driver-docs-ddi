@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1230C71C-9C1A-4F1F-8AA7-C814249675B5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.pfndrmgetcontentrights, DRMGetContentRights callback function [Audio Devices], DRMGetContentRights, PFNDRMGETCONTENTRIGHTS, PFNDRMGETCONTENTRIGHTS, drmk/DRMGetContentRights, DRMGetContentRights callback function [Audio Devices], DRMGetContentRights
+ms.keywords: DRMGetContentRights, DRMGetContentRights callback function [Audio Devices], PFNDRMGETCONTENTRIGHTS, audio.pfndrmgetcontentrights, drmk/DRMGetContentRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

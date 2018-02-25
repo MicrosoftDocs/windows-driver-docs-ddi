@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2648AD10-B2D7-4F24-A508-239DA6AF551D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], ExQueryTimerResolution, kernel.exquerytimerresolution, wdm/ExQueryTimerResolution
+ms.keywords: ",  , E, ExQueryTimerResolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], Q, R, T, e, i, kernel.exquerytimerresolution, l, m, n, o, r, s, t, u, wdm/ExQueryTimerResolution, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

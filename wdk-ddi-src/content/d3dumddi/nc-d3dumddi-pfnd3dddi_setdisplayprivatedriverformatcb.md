@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 499e6de7-67cc-4834-bcec-4f3907b180f7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnsetdisplayprivatedriverformatcb, pfnSetDisplayPrivateDriverFormatCb callback function [Display Devices], pfnSetDisplayPrivateDriverFormatCb, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB, d3dumddi/pfnSetDisplayPrivateDriverFormatCb, D3Druntime_Functions_36bd86e3-96bb-4c68-85a1-a678a54daed4.xml
+ms.keywords: D3Druntime_Functions_36bd86e3-96bb-4c68-85a1-a678a54daed4.xml, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB, d3dumddi/pfnSetDisplayPrivateDriverFormatCb, display.pfnsetdisplayprivatedriverformatcb, pfnSetDisplayPrivateDriverFormatCb, pfnSetDisplayPrivateDriverFormatCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -171,11 +171,7 @@ The user-mode display driver can call <b>pfnSetDisplayPrivateDriverFormatCb</b> 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplayprivatedriverformat.md">D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT</a>
 
 
 
@@ -183,7 +179,11 @@ The user-mode display driver can call <b>pfnSetDisplayPrivateDriverFormatCb</b> 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplayprivatedriverformat.md">D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 
 

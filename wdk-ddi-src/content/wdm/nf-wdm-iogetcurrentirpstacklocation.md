@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 75144188-728b-4613-ac69-8cadf0f60233
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoGetCurrentIrpStackLocation, kernel.iogetcurrentirpstacklocation, k104_f92e53c7-8a26-4cb0-859b-b0a7be4dce6a.xml, wdm/IoGetCurrentIrpStackLocation, IoGetCurrentIrpStackLocation routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, G, I, IoGetCurrentIrpStackLocation, IoGetCurrentIrpStackLocation routine [Kernel-Mode Driver Architecture], L, S, a, c, e, i, k, k104_f92e53c7-8a26-4cb0-859b-b0a7be4dce6a.xml, kernel.iogetcurrentirpstacklocation, n, o, p, r, t, u, wdm/IoGetCurrentIrpStackLocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,7 @@ If a driver is passing the same parameters that it received to the next-lower dr
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
 
 
 
@@ -107,7 +103,11 @@ If a driver is passing the same parameters that it received to the next-lower dr
 
 
 
-<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 

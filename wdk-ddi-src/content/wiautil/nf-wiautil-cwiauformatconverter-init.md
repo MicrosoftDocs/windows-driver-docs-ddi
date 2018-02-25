@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 342ea1ae-ff8c-429d-bee8-08559fe75b40
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, image.cwiauformatconverter_init, Init, wiautil/CWiauFormatConverter::Init, CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], Init method, Init method [Imaging Devices], CWiauFormatConverter interface, Init method [Imaging Devices], CWiauFormatConverter::Init
+ms.keywords: ",  , ,, ., :, C, CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], Init method, CWiauFormatConverter::Init, F, I, Init method [Imaging Devices], Init method [Imaging Devices], CWiauFormatConverter interface, Init,CWiauFormatConverter.Init, W, a, e, i, image.cwiauformatconverter_init, m, n, o, r, t, u, v, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, wiautil/CWiauFormatConverter::Init"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

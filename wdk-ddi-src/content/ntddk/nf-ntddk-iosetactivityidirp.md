@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 81D3BE8C-D6E0-47E2-959C-3834988E4C61
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoSetActivityIdIrp, ntddk/IoSetActivityIdIrp, kernel.iosetactivityidirp, IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, I, IoSetActivityIdIrp, IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture], S, c, d, e, i, kernel.iosetactivityidirp, ntddk/IoSetActivityIdIrp, o, p, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4edaae35-8ac4-4a7a-949b-8a86b45ff391
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.allocatecommonbuffer, AllocateCommonBuffer, AllocateCommonBuffer callback function [Kernel-Mode Driver Architecture], AllocateCommonBuffer, PALLOCATE_COMMON_BUFFER, PALLOCATE_COMMON_BUFFER, wdm/AllocateCommonBuffer, kdma_0e4a27db-db3e-48db-81c2-d83a342a0cbc.xml
+ms.keywords: AllocateCommonBuffer, AllocateCommonBuffer callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER, kdma_0e4a27db-db3e-48db-81c2-d83a342a0cbc.xml, kernel.allocatecommonbuffer, wdm/AllocateCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ddb54eb-9f20-4cb9-8488-5f2806d23430
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], NdisSystemActiveProcessorCount, ndis/NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml, netvista.ndissystemactiveprocessorcount
+ms.keywords: ",  , A, C, N, NdisSystemActiveProcessorCount, NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], P, S, c, d, e, i, m, n, ndis/NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml, netvista.ndissystemactiveprocessorcount, o, r, s, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,7 +96,7 @@ An NDIS driver might call the
     <b>NdisSystemActiveProcessorCount</b> function during initialization before it allocates resources.
 
 <b>NdisSystemActiveProcessorCount</b> is similar to the 
-    <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">
+    <a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcount.md">
     KeQueryActiveProcessorCount</a> function.
 
 <div class="alert"><b>Note</b>  NDIS drivers should not use 
@@ -132,11 +132,11 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">NdisGroupActiveProcessorCount</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
 
 
 

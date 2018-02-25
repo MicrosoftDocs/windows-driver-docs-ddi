@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 032989b7-ba61-4cb3-b6b5-ac66124cdd79
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExGetExclusiveWaiterCount, wdm/ExGetExclusiveWaiterCount, ExGetExclusiveWaiterCount routine [Kernel-Mode Driver Architecture], kernel.exgetexclusivewaitercount, k102_bd65d9e8-06bf-4492-88f1-bfd4e46fb29e.xml
+ms.keywords: ",  , C, E, ExGetExclusiveWaiterCount, ExGetExclusiveWaiterCount routine [Kernel-Mode Driver Architecture], G, W, a, c, e, i, k102_bd65d9e8-06bf-4492-88f1-bfd4e46fb29e.xml, kernel.exgetexclusivewaitercount, l, n, o, r, s, t, u, v, wdm/ExGetExclusiveWaiterCount, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,19 +93,7 @@ A pointer to the resource to be tested.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exacquireresourceexclusivelite.md">ExAcquireResourceExclusiveLite</a>
-
-
-
 <a href="..\wdm\nf-wdm-exgetsharedwaitercount.md">ExGetSharedWaiterCount</a>
-
-
-
-<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
-
-
-
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
 
 
 
@@ -113,7 +101,19 @@ A pointer to the resource to be tested.
 
 
 
+<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
+
+
+
 <a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquireresourceexclusivelite.md">ExAcquireResourceExclusiveLite</a>
 
 
 

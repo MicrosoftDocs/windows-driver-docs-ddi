@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4dd4c02f-af44-4b02-a646-b7648b430b89
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_SETDISPLAYMODE structure [Display Devices], display.d3dddiarg_setdisplaymode, d3dumddi/D3DDDIARG_SETDISPLAYMODE, _D3DDDIARG_SETDISPLAYMODE, D3DDDIARG_SETDISPLAYMODE, UMDisplayDriver_param_Structs_89fc526d-719f-43b5-b195-47a199a290ec.xml
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_SETDISPLAYMODE, D3DDDIARG_SETDISPLAYMODE structure [Display Devices], E, G, I, L, M, O, P, R, S, T, UMDisplayDriver_param_Structs_89fc526d-719f-43b5-b195-47a199a290ec.xml, Y, _, _D3DDDIARG_SETDISPLAYMODE, d3dumddi/D3DDDIARG_SETDISPLAYMODE, display.d3dddiarg_setdisplaymode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

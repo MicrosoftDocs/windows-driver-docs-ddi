@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: F3DD5912-46E5-43E5-A920-940FC8FCD83F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3::LaunchAndDebugPlmAppWide, IDebugPlmClient3, debugger.idebugplmclient3_launchanddebugplmappwide, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], LaunchAndDebugPlmAppWide method
+ms.keywords: ",  , ,, ., 3, :, A, C, D, I, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], LaunchAndDebugPlmAppWide method, IDebugPlmClient3::LaunchAndDebugPlmAppWide, L, LaunchAndDebugPlmAppWide method [Windows Debugging], LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3 interface, LaunchAndDebugPlmAppWide,IDebugPlmClient3.LaunchAndDebugPlmAppWide, P, W, a, b, c, d, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, debugger.idebugplmclient3_launchanddebugplmappwide, e, g, h, i, l, m, n, p, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

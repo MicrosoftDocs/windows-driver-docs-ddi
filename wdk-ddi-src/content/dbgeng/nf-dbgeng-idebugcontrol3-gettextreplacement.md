@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d5531ac-afa1-4928-8ea6-8be4663cf06a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugControl3::GetTextReplacement, IDebugControl2::GetTextReplacement, debugger.gettextreplacement, IDebugControl2 interface [Windows Debugging], GetTextReplacement method, IDebugControl3::GetTextReplacement, GetTextReplacement method [Windows Debugging], IDebugControl2 interface, GetTextReplacement, IDebugControl3, IDebugControl2, dbgeng/IDebugControl2::GetTextReplacement, GetTextReplacement method [Windows Debugging], IDebugControl3 interface, GetTextReplacement method [Windows Debugging], IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, IDebugControl3 interface [Windows Debugging], GetTextReplacement method
+ms.keywords: ",  , ,, ., 3, :, C, D, G, GetTextReplacement method [Windows Debugging], GetTextReplacement method [Windows Debugging], IDebugControl2 interface, GetTextReplacement method [Windows Debugging], IDebugControl3 interface, GetTextReplacement,IDebugControl2.GetTextReplacement, GetTextReplacement,IDebugControl3.GetTextReplacement, I, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetTextReplacement method, IDebugControl2::GetTextReplacement, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetTextReplacement method, IDebugControl3::GetTextReplacement, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, R, T, a, b, c, dbgeng/IDebugControl2::GetTextReplacement, dbgeng/IDebugControl3::GetTextReplacement, debugger.gettextreplacement, e, g, l, m, n, o, p, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -156,14 +156,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
@@ -172,11 +164,19 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
 
 
 

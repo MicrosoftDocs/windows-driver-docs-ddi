@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: C6E1FA5A-993C-4212-9428-0B759C09F5DE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbfnbase/UsbfnDirectionOut, UsbfnDirectionOut, usbfnbase/UsbfnDirectionTx, _USBFN_DIRECTION, *PUSBFN_DIRECTION, usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionIn, UsbfnDirectionTx, UsbfnDirectionRx, usbfnbase/USBFN_DIRECTION, USBFN_DIRECTION, UsbfnDirectionIn, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionRx, UsbfnDirectionMaximum, buses.usbfn_direction
+ms.keywords: ",  , *, *PUSBFN_DIRECTION, ,, B, C, D, E, F, I, N, O, P, R, S, T, U, USBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionIn, UsbfnDirectionMaximum, UsbfnDirectionMinimum, UsbfnDirectionOut, UsbfnDirectionRx, UsbfnDirectionTx, _, _USBFN_DIRECTION, buses.usbfn_direction, usbfnbase/USBFN_DIRECTION, usbfnbase/UsbfnDirectionIn, usbfnbase/UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionOut, usbfnbase/UsbfnDirectionRx, usbfnbase/UsbfnDirectionTx"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

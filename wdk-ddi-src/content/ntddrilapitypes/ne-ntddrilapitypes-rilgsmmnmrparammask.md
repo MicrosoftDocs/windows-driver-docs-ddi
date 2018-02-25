@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a226956d-2881-4cff-a800-988b70eb99ea
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PARAM_GSMNMR_LAC, rilapitypes/RIL_PARAM_GSMNMR_MNC, RIL_PARAM_GSMNMR_CELLID, RILGSMMNMRPARAMMASK, rilapitypes/RIL_PARAM_GSMNMR_LAC, rilapitypes/RILGSMMNMRPARAMMASK, netvista.rilgsmmnmrparammask, RIL_PARAM_GSMNMR_MCC, rilapitypes/RIL_PARAM_GSMNMR_MCC, RIL_PARAM_GSMNMR_MNC, rilapitypes/RIL_PARAM_GSMNMR_CELLID, rilapitypes/RIL_PARAM_GSMNMR_BSID, RIL_PARAM_GSMNMR_RXLEVEL, RIL_PARAM_GSMNMR_BSID, RIL_PARAM_GSMNMR_ARFCN, rilapitypes/RIL_PARAM_GSMNMR_ARFCN, rilapitypes/RIL_PARAM_GSMNMR_ALL, RIL_PARAM_GSMNMR_ALL, rilapitypes/RIL_PARAM_GSMNMR_RXLEVEL, RILGSMMNMRPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , ,, A, G, I, K, L, M, N, P, R, RILGSMMNMRPARAMMASK, RILGSMMNMRPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GSMNMR_ALL, RIL_PARAM_GSMNMR_ARFCN, RIL_PARAM_GSMNMR_BSID, RIL_PARAM_GSMNMR_CELLID, RIL_PARAM_GSMNMR_LAC, RIL_PARAM_GSMNMR_MCC, RIL_PARAM_GSMNMR_MNC, RIL_PARAM_GSMNMR_RXLEVEL, S, netvista.rilgsmmnmrparammask, rilapitypes/RILGSMMNMRPARAMMASK, rilapitypes/RIL_PARAM_GSMNMR_ALL, rilapitypes/RIL_PARAM_GSMNMR_ARFCN, rilapitypes/RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_CELLID, rilapitypes/RIL_PARAM_GSMNMR_LAC, rilapitypes/RIL_PARAM_GSMNMR_MCC, rilapitypes/RIL_PARAM_GSMNMR_MNC, rilapitypes/RIL_PARAM_GSMNMR_RXLEVEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

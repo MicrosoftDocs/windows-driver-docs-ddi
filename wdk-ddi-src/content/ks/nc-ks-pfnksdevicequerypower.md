@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db839cde-cb3e-47f2-9a06-54e37ac7ac67
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminidevicequerypower, AVStrMiniDeviceQueryPower, AVStrMiniDeviceQueryPower routine [Streaming Media Devices], AVStrMiniDeviceQueryPower, PFNKSDEVICEQUERYPOWER, PFNKSDEVICEQUERYPOWER, ks/AVStrMiniDeviceQueryPower, avstclbk_47f0fecd-9906-4582-9f1d-bb80a469ffa6.xml
+ms.keywords: AVStrMiniDeviceQueryPower, AVStrMiniDeviceQueryPower routine [Streaming Media Devices], PFNKSDEVICEQUERYPOWER, avstclbk_47f0fecd-9906-4582-9f1d-bb80a469ffa6.xml, ks/AVStrMiniDeviceQueryPower, stream.avstrminidevicequerypower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,11 +137,11 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 

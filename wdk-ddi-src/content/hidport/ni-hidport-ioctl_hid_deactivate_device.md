@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 87af450c-0f62-481d-8c7d-24c77f221fc5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_hid_deactivate_device, IOCTL_HID_DEACTIVATE_DEVICE control code [Human Input Devices], IOCTL_HID_DEACTIVATE_DEVICE, hidport/IOCTL_HID_DEACTIVATE_DEVICE, hidioreq_35c75bec-696b-4043-bdb4-2425ff0ad6db.xml
+ms.keywords: IOCTL_HID_DEACTIVATE_DEVICE, IOCTL_HID_DEACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_deactivate_device, hidioreq_35c75bec-696b-4043-bdb4-2425ff0ad6db.xml, hidport/IOCTL_HID_DEACTIVATE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

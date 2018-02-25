@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb67b116-12f5-4eef-ab05-f2056ccec4e3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlvalidatereparsepointbuffer, fsrtlref_809c9e16-62b6-4a08-82d5-d6e86e7844ff.xml, ntifs/FsRtlValidateReparsePointBuffer, FsRtlValidateReparsePointBuffer routine [Installable File System Drivers], FsRtlValidateReparsePointBuffer
+ms.keywords: ",  , B, F, FsRtlValidateReparsePointBuffer, FsRtlValidateReparsePointBuffer routine [Installable File System Drivers], P, R, V, a, d, e, f, fsrtlref_809c9e16-62b6-4a08-82d5-d6e86e7844ff.xml, i, ifsk.fsrtlvalidatereparsepointbuffer, l, n, ntifs/FsRtlValidateReparsePointBuffer, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

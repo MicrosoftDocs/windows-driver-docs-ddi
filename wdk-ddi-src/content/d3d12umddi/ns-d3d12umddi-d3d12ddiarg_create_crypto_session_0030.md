@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71d65f25-ef9c-4a3d-ad1d-1d55e73bc0cb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDIARG_CREATE_CRYPTO_SESSION_0030, display.d3d12ddiarg-create-crypto-session-0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_0030
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDIARG_CREATE_CRYPTO_SESSION_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_0030 structure [Display Devices], E, G, I, N, O, P, R, S, T, Y, _, d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_0030, display.d3d12ddiarg-create-crypto-session-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

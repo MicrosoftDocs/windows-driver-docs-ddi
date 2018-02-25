@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15582270-6cc4-43d4-b9e6-dceab3bc092d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WNODE_ALL_DATA, PWNODE_ALL_DATA, *PWNODE_ALL_DATA, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml, wmistr/PWNODE_ALL_DATA, kernel.wnode_all_data, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], tagWNODE_ALL_DATA, wmistr/WNODE_ALL_DATA
+ms.keywords: ",  , *, *PWNODE_ALL_DATA, ,, A, D, E, L, N, O, P, PWNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], T, W, WNODE_ALL_DATA, WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], _, a, g, kernel.wnode_all_data, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml, t, tagWNODE_ALL_DATA, wmistr/PWNODE_ALL_DATA, wmistr/WNODE_ALL_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -160,11 +160,11 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 

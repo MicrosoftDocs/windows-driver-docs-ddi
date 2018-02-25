@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cd6f68b2-2a62-4607-8c70-11a94fd75ecb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], SetOutputCallbacksWide method, debugger.setoutputcallbackswide, SetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::SetOutputCallbacksWide, SetOutputCallbacksWide, IDebugClient5::SetOutputCallbacksWide, IDebugClient5, SetOutputCallbacksWide method [Windows Debugging]
+ms.keywords: ",  , ,, ., 5, :, C, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], SetOutputCallbacksWide method, IDebugClient5::SetOutputCallbacksWide, O, S, SetOutputCallbacksWide method [Windows Debugging], SetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetOutputCallbacksWide,IDebugClient5.SetOutputCallbacksWide, W, a, b, c, d, dbgeng/IDebugClient5::SetOutputCallbacksWide, debugger.setoutputcallbackswide, e, g, i, k, l, n, p, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

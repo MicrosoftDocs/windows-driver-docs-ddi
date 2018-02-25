@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b96076f-a7f7-4705-bbee-595ee4d9f789
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: InterlockedCompareExchangePointer routine [Kernel-Mode Driver Architecture], InterlockedCompareExchangePointer, wdm/InterlockedCompareExchangePointer, k102_ffaadb46-ece2-40fb-9e87-1c7ea3af275e.xml, kernel.interlockedcompareexchangepointer
+ms.keywords: ",  , C, E, I, InterlockedCompareExchangePointer, InterlockedCompareExchangePointer routine [Kernel-Mode Driver Architecture], P, a, c, d, e, g, h, i, k, k102_ffaadb46-ece2-40fb-9e87-1c7ea3af275e.xml, kernel.interlockedcompareexchangepointer, l, m, n, o, p, r, t, wdm/InterlockedCompareExchangePointer, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,15 +120,15 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
-
-
-
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 
 <a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
 
 
 

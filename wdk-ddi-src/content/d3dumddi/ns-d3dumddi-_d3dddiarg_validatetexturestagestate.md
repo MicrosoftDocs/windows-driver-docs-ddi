@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 28d2efa5-a7bf-4b85-a0f3-a4bad705a874
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_VALIDATETEXTURESTAGESTATE, display.d3dddiarg_validatetexturestagestate, d3dumddi/D3DDDIARG_VALIDATETEXTURESTAGESTATE, _D3DDDIARG_VALIDATETEXTURESTAGESTATE, UMDisplayDriver_param_Structs_dde6cce2-f21e-4a16-8238-6956d9a465f5.xml, D3DDDIARG_VALIDATETEXTURESTAGESTATE structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_VALIDATETEXTURESTAGESTATE, D3DDDIARG_VALIDATETEXTURESTAGESTATE structure [Display Devices], E, G, I, L, R, S, T, U, UMDisplayDriver_param_Structs_dde6cce2-f21e-4a16-8238-6956d9a465f5.xml, V, X, _, _D3DDDIARG_VALIDATETEXTURESTAGESTATE, d3dumddi/D3DDDIARG_VALIDATETEXTURESTAGESTATE, display.d3dddiarg_validatetexturestagestate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

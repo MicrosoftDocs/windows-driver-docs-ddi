@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5E52550D-0A81-4C72-9A82-7C13BC3EFE00
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExCancelTimer, ExCancelTimer routine [Kernel-Mode Driver Architecture], kernel.excanceltimer, ExCancelTimer
+ms.keywords: ",  , C, E, ExCancelTimer, ExCancelTimer routine [Kernel-Mode Driver Architecture], T, a, c, e, i, kernel.excanceltimer, l, m, n, r, wdm/ExCancelTimer, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,15 +106,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
 
 
 
 <a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
 
 
 

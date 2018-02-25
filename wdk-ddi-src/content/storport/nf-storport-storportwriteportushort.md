@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7655b6a1-2ed4-4e57-b8b5-e7b8ff2dd1e5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortWritePortUshort routine [Storage Devices], storage.storportwriteportushort, storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml, storport/StorPortWritePortUshort, StorPortWritePortUshort
+ms.keywords: ",  , P, S, StorPortWritePortUshort, StorPortWritePortUshort routine [Storage Devices], U, W, e, h, i, o, r, s, storage.storportwriteportushort, storport/StorPortWritePortUshort, storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -109,18 +109,18 @@ Contains the value to be written.
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>. 
 
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>
+
+
+
 <a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>
 
 
 

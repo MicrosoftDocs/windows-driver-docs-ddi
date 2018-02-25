@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 535857c5-dd71-4575-8475-ff6c7c934dbe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS, *PDOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS, netvista.dot11_roaming_completion_parameters, windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PDOT11_ROAMING_COMPLETION_PARAMETERS, ,, 1, A, C, D, DOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], E, G, I, L, M, N, Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, O, P, PDOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, netvista.dot11_roaming_completion_parameters, windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

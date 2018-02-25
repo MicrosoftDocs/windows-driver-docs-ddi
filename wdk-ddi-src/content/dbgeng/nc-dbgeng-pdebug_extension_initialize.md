@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2e68fa38-55fc-4538-ae97-ed943d5381be
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.debugextensioninitialize, DebugExtensionInitialize, DebugExtensionInitialize callback function [Windows Debugging], DebugExtensionInitialize, PDEBUG_EXTENSION_INITIALIZE, PDEBUG_EXTENSION_INITIALIZE, dbgeng/DebugExtensionInitialize, Extensions_Ref_e260c42c-8299-4578-8919-3b2167701275.xml
+ms.keywords: DebugExtensionInitialize, DebugExtensionInitialize callback function [Windows Debugging], Extensions_Ref_e260c42c-8299-4578-8919-3b2167701275.xml, PDEBUG_EXTENSION_INITIALIZE, dbgeng/DebugExtensionInitialize, debugger.debugextensioninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,15 +141,15 @@ There may or may not be a session active when this function is called, so the ex
 
 ## -see-also
 
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
+
+
+
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_notify.md">DebugExtensionNotify</a>
 
 
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
-
-
-
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
 
 
 

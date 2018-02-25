@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0dfa2eb8-a7f6-46d9-9599-5e2aaf583f78
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, IRemoteInterfaceCallbackRemoval interface, OnRemoteInterfaceRemoval method, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval interface, IRemoteInterfaceCallbackRemoval
+ms.keywords: ",  , ,, ., :, C, I, IRemoteInterfaceCallbackRemoval, IRemoteInterfaceCallbackRemoval interface, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, O, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval interface, OnRemoteInterfaceRemoval,IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval, R, UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, a, b, c, e, f, k, l, m, n, o, r, t, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, v, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,7 +99,7 @@ For more information about a driver's <b>OnRemoteInterfaceRemoval</b> event call
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackremoval.md">IRemoteInterfaceCallbackRemoval</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
 
 
 
@@ -107,7 +107,7 @@ For more information about a driver's <b>OnRemoteInterfaceRemoval</b> event call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
+<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackremoval.md">IRemoteInterfaceCallbackRemoval</a>
 
 
 

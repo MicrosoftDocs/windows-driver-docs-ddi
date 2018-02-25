@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bf12d7b3-080e-46d9-b276-76d42068e7c6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskdisconnectevent, WskDisconnectEvent callback function [Network Drivers Starting with Windows Vista], WskDisconnectEvent, PFN_WSK_DISCONNECT_EVENT, PFN_WSK_DISCONNECT_EVENT, wsk/WskDisconnectEvent, wskref_ec112b8d-f939-456f-9766-e181c7836e2c.xml
+ms.keywords: PFN_WSK_DISCONNECT_EVENT, WskDisconnectEvent, WskDisconnectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnectevent, wsk/WskDisconnectEvent, wskref_ec112b8d-f939-456f-9766-e181c7836e2c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -171,23 +171,11 @@ A WSK application's <i>WskDisconnectEvent</i> event callback function must not w
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 
@@ -196,15 +184,27 @@ A WSK application's <i>WskDisconnectEvent</i> event callback function must not w
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
 
 
 

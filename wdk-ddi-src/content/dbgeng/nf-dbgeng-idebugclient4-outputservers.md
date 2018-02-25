@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cb08e0d9-8c4b-4b7f-be3d-4e7c87d7f3d4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugClient2::OutputServers, IDebugClient4::OutputServers, IDebugClient4, IDebugClient3::OutputServers, IDebugClient3, IDebugClient4 interface [Windows Debugging], OutputServers method, OutputServers, OutputServers method [Windows Debugging], IDebugClient interface, IDebugClient5::OutputServers, dbgeng/IDebugClient5::OutputServers, IDebugClient interface [Windows Debugging], OutputServers method, IDebugClient2 interface [Windows Debugging], OutputServers method, debugger.outputservers, dbgeng/IDebugClient2::OutputServers, dbgeng/IDebugClient4::OutputServers, dbgeng/IDebugClient3::OutputServers, dbgeng/IDebugClient::OutputServers, IDebugClient_8fecfb37-5e4d-4a2b-af1e-df081e636337.xml, IDebugClient2, OutputServers method [Windows Debugging], IDebugClient::OutputServers, OutputServers method [Windows Debugging], IDebugClient5 interface, OutputServers method [Windows Debugging], IDebugClient4 interface, IDebugClient5 interface [Windows Debugging], OutputServers method, IDebugClient, OutputServers method [Windows Debugging], IDebugClient3 interface, IDebugClient3 interface [Windows Debugging], OutputServers method, OutputServers method [Windows Debugging], IDebugClient2 interface
+ms.keywords: ",  , ,, ., 4, :, C, D, I, IDebugClient, IDebugClient interface [Windows Debugging], OutputServers method, IDebugClient2, IDebugClient2 interface [Windows Debugging], OutputServers method, IDebugClient2::OutputServers, IDebugClient3, IDebugClient3 interface [Windows Debugging], OutputServers method, IDebugClient3::OutputServers, IDebugClient4, IDebugClient4 interface [Windows Debugging], OutputServers method, IDebugClient4::OutputServers, IDebugClient5 interface [Windows Debugging], OutputServers method, IDebugClient5::OutputServers, IDebugClient::OutputServers, IDebugClient_8fecfb37-5e4d-4a2b-af1e-df081e636337.xml, O, OutputServers method [Windows Debugging], OutputServers method [Windows Debugging], IDebugClient interface, OutputServers method [Windows Debugging], IDebugClient2 interface, OutputServers method [Windows Debugging], IDebugClient3 interface, OutputServers method [Windows Debugging], IDebugClient4 interface, OutputServers method [Windows Debugging], IDebugClient5 interface, OutputServers,IDebugClient.OutputServers, OutputServers,IDebugClient2.OutputServers, OutputServers,IDebugClient3.OutputServers, OutputServers,IDebugClient4.OutputServers, S, b, dbgeng/IDebugClient2::OutputServers, dbgeng/IDebugClient3::OutputServers, dbgeng/IDebugClient4::OutputServers, dbgeng/IDebugClient5::OutputServers, dbgeng/IDebugClient::OutputServers, debugger.outputservers, e, g, i, l, n, p, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,23 +165,7 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
 
 
@@ -189,7 +173,7 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -197,7 +181,23 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

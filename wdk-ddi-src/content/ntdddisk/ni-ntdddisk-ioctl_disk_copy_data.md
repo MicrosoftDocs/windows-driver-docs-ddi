@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1434ee49-4c3d-4104-bca4-c0ea4299c9aa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_copy_data, IOCTL_DISK_COPY_DATA control code [Storage Devices], IOCTL_DISK_COPY_DATA, ntdddisk/IOCTL_DISK_COPY_DATA, k307_d7859abc-a32a-4930-b612-6bea53331e3a.xml
+ms.keywords: IOCTL_DISK_COPY_DATA, IOCTL_DISK_COPY_DATA control code [Storage Devices], k307_d7859abc-a32a-4930-b612-6bea53331e3a.xml, ntdddisk/IOCTL_DISK_COPY_DATA, storage.ioctl_disk_copy_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

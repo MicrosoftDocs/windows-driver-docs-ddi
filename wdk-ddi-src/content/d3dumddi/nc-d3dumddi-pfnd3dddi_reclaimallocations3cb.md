@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BA0A8BF0-39C2-4641-9952-05512B1B1662
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnreclaimallocations3cb, pfnReclaimAllocations3Cb callback function [Display Devices], pfnReclaimAllocations3Cb, PFND3DDDI_RECLAIMALLOCATIONS3CB, PFND3DDDI_RECLAIMALLOCATIONS3CB, d3dumddi/pfnReclaimAllocations3Cb
+ms.keywords: PFND3DDDI_RECLAIMALLOCATIONS3CB, d3dumddi/pfnReclaimAllocations3Cb, display.pfnreclaimallocations3cb, pfnReclaimAllocations3Cb, pfnReclaimAllocations3Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 960710f7-15b1-4815-a33a-0e903d0a4193
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, *PWDFMEMORY_OFFSET, wdf.wdfmemory_offset_umdf, WDFMEMORY_OFFSET structure, umdf.wdfmemory_offset, PWDFMEMORY_OFFSET, wudfddi_types/WDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, _WDFMEMORY_OFFSET, WDFMEMORY_OFFSET, wudfddi_types/PWDFMEMORY_OFFSET
+ms.keywords: ",  , *, *PWDFMEMORY_OFFSET, ,, D, E, F, M, O, P, PWDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, R, S, T, W, WDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, Y, _, _WDFMEMORY_OFFSET, umdf.wdfmemory_offset, umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, wdf.wdfmemory_offset_umdf, wudfddi_types/PWDFMEMORY_OFFSET, wudfddi_types/WDFMEMORY_OFFSET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

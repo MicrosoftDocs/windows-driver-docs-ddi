@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AA862667-42D6-4A82-9698-1C43E9EEC434
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterextensionasyncoperation, IPrinterExtensionAsyncOperation interface [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices], described, IPrinterExtensionAsyncOperation, printerextension/IPrinterExtensionAsyncOperation
+ms.keywords: IPrinterExtensionAsyncOperation, IPrinterExtensionAsyncOperation interface [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices], described, print.iprinterextensionasyncoperation, printerextension/IPrinterExtensionAsyncOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -91,11 +91,11 @@ Cancels the asynchronous operation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
-
-
-
 <a href="https://msdn.microsoft.com/310E92A9-F751-4346-9B2D-0578A136AD20">Device Maintenance</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
 
 
 

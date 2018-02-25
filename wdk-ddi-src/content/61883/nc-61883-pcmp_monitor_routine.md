@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: E140D097-EE2F-4179-A43D-570397459762
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.pcmp_monitor_routine, CmpMonitorRoutine callback function [Buses], CmpMonitorRoutine, PCMP_MONITOR_ROUTINE, PCMP_MONITOR_ROUTINE, 61883/CmpMonitorRoutine, CmpMonitorRoutine callback function [Buses], CmpMonitorRoutine
+ms.keywords: 61883/CmpMonitorRoutine, CmpMonitorRoutine, CmpMonitorRoutine callback function [Buses], IEEE.pcmp_monitor_routine, PCMP_MONITOR_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

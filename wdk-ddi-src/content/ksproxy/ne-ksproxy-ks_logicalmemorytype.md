@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: B02E5131-6407-4481-BABD-9F5BDA979D85
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksproxy/KS_MemoryTypeDeviceHostMapped, KS_LogicalMemoryType, ksproxy/KS_MemoryTypeAnyHost, ksproxy/KS_MemoryTypeKernelNonPaged, KS_MemoryTypeDeviceSpecific, KS_MemoryTypeDeviceHostMapped, *PKS_LogicalMemoryType, ksproxy/KS_LogicalMemoryType, stream.ks_logicalmemorytype, ksproxy/KS_MemoryTypeKernelPaged, KS_MemoryTypeKernelPaged, ksproxy/KS_MemoryTypeUser, ksproxy/KS_MemoryTypeDeviceSpecific, KS_MemoryTypeAnyHost, KS_MemoryTypeDontCare, KS_MemoryTypeUser, KS_LogicalMemoryType enumeration [Streaming Media Devices], KS_MemoryTypeKernelNonPaged, ksproxy/KS_MemoryTypeDontCare
+ms.keywords: ",  , *, *PKS_LogicalMemoryType, ,, K, KS_LogicalMemoryType, KS_LogicalMemoryType enumeration [Streaming Media Devices], KS_MemoryTypeAnyHost, KS_MemoryTypeDeviceHostMapped, KS_MemoryTypeDeviceSpecific, KS_MemoryTypeDontCare, KS_MemoryTypeKernelNonPaged, KS_MemoryTypeKernelPaged, KS_MemoryTypeUser, L, M, P, S, T, _, a, c, e, g, i, ksproxy/KS_LogicalMemoryType, ksproxy/KS_MemoryTypeAnyHost, ksproxy/KS_MemoryTypeDeviceHostMapped, ksproxy/KS_MemoryTypeDeviceSpecific, ksproxy/KS_MemoryTypeDontCare, ksproxy/KS_MemoryTypeKernelNonPaged, ksproxy/KS_MemoryTypeKernelPaged, ksproxy/KS_MemoryTypeUser, l, m, o, p, r, stream.ks_logicalmemorytype, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

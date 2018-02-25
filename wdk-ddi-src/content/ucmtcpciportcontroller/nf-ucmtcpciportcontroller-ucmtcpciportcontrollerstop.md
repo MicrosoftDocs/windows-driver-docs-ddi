@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, UcmTcpciPortControllerStop, ucmtcpciportcontroller/UcmTcpciPortControllerStop
+ms.keywords: ",  , C, P, S, T, U, UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, c, e, i, l, m, n, o, p, r, t, ucmtcpciportcontroller/UcmTcpciPortControllerStop"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

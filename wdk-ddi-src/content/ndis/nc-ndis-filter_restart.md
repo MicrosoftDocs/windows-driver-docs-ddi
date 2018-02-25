@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4a917824-eef1-4945-b45e-1c940bc8a50d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.filterrestart, FilterRestart callback function [Network Drivers Starting with Windows Vista], FilterRestart, FILTER_RESTART, FILTER_RESTART, ndis/FilterRestart, filter_functions_ref_784a21e4-a3d3-4ada-9555-b712595f0a24.xml
+ms.keywords: FILTER_RESTART, FilterRestart, FilterRestart callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_784a21e4-a3d3-4ada-9555-b712595f0a24.xml, ndis/FilterRestart, netvista.filterrestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -322,12 +322,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
-   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 
@@ -336,20 +335,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_restart_parameters.md">
-   NDIS_FILTER_RESTART_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
@@ -358,11 +344,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
 
 
 
@@ -370,15 +352,33 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
+<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
 
 
 
 <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_filter_restart_parameters.md">
+   NDIS_FILTER_RESTART_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
 
 
 

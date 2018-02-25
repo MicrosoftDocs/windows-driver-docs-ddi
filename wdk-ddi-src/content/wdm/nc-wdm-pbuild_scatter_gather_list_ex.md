@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A1A89D52-5F39-45E4-AFBE-20DAD0E49442
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.buildscattergatherlistex, BuildScatterGatherListEx, BuildScatterGatherListEx callback function [Kernel-Mode Driver Architecture], BuildScatterGatherListEx, PBUILD_SCATTER_GATHER_LIST_EX, PBUILD_SCATTER_GATHER_LIST_EX, wdm/BuildScatterGatherListEx, DMA_SYNCHRONOUS_CALLBACK
+ms.keywords: BuildScatterGatherListEx, BuildScatterGatherListEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PBUILD_SCATTER_GATHER_LIST_EX, kernel.buildscattergatherlistex, wdm/BuildScatterGatherListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -284,15 +284,7 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+<a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a>
 
 
 
@@ -300,7 +292,7 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
-<a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
 
 
 
@@ -308,11 +300,19 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
 
 
 
 <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 

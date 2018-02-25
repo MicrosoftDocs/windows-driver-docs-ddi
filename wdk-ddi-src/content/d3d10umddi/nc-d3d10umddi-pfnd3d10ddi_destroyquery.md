@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 74bb85df-6d64-49e8-b431-2f4a9954eff2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroyquery_d3d10_, DestroyQuery callback function [Display Devices], DestroyQuery, PFND3D10DDI_DESTROYQUERY, PFND3D10DDI_DESTROYQUERY, d3d10umddi/DestroyQuery, UserModeDisplayDriverDx10_Functions_9c0fdf87-a47b-45b5-9ec9-5c307d412c9c.xml
+ms.keywords: DestroyQuery, DestroyQuery callback function [Display Devices], PFND3D10DDI_DESTROYQUERY, UserModeDisplayDriverDx10_Functions_9c0fdf87-a47b-45b5-9ec9-5c307d412c9c.xml, d3d10umddi/DestroyQuery, display.destroyquery_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,11 +115,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66088355-A110-4295-81D9-542491E2D6E4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_history_buffer, DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices], d3dkmddi/DXGK_HISTORY_BUFFER, _DXGK_HISTORY_BUFFER
+ms.keywords: ",  , ,, B, D, DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices], E, F, G, H, I, K, O, R, S, T, U, X, Y, _, _DXGK_HISTORY_BUFFER, d3dkmddi/DXGK_HISTORY_BUFFER, display.dxgk_history_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ The driver specifies the precision of time stamps with the <a href="..\d3dkmddi\
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
 
 
 

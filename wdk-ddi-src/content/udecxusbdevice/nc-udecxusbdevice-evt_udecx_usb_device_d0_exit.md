@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: CC2878DC-66EC-4493-8188-3B6BAEA928DF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_udecx_usb_device_d0_exit, EvtUsbDeviceLinkPowerExit callback function [Buses], EvtUsbDeviceLinkPowerExit, EVT_UDECX_USB_DEVICE_D0_EXIT, EVT_UDECX_USB_DEVICE_D0_EXIT, udecxusbdevice/EvtUsbDeviceLinkPowerExit
+ms.keywords: EVT_UDECX_USB_DEVICE_D0_EXIT, EvtUsbDeviceLinkPowerExit, EvtUsbDeviceLinkPowerExit callback function [Buses], buses.evt_udecx_usb_device_d0_exit, udecxusbdevice/EvtUsbDeviceLinkPowerExit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -114,11 +114,11 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 ## -see-also
 
+<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a>
+
+
+
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicelinkpowerexitcomplete.md">UdecxUsbDeviceLinkPowerExitComplete</a>
-
-
-
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicesignalwake.md">UdecxUsbDeviceSignalWake</a>
 
 
 
@@ -126,7 +126,7 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 
 
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a>
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicesignalwake.md">UdecxUsbDeviceSignalWake</a>
 
 
 

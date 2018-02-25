@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1bc13892-a7fb-43f9-8e65-70c11baca9ce
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlDecompressChunks, ifsk.rtldecompresschunks, rtlref_0fadf009-d363-4001-9981-7eb646be1a8b.xml, RtlDecompressChunks function [Installable File System Drivers], ntifs/RtlDecompressChunks
+ms.keywords: ",  , C, D, R, RtlDecompressChunks, RtlDecompressChunks function [Installable File System Drivers], c, e, h, ifsk.rtldecompresschunks, k, l, m, n, ntifs/RtlDecompressChunks, o, p, r, rtlref_0fadf009-d363-4001-9981-7eb646be1a8b.xml, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

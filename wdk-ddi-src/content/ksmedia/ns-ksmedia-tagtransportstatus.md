@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2896fd39-5c33-4c79-8adb-f6862b7b4314
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: tagTRANSPORTSTATUS, *PTRANSPORTSTATUS, TRANSPORTSTATUS, stream.transportstatus, TRANSPORTSTATUS structure [Streaming Media Devices], ksmedia/TRANSPORTSTATUS, PTRANSPORTSTATUS structure pointer [Streaming Media Devices], vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml, ksmedia/PTRANSPORTSTATUS, PTRANSPORTSTATUS
+ms.keywords: ",  , *, *PTRANSPORTSTATUS, ,, A, N, O, P, PTRANSPORTSTATUS, PTRANSPORTSTATUS structure pointer [Streaming Media Devices], R, S, T, TRANSPORTSTATUS, TRANSPORTSTATUS structure [Streaming Media Devices], U, a, g, ksmedia/PTRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, stream.transportstatus, t, tagTRANSPORTSTATUS, vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

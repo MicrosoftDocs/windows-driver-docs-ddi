@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: c9ce383e-277d-4fed-839b-8539554f654c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWINBIO_BIR_DATA structure pointer [Biometric Devices], winbio_types/PWINBIO_BIR_DATA, *PWINBIO_BIR_DATA, biometric_ref_8f527949-820e-416e-952d-8dd3bdf543f6.xml, WINBIO_BIR_DATA, WINBIO_BIR_DATA structure [Biometric Devices], PWINBIO_BIR_DATA, winbio_types/WINBIO_BIR_DATA, biometric.winbio_bir_data, _WINBIO_BIR_DATA
+ms.keywords: ",  , *, *PWINBIO_BIR_DATA, ,, A, B, D, I, N, O, P, PWINBIO_BIR_DATA, PWINBIO_BIR_DATA structure pointer [Biometric Devices], R, T, W, WINBIO_BIR_DATA, WINBIO_BIR_DATA structure [Biometric Devices], _, _WINBIO_BIR_DATA, biometric.winbio_bir_data, biometric_ref_8f527949-820e-416e-952d-8dd3bdf543f6.xml, winbio_types/PWINBIO_BIR_DATA, winbio_types/WINBIO_BIR_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ Specifies the offset, in bytes, of the block within the BIR.
 
 ## -see-also
 
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a>
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a>
 
 
 
@@ -89,7 +89,7 @@ Specifies the offset, in bytes, of the block within the BIR.
 
 
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a>
+<a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a>
 
 
 

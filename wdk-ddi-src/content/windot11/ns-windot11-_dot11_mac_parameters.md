@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53114ABE-33F2-4DA2-ABE0-2547547AA6AD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_MAC_PARAMETERS, Size, Revision, DOT11_MAC_PARAMETERS, Type, netvista.dot11_mac_parameters, _DOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS, windot11/DOT11_MAC_PARAMETERS
+ms.keywords: ",  , *, *PDOT11_MAC_PARAMETERS, ,, 1, A, C, D, DOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], E, M, O, P, PDOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, Revision, S, Size, T, Type, _, _DOT11_MAC_PARAMETERS, netvista.dot11_mac_parameters, windot11/DOT11_MAC_PARAMETERS, windot11/PDOT11_MAC_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,11 +119,11 @@ Specifies that the miniport driver supports the Wi-Fi Direct Client operation mo
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569124">OID_DOT11_CREATE_MAC</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

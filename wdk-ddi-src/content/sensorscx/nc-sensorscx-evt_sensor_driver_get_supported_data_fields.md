@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 8C73DFE2-E87A-460D-8EBE-CF3767CAA23F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.evtsensorgetsupporteddatafields, EvtSensorGetSupportedDataFields callback function [Sensor Devices], EvtSensorGetSupportedDataFields, EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS, EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS, sensorscx/EvtSensorGetSupportedDataFields
+ms.keywords: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS, EvtSensorGetSupportedDataFields, EvtSensorGetSupportedDataFields callback function [Sensor Devices], sensors.evtsensorgetsupporteddatafields, sensorscx/EvtSensorGetSupportedDataFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,11 +109,11 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
-
-
-
 <a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
 
 
 

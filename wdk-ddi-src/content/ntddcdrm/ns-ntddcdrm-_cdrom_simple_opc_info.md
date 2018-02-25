@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CE6D2C98-C4C3-4D76-B49E-1B9344B88666
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdrm/PCDROM_SIMPLE_OPC_INFO, PCDROM_SIMPLE_OPC_INFO structure pointer [Storage Devices], CDROM_SIMPLE_OPC_INFO, _CDROM_SIMPLE_OPC_INFO, PCDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO structure [Storage Devices], storage.cdrom_simple_opc_info, ntddcdrm/CDROM_SIMPLE_OPC_INFO, *PCDROM_SIMPLE_OPC_INFO
+ms.keywords: ",  , *, *PCDROM_SIMPLE_OPC_INFO, ,, C, CDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO structure [Storage Devices], D, E, F, I, L, M, N, O, P, PCDROM_SIMPLE_OPC_INFO, PCDROM_SIMPLE_OPC_INFO structure pointer [Storage Devices], R, S, _, _CDROM_SIMPLE_OPC_INFO, ntddcdrm/CDROM_SIMPLE_OPC_INFO, ntddcdrm/PCDROM_SIMPLE_OPC_INFO, storage.cdrom_simple_opc_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,15 +95,15 @@ The  <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL
 
 ## -see-also
 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
+
+
+
 <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_opc_info_type.md">CDROM_OPC_INFO_TYPE</a>
 
 
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
 
 
 

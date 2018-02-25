@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 5b7db410-8d9c-4c3e-aaae-44f7d5b779a0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, PBTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE, _BTH_SDP_STREAM_RESPONSE, bthioctl/BTH_SDP_STREAM_RESPONSE, bltooth.bth_sdp_stream_response, BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices], bthioctl/PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices]
+ms.keywords: ",  , *, *PBTH_SDP_STREAM_RESPONSE, ,, A, B, BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices], D, E, H, M, N, O, P, PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], R, S, T, _, _BTH_SDP_STREAM_RESPONSE, bltooth.bth_sdp_stream_response, bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, bthioctl/BTH_SDP_STREAM_RESPONSE, bthioctl/PBTH_SDP_STREAM_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

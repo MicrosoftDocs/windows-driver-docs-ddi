@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 916531dd-4768-436a-910c-07d49924ac48
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.freeadapterchannel, FreeAdapterChannel, FreeAdapterChannel callback function [Kernel-Mode Driver Architecture], FreeAdapterChannel, PFREE_ADAPTER_CHANNEL, PFREE_ADAPTER_CHANNEL, wdm/FreeAdapterChannel, kdma_f48025a6-96a2-4bdd-8b48-6c939bdf738b.xml
+ms.keywords: FreeAdapterChannel, FreeAdapterChannel callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_CHANNEL, kdma_f48025a6-96a2-4bdd-8b48-6c939bdf738b.xml, kernel.freeadapterchannel, wdm/FreeAdapterChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,15 +103,15 @@ After a driver has transferred all the data and called <a href="..\wdm\nc-wdm-pf
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 
@@ -123,7 +123,7 @@ After a driver has transferred all the data and called <a href="..\wdm\nc-wdm-pf
 
 
 
-<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 

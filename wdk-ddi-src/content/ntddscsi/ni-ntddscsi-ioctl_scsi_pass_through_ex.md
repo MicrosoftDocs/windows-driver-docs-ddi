@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BDF4375D-660D-4AF0-A692-16EEA59954B3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_scsi_pass_through_ex, IOCTL_SCSI_PASS_THROUGH_EX control code [Storage Devices], IOCTL_SCSI_PASS_THROUGH_EX, ntddscsi/IOCTL_SCSI_PASS_THROUGH_EX
+ms.keywords: IOCTL_SCSI_PASS_THROUGH_EX, IOCTL_SCSI_PASS_THROUGH_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_EX, storage.ioctl_scsi_pass_through_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

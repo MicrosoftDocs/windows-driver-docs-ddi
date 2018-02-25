@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 919ca017-aa00-4a11-9847-37cb50abb412
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_INPUT structure [Display Devices], display.d3d11_1ddi_authenticated_query_accessibility_encryption_guid_input
+ms.keywords: ",  , ,, 1, 3, A, B, C, D, D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_INPUT structure [Display Devices], E, G, H, I, L, N, O, P, Q, R, S, T, U, Y, _, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_INPUT, display.d3d11_1ddi_authenticated_query_accessibility_encryption_guid_input"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

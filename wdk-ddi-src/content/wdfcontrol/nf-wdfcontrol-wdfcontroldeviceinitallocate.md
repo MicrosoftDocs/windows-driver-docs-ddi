@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d423861-4c4d-45f2-bc44-b7cf1b230458
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectControllerDevObjRef_1450db30-6c2a-4103-99f6-2afe634000bf.xml, kmdf.wdfcontroldeviceinitallocate, WdfControlDeviceInitAllocate method, WdfControlDeviceInitAllocate, wdf.wdfcontroldeviceinitallocate, wdfcontrol/WdfControlDeviceInitAllocate
+ms.keywords: ",  , A, C, D, DFDeviceObjectControllerDevObjRef_1450db30-6c2a-4103-99f6-2afe634000bf.xml, I, W, WdfControlDeviceInitAllocate, WdfControlDeviceInitAllocate method, a, c, d, e, f, i, kmdf.wdfcontroldeviceinitallocate, l, n, o, r, t, v, wdf.wdfcontroldeviceinitallocate, wdfcontrol/WdfControlDeviceInitAllocate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,11 +161,19 @@ WdfControlFinishInitializing(controlDevice);</pre>
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
+<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
 
 
 
 <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontrolfinishinitializing.md">WdfControlFinishInitializing</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
 
@@ -177,15 +185,7 @@ WdfControlFinishInitializing(controlDevice);</pre>
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
-
-
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
 
 
 

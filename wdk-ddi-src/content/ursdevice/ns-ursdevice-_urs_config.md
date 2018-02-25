@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 3857CA53-6992-410A-96D1-EEA9CC586EDF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PURS_CONFIG, ursdevice/PURS_CONFIG, PURS_CONFIG structure pointer [Buses], URS_CONFIG structure [Buses], *PURS_CONFIG, URS_CONFIG, ursdevice/URS_CONFIG, buses.urs_config, _URS_CONFIG
+ms.keywords: ",  , *, *PURS_CONFIG, ,, C, F, G, I, N, O, P, PURS_CONFIG, PURS_CONFIG structure pointer [Buses], R, S, U, URS_CONFIG, URS_CONFIG structure [Buses], _, _URS_CONFIG, buses.urs_config, ursdevice/PURS_CONFIG, ursdevice/URS_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,11 +93,11 @@ A pointer to an <a href="..\ursdevice\nc-ursdevice-evt_urs_set_role.md">EVT_URS_
 
 ## -see-also
 
-<a href="..\ursdevice\nf-ursdevice-urs_config_init.md">URS_CONFIG_INIT</a>
-
-
-
 <a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
+
+
+
+<a href="..\ursdevice\nf-ursdevice-urs_config_init.md">URS_CONFIG_INIT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 78010e49-ad09-4eb3-bb48-17040737a0a0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksmedia/KS_DVD_YCrCb, stream.ks_dvd_ycrcb, KS_DVD_YCrCb structure [Streaming Media Devices], KS_DVD_YCrCb, PKS_DVD_YCrCb structure pointer [Streaming Media Devices], _KS_DVD_YCrCb, dvdref_559830d7-6f86-4a27-bc31-1e0e7928d7d4.xml, PKS_DVD_YCrCb, *PKS_DVD_YCrCb, ksmedia/PKS_DVD_YCrCb
+ms.keywords: ",  , *, *PKS_DVD_YCrCb, ,, C, D, K, KS_DVD_YCrCb, KS_DVD_YCrCb structure [Streaming Media Devices], P, PKS_DVD_YCrCb, PKS_DVD_YCrCb structure pointer [Streaming Media Devices], S, V, Y, _, _KS_DVD_YCrCb, b, dvdref_559830d7-6f86-4a27-bc31-1e0e7928d7d4.xml, ksmedia/KS_DVD_YCrCb, ksmedia/PKS_DVD_YCrCb, r, stream.ks_dvd_ycrcb"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

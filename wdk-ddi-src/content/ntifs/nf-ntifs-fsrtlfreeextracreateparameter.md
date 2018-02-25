@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c46cdfd3-36c4-420d-9dbf-d6f0bede460e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlFreeExtraCreateParameter, fsrtlref_bbee8298-87e1-4487-bf56-b2dd76913d47.xml, ifsk.fsrtlfreeextracreateparameter, FsRtlFreeExtraCreateParameter routine [Installable File System Drivers], ntifs/FsRtlFreeExtraCreateParameter
+ms.keywords: ",  , C, E, F, FsRtlFreeExtraCreateParameter, FsRtlFreeExtraCreateParameter routine [Installable File System Drivers], P, R, a, e, fsrtlref_bbee8298-87e1-4487-bf56-b2dd76913d47.xml, ifsk.fsrtlfreeextracreateparameter, l, m, ntifs/FsRtlFreeExtraCreateParameter, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,15 +94,31 @@ If a cleanup callback routine of type <a href="..\ntifs\nc-ntifs-pfsrtl_extra_cr
 
 ## -see-also
 
-<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+
+
+
+<b>FltAllocateExtraCreateParameterFromLookasideList</b>
+
+
+
+<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
 
 
 
@@ -114,23 +130,7 @@ If a cleanup callback routine of type <a href="..\ntifs\nc-ntifs-pfsrtl_extra_cr
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
-
-
-
-<b>FltAllocateExtraCreateParameterFromLookasideList</b>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 
 

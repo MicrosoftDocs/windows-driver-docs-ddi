@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3ac34302-f56f-424d-b627-f977c4aabfba
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_HIDS_STATUS, RIL_PARAM_HIDS_STATUS, RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_HIDS_PROVISIONING, ntddrilapitypes/RILHIDEIDSETTINGSPARAMMASK, RIL_PARAM_HIDS_ALL, netvista.rilhideidsettingsparammask, ntddrilapitypes/RIL_PARAM_HIDS_ALL, RILHIDEIDSETTINGSPARAMMASK
+ms.keywords: ",  , ,, A, D, E, G, H, I, K, L, M, N, P, R, RILHIDEIDSETTINGSPARAMMASK, RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HIDS_ALL, RIL_PARAM_HIDS_PROVISIONING, RIL_PARAM_HIDS_STATUS, S, T, netvista.rilhideidsettingsparammask, ntddrilapitypes/RILHIDEIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_HIDS_ALL, ntddrilapitypes/RIL_PARAM_HIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_HIDS_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

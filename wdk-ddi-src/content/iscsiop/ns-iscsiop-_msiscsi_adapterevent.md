@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 03820d4d-d013-40fb-a686-1b228f178f50
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_86ec7324-3d5c-44d2-8972-691504f1c5e1.xml, PMSiSCSI_AdapterEvent, _MSiSCSI_AdapterEvent, iscsiop/PMSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent, *PMSiSCSI_AdapterEvent, PMSiSCSI_AdapterEvent structure pointer [Storage Devices], MSiSCSI_AdapterEvent structure [Storage Devices], iscsiop/MSiSCSI_AdapterEvent, storage.msiscsi_adapterevent
+ms.keywords: ",  , *, *PMSiSCSI_AdapterEvent, ,, A, C, E, I, M, MSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent structure [Storage Devices], P, PMSiSCSI_AdapterEvent, PMSiSCSI_AdapterEvent structure pointer [Storage Devices], S, _, _MSiSCSI_AdapterEvent, a, d, e, i, iscsiop/MSiSCSI_AdapterEvent, iscsiop/PMSiSCSI_AdapterEvent, n, p, r, storage.msiscsi_adapterevent, structs-iSCSI_86ec7324-3d5c-44d2-8972-691504f1c5e1.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,15 +89,15 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_AdapterE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562971">MSiSCSI_AdapterEvent WMI Class</a>
-
-
-
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
 
 <a href="..\iscsiop\ne-iscsiop-piscsi_adapter_event_code.md">ISCSI_ADAPTER_EVENT_CODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562971">MSiSCSI_AdapterEvent WMI Class</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: a82816d8-2516-4bba-a5aa-0154cd079d5b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbdlib/USBD_ParseConfigurationDescriptor, USBD_ParseConfigurationDescriptor, buses.usbd_parseconfigurationdescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml, USBD_ParseConfigurationDescriptor routine [Buses]
+ms.keywords: ",  , B, C, D, P, S, U, USBD_ParseConfigurationDescriptor, USBD_ParseConfigurationDescriptor routine [Buses], _, a, buses.usbd_parseconfigurationdescriptor, c, e, f, g, i, n, o, p, r, s, t, u, usbdlib/USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

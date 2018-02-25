@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: d270f39a-d8e8-4ec6-987e-e755da767495
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCMCIA.pcmcia_is_write_protected, IsWriteProtected callback function [Buses], IsWriteProtected, PCMCIA_IS_WRITE_PROTECTED, PCMCIA_IS_WRITE_PROTECTED, ntddpcm/IsWriteProtected, memcdref_e7dab6ad-c94a-42c9-a969-f102c58e4d3c.xml
+ms.keywords: IsWriteProtected, IsWriteProtected callback function [Buses], PCMCIA.pcmcia_is_write_protected, PCMCIA_IS_WRITE_PROTECTED, memcdref_e7dab6ad-c94a-42c9-a969-f102c58e4d3c.xml, ntddpcm/IsWriteProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -97,11 +97,11 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
 
 
 

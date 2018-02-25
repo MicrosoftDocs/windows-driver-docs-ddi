@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7a4e0930-b499-4abd-bbf6-326ae928b5c5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILMANAGECALLSPARAMS_V2, *LPRILMANAGECALLSPARAMS_V2, RILMANAGECALLSPARAMS_V2, netvista.rilmanagecallsparams_v2, RILMANAGECALLSPARAMS_V2 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *LPRILMANAGECALLSPARAMS_V2, ,, 2, A, C, E, G, I, L, M, N, P, R, RILMANAGECALLSPARAMS_V2, RILMANAGECALLSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], S, V, _, netvista.rilmanagecallsparams_v2, ntddrilapitypes/RILMANAGECALLSPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 449936d8-9257-4044-a38f-e68d8e8d5c68
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_exclusive_access, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], IOCTL_CDROM_EXCLUSIVE_ACCESS, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml
+ms.keywords: IOCTL_CDROM_EXCLUSIVE_ACCESS, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, storage.ioctl_cdrom_exclusive_access
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -213,7 +213,7 @@ The device is already locked for exclusive access.
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
 
 
 
@@ -221,11 +221,11 @@ The device is already locked for exclusive access.
 
 
 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
+
+
+
 <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
 
 
 

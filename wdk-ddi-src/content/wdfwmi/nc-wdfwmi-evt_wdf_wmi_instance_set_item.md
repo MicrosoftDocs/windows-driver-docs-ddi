@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3011d92c-b12b-4240-8a4e-aa039ab8e053
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtwmiinstancesetitem, EvtWmiInstanceSetItem callback function, EvtWmiInstanceSetItem, EVT_WDF_WMI_INSTANCE_SET_ITEM, EVT_WDF_WMI_INSTANCE_SET_ITEM, wdfwmi/EvtWmiInstanceSetItem, DFWMIRef_edfeada6-2e85-42a5-9a28-6a6fb99a1c46.xml, kmdf.evtwmiinstancesetitem
+ms.keywords: DFWMIRef_edfeada6-2e85-42a5-9a28-6a6fb99a1c46.xml, EVT_WDF_WMI_INSTANCE_SET_ITEM, EvtWmiInstanceSetItem, EvtWmiInstanceSetItem callback function, kmdf.evtwmiinstancesetitem, wdf.evtwmiinstancesetitem, wdfwmi/EvtWmiInstanceSetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -161,11 +161,11 @@ The <b>EVT_WDF_WMI_INSTANCE_SET_ITEM</b> function type is defined in the WdfWMI.
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
 
 
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
 
 
@@ -177,11 +177,11 @@ The <b>EVT_WDF_WMI_INSTANCE_SET_ITEM</b> function type is defined in the WdfWMI.
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
 
 
 

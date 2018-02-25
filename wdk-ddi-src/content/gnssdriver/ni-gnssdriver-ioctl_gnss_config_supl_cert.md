@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 34095934-26C1-4855-9ED9-71627E88A903
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.ioctl_gnss_config_supl_cert, IOCTL_GNSS_CONFIG_SUPL_CERT control code [Sensor Devices], IOCTL_GNSS_CONFIG_SUPL_CERT, gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT
+ms.keywords: IOCTL_GNSS_CONFIG_SUPL_CERT, IOCTL_GNSS_CONFIG_SUPL_CERT control code [Sensor Devices], gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT, sensors.ioctl_gnss_config_supl_cert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -160,11 +160,7 @@ If a certificate with the same name as an existing certificate is injected again
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -172,7 +168,11 @@ If a certificate with the same name as an existing certificate is injected again
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

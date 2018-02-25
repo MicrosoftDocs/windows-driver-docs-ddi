@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1a6a6073-27ec-43c0-b5ec-37ef4177fa54
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorcompleteserviceirp, HwStorCompleteServiceIrp routine [Storage Devices], HwStorCompleteServiceIrp, HW_COMPLETE_SERVICE_IRP, HW_COMPLETE_SERVICE_IRP, storport/HwStorCompleteServiceIrp, storvmini_57cddd18-134c-4ecc-9180-4c4b3ff3903d.xml
+ms.keywords: HW_COMPLETE_SERVICE_IRP, HwStorCompleteServiceIrp, HwStorCompleteServiceIrp routine [Storage Devices], storage.hwstorcompleteserviceirp, storport/HwStorCompleteServiceIrp, storvmini_57cddd18-134c-4ecc-9180-4c4b3ff3903d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -151,11 +151,11 @@ The <b>HW_COMPLETE_SERVICE_IRP</b> function type is defined in the Storport.h he
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a>
+
+
+
+<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a708c1a-c4a5-4ccc-b762-3e0310d2a148
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_getsignalquality, RIL_GetSignalQuality, RIL_GetSignalQuality method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetSignalQuality
+ms.keywords: ",  , G, I, L, Q, R, RIL_GetSignalQuality, RIL_GetSignalQuality method [Network Drivers Starting with Windows Vista], S, _, a, e, g, i, l, n, netvista.ril_getsignalquality, rilapi/RIL_GetSignalQuality, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

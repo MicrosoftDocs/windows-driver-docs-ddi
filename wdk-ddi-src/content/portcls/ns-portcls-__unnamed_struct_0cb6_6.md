@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9761a967-063d-4194-8b67-eec476d3372e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: portcls/PCAUTOMATION_TABLE, PCAUTOMATION_TABLE structure [Audio Devices], portcls/PPCAUTOMATION_TABLE, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, PPCAUTOMATION_TABLE structure pointer [Audio Devices], PCAUTOMATION_TABLE, PPCAUTOMATION_TABLE, audio.pcautomation_table, *PPCAUTOMATION_TABLE
+ms.keywords: ",  , *, *PPCAUTOMATION_TABLE, ,, A, B, C, E, I, L, M, N, O, P, PCAUTOMATION_TABLE, PCAUTOMATION_TABLE structure [Audio Devices], PPCAUTOMATION_TABLE, PPCAUTOMATION_TABLE structure pointer [Audio Devices], T, U, _, audio.pcautomation_table, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, portcls/PCAUTOMATION_TABLE, portcls/PPCAUTOMATION_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,104 +76,52 @@ typedef struct {
 
 
 
-### -field portcls.PropertyItemSize
-
- 
-
-
-### -field portcls.PropertyCount
-
- 
-
-
-### -field portcls.Properties
-
- 
-
-
-### -field portcls.MethodItemSize
-
- 
-
-
-### -field portcls.MethodCount
-
- 
-
-
-### -field portcls.Methods
-
- 
-
-
-### -field portcls.EventItemSize
-
- 
-
-
-### -field portcls.EventCount
-
- 
-
-
-### -field portcls.Events
-
- 
-
-
-### -field portcls.Reserved
-
- 
-
-
-
-
-#### - PropertyItemSize
+### -field PropertyItemSize
 
 Specifies the size in bytes of the property structure used. Set this member to <b>sizeof</b>(PCPROPERTY_ITEM) or greater. See the following Remarks section.
 
 
-#### - PropertyCount
+### -field PropertyCount
 
 Specifies the number of property items in the <i>Properties</i> array.
 
 
-#### - Properties
+### -field Properties
 
 Pointer to the filter's array of properties. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_3.md">PCPROPERTY_ITEM</a> structures.
 
 
-#### - MethodItemSize
+### -field MethodItemSize
 
 Specifies the size in bytes of the methods structure used. Set this member to <b>sizeof</b>(PCMETHOD_ITEM) or greater. See the following Remarks section.
 
 
-#### - MethodCount
+### -field MethodCount
 
 Specifies the number of method items in the <b>Methods</b> array.
 
 
-#### - Methods
+### -field Methods
 
 Pointer to the filter's array of methods. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a> structures.
 
 
-#### - EventItemSize
+### -field EventItemSize
 
 Specifies the size in bytes of the event structure used. Set this member to <b>sizeof</b>(PCEVENT_ITEM) or greater. See the following Remarks section.
 
 
-#### - EventCount
+### -field EventCount
 
 Specifies the number of event items in the <b>Events</b> array.
 
 
-#### - Events
+### -field Events
 
 Pointer to the filter's array of events. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a> structures.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Initialize to zero.
 

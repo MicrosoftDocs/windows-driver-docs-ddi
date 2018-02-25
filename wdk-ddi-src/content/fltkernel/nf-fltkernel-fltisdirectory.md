@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a9343e09-0b7b-4ed8-9b30-63ee0b38d13d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltIsDirectory, ifsk.fltisdirectory, fltkernel/FltIsDirectory, FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, FltIsDirectory routine [Installable File System Drivers]
+ms.keywords: ",  , D, F, FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, FltIsDirectory, FltIsDirectory routine [Installable File System Drivers], I, c, e, fltkernel/FltIsDirectory, i, ifsk.fltisdirectory, l, o, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

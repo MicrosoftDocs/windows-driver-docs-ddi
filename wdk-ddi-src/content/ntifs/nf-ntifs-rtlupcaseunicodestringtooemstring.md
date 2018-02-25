@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d81c5e4-780b-4b1f-ad3a-6d59cab5650f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_a98f9782-c665-40fa-af3d-47eb2bef27d9.xml, ifsk.rtlupcaseunicodestringtooemstring, RtlUpcaseUnicodeStringToOemString routine [Installable File System Drivers], ntifs/RtlUpcaseUnicodeStringToOemString, RtlUpcaseUnicodeStringToOemString
+ms.keywords: ",  , O, R, RtlUpcaseUnicodeStringToOemString, RtlUpcaseUnicodeStringToOemString routine [Installable File System Drivers], S, T, U, a, c, d, e, g, i, ifsk.rtlupcaseunicodestringtooemstring, l, m, n, ntifs/RtlUpcaseUnicodeStringToOemString, o, p, r, rtlref_a98f9782-c665-40fa-af3d-47eb2bef27d9.xml, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,11 +110,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
 
 
 
@@ -122,11 +118,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlupcaseunicodetooemn.md">RtlUpcaseUnicodeToOemN</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
+<a href="..\ntifs\nf-ntifs-rtlfreeoemstring.md">RtlFreeOemString</a>
 
 
 
@@ -134,7 +134,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlfreeoemstring.md">RtlFreeOemString</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

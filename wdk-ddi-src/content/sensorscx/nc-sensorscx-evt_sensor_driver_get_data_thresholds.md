@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 8D496490-2BB8-49A4-B575-101E61599A65
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.evtsensorgetdatathresholds, EvtSensorGetDataThresholds callback function [Sensor Devices], EvtSensorGetDataThresholds, EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS, sensorscx/EvtSensorGetDataThresholds
+ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS, EvtSensorGetDataThresholds, EvtSensorGetDataThresholds callback function [Sensor Devices], sensors.evtsensorgetdatathresholds, sensorscx/EvtSensorGetDataThresholds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

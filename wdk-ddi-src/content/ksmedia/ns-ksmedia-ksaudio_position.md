@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 91658dfc-dad4-4fbb-8688-13971e7275e2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSAUDIO_POSITION, KSAUDIO_POSITION structure [Audio Devices], audio.ksaudio_position, ksmedia/KSAUDIO_POSITION, PKSAUDIO_POSITION, PKSAUDIO_POSITION structure pointer [Audio Devices], ksmedia/PKSAUDIO_POSITION, aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, *PKSAUDIO_POSITION
+ms.keywords: ",  , *, *PKSAUDIO_POSITION, ,, A, D, I, K, KSAUDIO_POSITION, KSAUDIO_POSITION structure [Audio Devices], N, O, P, PKSAUDIO_POSITION, PKSAUDIO_POSITION structure pointer [Audio Devices], S, T, U, _, aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, audio.ksaudio_position, ksmedia/KSAUDIO_POSITION, ksmedia/PKSAUDIO_POSITION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

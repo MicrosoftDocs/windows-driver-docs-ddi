@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 210e20a5-c101-4005-97fb-e549ff97e7ce
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiszeromappedmemory, NdisZeroMappedMemory, miniport_memory_mapped_ref_41b91ff3-a113-4a69-bb38-ec3ba89cc0d7.xml, ndis/NdisZeroMappedMemory, NdisZeroMappedMemory function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , M, N, NdisZeroMappedMemory, NdisZeroMappedMemory function [Network Drivers Starting with Windows Vista], Z, a, d, e, i, m, miniport_memory_mapped_ref_41b91ff3-a113-4a69-bb38-ec3ba89cc0d7.xml, ndis/NdisZeroMappedMemory, netvista.ndiszeromappedmemory, o, p, r, s, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -97,7 +97,7 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 
@@ -105,7 +105,7 @@ A miniport driver can call
 
 
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

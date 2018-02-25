@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 18be278c-2d69-472b-9baf-7c35f8abe879
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_CREATEDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_42cad924-5200-4737-9d17-4464767f9e93.xml, d3dumddi/D3DDDIARG_CREATEDEVICE, display.d3dddiarg_createdevice, _D3DDDIARG_CREATEDEVICE, D3DDDIARG_CREATEDEVICE
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_CREATEDEVICE, D3DDDIARG_CREATEDEVICE structure [Display Devices], E, G, I, R, T, UMDisplayDriver_param_Structs_42cad924-5200-4737-9d17-4464767f9e93.xml, V, _, _D3DDDIARG_CREATEDEVICE, d3dumddi/D3DDDIARG_CREATEDEVICE, display.d3dddiarg_createdevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,7 +154,7 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
 
 
@@ -162,15 +162,15 @@ This member is available beginning with Windows 7.
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_createdeviceflags.md">D3DDDI_CREATEDEVICEFLAGS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 

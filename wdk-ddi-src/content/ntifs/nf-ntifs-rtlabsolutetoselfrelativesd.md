@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e6247856-5abf-44ea-afe8-9be3f61271a4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_809e562f-be24-43d2-8357-ffd83eac421a.xml, ifsk.rtlabsolutetoselfrelativesd, RtlAbsoluteToSelfRelativeSD, ntifs/RtlAbsoluteToSelfRelativeSD, RtlAbsoluteToSelfRelativeSD routine [Installable File System Drivers]
+ms.keywords: ",  , A, D, R, RtlAbsoluteToSelfRelativeSD, RtlAbsoluteToSelfRelativeSD routine [Installable File System Drivers], S, T, a, b, e, f, i, ifsk.rtlabsolutetoselfrelativesd, l, ntifs/RtlAbsoluteToSelfRelativeSD, o, rtlref_809e562f-be24-43d2-8357-ffd83eac421a.xml, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,7 +139,11 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlselfrelativetoabsolutesd.md">RtlSelfRelativeToAbsoluteSD</a>
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
 
 
@@ -147,15 +151,7 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\ntifs\nf-ntifs-rtlselfrelativetoabsolutesd.md">RtlSelfRelativeToAbsoluteSD</a>
 
 
 
@@ -163,7 +159,11 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af8126cd-e931-4106-b543-9c84ee110901
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportwriteregisterbufferuchar, StorPortWriteRegisterBufferUchar, storport/StorPortWriteRegisterBufferUchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml, StorPortWriteRegisterBufferUchar routine [Storage Devices]
+ms.keywords: ",  , B, P, R, S, StorPortWriteRegisterBufferUchar, StorPortWriteRegisterBufferUchar routine [Storage Devices], U, W, a, c, e, f, g, h, i, o, r, s, storage.storportwriteregisterbufferuchar, storport/StorPortWriteRegisterBufferUchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -112,7 +112,7 @@ Specifies the number of bytes to be transferred to the HBA.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteregisterbufferuchar.md">ScsiPortWriteRegisterBufferUchar</a>
+<a href="..\storport\nf-storport-scsiportwriteregisterbufferuchar.md">ScsiPortWriteRegisterBufferUchar</a>
 
 
 

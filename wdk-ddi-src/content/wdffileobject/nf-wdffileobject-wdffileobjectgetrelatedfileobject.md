@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EB00FF6B-144B-4256-A362-D593FD4CFC98
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdffileobject/WdfFileObjectGetRelatedFileObject, WdfFileObjectGetRelatedFileObject method, WdfFileObjectGetRelatedFileObject, wdf.wdffileobjectgetrelatedfileobject
+ms.keywords: ",  , F, G, O, R, W, WdfFileObjectGetRelatedFileObject, WdfFileObjectGetRelatedFileObject method, a, b, c, d, e, f, i, j, l, t, wdf.wdffileobjectgetrelatedfileobject, wdffileobject/WdfFileObjectGetRelatedFileObject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

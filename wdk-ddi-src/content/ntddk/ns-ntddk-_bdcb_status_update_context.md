@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5DB29B81-2D7A-44FA-B5A9-FEF87C6A926D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PBDCB_STATUS_UPDATE_CONTEXT, ntddk/BDCB_STATUS_UPDATE_CONTEXT, *PBDCB_STATUS_UPDATE_CONTEXT, kernel.bdcb_status_update_context, _BDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT structure [Kernel-Mode Driver Architecture], ntddk/PBDCB_STATUS_UPDATE_CONTEXT, PBDCB_STATUS_UPDATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PBDCB_STATUS_UPDATE_CONTEXT, ,, A, B, BDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT structure [Kernel-Mode Driver Architecture], C, D, E, N, O, P, PBDCB_STATUS_UPDATE_CONTEXT, PBDCB_STATUS_UPDATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], S, T, U, X, _, _BDCB_STATUS_UPDATE_CONTEXT, kernel.bdcb_status_update_context, ntddk/BDCB_STATUS_UPDATE_CONTEXT, ntddk/PBDCB_STATUS_UPDATE_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

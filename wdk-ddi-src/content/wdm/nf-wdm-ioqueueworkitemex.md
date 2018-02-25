@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 277a6e13-dc2d-4170-a141-9df5b93eb504
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoQueueWorkItemEx, wdm/IoQueueWorkItemEx, IoQueueWorkItemEx routine [Kernel-Mode Driver Architecture], kernel.ioqueueworkitemex, k104_e14fae9d-5b8c-4683-8226-8694de253b64.xml
+ms.keywords: ",  , E, I, IoQueueWorkItemEx, IoQueueWorkItemEx routine [Kernel-Mode Driver Architecture], Q, W, e, k, k104_e14fae9d-5b8c-4683-8226-8694de253b64.xml, kernel.ioqueueworkitemex, m, o, r, t, u, wdm/IoQueueWorkItemEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,7 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566381">WorkItemEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
 
 
 
@@ -123,11 +119,15 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566381">WorkItemEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
 
 
 

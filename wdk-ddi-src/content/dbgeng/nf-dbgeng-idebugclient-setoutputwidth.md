@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E2FAEBDD-336D-4E11-933B-88A6EA3BBDF9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugClient::SetOutputWidth, IDebugClient interface [Windows Debugging], SetOutputWidth method, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient, SetOutputWidth, debugger.idebugclient_setoutputwidth, IDebugClient::SetOutputWidth
+ms.keywords: ",  , ,, ., :, C, D, I, IDebugClient, IDebugClient interface [Windows Debugging], SetOutputWidth method, IDebugClient::SetOutputWidth, O, S, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging], IDebugClient interface, SetOutputWidth,IDebugClient.SetOutputWidth, W, b, d, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth, e, g, h, i, l, n, p, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

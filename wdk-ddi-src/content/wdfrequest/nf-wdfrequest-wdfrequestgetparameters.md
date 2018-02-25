@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d9924a9-23b6-4bec-95f0-cebc3e99fda4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfrequestgetparameters, kmdf.wdfrequestgetparameters, WdfRequestGetParameters, WdfRequestGetParameters method, DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, wdfrequest/WdfRequestGetParameters
+ms.keywords: ",  , DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, G, P, R, W, WdfRequestGetParameters, WdfRequestGetParameters method, a, d, e, f, kmdf.wdfrequestgetparameters, m, q, r, s, t, u, wdf.wdfrequestgetparameters, wdfrequest/WdfRequestGetParameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,15 +116,15 @@ For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="..\wdf
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
-
-
-
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
 
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestwdmgetirp.md">WdfRequestWdmGetIrp</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91c036a0-7fce-4c7d-a217-eb1c487a15d0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestTypeQueryVolumeInformation, WdfRequestTypeFlushBuffers, wdfrequest/WdfRequestTypeMax, wdfrequest/WdfRequestTypeQueryQuota, wdf.wdf_request_type, WdfRequestTypeFileSystemControl, wdfrequest/WdfRequestTypePower, wdfrequest/WdfRequestTypeDeviceControlInternal, wdfrequest/WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeOther, wdfrequest/WdfRequestTypeDeviceControl, kmdf.wdf_request_type, wdfrequest/WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeLockControl, WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeRead, WdfRequestTypeQueryInformation, WdfRequestTypeUsb, wdfrequest/WdfRequestTypeCreateMailSlot, WdfRequestTypeShutdown, WdfRequestTypeMax, WdfRequestTypeNoFormat, WdfRequestTypeDeviceControlInternal, WdfRequestTypeSetVolumeInformation, wdfrequest/WdfRequestTypeSystemControl, _WDF_REQUEST_TYPE, wdfrequest/WdfRequestTypeSetEA, WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeFlushBuffers, WdfRequestTypeCreate, wdfrequest/WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeSetSecurity, WdfRequestTypeQueryEA, WDF_REQUEST_TYPE, wdfrequest/WdfRequestTypeQueryEA, WdfRequestTypeSetSecurity, WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeSetInformation, WdfRequestTypeLockControl, wdfrequest/WdfRequestTypeClose, WdfRequestTypeSetInformation, WdfRequestTypeCreateMailSlot, WdfRequestTypeClose, WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeQueryInformation, wdfrequest/WdfRequestTypeFileSystemControl, WDF_REQUEST_TYPE enumeration, wdfrequest/WdfRequestTypeSetVolumeInformation, wdfrequest/WdfRequestTypePnp, WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeUsb, wdfrequest/WdfRequestTypeNoFormat, wdfrequest/WDF_REQUEST_TYPE, wdfrequest/WdfRequestTypeCleanup, DFRequestObjectRef_43f31fe0-45c1-45d2-adcc-d0d931327eeb.xml, WdfRequestTypePnp, WdfRequestTypeDeviceControl, WdfRequestTypeQueryQuota, WdfRequestTypeSystemControl, WdfRequestTypeCleanup, wdfrequest/WdfRequestTypeDeviceChange, WdfRequestTypeSetEA, wdfrequest/WdfRequestTypeCreate, WdfRequestTypeOther, wdfrequest/WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeWrite, WdfRequestTypePower, WdfRequestTypeWrite, WdfRequestTypeRead
+ms.keywords: ",  , ,, D, DFRequestObjectRef_43f31fe0-45c1-45d2-adcc-d0d931327eeb.xml, E, F, P, Q, R, S, T, U, W, WDF_REQUEST_TYPE, WDF_REQUEST_TYPE enumeration, WdfRequestTypeCleanup, WdfRequestTypeClose, WdfRequestTypeCreate, WdfRequestTypeCreateMailSlot, WdfRequestTypeCreateNamedPipe, WdfRequestTypeDeviceChange, WdfRequestTypeDeviceControl, WdfRequestTypeDeviceControlInternal, WdfRequestTypeDirectoryControl, WdfRequestTypeFileSystemControl, WdfRequestTypeFlushBuffers, WdfRequestTypeLockControl, WdfRequestTypeMax, WdfRequestTypeNoFormat, WdfRequestTypeOther, WdfRequestTypePnp, WdfRequestTypePower, WdfRequestTypeQueryEA, WdfRequestTypeQueryInformation, WdfRequestTypeQueryQuota, WdfRequestTypeQuerySecurity, WdfRequestTypeQueryVolumeInformation, WdfRequestTypeRead, WdfRequestTypeSetEA, WdfRequestTypeSetInformation, WdfRequestTypeSetQuota, WdfRequestTypeSetSecurity, WdfRequestTypeSetVolumeInformation, WdfRequestTypeShutdown, WdfRequestTypeSystemControl, WdfRequestTypeUsb, WdfRequestTypeWrite, Y, _, _WDF_REQUEST_TYPE, kmdf.wdf_request_type, wdf.wdf_request_type, wdfrequest/WDF_REQUEST_TYPE, wdfrequest/WdfRequestTypeCleanup, wdfrequest/WdfRequestTypeClose, wdfrequest/WdfRequestTypeCreate, wdfrequest/WdfRequestTypeCreateMailSlot, wdfrequest/WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeDeviceControl, wdfrequest/WdfRequestTypeDeviceControlInternal, wdfrequest/WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeFileSystemControl, wdfrequest/WdfRequestTypeFlushBuffers, wdfrequest/WdfRequestTypeLockControl, wdfrequest/WdfRequestTypeMax, wdfrequest/WdfRequestTypeNoFormat, wdfrequest/WdfRequestTypeOther, wdfrequest/WdfRequestTypePnp, wdfrequest/WdfRequestTypePower, wdfrequest/WdfRequestTypeQueryEA, wdfrequest/WdfRequestTypeQueryInformation, wdfrequest/WdfRequestTypeQueryQuota, wdfrequest/WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypeRead, wdfrequest/WdfRequestTypeSetEA, wdfrequest/WdfRequestTypeSetInformation, wdfrequest/WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeSetSecurity, wdfrequest/WdfRequestTypeSetVolumeInformation, wdfrequest/WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeSystemControl, wdfrequest/WdfRequestTypeUsb, wdfrequest/WdfRequestTypeWrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -280,7 +280,7 @@ For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a>
 
 
 
@@ -288,7 +288,7 @@ For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
 
 
 

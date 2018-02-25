@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 05e45364-3544-477e-a06d-3aae93518b00
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_tape_get_drive_params, IOCTL_TAPE_GET_DRIVE_PARAMS control code [Storage Devices], IOCTL_TAPE_GET_DRIVE_PARAMS, ntddtape/IOCTL_TAPE_GET_DRIVE_PARAMS, k307_c6390200-5ccf-4a13-9b96-9f5aa5adee32.xml
+ms.keywords: IOCTL_TAPE_GET_DRIVE_PARAMS, IOCTL_TAPE_GET_DRIVE_PARAMS control code [Storage Devices], k307_c6390200-5ccf-4a13-9b96-9f5aa5adee32.xml, ntddtape/IOCTL_TAPE_GET_DRIVE_PARAMS, storage.ioctl_tape_get_drive_params
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -107,15 +107,15 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
+
+
+
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
 <a href="..\ntddtape\ns-ntddtape-_tape_get_drive_parameters.md">TAPE_GET_DRIVE_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
 
 
 

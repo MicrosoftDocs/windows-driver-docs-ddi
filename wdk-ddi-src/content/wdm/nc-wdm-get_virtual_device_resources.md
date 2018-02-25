@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 4F29E9BD-F534-45EC-99C3-F006A0E03B31
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.getresources, GetResources routine, GetResources, GET_VIRTUAL_DEVICE_RESOURCES, GET_VIRTUAL_DEVICE_RESOURCES, wdm/GetResources
+ms.keywords: GET_VIRTUAL_DEVICE_RESOURCES, GetResources, GetResources routine, PCI.getresources, wdm/GetResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -140,11 +140,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451131">GetRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 

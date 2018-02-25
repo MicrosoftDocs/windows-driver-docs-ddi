@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3f50bcba-c7d2-4d81-bd8b-6080e08fbe74
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolnetpnpevent, ProtocolNetPnPEvent callback function [Network Drivers Starting with Windows Vista], ProtocolNetPnPEvent, PROTOCOL_NET_PNP_EVENT, PROTOCOL_NET_PNP_EVENT, ndis/ProtocolNetPnPEvent, protocol_functions_ref_24f290b7-d0fc-4d50-9aff-f40f4847a451.xml
+ms.keywords: PROTOCOL_NET_PNP_EVENT, ProtocolNetPnPEvent, ProtocolNetPnPEvent callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolNetPnPEvent, netvista.protocolnetpnpevent, protocol_functions_ref_24f290b7-d0fc-4d50-9aff-f40f4847a451.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -403,10 +403,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
 
@@ -416,6 +412,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 

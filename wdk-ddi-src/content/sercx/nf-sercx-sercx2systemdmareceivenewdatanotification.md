@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9ECC15F2-9D08-4EEF-ADBD-612D8D1B5B72
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SerCx2SystemDmaReceiveNewDataNotification, serports.sercx2systemdmareceivenewdatanotification, SerCx2SystemDmaReceiveNewDataNotification method [Serial Ports], 2/SerCx2SystemDmaReceiveNewDataNotification
+ms.keywords: ",  , 2, 2/SerCx2SystemDmaReceiveNewDataNotification, C, D, N, R, S, SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification method [Serial Ports], a, c, e, f, i, m, n, o, r, s, serports.sercx2systemdmareceivenewdatanotification, t, v, w, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,15 +99,7 @@ If a serial controller driver supports new-data notifications for system-DMA-rec
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
-
-
-
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
 
@@ -115,7 +107,15 @@ If a serial controller driver supports new-data notifications for system-DMA-rec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a>
 
 
 

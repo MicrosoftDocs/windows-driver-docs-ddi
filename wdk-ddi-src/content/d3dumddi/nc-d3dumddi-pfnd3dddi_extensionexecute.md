@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a3f73651-bfff-48fa-aa61-477b8af7fa07
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.extensionexecute, ExtensionExecute callback function [Display Devices], ExtensionExecute, PFND3DDDI_EXTENSIONEXECUTE, PFND3DDDI_EXTENSIONEXECUTE, d3dumddi/ExtensionExecute, UserModeDisplayDriver_Functions_2972e743-bdb5-41ab-92ff-986b8335883b.xml
+ms.keywords: ExtensionExecute, ExtensionExecute callback function [Display Devices], PFND3DDDI_EXTENSIONEXECUTE, UserModeDisplayDriver_Functions_2972e743-bdb5-41ab-92ff-986b8335883b.xml, d3dumddi/ExtensionExecute, display.extensionexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

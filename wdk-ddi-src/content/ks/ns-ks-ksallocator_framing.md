@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db96eccd-6747-458b-9a9e-ec909146f3fa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING, ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], stream.ksallocator_framing, ks/PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING structure [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSALLOCATOR_FRAMING, ,, A, C, F, G, I, K, KSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING structure [Streaming Media Devices], L, M, N, O, P, PKSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], R, S, T, _, ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, ks/KSALLOCATOR_FRAMING, ks/PKSALLOCATOR_FRAMING, stream.ksallocator_framing"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

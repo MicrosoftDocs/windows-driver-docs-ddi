@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b6318de-4f8e-43e8-ad86-c1fc52097662
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide, AddDumpInformationFileWide method [Windows Debugging], AddDumpInformationFileWide, dbgeng/IDebugClient4::AddDumpInformationFileWide, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient4::AddDumpInformationFileWide, IDebugClient5::AddDumpInformationFileWide, IDebugClient4, AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml
+ms.keywords: ",  , ,, ., 4, :, A, AddDumpInformationFileWide method [Windows Debugging], AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, AddDumpInformationFileWide,IDebugClient4.AddDumpInformationFileWide, C, D, F, I, IDebugClient4, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient4::AddDumpInformationFileWide, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient5::AddDumpInformationFileWide, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, W, a, b, d, dbgeng/IDebugClient4::AddDumpInformationFileWide, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide, e, f, g, i, l, m, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -126,11 +126,7 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
 
 
 
@@ -138,11 +134,7 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
 
 
@@ -150,7 +142,15 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

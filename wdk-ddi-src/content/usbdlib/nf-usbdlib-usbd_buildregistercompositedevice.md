@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usbd_buildregistercompositedriver, USBD_BuildRegisterCompositeDevice routine [Buses], usbdlib/ USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice
+ms.keywords: ",  , B, C, D, R, S, U, USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], _, buses.usbd_buildregistercompositedriver, c, d, e, g, i, l, m, o, p, r, s, t, u, usbdlib/ USBD_BuildRegisterCompositeDevice, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,11 +105,11 @@ This routine does not return a value.
 
 ## -see-also
 
-<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
+
+
+
+<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
 
 
 

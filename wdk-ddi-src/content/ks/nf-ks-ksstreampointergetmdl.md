@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 05d37fbd-9bdc-478a-8772-6f63d1363c1c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_94dcd1e0-4882-4703-b69a-9ca8b21d30a0.xml, ks/KsStreamPointerGetMdl, KsStreamPointerGetMdl, KsStreamPointerGetMdl function [Streaming Media Devices], stream.ksstreampointergetmdl
+ms.keywords: ",  , G, K, KsStreamPointerGetMdl, KsStreamPointerGetMdl function [Streaming Media Devices], M, P, S, a, avfunc_94dcd1e0-4882-4703-b69a-9ca8b21d30a0.xml, d, e, i, ks/KsStreamPointerGetMdl, l, m, n, o, r, s, stream.ksstreampointergetmdl, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

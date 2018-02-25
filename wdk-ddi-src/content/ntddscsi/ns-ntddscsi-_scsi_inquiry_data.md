@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f62c35dd-791d-4c21-9836-308cc5fb102b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSCSI_INQUIRY_DATA structure pointer [Storage Devices], *PSCSI_INQUIRY_DATA, structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml, ntddscsi/PSCSI_INQUIRY_DATA, _SCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA, storage.scsi_inquiry_data, ntddscsi/SCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA structure [Storage Devices]
+ms.keywords: ",  , *, *PSCSI_INQUIRY_DATA, ,, A, C, D, I, N, P, PSCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA structure pointer [Storage Devices], Q, R, S, SCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA structure [Storage Devices], T, U, Y, _, _SCSI_INQUIRY_DATA, ntddscsi/PSCSI_INQUIRY_DATA, ntddscsi/SCSI_INQUIRY_DATA, storage.scsi_inquiry_data, structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

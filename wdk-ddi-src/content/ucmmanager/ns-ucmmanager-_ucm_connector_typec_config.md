@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F3C17CD8-F423-46E7-891F-E428235CEF3D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PUCM_CONNECTOR_TYPEC_CONFIG, *PUCM_CONNECTOR_TYPEC_CONFIG, ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG, _UCM_CONNECTOR_TYPEC_CONFIG, buses.ucm_connector_type_c_config, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG structure [Buses]
+ms.keywords: ",  , *, *PUCM_CONNECTOR_TYPEC_CONFIG, ,, C, E, F, G, I, M, N, O, P, PUCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], R, T, U, UCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], Y, _, _UCM_CONNECTOR_TYPEC_CONFIG, buses.ucm_connector_type_c_config, ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG, ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.notifyfn2, notifyFn2 callback function [Network Drivers Starting with Windows Vista], notifyFn2, FWPS_CALLOUT_NOTIFY_FN2, FWPS_CALLOUT_NOTIFY_FN2, fwpsk/notifyFn2
+ms.keywords: FWPS_CALLOUT_NOTIFY_FN2, fwpsk/notifyFn2, netvista.notifyfn2, notifyFn2, notifyFn2 callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -225,14 +225,6 @@ This function is essentially identical to the previous version,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439768">FWPS_FILTER2</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
 
 
@@ -241,11 +233,19 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439768">FWPS_FILTER2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
 
 
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
 
 

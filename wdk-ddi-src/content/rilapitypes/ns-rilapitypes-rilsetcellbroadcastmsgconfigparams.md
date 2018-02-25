@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 978d3efa-23bb-4fa8-b879-9714813880be
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETCELLBROADCASTMSGCONFIGPARAMS, netvista.rilsetcellbroadcastmsgconfigparams_2, rilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS
+ms.keywords: ",  , *, *LPRILSETCELLBROADCASTMSGCONFIGPARAMS, ,, A, B, C, D, E, F, G, I, L, M, N, O, P, R, RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilsetcellbroadcastmsgconfigparams_2, rilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

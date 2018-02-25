@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0377371b-b755-4473-a449-9a85e1ca456c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, KsStreamPointerAdvanceOffsets function [Streaming Media Devices], stream.ksstreampointeradvanceoffsets, KsStreamPointerAdvanceOffsets, ks/KsStreamPointerAdvanceOffsets
+ms.keywords: ",  , A, K, KsStreamPointerAdvanceOffsets, KsStreamPointerAdvanceOffsets function [Streaming Media Devices], O, P, S, a, avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, c, d, e, f, i, ks/KsStreamPointerAdvanceOffsets, m, n, o, r, s, stream.ksstreampointeradvanceoffsets, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

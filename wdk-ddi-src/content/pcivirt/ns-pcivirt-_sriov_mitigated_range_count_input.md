@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 7de35a35-2b90-421d-bbde-4c5cb760070a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PSRIOV_MITIGATED_RANGE_COUNT_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT, PCI.sriov_mitigated_range_count_input, SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], SRIOV_MITIGATED_RANGE_COUNT_INPUT, _SRIOV_MITIGATED_RANGE_COUNT_INPUT"
+ms.keywords: ",  , *, *PSRIOV_MITIGATED_RANGE_COUNT_INPUT, ,, A, C, D, E, G, I, M, N, O, P, PCI.sriov_mitigated_range_count_input, R, S, SRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], T, U, V, _, _SRIOV_MITIGATED_RANGE_COUNT_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

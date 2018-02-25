@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 803e3506-fb63-4d64-b562-1956e99f9d9b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.hdaudio_codec_command, _HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], HDAUDIO_CODEC_COMMAND structure [Audio Devices], aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, HDAUDIO_CODEC_COMMAND, hdaudio/HDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND
+ms.keywords: ",  , *, *PHDAUDIO_CODEC_COMMAND, ,, A, C, D, E, H, HDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND structure [Audio Devices], I, M, N, O, P, PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], U, _, _HDAUDIO_CODEC_COMMAND, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, audio.hdaudio_codec_command, hdaudio/HDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,11 +153,11 @@ The validity of individual members depends on the type of command sent.
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
 
 
 

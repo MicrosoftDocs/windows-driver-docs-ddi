@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 604182ea-3712-4670-bab8-edc3cb2fcd06
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfioresourcelistinsertdescriptor, WdfIoResourceListInsertDescriptor, wdf.wdfioresourcelistinsertdescriptor, DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, WdfIoResourceListInsertDescriptor method, wdfresource/WdfIoResourceListInsertDescriptor
+ms.keywords: ",  , D, DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, I, L, R, W, WdfIoResourceListInsertDescriptor, WdfIoResourceListInsertDescriptor method, c, d, e, f, i, kmdf.wdfioresourcelistinsertdescriptor, n, o, p, r, s, t, u, wdf.wdfioresourcelistinsertdescriptor, wdfresource/WdfIoResourceListInsertDescriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -205,11 +205,11 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
-
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistappenddescriptor.md">WdfIoResourceListAppendDescriptor</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 

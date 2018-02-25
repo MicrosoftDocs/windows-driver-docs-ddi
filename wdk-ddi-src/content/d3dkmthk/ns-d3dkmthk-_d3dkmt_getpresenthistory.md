@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6d9b0473-544f-43aa-9358-ec51d84d45d9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmt_getpresenthistory, OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml, D3DKMT_GETPRESENTHISTORY structure [Display Devices], d3dkmthk/D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY, _D3DKMT_GETPRESENTHISTORY
+ms.keywords: ",  , ,, 3, D, D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY structure [Display Devices], E, G, H, I, K, M, N, O, OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml, P, R, S, T, Y, _, _D3DKMT_GETPRESENTHISTORY, d3dkmthk/D3DKMT_GETPRESENTHISTORY, display.d3dkmt_getpresenthistory"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 52976c7d-522e-4ff6-96a2-8ed98abe1739
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.iksdatatypecompletion, IKsDataTypeCompletion interface [Streaming Media Devices], IKsDataTypeCompletion interface [Streaming Media Devices], described, IKsDataTypeCompletion, ksproxy/IKsDataTypeCompletion, ksproxy_0ae81dab-7e72-45e0-9577-069d41973670.xml
+ms.keywords: IKsDataTypeCompletion, IKsDataTypeCompletion interface [Streaming Media Devices], IKsDataTypeCompletion interface [Streaming Media Devices], described, ksproxy/IKsDataTypeCompletion, ksproxy_0ae81dab-7e72-45e0-9577-069d41973670.xml, stream.iksdatatypecompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

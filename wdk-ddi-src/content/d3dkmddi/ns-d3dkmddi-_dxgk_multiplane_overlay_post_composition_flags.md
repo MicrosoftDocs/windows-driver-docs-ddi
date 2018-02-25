@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F7791AB9-6D20-4560-A478-E30F08C6AC3A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, display.dxgk_multiplane_overlay_post_composition_flags, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure [Display Devices]"
+ms.keywords: ",  , ,, A, C, D, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure [Display Devices], E, F, G, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, _, _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, display.dxgk_multiplane_overlay_post_composition_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

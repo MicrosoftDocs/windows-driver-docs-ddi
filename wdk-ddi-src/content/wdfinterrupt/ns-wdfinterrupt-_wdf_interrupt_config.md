@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10eb623d-6778-4ccb-8ed4-9926c13dec5a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWDF_INTERRUPT_CONFIG structure pointer, DFInterruptObjectRef_545890e4-5222-42e8-8fba-c159a0faa140.xml, *PWDF_INTERRUPT_CONFIG, PWDF_INTERRUPT_CONFIG, WDF_INTERRUPT_CONFIG, wdf.wdf_interrupt_config, wdfinterrupt/PWDF_INTERRUPT_CONFIG, _WDF_INTERRUPT_CONFIG, kmdf.wdf_interrupt_config, WDF_INTERRUPT_CONFIG structure, wdfinterrupt/WDF_INTERRUPT_CONFIG
+ms.keywords: ",  , *, *PWDF_INTERRUPT_CONFIG, ,, C, D, DFInterruptObjectRef_545890e4-5222-42e8-8fba-c159a0faa140.xml, E, F, G, I, N, O, P, PWDF_INTERRUPT_CONFIG, PWDF_INTERRUPT_CONFIG structure pointer, R, T, U, W, WDF_INTERRUPT_CONFIG, WDF_INTERRUPT_CONFIG structure, _, _WDF_INTERRUPT_CONFIG, kmdf.wdf_interrupt_config, wdf.wdf_interrupt_config, wdfinterrupt/PWDF_INTERRUPT_CONFIG, wdfinterrupt/WDF_INTERRUPT_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -244,6 +244,30 @@ For more information, see <a href="https://msdn.microsoft.com/6A4E62BD-B10F-4F01
 
 
 
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
+
+
+
+<a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>
+
+
+
+<a href="..\wdfsync\nf-wdfsync-wdfspinlockcreate.md">WdfSpinLockCreate</a>
+
+
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_config_init.md">WDF_INTERRUPT_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpageable.md">WdfDeviceInitSetPowerPageable</a>
+
+
+
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptqueuedpcforisr.md">WdfInterruptQueueDpcForIsr</a>
 
 
@@ -252,35 +276,11 @@ For more information, see <a href="https://msdn.microsoft.com/6A4E62BD-B10F-4F01
 
 
 
-<a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a>
 
 
 
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
-
-
-
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
-
-
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_config_init.md">WDF_INTERRUPT_CONFIG_INIT</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpageable.md">WdfDeviceInitSetPowerPageable</a>
-
-
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
-
-
-
-<a href="..\wdfsync\nf-wdfsync-wdfspinlockcreate.md">WdfSpinLockCreate</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a>
 
 
 

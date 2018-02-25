@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e7708b33-b032-41b9-84f9-6c5b38044f9c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: POEMUIPSPARAM structure pointer [Print Devices], _OEMUIPSPARAM, print_unidrv-pscript_ui_7a4c3f10-5a2d-45da-99e4-bbd6ee0fb8bf.xml, *POEMUIPSPARAM, printoem/POEMUIPSPARAM, OEMUIPSPARAM structure [Print Devices], print.oemuipsparam, OEMUIPSPARAM, POEMUIPSPARAM, printoem/OEMUIPSPARAM
+ms.keywords: ",  , *, *POEMUIPSPARAM, ,, A, E, I, M, O, OEMUIPSPARAM, OEMUIPSPARAM structure [Print Devices], P, POEMUIPSPARAM, POEMUIPSPARAM structure pointer [Print Devices], R, S, U, _, _OEMUIPSPARAM, print.oemuipsparam, print_unidrv-pscript_ui_7a4c3f10-5a2d-45da-99e4-bbd6ee0fb8bf.xml, printoem/OEMUIPSPARAM, printoem/POEMUIPSPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -171,7 +171,7 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 
@@ -179,7 +179,7 @@ Reserved for system use.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
 
 
 

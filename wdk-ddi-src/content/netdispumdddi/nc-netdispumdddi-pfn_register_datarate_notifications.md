@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 81500bb9-27f1-4688-b244-37dfd766f3c8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.registerfordataratenotifications, PFN_REGISTER_DATARATE_NOTIFICATIONS, RegisterForDataRateNotifications callback function [Display Devices], RegisterForDataRateNotifications, PFN_REGISTER_DATARATE_NOTIFICATIONS, PFN_REGISTER_DATARATE_NOTIFICATIONS, netdispumdddi/RegisterForDataRateNotifications
+ms.keywords: PFN_REGISTER_DATARATE_NOTIFICATIONS, RegisterForDataRateNotifications, RegisterForDataRateNotifications callback function [Display Devices], display.registerfordataratenotifications, netdispumdddi/RegisterForDataRateNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -150,10 +150,6 @@ The function fails if the driver attempts to register while it is already regist
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
-
-
-
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
 
@@ -163,6 +159,10 @@ The function fails if the driver attempts to register while it is already regist
 
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_datarate_notification.md">pfnDataRateNotify</a>
+
+
+
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
 
 
 

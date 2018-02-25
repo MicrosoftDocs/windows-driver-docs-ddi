@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3bbef5f6-f859-4528-b044-baf8f99c2c2f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, PKSPRIORITY structure pointer [Streaming Media Devices], ks/KSPRIORITY, KSPRIORITY structure [Streaming Media Devices], PKSPRIORITY, stream.kspriority, ks/PKSPRIORITY, KSPRIORITY, *PKSPRIORITY
+ms.keywords: ",  , *, *PKSPRIORITY, ,, I, K, KSPRIORITY, KSPRIORITY structure [Streaming Media Devices], O, P, PKSPRIORITY, PKSPRIORITY structure pointer [Streaming Media Devices], R, S, T, Y, ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, ks/KSPRIORITY, ks/PKSPRIORITY, stream.kspriority"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,11 +139,11 @@ If the removal of resources by a higher priority client causes the filter pin to
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
+
+
+
+<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
 
 
 

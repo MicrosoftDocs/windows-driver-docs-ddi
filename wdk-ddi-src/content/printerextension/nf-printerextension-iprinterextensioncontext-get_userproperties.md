@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 21B370C9-BDF7-42A6-B0CC-BC9B19F9D2D5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: printerextension/IPrinterExtensionContext::UserProperties, IPrinterExtensionContext.UserProperties, IPrinterExtensionContext, printerextension/IPrinterExtensionContext::get_UserProperties, UserProperties property [Print Devices], IPrinterExtensionContext::get_UserProperties, UserProperties property [Print Devices], IPrinterExtensionContext interface, IPrinterExtensionContext interface [Print Devices], UserProperties property, print.iprinterextensioncontext_userproperties, get_UserProperties
+ms.keywords: ",  , ,, ., :, C, E, I, IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], UserProperties property, IPrinterExtensionContext.UserProperties, IPrinterExtensionContext::get_UserProperties, P, U, UserProperties property [Print Devices], UserProperties property [Print Devices], IPrinterExtensionContext interface, _, e, g, get_UserProperties, get_UserProperties,IPrinterExtensionContext.get_UserProperties, i, n, o, p, print.iprinterextensioncontext_userproperties, printerextension/IPrinterExtensionContext::UserProperties, printerextension/IPrinterExtensionContext::get_UserProperties, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

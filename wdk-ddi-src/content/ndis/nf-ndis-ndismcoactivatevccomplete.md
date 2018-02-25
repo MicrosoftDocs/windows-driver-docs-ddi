@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db5ff69f-dcae-4016-a078-c8edb2390c6c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], NdisMCoActivateVcComplete, condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml, netvista.ndismcoactivatevccomplete, ndis/NdisMCoActivateVcComplete
+ms.keywords: ",  , A, C, M, N, NdisMCoActivateVcComplete, NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], V, a, c, condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml, d, e, i, l, m, ndis/NdisMCoActivateVcComplete, netvista.ndismcoactivatevccomplete, o, p, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,20 +140,20 @@ A call to
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
    ProtocolCmActivateVcComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
 
 
 

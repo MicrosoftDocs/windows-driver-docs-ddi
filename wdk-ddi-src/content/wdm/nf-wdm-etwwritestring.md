@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 25de7729-f43f-4d16-a379-e1cb1ab8616c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: etw_km_b4cb697f-3523-4730-8df5-1faf201af7f8.xml, EtwWriteString function [Driver Development Tools], devtest.etwwritestring, wdm/EtwWriteString, EtwWriteString
+ms.keywords: ",  , E, EtwWriteString, EtwWriteString function [Driver Development Tools], S, W, devtest.etwwritestring, e, etw_km_b4cb697f-3523-4730-8df5-1faf201af7f8.xml, g, i, n, r, t, w, wdm/EtwWriteString"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

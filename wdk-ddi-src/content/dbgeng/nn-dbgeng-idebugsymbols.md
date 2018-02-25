@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8040db26-0405-4dd3-87c5-b89d812549b5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugsymbols, IDebugSymbols interface [Windows Debugging], IDebugSymbols interface [Windows Debugging], described, IDebugSymbols, dbgeng/IDebugSymbols, IDebugSymbols_4046a7ad-b8ed-4a10-991e-f7d63f9e35d0.xml
+ms.keywords: IDebugSymbols, IDebugSymbols interface [Windows Debugging], IDebugSymbols interface [Windows Debugging], described, IDebugSymbols_4046a7ad-b8ed-4a10-991e-f7d63f9e35d0.xml, dbgeng/IDebugSymbols, debugger.idebugsymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -515,11 +515,11 @@ Writes data to the target's virtual address space.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 

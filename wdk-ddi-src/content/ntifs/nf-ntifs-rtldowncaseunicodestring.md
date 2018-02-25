@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c611b051-45fe-4509-bf2c-7059d578ea05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_140e7faa-096a-49df-a2b7-87776cfc5b38.xml, ifsk.rtldowncaseunicodestring, RtlDowncaseUnicodeString routine [Installable File System Drivers], RtlDowncaseUnicodeString, ntifs/RtlDowncaseUnicodeString
+ms.keywords: ",  , D, R, RtlDowncaseUnicodeString, RtlDowncaseUnicodeString routine [Installable File System Drivers], S, U, a, c, d, e, g, i, ifsk.rtldowncaseunicodestring, l, n, ntifs/RtlDowncaseUnicodeString, o, r, rtlref_140e7faa-096a-49df-a2b7-87776cfc5b38.xml, s, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,11 +112,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlupcaseunicodestring.md">RtlUpcaseUnicodeString</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
 
 

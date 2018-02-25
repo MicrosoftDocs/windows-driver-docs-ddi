@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57220a12-e53d-482a-afb6-09bfbbf0d870
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdriverminiportunload, DFDriverObjectRef_aac24375-fae4-4310-b273-d3d2f4c13d69.xml, wdf.wdfdriverminiportunload, wdfminiport/WdfDriverMiniportUnload, WdfDriverMiniportUnload method, WdfDriverMiniportUnload
+ms.keywords: ",  , D, DFDriverObjectRef_aac24375-fae4-4310-b273-d3d2f4c13d69.xml, M, U, W, WdfDriverMiniportUnload, WdfDriverMiniportUnload method, a, d, e, f, i, kmdf.wdfdriverminiportunload, l, n, o, p, r, t, v, wdf.wdfdriverminiportunload, wdfminiport/WdfDriverMiniportUnload"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,15 +115,15 @@ The following code example deletes a specified miniport driver's framework drive
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
-
-
-
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
 <a href="..\wdfminiport\nf-wdfminiport-wdfdeviceminiportcreate.md">WdfDeviceMiniportCreate</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9f72e79-930c-456e-8001-5df808604caa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.iksinterfacehandler, IKsInterfaceHandler interface [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices], described, IKsInterfaceHandler, ksproxy/IKsInterfaceHandler, ksproxy_9d597bae-a5d7-4575-a4ac-983b827b0ae4.xml
+ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices], described, ksproxy/IKsInterfaceHandler, ksproxy_9d597bae-a5d7-4575-a4ac-983b827b0ae4.xml, stream.iksinterfacehandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -116,11 +116,11 @@ For more information about <b>CoCreateInstance</b>, see the Microsoft Windows SD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
-
-
-
 <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
 
 
 

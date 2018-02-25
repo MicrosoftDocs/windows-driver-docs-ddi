@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 042362d3-d5bf-47af-957f-8f1eb7a9ca7a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UNI_CODEPAGEINFO, PUNI_CODEPAGEINFO, *PUNI_CODEPAGEINFO, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, _UNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices], PUNI_CODEPAGEINFO structure pointer [Print Devices], prntfont/UNI_CODEPAGEINFO, prntfont/PUNI_CODEPAGEINFO, print.uni_codepageinfo
+ms.keywords: ",  , *, *PUNI_CODEPAGEINFO, ,, A, C, D, E, F, G, I, N, O, P, PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO structure pointer [Print Devices], U, UNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices], _, _UNI_CODEPAGEINFO, print.uni_codepageinfo, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, prntfont/PUNI_CODEPAGEINFO, prntfont/UNI_CODEPAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4eb97a4f-dd95-4fd4-8315-efcb446f56cd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RIL_RESETMODEMKIND_ABRUPT, RIL_RESETMODEMKIND_ABRUPT, netvista.rilresetmodemkind, RIL_RESETMODEMKIND_MAX, ntddrilapitypes/RILRESETMODEMKIND, RILRESETMODEMKIND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_RESETMODEMKIND_MAX, RILRESETMODEMKIND
+ms.keywords: ",  , ,, D, E, I, K, L, M, N, O, R, RILRESETMODEMKIND, RILRESETMODEMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMKIND_ABRUPT, RIL_RESETMODEMKIND_MAX, S, T, netvista.rilresetmodemkind, ntddrilapitypes/RILRESETMODEMKIND, ntddrilapitypes/RIL_RESETMODEMKIND_ABRUPT, ntddrilapitypes/RIL_RESETMODEMKIND_MAX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

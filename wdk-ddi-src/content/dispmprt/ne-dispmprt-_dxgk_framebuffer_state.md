@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 911E04E4-A9B9-4354-8EAB-CEEF87D56852
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_FRAMEBUFFER_STATE, DXGK_FRAMEBUFFER_STATE enumeration [Display Devices], FrameBufferStateInitializedByFirmware, DXGK_FRAMEBUFFER_STATE, dispmprt/FrameBufferStateInitializedByFirmware, FrameBufferStateInitializedByDriver, display.dxgk_framebuffer_state, dispmprt/FrameBufferStateInitializedByDriver, FrameBufferStateUnknown, dispmprt/DXGK_FRAMEBUFFER_STATE, dispmprt/FrameBufferStateUnknown"
+ms.keywords: ",  , ,, A, B, D, DXGK_FRAMEBUFFER_STATE, DXGK_FRAMEBUFFER_STATE enumeration [Display Devices], E, F, FrameBufferStateInitializedByDriver, FrameBufferStateInitializedByFirmware, FrameBufferStateUnknown, G, K, M, R, S, T, U, X, _, _DXGK_FRAMEBUFFER_STATE, display.dxgk_framebuffer_state, dispmprt/DXGK_FRAMEBUFFER_STATE, dispmprt/FrameBufferStateInitializedByDriver, dispmprt/FrameBufferStateInitializedByFirmware, dispmprt/FrameBufferStateUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

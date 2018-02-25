@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09fe033f-7876-4b23-baf6-5afe0866bb1d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_switch_dualview, IOCTL_VIDEO_SWITCH_DUALVIEW control code [Display Devices], IOCTL_VIDEO_SWITCH_DUALVIEW, ntddvdeo/IOCTL_VIDEO_SWITCH_DUALVIEW, Video_IOCTLs_424b313b-2f68-4284-97d6-596f1407ee96.xml
+ms.keywords: IOCTL_VIDEO_SWITCH_DUALVIEW, IOCTL_VIDEO_SWITCH_DUALVIEW control code [Display Devices], Video_IOCTLs_424b313b-2f68-4284-97d6-596f1407ee96.xml, display.ioctl_video_switch_dualview, ntddvdeo/IOCTL_VIDEO_SWITCH_DUALVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

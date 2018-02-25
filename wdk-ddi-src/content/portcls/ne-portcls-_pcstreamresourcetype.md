@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C9563635-66F3-4835-8153-DECB04580544
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PcStreamResourceType, *PPcStreamResourceType, ePcStreamResourceSet, PcStreamResourceType enumeration [Audio Devices], PcStreamResourceType, portcls/ePcStreamResourceThread, *PPcStreamResourceType, ePcStreamResourceInterrupt, _PcStreamResourceType, portcls/PcStreamResourceType, portcls/ePcStreamResourceInterrupt, portcls/ePcStreamResourceSet, PcStreamResourceType, *PPcStreamResourceType enumeration [Audio Devices], audio.pcstreamresourcetype, ePcStreamResourceThread
+ms.keywords: ",  , *, *PPcStreamResourceType, ,, P, PcStreamResourceType, PcStreamResourceType enumeration [Audio Devices], PcStreamResourceType, *PPcStreamResourceType, PcStreamResourceType, *PPcStreamResourceType enumeration [Audio Devices], R, S, T, _, _PcStreamResourceType, a, audio.pcstreamresourcetype, c, e, ePcStreamResourceInterrupt, ePcStreamResourceSet, ePcStreamResourceThread, m, o, p, portcls/PcStreamResourceType, portcls/ePcStreamResourceInterrupt, portcls/ePcStreamResourceSet, portcls/ePcStreamResourceThread, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

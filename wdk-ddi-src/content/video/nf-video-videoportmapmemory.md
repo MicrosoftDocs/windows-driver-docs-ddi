@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c1b54ef4-93b5-41df-8a49-8b00cbd4bcee
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoportmapmemory, VideoPort_Functions_53fef559-5fbb-4e9a-9152-b44be67bd63c.xml, VideoPortMapMemory function [Display Devices], video/VideoPortMapMemory, VideoPortMapMemory
+ms.keywords: ",  , M, P, V, VideoPortMapMemory, VideoPortMapMemory function [Display Devices], VideoPort_Functions_53fef559-5fbb-4e9a-9152-b44be67bd63c.xml, a, d, display.videoportmapmemory, e, i, m, o, p, r, t, video/VideoPortMapMemory, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -252,15 +252,15 @@ Miniport drivers should use <b>VideoPortMapMemory</b> to manage video adapters t
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
+
+
 <a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
 
 
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
-
-
-
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
 
 

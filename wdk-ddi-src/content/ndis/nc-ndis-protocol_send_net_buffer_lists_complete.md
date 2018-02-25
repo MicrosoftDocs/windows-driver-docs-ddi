@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc9197c5-ce0b-42b2-8225-fb9d83427ac8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolsendnetbufferlistscomplete, ProtocolSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], ProtocolSendNetBufferListsComplete, PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE, PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE, ndis/ProtocolSendNetBufferListsComplete, ndis_sendrcv_ref_1e393909-0442-45d4-ae57-7ec0f51671a4.xml
+ms.keywords: PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE, ProtocolSendNetBufferListsComplete, ProtocolSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolSendNetBufferListsComplete, ndis_sendrcv_ref_1e393909-0442-45d4-ae57-7ec0f51671a4.xml, netvista.protocolsendnetbufferlistscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -188,11 +188,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -200,12 +200,12 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
    NdisMSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

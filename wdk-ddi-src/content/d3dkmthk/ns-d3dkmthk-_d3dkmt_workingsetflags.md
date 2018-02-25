@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 05dddebc-2a30-4cc5-b905-9ee4ebf8d00e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Structs_4ce8b8d1-7f35-45b4-8b01-154a9a8eda00.xml, D3DKMT_WORKINGSETFLAGS, D3DKMT_WORKINGSETFLAGS structure [Display Devices], display.d3dkmt_workingsetflags, _D3DKMT_WORKINGSETFLAGS, d3dkmthk/D3DKMT_WORKINGSETFLAGS
+ms.keywords: ",  , ,, 3, A, D, D3DKMT_WORKINGSETFLAGS, D3DKMT_WORKINGSETFLAGS structure [Display Devices], E, F, G, I, K, L, M, N, O, OpenGL_Structs_4ce8b8d1-7f35-45b4-8b01-154a9a8eda00.xml, R, S, T, W, _, _D3DKMT_WORKINGSETFLAGS, d3dkmthk/D3DKMT_WORKINGSETFLAGS, display.d3dkmt_workingsetflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,15 +82,15 @@ This member is reserved and should be set to zero. Setting this member is equiva
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
 
 
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a>
 
 
 

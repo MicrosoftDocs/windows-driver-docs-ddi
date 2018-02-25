@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b045732-a41f-47e7-9835-41e3ef54f14c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: LPD3DHAL_CALLBACKS, D3DHAL_CALLBACKS structure [Display Devices], d3dstrct_2dc02d2c-6ae9-4f2e-9cb3-470926980537.xml, d3dhal/D3DHAL_CALLBACKS, display.d3dhal_callbacks, LPD3DHAL_CALLBACKS structure pointer [Display Devices], _D3DHAL_CALLBACKS, D3DHAL_CALLBACKS, d3dhal/LPD3DHAL_CALLBACKS, *LPD3DHAL_CALLBACKS
+ms.keywords: ",  , *, *LPD3DHAL_CALLBACKS, ,, 3, A, B, C, D, D3DHAL_CALLBACKS, D3DHAL_CALLBACKS structure [Display Devices], H, K, L, LPD3DHAL_CALLBACKS, LPD3DHAL_CALLBACKS structure pointer [Display Devices], P, S, _, _D3DHAL_CALLBACKS, d3dhal/D3DHAL_CALLBACKS, d3dhal/LPD3DHAL_CALLBACKS, d3dstrct_2dc02d2c-6ae9-4f2e-9cb3-470926980537.xml, display.d3dhal_callbacks"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -289,14 +289,6 @@ Texture management is now handled though opcodes that are managed in the driver'
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks3.md">D3DHAL_CALLBACKS3</a>
-
-
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a>
 
 
@@ -305,7 +297,15 @@ Texture management is now handled though opcodes that are managed in the driver'
 
 
 
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
 <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks3.md">D3DHAL_CALLBACKS3</a>
 
 
 

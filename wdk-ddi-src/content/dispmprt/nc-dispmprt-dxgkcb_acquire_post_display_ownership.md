@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6454adb3-c958-467b-acbc-b8937b98cd57
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.DxgkCbAcquirePostDisplayOwnership, DxgkCbAcquirePostDisplayOwnership callback function [Display Devices], DxgkCbAcquirePostDisplayOwnership, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, dispmprt/DxgkCbAcquirePostDisplayOwnership
+ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, DxgkCbAcquirePostDisplayOwnership, DxgkCbAcquirePostDisplayOwnership callback function [Display Devices], display.DxgkCbAcquirePostDisplayOwnership, dispmprt/DxgkCbAcquirePostDisplayOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,6 +142,18 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
 
 
@@ -150,19 +162,7 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
 
 

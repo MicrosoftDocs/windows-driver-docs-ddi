@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PFND3DKMT_CREATEDEVICE, d3dkmthk/D3DKMTCreateDevice, display.d3dkmtcreatedevice, OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, D3DKMTCreateDevice function [Display Devices], D3DKMTCreateDevice
+ms.keywords: ",  , 3, C, D, D3DKMTCreateDevice, D3DKMTCreateDevice function [Display Devices], K, M, OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, PFND3DKMT_CREATEDEVICE, T, a, c, d3dkmthk/D3DKMTCreateDevice, display.d3dkmtcreatedevice, e, i, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,7 +129,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> could not complete because of insufficient memory.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> could not complete because of insufficient memory.
 
 </td>
 </tr>

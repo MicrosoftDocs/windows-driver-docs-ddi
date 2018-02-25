@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 16dda4bb-69ff-420f-9802-7d7e0598928f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ipartprintticket, IPartPrintTicket interface [Print Devices], IPartPrintTicket interface [Print Devices], described, IPartPrintTicket, filterpipeline/IPartPrintTicket, filterpipeline_8b4eb977-4519-487f-a8b1-1d48cbb96aac.xml
+ms.keywords: IPartPrintTicket, IPartPrintTicket interface [Print Devices], IPartPrintTicket interface [Print Devices], described, filterpipeline/IPartPrintTicket, filterpipeline_8b4eb977-4519-487f-a8b1-1d48cbb96aac.xml, print.ipartprintticket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

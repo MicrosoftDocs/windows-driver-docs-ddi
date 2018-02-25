@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dee4ce19-9dc8-4728-855b-eadb5bca0fc2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminiremoveevent, AVStrMiniRemoveEvent, AVStrMiniRemoveEvent routine [Streaming Media Devices], AVStrMiniRemoveEvent, PFNKSREMOVEEVENT, PFNKSREMOVEEVENT, ks/AVStrMiniRemoveEvent, avstclbk_04bc810f-666a-4b24-9bc9-e203ebbbbf29.xml
+ms.keywords: AVStrMiniRemoveEvent, AVStrMiniRemoveEvent routine [Streaming Media Devices], PFNKSREMOVEEVENT, avstclbk_04bc810f-666a-4b24-9bc9-e203ebbbbf29.xml, ks/AVStrMiniRemoveEvent, stream.avstrminiremoveevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -127,23 +127,7 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-
-
-
 <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
-
-
-
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
-
-
-
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
-
-
-
-<a href="..\ks\nc-ks-pfnksaddevent.md">AVStrMiniAddEvent</a>
 
 
 
@@ -151,7 +135,19 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 
 
+<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+
+
+
 <a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
+
+
+<a href="..\ks\nc-ks-pfnksaddevent.md">AVStrMiniAddEvent</a>
+
+
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 
@@ -159,7 +155,11 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
 
 

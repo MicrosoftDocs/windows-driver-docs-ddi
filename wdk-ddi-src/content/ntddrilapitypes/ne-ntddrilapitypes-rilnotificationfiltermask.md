@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5dc72657-00ae-4fde-b9a7-a63616d934c0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_NFS_REGSTATUS_RATKIND, ntddrilapitypes/RIL_NFS_LOCATIONUPDATE, ntddrilapitypes/RILNOTIFICATIONFILTERMASK, netvista.rilnotificationfiltermask, RIL_NFS_ALL, ntddrilapitypes/RIL_NFS_ALL, RIL_NFS_LOCATIONUPDATE, RILNOTIFICATIONFILTERMASK, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_NFS_SIGNALQUALITY, RIL_NFS_SIGNALQUALITY, ntddrilapitypes/RIL_NFS_REGSTATUS_RATKIND
+ms.keywords: ",  , ,, A, C, E, F, I, K, L, M, N, O, R, RILNOTIFICATIONFILTERMASK, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], RIL_NFS_ALL, RIL_NFS_LOCATIONUPDATE, RIL_NFS_REGSTATUS_RATKIND, RIL_NFS_SIGNALQUALITY, S, T, netvista.rilnotificationfiltermask, ntddrilapitypes/RILNOTIFICATIONFILTERMASK, ntddrilapitypes/RIL_NFS_ALL, ntddrilapitypes/RIL_NFS_LOCATIONUPDATE, ntddrilapitypes/RIL_NFS_REGSTATUS_RATKIND, ntddrilapitypes/RIL_NFS_SIGNALQUALITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1b87d3cc-685a-4768-b4fd-dbe0a0cbec37
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfncreatesynchronizationobjectcb, pfnCreateSynchronizationObjectCb callback function [Display Devices], pfnCreateSynchronizationObjectCb, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB, d3dumddi/pfnCreateSynchronizationObjectCb, D3Druntime_Functions_6c4f40ee-12b2-47a8-bbec-8591b730bef5.xml
+ms.keywords: D3Druntime_Functions_6c4f40ee-12b2-47a8-bbec-8591b730bef5.xml, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB, d3dumddi/pfnCreateSynchronizationObjectCb, display.pfncreatesynchronizationobjectcb, pfnCreateSynchronizationObjectCb, pfnCreateSynchronizationObjectCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -173,11 +173,15 @@ The <b>pfnCreateSynchronizationObjectCb</b> function returns a kernel-mode handl
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT</a>
 
 
 
@@ -186,10 +190,6 @@ The <b>pfnCreateSynchronizationObjectCb</b> function returns a kernel-mode handl
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT</a>
 
 
 

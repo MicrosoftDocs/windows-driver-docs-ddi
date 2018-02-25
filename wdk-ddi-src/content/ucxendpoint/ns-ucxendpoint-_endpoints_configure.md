@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: P_ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], ucxendpoint/P_ENDPOINTS_CONFIGURE, _ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], *PENDPOINTS_CONFIGURE
+ms.keywords: ",  , *, *PENDPOINTS_CONFIGURE, ,, C, D, E, ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], F, G, I, N, O, P, P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], R, S, T, U, _, _ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

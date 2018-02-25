@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3ee46b54-791f-4eac-84d7-5a0093b6984a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.atacontrollertransfermodeselect, AtaControllerTransferModeSelect routine [Storage Devices], AtaControllerTransferModeSelect, IDE_TRANSFER_MODE_SELECT, IDE_TRANSFER_MODE_SELECT, irb/AtaControllerTransferModeSelect, atartns_c4d206b0-4a6a-49ce-b729-97c8b01e4089.xml
+ms.keywords: AtaControllerTransferModeSelect, AtaControllerTransferModeSelect routine [Storage Devices], IDE_TRANSFER_MODE_SELECT, atartns_c4d206b0-4a6a-49ce-b729-97c8b01e4089.xml, irb/AtaControllerTransferModeSelect, storage.atacontrollertransfermodeselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

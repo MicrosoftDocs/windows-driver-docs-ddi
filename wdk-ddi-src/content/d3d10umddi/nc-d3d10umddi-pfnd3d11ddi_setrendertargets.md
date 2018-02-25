@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cfe5f570-4e53-43ee-942d-56da8dfcfe80
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setrendertargets_d3d11_, SetRenderTargets callback function [Display Devices], SetRenderTargets, PFND3D11DDI_SETRENDERTARGETS, PFND3D11DDI_SETRENDERTARGETS, d3d10umddi/SetRenderTargets, UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml
+ms.keywords: PFND3D11DDI_SETRENDERTARGETS, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml, d3d10umddi/SetRenderTargets, display.setrendertargets_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

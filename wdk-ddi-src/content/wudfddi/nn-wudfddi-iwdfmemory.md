@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8746eb43-7a6e-4e1d-b8fb-c8b7891295d6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfmemory, IWDFMemory interface, IWDFMemory interface, described, IWDFMemory, wudfddi/IWDFMemory, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory
+ms.keywords: IWDFMemory, IWDFMemory interface, IWDFMemory interface, described, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory, wdf.iwdfmemory, wudfddi/IWDFMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

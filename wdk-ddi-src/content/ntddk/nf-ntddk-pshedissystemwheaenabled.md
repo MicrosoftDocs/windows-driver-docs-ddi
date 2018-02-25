@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d9935605-dc5f-4987-8a5b-b2c2b358dbbf
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PshedIsSystemWheaEnabled, ntddk/PshedIsSystemWheaEnabled, PshedIsSystemWheaEnabled function [WHEA Drivers and Applications], whearef_492a4370-81bf-411b-bd87-2408f4551b18.xml, whea.pshedissystemwheaenabled
+ms.keywords: ",  , E, I, P, PshedIsSystemWheaEnabled, PshedIsSystemWheaEnabled function [WHEA Drivers and Applications], S, W, a, b, d, e, h, l, m, n, ntddk/PshedIsSystemWheaEnabled, s, t, whea.pshedissystemwheaenabled, whearef_492a4370-81bf-411b-bd87-2408f4551b18.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

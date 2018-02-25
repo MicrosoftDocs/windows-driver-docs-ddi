@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ef08d375-1ac6-489f-9fd4-f791ce82c553
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.iksdatatypehandler, IKsDataTypeHandler interface [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices], described, IKsDataTypeHandler, ksproxy/IKsDataTypeHandler, ksproxy_fd2ab182-1556-438e-bc5e-fe1339d0d865.xml
+ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices], described, ksproxy/IKsDataTypeHandler, ksproxy_fd2ab182-1556-438e-bc5e-fe1339d0d865.xml, stream.iksdatatypehandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

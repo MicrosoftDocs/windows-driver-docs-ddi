@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 38F50F76-5D14-47CE-A211-3FC4F1399A74
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: spb/SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB.spb_transfer_list_entry_init_simple, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function [Buses]
+ms.keywords: ",  , A, B, E, F, I, L, M, N, P, R, S, SPB.spb_transfer_list_entry_init_simple, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function [Buses], T, Y, _, spb/SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,15 +116,15 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
 
 
 

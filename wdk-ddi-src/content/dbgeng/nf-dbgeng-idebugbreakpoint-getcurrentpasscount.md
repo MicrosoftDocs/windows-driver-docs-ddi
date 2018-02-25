@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ff9b9988-6790-48d1-8423-60c63b0a90cf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugBreakpoint2::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface, ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, dbgeng/IDebugBreakpoint::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint, IDebugBreakpoint::GetCurrentPassCount, GetCurrentPassCount, debugger.getcurrentpasscount, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method
+ms.keywords: ",  , ,, ., :, B, C, ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, D, G, GetCurrentPassCount method [Windows Debugging], GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, GetCurrentPassCount,IDebugBreakpoint.GetCurrentPassCount, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2::GetCurrentPassCount, IDebugBreakpoint::GetCurrentPassCount, P, a, b, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, dbgeng/IDebugBreakpoint::GetCurrentPassCount, debugger.getcurrentpasscount, e, g, i, k, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

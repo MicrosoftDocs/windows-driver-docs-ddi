@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d80d2d6a-758f-4b11-b33c-4b176a458bd2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver function [Display Devices]
+ms.keywords: ",  , D, DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver function [Display Devices], I, O, a, display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver, e, g, i, k, l, n, p, r, s, t, v, x, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,15 +106,7 @@ All parameters that are supplied by the KMDOD can be in paged memory.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\dispmprt\nf-dispmprt-dxgkinitialize.md">DxgkInitialize</a>
+<a href="..\dispmprt\ns-dispmprt-_kmddod_initialization_data.md">KMDDOD_INITIALIZATION_DATA</a>
 
 
 
@@ -122,7 +114,15 @@ All parameters that are supplied by the KMDOD can be in paged memory.
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_kmddod_initialization_data.md">KMDDOD_INITIALIZATION_DATA</a>
+<a href="..\dispmprt\nf-dispmprt-dxgkinitialize.md">DxgkInitialize</a>
+
+
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

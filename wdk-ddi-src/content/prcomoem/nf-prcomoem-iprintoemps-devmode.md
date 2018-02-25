@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 72775113-435c-44cf-83e7-9aa62f7f252e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DevMode method [Print Devices], IPrintOemPS interface, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml, print.iprintoemps_devmode, IPrintOemPS interface [Print Devices], DevMode method, prcomoem/IPrintOemPS::DevMode, IPrintOemPS, IPrintOemPS::DevMode, DevMode method [Print Devices], DevMode
+ms.keywords: ",  , ,, ., :, D, DevMode method [Print Devices], DevMode method [Print Devices], IPrintOemPS interface, DevMode,IPrintOemPS.DevMode, I, IPrintOemPS, IPrintOemPS interface [Print Devices], DevMode method, IPrintOemPS::DevMode, M, O, P, S, d, e, i, m, n, o, prcomoem/IPrintOemPS::DevMode, print.iprintoemps_devmode, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

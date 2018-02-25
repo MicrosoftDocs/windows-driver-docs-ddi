@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a9dea258-601b-4ff7-b03b-b3f22d86f314
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceAllocAndQueryString, WdfUsbTargetDeviceAllocAndQueryString method, WdfUsbTargetDeviceAllocAndQueryString, wdf.wdfusbtargetdeviceallocandquerystring, kmdf.wdfusbtargetdeviceallocandquerystring, DFUsbRef_708583a1-a585-402f-afd6-5df4457b0a25.xml
+ms.keywords: ",  , A, D, DFUsbRef_708583a1-a585-402f-afd6-5df4457b0a25.xml, Q, S, T, U, W, WdfUsbTargetDeviceAllocAndQueryString, WdfUsbTargetDeviceAllocAndQueryString method, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdeviceallocandquerystring, l, n, o, r, s, t, u, v, wdf.wdfusbtargetdeviceallocandquerystring, wdfusb/WdfUsbTargetDeviceAllocAndQueryString, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -222,11 +222,7 @@ status = WdfUsbTargetDeviceAllocAndQueryString(
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -234,15 +230,19 @@ status = WdfUsbTargetDeviceAllocAndQueryString(
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequerystring.md">WdfUsbTargetDeviceQueryString</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 

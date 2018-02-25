@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13ECF87D-13F7-4154-A17E-D49A2BB0F83A
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdevice/WdfDeviceMapIoSpace, WdfDeviceMapIoSpace, wdf.wdfdevicemapiospace, WdfDeviceMapIoSpace function
+ms.keywords: ",  , D, I, M, S, W, WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, a, c, d, e, f, i, o, p, v, wdf.wdfdevicemapiospace, wdfdevice/WdfDeviceMapIoSpace"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,11 +140,11 @@ For an example that shows how a driver finds and maps memory-mapped register res
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-32FB3315251F">IWDFDevice3::MapIoSpace</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceunmapiospace.md">WdfDeviceUnmapIoSpace</a>
+
+
+
+<a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-32FB3315251F">IWDFDevice3::MapIoSpace</a>
 
 
 

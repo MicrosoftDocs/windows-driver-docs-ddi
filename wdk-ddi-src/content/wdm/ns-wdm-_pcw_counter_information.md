@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: fe4d8df4-0e15-49fb-a5ec-40aa8acf3675
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_PCW_COUNTER_INFORMATION, devtest.pcw_counter_information, PPCW_COUNTER_INFORMATION structure pointer [Driver Development Tools], wdm/PCW_COUNTER_INFORMATION, PPCW_COUNTER_INFORMATION, *PPCW_COUNTER_INFORMATION, PCW_COUNTER_INFORMATION structure [Driver Development Tools], PCW_COUNTER_INFORMATION, km_pcw_b89088c5-c9df-4ca9-86b1-8fdb558216c5.xml, wdm/PPCW_COUNTER_INFORMATION"
+ms.keywords: ",  , *, *PPCW_COUNTER_INFORMATION, ,, A, C, E, F, I, M, N, O, P, PCW_COUNTER_INFORMATION, PCW_COUNTER_INFORMATION structure [Driver Development Tools], PPCW_COUNTER_INFORMATION, PPCW_COUNTER_INFORMATION structure pointer [Driver Development Tools], R, T, U, W, _, _PCW_COUNTER_INFORMATION, devtest.pcw_counter_information, km_pcw_b89088c5-c9df-4ca9-86b1-8fdb558216c5.xml, wdm/PCW_COUNTER_INFORMATION, wdm/PPCW_COUNTER_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

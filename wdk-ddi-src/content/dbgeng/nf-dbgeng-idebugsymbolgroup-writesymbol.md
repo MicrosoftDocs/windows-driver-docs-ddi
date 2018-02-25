@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c0c23778-767a-4304-9ecf-c76337261e27
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, WriteSymbol method [Windows Debugging], dbgeng/IDebugSymbolGroup2::WriteSymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, IDebugSymbolGroup, debugger.writesymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method, IDebugSymbolGroup::WriteSymbol, IDebugSymbolGroup2::WriteSymbol, dbgeng/IDebugSymbolGroup::WriteSymbol, WriteSymbol
+ms.keywords: ",  , ,, ., :, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, D, G, I, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup::WriteSymbol, S, W, WriteSymbol method [Windows Debugging], WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, WriteSymbol,IDebugSymbolGroup.WriteSymbol, b, dbgeng/IDebugSymbolGroup2::WriteSymbol, dbgeng/IDebugSymbolGroup::WriteSymbol, debugger.writesymbol, e, g, i, l, m, o, p, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,11 +120,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 
@@ -132,7 +128,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
 
 
 

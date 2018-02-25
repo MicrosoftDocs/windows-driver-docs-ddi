@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: f4f8bd0d-fad7-4712-92ca-44d45969142d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PPCI_EXPRESS_LINK_CONTROL_REGISTER, PCI.pci_express_link_control_register, pci_struct_0fc5be0f-aae8-4d59-a569-030eb593e927.xml, PCI_EXPRESS_LINK_CONTROL_REGISTER, *PPCI_EXPRESS_LINK_CONTROL_REGISTER, PCI_EXPRESS_LINK_CONTROL_REGISTER union [Buses], ntddk/PCI_EXPRESS_LINK_CONTROL_REGISTER, PPCI_EXPRESS_LINK_CONTROL_REGISTER union pointer [Buses], ntddk/PPCI_EXPRESS_LINK_CONTROL_REGISTER, _PCI_EXPRESS_LINK_CONTROL_REGISTER
+ms.keywords: ",  , *, *PPCI_EXPRESS_LINK_CONTROL_REGISTER, ,, C, E, G, I, K, L, N, O, P, PCI.pci_express_link_control_register, PCI_EXPRESS_LINK_CONTROL_REGISTER, PCI_EXPRESS_LINK_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_LINK_CONTROL_REGISTER, PPCI_EXPRESS_LINK_CONTROL_REGISTER union pointer [Buses], R, S, T, X, _, _PCI_EXPRESS_LINK_CONTROL_REGISTER, ntddk/PCI_EXPRESS_LINK_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_LINK_CONTROL_REGISTER, pci_struct_0fc5be0f-aae8-4d59-a569-030eb593e927.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

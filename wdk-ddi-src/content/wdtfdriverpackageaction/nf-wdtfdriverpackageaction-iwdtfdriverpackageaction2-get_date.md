@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: c590c262-f689-4768-bedf-13f06d7c8442
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: get_Date, Date property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.Date, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Date property, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Date, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Date, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2::get_Date, dtf.iwdtfdriverpackageaction2_date, Microsoft::WDTF::IWDTFDriverPackageAction2::Date, Date property [Windows Device Testing Framework], IWDTFDriverPackageAction2.Date
+ms.keywords: ",  , ,, ., 2, :, A, D, Date property [Windows Device Testing Framework], Date property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, F, I, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Date property, IWDTFDriverPackageAction2.Date, IWDTFDriverPackageAction2::get_Date, Microsoft.WDTF.IWDTFDriverPackageAction2.Date, Microsoft::WDTF::IWDTFDriverPackageAction2::Date, P, T, W, _, a, c, dtf.iwdtfdriverpackageaction2_date, e, g, get_Date,IWDTFDriverPackageAction2.get_Date, i, k, n, o, r, t, v, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Date, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Date"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

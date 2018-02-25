@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2ff5091b-7cf8-4972-b87b-b18d25bb23e9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemId method, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, debugger.getcurrentsystemid, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemId method, GetCurrentSystemId, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, IDebugSystemObjects4::GetCurrentSystemId, dbgeng/IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects3
+ms.keywords: ",  , ,, ., 3, :, C, D, G, GetCurrentSystemId method [Windows Debugging], GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentSystemId,IDebugSystemObjects3.GetCurrentSystemId, I, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemId method, IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemId method, IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, O, S, b, c, d, dbgeng/IDebugSystemObjects3::GetCurrentSystemId, dbgeng/IDebugSystemObjects4::GetCurrentSystemId, debugger.getcurrentsystemid, e, g, j, m, n, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

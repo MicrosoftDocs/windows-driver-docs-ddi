@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 27F0C336-3C8C-49B5-A7DB-F0640526CAE8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlEnumerateGenericTableWithoutSplayingAvl, ifsk.rtlenumerategenerictablewithoutsplayingavl, RtlEnumerateGenericTableWithoutSplayingAvl routine [Installable File System Drivers], ntddk/RtlEnumerateGenericTableWithoutSplayingAvl
+ms.keywords: ",  , A, E, G, R, RtlEnumerateGenericTableWithoutSplayingAvl, RtlEnumerateGenericTableWithoutSplayingAvl routine [Installable File System Drivers], S, T, W, a, b, c, e, g, h, i, ifsk.rtlenumerategenerictablewithoutsplayingavl, l, m, n, ntddk/RtlEnumerateGenericTableWithoutSplayingAvl, o, p, r, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

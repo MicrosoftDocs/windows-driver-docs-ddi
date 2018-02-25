@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45849844-a466-4e62-957a-bfe33a464b5a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTCreateSynchronizationObject2 function [Display Devices], display.d3dkmtcreatesynchronizationobject2, OpenGL_Functions_ba9aa4a0-19e6-40d2-8a17-d22c8756c555.xml, D3DKMTCreateSynchronizationObject2, d3dkmthk/D3DKMTCreateSynchronizationObject2
+ms.keywords: ",  , 2, 3, C, D, D3DKMTCreateSynchronizationObject2, D3DKMTCreateSynchronizationObject2 function [Display Devices], K, M, O, OpenGL_Functions_ba9aa4a0-19e6-40d2-8a17-d22c8756c555.xml, S, T, a, b, c, d3dkmthk/D3DKMTCreateSynchronizationObject2, display.d3dkmtcreatesynchronizationobject2, e, h, i, j, n, o, r, t, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

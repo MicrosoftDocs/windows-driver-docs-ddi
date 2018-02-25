@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23f92c9a-7f2c-4340-ad5e-101b13883bea
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstatedssrvcb, pfnStateDsSrvCb callback function [Display Devices], pfnStateDsSrvCb, PFND3D11DDI_STATE_DS_SRV_CB, PFND3D11DDI_STATE_DS_SRV_CB, d3d10umddi/pfnStateDsSrvCb, d3d11state_functions_bbd5c336-5316-47d4-a8c9-f7b79b18b540.xml
+ms.keywords: PFND3D11DDI_STATE_DS_SRV_CB, d3d10umddi/pfnStateDsSrvCb, d3d11state_functions_bbd5c336-5316-47d4-a8c9-f7b79b18b540.xml, display.pfnstatedssrvcb, pfnStateDsSrvCb, pfnStateDsSrvCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -110,11 +110,11 @@ None
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 

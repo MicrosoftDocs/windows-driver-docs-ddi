@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 18e5b394-b0ea-481c-b634-83a2ebec4784
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddchgr/PCHANGER_PRODUCT_DATA, storage.changer_product_data, PCHANGER_PRODUCT_DATA structure pointer [Storage Devices], structs-changer_10598085-7fbc-40f9-a04c-ca8973faace7.xml, CHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA, ntddchgr/CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure [Storage Devices], _CHANGER_PRODUCT_DATA
+ms.keywords: ",  , *, *PCHANGER_PRODUCT_DATA, ,, A, C, CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure [Storage Devices], D, E, G, H, N, O, P, PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer [Storage Devices], R, T, U, _, _CHANGER_PRODUCT_DATA, ntddchgr/CHANGER_PRODUCT_DATA, ntddchgr/PCHANGER_PRODUCT_DATA, storage.changer_product_data, structs-changer_10598085-7fbc-40f9-a04c-ca8973faace7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,11 +102,11 @@ Specifies the device type of the changer. This member must be MEDIUM_CHANGER.
 
 
 
-<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
-
-
-
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d5fa83d6-d733-4fff-89a9-f519ed608e57
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortGetUncachedExtension, storport/StorPortGetUncachedExtension, StorPortGetUncachedExtension routine [Storage Devices], storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml, storage.storportgetuncachedextension
+ms.keywords: ",  , E, G, P, S, StorPortGetUncachedExtension, StorPortGetUncachedExtension routine [Storage Devices], U, a, c, d, e, h, i, n, o, r, s, storage.storportgetuncachedextension, storport/StorPortGetUncachedExtension, storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

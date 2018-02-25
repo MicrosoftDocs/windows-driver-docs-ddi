@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 79c6438c-ba8c-4fc5-8c3f-5865a51869b7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.iocreatestreamfileobjectlite, ntifs/IoCreateStreamFileObjectLite, IoCreateStreamFileObjectLite routine [Installable File System Drivers], ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, IoCreateStreamFileObjectLite
+ms.keywords: ",  , C, F, I, IoCreateStreamFileObjectLite, IoCreateStreamFileObjectLite routine [Installable File System Drivers], L, O, S, a, b, c, e, i, ifsk.iocreatestreamfileobjectlite, ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, j, l, m, ntifs/IoCreateStreamFileObjectLite, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,15 +108,15 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

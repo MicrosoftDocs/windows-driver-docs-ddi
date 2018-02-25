@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bbe60db6-85ae-480c-8852-80935a52697e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/REG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_REPLACE_KEY_INFORMATION, REG_REPLACE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_REPLACE_KEY_INFORMATION, kstruct_d_29e33c32-67fc-48e0-a976-9830278009bc.xml, *PREG_REPLACE_KEY_INFORMATION, kernel.reg_replace_key_information, wdm/PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION
+ms.keywords: ",  , *, *PREG_REPLACE_KEY_INFORMATION, ,, A, C, E, F, G, I, K, L, M, N, O, P, PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, REG_REPLACE_KEY_INFORMATION, REG_REPLACE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], T, Y, _, _REG_REPLACE_KEY_INFORMATION, kernel.reg_replace_key_information, kstruct_d_29e33c32-67fc-48e0-a976-9830278009bc.xml, wdm/PREG_REPLACE_KEY_INFORMATION, wdm/REG_REPLACE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

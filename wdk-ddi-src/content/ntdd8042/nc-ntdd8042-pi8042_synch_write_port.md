@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: f4b0642c-0355-46ae-9c23-fc9c98dfaf21
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.pi8042_synch_write_port, SynchWritePort callback function [Human Input Devices], SynchWritePort, PI8042_SYNCH_WRITE_PORT, PI8042_SYNCH_WRITE_PORT, ntdd8042/SynchWritePort, i8042ref_79e22dfb-4844-4126-a6a2-b2f908cbdf79.xml
+ms.keywords: PI8042_SYNCH_WRITE_PORT, SynchWritePort, SynchWritePort callback function [Human Input Devices], hid.pi8042_synch_write_port, i8042ref_79e22dfb-4844-4126-a6a2-b2f908cbdf79.xml, ntdd8042/SynchWritePort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -139,11 +139,11 @@ The routine polls the hardware until a read is returned by the hardware or an in
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a>
-
-
-
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a>
+
+
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a>
 
 
 

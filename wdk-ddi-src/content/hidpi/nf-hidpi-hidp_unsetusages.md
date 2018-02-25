@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 55dcd9f3-6903-4718-98c2-ee42ee1026e3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidP_UnsetUsages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, HidP_UnsetUsages routine [Human Input Devices], hid.hidp_unsetusages, hidpi/HidP_UnsetUsages
+ms.keywords: ",  , H, HidP_UnsetUsages, HidP_UnsetUsages routine [Human Input Devices], P, U, _, a, d, e, g, hid.hidp_unsetusages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, hidpi/HidP_UnsetUsages, i, n, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,7 +112,7 @@ Pointer to a report.
 
 ### -param ReportLength [in]
 
-Specifies the size, in bytes, of the report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
 
 ## -returns
@@ -241,11 +241,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
 
 
 
@@ -253,11 +253,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
 
 
 

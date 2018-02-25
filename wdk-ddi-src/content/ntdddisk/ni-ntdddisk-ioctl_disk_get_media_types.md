@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d6e6cd4c-680d-4885-b910-3de8de143e2b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_get_media_types, IOCTL_DISK_GET_MEDIA_TYPES control code [Storage Devices], IOCTL_DISK_GET_MEDIA_TYPES, ntdddisk/IOCTL_DISK_GET_MEDIA_TYPES, k307_692b21f7-7d14-4ba9-9d56-381606f5f5b1.xml
+ms.keywords: IOCTL_DISK_GET_MEDIA_TYPES, IOCTL_DISK_GET_MEDIA_TYPES control code [Storage Devices], k307_692b21f7-7d14-4ba9-9d56-381606f5f5b1.xml, ntdddisk/IOCTL_DISK_GET_MEDIA_TYPES, storage.ioctl_disk_get_media_types
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

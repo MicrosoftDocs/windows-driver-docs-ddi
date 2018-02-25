@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: da07d3c2-0bd5-4e61-87b3-6fda8007cf5f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PHDAUDIO_BUFFER_DESCRIPTOR structure pointer [Audio Devices], *PHDAUDIO_BUFFER_DESCRIPTOR, hdaudio/PHDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR, _HDAUDIO_BUFFER_DESCRIPTOR, hdaudio/HDAUDIO_BUFFER_DESCRIPTOR, PHDAUDIO_BUFFER_DESCRIPTOR, aud-prop2_56fe21db-3261-4f36-a5b0-ca2ae2d681d1.xml, audio.hdaudio_buffer_descriptor, HDAUDIO_BUFFER_DESCRIPTOR structure [Audio Devices]
+ms.keywords: ",  , *, *PHDAUDIO_BUFFER_DESCRIPTOR, ,, A, B, C, D, E, F, H, HDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR structure [Audio Devices], I, O, P, PHDAUDIO_BUFFER_DESCRIPTOR, PHDAUDIO_BUFFER_DESCRIPTOR structure pointer [Audio Devices], R, S, T, U, _, _HDAUDIO_BUFFER_DESCRIPTOR, aud-prop2_56fe21db-3261-4f36-a5b0-ca2ae2d681d1.xml, audio.hdaudio_buffer_descriptor, hdaudio/HDAUDIO_BUFFER_DESCRIPTOR, hdaudio/PHDAUDIO_BUFFER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,11 +103,11 @@ For more information about BDLs, see the Intel High Definition Audio Specificati
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-pallocate_contiguous_dma_buffer.md">AllocateContiguousDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
 
 

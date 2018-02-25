@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c8996367-9ac5-4725-93ff-f13a334fbc5a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.dpwmiquerydatablock, DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], DpWmiQueryDataBlock, WMI_QUERY_DATABLOCK_CALLBACK, WMI_QUERY_DATABLOCK_CALLBACK, wmilib/DpWmiQueryDataBlock, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml
+ms.keywords: DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], WMI_QUERY_DATABLOCK_CALLBACK, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml, kernel.dpwmiquerydatablock, wmilib/DpWmiQueryDataBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -166,7 +166,11 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a>
+
+
+
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
 
 
@@ -174,15 +178,11 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+
+
+
 <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a>
-
-
-
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
 
 

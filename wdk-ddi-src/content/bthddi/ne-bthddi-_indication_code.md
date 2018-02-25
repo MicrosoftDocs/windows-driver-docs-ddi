@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 7fc374e3-ca5b-476d-bc44-afb28ecf9920
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IndicationRemoteDisconnect, bthddi/IndicationAddReference, IndicationAddReference, IndicationRemoteConnect, bthddi/IndicationRecvPacket, bth_enums_89c3fcea-8183-4227-b3fb-4e18c3612326.xml, bthddi/IndicationPairDevice, bthddi/INDICATION_CODE, IndicationRemoteConfigRequest, IndicationRemoteConnectLE, INDICATION_CODE, bthddi/IndicationReleaseReference, INDICATION_CODE enumeration [Bluetooth Devices], bthddi/IndicationRemoteDisconnect, bthddi/IndicationUnpairDevice, bthddi/IndicationRemoteConfigResponse, IndicationRecvPacket, *PINDICATION_CODE, bthddi/IndicationRemoteConnectLE, PINDICATION_CODE enumeration pointer [Bluetooth Devices], PINDICATION_CODE, IndicationRemoteConfigResponse, bthddi/IndicationUnpersonalizeDevice, IndicationFreeExtraOptions, IndicationUnpairDevice, IndicationReleaseReference, IndicationUnpersonalizeDevice, bthddi/IndicationRemoteConfigRequest, bthddi/PINDICATION_CODE, bthddi/IndicationFreeExtraOptions, IndicationPairDevice, bthddi/IndicationRemoteConnect, bltooth.indication_code, _INDICATION_CODE
+ms.keywords: ",  , *, *PINDICATION_CODE, ,, A, C, D, E, I, INDICATION_CODE, INDICATION_CODE enumeration [Bluetooth Devices], IndicationAddReference, IndicationFreeExtraOptions, IndicationPairDevice, IndicationRecvPacket, IndicationReleaseReference, IndicationRemoteConfigRequest, IndicationRemoteConfigResponse, IndicationRemoteConnect, IndicationRemoteConnectLE, IndicationRemoteDisconnect, IndicationUnpairDevice, IndicationUnpersonalizeDevice, N, O, P, PINDICATION_CODE, PINDICATION_CODE enumeration pointer [Bluetooth Devices], T, _, _INDICATION_CODE, bltooth.indication_code, bth_enums_89c3fcea-8183-4227-b3fb-4e18c3612326.xml, bthddi/INDICATION_CODE, bthddi/IndicationAddReference, bthddi/IndicationFreeExtraOptions, bthddi/IndicationPairDevice, bthddi/IndicationRecvPacket, bthddi/IndicationReleaseReference, bthddi/IndicationRemoteConfigRequest, bthddi/IndicationRemoteConfigResponse, bthddi/IndicationRemoteConnect, bthddi/IndicationRemoteConnectLE, bthddi/IndicationRemoteDisconnect, bthddi/IndicationUnpairDevice, bthddi/IndicationUnpersonalizeDevice, bthddi/PINDICATION_CODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -189,11 +189,7 @@ A value from this enumeration is passed to a profile driver's
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
@@ -201,7 +197,11 @@ A value from this enumeration is passed to a profile driver's
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
 
 

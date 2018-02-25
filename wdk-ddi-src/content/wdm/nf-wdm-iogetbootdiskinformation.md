@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 744d5eae-2bdf-46b0-9412-f73e55939d8b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, kernel.iogetbootdiskinformation, IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], wdm/IoGetBootDiskInformation
+ms.keywords: ",  , B, D, G, I, IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], a, e, f, i, k, k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, kernel.iogetbootdiskinformation, m, n, o, r, s, t, wdm/IoGetBootDiskInformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,7 +119,7 @@ The value of <i>Size</i> is less than the size, in bytes, of a <b>BOOTDISK_INFOR
 </dl>
 </td>
 <td width="60%">
-The driver called the routine after the system has already booted. Only boot and system drivers can call <b>IoGetBootDiskInformation</b>, and then only in their <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
+The driver called the routine after the system has already booted. Only boot and system drivers can call <b>IoGetBootDiskInformation</b>, and then only in their <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
 
 </td>
 </tr>
@@ -144,15 +144,15 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
 
 
 
 <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
+
+
+
+<a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a>
 
 
 

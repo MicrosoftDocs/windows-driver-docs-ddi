@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7699214a-0cd2-401a-9f66-199d181abce4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_66b283a1-deee-4a49-a02d-217567d35873.xml, d3dkmthk/D3DKMTDestroyDevice, D3DKMTDestroyDevice function [Display Devices], D3DKMTDestroyDevice, display.d3dkmtdestroydevice
+ms.keywords: ",  , 3, D, D3DKMTDestroyDevice, D3DKMTDestroyDevice function [Display Devices], K, M, OpenGL_Functions_66b283a1-deee-4a49-a02d-217567d35873.xml, T, c, d3dkmthk/D3DKMTDestroyDevice, display.d3dkmtdestroydevice, e, i, o, r, s, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

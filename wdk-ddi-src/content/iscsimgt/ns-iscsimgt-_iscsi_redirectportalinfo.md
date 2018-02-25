@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 90d9c5e9-4bdf-4c7a-b5ac-54e1f94818bf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ISCSI_RedirectPortalInfo structure [Storage Devices], ISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo, storage.iscsi_redirectportalinfo, iscsimgt/ISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo structure pointer [Storage Devices], iscsimgt/PISCSI_RedirectPortalInfo, structs-iSCSI_6b7dc6ac-b421-4454-aa8f-48f52c9b4350.xml, *PISCSI_RedirectPortalInfo, _ISCSI_RedirectPortalInfo
+ms.keywords: ",  , *, *PISCSI_RedirectPortalInfo, ,, C, I, ISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo structure [Storage Devices], P, PISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo structure pointer [Storage Devices], R, S, _, _ISCSI_RedirectPortalInfo, a, c, d, e, f, i, iscsimgt/ISCSI_RedirectPortalInfo, iscsimgt/PISCSI_RedirectPortalInfo, l, n, o, r, storage.iscsi_redirectportalinfo, structs-iSCSI_6b7dc6ac-b421-4454-aa8f-48f52c9b4350.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

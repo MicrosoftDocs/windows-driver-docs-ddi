@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d6bef242-bafc-4d9e-a729-d62ccdbd2667
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicontrolinterrupt, DxgkDdiControlInterrupt callback function [Display Devices], DxgkDdiControlInterrupt, DXGKDDI_CONTROLINTERRUPT, DXGKDDI_CONTROLINTERRUPT, d3dkmddi/DxgkDdiControlInterrupt, DmFunctions_a124d234-9609-4f21-a1f5-c1f4cfa65d9c.xml
+ms.keywords: DXGKDDI_CONTROLINTERRUPT, DmFunctions_a124d234-9609-4f21-a1f5-c1f4cfa65d9c.xml, DxgkDdiControlInterrupt, DxgkDdiControlInterrupt callback function [Display Devices], d3dkmddi/DxgkDdiControlInterrupt, display.dxgkddicontrolinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -152,15 +152,15 @@ The driver must return STATUS_NOT_IMPLEMENTED if an interrupt type other than DX
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
 
 
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

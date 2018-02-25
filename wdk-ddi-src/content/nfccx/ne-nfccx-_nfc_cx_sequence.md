@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 752451F9-74FC-48A8-B9B8-2CBD381B91D9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SequenceRfDiscStartComplete, nfccx/SequencePreInit, SequenceInitComplete, SequencePreRfDiscStop, nfccx/SequenceShutdownComplete, _NFC_CX_SEQUENCE, PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_SEQUENCE, SequenceNfceeDiscComplete, nfccx/SequenceNfceeDiscComplete, SequencePreNfceeDisc, *PNFC_CX_SEQUENCE, nfccx/SequencePreRfDiscStart, SequencePreInit, SequenceRecoveryComplete, nfccx/SequenceRfDiscStartComplete, SequenceShutdownComplete, SequencePreRecovery, SequencePreShutdown, nfccx/SequencePreNfceeDisc, NFC_CX_SEQUENCE, nfccx/SequenceInitComplete, nfccx/SequenceMaximum, SequenceRfDiscStopComplete, nfccx/SequencePreShutdown, SequencePreRfDiscStart, nfccx/SequencePreRfDiscStop, nfccx/SequenceRecoveryComplete, nfccx/SequenceRfDiscStopComplete, SequenceMaximum, nfccx/SequencePreRecovery, nfpdrivers.nfc_cx_sequence
+ms.keywords: ",  , *, *PNFC_CX_SEQUENCE, ,, C, E, F, N, NFC_CX_SEQUENCE, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], P, PNFC_CX_SEQUENCE, Q, S, SequenceInitComplete, SequenceMaximum, SequenceNfceeDiscComplete, SequencePreInit, SequencePreNfceeDisc, SequencePreRecovery, SequencePreRfDiscStart, SequencePreRfDiscStop, SequencePreShutdown, SequenceRecoveryComplete, SequenceRfDiscStartComplete, SequenceRfDiscStopComplete, SequenceShutdownComplete, U, X, _, _NFC_CX_SEQUENCE, nfccx/NFC_CX_SEQUENCE, nfccx/SequenceInitComplete, nfccx/SequenceMaximum, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreInit, nfccx/SequencePreNfceeDisc, nfccx/SequencePreRecovery, nfccx/SequencePreRfDiscStart, nfccx/SequencePreRfDiscStop, nfccx/SequencePreShutdown, nfccx/SequenceRecoveryComplete, nfccx/SequenceRfDiscStartComplete, nfccx/SequenceRfDiscStopComplete, nfccx/SequenceShutdownComplete, nfpdrivers.nfc_cx_sequence"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -144,11 +144,11 @@ This sequence is invoked by the CX after the completion of the recovery sequence
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ebbb8289-5996-4d99-98b6-e95fd9dc7ec9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorbuildio, HwStorBuildIo routine [Storage Devices], HwStorBuildIo, HW_BUILDIO, HW_BUILDIO, storport/HwStorBuildIo, stormini_3411fed2-32e6-4a3a-a9c3-0bbe0bb514ca.xml
+ms.keywords: HW_BUILDIO, HwStorBuildIo, HwStorBuildIo routine [Storage Devices], storage.hwstorbuildio, stormini_3411fed2-32e6-4a3a-a9c3-0bbe0bb514ca.xml, storport/HwStorBuildIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -212,7 +212,7 @@ SRB_FUNCTION_FLUSH
 
 </td>
 <td>
-Only performed by the miniport driver if it sets <b>CachesData</b> == <b>TRUE</b> in the <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. Instructs the miniport driver to flush all cached data.
+Only performed by the miniport driver if it sets <b>CachesData</b> == <b>TRUE</b> in the <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. Instructs the miniport driver to flush all cached data.
 
 </td>
 <td>
@@ -226,7 +226,7 @@ SRB_FUNCTION_SHUTDOWN
 
 </td>
 <td>
-Only performed by the miniport driver if it sets <b>CachesData</b> == <b>TRUE</b> in the <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. Instructs the miniport driver to flush all cached data preparatory to shut down.
+Only performed by the miniport driver if it sets <b>CachesData</b> == <b>TRUE</b> in the <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. Instructs the miniport driver to flush all cached data preparatory to shut down.
 
 </td>
 <td>
@@ -267,7 +267,7 @@ Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.
 </table>
  
 
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
 For more information about what you can and cannot do safely in this miniport driver routine, see <a href="https://msdn.microsoft.com/6b18e3ff-30dd-414b-99b5-4bb914660a67">Unsynchronized HwStorBuildIo Routine</a>. 
 
@@ -315,23 +315,19 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
+
 <a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
 
 
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-
-
-
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
@@ -339,7 +335,11 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+
+
+<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
 
 

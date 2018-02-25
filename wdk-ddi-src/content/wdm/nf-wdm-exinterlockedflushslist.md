@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 98fcada7-5160-4eb2-ac7c-0ab1192340a9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, kernel.exinterlockedflushslist, ExInterlockedFlushSList, wdm/ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , E, ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], F, I, L, S, c, d, e, h, i, k, k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, kernel.exinterlockedflushslist, l, n, o, r, s, t, u, wdm/ExInterlockedFlushSList, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

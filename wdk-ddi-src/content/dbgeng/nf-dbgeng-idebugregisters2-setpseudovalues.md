@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, SetPseudoValues method [Windows Debugging], IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, SetPseudoValues, IDebugRegisters2, IDebugRegisters2::SetPseudoValues
+ms.keywords: ",  , ,, ., 2, :, D, I, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, P, R, S, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, SetPseudoValues,IDebugRegisters2.SetPseudoValues, V, a, b, d, dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues, e, g, i, l, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

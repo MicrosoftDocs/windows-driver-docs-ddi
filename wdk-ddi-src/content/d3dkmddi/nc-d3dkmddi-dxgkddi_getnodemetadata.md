@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddigetnodemetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], DxgkDdiGetNodeMetadata, DXGKDDI_GETNODEMETADATA, DXGKDDI_GETNODEMETADATA, d3dkmddi/DxgkDdiGetNodeMetadata
+ms.keywords: DXGKDDI_GETNODEMETADATA, DxgkDdiGetNodeMetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], d3dkmddi/DxgkDdiGetNodeMetadata, display.dxgkddigetnodemetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,11 +144,11 @@ For more information on how to implement this function, see <a href="https://msd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a>
 
 
 

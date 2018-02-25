@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 00c6c94e-06a8-40ec-8ddd-4a4191fa1ec6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RemoveConnectionFromSession_OUT structure [Storage Devices], structs-iSCSI_a986a037-b861-4c2b-8402-86dbf7c09942.xml, iscsiop/RemoveConnectionFromSession_OUT, PRemoveConnectionFromSession_OUT structure pointer [Storage Devices], storage.removeconnectionfromsession_out, *PRemoveConnectionFromSession_OUT, PRemoveConnectionFromSession_OUT, iscsiop/PRemoveConnectionFromSession_OUT, _RemoveConnectionFromSession_OUT, RemoveConnectionFromSession_OUT
+ms.keywords: ",  , *, *PRemoveConnectionFromSession_OUT, ,, C, F, O, P, PRemoveConnectionFromSession_OUT, PRemoveConnectionFromSession_OUT structure pointer [Storage Devices], R, RemoveConnectionFromSession_OUT, RemoveConnectionFromSession_OUT structure [Storage Devices], S, T, U, _, _RemoveConnectionFromSession_OUT, c, e, i, iscsiop/PRemoveConnectionFromSession_OUT, iscsiop/RemoveConnectionFromSession_OUT, m, n, o, r, s, storage.removeconnectionfromsession_out, structs-iSCSI_a986a037-b861-4c2b-8402-86dbf7c09942.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

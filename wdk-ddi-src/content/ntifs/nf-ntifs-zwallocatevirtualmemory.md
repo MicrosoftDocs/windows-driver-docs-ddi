@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/ZwAllocateVirtualMemory, ntifs/NtAllocateVirtualMemory, ZwAllocateVirtualMemory, k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwallocatevirtualmemory, NtAllocateVirtualMemory
+ms.keywords: ",  , A, M, NtAllocateVirtualMemory, V, Z, ZwAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], a, c, e, i, k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.zwallocatevirtualmemory, l, m, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory, o, r, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

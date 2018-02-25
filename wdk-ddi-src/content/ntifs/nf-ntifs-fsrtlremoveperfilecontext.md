@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1a4b6759-84d9-4731-8920-ef6ea1e51102
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlRemovePerFileContext, ntifs/FsRtlRemovePerFileContext, ifsk.fsrtlremoveperfilecontext, fsrtlref_90f829b2-a8ed-44fd-adb3-61c57f5f9aad.xml, FsRtlRemovePerFileContext routine [Installable File System Drivers]
+ms.keywords: ",  , C, F, FsRtlRemovePerFileContext, FsRtlRemovePerFileContext routine [Installable File System Drivers], P, R, e, fsrtlref_90f829b2-a8ed-44fd-adb3-61c57f5f9aad.xml, i, ifsk.fsrtlremoveperfilecontext, l, m, n, ntifs/FsRtlRemovePerFileContext, o, r, s, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,11 +120,11 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtllookupperfilecontext.md">FsRtlLookupPerFileContext</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
 
 
 
@@ -132,7 +132,7 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
 
 
 

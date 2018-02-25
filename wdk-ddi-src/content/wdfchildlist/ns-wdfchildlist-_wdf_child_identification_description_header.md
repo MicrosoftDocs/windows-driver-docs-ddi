@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9bec95c9-785f-4578-a28a-6cffc986a3b9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure pointer, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure, wdf.wdf_child_identification_description_header, DFDeviceObjectChildListRef_543d7f3d-e182-4147-a1cb-62d39fdde4e3.xml, kmdf.wdf_child_identification_description_header, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+ms.keywords: ",  , *, *PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, ,, A, C, D, DFDeviceObjectChildListRef_543d7f3d-e182-4147-a1cb-62d39fdde4e3.xml, E, F, H, I, L, N, O, P, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure pointer, R, S, T, W, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure, _, _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, kmdf.wdf_child_identification_description_header, wdf.wdf_child_identification_description_header, wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,7 +122,7 @@ For more information about identification descriptions, see <a href="https://doc
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
 
 
@@ -130,7 +130,7 @@ For more information about identification descriptions, see <a href="https://doc
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
 
 
 

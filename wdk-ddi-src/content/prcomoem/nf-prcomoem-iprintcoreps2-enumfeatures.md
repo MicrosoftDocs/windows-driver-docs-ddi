@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0a8d1b25-da39-4bdc-a7d7-0d472e94e165
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EnumFeatures, IPrintCorePS2::EnumFeatures, print.iprintcoreps2_enumfeatures, IPrintCorePS2 interface [Print Devices], EnumFeatures method, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCorePS2 interface, prcomoem/IPrintCorePS2::EnumFeatures, IPrintCorePS2, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml
+ms.keywords: ",  , ,, ., 2, :, C, E, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCorePS2 interface, EnumFeatures,IPrintCorePS2.EnumFeatures, F, I, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], EnumFeatures method, IPrintCorePS2::EnumFeatures, P, S, a, e, i, m, n, o, prcomoem/IPrintCorePS2::EnumFeatures, print.iprintcoreps2_enumfeatures, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -183,11 +183,11 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 144429e5-34e6-4416-980e-2838e8f9e415
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbgethandledata, DxgkCbGetHandleData callback function [Display Devices], DxgkCbGetHandleData, DXGKCB_GETHANDLEDATA, DXGKCB_GETHANDLEDATA, d3dkmddi/DxgkCbGetHandleData, DpFunctions_74327569-9de1-4396-928b-0350e622740f.xml
+ms.keywords: DXGKCB_GETHANDLEDATA, DpFunctions_74327569-9de1-4396-928b-0350e622740f.xml, DxgkCbGetHandleData, DxgkCbGetHandleData callback function [Display Devices], d3dkmddi/DxgkCbGetHandleData, display.dxgkcbgethandledata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -155,11 +155,11 @@ DxgkDdiOpenAllocation(
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_gethandledata.md">DXGKARGCB_GETHANDLEDATA</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 
 

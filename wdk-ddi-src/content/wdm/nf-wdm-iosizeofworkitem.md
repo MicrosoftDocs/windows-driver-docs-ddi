@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 389f0776-1010-4f3c-b5c5-b8807ff07130
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iosizeofworkitem, k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], IoSizeofWorkItem, wdm/IoSizeofWorkItem
+ms.keywords: ",  , I, IoSizeofWorkItem, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], S, W, e, f, i, k, k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml, kernel.iosizeofworkitem, m, o, r, t, wdm/IoSizeofWorkItem, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,11 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>
 
 
 

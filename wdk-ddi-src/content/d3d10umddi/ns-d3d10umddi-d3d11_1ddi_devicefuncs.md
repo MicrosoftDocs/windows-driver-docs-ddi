@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5429D886-4CC0-438D-AC9F-739159802062
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d10umddi/D3D11_1DDI_DEVICEFUNCS, display.d3d11_1ddi_devicefuncs, D3D11_1DDI_DEVICEFUNCS structure [Display Devices], D3D11_1DDI_DEVICEFUNCS
+ms.keywords: ",  , ,, 1, 3, C, D, D3D11_1DDI_DEVICEFUNCS, D3D11_1DDI_DEVICEFUNCS structure [Display Devices], E, F, I, N, S, U, V, _, d3d10umddi/D3D11_1DDI_DEVICEFUNCS, display.d3d11_1ddi_devicefuncs"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -1024,15 +1024,15 @@ For a list of the functions that are not leveraged for deferred contexts, see <a
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 
 

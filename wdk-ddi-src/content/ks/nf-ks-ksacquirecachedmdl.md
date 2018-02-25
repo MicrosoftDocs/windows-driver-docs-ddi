@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: C6C693CC-D9C0-4EE8-9F8C-07D8665C673D
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PVOID, KsAcquireCachedMdl function [Streaming Media Devices], KsAcquireCachedMdl, GUID, ks/KsAcquireCachedMdl, stream.ksacquirecachedmdl
+ms.keywords: ",  , A, C, GUID, K, KsAcquireCachedMdl, KsAcquireCachedMdl function [Streaming Media Devices], M, PVOID, a, c, d, e, h, i, ks/KsAcquireCachedMdl, l, q, r, s, stream.ksacquirecachedmdl, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

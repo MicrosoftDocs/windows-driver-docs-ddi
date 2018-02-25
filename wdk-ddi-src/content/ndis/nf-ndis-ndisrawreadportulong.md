@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40ecda3a-67ff-48b6-8ee9-7527c7bd9c6c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisRawReadPortUlong, ndis/NdisRawReadPortUlong, NdisRawReadPortUlong macro [Network Drivers Starting with Windows Vista], netvista.ndisrawreadportulong, miniport_port_raw_ref_a5c1ea12-2ff0-4546-9244-8137c365eb8f.xml
+ms.keywords: ",  , N, NdisRawReadPortUlong, NdisRawReadPortUlong macro [Network Drivers Starting with Windows Vista], P, R, U, a, d, e, g, i, l, miniport_port_raw_ref_a5c1ea12-2ff0-4546-9244-8137c365eb8f.xml, n, ndis/NdisRawReadPortUlong, netvista.ndisrawreadportulong, o, r, s, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -94,18 +94,6 @@ Pointer to a caller-supplied variable in which this function returns a ULONG val
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
 
 
@@ -114,7 +102,19 @@ Pointer to a caller-supplied variable in which this function returns a ULONG val
 
 
 
+<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 

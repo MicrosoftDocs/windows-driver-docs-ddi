@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06be6c3b-cc1a-4e57-8700-03357215d624
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KeSaveExtendedProcessorState, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY_SSE, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml, kernel.kesaveextendedprocessorstate, KeSaveExtendedProcessorState
+ms.keywords: ",  , E, K, KeSaveExtendedProcessorState, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], P, S, XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, XSTATE_MASK_LEGACY_SSE, a, c, d, e, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml, kernel.kesaveextendedprocessorstate, n, o, r, s, t, v, wdm/KeSaveExtendedProcessorState, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -182,11 +182,7 @@ The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState
 
 
 
-<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
+<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
 
 
 
@@ -194,7 +190,11 @@ The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState
 
 
 
-<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
+<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
 
 
 

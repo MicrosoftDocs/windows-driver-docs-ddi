@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7ebe58d-8e87-437f-b556-408610fa654e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], PWWAN_SMS_STATUS, WWAN_SMS_STATUS, netvista.wwan_sms_status, _WWAN_SMS_STATUS, wwan/WWAN_SMS_STATUS, *PWWAN_SMS_STATUS, WwanRef_5468242f-eb44-4ece-92a2-02524eb0d196.xml, wwan/PWWAN_SMS_STATUS
+ms.keywords: ",  , *, *PWWAN_SMS_STATUS, ,, A, M, N, P, PWWAN_SMS_STATUS, PWWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], S, T, U, W, WWAN_SMS_STATUS, WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], WwanRef_5468242f-eb44-4ece-92a2-02524eb0d196.xml, _, _WWAN_SMS_STATUS, netvista.wwan_sms_status, wwan/PWWAN_SMS_STATUS, wwan/WWAN_SMS_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

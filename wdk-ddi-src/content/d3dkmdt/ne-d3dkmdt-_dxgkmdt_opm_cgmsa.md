@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1318d00e-aac3-4ff2-89a2-bcabcdff6331
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, _DXGKMDT_OPM_CGMSA, DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, DXGKMDT_OPM_CGMSA_COPY_NO_MORE, DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, display.dxgkmdt_opm_cgmsa, DmEnums_94737355-e3ff-4e00-9dbe-9d954e462f54.xml, DXGKMDT_OPM_CGMSA_OFF, DXGKMDT_OPM_CGMSA enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, d3dkmdt/DXGKMDT_OPM_CGMSA_OFF, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_FREELY, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NO_MORE, d3dkmdt/DXGKMDT_OPM_CGMSA, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NEVER, DXGKMDT_OPM_CGMSA_COPY_NEVER, DXGKMDT_OPM_CGMSA_COPY_FREELY, DXGKMDT_OPM_CGMSA
+ms.keywords: ",  , ,, A, C, D, DXGKMDT_OPM_CGMSA, DXGKMDT_OPM_CGMSA enumeration [Display Devices], DXGKMDT_OPM_CGMSA_COPY_FREELY, DXGKMDT_OPM_CGMSA_COPY_NEVER, DXGKMDT_OPM_CGMSA_COPY_NO_MORE, DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, DXGKMDT_OPM_CGMSA_OFF, DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, DmEnums_94737355-e3ff-4e00-9dbe-9d954e462f54.xml, G, K, M, O, P, S, T, X, _, _DXGKMDT_OPM_CGMSA, d3dkmdt/DXGKMDT_OPM_CGMSA, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_FREELY, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NEVER, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NO_MORE, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, d3dkmdt/DXGKMDT_OPM_CGMSA_OFF, d3dkmdt/DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, display.dxgkmdt_opm_cgmsa"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -123,6 +123,10 @@ CGMS-A protects analog TV signals. Currently, OPM can use CGMS-A to protect sign
 
 
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
 
 
@@ -132,10 +136,6 @@ CGMS-A protects analog TV signals. Currently, OPM can use CGMS-A to protect sign
 
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 

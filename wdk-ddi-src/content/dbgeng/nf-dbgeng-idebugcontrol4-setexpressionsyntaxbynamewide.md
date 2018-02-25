@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cad4ee84-333a-49ff-a087-da0e36b87989
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SetExpressionSyntaxByNameWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide, debugger.setexpressionsyntaxbynamewide, IDebugControl4, SetExpressionSyntaxByNameWide, IDebugControl4 interface [Windows Debugging], SetExpressionSyntaxByNameWide method, IDebugControl4::SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide method [Windows Debugging]
+ms.keywords: ",  , ,, ., 4, :, B, C, D, E, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], SetExpressionSyntaxByNameWide method, IDebugControl4::SetExpressionSyntaxByNameWide, N, S, SetExpressionSyntaxByNameWide method [Windows Debugging], SetExpressionSyntaxByNameWide method [Windows Debugging], IDebugControl4 interface, SetExpressionSyntaxByNameWide,IDebugControl4.SetExpressionSyntaxByNameWide, W, a, b, d, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide, debugger.setexpressionsyntaxbynamewide, e, g, i, l, m, n, o, p, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -129,15 +129,15 @@ After the expression syntax has been changed, the engine sends out notification 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
 
 

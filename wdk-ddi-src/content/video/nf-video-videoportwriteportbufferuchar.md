@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b07cd86b-a980-478b-832b-484a1b0ca981
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPort_Functions_c7f29624-d08d-437f-8b03-6f6f3b1f27b9.xml, video/VideoPortWritePortBufferUchar, display.videoportwriteportbufferuchar, VideoPortWritePortBufferUchar, VideoPortWritePortBufferUchar function [Display Devices]
+ms.keywords: ",  , B, P, U, V, VideoPortWritePortBufferUchar, VideoPortWritePortBufferUchar function [Display Devices], VideoPort_Functions_c7f29624-d08d-437f-8b03-6f6f3b1f27b9.xml, W, a, c, d, display.videoportwriteportbufferuchar, e, f, h, i, o, r, t, u, video/VideoPortWritePortBufferUchar"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

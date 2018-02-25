@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e5cbf7-62c7-458d-a527-2508a8a5d066
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFUsbTargetPipe::Flush, umdf.iwdfusbtargetpipe_flush, IWDFUsbTargetPipe, Flush method, Flush method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, wdf.iwdfusbtargetpipe_flush, Flush, IWDFUsbTargetPipe interface, Flush method
+ms.keywords: ",  , ,, ., :, D, F, Flush method, Flush method, IWDFUsbTargetPipe interface, Flush,IWDFUsbTargetPipe.Flush, I, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, Flush method, IWDFUsbTargetPipe::Flush, P, T, U, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, W, a, b, e, g, h, i, l, p, r, s, t, u, umdf.iwdfusbtargetpipe_flush, wdf.iwdfusbtargetpipe_flush, wudfusb/IWDFUsbTargetPipe::Flush"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

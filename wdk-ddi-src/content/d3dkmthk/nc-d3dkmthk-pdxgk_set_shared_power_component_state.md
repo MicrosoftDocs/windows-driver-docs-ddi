@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 779072A4-A82B-4251-93F5-5B6C7ED0598E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pdxgk_set_shared_power_component_state, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function [Display Devices], PDXGK_SET_SHARED_POWER_COMPONENT_STATE, d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE
+ms.keywords: PDXGK_SET_SHARED_POWER_COMPONENT_STATE, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function [Display Devices], d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE, display.pdxgk_set_shared_power_component_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

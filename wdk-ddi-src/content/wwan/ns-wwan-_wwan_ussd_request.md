@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 429F5EC9-F8AA-4D5D-9CA7-D9D9AEC46842
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_USSD_REQUEST, WWAN_USSD_REQUEST, PWWAN_USSD_REQUEST, WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], *PWWAN_USSD_REQUEST, wwan/PWWAN_USSD_REQUEST, _WWAN_USSD_REQUEST, netvista.wwan_ussd_request
+ms.keywords: ",  , *, *PWWAN_USSD_REQUEST, ,, A, D, E, N, P, PWWAN_USSD_REQUEST, PWWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], Q, R, S, T, U, W, WWAN_USSD_REQUEST, WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], _, _WWAN_USSD_REQUEST, netvista.wwan_ussd_request, wwan/PWWAN_USSD_REQUEST, wwan/WWAN_USSD_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,11 @@ The USSD string that accompanies the request.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_ussd_request_type.md">WWAN_USSD_REQUEST_TYPE</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_ussd_string.md">WWAN_USSD_STRING</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_ussd_request_type.md">WWAN_USSD_REQUEST_TYPE</a>
 
 
 

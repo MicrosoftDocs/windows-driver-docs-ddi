@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7008875-f820-41ae-812f-304391240c34
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringCopyStringEx, kernel.rtlunicodestringcopystringex, RtlUnicodeStringCopyStringEx, RtlUnicodeStringCopyStringEx function [Kernel-Mode Driver Architecture], safestrings_fdb0a962-cf2b-4e58-a1c5-351d57b2e73e.xml
+ms.keywords: ",  , C, E, R, RtlUnicodeStringCopyStringEx, RtlUnicodeStringCopyStringEx function [Kernel-Mode Driver Architecture], S, U, c, d, e, g, i, kernel.rtlunicodestringcopystringex, l, n, ntstrsafe/RtlUnicodeStringCopyStringEx, o, p, r, safestrings_fdb0a962-cf2b-4e58-a1c5-351d57b2e73e.xml, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -210,11 +210,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcopystring.md">RtlUnicodeStringCopyString</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcopystring.md">RtlUnicodeStringCopyString</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: aa7d5802-d1d0-4c7c-bf55-0f0b5b664113
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_internal_i8042_mouse_start_information, IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control code [Human Input Devices], IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION, i8042ref_c4c81870-f104-4979-86e3-03bd376e34ce.xml
+ms.keywords: IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION, IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control code [Human Input Devices], hid.ioctl_internal_i8042_mouse_start_information, i8042ref_c4c81870-f104-4979-86e3-03bd376e34ce.xml, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

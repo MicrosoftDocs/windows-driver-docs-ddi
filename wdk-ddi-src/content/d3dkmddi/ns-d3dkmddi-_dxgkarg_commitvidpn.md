@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d297d917-fc49-454a-aacd-4db0ac7a09c2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGKARG_COMMITVIDPN, DXGKARG_COMMITVIDPN structure [Display Devices], DXGKARG_COMMITVIDPN, DmStructs_c5fd5803-c93b-4000-94b3-3adcb37dd6c1.xml, display.dxgkarg_commitvidpn, _DXGKARG_COMMITVIDPN
+ms.keywords: ",  , ,, A, C, D, DXGKARG_COMMITVIDPN, DXGKARG_COMMITVIDPN structure [Display Devices], DmStructs_c5fd5803-c93b-4000-94b3-3adcb37dd6c1.xml, G, I, K, M, N, O, P, R, T, V, X, _, _DXGKARG_COMMITVIDPN, d3dkmddi/DXGKARG_COMMITVIDPN, display.dxgkarg_commitvidpn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,11 +107,11 @@ The D3DDDI_ID_ALL constant is defined in <i>D3dukmddi.h</i>.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_connectivity_checks.md">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_connectivity_checks.md">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a>
 
 
 

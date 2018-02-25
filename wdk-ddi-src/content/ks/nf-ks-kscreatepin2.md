@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 43408247-0c34-46bd-a36b-b11540a10c55
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kscreatepin2, ks/KsCreatePin2, KsCreatePin2 function [Streaming Media Devices], KsCreatePin2
+ms.keywords: ",  , 2, C, K, KsCreatePin2, KsCreatePin2 function [Streaming Media Devices], P, a, e, i, ks/KsCreatePin2, n, r, s, stream.kscreatepin2, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,7 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin2</b> cre
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
-<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -128,7 +124,11 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin2</b> cre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 

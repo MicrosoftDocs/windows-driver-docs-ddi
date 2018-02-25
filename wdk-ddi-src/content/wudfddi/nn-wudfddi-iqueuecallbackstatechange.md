@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39c66462-015d-49ba-9a37-0b3b928e5fbf
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iqueuecallbackstatechange, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface, described, IQueueCallbackStateChange, wudfddi/IQueueCallbackStateChange, UMDFQueueObjectRef_57a57868-6a9d-42b3-8c74-ceb6c4be03c3.xml, umdf.iqueuecallbackstatechange
+ms.keywords: IQueueCallbackStateChange, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface, described, UMDFQueueObjectRef_57a57868-6a9d-42b3-8c74-ceb6c4be03c3.xml, umdf.iqueuecallbackstatechange, wdf.iqueuecallbackstatechange, wudfddi/IQueueCallbackStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

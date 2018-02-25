@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 15231188-5c6d-4e36-afe9-74b92f445fa3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/PLogoutFromTarget_OUT, storage.logoutfromtarget_out, LogoutFromTarget_OUT structure [Storage Devices], structs-iSCSI_3ef612e0-305e-4015-8b77-5c2577e2b6aa.xml, _LogoutFromTarget_OUT, iscsiop/LogoutFromTarget_OUT, *PLogoutFromTarget_OUT, PLogoutFromTarget_OUT structure pointer [Storage Devices], LogoutFromTarget_OUT, PLogoutFromTarget_OUT
+ms.keywords: ",  , *, *PLogoutFromTarget_OUT, ,, F, L, LogoutFromTarget_OUT, LogoutFromTarget_OUT structure [Storage Devices], O, P, PLogoutFromTarget_OUT, PLogoutFromTarget_OUT structure pointer [Storage Devices], T, U, _, _LogoutFromTarget_OUT, a, e, g, iscsiop/LogoutFromTarget_OUT, iscsiop/PLogoutFromTarget_OUT, m, o, r, storage.logoutfromtarget_out, structs-iSCSI_3ef612e0-305e-4015-8b77-5c2577e2b6aa.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,6 +83,10 @@ You must implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561602">LogoutFromTarget</a>
 
 
@@ -91,15 +95,11 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_in.md">LogoutFromTarget_IN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_in.md">LogoutFromTarget_IN</a>
 
 
 

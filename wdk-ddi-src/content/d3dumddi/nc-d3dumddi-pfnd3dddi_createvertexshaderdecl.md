@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 00c53e81-93db-46b8-b65c-c8d62059452a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createvertexshaderdecl, CreateVertexShaderDecl callback function [Display Devices], CreateVertexShaderDecl, PFND3DDDI_CREATEVERTEXSHADERDECL, PFND3DDDI_CREATEVERTEXSHADERDECL, d3dumddi/CreateVertexShaderDecl, UserModeDisplayDriver_Functions_9b214e45-8b3c-49e9-ae72-6b7c2391c256.xml
+ms.keywords: CreateVertexShaderDecl, CreateVertexShaderDecl callback function [Display Devices], PFND3DDDI_CREATEVERTEXSHADERDECL, UserModeDisplayDriver_Functions_9b214e45-8b3c-49e9-ae72-6b7c2391c256.xml, d3dumddi/CreateVertexShaderDecl, display.createvertexshaderdecl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -118,15 +118,15 @@ For more information about programming shader assemblers, see <a href="https://m
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderdecl.md">D3DDDIARG_CREATEVERTEXSHADERDECL</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddivertexelement.md">D3DDDIVERTEXELEMENT</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderdecl.md">D3DDDIARG_CREATEVERTEXSHADERDECL</a>
 
 
 

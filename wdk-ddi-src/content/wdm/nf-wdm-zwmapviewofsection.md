@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2abe7751-ef8c-4511-aaf6-755428c451fe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NtMapViewOfSection, wdm/ZwMapViewOfSection, k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, ZwMapViewOfSection, wdm/NtMapViewOfSection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], kernel.zwmapviewofsection
+ms.keywords: ",  , M, NtMapViewOfSection, O, S, V, Z, ZwMapViewOfSection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], a, c, e, f, i, k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, kernel.zwmapviewofsection, n, o, p, t, w, wdm/NtMapViewOfSection, wdm/ZwMapViewOfSection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -230,23 +230,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">ZwCurrentProcess</a>
 
 
 
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+<a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
 
 
@@ -254,7 +242,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

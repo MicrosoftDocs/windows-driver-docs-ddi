@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0c23e72d-3eb9-4511-a386-1dcc2f4910b7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbquerymonitorinterface, DxgkCbQueryMonitorInterface callback function [Display Devices], DxgkCbQueryMonitorInterface, DXGKCB_QUERYMONITORINTERFACE, DXGKCB_QUERYMONITORINTERFACE, d3dkmddi/DxgkCbQueryMonitorInterface, DpFunctions_6d1b7fa2-c5ab-4fd0-8a60-740c5415777c.xml
+ms.keywords: DXGKCB_QUERYMONITORINTERFACE, DpFunctions_6d1b7fa2-c5ab-4fd0-8a60-740c5415777c.xml, DxgkCbQueryMonitorInterface, DxgkCbQueryMonitorInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryMonitorInterface, display.dxgkcbquerymonitorinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

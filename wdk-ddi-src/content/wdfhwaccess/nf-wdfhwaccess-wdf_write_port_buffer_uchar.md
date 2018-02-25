@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 744189F3-07D1-42F2-986C-70BEBE760123
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_WRITE_PORT_BUFFER_UCHAR, wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR, wdf.wdf_write_port_buffer_uchar, WDF_WRITE_PORT_BUFFER_UCHAR function
+ms.keywords: ",  , A, B, C, D, E, F, H, I, O, P, R, T, U, W, WDF_WRITE_PORT_BUFFER_UCHAR, WDF_WRITE_PORT_BUFFER_UCHAR function, _, wdf.wdf_write_port_buffer_uchar, wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d6b0682a-bce2-40d3-a69b-cf676c21d253
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_set_drive_layout, IOCTL_DISK_SET_DRIVE_LAYOUT control code [Storage Devices], IOCTL_DISK_SET_DRIVE_LAYOUT, ntdddisk/IOCTL_DISK_SET_DRIVE_LAYOUT, k307_53d3cc3b-a829-432a-8ee0-9a2035d08a62.xml
+ms.keywords: IOCTL_DISK_SET_DRIVE_LAYOUT, IOCTL_DISK_SET_DRIVE_LAYOUT control code [Storage Devices], k307_53d3cc3b-a829-432a-8ee0-9a2035d08a62.xml, ntdddisk/IOCTL_DISK_SET_DRIVE_LAYOUT, storage.ioctl_disk_set_drive_layout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

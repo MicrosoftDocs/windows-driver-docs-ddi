@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a39fac12-f284-4b3a-a9ab-ae75934f810e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.tapeminitapeerror, (*TAPE_ERROR_ROUTINE) routine [Storage Devices], (*TAPE_ERROR_ROUTINE), TAPE_ERROR_ROUTINE, TAPE_ERROR_ROUTINE, minitape/(*TAPE_ERROR_ROUTINE), tapemini_cf0f724e-63c4-4923-a59e-508c45dac6d9.xml
+ms.keywords: "(*TAPE_ERROR_ROUTINE), (*TAPE_ERROR_ROUTINE) routine [Storage Devices], TAPE_ERROR_ROUTINE, minitape/(*TAPE_ERROR_ROUTINE), storage.tapeminitapeerror, tapemini_cf0f724e-63c4-4923-a59e-508c45dac6d9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -121,15 +121,15 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 
 
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 <a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
 
 
 
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+
+
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

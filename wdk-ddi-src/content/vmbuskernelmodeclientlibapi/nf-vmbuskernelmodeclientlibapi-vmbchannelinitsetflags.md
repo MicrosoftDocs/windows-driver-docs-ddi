@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12525F3C-12D6-477E-8C7D-3DE9AAA044AE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetFlags, VmbChannelInitSetFlags, VmbChannelInitSetFlags function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetflags
+ms.keywords: ",  , C, F, I, S, V, VmbChannelInitSetFlags, VmbChannelInitSetFlags function [Network Drivers Starting with Windows Vista], a, b, e, g, h, i, l, m, n, netvista.vmbchannelinitsetflags, s, t, vmbuskernelmodeclientlibapi/VmbChannelInitSetFlags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

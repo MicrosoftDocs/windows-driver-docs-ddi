@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cb531a0e-c934-4f3e-9b92-07eb3ab75673
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeyHandleTagsInformation, wdm/KeyCachedInformation, KeyBasicInformation, wdm/KeyFlagsInformation, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, KeyFullInformation, KeyCachedInformation, KeyFlagsInformation, KeyVirtualizationInformation, KeyNodeInformation, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/MaxKeyInfoClass, kernel.key_information_class, wdm/KeyBasicInformation, wdm/KeyNameInformation, MaxKeyInfoClass, KeyNameInformation, wdm/KeyNodeInformation, _KEY_INFORMATION_CLASS, wdm/KeyVirtualizationInformation, KEY_INFORMATION_CLASS, wdm/KEY_INFORMATION_CLASS, wdm/KeyHandleTagsInformation, wdm/KeyFullInformation
+ms.keywords: ",  , ,, A, C, E, F, I, K, KEY_INFORMATION_CLASS, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyBasicInformation, KeyCachedInformation, KeyFlagsInformation, KeyFullInformation, KeyHandleTagsInformation, KeyNameInformation, KeyNodeInformation, KeyVirtualizationInformation, L, M, MaxKeyInfoClass, N, O, R, S, T, Y, _, _KEY_INFORMATION_CLASS, kernel.key_information_class, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, wdm/KEY_INFORMATION_CLASS, wdm/KeyBasicInformation, wdm/KeyCachedInformation, wdm/KeyFlagsInformation, wdm/KeyFullInformation, wdm/KeyHandleTagsInformation, wdm/KeyNameInformation, wdm/KeyNodeInformation, wdm/KeyVirtualizationInformation, wdm/MaxKeyInfoClass"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -138,23 +138,7 @@ Use the <b>KEY_INFORMATION_CLASS</b> values to specify the type of data to be su
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
 
 
@@ -162,11 +146,27 @@ Use the <b>KEY_INFORMATION_CLASS</b> values to specify the type of data to be su
 
 
 
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
 
 

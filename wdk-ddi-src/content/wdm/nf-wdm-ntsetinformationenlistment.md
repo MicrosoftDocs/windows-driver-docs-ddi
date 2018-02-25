@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c87547b0-a16e-48b5-91ca-c414c5317ac6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ktm_ref_3e37f795-0826-43df-bb96-14f1031437da.xml, NtSetInformationEnlistment, kernel.zwsetinformationenlistment, wdm/ZwSetInformationEnlistment, wdm/NtSetInformationEnlistment, ZwSetInformationEnlistment, ZwSetInformationEnlistment routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , E, I, N, NtSetInformationEnlistment, S, ZwSetInformationEnlistment, ZwSetInformationEnlistment routine [Kernel-Mode Driver Architecture], a, e, f, i, kernel.zwsetinformationenlistment, ktm_ref_3e37f795-0826-43df-bb96-14f1031437da.xml, l, m, n, o, r, s, t, wdm/NtSetInformationEnlistment, wdm/ZwSetInformationEnlistment"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -187,11 +187,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 
@@ -199,11 +199,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

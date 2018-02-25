@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortReadRegisterBufferUchar, storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml, storport/StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar routine [Storage Devices], storage.storportreadregisterbufferuchar
+ms.keywords: ",  , B, P, R, S, StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar routine [Storage Devices], U, a, c, d, e, f, g, h, i, o, r, s, storage.storportreadregisterbufferuchar, storport/StorPortReadRegisterBufferUchar, storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -120,18 +120,18 @@ Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHA
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>.
+For more information, see <a href="..\storport\nf-storport-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
-
-
-
 <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>
+
+
+
+<a href="..\storport\nf-storport-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a06f6757-e125-4f80-9594-a60fa1fef6e4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hba_registerfortargetevents, HBA_RegisterForTargetEvents routine [Storage Devices], fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, HBA_RegisterForTargetEvents, hbaapi/HBA_RegisterForTargetEvents
+ms.keywords: ",  , A, B, E, F, H, HBA_RegisterForTargetEvents, HBA_RegisterForTargetEvents routine [Storage Devices], R, T, _, a, e, fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, g, hbaapi/HBA_RegisterForTargetEvents, i, n, o, r, s, storage.hba_registerfortargetevents, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -205,7 +205,7 @@ To stop event delivery, call <b>HBA_RemoveCallback</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 
 
@@ -213,7 +213,7 @@ To stop event delivery, call <b>HBA_RemoveCallback</b>.
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

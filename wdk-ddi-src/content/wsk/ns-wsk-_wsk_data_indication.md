@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 10af500f-bb3b-427f-86b1-ee075ffc7ac6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wsk/PWSK_DATA_INDICATION, WSK_DATA_INDICATION, _WSK_DATA_INDICATION, wsk/WSK_DATA_INDICATION, netvista.wsk_data_indication, PWSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml, *PWSK_DATA_INDICATION, WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PWSK_DATA_INDICATION, ,, A, C, D, I, K, N, O, P, PWSK_DATA_INDICATION, PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], S, T, W, WSK_DATA_INDICATION, WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], _, _WSK_DATA_INDICATION, netvista.wsk_data_indication, wsk/PWSK_DATA_INDICATION, wsk/WSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,15 +101,15 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
 
 
 

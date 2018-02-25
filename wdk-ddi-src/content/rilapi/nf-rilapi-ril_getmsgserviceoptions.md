@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53e8be7b-dad2-4060-99b1-eca7b7fdb8ff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetMsgServiceOptions, netvista.ril_getmsgserviceoptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetMsgServiceOptions
+ms.keywords: ",  , G, I, L, M, O, R, RIL_GetMsgServiceOptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista], S, _, c, e, g, i, n, netvista.ril_getmsgserviceoptions, o, p, r, rilapi/RIL_GetMsgServiceOptions, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

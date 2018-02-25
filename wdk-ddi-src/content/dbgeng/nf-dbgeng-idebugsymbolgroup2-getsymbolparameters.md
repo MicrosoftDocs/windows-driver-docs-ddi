@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e6390a7c-bbe1-47d7-9411-d710c4ab58a8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbolGroup::GetSymbolParameters, dbgeng/IDebugSymbolGroup::GetSymbolParameters, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, IDebugSymbolGroup, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, IDebugSymbolGroup2, GetSymbolParameters, IDebugSymbolGroup2::GetSymbolParameters, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method, debugger.getsymbolparameters, GetSymbolParameters method [Windows Debugging], GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface
+ms.keywords: ",  , ,, ., 2, :, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, D, G, GetSymbolParameters method [Windows Debugging], GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolParameters,IDebugSymbolGroup.GetSymbolParameters, GetSymbolParameters,IDebugSymbolGroup2.GetSymbolParameters, I, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, IDebugSymbolGroup2::GetSymbolParameters, IDebugSymbolGroup::GetSymbolParameters, P, S, a, b, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, dbgeng/IDebugSymbolGroup::GetSymbolParameters, debugger.getsymbolparameters, e, g, l, m, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,7 +124,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 
@@ -132,7 +132,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

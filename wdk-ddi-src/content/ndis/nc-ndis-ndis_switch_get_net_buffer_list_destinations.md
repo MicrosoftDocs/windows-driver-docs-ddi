@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55B5C0B4-5359-410B-9110-79EDDBA3010C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.GetNetBufferListDestinations, GetNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], GetNetBufferListDestinations, NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS, NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS, ndis/GetNetBufferListDestinations
+ms.keywords: GetNetBufferListDestinations, GetNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS, ndis/GetNetBufferListDestinations, netvista.GetNetBufferListDestinations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -148,15 +148,15 @@ For more information, see <a href="https://msdn.microsoft.com/44338441-160C-4CD1
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
 <a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

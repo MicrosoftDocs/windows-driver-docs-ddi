@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: d3926476-758d-4bc0-a1e8-114dc47dc846
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_get_modemstatus, IOCTL_SERIAL_GET_MODEMSTATUS control code [Serial Ports], IOCTL_SERIAL_GET_MODEMSTATUS, ntddser/IOCTL_SERIAL_GET_MODEMSTATUS, serref_6948e4a9-43c8-4ebe-9a0c-c47a2d3f1a7a.xml
+ms.keywords: IOCTL_SERIAL_GET_MODEMSTATUS, IOCTL_SERIAL_GET_MODEMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_MODEMSTATUS, serports.ioctl_serial_get_modemstatus, serref_6948e4a9-43c8-4ebe-9a0c-c47a2d3f1a7a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

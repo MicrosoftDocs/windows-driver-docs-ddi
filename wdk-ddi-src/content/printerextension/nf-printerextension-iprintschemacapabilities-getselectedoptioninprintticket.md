@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6FAAEDFA-BABC-4406-8A8E-CACFCE3A38B5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities, GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface, print.iprintschemacapabilities_getselectedoptioninprintticket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, IPrintSchemaCapabilities interface [Print Devices], GetSelectedOptionInPrintTicket method, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
+ms.keywords: ",  , ,, ., :, C, G, GetSelectedOptionInPrintTicket method [Print Devices], GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface, GetSelectedOptionInPrintTicket,IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket, I, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], GetSelectedOptionInPrintTicket method, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, O, P, S, T, a, b, c, d, e, h, i, k, l, m, n, o, p, print.iprintschemacapabilities_getselectedoptioninprintticket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,11 +101,11 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 

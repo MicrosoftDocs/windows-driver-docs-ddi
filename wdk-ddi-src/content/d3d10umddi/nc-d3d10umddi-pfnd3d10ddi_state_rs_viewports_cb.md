@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9390ddca-4658-4853-a45c-9fb306bbdef8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstatersviewportscb, pfnStateRsViewportsCb callback function [Display Devices], pfnStateRsViewportsCb, PFND3D10DDI_STATE_RS_VIEWPORTS_CB, PFND3D10DDI_STATE_RS_VIEWPORTS_CB, d3d10umddi/pfnStateRsViewportsCb, d3d10state_functions_ed84e257-d988-47db-a588-800a7c74ed45.xml
+ms.keywords: PFND3D10DDI_STATE_RS_VIEWPORTS_CB, d3d10state_functions_ed84e257-d988-47db-a588-800a7c74ed45.xml, d3d10umddi/pfnStateRsViewportsCb, display.pfnstatersviewportscb, pfnStateRsViewportsCb, pfnStateRsViewportsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5c2d5d5-550e-42e5-b86a-f17e361925dc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.mmsecurevirtualmemory, MmSecureVirtualMemory, k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml
+ms.keywords: ",  , M, MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], S, V, a, c, e, i, k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, kernel.mmsecurevirtualmemory, l, m, ntddk/MmSecureVirtualMemory, o, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

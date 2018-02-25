@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 959bc46a-c574-4130-a83d-22a695d0d891
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_TCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, ndischimney/PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml, *PTCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], netvista.tcp_offload_stats, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: ",  , *, *PTCP_OFFLOAD_STATS, ,, A, C, D, F, L, O, P, PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], S, T, TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], _, _TCP_OFFLOAD_STATS, ndischimney/PTCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, netvista.tcp_offload_stats, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -183,11 +183,11 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569800">OID_TCP4_OFFLOAD_STATS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6d2165a7-ee21-4f7d-a03c-f9bed87a3c7a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PPORT_DATA_1, PPORT_DATA_1 structure pointer [Print Devices], PPORT_DATA_1, _PORT_DATA_1, tcpxcv/PPORT_DATA_1, print.port_data_1, PORT_DATA_1 structure [Print Devices], PORT_DATA_1, spoolfnc_6fd52423-d2f1-4c6c-bf42-63000c5d0e66.xml, tcpxcv/PORT_DATA_1"
+ms.keywords: ",  , *, *PPORT_DATA_1, ,, 1, A, D, O, P, PORT_DATA_1, PORT_DATA_1 structure [Print Devices], PPORT_DATA_1, PPORT_DATA_1 structure pointer [Print Devices], R, T, _, _PORT_DATA_1, print.port_data_1, spoolfnc_6fd52423-d2f1-4c6c-bf42-63000c5d0e66.xml, tcpxcv/PORT_DATA_1, tcpxcv/PPORT_DATA_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

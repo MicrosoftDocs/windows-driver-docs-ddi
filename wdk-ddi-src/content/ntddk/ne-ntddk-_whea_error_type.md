@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: b10dbb47-394c-42f0-9471-6e5deb73a7b9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WheaErrTypePCIXBus, ntddk/WheaErrTypeProcessor, ntddk/WheaErrTypePCIExpress, whea.whea_error_type, WheaErrTypeGeneric, *PWHEA_ERROR_TYPE, ntddk/WheaErrTypeGeneric, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrTypeMemory, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications], ntddk/WheaErrTypeNMI, ntddk/WheaErrTypePCIXDevice, WheaErrTypeMemory, WheaErrTypePCIExpress, WHEA_ERROR_TYPE, ntddk/WHEA_ERROR_TYPE, PWHEA_ERROR_TYPE, WheaErrTypeNMI, ntddk/WheaErrTypePCIXBus, ntddk/PWHEA_ERROR_TYPE, WheaErrTypeProcessor, WheaErrTypePCIXDevice, _WHEA_ERROR_TYPE
+ms.keywords: ",  , *, *PWHEA_ERROR_TYPE, ,, A, E, H, O, P, PWHEA_ERROR_TYPE, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications], R, T, W, WHEA_ERROR_TYPE, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], WheaErrTypeGeneric, WheaErrTypeMemory, WheaErrTypeNMI, WheaErrTypePCIExpress, WheaErrTypePCIXBus, WheaErrTypePCIXDevice, WheaErrTypeProcessor, Y, _, _WHEA_ERROR_TYPE, ntddk/PWHEA_ERROR_TYPE, ntddk/WHEA_ERROR_TYPE, ntddk/WheaErrTypeGeneric, ntddk/WheaErrTypeMemory, ntddk/WheaErrTypeNMI, ntddk/WheaErrTypePCIExpress, ntddk/WheaErrTypePCIXBus, ntddk/WheaErrTypePCIXDevice, ntddk/WheaErrTypeProcessor, whea.whea_error_type, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

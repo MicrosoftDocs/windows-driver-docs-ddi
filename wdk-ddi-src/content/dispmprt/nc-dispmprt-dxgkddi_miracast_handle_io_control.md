@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 83E817C3-A30D-4597-A490-C4FB93A78FCE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddimiracastiocontrol, DxgkDdiMiracastIoControl callback function [Display Devices], DxgkDdiMiracastIoControl, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, dispmprt/DxgkDdiMiracastIoControl
+ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,11 +153,7 @@ The threading and synchronization level for this function is set by how the user
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
 
 
 
@@ -169,7 +165,11 @@ The threading and synchronization level for this function is set by how the user
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

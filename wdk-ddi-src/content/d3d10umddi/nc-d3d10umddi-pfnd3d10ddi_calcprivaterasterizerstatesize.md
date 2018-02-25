@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8b10b2b8-21b0-451c-9a85-353222d9c288
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.calcprivaterasterizerstatesize, CalcPrivateRasterizerStateSize callback function [Display Devices], CalcPrivateRasterizerStateSize, PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE, PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE, d3d10umddi/CalcPrivateRasterizerStateSize, UserModeDisplayDriverDx10_Functions_b5ff2557-347f-4cf5-962b-f41b097de388.xml
+ms.keywords: CalcPrivateRasterizerStateSize, CalcPrivateRasterizerStateSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE, UserModeDisplayDriverDx10_Functions_b5ff2557-347f-4cf5-962b-f41b097de388.xml, d3d10umddi/CalcPrivateRasterizerStateSize, display.calcprivaterasterizerstatesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,11 +104,11 @@ SIZE_T APIENTRY CalcPrivateRasterizerStateSize(
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_rasterizer_desc.md">D3D10_DDI_RASTERIZER_DESC</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 

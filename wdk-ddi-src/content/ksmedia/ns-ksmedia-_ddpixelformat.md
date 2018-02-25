@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bbc26c03-c154-4b1e-883e-2942b59ded02
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: LPDDPIXELFORMAT, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], ksmedia/DDPIXELFORMAT, display.ddpixelformat, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, LPDDPIXELFORMAT structure pointer [Display Devices], ksmedia/LPDDPIXELFORMAT, _DDPIXELFORMAT, *LPDDPIXELFORMAT
+ms.keywords: ",  , *, *LPDDPIXELFORMAT, ,, A, D, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], E, F, I, L, LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], M, O, P, R, T, X, _, _DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, display.ddpixelformat, ksmedia/DDPIXELFORMAT, ksmedia/LPDDPIXELFORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

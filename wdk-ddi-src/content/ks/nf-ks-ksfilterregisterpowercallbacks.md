@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9b4a7932-7371-48d2-95fb-1c3e3ca170be
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsFilterRegisterPowerCallbacks, KsFilterRegisterPowerCallbacks function [Streaming Media Devices], ks/KsFilterRegisterPowerCallbacks, avfunc_7c5322b7-f7e2-4641-b466-06f5d9ebfc34.xml, stream.ksfilterregisterpowercallbacks
+ms.keywords: ",  , C, F, K, KsFilterRegisterPowerCallbacks, KsFilterRegisterPowerCallbacks function [Streaming Media Devices], P, R, a, avfunc_7c5322b7-f7e2-4641-b466-06f5d9ebfc34.xml, b, c, e, g, i, k, ks/KsFilterRegisterPowerCallbacks, l, o, r, s, stream.ksfilterregisterpowercallbacks, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

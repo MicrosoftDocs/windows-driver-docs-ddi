@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F7516B20-B30F-47BE-BBF3-AB5758D5CF73
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usb_hub_type, Usb20Hub, usbioctl/Usb20Hub, usbioctl/Usb30Hub, USB_HUB_TYPE enumeration [Buses], _USB_HUB_TYPE, usbioctl/UsbRootHub, usbioctl/USB_HUB_TYPE, USB_HUB_TYPE, Usb30Hub, UsbRootHub
+ms.keywords: ",  , ,, B, E, H, P, S, T, U, USB_HUB_TYPE, USB_HUB_TYPE enumeration [Buses], Usb20Hub, Usb30Hub, UsbRootHub, Y, _, _USB_HUB_TYPE, buses.usb_hub_type, usbioctl/USB_HUB_TYPE, usbioctl/Usb20Hub, usbioctl/Usb30Hub, usbioctl/UsbRootHub"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -91,15 +91,15 @@ Indicates that the retrieved hub descriptor is defined in USB 3.0 specification.
 
 ## -see-also
 
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
 
 
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
-
-
-
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 4223dd79-cac7-41bd-8c94-12baf8e8367a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SCO_INDICATION_CODE, bthddi/ScoIndicationReleaseReference, _SCO_INDICATION_CODE, *PSCO_INDICATION_CODE, ScoIndicationReleaseReference, bthddi/ScoIndicationRemoteDisconnect, PSCO_INDICATION_CODE, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], ScoIndicationRemoteDisconnect, bthddi/ScoIndicationRemoteConnect, SCO_INDICATION_CODE enumeration [Bluetooth Devices], bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, ScoIndicationAddReference, bthddi/ScoIndicationAddReference, bthddi/SCO_INDICATION_CODE, bltooth.sco_indication_code, ScoIndicationRemoteConnect, bthddi/PSCO_INDICATION_CODE
+ms.keywords: ",  , *, *PSCO_INDICATION_CODE, ,, A, C, D, E, I, N, O, P, PSCO_INDICATION_CODE, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], S, SCO_INDICATION_CODE, SCO_INDICATION_CODE enumeration [Bluetooth Devices], ScoIndicationAddReference, ScoIndicationReleaseReference, ScoIndicationRemoteConnect, ScoIndicationRemoteDisconnect, T, _, _SCO_INDICATION_CODE, bltooth.sco_indication_code, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, bthddi/PSCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, bthddi/ScoIndicationAddReference, bthddi/ScoIndicationReleaseReference, bthddi/ScoIndicationRemoteConnect, bthddi/ScoIndicationRemoteDisconnect"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,7 +101,7 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
@@ -109,7 +109,7 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
 
 
 

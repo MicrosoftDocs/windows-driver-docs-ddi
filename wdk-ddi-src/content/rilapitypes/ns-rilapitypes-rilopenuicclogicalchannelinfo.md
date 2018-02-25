@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f731c790-4348-4c18-aef1-184c3d4bf258
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILOPENUICCLOGICALCHANNELINFO, *LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelinfo_2
+ms.keywords: ",  , *, *LPRILOPENUICCLOGICALCHANNELINFO, ,, A, C, E, F, G, H, I, L, N, O, P, R, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], U, netvista.rilopenuicclogicalchannelinfo_2, rilapitypes/RILOPENUICCLOGICALCHANNELINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

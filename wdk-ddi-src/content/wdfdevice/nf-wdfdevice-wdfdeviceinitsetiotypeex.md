@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3746D618-C92C-43AB-A45A-2188D572105D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceInitSetIoTypeEx method, WdfDeviceInitSetIoTypeEx, wdfdevice/WdfDeviceInitSetIoTypeEx, wdf.wdfdeviceinitsetiotypeex, wdf.wdfdeviceinitassigniotype
+ms.keywords: ",  , D, E, I, S, T, W, WdfDeviceInitSetIoTypeEx, WdfDeviceInitSetIoTypeEx method, c, d, e, f, i, n, o, p, t, v, wdf.wdfdeviceinitassigniotype, wdf.wdfdeviceinitsetiotypeex, wdfdevice/WdfDeviceInitSetIoTypeEx, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -149,11 +149,11 @@ WdfDeviceInitSetIoTypeEx(DeviceInit, &amp;ioConfig);
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
 
 
 

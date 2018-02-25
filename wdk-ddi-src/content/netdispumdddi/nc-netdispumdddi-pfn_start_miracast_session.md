@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2778d9d0-7f97-416f-a5ae-3754b17e8a29
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.startmiracastsession, StartMiracastSession callback function [Display Devices], StartMiracastSession, PFN_START_MIRACAST_SESSION, PFN_START_MIRACAST_SESSION, netdispumdddi/StartMiracastSession
+ms.keywords: PFN_START_MIRACAST_SESSION, StartMiracastSession, StartMiracastSession callback function [Display Devices], display.startmiracastsession, netdispumdddi/StartMiracastSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -145,15 +145,7 @@ The operating system guarantees that only one of the <a href="..\netdispumdddi\n
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
-
-
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
-
-
-
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_session_info.md">MIRACAST_SESSION_INFO</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
 
 
@@ -161,7 +153,15 @@ The operating system guarantees that only one of the <a href="..\netdispumdddi\n
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+
+
+
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
+
+
+
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_session_info.md">MIRACAST_SESSION_INFO</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3711ACBD-482E-4BB8-8530-C92DA610CA5B
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020 structure [Display Devices], display.d3d12ddi_video_process_reference_info_data, D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020 structure [Display Devices], E, F, I, N, O, P, R, S, T, V, _, d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, display.d3d12ddi_video_process_reference_info_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,15 +132,15 @@ The output rate of the stream.
 
 ## -see-also
 
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a>
+
+
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
 
 
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
-
-
-
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a>
 
 
 

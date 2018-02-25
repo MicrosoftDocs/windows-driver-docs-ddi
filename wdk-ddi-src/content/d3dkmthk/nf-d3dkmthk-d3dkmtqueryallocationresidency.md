@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9522de0-54cd-4afd-b8cd-06f229ac1325
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTQueryAllocationResidency, display.d3dkmtqueryallocationresidency, D3DKMTQueryAllocationResidency, D3DKMTQueryAllocationResidency function [Display Devices], OpenGL_Functions_4efd6e87-91b6-4cf2-8691-0463a9ab218a.xml
+ms.keywords: ",  , 3, A, D, D3DKMTQueryAllocationResidency, D3DKMTQueryAllocationResidency function [Display Devices], K, M, OpenGL_Functions_4efd6e87-91b6-4cf2-8691-0463a9ab218a.xml, Q, R, T, a, c, d, d3dkmthk/D3DKMTQueryAllocationResidency, display.d3dkmtqueryallocationresidency, e, i, l, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e8209781-36b1-4008-94bb-82bdb16f20bf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_string_ref_2d47b8b6-3b3e-48ca-a2be-ee1bca117ef6.xml, NdisInitAnsiString, netvista.ndisinitansistring, ndis/NdisInitAnsiString, NdisInitAnsiString macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , A, I, N, NdisInitAnsiString, NdisInitAnsiString macro [Network Drivers Starting with Windows Vista], S, d, g, i, n, ndis/NdisInitAnsiString, ndis_string_ref_2d47b8b6-3b3e-48ca-a2be-ee1bca117ef6.xml, netvista.ndisinitansistring, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -116,6 +116,10 @@ Callers of
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
@@ -125,15 +129,11 @@ Callers of
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
 
 

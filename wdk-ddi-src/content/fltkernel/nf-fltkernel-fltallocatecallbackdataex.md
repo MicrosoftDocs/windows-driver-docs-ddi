@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f03851a4-e1e9-4fee-b264-c2f91c6e8180
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltAllocateCallbackDataEx, FltAllocateCallbackDataEx routine [Installable File System Drivers], fltkernel/FltAllocateCallbackDataEx, ifsk.fltallocatecallbackdataex, FltApiRef_a_to_d_9ef78123-712f-465a-8c8a-efc3d64b7001.xml
+ms.keywords: ",  , A, C, D, E, F, FltAllocateCallbackDataEx, FltAllocateCallbackDataEx routine [Installable File System Drivers], FltApiRef_a_to_d_9ef78123-712f-465a-8c8a-efc3d64b7001.xml, a, b, c, e, fltkernel/FltAllocateCallbackDataEx, ifsk.fltallocatecallbackdataex, k, l, o, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

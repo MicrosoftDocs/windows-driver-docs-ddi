@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3e671484-8f8d-4ba0-a763-37c3178487ca
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.dpwmiexecutemethod, DpWmiExecuteMethod, DpWmiExecuteMethod callback function [Kernel-Mode Driver Architecture], DpWmiExecuteMethod, WMI_EXECUTE_METHOD_CALLBACK, WMI_EXECUTE_METHOD_CALLBACK, wmilib/DpWmiExecuteMethod, k903_b641484a-8f32-440d-8efc-76293ddeec2c.xml
+ms.keywords: DpWmiExecuteMethod, DpWmiExecuteMethod callback function [Kernel-Mode Driver Architecture], WMI_EXECUTE_METHOD_CALLBACK, k903_b641484a-8f32-440d-8efc-76293ddeec2c.xml, kernel.dpwmiexecutemethod, wmilib/DpWmiExecuteMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

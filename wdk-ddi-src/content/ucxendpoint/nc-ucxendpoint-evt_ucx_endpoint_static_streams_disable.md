@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 79da55ac-61de-40cc-b25b-421f7637a9fe
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_endpoint_static_streams_disable, EvtUcxEndpointStaticStreamsDisable callback function [Buses], EvtUcxEndpointStaticStreamsDisable, EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, ucxendpoint/EvtUcxEndpointStaticStreamsDisable, PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function pointer [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
+ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, EvtUcxEndpointStaticStreamsDisable, EvtUcxEndpointStaticStreamsDisable callback function [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_disable, ucxendpoint/EvtUcxEndpointStaticStreamsDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 518de598-6281-4838-b453-9f699524cbf4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_get_device_config_info, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code [Buses], IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
+ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code [Buses], buses.ioctl_internal_usb_get_device_config_info, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -121,11 +121,11 @@ Upon successful completion, the HardwareIds, CompatibleIds, DeviceDescription <a
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_hub_device_config_info_v1.md">HUB_DEVICE_CONFIG_INFO</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
 
 
 

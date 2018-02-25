@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fda3d4a2-4c1a-454d-bcb0-4174699c5bb8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D10DDI_COUNTER_INFO structure [Display Devices], UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml, d3d10umddi/D3D10DDI_COUNTER_INFO, display.d3d10ddi_counter_info, D3D10DDI_COUNTER_INFO
+ms.keywords: ",  , ,, 0, 1, 3, C, D, D3D10DDI_COUNTER_INFO, D3D10DDI_COUNTER_INFO structure [Display Devices], E, F, I, N, O, R, T, U, UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml, _, d3d10umddi/D3D10DDI_COUNTER_INFO, display.d3d10ddi_counter_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ typedef struct D3D10DDI_COUNTER_INFO {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounterinfo.md">CheckCounterInfo</a>
-
-
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounterinfo.md">CheckCounterInfo</a>
 
 
 

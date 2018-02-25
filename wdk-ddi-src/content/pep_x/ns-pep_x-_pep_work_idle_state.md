@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD8C454D-D0F6-456B-B59A-2E4DF2D757B5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_WORK_IDLE_STATE structure [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_IDLE_STATE, kernel.pep_work_idle_state, _PEP_WORK_IDLE_STATE, *PPEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_WORK_IDLE_STATE, pep_x/PPEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE
+ms.keywords: ",  , *, *PPEP_WORK_IDLE_STATE, ,, A, D, E, I, K, L, O, P, PEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], R, S, T, W, _, _PEP_WORK_IDLE_STATE, kernel.pep_work_idle_state, pep_x/PEP_WORK_IDLE_STATE, pep_x/PPEP_WORK_IDLE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ A handle that represents the registration of the device with the Windows <a href
 
 ### -field Component
 
-[in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="..\pep_x\ns-pep_x-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+[in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -field State
@@ -88,7 +88,7 @@ The target F<i>x</i> power state to transition the component to. If this paramet
 
 
 
-The <b>IdleState</b> member of the <a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_IDLE_STATE</b> structure.
+The <b>IdleState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_IDLE_STATE</b> structure.
 
 
 
@@ -99,11 +99,11 @@ The <b>IdleState</b> member of the <a href="..\pep_x\ns-pep_x-_pep_work_informat
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
 
 

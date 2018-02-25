@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: FAC021F0-CF37-4A28-BE89-D6BD77B8B708
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_udecx_usb_endpoint_purge, EvtUsbEndpointPurge callback function [Buses], EvtUsbEndpointPurge, EVT_UDECX_USB_ENDPOINT_PURGE, EVT_UDECX_USB_ENDPOINT_PURGE, udecxusbendpoint/EvtUsbEndpointPurge
+ms.keywords: EVT_UDECX_USB_ENDPOINT_PURGE, EvtUsbEndpointPurge, EvtUsbEndpointPurge callback function [Buses], buses.evt_udecx_usb_endpoint_purge, udecxusbendpoint/EvtUsbEndpointPurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,11 +103,11 @@ In the implementation, the client driver is required to ensure all I/O forwarded
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

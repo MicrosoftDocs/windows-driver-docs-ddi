@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 706269d8-123b-48c6-83cb-8ae47fb92efc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_get_media_types_ex, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code [Storage Devices], IOCTL_STORAGE_GET_MEDIA_TYPES_EX, ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES_EX, k307_6dad39e5-7a8b-477d-a96d-5f00fe7fee7b.xml
+ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code [Storage Devices], k307_6dad39e5-7a8b-477d-a96d-5f00fe7fee7b.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES_EX, storage.ioctl_storage_get_media_types_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -110,11 +110,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_get_media_types.md">GET_MEDIA_TYPES</a>
-
-
-
 <a href="..\minitape\ns-minitape-_device_media_info.md">DEVICE_MEDIA_INFO</a>
+
+
+
+<a href="..\minitape\ns-minitape-_get_media_types.md">GET_MEDIA_TYPES</a>
 
 
 

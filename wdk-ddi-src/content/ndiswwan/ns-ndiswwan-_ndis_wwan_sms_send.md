@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d92c0ebe-4a11-49d9-95aa-182e99ca8dcf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_wwan_sms_send, PNDIS_WWAN_SMS_SEND, WwanRef_ef75a09f-b42a-4bd6-ae59-b94d5e4b0e54.xml, *PNDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SMS_SEND, _NDIS_WWAN_SMS_SEND, ndiswwan/NDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PNDIS_WWAN_SMS_SEND, ,, A, D, E, I, M, N, NDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], P, PNDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], S, W, WwanRef_ef75a09f-b42a-4bd6-ae59-b94d5e4b0e54.xml, _, _NDIS_WWAN_SMS_SEND, ndiswwan/NDIS_WWAN_SMS_SEND, ndiswwan/PNDIS_WWAN_SMS_SEND, netvista.ndis_wwan_sms_send"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

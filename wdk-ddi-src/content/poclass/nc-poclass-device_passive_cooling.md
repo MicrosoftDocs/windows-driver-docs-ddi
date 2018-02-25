@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 17ADC83B-53C8-43BD-9FFB-1197501FE275
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.passivecooling, PassiveCooling routine [Kernel-Mode Driver Architecture], PassiveCooling, DEVICE_PASSIVE_COOLING, DEVICE_PASSIVE_COOLING, poclass/PassiveCooling
+ms.keywords: DEVICE_PASSIVE_COOLING, PassiveCooling, PassiveCooling routine [Kernel-Mode Driver Architecture], kernel.passivecooling, poclass/PassiveCooling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

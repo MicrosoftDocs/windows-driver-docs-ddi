@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7019ee37-2080-4ba3-ba39-977e575ec04e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/RemovePersistentEntry_IN, PRemovePersistentEntry_IN, RemovePersistentEntry_IN, _RemovePersistentEntry_IN, structs-Fibre_e5e794c3-e43c-4218-af52-3f2d8a96c256.xml, RemovePersistentEntry_IN structure [Storage Devices], *PRemovePersistentEntry_IN, PRemovePersistentEntry_IN structure pointer [Storage Devices], storage.removepersistententry_in, hbapiwmi/PRemovePersistentEntry_IN
+ms.keywords: ",  , *, *PRemovePersistentEntry_IN, ,, E, I, N, P, PRemovePersistentEntry_IN, PRemovePersistentEntry_IN structure pointer [Storage Devices], R, RemovePersistentEntry_IN, RemovePersistentEntry_IN structure [Storage Devices], _, _RemovePersistentEntry_IN, e, hbapiwmi/PRemovePersistentEntry_IN, hbapiwmi/RemovePersistentEntry_IN, i, m, n, o, r, s, storage.removepersistententry_in, structs-Fibre_e5e794c3-e43c-4218-af52-3f2d8a96c256.xml, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

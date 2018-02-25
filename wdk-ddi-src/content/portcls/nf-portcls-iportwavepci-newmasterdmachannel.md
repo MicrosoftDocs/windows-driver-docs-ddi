@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4128541-1982-413d-a013-422ca1cf4542
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: NewMasterDmaChannel, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, audio.iportwavepci_newmasterdmachannel, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, IPortWavePci, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], portcls/IPortWavePci::NewMasterDmaChannel
+ms.keywords: ",  , ,, ., :, C, D, I, IPortWavePci, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, IPortWavePci::NewMasterDmaChannel, M, N, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, NewMasterDmaChannel,IPortWavePci.NewMasterDmaChannel, P, W, a, audio.iportwavepci_newmasterdmachannel, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, c, e, h, i, l, m, n, o, portcls/IPortWavePci::NewMasterDmaChannel, r, s, t, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -167,10 +167,6 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
 <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
@@ -179,11 +175,15 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 
 
 <a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
 
 

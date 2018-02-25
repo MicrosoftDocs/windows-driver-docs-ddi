@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 36B2C20C-AA92-4860-9FBC-BA65AFD546E1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure [Buses], PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure pointer [Buses], PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, SPB.rh_query_connection_properties_output_buffer, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+ms.keywords: ",  , *, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, ,, B, C, E, F, H, I, N, O, P, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure pointer [Buses], Q, R, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure [Buses], S, SPB.rh_query_connection_properties_output_buffer, T, U, Y, _, _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,11 +102,11 @@ For a code example that uses the <b>RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj938062">PNP_SERIAL_BUS_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
 
 
 

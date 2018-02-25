@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9ff7efec-4844-4abf-89c2-472afc959697
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PFILE_STANDARD_INFORMATION, wdm/FILE_STANDARD_INFORMATION, kernel.file_standard_information, *PFILE_STANDARD_INFORMATION, FILE_STANDARD_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_STANDARD_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_STANDARD_INFORMATION, _FILE_STANDARD_INFORMATION, kstruct_b_86abcab8-11e5-45de-983a-e78c6cb40a93.xml, PFILE_STANDARD_INFORMATION
+ms.keywords: ",  , *, *PFILE_STANDARD_INFORMATION, ,, A, D, E, F, FILE_STANDARD_INFORMATION, FILE_STANDARD_INFORMATION structure [Kernel-Mode Driver Architecture], I, L, M, N, O, P, PFILE_STANDARD_INFORMATION, PFILE_STANDARD_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, S, T, _, _FILE_STANDARD_INFORMATION, kernel.file_standard_information, kstruct_b_86abcab8-11e5-45de-983a-e78c6cb40a93.xml, wdm/FILE_STANDARD_INFORMATION, wdm/PFILE_STANDARD_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,15 +108,15 @@ The file directory status. <b>TRUE</b> indicates the file object represents a di
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 

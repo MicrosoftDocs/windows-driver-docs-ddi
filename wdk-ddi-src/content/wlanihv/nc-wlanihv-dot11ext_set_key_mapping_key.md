@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7fbca90d-c5cd-40d4-a284-ca059aa6cacf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetkeymappingkey, Dot11ExtSetKeyMappingKey callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetKeyMappingKey, DOT11EXT_SET_KEY_MAPPING_KEY, DOT11EXT_SET_KEY_MAPPING_KEY, wlanihv/Dot11ExtSetKeyMappingKey, Native_802.11_IHV_Ext_a96af10f-97f4-406e-bc75-2cdc19564df0.xml
+ms.keywords: DOT11EXT_SET_KEY_MAPPING_KEY, Dot11ExtSetKeyMappingKey, Dot11ExtSetKeyMappingKey callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_a96af10f-97f4-406e-bc75-2cdc19564df0.xml, netvista.dot11extsetkeymappingkey, wlanihv/Dot11ExtSetKeyMappingKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -123,16 +123,16 @@ A call to the
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
 

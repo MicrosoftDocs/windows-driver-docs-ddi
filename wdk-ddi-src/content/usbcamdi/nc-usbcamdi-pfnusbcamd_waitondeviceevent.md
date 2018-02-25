@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9767479-3ad9-4b47-82d1-70b54329e7b8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.usbcamd_waitondeviceevent, USBCAMD_WaitOnDeviceEvent routine [Streaming Media Devices], USBCAMD_WaitOnDeviceEvent, PFNUSBCAMD_WaitOnDeviceEvent, PFNUSBCAMD_WaitOnDeviceEvent, usbcamdi/USBCAMD_WaitOnDeviceEvent, usbcmdpr_854c2d35-c023-4d7a-8c2e-3e56d3150e41.xml
+ms.keywords: PFNUSBCAMD_WaitOnDeviceEvent, USBCAMD_WaitOnDeviceEvent, USBCAMD_WaitOnDeviceEvent routine [Streaming Media Devices], stream.usbcamd_waitondeviceevent, usbcamdi/USBCAMD_WaitOnDeviceEvent, usbcmdpr_854c2d35-c023-4d7a-8c2e-3e56d3150e41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -200,11 +200,11 @@ The typical usage scenario for this function is a camera with a snapshot button 
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
-
-
-
 <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
+
+
+
+<a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
 
 
 

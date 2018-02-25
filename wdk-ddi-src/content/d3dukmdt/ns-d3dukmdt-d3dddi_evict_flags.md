@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 443671F1-98F5-4F9F-900B-37E3E50770CE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddi_evict_flags, d3dukmdt/D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS structure [Display Devices], E, F, G, I, L, S, T, V, _, d3dukmdt/D3DDDI_EVICT_FLAGS, display.d3dddi_evict_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

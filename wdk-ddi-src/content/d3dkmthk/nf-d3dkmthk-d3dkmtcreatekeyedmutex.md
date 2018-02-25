@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PFND3DKMT_CREATEKEYEDMUTEX, D3DKMTCreateKeyedMutex function [Display Devices], d3dkmthk/D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex, OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, display.d3dkmtcreatekeyedmutex
+ms.keywords: ",  , 3, C, D, D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex function [Display Devices], K, M, OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, T, a, d, d3dkmthk/D3DKMTCreateKeyedMutex, display.d3dkmtcreatekeyedmutex, e, r, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,7 +129,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex.md">D3DKMTCreateKeyedMutex</a> could not complete because of insufficient memory.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex.md">D3DKMTCreateKeyedMutex</a> could not complete because of insufficient memory.
 
 </td>
 </tr>

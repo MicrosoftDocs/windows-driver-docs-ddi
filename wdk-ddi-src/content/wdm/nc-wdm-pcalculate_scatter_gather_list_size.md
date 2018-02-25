@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d7509502-0965-44b9-8efb-cec4fbe3ac88
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.calculatescattergatherlist, CalculateScatterGatherList, CalculateScatterGatherList callback function [Kernel-Mode Driver Architecture], CalculateScatterGatherList, PCALCULATE_SCATTER_GATHER_LIST_SIZE, PCALCULATE_SCATTER_GATHER_LIST_SIZE, wdm/CalculateScatterGatherList, kdma_f2e8ba68-4b5d-4a3c-9e81-1bf84cc7cc48.xml
+ms.keywords: CalculateScatterGatherList, CalculateScatterGatherList callback function [Kernel-Mode Driver Architecture], PCALCULATE_SCATTER_GATHER_LIST_SIZE, kdma_f2e8ba68-4b5d-4a3c-9e81-1bf84cc7cc48.xml, kernel.calculatescattergatherlist, wdm/CalculateScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -183,19 +183,19 @@ A driver uses <b>CalculateScatterGatherList</b> to allocate a scatter/gather lis
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+
+
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 

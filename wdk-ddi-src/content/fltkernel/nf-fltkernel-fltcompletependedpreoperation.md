@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bdd9f304-b26e-401e-81c7-da7d1e4f5635
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FLT_PREOP_SUCCESS_NO_CALLBACK, ifsk.fltcompletependedpreoperation, FLT_PREOP_SUCCESS_WITH_CALLBACK, FltCompletePendedPreOperation routine [Installable File System Drivers], FltApiRef_a_to_d_170adc13-ea3d-4346-99b2-85d5c1c464b8.xml, fltkernel/FltCompletePendedPreOperation, FltCompletePendedPreOperation, FLT_PREOP_COMPLETE
+ms.keywords: ",  , C, F, FLT_PREOP_COMPLETE, FLT_PREOP_SUCCESS_NO_CALLBACK, FLT_PREOP_SUCCESS_WITH_CALLBACK, FltApiRef_a_to_d_170adc13-ea3d-4346-99b2-85d5c1c464b8.xml, FltCompletePendedPreOperation, FltCompletePendedPreOperation routine [Installable File System Drivers], O, P, a, d, e, fltkernel/FltCompletePendedPreOperation, i, ifsk.fltcompletependedpreoperation, l, m, n, o, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,11 +130,7 @@ If the <i>CallbackStatus</i> parameter is FLT_PREOP_COMPLETE, <b>FltCompletePend
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -146,7 +142,11 @@ If the <i>CallbackStatus</i> parameter is FLT_PREOP_COMPLETE, <b>FltCompletePend
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
 
 
 

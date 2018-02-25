@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e282ec6-c159-47a4-af14-2b0cb8e34a8e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkprotectedcallback, DxgkProtectedCallback callback function [Display Devices], DxgkProtectedCallback, DXGKDDI_PROTECTED_CALLBACK, DXGKDDI_PROTECTED_CALLBACK, dispmprt/DxgkProtectedCallback, DmFunctions_a4386149-d1c4-45f4-8649-5539783620f4.xml
+ms.keywords: DXGKDDI_PROTECTED_CALLBACK, DmFunctions_a4386149-d1c4-45f4-8649-5539783620f4.xml, DxgkProtectedCallback, DxgkProtectedCallback callback function [Display Devices], display.dxgkprotectedcallback, dispmprt/DxgkProtectedCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 01E66957-BB9B-4C35-920F-2DC0F01123E5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_host_disconnect, EvtUfxDeviceHostDisconnect callback function [Buses], EvtUfxDeviceHostDisconnect, EVT_UFX_DEVICE_HOST_DISCONNECT, EVT_UFX_DEVICE_HOST_DISCONNECT, ufxclient/EvtUfxDeviceHostDisconnect, PFN_UFX_DEVICE_HOST_DISCONNECT callback function pointer [Buses], PFN_UFX_DEVICE_HOST_DISCONNECT
+ms.keywords: EVT_UFX_DEVICE_HOST_DISCONNECT, EvtUfxDeviceHostDisconnect, EvtUfxDeviceHostDisconnect callback function [Buses], PFN_UFX_DEVICE_HOST_DISCONNECT, PFN_UFX_DEVICE_HOST_DISCONNECT callback function pointer [Buses], buses.evt_ufx_device_host_disconnect, ufxclient/EvtUfxDeviceHostDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -172,11 +172,11 @@ Arguments:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 

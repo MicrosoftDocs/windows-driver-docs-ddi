@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2adcf421-c651-46a5-b82a-db62591e69f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilwriteadditionalnumberstringparams, RILWRITEADDITIONALNUMBERSTRINGPARAMS, *LPRILWRITEADDITIONALNUMBERSTRINGPARAMS, ntddrilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *LPRILWRITEADDITIONALNUMBERSTRINGPARAMS, ,, A, B, D, E, G, I, L, M, N, O, P, R, RILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], S, T, U, W, netvista.rilwriteadditionalnumberstringparams, ntddrilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

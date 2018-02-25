@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FDA0CD47-36D9-4E64-9377-F419A7D788A3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSSTREAM_UVC_METADATATYPE_TIMESTAMP, *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], stream.ksstream_uvc_metadatatype_timestamp, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP
+ms.keywords: ",  , *, *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, ,, A, C, D, E, I, K, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], M, P, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], R, S, T, U, V, Y, _, ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

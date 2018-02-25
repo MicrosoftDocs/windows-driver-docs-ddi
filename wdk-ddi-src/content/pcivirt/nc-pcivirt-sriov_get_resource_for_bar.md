@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: b52bafee-d541-4396-be0a-06956d07fb2b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.sriov_get_resource_for_bar, SriovGetResourceForBar callback function [Buses], SriovGetResourceForBar, SRIOV_GET_RESOURCE_FOR_BAR, SRIOV_GET_RESOURCE_FOR_BAR, pcivirt/SriovGetResourceForBar, *PSRIOV_GET_RESOURCE_FOR_BAR callback function pointer [Buses], *PSRIOV_GET_RESOURCE_FOR_BAR
+ms.keywords: "*PSRIOV_GET_RESOURCE_FOR_BAR, *PSRIOV_GET_RESOURCE_FOR_BAR callback function pointer [Buses], PCI.sriov_get_resource_for_bar, SRIOV_GET_RESOURCE_FOR_BAR, SriovGetResourceForBar, SriovGetResourceForBar callback function [Buses], pcivirt/SriovGetResourceForBar"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

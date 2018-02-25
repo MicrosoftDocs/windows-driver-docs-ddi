@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e405c545-da0c-4b47-84c2-dd26d746da94
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CM_FULL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], PCM_FULL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], _CM_FULL_RESOURCE_DESCRIPTOR, wdm/PCM_FULL_RESOURCE_DESCRIPTOR, CM_FULL_RESOURCE_DESCRIPTOR, *PCM_FULL_RESOURCE_DESCRIPTOR, wdm/CM_FULL_RESOURCE_DESCRIPTOR, PCM_FULL_RESOURCE_DESCRIPTOR, kstruct_a_eb7de4ac-cd02-44cc-9e26-a9c2a99eb8e6.xml, kernel.cm_full_resource_descriptor
+ms.keywords: ",  , *, *PCM_FULL_RESOURCE_DESCRIPTOR, ,, C, CM_FULL_RESOURCE_DESCRIPTOR, CM_FULL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], D, E, F, I, L, M, O, P, PCM_FULL_RESOURCE_DESCRIPTOR, PCM_FULL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], R, S, T, U, _, _CM_FULL_RESOURCE_DESCRIPTOR, kernel.cm_full_resource_descriptor, kstruct_a_eb7de4ac-cd02-44cc-9e26-a9c2a99eb8e6.xml, wdm/CM_FULL_RESOURCE_DESCRIPTOR, wdm/PCM_FULL_RESOURCE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _CM_FULL_RESOURCE_DESCRIPTOR {
 
 ### -field InterfaceType
 
-Specifies the type of bus to which the device is connected. This must be one of the types defined by <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
+Specifies the type of bus to which the device is connected. This must be one of the types defined by <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
 
 
 ### -field BusNumber

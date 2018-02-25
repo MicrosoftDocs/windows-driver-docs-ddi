@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7f254389-58cf-43da-8611-a1598cc2eb66
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MPIO_DEVINSTANCE_HEALTH_INFO structure [Storage Devices], mpiodisk/PMPIO_DEVINSTANCE_HEALTH_INFO, structs-scsibus_4e13f03b-88d3-4ab7-a2a8-5b4064b4edd2.xml, storage.mpio_devinstance_health_info, mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO, _MPIO_DEVINSTANCE_HEALTH_INFO, *PMPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PMPIO_DEVINSTANCE_HEALTH_INFO, ,, A, C, D, E, F, H, I, L, M, MPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO structure [Storage Devices], N, O, P, PMPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO structure pointer [Storage Devices], S, T, V, _, _MPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_INFO, storage.mpio_devinstance_health_info, structs-scsibus_4e13f03b-88d3-4ab7-a2a8-5b4064b4edd2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

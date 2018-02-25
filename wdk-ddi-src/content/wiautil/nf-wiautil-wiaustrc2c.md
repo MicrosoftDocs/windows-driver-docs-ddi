@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7e8cd99a-d1b1-4261-9643-4a84bddfdc01
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiauStrC2C function [Imaging Devices], image.wiaustrc2c, wiautil/wiauStrC2C, wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, wiauStrC2C
+ms.keywords: ",  , 2, C, S, a, i, image.wiaustrc2c, r, t, u, w, wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, wiauStrC2C, wiauStrC2C function [Imaging Devices], wiautil/wiauStrC2C"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,7 +96,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
+<a href="..\wiautil\nf-wiautil-wiaustrw2c.md">wiauStrW2C</a>
 
 
 
@@ -104,7 +104,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2c.md">wiauStrW2C</a>
+<a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
 
 
 

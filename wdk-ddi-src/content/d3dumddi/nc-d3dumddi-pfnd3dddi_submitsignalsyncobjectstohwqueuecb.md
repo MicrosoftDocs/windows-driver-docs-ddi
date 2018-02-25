@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D952A432-7B2C-43AC-9BC4-4335D2F37301
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3dddi_submitsignalsyncobjectstohwqueuecb, PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, d3dumddi/PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
+ms.keywords: PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitsignalsyncobjectstohwqueuecb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b1eb7978-cbfc-4ffd-b345-a320e9152f03
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PAACS_CHALLENGE_KEY, PAACS_CHALLENGE_KEY structure pointer [Storage Devices], PAACS_CHALLENGE_KEY, ntddcdvd/AACS_CHALLENGE_KEY, structs-DVD_7a8e1eeb-73f5-4d10-83c6-13bac3130c91.xml, _AACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY structure [Storage Devices], storage.aacs_challenge_key, AACS_CHALLENGE_KEY, ntddcdvd/PAACS_CHALLENGE_KEY"
+ms.keywords: ",  , *, *PAACS_CHALLENGE_KEY, ,, A, AACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY structure [Storage Devices], C, E, G, H, K, L, N, P, PAACS_CHALLENGE_KEY, PAACS_CHALLENGE_KEY structure pointer [Storage Devices], S, Y, _, _AACS_CHALLENGE_KEY, ntddcdvd/AACS_CHALLENGE_KEY, ntddcdvd/PAACS_CHALLENGE_KEY, storage.aacs_challenge_key, structs-DVD_7a8e1eeb-73f5-4d10-83c6-13bac3130c91.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,15 +89,15 @@ Clients retrieve the Advanced Access Content System (AACS) challenge key with an
 
 ## -see-also
 
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+
+
+
 <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_send_challenge_key.md">AACS_SEND_CHALLENGE_KEY</a>
 
 
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_get_challenge_key.md">IOCTL_AACS_GET_CHALLENGE_KEY</a>
-
-
-
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
 
 
 

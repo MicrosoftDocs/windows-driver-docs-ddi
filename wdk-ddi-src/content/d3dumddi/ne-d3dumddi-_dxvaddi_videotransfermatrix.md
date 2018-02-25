@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef1f3c9b-70e5-48bd-b9f4-60ec661dc880
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVADDI_VideoTransferMatrixMask, DXVADDI_VideoTransferMatrix_BT601, _DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VideoTransferMatrix_BT709, DXVADDI_VIDEOTRANSFERMATRIX enumeration [Display Devices], DXVADDI_VideoTransferMatrix_Unknown, d3dumddi/DXVADDI_VideoTransferMatrix_Unknown, DXVA2_Structs_af3c1fd4-43c5-4700-b88e-46f54feed5d2.xml, display.dxvaddi_videotransfermatrix, d3dumddi/DXVADDI_VideoTransferMatrix_BT601, d3dumddi/DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VideoTransferMatrix_BT709, DXVADDI_VideoTransferMatrix_SMPTE240M, DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VideoTransferMatrixMask, d3dumddi/DXVADDI_VideoTransferMatrix_SMPTE240M
+ms.keywords: ",  , ,, A, D, DXVA2_Structs_af3c1fd4-43c5-4700-b88e-46f54feed5d2.xml, DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VIDEOTRANSFERMATRIX enumeration [Display Devices], DXVADDI_VideoTransferMatrixMask, DXVADDI_VideoTransferMatrix_BT601, DXVADDI_VideoTransferMatrix_BT709, DXVADDI_VideoTransferMatrix_SMPTE240M, DXVADDI_VideoTransferMatrix_Unknown, E, F, I, M, N, O, R, S, T, V, X, _, _DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VideoTransferMatrixMask, d3dumddi/DXVADDI_VideoTransferMatrix_BT601, d3dumddi/DXVADDI_VideoTransferMatrix_BT709, d3dumddi/DXVADDI_VideoTransferMatrix_SMPTE240M, d3dumddi/DXVADDI_VideoTransferMatrix_Unknown, display.dxvaddi_videotransfermatrix"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

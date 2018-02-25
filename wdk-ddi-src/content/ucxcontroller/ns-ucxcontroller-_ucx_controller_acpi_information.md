@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: BB5C69FF-166A-4A38-BF5E-FD644FCD1285
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION, _UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], *PUCX_CONTROLLER_ACPI_INFORMATION
+ms.keywords: ",  , *, *PUCX_CONTROLLER_ACPI_INFORMATION, ,, A, C, E, F, I, L, M, N, O, P, P_UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], R, T, U, UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], X, _, _UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,11 +87,11 @@ The revision ID of the ACPI USB controller.
 
 ## -see-also
 
-<a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_acpi_info.md">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a>
-
-
-
 <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
+
+
+
+<a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_acpi_info.md">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a>
 
 
 

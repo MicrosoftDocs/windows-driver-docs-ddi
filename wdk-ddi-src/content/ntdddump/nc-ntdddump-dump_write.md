@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c7eda6a7-a1ce-43a3-b0e4-41f5afc61be6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.dump_write, Dump_Write routine [Storage Devices], Dump_Write, PDUMP_WRITE, PDUMP_WRITE, ntdddump/Dump_Write, filter_rtns_acfeabaa-fc01-494a-b344-c47d1fccd1ee.xml
+ms.keywords: Dump_Write, Dump_Write routine [Storage Devices], PDUMP_WRITE, filter_rtns_acfeabaa-fc01-494a-b344-c47d1fccd1ee.xml, ntdddump/Dump_Write, storage.dump_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

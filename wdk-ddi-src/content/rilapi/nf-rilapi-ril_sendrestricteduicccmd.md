@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f9341659-105b-4ec7-bce7-878698de8c14
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_SendRestrictedUiccCmd, netvista.ril_sendrestricteduicccmd, RIL_SendRestrictedUiccCmd method [Network Drivers Starting with Windows Vista], RIL_SendRestrictedUiccCmd
+ms.keywords: ",  , C, I, L, R, RIL_SendRestrictedUiccCmd, RIL_SendRestrictedUiccCmd method [Network Drivers Starting with Windows Vista], S, U, _, c, d, e, i, m, n, netvista.ril_sendrestricteduicccmd, r, rilapi/RIL_SendRestrictedUiccCmd, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

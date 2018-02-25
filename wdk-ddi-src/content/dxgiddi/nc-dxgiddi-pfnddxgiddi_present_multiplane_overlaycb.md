@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C6EB96AC-0D5B-4D75-9B44-B1744F6A4360
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnpresentmultiplaneoverlay__dxgi_, pfnPresentMultiPlaneOverlayCb callback function [Display Devices], pfnPresentMultiPlaneOverlayCb, PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB, PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB, dxgiddi/pfnPresentMultiPlaneOverlayCb
+ms.keywords: PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB, display.pfnpresentmultiplaneoverlay__dxgi_, dxgiddi/pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

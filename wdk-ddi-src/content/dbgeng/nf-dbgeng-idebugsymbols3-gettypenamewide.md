@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0098aa2c-4ee4-49e4-a480-2402e771742f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetTypeNameWide, IDebugSymbols3, GetTypeNameWide method [Windows Debugging], IDebugSymbols3 interface, GetTypeNameWide method [Windows Debugging], IDebugSymbols3::GetTypeNameWide, GetTypeNameWide, debugger.gettypenamewide, IDebugSymbols3 interface [Windows Debugging], GetTypeNameWide method
+ms.keywords: ",  , ,, ., 3, :, D, G, GetTypeNameWide method [Windows Debugging], GetTypeNameWide method [Windows Debugging], IDebugSymbols3 interface, GetTypeNameWide,IDebugSymbols3.GetTypeNameWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetTypeNameWide method, IDebugSymbols3::GetTypeNameWide, N, S, T, W, a, b, d, dbgeng/IDebugSymbols3::GetTypeNameWide, debugger.gettypenamewide, e, g, i, l, m, o, p, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -157,11 +157,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nf-dbgeng-idebugsymbols-gettypesize.md">GetTypeSize</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nf-dbgeng-idebugsymbols-gettypesize.md">GetTypeSize</a>
 
 
 

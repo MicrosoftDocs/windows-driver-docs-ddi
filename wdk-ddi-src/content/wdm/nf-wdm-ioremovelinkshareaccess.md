@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FFCD4705-4E5D-4D4E-9E6D-D06A7D21DC17
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoRemoveLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioremovelinkshareaccess, wdm/IoRemoveLinkShareAccess, IoRemoveLinkShareAccess
+ms.keywords: ",  , A, I, IoRemoveLinkShareAccess, IoRemoveLinkShareAccess function [Kernel-Mode Driver Architecture], L, R, S, a, c, e, h, i, k, kernel.ioremovelinkshareaccess, m, n, o, r, s, v, wdm/IoRemoveLinkShareAccess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ Callers of <b>IoRemoveLinkShareAccess</b> must be running at IRQL = PASSIVE_LEVE
 
 
 
-<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
+
+
+
+<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
 
 
 

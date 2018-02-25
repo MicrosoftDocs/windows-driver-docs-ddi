@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d89ed38b-f2ab-495f-b7e6-7f58b9adc958
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OutputWide, debugger.outputwide, ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::ControlledOutputWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, dbgeng/IDebugControl4::ControlledOutputWide, IDebugControl4::OutputWide
+ms.keywords: ",  , ,, ., 4, :, C, ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, D, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, IDebugControl4::ControlledOutputWide, IDebugControl4::OutputWide, O, OutputWide,IDebugControl4.OutputWide, W, b, d, dbgeng/IDebugControl4::ControlledOutputWide, debugger.outputwide, e, g, i, l, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -304,7 +304,11 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
 
 
@@ -316,11 +320,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

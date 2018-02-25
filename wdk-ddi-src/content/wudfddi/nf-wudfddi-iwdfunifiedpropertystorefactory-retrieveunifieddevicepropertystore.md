@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A54E56A6-9A6C-435D-83FD-84BB0E072C74
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: RetrieveUnifiedDevicePropertyStore method, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory interface, wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, IWDFUnifiedPropertyStoreFactory, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore method, wdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, umdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, RetrieveUnifiedDevicePropertyStore, IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFUnifiedPropertyStoreFactory, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, P, R, RetrieveUnifiedDevicePropertyStore method, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore,IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore, S, U, W, a, c, d, e, f, i, n, o, p, r, t, umdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, v, wdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

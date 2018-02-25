@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c3fd576-48de-454b-8015-51767b21f17e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, GetDeviceControlTransferParameters, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams, GetDeviceControlTransferParameters method, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams interface
+ms.keywords: ",  , ,, ., :, C, D, F, G, GetDeviceControlTransferParameters method, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters,IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters, I, IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, P, R, T, U, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, W, a, b, c, e, f, i, l, m, n, o, p, q, r, s, t, u, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, v, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

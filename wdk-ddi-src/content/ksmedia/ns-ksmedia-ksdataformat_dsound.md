@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2b620e4f-8c26-479a-8b06-4e558b0813e5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSDATAFORMAT_DSOUND structure [Audio Devices], audio.ksdataformat_dsound, ksmedia/KSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], PKSDATAFORMAT_DSOUND, *PKSDATAFORMAT_DSOUND, aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml, ksmedia/PKSDATAFORMAT_DSOUND
+ms.keywords: ",  , *, *PKSDATAFORMAT_DSOUND, ,, A, D, F, K, KSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND structure [Audio Devices], M, N, O, P, PKSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], R, S, T, U, _, aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml, audio.ksdataformat_dsound, ksmedia/KSDATAFORMAT_DSOUND, ksmedia/PKSDATAFORMAT_DSOUND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,15 +89,15 @@ In response to an input <i>DataRange</i> parameter that specifies a DirectSound 
 
 ## -see-also
 
+<a href="..\ksmedia\ns-ksmedia-ksdsound_bufferdesc.md">KSDSOUND_BUFFERDESC</a>
+
+
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536764">IMiniport::DataRangeIntersection</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksdsound_bufferdesc.md">KSDSOUND_BUFFERDESC</a>
 
 
 

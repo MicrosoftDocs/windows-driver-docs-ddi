@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: FCDD6B04-339D-4BBA-9D19-AE74CCB27666
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery, UcmPdPdoTypeVariableSupplyNonBattery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, ucmtypes/UcmPdPdoTypeFixedSupply, ucmtypes/UcmPdPdoTypeBatterySupply, _UCM_PD_POWER_DATA_OBJECT_TYPE, UcmPdPdoTypeFixedSupply, buses.ucm_pd_power_data_object_type, UCM_PD_POWER_DATA_OBJECT_TYPE, UcmPdPdoTypeBatterySupply
+ms.keywords: ",  , ,, A, B, C, D, E, J, M, O, P, R, T, U, UCM_PD_POWER_DATA_OBJECT_TYPE, UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], UcmPdPdoTypeBatterySupply, UcmPdPdoTypeFixedSupply, UcmPdPdoTypeVariableSupplyNonBattery, W, Y, _, _UCM_PD_POWER_DATA_OBJECT_TYPE, buses.ucm_pd_power_data_object_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, ucmtypes/UcmPdPdoTypeBatterySupply, ucmtypes/UcmPdPdoTypeFixedSupply, ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

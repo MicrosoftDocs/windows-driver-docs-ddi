@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 30700af0-79e8-4808-bec8-94f5e5152bcc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.cryptosessiongethandle, CryptoSessionGetHandle callback function [Display Devices], CryptoSessionGetHandle, PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE, PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE, d3d10umddi/CryptoSessionGetHandle
+ms.keywords: CryptoSessionGetHandle, CryptoSessionGetHandle callback function [Display Devices], PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE, d3d10umddi/CryptoSessionGetHandle, display.cryptosessiongethandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

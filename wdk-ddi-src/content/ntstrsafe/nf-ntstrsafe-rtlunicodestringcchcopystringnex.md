@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: abbb1afd-b5a4-4be2-9cca-c5c5d7e0aa51
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlunicodestringcchcopystringnex, ntstrsafe/RtlUnicodeStringCchCopyStringNEx, safestrings_3c97192f-198f-4ab5-8c56-7a73d501be0b.xml, RtlUnicodeStringCchCopyStringNEx, RtlUnicodeStringCchCopyStringNEx function [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, E, N, R, RtlUnicodeStringCchCopyStringNEx, RtlUnicodeStringCchCopyStringNEx function [Kernel-Mode Driver Architecture], S, U, c, d, e, g, h, i, kernel.rtlunicodestringcchcopystringnex, l, n, ntstrsafe/RtlUnicodeStringCchCopyStringNEx, o, p, r, safestrings_3c97192f-198f-4ab5-8c56-7a73d501be0b.xml, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -221,11 +221,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopystringn.md">RtlUnicodeStringCchCopyStringN</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcopystringnex.md">RtlUnicodeStringCbCopyStringNEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopystringn.md">RtlUnicodeStringCchCopyStringN</a>
 
 
 

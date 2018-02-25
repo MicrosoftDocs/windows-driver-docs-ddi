@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fc0668b3-9242-4d30-9dc9-820f6d596d6c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisIMGetBindingContext, NdisIMGetBindingContext, intermediate_ref_ef5b6cf4-209a-4e51-be20-2e0e7bcc1ac8.xml, netvista.ndisimgetbindingcontext, NdisIMGetBindingContext function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , B, C, G, I, M, N, NdisIMGetBindingContext, NdisIMGetBindingContext function [Network Drivers Starting with Windows Vista], d, e, g, i, intermediate_ref_ef5b6cf4-209a-4e51-be20-2e0e7bcc1ac8.xml, n, ndis/NdisIMGetBindingContext, netvista.ndisimgetbindingcontext, o, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0A995357-A578-41C6-A1B8-ABD251C16C83
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ioisvalidirpstatus, IoIsValidIrpStatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], ntddk/IoIsValidIrpStatus
+ms.keywords: ",  , I, IoIsValidIrpStatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], S, V, a, d, i, kernel.ioisvalidirpstatus, l, ntddk/IoIsValidIrpStatus, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

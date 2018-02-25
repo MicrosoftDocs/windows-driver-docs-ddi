@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DD3AEB66-E36B-4F18-AFEC-D344132D4B8C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], PUFS_GEOMETRY_DESCRIPTOR, storage.ufs_geometry_descriptor, UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], *PUFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR, ufs/PUFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR
+ms.keywords: ",  , *, *PUFS_GEOMETRY_DESCRIPTOR, ,, C, D, E, F, G, I, M, O, P, PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], R, S, T, U, UFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], Y, _, storage.ufs_geometry_descriptor, ufs/PUFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

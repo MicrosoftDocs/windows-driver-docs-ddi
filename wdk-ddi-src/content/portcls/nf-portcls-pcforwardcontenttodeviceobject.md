@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 24891f90-422f-4104-97f4-395205e2b862
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PcForwardContentToDeviceObject function [Audio Devices], audpc-routines_1dec7e58-07b2-41ce-82d3-5f0670bbc273.xml, portcls/PcForwardContentToDeviceObject, audio.pcforwardcontenttodeviceobject, PcForwardContentToDeviceObject
+ms.keywords: ",  , C, D, F, O, P, PcForwardContentToDeviceObject, PcForwardContentToDeviceObject function [Audio Devices], T, a, audio.pcforwardcontenttodeviceobject, audpc-routines_1dec7e58-07b2-41ce-82d3-5f0670bbc273.xml, b, c, d, e, i, j, n, o, portcls/PcForwardContentToDeviceObject, r, t, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

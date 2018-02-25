@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eaeff5fe-a678-44e5-a78d-ef4816708878
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_e16d0af2-9299-4fda-96ad-75a39f3e505f.xml, ifsk.rtlinsertasrightchild, RtlInsertAsRightChild, RtlInsertAsRightChild routine [Installable File System Drivers], ntddk/RtlInsertAsRightChild
+ms.keywords: ",  , A, C, I, R, RtlInsertAsRightChild, RtlInsertAsRightChild routine [Installable File System Drivers], d, e, g, h, i, ifsk.rtlinsertasrightchild, l, n, ntddk/RtlInsertAsRightChild, r, rtlref_e16d0af2-9299-4fda-96ad-75a39f3e505f.xml, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,19 +116,15 @@ Callers of <b>RtlInsertAsRightChild</b> must be running at IRQL &lt;= DISPATCH_L
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
 
 
 
@@ -137,6 +133,10 @@ Callers of <b>RtlInsertAsRightChild</b> must be running at IRQL &lt;= DISPATCH_L
 
 
 <a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 

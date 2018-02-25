@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: abe6a82f-1613-4c74-9e81-01939db74bfd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createquery_d3d10_, CreateQuery callback function [Display Devices], CreateQuery, PFND3D10DDI_CREATEQUERY, PFND3D10DDI_CREATEQUERY, d3d10umddi/CreateQuery, UserModeDisplayDriverDx10_Functions_faa26999-d692-40b4-81ef-99c730879b49.xml
+ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3D10DDI_CREATEQUERY, UserModeDisplayDriverDx10_Functions_faa26999-d692-40b4-81ef-99c730879b49.xml, d3d10umddi/CreateQuery, display.createquery_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -133,11 +133,7 @@ The driver might run out of memory or be unable to create queries because of the
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createquery.md">D3D10DDIARG_CREATEQUERY</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatequerysize.md">CalcPrivateQuerySize</a>
 
 
 
@@ -145,11 +141,15 @@ The driver might run out of memory or be unable to create queries because of the
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatequerysize.md">CalcPrivateQuerySize</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyquery.md">DestroyQuery(D3D10)</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createquery.md">D3D10DDIARG_CREATEQUERY</a>
 
 
 

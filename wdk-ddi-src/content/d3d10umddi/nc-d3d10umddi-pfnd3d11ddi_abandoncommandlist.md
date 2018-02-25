@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fc8347da-25ac-47ea-b482-61b7873ca5bc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.abandoncommandlist, AbandonCommandList callback function [Display Devices], AbandonCommandList, PFND3D11DDI_ABANDONCOMMANDLIST, PFND3D11DDI_ABANDONCOMMANDLIST, d3d10umddi/AbandonCommandList, UserModeDisplayDriverDx11_Functions_1f9b5b27-499e-41a0-adf3-7b1c2f0021c7.xml
+ms.keywords: AbandonCommandList, AbandonCommandList callback function [Display Devices], PFND3D11DDI_ABANDONCOMMANDLIST, UserModeDisplayDriverDx11_Functions_1f9b5b27-499e-41a0-adf3-7b1c2f0021c7.xml, d3d10umddi/AbandonCommandList, display.abandoncommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -108,11 +108,11 @@ The driver is only required to implement <b>AbandonCommandList</b> if the driver
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: edd189f9-1089-470f-95a9-670bdba9c210
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exinitializefastmutex, ExInitializeFastMutex, ExInitializeFastMutex routine [Kernel-Mode Driver Architecture], wdm/ExInitializeFastMutex, k102_b340d108-2e1c-4fa5-9bd0-d174452b125c.xml
+ms.keywords: ",  , E, ExInitializeFastMutex, ExInitializeFastMutex routine [Kernel-Mode Driver Architecture], F, I, M, a, e, i, k102_b340d108-2e1c-4fa5-9bd0-d174452b125c.xml, kernel.exinitializefastmutex, l, n, s, t, u, wdm/ExInitializeFastMutex, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,19 +99,7 @@ For more information about fast mutexes, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545715">FAST_MUTEX</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544337">ExAcquireFastMutex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
 
 
 
@@ -119,11 +107,23 @@ For more information about fast mutexes, see <a href="https://msdn.microsoft.com
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544337">ExAcquireFastMutex</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545647">ExTryToAcquireFastMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545715">FAST_MUTEX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 
 

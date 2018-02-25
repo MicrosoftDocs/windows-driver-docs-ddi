@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d1a7451-8c0f-4df8-85c5-14aaaa9afd94
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: condis_client_ref_6d047338-0482-4d26-8dfa-4c07502fb8a2.xml, ndis/NdisClCloseCall, NdisClCloseCall, netvista.ndisclclosecall, NdisClCloseCall function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , C, N, NdisClCloseCall, NdisClCloseCall function [Network Drivers Starting with Windows Vista], a, condis_client_ref_6d047338-0482-4d26-8dfa-4c07502fb8a2.xml, d, e, i, l, ndis/NdisClCloseCall, netvista.ndisclclosecall, o, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -237,23 +237,15 @@ After the client releases an
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
 
 
@@ -267,15 +259,7 @@ After the client releases an
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
 
 
@@ -284,7 +268,23 @@ After the client releases an
 
 
 
+<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
 
 

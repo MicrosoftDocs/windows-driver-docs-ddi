@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: a8ea63cf-24ba-467b-9c27-ab8e38be1c04
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OnGetSupportedSensorObjects, ISensorDriver::OnGetSupportedSensorObjects, sensors.isensordriver_ongetsupportedsensorobjects, OnGetSupportedSensorObjects method [Sensor Devices], ISensorDriver
+ms.keywords: ",  , ,, ., :, D, G, I, ISensorDriver, ISensorDriver::OnGetSupportedSensorObjects, O, OnGetSupportedSensorObjects method [Sensor Devices], OnGetSupportedSensorObjects,ISensorDriver.OnGetSupportedSensorObjects, S, b, c, d, e, i, j, n, o, p, r, s, sensors.isensordriver_ongetsupportedsensorobjects, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

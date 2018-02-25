@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 340b304c-5484-4d98-9ef4-8814c68443a0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxref_e020604c-fa08-40f3-895d-425347c73307.xml, ifsk.rxinferfiletype, fcb/RxInferFileType, RxInferFileType function [Installable File System Drivers], RxInferFileType
+ms.keywords: ",  , F, I, R, RxInferFileType, RxInferFileType function [Installable File System Drivers], T, e, f, fcb/RxInferFileType, i, ifsk.rxinferfiletype, l, n, p, r, rxref_e020604c-fa08-40f3-895d-425347c73307.xml, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,11 +137,11 @@ The <b>RxInferFileType</b> routine is not called internally by RDBSS. The <b>RxI
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-
-
-
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
 
 
 

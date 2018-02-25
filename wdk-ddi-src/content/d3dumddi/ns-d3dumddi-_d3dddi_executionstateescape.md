@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9BA78743-91AA-4AAC-9FB3-CF8B30FC15AE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddi_executionstateescape, D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], _D3DDDI_EXECUTIONSTATEESCAPE, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], E, I, N, O, P, S, T, U, X, _, _D3DDDI_EXECUTIONSTATEESCAPE, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, display.d3dddi_executionstateescape"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 796A6C4B-0C7E-43C5-88BC-C03DAA3869A6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2systemdmatransmitdrainfifo, EvtSerCx2SystemDmaTransmitDrainFifo callback function [Serial Ports], EvtSerCx2SystemDmaTransmitDrainFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_DRAIN_FIFO, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_DRAIN_FIFO, 2/EvtSerCx2SystemDmaTransmitDrainFifo
+ms.keywords: 2/EvtSerCx2SystemDmaTransmitDrainFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_DRAIN_FIFO, EvtSerCx2SystemDmaTransmitDrainFifo, EvtSerCx2SystemDmaTransmitDrainFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitdrainfifo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,7 +141,7 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_DRAIN_FIFO</b> function type is defined in
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cancel_drain_fifo.md">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_purge_fifo.md">EvtSerCx2SystemDmaTransmitPurgeFifo</a>
 
 
 
@@ -149,15 +149,15 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_DRAIN_FIFO</b> function type is defined in
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_purge_fifo.md">EvtSerCx2SystemDmaTransmitPurgeFifo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cancel_drain_fifo.md">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
 

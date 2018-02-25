@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0661a65d-5129-49f6-9400-70b8c8e8245f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMT_UMD_DRIVER_VERSION, D3DKMT_UMD_DRIVER_VERSION, display.d3dkmt_umd_driver_version, D3DKMT_UMD_DRIVER_VERSION structure [Display Devices], _D3DKMT_UMD_DRIVER_VERSION
+ms.keywords: ",  , ,, 3, D, D3DKMT_UMD_DRIVER_VERSION, D3DKMT_UMD_DRIVER_VERSION structure [Display Devices], E, I, K, M, N, O, R, S, T, U, V, _, _D3DKMT_UMD_DRIVER_VERSION, d3dkmthk/D3DKMT_UMD_DRIVER_VERSION, display.d3dkmt_umd_driver_version"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

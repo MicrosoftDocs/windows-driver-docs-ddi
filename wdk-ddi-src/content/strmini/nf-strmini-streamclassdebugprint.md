@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: StreamClassDebugPrint routine [Streaming Media Devices], stream.streamclassdebugprint, strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, strmini/StreamClassDebugPrint, StreamClassDebugPrint
+ms.keywords: ",  , C, D, P, S, StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], a, b, e, g, i, l, m, n, r, s, strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ For more information, see <a href="https://msdn.microsoft.com/544b922b-58e4-4cbb
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
-
-
-
 <a href="..\strmini\nf-strmini-streamclassdebugassert.md">StreamClassDebugAssert</a>
+
+
+
+<a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
 
 
 

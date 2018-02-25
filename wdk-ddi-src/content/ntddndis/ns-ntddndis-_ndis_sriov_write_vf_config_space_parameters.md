@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5f8959f-edde-4d45-b93c-8f5acb08ec98
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_sriov_write_vf_config_space_parameters, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
+ms.keywords: ",  , *, *PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, ,, A, C, D, E, F, G, I, M, N, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, V, W, _, _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, netvista.ndis_sriov_write_vf_config_space_parameters, ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

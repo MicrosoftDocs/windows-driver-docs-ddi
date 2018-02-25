@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aa91ea9b-3d92-4f33-8bbd-dd64a76a0a86
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_device_power_policy_notification_data, _WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA, wdfdevice/WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA, kmdf.wdf_device_power_policy_notification_data, DFDeviceObjectGeneralRef_b2b78d41-642d-4e2d-89cc-8ea27a033c77.xml, WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure, WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA
+ms.keywords: ",  , ,, A, C, D, DFDeviceObjectGeneralRef_b2b78d41-642d-4e2d-89cc-8ea27a033c77.xml, E, F, I, L, N, O, P, R, T, V, W, WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA, WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure, Y, _, _WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA, kmdf.wdf_device_power_policy_notification_data, wdf.wdf_device_power_policy_notification_data, wdfdevice/WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

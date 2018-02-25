@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 421cbe15-f2a6-495d-90f2-09a13771d018
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_unmap_video_memory, IOCTL_VIDEO_UNMAP_VIDEO_MEMORY control code [Display Devices], IOCTL_VIDEO_UNMAP_VIDEO_MEMORY, ntddvdeo/IOCTL_VIDEO_UNMAP_VIDEO_MEMORY, Video_IOCTLs_97fad6e5-d6e7-4487-84ab-cee66609ccd9.xml
+ms.keywords: IOCTL_VIDEO_UNMAP_VIDEO_MEMORY, IOCTL_VIDEO_UNMAP_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_97fad6e5-d6e7-4487-84ab-cee66609ccd9.xml, display.ioctl_video_unmap_video_memory, ntddvdeo/IOCTL_VIDEO_UNMAP_VIDEO_MEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -118,11 +118,11 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
-
-
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
+
+
+
+<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
 
 
 

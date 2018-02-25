@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fff319e-0428-4185-a792-d3842ab9feb8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.posetpowerstate, PoSetPowerState, PoSetPowerState routine [Kernel-Mode Driver Architecture], portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, wdm/PoSetPowerState
+ms.keywords: ",  , P, PoSetPowerState, PoSetPowerState routine [Kernel-Mode Driver Architecture], S, a, e, kernel.posetpowerstate, o, portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, r, t, w, wdm/PoSetPowerState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ A pointer to the target <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT<
 
 ### -param Type [in]
 
-Indicates a <a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a> value. Drivers must specify <b>DevicePowerState</b>.
+Indicates a <a href="..\ntpoapi\ne-ntpoapi-_power_state_type.md">POWER_STATE_TYPE</a> value. Drivers must specify <b>DevicePowerState</b>.
 
 
 ### -param State [in]

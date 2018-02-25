@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f12ace3a-2bb4-433b-b987-2027a48f4c14
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D11_1DDI_GETCAPTUREHANDLEDATA structure [Display Devices], display.d3d11_1ddi_getcapturehandledata, d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA, _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA structure [Display Devices], E, G, H, I, L, N, P, R, T, U, _, _D3D11_1DDI_GETCAPTUREHANDLEDATA, d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA, display.d3d11_1ddi_getcapturehandledata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,11 +115,11 @@ When the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle.md"
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle.md">GetCaptureHandle</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
 
 
 

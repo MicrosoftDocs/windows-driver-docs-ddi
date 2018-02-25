@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.powercontrolcallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], PowerControlCallback, PO_FX_POWER_CONTROL_CALLBACK, PO_FX_POWER_CONTROL_CALLBACK, wdm/PowerControlCallback
+ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,7 +112,7 @@ A pointer to a location into which the routine writes the number of bytes of dat
 
 #### - Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with PoFx. This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with PoFx. This context is opaque to PoFx.
 
 
 ## -returns
@@ -186,11 +186,11 @@ The PO_FX_POWER_CONTROL_CALLBACK function type is defined in the Wdm.h header fi
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+
+
+
 <a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 

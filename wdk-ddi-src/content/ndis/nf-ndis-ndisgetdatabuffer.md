@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 784d4c32-a517-4219-8e22-a998e0e66d69
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetDataBuffer, netvista.ndisgetdatabuffer, NdisGetDataBuffer
+ms.keywords: ",  , B, D, G, N, NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], a, d, e, f, i, ndis/NdisGetDataBuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml, netvista.ndisgetdatabuffer, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

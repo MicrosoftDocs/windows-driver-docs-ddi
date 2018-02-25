@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5a160a7-3408-4d26-83c8-2f5a7b6acaf1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRegistryAssignULong method, kmdf.wdfregistryassignulong, WdfRegistryAssignULong, wdf.wdfregistryassignulong, wdfregistry/WdfRegistryAssignULong, DFRegKeyObjectRef_2f35ea01-ade1-4bf1-a55b-6613021fcd04.xml
+ms.keywords: ",  , A, DFRegKeyObjectRef_2f35ea01-ade1-4bf1-a55b-6613021fcd04.xml, L, R, U, W, WdfRegistryAssignULong, WdfRegistryAssignULong method, d, e, f, g, i, kmdf.wdfregistryassignulong, n, o, r, s, t, wdf.wdfregistryassignulong, wdfregistry/WdfRegistryAssignULong, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,15 +192,7 @@ status = WdfRegistryAssignULong(
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
 
 
 
@@ -209,6 +201,14 @@ status = WdfRegistryAssignULong(
 
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

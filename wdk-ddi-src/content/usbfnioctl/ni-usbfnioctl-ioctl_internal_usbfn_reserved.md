@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F6935F5F-B6A8-4495-835D-151A26633F04
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usbfn_reserved, IOCTL_INTERNAL_USBFN_RESERVED control code [Buses], IOCTL_INTERNAL_USBFN_RESERVED, usbfnioctl/IOCTL_INTERNAL_USBFN_RESERVED
+ms.keywords: IOCTL_INTERNAL_USBFN_RESERVED, IOCTL_INTERNAL_USBFN_RESERVED control code [Buses], buses.ioctl_internal_usbfn_reserved, usbfnioctl/IOCTL_INTERNAL_USBFN_RESERVED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

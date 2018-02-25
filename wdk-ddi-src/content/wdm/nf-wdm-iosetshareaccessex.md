@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4DCC4A37-0099-4C6F-B00D-B6CAA7D1EC68
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoSetShareAccessEx routine [Kernel-Mode Driver Architecture], IoSetShareAccessEx, wdm/IoSetShareAccessEx, kernel.iosetshareaccessex
+ms.keywords: ",  , A, E, I, IoSetShareAccessEx, IoSetShareAccessEx routine [Kernel-Mode Driver Architecture], S, a, c, e, h, kernel.iosetshareaccessex, o, r, s, t, wdm/IoSetShareAccessEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

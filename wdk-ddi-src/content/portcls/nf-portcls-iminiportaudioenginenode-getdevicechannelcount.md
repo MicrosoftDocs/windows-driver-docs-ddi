@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 978193AE-55CD-4255-8722-A1E008E98F08
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetDeviceChannelCount method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount, audio.iminiportaudioenginenode_getdevicechannelcount, IMiniportAudioEngineNode::GetDeviceChannelCount, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelCount method, GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount
+ms.keywords: ",  , ,, ., :, A, C, D, E, G, GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelCount,IMiniportAudioEngineNode.GetDeviceChannelCount, I, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelCount method, IMiniportAudioEngineNode::GetDeviceChannelCount, M, N, a, audio.iminiportaudioenginenode_getdevicechannelcount, c, d, e, g, h, i, l, n, o, p, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

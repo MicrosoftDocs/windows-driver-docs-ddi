@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C9707F47-75DF-4CDE-B88B-24323FC8C94B
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_D3DKMT_CREATECONTEXTVIRTUAL, display.d3dkmt_createcontextvirtual, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices], D3DKMT_CREATECONTEXTVIRTUAL"
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices], E, I, K, L, M, N, O, R, T, U, V, X, _, _D3DKMT_CREATECONTEXTVIRTUAL, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, display.d3dkmt_createcontextvirtual"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,11 +118,11 @@ typedef struct _D3DKMT_CREATECONTEXTVIRTUAL {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontextvirtual.md">D3DKMTCreateContextVirtual</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontextvirtual.md">D3DKMTCreateContextVirtual</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FE756171-327B-40E7-92A4-9159C509FD5E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.getbusdriverd3coldsupport, GetBusDriverD3ColdSupport routine [Kernel-Mode Driver Architecture], GetBusDriverD3ColdSupport, GET_D3COLD_CAPABILITY, GET_D3COLD_CAPABILITY, wdm/GetBusDriverD3ColdSupport
+ms.keywords: GET_D3COLD_CAPABILITY, GetBusDriverD3ColdSupport, GetBusDriverD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.getbusdriverd3coldsupport, wdm/GetBusDriverD3ColdSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -125,11 +125,11 @@ For this reason, most device drivers never need to call the <i>GetBusDriverD3Col
 
 
 
-<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
-
-
-
 <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
+
+
+
+<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
 
 
 

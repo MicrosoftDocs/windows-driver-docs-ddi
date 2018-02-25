@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E3BE0351-724E-4407-AA5B-D7AAEFE508D4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.evtsensorgetdatafieldproperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], EvtSensorGetDataFieldProperties, EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, sensorscx/EvtSensorGetDataFieldProperties
+ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -117,11 +117,11 @@ This function must be implemented by the driver and is called by the class exten
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957080">Proximity sensor data fields</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957080">Proximity sensor data fields</a>
 
 
 

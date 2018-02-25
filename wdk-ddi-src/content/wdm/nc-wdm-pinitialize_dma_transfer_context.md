@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5E9D08FD-1F81-462F-90AA-7C4BFFB5F864
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.initializedmatransfercontext, InitializeDmaTransferContext, InitializeDmaTransferContext callback function [Kernel-Mode Driver Architecture], InitializeDmaTransferContext, PINITIALIZE_DMA_TRANSFER_CONTEXT, PINITIALIZE_DMA_TRANSFER_CONTEXT, wdm/InitializeDmaTransferContext
+ms.keywords: InitializeDmaTransferContext, InitializeDmaTransferContext callback function [Kernel-Mode Driver Architecture], PINITIALIZE_DMA_TRANSFER_CONTEXT, kernel.initializedmatransfercontext, wdm/InitializeDmaTransferContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -125,15 +125,11 @@ The DMA transfer context that is supplied to <b>AllocateAdapterChannelEx</b>, <b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
 <a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
 
 
 
@@ -141,11 +137,15 @@ The DMA transfer context that is supplied to <b>AllocateAdapterChannelEx</b>, <b
 
 
 
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
 
 
 

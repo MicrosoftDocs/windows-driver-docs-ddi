@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bd924049-3932-4e85-908e-c3fb488b3a8c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvstoppostassociate, Dot11ExtIhvStopPostAssociate callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvStopPostAssociate, DOT11EXTIHV_STOP_POST_ASSOCIATE, DOT11EXTIHV_STOP_POST_ASSOCIATE, wlanihv/Dot11ExtIhvStopPostAssociate, Native_802.11_IHV_Ext_674652ff-a01d-493b-9b11-bff378f25f2a.xml
+ms.keywords: DOT11EXTIHV_STOP_POST_ASSOCIATE, Dot11ExtIhvStopPostAssociate, Dot11ExtIhvStopPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_674652ff-a01d-493b-9b11-bff378f25f2a.xml, netvista.dot11extihvstoppostassociate, wlanihv/Dot11ExtIhvStopPostAssociate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -156,15 +156,7 @@ For more information about the post-association operation, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
 
 
@@ -178,7 +170,15 @@ For more information about the post-association operation, see
 
 
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
 
 

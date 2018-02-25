@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 06affa2e-d22c-4d24-8c5f-6ef52e3051fa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winsplp/GetJobAttributes, GetJobAttributes function [Print Devices], print.getjobattributes, GetJobAttributes, spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml
+ms.keywords: ",  , A, G, GetJobAttributes, GetJobAttributes function [Print Devices], J, b, e, i, o, print.getjobattributes, r, s, spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml, t, u, winsplp/GetJobAttributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5ce7786-717a-4e0f-bc57-342655a59ca1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoCallDriver routine [Kernel-Mode Driver Architecture], PoCallDriver, kernel.pocalldriver, wdm/PoCallDriver, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml
+ms.keywords: ",  , C, D, P, PoCallDriver, PoCallDriver routine [Kernel-Mode Driver Architecture], a, e, i, kernel.pocalldriver, l, o, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml, r, v, wdm/PoCallDriver"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,18 +115,6 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
 
 
@@ -135,11 +123,23 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
 
 
 
-<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
+<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -147,7 +147,7 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 
 
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 418E66FA-BECD-4F9F-B28C-962995C637B9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, OFFLOAD_READ_FLAG_FILE_TOO_SMALL, _FSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT, OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], FSCTL_OFFLOAD_READ_OUTPUT, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], *PFSCTL_OFFLOAD_READ_OUTPUT, ifsk.fsctl_offload_read_output, ntifs/FSCTL_OFFLOAD_READ_OUTPUT
+ms.keywords: ",  , *, *PFSCTL_OFFLOAD_READ_OUTPUT, ,, A, C, D, E, F, FSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], L, O, OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, OFFLOAD_READ_FLAG_FILE_TOO_SMALL, P, PFSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], R, S, T, U, _, _FSCTL_OFFLOAD_READ_OUTPUT, ifsk.fsctl_offload_read_output, ntifs/FSCTL_OFFLOAD_READ_OUTPUT, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -148,15 +148,15 @@ The  copy provider retains the data read for the duration in the <b>TokenTimeToL
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>
 
 
 
 <a href="..\ntifs\ns-ntifs-_fsctl_offload_read_input.md">FSCTL_OFFLOAD_READ_INPUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
 
 
 

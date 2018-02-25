@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 994df4be-d0ce-4f64-91f5-b5516ce947ec
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], display.d3dkmtgetprocessschedulingpriorityclass, d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml, D3DKMTGetProcessSchedulingPriorityClass
+ms.keywords: ",  , 3, C, D, D3DKMTGetProcessSchedulingPriorityClass, D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], G, K, M, OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml, P, S, T, a, c, d, d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, display.d3dkmtgetprocessschedulingpriorityclass, e, g, h, i, l, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

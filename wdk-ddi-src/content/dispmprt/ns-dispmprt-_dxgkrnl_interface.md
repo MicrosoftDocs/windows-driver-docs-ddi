@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d97d3ec6-aaa5-4f4a-a39f-42c09473b18e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKDDI_INTERFACE_VERSION_VISTA, dispmprt/PDXGKRNL_INTERFACE, DXGKRNL_INTERFACE, PDXGKRNL_INTERFACE, DXGKDDI_INTERFACE_VERSION_VISTA_SP1, DmStructs_86ab8b5f-f30b-4ad3-ac4d-34fc3a864f27.xml, display.dxgkrnl_interface2, _DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE, dispmprt/DXGKRNL_INTERFACE, DXGKDDI_INTERFACE_VERSION_WIN8, DXGKRNL_INTERFACE structure [Display Devices], DXGKDDI_INTERFACE_VERSION_VISTA_WIN7, PDXGKRNL_INTERFACE structure pointer [Display Devices]
+ms.keywords: ",  , *, *PDXGKRNL_INTERFACE, ,, A, C, D, DXGKDDI_INTERFACE_VERSION_VISTA, DXGKDDI_INTERFACE_VERSION_VISTA_SP1, DXGKDDI_INTERFACE_VERSION_VISTA_WIN7, DXGKDDI_INTERFACE_VERSION_WIN8, DXGKRNL_INTERFACE, DXGKRNL_INTERFACE structure [Display Devices], DmStructs_86ab8b5f-f30b-4ad3-ac4d-34fc3a864f27.xml, E, F, G, I, K, L, N, P, PDXGKRNL_INTERFACE, PDXGKRNL_INTERFACE structure pointer [Display Devices], R, T, X, _, _DXGKRNL_INTERFACE, display.dxgkrnl_interface2, dispmprt/DXGKRNL_INTERFACE, dispmprt/PDXGKRNL_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -416,15 +416,15 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560940">Dxgkrnl Interface</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 
 

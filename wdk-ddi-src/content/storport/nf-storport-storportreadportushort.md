@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5c9e91a-96b7-4774-8bb4-7519968ce072
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_fe44d011-ae82-4255-9df9-c1d8f999fd63.xml, StorPortReadPortUshort, storage.storportreadportushort, StorPortReadPortUshort routine [Storage Devices], storport/StorPortReadPortUshort
+ms.keywords: ",  , P, R, S, StorPortReadPortUshort, StorPortReadPortUshort routine [Storage Devices], U, a, d, e, h, o, r, s, storage.storportreadportushort, storport/StorPortReadPortUshort, storprt_fe44d011-ae82-4255-9df9-c1d8f999fd63.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,7 +98,7 @@ Pointer to the address from which to read.
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadportbufferushort.md">StorPortReadPortBufferUshort</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadportbufferushort.md">StorPortReadPortBufferUshort</a>. 
 
 
 
@@ -109,7 +109,7 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md
 
 
 
-<a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
+<a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
 
 
 

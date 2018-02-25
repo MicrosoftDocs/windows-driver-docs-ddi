@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8d670887-e8bb-4b99-99ae-16c0dd9c4431
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics, structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml, iscsiprf/MSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], _MSiSCSI_InitiatorLoginStatistics, storage.msiscsi_initiatorloginstatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics"
+ms.keywords: ",  , *, *PMSiSCSI_InitiatorLoginStatistics, ,, C, I, L, M, MSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], P, PMSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], S, _, _MSiSCSI_InitiatorLoginStatistics, a, c, g, i, iscsiprf/MSiSCSI_InitiatorLoginStatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, n, o, r, s, storage.msiscsi_initiatorloginstatistics, structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,11 +137,11 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563042">MSiSCSI_InitiatorLoginStatistics WMI Class</a>
+
+
+
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
 

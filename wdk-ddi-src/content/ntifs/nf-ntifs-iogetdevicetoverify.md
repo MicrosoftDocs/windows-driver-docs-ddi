@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3dcd33ac-845a-4519-b697-5917687a9672
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoGetDeviceToVerify routine [Installable File System Drivers], k104_47163b80-0b35-40e0-9a30-3f5e2fe51bba.xml, IoGetDeviceToVerify, ifsk.iogetdevicetoverify, ntifs/IoGetDeviceToVerify
+ms.keywords: ",  , D, G, I, IoGetDeviceToVerify, IoGetDeviceToVerify routine [Installable File System Drivers], T, V, c, e, f, i, ifsk.iogetdevicetoverify, k104_47163b80-0b35-40e0-9a30-3f5e2fe51bba.xml, ntifs/IoGetDeviceToVerify, o, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,19 +94,19 @@ An underlying removable-media device driver is responsible for notifying higher-
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioiserroruserinduced.md">IoIsErrorUserInduced</a>
 
 
 
+<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
 
 
 

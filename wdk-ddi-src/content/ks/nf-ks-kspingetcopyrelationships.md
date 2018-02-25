@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7f74cbf1-2382-471c-ab07-fdb7e615cb0b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsPinGetCopyRelationships, KsPinGetCopyRelationships, stream.kspingetcopyrelationships, KsPinGetCopyRelationships function [Streaming Media Devices], avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml
+ms.keywords: ",  , C, G, K, KsPinGetCopyRelationships, KsPinGetCopyRelationships function [Streaming Media Devices], P, R, a, avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml, e, h, i, ks/KsPinGetCopyRelationships, l, n, o, p, s, stream.kspingetcopyrelationships, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

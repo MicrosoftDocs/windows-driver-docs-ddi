@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eefbec75-f441-492b-becb-98434253dd62
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExRaiseStatus, kernel.exraisestatus, ExRaiseStatus routine [Kernel-Mode Driver Architecture], k102_b188a166-f1f1-49bd-8195-aa72f86ca177.xml, wdm/ExRaiseStatus
+ms.keywords: ",  , E, ExRaiseStatus, ExRaiseStatus routine [Kernel-Mode Driver Architecture], R, S, a, e, i, k102_b188a166-f1f1-49bd-8195-aa72f86ca177.xml, kernel.exraisestatus, s, t, u, wdm/ExRaiseStatus, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,7 @@ Highest-level drivers, particularly file systems, can call <b>ExRaiseStatus</b>.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
 
 
@@ -101,11 +101,11 @@ Highest-level drivers, particularly file systems, can call <b>ExRaiseStatus</b>.
 
 
 
+<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
+
+
+
 <a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 841f3885-509a-457e-854d-e8ead657de54
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0, fwpsk/FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , 0, C, F, FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], H, R, a, c, d, e, fwpsk/FwpsRedirectHandleCreate0, i, l, n, netvista.fwpsredirecthandlecreate0, p, r, s, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,15 +147,15 @@ After a callout driver has finished using a redirect handle, it must call the <a
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandledestroy0.md">FwpsRedirectHandleDestroy0</a>
 
 
 
 <a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 

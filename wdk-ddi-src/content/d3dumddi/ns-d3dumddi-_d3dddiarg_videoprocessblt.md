@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24e4115f-cd21-46e7-aacc-9b66e7513b9e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dumddi/D3DDDIARG_VIDEOPROCESSBLT, UMDisplayDriver_param_Structs_feb8d240-92ee-45b9-a07e-50b89f906fbe.xml, D3DDDIARG_VIDEOPROCESSBLT, _D3DDDIARG_VIDEOPROCESSBLT, D3DDDIARG_VIDEOPROCESSBLT structure [Display Devices], display.d3dddiarg_videoprocessblt
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDIARG_VIDEOPROCESSBLT, D3DDDIARG_VIDEOPROCESSBLT structure [Display Devices], E, G, I, L, O, P, R, S, T, UMDisplayDriver_param_Structs_feb8d240-92ee-45b9-a07e-50b89f906fbe.xml, V, _, _D3DDDIARG_VIDEOPROCESSBLT, d3dumddi/D3DDDIARG_VIDEOPROCESSBLT, display.d3dddiarg_videoprocessblt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -168,11 +168,11 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videoprocessbltflags.md">DXVADDI_VIDEOPROCESSBLTFLAGS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videosample.md">DXVADDI_VIDEOSAMPLE</a>
 
 
 
@@ -180,7 +180,11 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videoprocessbltflags.md">DXVADDI_VIDEOPROCESSBLTFLAGS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videosample.md">DXVADDI_VIDEOSAMPLE</a>
 
 
 
@@ -193,10 +197,6 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 

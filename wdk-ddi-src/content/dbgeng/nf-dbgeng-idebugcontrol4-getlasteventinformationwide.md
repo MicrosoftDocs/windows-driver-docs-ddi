@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9ec4ae29-7c9f-4da6-ae5d-57de9423cb30
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetLastEventInformationWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetLastEventInformationWide method, IDebugControl4::GetLastEventInformationWide, IDebugControl4, GetLastEventInformationWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetLastEventInformationWide, GetLastEventInformationWide, debugger.getlasteventinformationwide
+ms.keywords: ",  , ,, ., 4, :, C, D, E, G, GetLastEventInformationWide method [Windows Debugging], GetLastEventInformationWide method [Windows Debugging], IDebugControl4 interface, GetLastEventInformationWide,IDebugControl4.GetLastEventInformationWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetLastEventInformationWide method, IDebugControl4::GetLastEventInformationWide, L, W, a, b, d, dbgeng/IDebugControl4::GetLastEventInformationWide, debugger.getlasteventinformationwide, e, f, g, i, l, m, n, o, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

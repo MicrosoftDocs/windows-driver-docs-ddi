@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 403e17c1-1353-42dd-aedc-8aec1fd72e0f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetCallBarringStatus, RIL_GetCallBarringStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getcallbarringstatus, rilapi/RIL_GetCallBarringStatus
+ms.keywords: ",  , B, C, G, I, L, R, RIL_GetCallBarringStatus, RIL_GetCallBarringStatus method [Network Drivers Starting with Windows Vista], S, _, a, e, g, i, l, n, netvista.ril_getcallbarringstatus, r, rilapi/RIL_GetCallBarringStatus, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

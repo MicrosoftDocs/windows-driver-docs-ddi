@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2f12aab4-ca6e-473b-a342-2881c4a7b133
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorfreeadapterresources, HwStorFreeAdapterResources routine [Storage Devices], HwStorFreeAdapterResources, HW_FREE_ADAPTER_RESOURCES, HW_FREE_ADAPTER_RESOURCES, storport/HwStorFreeAdapterResources, storvmini_88adb6fa-10a8-4ee7-90d3-881564ed5cfd.xml
+ms.keywords: HW_FREE_ADAPTER_RESOURCES, HwStorFreeAdapterResources, HwStorFreeAdapterResources routine [Storage Devices], storage.hwstorfreeadapterresources, storport/HwStorFreeAdapterResources, storvmini_88adb6fa-10a8-4ee7-90d3-881564ed5cfd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

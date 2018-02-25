@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a3a3050a-6fa2-4ace-87f2-41b8364f4d30
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/PGetFcpTargetMapping_OUT, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml, _GetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT structure pointer [Storage Devices], PGetFcpTargetMapping_OUT, *PGetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT structure [Storage Devices], storage.getfcptargetmapping_out, hbapiwmi/GetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT
+ms.keywords: ",  , *, *PGetFcpTargetMapping_OUT, ,, F, G, GetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT structure [Storage Devices], M, O, P, PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT structure pointer [Storage Devices], T, U, _, _GetFcpTargetMapping_OUT, a, c, e, g, hbapiwmi/GetFcpTargetMapping_OUT, hbapiwmi/PGetFcpTargetMapping_OUT, i, n, p, r, storage.getfcptargetmapping_out, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,7 +103,7 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT struct
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
 
 
 
@@ -111,11 +111,11 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT struct
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
-
-
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpscsientry.md">HBAFCPScsiEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

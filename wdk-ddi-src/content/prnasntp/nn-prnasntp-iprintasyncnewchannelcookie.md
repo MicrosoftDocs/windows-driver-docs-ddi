@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 48C5F80F-64AB-415A-AAF5-8B06505B02BF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintasyncnewchannelcookie, IPrintAsyncNewChannelCookie interface [Print Devices], IPrintAsyncNewChannelCookie interface [Print Devices], described, IPrintAsyncNewChannelCookie, prnasntp/IPrintAsyncNewChannelCookie
+ms.keywords: IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], IPrintAsyncNewChannelCookie interface [Print Devices], described, print.iprintasyncnewchannelcookie, prnasntp/IPrintAsyncNewChannelCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

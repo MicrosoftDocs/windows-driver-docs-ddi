@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: D8FF1E87-EB3E-491E-9649-076376C272B3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.wpprecorderlinkcounters, WppRecorderLinkCounters, imp_WppRecorderLinkCounters, wpprecorder/imp_WppRecorderLinkCounters, imp_WppRecorderLinkCounters function [Driver Development Tools]
+ms.keywords: ",  , C, L, R, W, WppRecorderLinkCounters, c, d, devtest.wpprecorderlinkcounters, e, i, imp_WppRecorderLinkCounters, imp_WppRecorderLinkCounters function [Driver Development Tools], k, n, o, p, r, s, t, u, wpprecorder/imp_WppRecorderLinkCounters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

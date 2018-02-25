@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: D923DA5C-0169-475D-8C0C-6A99EB06ECE0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.pcremovestreamresource, PcRemoveStreamResource, PcRemoveStreamResource function [Audio Devices], portcls/PcRemoveStreamResource
+ms.keywords: ",  , P, PcRemoveStreamResource, PcRemoveStreamResource function [Audio Devices], R, S, a, audio.pcremovestreamresource, c, e, m, o, portcls/PcRemoveStreamResource, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,15 +123,15 @@ Audio drivers that only run in Windows 10 can use  <a href="..\portcls\nf-portcl
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcaddstreamresource.md">PcAddStreamResource</a>
-
-
-
 <a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
 
 
 <a href="..\portcls\ne-portcls-_pcstreamresourcetype.md">PcStreamResourceType</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcaddstreamresource.md">PcAddStreamResource</a>
 
 
 

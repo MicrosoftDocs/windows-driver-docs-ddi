@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 14c545b7-8080-424f-9164-f97ef8a1acc2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintoemps_interface, IPrintOemPS interface [Print Devices], IPrintOemPS interface [Print Devices], described, IPrintOemPS, prcomoem/IPrintOemPS, print_unidrv-pscript_rendering_f48d01c9-e49f-40b6-90ab-6904f0081305.xml
+ms.keywords: IPrintOemPS, IPrintOemPS interface [Print Devices], IPrintOemPS interface [Print Devices], described, prcomoem/IPrintOemPS, print.iprintoemps_interface, print_unidrv-pscript_rendering_f48d01c9-e49f-40b6-90ab-6904f0081305.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

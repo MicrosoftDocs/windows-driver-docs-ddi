@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 68551AD7-AC0C-4138-948F-33773F02DA41
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.offerresources, OfferResources callback function [Display Devices], OfferResources, PFND3DDDI_OFFERRESOURCES, PFND3DDDI_OFFERRESOURCES, d3dumddi/OfferResources
+ms.keywords: OfferResources, OfferResources callback function [Display Devices], PFND3DDDI_OFFERRESOURCES, d3dumddi/OfferResources, display.offerresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -146,7 +146,7 @@ If the driver uses the <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
 
 
 
@@ -154,7 +154,7 @@ If the driver uses the <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">D3DDDIARG_OFFERRESOURCES</a>
 
 
 
@@ -162,7 +162,7 @@ If the driver uses the <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">D3DDDIARG_OFFERRESOURCES</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

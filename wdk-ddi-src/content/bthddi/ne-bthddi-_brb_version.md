@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2bd4f3f6-94a4-47a6-8c15-a8f9bef5d2b5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_BRB_VERSION, bth_enums_d14431ac-24e9-4a27-90b9-a8aef7e38769.xml, bthddi/BLUETOOTH_V1, BLUETOOTH_V2, BRB_VERSION enumeration [Bluetooth Devices], BRB_VERSION, bthddi/BLUETOOTH_V2, bthddi/BRB_VERSION, bltooth.brb_version, BLUETOOTH_V1"
+ms.keywords: ",  , ,, B, BLUETOOTH_V1, BLUETOOTH_V2, BRB_VERSION, BRB_VERSION enumeration [Bluetooth Devices], E, I, N, O, R, S, V, _, _BRB_VERSION, bltooth.brb_version, bth_enums_d14431ac-24e9-4a27-90b9-a8aef7e38769.xml, bthddi/BLUETOOTH_V1, bthddi/BLUETOOTH_V2, bthddi/BRB_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,15 +81,11 @@ Reserved.
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb.md">BRB</a>
-
-
-
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
-
-
-
 <a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
@@ -97,7 +93,11 @@ Reserved.
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb.md">BRB</a>
 
 
 

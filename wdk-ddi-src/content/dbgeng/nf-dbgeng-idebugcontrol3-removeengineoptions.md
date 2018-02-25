@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ec4cf252-88c4-47de-9015-bcbbd1fd5d1d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], RemoveEngineOptions method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], RemoveEngineOptions method, IDebugControl2::RemoveEngineOptions, dbgeng/IDebugControl::RemoveEngineOptions, IDebugControl3, IDebugControl2 interface [Windows Debugging], RemoveEngineOptions method, RemoveEngineOptions method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], RemoveEngineOptions method, IDebugControl3::RemoveEngineOptions, dbgeng/IDebugControl3::RemoveEngineOptions, dbgeng/IDebugControl2::RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl_b1af0528-4fc2-4ea3-90e8-c7d92b0632f4.xml, IDebugControl, IDebugControl2, debugger.removeengineoptions, IDebugControl::RemoveEngineOptions
+ms.keywords: ",  , ,, ., 3, :, C, D, E, I, IDebugControl, IDebugControl interface [Windows Debugging], RemoveEngineOptions method, IDebugControl2, IDebugControl2 interface [Windows Debugging], RemoveEngineOptions method, IDebugControl2::RemoveEngineOptions, IDebugControl3, IDebugControl3 interface [Windows Debugging], RemoveEngineOptions method, IDebugControl3::RemoveEngineOptions, IDebugControl::RemoveEngineOptions, IDebugControl_b1af0528-4fc2-4ea3-90e8-c7d92b0632f4.xml, O, R, RemoveEngineOptions method [Windows Debugging], RemoveEngineOptions method [Windows Debugging], IDebugControl interface, RemoveEngineOptions method [Windows Debugging], IDebugControl2 interface, RemoveEngineOptions method [Windows Debugging], IDebugControl3 interface, RemoveEngineOptions,IDebugControl.RemoveEngineOptions, RemoveEngineOptions,IDebugControl2.RemoveEngineOptions, RemoveEngineOptions,IDebugControl3.RemoveEngineOptions, b, dbgeng/IDebugControl2::RemoveEngineOptions, dbgeng/IDebugControl3::RemoveEngineOptions, dbgeng/IDebugControl::RemoveEngineOptions, debugger.removeengineoptions, e, g, i, l, m, n, o, p, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,11 +113,7 @@ After the engine options have been changed, the engine sends out notification to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -129,7 +125,11 @@ After the engine options have been changed, the engine sends out notification to
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 
 
 

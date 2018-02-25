@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7787237c-5afd-46f2-ac75-6c0b41d37352
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: video/VideoPortScanRom, VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, display.videoportscanrom, VideoPortScanRom, VideoPortScanRom function [Display Devices]
+ms.keywords: ",  , P, R, S, V, VideoPortScanRom, VideoPortScanRom function [Display Devices], VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, a, c, d, display.videoportscanrom, e, i, m, n, o, r, t, video/VideoPortScanRom"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,7 +113,7 @@ If the string is found, <b>VideoPortScanRom</b> returns <b>TRUE</b>. Otherwise, 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
@@ -121,7 +121,7 @@ If the string is found, <b>VideoPortScanRom</b> returns <b>TRUE</b>. Otherwise, 
 
 
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 

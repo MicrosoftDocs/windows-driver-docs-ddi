@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3ad9d93-93e1-406b-9a58-26dcbf428b50
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: InsertHeadList, kernel.insertheadlist, InsertHeadList routine [Kernel-Mode Driver Architecture], wdm/InsertHeadList, k109_dde56187-8543-45cc-97fd-3fde2475e428.xml
+ms.keywords: ",  , H, I, InsertHeadList, InsertHeadList routine [Kernel-Mode Driver Architecture], L, a, d, e, i, k109_dde56187-8543-45cc-97fd-3fde2475e428.xml, kernel.insertheadlist, n, r, s, t, wdm/InsertHeadList"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,19 +103,11 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
 
 
 
@@ -124,6 +116,14 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 
 <a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 

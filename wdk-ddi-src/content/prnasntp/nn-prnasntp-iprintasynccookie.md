@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CF323800-F4C3-4CDB-B4EC-13359E262BF3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintasynccookie, IPrintAsyncCookie interface [Print Devices], IPrintAsyncCookie interface [Print Devices], described, IPrintAsyncCookie, prnasntp/IPrintAsyncCookie
+ms.keywords: IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], IPrintAsyncCookie interface [Print Devices], described, print.iprintasynccookie, prnasntp/IPrintAsyncCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

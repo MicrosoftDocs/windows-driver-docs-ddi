@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ac26d5cb-b342-42ec-ad76-23cefe509566
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlNotifyUninitializeSync routine [Installable File System Drivers], fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, ntifs/FsRtlNotifyUninitializeSync, ifsk.fsrtlnotifyuninitializesync, FsRtlNotifyUninitializeSync
+ms.keywords: ",  , F, FsRtlNotifyUninitializeSync, FsRtlNotifyUninitializeSync routine [Installable File System Drivers], N, R, S, U, a, c, e, f, fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, i, ifsk.fsrtlnotifyuninitializesync, l, n, ntifs/FsRtlNotifyUninitializeSync, o, s, t, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

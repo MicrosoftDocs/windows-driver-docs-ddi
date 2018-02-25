@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9733b17d-c990-4eda-87e2-906f2f78c5d5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PAUX_MODULE_EXTENDED_INFO, *PAUX_MODULE_EXTENDED_INFO, aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], _AUX_MODULE_EXTENDED_INFO, kernel.aux_module_extended_info, AUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, aux_klib/AUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PAUX_MODULE_EXTENDED_INFO, ,, A, AUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture], D, E, F, I, L, M, N, O, P, PAUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], T, U, X, _, _AUX_MODULE_EXTENDED_INFO, aux_klib/AUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, kernel.aux_module_extended_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

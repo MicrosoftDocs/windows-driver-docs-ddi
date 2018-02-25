@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2446dfee-baa4-4f7b-a5a0-ff13bf45ce4b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoGetLowerDeviceObject, IoGetLowerDeviceObject routine [Installable File System Drivers], ntifs/IoGetLowerDeviceObject, ioref_0739069f-c14d-4b35-accd-8d65954bbc3d.xml, ifsk.iogetlowerdeviceobject
+ms.keywords: ",  , D, G, I, IoGetLowerDeviceObject, IoGetLowerDeviceObject routine [Installable File System Drivers], L, O, b, c, e, i, ifsk.iogetlowerdeviceobject, ioref_0739069f-c14d-4b35-accd-8d65954bbc3d.xml, j, ntifs/IoGetLowerDeviceObject, o, r, t, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,7 +112,7 @@ A file system filter driver typically uses <b>IoGetLowerDeviceObject</b> to dete
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 
 
 
@@ -120,7 +120,7 @@ A file system filter driver typically uses <b>IoGetLowerDeviceObject</b> to dete
 
 
 
-<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

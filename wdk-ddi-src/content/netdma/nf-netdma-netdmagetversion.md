@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eec8ba30-0f9e-4487-ba0d-99587d97b44a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NetDmaGetVersion function [Network Drivers Starting with Windows Vista], netvista.netdmagetversion, NetDmaGetVersion, netdma/NetDmaGetVersion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml
+ms.keywords: ",  , D, G, N, NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista], V, a, e, i, m, n, netdma/NetDmaGetVersion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, netvista.netdmagetversion, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

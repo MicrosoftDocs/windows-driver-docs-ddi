@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d3ae6401-6d1b-428f-ae74-e262682bcb10
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxpostoneshottimerrequest, RxPostOneShotTimerRequest routine [Installable File System Drivers], rxtimer/RxPostOneShotTimerRequest, rxref_9fb32d67-ac0a-4f85-b999-5f5beaf6b26f.xml, RxPostOneShotTimerRequest
+ms.keywords: ",  , O, P, R, RxPostOneShotTimerRequest, RxPostOneShotTimerRequest routine [Installable File System Drivers], S, T, e, h, i, ifsk.rxpostoneshottimerrequest, m, n, o, q, r, rxref_9fb32d67-ac0a-4f85-b999-5f5beaf6b26f.xml, rxtimer/RxPostOneShotTimerRequest, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

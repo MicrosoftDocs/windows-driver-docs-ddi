@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fbd5b3af-0963-4e41-8be3-41e3e1ecf8bc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfncreateoverlaycb, pfnCreateOverlayCb callback function [Display Devices], pfnCreateOverlayCb, PFND3DDDI_CREATEOVERLAYCB, PFND3DDDI_CREATEOVERLAYCB, d3dumddi/pfnCreateOverlayCb, D3Druntime_Functions_d30fc7c1-55b2-4444-9ac1-34baabc073f6.xml
+ms.keywords: D3Druntime_Functions_d30fc7c1-55b2-4444-9ac1-34baabc073f6.xml, PFND3DDDI_CREATEOVERLAYCB, d3dumddi/pfnCreateOverlayCb, display.pfncreateoverlaycb, pfnCreateOverlayCb, pfnCreateOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -231,6 +231,14 @@ HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlaycb.md">pfnUpdateOverlayCb</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flipoverlaycb.md">pfnFlipOverlayCb</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlaycb.md">pfnDestroyOverlayCb</a>
 
 
@@ -239,15 +247,7 @@ HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flipoverlaycb.md">pfnFlipOverlayCb</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlaycb.md">pfnUpdateOverlayCb</a>
 
 
 

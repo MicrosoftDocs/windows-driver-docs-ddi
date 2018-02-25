@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: A91B8EAA-2FCB-4468-8CF3-A3C4D9D7E355
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PPOS_CX_ATTRIBUTES structure pointer, _POS_CX_ATTRIBUTES, POS_CX_ATTRIBUTES structure, POS_CX_ATTRIBUTES, poscx/POS_CX_ATTRIBUTES, PPOS_CX_ATTRIBUTES, pos.pos_cx_attributes, poscx/PPOS_CX_ATTRIBUTES
+ms.keywords: ",  , ,, A, B, C, E, I, O, P, POS_CX_ATTRIBUTES, POS_CX_ATTRIBUTES structure, PPOS_CX_ATTRIBUTES, PPOS_CX_ATTRIBUTES structure pointer, R, S, T, U, X, _, _POS_CX_ATTRIBUTES, pos.pos_cx_attributes, poscx/POS_CX_ATTRIBUTES, poscx/PPOS_CX_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

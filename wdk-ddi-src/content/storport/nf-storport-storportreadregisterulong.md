@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 308e6401-9726-4333-bde8-1aec9558c5fb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortReadRegisterUlong routine [Storage Devices], storport/StorPortReadRegisterUlong, storage.storportreadregisterulong, storprt_dd719ccb-d625-4820-a371-dff748037a99.xml, StorPortReadRegisterUlong
+ms.keywords: ",  , P, R, S, StorPortReadRegisterUlong, StorPortReadRegisterUlong routine [Storage Devices], U, a, d, e, g, i, l, n, o, r, s, storage.storportreadregisterulong, storport/StorPortReadRegisterUlong, storprt_dd719ccb-d625-4820-a371-dff748037a99.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,18 +98,18 @@ Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadregisterulong.md">ScsiPortReadRegisterUlong</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>.
+For more information, see <a href="..\storport\nf-storport-scsiportreadregisterulong.md">ScsiPortReadRegisterUlong</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>.
 
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-scsiportreadregisterulong.md">ScsiPortReadRegisterUlong</a>
+
+
+
 <a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportreadregisterulong.md">ScsiPortReadRegisterUlong</a>
 
 
 

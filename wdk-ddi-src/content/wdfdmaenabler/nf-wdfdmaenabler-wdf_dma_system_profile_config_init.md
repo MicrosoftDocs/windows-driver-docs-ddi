@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C3E9B4D6-A1BB-425E-A131-D93C3219D28B
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, kmdf.wdf_dma_system_profile_config_init, wdf.wdf_dma_system_profile_config_init, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function
+ms.keywords: ",  , A, C, D, E, F, G, I, L, M, N, O, P, R, S, T, W, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function, Y, _, kmdf.wdf_dma_system_profile_config_init, wdf.wdf_dma_system_profile_config_init, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,11 +134,11 @@ For a code example that uses <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b>, see <a h
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a>
-
-
-
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a>
 
 
 

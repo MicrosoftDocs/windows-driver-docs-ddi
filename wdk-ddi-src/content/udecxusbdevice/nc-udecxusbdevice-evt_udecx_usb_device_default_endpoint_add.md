@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 575FA7CD-3F29-40A6-9625-EB8183AA05BA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_udecx_usb_device_default_endpoint_add, EvtUsbDeviceDefaultEndpointAdd callback function [Buses], EvtUsbDeviceDefaultEndpointAdd, EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD, EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD, udecxusbdevice/EvtUsbDeviceDefaultEndpointAdd
+ms.keywords: EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD, EvtUsbDeviceDefaultEndpointAdd, EvtUsbDeviceDefaultEndpointAdd callback function [Buses], buses.evt_udecx_usb_device_default_endpoint_add, udecxusbdevice/EvtUsbDeviceDefaultEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -97,11 +97,11 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

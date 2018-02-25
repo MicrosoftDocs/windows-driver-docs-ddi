@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8c41ca6d-4b55-4858-b8bb-d7b2e682a8f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.phw_reset_bus, (*PHW_RESET_BUS) callback function [Storage Devices], (*PHW_RESET_BUS), srb/(*PHW_RESET_BUS), ide_minikr_6cda3e23-0fa6-48dd-a0c0-3d47287eb829.xml
+ms.keywords: "(*PHW_RESET_BUS), (*PHW_RESET_BUS) callback function [Storage Devices], ide_minikr_6cda3e23-0fa6-48dd-a0c0-3d47287eb829.xml, srb/(*PHW_RESET_BUS), storage.phw_reset_bus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,11 +103,11 @@ For more information about the bus reset routine that is used with the StorPort 
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a>
-
-
-
 <a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+
+
+
+<a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a>
 
 
 

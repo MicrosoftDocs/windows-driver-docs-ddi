@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8a3e82e0-4ff3-43ab-954e-a7473de51e5a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.getassemblyoptions, dbgeng/IDebugControl3::GetAssemblyOptions, GetAssemblyOptions, GetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetAssemblyOptions method, GetAssemblyOptions method [Windows Debugging], IDebugControl_600ee4dc-0a79-42a9-a394-2ff053874f00.xml, IDebugControl3::GetAssemblyOptions
+ms.keywords: ",  , ,, ., 3, :, A, C, D, G, GetAssemblyOptions method [Windows Debugging], GetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, GetAssemblyOptions,IDebugControl3.GetAssemblyOptions, I, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetAssemblyOptions method, IDebugControl3::GetAssemblyOptions, IDebugControl_600ee4dc-0a79-42a9-a394-2ff053874f00.xml, O, b, dbgeng/IDebugControl3::GetAssemblyOptions, debugger.getassemblyoptions, e, g, i, l, m, n, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,15 +111,7 @@ For more information about using assembly with the debugger engine API, see <a h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556626">SetAssemblyOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -127,11 +119,11 @@ For more information about using assembly with the debugger engine API, see <a h
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
 
 
 
@@ -139,7 +131,15 @@ For more information about using assembly with the debugger engine API, see <a h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556626">SetAssemblyOptions</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f5f00e88-b758-4f37-9fe5-5db8f20835b1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetShortField, debugger.getshortfield, WdbgExts_Ref_ef67af78-e72f-440c-9ef3-d84b8cca12dc.xml, wdbgexts/GetShortField, GetShortField function [Windows Debugging]
+ms.keywords: ",  , F, G, GetShortField, GetShortField function [Windows Debugging], S, WdbgExts_Ref_ef67af78-e72f-440c-9ef3-d84b8cca12dc.xml, d, debugger.getshortfield, e, h, i, l, o, r, t, wdbgexts/GetShortField"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -276,11 +276,11 @@ If this macro succeeds, it returns the value zero.  If it fails because the call
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553539">ReadField</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550957">InitTypeReadPhysical</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553539">ReadField</a>
 
 
 

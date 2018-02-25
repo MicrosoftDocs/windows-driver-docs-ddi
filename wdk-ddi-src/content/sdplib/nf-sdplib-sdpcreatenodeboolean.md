@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d299074f-18db-4eff-b177-4d2d3535e299
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bth_funcs_06168a9c-1cdc-4c2a-b90d-356c03867d4f.xml, sdplib/SdpCreateNodeBoolean, bltooth.sdpcreatenodeboolean, SdpCreateNodeBoolean function [Bluetooth Devices], SdpCreateNodeBoolean
+ms.keywords: ",  , B, C, N, S, SdpCreateNodeBoolean, SdpCreateNodeBoolean function [Bluetooth Devices], a, bltooth.sdpcreatenodeboolean, bth_funcs_06168a9c-1cdc-4c2a-b90d-356c03867d4f.xml, d, e, l, n, o, p, r, sdplib/SdpCreateNodeBoolean, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

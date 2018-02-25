@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 83AFAC73-39B8-442A-822E-411D08130F88
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_device_set_queue_state, IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE control code [Storage Devices], IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE, ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE
+ms.keywords: IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE, IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE, storage.ioctl_ehstor_device_set_queue_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PDO_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

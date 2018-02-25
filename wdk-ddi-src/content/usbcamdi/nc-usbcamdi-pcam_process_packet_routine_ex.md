@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9f69b2f0-6e55-440f-98ab-35d8faddf933
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.camprocessusbpacketex, CamProcessUSBPacketEx, CamProcessUSBPacketEx routine [Streaming Media Devices], CamProcessUSBPacketEx, PCAM_PROCESS_PACKET_ROUTINE_EX, PCAM_PROCESS_PACKET_ROUTINE_EX, usbcamdi/CamProcessUSBPacketEx, usbcmdpr_bd37e77c-386b-4b94-ad7c-8b1c5c26799a.xml
+ms.keywords: CamProcessUSBPacketEx, CamProcessUSBPacketEx routine [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE_EX, stream.camprocessusbpacketex, usbcamdi/CamProcessUSBPacketEx, usbcmdpr_bd37e77c-386b-4b94-ad7c-8b1c5c26799a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -194,11 +194,11 @@ This function is optional.
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
-
-
-
 <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
+
+
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
 
 
 

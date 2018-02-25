@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d3ed82e-3565-4b0b-bca9-1d0b91732d18
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PKSPROPERTY_CAMERACONTROL_NODE_S2, KSPROPERTY_CAMERACONTROL_NODE_S2, PKSPROPERTY_CAMERACONTROL_NODE_S2 structure pointer [Streaming Media Devices], vidcapstruct_fda6afc4-4b0a-4161-9502-1b335b1022e2.xml, PKSPROPERTY_CAMERACONTROL_NODE_S2, stream.ksproperty_cameracontrol_node_s2, ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S2, KSPROPERTY_CAMERACONTROL_NODE_S2 structure [Streaming Media Devices]"
+ms.keywords: ",  , *, *PKSPROPERTY_CAMERACONTROL_NODE_S2, ,, 2, A, C, D, E, K, KSPROPERTY_CAMERACONTROL_NODE_S2, KSPROPERTY_CAMERACONTROL_NODE_S2 structure [Streaming Media Devices], L, M, N, O, P, PKSPROPERTY_CAMERACONTROL_NODE_S2, PKSPROPERTY_CAMERACONTROL_NODE_S2 structure pointer [Streaming Media Devices], R, S, T, Y, _, ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S2, stream.ksproperty_cameracontrol_node_s2, vidcapstruct_fda6afc4-4b0a-4161-9502-1b335b1022e2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

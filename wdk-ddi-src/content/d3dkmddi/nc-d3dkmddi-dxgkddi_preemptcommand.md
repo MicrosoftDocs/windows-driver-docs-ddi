@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8cea02d4-f25e-4ff4-8c9e-aa360a764c4b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddipreemptcommand, DxgkDdiPreemptCommand callback function [Display Devices], DxgkDdiPreemptCommand, DXGKDDI_PREEMPTCOMMAND, DXGKDDI_PREEMPTCOMMAND, d3dkmddi/DxgkDdiPreemptCommand, DmFunctions_a378e47e-622c-41bf-95e7-21e4088d7026.xml
+ms.keywords: DXGKDDI_PREEMPTCOMMAND, DmFunctions_a378e47e-622c-41bf-95e7-21e4088d7026.xml, DxgkDdiPreemptCommand, DxgkDdiPreemptCommand callback function [Display Devices], d3dkmddi/DxgkDdiPreemptCommand, display.dxgkddipreemptcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -128,19 +128,19 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_preemptcommand.md">DXGKARG_PREEMPTCOMMAND</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_preemptcommand.md">DXGKARG_PREEMPTCOMMAND</a>
 
 
 

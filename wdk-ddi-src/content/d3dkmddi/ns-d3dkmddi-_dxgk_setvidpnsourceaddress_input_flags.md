@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FBC661AA-B028-45AF-8E3C-7C2472652BD5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure [Display Devices], DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, display.dxgk_setvidpnsourceaddress_input_flags
+ms.keywords: ",  , ,, A, C, D, DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure [Display Devices], E, F, G, I, K, L, N, O, P, R, S, T, U, V, X, _, _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, display.dxgk_setvidpnsourceaddress_input_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

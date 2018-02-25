@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8927e862-94e4-45ce-9245-5c6f5629fc01
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_changer_set_access, IOCTL_CHANGER_SET_ACCESS control code [Storage Devices], IOCTL_CHANGER_SET_ACCESS, ntddchgr/IOCTL_CHANGER_SET_ACCESS, k307_08d52a8e-d7a0-42c6-92f9-c5099670473c.xml
+ms.keywords: IOCTL_CHANGER_SET_ACCESS, IOCTL_CHANGER_SET_ACCESS control code [Storage Devices], k307_08d52a8e-d7a0-42c6-92f9-c5099670473c.xml, ntddchgr/IOCTL_CHANGER_SET_ACCESS, storage.ioctl_changer_set_access
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

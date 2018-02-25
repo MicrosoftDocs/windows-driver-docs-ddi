@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0365ffe5-575b-44a9-8711-837d499be8bc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetDebuggerCacheSize, debugger.getdebuggercachesize, wdbgexts/GetDebuggerCacheSize, WdbgExts_Ref_da3c4b36-e7b1-429a-9d63-4f92101a189a.xml, GetDebuggerCacheSize function [Windows Debugging]
+ms.keywords: ",  , C, D, G, GetDebuggerCacheSize, GetDebuggerCacheSize function [Windows Debugging], S, WdbgExts_Ref_da3c4b36-e7b1-429a-9d63-4f92101a189a.xml, a, b, c, debugger.getdebuggercachesize, e, g, h, i, r, t, u, wdbgexts/GetDebuggerCacheSize, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

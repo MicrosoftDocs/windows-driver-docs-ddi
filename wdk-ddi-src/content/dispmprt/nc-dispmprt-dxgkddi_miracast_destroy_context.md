@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2DEEB379-C9E8-45E4-920D-D94F8C27A4EF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddimiracastdestroycontext, DxgkDdiMiracastDestroyContext callback function [Display Devices], DxgkDdiMiracastDestroyContext, DXGKDDI_MIRACAST_DESTROY_CONTEXT, DXGKDDI_MIRACAST_DESTROY_CONTEXT, dispmprt/DxgkDdiMiracastDestroyContext
+ms.keywords: DXGKDDI_MIRACAST_DESTROY_CONTEXT, DxgkDdiMiracastDestroyContext, DxgkDdiMiracastDestroyContext callback function [Display Devices], display.dxgkddimiracastdestroycontext, dispmprt/DxgkDdiMiracastDestroyContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -110,11 +110,7 @@ The operating system groups the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracas
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
 
 
 
@@ -122,15 +118,19 @@ The operating system groups the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracas
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_handle_io_control.md">DxgkDdiMiracastIoControl</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
 
 

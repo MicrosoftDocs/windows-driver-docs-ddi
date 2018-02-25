@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2b03f010-cc3c-48a1-b86c-df470a832c94
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: RemoveSymbolByName, debugger.removesymbolbyname, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByName method, IDebugSymbolGroup, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup2 interface, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup interface, RemoveSymbolByName method [Windows Debugging], dbgeng/IDebugSymbolGroup::RemoveSymbolByName, IDebugSymbolGroup::RemoveSymbolByName, ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByName method
+ms.keywords: ",  , ,, ., :, B, ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, D, G, I, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByName method, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByName method, IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup::RemoveSymbolByName, N, R, RemoveSymbolByName method [Windows Debugging], RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup interface, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup2 interface, RemoveSymbolByName,IDebugSymbolGroup.RemoveSymbolByName, S, a, b, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, dbgeng/IDebugSymbolGroup::RemoveSymbolByName, debugger.removesymbolbyname, e, g, l, m, o, p, r, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

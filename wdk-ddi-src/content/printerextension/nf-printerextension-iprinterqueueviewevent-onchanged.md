@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D964A0C4-041A-47BD-87AB-4AF523939DF0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OnChanged method [Print Devices], OnChanged method [Print Devices], IPrinterQueueViewEvent interface, printerextension/IPrinterQueueViewEvent::OnChanged, IPrinterQueueViewEvent interface [Print Devices], OnChanged method, IPrinterQueueViewEvent::OnChanged, IPrinterQueueViewEvent, OnChanged, print.iprinterqueueviewevent_onchanged
+ms.keywords: ",  , ,, ., :, C, E, I, IPrinterQueueViewEvent, IPrinterQueueViewEvent interface [Print Devices], OnChanged method, IPrinterQueueViewEvent::OnChanged, O, OnChanged method [Print Devices], OnChanged method [Print Devices], IPrinterQueueViewEvent interface, OnChanged,IPrinterQueueViewEvent.OnChanged, P, Q, V, a, d, e, g, h, i, n, print.iprinterqueueviewevent_onchanged, printerextension/IPrinterQueueViewEvent::OnChanged, r, t, u, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,7 +111,7 @@ The job range is controlled by the <a href="..\printerextension\nn-printerextens
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
+<a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
 
 
 
@@ -119,7 +119,7 @@ The job range is controlled by the <a href="..\printerextension\nn-printerextens
 
 
 
-<a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
+<a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
 
 
 

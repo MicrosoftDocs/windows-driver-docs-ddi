@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 33efef2f-0734-416e-9f89-394a3dd344b8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KS_AnalogVideo_None, KS_AnalogVideo_SECAM_L, ksmedia/KS_AnalogVideo_NTSC_M, ksmedia/KS_AnalogVideo_SECAM_D, KS_AnalogVideo_NTSC_433, ksmedia/KS_AnalogVideo_PAL_D, KS_AnalogVideoStandard, KS_AnalogVideoStandard enumeration [Streaming Media Devices], KS_AnalogVideo_SECAM_G, ksmedia/KS_AnalogVideo_PAL_60, ksmedia/KS_AnalogVideo_SECAM_K, ksmedia/KS_AnalogVideo_SECAM_H, KS_AnalogVideo_SECAM_L1, ksmedia/KS_AnalogVideoStandard, ksmedia/KS_AnalogVideo_PAL_M, ksmedia/KS_AnalogVideo_PAL_N_COMBO, KS_AnalogVideo_PAL_M, KS_AnalogVideo_PAL_G, ksmedia/KS_AnalogVideo_PAL_I, KS_AnalogVideo_PAL_I, ksmedia/KS_AnalogVideo_SECAM_B, ksmedia/KS_AnalogVideo_PAL_H, ksmedia/KS_AnalogVideo_PAL_G, KS_AnalogVideo_NTSC_M_J, ksmedia/KS_AnalogVideo_NTSC_M_J, ksmedia/KS_AnalogVideo_SECAM_L, KS_AnalogVideo_SECAM_K1, KS_AnalogVideo_SECAM_B, KS_AnalogVideo_NTSC_M, ksmedia/KS_AnalogVideo_None, KS_AnalogVideo_PAL_60, KS_AnalogVideo_SECAM_D, ksmedia/KS_AnalogVideo_SECAM_K1, ksmedia/KS_AnalogVideo_PAL_B, ksmedia/KS_AnalogVideo_SECAM_G, KS_AnalogVideo_PAL_N_COMBO, KS_AnalogVideo_SECAM_K, stream.ks_analogvideostandard, KS_AnalogVideo_PAL_B, KS_AnalogVideo_SECAM_H, vidcapstruct_90d60791-13e2-42ec-a641-6eee5bbf25fa.xml, ksmedia/KS_AnalogVideo_PAL_N, KS_AnalogVideo_PAL_N, KS_AnalogVideo_PAL_H, ksmedia/KS_AnalogVideo_SECAM_L1, ksmedia/KS_AnalogVideo_NTSC_433, KS_AnalogVideo_PAL_D
+ms.keywords: ",  , ,, A, K, KS_AnalogVideoStandard, KS_AnalogVideoStandard enumeration [Streaming Media Devices], KS_AnalogVideo_NTSC_433, KS_AnalogVideo_NTSC_M, KS_AnalogVideo_NTSC_M_J, KS_AnalogVideo_None, KS_AnalogVideo_PAL_60, KS_AnalogVideo_PAL_B, KS_AnalogVideo_PAL_D, KS_AnalogVideo_PAL_G, KS_AnalogVideo_PAL_H, KS_AnalogVideo_PAL_I, KS_AnalogVideo_PAL_M, KS_AnalogVideo_PAL_N, KS_AnalogVideo_PAL_N_COMBO, KS_AnalogVideo_SECAM_B, KS_AnalogVideo_SECAM_D, KS_AnalogVideo_SECAM_G, KS_AnalogVideo_SECAM_H, KS_AnalogVideo_SECAM_K, KS_AnalogVideo_SECAM_K1, KS_AnalogVideo_SECAM_L, KS_AnalogVideo_SECAM_L1, S, V, _, a, d, e, g, i, ksmedia/KS_AnalogVideoStandard, ksmedia/KS_AnalogVideo_NTSC_433, ksmedia/KS_AnalogVideo_NTSC_M, ksmedia/KS_AnalogVideo_NTSC_M_J, ksmedia/KS_AnalogVideo_None, ksmedia/KS_AnalogVideo_PAL_60, ksmedia/KS_AnalogVideo_PAL_B, ksmedia/KS_AnalogVideo_PAL_D, ksmedia/KS_AnalogVideo_PAL_G, ksmedia/KS_AnalogVideo_PAL_H, ksmedia/KS_AnalogVideo_PAL_I, ksmedia/KS_AnalogVideo_PAL_M, ksmedia/KS_AnalogVideo_PAL_N, ksmedia/KS_AnalogVideo_PAL_N_COMBO, ksmedia/KS_AnalogVideo_SECAM_B, ksmedia/KS_AnalogVideo_SECAM_D, ksmedia/KS_AnalogVideo_SECAM_G, ksmedia/KS_AnalogVideo_SECAM_H, ksmedia/KS_AnalogVideo_SECAM_K, ksmedia/KS_AnalogVideo_SECAM_K1, ksmedia/KS_AnalogVideo_SECAM_L, ksmedia/KS_AnalogVideo_SECAM_L1, l, n, o, r, stream.ks_analogvideostandard, t, vidcapstruct_90d60791-13e2-42ec-a641-6eee5bbf25fa.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -203,11 +203,15 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_mode_caps_s.md">KSPROPERTY_TUNER_MODE_CAPS_S</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_mode_caps_s.md">KSPROPERTY_TUNER_MODE_CAPS_S</a>
 
 
 
@@ -220,10 +224,6 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
 
 
 

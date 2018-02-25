@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d561e0f-ca7e-44ed-9025-1a6513e4cd28
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWDF_REQUEST_SEND_OPTIONS structure pointer, *PWDF_REQUEST_SEND_OPTIONS, wdf.wdf_request_send_options, DFRequestObjectRef_3fc871af-dae6-454f-8ff8-35a8b0c5ae9a.xml, wdfrequest/PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS structure, wdfrequest/WDF_REQUEST_SEND_OPTIONS, kmdf.wdf_request_send_options, WDF_REQUEST_SEND_OPTIONS, PWDF_REQUEST_SEND_OPTIONS, _WDF_REQUEST_SEND_OPTIONS
+ms.keywords: ",  , *, *PWDF_REQUEST_SEND_OPTIONS, ,, D, DFRequestObjectRef_3fc871af-dae6-454f-8ff8-35a8b0c5ae9a.xml, E, F, I, N, O, P, PWDF_REQUEST_SEND_OPTIONS, PWDF_REQUEST_SEND_OPTIONS structure pointer, Q, R, S, T, U, W, WDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS structure, _, _WDF_REQUEST_SEND_OPTIONS, kmdf.wdf_request_send_options, wdf.wdf_request_send_options, wdfrequest/PWDF_REQUEST_SEND_OPTIONS, wdfrequest/WDF_REQUEST_SEND_OPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,11 +130,11 @@ If the driver is sending the request synchronously, we recommend that the driver
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_set_timeout.md">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>
 
 
 

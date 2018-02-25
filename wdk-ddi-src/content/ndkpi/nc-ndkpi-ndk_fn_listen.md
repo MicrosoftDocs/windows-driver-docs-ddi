@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1C3DF31C-500E-456A-B121-48F5945D6999
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_listen, NdkListen callback function [Network Drivers Starting with Windows Vista], NdkListen, NDK_FN_LISTEN, NDK_FN_LISTEN, ndkpi/NdkListen
+ms.keywords: NDK_FN_LISTEN, NdkListen, NdkListen callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkListen, netvista.ndk_fn_listen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -220,7 +220,7 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
@@ -228,7 +228,7 @@ An error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
 
 
 

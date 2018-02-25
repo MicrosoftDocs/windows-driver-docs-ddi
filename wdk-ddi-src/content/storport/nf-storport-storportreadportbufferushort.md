@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b45811c-4e5f-4344-b0b3-15d36b912b5b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortReadPortBufferUshort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml, storage.storportreadportbufferushort, storport/StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices]
+ms.keywords: ",  , B, P, R, S, StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices], U, a, d, e, f, h, o, r, s, storage.storportreadportbufferushort, storport/StorPortReadPortBufferUshort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -120,7 +120,7 @@ Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHO
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>. 
 
 
 
@@ -131,7 +131,7 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md
 
 
 
-<a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
+<a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
 
 
 

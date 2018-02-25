@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a74d9740-8342-454e-8cbf-cf248e67d857
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/REG_SET_VALUE_KEY_INFORMATION, kernel.reg_set_value_key_information, REG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION, wdm/PREG_SET_VALUE_KEY_INFORMATION, _REG_SET_VALUE_KEY_INFORMATION, kstruct_d_302658bd-6aaa-4878-9a67-a66c7307a4fa.xml, PREG_SET_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SET_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_SET_VALUE_KEY_INFORMATION
+ms.keywords: ",  , *, *PREG_SET_VALUE_KEY_INFORMATION, ,, A, E, F, G, I, K, L, M, N, O, P, PREG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, REG_SET_VALUE_KEY_INFORMATION, REG_SET_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], S, T, U, V, Y, _, _REG_SET_VALUE_KEY_INFORMATION, kernel.reg_set_value_key_information, kstruct_d_302658bd-6aaa-4878-9a67-a66c7307a4fa.xml, wdm/PREG_SET_VALUE_KEY_INFORMATION, wdm/REG_SET_VALUE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,15 +134,15 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
 
 

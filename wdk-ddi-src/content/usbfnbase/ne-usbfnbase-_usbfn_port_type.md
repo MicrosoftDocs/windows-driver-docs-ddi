@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D45F8CD0-CB54-4DE4-BD6B-FF6A35FCBFEC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBFN_PORT_TYPE, usbfnbase/USBFN_PORT_TYPE, UsbfnUnknownPort, usbfnbase/UsbfnStandardDownstreamPort, usbfnbase/UsbfnUnknownPort, UsbfnChargingDownstreamPort, usbfnbase/UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnChargingDownstreamPort, usbfnbase/UsbfnProprietaryDedicatedChargingPort, UsbfnStandardDownstreamPort, _USBFN_PORT_TYPE, USBFN_PORT_TYPE enumeration [Buses], usbfnbase/UsbfnDedicatedChargingPort, UsbfnPortTypeMaximum, usbfnbase/UsbfnPortTypeMaximum, UsbfnDedicatedChargingPort, UsbfnProprietaryDedicatedChargingPort, buses.usbfn_port_type, UsbfnInvalidDedicatedChargingPort, *PUSBFN_PORT_TYPE
+ms.keywords: ",  , *, *PUSBFN_PORT_TYPE, ,, B, E, F, N, O, P, R, S, T, U, USBFN_PORT_TYPE, USBFN_PORT_TYPE enumeration [Buses], UsbfnChargingDownstreamPort, UsbfnDedicatedChargingPort, UsbfnInvalidDedicatedChargingPort, UsbfnPortTypeMaximum, UsbfnProprietaryDedicatedChargingPort, UsbfnStandardDownstreamPort, UsbfnUnknownPort, Y, _, _USBFN_PORT_TYPE, buses.usbfn_port_type, usbfnbase/USBFN_PORT_TYPE, usbfnbase/UsbfnChargingDownstreamPort, usbfnbase/UsbfnDedicatedChargingPort, usbfnbase/UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnPortTypeMaximum, usbfnbase/UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnStandardDownstreamPort, usbfnbase/UsbfnUnknownPort"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

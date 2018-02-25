@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21D9DE55-2A26-467A-B119-8AFD4B47A4FD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_WWAN_SLOT_INFO, _NDIS_WWAN_SLOT_INFO, *PNDIS_WWAN_SLOT_INFO, netvista.ndis_wwan_slot_info_status, PNDIS_WWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SLOT_INFO, ndiswwan/PNDIS_WWAN_SLOT_INFO
+ms.keywords: ",  , *, *PNDIS_WWAN_SLOT_INFO, ,, A, D, F, I, L, N, NDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_WWAN_SLOT_INFO, PNDIS_WWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], S, T, W, _, _NDIS_WWAN_SLOT_INFO, ndiswwan/NDIS_WWAN_SLOT_INFO, ndiswwan/PNDIS_WWAN_SLOT_INFO, netvista.ndis_wwan_slot_info_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

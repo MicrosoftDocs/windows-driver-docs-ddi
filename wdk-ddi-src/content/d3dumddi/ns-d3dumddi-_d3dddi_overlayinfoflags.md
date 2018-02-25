@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags, _D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], d3dumddi/D3DDDI_OVERLAYINFOFLAGS, D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml
+ms.keywords: ",  , ,, 3, A, D, D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, E, F, G, I, L, N, O, R, S, V, Y, _, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f585f1ad-7ed0-49b1-ab35-a6b879118b38
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_b568770e-1fe0-47d5-8fd4-ac210cd4be30.xml, stream.ksreleasecontrol, ks/KsReleaseControl, KsReleaseControl, KsReleaseControl function [Streaming Media Devices]
+ms.keywords: ",  , C, K, KsReleaseControl, KsReleaseControl function [Streaming Media Devices], R, a, avfunc_b568770e-1fe0-47d5-8fd4-ac210cd4be30.xml, e, ks/KsReleaseControl, l, n, o, r, s, stream.ksreleasecontrol, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,15 +97,7 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
-
-
-
 <a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
-
-
-
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
 
 
 
@@ -114,6 +106,14 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
+
+
+
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
 
 
 

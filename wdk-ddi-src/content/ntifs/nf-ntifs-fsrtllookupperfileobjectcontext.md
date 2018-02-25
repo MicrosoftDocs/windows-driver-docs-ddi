@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a066d78b-f6c7-484a-9d62-3578bbd063a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_1b9542db-9037-400a-97e2-1bcfddcd1957.xml, FsRtlLookupPerFileObjectContext, ntifs/FsRtlLookupPerFileObjectContext, FsRtlLookupPerFileObjectContext function [Installable File System Drivers], ifsk.fsrtllookupperfileobjectcontext
+ms.keywords: ",  , C, F, FsRtlLookupPerFileObjectContext, FsRtlLookupPerFileObjectContext function [Installable File System Drivers], L, O, P, R, b, c, e, fsrtlref_1b9542db-9037-400a-97e2-1bcfddcd1957.xml, i, ifsk.fsrtllookupperfileobjectcontext, j, k, l, n, ntifs/FsRtlLookupPerFileObjectContext, o, p, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,7 +114,7 @@ To remove a per-file-object context structure that is associated with a file obj
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperfileobjectcontext.md">FsRtlRemovePerFileObjectContext</a>
 
 
 
@@ -122,11 +122,11 @@ To remove a per-file-object context structure that is associated with a file obj
 
 
 
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperfileobjectcontext.md">FsRtlRemovePerFileObjectContext</a>
 
 
 

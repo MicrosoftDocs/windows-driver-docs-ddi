@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2b6a0ab8-f197-48c3-baf2-305b77b7e8b5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.checkmultisamplequalitylevels, CheckMultisampleQualityLevels callback function [Display Devices], CheckMultisampleQualityLevels, PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS, PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS, d3d10umddi/CheckMultisampleQualityLevels, UserModeDisplayDriverDx10_Functions_d19bc4c0-49ba-4e1c-b19e-667905ceb391.xml
+ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels callback function [Display Devices], PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS, UserModeDisplayDriverDx10_Functions_d19bc4c0-49ba-4e1c-b19e-667905ceb391.xml, d3d10umddi/CheckMultisampleQualityLevels, display.checkmultisamplequalitylevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -139,11 +139,11 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

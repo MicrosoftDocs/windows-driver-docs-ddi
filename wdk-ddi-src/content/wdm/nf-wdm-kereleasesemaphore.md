@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 357a97e6-cb19-43df-9b90-db199c712878
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], KeReleaseSemaphore, kernel.kereleasesemaphore, k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, wdm/KeReleaseSemaphore
+ms.keywords: ",  , K, KeReleaseSemaphore, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], R, S, a, e, h, k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, kernel.kereleasesemaphore, l, m, o, p, r, s, wdm/KeReleaseSemaphore"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,10 +129,6 @@ Callers of <b>KeReleaseSemaphore</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 
 
-<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
-
-
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
@@ -142,6 +138,10 @@ Callers of <b>KeReleaseSemaphore</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
 
 
 

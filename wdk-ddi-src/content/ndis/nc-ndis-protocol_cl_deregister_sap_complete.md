@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolclderegistersapcomplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], ProtocolClDeregisterSapComplete, PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, ndis/ProtocolClDeregisterSapComplete, condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml
+ms.keywords: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, ProtocolClDeregisterSapComplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml, ndis/ProtocolClDeregisterSapComplete, netvista.protocolclderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -190,11 +190,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 
 
@@ -202,12 +198,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
-   NdisFreeToNPagedLookasideList</a>
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 
 
@@ -215,7 +206,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
 
 
 

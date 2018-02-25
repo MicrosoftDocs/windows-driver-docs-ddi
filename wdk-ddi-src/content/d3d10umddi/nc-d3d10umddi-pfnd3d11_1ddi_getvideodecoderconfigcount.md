@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b4cc185-8579-4c13-932f-23065697c4ee
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getvideodecoderconfigcount, pfnGetVideoDecoderConfigCount callback function [Display Devices], pfnGetVideoDecoderConfigCount, PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT, PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT, d3d10umddi/pfnGetVideoDecoderConfigCount
+ms.keywords: PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT, d3d10umddi/pfnGetVideoDecoderConfigCount, display.getvideodecoderconfigcount, pfnGetVideoDecoderConfigCount, pfnGetVideoDecoderConfigCount callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

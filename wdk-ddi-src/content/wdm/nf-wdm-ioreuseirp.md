@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 18ad2c76-110f-45a9-986b-67e7c81f256f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], kernel.ioreuseirp, wdm/IoReuseIrp, k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml
+ms.keywords: ",  , I, IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], R, e, k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, kernel.ioreuseirp, o, p, r, s, u, wdm/IoReuseIrp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,10 +110,6 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-
-
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
@@ -123,6 +119,10 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 
 <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 

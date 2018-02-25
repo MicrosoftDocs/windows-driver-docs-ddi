@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 984e9e7a-c135-4a6a-973d-b8597d9f8fed
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_grow_partition, IOCTL_DISK_GROW_PARTITION control code [Storage Devices], IOCTL_DISK_GROW_PARTITION, ntdddisk/IOCTL_DISK_GROW_PARTITION, k307_f3c07ac5-6895-46f9-85ad-7706661164a1.xml
+ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control code [Storage Devices], k307_f3c07ac5-6895-46f9-85ad-7706661164a1.xml, ntdddisk/IOCTL_DISK_GROW_PARTITION, storage.ioctl_disk_grow_partition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 5A2B787B-13B8-48E9-B53E-7F6409820B88
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_super_speed_power_feature, EvtUfxDeviceSuperSpeedPowerFeature callback function [Buses], EvtUfxDeviceSuperSpeedPowerFeature, EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, ufxclient/EvtUfxDeviceSuperSpeedPowerFeature, PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function pointer [Buses], PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
+ms.keywords: EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, EvtUfxDeviceSuperSpeedPowerFeature, EvtUfxDeviceSuperSpeedPowerFeature callback function [Buses], PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function pointer [Buses], buses.evt_ufx_device_super_speed_power_feature, ufxclient/EvtUfxDeviceSuperSpeedPowerFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -199,11 +199,11 @@ Arguments:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 

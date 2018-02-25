@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 79E89E4A-3B06-40FA-BFA6-598331C0A330
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_scsi_miniport_diagnostic, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code [Storage Devices], IOCTL_SCSI_MINIPORT_DIAGNOSTIC, ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC
+ms.keywords: IOCTL_SCSI_MINIPORT_DIAGNOSTIC, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC, storage.ioctl_scsi_miniport_diagnostic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -160,11 +160,11 @@ Parameters
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_storage_diagnostic_mp_request.md">STORAGE_DIAGNOSTIC_MP_REQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_storage_diagnostic_mp_request.md">STORAGE_DIAGNOSTIC_MP_REQUEST</a>
 
 
 

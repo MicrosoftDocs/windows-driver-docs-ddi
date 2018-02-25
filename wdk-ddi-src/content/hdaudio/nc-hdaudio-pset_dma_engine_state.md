@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 05cfb827-e143-4d77-b378-e02dd381e429
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.setdmaenginestate, SetDmaEngineState callback function [Audio Devices], SetDmaEngineState, PSET_DMA_ENGINE_STATE, PSET_DMA_ENGINE_STATE, hdaudio/SetDmaEngineState, aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml
+ms.keywords: PSET_DMA_ENGINE_STATE, SetDmaEngineState, SetDmaEngineState callback function [Audio Devices], aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml, audio.setdmaenginestate, hdaudio/SetDmaEngineState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -219,11 +219,19 @@ A WDM audio driver calls this routine during a call to its <b>SetState</b> metho
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536720">IMiniportWaveCyclicStream::SetState</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
 
 
 
@@ -232,14 +240,6 @@ A WDM audio driver calls this routine during a call to its <b>SetState</b> metho
 
 
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536720">IMiniportWaveCyclicStream::SetState</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 

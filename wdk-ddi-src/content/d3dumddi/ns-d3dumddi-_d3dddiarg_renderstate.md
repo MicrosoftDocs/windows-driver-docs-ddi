@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 177a2578-2bd4-4a11-a3fd-fec226a64c22
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, d3dumddi/D3DDDIARG_RENDERSTATE, display.d3dddiarg_renderstate, D3DDDIARG_RENDERSTATE structure [Display Devices], _D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE structure [Display Devices], E, G, I, N, R, S, T, UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, _, _D3DDDIARG_RENDERSTATE, d3dumddi/D3DDDIARG_RENDERSTATE, display.d3dddiarg_renderstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

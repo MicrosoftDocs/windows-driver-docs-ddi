@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70215db8-52c0-48c5-8e59-c60a61fbd07e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILMSGIS637INSTATUS, *LPRILMSGIS637INSTATUS, rilapitypes/RILMSGIS637INSTATUS, RILMSGIS637INSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsgis637instatus_2
+ms.keywords: ",  , *, *LPRILMSGIS637INSTATUS, ,, 3, 6, 7, A, G, I, L, M, N, P, R, RILMSGIS637INSTATUS, RILMSGIS637INSTATUS structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.rilmsgis637instatus_2, rilapitypes/RILMSGIS637INSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2ad78d17-9baa-45cf-a620-01c2ccd14338
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TokenPrimary, ntifs/TokenPrimary, ntifs/TokenImpersonation, ntifs/TOKEN_TYPE, ifsk.token_type, PTOKEN_TYPE enumeration pointer [Installable File System Drivers], PTOKEN_TYPE, *PTOKEN_TYPE, _TOKEN_TYPE, TokenImpersonation, TOKEN_TYPE, TOKEN_TYPE enumeration [Installable File System Drivers], ntifs/PTOKEN_TYPE, securitystructures_b570f2e6-2426-4c9d-8552-81131cf4bd66.xml
+ms.keywords: ",  , *, *PTOKEN_TYPE, ,, E, K, N, O, P, PTOKEN_TYPE, PTOKEN_TYPE enumeration pointer [Installable File System Drivers], T, TOKEN_TYPE, TOKEN_TYPE enumeration [Installable File System Drivers], TokenImpersonation, TokenPrimary, Y, _, _TOKEN_TYPE, ifsk.token_type, ntifs/PTOKEN_TYPE, ntifs/TOKEN_TYPE, ntifs/TokenImpersonation, ntifs/TokenPrimary, securitystructures_b570f2e6-2426-4c9d-8552-81131cf4bd66.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,11 +80,7 @@ Indicates an impersonation token.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 
@@ -92,11 +88,15 @@ Indicates an impersonation token.
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 

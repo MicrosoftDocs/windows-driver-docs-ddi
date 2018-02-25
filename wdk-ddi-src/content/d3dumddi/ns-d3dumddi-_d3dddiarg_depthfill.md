@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4070d53-bdd6-4708-857d-7ed1e9699e21
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_D3DDDIARG_DEPTHFILL, d3dumddi/D3DDDIARG_DEPTHFILL, D3DDDIARG_DEPTHFILL structure [Display Devices], display.d3dddiarg_depthfill, UMDisplayDriver_param_Structs_94ba7961-5956-4939-830f-eaa15aeca614.xml, D3DDDIARG_DEPTHFILL"
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_DEPTHFILL, D3DDDIARG_DEPTHFILL structure [Display Devices], E, F, G, H, I, L, P, R, T, UMDisplayDriver_param_Structs_94ba7961-5956-4939-830f-eaa15aeca614.xml, _, _D3DDDIARG_DEPTHFILL, d3dumddi/D3DDDIARG_DEPTHFILL, display.d3dddiarg_depthfill"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ A pixel value that is specified in native format for the fill depth.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_depthfill.md">DepthFill</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
 
 
 

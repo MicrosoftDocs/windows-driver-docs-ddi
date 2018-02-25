@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 207f289c-347c-4ae7-9bbd-7c4a04d19e24
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugControl3::OutputStackTrace, debugger.outputstacktrace, OutputStackTrace method [Windows Debugging], IDebugControl3 interface, IDebugControl::OutputStackTrace, OutputStackTrace method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::OutputStackTrace, IDebugControl_07d53535-7d91-4771-84b1-f4ac4895a158.xml, OutputStackTrace, IDebugControl2::OutputStackTrace, IDebugControl, IDebugControl2, OutputStackTrace method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], OutputStackTrace method, IDebugControl2 interface [Windows Debugging], OutputStackTrace method, IDebugControl3::OutputStackTrace, IDebugControl3 interface [Windows Debugging], OutputStackTrace method, dbgeng/IDebugControl2::OutputStackTrace, OutputStackTrace method [Windows Debugging]
+ms.keywords: ",  , ,, ., 2, :, C, D, I, IDebugControl, IDebugControl interface [Windows Debugging], OutputStackTrace method, IDebugControl2, IDebugControl2 interface [Windows Debugging], OutputStackTrace method, IDebugControl2::OutputStackTrace, IDebugControl3 interface [Windows Debugging], OutputStackTrace method, IDebugControl3::OutputStackTrace, IDebugControl::OutputStackTrace, IDebugControl_07d53535-7d91-4771-84b1-f4ac4895a158.xml, O, OutputStackTrace method [Windows Debugging], OutputStackTrace method [Windows Debugging], IDebugControl interface, OutputStackTrace method [Windows Debugging], IDebugControl2 interface, OutputStackTrace method [Windows Debugging], IDebugControl3 interface, OutputStackTrace,IDebugControl.OutputStackTrace, OutputStackTrace,IDebugControl2.OutputStackTrace, S, T, a, b, c, dbgeng/IDebugControl2::OutputStackTrace, dbgeng/IDebugControl3::OutputStackTrace, dbgeng/IDebugControl::OutputStackTrace, debugger.outputstacktrace, e, g, k, l, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -249,7 +249,7 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -257,19 +257,19 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
+
+
+
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
 
 
 

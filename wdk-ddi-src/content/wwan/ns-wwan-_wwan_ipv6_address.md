@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3DAC7E30-B938-429C-B389-59F924216B04
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_WWAN_IPV6_ADDRESS, netvista.wwan_ipv6_address, WWAN_IPV6_ADDRESS structure [Network Drivers Starting with Windows Vista], wwan/WWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS, *PWWAN_IPV6_ADDRESS, wwan/PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV6_ADDRESS"
+ms.keywords: ",  , *, *PWWAN_IPV6_ADDRESS, ,, 6, A, D, E, I, N, P, PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], R, S, V, W, WWAN_IPV6_ADDRESS, WWAN_IPV6_ADDRESS structure [Network Drivers Starting with Windows Vista], _, _WWAN_IPV6_ADDRESS, netvista.wwan_ipv6_address, wwan/PWWAN_IPV6_ADDRESS, wwan/WWAN_IPV6_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ED1D02B-07DB-409B-AABF-4ED1D28B3C43
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintSchemaParameterDefinition::get_UnitType, print._iprintschemaparameterdefinition_unittype, UnitType property [Print Devices], printerextension/IPrintSchemaParameterDefinition::get_UnitType, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition interface [Print Devices], UnitType property, IPrintSchemaParameterDefinition, get_UnitType, UnitType property [Print Devices], IPrintSchemaParameterDefinition interface, printerextension/IPrintSchemaParameterDefinition::UnitType
+ms.keywords: ",  , ,, ., :, D, I, IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], UnitType property, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition::get_UnitType, P, S, T, U, UnitType property [Print Devices], UnitType property [Print Devices], IPrintSchemaParameterDefinition interface, _, a, c, e, f, g, get_UnitType, get_UnitType,IPrintSchemaParameterDefinition.get_UnitType, h, i, m, n, o, p, print._iprintschemaparameterdefinition_unittype, printerextension/IPrintSchemaParameterDefinition::UnitType, printerextension/IPrintSchemaParameterDefinition::get_UnitType, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ac42710-9f44-4982-a0d9-c49048870aeb
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicesetlock, EvtDeviceSetLock callback function, EvtDeviceSetLock, EVT_WDF_DEVICE_SET_LOCK, EVT_WDF_DEVICE_SET_LOCK, wdfpdo/EvtDeviceSetLock, DFDeviceObjectFdoPdoRef_932fbb3b-df8b-49ca-9b86-3d98b6fdd39f.xml, kmdf.evtdevicesetlock
+ms.keywords: DFDeviceObjectFdoPdoRef_932fbb3b-df8b-49ca-9b86-3d98b6fdd39f.xml, EVT_WDF_DEVICE_SET_LOCK, EvtDeviceSetLock, EvtDeviceSetLock callback function, kmdf.evtdevicesetlock, wdf.evtdevicesetlock, wdfpdo/EvtDeviceSetLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

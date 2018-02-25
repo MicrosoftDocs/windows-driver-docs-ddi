@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24b1d89a-4200-41ec-aa73-15b37e4cca6d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getnextchunkdata, PFN_GET_NEXT_CHUNK_DATA, GetNextChunkData callback function [Display Devices], GetNextChunkData, PFN_GET_NEXT_CHUNK_DATA, PFN_GET_NEXT_CHUNK_DATA, netdispumdddi/GetNextChunkData
+ms.keywords: GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, display.getnextchunkdata, netdispumdddi/GetNextChunkData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -172,11 +172,11 @@ Only one thread should call this function at a time. Otherwise it's unpredictabl
 
 
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a>
-
-
-
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+
+
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a>
 
 
 

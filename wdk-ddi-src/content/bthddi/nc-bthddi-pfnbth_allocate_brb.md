@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: e1ac9d4c-75e2-4d37-86d7-3c3f1486222e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.bthallocatebrb, BthAllocateBrb callback function [Bluetooth Devices], BthAllocateBrb, PFNBTH_ALLOCATE_BRB, PFNBTH_ALLOCATE_BRB, bthddi/BthAllocateBrb, bth_funcs_db0aa96f-62de-40f5-bcce-2aa7e930af3d.xml
+ms.keywords: BthAllocateBrb, BthAllocateBrb callback function [Bluetooth Devices], PFNBTH_ALLOCATE_BRB, bltooth.bthallocatebrb, bth_funcs_db0aa96f-62de-40f5-bcce-2aa7e930af3d.xml, bthddi/BthAllocateBrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,15 +112,15 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
 pool tag
 
 
 
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

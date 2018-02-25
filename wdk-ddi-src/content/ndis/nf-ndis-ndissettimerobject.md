@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 75f8fa1b-5b79-4bc2-8b7b-aa1101c9c331
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndissettimerobject, NdisSetTimerObject, NdisSetTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetTimerObject, ndis_timer_ref_7be2aa63-67ef-4416-87d5-d11260a57d3f.xml
+ms.keywords: ",  , N, NdisSetTimerObject, NdisSetTimerObject function [Network Drivers Starting with Windows Vista], O, S, T, b, c, d, e, i, j, m, ndis/NdisSetTimerObject, ndis_timer_ref_7be2aa63-67ef-4416-87d5-d11260a57d3f.xml, netvista.ndissettimerobject, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,16 +151,16 @@ To cancel a timer, call the
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndissetcoalescabletimerobject.md">
    NdisSetCoalescableTimerObject</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 
@@ -172,7 +172,7 @@ To cancel a timer, call the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 
 

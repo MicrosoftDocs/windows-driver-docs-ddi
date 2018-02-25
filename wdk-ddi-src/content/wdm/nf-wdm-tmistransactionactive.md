@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0c9bf43d-9342-4d60-86d2-7388a4a80160
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.tmistransactionactive, TmIsTransactionActive routine [Kernel-Mode Driver Architecture], ktm_ref_f2dfbc14-24c0-494b-bf54-506c9d2c1af4.xml, TmIsTransactionActive, wdm/TmIsTransactionActive
+ms.keywords: ",  , A, I, T, TmIsTransactionActive, TmIsTransactionActive routine [Kernel-Mode Driver Architecture], a, c, e, i, kernel.tmistransactionactive, ktm_ref_f2dfbc14-24c0-494b-bf54-506c9d2c1af4.xml, m, n, o, r, s, t, v, wdm/TmIsTransactionActive"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

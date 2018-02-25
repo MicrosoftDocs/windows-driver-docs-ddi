@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9418ac12-3de0-4477-a725-437700c4d83c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl3::GetSystemVersion, dbgeng/IDebugControl3::GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetSystemVersion method, IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, IDebugControl::GetSystemVersion, debugger.getsystemversion, GetSystemVersion method [Windows Debugging], IDebugControl2 interface, GetSystemVersion method [Windows Debugging], IDebugControl3 interface, IDebugControl, IDebugControl2, dbgeng/IDebugControl::GetSystemVersion, IDebugControl interface [Windows Debugging], GetSystemVersion method, IDebugControl2 interface [Windows Debugging], GetSystemVersion method, GetSystemVersion method [Windows Debugging], IDebugControl interface, GetSystemVersion, dbgeng/IDebugControl2::GetSystemVersion, IDebugControl2::GetSystemVersion
+ms.keywords: ",  , ,, ., 2, :, C, D, G, GetSystemVersion method [Windows Debugging], GetSystemVersion method [Windows Debugging], IDebugControl interface, GetSystemVersion method [Windows Debugging], IDebugControl2 interface, GetSystemVersion method [Windows Debugging], IDebugControl3 interface, GetSystemVersion,IDebugControl.GetSystemVersion, GetSystemVersion,IDebugControl2.GetSystemVersion, I, IDebugControl, IDebugControl interface [Windows Debugging], GetSystemVersion method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetSystemVersion method, IDebugControl2::GetSystemVersion, IDebugControl3 interface [Windows Debugging], GetSystemVersion method, IDebugControl3::GetSystemVersion, IDebugControl::GetSystemVersion, IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, S, V, b, dbgeng/IDebugControl2::GetSystemVersion, dbgeng/IDebugControl3::GetSystemVersion, dbgeng/IDebugControl::GetSystemVersion, debugger.getsystemversion, e, g, i, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -178,7 +178,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -190,11 +190,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
 
 
 

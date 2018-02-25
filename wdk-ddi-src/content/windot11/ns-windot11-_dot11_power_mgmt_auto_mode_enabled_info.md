@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9C75544F-A14C-4741-91FC-434AE1872A6E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure [Network Drivers Starting with Windows Vista], *PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, netvista.dot11_power_mgmt_auto_mode_enabled_info, PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
+ms.keywords: ",  , *, *PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, ,, 1, A, B, D, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure [Network Drivers Starting with Windows Vista], E, F, G, I, L, M, N, O, P, PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure pointer [Network Drivers Starting with Windows Vista], R, T, U, W, _, _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, netvista.dot11_power_mgmt_auto_mode_enabled_info, windot11/DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, windot11/PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

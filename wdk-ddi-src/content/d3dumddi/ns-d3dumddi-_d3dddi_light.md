@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53204334-bf91-46ad-93cc-84a4ec17ae54
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D_other_Structs_4f43b697-886b-47bf-97b9-603306e899f8.xml, d3dumddi/D3DDDI_LIGHT, D3DDDI_LIGHT structure [Display Devices], _D3DDDI_LIGHT, display.d3dddi_light, D3DDDI_LIGHT
+ms.keywords: ",  , ,, 3, D, D3DDDI_LIGHT, D3DDDI_LIGHT structure [Display Devices], D3D_other_Structs_4f43b697-886b-47bf-97b9-603306e899f8.xml, G, H, I, L, T, _, _D3DDDI_LIGHT, d3dumddi/D3DDDI_LIGHT, display.d3dddi_light"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

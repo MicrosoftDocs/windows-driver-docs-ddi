@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2E7DB48A-FFCF-4EEC-98FA-D206E33D6603
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_mpio_pass_through_path_ex, IOCTL_MPIO_PASS_THROUGH_PATH_EX control code [Storage Devices], IOCTL_MPIO_PASS_THROUGH_PATH_EX, ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_EX
+ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_EX, IOCTL_MPIO_PASS_THROUGH_PATH_EX control code [Storage Devices], ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_EX, storage.ioctl_mpio_pass_through_path_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -139,11 +139,11 @@ The <b>Information</b> field is set to the number of bytes returned in the outpu
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_mpio_pass_through_path_ex.md">MPIO_PASS_THROUGH_PATH_EX</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_mpio_pass_through_path_ex.md">MPIO_PASS_THROUGH_PATH_EX</a>
 
 
 

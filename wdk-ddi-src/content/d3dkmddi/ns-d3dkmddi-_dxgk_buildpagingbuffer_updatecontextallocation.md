@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DA23251C-E901-48A0-9B58-458622DE8CF0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION structure [Display Devices], display.dxgk_buildpagingbuffer_updatecontextallocation
+ms.keywords: ",  , ,, A, B, C, D, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION structure [Display Devices], E, F, G, I, K, L, N, O, P, R, T, U, X, _, _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, display.dxgk_buildpagingbuffer_updatecontextallocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

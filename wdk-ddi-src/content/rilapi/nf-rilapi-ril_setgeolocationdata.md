@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d037ff74-a0fb-49a6-8e42-ceac1be61464
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_SetGeolocationData, RIL_SetGeolocationData method [Network Drivers Starting with Windows Vista], RIL_SetGeolocationData, netvista.ril_setgeolocationdata
+ms.keywords: ",  , D, G, I, L, R, RIL_SetGeolocationData, RIL_SetGeolocationData method [Network Drivers Starting with Windows Vista], S, _, a, c, e, i, l, n, netvista.ril_setgeolocationdata, o, rilapi/RIL_SetGeolocationData, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

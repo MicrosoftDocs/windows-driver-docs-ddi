@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: FE69BD53-F463-480A-820B-4259D6F48BD0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SpoolerFindNextPrinterChangeNotification, SpoolerFindNextPrinterChangeNotification function [Print Devices], print.spoolerfindnextprinterchangenotification, winsplp/SpoolerFindNextPrinterChangeNotification
+ms.keywords: ",  , C, F, N, P, S, SpoolerFindNextPrinterChangeNotification, SpoolerFindNextPrinterChangeNotification function [Print Devices], a, c, d, e, f, g, h, i, l, n, o, p, print.spoolerfindnextprinterchangenotification, r, t, winsplp/SpoolerFindNextPrinterChangeNotification, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11536f1e-523c-4796-a973-e53291c756a8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml
+ms.keywords: ",  , *, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, ,, A, B, C, D, E, F, G, I, N, O, P, PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], R, T, U, V, VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, _, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -327,11 +327,11 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 

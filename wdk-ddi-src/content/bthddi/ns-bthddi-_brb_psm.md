@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 893edad2-8419-4c93-bf0b-2cca8ca5a2f6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bth_structs_f40af07e-a5ad-4654-9ff6-4d162a46ea58.xml, bthddi/_BRB_PSM, _BRB_PSM structure [Bluetooth Devices], bltooth._brb_psm, _BRB_PSM
+ms.keywords: ",  , B, M, P, R, S, _, _BRB_PSM, _BRB_PSM structure [Bluetooth Devices], bltooth._brb_psm, bth_structs_f40af07e-a5ad-4654-9ff6-4d162a46ea58.xml, bthddi/_BRB_PSM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,16 +153,7 @@ A <b>BRB_UNREGISTER_PSM</b> request has no effect on SDP records that attempt to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
-   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
-
-
-
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536621">BRB_REGISTER_PSM</a>
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
 
 
 
@@ -174,7 +165,16 @@ A <b>BRB_UNREGISTER_PSM</b> request has no effect on SDP records that attempt to
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536621">BRB_REGISTER_PSM</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
 
 
 

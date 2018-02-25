@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: AD531C16-0E24-4CDE-B188-981260CF8F49
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ioctl_lamp_set_intensity_color, IOCTL_LAMP_SET_INTENSITY_COLOR control code [Streaming Media Devices], IOCTL_LAMP_SET_INTENSITY_COLOR, lamp/IOCTL_LAMP_SET_INTENSITY_COLOR
+ms.keywords: IOCTL_LAMP_SET_INTENSITY_COLOR, IOCTL_LAMP_SET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_INTENSITY_COLOR, stream.ioctl_lamp_set_intensity_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: LAMP_MODE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

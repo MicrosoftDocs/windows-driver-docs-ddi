@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F64E2FFD-229F-4447-94C2-A5403E7893B7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicereportedmissing, EvtDeviceReportedMissing callback function, EvtDeviceReportedMissing, EVT_WDF_DEVICE_REPORTED_MISSING, EVT_WDF_DEVICE_REPORTED_MISSING, wdfpdo/EvtDeviceReportedMissing, kmdf.evtdevicereportedmissing
+ms.keywords: EVT_WDF_DEVICE_REPORTED_MISSING, EvtDeviceReportedMissing, EvtDeviceReportedMissing callback function, kmdf.evtdevicereportedmissing, wdf.evtdevicereportedmissing, wdfpdo/EvtDeviceReportedMissing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

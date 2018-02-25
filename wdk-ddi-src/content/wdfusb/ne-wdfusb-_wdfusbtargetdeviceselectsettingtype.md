@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bbe3da6-f069-4965-ae60-2d755d7557c1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfusbtargetdeviceselectsettingtype, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbInterfaceSelectSettingTypeDescriptor, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbInterfaceSelectSettingTypeUrb, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, WdfUsbTargetDeviceSelectSettingType enumeration, wdfusb/WdfUsbTargetDeviceSelectSettingType, WdfUsbTargetDeviceSelectSettingType, _WdfUsbTargetDeviceSelectSettingType, wdf.wdfusbtargetdeviceselectsettingtype
+ms.keywords: ",  , ,, D, DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, S, T, U, W, WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbInterfaceSelectSettingTypeUrb, WdfUsbTargetDeviceSelectSettingType, WdfUsbTargetDeviceSelectSettingType enumeration, _, _WdfUsbTargetDeviceSelectSettingType, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdeviceselectsettingtype, l, n, p, r, s, t, v, wdf.wdfusbtargetdeviceselectsettingtype, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, wdfusb/WdfUsbTargetDeviceSelectSettingType, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

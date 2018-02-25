@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 63cfb3f2-5240-4cb6-9c23-8cdb363f62a8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method, dbgeng/IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint2, debugger.setoffsetexpression, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint::SetOffsetExpression, IDebugBreakpoint2::SetOffsetExpression, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint, dbgeng/IDebugBreakpoint::SetOffsetExpression, SetOffsetExpression method [Windows Debugging], SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, SetOffsetExpression, ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml
+ms.keywords: ",  , ,, ., 2, :, B, ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, D, E, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint::SetOffsetExpression, O, S, SetOffsetExpression method [Windows Debugging], SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, SetOffsetExpression,IDebugBreakpoint.SetOffsetExpression, SetOffsetExpression,IDebugBreakpoint2.SetOffsetExpression, a, b, dbgeng/IDebugBreakpoint2::SetOffsetExpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, debugger.setoffsetexpression, e, f, g, i, k, n, o, p, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

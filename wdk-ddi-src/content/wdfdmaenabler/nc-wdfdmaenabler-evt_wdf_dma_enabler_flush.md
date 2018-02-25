@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bb606889-7d05-49a0-b0b7-e1f6d6c315d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdmaenablerflush, EvtDmaEnablerFlush callback function, EvtDmaEnablerFlush, EVT_WDF_DMA_ENABLER_FLUSH, EVT_WDF_DMA_ENABLER_FLUSH, wdfdmaenabler/EvtDmaEnablerFlush, DFDmaObjectRef_0a019ec3-228e-47d0-ab8c-9c07e200e229.xml, kmdf.evtdmaenablerflush
+ms.keywords: DFDmaObjectRef_0a019ec3-228e-47d0-ab8c-9c07e200e229.xml, EVT_WDF_DMA_ENABLER_FLUSH, EvtDmaEnablerFlush, EvtDmaEnablerFlush callback function, kmdf.evtdmaenablerflush, wdf.evtdmaenablerflush, wdfdmaenabler/EvtDmaEnablerFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -140,11 +140,11 @@ The <b>EVT_WDF_DMA_ENABLER_FLUSH</b> function type is defined in the WdfDmaEnabl
 
 
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
-
-
-
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+
+
+<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
 
 
 

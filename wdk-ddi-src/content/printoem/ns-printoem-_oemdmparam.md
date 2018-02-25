@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 625980d1-47eb-4427-a9e8-967b1873bbd6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: printoem/POEMDMPARAM, *POEMDMPARAM, print_unidrv-pscript_ui_49535272-ec29-4133-8105-0ce9b31808a2.xml, OEMDMPARAM, POEMDMPARAM, _OEMDMPARAM, print.oemdmparam, POEMDMPARAM structure pointer [Print Devices], printoem/OEMDMPARAM, OEMDMPARAM structure [Print Devices]
+ms.keywords: ",  , *, *POEMDMPARAM, ,, A, D, E, M, O, OEMDMPARAM, OEMDMPARAM structure [Print Devices], P, POEMDMPARAM, POEMDMPARAM structure pointer [Print Devices], R, _, _OEMDMPARAM, print.oemdmparam, print_unidrv-pscript_ui_49535272-ec29-4133-8105-0ce9b31808a2.xml, printoem/OEMDMPARAM, printoem/POEMDMPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

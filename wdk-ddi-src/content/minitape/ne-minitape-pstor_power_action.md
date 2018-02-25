@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPowerActionReserved, StorPowerActionHibernate, *PSTOR_POWER_ACTION, storport/PSTOR_POWER_ACTION, StorPowerActionShutdownOff, StorPowerActionShutdownReset, StorPowerActionWarmEject, PSTOR_POWER_ACTION, StorPowerActionShutdown, storport/StorPowerActionShutdownReset, StorPowerActionNone, STOR_POWER_ACTION enumeration [Storage Devices], storport/StorPowerActionShutdown, storport/StorPowerActionHibernate, storport/StorPowerActionShutdownOff, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], StorPowerActionSleep, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, storport/StorPowerActionNone, STOR_POWER_ACTION, storport/StorPowerActionSleep, storage.stor_power_action, storport/StorPowerActionWarmEject, StorPowerActionReserved, storport/STOR_POWER_ACTION
+ms.keywords: ",  , *, *PSTOR_POWER_ACTION, ,, A, C, E, I, N, O, P, PSTOR_POWER_ACTION, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], R, S, STOR_POWER_ACTION, STOR_POWER_ACTION enumeration [Storage Devices], StorPowerActionHibernate, StorPowerActionNone, StorPowerActionReserved, StorPowerActionShutdown, StorPowerActionShutdownOff, StorPowerActionShutdownReset, StorPowerActionSleep, StorPowerActionWarmEject, T, W, _, storage.stor_power_action, storport/PSTOR_POWER_ACTION, storport/STOR_POWER_ACTION, storport/StorPowerActionHibernate, storport/StorPowerActionNone, storport/StorPowerActionReserved, storport/StorPowerActionShutdown, storport/StorPowerActionShutdownOff, storport/StorPowerActionShutdownReset, storport/StorPowerActionSleep, storport/StorPowerActionWarmEject, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -116,7 +116,7 @@ The system is preparing for ejection.
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
 
 
 

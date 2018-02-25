@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0ab18ea-4447-4eee-bdf3-d251d4d4952f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetFrameOffset2 method, debugger.getframeoffset2, IDebugRegisters2, IDebugRegisters2::GetFrameOffset2, GetFrameOffset2, dbgeng/IDebugRegisters2::GetFrameOffset2, IDebugRegisters_9b3855a5-d5e4-4485-81f3-1584b707f73a.xml, GetFrameOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetFrameOffset2 method [Windows Debugging]
+ms.keywords: ",  , ,, ., 2, :, D, F, G, GetFrameOffset2 method [Windows Debugging], GetFrameOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetFrameOffset2,IDebugRegisters2.GetFrameOffset2, I, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset2 method, IDebugRegisters2::GetFrameOffset2, IDebugRegisters_9b3855a5-d5e4-4485-81f3-1584b707f73a.xml, O, R, a, b, dbgeng/IDebugRegisters2::GetFrameOffset2, debugger.getframeoffset2, e, f, g, i, m, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

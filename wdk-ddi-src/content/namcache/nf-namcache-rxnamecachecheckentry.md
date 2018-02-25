@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 75df65bc-2309-40d6-8e1d-154e72ad0f23
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: namcache/RxNameCacheCheckEntry, RxNameCacheCheckEntry, RxNameCacheCheckEntry function [Installable File System Drivers], ifsk.rxnamecachecheckentry, rxref_703b5e6a-4904-4402-8905-bc1dd2ed1c9e.xml
+ms.keywords: ",  , C, E, N, R, RxNameCacheCheckEntry, RxNameCacheCheckEntry function [Installable File System Drivers], a, c, e, h, ifsk.rxnamecachecheckentry, k, m, n, namcache/RxNameCacheCheckEntry, r, rxref_703b5e6a-4904-4402-8905-bc1dd2ed1c9e.xml, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,14 +130,6 @@ The check failed because <i>MRxContext</i> failed equality checking.
 
 ## -see-also
 
-<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
-
-
-
-<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
-
-
-
 <a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
 
 
@@ -146,7 +138,7 @@ The check failed because <i>MRxContext</i> failed equality checking.
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
+<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
 
 
 
@@ -154,11 +146,19 @@ The check failed because <i>MRxContext</i> failed equality checking.
 
 
 
+<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
+
+
+
 <a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
 
 
 

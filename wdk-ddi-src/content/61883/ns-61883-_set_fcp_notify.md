@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 94A966C4-9FFA-4937-B7D8-D1A3608E4A7F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SET_FCP_NOTIFY, _SET_FCP_NOTIFY, PSET_FCP_NOTIFY, IEEE.set_fcp_notify, 61883/PSET_FCP_NOTIFY, 61883/SET_FCP_NOTIFY, PSET_FCP_NOTIFY structure pointer [Buses], *PSET_FCP_NOTIFY, SET_FCP_NOTIFY structure [Buses]
+ms.keywords: ",  , *, *PSET_FCP_NOTIFY, ,, 61883/PSET_FCP_NOTIFY, 61883/SET_FCP_NOTIFY, C, E, F, I, IEEE.set_fcp_notify, N, O, P, PSET_FCP_NOTIFY, PSET_FCP_NOTIFY structure pointer [Buses], S, SET_FCP_NOTIFY, SET_FCP_NOTIFY structure [Buses], T, Y, _, _SET_FCP_NOTIFY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

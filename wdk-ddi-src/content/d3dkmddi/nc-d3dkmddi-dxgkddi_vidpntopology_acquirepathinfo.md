@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 27a03106-a5b5-489c-968a-81b3ea9940cb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_vidpntopology_interface_pfnacquirepathinfo, pfnAcquirePathInfo callback function [Display Devices], pfnAcquirePathInfo, DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO, DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO, d3dkmddi/pfnAcquirePathInfo, VidPnFunctions_fb690a8a-fc98-4f8f-bfe5-14168a5fdb6a.xml
+ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO, VidPnFunctions_fb690a8a-fc98-4f8f-bfe5-14168a5fdb6a.xml, d3dkmddi/pfnAcquirePathInfo, display.dxgk_vidpntopology_interface_pfnacquirepathinfo, pfnAcquirePathInfo, pfnAcquirePathInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -164,11 +164,11 @@ The D3DDDI_VIDEO_PRESENT_SOURCE_ID and D3DDDI_VIDEO_PRESENT_TARGET_ID data types
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_acquirenextpathinfo.md">pfnAcquireNextPathInfo</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_releasepathinfo.md">pfnReleasePathInfo</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 
 
@@ -176,7 +176,7 @@ The D3DDDI_VIDEO_PRESENT_SOURCE_ID and D3DDDI_VIDEO_PRESENT_TARGET_ID data types
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_acquirenextpathinfo.md">pfnAcquireNextPathInfo</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 
 

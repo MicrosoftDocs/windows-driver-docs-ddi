@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b9c23f36-0885-49fd-b92e-dac38d5f363f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providerabortdma, ProviderAbortDma callback function [Network Drivers Starting with Windows Vista], ProviderAbortDma, DMA_ABORT_HANDLER, DMA_ABORT_HANDLER, netdma/ProviderAbortDma, netdma_ref_b030a880-2a65-4fef-9f91-4a4bc4fa17b5.xml
+ms.keywords: DMA_ABORT_HANDLER, ProviderAbortDma, ProviderAbortDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAbortDma, netdma_ref_b030a880-2a65-4fef-9f91-4a4bc4fa17b5.xml, netvista.providerabortdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -155,11 +155,11 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
-
-
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 
 

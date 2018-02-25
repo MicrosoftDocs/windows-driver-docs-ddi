@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], gnssdriver/PGNSS_CHIPSETINFO, gnssdriver/GNSS_CHIPSETINFO, PGNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], sensors.gnss_chipsetinfo
+ms.keywords: ",  , *, *PGNSS_CHIPSETINFO, ,, C, E, F, G, GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], H, I, N, O, P, PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], S, T, _, gnssdriver/GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO, sensors.gnss_chipsetinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

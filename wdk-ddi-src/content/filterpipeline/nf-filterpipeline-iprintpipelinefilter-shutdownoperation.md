@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4df9721f-19d1-4070-92dd-45d41b7c5374
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ShutdownOperation method [Print Devices], ShutdownOperation, IPrintPipelineFilter::ShutdownOperation, ShutdownOperation method [Print Devices], IPrintPipelineFilter interface, IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, IPrintPipelineFilter, filterpipeline/IPrintPipelineFilter::ShutdownOperation, filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, print.iprintpipelinefilter_shutdownoperation
+ms.keywords: ",  , ,, ., :, F, I, IPrintPipelineFilter, IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, IPrintPipelineFilter::ShutdownOperation, O, P, S, ShutdownOperation method [Print Devices], ShutdownOperation method [Print Devices], IPrintPipelineFilter interface, ShutdownOperation,IPrintPipelineFilter.ShutdownOperation, a, d, e, filterpipeline/IPrintPipelineFilter::ShutdownOperation, filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, h, i, l, n, o, p, print.iprintpipelinefilter_shutdownoperation, r, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

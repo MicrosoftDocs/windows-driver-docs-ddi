@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c7a5bcce-a19e-4938-9d7b-ce73b3ecdc86
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SeOpenObjectForDeleteAuditAlarm routine [Installable File System Drivers], seref_59133039-b4e5-47d9-941a-df78051d6408.xml, ntifs/SeOpenObjectForDeleteAuditAlarm, SeOpenObjectForDeleteAuditAlarm, ifsk.seopenobjectfordeleteauditalarm
+ms.keywords: ",  , A, D, F, O, S, SeOpenObjectForDeleteAuditAlarm, SeOpenObjectForDeleteAuditAlarm routine [Installable File System Drivers], a, b, c, d, e, i, ifsk.seopenobjectfordeleteauditalarm, j, l, m, n, ntifs/SeOpenObjectForDeleteAuditAlarm, o, p, r, seref_59133039-b4e5-47d9-941a-df78051d6408.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,18 +144,6 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
 
 
@@ -164,15 +152,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
+<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
 
 
 
@@ -180,7 +160,27 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
 
 

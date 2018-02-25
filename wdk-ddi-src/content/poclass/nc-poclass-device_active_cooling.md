@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ADC0145D-135F-46E6-91C9-B545DBE1D83B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.activecooling, ActiveCooling routine [Kernel-Mode Driver Architecture], ActiveCooling, DEVICE_ACTIVE_COOLING, DEVICE_ACTIVE_COOLING, poclass/ActiveCooling
+ms.keywords: ActiveCooling, ActiveCooling routine [Kernel-Mode Driver Architecture], DEVICE_ACTIVE_COOLING, kernel.activecooling, poclass/ActiveCooling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6a9c5420-1847-4145-aea5-9e9c58d86ea1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_COMPANION_EVENT_CALLBACKS, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS, _WDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS, wdfcompanion/PWDF_COMPANION_EVENT_CALLBACKS, wdf.wdf_companion_event_callbacks, WDF_COMPANION_EVENT_CALLBACKS structure, *PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS structure pointer
+ms.keywords: ",  , *, *PWDF_COMPANION_EVENT_CALLBACKS, ,, A, B, C, D, E, F, I, K, L, M, N, O, P, PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS structure pointer, S, T, V, W, WDF_COMPANION_EVENT_CALLBACKS, WDF_COMPANION_EVENT_CALLBACKS structure, _, _WDF_COMPANION_EVENT_CALLBACKS, wdf.wdf_companion_event_callbacks, wdfcompanion/PWDF_COMPANION_EVENT_CALLBACKS, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

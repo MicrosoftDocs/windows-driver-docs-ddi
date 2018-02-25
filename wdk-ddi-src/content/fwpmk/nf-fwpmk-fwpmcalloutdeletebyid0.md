@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fa24de4c-de78-49b1-9c8d-ca9a63c8a84f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wfp_ref_2_funct_2_fwpm_466376ac-f7a1-417e-9de8-9c3a7ff31404.xml, FwpmCalloutDeleteById0, fwpmk/FwpmCalloutDeleteById0, netvista.fwpmcalloutdeletebyid0, FwpmCalloutDeleteById0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , 0, B, C, D, F, FwpmCalloutDeleteById0, FwpmCalloutDeleteById0 function [Network Drivers Starting with Windows Vista], I, a, d, e, fwpmk/FwpmCalloutDeleteById0, l, m, netvista.fwpmcalloutdeletebyid0, o, p, t, u, w, wfp_ref_2_funct_2_fwpm_466376ac-f7a1-417e-9de8-9c3a7ff31404.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

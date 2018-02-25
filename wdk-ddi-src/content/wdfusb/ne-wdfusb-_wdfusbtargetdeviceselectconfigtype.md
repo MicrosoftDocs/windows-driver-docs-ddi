@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d3637f5e-d4c1-430c-8511-8aac18fceee2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceSelectConfigTypeUrb, WdfUsbTargetDeviceSelectConfigType, WdfUsbTargetDeviceSelectConfigTypeSingleInterface, WdfUsbTargetDeviceSelectConfigTypeUrb, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor, WdfUsbTargetDeviceSelectConfigTypeDeconfig, kmdf.wdfusbtargetdeviceselectconfigtype, wdfusb/WdfUsbTargetDeviceSelectConfigTypeMultiInterface, WdfUsbTargetDeviceSelectConfigType enumeration, WdfUsbTargetDeviceSelectConfigTypeInvalid, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInvalid, WdfUsbTargetDeviceSelectConfigTypeMultiInterface, DFUsbRef_e4ab4d2c-dbca-4d6e-a690-4b362331e53e.xml, wdf.wdfusbtargetdeviceselectconfigtype, _WdfUsbTargetDeviceSelectConfigType, wdfusb/WdfUsbTargetDeviceSelectConfigType, wdfusb/WdfUsbTargetDeviceSelectConfigTypeDeconfig, wdfusb/WdfUsbTargetDeviceSelectConfigTypeSingleInterface, WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor
+ms.keywords: ",  , ,, C, D, DFUsbRef_e4ab4d2c-dbca-4d6e-a690-4b362331e53e.xml, S, T, U, W, WdfUsbTargetDeviceSelectConfigType, WdfUsbTargetDeviceSelectConfigType enumeration, WdfUsbTargetDeviceSelectConfigTypeDeconfig, WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor, WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, WdfUsbTargetDeviceSelectConfigTypeInvalid, WdfUsbTargetDeviceSelectConfigTypeMultiInterface, WdfUsbTargetDeviceSelectConfigTypeSingleInterface, WdfUsbTargetDeviceSelectConfigTypeUrb, _, _WdfUsbTargetDeviceSelectConfigType, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdeviceselectconfigtype, l, n, o, p, r, s, t, v, wdf.wdfusbtargetdeviceselectconfigtype, wdfusb/WdfUsbTargetDeviceSelectConfigType, wdfusb/WdfUsbTargetDeviceSelectConfigTypeDeconfig, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInvalid, wdfusb/WdfUsbTargetDeviceSelectConfigTypeMultiInterface, wdfusb/WdfUsbTargetDeviceSelectConfigTypeSingleInterface, wdfusb/WdfUsbTargetDeviceSelectConfigTypeUrb, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -122,7 +122,7 @@ The <b>WdfUsbTargetDeviceSelectConfigType</b> enumeration is used to specify the
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
 
 
@@ -130,7 +130,7 @@ The <b>WdfUsbTargetDeviceSelectConfigType</b> enumeration is used to specify the
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

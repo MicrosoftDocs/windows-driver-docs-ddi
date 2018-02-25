@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4a410f56-cdc1-4cb0-801c-62402caec4ee
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_changer_move_medium, IOCTL_CHANGER_MOVE_MEDIUM control code [Storage Devices], IOCTL_CHANGER_MOVE_MEDIUM, ntddchgr/IOCTL_CHANGER_MOVE_MEDIUM, k307_4d55c834-2f72-433b-8e75-015908324d87.xml
+ms.keywords: IOCTL_CHANGER_MOVE_MEDIUM, IOCTL_CHANGER_MOVE_MEDIUM control code [Storage Devices], k307_4d55c834-2f72-433b-8e75-015908324d87.xml, ntddchgr/IOCTL_CHANGER_MOVE_MEDIUM, storage.ioctl_changer_move_medium
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

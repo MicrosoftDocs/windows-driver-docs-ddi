@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b020b0c6-eb69-44d0-a374-b39eb2f536f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providersuspenddma, ProviderSuspendDma callback function [Network Drivers Starting with Windows Vista], ProviderSuspendDma, DMA_SUSPEND_HANDLER, DMA_SUSPEND_HANDLER, netdma/ProviderSuspendDma, netdma_ref_f194d9b0-083c-46a1-9e39-aa33c62af512.xml
+ms.keywords: DMA_SUSPEND_HANDLER, ProviderSuspendDma, ProviderSuspendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSuspendDma, netdma_ref_f194d9b0-083c-46a1-9e39-aa33c62af512.xml, netvista.providersuspenddma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

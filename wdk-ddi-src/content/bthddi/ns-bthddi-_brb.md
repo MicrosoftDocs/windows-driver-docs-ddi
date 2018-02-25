@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: b9fc6eb9-6793-442a-a736-18929df14f20
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bth_structs_7ccc2ad1-dd10-4ae9-be41-fa79229b32aa.xml, _BRB, bltooth.brb, bthddi/BRB, PBRB structure pointer [Bluetooth Devices], BRB structure [Bluetooth Devices], *PBRB, PBRB, bthddi/PBRB, BRB
+ms.keywords: ",  , *, *PBRB, ,, B, BRB, BRB structure [Bluetooth Devices], P, PBRB, PBRB structure pointer [Bluetooth Devices], R, _, _BRB, bltooth.brb, bth_structs_7ccc2ad1-dd10-4ae9-be41-fa79229b32aa.xml, bthddi/BRB, bthddi/PBRB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -261,27 +261,24 @@ Defines the format of the enhanced L2CAP open channel and the enhanced L2CAP ope
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">_BRB_SCO_GET_CHANNEL_INFO</a>
+<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a>
+<a href="..\bthddi\ns-bthddi-_brb_sco_flush_channel.md">_BRB_SCO_FLUSH_CHANNEL</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_ping.md">_BRB_L2CA_PING</a>
+<a href="..\bthddi\ns-bthddi-_brb_get_local_bd_addr.md">_BRB_GET_LOCAL_BD_ADDR</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_sco_unregister_server.md">_BRB_SCO_UNREGISTER_SERVER</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_unregister_server.md">_BRB_L2CA_UNREGISTER_SERVER</a>
+<a href="..\bthddi\ns-bthddi-_brb_get_device_interface_string.md">
+   _BRB_GET_DEVICE_INTERFACE_STRING</a>
 
 
 
@@ -293,44 +290,7 @@ Defines the format of the enhanced L2CAP open channel and the enhanced L2CAP ope
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_psm.md">_BRB_PSM</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_get_device_interface_string.md">
-   _BRB_GET_DEVICE_INTERFACE_STRING</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_get_system_info.md">_BRB_SCO_GET_SYSTEM_INFO</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_acl_transfer.md">_BRB_L2CA_ACL_TRANSFER</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_get_local_bd_addr.md">_BRB_GET_LOCAL_BD_ADDR</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_close_channel.md">_BRB_L2CA_CLOSE_CHANNEL</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_flush_channel.md">_BRB_SCO_FLUSH_CHANNEL</a>
 
 
 
@@ -338,7 +298,47 @@ Defines the format of the enhanced L2CAP open channel and the enhanced L2CAP ope
 
 
 
+<a href="..\bthddi\ns-bthddi-_brb_sco_unregister_server.md">_BRB_SCO_UNREGISTER_SERVER</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_get_system_info.md">_BRB_SCO_GET_SYSTEM_INFO</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_psm.md">_BRB_PSM</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_acl_transfer.md">_BRB_L2CA_ACL_TRANSFER</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_unregister_server.md">_BRB_L2CA_UNREGISTER_SERVER</a>
+
+
+
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">_BRB_SCO_GET_CHANNEL_INFO</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_ping.md">_BRB_L2CA_PING</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70df85b6-286a-45a2-813d-adb54daee122
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddiarg_checkdirectflipsupport, _D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure [Display Devices], D3DDDIARG_CHECKDIRECTFLIPSUPPORT, d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure [Display Devices], E, F, G, H, I, K, L, O, P, R, S, T, U, _, _D3DDDIARG_CHECKDIRECTFLIPSUPPORT, d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT, display.d3dddiarg_checkdirectflipsupport"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

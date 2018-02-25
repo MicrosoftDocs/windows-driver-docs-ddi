@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], NdisMNetPnPEvent, miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, netvista.ndismnetpnpevent, ndis/NdisMNetPnPEvent
+ms.keywords: ",  , E, M, N, NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], P, d, e, i, miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, n, ndis/NdisMNetPnPEvent, netvista.ndismnetpnpevent, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

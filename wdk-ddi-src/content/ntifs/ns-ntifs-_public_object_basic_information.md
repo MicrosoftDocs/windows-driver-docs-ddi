@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2190f88e-6905-4e58-9523-2b6d4864c776
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATION, ntifs/PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION structure pointer [Installable File System Drivers], ifsk.public_object_basic_information, objectstructures_f0dec604-d95c-47b4-aedc-168a3ae1dedc.xml, PUBLIC_OBJECT_BASIC_INFORMATION structure [Installable File System Drivers], _PUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION, ntifs/PUBLIC_OBJECT_BASIC_INFORMATION
+ms.keywords: ",  , *, *PPUBLIC_OBJECT_BASIC_INFORMATION, ,, A, B, C, E, F, I, J, L, M, N, O, P, PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION structure pointer [Installable File System Drivers], PUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION structure [Installable File System Drivers], R, S, T, U, _, _PUBLIC_OBJECT_BASIC_INFORMATION, ifsk.public_object_basic_information, ntifs/PPUBLIC_OBJECT_BASIC_INFORMATION, ntifs/PUBLIC_OBJECT_BASIC_INFORMATION, objectstructures_f0dec604-d95c-47b4-aedc-168a3ae1dedc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

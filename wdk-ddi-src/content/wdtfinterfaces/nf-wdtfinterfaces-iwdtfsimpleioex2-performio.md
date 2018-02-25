@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 795dcbed-e0ce-444d-a6a8-95d0bc658f5b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Microsoft::WDTF::IWDTFSimpleIOEx2::PerformIO, PerformIO method [Windows Device Testing Framework], wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO, Microsoft.WDTF.IWDTFSimpleIOEx2.PerformIO, IWDTFSimpleIOEx2, PerformIO, IWDTFSimpleIOEx2::PerformIO, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], PerformIO method, dtf.iwdtfsimpleioex2_performio, PerformIO method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface
+ms.keywords: ",  , ,, ., 2, :, D, E, F, I, IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], PerformIO method, IWDTFSimpleIOEx2::PerformIO, Microsoft.WDTF.IWDTFSimpleIOEx2.PerformIO, Microsoft::WDTF::IWDTFSimpleIOEx2::PerformIO, O, P, PerformIO method [Windows Device Testing Framework], PerformIO method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, PerformIO,IWDTFSimpleIOEx2.PerformIO, S, T, W, dtf.iwdtfsimpleioex2_performio, e, f, i, l, m, o, p, r, wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a949a583-1ee1-4538-9117-4ad1482e8bc8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, GetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl interface, debugger.getnotifyeventhandle, IDebugControl3::GetNotifyEventHandle, dbgeng/IDebugControl3::GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], GetNotifyEventHandle, IDebugControl2::GetNotifyEventHandle, IDebugControl, IDebugControl interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNotifyEventHandle method, dbgeng/IDebugControl2::GetNotifyEventHandle, IDebugControl::GetNotifyEventHandle, IDebugControl2 interface [Windows Debugging], GetNotifyEventHandle method
+ms.keywords: ",  , ,, ., 3, :, C, D, E, G, GetNotifyEventHandle method [Windows Debugging], GetNotifyEventHandle method [Windows Debugging], IDebugControl interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, GetNotifyEventHandle,IDebugControl.GetNotifyEventHandle, GetNotifyEventHandle,IDebugControl2.GetNotifyEventHandle, GetNotifyEventHandle,IDebugControl3.GetNotifyEventHandle, H, I, IDebugControl, IDebugControl interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2::GetNotifyEventHandle, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl3::GetNotifyEventHandle, IDebugControl::GetNotifyEventHandle, IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, N, a, b, d, dbgeng/IDebugControl2::GetNotifyEventHandle, dbgeng/IDebugControl3::GetNotifyEventHandle, dbgeng/IDebugControl::GetNotifyEventHandle, debugger.getnotifyeventhandle, e, f, g, i, l, n, o, r, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,6 +115,10 @@ The event will only be signaled once.  After it has been signaled, this method w
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
@@ -124,10 +128,6 @@ The event will only be signaled once.  After it has been signaled, this method w
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 77BBF6AC-F5FA-4795-8898-6DC02983F573
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bthx_hci_write, IOCTL_BTHX_WRITE_HCI control code [Bluetooth Devices], IOCTL_BTHX_WRITE_HCI, bthxddi/IOCTL_BTHX_WRITE_HCI, bltooth.ioctl_bthx_write_hci
+ms.keywords: IOCTL_BTHX_WRITE_HCI, IOCTL_BTHX_WRITE_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_write, bltooth.ioctl_bthx_write_hci, bthxddi/IOCTL_BTHX_WRITE_HCI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

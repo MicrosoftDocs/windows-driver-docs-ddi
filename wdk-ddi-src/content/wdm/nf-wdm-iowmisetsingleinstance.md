@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 043b51cd-816f-414d-85b2-2573c42393e4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, wdm/IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], kernel.iowmisetsingleinstance, IoWMISetSingleInstance
+ms.keywords: ",  , I, IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], M, S, W, a, c, e, g, i, k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, kernel.iowmisetsingleinstance, l, n, o, s, t, wdm/IoWMISetSingleInstance"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

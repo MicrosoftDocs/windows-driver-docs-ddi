@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 01132969-b459-4110-a067-fda6c7ee5510
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PKSPROPERTY_EXTXPORT_S, ksmedia/KSPROPERTY_EXTXPORT_S, PKSPROPERTY_EXTXPORT_S, stream.ksproperty_extxport_s, KSPROPERTY_EXTXPORT_S structure [Streaming Media Devices], KSPROPERTY_EXTXPORT_S, vidcapstruct_9cd12be8-0378-481b-80e3-81b3decc1823.xml, PKSPROPERTY_EXTXPORT_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_EXTXPORT_S"
+ms.keywords: ",  , *, *PKSPROPERTY_EXTXPORT_S, ,, E, K, KSPROPERTY_EXTXPORT_S, KSPROPERTY_EXTXPORT_S structure [Streaming Media Devices], O, P, PKSPROPERTY_EXTXPORT_S, PKSPROPERTY_EXTXPORT_S structure pointer [Streaming Media Devices], R, S, T, X, Y, _, ksmedia/KSPROPERTY_EXTXPORT_S, ksmedia/PKSPROPERTY_EXTXPORT_S, stream.ksproperty_extxport_s, vidcapstruct_9cd12be8-0378-481b-80e3-81b3decc1823.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -185,15 +185,15 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksproperty_extxport_node_s.md">KSPROPERTY_EXTXPORT_NODE_S</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-transport_state.md">TRANSPORT_STATE</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: b6e3f327-c928-497d-b90c-db6c05b3a7b4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Microsoft::WDTF::IWDTFPNPAction2::DisableDevice, IWDTFPNPAction2::DisableDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], DisableDevice method, wdtfpnpaction/IWDTFPNPAction2::DisableDevice, DisableDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_disabledevice, DisableDevice, IWDTFPNPAction2, Microsoft.WDTF.IWDTFPNPAction2.DisableDevice, DisableDevice method [Windows Device Testing Framework]
+ms.keywords: ",  , ,, ., 2, :, A, D, DisableDevice method [Windows Device Testing Framework], DisableDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, DisableDevice,IWDTFPNPAction2.DisableDevice, F, I, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], DisableDevice method, IWDTFPNPAction2::DisableDevice, Microsoft.WDTF.IWDTFPNPAction2.DisableDevice, Microsoft::WDTF::IWDTFPNPAction2::DisableDevice, N, P, T, W, a, b, c, dtf.iwdtfpnpaction2_disabledevice, e, i, l, n, o, s, t, v, wdtfpnpaction/IWDTFPNPAction2::DisableDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b806e310-4e6d-4258-8dd5-0c9aa35a35f4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiautil/CWiauPropertyList::SetValidValues, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, CWiauPropertyList, SetValidValues method [Imaging Devices], CWiauPropertyList interface, SetValidValues, SetValidValues method [Imaging Devices], CWiauPropertyList::SetValidValues, image.cwiaupropertylist_setvalidvalues_bstr__list_, CWiauPropertyList interface [Imaging Devices], SetValidValues method
+ms.keywords: ",  , ,, ., :, C, CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], SetValidValues method, CWiauPropertyList::SetValidValues, L, P, S, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices], CWiauPropertyList interface, SetValidValues,CWiauPropertyList.SetValidValues, V, W, a, d, e, i, image.cwiaupropertylist_setvalidvalues_bstr__list_, l, o, p, r, s, t, u, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,7 +115,7 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a>
 
 
 
@@ -123,7 +123,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a>
+<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
 
 
 

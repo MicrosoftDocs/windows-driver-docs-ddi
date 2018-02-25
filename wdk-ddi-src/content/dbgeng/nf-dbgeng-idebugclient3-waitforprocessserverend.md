@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 19573307-0192-47bd-86a0-9c7721d16c5e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugClient5::WaitForProcessServerEnd, WaitForProcessServerEnd method [Windows Debugging], IDebugClient4 interface, debugger.waitforprocessserverend, IDebugClient2::WaitForProcessServerEnd, IDebugClient_ac54327c-85c5-41ab-906f-605d374a0e2d.xml, dbgeng/IDebugClient3::WaitForProcessServerEnd, IDebugClient3 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient4 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient3, dbgeng/IDebugClient4::WaitForProcessServerEnd, WaitForProcessServerEnd method [Windows Debugging], IDebugClient5::WaitForProcessServerEnd, IDebugClient2, IDebugClient3::WaitForProcessServerEnd, IDebugClient5 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient4::WaitForProcessServerEnd, WaitForProcessServerEnd method [Windows Debugging], IDebugClient3 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient5 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient2 interface, IDebugClient2 interface [Windows Debugging], WaitForProcessServerEnd method, dbgeng/IDebugClient2::WaitForProcessServerEnd, WaitForProcessServerEnd
+ms.keywords: ",  , ,, ., 3, :, C, D, E, F, I, IDebugClient2, IDebugClient2 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient2::WaitForProcessServerEnd, IDebugClient3, IDebugClient3 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient3::WaitForProcessServerEnd, IDebugClient4 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient4::WaitForProcessServerEnd, IDebugClient5 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient5::WaitForProcessServerEnd, IDebugClient_ac54327c-85c5-41ab-906f-605d374a0e2d.xml, P, S, W, WaitForProcessServerEnd method [Windows Debugging], WaitForProcessServerEnd method [Windows Debugging], IDebugClient2 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient3 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient4 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient5 interface, WaitForProcessServerEnd,IDebugClient2.WaitForProcessServerEnd, WaitForProcessServerEnd,IDebugClient3.WaitForProcessServerEnd, a, b, c, d, dbgeng/IDebugClient2::WaitForProcessServerEnd, dbgeng/IDebugClient3::WaitForProcessServerEnd, dbgeng/IDebugClient4::WaitForProcessServerEnd, dbgeng/IDebugClient5::WaitForProcessServerEnd, debugger.waitforprocessserverend, e, g, i, l, n, o, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -129,19 +129,7 @@ The constant INFINITE is defined in Winbase.h.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -149,7 +137,19 @@ The constant INFINITE is defined in Winbase.h.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 34d3ce07-9048-4930-a384-4263a2a556e4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: safestrings_7ca374c5-13a0-4fe6-ab53-7770bc8ef9c3.xml, ntstrsafe/RtlUnicodeStringCatStringEx, kernel.rtlunicodestringcatstringex, RtlUnicodeStringCatStringEx function [Kernel-Mode Driver Architecture], RtlUnicodeStringCatStringEx
+ms.keywords: ",  , C, E, R, RtlUnicodeStringCatStringEx, RtlUnicodeStringCatStringEx function [Kernel-Mode Driver Architecture], S, U, a, c, d, e, g, i, kernel.rtlunicodestringcatstringex, l, n, ntstrsafe/RtlUnicodeStringCatStringEx, o, r, safestrings_7ca374c5-13a0-4fe6-ab53-7770bc8ef9c3.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -210,11 +210,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcatstring.md">RtlUnicodeStringCatString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

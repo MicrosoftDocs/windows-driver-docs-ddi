@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 070fc2b0-045e-4778-82d4-0850cd2064a5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.write_register_buffer_ushort, WRITE_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], wdm/WRITE_REGISTER_BUFFER_USHORT, k103_31475540-7ba8-44b6-ad54-e794ffddf8ee.xml, WRITE_REGISTER_BUFFER_USHORT
+ms.keywords: ",  , B, E, F, G, H, I, O, R, S, T, U, W, WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], _, k103_31475540-7ba8-44b6-ad54-e794ffddf8ee.xml, kernel.write_register_buffer_ushort, wdm/WRITE_REGISTER_BUFFER_USHORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DA0D44AF-168F-4B9B-B184-1DC8C3477CBC
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTSubmitSignalSyncObjectsToHwQueue, d3dkmthk/D3DKMTSubmitSignalSyncObjectsToHwQueue, display.d3dkmtsubmitsignalsyncobjectstohwqueue, D3DKMTSubmitSignalSyncObjectsToHwQueue function [Display Devices]
+ms.keywords: ",  , 3, D, D3DKMTSubmitSignalSyncObjectsToHwQueue, D3DKMTSubmitSignalSyncObjectsToHwQueue function [Display Devices], H, K, M, O, Q, S, T, a, b, c, d3dkmthk/D3DKMTSubmitSignalSyncObjectsToHwQueue, display.d3dkmtsubmitsignalsyncobjectstohwqueue, e, g, i, j, l, m, n, o, s, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

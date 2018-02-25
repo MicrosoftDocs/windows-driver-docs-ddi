@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 754CD1DD-88E6-4E02-8E24-1939222FE326
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: gnssdriver/PGNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], *PGNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], GNSS_ERRORINFO, gnssdriver/GNSS_ERRORINFO, PGNSS_ERRORINFO, sensors.gnss_errorinfo
+ms.keywords: ",  , *, *PGNSS_ERRORINFO, ,, E, F, G, GNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], I, N, O, P, PGNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], R, S, _, gnssdriver/GNSS_ERRORINFO, gnssdriver/PGNSS_ERRORINFO, sensors.gnss_errorinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

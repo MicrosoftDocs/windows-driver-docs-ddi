@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c70c1f8-3c1c-4401-a7c4-14dc9bd0af04
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugClient2 interface [Windows Debugging], CreateProcess method, IDebugClient4 interface [Windows Debugging], CreateProcess method, IDebugClient5::CreateProcess, CreateProcess method [Windows Debugging], IDebugClient5 interface, IDebugClient interface [Windows Debugging], CreateProcess method, CreateProcess method [Windows Debugging], IDebugClient3 interface, IDebugClient4, CreateProcess method [Windows Debugging], dbgeng/IDebugClient3::CreateProcess, CreateProcess, IDebugClient3, IDebugClient2::CreateProcess, IDebugClient_6411b416-f861-4c99-94bc-ceffd54acce0.xml, dbgeng/IDebugClient4::CreateProcess, IDebugClient3 interface [Windows Debugging], CreateProcess method, IDebugClient::CreateProcess, dbgeng/IDebugClient::CreateProcess, dbgeng/IDebugClient5::CreateProcess, CreateProcess method [Windows Debugging], IDebugClient interface, IDebugClient3::CreateProcess, CreateProcess method [Windows Debugging], IDebugClient2 interface, IDebugClient2, CreateProcess method [Windows Debugging], IDebugClient4 interface, IDebugClient, dbgeng/IDebugClient2::CreateProcess, IDebugClient5 interface [Windows Debugging], CreateProcess method, IDebugClient4::CreateProcess, debugger.createprocess
+ms.keywords: ",  , ,, ., 4, :, C, CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging], IDebugClient interface, CreateProcess method [Windows Debugging], IDebugClient2 interface, CreateProcess method [Windows Debugging], IDebugClient3 interface, CreateProcess method [Windows Debugging], IDebugClient4 interface, CreateProcess method [Windows Debugging], IDebugClient5 interface, CreateProcess,IDebugClient.CreateProcess, CreateProcess,IDebugClient2.CreateProcess, CreateProcess,IDebugClient3.CreateProcess, CreateProcess,IDebugClient4.CreateProcess, D, I, IDebugClient, IDebugClient interface [Windows Debugging], CreateProcess method, IDebugClient2, IDebugClient2 interface [Windows Debugging], CreateProcess method, IDebugClient2::CreateProcess, IDebugClient3, IDebugClient3 interface [Windows Debugging], CreateProcess method, IDebugClient3::CreateProcess, IDebugClient4, IDebugClient4 interface [Windows Debugging], CreateProcess method, IDebugClient4::CreateProcess, IDebugClient5 interface [Windows Debugging], CreateProcess method, IDebugClient5::CreateProcess, IDebugClient::CreateProcess, IDebugClient_6411b416-f861-4c99-94bc-ceffd54acce0.xml, P, a, b, c, dbgeng/IDebugClient2::CreateProcess, dbgeng/IDebugClient3::CreateProcess, dbgeng/IDebugClient4::CreateProcess, dbgeng/IDebugClient5::CreateProcess, dbgeng/IDebugClient::CreateProcess, debugger.createprocess, e, g, i, l, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -131,23 +131,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -155,7 +139,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
 
 
@@ -163,11 +147,27 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

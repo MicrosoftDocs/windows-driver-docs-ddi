@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0be4c4e1-6ea6-4439-841d-088cb1902604
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/PKSP_PIN, ks/KSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, *PKSP_PIN, KSP_PIN, KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, stream.ksp_pin, PKSP_PIN, KSP_PIN structure [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSP_PIN, ,, I, K, KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, KSP_PIN, KSP_PIN structure [Streaming Media Devices], N, P, PKSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], S, _, ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, ks/KSP_PIN, ks/PKSP_PIN, stream.ksp_pin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

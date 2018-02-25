@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fabd77b9-2a2e-4995-a99f-50b46806e312
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDisplayDriver_Dx11param_Structs_f91ec9c6-5d1b-49ab-8a92-21028de8e10b.xml, d3d10umddi/D3D11DDI_DEVICEFUNCS, D3D11DDI_DEVICEFUNCS structure [Display Devices], D3D11DDI_DEVICEFUNCS, display.d3d11ddi_devicefuncs
+ms.keywords: ",  , ,, 1, 3, C, D, D3D11DDI_DEVICEFUNCS, D3D11DDI_DEVICEFUNCS structure [Display Devices], E, F, I, N, S, U, UMDisplayDriver_Dx11param_Structs_f91ec9c6-5d1b-49ab-8a92-21028de8e10b.xml, V, _, d3d10umddi/D3D11DDI_DEVICEFUNCS, display.d3d11ddi_devicefuncs"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

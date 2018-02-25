@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 416f8629-324f-4698-bbe9-699f5d53011e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwscsiwmiqueryreginfo, HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], HwScsiWmiQueryReginfo, PSCSIWMI_QUERY_REGINFO, PSCSIWMI_QUERY_REGINFO, scsiwmi/HwScsiWmiQueryReginfo, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml
+ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,7 +109,7 @@ The miniport driver must not pend or block the SRB. The miniport driver must not
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 
@@ -117,7 +117,7 @@ The miniport driver must not pend or block the SRB. The miniport driver must not
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 

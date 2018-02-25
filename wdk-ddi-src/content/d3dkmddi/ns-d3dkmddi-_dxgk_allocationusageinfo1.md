@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6de3363c-fcf8-4350-acee-b401bb3f82a6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_allocationusageinfo1, DXGK_ALLOCATIONUSAGEINFO1, _DXGK_ALLOCATIONUSAGEINFO1, DmStructs_262d3b0f-50c6-429b-9b6e-34963d2ae42b.xml, d3dkmddi/DXGK_ALLOCATIONUSAGEINFO1, DXGK_ALLOCATIONUSAGEINFO1 structure [Display Devices]
+ms.keywords: ",  , ,, 1, A, C, D, DXGK_ALLOCATIONUSAGEINFO1, DXGK_ALLOCATIONUSAGEINFO1 structure [Display Devices], DmStructs_262d3b0f-50c6-429b-9b6e-34963d2ae42b.xml, E, F, G, I, K, L, N, O, S, T, U, X, _, _DXGK_ALLOCATIONUSAGEINFO1, d3dkmddi/DXGK_ALLOCATIONUSAGEINFO1, display.dxgk_allocationusageinfo1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -202,11 +202,7 @@ This member is reserved and should be set to zero. Setting this to zero is equiv
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusagehint.md">DXGK_ALLOCATIONUSAGEHINT</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 
 
@@ -214,7 +210,11 @@ This member is reserved and should be set to zero. Setting this to zero is equiv
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusagehint.md">DXGK_ALLOCATIONUSAGEHINT</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 
 

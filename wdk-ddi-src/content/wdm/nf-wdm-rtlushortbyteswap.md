@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83f6a599-0b35-4a02-b20f-80abcc6eae4f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlUshortByteSwap, kernel.rtlushortbyteswap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, wdm/RtlUshortByteSwap
+ms.keywords: ",  , B, R, RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], S, U, a, e, h, k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, l, o, p, r, s, t, w, wdm/RtlUshortByteSwap, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -99,11 +99,11 @@ To reverse the ordering of bytes in a ULONG value, use the <a href="..\wdm\nf-wd
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a>
 
 
 

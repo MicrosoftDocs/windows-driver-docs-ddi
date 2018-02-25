@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: dcb19338-3848-4f90-876c-357f92fb2637
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCYCLE_TIME, CYCLE_TIME, *PCYCLE_TIME, 1394/CYCLE_TIME, 1394/PCYCLE_TIME, IEEE.cycle_time, PCYCLE_TIME structure pointer [Buses], _CYCLE_TIME, 1394stct_c6b1a6fa-b259-488d-a4a9-e4dace0fcf3d.xml, CYCLE_TIME structure [Buses]
+ms.keywords: ",  , *, *PCYCLE_TIME, ,, 1394/CYCLE_TIME, 1394/PCYCLE_TIME, 1394stct_c6b1a6fa-b259-488d-a4a9-e4dace0fcf3d.xml, C, CYCLE_TIME, CYCLE_TIME structure [Buses], E, I, IEEE.cycle_time, L, M, P, PCYCLE_TIME, PCYCLE_TIME structure pointer [Buses], T, Y, _, _CYCLE_TIME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,15 +95,15 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
 
 
 
@@ -111,7 +111,7 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e38880f-b242-400a-babf-531c8daf7a19
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_WWAN_REGISTRATION_STATE, _NDIS_WWAN_REGISTRATION_STATE, netvista.ndis_wwan_registration_state, WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_REGISTRATION_STATE
+ms.keywords: ",  , *, *PNDIS_WWAN_REGISTRATION_STATE, ,, A, D, E, G, I, N, NDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], R, S, T, W, WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, _, _NDIS_WWAN_REGISTRATION_STATE, ndiswwan/NDIS_WWAN_REGISTRATION_STATE, ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, netvista.ndis_wwan_registration_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

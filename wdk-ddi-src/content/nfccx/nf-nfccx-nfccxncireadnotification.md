@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 0D2FB16D-ABBC-428F-95D4-4B17E262D115
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfccx/NfcCxNciReadNotification, NfcCxNciReadNotification, nfpdrivers._nfccxncireadnotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers]
+ms.keywords: ",  , C, N, NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers], R, a, c, d, e, f, i, n, nfccx/NfcCxNciReadNotification, nfpdrivers._nfccxncireadnotification, o, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,11 +91,11 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

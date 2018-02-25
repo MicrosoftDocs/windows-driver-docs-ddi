@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d61892c6-f6ca-4077-909e-a21076375e5a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.phw_interrupt, (*PHW_INTERRUPT) callback function [Storage Devices], (*PHW_INTERRUPT), srb/(*PHW_INTERRUPT), ide_minikr_d0fa2a3d-deef-45c5-9251-a3c30c7af434.xml
+ms.keywords: "(*PHW_INTERRUPT), (*PHW_INTERRUPT) callback function [Storage Devices], ide_minikr_d0fa2a3d-deef-45c5-9251-a3c30c7af434.xml, srb/(*PHW_INTERRUPT), storage.phw_interrupt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -97,11 +97,11 @@ For more information about the miniport driver's interrupt handler routine that 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
-
-
-
 <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a>
+
+
+
+<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: af697ccd-a748-45f8-97bb-fe595d81b693
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxptrackreference, RxpTrackReference, RxpTrackReference function [Installable File System Drivers], fcb/RxpTrackReference, rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml
+ms.keywords: ",  , R, RxpTrackReference, RxpTrackReference function [Installable File System Drivers], T, a, c, e, f, fcb/RxpTrackReference, ifsk.rxptrackreference, k, n, p, r, rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,19 +163,7 @@ For retail builds, this function does nothing.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-
-
-
 <a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
-
-
-
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 
 
@@ -184,6 +172,18 @@ For retail builds, this function does nothing.
 
 
 <a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+
+
+<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 

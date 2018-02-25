@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c575bd3f-6790-4815-b7c7-8ee16a9cac17
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ObReferenceObjectByPointer, ObReferenceObjectByPointer routine [Kernel-Mode Driver Architecture], wdm/ObReferenceObjectByPointer, k107_2846f148-4ad5-472a-aa74-4f03c5251aee.xml, kernel.obreferenceobjectbypointer
+ms.keywords: ",  , B, O, ObReferenceObjectByPointer, ObReferenceObjectByPointer routine [Kernel-Mode Driver Architecture], P, R, b, c, e, f, i, j, k107_2846f148-4ad5-472a-aa74-4f03c5251aee.xml, kernel.obreferenceobjectbypointer, n, o, r, t, wdm/ObReferenceObjectByPointer, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,7 +115,11 @@ Calling this routine prevents the object from being deleted, possibly by another
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
@@ -123,11 +127,7 @@ Calling this routine prevents the object from being deleted, possibly by another
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

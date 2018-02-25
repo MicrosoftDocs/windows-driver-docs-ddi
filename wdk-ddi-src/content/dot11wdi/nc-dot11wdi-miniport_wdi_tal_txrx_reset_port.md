@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BB584FC9-8048-42F4-AFA9-7BF6790EDD69
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditaltxrxresetport, MiniportWdiTalTxRxResetPort callback function [Network Drivers Starting with Windows Vista], MiniportWdiTalTxRxResetPort, MINIPORT_WDI_TAL_TXRX_RESET_PORT, MINIPORT_WDI_TAL_TXRX_RESET_PORT, dot11wdi/MiniportWdiTalTxRxResetPort
+ms.keywords: MINIPORT_WDI_TAL_TXRX_RESET_PORT, MiniportWdiTalTxRxResetPort, MiniportWdiTalTxRxResetPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxResetPort, netvista.miniportwditaltxrxresetport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -96,11 +96,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 
@@ -108,7 +108,7 @@ This callback function does not return a value.
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
 
 

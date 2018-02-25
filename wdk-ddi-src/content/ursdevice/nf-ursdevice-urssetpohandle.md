@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UrsSetPoHandle, buses.urssetpohandle, ursdevice/UrsSetPoHandle, UrsSetPoHandle function [Buses]
+ms.keywords: ",  , H, P, S, U, UrsSetPoHandle, UrsSetPoHandle function [Buses], a, buses.urssetpohandle, d, e, l, n, o, r, s, t, ursdevice/UrsSetPoHandle"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

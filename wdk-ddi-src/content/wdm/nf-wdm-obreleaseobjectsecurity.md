@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d4f9d02a-2541-445a-95f1-e08ebb0c8a39
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k107_b43166d5-3dac-420a-803e-053b272d3405.xml, ObReleaseObjectSecurity, wdm/ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], kernel.obreleaseobjectsecurity
+ms.keywords: ",  , O, ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], R, S, a, b, c, e, i, j, k107_b43166d5-3dac-420a-803e-053b272d3405.xml, kernel.obreleaseobjectsecurity, l, r, s, t, u, wdm/ObReleaseObjectSecurity, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ After a successful call to <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetO
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 

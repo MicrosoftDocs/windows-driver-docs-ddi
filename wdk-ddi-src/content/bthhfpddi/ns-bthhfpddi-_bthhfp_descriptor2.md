@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A455F181-E1DB-47CC-96E5-AE72988366F3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_BTHHFP_DESCRIPTOR2, audio.bthhfp_descriptor2, PBTHHFP_DESCRIPTOR2 structure pointer [Audio Devices], *PBTHHFP_DESCRIPTOR2, PBTHHFP_DESCRIPTOR2, bthhfpddi/PBTHHFP_DESCRIPTOR2, BTHHFP_DESCRIPTOR2 structure [Audio Devices], bthhfpddi/BTHHFP_DESCRIPTOR2, BTHHFP_DESCRIPTOR2"
+ms.keywords: ",  , *, *PBTHHFP_DESCRIPTOR2, ,, 2, B, BTHHFP_DESCRIPTOR2, BTHHFP_DESCRIPTOR2 structure [Audio Devices], C, D, E, F, H, I, O, P, PBTHHFP_DESCRIPTOR2, PBTHHFP_DESCRIPTOR2 structure pointer [Audio Devices], R, S, T, _, _BTHHFP_DESCRIPTOR2, audio.bthhfp_descriptor2, bthhfpddi/BTHHFP_DESCRIPTOR2, bthhfpddi/PBTHHFP_DESCRIPTOR2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,15 +129,15 @@ When <i>SupportsNREC</i> is set to FALSE, the audio driver should support RAW mo
 
 
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor2.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+
+
+
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor2.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2</a>
 
 
 

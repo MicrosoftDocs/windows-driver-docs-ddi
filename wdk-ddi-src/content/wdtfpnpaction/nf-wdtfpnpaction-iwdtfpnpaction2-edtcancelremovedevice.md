@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d3175850-556b-41bd-9b99-225ca3238b25
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: EDTCancelRemoveDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, IWDTFPNPAction2::EDTCancelRemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTCancelRemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTCancelRemoveDevice, dtf.iwdtfpnpaction2_edtcancelremovedevice, EDTCancelRemoveDevice, wdtfpnpaction/IWDTFPNPAction2::EDTCancelRemoveDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTCancelRemoveDevice method, IWDTFPNPAction2, EDTCancelRemoveDevice method [Windows Device Testing Framework]
+ms.keywords: ",  , ,, ., 2, :, A, C, D, E, EDTCancelRemoveDevice method [Windows Device Testing Framework], EDTCancelRemoveDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTCancelRemoveDevice,IWDTFPNPAction2.EDTCancelRemoveDevice, F, I, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTCancelRemoveDevice method, IWDTFPNPAction2::EDTCancelRemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTCancelRemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTCancelRemoveDevice, N, P, R, T, W, a, c, dtf.iwdtfpnpaction2_edtcancelremovedevice, e, i, l, m, n, o, t, v, wdtfpnpaction/IWDTFPNPAction2::EDTCancelRemoveDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

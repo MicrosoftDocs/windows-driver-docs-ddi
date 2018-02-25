@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 753FC177-D430-40E5-98CD-B3BDFD47ACEF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_FAULT_ERROR_CODE structure [Display Devices], _DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE, display.dxgk_fault_error_code, d3dkmdt/DXGK_FAULT_ERROR_CODE
+ms.keywords: ",  , ,, A, C, D, DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE structure [Display Devices], E, F, G, K, L, O, R, T, U, X, _, _DXGK_FAULT_ERROR_CODE, d3dkmdt/DXGK_FAULT_ERROR_CODE, display.dxgk_fault_error_code"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: e2acf3f5-d054-44c4-8ab9-ffd1b934f700
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IMiniportWaveCyclicStream, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, Silence method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream::Silence, Silence method [Audio Devices], Silence, audio.iminiportwavecyclicstream_silence, portcls/IMiniportWaveCyclicStream::Silence, IMiniportWaveCyclicStream interface [Audio Devices], Silence method
+ms.keywords: ",  , ,, ., :, C, I, IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], Silence method, IMiniportWaveCyclicStream::Silence, M, S, Silence method [Audio Devices], Silence method [Audio Devices], IMiniportWaveCyclicStream interface, Silence,IMiniportWaveCyclicStream.Silence, W, a, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, c, e, i, l, m, n, o, p, portcls/IMiniportWaveCyclicStream::Silence, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

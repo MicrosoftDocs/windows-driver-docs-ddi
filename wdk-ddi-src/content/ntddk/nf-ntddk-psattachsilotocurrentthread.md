@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1C66E50F-3BD7-4038-9FDF-2F2B712D9B5E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], PsAttachSiloToCurrentThread, ntddk/PsAttachSiloToCurrentThread, kernel.psattachsilotocurrentthread
+ms.keywords: ",  , A, C, P, PsAttachSiloToCurrentThread, PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], S, T, a, c, d, e, h, i, kernel.psattachsilotocurrentthread, l, n, ntddk/PsAttachSiloToCurrentThread, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

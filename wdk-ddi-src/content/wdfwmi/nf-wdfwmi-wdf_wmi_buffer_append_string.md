@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23d65788-23ce-4ed7-8b68-890c1c3a4100
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfwmi/WDF_WMI_BUFFER_APPEND_STRING, kmdf.wdf_wmi_buffer_append_string, WDF_WMI_BUFFER_APPEND_STRING function, WDF_WMI_BUFFER_APPEND_STRING, DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, wdf.wdf_wmi_buffer_append_string
+ms.keywords: ",  , A, B, D, DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, E, F, G, I, M, N, P, R, S, T, U, W, WDF_WMI_BUFFER_APPEND_STRING, WDF_WMI_BUFFER_APPEND_STRING function, _, kmdf.wdf_wmi_buffer_append_string, wdf.wdf_wmi_buffer_append_string, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

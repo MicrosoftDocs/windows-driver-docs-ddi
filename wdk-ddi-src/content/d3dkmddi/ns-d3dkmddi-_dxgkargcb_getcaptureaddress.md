@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95f1bbf4-06d8-48b7-a983-bf0b65ec2da3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKARGCB_GETCAPTUREADDRESS, display.dxgkargcb_getcaptureaddress, DXGKARGCB_GETCAPTUREADDRESS structure [Display Devices], _DXGKARGCB_GETCAPTUREADDRESS, *INOUT_PDXGKARGCB_GETCAPTUREADDRESS, d3dkmddi/DXGKARGCB_GETCAPTUREADDRESS, DmStructs_24ed27a0-7ad3-44d1-aa93-c22733ebfb34.xml
+ms.keywords: ",  , *, *INOUT_PDXGKARGCB_GETCAPTUREADDRESS, ,, A, B, C, D, DXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS structure [Display Devices], DmStructs_24ed27a0-7ad3-44d1-aa93-c22733ebfb34.xml, E, G, I, K, N, O, P, R, S, T, U, X, _, _DXGKARGCB_GETCAPTUREADDRESS, d3dkmddi/DXGKARGCB_GETCAPTUREADDRESS, display.dxgkargcb_getcaptureaddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

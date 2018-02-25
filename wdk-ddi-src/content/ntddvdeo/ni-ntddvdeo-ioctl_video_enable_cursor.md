@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 727add49-3224-4bc0-8d98-971e282c575a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_enable_cursor, IOCTL_VIDEO_ENABLE_CURSOR control code [Display Devices], IOCTL_VIDEO_ENABLE_CURSOR, ntddvdeo/IOCTL_VIDEO_ENABLE_CURSOR, Video_IOCTLs_adcda61e-67fe-4c4e-a6df-015ff1d95c36.xml
+ms.keywords: IOCTL_VIDEO_ENABLE_CURSOR, IOCTL_VIDEO_ENABLE_CURSOR control code [Display Devices], Video_IOCTLs_adcda61e-67fe-4c4e-a6df-015ff1d95c36.xml, display.ioctl_video_enable_cursor, ntddvdeo/IOCTL_VIDEO_ENABLE_CURSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

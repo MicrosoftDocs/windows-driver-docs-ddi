@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 26f3fc82-051d-4827-8b59-ac2c99f4d2c5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UnbindDevice method [Print Devices], IBidiSpl2 interface [Print Devices], UnbindDevice method, print.ibidispl2_ibidispl2__unbinddevice, UnbindDevice method [Print Devices], IBidiSpl2 interface, IBidiSpl2, bidispl/IBidiSpl2::UnbindDevice, IBidiSpl2::UnbindDevice, gdi.ibidispl2_ibidispl2__unbinddevice, UnbindDevice, _win32_IBidiSpl2_UnbindDevice
+ms.keywords: ",  , ,, ., 2, :, B, D, I, IBidiSpl2, IBidiSpl2 interface [Print Devices], UnbindDevice method, IBidiSpl2::UnbindDevice, S, U, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices], IBidiSpl2 interface, UnbindDevice,IBidiSpl2.UnbindDevice, _win32_IBidiSpl2_UnbindDevice, b, bidispl/IBidiSpl2::UnbindDevice, c, d, e, gdi.ibidispl2_ibidispl2__unbinddevice, i, l, n, p, print.ibidispl2_ibidispl2__unbinddevice, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,15 +119,15 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+
+
+
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
 <a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
-
-
-
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 

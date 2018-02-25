@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 22f5e525-bdf8-4047-9b77-6523cb59f090
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxSetDomainForMailslotBroadcast, rxref_d342ef48-ef62-4186-97ea-d974bc4bf596.xml, RxSetDomainForMailslotBroadcast function [Installable File System Drivers], mrx/RxSetDomainForMailslotBroadcast, ifsk.rxsetdomainformailslotbroadcast
+ms.keywords: ",  , B, D, F, M, R, RxSetDomainForMailslotBroadcast, RxSetDomainForMailslotBroadcast function [Installable File System Drivers], S, a, c, d, e, i, ifsk.rxsetdomainformailslotbroadcast, l, m, mrx/RxSetDomainForMailslotBroadcast, n, o, r, rxref_d342ef48-ef62-4186-97ea-d974bc4bf596.xml, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ One of the parameters passed to the <b>RxRegisterMinirdr</b> routine indicates w
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
-
-
 <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
 
 
 

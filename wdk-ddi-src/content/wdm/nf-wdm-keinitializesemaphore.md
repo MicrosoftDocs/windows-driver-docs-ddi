@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 447a7ba5-8357-4383-987f-51f5b3c9996c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KeInitializeSemaphore, kernel.keinitializesemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture], KeInitializeSemaphore, k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml
+ms.keywords: ",  , I, K, KeInitializeSemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture], S, a, e, h, i, k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, kernel.keinitializesemaphore, l, m, n, o, p, r, t, wdm/KeInitializeSemaphore, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,7 +109,7 @@ For more information about semaphore objects, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 
 
@@ -117,7 +117,7 @@ For more information about semaphore objects, see <a href="https://msdn.microsof
 
 
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
 
 
 

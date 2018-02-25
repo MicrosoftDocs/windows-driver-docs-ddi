@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 28699952-FC15-46A2-96EC-F5F8BD2391D7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394/IRB_REQ_ISOCH_FREE_RESOURCES, IRB_REQ_ISOCH_FREE_RESOURCES structure [Buses], IEEE.irb_req_isoch_free_resources, IRB_REQ_ISOCH_FREE_RESOURCES, _IRB_REQ_ISOCH_FREE_RESOURCES
+ms.keywords: ",  , ,, 1394/IRB_REQ_ISOCH_FREE_RESOURCES, B, C, E, F, H, I, IEEE.irb_req_isoch_free_resources, IRB_REQ_ISOCH_FREE_RESOURCES, IRB_REQ_ISOCH_FREE_RESOURCES structure [Buses], O, Q, R, S, U, _, _IRB_REQ_ISOCH_FREE_RESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

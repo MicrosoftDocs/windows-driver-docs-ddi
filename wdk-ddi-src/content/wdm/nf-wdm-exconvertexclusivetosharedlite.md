@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 140de330-7e6d-4f23-96cb-ea1228c8036c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exconvertexclusivetosharedlite, ExConvertExclusiveToSharedLite, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture], wdm/ExConvertExclusiveToSharedLite, k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml
+ms.keywords: ",  , C, E, ExConvertExclusiveToSharedLite, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture], L, S, T, a, c, d, e, h, i, k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, kernel.exconvertexclusivetosharedlite, l, n, o, r, s, t, u, v, wdm/ExConvertExclusiveToSharedLite, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

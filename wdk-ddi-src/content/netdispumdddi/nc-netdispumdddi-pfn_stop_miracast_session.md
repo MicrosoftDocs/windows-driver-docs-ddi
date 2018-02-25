@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ab9ad8ee-9390-41a4-9a69-2e98579b2b77
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.stopmiracastsession, StopMiracastSession callback function [Display Devices], StopMiracastSession, PFN_STOP_MIRACAST_SESSION, PFN_STOP_MIRACAST_SESSION, netdispumdddi/StopMiracastSession
+ms.keywords: PFN_STOP_MIRACAST_SESSION, StopMiracastSession, StopMiracastSession callback function [Display Devices], display.stopmiracastsession, netdispumdddi/StopMiracastSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,15 +109,15 @@ The operating system guarantees that only one of the <a href="..\netdispumdddi\n
 
 ## -see-also
 
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+
+
+
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
 
 
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
-
-
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
 
 

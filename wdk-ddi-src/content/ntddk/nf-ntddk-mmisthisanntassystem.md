@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e9daafb1-16ec-4ffe-b863-6f07c4b2a9b7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/MmIsThisAnNtAsSystem, MmIsThisAnNtAsSystem, k106_3f6077c8-2ce9-4dce-b29e-afd262be1e80.xml, kernel.mmisthisanntassystem, MmIsThisAnNtAsSystem routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, I, M, MmIsThisAnNtAsSystem, MmIsThisAnNtAsSystem routine [Kernel-Mode Driver Architecture], N, S, T, e, h, i, k106_3f6077c8-2ce9-4dce-b29e-afd262be1e80.xml, kernel.mmisthisanntassystem, m, n, ntddk/MmIsThisAnNtAsSystem, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

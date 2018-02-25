@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 13326eae-3160-42e5-9254-089c8cdc97a3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.drmforwardcontenttointerface, aud-prop2_c065f793-db14-4fc9-8804-f6d86754e106.xml, DrmForwardContentToInterface function [Audio Devices], drmk/DrmForwardContentToInterface, DrmForwardContentToInterface
+ms.keywords: ",  , C, D, DrmForwardContentToInterface, DrmForwardContentToInterface function [Audio Devices], F, I, T, a, aud-prop2_c065f793-db14-4fc9-8804-f6d86754e106.xml, audio.drmforwardcontenttointerface, c, d, drmk/DrmForwardContentToInterface, e, f, m, n, o, r, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,19 +144,11 @@ The <i>pUnknown</i> parameter follows the <a href="https://msdn.microsoft.com/e6
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcforwardcontenttointerface.md">PcForwardContentToInterface</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
 
 
 
 <a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
 
 
 
@@ -168,7 +160,15 @@ The <i>pUnknown</i> parameter follows the <a href="https://msdn.microsoft.com/e6
 
 
 
-<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcforwardcontenttointerface.md">PcForwardContentToInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
 
 
 

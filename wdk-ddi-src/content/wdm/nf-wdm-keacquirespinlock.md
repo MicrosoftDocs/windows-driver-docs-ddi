@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 10999175-4793-4045-8a74-a9a491724ec9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeAcquireSpinLock, k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, kernel.keacquirespinlock, KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], wdm/KeAcquireSpinLock
+ms.keywords: ",  , A, K, KeAcquireSpinLock, KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], L, S, c, e, i, k, k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, kernel.keacquirespinlock, n, o, p, q, r, u, wdm/KeAcquireSpinLock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -127,6 +127,10 @@ Attempting to acquire a spin lock recursively is guaranteed to cause a deadlock.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>
+
+
+
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
@@ -136,10 +140,6 @@ Attempting to acquire a spin lock recursively is guaranteed to cause a deadlock.
 
 
 <a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>
 
 
 

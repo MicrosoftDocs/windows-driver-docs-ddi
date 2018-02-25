@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 257c6c7d-be79-43bf-b2cd-f561e1741f90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.objectprecallback, ObjectPreCallback, ObjectPreCallback callback function [Kernel-Mode Driver Architecture], ObjectPreCallback, POB_PRE_OPERATION_CALLBACK, POB_PRE_OPERATION_CALLBACK, wdm/ObjectPreCallback, DrvrRtns_8ccbcf60-457d-4bd7-b059-423a47a44374.xml
+ms.keywords: DrvrRtns_8ccbcf60-457d-4bd7-b059-423a47a44374.xml, ObjectPreCallback, ObjectPreCallback callback function [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_CALLBACK, kernel.objectprecallback, wdm/ObjectPreCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,7 +104,7 @@ This routine is called at PASSIVE_LEVEL in an arbitrary thread context with norm
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERATION_INFORMATION</a>
+<a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a>
 
 
 
@@ -112,11 +112,11 @@ This routine is called at PASSIVE_LEVEL in an arbitrary thread context with norm
 
 
 
+<a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERATION_INFORMATION</a>
+
+
+
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: C42174FE-202F-405D-840B-8613762F43AC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.evtvhfasyncoperation, EvtVhfAsyncOperation callback function [Human Input Devices], EvtVhfAsyncOperation, EVT_VHF_ASYNC_OPERATION, EVT_VHF_ASYNC_OPERATION, vhf/EvtVhfAsyncOperation
+ms.keywords: EVT_VHF_ASYNC_OPERATION, EvtVhfAsyncOperation, EvtVhfAsyncOperation callback function [Human Input Devices], hid.evtvhfasyncoperation, vhf/EvtVhfAsyncOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

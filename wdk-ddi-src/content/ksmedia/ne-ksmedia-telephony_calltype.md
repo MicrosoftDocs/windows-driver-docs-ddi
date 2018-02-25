@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8CF2CAF2-29F2-4B8B-B23F-B423392B2DAF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksmedia/TELEPHONY_CALLTYPE_CIRCUITSWITCHED, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, ksmedia/TELEPHONY_CALLTYPE, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, TELEPHONY_CALLTYPE, audio.telephony_calltype, TELEPHONY_CALLTYPE enumeration [Audio Devices], TELEPHONY_CALLTYPE_CIRCUITSWITCHED
+ms.keywords: ",  , ,, A, C, E, H, L, N, O, P, T, TELEPHONY_CALLTYPE, TELEPHONY_CALLTYPE enumeration [Audio Devices], TELEPHONY_CALLTYPE_CIRCUITSWITCHED, TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, Y, _, audio.telephony_calltype, ksmedia/TELEPHONY_CALLTYPE, ksmedia/TELEPHONY_CALLTYPE_CIRCUITSWITCHED, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -86,11 +86,11 @@ Specifies a packet-switched wireless LAN (WLAN) phone call.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_providerchange.md">KSTELEPHONY_PROVIDERCHANGE</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callinfo.md">KSTELEPHONY_CALLINFO</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_providerchange.md">KSTELEPHONY_PROVIDERCHANGE</a>
 
 
 

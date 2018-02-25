@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 82B3B3BD-CEAC-427E-A89E-84CBE85BDBE7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.udecxusbdevicesignalfunctionwake, udecxusbdevice/UdecxUsbDeviceSignalFunctionWake, UdecxUsbDeviceSignalFunctionWake function [Buses], UdecxUsbDeviceSignalFunctionWake
+ms.keywords: ",  , D, F, S, U, UdecxUsbDeviceSignalFunctionWake, UdecxUsbDeviceSignalFunctionWake function [Buses], W, a, b, buses.udecxusbdevicesignalfunctionwake, c, d, e, g, i, k, l, n, o, s, t, u, udecxusbdevice/UdecxUsbDeviceSignalFunctionWake, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E4800343-E773-448D-B33E-2546ECDA4303
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUsbDeviceInitAddStringDescriptorRaw, buses.udecxusbdeviceinitaddstringdescriptorraw, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw function [Buses]
+ms.keywords: ",  , A, D, I, R, S, U, UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw function [Buses], a, b, buses.udecxusbdeviceinitaddstringdescriptorraw, c, d, e, g, i, n, o, p, r, s, t, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw, v, w, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,15 +116,15 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540156">USB String Descriptors</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 0c285630-876d-4b06-aace-4a2c4c06c1cb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: STI_DEVICE_INFORMATION structure [Imaging Devices], image.sti_device_information, STI_DEVICE_INFORMATION, *PSTI_DEVICE_INFORMATIONW, sti/PSTI_DEVICE_INFORMATION, stifnc_79a5d8d7-6b7a-4593-a8bf-05026d09e4a5.xml, PSTI_DEVICE_INFORMATION structure pointer [Imaging Devices], _STI_DEVICE_INFORMATIONW, sti/STI_DEVICE_INFORMATIONW, PSTI_DEVICE_INFORMATION, STI_DEVICE_INFORMATIONW
+ms.keywords: ",  , *, *PSTI_DEVICE_INFORMATIONW, ,, A, C, D, E, F, I, M, N, O, P, PSTI_DEVICE_INFORMATION, PSTI_DEVICE_INFORMATION structure pointer [Imaging Devices], R, S, STI_DEVICE_INFORMATION, STI_DEVICE_INFORMATION structure [Imaging Devices], STI_DEVICE_INFORMATIONW, T, V, W, _, _STI_DEVICE_INFORMATIONW, image.sti_device_information, sti/PSTI_DEVICE_INFORMATION, sti/STI_DEVICE_INFORMATIONW, stifnc_79a5d8d7-6b7a-4593-a8bf-05026d09e4a5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

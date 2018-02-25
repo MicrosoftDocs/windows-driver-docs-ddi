@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9c2097b2-5742-422c-a650-7efff2484970
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiresetengine, DxgkDdiResetEngine callback function [Display Devices], DxgkDdiResetEngine, DXGKDDI_RESETENGINE, DXGKDDI_RESETENGINE, d3dkmddi/DxgkDdiResetEngine
+ms.keywords: DXGKDDI_RESETENGINE, DxgkDdiResetEngine, DxgkDdiResetEngine callback function [Display Devices], d3dkmddi/DxgkDdiResetEngine, display.dxgkddiresetengine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -108,11 +108,11 @@ For more information, see  <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_resetengine.md">DXGKARG_RESETENGINE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

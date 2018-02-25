@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 51ae6247-c482-4f13-8699-df871ae346c0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml, PMI_EVENT, pmi/PPMI_EVENT, PMI_EVENT structure [Power Metering and Budgeting Devices], PPMI_EVENT, *PPMI_EVENT, powermeter.pmi_event, _PMI_EVENT, PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], pmi/PMI_EVENT
+ms.keywords: ",  , *, *PPMI_EVENT, ,, E, I, M, N, P, PMI_EVENT, PMI_EVENT structure [Power Metering and Budgeting Devices], PPMI_EVENT, PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml, T, V, _, _PMI_EVENT, pmi/PMI_EVENT, pmi/PPMI_EVENT, powermeter.pmi_event"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -200,11 +200,15 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
+
+
+
+<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -216,15 +220,11 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 
 
-<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
-
-
-
 <a href="..\pmi\ne-pmi-pmi_event_type.md">PMI_EVENT_TYPE</a>
 
 
 
-<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
+<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 09eceeb4-8501-48c4-84f5-aa747914f9dd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfobject/WdfObjectDelete, WdfObjectDelete method, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, kmdf.wdfobjectdelete, WdfObjectDelete, wdf.wdfobjectdelete
+ms.keywords: ",  , D, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, O, W, WdfObjectDelete, WdfObjectDelete method, b, c, d, e, f, j, kmdf.wdfobjectdelete, l, t, wdf.wdfobjectdelete, wdfobject/WdfObjectDelete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

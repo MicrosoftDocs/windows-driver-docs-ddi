@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: e8b99549-0fe2-4c8a-ad93-6689ebddee40
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection interface, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, audio.iunregisterphysicalconnection_unregisterphysicalconnection, UnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnection method, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection, IUnregisterPhysicalConnection::UnregisterPhysicalConnection
+ms.keywords: ",  , ,, ., :, C, I, IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnection method, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, P, U, UnregisterPhysicalConnection method [Audio Devices], UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection interface, UnregisterPhysicalConnection,IUnregisterPhysicalConnection.UnregisterPhysicalConnection, a, audio.iunregisterphysicalconnection_unregisterphysicalconnection, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, c, e, g, h, i, l, n, o, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,11 +116,7 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
-
-
-
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
 
 
 
@@ -128,7 +124,11 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 
 
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
+<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
+
+
+
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 
 

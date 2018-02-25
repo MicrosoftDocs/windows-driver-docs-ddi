@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ED8A29D9-84CE-4FB5-BCEE-C31DA9AB3D00
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: printerextension/IPrintSchemaParameterDefinition::get_RangeMin, get_RangeMin, IPrintSchemaParameterDefinition.RangeMin, print._iprintschemaparameterdefinition_rangemin, IPrintSchemaParameterDefinition::get_RangeMin, IPrintSchemaParameterDefinition interface [Print Devices], RangeMin property, RangeMin property [Print Devices], RangeMin property [Print Devices], IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition, printerextension/IPrintSchemaParameterDefinition::RangeMin
+ms.keywords: ",  , ,, ., :, D, I, IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], RangeMin property, IPrintSchemaParameterDefinition.RangeMin, IPrintSchemaParameterDefinition::get_RangeMin, M, P, R, RangeMin property [Print Devices], RangeMin property [Print Devices], IPrintSchemaParameterDefinition interface, S, _, a, c, e, f, g, get_RangeMin, get_RangeMin,IPrintSchemaParameterDefinition.get_RangeMin, h, i, m, n, o, print._iprintschemaparameterdefinition_rangemin, printerextension/IPrintSchemaParameterDefinition::RangeMin, printerextension/IPrintSchemaParameterDefinition::get_RangeMin, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTCreateAllocation, PFND3DKMT_CREATEALLOCATION, OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, D3DKMTCreateAllocation function [Display Devices], D3DKMTCreateAllocation, display.d3dkmtcreateallocation
+ms.keywords: ",  , 3, A, C, D, D3DKMTCreateAllocation, D3DKMTCreateAllocation function [Display Devices], K, M, OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, T, a, c, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation, e, i, l, n, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,7 +129,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateallocation.md">D3DKMTCreateAllocation</a> could not complete because of insufficient memory.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createallocation.md">D3DKMTCreateAllocation</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateallocation.md">D3DKMTCreateAllocation</a> could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createallocation.md">D3DKMTCreateAllocation</a> could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code.
 
 </td>
 </tr>

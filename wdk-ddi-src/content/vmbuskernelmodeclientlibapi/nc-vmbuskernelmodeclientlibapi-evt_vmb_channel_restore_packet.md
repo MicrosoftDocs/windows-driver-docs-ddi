@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9C89CFCB-4B8A-40D3-B982-2F7836A636A3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.evt_vmb_channel_restore_packet, EvtVmbChannelRestorePacket callback function [Network Drivers Starting with Windows Vista], EvtVmbChannelRestorePacket, EVT_VMB_CHANNEL_RESTORE_PACKET, EVT_VMB_CHANNEL_RESTORE_PACKET, vmbuskernelmodeclientlibapi/EvtVmbChannelRestorePacket, PFN_VMB_CHANNEL_RESTORE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_RESTORE_PACKET
+ms.keywords: EVT_VMB_CHANNEL_RESTORE_PACKET, EvtVmbChannelRestorePacket, EvtVmbChannelRestorePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_RESTORE_PACKET, PFN_VMB_CHANNEL_RESTORE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_restore_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelRestorePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,15 +135,15 @@ callback function, then this is provided in <i>SaveBuf</i>, and restored by the 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks.md">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
 
 
 
 <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_restore_packet.md">EvtVmbChannelSavePacket</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
 
 
 

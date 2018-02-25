@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C4021856-835D-4B4B-9795-4FEEEFAC06B8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/PSET_UNIT_DIRECTORY, _SET_UNIT_DIRECTORY, 61883/SET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY structure [Buses], PSET_UNIT_DIRECTORY structure pointer [Buses], PSET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY, *PSET_UNIT_DIRECTORY, IEEE.set_unit_directory
+ms.keywords: ",  , *, *PSET_UNIT_DIRECTORY, ,, 61883/PSET_UNIT_DIRECTORY, 61883/SET_UNIT_DIRECTORY, C, D, E, I, IEEE.set_unit_directory, N, O, P, PSET_UNIT_DIRECTORY, PSET_UNIT_DIRECTORY structure pointer [Buses], R, S, SET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY structure [Buses], T, U, Y, _, _SET_UNIT_DIRECTORY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

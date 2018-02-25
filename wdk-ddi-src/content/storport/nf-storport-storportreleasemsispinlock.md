@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5a2cf757-9dca-4717-a775-834a22c02a12
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml, StorPortReleaseMSISpinLock, storport/StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock routine [Storage Devices], storage.storportreleasemsispinlock
+ms.keywords: ",  , I, L, M, P, R, S, StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock routine [Storage Devices], a, c, e, i, k, l, n, o, p, r, s, storage.storportreleasemsispinlock, storport/StorPortReleaseMSISpinLock, storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,7 +144,7 @@ HwDeviceExtension was <b>NULL</b>.
 
 
 
-Miniport drivers are not required to acquire MSI spin locks for messages unless the <b>InterruptSynchronizePerMessage</b> member of the <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure indicates a synchronization mode of <b>InterruptSynchronizationMode</b>.
+Miniport drivers are not required to acquire MSI spin locks for messages unless the <b>InterruptSynchronizePerMessage</b> member of the <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure indicates a synchronization mode of <b>InterruptSynchronizationMode</b>.
 
 
 

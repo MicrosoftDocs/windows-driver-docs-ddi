@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b4d01c1f-8267-490e-a808-87d9be666a94
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVA_ExtendedFormat structure [Display Devices], _DXVA_ExtendedFormat, dxva/DXVA_ExtendedFormat, display.dxva_extendedformat, dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml, DXVA_ExtendedFormat
+ms.keywords: ",  , ,, A, D, DXVA_ExtendedFormat, DXVA_ExtendedFormat structure [Display Devices], E, F, V, X, _, _DXVA_ExtendedFormat, a, d, display.dxva_extendedformat, dxva/DXVA_ExtendedFormat, dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml, e, m, n, o, r, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,11 +110,19 @@ Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by 
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
 
 
 
@@ -126,15 +134,7 @@ Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by 
 
 
 
-<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
+<a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a>
 
 
 

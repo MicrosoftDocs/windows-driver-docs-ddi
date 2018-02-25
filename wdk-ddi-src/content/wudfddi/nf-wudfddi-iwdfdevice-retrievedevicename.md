@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 75304f5d-8a07-4db5-9f20-5764ff5d2ef6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFDevice::RetrieveDeviceName, RetrieveDeviceName, wdf.iwdfdevice_retrievedevicename, IWDFDevice::RetrieveDeviceName, RetrieveDeviceName method, RetrieveDeviceName method, IWDFDevice interface, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, IWDFDevice interface, RetrieveDeviceName method, IWDFDevice, umdf.iwdfdevice_retrievedevicename
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFDevice, IWDFDevice interface, RetrieveDeviceName method, IWDFDevice::RetrieveDeviceName, N, R, RetrieveDeviceName method, RetrieveDeviceName method, IWDFDevice interface, RetrieveDeviceName,IWDFDevice.RetrieveDeviceName, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, W, a, c, e, i, m, r, t, umdf.iwdfdevice_retrievedevicename, v, wdf.iwdfdevice_retrievedevicename, wudfddi/IWDFDevice::RetrieveDeviceName"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

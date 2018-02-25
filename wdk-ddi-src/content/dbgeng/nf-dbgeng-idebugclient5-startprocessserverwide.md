@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1e72578c-9359-4275-a4f2-2b5ae4dbf2b7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: StartProcessServerWide, StartProcessServerWide method [Windows Debugging], IDebugClient5::StartProcessServerWide, dbgeng/IDebugClient5::StartProcessServerWide, IDebugClient5 interface [Windows Debugging], StartProcessServerWide method, StartProcessServerWide method [Windows Debugging], IDebugClient5 interface, debugger.startprocessserverwide, IDebugClient5
+ms.keywords: ",  , ,, ., 5, :, C, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], StartProcessServerWide method, IDebugClient5::StartProcessServerWide, P, S, StartProcessServerWide method [Windows Debugging], StartProcessServerWide method [Windows Debugging], IDebugClient5 interface, StartProcessServerWide,IDebugClient5.StartProcessServerWide, W, a, b, c, d, dbgeng/IDebugClient5::StartProcessServerWide, debugger.startprocessserverwide, e, g, i, l, n, o, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -127,11 +127,11 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
 
 
 

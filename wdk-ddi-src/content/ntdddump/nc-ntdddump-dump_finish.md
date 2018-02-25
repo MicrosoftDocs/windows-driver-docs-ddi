@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6e267810-a7ad-4407-8d01-4a2cad7a37bc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.dump_finish, Dump_Finish routine [Storage Devices], Dump_Finish, PDUMP_FINISH, PDUMP_FINISH, ntdddump/Dump_Finish, filter_rtns_7d5c92a4-19b6-4ef1-9b86-a9ec250106ef.xml
+ms.keywords: Dump_Finish, Dump_Finish routine [Storage Devices], PDUMP_FINISH, filter_rtns_7d5c92a4-19b6-4ef1-9b86-a9ec250106ef.xml, ntdddump/Dump_Finish, storage.dump_finish
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

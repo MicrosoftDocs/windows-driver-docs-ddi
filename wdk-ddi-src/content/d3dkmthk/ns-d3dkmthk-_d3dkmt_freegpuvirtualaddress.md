@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], D3DKMT_FREEGPUVIRTUALADDRESS"
+ms.keywords: ",  , ,, 3, A, D, D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], E, F, G, I, K, L, M, P, R, S, T, U, V, _, _D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

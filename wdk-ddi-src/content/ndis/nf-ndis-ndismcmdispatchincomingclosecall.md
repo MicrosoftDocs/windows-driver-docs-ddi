@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 843050e1-a1ec-4313-b527-529c4ff6ca07
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: condis_mcm_ref_b5a94c5f-7483-44dd-8167-6e64f52cada6.xml, NdisMCmDispatchIncomingCloseCall, netvista.ndismcmdispatchincomingclosecall, ndis/NdisMCmDispatchIncomingCloseCall, NdisMCmDispatchIncomingCloseCall macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , C, D, I, M, N, NdisMCmDispatchIncomingCloseCall, NdisMCmDispatchIncomingCloseCall macro [Network Drivers Starting with Windows Vista], a, c, condis_mcm_ref_b5a94c5f-7483-44dd-8167-6e64f52cada6.xml, d, e, g, h, i, l, m, n, ndis/NdisMCmDispatchIncomingCloseCall, netvista.ndismcmdispatchincomingclosecall, o, p, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -186,15 +186,7 @@ Only connection-oriented miniport drivers that provide call-management support c
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 
@@ -202,7 +194,15 @@ Only connection-oriented miniport drivers that provide call-management support c
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
@@ -211,7 +211,7 @@ Only connection-oriented miniport drivers that provide call-management support c
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
 
 

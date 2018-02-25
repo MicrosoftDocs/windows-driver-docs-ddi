@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f31a6547-44ec-4331-8f9b-e46192f4966a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintreadstream, IPrintReadStream interface [Print Devices], IPrintReadStream interface [Print Devices], described, IPrintReadStream, filterpipeline/IPrintReadStream, filterpipeline_51454792-ccd6-4c55-adbc-d5cc1536f93c.xml
+ms.keywords: IPrintReadStream, IPrintReadStream interface [Print Devices], IPrintReadStream interface [Print Devices], described, filterpipeline/IPrintReadStream, filterpipeline_51454792-ccd6-4c55-adbc-d5cc1536f93c.xml, print.iprintreadstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

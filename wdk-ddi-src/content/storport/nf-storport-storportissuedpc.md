@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a0c46c51-f6c4-4609-9dba-b730f33c3ed6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_e9cbe677-4d21-4c07-97a2-9db50858321f.xml, StorPortIssueDpc, storage.storportissuedpc, storport/StorPortIssueDpc, StorPortIssueDpc routine [Storage Devices]
+ms.keywords: ",  , D, I, P, S, StorPortIssueDpc, StorPortIssueDpc routine [Storage Devices], c, e, o, p, r, s, storage.storportissuedpc, storport/StorPortIssueDpc, storprt_e9cbe677-4d21-4c07-97a2-9db50858321f.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,7 +113,7 @@ If a miniport driver has multiple work-items that must be performed by the same 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
+<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
 
 
 
@@ -121,7 +121,7 @@ If a miniport driver has multiple work-items that must be performed by the same 
 
 
 
-<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
+<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
 
 
 

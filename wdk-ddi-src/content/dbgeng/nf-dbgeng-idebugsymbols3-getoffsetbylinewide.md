@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ba09333e-84a5-4166-a859-e09c0cf74347
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetOffsetByLineWide, GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3::GetOffsetByLineWide, IDebugSymbols3, debugger.getoffsetbylinewide, GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLineWide method, dbgeng/IDebugSymbols3::GetOffsetByLineWide
+ms.keywords: ",  , ,, ., 3, :, B, D, G, GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByLineWide,IDebugSymbols3.GetOffsetByLineWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLineWide method, IDebugSymbols3::GetOffsetByLineWide, L, O, S, W, b, d, dbgeng/IDebugSymbols3::GetOffsetByLineWide, debugger.getoffsetbylinewide, e, f, g, i, l, m, n, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,11 +125,11 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546995">GetLineByOffset</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546995">GetLineByOffset</a>
 
 
 

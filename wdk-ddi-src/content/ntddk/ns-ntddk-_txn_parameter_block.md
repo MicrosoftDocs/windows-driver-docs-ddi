@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 973f440a-ba17-466a-a9f4-f21c07e854d8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.txn_parameter_block, TXN_PARAMETER_BLOCK structure [Installable File System Drivers], *PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK structure pointer [Installable File System Drivers], fileinformationstructures_fd9a870c-f8bf-4a9d-8f7c-1dfbdcbab7aa.xml, TXN_PARAMETER_BLOCK, _TXN_PARAMETER_BLOCK, ntddk/_TXN_PARAMETER_BLOCK, ntddk/PTXN_PARAMETER_BLOCK
+ms.keywords: ",  , *, *PTXN_PARAMETER_BLOCK, ,, A, B, C, E, K, L, M, N, O, P, PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK structure pointer [Installable File System Drivers], R, T, TXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK structure [Installable File System Drivers], X, _, _TXN_PARAMETER_BLOCK, fileinformationstructures_fd9a870c-f8bf-4a9d-8f7c-1dfbdcbab7aa.xml, ifsk.txn_parameter_block, ntddk/PTXN_PARAMETER_BLOCK, ntddk/_TXN_PARAMETER_BLOCK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,11 +111,11 @@ The <a href="..\ntddk\nf-ntddk-iogettransactionparameterblock.md">IoGetTransacti
 
 
 
-<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=139790">FSCTL_TXFS_CREATE_MINIVERSION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
 
 
 

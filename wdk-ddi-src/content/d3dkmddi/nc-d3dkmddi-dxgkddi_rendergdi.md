@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90C34125-FC32-46E3-81F7-6B2AACED9BAC
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddirendergdi, DxgkDdiRenderGdi callback function [Display Devices], DxgkDdiRenderGdi, DXGKDDI_RENDERGDI, DXGKDDI_RENDERGDI, d3dkmddi/DxgkDdiRenderGdi
+ms.keywords: DXGKDDI_RENDERGDI, DxgkDdiRenderGdi, DxgkDdiRenderGdi callback function [Display Devices], d3dkmddi/DxgkDdiRenderGdi, display.dxgkddirendergdi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

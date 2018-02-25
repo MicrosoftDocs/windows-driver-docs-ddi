@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 814e00c5-7248-4853-a61b-e70be86bca0e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilrequestgeolocationdata, ntddrilapitypes/RILREQUESTGEOLOCATIONDATA, *LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], RILREQUESTGEOLOCATIONDATA
+ms.keywords: ",  , *, *LPRILREQUESTGEOLOCATIONDATA, ,, A, C, D, E, G, I, L, N, O, P, Q, R, RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.rilrequestgeolocationdata, ntddrilapitypes/RILREQUESTGEOLOCATIONDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

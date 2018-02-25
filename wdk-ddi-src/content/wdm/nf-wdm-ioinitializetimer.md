@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f2b0f74d-7417-443e-96ec-5101b1289f9d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, IoInitializeTimer, IoInitializeTimer routine [Kernel-Mode Driver Architecture], wdm/IoInitializeTimer, kernel.ioinitializetimer
+ms.keywords: ",  , I, IoInitializeTimer, IoInitializeTimer routine [Kernel-Mode Driver Architecture], T, a, e, i, k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, kernel.ioinitializetimer, l, m, n, o, r, t, wdm/IoInitializeTimer, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,15 +111,11 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
 <a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
 
 
 
@@ -128,6 +124,10 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
 

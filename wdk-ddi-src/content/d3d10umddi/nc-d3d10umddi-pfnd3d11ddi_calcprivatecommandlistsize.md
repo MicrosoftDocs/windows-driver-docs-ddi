@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04725df2-6373-4e04-862e-d533363af00b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.calcprivatecommandlistsize, CalcPrivateCommandListSize callback function [Display Devices], CalcPrivateCommandListSize, PFND3D11DDI_CALCPRIVATECOMMANDLISTSIZE, PFND3D11DDI_CALCPRIVATECOMMANDLISTSIZE, d3d10umddi/CalcPrivateCommandListSize, UserModeDisplayDriverDx11_Functions_ba8c13ec-47a3-4d4a-9356-59c9a3edd34d.xml
+ms.keywords: CalcPrivateCommandListSize, CalcPrivateCommandListSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATECOMMANDLISTSIZE, UserModeDisplayDriverDx11_Functions_ba8c13ec-47a3-4d4a-9356-59c9a3edd34d.xml, d3d10umddi/CalcPrivateCommandListSize, display.calcprivatecommandlistsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -121,11 +121,11 @@ The driver is only required to implement <b>CalcPrivateCommandListSize</b> if th
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createcommandlist.md">D3D11DDIARG_CREATECOMMANDLIST</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createcommandlist.md">D3D11DDIARG_CREATECOMMANDLIST</a>
 
 
 

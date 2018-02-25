@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e84652c5-a234-4336-92f3-827f965865f8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME, kmdf.wdf_io_target_open_params_init_open_by_name, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function, wdf.wdf_io_target_open_params_init_open_by_name, DFIOTargetRef_fd8afc87-6dae-469e-906f-f2fa99aba08e.xml
+ms.keywords: ",  , A, B, D, DFIOTargetRef_fd8afc87-6dae-469e-906f-f2fa99aba08e.xml, E, F, G, I, M, N, O, P, R, S, T, W, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function, Y, _, kmdf.wdf_io_target_open_params_init_open_by_name, wdf.wdf_io_target_open_params_init_open_by_name, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,19 +129,19 @@ For a code example that uses <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b>,
 
 ## -see-also
 
-<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_create_by_name.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_existing_device.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE</a>
+
+
+
+<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_create_by_name.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME</a>
 
 
 

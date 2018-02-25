@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6316acfa-c19c-4705-becb-b89c3feed6a3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PFLT_CONTEXT_REGISTRATION structure pointer [Installable File System Drivers], PFLT_CONTEXT_REGISTRATION, ifsk.flt_context_registration, _FLT_CONTEXT_REGISTRATION, *PFLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_534c1657-6f7c-42fa-b8df-2a64ed6edf3a.xml, fltkernel/PFLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION, fltkernel/FLT_CONTEXT_REGISTRATION
+ms.keywords: ",  , *, *PFLT_CONTEXT_REGISTRATION, ,, A, C, E, F, FLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_534c1657-6f7c-42fa-b8df-2a64ed6edf3a.xml, G, I, L, N, O, P, PFLT_CONTEXT_REGISTRATION, PFLT_CONTEXT_REGISTRATION structure pointer [Installable File System Drivers], R, S, T, X, _, _FLT_CONTEXT_REGISTRATION, fltkernel/FLT_CONTEXT_REGISTRATION, fltkernel/PFLT_CONTEXT_REGISTRATION, ifsk.flt_context_registration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -179,15 +179,11 @@ No more than three FLT_CONTEXT_REGISTRATION structures with a <b>Size</b> member
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_context_allocate_callback.md">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_context_free_callback.md">PFLT_CONTEXT_FREE_CALLBACK</a>
 
 
 
 <a href="..\fltkernel\nc-fltkernel-pflt_context_cleanup_callback.md">PFLT_CONTEXT_CLEANUP_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_context_free_callback.md">PFLT_CONTEXT_FREE_CALLBACK</a>
 
 
 
@@ -196,6 +192,10 @@ No more than three FLT_CONTEXT_REGISTRATION structures with a <b>Size</b> member
 
 
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_context_allocate_callback.md">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
 
 
 

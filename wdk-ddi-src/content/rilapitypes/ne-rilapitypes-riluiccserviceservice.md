@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc3df2dd-caa7-4614-a243-3df13e3c0e84
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILUICCSERVICESERVICE, rilapitypes/RIL_UICCOPERATION_SERVICE_ACL, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCOPERATION_SERVICE_MAX, netvista.riluiccserviceservice_2, RIL_UICCOPERATION_SERVICE_MAX, RIL_UICCOPERATION_SERVICE_BDN, rilapitypes/RIL_UICCOPERATION_SERVICE_BDN, rilapitypes/RILUICCSERVICESERVICE, RIL_UICCOPERATION_SERVICE_ACL
+ms.keywords: ",  , ,, C, E, I, L, R, RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_BDN, RIL_UICCOPERATION_SERVICE_MAX, S, U, V, netvista.riluiccserviceservice_2, rilapitypes/RILUICCSERVICESERVICE, rilapitypes/RIL_UICCOPERATION_SERVICE_ACL, rilapitypes/RIL_UICCOPERATION_SERVICE_BDN, rilapitypes/RIL_UICCOPERATION_SERVICE_MAX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

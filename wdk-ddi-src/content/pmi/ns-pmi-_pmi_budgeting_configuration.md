@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: f9c3c289-30b8-4cec-8c38-198d1ba3d8ae
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION, PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, pmi/PPMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices], pmi/PMI_BUDGETING_CONFIGURATION, *PPMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], powermeter.pmi_budgeting_configuration, _PMI_BUDGETING_CONFIGURATION
+ms.keywords: ",  , *, *PPMI_BUDGETING_CONFIGURATION, ,, A, B, C, D, E, F, G, I, M, N, O, P, PMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, R, T, U, _, _PMI_BUDGETING_CONFIGURATION, pmi/PMI_BUDGETING_CONFIGURATION, pmi/PPMI_BUDGETING_CONFIGURATION, powermeter.pmi_budgeting_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,14 @@ Unlike other PMI capability or configuration data, the power meter's current bud
 
 ## -see-also
 
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
+
+
+
 <a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
 
 
@@ -96,14 +104,6 @@ Unlike other PMI capability or configuration data, the power meter's current bud
 
 
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-
-
-
-<a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
-
-
-
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
 

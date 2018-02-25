@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E8A77709-7E35-4FFC-B7EC-19E5256AB55F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditaltxrxdeinitialize, MiniportWdiTalTxRxDeinitialize callback function [Network Drivers Starting with Windows Vista], MiniportWdiTalTxRxDeinitialize, MINIPORT_WDI_TAL_TXRX_DEINITIALIZE, MINIPORT_WDI_TAL_TXRX_DEINITIALIZE, dot11wdi/MiniportWdiTalTxRxDeinitialize
+ms.keywords: MINIPORT_WDI_TAL_TXRX_DEINITIALIZE, MiniportWdiTalTxRxDeinitialize, MiniportWdiTalTxRxDeinitialize callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeinitialize, netvista.miniportwditaltxrxdeinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

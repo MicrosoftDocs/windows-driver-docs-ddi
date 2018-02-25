@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0e016f3a-4f3a-4256-bb7b-10a5f955b930
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_tape_prepare, IOCTL_TAPE_PREPARE control code [Storage Devices], IOCTL_TAPE_PREPARE, ntddtape/IOCTL_TAPE_PREPARE, k307_a564f3c9-909a-437c-973c-0e6c25fad061.xml
+ms.keywords: IOCTL_TAPE_PREPARE, IOCTL_TAPE_PREPARE control code [Storage Devices], k307_a564f3c9-909a-437c-973c-0e6c25fad061.xml, ntddtape/IOCTL_TAPE_PREPARE, storage.ioctl_tape_prepare
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -113,11 +113,11 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567950">TapeMiniPrepare</a>
+
+
+
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 

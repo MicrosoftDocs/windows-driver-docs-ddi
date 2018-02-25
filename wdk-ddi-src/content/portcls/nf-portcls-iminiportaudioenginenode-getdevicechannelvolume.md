@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 195AAD37-6993-4F0A-BEF7-848122402742
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetDeviceChannelVolume, GetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetDeviceChannelVolume, GetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getdevicechannelvolume, portcls/IMiniportAudioEngineNode::GetDeviceChannelVolume, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelVolume method
+ms.keywords: ",  , ,, ., :, A, C, D, E, G, GetDeviceChannelVolume method [Audio Devices], GetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelVolume,IMiniportAudioEngineNode.GetDeviceChannelVolume, I, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelVolume method, IMiniportAudioEngineNode::GetDeviceChannelVolume, M, N, V, a, audio.iminiportaudioenginenode_getdevicechannelvolume, c, d, e, g, h, i, l, m, n, o, p, portcls/IMiniportAudioEngineNode::GetDeviceChannelVolume, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

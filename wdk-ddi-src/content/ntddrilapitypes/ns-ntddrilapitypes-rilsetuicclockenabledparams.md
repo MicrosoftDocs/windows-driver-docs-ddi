@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03df5865-a383-447b-8e80-671ba7a3a60e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILSETUICCLOCKENABLEDPARAMS, netvista.rilsetuicclockenabledparams, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS
+ms.keywords: ",  , *, *LPRILSETUICCLOCKENABLEDPARAMS, ,, A, B, C, D, E, I, K, L, M, N, O, P, R, RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.rilsetuicclockenabledparams, ntddrilapitypes/RILSETUICCLOCKENABLEDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

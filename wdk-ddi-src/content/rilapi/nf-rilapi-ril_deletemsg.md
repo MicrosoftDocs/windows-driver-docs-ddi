@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bda4663b-0aae-481a-8bd6-f242c6e6b1de
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_DeleteMsg method [Network Drivers Starting with Windows Vista], rilapi/RIL_DeleteMsg, RIL_DeleteMsg, netvista.ril_deletemsg
+ms.keywords: ",  , D, I, L, M, R, RIL_DeleteMsg, RIL_DeleteMsg method [Network Drivers Starting with Windows Vista], _, e, g, l, netvista.ril_deletemsg, rilapi/RIL_DeleteMsg, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

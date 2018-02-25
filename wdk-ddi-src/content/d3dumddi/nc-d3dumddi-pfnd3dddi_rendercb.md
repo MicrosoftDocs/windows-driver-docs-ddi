@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f242162e-6237-469c-b178-5a51dcf69e32
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnrendercb, pfnRenderCb callback function [Display Devices], pfnRenderCb, PFND3DDDI_RENDERCB, PFND3DDDI_RENDERCB, d3dumddi/pfnRenderCb, D3Druntime_Functions_487738b4-19e4-464f-80cc-d3b83eef1c6f.xml
+ms.keywords: D3Druntime_Functions_487738b4-19e4-464f-80cc-d3b83eef1c6f.xml, PFND3DDDI_RENDERCB, d3dumddi/pfnRenderCb, display.pfnrendercb, pfnRenderCb, pfnRenderCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -277,7 +277,7 @@ The following code example shows how to submit the current command buffer for re
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
 
 
 
@@ -285,15 +285,15 @@ The following code example shows how to submit the current command buffer for re
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
+<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8e429a48-4e86-4673-aa32-85b640e2f64f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksdefaultaddeventhandler, avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml, ks/KsDefaultAddEventHandler, KsDefaultAddEventHandler, KsDefaultAddEventHandler function [Streaming Media Devices]
+ms.keywords: ",  , A, D, E, H, K, KsDefaultAddEventHandler, KsDefaultAddEventHandler function [Streaming Media Devices], a, avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml, d, e, f, ks/KsDefaultAddEventHandler, l, n, r, s, stream.ksdefaultaddeventhandler, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,15 +107,7 @@ This is functionally equivalent to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEven
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
-
-
-
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-
-
-
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
 
 
@@ -123,7 +115,15 @@ This is functionally equivalent to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEven
 
 
 
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
 
 

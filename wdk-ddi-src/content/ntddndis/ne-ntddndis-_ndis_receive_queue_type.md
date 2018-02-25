@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ee28daf-2719-42bc-ab2e-6dcfa7f0e04b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_receive_queue_type, PNDIS_RECEIVE_QUEUE_TYPE, virtual_machine_queue_ref_b51e0e9c-353e-40a1-b466-3136db1fcdd9.xml, PNDIS_RECEIVE_QUEUE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_QUEUE_TYPE, NdisReceiveQueueTypeUnspecified, ntddndis/NdisReceiveQueueTypeMaximum, ntddndis/PNDIS_RECEIVE_QUEUE_TYPE, NDIS_RECEIVE_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_QUEUE_TYPE, ntddndis/NDIS_RECEIVE_QUEUE_TYPE, _NDIS_RECEIVE_QUEUE_TYPE, ntddndis/NdisReceiveQueueTypeUnspecified, NdisReceiveQueueTypeMaximum, ntddndis/NdisReceiveQueueTypeVMQueue, NdisReceiveQueueTypeVMQueue
+ms.keywords: ",  , *, *PNDIS_RECEIVE_QUEUE_TYPE, ,, C, D, E, I, N, NDIS_RECEIVE_QUEUE_TYPE, NDIS_RECEIVE_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisReceiveQueueTypeMaximum, NdisReceiveQueueTypeUnspecified, NdisReceiveQueueTypeVMQueue, P, PNDIS_RECEIVE_QUEUE_TYPE, PNDIS_RECEIVE_QUEUE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], Q, R, S, T, U, V, Y, _, _NDIS_RECEIVE_QUEUE_TYPE, netvista.ndis_receive_queue_type, ntddndis/NDIS_RECEIVE_QUEUE_TYPE, ntddndis/NdisReceiveQueueTypeMaximum, ntddndis/NdisReceiveQueueTypeUnspecified, ntddndis/NdisReceiveQueueTypeVMQueue, ntddndis/PNDIS_RECEIVE_QUEUE_TYPE, virtual_machine_queue_ref_b51e0e9c-353e-40a1-b466-3136db1fcdd9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

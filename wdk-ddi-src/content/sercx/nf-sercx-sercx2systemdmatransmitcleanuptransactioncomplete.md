@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9B2899AB-055B-458B-A9C5-958B8B2E809D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SerCx2SystemDmaTransmitCleanupTransactionComplete, serports.sercx2systemdmatransmitcleanuptransactioncomplete, SerCx2SystemDmaTransmitCleanupTransactionComplete method [Serial Ports], 2/SerCx2SystemDmaTransmitCleanupTransactionComplete
+ms.keywords: ",  , 2, 2/SerCx2SystemDmaTransmitCleanupTransactionComplete, C, D, S, SerCx2SystemDmaTransmitCleanupTransactionComplete, SerCx2SystemDmaTransmitCleanupTransactionComplete method [Serial Ports], T, a, c, e, i, l, m, n, o, p, r, s, serports.sercx2systemdmatransmitcleanuptransactioncomplete, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
 
 
 

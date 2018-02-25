@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1484dcca-e29c-495d-917c-1debefc91409
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.mrxcompletebufferingstatechangerequest, MRxCompleteBufferingStateChangeRequest, MRxCompleteBufferingStateChangeRequest routine [Installable File System Drivers], MRxCompleteBufferingStateChangeRequest, PMRX_CHANGE_BUFFERING_STATE_CALLDOWN, PMRX_CHANGE_BUFFERING_STATE_CALLDOWN, mrx/MRxCompleteBufferingStateChangeRequest, mrxref_5ac31893-1998-454a-a0c9-07d32e60d8db.xml
+ms.keywords: MRxCompleteBufferingStateChangeRequest, MRxCompleteBufferingStateChangeRequest routine [Installable File System Drivers], PMRX_CHANGE_BUFFERING_STATE_CALLDOWN, ifsk.mrxcompletebufferingstatechangerequest, mrx/MRxCompleteBufferingStateChangeRequest, mrxref_5ac31893-1998-454a-a0c9-07d32e60d8db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

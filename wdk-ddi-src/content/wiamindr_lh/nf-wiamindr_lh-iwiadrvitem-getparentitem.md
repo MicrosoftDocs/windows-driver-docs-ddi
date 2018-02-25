@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e6197993-b998-424e-ab5d-a91a57c7398c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IWiaDrvItem, GetParentItem, GetParentItem method [Imaging Devices], image.iwiadrvitem_getparentitem, IWiaDrvItem interface [Imaging Devices], GetParentItem method, GetParentItem method [Imaging Devices], IWiaDrvItem interface, wiamindr_lh/IWiaDrvItem::GetParentItem, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, IWiaDrvItem::GetParentItem
+ms.keywords: ",  , ,, ., :, D, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, G, GetParentItem method [Imaging Devices], GetParentItem method [Imaging Devices], IWiaDrvItem interface, GetParentItem,IWiaDrvItem.GetParentItem, I, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetParentItem method, IWiaDrvItem::GetParentItem, P, W, a, e, i, image.iwiadrvitem_getparentitem, m, n, r, t, v, wiamindr_lh/IWiaDrvItem::GetParentItem"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,15 +100,15 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543878">IWiaDrvItem::GetFirstChildItem</a>
-
-
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543878">IWiaDrvItem::GetFirstChildItem</a>
 
 
 

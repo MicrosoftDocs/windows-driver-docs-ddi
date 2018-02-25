@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7fe392d1-75e4-43b1-a09b-6f47981bef7e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION, wdm/CLS_INFORMATION, _CLS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], *PCLFS_INFORMATION, wdm/PCLFS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, CLS_INFORMATION, kernel.clfs_information, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLFS_INFORMATION, wdm/CLFS_INFORMATION, CLFS_INFORMATION, PCLS_INFORMATION, wdm/PPCLS_INFORMATION, PPCLS_INFORMATION, wdm/PPCLFS_INFORMATION, *PPCLS_INFORMATION, wdm/PCLS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture]"
+ms.keywords: ",  , *, *PCLFS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION, ,, A, C, CLFS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], F, I, L, M, N, O, P, PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION, PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, S, T, _, _CLS_INFORMATION, kernel.clfs_information, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, wdm/CLFS_INFORMATION, wdm/CLS_INFORMATION, wdm/PCLFS_INFORMATION, wdm/PCLS_INFORMATION, wdm/PPCLFS_INFORMATION, wdm/PPCLS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -206,15 +206,15 @@ If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
 
 
 
 <a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 
 

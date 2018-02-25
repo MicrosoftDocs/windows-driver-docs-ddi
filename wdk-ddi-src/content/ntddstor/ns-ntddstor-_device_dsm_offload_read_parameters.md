@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4C0B2CFD-B981-4304-B3F9-AD534BF5A823
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.device_dsm_offload_read_parameters, DEVICE_DSM_OFFLOAD_READ_PARAMETERS, _DEVICE_DSM_OFFLOAD_READ_PARAMETERS, *PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure [Storage Devices], PDEVICE_DSM_OFFLOAD_READ_PARAMETERS structure pointer [Storage Devices], ntddstor/DEVICE_DSM_OFFLOAD_READ_PARAMETERS, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS
+ms.keywords: ",  , *, *PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, ,, A, C, D, DEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure [Storage Devices], E, F, I, L, M, O, P, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS structure pointer [Storage Devices], R, S, T, V, _, _DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, storage.device_dsm_offload_read_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,7 +99,7 @@ The <b>DataSetRangesOffset</b> and <b>DataSetRangesLength</b> members of <a href
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a>
+<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
@@ -107,7 +107,7 @@ The <b>DataSetRangesOffset</b> and <b>DataSetRangesLength</b> members of <a href
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a>
 
 
 

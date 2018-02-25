@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2152e174-c02e-425c-a969-83656052078b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TmPrePrepareComplete, ktm_ref_8ea6e6df-93c0-4b25-9bfe-3d53fbe1793f.xml, wdm/TmPrePrepareComplete, kernel.tmprepreparecomplete, TmPrePrepareComplete routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, P, T, TmPrePrepareComplete, TmPrePrepareComplete routine [Kernel-Mode Driver Architecture], a, e, kernel.tmprepreparecomplete, ktm_ref_8ea6e6df-93c0-4b25-9bfe-3d53fbe1793f.xml, l, m, o, p, r, t, wdm/TmPrePrepareComplete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,19 +124,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwprepreparecomplete.md">ZwPrePrepareComplete</a>
-
-
-
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 
@@ -145,6 +133,18 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwprepreparecomplete.md">ZwPrePrepareComplete</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 

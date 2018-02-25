@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5665ff0a-3cbf-4ac5-adf7-5b383bac5117
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.idehwinitialize, IdeHwInitialize routine [Storage Devices], IdeHwInitialize, IDE_HW_INITIALIZE, IDE_HW_INITIALIZE, irb/IdeHwInitialize, atartns_dcb52bc9-05c9-436f-a2b2-f9c1b68d1d33.xml
+ms.keywords: IDE_HW_INITIALIZE, IdeHwInitialize, IdeHwInitialize routine [Storage Devices], atartns_dcb52bc9-05c9-436f-a2b2-f9c1b68d1d33.xml, irb/IdeHwInitialize, storage.idehwinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -107,11 +107,11 @@ After the miniport driver enumerates the devices on a channel, it calls the <b><
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_device_parameters.md">IDE_DEVICE_PARAMETERS</a>
-
-
-
 <a href="..\ata\ns-ata-_identify_device_data.md">IDENTIFY_DEVICE_DATA</a>
+
+
+
+<a href="..\irb\ns-irb-_ide_device_parameters.md">IDE_DEVICE_PARAMETERS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3378D971-B5D8-485B-8C58-BE5874445407
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_FS_FILTER_SECTION_SYNC_OUTPUT, PFS_FILTER_SECTION_SYNC_OUTPUT, *PFS_FILTER_SECTION_SYNC_OUTPUT, FS_FILTER_SECTION_SYNC_OUTPUT, PFS_FILTER_SECTION_SYNC_OUTPUT structure pointer [Installable File System Drivers], ntifs/PFS_FILTER_SECTION_SYNC_OUTPUT, ntifs/FS_FILTER_SECTION_SYNC_OUTPUT, ifsk.fs_filter_section_sync_output_, FS_FILTER_SECTION_SYNC_OUTPUT structure [Installable File System Drivers]"
+ms.keywords: ",  , *, *PFS_FILTER_SECTION_SYNC_OUTPUT, ,, C, E, F, FS_FILTER_SECTION_SYNC_OUTPUT, FS_FILTER_SECTION_SYNC_OUTPUT structure [Installable File System Drivers], I, L, N, O, P, PFS_FILTER_SECTION_SYNC_OUTPUT, PFS_FILTER_SECTION_SYNC_OUTPUT structure pointer [Installable File System Drivers], R, S, T, U, Y, _, _FS_FILTER_SECTION_SYNC_OUTPUT, ifsk.fs_filter_section_sync_output_, ntifs/FS_FILTER_SECTION_SYNC_OUTPUT, ntifs/PFS_FILTER_SECTION_SYNC_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

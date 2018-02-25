@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90cec61b-fe49-4fc7-b666-e74f745a00b1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dxva/DXVA_SampleFieldSingleEven, dxva/DXVA_SampleFieldInterleavedEvenFirst, dxva/DXVA_SampleProgressiveFrame, dxva/DXVA_SampleSubStream, DXVA_SampleFieldInterleavedEvenFirst, dxvaref_342ab3ab-8498-4d6f-a052-aff84c407436.xml, display.dxva_sampleformat, _DXVA_SampleFormat, DXVA_SamplePreviousFrame, dxva/DXVA_SampleFormat, DXVA_SampleUnknown, DXVA_SampleFieldSingleEven, dxva/DXVA_SampleUnknown, DXVA_SampleFieldSingleOdd, DXVA_SampleFieldInterleavedOddFirst, DXVA_SampleFormat enumeration [Display Devices], DXVA_SampleFormat, DXVA_SampleProgressiveFrame, DXVA_SampleFormatMask, dxva/DXVA_SamplePreviousFrame, dxva/DXVA_SampleFormatMask, dxva/DXVA_SampleFieldSingleOdd, DXVA_SampleSubStream, dxva/DXVA_SampleFieldInterleavedOddFirst
+ms.keywords: ",  , ,, A, D, DXVA_SampleFieldInterleavedEvenFirst, DXVA_SampleFieldInterleavedOddFirst, DXVA_SampleFieldSingleEven, DXVA_SampleFieldSingleOdd, DXVA_SampleFormat, DXVA_SampleFormat enumeration [Display Devices], DXVA_SampleFormatMask, DXVA_SamplePreviousFrame, DXVA_SampleProgressiveFrame, DXVA_SampleSubStream, DXVA_SampleUnknown, F, S, V, X, _, _DXVA_SampleFormat, a, display.dxva_sampleformat, dxva/DXVA_SampleFieldInterleavedEvenFirst, dxva/DXVA_SampleFieldInterleavedOddFirst, dxva/DXVA_SampleFieldSingleEven, dxva/DXVA_SampleFieldSingleOdd, dxva/DXVA_SampleFormat, dxva/DXVA_SampleFormatMask, dxva/DXVA_SamplePreviousFrame, dxva/DXVA_SampleProgressiveFrame, dxva/DXVA_SampleSubStream, dxva/DXVA_SampleUnknown, dxvaref_342ab3ab-8498-4d6f-a052-aff84c407436.xml, e, l, m, o, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

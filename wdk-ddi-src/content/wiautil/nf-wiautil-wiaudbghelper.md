@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5be1ede7-13a0-4ef4-93bd-8a1adc5baa9e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiauFncs_be2f3b11-e1a0-4728-856e-ce686344f166.xml, image.wiaudbghelper, wiautil/wiauDbgHelper, wiauDbgHelper function [Imaging Devices], wiauDbgHelper
+ms.keywords: ",  , D, H, a, b, e, g, i, image.wiaudbghelper, l, p, r, u, w, wiauDbgHelper, wiauDbgHelper function [Imaging Devices], wiauFncs_be2f3b11-e1a0-4728-856e-ce686344f166.xml, wiautil/wiauDbgHelper"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -126,7 +126,7 @@ The <b>wiauDbgHelper</b> function is a general-purpose function that is used int
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
 
 
 
@@ -134,15 +134,15 @@ The <b>wiauDbgHelper</b> function is a general-purpose function that is used int
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
 
 
 
 <a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 
 

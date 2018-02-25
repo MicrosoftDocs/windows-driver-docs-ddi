@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: EEE091E4-29D1-4C6F-B543-C54736660CCA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: portcls/PPCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER structure pointer [Audio Devices], *PPCNOTIFICATION_BUFFER, audio.pcnotification_buffer, PCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER, portcls/PCNOTIFICATION_BUFFER, _PCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER structure [Audio Devices]
+ms.keywords: ",  , *, *PPCNOTIFICATION_BUFFER, ,, A, B, C, E, F, I, N, O, P, PCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER structure [Audio Devices], PPCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER structure pointer [Audio Devices], R, T, U, _, _PCNOTIFICATION_BUFFER, audio.pcnotification_buffer, portcls/PCNOTIFICATION_BUFFER, portcls/PPCNOTIFICATION_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

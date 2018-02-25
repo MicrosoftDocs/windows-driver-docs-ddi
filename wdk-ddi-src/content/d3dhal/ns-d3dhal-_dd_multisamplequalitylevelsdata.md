@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ff8bc5d8-5d65-4752-9318-f775394ae2b9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DD_MULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], DD_MULTISAMPLEQUALITYLEVELSDATA, d3dhal/DD_MULTISAMPLEQUALITYLEVELSDATA, display.dd_multisamplequalitylevelsdata, d3dstrct_6a515881-91b7-4072-bf6c-4e10153c1124.xml, _DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: ",  , ,, A, D, DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], E, I, L, M, P, Q, S, T, U, V, Y, _, _DD_MULTISAMPLEQUALITYLEVELSDATA, d3dhal/DD_MULTISAMPLEQUALITYLEVELSDATA, d3dstrct_6a515881-91b7-4072-bf6c-4e10153c1124.xml, display.dd_multisamplequalitylevelsdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,11 +115,7 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+<a href="https://msdn.microsoft.com/015b94d7-427f-401d-b348-d4e9ec5cfe5d">DdCanCreateSurface</a>
 
 
 
@@ -135,7 +131,11 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 
 
-<a href="https://msdn.microsoft.com/015b94d7-427f-401d-b348-d4e9ec5cfe5d">DdCanCreateSurface</a>
+<a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
 
 
 

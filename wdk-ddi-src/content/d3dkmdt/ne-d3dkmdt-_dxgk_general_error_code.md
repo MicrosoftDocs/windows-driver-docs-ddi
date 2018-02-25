@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 678998C5-DC3B-471D-ADBF-876EFB53D227
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmdt/DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_CODE, _DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_CODE enumeration [Display Devices], DXGK_GENERAL_ERROR_PAGE_FAULT, display.dxgk_general_error_code, d3dkmdt/DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, d3dkmdt/DXGK_GENERAL_ERROR_PAGE_FAULT, DXGK_GENERAL_ERROR_INVALID_INSTRUCTION
+ms.keywords: ",  , ,, A, C, D, DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_CODE enumeration [Display Devices], DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, DXGK_GENERAL_ERROR_PAGE_FAULT, E, G, K, L, N, O, R, X, _, _DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, d3dkmdt/DXGK_GENERAL_ERROR_PAGE_FAULT, display.dxgk_general_error_code"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

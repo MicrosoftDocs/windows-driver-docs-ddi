@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba23f4d4-7e3d-4bfc-acf7-68dab01d2f61
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: video/VideoPortAllocateContiguousMemory, VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, VideoPortAllocateContiguousMemory, display.videoportallocatecontiguousmemory, VideoPortAllocateContiguousMemory function [Display Devices]
+ms.keywords: ",  , A, C, M, P, V, VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices], VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, a, c, d, display.videoportallocatecontiguousmemory, e, g, i, l, m, n, o, r, s, t, u, video/VideoPortAllocateContiguousMemory, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

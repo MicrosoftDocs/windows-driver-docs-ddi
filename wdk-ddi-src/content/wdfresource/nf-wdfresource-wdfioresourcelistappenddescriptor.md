@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: da9213c1-e519-44ad-aabf-fd05bdbd2079
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfioresourcelistappenddescriptor, DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, wdfresource/WdfIoResourceListAppendDescriptor, WdfIoResourceListAppendDescriptor, wdf.wdfioresourcelistappenddescriptor, WdfIoResourceListAppendDescriptor method
+ms.keywords: ",  , A, D, DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, I, L, R, W, WdfIoResourceListAppendDescriptor, WdfIoResourceListAppendDescriptor method, c, d, e, f, i, kmdf.wdfioresourcelistappenddescriptor, n, o, p, r, s, t, u, wdf.wdfioresourcelistappenddescriptor, wdfresource/WdfIoResourceListAppendDescriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -204,11 +204,11 @@ status = WdfIoResourceListAppendDescriptor(
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
-
-
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistinsertdescriptor.md">WdfIoResourceListInsertDescriptor</a>
+
+
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
 
 
 

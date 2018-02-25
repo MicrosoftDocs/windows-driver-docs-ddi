@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70427fad-6a3d-40bb-9523-787c14fa1e39
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoGetRelatedDeviceObject, kernel.iogetrelateddeviceobject, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture], wdm/IoGetRelatedDeviceObject, k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml
+ms.keywords: ",  , D, G, I, IoGetRelatedDeviceObject, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture], O, R, a, b, c, d, e, i, j, k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml, kernel.iogetrelateddeviceobject, l, o, t, v, wdm/IoGetRelatedDeviceObject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

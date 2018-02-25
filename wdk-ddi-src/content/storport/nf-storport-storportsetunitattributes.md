@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0E05233D-79B0-4FC7-B13C-91B6B1F57E89
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortSetUnitAttributes routine [Storage Devices], storport/StorPortSetUnitAttributes, storage.storportsetunitattributes, StorPortSetUnitAttributes
+ms.keywords: ",  , A, P, S, StorPortSetUnitAttributes, StorPortSetUnitAttributes routine [Storage Devices], U, b, e, i, n, o, r, s, storage.storportsetunitattributes, storport/StorPortSetUnitAttributes, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,7 +151,7 @@ A miniport driver will call this routine to register the unit attributes with St
 
 
 
-<a href="..\minitape\ns-minitape-_stor_address.md">STOR_ADDRESS</a>
+<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
 
 
 

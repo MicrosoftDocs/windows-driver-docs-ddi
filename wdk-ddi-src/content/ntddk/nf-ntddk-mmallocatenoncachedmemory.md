@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aabad72e-2636-47cd-9986-f50ab5101e68
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/MmAllocateNonCachedMemory, MmAllocateNonCachedMemory, k106_a52baa62-3e10-4158-98e5-5e4dce16ee6a.xml, MmAllocateNonCachedMemory routine [Kernel-Mode Driver Architecture], kernel.mmallocatenoncachedmemory
+ms.keywords: ",  , A, C, M, MmAllocateNonCachedMemory, MmAllocateNonCachedMemory routine [Kernel-Mode Driver Architecture], N, a, c, d, e, h, k106_a52baa62-3e10-4158-98e5-5e4dce16ee6a.xml, kernel.mmallocatenoncachedmemory, l, m, n, ntddk/MmAllocateNonCachedMemory, o, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,7 @@ If the requested memory cannot be allocated, the return value is <b>NULL</b>. Ot
 
 
 
-<b>MmAllocateNonCachedMemory</b> can be called from a <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine to allocate a noncached block of virtual memory for various device-specific buffers. The function always returns a full multiple of the virtual memory page size, of nonpaged system-address-space memory, regardless of the requested allocation size.
+<b>MmAllocateNonCachedMemory</b> can be called from a <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine to allocate a noncached block of virtual memory for various device-specific buffers. The function always returns a full multiple of the virtual memory page size, of nonpaged system-address-space memory, regardless of the requested allocation size.
 
 Noncached allocations are aligned on an integral multiple of the processor's data-cache-line size to prevent cache and coherency problems.
 
@@ -98,14 +98,6 @@ The physical memory pages that <b>MmAllocateNonCachedMemory</b> returns are typi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
-
-
-
 <a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
 
 
@@ -114,7 +106,15 @@ The physical memory pages that <b>MmAllocateNonCachedMemory</b> returns are typi
 
 
 
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552087">KeGetDcacheFillSize</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
 
 
 

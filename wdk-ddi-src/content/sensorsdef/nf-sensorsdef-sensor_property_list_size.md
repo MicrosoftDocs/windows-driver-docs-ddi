@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 17B53AAF-5027-4E45-ABAF-566771DDF1DE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices], SENSOR_PROPERTY_LIST_SIZE, sensorsdef/SENSOR_PROPERTY_LIST_SIZE, sensors.sensor_property_list_size
+ms.keywords: ",  , E, I, L, N, O, P, R, S, SENSOR_PROPERTY_LIST_SIZE, SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices], T, Y, Z, _, sensors.sensor_property_list_size, sensorsdef/SENSOR_PROPERTY_LIST_SIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

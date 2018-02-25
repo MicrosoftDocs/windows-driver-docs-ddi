@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8326f683-3952-486e-b322-80ce96759366
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZONE_DESCRIPTIOR, scsi/PZONE_DESCRIPTIOR, PZONE_DESCRIPTIOR structure pointer [Storage Devices], ZONE_DESCRIPTIOR structure [Storage Devices], PZONE_DESCRIPTIOR, _ZONE_DESCRIPTIOR, storage.zone_descriptior, scsi/ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
+ms.keywords: ",  , *, *PZONE_DESCRIPTIOR, ,, C, D, E, I, N, O, P, PZONE_DESCRIPTIOR, PZONE_DESCRIPTIOR structure pointer [Storage Devices], R, S, T, Z, ZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR structure [Storage Devices], _, _ZONE_DESCRIPTIOR, scsi/PZONE_DESCRIPTIOR, scsi/ZONE_DESCRIPTIOR, storage.zone_descriptior"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

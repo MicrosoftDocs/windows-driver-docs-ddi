@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f0b7d982-735f-489c-b9f8-81a287f6722a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvGetWiaFormatInfo method, IWiaMiniDrv::drvGetWiaFormatInfo, wiamindr_lh/IWiaMiniDrv::drvGetWiaFormatInfo, drvGetWiaFormatInfo method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_6c0cb527-6884-4b7d-a7cc-0e09c1774b7f.xml, IWiaMiniDrv, drvGetWiaFormatInfo, drvGetWiaFormatInfo method [Imaging Devices], image.iwiaminidrv_drvgetwiaformatinfo
+ms.keywords: ",  , ,, ., :, D, F, G, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvGetWiaFormatInfo method, IWiaMiniDrv::drvGetWiaFormatInfo, M, MiniDrv_6c0cb527-6884-4b7d-a7cc-0e09c1774b7f.xml, W, a, d, drvGetWiaFormatInfo method [Imaging Devices], drvGetWiaFormatInfo method [Imaging Devices], IWiaMiniDrv interface, drvGetWiaFormatInfo,IWiaMiniDrv.drvGetWiaFormatInfo, e, f, i, image.iwiaminidrv_drvgetwiaformatinfo, m, n, o, r, t, v, wiamindr_lh/IWiaMiniDrv::drvGetWiaFormatInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

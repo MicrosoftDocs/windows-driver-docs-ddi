@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C89203F9-FCCF-4D71-8E8A-9F5F4AE89004
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugcontrol5_outputstacktraceex, IDebugControl5::OutputStackTraceEx, OutputStackTraceEx, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::OutputStackTraceEx, IDebugControl5, OutputStackTraceEx method [Windows Debugging]
+ms.keywords: ",  , ,, ., 5, :, C, D, E, I, IDebugControl5, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, IDebugControl5::OutputStackTraceEx, O, OutputStackTraceEx method [Windows Debugging], OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface, OutputStackTraceEx,IDebugControl5.OutputStackTraceEx, S, T, a, b, c, dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex, e, g, k, l, n, o, p, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -247,7 +247,11 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818564">GetContextStackTraceEx</a>
 
 
 
@@ -255,11 +259,7 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818564">GetContextStackTraceEx</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 

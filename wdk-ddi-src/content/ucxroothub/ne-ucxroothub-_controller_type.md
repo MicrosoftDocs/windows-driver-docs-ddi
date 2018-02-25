@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E7DFBFFA-C65B-4757-8DB8-202760D6D3C6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxroothub/ControllerTypeXhci, ucxroothub/ControllerTypeSoftXhci, ucxroothub/_CONTROLLER_TYPE, buses._controller_type, ControllerTypeSoftXhci, ControllerTypeXhci, _CONTROLLER_TYPE, CONTROLLER_TYPE, _CONTROLLER_TYPE enumeration [Buses]
+ms.keywords: ",  , ,, C, CONTROLLER_TYPE, ControllerTypeSoftXhci, ControllerTypeXhci, E, L, N, O, P, R, T, Y, _, _CONTROLLER_TYPE, _CONTROLLER_TYPE enumeration [Buses], buses._controller_type, ucxroothub/ControllerTypeSoftXhci, ucxroothub/ControllerTypeXhci, ucxroothub/_CONTROLLER_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

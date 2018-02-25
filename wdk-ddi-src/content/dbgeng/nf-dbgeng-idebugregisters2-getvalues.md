@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d78c54a7-04a5-4c51-bf33-a5b7fb937897
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetValues method, IDebugRegisters2 interface [Windows Debugging], GetValues method, GetValues, debugger.getvalues, GetValues method [Windows Debugging], IDebugRegisters2::GetValues, GetValues method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::GetValues, IDebugRegisters2, GetValues method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters::GetValues, IDebugRegisters_46e390ee-fd0c-4f5f-babc-d76c10ca2780.xml, IDebugRegisters::GetValues
+ms.keywords: ",  , ,, ., 2, :, D, G, GetValues method [Windows Debugging], GetValues method [Windows Debugging], IDebugRegisters interface, GetValues method [Windows Debugging], IDebugRegisters2 interface, GetValues,IDebugRegisters.GetValues, GetValues,IDebugRegisters2.GetValues, I, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetValues method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetValues method, IDebugRegisters2::GetValues, IDebugRegisters::GetValues, IDebugRegisters_46e390ee-fd0c-4f5f-babc-d76c10ca2780.xml, R, V, a, b, dbgeng/IDebugRegisters2::GetValues, dbgeng/IDebugRegisters::GetValues, debugger.getvalues, e, g, i, l, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -160,11 +160,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
@@ -172,7 +172,7 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 

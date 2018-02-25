@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 730b5fae-3536-44ed-8f92-e4563a137be9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsMethodHandler function [Streaming Media Devices], ks/KsMethodHandler, ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml, stream.ksmethodhandler, KsMethodHandler
+ms.keywords: ",  , H, K, KsMethodHandler, KsMethodHandler function [Streaming Media Devices], M, a, d, e, h, ks/KsMethodHandler, ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml, l, n, o, r, s, stream.ksmethodhandler, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

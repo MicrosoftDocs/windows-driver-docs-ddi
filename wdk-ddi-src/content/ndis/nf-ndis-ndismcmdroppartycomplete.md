@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba0e11d9-3bb1-412c-9b33-9362d774adee
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndismcmdroppartycomplete, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml, NdisMCmDropPartyComplete, ndis/NdisMCmDropPartyComplete
+ms.keywords: ",  , C, D, M, N, NdisMCmDropPartyComplete, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista], P, a, condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml, d, e, i, l, m, ndis/NdisMCmDropPartyComplete, netvista.ndismcmdroppartycomplete, o, p, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -135,11 +135,11 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
 
 
 

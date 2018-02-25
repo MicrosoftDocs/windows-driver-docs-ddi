@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 06b07b50-577c-4762-aea6-38bd1ada8973
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NV_FEATURE_PARAMETER structure [Storage Devices], NV_FEATURE_PARAMETER, storage.nv_feature_parameter, *PNV_FEATURE_PARAMETER, structs-nvcache_ac844d4b-783b-4248-8699-353eef5a3d52.xml, PNV_FEATURE_PARAMETER, ntddscsi/NV_FEATURE_PARAMETER, _NV_FEATURE_PARAMETER, PNV_FEATURE_PARAMETER structure pointer [Storage Devices], ntddscsi/PNV_FEATURE_PARAMETER
+ms.keywords: ",  , *, *PNV_FEATURE_PARAMETER, ,, A, E, F, M, N, NV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER structure [Storage Devices], P, PNV_FEATURE_PARAMETER, PNV_FEATURE_PARAMETER structure pointer [Storage Devices], R, T, U, V, _, _NV_FEATURE_PARAMETER, ntddscsi/NV_FEATURE_PARAMETER, ntddscsi/PNV_FEATURE_PARAMETER, storage.nv_feature_parameter, structs-nvcache_ac844d4b-783b-4248-8699-353eef5a3d52.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

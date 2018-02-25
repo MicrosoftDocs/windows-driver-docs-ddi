@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 04B8EE71-59F9-4DE4-AD36-846632D3EBB4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SendPowerControl, audio.iportclsruntimepower_sendpowercontrol, IPortClsRuntimePower::SendPowerControl, portcls/IPortClsRuntimePower::SendPowerControl, IPortClsRuntimePower interface [Audio Devices], SendPowerControl method, SendPowerControl method [Audio Devices], IPortClsRuntimePower, SendPowerControl method [Audio Devices], IPortClsRuntimePower interface
+ms.keywords: ",  , ,, ., :, C, I, IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], SendPowerControl method, IPortClsRuntimePower::SendPowerControl, P, R, S, SendPowerControl method [Audio Devices], SendPowerControl method [Audio Devices], IPortClsRuntimePower interface, SendPowerControl,IPortClsRuntimePower.SendPowerControl, audio.iportclsruntimepower_sendpowercontrol, d, e, i, l, m, n, o, portcls/IPortClsRuntimePower::SendPowerControl, r, s, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

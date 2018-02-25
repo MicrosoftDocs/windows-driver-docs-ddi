@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7C88F794-0C2B-4715-B09A-2AA49414F18A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2systemdmareceivecancelnewdatanotification, EvtSerCx2SystemDmaReceiveCancelNewDataNotification callback function [Serial Ports], EvtSerCx2SystemDmaReceiveCancelNewDataNotification, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION, 2/EvtSerCx2SystemDmaReceiveCancelNewDataNotification
+ms.keywords: 2/EvtSerCx2SystemDmaReceiveCancelNewDataNotification, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION, EvtSerCx2SystemDmaReceiveCancelNewDataNotification, EvtSerCx2SystemDmaReceiveCancelNewDataNotification callback function [Serial Ports], serports.evtsercx2systemdmareceivecancelnewdatanotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -143,15 +143,15 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION</b> function t
 
 
 
+<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+
+
+
 <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a>
 
 
 
 <a href="..\sercx\nf-sercx-sercx2systemdmareceivenewdatanotification.md">SerCx2SystemDmaReceiveNewDataNotification</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ADBAB25B-7646-4E0E-AFD8-18B87A293674
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/PsInsertPermanentSiloContext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], PsInsertPermanentSiloContext, kernel.psinsertpermanentsilocontext
+ms.keywords: ",  , C, I, P, PsInsertPermanentSiloContext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], S, a, e, i, kernel.psinsertpermanentsilocontext, l, m, n, ntddk/PsInsertPermanentSiloContext, o, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

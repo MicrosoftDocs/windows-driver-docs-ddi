@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a91311e-c8b9-4f28-b72e-9f93d459aac2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, display.dxgi_gamma_control_capabiliites, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES, DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILIITES
+ms.keywords: ",  , ,, A, B, C, D, DXGI_GAMMA_CONTROL_CAPABILIITES, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES, DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], E, G, I, L, M, N, O, P, R, S, T, UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, X, _, display.dxgi_gamma_control_capabiliites, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

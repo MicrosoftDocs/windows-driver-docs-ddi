@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c60b1d7b-b82d-4f59-a076-2122da97a161
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, GetExpressionSyntaxNames, IDebugControl3::GetExpressionSyntaxNames, dbgeng/IDebugControl3::GetExpressionSyntaxNames, IDebugControl3, GetExpressionSyntaxNames method [Windows Debugging], debugger.getexpressionsyntaxnames, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method
+ms.keywords: ",  , ,, ., 3, :, C, D, E, G, GetExpressionSyntaxNames method [Windows Debugging], GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface, GetExpressionSyntaxNames,IDebugControl3.GetExpressionSyntaxNames, I, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method, IDebugControl3::GetExpressionSyntaxNames, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, N, S, a, b, dbgeng/IDebugControl3::GetExpressionSyntaxNames, debugger.getexpressionsyntaxnames, e, g, i, l, m, n, o, p, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -162,15 +162,15 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547913">GetNumberExpressionSyntaxes</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

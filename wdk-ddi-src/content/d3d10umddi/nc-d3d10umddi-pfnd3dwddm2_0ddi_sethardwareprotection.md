@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9D41C504-1F84-4F1A-B767-D3B423A8AA46
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.sethardwareprotection, pfnSetHardwareProtection callback function [Display Devices], pfnSetHardwareProtection, PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, d3d10umddi/pfnSetHardwareProtection
+ms.keywords: PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, d3d10umddi/pfnSetHardwareProtection, display.sethardwareprotection, pfnSetHardwareProtection, pfnSetHardwareProtection callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -116,11 +116,11 @@ Destroying and re-creating the DWM swap chain buffers is a heavyweight operation
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 

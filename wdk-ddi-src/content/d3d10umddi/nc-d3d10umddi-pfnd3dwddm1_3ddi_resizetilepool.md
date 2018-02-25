@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 184EF418-1B1E-4A10-8F10-1331DF99DCBD
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.resizetilepool, ResizeTilePool callback function [Display Devices], ResizeTilePool, PFND3DWDDM1_3DDI_RESIZETILEPOOL, PFND3DWDDM1_3DDI_RESIZETILEPOOL, d3d10umddi/ResizeTilePool
+ms.keywords: PFND3DWDDM1_3DDI_RESIZETILEPOOL, ResizeTilePool, ResizeTilePool callback function [Display Devices], d3d10umddi/ResizeTilePool, display.resizetilepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

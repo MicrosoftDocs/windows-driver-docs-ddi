@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cee254a5-7b77-4cab-b02c-69b1f9e3fe02
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetProcessorTypeNames, IDebugControl interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, GetProcessorTypeNames method [Windows Debugging], IDebugControl interface, IDebugControl3, IDebugControl3::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], dbgeng/IDebugControl3::GetProcessorTypeNames, dbgeng/IDebugControl::GetProcessorTypeNames, IDebugControl2::GetProcessorTypeNames, debugger.getprocessortypenames, IDebugControl::GetProcessorTypeNames, dbgeng/IDebugControl2::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, IDebugControl, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface, GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method
+ms.keywords: ",  , ,, ., 3, :, C, D, G, GetProcessorTypeNames method [Windows Debugging], GetProcessorTypeNames method [Windows Debugging], IDebugControl interface, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface, GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, GetProcessorTypeNames,IDebugControl.GetProcessorTypeNames, GetProcessorTypeNames,IDebugControl2.GetProcessorTypeNames, GetProcessorTypeNames,IDebugControl3.GetProcessorTypeNames, I, IDebugControl, IDebugControl interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl2::GetProcessorTypeNames, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3::GetProcessorTypeNames, IDebugControl::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, N, P, T, a, b, c, dbgeng/IDebugControl2::GetProcessorTypeNames, dbgeng/IDebugControl3::GetProcessorTypeNames, dbgeng/IDebugControl::GetProcessorTypeNames, debugger.getprocessortypenames, e, g, l, m, n, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -160,6 +160,10 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
@@ -169,10 +173,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

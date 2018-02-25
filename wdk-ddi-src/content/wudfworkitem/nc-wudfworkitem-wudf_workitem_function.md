@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.onworkitem, OnWorkItem callback function, OnWorkItem, WUDF_WORKITEM_FUNCTION, WUDF_WORKITEM_FUNCTION, wudfworkitem/OnWorkItem, wudfworkitem/PFN_WUDF_WORKITEM, PFN_WUDF_WORKITEM callback function pointer, PFN_WUDF_WORKITEM, umdf.onworkitem
+ms.keywords: OnWorkItem, OnWorkItem callback function, PFN_WUDF_WORKITEM, PFN_WUDF_WORKITEM callback function pointer, WUDF_WORKITEM_FUNCTION, umdf.onworkitem, wdf.onworkitem, wudfworkitem/OnWorkItem, wudfworkitem/PFN_WUDF_WORKITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -158,15 +158,15 @@ Then, implement your callback function as follows:
 
 ## -see-also
 
-<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
 
 
 
 <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
+
+
+
+<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4258f223-353a-4b6e-a93c-5742e5c1668b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_WHEA_REVISION, whea.whea_revision, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml, PWHEA_REVISION, ntddk/WHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], PWHEA_REVISION union pointer [WHEA Drivers and Applications], ntddk/PWHEA_REVISION, WHEA_REVISION, *PWHEA_REVISION"
+ms.keywords: ",  , *, *PWHEA_REVISION, ,, A, E, H, I, N, O, P, PWHEA_REVISION, PWHEA_REVISION union pointer [WHEA Drivers and Applications], R, S, V, W, WHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], _, _WHEA_REVISION, ntddk/PWHEA_REVISION, ntddk/WHEA_REVISION, whea.whea_revision, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

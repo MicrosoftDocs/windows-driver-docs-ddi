@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 92cb270c-1548-4239-81cd-5b3483769fc8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setstreamsourcefreq, SetStreamSourceFreq callback function [Display Devices], SetStreamSourceFreq, PFND3DDDI_SETSTREAMSOURCEFREQ, PFND3DDDI_SETSTREAMSOURCEFREQ, d3dumddi/SetStreamSourceFreq, UserModeDisplayDriver_Functions_4cb72b36-4cea-424f-b7a3-149435170f24.xml
+ms.keywords: PFND3DDDI_SETSTREAMSOURCEFREQ, SetStreamSourceFreq, SetStreamSourceFreq callback function [Display Devices], UserModeDisplayDriver_Functions_4cb72b36-4cea-424f-b7a3-149435170f24.xml, d3dumddi/SetStreamSourceFreq, display.setstreamsourcefreq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,15 +141,15 @@ The driver ignores the setting of a stream's frequency divisor either for indexe
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourcefreq.md">D3DDDIARG_SETSTREAMSOURCEFREQ</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive.md">D3DDDIARG_DRAWPRIMITIVE</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourcefreq.md">D3DDDIARG_SETSTREAMSOURCEFREQ</a>
 
 
 

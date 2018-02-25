@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d5bf5fa0-12c0-4971-91bc-775c59d45d60
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_SendSupServiceData, RIL_SendSupServiceData method [Network Drivers Starting with Windows Vista], RIL_SendSupServiceData, netvista.ril_sendsupservicedata
+ms.keywords: ",  , D, I, L, R, RIL_SendSupServiceData, RIL_SendSupServiceData method [Network Drivers Starting with Windows Vista], S, _, a, c, d, e, i, n, netvista.ril_sendsupservicedata, p, r, rilapi/RIL_SendSupServiceData, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1dc18c48-2331-4980-b741-59a73d3edaa6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFResourceObjectRef_a4c6729c-ba18-49e0-8e8c-94c70c5c9e8a.xml, wdf.wdfioresourcerequirementslistsetslotnumber, WdfIoResourceRequirementsListSetSlotNumber, WdfIoResourceRequirementsListSetSlotNumber method, wdfresource/WdfIoResourceRequirementsListSetSlotNumber, kmdf.wdfioresourcerequirementslistsetslotnumber
+ms.keywords: ",  , DFResourceObjectRef_a4c6729c-ba18-49e0-8e8c-94c70c5c9e8a.xml, I, L, N, R, S, W, WdfIoResourceRequirementsListSetSlotNumber, WdfIoResourceRequirementsListSetSlotNumber method, b, c, d, e, f, i, kmdf.wdfioresourcerequirementslistsetslotnumber, l, m, n, o, q, r, s, t, u, wdf.wdfioresourcerequirementslistsetslotnumber, wdfresource/WdfIoResourceRequirementsListSetSlotNumber"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

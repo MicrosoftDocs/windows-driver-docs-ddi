@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 3D8907A2-E53E-40D9-870A-AF0EB062E81F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: pos.evt_pos_cx_device_remote_claim, EvtPosCxDeviceRemoteClaim callback function, EvtPosCxDeviceRemoteClaim, EVT_POS_CX_DEVICE_REMOTE_CLAIM, EVT_POS_CX_DEVICE_REMOTE_CLAIM, poscx/EvtPosCxDeviceRemoteClaim
+ms.keywords: EVT_POS_CX_DEVICE_REMOTE_CLAIM, EvtPosCxDeviceRemoteClaim, EvtPosCxDeviceRemoteClaim callback function, pos.evt_pos_cx_device_remote_claim, poscx/EvtPosCxDeviceRemoteClaim
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

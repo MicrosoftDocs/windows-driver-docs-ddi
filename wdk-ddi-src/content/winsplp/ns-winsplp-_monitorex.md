@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f03f72a8-8dc1-4e27-b89b-1afea16a177a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*LPMONITOREX, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, LPMONITOREX, winsplp/LPMONITOREX, MONITOREX, MONITOREX structure [Print Devices], print.monitorex, winsplp/MONITOREX, LPMONITOREX structure pointer [Print Devices], _MONITOREX"
+ms.keywords: ",  , *, *LPMONITOREX, ,, E, I, L, LPMONITOREX, LPMONITOREX structure pointer [Print Devices], M, MONITOREX, MONITOREX structure [Print Devices], N, O, P, R, T, X, _, _MONITOREX, print.monitorex, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, winsplp/LPMONITOREX, winsplp/MONITOREX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

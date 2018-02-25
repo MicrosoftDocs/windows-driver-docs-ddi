@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e04e4567-5ae6-4349-9876-0c2b55c340e0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetExpressionSyntax method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetExpressionSyntax method, GetExpressionSyntax method [Windows Debugging], IDebugControl3 interface, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, IDebugControl3::GetExpressionSyntax, debugger.getexpressionsyntax, dbgeng/IDebugControl3::GetExpressionSyntax, IDebugControl3, GetExpressionSyntax
+ms.keywords: ",  , ,, ., 3, :, C, D, E, G, GetExpressionSyntax method [Windows Debugging], GetExpressionSyntax method [Windows Debugging], IDebugControl3 interface, GetExpressionSyntax,IDebugControl3.GetExpressionSyntax, I, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetExpressionSyntax method, IDebugControl3::GetExpressionSyntax, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, S, a, b, dbgeng/IDebugControl3::GetExpressionSyntax, debugger.getexpressionsyntax, e, g, i, l, n, o, p, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,19 +116,19 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

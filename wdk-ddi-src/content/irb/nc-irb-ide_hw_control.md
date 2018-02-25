@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 53f85f8d-3b50-4cfe-8bdd-d41d8c057f3e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.idehwcontrol, IdeHwControl routine [Storage Devices], IdeHwControl, IDE_HW_CONTROL, IDE_HW_CONTROL, irb/IdeHwControl, atartns_9c868c08-5470-4940-9067-0aa8a796b191.xml
+ms.keywords: IDE_HW_CONTROL, IdeHwControl, IdeHwControl routine [Storage Devices], atartns_9c868c08-5470-4940-9067-0aa8a796b191.xml, irb/IdeHwControl, storage.idehwcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

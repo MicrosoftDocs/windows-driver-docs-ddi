@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2f0a7462-83a6-47df-b5f6-b3706b875349
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.querybegin, QueryBegin callback function [Display Devices], QueryBegin, PFND3D10DDI_QUERYBEGIN, PFND3D10DDI_QUERYBEGIN, d3d10umddi/QueryBegin, UserModeDisplayDriverDx10_Functions_d456daf9-09b9-4174-8eba-7591ec45cd20.xml
+ms.keywords: PFND3D10DDI_QUERYBEGIN, QueryBegin, QueryBegin callback function [Display Devices], UserModeDisplayDriverDx10_Functions_d456daf9-09b9-4174-8eba-7591ec45cd20.xml, d3d10umddi/QueryBegin, display.querybegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -119,7 +119,7 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_queryend.md">QueryEnd</a>
 
 
 
@@ -127,7 +127,7 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_queryend.md">QueryEnd</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 

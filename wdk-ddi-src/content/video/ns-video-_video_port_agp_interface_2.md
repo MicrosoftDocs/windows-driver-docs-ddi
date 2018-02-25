@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 626cbf2d-2841-4b52-b17d-5377aa2f6264
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_VIDEO_PORT_AGP_INTERFACE_2, *PVIDEO_PORT_AGP_INTERFACE_2, display.video_port_agp_interface_2, VIDEO_PORT_AGP_INTERFACE_2 structure [Display Devices], video/PVIDEO_PORT_AGP_INTERFACE_2, Video_Structs_99a2957c-7304-4e59-9609-748a5d7b878b.xml, video/VIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2 structure pointer [Display Devices], VIDEO_PORT_AGP_INTERFACE_2"
+ms.keywords: ",  , *, *PVIDEO_PORT_AGP_INTERFACE_2, ,, 2, A, C, D, E, F, G, I, N, O, P, PVIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2 structure pointer [Display Devices], R, T, V, VIDEO_PORT_AGP_INTERFACE_2, VIDEO_PORT_AGP_INTERFACE_2 structure [Display Devices], Video_Structs_99a2957c-7304-4e59-9609-748a5d7b878b.xml, _, _VIDEO_PORT_AGP_INTERFACE_2, display.video_port_agp_interface_2, video/PVIDEO_PORT_AGP_INTERFACE_2, video/VIDEO_PORT_AGP_INTERFACE_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

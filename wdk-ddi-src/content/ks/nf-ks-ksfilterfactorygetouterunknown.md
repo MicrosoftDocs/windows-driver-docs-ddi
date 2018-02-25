@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 65244091-6089-4d0c-abf4-1178cf0bf1b5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsFilterFactoryGetOuterUnknown, avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml, stream.ksfilterfactorygetouterunknown, KsFilterFactoryGetOuterUnknown function [Streaming Media Devices], ks/KsFilterFactoryGetOuterUnknown
+ms.keywords: ",  , F, G, K, KsFilterFactoryGetOuterUnknown, KsFilterFactoryGetOuterUnknown function [Streaming Media Devices], O, U, a, avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml, c, e, i, k, ks/KsFilterFactoryGetOuterUnknown, l, n, o, r, s, stream.ksfilterfactorygetouterunknown, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
+
+
+
 <a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
-
-
-
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
 
 
 
@@ -111,11 +111,11 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 
 
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+
+
 <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-
-
-
-<a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
 
 
 

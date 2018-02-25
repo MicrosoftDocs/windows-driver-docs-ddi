@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8e55f829-2f55-4b83-8e0d-2554246a5d59
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugClient5::GetIdentityWide, GetIdentityWide method [Windows Debugging], debugger.getidentitywide, IDebugClient5 interface [Windows Debugging], GetIdentityWide method, IDebugClient5::GetIdentityWide, GetIdentityWide, GetIdentityWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5
+ms.keywords: ",  , ,, ., 5, :, C, D, G, GetIdentityWide method [Windows Debugging], GetIdentityWide method [Windows Debugging], IDebugClient5 interface, GetIdentityWide,IDebugClient5.GetIdentityWide, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetIdentityWide method, IDebugClient5::GetIdentityWide, W, b, d, dbgeng/IDebugClient5::GetIdentityWide, debugger.getidentitywide, e, g, i, l, n, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,11 +136,11 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553219">OutputIdentity</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

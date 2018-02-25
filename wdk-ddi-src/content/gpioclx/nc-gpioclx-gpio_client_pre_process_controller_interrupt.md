@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: BC97E260-D77C-4ACD-B431-0CE6D745B37B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_preprocesscontrollerinterrupt, CLIENT_PreProcessControllerInterrupt callback function [Parallel Ports], CLIENT_PreProcessControllerInterrupt, GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT, GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT, gpioclx/CLIENT_PreProcessControllerInterrupt
+ms.keywords: CLIENT_PreProcessControllerInterrupt, CLIENT_PreProcessControllerInterrupt callback function [Parallel Ports], GPIO.client_preprocesscontrollerinterrupt, GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT, gpioclx/CLIENT_PreProcessControllerInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

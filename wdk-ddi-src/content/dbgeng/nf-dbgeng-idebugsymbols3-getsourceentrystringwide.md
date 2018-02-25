@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CDB72C6A-43E5-463B-97E5-44D22214C071
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetSourceEntryStringWide, GetSourceEntryStringWide method [Windows Debugging], GetSourceEntryStringWide, GetSourceEntryStringWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, debugger.idebugsymbols3_getsourceentrystringwide, IDebugSymbols3::GetSourceEntryStringWide, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryStringWide method
+ms.keywords: ",  , ,, ., 3, :, D, E, G, GetSourceEntryStringWide method [Windows Debugging], GetSourceEntryStringWide method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntryStringWide,IDebugSymbols3.GetSourceEntryStringWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryStringWide method, IDebugSymbols3::GetSourceEntryStringWide, S, W, b, c, d, dbgeng/IDebugSymbols3::GetSourceEntryStringWide, debugger.idebugsymbols3_getsourceentrystringwide, e, g, i, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

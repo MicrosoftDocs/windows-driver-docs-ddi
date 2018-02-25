@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12008d80-8bcb-4289-97ea-d3325731a95f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbsetpowercomponentactive, DxgkCbSetPowerComponentActive callback function [Display Devices], DxgkCbSetPowerComponentActive, DXGKCB_SETPOWERCOMPONENTACTIVE, DXGKCB_SETPOWERCOMPONENTACTIVE, d3dkmddi/DxgkCbSetPowerComponentActive
+ms.keywords: DXGKCB_SETPOWERCOMPONENTACTIVE, DxgkCbSetPowerComponentActive, DxgkCbSetPowerComponentActive callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentActive, display.dxgkcbsetpowercomponentactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,15 +109,15 @@ While calling this function, the display miniport driver might receive a call to
 
 
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddisetpowercomponentfstate.md">DxgkDdiSetPowerComponentFState</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentidle.md">DxgkCbSetPowerComponentIdle</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
 
 
@@ -125,7 +125,7 @@ While calling this function, the display miniport driver might receive a call to
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentidle.md">DxgkCbSetPowerComponentIdle</a>
 
 
 

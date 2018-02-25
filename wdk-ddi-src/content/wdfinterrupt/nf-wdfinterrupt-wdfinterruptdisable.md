@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8ece6a3f-2f25-4143-8f0e-c65c02794cc4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfinterruptdisable, WdfInterruptDisable, WdfInterruptDisable method, wdf.wdfinterruptdisable, wdfinterrupt/WdfInterruptDisable, DFInterruptObjectRef_05ca577a-87b3-419a-a3f8-ee57b0765701.xml
+ms.keywords: ",  , D, DFInterruptObjectRef_05ca577a-87b3-419a-a3f8-ee57b0765701.xml, I, W, WdfInterruptDisable, WdfInterruptDisable method, a, b, d, e, f, i, kmdf.wdfinterruptdisable, l, n, p, r, s, t, u, wdf.wdfinterruptdisable, wdfinterrupt/WdfInterruptDisable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ae1ed49-af07-4e34-80fa-34a55c973cfb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_SendMsg, RIL_SendMsg, netvista.ril_sendmsg, RIL_SendMsg method [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , I, L, M, R, RIL_SendMsg, RIL_SendMsg method [Network Drivers Starting with Windows Vista], S, _, d, e, g, n, netvista.ril_sendmsg, rilapi/RIL_SendMsg, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

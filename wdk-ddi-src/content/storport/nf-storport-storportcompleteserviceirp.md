@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 359b1096-f987-4884-ab67-2290bf5196b5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortCompleteServiceIrp, storage.storportcompleteserviceirp, StorPortCompleteServiceIrp routine [Storage Devices], StorPortCompleteServiceIrp, storprt_439990ea-8133-4114-b417-1c88e53cce14.xml
+ms.keywords: ",  , C, I, P, S, StorPortCompleteServiceIrp, StorPortCompleteServiceIrp routine [Storage Devices], c, e, i, l, m, o, p, r, storage.storportcompleteserviceirp, storport/StorPortCompleteServiceIrp, storprt_439990ea-8133-4114-b417-1c88e53cce14.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

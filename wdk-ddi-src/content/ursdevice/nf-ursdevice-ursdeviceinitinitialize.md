@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: EFA83238-77DF-474D-8F8F-2400C9B23A00
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UrsDeviceInitInitialize, buses.ursdeviceinitinitialize, UrsDeviceInitInitialize method [Buses], ursdevice/UrsDeviceInitInitialize
+ms.keywords: ",  , D, I, U, UrsDeviceInitInitialize, UrsDeviceInitInitialize method [Buses], a, buses.ursdeviceinitinitialize, c, e, i, l, n, r, s, t, ursdevice/UrsDeviceInitInitialize, v, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

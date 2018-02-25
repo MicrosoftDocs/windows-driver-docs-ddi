@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e051d49-57ae-43c8-a894-a6c2c277dce9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dispmprt/DOCKING_STATE, DockStateDocked, DOCKING_STATE, DOCKING_STATE enumeration [Display Devices], DockStateUnDocked, dispmprt/DockStateUnDocked, dispmprt/DockStateDocked, DockStateUnsupported, display.docking_state, dispmprt/DockStateUnknown, DmEnums_1a20e5b4-8df9-4298-8661-d7697d99e139.xml, dispmprt/DockStateUnsupported, DockStateUnknown
+ms.keywords: ",  , ,, A, C, D, DOCKING_STATE, DOCKING_STATE enumeration [Display Devices], DmEnums_1a20e5b4-8df9-4298-8661-d7697d99e139.xml, DockStateDocked, DockStateUnDocked, DockStateUnknown, DockStateUnsupported, E, G, I, K, N, O, S, T, _, display.docking_state, dispmprt/DOCKING_STATE, dispmprt/DockStateDocked, dispmprt/DockStateUnDocked, dispmprt/DockStateUnknown, dispmprt/DockStateUnsupported"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

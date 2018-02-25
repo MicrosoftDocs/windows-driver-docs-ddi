@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 00c5f766-299e-4c07-a3e0-61077518a37a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDsmSetLoadBalancePolicyALUA_OUT, storage.dsmsetloadbalancepolicyalua_out, mpiodisk/DsmSetLoadBalancePolicyALUA_OUT, structs-scsibus_59bfe47a-52c1-4a7c-95c4-784f0e8ae92e.xml, DsmSetLoadBalancePolicyALUA_OUT, PDsmSetLoadBalancePolicyALUA_OUT structure pointer [Storage Devices], mpiodisk/PDsmSetLoadBalancePolicyALUA_OUT, *PDsmSetLoadBalancePolicyALUA_OUT, _DsmSetLoadBalancePolicyALUA_OUT, DsmSetLoadBalancePolicyALUA_OUT structure [Storage Devices]
+ms.keywords: ",  , *, *PDsmSetLoadBalancePolicyALUA_OUT, ,, A, B, D, DsmSetLoadBalancePolicyALUA_OUT, DsmSetLoadBalancePolicyALUA_OUT structure [Storage Devices], L, O, P, PDsmSetLoadBalancePolicyALUA_OUT, PDsmSetLoadBalancePolicyALUA_OUT structure pointer [Storage Devices], S, T, U, _, _DsmSetLoadBalancePolicyALUA_OUT, a, c, d, e, i, l, m, mpiodisk/DsmSetLoadBalancePolicyALUA_OUT, mpiodisk/PDsmSetLoadBalancePolicyALUA_OUT, n, o, s, storage.dsmsetloadbalancepolicyalua_out, structs-scsibus_59bfe47a-52c1-4a7c-95c4-784f0e8ae92e.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

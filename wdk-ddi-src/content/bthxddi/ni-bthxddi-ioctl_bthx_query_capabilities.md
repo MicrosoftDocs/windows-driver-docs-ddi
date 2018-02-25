@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 199C93EC-AB91-47F1-914A-F44BFF1796A6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bthx_query_capabilities, IOCTL_BTHX_QUERY_CAPABILITIES control code [Bluetooth Devices], IOCTL_BTHX_QUERY_CAPABILITIES, bthxddi/IOCTL_BTHX_QUERY_CAPABILITIES
+ms.keywords: IOCTL_BTHX_QUERY_CAPABILITIES, IOCTL_BTHX_QUERY_CAPABILITIES control code [Bluetooth Devices], bltooth.ioctl_bthx_query_capabilities, bthxddi/IOCTL_BTHX_QUERY_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

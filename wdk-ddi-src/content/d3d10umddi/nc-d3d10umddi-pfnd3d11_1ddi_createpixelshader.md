@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8b5d6d2e-6a08-4841-8df5-ca88368a4e26
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createpixelshader_d3d11_1_, CreatePixelShader(D3D11_1) callback function [Display Devices], CreatePixelShader(D3D11_1), PFND3D11_1DDI_CREATEPIXELSHADER, PFND3D11_1DDI_CREATEPIXELSHADER, d3d10umddi/CreatePixelShader(D3D11_1), display.pfncreatepixelshader
+ms.keywords: CreatePixelShader(D3D11_1), CreatePixelShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEPIXELSHADER, d3d10umddi/CreatePixelShader(D3D11_1), display.createpixelshader_d3d11_1_, display.pfncreatepixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -138,7 +138,7 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_stage_io_signatures.md">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a>
 
 
 
@@ -150,7 +150,7 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_stage_io_signatures.md">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
 
 
 

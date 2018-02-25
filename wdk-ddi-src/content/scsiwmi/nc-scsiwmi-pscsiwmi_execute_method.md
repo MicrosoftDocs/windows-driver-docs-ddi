@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 67a82442-591e-4e52-aaaf-b3cdb68c483a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwscsiwmiexecutemethod, HwScsiWmiExecuteMethod, HwScsiWmiExecuteMethod callback function [Storage Devices], HwScsiWmiExecuteMethod, PSCSIWMI_EXECUTE_METHOD, PSCSIWMI_EXECUTE_METHOD, scsiwmi/HwScsiWmiExecuteMethod, Scsimini_a0b3e943-a363-478d-9d68-09acf0c5b591.xml
+ms.keywords: HwScsiWmiExecuteMethod, HwScsiWmiExecuteMethod callback function [Storage Devices], PSCSIWMI_EXECUTE_METHOD, Scsimini_a0b3e943-a363-478d-9d68-09acf0c5b591.xml, scsiwmi/HwScsiWmiExecuteMethod, storage.hwscsiwmiexecutemethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,11 +141,7 @@ The miniport driver executes the method and writes output, if any, to the buffer
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
-
-
-
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 
@@ -153,7 +149,11 @@ The miniport driver executes the method and writes output, if any, to the buffer
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+
+
+
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 

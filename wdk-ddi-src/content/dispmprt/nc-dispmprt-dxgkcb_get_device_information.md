@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cb627eab-93b9-49c5-bd35-4a57220366e7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbgetdeviceinformation, DxgkCbGetDeviceInformation callback function [Display Devices], DxgkCbGetDeviceInformation, DXGKCB_GET_DEVICE_INFORMATION, DXGKCB_GET_DEVICE_INFORMATION, dispmprt/DxgkCbGetDeviceInformation, DpFunctions_e2d65bd6-c28f-46db-acf1-b88ececedb08.xml
+ms.keywords: DXGKCB_GET_DEVICE_INFORMATION, DpFunctions_e2d65bd6-c28f-46db-acf1-b88ececedb08.xml, DxgkCbGetDeviceInformation, DxgkCbGetDeviceInformation callback function [Display Devices], display.dxgkcbgetdeviceinformation, dispmprt/DxgkCbGetDeviceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -92,11 +92,11 @@ A pointer to a <a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVIC
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
-
-
 <a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2755d0fd-9801-4d54-89cb-54f8b984288c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_controller_get_current_framenumber, EvtUcxControllerGetCurrentFrameNumber callback function [Buses], EvtUcxControllerGetCurrentFrameNumber, EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, ucxcontroller/EvtUcxControllerGetCurrentFrameNumber, PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function pointer [Buses], PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
+ms.keywords: EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, EvtUcxControllerGetCurrentFrameNumber, EvtUcxControllerGetCurrentFrameNumber callback function [Buses], PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function pointer [Buses], buses.evt_ucx_controller_get_current_framenumber, ucxcontroller/EvtUcxControllerGetCurrentFrameNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

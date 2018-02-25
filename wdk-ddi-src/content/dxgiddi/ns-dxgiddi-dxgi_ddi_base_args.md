@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e835edb9-7a7e-4258-957a-49877b1ed562
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGI_DDI_BASE_ARGS structure [Display Devices], dxgiddi/DXGI_DDI_BASE_ARGS, display.dxgi_ddi_base_args, UMDisplayDriver_Dx10param_Structs_3dec4197-80df-4de3-96ca-d4f90f23e85d.xml, DXGI_DDI_BASE_ARGS
+ms.keywords: ",  , ,, A, B, D, DXGI_DDI_BASE_ARGS, DXGI_DDI_BASE_ARGS structure [Display Devices], E, G, I, R, S, UMDisplayDriver_Dx10param_Structs_3dec4197-80df-4de3-96ca-d4f90f23e85d.xml, X, _, display.dxgi_ddi_base_args, dxgiddi/DXGI_DDI_BASE_ARGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,7 +110,7 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi1_3_ddi_base_functions.md">DXGI1_3_DDI_BASE_FUNCTIONS</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 
 
@@ -118,15 +118,15 @@ Supported starting with Windows 8.
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi1_2_ddi_base_functions.md">DXGI1_2_DDI_BASE_FUNCTIONS</a>
-
-
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi1_1_ddi_base_functions.md">DXGI1_1_DDI_BASE_FUNCTIONS</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi1_2_ddi_base_functions.md">DXGI1_2_DDI_BASE_FUNCTIONS</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi1_3_ddi_base_functions.md">DXGI1_3_DDI_BASE_FUNCTIONS</a>
 
 
 
@@ -134,7 +134,7 @@ Supported starting with Windows 8.
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi1_1_ddi_base_functions.md">DXGI1_1_DDI_BASE_FUNCTIONS</a>
 
 
 

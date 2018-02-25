@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E1F16454-C8E6-4291-83BB-F4CF18F6DF10
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlMdlReadEx, ifsk.fsrtlmdlreadex, ntifs/FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers]
+ms.keywords: ",  , E, F, FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], M, R, a, d, e, ifsk.fsrtlmdlreadex, l, ntifs/FsRtlMdlReadEx, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -149,11 +149,11 @@ Similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccmdlreadcomplete.md">CcMdlReadComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 

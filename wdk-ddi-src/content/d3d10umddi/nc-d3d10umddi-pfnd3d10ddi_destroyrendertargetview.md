@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ec04fed3-8e43-4f76-af82-b36c7029f0cc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroyrendertargetview, DestroyRenderTargetView callback function [Display Devices], DestroyRenderTargetView, PFND3D10DDI_DESTROYRENDERTARGETVIEW, PFND3D10DDI_DESTROYRENDERTARGETVIEW, d3d10umddi/DestroyRenderTargetView, UserModeDisplayDriverDx10_Functions_a2c751c2-e384-4c1a-a634-97d7f3a581be.xml
+ms.keywords: DestroyRenderTargetView, DestroyRenderTargetView callback function [Display Devices], PFND3D10DDI_DESTROYRENDERTARGETVIEW, UserModeDisplayDriverDx10_Functions_a2c751c2-e384-4c1a-a634-97d7f3a581be.xml, d3d10umddi/DestroyRenderTargetView, display.destroyrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,11 +115,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

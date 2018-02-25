@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5f4e3723-a30d-462d-9e7b-da05aa2e0b3c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetUri method [Print Devices], IPartBase interface, print.ipartbase_geturi, filterpipeline/IPartBase::GetUri, IPartBase interface [Print Devices], GetUri method, GetUri method [Print Devices], IPartBase, IPartBase::GetUri, GetUri, filterpipeline_ae1b8045-4a34-4a66-939c-31363ba66c6b.xml
+ms.keywords: ",  , ,, ., :, B, G, GetUri method [Print Devices], GetUri method [Print Devices], IPartBase interface, GetUri,IPartBase.GetUri, I, IPartBase, IPartBase interface [Print Devices], GetUri method, IPartBase::GetUri, P, U, a, e, filterpipeline/IPartBase::GetUri, filterpipeline_ae1b8045-4a34-4a66-939c-31363ba66c6b.xml, i, print.ipartbase_geturi, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

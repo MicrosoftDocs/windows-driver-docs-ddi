@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f285e319-23ef-4951-8fb3-107cd54a23b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlmultibytetounicodesize, RtlMultiByteToUnicodeSize, ntifs/RtlMultiByteToUnicodeSize, rtlref_f2e77505-7c59-4bb2-993f-622ea16a83c6.xml, RtlMultiByteToUnicodeSize routine [Installable File System Drivers]
+ms.keywords: ",  , B, M, R, RtlMultiByteToUnicodeSize, RtlMultiByteToUnicodeSize routine [Installable File System Drivers], S, T, U, c, d, e, i, ifsk.rtlmultibytetounicodesize, l, n, ntifs/RtlMultiByteToUnicodeSize, o, rtlref_f2e77505-7c59-4bb2-993f-622ea16a83c6.xml, t, u, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

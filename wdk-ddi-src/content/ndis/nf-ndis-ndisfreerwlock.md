@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1f54e8fe-e6a2-4ddd-9451-289d3df21fde
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisFreeRWLock, netvista.ndisfreerwlock, NdisFreeRWLock function [Network Drivers Starting with Windows Vista], NdisFreeRWLock, ndis_processor_group_ref_f711221a-f265-446e-86bc-7b5b4d17f7d9.xml
+ms.keywords: ",  , F, L, N, NdisFreeRWLock, NdisFreeRWLock function [Network Drivers Starting with Windows Vista], R, W, c, d, e, i, k, ndis/NdisFreeRWLock, ndis_processor_group_ref_f711221a-f265-446e-86bc-7b5b4d17f7d9.xml, netvista.ndisfreerwlock, o, r, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,7 @@ A driver must call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
 
 
 
@@ -115,7 +115,7 @@ A driver must call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
 
 
 

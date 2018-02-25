@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 405D1D3F-FC01-4223-8E28-B3FD3F0516F7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdmatransactionconfiguredmachannel, EvtDmaTransactionConfigureDmaChannel callback function, EvtDmaTransactionConfigureDmaChannel, EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL, EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL, wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel, kmdf.evtdmatransactionconfiguredmachannel
+ms.keywords: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL, EvtDmaTransactionConfigureDmaChannel, EvtDmaTransactionConfigureDmaChannel callback function, kmdf.evtdmatransactionconfiguredmachannel, wdf.evtdmatransactionconfiguredmachannel, wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -178,11 +178,11 @@ The <b>EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL</b> function type is define
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetchannelconfigurationcallback.md">WdfDmaTransactionSetChannelConfigurationCallback</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedfinal.md">WdfDmaTransactionDmaCompletedFinal</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetchannelconfigurationcallback.md">WdfDmaTransactionSetChannelConfigurationCallback</a>
 
 
 

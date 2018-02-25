@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 139D6E9A-36EE-4162-B9C5-12E9D57C7BE7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdrm/CDROM_PERFORMANCE_REQUEST_TYPE, _CDROM_PERFORMANCE_REQUEST_TYPE, PCDROM_PERFORMANCE_REQUEST_TYPE, PCDROM_PERFORMANCE_REQUEST_TYPE enumeration pointer [Storage Devices], ntddcdrm/PCDROM_PERFORMANCE_REQUEST_TYPE, ntddcdrm/ CdromWriteSpeedRequest, ntddcdrm/CdromPerformanceRequest, CdromWriteSpeedRequest, storage.cdrom_performance_request_type, *PCDROM_PERFORMANCE_REQUEST_TYPE, CDROM_PERFORMANCE_REQUEST_TYPE, CdromPerformanceRequest, CDROM_PERFORMANCE_REQUEST_TYPE enumeration [Storage Devices]
+ms.keywords: ",  , *, *PCDROM_PERFORMANCE_REQUEST_TYPE, ,, A, C, CDROM_PERFORMANCE_REQUEST_TYPE, CDROM_PERFORMANCE_REQUEST_TYPE enumeration [Storage Devices], CdromPerformanceRequest, CdromWriteSpeedRequest, D, E, F, M, N, O, P, PCDROM_PERFORMANCE_REQUEST_TYPE, PCDROM_PERFORMANCE_REQUEST_TYPE enumeration pointer [Storage Devices], Q, R, S, T, U, Y, _, _CDROM_PERFORMANCE_REQUEST_TYPE, ntddcdrm/ CdromWriteSpeedRequest, ntddcdrm/CDROM_PERFORMANCE_REQUEST_TYPE, ntddcdrm/CdromPerformanceRequest, ntddcdrm/PCDROM_PERFORMANCE_REQUEST_TYPE, storage.cdrom_performance_request_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

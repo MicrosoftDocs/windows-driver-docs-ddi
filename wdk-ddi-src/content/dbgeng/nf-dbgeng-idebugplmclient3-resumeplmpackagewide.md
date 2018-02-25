@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC69357E-425B-440B-93D0-918E8586D5DF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugPlmClient3, ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], ResumePlmPackageWide method, ResumePlmPackageWide, debugger.idebugplmclient3_resumeplmpackagewide, IDebugPlmClient3::ResumePlmPackageWide, dbgeng/IDebugPlmClient3::ResumePlmPackageWide, ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface
+ms.keywords: ",  , ,, ., 3, :, C, D, I, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], ResumePlmPackageWide method, IDebugPlmClient3::ResumePlmPackageWide, P, R, ResumePlmPackageWide method [Windows Debugging], ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, ResumePlmPackageWide,IDebugPlmClient3.ResumePlmPackageWide, W, a, b, c, d, dbgeng/IDebugPlmClient3::ResumePlmPackageWide, debugger.idebugplmclient3_resumeplmpackagewide, e, g, i, k, l, m, n, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

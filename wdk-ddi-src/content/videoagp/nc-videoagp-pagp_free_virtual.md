@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a6f689ab-8cf1-4207-af2b-30957500c190
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.agpfreevirtual, AgpFreeVirtual callback function [Display Devices], AgpFreeVirtual, PAGP_FREE_VIRTUAL, PAGP_FREE_VIRTUAL, videoagp/AgpFreeVirtual, VideoPort_Functions_49eabd30-2590-466f-b9d4-f2577a7e78e4.xml
+ms.keywords: AgpFreeVirtual, AgpFreeVirtual callback function [Display Devices], PAGP_FREE_VIRTUAL, VideoPort_Functions_49eabd30-2590-466f-b9d4-f2577a7e78e4.xml, display.agpfreevirtual, videoagp/AgpFreeVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

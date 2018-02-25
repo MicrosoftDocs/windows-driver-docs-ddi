@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81687237-7b24-439f-b706-e0bf95b4de68
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_CONTEXT, WwanRef_6700da85-2a7a-4712-86e8-fb40e11e42a1.xml, _WWAN_CONTEXT, *PWWAN_CONTEXT, wwan/WWAN_CONTEXT, WWAN_CONTEXT structure [Network Drivers Starting with Windows Vista], netvista.wwan_context, PWWAN_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], PWWAN_CONTEXT, wwan/PWWAN_CONTEXT
+ms.keywords: ",  , *, *PWWAN_CONTEXT, ,, A, C, E, N, O, P, PWWAN_CONTEXT, PWWAN_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], T, W, WWAN_CONTEXT, WWAN_CONTEXT structure [Network Drivers Starting with Windows Vista], WwanRef_6700da85-2a7a-4712-86e8-fb40e11e42a1.xml, X, _, _WWAN_CONTEXT, netvista.wwan_context, wwan/PWWAN_CONTEXT, wwan/WWAN_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,16 +133,16 @@ Authentication type to use for the PDP activation.
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_provisioned_context.md">
-   NDIS_WWAN_SET_PROVISIONED_CONTEXT</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_context_type.md">WWAN_CONTEXT_TYPE</a>
 
 
 
 <a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_provisioned_context.md">
+   NDIS_WWAN_SET_PROVISIONED_CONTEXT</a>
 
 
 

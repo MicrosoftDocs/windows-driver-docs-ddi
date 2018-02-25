@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 78bb5b51-b5b2-4177-8965-e54c04881dd3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectGeneralRef_e43c95d7-1261-45d0-b47c-460b65bc28c8.xml, WdfDeviceAssignS0IdleSettings, wdfdevice/WdfDeviceAssignS0IdleSettings, wdf.wdfdeviceassigns0idlesettings, WdfDeviceAssignS0IdleSettings method, kmdf.wdfdeviceassigns0idlesettings
+ms.keywords: ",  , 0, A, D, DFDeviceObjectGeneralRef_e43c95d7-1261-45d0-b47c-460b65bc28c8.xml, I, S, W, WdfDeviceAssignS0IdleSettings, WdfDeviceAssignS0IdleSettings method, c, d, e, f, g, i, kmdf.wdfdeviceassigns0idlesettings, l, n, s, t, v, wdf.wdfdeviceassigns0idlesettings, wdfdevice/WdfDeviceAssignS0IdleSettings"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

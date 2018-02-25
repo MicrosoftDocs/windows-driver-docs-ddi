@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.agpreservephysical, AgpReservePhysical callback function [Display Devices], AgpReservePhysical, PAGP_RESERVE_PHYSICAL, PAGP_RESERVE_PHYSICAL, videoagp/AgpReservePhysical, VideoPort_Functions_9ce9c724-b077-4821-9b9a-adb3d16f5671.xml
+ms.keywords: AgpReservePhysical, AgpReservePhysical callback function [Display Devices], PAGP_RESERVE_PHYSICAL, VideoPort_Functions_9ce9c724-b077-4821-9b9a-adb3d16f5671.xml, display.agpreservephysical, videoagp/AgpReservePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -160,11 +160,11 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_ph
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
-
-
-
 <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
 
 
 

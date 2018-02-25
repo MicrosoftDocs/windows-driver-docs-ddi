@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e63a56d8-fdd8-468d-b0f9-2c46c5ff7a00
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.usbcamd_cancelbulkreadwrite, USBCAMD_CancelBulkReadWrite routine [Streaming Media Devices], USBCAMD_CancelBulkReadWrite, PFNUSBCAMD_CancelBulkReadWrite, PFNUSBCAMD_CancelBulkReadWrite, usbcamdi/USBCAMD_CancelBulkReadWrite, usbcmdpr_ba242b77-cda6-4b16-a7a1-297701108cd8.xml
+ms.keywords: PFNUSBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite routine [Streaming Media Devices], stream.usbcamd_cancelbulkreadwrite, usbcamdi/USBCAMD_CancelBulkReadWrite, usbcmdpr_ba242b77-cda6-4b16-a7a1-297701108cd8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f8e77eb1-3964-4ca0-8ae7-2e9617671990
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_PRINTIFI32, display.printifi32, PRINTIFI32 structure [Display Devices], PRINTIFI32, PPRINTIFI32 structure pointer [Display Devices], PPRINTIFI32, prntfont/PPRINTIFI32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, *PPRINTIFI32, prntfont/PRINTIFI32"
+ms.keywords: ",  , *, *PPRINTIFI32, ,, 2, 3, F, I, N, P, PPRINTIFI32, PPRINTIFI32 structure pointer [Display Devices], PRINTIFI32, PRINTIFI32 structure [Display Devices], R, T, _, _PRINTIFI32, display.printifi32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, prntfont/PPRINTIFI32, prntfont/PRINTIFI32"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f528d20a-16f8-401f-a6e6-ab165a40e18a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlgetace, ntifs/RtlGetAce, RtlGetAce, RtlGetAce routine [Installable File System Drivers], rtlref_e018acc3-f776-4d15-9e0b-9e34d286a746.xml
+ms.keywords: ",  , A, G, R, RtlGetAce, RtlGetAce routine [Installable File System Drivers], c, e, ifsk.rtlgetace, l, ntifs/RtlGetAce, rtlref_e018acc3-f776-4d15-9e0b-9e34d286a746.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,7 +105,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
 
 
@@ -113,7 +113,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 

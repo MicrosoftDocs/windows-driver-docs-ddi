@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: FE1AB8D5-DEA7-47BE-921E-BB33BBB61AC9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_readgpiopins, CLIENT_ReadGpioPins callback function [Parallel Ports], CLIENT_ReadGpioPins, GPIO_CLIENT_READ_PINS, GPIO_CLIENT_READ_PINS, gpioclx/CLIENT_ReadGpioPins
+ms.keywords: CLIENT_ReadGpioPins, CLIENT_ReadGpioPins callback function [Parallel Ports], GPIO.client_readgpiopins, GPIO_CLIENT_READ_PINS, gpioclx/CLIENT_ReadGpioPins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,11 +153,11 @@ The GPIO_CLIENT_READ_PINS function type is defined in the Gpioclx.h header file.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698255">GPIO_READ_PINS_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698255">GPIO_READ_PINS_PARAMETERS</a>
 
 
 

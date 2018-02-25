@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 000688fb-6475-4dab-bb65-91c899a592a7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.calcprivateopenedresourcesize, CalcPrivateOpenedResourceSize callback function [Display Devices], CalcPrivateOpenedResourceSize, PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE, PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE, d3d10umddi/CalcPrivateOpenedResourceSize, UserModeDisplayDriverDx10_Functions_1be7ba80-5ffc-4871-b687-f12b4a81fad0.xml
+ms.keywords: CalcPrivateOpenedResourceSize, CalcPrivateOpenedResourceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE, UserModeDisplayDriverDx10_Functions_1be7ba80-5ffc-4871-b687-f12b4a81fad0.xml, d3d10umddi/CalcPrivateOpenedResourceSize, display.calcprivateopenedresourcesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

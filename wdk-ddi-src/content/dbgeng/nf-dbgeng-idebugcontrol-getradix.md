@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eae478e1-f70c-4344-a6e0-982a668c1f5d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetRadix method [Windows Debugging], IDebugControl2::GetRadix, dbgeng/IDebugControl2::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, IDebugControl3 interface [Windows Debugging], GetRadix method, GetRadix, debugger.getradix, GetRadix method [Windows Debugging], IDebugControl interface, IDebugControl::GetRadix, GetRadix method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetRadix method, IDebugControl, dbgeng/IDebugControl::GetRadix, GetRadix method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetRadix, IDebugControl3::GetRadix, IDebugControl interface [Windows Debugging], GetRadix method
+ms.keywords: ",  , ,, ., :, C, D, G, GetRadix method [Windows Debugging], GetRadix method [Windows Debugging], IDebugControl interface, GetRadix method [Windows Debugging], IDebugControl2 interface, GetRadix method [Windows Debugging], IDebugControl3 interface, GetRadix,IDebugControl.GetRadix, I, IDebugControl, IDebugControl interface [Windows Debugging], GetRadix method, IDebugControl2 interface [Windows Debugging], GetRadix method, IDebugControl2::GetRadix, IDebugControl3 interface [Windows Debugging], GetRadix method, IDebugControl3::GetRadix, IDebugControl::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, R, a, b, d, dbgeng/IDebugControl2::GetRadix, dbgeng/IDebugControl3::GetRadix, dbgeng/IDebugControl::GetRadix, debugger.getradix, e, g, i, l, n, o, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,7 +113,7 @@ For more information about the default radix, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -121,15 +121,15 @@ For more information about the default radix, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556770">SetRadix</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556770">SetRadix</a>
 
 
 

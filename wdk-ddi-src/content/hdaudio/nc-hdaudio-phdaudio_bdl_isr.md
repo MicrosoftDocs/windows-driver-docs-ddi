@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9DC36C2E-6609-46C8-870E-44845020A4B2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.phdaudio_bdl_isr, HDAudioBdlIsr callback function [Audio Devices], HDAudioBdlIsr, PHDAUDIO_BDL_ISR, PHDAUDIO_BDL_ISR, hdaudio/HDAudioBdlIsr
+ms.keywords: HDAudioBdlIsr, HDAudioBdlIsr callback function [Audio Devices], PHDAUDIO_BDL_ISR, audio.phdaudio_bdl_isr, hdaudio/HDAudioBdlIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

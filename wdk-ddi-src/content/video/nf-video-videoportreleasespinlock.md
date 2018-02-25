@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ce2006e-e66c-4b2d-8d26-2eba8d8e2864
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoportreleasespinlock, video/VideoPortReleaseSpinLock, VideoPortReleaseSpinLock function [Display Devices], VideoPort_Functions_43cceda5-f5eb-4567-97f5-d53d0bf93c0b.xml, VideoPortReleaseSpinLock
+ms.keywords: ",  , L, P, R, S, V, VideoPortReleaseSpinLock, VideoPortReleaseSpinLock function [Display Devices], VideoPort_Functions_43cceda5-f5eb-4567-97f5-d53d0bf93c0b.xml, a, c, d, display.videoportreleasespinlock, e, i, k, l, n, o, p, r, s, t, video/VideoPortReleaseSpinLock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

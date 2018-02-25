@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 46f5ee68-ed1a-4da4-b761-60157efb3252
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVAHDDDI_FILTER_RANGE_DATA structure [Display Devices], display.dxvahdddi_filter_range_data, DXVAHDDDI_FILTER_RANGE_DATA, d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA, DXVA2_Structs_6fe6de36-4bbb-4409-817e-52e6598363e6.xml, _DXVAHDDDI_FILTER_RANGE_DATA
+ms.keywords: ",  , ,, A, D, DXVA2_Structs_6fe6de36-4bbb-4409-817e-52e6598363e6.xml, DXVAHDDDI_FILTER_RANGE_DATA, DXVAHDDDI_FILTER_RANGE_DATA structure [Display Devices], E, F, G, H, I, L, N, R, T, V, X, _, _DXVAHDDDI_FILTER_RANGE_DATA, d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA, display.dxvahdddi_filter_range_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

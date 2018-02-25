@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7cd0ed27-a056-4ed9-8ff4-e917b31b0dd6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeQueryTickCount routine [Kernel-Mode Driver Architecture], k105_a6a22896-6f3e-4e58-b443-4a06ff67b0ce.xml, kernel.kequerytickcount, wdm/KeQueryTickCount, KeQueryTickCount
+ms.keywords: ",  , C, K, KeQueryTickCount, KeQueryTickCount routine [Kernel-Mode Driver Architecture], Q, T, c, e, i, k, k105_a6a22896-6f3e-4e58-b443-4a06ff67b0ce.xml, kernel.kequerytickcount, n, o, r, t, u, wdm/KeQueryTickCount, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,11 +98,11 @@ You should not make any assumptions about the length of a tick, because it might
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
 

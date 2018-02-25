@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fa6af43c-4fbd-43b5-9c3d-61254dfe894f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/SendTargets_IN, PSendTargets_IN, SendTargets_IN structure [Storage Devices], iscsiop/PSendTargets_IN, PSendTargets_IN structure pointer [Storage Devices], structs-iSCSI_448fb50f-6420-43ca-be0e-b3dd110cd48b.xml, SendTargets_IN, storage.sendtargets_in, _SendTargets_IN, *PSendTargets_IN
+ms.keywords: ",  , *, *PSendTargets_IN, ,, I, N, P, PSendTargets_IN, PSendTargets_IN structure pointer [Storage Devices], S, SendTargets_IN, SendTargets_IN structure [Storage Devices], T, _, _SendTargets_IN, a, d, e, g, iscsiop/PSendTargets_IN, iscsiop/SendTargets_IN, n, r, s, storage.sendtargets_in, structs-iSCSI_448fb50f-6420-43ca-be0e-b3dd110cd48b.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,15 +93,15 @@ You must implement this method.
 
 
 
+<a href="..\iscsiop\ns-iscsiop-_sendtargets_out.md">SendTargets_OUT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_sendtargets_out.md">SendTargets_OUT</a>
 
 
 

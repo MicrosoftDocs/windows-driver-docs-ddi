@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 11C90E96-2A5D-4CD8-AC96-115CFEF3CE12
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.evtsensorsetbatchlatency, EvtSensorSetBatchLatency callback function [Sensor Devices], EvtSensorSetBatchLatency, EVT_SENSOR_DRIVER_SET_BATCH_LATENCY, EVT_SENSOR_DRIVER_SET_BATCH_LATENCY, sensorscx/EvtSensorSetBatchLatency
+ms.keywords: EVT_SENSOR_DRIVER_SET_BATCH_LATENCY, EvtSensorSetBatchLatency, EvtSensorSetBatchLatency callback function [Sensor Devices], sensors.evtsensorsetbatchlatency, sensorscx/EvtSensorSetBatchLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,11 +105,11 @@ For more information about the VT_FILETIME data type, see <a href="http://go.mic
 
 ## -see-also
 
-<a href="..\sensorscx\nf-sensorscx-sensorscxsensordataready.md">SensorsCxSensorDataReady</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>
+
+
+
+<a href="..\sensorscx\nf-sensorscx-sensorscxsensordataready.md">SensorsCxSensorDataReady</a>
 
 
 

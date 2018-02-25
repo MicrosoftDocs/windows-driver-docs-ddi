@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df63ec18-79e0-40a6-a412-46071eb8a7fe
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.miracastiocontrol, PFN_MIRACAST_IO_CONTROL, MiracastIoControl callback function [Display Devices], MiracastIoControl, PFN_MIRACAST_IO_CONTROL, PFN_MIRACAST_IO_CONTROL, netdispumdddi/MiracastIoControl
+ms.keywords: MiracastIoControl, MiracastIoControl callback function [Display Devices], PFN_MIRACAST_IO_CONTROL, display.miracastiocontrol, netdispumdddi/MiracastIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,7 +137,11 @@ If the Miracast user-mode driver calls <b>MiracastIoControl</b> when the operati
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
 
 
@@ -145,11 +149,7 @@ If the Miracast user-mode driver calls <b>MiracastIoControl</b> when the operati
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
-
-
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
 
 

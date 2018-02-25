@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e1b5af5d-9bb8-4bf0-898a-5972f1f09a35
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiamicro/SetPixelWindow, MicroDrv_45542a77-e61e-49ba-a9f3-df7d8dd57402.xml, image.setpixelwindow, SetPixelWindow function [Imaging Devices], SetPixelWindow
+ms.keywords: ",  , MicroDrv_45542a77-e61e-49ba-a9f3-df7d8dd57402.xml, P, S, SetPixelWindow, SetPixelWindow function [Imaging Devices], W, d, e, i, image.setpixelwindow, l, n, o, t, w, wiamicro/SetPixelWindow, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

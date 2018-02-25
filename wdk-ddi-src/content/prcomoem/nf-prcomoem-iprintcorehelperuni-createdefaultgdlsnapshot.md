@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 987c3721-d8a8-4aac-8f42-6eac9b5ccdc5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: CreateDefaultGDLSnapshot, IPrintCoreHelperUni interface [Print Devices], CreateDefaultGDLSnapshot method, CreateDefaultGDLSnapshot method [Print Devices], print.iprintcorehelperuni_createdefaultgdlsnapshot, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml, IPrintCoreHelperUni, CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, IPrintCoreHelperUni::CreateDefaultGDLSnapshot
+ms.keywords: ",  , ,, ., :, C, CreateDefaultGDLSnapshot method [Print Devices], CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, CreateDefaultGDLSnapshot,IPrintCoreHelperUni.CreateDefaultGDLSnapshot, D, G, H, I, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], CreateDefaultGDLSnapshot method, IPrintCoreHelperUni::CreateDefaultGDLSnapshot, L, P, S, U, a, e, f, h, i, l, n, o, p, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, print.iprintcorehelperuni_createdefaultgdlsnapshot, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 08b02410-3e18-4bfd-8f10-2a12a5f94e16
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_fd87cd4c-2ce4-41c6-8b73-4ccebd6e3015.xml, stream.ksfiltergetparentfilterfactory, KsFilterGetParentFilterFactory function [Streaming Media Devices], ks/KsFilterGetParentFilterFactory, KsFilterGetParentFilterFactory
+ms.keywords: ",  , F, G, K, KsFilterGetParentFilterFactory, KsFilterGetParentFilterFactory function [Streaming Media Devices], P, a, avfunc_fd87cd4c-2ce4-41c6-8b73-4ccebd6e3015.xml, c, e, i, ks/KsFilterGetParentFilterFactory, l, n, o, r, s, stream.ksfiltergetparentfilterfactory, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

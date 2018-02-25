@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac63b77b-2704-4d5b-bf1d-9d85e8a1e336
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createquery, CreateQuery callback function [Display Devices], CreateQuery, PFND3DDDI_CREATEQUERY, PFND3DDDI_CREATEQUERY, d3dumddi/CreateQuery, UserModeDisplayDriver_Functions_b398e152-6530-4dcb-9665-ef45ad3d985b.xml
+ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3DDDI_CREATEQUERY, UserModeDisplayDriver_Functions_b398e152-6530-4dcb-9665-ef45ad3d985b.xml, d3dumddi/CreateQuery, display.createquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -157,7 +157,7 @@ For more information about issue query states, see <a href="..\d3dumddi\ns-d3dum
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIARG_CREATEQUERY</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_issuequeryflags.md">D3DDDI_ISSUEQUERYFLAGS</a>
 
 
 
@@ -165,7 +165,7 @@ For more information about issue query states, see <a href="..\d3dumddi\ns-d3dum
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_issuequeryflags.md">D3DDDI_ISSUEQUERYFLAGS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIARG_CREATEQUERY</a>
 
 
 

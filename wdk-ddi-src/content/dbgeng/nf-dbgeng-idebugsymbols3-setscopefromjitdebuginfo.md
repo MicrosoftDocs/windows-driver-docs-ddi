@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 75417373-AA1B-4297-863A-00EA97069573
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], SetScopeFromJitDebugInfo method, debugger.idebugsymbols3_setscopefromjitdebuginfo, IDebugSymbols3, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3 interface, SetScopeFromJitDebugInfo
+ms.keywords: ",  , ,, ., 3, :, D, F, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetScopeFromJitDebugInfo method, IDebugSymbols3::SetScopeFromJitDebugInfo, J, S, SetScopeFromJitDebugInfo method [Windows Debugging], SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3 interface, SetScopeFromJitDebugInfo,IDebugSymbols3.SetScopeFromJitDebugInfo, b, c, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, debugger.idebugsymbols3_setscopefromjitdebuginfo, e, f, g, i, l, m, n, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

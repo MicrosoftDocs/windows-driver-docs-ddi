@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 1C203107-258E-41DF-AFA7-B2597DCDF2E3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_writegpiopins, CLIENT_WriteGpioPins callback function [Parallel Ports], CLIENT_WriteGpioPins, GPIO_CLIENT_WRITE_PINS, GPIO_CLIENT_WRITE_PINS, gpioclx/CLIENT_WriteGpioPins
+ms.keywords: CLIENT_WriteGpioPins, CLIENT_WriteGpioPins callback function [Parallel Ports], GPIO.client_writegpiopins, GPIO_CLIENT_WRITE_PINS, gpioclx/CLIENT_WriteGpioPins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

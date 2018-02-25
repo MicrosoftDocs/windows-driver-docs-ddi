@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8255f36-be3a-4b19-ac8d-8748ac9b6a24
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiqueryinterface, DxgkDdiQueryInterface callback function [Display Devices], DxgkDdiQueryInterface, DXGKDDI_QUERY_INTERFACE, DXGKDDI_QUERY_INTERFACE, dispmprt/DxgkDdiQueryInterface, DmFunctions_1c8cdcd5-60e2-4d76-ba70-6af3f96f1740.xml
+ms.keywords: DXGKDDI_QUERY_INTERFACE, DmFunctions_1c8cdcd5-60e2-4d76-ba70-6af3f96f1740.xml, DxgkDdiQueryInterface, DxgkDdiQueryInterface callback function [Display Devices], display.dxgkddiqueryinterface, dispmprt/DxgkDdiQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -127,7 +127,7 @@ Initialize all additional interface-specific members to point to the appropriate
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
 
 
@@ -135,7 +135,7 @@ Initialize all additional interface-specific members to point to the appropriate
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

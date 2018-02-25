@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2f374912-985d-47e0-9fda-b43242375cb5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_endpoints_configure, EvtUcxUsbDeviceEndpointsConfigure callback function [Buses], EvtUcxUsbDeviceEndpointsConfigure, EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE, EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE, ucxusbdevice/EvtUcxUsbDeviceEndpointsConfigure, PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function pointer [Buses], PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
+ms.keywords: EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE, EvtUcxUsbDeviceEndpointsConfigure, EvtUcxUsbDeviceEndpointsConfigure callback function [Buses], PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE, PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function pointer [Buses], buses.evt_ucx_usbdevice_endpoints_configure, ucxusbdevice/EvtUcxUsbDeviceEndpointsConfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,11 +144,11 @@ UsbDevice_EvtUcxUsbDeviceEndpointsConfigure(
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-
-
-
 <a href="..\ucxendpoint\ns-ucxendpoint-_endpoints_configure.md">ENDPOINTS_CONFIGURE</a>
+
+
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 

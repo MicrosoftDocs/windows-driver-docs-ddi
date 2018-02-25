@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FD8D6063-E6DD-4EA6-9675-774C58C08B40
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PMSFC_VirtualFibrePortAttributes, PMSFC_VirtualFibrePortAttributes structure pointer [Storage Devices], _MSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes, npivwmi/MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes structure [Storage Devices], storage.msfc_virtualfibreportattributes, npivwmi/PMSFC_VirtualFibrePortAttributes
+ms.keywords: ",  , *, *PMSFC_VirtualFibrePortAttributes, ,, A, C, F, M, MSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes structure [Storage Devices], P, PMSFC_VirtualFibrePortAttributes, PMSFC_VirtualFibrePortAttributes structure pointer [Storage Devices], S, V, _, _MSFC_VirtualFibrePortAttributes, a, b, e, i, l, npivwmi/MSFC_VirtualFibrePortAttributes, npivwmi/PMSFC_VirtualFibrePortAttributes, o, r, s, storage.msfc_virtualfibreportattributes, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

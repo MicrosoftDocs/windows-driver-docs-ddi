@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b760e176-3ef7-4495-89c7-ec6b8bb3ed30
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], netvista.ndiscopyfromnetbuffertonetbuffer, ndis/NdisCopyFromNetBufferToNetBuffer, NdisCopyFromNetBufferToNetBuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml
+ms.keywords: ",  , B, C, F, N, NdisCopyFromNetBufferToNetBuffer, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], T, d, e, f, i, m, ndis/NdisCopyFromNetBufferToNetBuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, netvista.ndiscopyfromnetbuffertonetbuffer, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

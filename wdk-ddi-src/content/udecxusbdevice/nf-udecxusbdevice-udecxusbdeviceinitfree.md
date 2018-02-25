@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: BBFB8DAD-C187-4EB9-8EB0-BE28284437E1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.udecxusbdeviceinitfree, UdecxUsbDeviceInitFree function [Buses], UdecxUsbDeviceInitFree, udecxusbdevice/UdecxUsbDeviceInitFree
+ms.keywords: ",  , D, F, I, U, UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses], b, buses.udecxusbdeviceinitfree, c, d, e, i, n, r, s, t, udecxusbdevice/UdecxUsbDeviceInitFree, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

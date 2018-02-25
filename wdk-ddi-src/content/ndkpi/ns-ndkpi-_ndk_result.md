@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B7898C81-E90D-4210-BEAE-1E629FCD7195
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndkpi/NDK_RESULT, netvista.ndk_result, NDK_RESULT, _NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , ,, D, E, K, L, N, NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], R, S, T, U, _, _NDK_RESULT, ndkpi/NDK_RESULT, netvista.ndk_result"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

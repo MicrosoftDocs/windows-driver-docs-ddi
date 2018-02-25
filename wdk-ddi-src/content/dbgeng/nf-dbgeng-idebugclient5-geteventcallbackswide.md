@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 254eb89f-c330-4fca-8c58-6dbe56861743
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetEventCallbacksWide, debugger.geteventcallbackswide, GetEventCallbacksWide, dbgeng/IDebugClient5::GetEventCallbacksWide, IDebugClient5, GetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], GetEventCallbacksWide method
+ms.keywords: ",  , ,, ., 5, :, C, D, E, G, GetEventCallbacksWide method [Windows Debugging], GetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, GetEventCallbacksWide,IDebugClient5.GetEventCallbacksWide, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetEventCallbacksWide method, IDebugClient5::GetEventCallbacksWide, W, a, b, c, d, dbgeng/IDebugClient5::GetEventCallbacksWide, debugger.geteventcallbackswide, e, g, i, k, l, n, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,15 +117,15 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
 
 
 

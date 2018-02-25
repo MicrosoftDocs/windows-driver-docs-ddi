@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2182A3E0-6CFD-4B29-BE78-EE38CA630FA1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterExtensionRequest interface [Print Devices], Complete method, print.iprinterextensionrequest_complete, Complete method [Print Devices], IPrinterExtensionRequest interface, IPrinterExtensionRequest, Complete, printerextension/IPrinterExtensionRequest::Complete, Complete method [Print Devices], IPrinterExtensionRequest::Complete
+ms.keywords: ",  , ,, ., :, C, Complete method [Print Devices], Complete method [Print Devices], IPrinterExtensionRequest interface, Complete,IPrinterExtensionRequest.Complete, E, I, IPrinterExtensionRequest, IPrinterExtensionRequest interface [Print Devices], Complete method, IPrinterExtensionRequest::Complete, P, R, e, i, l, m, n, o, p, print.iprinterextensionrequest_complete, printerextension/IPrinterExtensionRequest::Complete, q, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

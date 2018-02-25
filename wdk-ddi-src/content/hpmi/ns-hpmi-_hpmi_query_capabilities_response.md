@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 2D7B6278-6D7A-41C4-B21A-D531CD8DCD91
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: powermeter.hpmi_query_capabilities_response, hpmi/PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE, _HPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE structure pointer [Power Metering and Budgeting Devices], HPMI_QUERY_CAPABILITIES_RESPONSE structure [Power Metering and Budgeting Devices], hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE
+ms.keywords: ",  , *, *PHPMI_QUERY_CAPABILITIES_RESPONSE, ,, A, B, C, E, H, HPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE structure [Power Metering and Budgeting Devices], I, L, M, N, O, P, PHPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE structure pointer [Power Metering and Budgeting Devices], Q, R, S, T, U, Y, _, _HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/PHPMI_QUERY_CAPABILITIES_RESPONSE, powermeter.hpmi_query_capabilities_response"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ Specifies Software Defined Battery (SDB) features supported by the system.
 
 
 
-<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities.md">HPMI_QUERY_CAPABILITIES</a>
-
-
-
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
+
+
+
+<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities.md">HPMI_QUERY_CAPABILITIES</a>
 
 
 

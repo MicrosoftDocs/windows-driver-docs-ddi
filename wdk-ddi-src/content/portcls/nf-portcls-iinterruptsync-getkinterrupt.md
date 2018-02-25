@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 045c509b-852d-405c-9615-8a2f351bf8c7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iinterruptsync_getkinterrupt, GetKInterrupt method [Audio Devices], audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, portcls/IInterruptSync::GetKInterrupt, IInterruptSync interface [Audio Devices], GetKInterrupt method, GetKInterrupt, IInterruptSync::GetKInterrupt, IInterruptSync, GetKInterrupt method [Audio Devices], IInterruptSync interface
+ms.keywords: ",  , ,, ., :, G, GetKInterrupt method [Audio Devices], GetKInterrupt method [Audio Devices], IInterruptSync interface, GetKInterrupt,IInterruptSync.GetKInterrupt, I, IInterruptSync, IInterruptSync interface [Audio Devices], GetKInterrupt method, IInterruptSync::GetKInterrupt, K, S, audio.iinterruptsync_getkinterrupt, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, c, e, n, p, portcls/IInterruptSync::GetKInterrupt, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,7 +94,7 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 
@@ -102,7 +102,7 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
 
 

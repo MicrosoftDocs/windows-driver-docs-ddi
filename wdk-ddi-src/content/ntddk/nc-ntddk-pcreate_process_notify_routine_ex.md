@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 071BD24F-AA58-4A39-8059-CEF6D7105DB6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pcreate_process_notify_routine_ex, SetCreateProcessNotifyRoutineEx callback function [Kernel-Mode Driver Architecture], SetCreateProcessNotifyRoutineEx, PCREATE_PROCESS_NOTIFY_ROUTINE_EX, PCREATE_PROCESS_NOTIFY_ROUTINE_EX, ntddk/SetCreateProcessNotifyRoutineEx
+ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE_EX, SetCreateProcessNotifyRoutineEx, SetCreateProcessNotifyRoutineEx callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine_ex, ntddk/SetCreateProcessNotifyRoutineEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -110,11 +110,11 @@ Highest-level drivers call <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyro
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
 
 
 

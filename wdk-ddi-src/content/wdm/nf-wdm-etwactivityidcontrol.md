@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: dd2e1558-db5d-4d48-a55e-fbdf2838ec55
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_SET_ID, wdm/EtwActivityIdControl, EVENT_ACTIVITY_CTRL_GET_ID, EtwActivityIdControl function [Driver Development Tools], EVENT_ACTIVITY_CTRL_CREATE_ID, etw_km_ecbfd65a-dd05-422b-9039-bb2a307d5978.xml, devtest.etwactivityidcontrol, EtwActivityIdControl, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID
+ms.keywords: ",  , A, C, E, EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EtwActivityIdControl, EtwActivityIdControl function [Driver Development Tools], I, c, d, devtest.etwactivityidcontrol, etw_km_ecbfd65a-dd05-422b-9039-bb2a307d5978.xml, i, l, n, o, r, t, v, w, wdm/EtwActivityIdControl, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

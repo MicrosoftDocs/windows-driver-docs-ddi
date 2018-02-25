@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e09f68bd-cd43-42ce-988e-505415d62891
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfusbtargetpipereadsynchronously, DFUsbRef_97551c52-37b0-4ed7-a961-921ed0e990b6.xml, kmdf.wdfusbtargetpipereadsynchronously, WdfUsbTargetPipeReadSynchronously method, WdfUsbTargetPipeReadSynchronously, wdfusb/WdfUsbTargetPipeReadSynchronously
+ms.keywords: ",  , DFUsbRef_97551c52-37b0-4ed7-a961-921ed0e990b6.xml, P, R, S, T, U, W, WdfUsbTargetPipeReadSynchronously, WdfUsbTargetPipeReadSynchronously method, a, b, c, d, e, f, g, h, i, kmdf.wdfusbtargetpipereadsynchronously, l, n, o, p, r, s, t, u, wdf.wdfusbtargetpipereadsynchronously, wdfusb/WdfUsbTargetPipeReadSynchronously, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -373,15 +373,15 @@ status = WdfUsbTargetPipeReadSynchronously(
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipegetinformation.md">WdfUsbTargetPipeGetInformation</a>
 
 
 
 <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 
 

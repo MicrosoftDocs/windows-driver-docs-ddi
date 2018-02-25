@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fd9a612b-b0a7-4bef-9fab-8212a3b594b6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/IoRegisterShutdownNotification, kernel.ioregistershutdownnotification, k104_dd357e39-68b4-4cc2-b7c7-34f16c74a4a0.xml, IoRegisterShutdownNotification routine [Kernel-Mode Driver Architecture], IoRegisterShutdownNotification
+ms.keywords: ",  , I, IoRegisterShutdownNotification, IoRegisterShutdownNotification routine [Kernel-Mode Driver Architecture], N, R, S, a, c, d, e, f, g, h, i, k104_dd357e39-68b4-4cc2-b7c7-34f16c74a4a0.xml, kernel.ioregistershutdownnotification, n, o, r, s, t, u, w, wdm/IoRegisterShutdownNotification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,11 +105,11 @@ A PnP driver might register a shutdown routine to perform certain tasks before s
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a>
-
-
-
 <a href="..\wdm\nf-wdm-iounregistershutdownnotification.md">IoUnregisterShutdownNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a>
 
 
 

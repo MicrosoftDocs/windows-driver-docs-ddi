@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: DB41648B-8812-4358-BECE-8029016E5631
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], smclib/SMARTCARD_REPLY, smclib/PSMARTCARD_REPLY, *PSMARTCARD_REPLY, SMARTCARD_REPLY, PSMARTCARD_REPLY, smartcrd.smartcard_reply, SMARTCARD_REPLY structure [Smart Card Reader Devices], _SMARTCARD_REPLY
+ms.keywords: ",  , *, *PSMARTCARD_REPLY, ,, A, C, D, E, L, M, P, PSMARTCARD_REPLY, PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], R, S, SMARTCARD_REPLY, SMARTCARD_REPLY structure [Smart Card Reader Devices], T, Y, _, _SMARTCARD_REPLY, smartcrd.smartcard_reply, smclib/PSMARTCARD_REPLY, smclib/SMARTCARD_REPLY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

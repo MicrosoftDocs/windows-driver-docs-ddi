@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2c144eb7-6279-490a-813c-6c0ae995c6ad
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: TextOutAsBitmap method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::TextOutAsBitmap, TextOutAsBitmap, IPrintOemUni interface [Print Devices], TextOutAsBitmap method, TextOutAsBitmap method [Print Devices], IPrintOemUni::TextOutAsBitmap, IPrintOemUni, print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml, print.iprintoemuni_textoutasbitmap
+ms.keywords: ",  , ,, ., :, A, B, I, IPrintOemUni, IPrintOemUni interface [Print Devices], TextOutAsBitmap method, IPrintOemUni::TextOutAsBitmap, O, P, T, TextOutAsBitmap method [Print Devices], TextOutAsBitmap method [Print Devices], IPrintOemUni interface, TextOutAsBitmap,IPrintOemUni.TextOutAsBitmap, U, a, e, i, m, n, p, prcomoem/IPrintOemUni::TextOutAsBitmap, print.iprintoemuni_textoutasbitmap, print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -190,15 +190,15 @@ The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a renderin
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553132">IPrintOemDriverUni::DrvUniTextOut</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
 
 

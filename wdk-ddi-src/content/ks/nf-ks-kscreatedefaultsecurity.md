@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2992a62b-7c3c-4bf5-ba3a-26c26c419f98
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsCreateDefaultSecurity, KsCreateDefaultSecurity function [Streaming Media Devices], KsCreateDefaultSecurity, stream.kscreatedefaultsecurity, ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml
+ms.keywords: ",  , C, D, K, KsCreateDefaultSecurity, KsCreateDefaultSecurity function [Streaming Media Devices], S, a, c, e, f, i, ks/KsCreateDefaultSecurity, ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml, l, r, s, stream.kscreatedefaultsecurity, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

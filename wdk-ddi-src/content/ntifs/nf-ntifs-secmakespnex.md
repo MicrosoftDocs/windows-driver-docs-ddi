@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5000be89-144c-405c-93ea-3e9372e0a677
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SecMakeSPNEx function [Installable File System Drivers], ntifs/SecMakeSPNEx, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, SecMakeSPNEx, ifsk.secmakespnex
+ms.keywords: ",  , E, M, N, P, S, SecMakeSPNEx, SecMakeSPNEx function [Installable File System Drivers], a, c, e, ifsk.secmakespnex, k, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ntifs/SecMakeSPNEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ad9130e-bade-4fd2-b345-b6361fd001ef
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.resolvesharedresource, ResolveSharedResource callback function [Display Devices], ResolveSharedResource, PFND3DDDI_RESOLVESHAREDRESOURCE, PFND3DDDI_RESOLVESHAREDRESOURCE, d3dumddi/ResolveSharedResource, UserModeDisplayDriver_Functions_d1818521-a7ef-4daf-8bd7-47103bba2755.xml
+ms.keywords: PFND3DDDI_RESOLVESHAREDRESOURCE, ResolveSharedResource, ResolveSharedResource callback function [Display Devices], UserModeDisplayDriver_Functions_d1818521-a7ef-4daf-8bd7-47103bba2755.xml, d3dumddi/ResolveSharedResource, display.resolvesharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

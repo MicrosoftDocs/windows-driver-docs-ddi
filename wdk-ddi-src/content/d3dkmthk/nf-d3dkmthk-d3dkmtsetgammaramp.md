@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48f1d2ba-747a-4588-8238-db6ac2aa89d6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTSetGammaRamp function [Display Devices], OpenGL_Functions_4d684cea-8528-489d-bc35-b70a5f05a57b.xml, d3dkmthk/D3DKMTSetGammaRamp, D3DKMTSetGammaRamp, display.d3dkmtsetgammaramp
+ms.keywords: ",  , 3, D, D3DKMTSetGammaRamp, D3DKMTSetGammaRamp function [Display Devices], G, K, M, OpenGL_Functions_4d684cea-8528-489d-bc35-b70a5f05a57b.xml, R, S, T, a, d3dkmthk/D3DKMTSetGammaRamp, display.d3dkmtsetgammaramp, e, m, p, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

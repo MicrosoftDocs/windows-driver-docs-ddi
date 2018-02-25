@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f0d4f266-6a43-4523-bf1d-3dda1fc9a5b8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetMapping method [Audio Devices], audio.iportwavepcistream_getmapping, IPortWavePciStream::GetMapping, portcls/IPortWavePciStream::GetMapping, GetMapping method [Audio Devices], IPortWavePciStream interface, IPortWavePciStream interface [Audio Devices], GetMapping method, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, GetMapping, IPortWavePciStream
+ms.keywords: ",  , ,, ., :, G, GetMapping method [Audio Devices], GetMapping method [Audio Devices], IPortWavePciStream interface, GetMapping,IPortWavePciStream.GetMapping, I, IPortWavePciStream, IPortWavePciStream interface [Audio Devices], GetMapping method, IPortWavePciStream::GetMapping, M, P, S, W, a, audio.iportwavepcistream_getmapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, c, e, g, i, m, n, o, p, portcls/IPortWavePciStream::GetMapping, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -173,15 +173,7 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536726">IMiniportWavePciStream::GetAllocatorFraming</a>
-
-
-
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 
 
@@ -189,7 +181,15 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536728">IMiniportWavePciStream::MappingAvailable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536726">IMiniportWavePciStream::GetAllocatorFraming</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
 
@@ -197,7 +197,7 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536728">IMiniportWavePciStream::MappingAvailable</a>
 
 
 

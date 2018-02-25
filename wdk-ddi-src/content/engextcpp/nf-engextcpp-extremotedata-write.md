@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 970c725b-4ea0-42b7-a373-83cb463cd80d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.extremotedata_write, ExtRemoteData, Write method [Windows Debugging], ExtRemoteData class, ExtRemoteData class [Windows Debugging], Write method, EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, Write, Write method [Windows Debugging], ExtRemoteData::Write
+ms.keywords: ",  , ,, ., :, D, E, EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], Write method, ExtRemoteData::Write, R, W, Write method [Windows Debugging], Write method [Windows Debugging], ExtRemoteData class, Write,ExtRemoteData.Write, a, debugger.extremotedata_write, e, i, m, o, r, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,11 +101,11 @@ ext_remote_data.Write();</pre>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
-
-
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
 
 
 

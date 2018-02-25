@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 56c7ce80-36da-4991-a640-f87b712f683e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsReferenceSoftwareBusObject, swenum/KsReferenceSoftwareBusObject, stream.ksreferencesoftwarebusobject, KsReferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml
+ms.keywords: ",  , B, K, KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject function [Streaming Media Devices], O, R, S, a, b, c, e, f, j, ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, n, o, r, s, stream.ksreferencesoftwarebusobject, swenum/KsReferenceSoftwareBusObject, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,11 @@ The device object remains active and enumerated until the reference count return
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
-
-
-
 <a href="..\swenum\nf-swenum-ksquerysoftwarebusinterface.md">KsQuerySoftwareBusInterface</a>
+
+
+
+<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
 
 
 

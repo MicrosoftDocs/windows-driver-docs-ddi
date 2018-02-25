@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E2368589-9F75-4743-9D38-323221B20EF8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], *PFILE_PROVIDER_EXTERNAL_INFO_V0, _FILE_PROVIDER_EXTERNAL_INFO_V0, ifsk.file_provider_external_info_v0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], FILE_PROVIDER_EXTERNAL_INFO_V0
+ms.keywords: ",  , *, *PFILE_PROVIDER_EXTERNAL_INFO_V0, ,, 0, A, D, E, F, FILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], I, L, N, O, P, PFILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], R, T, V, X, _, _FILE_PROVIDER_EXTERNAL_INFO_V0, ifsk.file_provider_external_info_v0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

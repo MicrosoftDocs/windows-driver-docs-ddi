@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a77a8bc-b477-41b3-bc4e-07c6c14291a1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IKsReferenceClock interface [Streaming Media Devices], GetState method, IKsReferenceClock, GetState, GetState method [Streaming Media Devices], IKsReferenceClock interface, ks/IKsReferenceClock::GetState, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, stream.iksreferenceclock_getstate, GetState method [Streaming Media Devices], IKsReferenceClock::GetState
+ms.keywords: ",  , ,, ., :, C, G, GetState method [Streaming Media Devices], GetState method [Streaming Media Devices], IKsReferenceClock interface, GetState,IKsReferenceClock.GetState, I, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetState method, IKsReferenceClock::GetState, K, R, S, a, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, c, e, f, k, ks/IKsReferenceClock::GetState, l, n, o, r, s, stream.iksreferenceclock_getstate, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

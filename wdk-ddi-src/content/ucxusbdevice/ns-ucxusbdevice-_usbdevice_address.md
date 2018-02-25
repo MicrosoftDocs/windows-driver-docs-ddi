@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2CD37F1E-B96A-4D18-A756-2B9E3CB8613B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBDEVICE_ADDRESS structure [Buses], P_USBDEVICE_ADDRESS structure pointer [Buses], *PUSBDEVICE_ADDRESS, ucxusbdevice/P_USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS, _USBDEVICE_ADDRESS, buses._usbdevice_address, USBDEVICE_ADDRESS, ucxusbdevice/_USBDEVICE_ADDRESS
+ms.keywords: ",  , *, *PUSBDEVICE_ADDRESS, ,, A, B, C, D, E, I, P, P_USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS structure pointer [Buses], R, S, U, USBDEVICE_ADDRESS, USBDEVICE_ADDRESS structure [Buses], V, _, _USBDEVICE_ADDRESS, buses._usbdevice_address, ucxusbdevice/P_USBDEVICE_ADDRESS, ucxusbdevice/_USBDEVICE_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

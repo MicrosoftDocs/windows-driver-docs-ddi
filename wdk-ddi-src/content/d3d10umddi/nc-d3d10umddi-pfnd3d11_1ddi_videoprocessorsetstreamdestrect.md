@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84AD6C4F-A674-4CCC-B2E9-378E3E55EEF3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoprocessorsetstreamdestrect, pfnVideoProcessorSetStreamDestRect callback function [Display Devices], pfnVideoProcessorSetStreamDestRect, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT, d3d10umddi/pfnVideoProcessorSetStreamDestRect
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT, d3d10umddi/pfnVideoProcessorSetStreamDestRect, display.videoprocessorsetstreamdestrect, pfnVideoProcessorSetStreamDestRect, pfnVideoProcessorSetStreamDestRect callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

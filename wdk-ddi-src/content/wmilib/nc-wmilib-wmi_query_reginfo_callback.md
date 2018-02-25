@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e450788-445f-4d0a-b99b-913100a54259
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.dpwmiqueryreginfo, DpWmiQueryReginfo, DpWmiQueryReginfo callback function [Kernel-Mode Driver Architecture], DpWmiQueryReginfo, WMI_QUERY_REGINFO_CALLBACK, WMI_QUERY_REGINFO_CALLBACK, wmilib/DpWmiQueryReginfo, k903_61d9ad7d-1bdf-49d5-8a12-5bf0d6912ccc.xml
+ms.keywords: DpWmiQueryReginfo, DpWmiQueryReginfo callback function [Kernel-Mode Driver Architecture], WMI_QUERY_REGINFO_CALLBACK, k903_61d9ad7d-1bdf-49d5-8a12-5bf0d6912ccc.xml, kernel.dpwmiqueryreginfo, wmilib/DpWmiQueryReginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -126,12 +126,12 @@ Requests WMI to remove support for the blocks. This flag is valid only in respon
 
 ### -param InstanceName [out]
 
-A pointer to a single counted Unicode string that serves as the base name for all instances of all blocks to be registered by the driver. WMI frees the string with <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. If WMIREG_FLAG_INSTANCE_BASENAME is clear, <i>InstanceName</i> is ignored.
+A pointer to a single counted Unicode string that serves as the base name for all instances of all blocks to be registered by the driver. WMI frees the string with <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. If WMIREG_FLAG_INSTANCE_BASENAME is clear, <i>InstanceName</i> is ignored.
 
 
 ### -param *RegistryPath [out]
 
-A pointer to a pointer to a counted Unicode string that specifies the registry path passed to the driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. 
+A pointer to a pointer to a counted Unicode string that specifies the registry path passed to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
 
 
 ### -param MofResourceName [out]
@@ -180,11 +180,7 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
-
-
-
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
 
 
@@ -192,7 +188,11 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
+
+
+
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 

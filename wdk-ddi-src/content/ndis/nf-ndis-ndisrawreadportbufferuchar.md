@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de629357-6176-4c98-ba71-ac1eea0c8ff1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: miniport_port_raw_ref_acd96d67-c82f-48dd-b6f1-cb77564e4bd6.xml, netvista.ndisrawreadportbufferuchar, NdisRawReadPortBufferUchar macro [Network Drivers Starting with Windows Vista], NdisRawReadPortBufferUchar, ndis/NdisRawReadPortBufferUchar
+ms.keywords: ",  , B, N, NdisRawReadPortBufferUchar, NdisRawReadPortBufferUchar macro [Network Drivers Starting with Windows Vista], P, R, U, a, c, d, e, f, h, i, miniport_port_raw_ref_acd96d67-c82f-48dd-b6f1-cb77564e4bd6.xml, ndis/NdisRawReadPortBufferUchar, netvista.ndisrawreadportbufferuchar, o, r, s, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -101,15 +101,11 @@ Specifies how many bytes to transfer from the NIC.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
 
 
 
@@ -117,11 +113,15 @@ Specifies how many bytes to transfer from the NIC.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 

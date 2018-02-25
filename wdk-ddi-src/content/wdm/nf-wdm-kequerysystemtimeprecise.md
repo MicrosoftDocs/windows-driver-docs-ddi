@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f5df2b5-e896-4519-aec9-5699155bb142
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise, KeQuerySystemTimePrecise
+ms.keywords: ",  , K, KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], P, Q, S, T, c, e, i, kernel.kequerysystemtimeprecise, m, r, s, t, u, wdm/KeQuerySystemTimePrecise, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,15 +102,7 @@ Call the <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
-
-
-
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 
 
@@ -118,7 +110,15 @@ Call the <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a
 
 
 
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kequerytickcount.md">KeQueryTickCount</a>
 
 
 

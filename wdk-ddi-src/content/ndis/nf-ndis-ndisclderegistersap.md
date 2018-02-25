@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee3eb668-04f5-4731-b0bd-5cc8a9d4407f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisClDeregisterSap, NdisClDeregisterSap, condis_client_ref_44c25719-9fbb-496b-97f6-f897cfe2b346.xml, netvista.ndisclderegistersap, NdisClDeregisterSap function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , C, D, N, NdisClDeregisterSap, NdisClDeregisterSap function [Network Drivers Starting with Windows Vista], S, a, condis_client_ref_44c25719-9fbb-496b-97f6-f897cfe2b346.xml, d, e, g, i, l, ndis/NdisClDeregisterSap, netvista.ndisclderegistersap, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -138,7 +138,11 @@ The client should consider the given
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+<a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 
@@ -146,11 +150,7 @@ The client should consider the given
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 
 

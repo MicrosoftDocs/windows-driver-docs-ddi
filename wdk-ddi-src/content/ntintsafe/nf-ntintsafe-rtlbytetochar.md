@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A571B2C7-F97E-4717-AA22-D25DE47469E8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlbytetochar, RtlByteToChar function [Kernel-Mode Driver Architecture], RtlByteToChar, ntintsafe/RtlByteToChar
+ms.keywords: ",  , B, C, R, RtlByteToChar, RtlByteToChar function [Kernel-Mode Driver Architecture], T, a, e, h, kernel.rtlbytetochar, l, ntintsafe/RtlByteToChar, o, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

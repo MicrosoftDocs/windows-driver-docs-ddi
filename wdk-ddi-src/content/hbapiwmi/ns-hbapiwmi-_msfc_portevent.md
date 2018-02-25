@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf9e2d58-9379-4b88-9043-580a97ec7cd9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MSFC_PortEvent structure [Storage Devices], storage.msfc_portevent, hbapiwmi/PMSFC_PortEvent, _MSFC_PortEvent, structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml, *PMSFC_PortEvent, hbapiwmi/MSFC_PortEvent, MSFC_PortEvent, PMSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PMSFC_PortEvent, ,, C, E, F, M, MSFC_PortEvent, MSFC_PortEvent structure [Storage Devices], P, PMSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], S, _, _MSFC_PortEvent, e, hbapiwmi/MSFC_PortEvent, hbapiwmi/PMSFC_PortEvent, n, o, r, storage.msfc_portevent, structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e83f7ae-8d7b-4d06-a8f0-5b4c2f04f4a4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_SendUiccToolkitEnvelope, RIL_SendUiccToolkitEnvelope method [Network Drivers Starting with Windows Vista], netvista.ril_senduicctoolkitenvelope, RIL_SendUiccToolkitEnvelope
+ms.keywords: ",  , E, I, L, R, RIL_SendUiccToolkitEnvelope, RIL_SendUiccToolkitEnvelope method [Network Drivers Starting with Windows Vista], S, T, U, _, c, d, e, i, k, l, n, netvista.ril_senduicctoolkitenvelope, o, p, rilapi/RIL_SendUiccToolkitEnvelope, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

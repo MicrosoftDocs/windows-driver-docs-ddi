@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c5e1af58-a00d-4801-b591-fc9ec9b50502
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: tagWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_METHOD_ITEM structure [Kernel-Mode Driver Architecture], kernel.wnode_method_item, wmistr/WNODE_METHOD_ITEM, WNODE_METHOD_ITEM, *PWNODE_METHOD_ITEM, wmistr/PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM, kstruct_d_6240b4d6-5d39-458c-b74c-21fdfa46b666.xml
+ms.keywords: ",  , *, *PWNODE_METHOD_ITEM, ,, D, E, H, I, M, N, O, P, PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM structure pointer [Kernel-Mode Driver Architecture], T, W, WNODE_METHOD_ITEM, WNODE_METHOD_ITEM structure [Kernel-Mode Driver Architecture], _, a, g, kernel.wnode_method_item, kstruct_d_6240b4d6-5d39-458c-b74c-21fdfa46b666.xml, t, tagWNODE_METHOD_ITEM, wmistr/PWNODE_METHOD_ITEM, wmistr/WNODE_METHOD_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

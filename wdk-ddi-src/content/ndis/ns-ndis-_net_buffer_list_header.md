@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 49169618-c42d-4bae-b1df-1426059d60d7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_NET_BUFFER_LIST_HEADER, ndis_netbuf_structures_ref_d7b08d29-e8af-4a7d-84bc-03c1885ee7e9.xml, NET_BUFFER_LIST_HEADER, netvista.net_buffer_list_header, PNET_BUFFER_LIST_HEADER union pointer [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_HEADER, ndis/NET_BUFFER_LIST_HEADER, *PNET_BUFFER_LIST_HEADER, NET_BUFFER_LIST_HEADER union [Network Drivers Starting with Windows Vista], ndis/PNET_BUFFER_LIST_HEADER"
+ms.keywords: ",  , *, *PNET_BUFFER_LIST_HEADER, ,, A, B, D, E, F, H, I, L, N, NET_BUFFER_LIST_HEADER, NET_BUFFER_LIST_HEADER union [Network Drivers Starting with Windows Vista], P, PNET_BUFFER_LIST_HEADER, PNET_BUFFER_LIST_HEADER union pointer [Network Drivers Starting with Windows Vista], R, S, T, U, _, _NET_BUFFER_LIST_HEADER, ndis/NET_BUFFER_LIST_HEADER, ndis/PNET_BUFFER_LIST_HEADER, ndis_netbuf_structures_ref_d7b08d29-e8af-4a7d-84bc-03c1885ee7e9.xml, netvista.net_buffer_list_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,11 +91,11 @@ NDIS maintains the information in the NET_BUFFER_LIST_HEADER union.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

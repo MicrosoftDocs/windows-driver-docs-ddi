@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3f361f50-3ca2-4fb6-828c-27928b50cf55
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml, storport/StorPortNotification, storage.storportnotification, StorPortNotification routine [Storage Devices]
+ms.keywords: ",  , N, P, S, StorPortNotification, StorPortNotification routine [Storage Devices], a, c, f, i, n, o, r, storage.storportnotification, storport/StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,7 +169,7 @@ QueryTickCount
 
 </td>
 <td>
-This notification type returns a LARGE_INTEGER that holds the value from <a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>. The value returned in TickCount is the count of the interval timer interrupts that have occurred since the system was booted
+This notification type returns a LARGE_INTEGER that holds the value from <a href="..\ntddk\nf-ntddk-kequerytickcount.md">KeQueryTickCount</a>. The value returned in TickCount is the count of the interval timer interrupts that have occurred since the system was booted
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -341,11 +341,23 @@ Because StorPortNotification returns VOID, the scanning engine should assume the
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567439">StorPortNotification for LinkDown</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567446">StorPortNotification for RequestComplete</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567445">StorPortNotification for QueryTickCount</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567456">StorPortNotification for WMIReregister</a>
 
 
 
@@ -357,19 +369,11 @@ Because StorPortNotification returns VOID, the scanning engine should assume the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567439">StorPortNotification for LinkDown</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567446">StorPortNotification for RequestComplete</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567452">StorPortNotification for WMIEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567456">StorPortNotification for WMIReregister</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567437">StorPortNotification for BusChangeDetected</a>
 
 
 
@@ -378,10 +382,6 @@ Because StorPortNotification returns VOID, the scanning engine should assume the
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567434">StorPortNotification for BufferOverrunDetected</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567437">StorPortNotification for BusChangeDetected</a>
 
 
 

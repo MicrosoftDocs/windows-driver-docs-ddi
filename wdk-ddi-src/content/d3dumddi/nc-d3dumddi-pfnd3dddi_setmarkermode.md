@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D45750D9-F722-4208-8D00-E14FD9C009CB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnsetmarkermode, pfnSetMarkerMode callback function [Display Devices], pfnSetMarkerMode, PFND3DDDI_SETMARKERMODE, PFND3DDDI_SETMARKERMODE, d3dumddi/pfnSetMarkerMode
+ms.keywords: PFND3DDDI_SETMARKERMODE, d3dumddi/pfnSetMarkerMode, display.pfnsetmarkermode, pfnSetMarkerMode, pfnSetMarkerMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,11 +115,11 @@ Follow these guidelines when you set up profile-type marker events in your user-
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode.md">SetMarkerMode</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-d3dddi_markertype.md">D3DDDI_MARKERTYPE</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode.md">SetMarkerMode</a>
 
 
 

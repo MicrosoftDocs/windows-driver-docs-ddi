@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 641c8f8d-e398-4ca4-9e28-bba2ef7d1bd3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D10_DDI_QUERY_DATA_SO_STATISTICS structure [Display Devices], D3D10_DDI_QUERY_DATA_SO_STATISTICS, UMDisplayDriver_Dx10param_Structs_3748a5db-9ce8-4763-baac-4110b754188d.xml, display.d3d10_ddi_query_data_so_statistics, d3d10umddi/D3D10_DDI_QUERY_DATA_SO_STATISTICS
+ms.keywords: ",  , ,, 0, 1, 3, A, C, D, D3D10_DDI_QUERY_DATA_SO_STATISTICS, D3D10_DDI_QUERY_DATA_SO_STATISTICS structure [Display Devices], E, I, O, Q, R, S, T, U, UMDisplayDriver_Dx10param_Structs_3748a5db-9ce8-4763-baac-4110b754188d.xml, Y, _, d3d10umddi/D3D10_DDI_QUERY_DATA_SO_STATISTICS, display.d3d10_ddi_query_data_so_statistics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,11 +91,11 @@ The driver associates a D3D10_DDI_QUERY_DATA_SO_STATISTICS structure with the D3
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
 
 
 

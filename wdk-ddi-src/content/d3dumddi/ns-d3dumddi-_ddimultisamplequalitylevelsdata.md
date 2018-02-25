@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48eeea6a-6a1d-43f7-a74c-3ca896c7b2d4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D_other_Structs_a83f4a87-4963-41c8-9ef7-e1ce0b8843c5.xml, DDIMULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], DDIMULTISAMPLEQUALITYLEVELSDATA, d3dumddi/DDIMULTISAMPLEQUALITYLEVELSDATA, _DDIMULTISAMPLEQUALITYLEVELSDATA, display.ddimultisamplequalitylevelsdata
+ms.keywords: ",  , ,, A, D, D3D_other_Structs_a83f4a87-4963-41c8-9ef7-e1ce0b8843c5.xml, DDIMULTISAMPLEQUALITYLEVELSDATA, DDIMULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], E, I, L, M, P, Q, S, T, U, V, Y, _, _DDIMULTISAMPLEQUALITYLEVELSDATA, d3dumddi/DDIMULTISAMPLEQUALITYLEVELSDATA, display.ddimultisamplequalitylevelsdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ typedef struct _DDIMULTISAMPLEQUALITYLEVELSDATA {
 
 ## -see-also
 
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddimultisample_type.md">D3DDDIMULTISAMPLE_TYPE</a>
 
 
 
@@ -108,7 +108,7 @@ typedef struct _DDIMULTISAMPLEQUALITYLEVELSDATA {
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddimultisample_type.md">D3DDDIMULTISAMPLE_TYPE</a>
 
 
 

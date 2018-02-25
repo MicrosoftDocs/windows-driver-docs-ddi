@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c58f4448-06f5-4eda-a254-e453defd1d6c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlAllocateAndInitializeSid, RtlAllocateAndInitializeSid function [Installable File System Drivers], ifsk.rtlallocateandinitializesid, rtlref_74879713-f57f-4d67-a779-995c150bc7ea.xml, ntifs/RtlAllocateAndInitializeSid
+ms.keywords: ",  , A, I, R, RtlAllocateAndInitializeSid, RtlAllocateAndInitializeSid function [Installable File System Drivers], S, a, c, d, e, i, ifsk.rtlallocateandinitializesid, l, n, ntifs/RtlAllocateAndInitializeSid, o, rtlref_74879713-f57f-4d67-a779-995c150bc7ea.xml, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

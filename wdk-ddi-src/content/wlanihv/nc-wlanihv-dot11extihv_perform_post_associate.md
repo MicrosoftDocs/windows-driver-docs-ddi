@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6e9af7d-4c33-4dea-92fe-e2cd8eed6697
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvperformpostassociate, Dot11ExtIhvPerformPostAssociate callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvPerformPostAssociate, DOT11EXTIHV_PERFORM_POST_ASSOCIATE, DOT11EXTIHV_PERFORM_POST_ASSOCIATE, wlanihv/Dot11ExtIhvPerformPostAssociate, Native_802.11_IHV_Ext_ecc5c19e-9fde-48a4-b3a7-6a1f94a20765.xml
+ms.keywords: DOT11EXTIHV_PERFORM_POST_ASSOCIATE, Dot11ExtIhvPerformPostAssociate, Dot11ExtIhvPerformPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ecc5c19e-9fde-48a4-b3a7-6a1f94a20765.xml, netvista.dot11extihvperformpostassociate, wlanihv/Dot11ExtIhvPerformPostAssociate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -168,11 +168,12 @@ For more information about the post-association operation, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
+   Dot11ExtPostAssociateCompletion</a>
 
 
 
@@ -181,8 +182,7 @@ For more information about the post-association operation, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
-   Dot11ExtPostAssociateCompletion</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

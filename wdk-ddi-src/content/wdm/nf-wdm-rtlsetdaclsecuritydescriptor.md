@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d22f4a14-2293-4210-bead-5814484a1471
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlsetdaclsecuritydescriptor, RtlSetDaclSecurityDescriptor, RtlSetDaclSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b2723172-ac75-4ada-b421-ae144d10d560.xml, wdm/RtlSetDaclSecurityDescriptor
+ms.keywords: ",  , D, R, RtlSetDaclSecurityDescriptor, RtlSetDaclSecurityDescriptor routine [Kernel-Mode Driver Architecture], S, a, c, e, i, k109_b2723172-ac75-4ada-b421-ae144d10d560.xml, kernel.rtlsetdaclsecuritydescriptor, l, o, p, r, s, t, u, wdm/RtlSetDaclSecurityDescriptor, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -148,15 +148,7 @@ The security descriptor is not an absolute format security descriptor.
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
 
 
@@ -164,11 +156,19 @@ The security descriptor is not an absolute format security descriptor.
 
 
 
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
 
 

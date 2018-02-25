@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5DC3C7C8-E7D1-4874-AF8D-8E6FD48DF046
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceInitSetReleaseHardwareOrderOnFailure, wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure, wdf.wdfdeviceinitsetreleasehardwareorderonfailure, kmdf.wdfdeviceinitsetreleasehardwareorderonfailure, WdfDeviceInitSetReleaseHardwareOrderOnFailure method
+ms.keywords: ",  , D, F, H, I, O, R, S, W, WdfDeviceInitSetReleaseHardwareOrderOnFailure, WdfDeviceInitSetReleaseHardwareOrderOnFailure method, a, c, d, e, f, i, kmdf.wdfdeviceinitsetreleasehardwareorderonfailure, l, n, r, s, t, u, v, w, wdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,15 +131,15 @@ The following code example shows how a bus driver can request that the framework
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
 
 
 
 <a href="..\wdfdevice\ne-wdfdevice-_wdf_release_hardware_order_on_failure.md">WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b12cbf2-7787-4e22-a554-2ce57d106347
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_query_num_avail_modes, IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES control code [Display Devices], IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES, ntddvdeo/IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES, Video_IOCTLs_8396c439-2dc7-4def-98f9-f829417f7b0e.xml
+ms.keywords: IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES, IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES control code [Display Devices], Video_IOCTLs_8396c439-2dc7-4def-98f9-f829417f7b0e.xml, display.ioctl_video_query_num_avail_modes, ntddvdeo/IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -118,11 +118,11 @@ If the miniport driver successfully returns the mode count, it sets the <b>Infor
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_num_modes.md">VIDEO_NUM_MODES</a>
-
-
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_num_modes.md">VIDEO_NUM_MODES</a>
 
 
 

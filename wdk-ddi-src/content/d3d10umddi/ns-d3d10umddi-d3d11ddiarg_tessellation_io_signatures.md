@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ed652b52-33c9-4961-af29-b5fc54cf29b8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], D3D11DDIARG_TESSELLATION_IO_SIGNATURES, d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES, UMDisplayDriver_Dx11param_Structs_5fb8a2b5-8291-4c80-a529-303f50f34cac.xml, display.d3d11ddiarg_tessellation_io_signatures
+ms.keywords: ",  , ,, 1, 3, A, D, D3D11DDIARG_TESSELLATION_IO_SIGNATURES, D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], E, G, I, L, N, O, R, S, T, U, UMDisplayDriver_Dx11param_Structs_5fb8a2b5-8291-4c80-a529-303f50f34cac.xml, _, d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11ddiarg_tessellation_io_signatures"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6bd4f75b-a332-4e1f-8df7-0d6f51b0737b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avfunc_800add7f-a220-4ad8-92bd-57e102739c8d.xml, KsGetObjectFromFileObject function [Streaming Media Devices], KsGetObjectFromFileObject, stream.ksgetobjectfromfileobject, ks/KsGetObjectFromFileObject
+ms.keywords: ",  , F, G, K, KsGetObjectFromFileObject, KsGetObjectFromFileObject function [Streaming Media Devices], O, avfunc_800add7f-a220-4ad8-92bd-57e102739c8d.xml, b, c, e, i, j, ks/KsGetObjectFromFileObject, l, m, o, r, s, stream.ksgetobjectfromfileobject, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bfce0f28-4cca-48a2-8836-2f77f4b6370a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista], dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, NdisMReadDmaCounter, netvista.ndismreaddmacounter, ndis/NdisMReadDmaCounter
+ms.keywords: ",  , C, D, M, N, NdisMReadDmaCounter, NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista], R, a, d, dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, e, i, m, n, ndis/NdisMReadDmaCounter, netvista.ndismreaddmacounter, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

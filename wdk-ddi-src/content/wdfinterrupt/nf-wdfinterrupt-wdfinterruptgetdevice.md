@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c1e7a9ce-5794-4ed0-bb30-e3e68b0251db
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfinterruptgetdevice, DFInterruptObjectRef_9c646459-e17b-434f-b313-d22f3a211c4e.xml, WdfInterruptGetDevice method, WdfInterruptGetDevice, wdf.wdfinterruptgetdevice, wdfinterrupt/WdfInterruptGetDevice
+ms.keywords: ",  , D, DFInterruptObjectRef_9c646459-e17b-434f-b313-d22f3a211c4e.xml, G, I, W, WdfInterruptGetDevice, WdfInterruptGetDevice method, c, d, e, f, i, kmdf.wdfinterruptgetdevice, n, p, r, t, u, v, wdf.wdfinterruptgetdevice, wdfinterrupt/WdfInterruptGetDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

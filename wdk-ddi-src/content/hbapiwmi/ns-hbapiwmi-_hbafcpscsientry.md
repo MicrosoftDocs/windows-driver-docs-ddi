@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 718431f9-e4cc-4e79-84d3-a59f5399e711
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml, storage.hbafcpscsientry, PHBAFCPScsiEntry, HBAFCPScsiEntry structure [Storage Devices], HBAFCPScsiEntry, hbapiwmi/PHBAFCPScsiEntry, PHBAFCPScsiEntry structure pointer [Storage Devices], *PHBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, _HBAFCPScsiEntry
+ms.keywords: ",  , *, *PHBAFCPScsiEntry, ,, A, B, C, E, F, H, HBAFCPScsiEntry, HBAFCPScsiEntry structure [Storage Devices], P, PHBAFCPScsiEntry, PHBAFCPScsiEntry structure pointer [Storage Devices], S, _, _HBAFCPScsiEntry, c, hbapiwmi/HBAFCPScsiEntry, hbapiwmi/PHBAFCPScsiEntry, i, n, r, s, storage.hbafcpscsientry, structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

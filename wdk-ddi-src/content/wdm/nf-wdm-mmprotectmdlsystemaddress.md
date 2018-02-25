@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e0ccc6e8-9351-4440-808b-e0b8eef48bc2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.mmprotectmdlsystemaddress, k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, MmProtectMdlSystemAddress, wdm/MmProtectMdlSystemAddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, M, MmProtectMdlSystemAddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture], P, S, c, d, e, k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, kernel.mmprotectmdlsystemaddress, l, m, o, r, s, t, wdm/MmProtectMdlSystemAddress, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 96BA0967-BA65-483D-9165-C7ADE05C0216
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dukmdt/DXGKVGPU_ESCAPE_RELEASE, _DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE, display.dxgkvgpu_escape_release, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices]
+ms.keywords: ",  , ,, A, C, D, DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices], E, G, K, L, P, R, S, U, V, X, _, _DXGKVGPU_ESCAPE_RELEASE, d3dukmdt/DXGKVGPU_ESCAPE_RELEASE, display.dxgkvgpu_escape_release"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

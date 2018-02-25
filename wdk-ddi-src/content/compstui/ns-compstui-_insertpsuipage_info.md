@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 99ec8cfa-3ec7-4080-b22a-dba0a86b7e4a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: INSERTPSUIPAGE_INFO structure [Print Devices], compstui/INSERTPSUIPAGE_INFO, compstui/PINSERTPSUIPAGE_INFO, print.insertpsuipage_info, *PINSERTPSUIPAGE_INFO, PINSERTPSUIPAGE_INFO, PINSERTPSUIPAGE_INFO structure pointer [Print Devices], INSERTPSUIPAGE_INFO, _INSERTPSUIPAGE_INFO, cpsuifnc_0d805815-c7ca-4fd4-8a77-269d6b79588e.xml
+ms.keywords: ",  , *, *PINSERTPSUIPAGE_INFO, ,, A, E, F, G, I, INSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO structure [Print Devices], N, O, P, PINSERTPSUIPAGE_INFO, PINSERTPSUIPAGE_INFO structure pointer [Print Devices], R, S, T, U, _, _INSERTPSUIPAGE_INFO, compstui/INSERTPSUIPAGE_INFO, compstui/PINSERTPSUIPAGE_INFO, cpsuifnc_0d805815-c7ca-4fd4-8a77-269d6b79588e.xml, print.insertpsuipage_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

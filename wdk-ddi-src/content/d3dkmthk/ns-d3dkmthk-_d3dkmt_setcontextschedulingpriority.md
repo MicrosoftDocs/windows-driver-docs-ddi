@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 879c7117-080a-4056-b94f-6462b370f434
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmt_setcontextschedulingpriority, d3dkmthk/D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, OpenGL_Structs_d0a33042-237e-469f-93af-f6031cf54098.xml, D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure [Display Devices], _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
+ms.keywords: ",  , ,, 3, C, D, D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure [Display Devices], E, G, H, I, K, L, M, N, O, OpenGL_Structs_d0a33042-237e-469f-93af-f6031cf54098.xml, P, R, S, T, U, X, Y, _, _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, display.d3dkmt_setcontextschedulingpriority"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

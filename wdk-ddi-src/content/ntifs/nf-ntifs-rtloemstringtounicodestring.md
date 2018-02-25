@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0420718f-3d0f-4f15-85ec-c2cdfa930023
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtloemstringtounicodestring, rtlref_6b1f3210-6b02-4f20-9887-b7efd0090b7f.xml, RtlOemStringToUnicodeString routine [Installable File System Drivers], RtlOemStringToUnicodeString, ntifs/RtlOemStringToUnicodeString
+ms.keywords: ",  , O, R, RtlOemStringToUnicodeString, RtlOemStringToUnicodeString routine [Installable File System Drivers], S, T, U, c, d, e, g, i, ifsk.rtloemstringtounicodestring, l, m, n, ntifs/RtlOemStringToUnicodeString, o, r, rtlref_6b1f3210-6b02-4f20-9887-b7efd0090b7f.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,7 +108,23 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtloemtounicoden.md">RtlOemToUnicodeN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -117,22 +133,6 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 <a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
 
 
 

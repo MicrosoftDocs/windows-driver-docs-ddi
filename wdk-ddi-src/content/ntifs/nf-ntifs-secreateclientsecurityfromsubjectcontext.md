@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3b3b12b8-05f7-40e6-909c-b99bf18cc299
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/SeCreateClientSecurityFromSubjectContext, seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml, SeCreateClientSecurityFromSubjectContext, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], ifsk.secreateclientsecurityfromsubjectcontext
+ms.keywords: ",  , C, F, S, SeCreateClientSecurityFromSubjectContext, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], a, b, c, e, i, ifsk.secreateclientsecurityfromsubjectcontext, j, l, m, n, ntifs/SeCreateClientSecurityFromSubjectContext, o, r, seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

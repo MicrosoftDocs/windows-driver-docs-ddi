@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c125e21f-20be-42c1-ba24-b13f2475f02e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DHAL_DP2DELETEQUERY structure [Display Devices], d3dhal/D3DHAL_DP2DELETEQUERY, d3dstrct_3194de0d-21ee-4f44-9be3-2f2ebe6b06e2.xml, LPD3DHAL_DP2DELETEQUERY structure pointer [Display Devices], LPD3DHAL_DP2DELETEQUERY, d3dhal/LPD3DHAL_DP2DELETEQUERY, display.d3dhal_dp2deletequery, _D3DHAL_DP2DELETEQUERY, *LPD3DHAL_DP2DELETEQUERY, D3DHAL_DP2DELETEQUERY
+ms.keywords: ",  , *, *LPD3DHAL_DP2DELETEQUERY, ,, 2, 3, A, D, D3DHAL_DP2DELETEQUERY, D3DHAL_DP2DELETEQUERY structure [Display Devices], E, H, L, LPD3DHAL_DP2DELETEQUERY, LPD3DHAL_DP2DELETEQUERY structure pointer [Display Devices], P, Q, R, T, U, Y, _, _D3DHAL_DP2DELETEQUERY, d3dhal/D3DHAL_DP2DELETEQUERY, d3dhal/LPD3DHAL_DP2DELETEQUERY, d3dstrct_3194de0d-21ee-4f44-9be3-2f2ebe6b06e2.xml, display.d3dhal_dp2deletequery"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ The runtime uses D3DHAL_DP2DELETEQUERY to identify each query. The driver's <a h
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
 D3DDP2OP_DELETEQUERY
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

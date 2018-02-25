@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0138F4F4-658F-4465-8647-17BE488E2FED
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterPropertyBag interface [Print Devices], SetBytes method, SetBytes method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag::SetBytes, printerextension/IPrinterPropertyBag::SetBytes, print.iprinterpropertybag_setbytes, SetBytes method [Print Devices], SetBytes, IPrinterPropertyBag
+ms.keywords: ",  , ,, ., :, B, I, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], SetBytes method, IPrinterPropertyBag::SetBytes, P, S, SetBytes method [Print Devices], SetBytes method [Print Devices], IPrinterPropertyBag interface, SetBytes,IPrinterPropertyBag.SetBytes, a, e, g, i, n, o, p, print.iprinterpropertybag_setbytes, printerextension/IPrinterPropertyBag::SetBytes, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: D35D8960-AD9F-4493-B6CD-3E3049CC3BBD
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugoutputcallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], IDebugOutputCallbacks2 interface [Windows Debugging], described, IDebugOutputCallbacks2, dbgeng/IDebugOutputCallbacks2
+ms.keywords: IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], IDebugOutputCallbacks2 interface [Windows Debugging], described, dbgeng/IDebugOutputCallbacks2, debugger.idebugoutputcallbacks2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -111,11 +111,11 @@ Returns notifications for the <b>IDebugOutputCallbacks2</b> interface.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbackswide.md">IDebugOutputCallbacksWide</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
 
 
 

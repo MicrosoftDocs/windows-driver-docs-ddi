@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E1EAA11F-B32F-4551-9788-49BC8A13BB19
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUrbCompleteWithNtStatus, udecxurb/UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], buses.udecxurbcompletewithntstatus
+ms.keywords: ",  , C, N, S, U, UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], W, a, b, buses.udecxurbcompletewithntstatus, c, d, e, h, i, l, m, o, p, r, s, t, u, udecxurb/UdecxUrbCompleteWithNtStatus, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

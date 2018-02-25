@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B98D14A1-7016-4299-9E7E-45E5EB6BE912
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.componentidlestatecallback, ComponentIdleStateCallback routine [Kernel-Mode Driver Architecture], ComponentIdleStateCallback, PO_FX_COMPONENT_IDLE_STATE_CALLBACK, PO_FX_COMPONENT_IDLE_STATE_CALLBACK, wdm/ComponentIdleStateCallback
+ms.keywords: ComponentIdleStateCallback, ComponentIdleStateCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_STATE_CALLBACK, kernel.componentidlestatecallback, wdm/ComponentIdleStateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -75,7 +75,7 @@ VOID ComponentIdleStateCallback(
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 
 ### -param Component [in]
@@ -159,11 +159,11 @@ The PO_FX_COMPONENT_IDLE_STATE_CALLBACK function type is defined in the Wdm.h he
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+
+
+
 <a href="..\wdm\nf-wdm-pofxsetcomponentwake.md">PoFxSetComponentWake</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>
 
 
 
@@ -171,7 +171,7 @@ The PO_FX_COMPONENT_IDLE_STATE_CALLBACK function type is defined in the Wdm.h he
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+<a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>
 
 
 

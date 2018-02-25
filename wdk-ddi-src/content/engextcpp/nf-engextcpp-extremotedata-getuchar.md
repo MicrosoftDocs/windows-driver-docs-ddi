@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2c4b7f40-210a-44fa-b7d4-150355d6b75b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, ExtRemoteData::GetUchar, GetUchar method [Windows Debugging], ExtRemoteData class, ExtRemoteData, GetUchar, debugger.extremotedata_getuchar, GetUchar method [Windows Debugging], ExtRemoteData class [Windows Debugging], GetUchar method
+ms.keywords: ",  , ,, ., :, D, E, EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetUchar method, ExtRemoteData::GetUchar, G, GetUchar method [Windows Debugging], GetUchar method [Windows Debugging], ExtRemoteData class, GetUchar,ExtRemoteData.GetUchar, R, U, a, c, debugger.extremotedata_getuchar, e, h, m, o, r, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,7 +87,7 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544016">ExtRemoteData::GetChar</a>
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 
@@ -95,7 +95,7 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544016">ExtRemoteData::GetChar</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6dbe7da6-31f6-43f2-aa25-be6f13c8d8d8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetTebAddress, WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, wdbgexts/GetTebAddress, debugger.gettebaddress, GetTebAddress function [Windows Debugging]
+ms.keywords: ",  , A, G, GetTebAddress, GetTebAddress function [Windows Debugging], T, WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, b, d, debugger.gettebaddress, e, r, s, t, wdbgexts/GetTebAddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

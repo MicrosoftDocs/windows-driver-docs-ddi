@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4be4007c-5f04-48f2-b88c-c2d71f6e8b7b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.cwiaudbgfn_class, CWiauDbgFn class [Imaging Devices], CWiauDbgFn class [Imaging Devices], described, CWiauDbgFn, wiautil/CWiauDbgFn, wiauFncs_485ebf85-0a5f-4bac-b9bf-6f91f5f1aedd.xml
+ms.keywords: CWiauDbgFn, CWiauDbgFn class [Imaging Devices], CWiauDbgFn class [Imaging Devices], described, image.cwiaudbgfn_class, wiauFncs_485ebf85-0a5f-4bac-b9bf-6f91f5f1aedd.xml, wiautil/CWiauDbgFn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

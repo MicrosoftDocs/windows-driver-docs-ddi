@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0ce5df90-2019-4a92-97d6-0218acc8b1e8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbqueryservices, DxgkCbQueryServices callback function [Display Devices], DxgkCbQueryServices, DXGKCB_QUERY_SERVICES, DXGKCB_QUERY_SERVICES, dispmprt/DxgkCbQueryServices, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml
+ms.keywords: DXGKCB_QUERY_SERVICES, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -179,19 +179,19 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
 
 
 

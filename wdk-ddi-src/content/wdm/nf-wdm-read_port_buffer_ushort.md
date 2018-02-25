@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 27c2f249-bfd2-497d-aa34-f5d1e1a1fac7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: READ_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], READ_PORT_BUFFER_USHORT, k103_59466909-4881-4b5f-95aa-c1d742ef17af.xml, kernel.read_port_buffer_ushort, wdm/READ_PORT_BUFFER_USHORT
+ms.keywords: ",  , A, B, D, E, F, H, O, P, R, READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], S, T, U, _, k103_59466909-4881-4b5f-95aa-c1d742ef17af.xml, kernel.read_port_buffer_ushort, wdm/READ_PORT_BUFFER_USHORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

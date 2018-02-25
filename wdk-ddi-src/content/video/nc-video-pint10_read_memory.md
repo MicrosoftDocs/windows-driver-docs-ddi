@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94b72ad0-1ace-4fde-a4a9-1078103e3d9b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.int10readmemory, Int10ReadMemory callback function [Display Devices], Int10ReadMemory, PINT10_READ_MEMORY, PINT10_READ_MEMORY, video/Int10ReadMemory, VideoPort_Functions_fab5815b-1478-4d19-823f-05fd1de02b0c.xml
+ms.keywords: Int10ReadMemory, Int10ReadMemory callback function [Display Devices], PINT10_READ_MEMORY, VideoPort_Functions_fab5815b-1478-4d19-823f-05fd1de02b0c.xml, display.int10readmemory, video/Int10ReadMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

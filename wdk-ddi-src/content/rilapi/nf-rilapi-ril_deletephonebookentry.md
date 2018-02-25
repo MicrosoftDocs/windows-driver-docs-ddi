@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 110c542a-c98a-450d-b943-d8449dcac668
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_deletephonebookentry, RIL_DeletePhonebookEntry method [Network Drivers Starting with Windows Vista], RIL_DeletePhonebookEntry, rilapi/RIL_DeletePhonebookEntry
+ms.keywords: ",  , D, E, I, L, P, R, RIL_DeletePhonebookEntry, RIL_DeletePhonebookEntry method [Network Drivers Starting with Windows Vista], _, b, e, h, k, l, n, netvista.ril_deletephonebookentry, o, r, rilapi/RIL_DeletePhonebookEntry, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

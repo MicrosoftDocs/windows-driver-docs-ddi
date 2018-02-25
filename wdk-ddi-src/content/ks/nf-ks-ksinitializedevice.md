@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f33122d0-7661-454a-87f7-7b5795793376
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsInitializeDevice, ks/KsInitializeDevice, stream.ksinitializedevice, avfunc_dfdb87f8-ade9-4ba6-87a3-440e9abb80b4.xml, KsInitializeDevice function [Streaming Media Devices]
+ms.keywords: ",  , D, I, K, KsInitializeDevice, KsInitializeDevice function [Streaming Media Devices], a, avfunc_dfdb87f8-ade9-4ba6-87a3-440e9abb80b4.xml, c, e, i, ks/KsInitializeDevice, l, n, s, stream.ksinitializedevice, t, v, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,23 +113,11 @@ Most minidrivers do not call this function directly. Only call <b>KsInitializeDe
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\ks\nf-ks-ksterminatedevice.md">KsTerminateDevice</a>
-
-
-
 <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
 
 
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
 
 
 
@@ -137,7 +125,11 @@ Most minidrivers do not call this function directly. Only call <b>KsInitializeDe
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
 
 
 
@@ -145,7 +137,15 @@ Most minidrivers do not call this function directly. Only call <b>KsInitializeDe
 
 
 
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
+<a href="..\ks\nf-ks-ksterminatedevice.md">KsTerminateDevice</a>
 
 
 

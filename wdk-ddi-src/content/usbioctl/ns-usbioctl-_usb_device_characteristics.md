@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D4A8DE43-3E81-4A1C-B1C0-ABE6000D9F11
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USB_DEVICE_CHARACTERISTICS, buses.usb_device_characteristics, USB_DEVICE_CHARACTERISTICS structure [Buses], PUSB_DEVICE_CHARACTERISTICS structure pointer [Buses], usbioctl/USB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS, *PUSB_DEVICE_CHARACTERISTICS, _USB_DEVICE_CHARACTERISTICS, usbioctl/PUSB_DEVICE_CHARACTERISTICS
+ms.keywords: ",  , *, *PUSB_DEVICE_CHARACTERISTICS, ,, A, B, C, D, E, H, I, P, PUSB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS structure pointer [Buses], R, S, T, U, USB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS structure [Buses], V, _, _USB_DEVICE_CHARACTERISTICS, buses.usb_device_characteristics, usbioctl/PUSB_DEVICE_CHARACTERISTICS, usbioctl/USB_DEVICE_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

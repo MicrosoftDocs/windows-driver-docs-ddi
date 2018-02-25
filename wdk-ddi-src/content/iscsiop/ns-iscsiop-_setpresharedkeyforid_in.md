@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f941bc28-f906-4399-be54-09e2bc12e443
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN structure pointer [Storage Devices], storage.setpresharedkeyforid_in, iscsiop/SetPresharedKeyForId_IN, SetPresharedKeyForId_IN structure [Storage Devices], SetPresharedKeyForId_IN, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml, iscsiop/PSetPresharedKeyForId_IN, _SetPresharedKeyForId_IN"
+ms.keywords: ",  , *, *PSetPresharedKeyForId_IN, ,, F, I, K, N, P, PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN structure pointer [Storage Devices], S, SetPresharedKeyForId_IN, SetPresharedKeyForId_IN structure [Storage Devices], _, _SetPresharedKeyForId_IN, a, d, e, h, iscsiop/PSetPresharedKeyForId_IN, iscsiop/SetPresharedKeyForId_IN, o, r, s, storage.setpresharedkeyforid_in, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -161,15 +161,15 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
-
-
-
 <a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_out.md">SetPresharedKeyForId_OUT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
 
 
 

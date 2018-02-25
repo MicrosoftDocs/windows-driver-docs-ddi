@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 4220509B-A378-47F4-8E71-0290EDED89EB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_udecx_usb_endpoint_reset, EvtUsbEndpointReset callback function [Buses], EvtUsbEndpointReset, EVT_UDECX_USB_ENDPOINT_RESET, EVT_UDECX_USB_ENDPOINT_RESET, udecxusbendpoint/EvtUsbEndpointReset
+ms.keywords: EVT_UDECX_USB_ENDPOINT_RESET, EvtUsbEndpointReset, EvtUsbEndpointReset callback function [Buses], buses.evt_udecx_usb_endpoint_reset, udecxusbendpoint/EvtUsbEndpointReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,19 +105,19 @@ The reset request clears the error condition in the endpoint that causes failed 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh968307">How to recover from USB pipe errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

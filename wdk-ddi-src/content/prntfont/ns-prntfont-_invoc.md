@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5eeaa7f7-dc99-4cf7-846c-801954cc9040
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_INVOC, INVOC, PINVOC, PINVOC structure pointer [Print Devices], prntfont/INVOC, print.invoc, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, prntfont/PINVOC, *PINVOC, INVOC structure [Print Devices]"
+ms.keywords: ",  , *, *PINVOC, ,, C, I, INVOC, INVOC structure [Print Devices], N, O, P, PINVOC, PINVOC structure pointer [Print Devices], V, _, _INVOC, print.invoc, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, prntfont/INVOC, prntfont/PINVOC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

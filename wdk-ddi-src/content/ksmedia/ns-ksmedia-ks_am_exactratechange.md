@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c7ffc52a-e7cd-4ba1-9696-568719166713
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, *PKS_AM_ExactRateChange, ksmedia/KS_AM_ExactRateChange, PKS_AM_ExactRateChange, KS_AM_ExactRateChange structure [Streaming Media Devices], KS_AM_ExactRateChange, ksmedia/PKS_AM_ExactRateChange, stream.ks_am_exactratechange
+ms.keywords: ",  , *, *PKS_AM_ExactRateChange, ,, A, C, E, K, KS_AM_ExactRateChange, KS_AM_ExactRateChange structure [Streaming Media Devices], M, P, PKS_AM_ExactRateChange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], R, S, _, a, c, dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, e, g, h, ksmedia/KS_AM_ExactRateChange, ksmedia/PKS_AM_ExactRateChange, n, stream.ks_am_exactratechange, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

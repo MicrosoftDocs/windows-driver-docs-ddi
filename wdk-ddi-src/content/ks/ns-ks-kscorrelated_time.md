@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d733f50c-01a2-484f-ab5b-72aaa3378c7d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/PKSCORRELATED_TIME, ks/KSCORRELATED_TIME, KSCORRELATED_TIME, *PKSCORRELATED_TIME, stream.kscorrelated_time, KSCORRELATED_TIME structure [Streaming Media Devices], PKSCORRELATED_TIME, ks-struct_4bc7b067-fc0e-4343-9ae9-4bfe5aec90e3.xml, PKSCORRELATED_TIME structure pointer [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSCORRELATED_TIME, ,, A, C, D, E, I, K, KSCORRELATED_TIME, KSCORRELATED_TIME structure [Streaming Media Devices], L, M, O, P, PKSCORRELATED_TIME, PKSCORRELATED_TIME structure pointer [Streaming Media Devices], R, S, T, _, ks-struct_4bc7b067-fc0e-4343-9ae9-4bfe5aec90e3.xml, ks/KSCORRELATED_TIME, ks/PKSCORRELATED_TIME, stream.kscorrelated_time"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

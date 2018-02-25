@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8EA34C58-9B2D-4B69-ABAB-D67F6BCD6229
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3d12ddi_video_decode_frame, pfnDecodeFrame callback function [Display Devices], pfnDecodeFrame, PFND3D12DDI_VIDEO_DECODE_FRAME_0021, PFND3D12DDI_VIDEO_DECODE_FRAME_0021, d3d12umddi/pfnDecodeFrame
+ms.keywords: PFND3D12DDI_VIDEO_DECODE_FRAME_0021, d3d12umddi/pfnDecodeFrame, display.pfnd3d12ddi_video_decode_frame, pfnDecodeFrame, pfnDecodeFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -122,11 +122,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a>
-
-
-
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0020.md">D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a>
 
 
 

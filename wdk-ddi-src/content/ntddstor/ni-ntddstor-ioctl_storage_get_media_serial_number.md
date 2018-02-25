@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: aa903b7e-e844-466e-85b1-33fe6ba40689
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_get_media_serial_number, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code [Storage Devices], IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, ntddstor/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, k307_dd8dcdec-9756-435c-abbb-14dd1a64ee11.xml
+ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code [Storage Devices], k307_dd8dcdec-9756-435c-abbb-14dd1a64ee11.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, storage.ioctl_storage_get_media_serial_number
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d9f695c-9a9f-4af9-8bf6-2096f3278852
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_miniport_process_service_irp, IOCTL_MINIPORT_PROCESS_SERVICE_IRP control code [Storage Devices], IOCTL_MINIPORT_PROCESS_SERVICE_IRP, ntddscsi/IOCTL_MINIPORT_PROCESS_SERVICE_IRP, k307_8997b602-e4ce-4b15-be19-77ba863de295.xml
+ms.keywords: IOCTL_MINIPORT_PROCESS_SERVICE_IRP, IOCTL_MINIPORT_PROCESS_SERVICE_IRP control code [Storage Devices], k307_8997b602-e4ce-4b15-be19-77ba863de295.xml, ntddscsi/IOCTL_MINIPORT_PROCESS_SERVICE_IRP, storage.ioctl_miniport_process_service_irp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

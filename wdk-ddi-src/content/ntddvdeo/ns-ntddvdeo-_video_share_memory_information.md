@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 004ecb65-a462-45e5-a647-9655727b202b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PVIDEO_SHARE_MEMORY_INFORMATION, Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], _VIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION, display.video_share_memory_information, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices], PVIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION"
+ms.keywords: ",  , *, *PVIDEO_SHARE_MEMORY_INFORMATION, ,, A, D, E, F, H, I, M, N, O, P, PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], R, S, T, V, VIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices], Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, Y, _, _VIDEO_SHARE_MEMORY_INFORMATION, display.video_share_memory_information, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

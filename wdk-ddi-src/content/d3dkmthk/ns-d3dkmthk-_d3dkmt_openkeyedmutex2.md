@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7d746cac-42fd-4fb3-9384-ea690c2235f8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmt_openkeyedmutex2, _D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2 structure [Display Devices], d3dkmthk/D3DKMT_OPENKEYEDMUTEX2
+ms.keywords: ",  , ,, 2, 3, D, D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2 structure [Display Devices], E, K, M, N, O, P, T, U, X, Y, _, _D3DKMT_OPENKEYEDMUTEX2, d3dkmthk/D3DKMT_OPENKEYEDMUTEX2, display.d3dkmt_openkeyedmutex2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: D3DKMT_OPENKEYEDMUTEX2
 ## -description
 
 
-Describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a> function opens.
+Describes a keyed mutex that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_openkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a> function opens.
 
 
 ## -syntax
@@ -92,7 +92,7 @@ typedef struct _D3DKMT_OPENKEYEDMUTEX2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_openkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a>
 
 
 

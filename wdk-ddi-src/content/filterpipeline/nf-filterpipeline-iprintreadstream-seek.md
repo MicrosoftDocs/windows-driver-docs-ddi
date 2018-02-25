@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b563e080-32ab-47b7-94f4-1d3dd19f3311
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintReadStream interface [Print Devices], Seek method, Seek method [Print Devices], IPrintReadStream interface, Seek method [Print Devices], filterpipeline_622c8e3a-c21f-4784-ba2d-96833fab4230.xml, IPrintReadStream, filterpipeline/IPrintReadStream::Seek, print.iprintreadstream_seek, IPrintReadStream::Seek, Seek
+ms.keywords: ",  , ,, ., :, I, IPrintReadStream, IPrintReadStream interface [Print Devices], Seek method, IPrintReadStream::Seek, P, R, S, Seek method [Print Devices], Seek method [Print Devices], IPrintReadStream interface, Seek,IPrintReadStream.Seek, a, d, e, filterpipeline/IPrintReadStream::Seek, filterpipeline_622c8e3a-c21f-4784-ba2d-96833fab4230.xml, i, k, m, n, print.iprintreadstream_seek, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

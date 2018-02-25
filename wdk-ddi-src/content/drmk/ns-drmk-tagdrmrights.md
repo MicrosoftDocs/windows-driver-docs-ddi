@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 890f996c-9216-4148-b198-538963101c2a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, tagDRMRIGHTS, DRMRIGHTS, audio.drmrights, drmk/DRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], drmk/PDRMRIGHTS, DRMRIGHTS structure [Audio Devices], *PDRMRIGHTS, PDRMRIGHTS
+ms.keywords: ",  , *, *PDRMRIGHTS, ,, D, DRMRIGHTS, DRMRIGHTS structure [Audio Devices], G, H, I, M, P, PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], R, S, T, a, aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, audio.drmrights, drmk/DRMRIGHTS, drmk/PDRMRIGHTS, g, t, tagDRMRIGHTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -266,7 +266,7 @@ This macro does not return a value.
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
 
 
@@ -286,7 +286,7 @@ This macro does not return a value.
 
 
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
 
 
 

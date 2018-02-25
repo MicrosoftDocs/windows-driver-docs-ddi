@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 627FB3E6-3C5D-4104-B129-08D3EC0B963E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, display.dxgk_buildpagingbuffer_copypagetableentries, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
+ms.keywords: ",  , ,, A, B, C, D, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure [Display Devices], E, F, G, I, K, L, N, O, P, R, S, T, U, X, Y, _, _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, display.dxgk_buildpagingbuffer_copypagetableentries"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_ran
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_range.md">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 

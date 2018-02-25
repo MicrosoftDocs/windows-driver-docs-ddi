@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3ed8b7df-9c7d-44de-a49d-10221acf71e3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfCommonBufferCreateWithConfig, wdf.wdfcommonbuffercreatewithconfig, WdfCommonBufferCreateWithConfig method, kmdf.wdfcommonbuffercreatewithconfig, wdfcommonbuffer/WdfCommonBufferCreateWithConfig, DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml
+ms.keywords: ",  , B, C, DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml, W, WdfCommonBufferCreateWithConfig, WdfCommonBufferCreateWithConfig method, a, d, e, f, g, h, i, kmdf.wdfcommonbuffercreatewithconfig, m, n, o, r, t, u, wdf.wdfcommonbuffercreatewithconfig, wdfcommonbuffer/WdfCommonBufferCreateWithConfig"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -211,7 +211,7 @@ if (!NT_SUCCESS (status)) {
 
 ## -see-also
 
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -219,19 +219,11 @@ if (!NT_SUCCESS (status)) {
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a>
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -239,7 +231,15 @@ if (!NT_SUCCESS (status)) {
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 
 

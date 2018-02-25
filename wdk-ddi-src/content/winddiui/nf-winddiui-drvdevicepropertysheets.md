@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 46f39e36-8915-4ccf-97ef-45dbacdfbe0a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winddiui/DrvDevicePropertySheets, print_interface-graphics_f7a16b0a-c0f3-48c8-83a0-ce44a80ff546.xml, DrvDevicePropertySheets, print.drvdevicepropertysheets, DrvDevicePropertySheets function [Print Devices]
+ms.keywords: ",  , D, DrvDevicePropertySheets, DrvDevicePropertySheets function [Print Devices], P, S, c, e, h, i, o, p, print.drvdevicepropertysheets, print_interface-graphics_f7a16b0a-c0f3-48c8-83a0-ce44a80ff546.xml, r, s, t, v, winddiui/DrvDevicePropertySheets, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

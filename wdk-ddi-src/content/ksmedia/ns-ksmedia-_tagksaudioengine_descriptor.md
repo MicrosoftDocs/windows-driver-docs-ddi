@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6691AB8B-EC6E-483B-A10A-6F9C5A97FEC9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksmedia/PKSAUDIOENGINE_DESCRIPTOR, audio.ksaudioengine_descriptor, KSAUDIOENGINE_DESCRIPTOR, ksmedia/KSAUDIOENGINE_DESCRIPTOR, PKSAUDIOENGINE_DESCRIPTOR, *PKSAUDIOENGINE_DESCRIPTOR, PKSAUDIOENGINE_DESCRIPTOR structure pointer [Audio Devices], KSAUDIOENGINE_DESCRIPTOR structure [Audio Devices], _tagKSAUDIOENGINE_DESCRIPTOR
+ms.keywords: ",  , *, *PKSAUDIOENGINE_DESCRIPTOR, ,, A, C, D, E, G, I, K, KSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR structure [Audio Devices], N, O, P, PKSAUDIOENGINE_DESCRIPTOR, PKSAUDIOENGINE_DESCRIPTOR structure pointer [Audio Devices], R, S, T, U, _, _tagKSAUDIOENGINE_DESCRIPTOR, a, audio.ksaudioengine_descriptor, g, ksmedia/KSAUDIOENGINE_DESCRIPTOR, ksmedia/PKSAUDIOENGINE_DESCRIPTOR, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ Specifies the ID of the pin factory that is connected to the audio engine node t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265074">GetAudioEngineDescriptor</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450870">KSPROPERTY_AUDIOENGINE_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265074">GetAudioEngineDescriptor</a>
 
 
 

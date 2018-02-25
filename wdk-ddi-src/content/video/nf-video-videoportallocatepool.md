@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c981e56f-e582-4c06-8d32-b070d58065d2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoportallocatepool, VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, VideoPortAllocatePool, video/VideoPortAllocatePool, VideoPortAllocatePool function [Display Devices]
+ms.keywords: ",  , A, P, V, VideoPortAllocatePool, VideoPortAllocatePool function [Display Devices], VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, a, c, d, display.videoportallocatepool, e, i, l, o, r, t, video/VideoPortAllocatePool"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

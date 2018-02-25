@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ffacbb39-2581-4207-841d-28ce57fbc64d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddistartdevice, DxgkDdiStartDevice callback function [Display Devices], DxgkDdiStartDevice, DXGKDDI_START_DEVICE, DXGKDDI_START_DEVICE, dispmprt/DxgkDdiStartDevice, DmFunctions_3b4ea5b7-9ccb-408f-9f37-693965ee99cf.xml
+ms.keywords: DXGKDDI_START_DEVICE, DmFunctions_3b4ea5b7-9ccb-408f-9f37-693965ee99cf.xml, DxgkDdiStartDevice, DxgkDdiStartDevice callback function [Display Devices], display.dxgkddistartdevice, dispmprt/DxgkDdiStartDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,11 +153,7 @@ The <i>DxgkDdiStartDevice</i> function should be made pageable.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
 
 
 
@@ -165,19 +161,23 @@ The <i>DxgkDdiStartDevice</i> function should be made pageable.
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
-
-
-
-<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 
 
 

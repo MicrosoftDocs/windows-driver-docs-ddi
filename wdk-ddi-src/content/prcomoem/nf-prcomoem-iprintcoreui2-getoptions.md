@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d83b8520-6f31-403c-ac58-6d6a20cf8750
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintcoreui2_getoptions, IPrintCoreUI2, GetOptions method [Print Devices], IPrintCoreUI2::GetOptions, prcomoem/IPrintCoreUI2::GetOptions, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml, GetOptions method [Print Devices], IPrintCoreUI2 interface, GetOptions, IPrintCoreUI2 interface [Print Devices], GetOptions method
+ms.keywords: ",  , ,, ., 2, :, C, G, GetOptions method [Print Devices], GetOptions method [Print Devices], IPrintCoreUI2 interface, GetOptions,IPrintCoreUI2.GetOptions, I, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetOptions method, IPrintCoreUI2::GetOptions, O, P, U, e, i, n, o, p, prcomoem/IPrintCoreUI2::GetOptions, print.iprintcoreui2_getoptions, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -202,6 +202,10 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
@@ -210,15 +214,11 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553081">IPrintCoreUI2::SetOptions</a>
 
 
 
 <a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553081">IPrintCoreUI2::SetOptions</a>
 
 
 

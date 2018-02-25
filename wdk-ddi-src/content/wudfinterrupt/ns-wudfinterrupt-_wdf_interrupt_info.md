@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 37B997D1-6F5D-4685-BF46-2C33685C157F
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfinterrupt/WDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO, wudfinterrupt/PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, PWDF_INTERRUPT_INFO structure pointer, umdf.wdf_interrupt_info, _WDF_INTERRUPT_INFO, wdf.wdf_interrupt_info_umdf
+ms.keywords: ",  , *, *PWDF_INTERRUPT_INFO, ,, D, E, F, I, N, O, P, PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, R, T, U, W, WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, _, _WDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, wdf.wdf_interrupt_info_umdf, wudfinterrupt/PWDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,7 +119,7 @@ The DIRQL at which the device interrupts.
 
 ### -field Mode
 
-A <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered. The KINTERRUPT_MODE enumeration type is defined in Wudfwdm.h.
+A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered. The KINTERRUPT_MODE enumeration type is defined in Wudfwdm.h.
 
 
 ### -field Polarity
@@ -153,7 +153,7 @@ The <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTER
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>
 
 
 
@@ -161,15 +161,15 @@ The <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTER
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
-
-
-
-<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
+
+
+
+<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 

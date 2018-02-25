@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a37a921c-748a-4ac2-99c7-a6cf987a8f54
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_15f597e3-b397-497b-9839-a61b6cf27745.xml, FsRtlTeardownPerStreamContexts routine [Installable File System Drivers], ifsk.fsrtlteardownperstreamcontexts, ntifs/FsRtlTeardownPerStreamContexts, FsRtlTeardownPerStreamContexts
+ms.keywords: ",  , C, F, FsRtlTeardownPerStreamContexts, FsRtlTeardownPerStreamContexts routine [Installable File System Drivers], P, R, S, T, a, d, e, fsrtlref_15f597e3-b397-497b-9839-a61b6cf27745.xml, ifsk.fsrtlteardownperstreamcontexts, l, m, n, ntifs/FsRtlTeardownPerStreamContexts, o, r, s, t, w, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,19 +98,11 @@ To avoid conflicts in synchronization, the <b>FsRtlTeardownPerStreamContexts</b>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinitperstreamcontext.md">FsRtlInitPerStreamContext</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
 
 
 
@@ -118,7 +110,19 @@ To avoid conflicts in synchronization, the <b>FsRtlTeardownPerStreamContexts</b>
 
 
 
+<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlinitperstreamcontext.md">FsRtlInitPerStreamContext</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
 
 
 
@@ -126,11 +130,7 @@ To avoid conflicts in synchronization, the <b>FsRtlTeardownPerStreamContexts</b>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9105d6b5-bee3-4fcd-b548-4d403731654d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCbCatExA, STRSAFE_FILL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, kernel.rtlstringcbcatex, STRSAFE_NULL_ON_FAILURE, safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml, RtlStringCbCatExW, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCbCatExW, ntstrsafe/RtlStringCbCatExA, RtlStringCbCatExW function [Kernel-Mode Driver Architecture], STRSAFE_IGNORE_NULLS, RtlStringCbCatEx
+ms.keywords: ",  , A, C, E, R, RtlStringCbCatEx, RtlStringCbCatExA, RtlStringCbCatExW, RtlStringCbCatExW function [Kernel-Mode Driver Architecture], S, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, a, b, g, i, kernel.rtlstringcbcatex, l, n, ntstrsafe/RtlStringCbCatExA, ntstrsafe/RtlStringCbCatExW, r, safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -297,11 +297,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
 
 
 

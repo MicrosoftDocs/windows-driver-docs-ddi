@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fefdb56f-6689-4a4f-a198-6108190624f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisWaitEvent, netvista.ndiswaitevent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, ndis/NdisWaitEvent, NdisWaitEvent function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , E, N, NdisWaitEvent, NdisWaitEvent function [Network Drivers Starting with Windows Vista], W, a, d, e, i, n, ndis/NdisWaitEvent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, netvista.ndiswaitevent, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,24 +117,15 @@ A miniport driver typically calls
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
-   Drivers</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
 
 
 
@@ -146,7 +137,16 @@ A miniport driver typically calls
 
 
 
-<a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
 
 
 

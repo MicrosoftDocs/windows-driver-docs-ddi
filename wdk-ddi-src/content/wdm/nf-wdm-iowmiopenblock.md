@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/IoWMIOpenBlock, k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], kernel.iowmiopenblock
+ms.keywords: ",  , B, I, IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], M, O, W, c, e, k, k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, kernel.iowmiopenblock, l, n, o, p, wdm/IoWMIOpenBlock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,19 +142,11 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
+<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
 
 
 
@@ -166,7 +158,15 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 
 
+<a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
 
 
 
@@ -174,7 +174,7 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 
 
-<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
+<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
 
 
 

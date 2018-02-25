@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 69CE0535-3ADD-481C-A016-695A7303BBA5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/DEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT, debugger.debug_client_context, PDEBUG_CLIENT_CONTEXT structure pointer [Windows Debugging], DEBUG_CLIENT_CONTEXT structure [Windows Debugging], PDEBUG_CLIENT_CONTEXT, _DEBUG_CLIENT_CONTEXT, dbgeng/PDEBUG_CLIENT_CONTEXT, *PDEBUG_CLIENT_CONTEXT
+ms.keywords: ",  , *, *PDEBUG_CLIENT_CONTEXT, ,, B, C, D, DEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT structure [Windows Debugging], E, G, I, L, N, O, P, PDEBUG_CLIENT_CONTEXT, PDEBUG_CLIENT_CONTEXT structure pointer [Windows Debugging], T, U, X, _, _DEBUG_CLIENT_CONTEXT, dbgeng/DEBUG_CLIENT_CONTEXT, dbgeng/PDEBUG_CLIENT_CONTEXT, debugger.debug_client_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

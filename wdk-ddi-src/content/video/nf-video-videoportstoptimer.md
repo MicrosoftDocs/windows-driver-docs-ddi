@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f6927e1-2342-4816-aa43-1849c3a7702b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: video/VideoPortStopTimer, VideoPortStopTimer, VideoPortStopTimer function [Display Devices], VideoPort_Functions_335cb68f-85a0-4e57-9e91-65df281f68a4.xml, display.videoportstoptimer
+ms.keywords: ",  , P, S, T, V, VideoPortStopTimer, VideoPortStopTimer function [Display Devices], VideoPort_Functions_335cb68f-85a0-4e57-9e91-65df281f68a4.xml, d, display.videoportstoptimer, e, i, m, o, p, r, t, video/VideoPortStopTimer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,19 +95,19 @@ A miniport driver cannot call <b>VideoPortStartTimer</b> or <b>VideoPortStopTime
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
-
-
-
-<a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
-
-
-
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 
 <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+
+
+
+<a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
 
 
 

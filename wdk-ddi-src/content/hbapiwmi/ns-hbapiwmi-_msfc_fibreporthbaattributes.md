@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e8a31f48-bad2-49d1-81be-d345d87a0fd5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_MSFC_FibrePortHBAAttributes, PMSFC_FibrePortHBAAttributes, hbapiwmi/MSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes, hbapiwmi/PMSFC_FibrePortHBAAttributes, storage.msfc_fibreporthbaattributes, PMSFC_FibrePortHBAAttributes structure pointer [Storage Devices], structs-Fibre_8721cac7-a44b-4401-991d-1b8822aec5be.xml, *PMSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes structure [Storage Devices]"
+ms.keywords: ",  , *, *PMSFC_FibrePortHBAAttributes, ,, A, B, C, F, H, M, MSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes structure [Storage Devices], P, PMSFC_FibrePortHBAAttributes, PMSFC_FibrePortHBAAttributes structure pointer [Storage Devices], S, _, _MSFC_FibrePortHBAAttributes, b, e, hbapiwmi/MSFC_FibrePortHBAAttributes, hbapiwmi/PMSFC_FibrePortHBAAttributes, i, o, r, s, storage.msfc_fibreporthbaattributes, structs-Fibre_8721cac7-a44b-4401-991d-1b8822aec5be.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

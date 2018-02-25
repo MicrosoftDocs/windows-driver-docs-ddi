@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 56C94717-41FF-44AA-BC99-1ECE4A407A38
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensors.sensor_collection_list_calculate_max_count, SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT, sensorsdef/SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
+ms.keywords: ",  , A, C, E, I, L, M, N, O, R, S, SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT, SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], T, U, X, _, sensors.sensor_collection_list_calculate_max_count, sensorsdef/SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,11 +84,11 @@ The <b>SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</b> function returns a ULONG v
 
 ## -see-also
 
-<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
-
-
-
 <a href="..\sensorsdef\ns-sensorsdef-sensor_value_pair.md">SENSOR_VALUE_PAIR</a>
+
+
+
+<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
 
 
 

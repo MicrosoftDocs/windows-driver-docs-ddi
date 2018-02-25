@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ce0f5e42-3f4e-48e1-9e73-96bca96e8e23
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: RemoveBreakpoint method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], RemoveBreakpoint method, IDebugControl2::RemoveBreakpoint, IDebugControl::RemoveBreakpoint, IDebugControl interface [Windows Debugging], RemoveBreakpoint method, IDebugControl3::RemoveBreakpoint, debugger.removebreakpoint, IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, IDebugControl, RemoveBreakpoint method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::RemoveBreakpoint, IDebugControl2 interface [Windows Debugging], RemoveBreakpoint method, dbgeng/IDebugControl2::RemoveBreakpoint, IDebugControl2, dbgeng/IDebugControl3::RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl2 interface
+ms.keywords: ",  , ,, ., 2, :, B, C, D, I, IDebugControl, IDebugControl interface [Windows Debugging], RemoveBreakpoint method, IDebugControl2, IDebugControl2 interface [Windows Debugging], RemoveBreakpoint method, IDebugControl2::RemoveBreakpoint, IDebugControl3 interface [Windows Debugging], RemoveBreakpoint method, IDebugControl3::RemoveBreakpoint, IDebugControl::RemoveBreakpoint, IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, R, RemoveBreakpoint method [Windows Debugging], RemoveBreakpoint method [Windows Debugging], IDebugControl interface, RemoveBreakpoint method [Windows Debugging], IDebugControl2 interface, RemoveBreakpoint method [Windows Debugging], IDebugControl3 interface, RemoveBreakpoint,IDebugControl.RemoveBreakpoint, RemoveBreakpoint,IDebugControl2.RemoveBreakpoint, a, b, dbgeng/IDebugControl2::RemoveBreakpoint, dbgeng/IDebugControl3::RemoveBreakpoint, dbgeng/IDebugControl::RemoveBreakpoint, debugger.removebreakpoint, e, g, i, k, l, m, n, o, p, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,11 +117,7 @@ For more details, see <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -129,7 +125,11 @@ For more details, see <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

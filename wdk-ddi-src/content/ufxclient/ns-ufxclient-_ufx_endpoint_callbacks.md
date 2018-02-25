@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: CED05E15-E141-4A6D-A657-CF0DF9FD1200
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_UFX_ENDPOINT_CALLBACKS, buses.ufx_endpoint_callbacks, PUFX_ENDPOINT_CALLBACKS, ufxclient/UFX_ENDPOINT_CALLBACKS, ufxclient/PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses]"
+ms.keywords: ",  , *, *PUFX_ENDPOINT_CALLBACKS, ,, A, B, C, D, E, F, I, K, L, N, O, P, PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses], S, T, U, UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], X, _, _UFX_ENDPOINT_CALLBACKS, buses.ufx_endpoint_callbacks, ufxclient/PUFX_ENDPOINT_CALLBACKS, ufxclient/UFX_ENDPOINT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

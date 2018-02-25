@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis/PNDIS_SCATTER_GATHER_LIST_PARAMETERS, netvista.ndis_scatter_gather_list_parameters, NDIS_SCATTER_GATHER_LIST_PARAMETERS, _NDIS_SCATTER_GATHER_LIST_PARAMETERS, NDIS_SCATTER_GATHER_LIST_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis_shared_memory_ref_b74a7da6-25c0-4ede-8540-d8fd5ee88ca2.xml, PNDIS_SCATTER_GATHER_LIST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SCATTER_GATHER_LIST_PARAMETERS
+ms.keywords: ",  , *, *PNDIS_SCATTER_GATHER_LIST_PARAMETERS, ,, A, C, D, E, G, H, I, L, M, N, NDIS_SCATTER_GATHER_LIST_PARAMETERS, NDIS_SCATTER_GATHER_LIST_PARAMETERS structure [Network Drivers Starting with Windows Vista], P, PNDIS_SCATTER_GATHER_LIST_PARAMETERS, PNDIS_SCATTER_GATHER_LIST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, _NDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis/NDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis/PNDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis_shared_memory_ref_b74a7da6-25c0-4ede-8540-d8fd5ee88ca2.xml, netvista.ndis_scatter_gather_list_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -174,11 +174,11 @@ To build a scatter/gather list, an NDIS driver passes the NDIS_SCATTER_GATHER_LI
 
 
 
-<a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a>
-
-
-
 <a href="..\ndis\ne-ndis-_ndis_shared_memory_usage.md">NDIS_SHARED_MEMORY_USAGE</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
 
 
 
@@ -186,7 +186,7 @@ To build a scatter/gather list, an NDIS driver passes the NDIS_SCATTER_GATHER_LI
 
 
 
-<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
+<a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a>
 
 
 

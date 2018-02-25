@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C85690D0-3CA7-46C7-B597-E36555879F08
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterbidisetrequestcallback, IPrinterBidiSetRequestCallback interface [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices], described, IPrinterBidiSetRequestCallback, printerextension/IPrinterBidiSetRequestCallback
+ms.keywords: IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback interface [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices], described, print.iprinterbidisetrequestcallback, printerextension/IPrinterBidiSetRequestCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -93,15 +93,15 @@ Invoked when the Bidi “Set”” operation is completed.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
-
-
-
 <a href="https://msdn.microsoft.com/310E92A9-F751-4346-9B2D-0578A136AD20">Device Maintenance</a>
 
 
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd144984(v=vs.85).aspx">IBidiSpl2::SendRecvXmlString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
 
 
 

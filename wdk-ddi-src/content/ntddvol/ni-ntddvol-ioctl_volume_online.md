@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3391bda9-2eec-4c03-84ed-76b89e2c0cf0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_volume_online, IOCTL_VOLUME_ONLINE control code [Storage Devices], IOCTL_VOLUME_ONLINE, ntddvol/IOCTL_VOLUME_ONLINE, k307_236159f9-4ec2-4dec-9d34-5b4ecb8a2147.xml
+ms.keywords: IOCTL_VOLUME_ONLINE, IOCTL_VOLUME_ONLINE control code [Storage Devices], k307_236159f9-4ec2-4dec-9d34-5b4ecb8a2147.xml, ntddvol/IOCTL_VOLUME_ONLINE, storage.ioctl_volume_online
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

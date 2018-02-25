@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de1925ab-e444-4cf6-acd9-8fdab26afcec
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisubmitcommand, DxgkDdiSubmitCommand callback function [Display Devices], DxgkDdiSubmitCommand, DXGKDDI_SUBMITCOMMAND, DXGKDDI_SUBMITCOMMAND, d3dkmddi/DxgkDdiSubmitCommand, DmFunctions_c23ba706-a779-4a0d-9977-1f99cecb5217.xml
+ms.keywords: DXGKDDI_SUBMITCOMMAND, DmFunctions_c23ba706-a779-4a0d-9977-1f99cecb5217.xml, DxgkDdiSubmitCommand, DxgkDdiSubmitCommand callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommand, display.dxgkddisubmitcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -116,11 +116,11 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommand.md">DXGKARG_SUBMITCOMMAND</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

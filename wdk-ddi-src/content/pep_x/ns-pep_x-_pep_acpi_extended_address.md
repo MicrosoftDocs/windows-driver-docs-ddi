@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: 2 - Minimum address fixed, *PPEP_ACPI_EXTENDED_ADDRESS, 3 - Max address fixed, 0 to 1 - Range, PEP_ACPI_EXTENDED_ADDRESS, 4 - IO to memory translation, 3 to 4 - Memory attributes (MTP), 1 to 2 - Memory attributes (MEM), _PEP_ACPI_EXTENDED_ADDRESS, 0 - Consumer/Producer flag, 6 to 7 - Reserved, 4 to 7 - Reserved, pepfx/PPEP_ACPI_EXTENDED_ADDRESS, 5 - Sparse translation, kernel.pep_acpi_extended_address, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], 0 to 7 - Reserved, 1 - Decode type, 0 - Write status, 5 - Memory to IO translation, 2 to 3 - Reserved, pepfx/PEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PPEP_ACPI_EXTENDED_ADDRESS, ,, 0 - Consumer/Producer flag, 0 - Write status, 0 to 1 - Range, 0 to 7 - Reserved, 1 - Decode type, 1 to 2 - Memory attributes (MEM), 2 - Minimum address fixed, 2 to 3 - Reserved, 3 - Max address fixed, 3 to 4 - Memory attributes (MTP), 4 - IO to memory translation, 4 to 7 - Reserved, 5 - Memory to IO translation, 5 - Sparse translation, 6 to 7 - Reserved, A, C, D, E, I, N, P, PEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], R, S, T, X, _, _PEP_ACPI_EXTENDED_ADDRESS, kernel.pep_acpi_extended_address, pepfx/PEP_ACPI_EXTENDED_ADDRESS, pepfx/PPEP_ACPI_EXTENDED_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,12 +82,12 @@ typedef struct _PEP_ACPI_EXTENDED_ADDRESS {
 
 ### -field Type
 
-A <a href="..\pep_x\ne-pep_x-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
+A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
 
 
 ### -field Flags
 
-A <a href="..\pep_x\ns-pep_x-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure describing this resource.
+A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure describing this resource.
 
 
 ### -field ResourceFlags

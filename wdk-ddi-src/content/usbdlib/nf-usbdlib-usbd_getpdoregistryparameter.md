@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: f61be32a-2537-4b7f-8f22-4149b00a15a4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_GetPdoRegistryParameter, buses.usbd_getpdoregistryparameter, usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml, usbdlib/USBD_GetPdoRegistryParameter, USBD_GetPdoRegistryParameter routine [Buses]
+ms.keywords: ",  , B, D, G, P, R, S, U, USBD_GetPdoRegistryParameter, USBD_GetPdoRegistryParameter routine [Buses], _, a, buses.usbd_getpdoregistryparameter, d, e, g, i, m, o, r, s, t, usbdlib/USBD_GetPdoRegistryParameter, usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

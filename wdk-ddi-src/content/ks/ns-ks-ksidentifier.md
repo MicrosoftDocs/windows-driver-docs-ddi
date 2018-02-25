@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksidentifier, KSIDENTIFIER, *PKSMETHOD, KSMETHOD, *PKSDEGRADE, KSDEGRADE, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, *PKSPIN_MEDIUM, *PKSEVENT, KSEVENT, KSPROPERTY, ks/PKSIDENTIFIER, ks/KSIDENTIFIER, *PKSPIN_INTERFACE, PKSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], PKSIDENTIFIER structure pointer [Streaming Media Devices], KSPIN_INTERFACE, *PKSPROPERTY, KSPIN_MEDIUM, *PKSIDENTIFIER
+ms.keywords: ",  , *, *PKSDEGRADE, *PKSEVENT, *PKSIDENTIFIER, *PKSMETHOD, *PKSPIN_INTERFACE, *PKSPIN_MEDIUM, *PKSPROPERTY, ,, A, C, D, E, F, G, H, I, K, KSDEGRADE, KSEVENT, KSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], KSMETHOD, KSPIN_INTERFACE, KSPIN_MEDIUM, KSPROPERTY, M, N, O, P, PKSIDENTIFIER, PKSIDENTIFIER structure pointer [Streaming Media Devices], R, S, T, U, V, Y, _, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, ks/KSIDENTIFIER, ks/PKSIDENTIFIER, stream.ksidentifier"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -429,11 +429,11 @@ Because <b>Flags</b> contains a ULONG value, multiple Skip requests may be neede
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
 
 
 

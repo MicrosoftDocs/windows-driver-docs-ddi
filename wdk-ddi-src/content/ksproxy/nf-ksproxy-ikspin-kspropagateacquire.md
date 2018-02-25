@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 059bef5a-1db7-4fd7-a19b-c34df81f4447
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IKsPin, KsPropagateAcquire method [Streaming Media Devices], IKsPin interface, KsPropagateAcquire method [Streaming Media Devices], stream.ikspin_kspropagateacquire, ksproxy_c3ce0cef-0366-4233-afa5-723f9d3bb4e9.xml, KsPropagateAcquire, IKsPin interface [Streaming Media Devices], KsPropagateAcquire method, ksproxy/IKsPin::KsPropagateAcquire, IKsPin::KsPropagateAcquire
+ms.keywords: ",  , ,, ., :, A, I, IKsPin, IKsPin interface [Streaming Media Devices], KsPropagateAcquire method, IKsPin::KsPropagateAcquire, K, KsPropagateAcquire method [Streaming Media Devices], KsPropagateAcquire method [Streaming Media Devices], IKsPin interface, KsPropagateAcquire,IKsPin.KsPropagateAcquire, P, a, c, e, g, i, ksproxy/IKsPin::KsPropagateAcquire, ksproxy_c3ce0cef-0366-4233-afa5-723f9d3bb4e9.xml, n, o, p, q, r, s, stream.ikspin_kspropagateacquire, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

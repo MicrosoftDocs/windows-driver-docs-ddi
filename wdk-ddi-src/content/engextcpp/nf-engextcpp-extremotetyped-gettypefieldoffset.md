@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5f966bf0-2dc3-4422-bfec-09d1b136f9f0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ExtRemoteTyped, debugger.extremotetyped_gettypefieldoffset, ExtRemoteTyped::GetTypeFieldOffset, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, GetTypeFieldOffset method [Windows Debugging], GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, GetTypeFieldOffset
+ms.keywords: ",  , ,, ., :, E, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, ExtRemoteTyped::GetTypeFieldOffset, F, G, GetTypeFieldOffset method [Windows Debugging], GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, GetTypeFieldOffset,ExtRemoteTyped.GetTypeFieldOffset, O, R, T, d, debugger.extremotetyped_gettypefieldoffset, e, f, i, l, m, o, p, s, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

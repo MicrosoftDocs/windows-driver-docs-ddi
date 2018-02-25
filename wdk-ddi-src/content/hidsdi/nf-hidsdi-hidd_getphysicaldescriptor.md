@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 05f853a9-395a-4b2b-b681-0010dd019bbc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.hidd_getphysicaldescriptor, HidD_GetPhysicalDescriptor, HidD_GetPhysicalDescriptor routine [Human Input Devices], hidsdi/HidD_GetPhysicalDescriptor, hidfunc_e9532fa2-49f8-41ec-9e23-19416b889b47.xml
+ms.keywords: ",  , D, G, H, HidD_GetPhysicalDescriptor, HidD_GetPhysicalDescriptor routine [Human Input Devices], P, _, a, c, d, e, h, hid.hidd_getphysicaldescriptor, hidfunc_e9532fa2-49f8-41ec-9e23-19416b889b47.xml, hidsdi/HidD_GetPhysicalDescriptor, i, l, o, p, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

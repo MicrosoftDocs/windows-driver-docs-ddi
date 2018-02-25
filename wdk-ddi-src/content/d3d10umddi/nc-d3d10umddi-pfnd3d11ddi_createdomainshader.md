@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 534c292a-b3ef-41aa-868a-f5e57b90d789
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createdomainshader, CreateDomainShader callback function [Display Devices], CreateDomainShader, PFND3D11DDI_CREATEDOMAINSHADER, PFND3D11DDI_CREATEDOMAINSHADER, d3d10umddi/CreateDomainShader, UserModeDisplayDriverDx11_Functions_e9e86a57-1f64-42a8-a871-d3f42f1c6819.xml
+ms.keywords: CreateDomainShader, CreateDomainShader callback function [Display Devices], PFND3D11DDI_CREATEDOMAINSHADER, UserModeDisplayDriverDx11_Functions_e9e86a57-1f64-42a8-a871-d3f42f1c6819.xml, d3d10umddi/CreateDomainShader, display.createdomainshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,6 +142,14 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivatetessellationshadersize.md">CalcPrivateTessellationShaderSize</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
@@ -151,14 +159,6 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivatetessellationshadersize.md">CalcPrivateTessellationShaderSize</a>
 
 
 

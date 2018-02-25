@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9cb74a6f-64ae-449a-a1de-6b05419e3387
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dhal/LPD3DHAL_DP2ADDDIRTYBOX, _D3DHAL_DP2ADDDIRTYBOX, LPD3DHAL_DP2ADDDIRTYBOX structure pointer [Display Devices], d3dstrct_ae7da3ce-63e0-4854-ad22-12b2669baba2.xml, d3dhal/D3DHAL_DP2ADDDIRTYBOX, D3DHAL_DP2ADDDIRTYBOX structure [Display Devices], LPD3DHAL_DP2ADDDIRTYBOX, *LPD3DHAL_DP2ADDDIRTYBOX, D3DHAL_DP2ADDDIRTYBOX, display.d3dhal_dp2adddirtybox
+ms.keywords: ",  , *, *LPD3DHAL_DP2ADDDIRTYBOX, ,, 2, 3, A, B, D, D3DHAL_DP2ADDDIRTYBOX, D3DHAL_DP2ADDDIRTYBOX structure [Display Devices], H, I, L, LPD3DHAL_DP2ADDDIRTYBOX, LPD3DHAL_DP2ADDDIRTYBOX structure pointer [Display Devices], O, P, R, T, X, Y, _, _D3DHAL_DP2ADDDIRTYBOX, d3dhal/D3DHAL_DP2ADDDIRTYBOX, d3dhal/LPD3DHAL_DP2ADDDIRTYBOX, d3dstrct_ae7da3ce-63e0-4854-ad22-12b2669baba2.xml, display.d3dhal_dp2adddirtybox"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,11 +93,11 @@ D3DHAL_DP2ADDDIRTYBOX, along with the DP2OP_ADDDIRTYBOX token, is used only for 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a>
+
+
+
+<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
 
 
 
@@ -105,7 +105,7 @@ D3DHAL_DP2ADDDIRTYBOX, along with the DP2OP_ADDDIRTYBOX token, is used only for 
 
 
 
-<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
 
 
 

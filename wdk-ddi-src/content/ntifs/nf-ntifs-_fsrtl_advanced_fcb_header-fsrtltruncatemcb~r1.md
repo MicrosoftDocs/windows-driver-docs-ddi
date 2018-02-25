@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e23b9324-7e68-4914-93bb-3348d91b0b3f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlTruncateMcb, ifsk.fsrtltruncatemcb, ntifs/FsRtlTruncateMcb, FsRtlTruncateMcb function [Installable File System Drivers], fsrtlref_31bb51fe-e571-4bae-af8f-4c2b4413fa29.xml
+ms.keywords: ",  , F, FsRtlTruncateMcb, FsRtlTruncateMcb function [Installable File System Drivers], M, R, T, a, b, c, e, fsrtlref_31bb51fe-e571-4bae-af8f-4c2b4413fa29.xml, ifsk.fsrtltruncatemcb, l, n, ntifs/FsRtlTruncateMcb, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

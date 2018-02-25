@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 158F8979-682B-4836-9EC5-6F30371DB6EA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize.OriginWidthInMicrons, IPrintSchemaPageImageableSize interface [Print Devices], OriginWidthInMicrons property, OriginWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, print.iprintschemapageimageablesize_originwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::get_OriginWidthInMicrons, get_OriginWidthInMicrons, IPrintSchemaPageImageableSize::get_OriginWidthInMicrons, OriginWidthInMicrons property [Print Devices], printerextension/IPrintSchemaPageImageableSize::OriginWidthInMicrons
+ms.keywords: ",  , ,, ., :, I, IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], OriginWidthInMicrons property, IPrintSchemaPageImageableSize.OriginWidthInMicrons, IPrintSchemaPageImageableSize::get_OriginWidthInMicrons, M, O, OriginWidthInMicrons property [Print Devices], OriginWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, P, S, W, _, a, b, c, d, e, g, get_OriginWidthInMicrons, get_OriginWidthInMicrons,IPrintSchemaPageImageableSize.get_OriginWidthInMicrons, h, i, l, m, n, o, print.iprintschemapageimageablesize_originwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::OriginWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_OriginWidthInMicrons, r, s, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6860f512-758d-4a75-88e4-17310b3e6349
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SRV_OPEN_ECP_CONTEXT, ntifs/SRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _SRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, ifsk.srv_open_ecp_context, *PSRV_OPEN_ECP_CONTEXT, ntifs/PSRV_OPEN_ECP_CONTEXT
+ms.keywords: ",  , *, *PSRV_OPEN_ECP_CONTEXT, ,, C, E, ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, N, O, P, PSRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], R, S, SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], T, V, X, _, _SRV_OPEN_ECP_CONTEXT, ifsk.srv_open_ecp_context, ntifs/PSRV_OPEN_ECP_CONTEXT, ntifs/SRV_OPEN_ECP_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

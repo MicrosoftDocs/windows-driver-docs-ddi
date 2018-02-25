@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 205936c3-fb5a-48e7-8f13-328563c2f0d2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml, DDICERTIFICATEINFO, display.ddicertificateinfo, _DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], d3dumddi/DDICERTIFICATEINFO
+ms.keywords: ",  , ,, A, C, D, D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml, DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], E, F, I, N, O, R, T, _, _DDICERTIFICATEINFO, d3dumddi/DDICERTIFICATEINFO, display.ddicertificateinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ The runtime specifies a pointer to a DDICERTIFICATEINFO structure in the <b>pInf
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
+
+<a href="..\d3dumddi\ne-d3dumddi-_ddiauthenticatedchanneltype.md">DDIAUTHENTICATEDCHANNELTYPE</a>
 
 
 
@@ -107,7 +107,7 @@ The runtime specifies a pointer to a DDICERTIFICATEINFO structure in the <b>pInf
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_ddiauthenticatedchanneltype.md">DDIAUTHENTICATEDCHANNELTYPE</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 

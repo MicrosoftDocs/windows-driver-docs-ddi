@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 407675de-4a06-49f7-9b43-c48b4c84ac7e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], wdm/ClfsLsnRecordSequence, ClfsLsnRecordSequence, kernel.clfslsnrecordsequence, Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml
+ms.keywords: ",  , C, ClfsLsnRecordSequence, ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml, L, R, S, c, d, e, f, kernel.clfslsnrecordsequence, l, n, o, q, r, s, u, wdm/ClfsLsnRecordSequence"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfslsnblockoffset.md">ClfsLsnBlockOffset</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0EF8652F-34A8-4804-9D3F-8C8BEFCBCAAF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterextensionrequest_interface, IPrinterExtensionRequest interface [Print Devices], IPrinterExtensionRequest interface [Print Devices], described, IPrinterExtensionRequest, printerextension/IPrinterExtensionRequest
+ms.keywords: IPrinterExtensionRequest, IPrinterExtensionRequest interface [Print Devices], IPrinterExtensionRequest interface [Print Devices], described, print.iprinterextensionrequest_interface, printerextension/IPrinterExtensionRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

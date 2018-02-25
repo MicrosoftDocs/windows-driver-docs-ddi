@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f669790f-0370-46a0-ba38-05e35cdf23b3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, kmdf.wdfdeviceenqueuerequest, WdfDeviceEnqueueRequest, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest, WdfDeviceEnqueueRequest method
+ms.keywords: ",  , D, DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, E, R, W, WdfDeviceEnqueueRequest, WdfDeviceEnqueueRequest method, c, d, e, f, i, kmdf.wdfdeviceenqueuerequest, n, q, s, t, u, v, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -237,11 +237,11 @@ End:
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 
 

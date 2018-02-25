@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a4b2bf1a-f15d-409f-bd5f-84dbf8dadc09
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMCloseLog, NdisMCloseLog function [Network Drivers Starting with Windows Vista], miniport_logging_ref_ad3e4ea9-60c4-46b7-ac68-84517df279e0.xml, netvista.ndismcloselog, ndis/NdisMCloseLog
+ms.keywords: ",  , C, L, M, N, NdisMCloseLog, NdisMCloseLog function [Network Drivers Starting with Windows Vista], d, e, g, i, l, miniport_logging_ref_ad3e4ea9-60c4-46b7-ac68-84517df279e0.xml, ndis/NdisMCloseLog, netvista.ndismcloselog, o, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,19 +96,19 @@ None
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5daa3dd4-e499-4a72-b784-8a0e1ef3e92b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FwpsAleEndpointCreateEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml, FwpsAleEndpointCreateEnumHandle0, netvista.fwpsaleendpointcreateenumhandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , 0, A, C, E, F, FwpsAleEndpointCreateEnumHandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], H, a, d, e, fwpsk/FwpsAleEndpointCreateEnumHandle0, i, l, m, n, netvista.fwpsaleendpointcreateenumhandle0, o, p, r, s, t, u, w, wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

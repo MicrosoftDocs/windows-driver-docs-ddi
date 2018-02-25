@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: adc3e8a0-b261-47dc-ada2-bd21cb3ca954
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, _D3DDDIARG_EXTENSIONEXECUTE, D3DDDIARG_EXTENSIONEXECUTE
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_EXTENSIONEXECUTE, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], E, G, I, N, O, R, S, T, U, UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, X, _, _D3DDDIARG_EXTENSIONEXECUTE, d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,7 +110,7 @@ typedef struct _D3DDDIARG_EXTENSIONEXECUTE {
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_extensionexecute.md">ExtensionExecute</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
 
 
 
@@ -118,7 +118,7 @@ typedef struct _D3DDDIARG_EXTENSIONEXECUTE {
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_extensionexecute.md">ExtensionExecute</a>
 
 
 

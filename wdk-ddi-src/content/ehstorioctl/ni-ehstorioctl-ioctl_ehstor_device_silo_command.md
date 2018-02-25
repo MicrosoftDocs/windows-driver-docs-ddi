@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3258FA16-E1FE-4CBF-8C87-0C7A8B2A7EBF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_device_silo_command, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control code [Storage Devices], IOCTL_EHSTOR_DEVICE_SILO_COMMAND, ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND
+ms.keywords: IOCTL_EHSTOR_DEVICE_SILO_COMMAND, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND, storage.ioctl_ehstor_device_silo_command
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PDO_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

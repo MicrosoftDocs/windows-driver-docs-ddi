@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1C6AFC89-F740-4309-9389-BFB5C62FCA77
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3dwddm2_2ddi_destroy_shadercache_session, pfnDestroyShaderCacheSession callback function [Display Devices], pfnDestroyShaderCacheSession, PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION, d3d10umddi/pfnDestroyShaderCacheSession
+ms.keywords: PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION, d3d10umddi/pfnDestroyShaderCacheSession, display.pfnd3dwddm2_2ddi_destroy_shadercache_session, pfnDestroyShaderCacheSession, pfnDestroyShaderCacheSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

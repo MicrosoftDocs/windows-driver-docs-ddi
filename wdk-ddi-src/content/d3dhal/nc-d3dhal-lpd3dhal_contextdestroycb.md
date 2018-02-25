@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: caed780c-06a1-4697-b102-bffb134ecf84
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dcontextdestroy, D3dContextDestroy callback function [Display Devices], D3dContextDestroy, LPD3DHAL_CONTEXTDESTROYCB, LPD3DHAL_CONTEXTDESTROYCB, d3dhal/D3dContextDestroy, d3dfncs_95c72dbe-9292-4501-ae28-f76316ce01e5.xml
+ms.keywords: D3dContextDestroy, D3dContextDestroy callback function [Display Devices], LPD3DHAL_CONTEXTDESTROYCB, d3dfncs_95c72dbe-9292-4501-ae28-f76316ce01e5.xml, d3dhal/D3dContextDestroy, display.d3dcontextdestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -134,11 +134,11 @@ If the driver cached the pointer to the <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextcreatedata.md">D3DHAL_CONTEXTCREATEDATA</a>
 
 
 
@@ -146,7 +146,7 @@ If the driver cached the pointer to the <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextcreatedata.md">D3DHAL_CONTEXTCREATEDATA</a>
 
 
 

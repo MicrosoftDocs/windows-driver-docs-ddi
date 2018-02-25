@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: EAEFEE8A-D96B-40D8-A4F0-FEFA670E1E6E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usbfn_set_device_state, UsbFnSetDeviceState callback function [Buses], UsbFnSetDeviceState, USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE, usbfnattach/UsbFnSetDeviceState, PFN_USBFN_SET_DEVICE_STATE callback function pointer [Buses], PFN_USBFN_SET_DEVICE_STATE
+ms.keywords: PFN_USBFN_SET_DEVICE_STATE, PFN_USBFN_SET_DEVICE_STATE callback function pointer [Buses], USBFN_SET_DEVICE_STATE, UsbFnSetDeviceState, UsbFnSetDeviceState callback function [Buses], buses.usbfn_set_device_state, usbfnattach/UsbFnSetDeviceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f2953b0d-6745-4804-bcda-47c7ddfb901f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: OnDeviceAdd, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, wudfddi/IDriverEntry::OnDeviceAdd, OnDeviceAdd method, wdf.idriverentry_ondeviceadd, umdf.idriverentry_ondeviceadd, IDriverEntry, IDriverEntry::OnDeviceAdd, OnDeviceAdd method, IDriverEntry interface, IDriverEntry interface, OnDeviceAdd method
+ms.keywords: ",  , ,, ., :, A, D, E, I, IDriverEntry, IDriverEntry interface, OnDeviceAdd method, IDriverEntry::OnDeviceAdd, O, OnDeviceAdd method, OnDeviceAdd method, IDriverEntry interface, OnDeviceAdd,IDriverEntry.OnDeviceAdd, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, c, d, e, i, n, r, t, umdf.idriverentry_ondeviceadd, v, wdf.idriverentry_ondeviceadd, wudfddi/IDriverEntry::OnDeviceAdd, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -107,11 +107,11 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
 
 
 
@@ -123,11 +123,11 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
 
 
 

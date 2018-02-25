@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7ae8bfd7-da94-41b0-8995-34194b2ad8a7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddiarg_destroycryptosession, UMDisplayDriver_param_Structs_75cddfac-f1d8-4378-bb94-441fff43e224.xml, D3DDDIARG_DESTROYCRYPTOSESSION, _D3DDDIARG_DESTROYCRYPTOSESSION, d3dumddi/D3DDDIARG_DESTROYCRYPTOSESSION, D3DDDIARG_DESTROYCRYPTOSESSION structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_DESTROYCRYPTOSESSION, D3DDDIARG_DESTROYCRYPTOSESSION structure [Display Devices], E, G, I, N, O, P, R, S, T, UMDisplayDriver_param_Structs_75cddfac-f1d8-4378-bb94-441fff43e224.xml, Y, _, _D3DDDIARG_DESTROYCRYPTOSESSION, d3dumddi/D3DDDIARG_DESTROYCRYPTOSESSION, display.d3dddiarg_destroycryptosession"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

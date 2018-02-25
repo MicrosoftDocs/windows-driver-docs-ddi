@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: B8CEBCEA-7F1F-4E4B-B04E-D914D5875027
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._controller_usb_20_hardware_lpm_flags, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS
+ms.keywords: ",  , *, *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS, ,, 0, 2, A, B, C, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], D, E, F, G, H, L, M, N, O, P, R, S, T, U, W, _, _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

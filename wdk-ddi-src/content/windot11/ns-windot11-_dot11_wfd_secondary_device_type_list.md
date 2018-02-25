@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ABD61A6C-EE0A-49AF-AE8C-75014C2A09D4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, *PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, windot11/ DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_secondary_device_type_list, _DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST
+ms.keywords: ",  , *, *PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, ,, 1, A, C, D, DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure [Network Drivers Starting with Windows Vista], E, F, I, L, N, O, P, PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure pointer [Network Drivers Starting with Windows Vista], R, S, T, V, W, Y, _, _DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, netvista._dot11_wfd_secondary_device_type_list, windot11/ DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, windot11/PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

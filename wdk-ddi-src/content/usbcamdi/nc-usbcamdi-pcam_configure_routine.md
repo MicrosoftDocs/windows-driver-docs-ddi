@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b17fa32e-0a58-4be4-a096-e486471c1cdd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.camconfigure, CamConfigure, CamConfigure callback function [Streaming Media Devices], CamConfigure, PCAM_CONFIGURE_ROUTINE, PCAM_CONFIGURE_ROUTINE, usbcamdi/CamConfigure, usbcmdpr_4953051b-2fb0-4dd4-ac52-67da188ce7e1.xml
+ms.keywords: CamConfigure, CamConfigure callback function [Streaming Media Devices], PCAM_CONFIGURE_ROUTINE, stream.camconfigure, usbcamdi/CamConfigure, usbcmdpr_4953051b-2fb0-4dd4-ac52-67da188ce7e1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -134,11 +134,11 @@ This function is required.
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-
-
-
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
 
 

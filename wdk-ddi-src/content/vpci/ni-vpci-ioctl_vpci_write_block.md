@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 5214053E-28AB-4728-9F4F-6705F8F56AC7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.ioctl_vpci_write_block, IOCTL_VPCI_WRITE_BLOCK control code, IOCTL_VPCI_WRITE_BLOCK, vpci/IOCTL_VPCI_WRITE_BLOCK
+ms.keywords: IOCTL_VPCI_WRITE_BLOCK, IOCTL_VPCI_WRITE_BLOCK control code, PCI.ioctl_vpci_write_block, vpci/IOCTL_VPCI_WRITE_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -351,22 +351,6 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
-<a href="..\vpci\ns-vpci-_vpci_write_block_input.md">VPCI_WRITE_BLOCK_INPUT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451609">WriteVfConfigBlock</a>
 
 
@@ -375,11 +359,27 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
+<a href="..\vpci\ns-vpci-_vpci_write_block_input.md">VPCI_WRITE_BLOCK_INPUT</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 

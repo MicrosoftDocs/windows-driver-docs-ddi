@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: feb7dd98-8c44-405e-8e98-ffd6246cf0ee
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.int10freebuffer, Int10FreeBuffer callback function [Display Devices], Int10FreeBuffer, PINT10_FREE_BUFFER, PINT10_FREE_BUFFER, video/Int10FreeBuffer, VideoPort_Functions_607fc1f2-1d9a-48eb-97c2-a2cd510e3d78.xml
+ms.keywords: Int10FreeBuffer, Int10FreeBuffer callback function [Display Devices], PINT10_FREE_BUFFER, VideoPort_Functions_607fc1f2-1d9a-48eb-97c2-a2cd510e3d78.xml, display.int10freebuffer, video/Int10FreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3063F991-DDC5-4E52-979B-6CFCD11A604C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_srq_notification_callback, NdkSrqNotificationCallback callback function [Network Drivers Starting with Windows Vista], NdkSrqNotificationCallback, NDK_FN_SRQ_NOTIFICATION_CALLBACK, NDK_FN_SRQ_NOTIFICATION_CALLBACK, ndkpi/NdkSrqNotificationCallback
+ms.keywords: NDK_FN_SRQ_NOTIFICATION_CALLBACK, NdkSrqNotificationCallback, NdkSrqNotificationCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSrqNotificationCallback, netvista.ndk_fn_srq_notification_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

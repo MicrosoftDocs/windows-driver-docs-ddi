@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: e63ebdcc-afcd-451e-942c-0e295eb3468f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SD.psdbus_callback_routine, SdBusCallbackRoutine callback function [Buses], SdBusCallbackRoutine, SDBUS_CALLBACK_ROUTINE, SDBUS_CALLBACK_ROUTINE, ntddsd/SdBusCallbackRoutine, sd-rtns_a51040c8-723c-45ae-9e3b-15ef2baca85b.xml
+ms.keywords: SD.psdbus_callback_routine, SDBUS_CALLBACK_ROUTINE, SdBusCallbackRoutine, SdBusCallbackRoutine callback function [Buses], ntddsd/SdBusCallbackRoutine, sd-rtns_a51040c8-723c-45ae-9e3b-15ef2baca85b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

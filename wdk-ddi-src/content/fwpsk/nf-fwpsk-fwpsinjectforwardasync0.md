@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b7cb70c6-c672-4a29-983c-c73767af72ea
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwpsinjectforwardasync0, fwpsk/FwpsInjectForwardAsync0, FwpsInjectForwardAsync0 function [Network Drivers Starting with Windows Vista], FwpsInjectForwardAsync0, wfp_ref_2_funct_3_fwps_I_3aa5a7a1-da9d-478e-b8fe-0effc99a1fa5.xml
+ms.keywords: ",  , 0, A, F, FwpsInjectForwardAsync0, FwpsInjectForwardAsync0 function [Network Drivers Starting with Windows Vista], I, a, c, d, e, fwpsk/FwpsInjectForwardAsync0, j, n, netvista.fwpsinjectforwardasync0, o, p, r, s, t, w, wfp_ref_2_funct_3_fwps_I_3aa5a7a1-da9d-478e-b8fe-0effc99a1fa5.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -271,17 +271,20 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-   FwpsAllocateCloneNetBufferList0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
@@ -290,7 +293,12 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+   FwpsAllocateCloneNetBufferList0</a>
 
 
 
@@ -298,15 +306,7 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
 
 

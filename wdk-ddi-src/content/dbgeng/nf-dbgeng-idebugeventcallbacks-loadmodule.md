@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f4efcbf3-f78a-4e0e-9741-4f9b68814e5b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: LoadModule, LoadModule method [Windows Debugging], ComCallbacks_3d8f0501-0915-425e-a940-aa5f41bad734.xml, LoadModule method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::LoadModule, IDebugEventCallbacks::LoadModule, IDebugEventCallbacks, debugger.idebugeventcallbacks_loadmodule, IDebugEventCallbacks interface [Windows Debugging], LoadModule method
+ms.keywords: ",  , ,, ., :, C, ComCallbacks_3d8f0501-0915-425e-a940-aa5f41bad734.xml, D, E, I, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], LoadModule method, IDebugEventCallbacks::LoadModule, L, LoadModule method [Windows Debugging], LoadModule method [Windows Debugging], IDebugEventCallbacks interface, LoadModule,IDebugEventCallbacks.LoadModule, M, a, b, c, d, dbgeng/IDebugEventCallbacks::LoadModule, debugger.idebugeventcallbacks_loadmodule, e, g, k, l, n, o, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

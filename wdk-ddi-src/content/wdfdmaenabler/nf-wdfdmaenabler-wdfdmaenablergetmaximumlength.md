@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f37359b9-807e-43dc-a66b-7b32c0921f06
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaEnablerGetMaximumLength method, wdfdmaenabler/WdfDmaEnablerGetMaximumLength, DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, WdfDmaEnablerGetMaximumLength, kmdf.wdfdmaenablergetmaximumlength, wdf.wdfdmaenablergetmaximumlength
+ms.keywords: ",  , D, DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, E, G, L, M, W, WdfDmaEnablerGetMaximumLength, WdfDmaEnablerGetMaximumLength method, a, b, d, e, f, g, h, i, kmdf.wdfdmaenablergetmaximumlength, l, m, n, r, t, u, wdf.wdfdmaenablergetmaximumlength, wdfdmaenabler/WdfDmaEnablerGetMaximumLength, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

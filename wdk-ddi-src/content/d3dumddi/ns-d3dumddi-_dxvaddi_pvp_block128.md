@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c4c65d1f-2531-4804-8a86-160b1ddfd692
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVADDI_PVP_BLOCK128 structure [Display Devices], DXVADDI_PVP_KEY128 structure [Display Devices], _DXVADDI_PVP_BLOCK128, d3dumddi/DXVADDI_PVP_KEY128, display.dxvaddi_pvp_key128, DXVADDI_PVP_BLOCK128, DXVADDI_PVP_KEY128, DXVA2_Structs_1384e44e-aa25-470a-93bb-3e20b5885bdb.xml
+ms.keywords: ",  , ,, 1, 2, 8, A, B, C, D, DXVA2_Structs_1384e44e-aa25-470a-93bb-3e20b5885bdb.xml, DXVADDI_PVP_BLOCK128, DXVADDI_PVP_BLOCK128 structure [Display Devices], DXVADDI_PVP_KEY128, DXVADDI_PVP_KEY128 structure [Display Devices], E, I, K, L, O, P, V, X, Y, _, _DXVADDI_PVP_BLOCK128, d3dumddi/DXVADDI_PVP_KEY128, display.dxvaddi_pvp_key128"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,11 +74,11 @@ typedef struct _DXVADDI_PVP_BLOCK128 {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADDI_PVP_SETKEY</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodebeginframe.md">D3DDDIARG_DECODEBEGINFRAME</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADDI_PVP_SETKEY</a>
 
 
 

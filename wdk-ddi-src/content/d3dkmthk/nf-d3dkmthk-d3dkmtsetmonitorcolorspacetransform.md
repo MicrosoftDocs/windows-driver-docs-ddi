@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cb831371-4684-4756-bc01-6c42e5af7e1b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTSetMonitorColorSpaceTransform method [Display Devices], D3DKMTSetMonitorColorSpaceTransform, display.d3dkmtsetmonitorcolorspacetransform, d3dkmthk/D3DKMTSetMonitorColorSpaceTransform
+ms.keywords: ",  , 3, C, D, D3DKMTSetMonitorColorSpaceTransform, D3DKMTSetMonitorColorSpaceTransform method [Display Devices], K, M, S, T, a, c, d3dkmthk/D3DKMTSetMonitorColorSpaceTransform, display.d3dkmtsetmonitorcolorspacetransform, e, f, i, l, m, n, o, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

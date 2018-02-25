@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A16980CD-3F2F-4A67-902A-F3D72AA042D9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.hfp_bypass_codec_id_version, REQ_HFP_BYPASS_CODEC_ID_V1, _HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices], bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_VERSION, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION
+ms.keywords: ",  , *, *PHFP_BYPASS_CODEC_ID_VERSION, ,, A, B, C, D, E, F, H, HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices], I, N, O, P, R, REQ_HFP_BYPASS_CODEC_ID_V1, S, V, Y, _, _HFP_BYPASS_CODEC_ID_VERSION, audio.hfp_bypass_codec_id_version, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION, bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

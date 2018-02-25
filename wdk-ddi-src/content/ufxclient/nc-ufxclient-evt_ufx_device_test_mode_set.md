@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 24B17B8E-C2F0-4CA8-AA9D-5EE86EB20CCC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_test_mode_set, EvtUfxDeviceTestModeSet callback function [Buses], EvtUfxDeviceTestModeSet, EVT_UFX_DEVICE_TEST_MODE_SET, EVT_UFX_DEVICE_TEST_MODE_SET, ufxclient/EvtUfxDeviceTestModeSet, PFN_UFX_DEVICE_TEST_MODE_SET callback function pointer [Buses], PFN_UFX_DEVICE_TEST_MODE_SET
+ms.keywords: EVT_UFX_DEVICE_TEST_MODE_SET, EvtUfxDeviceTestModeSet, EvtUfxDeviceTestModeSet callback function [Buses], PFN_UFX_DEVICE_TEST_MODE_SET, PFN_UFX_DEVICE_TEST_MODE_SET callback function pointer [Buses], buses.evt_ufx_device_test_mode_set, ufxclient/EvtUfxDeviceTestModeSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -178,11 +178,11 @@ Arguments:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59252b09-00ee-4a39-9849-5ce840ee16a7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_79ea2b93-3ce8-46eb-990b-ca3e56d3e3a8.xml, IoCompleteRequest routine [Kernel-Mode Driver Architecture], kernel.iocompleterequest, IoCompleteRequest, wdm/IoCompleteRequest
+ms.keywords: ",  , C, I, IoCompleteRequest, IoCompleteRequest routine [Kernel-Mode Driver Architecture], R, e, k104_79ea2b93-3ce8-46eb-990b-ca3e56d3e3a8.xml, kernel.iocompleterequest, l, m, o, p, q, s, t, u, wdm/IoCompleteRequest"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

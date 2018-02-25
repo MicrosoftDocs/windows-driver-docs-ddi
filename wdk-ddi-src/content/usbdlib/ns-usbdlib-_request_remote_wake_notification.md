@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 229B22AC-8252-4D94-BDB5-F1132BF4AE4C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbdlib/REQUEST_REMOTE_WAKE_NOTIFICATION, buses.usbdevice_remote_wake_notification, PREQUEST_REMOTE_WAKE_NOTIFICATION structure pointer [Buses], PREQUEST_REMOTE_WAKE_NOTIFICATION, *PREQUEST_REMOTE_WAKE_NOTIFICATION, _REQUEST_REMOTE_WAKE_NOTIFICATION, REQUEST_REMOTE_WAKE_NOTIFICATION, REQUEST_REMOTE_WAKE_NOTIFICATION structure [Buses], usbdlib/PREQUEST_REMOTE_WAKE_NOTIFICATION
+ms.keywords: ",  , *, *PREQUEST_REMOTE_WAKE_NOTIFICATION, ,, A, C, E, F, I, K, M, N, O, P, PREQUEST_REMOTE_WAKE_NOTIFICATION, PREQUEST_REMOTE_WAKE_NOTIFICATION structure pointer [Buses], Q, R, REQUEST_REMOTE_WAKE_NOTIFICATION, REQUEST_REMOTE_WAKE_NOTIFICATION structure [Buses], S, T, U, W, _, _REQUEST_REMOTE_WAKE_NOTIFICATION, buses.usbdevice_remote_wake_notification, usbdlib/PREQUEST_REMOTE_WAKE_NOTIFICATION, usbdlib/REQUEST_REMOTE_WAKE_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,7 +93,7 @@ Specifies the device-defined index identifier of the interface with which the fu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/91F96D30-CD18-4DDC-BA5A-7BFFA8FBED9B">How to Implement Function Suspend in a Composite Driver</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
 
 
 
@@ -101,7 +101,7 @@ Specifies the device-defined index identifier of the interface with which the fu
 
 
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
+<a href="https://msdn.microsoft.com/91F96D30-CD18-4DDC-BA5A-7BFFA8FBED9B">How to Implement Function Suspend in a Composite Driver</a>
 
 
 

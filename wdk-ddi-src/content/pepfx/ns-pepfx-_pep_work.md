@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7C6ACFDD-809E-4E75-8E4D-8A4E0207593E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PEP_WORK, pepfx/PPEP_WORK, PEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], PEP_WORK structure [Kernel-Mode Driver Architecture], *PPEP_WORK, _PEP_WORK, kernel.pep_work, PPEP_WORK
+ms.keywords: ",  , *, *PPEP_WORK, ,, E, K, O, P, PEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], PPEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], R, W, _, _PEP_WORK, kernel.pep_work, pepfx/PEP_WORK, pepfx/PPEP_WORK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _PEP_WORK {
 
 ### -field WorkInformation
 
-[out] A pointer to a PEP-allocated <a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure that describes the work that the PEP is requesting. If <b>NeedWork</b> is TRUE, <b>WorkInformation</b> must point to a valid <b>PEP_WORK_INFORMATION</b> structure. If <b>NeedWork</b> is FALSE, <b>WorkInformation</b> must be NULL.
+[out] A pointer to a PEP-allocated <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure that describes the work that the PEP is requesting. If <b>NeedWork</b> is TRUE, <b>WorkInformation</b> must point to a valid <b>PEP_WORK_INFORMATION</b> structure. If <b>NeedWork</b> is FALSE, <b>WorkInformation</b> must be NULL.
 
 
 ### -field NeedWork
@@ -89,11 +89,11 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
-
-
-
-<a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 

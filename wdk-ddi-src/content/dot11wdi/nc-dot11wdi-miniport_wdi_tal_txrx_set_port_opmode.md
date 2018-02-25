@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 86F3005E-8BB3-4309-AFDE-7FA6E0427BFD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditaltxrxsetportopmode, MiniportWdiTalTxRxSetPortOpMode callback function [Network Drivers Starting with Windows Vista], MiniportWdiTalTxRxSetPortOpMode, MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE, MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE, dot11wdi/MiniportWdiTalTxRxSetPortOpMode
+ms.keywords: MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE, MiniportWdiTalTxRxSetPortOpMode, MiniportWdiTalTxRxSetPortOpMode callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxSetPortOpMode, netvista.miniportwditaltxrxsetportopmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,10 +103,6 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
-
-
-
 <a href="..\dot11wdi\ne-dot11wdi-_wdi_operation_mode.md">WDI_OPERATION_MODE</a>
 
 
@@ -115,11 +111,15 @@ This callback function does not return a value.
 
 
 
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 49367166-11bd-4a4e-aa47-e91dbe9a3df8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3d12ddi-crypto-session-transform-decrypt-header-input-arguments-0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030 structure [Display Devices], E, F, G, H, I, M, N, O, P, R, S, T, U, Y, _, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030, display.d3d12ddi-crypto-session-transform-decrypt-header-input-arguments-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

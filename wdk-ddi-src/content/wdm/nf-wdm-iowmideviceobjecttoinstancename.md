@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 18692c0d-8b74-495d-b66a-2873837ff797
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iowmideviceobjecttoinstancename, k104_9341dc2b-c948-44bd-891d-a530a8676259.xml, wdm/IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], IoWMIDeviceObjectToInstanceName
+ms.keywords: ",  , D, I, IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], M, N, O, T, W, a, b, c, e, i, j, k104_9341dc2b-c948-44bd-891d-a530a8676259.xml, kernel.iowmideviceobjecttoinstancename, m, n, o, s, t, v, wdm/IoWMIDeviceObjectToInstanceName"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,11 +126,11 @@ The driver does not implement any instances of the WMI class specified by <i>Dat
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmihandletoinstancename.md">IoWMIHandleToInstanceName</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmihandletoinstancename.md">IoWMIHandleToInstanceName</a>
 
 
 

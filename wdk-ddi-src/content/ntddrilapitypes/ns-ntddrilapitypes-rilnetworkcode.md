@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0fa761c-8e28-4067-ae9e-d39e2853fb05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILNETWORKCODE, *LPRILNETWORKCODE, RILNETWORKCODE, netvista.rilnetworkcode, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *LPRILNETWORKCODE, ,, C, D, E, I, K, L, N, O, P, R, RILNETWORKCODE, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], T, W, netvista.rilnetworkcode, rilapitypes/RILNETWORKCODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

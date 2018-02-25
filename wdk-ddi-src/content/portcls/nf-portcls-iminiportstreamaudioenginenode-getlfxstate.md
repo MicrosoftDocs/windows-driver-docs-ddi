@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2810D8B3-DDB7-4B55-839B-B2D079BDC0FC
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iminiportstreamaudioenginenode_getlfxstate, portcls/IMiniportStreamAudioEngineNode::GetLfxState, IMiniportStreamAudioEngineNode interface [Audio Devices], GetLfxState method, GetLfxState method [Audio Devices], GetLfxState, GetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::GetLfxState
+ms.keywords: ",  , ,, ., :, A, E, G, GetLfxState method [Audio Devices], GetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetLfxState,IMiniportStreamAudioEngineNode.GetLfxState, I, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetLfxState method, IMiniportStreamAudioEngineNode::GetLfxState, L, M, N, S, a, audio.iminiportstreamaudioenginenode_getlfxstate, d, e, f, g, i, m, n, o, p, portcls/IMiniportStreamAudioEngineNode::GetLfxState, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

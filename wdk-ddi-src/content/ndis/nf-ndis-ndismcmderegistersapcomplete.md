@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 69524144-fc55-4721-a753-6452566a8b26
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, netvista.ndismcmderegistersapcomplete, ndis/NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete
+ms.keywords: ",  , C, D, M, N, NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], S, a, condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, d, e, g, i, l, m, ndis/NdisMCmDeregisterSapComplete, netvista.ndismcmderegistersapcomplete, o, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -121,12 +121,12 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
    ProtocolClDeregisterSapComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
 
 
@@ -134,7 +134,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
 
 

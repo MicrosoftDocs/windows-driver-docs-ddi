@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 93663b88-e750-4280-b5c1-798cc0f848b7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/ScsiReportLuns_OUT, storage.scsireportluns_out2, PScsiReportLuns_OUT structure pointer [Storage Devices], _ScsiReportLuns_OUT, hbapiwmi/PScsiReportLuns_OUT, PScsiReportLuns_OUT, *PScsiReportLuns_OUT, ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], structs-Fibre_3c117d4b-f151-45af-84bb-ef6f800967aa.xml
+ms.keywords: ",  , *, *PScsiReportLuns_OUT, ,, L, O, P, PScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], R, S, ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], T, U, _, _ScsiReportLuns_OUT, c, e, hbapiwmi/PScsiReportLuns_OUT, hbapiwmi/ScsiReportLuns_OUT, i, n, o, p, r, s, storage.scsireportluns_out2, structs-Fibre_3c117d4b-f151-45af-84bb-ef6f800967aa.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

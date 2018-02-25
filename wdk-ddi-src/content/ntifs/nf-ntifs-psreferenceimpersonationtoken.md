@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c72f48a8-ba51-423f-9105-7d78521dcae2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.psreferenceimpersonationtoken, psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml, ntifs/PsReferenceImpersonationToken, PsReferenceImpersonationToken, PsReferenceImpersonationToken routine [Installable File System Drivers]
+ms.keywords: ",  , I, P, PsReferenceImpersonationToken, PsReferenceImpersonationToken routine [Installable File System Drivers], R, T, a, c, e, f, i, ifsk.psreferenceimpersonationtoken, k, m, n, ntifs/PsReferenceImpersonationToken, o, p, psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,19 +124,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
 
 
 
 <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

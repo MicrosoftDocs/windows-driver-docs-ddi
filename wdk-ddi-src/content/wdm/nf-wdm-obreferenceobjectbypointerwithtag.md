@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eaa730a8-8ee3-43a7-a18e-094fbac4ba60
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], kernel.obreferenceobjectbypointerwithtag, k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml, ObReferenceObjectByPointerWithTag, wdm/ObReferenceObjectByPointerWithTag
+ms.keywords: ",  , B, O, ObReferenceObjectByPointerWithTag, ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], P, R, T, W, a, b, c, e, f, g, h, i, j, k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml, kernel.obreferenceobjectbypointerwithtag, n, o, r, t, wdm/ObReferenceObjectByPointerWithTag, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,11 +154,19 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558675">OBJECT_TYPE</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
 
 
 
@@ -167,14 +175,6 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 <a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a>
 
 
 

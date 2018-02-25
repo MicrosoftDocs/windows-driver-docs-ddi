@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b48571eb-13a2-4541-80ac-c8d31f378d37
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisregisterprotocoldriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml, ndis/NdisRegisterProtocolDriver, NdisRegisterProtocolDriver
+ms.keywords: ",  , D, N, NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], P, R, c, d, e, g, i, l, ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver, o, protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -181,7 +181,7 @@ Some members of the structure at the
 
 A protocol driver calls the 
     <b>NdisRegisterProtocolDriver</b> function from its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
+    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
     <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS
     Protocol Drivers</a>.
@@ -210,13 +210,12 @@ Protocol drivers call the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
-   Drivers</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
    NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
 
 
 
@@ -224,7 +223,8 @@ Protocol drivers call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
 
 
 

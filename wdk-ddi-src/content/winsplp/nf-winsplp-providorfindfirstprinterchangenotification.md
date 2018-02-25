@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AFDA244D-D692-44C1-8BA3-5E1F013558D6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices], winsplp/ProvidorFindFirstPrinterChangeNotification, print.providorfindfirstprinterchangenotification
+ms.keywords: ",  , C, F, N, P, ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices], a, c, d, e, f, g, h, i, n, o, print.providorfindfirstprinterchangenotification, r, s, t, v, winsplp/ProvidorFindFirstPrinterChangeNotification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

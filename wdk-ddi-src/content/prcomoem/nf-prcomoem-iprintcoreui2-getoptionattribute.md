@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cf5420fb-3414-47a7-a53d-3d109589b64d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintCoreUI2, GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices], GetOptionAttribute method, IPrintCoreUI2::GetOptionAttribute, print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml, prcomoem/IPrintCoreUI2::GetOptionAttribute, print.iprintcoreui2_getoptionattribute
+ms.keywords: ",  , ,, ., 2, :, A, C, G, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices], IPrintCoreUI2 interface, GetOptionAttribute,IPrintCoreUI2.GetOptionAttribute, I, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetOptionAttribute method, IPrintCoreUI2::GetOptionAttribute, O, P, U, b, e, i, n, o, p, prcomoem/IPrintCoreUI2::GetOptionAttribute, print.iprintcoreui2_getoptionattribute, print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -205,7 +205,7 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
 
 
 
@@ -213,15 +213,15 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
 
 
 
 <a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>
 
 
 

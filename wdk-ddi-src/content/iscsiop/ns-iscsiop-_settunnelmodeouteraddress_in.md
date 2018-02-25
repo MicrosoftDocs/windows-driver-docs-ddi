@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3f698252-213f-482c-8c8f-624f0c370705
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN structure pointer [Storage Devices], _SetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN, SetTunnelModeOuterAddress_IN structure [Storage Devices], storage.settunnelmodeouteraddress_in, *PSetTunnelModeOuterAddress_IN, structs-iSCSI_d86148f6-e3d0-42b3-9e1d-3f341545f0b8.xml, iscsiop/PSetTunnelModeOuterAddress_IN, iscsiop/SetTunnelModeOuterAddress_IN
+ms.keywords: ",  , *, *PSetTunnelModeOuterAddress_IN, ,, A, I, M, N, O, P, PSetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN structure pointer [Storage Devices], S, SetTunnelModeOuterAddress_IN, SetTunnelModeOuterAddress_IN structure [Storage Devices], T, _, _SetTunnelModeOuterAddress_IN, d, e, iscsiop/PSetTunnelModeOuterAddress_IN, iscsiop/SetTunnelModeOuterAddress_IN, l, n, o, r, s, storage.settunnelmodeouteraddress_in, structs-iSCSI_d86148f6-e3d0-42b3-9e1d-3f341545f0b8.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
-
-
-
 <a href="..\iscsiop\ns-iscsiop-_settunnelmodeouteraddress_out.md">SetTunnelModeOuterAddress_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
 
 
 

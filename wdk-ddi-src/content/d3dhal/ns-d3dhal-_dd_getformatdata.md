@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 881a52d1-8e37-4474-a943-086ef5ceca80
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DD_GETFORMATDATA, d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, _DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices], d3dhal/DD_GETFORMATDATA, display.dd_getformatdata
+ms.keywords: ",  , ,, A, D, DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices], E, F, G, M, O, R, T, _, _DD_GETFORMATDATA, d3dhal/DD_GETFORMATDATA, d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, display.dd_getformatdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

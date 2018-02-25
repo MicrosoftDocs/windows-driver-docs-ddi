@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AAC2A60B-9E70-4809-969A-68783A91B093
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschemafeature_interface, IPrintSchemaFeature interface [Print Devices], IPrintSchemaFeature interface [Print Devices], described, IPrintSchemaFeature, printerextension/IPrintSchemaFeature
+ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], IPrintSchemaFeature interface [Print Devices], described, print.iprintschemafeature_interface, printerextension/IPrintSchemaFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -172,11 +172,11 @@ You must ensure that each Feature or Option in a PrintTicket or PrintCapabilitie
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemadisplayableelement.md">IPrintSchemaDisplayableElement</a>
-
-
-
 <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemadisplayableelement.md">IPrintSchemaDisplayableElement</a>
 
 
 

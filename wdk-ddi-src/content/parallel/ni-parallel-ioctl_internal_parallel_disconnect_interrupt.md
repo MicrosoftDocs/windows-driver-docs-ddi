@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 9ca488b1-30d3-44dc-acb3-87d97e439393
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_internal_parallel_disconnect_interrupt, IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT control code [Parallel Ports], IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT, parallel/IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT, cisspd_d98e5171-686e-41de-96fd-4615eaad82f3.xml
+ms.keywords: IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT, IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT control code [Parallel Ports], cisspd_d98e5171-686e-41de-96fd-4615eaad82f3.xml, parallel/IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT, parports.ioctl_internal_parallel_disconnect_interrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -121,7 +121,7 @@ The specified interrupt service routine is not connected.
 
 ## -see-also
 
-<a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a>
+<a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a>
 
 
 
@@ -129,7 +129,7 @@ The specified interrupt service routine is not connected.
 
 
 
-<a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a>
+<a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a>
 
 
 

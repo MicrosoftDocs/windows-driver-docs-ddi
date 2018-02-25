@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d48dce1-252f-4dc2-85a8-6c25e99ce0ba
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfio/WdfIoQueueReadyNotify, WdfIoQueueReadyNotify method, WdfIoQueueReadyNotify, wdf.wdfioqueuereadynotify, kmdf.wdfioqueuereadynotify, DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml
+ms.keywords: ",  , DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml, I, N, Q, R, W, WdfIoQueueReadyNotify, WdfIoQueueReadyNotify method, a, d, e, f, i, kmdf.wdfioqueuereadynotify, o, t, u, wdf.wdfioqueuereadynotify, wdfio/WdfIoQueueReadyNotify, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -191,19 +191,19 @@ The following code example registers a driver's <b>EvtIoQueueReady</b> function,
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
-
-
-
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
 
 
 
 <a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
+
+
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2de12d5-ed9e-42ac-b3e8-a3a567e4ab4a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_8380b2cb-114a-41bc-a32e-8fb60b18c133.xml, wdm/IoIs32bitProcess, IoIs32bitProcess routine [Kernel-Mode Driver Architecture], IoIs32bitProcess, kernel.iois32bitprocess
+ms.keywords: ",  , 2, 3, I, IoIs32bitProcess, IoIs32bitProcess routine [Kernel-Mode Driver Architecture], P, b, c, e, i, k104_8380b2cb-114a-41bc-a32e-8fb60b18c133.xml, kernel.iois32bitprocess, o, r, s, t, wdm/IoIs32bitProcess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

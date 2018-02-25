@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06FFECB3-0883-41CA-9BD3-A6A1D95D5F8C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchNicStateUnknown, ntddndis/NdisSwitchNicStateCreated, NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateDisconnected, _NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateCreated, NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateDeleted, netvista.ndis_switch_nic_state, ntddndis/NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateUnknown, NdisSwitchNicStateDisconnected, NdisSwitchNicStateDeleted, ntddndis/NdisSwitchNicStateConnected
+ms.keywords: ",  , ,, A, C, D, E, H, I, N, NDIS_SWITCH_NIC_STATE, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchNicStateConnected, NdisSwitchNicStateCreated, NdisSwitchNicStateDeleted, NdisSwitchNicStateDisconnected, NdisSwitchNicStateUnknown, S, T, W, _, _NDIS_SWITCH_NIC_STATE, netvista.ndis_switch_nic_state, ntddndis/NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateCreated, ntddndis/NdisSwitchNicStateDeleted, ntddndis/NdisSwitchNicStateDisconnected, ntddndis/NdisSwitchNicStateUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

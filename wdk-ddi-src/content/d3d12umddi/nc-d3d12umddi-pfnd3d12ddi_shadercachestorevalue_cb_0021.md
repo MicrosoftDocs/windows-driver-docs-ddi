@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F47C4E6E-4B09-4461-85F6-2E850CE2A2F6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3d12ddi_shadercachestorevalue_cb_0021, pfnShaderCacheStoreValueCb callback function [Display Devices], pfnShaderCacheStoreValueCb, PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021, PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021, d3d12umddi/pfnShaderCacheStoreValueCb
+ms.keywords: PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021, d3d12umddi/pfnShaderCacheStoreValueCb, display.pfnd3d12ddi_shadercachestorevalue_cb_0021, pfnShaderCacheStoreValueCb, pfnShaderCacheStoreValueCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

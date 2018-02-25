@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4b0f4de6-b800-4bc0-ae1d-97d877e3b91e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetTypeIdWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetTypeIdWide, debugger.gettypeidwide, IDebugSymbols3::GetTypeIdWide, IDebugSymbols3, GetTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, GetTypeIdWide, IDebugSymbols3 interface [Windows Debugging], GetTypeIdWide method
+ms.keywords: ",  , ,, ., 3, :, D, G, GetTypeIdWide method [Windows Debugging], GetTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, GetTypeIdWide,IDebugSymbols3.GetTypeIdWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetTypeIdWide method, IDebugSymbols3::GetTypeIdWide, S, T, W, b, d, dbgeng/IDebugSymbols3::GetTypeIdWide, debugger.gettypeidwide, e, g, i, l, m, o, p, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,7 +141,7 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -149,7 +149,7 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
 
 
 

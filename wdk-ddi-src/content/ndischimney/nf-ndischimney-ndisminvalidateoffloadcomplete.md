@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd14e983-ea4b-41f2-973d-88b114306e75
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMInvalidateOffloadComplete function [Network Drivers Starting with Windows Vista], NdisMInvalidateOffloadComplete, ndischimney/NdisMInvalidateOffloadComplete, tcp_chim_ndis_func_14e16158-2af9-4901-a986-0bfa329d9ac5.xml, netvista.ndisminvalidateoffloadcomplete
+ms.keywords: ",  , C, I, M, N, NdisMInvalidateOffloadComplete, NdisMInvalidateOffloadComplete function [Network Drivers Starting with Windows Vista], O, a, d, e, f, i, l, m, n, ndischimney/NdisMInvalidateOffloadComplete, netvista.ndisminvalidateoffloadcomplete, o, p, s, t, tcp_chim_ndis_func_14e16158-2af9-4901-a986-0bfa329d9ac5.xml, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

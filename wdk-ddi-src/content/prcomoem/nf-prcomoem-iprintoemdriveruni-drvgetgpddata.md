@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cebe8972-4e5a-4382-ac1b-4c326dea46b1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface, print.iprintoemdriveruni_drvgetgpddata, DrvGetGPDData, IPrintOemDriverUni, IPrintOemDriverUni::DrvGetGPDData, prcomoem/IPrintOemDriverUni::DrvGetGPDData, DrvGetGPDData method [Print Devices], print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml, IPrintOemDriverUni interface [Print Devices], DrvGetGPDData method
+ms.keywords: ",  , ,, ., :, D, DrvGetGPDData method [Print Devices], DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface, DrvGetGPDData,IPrintOemDriverUni.DrvGetGPDData, G, I, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvGetGPDData method, IPrintOemDriverUni::DrvGetGPDData, O, P, U, a, e, i, m, n, prcomoem/IPrintOemDriverUni::DrvGetGPDData, print.iprintoemdriveruni_drvgetgpddata, print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

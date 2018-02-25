@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4d842454-4a59-4f82-9aeb-3dfbe9d8cd8a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: namcache/RxNameCacheExpireEntryWithShortName, ifsk.rxnamecacheexpireentrywithshortname, RxNameCacheExpireEntryWithShortName, rxref_fcde2e61-9855-4d66-8b81-a437921d5ec5.xml, RxNameCacheExpireEntryWithShortName function [Installable File System Drivers]
+ms.keywords: ",  , C, E, N, R, RxNameCacheExpireEntryWithShortName, RxNameCacheExpireEntryWithShortName function [Installable File System Drivers], S, W, a, c, e, h, i, ifsk.rxnamecacheexpireentrywithshortname, m, n, namcache/RxNameCacheExpireEntryWithShortName, o, p, r, rxref_fcde2e61-9855-4d66-8b81-a437921d5ec5.xml, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,14 +100,6 @@ Because the active list is scanned, the <b>RxNameCacheExpireEntryWithShortName</
 
 ## -see-also
 
-<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
-
-
-
-<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
-
-
-
 <a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
 
 
@@ -116,11 +108,15 @@ Because the active list is scanned, the <b>RxNameCacheExpireEntryWithShortName</
 
 
 
+<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
+
+
+
 <a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
+<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
 
 
 
@@ -128,7 +124,11 @@ Because the active list is scanned, the <b>RxNameCacheExpireEntryWithShortName</
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
 
 
 

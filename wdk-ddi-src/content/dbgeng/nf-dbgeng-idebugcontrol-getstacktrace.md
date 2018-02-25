@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2d07e6a3-b560-4d9b-aece-0368d5929867
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl2::GetStackTrace, GetStackTrace, GetStackTrace method [Windows Debugging], IDebugControl interface, IDebugControl3::GetStackTrace, IDebugControl2 interface [Windows Debugging], GetStackTrace method, IDebugControl interface [Windows Debugging], GetStackTrace method, IDebugControl::GetStackTrace, GetStackTrace method [Windows Debugging], IDebugControl3 interface, GetStackTrace method [Windows Debugging], IDebugControl, debugger.getstacktrace, GetStackTrace method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetStackTrace, IDebugControl3 interface [Windows Debugging], GetStackTrace method, dbgeng/IDebugControl::GetStackTrace, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, dbgeng/IDebugControl3::GetStackTrace
+ms.keywords: ",  , ,, ., :, C, D, G, GetStackTrace method [Windows Debugging], GetStackTrace method [Windows Debugging], IDebugControl interface, GetStackTrace method [Windows Debugging], IDebugControl2 interface, GetStackTrace method [Windows Debugging], IDebugControl3 interface, GetStackTrace,IDebugControl.GetStackTrace, I, IDebugControl, IDebugControl interface [Windows Debugging], GetStackTrace method, IDebugControl2 interface [Windows Debugging], GetStackTrace method, IDebugControl2::GetStackTrace, IDebugControl3 interface [Windows Debugging], GetStackTrace method, IDebugControl3::GetStackTrace, IDebugControl::GetStackTrace, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, S, T, a, b, c, dbgeng/IDebugControl2::GetStackTrace, dbgeng/IDebugControl3::GetStackTrace, dbgeng/IDebugControl::GetStackTrace, debugger.getstacktrace, e, g, k, l, n, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -159,19 +159,7 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -179,11 +167,11 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
 
 
 
@@ -191,11 +179,23 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
 
 
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_stacktrace_routine.md">StackTrace</a>
+
+
+
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
 
 
 

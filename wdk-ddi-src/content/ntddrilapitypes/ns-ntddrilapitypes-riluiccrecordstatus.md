@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 073fe700-ea6d-4d29-8751-66b27714f72d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILUICCRECORDSTATUS, *LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccrecordstatus
+ms.keywords: ",  , *, *LPRILUICCRECORDSTATUS, ,, A, C, D, E, I, L, O, P, R, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.riluiccrecordstatus, rilapitypes/RILUICCRECORDSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

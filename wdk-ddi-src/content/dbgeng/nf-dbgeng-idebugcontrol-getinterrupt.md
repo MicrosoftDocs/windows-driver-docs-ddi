@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 597bff1e-0bc1-4c18-9156-661a46cf8e7a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetInterrupt method, IDebugControl3::GetInterrupt, IDebugControl_059bd637-c75b-4b52-a382-c645cb4b25b9.xml, GetInterrupt, IDebugControl3 interface [Windows Debugging], GetInterrupt method, dbgeng/IDebugControl2::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetInterrupt, IDebugControl2::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl3 interface, IDebugControl, debugger.getinterrupt, IDebugControl::GetInterrupt, GetInterrupt method [Windows Debugging], dbgeng/IDebugControl3::GetInterrupt, IDebugControl2 interface [Windows Debugging], GetInterrupt method, GetInterrupt method [Windows Debugging], IDebugControl interface
+ms.keywords: ",  , ,, ., :, C, D, G, GetInterrupt method [Windows Debugging], GetInterrupt method [Windows Debugging], IDebugControl interface, GetInterrupt method [Windows Debugging], IDebugControl2 interface, GetInterrupt method [Windows Debugging], IDebugControl3 interface, GetInterrupt,IDebugControl.GetInterrupt, I, IDebugControl, IDebugControl interface [Windows Debugging], GetInterrupt method, IDebugControl2 interface [Windows Debugging], GetInterrupt method, IDebugControl2::GetInterrupt, IDebugControl3 interface [Windows Debugging], GetInterrupt method, IDebugControl3::GetInterrupt, IDebugControl::GetInterrupt, IDebugControl_059bd637-c75b-4b52-a382-c645cb4b25b9.xml, b, dbgeng/IDebugControl2::GetInterrupt, dbgeng/IDebugControl3::GetInterrupt, dbgeng/IDebugControl::GetInterrupt, debugger.getinterrupt, e, g, l, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,19 +125,19 @@ This method can be called at any time and from any thread.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

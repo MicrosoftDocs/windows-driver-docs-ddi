@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d201fdce-ae56-4ba5-a947-e3e0cecc6e17
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PKSAUDIO_MIX_CAPS, ksmedia/KSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS, ksmedia/PKSAUDIO_MIX_CAPS, PKSAUDIO_MIX_CAPS structure pointer [Audio Devices], aud-prop_5468df9e-d7f4-4449-a59f-694100f2f825.xml, audio.ksaudio_mix_caps, KSAUDIO_MIX_CAPS structure [Audio Devices], PKSAUDIO_MIX_CAPS"
+ms.keywords: ",  , *, *PKSAUDIO_MIX_CAPS, ,, A, C, D, I, K, KSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS structure [Audio Devices], M, O, P, PKSAUDIO_MIX_CAPS, PKSAUDIO_MIX_CAPS structure pointer [Audio Devices], S, U, X, _, aud-prop_5468df9e-d7f4-4449-a59f-694100f2f825.xml, audio.ksaudio_mix_caps, ksmedia/KSAUDIO_MIX_CAPS, ksmedia/PKSAUDIO_MIX_CAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,11 +117,11 @@ This scale has a resolution of 1/65536 decibel.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_mixcap_table.md">KSAUDIO_MIXCAP_TABLE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksaudio_mixcap_table.md">KSAUDIO_MIXCAP_TABLE</a>
 
 
 

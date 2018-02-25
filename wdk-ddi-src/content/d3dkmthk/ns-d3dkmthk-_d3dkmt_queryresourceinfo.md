@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14078b2b-8951-48df-912a-e053bc997dde
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_QUERYRESOURCEINFO structure [Display Devices], D3DKMT_QUERYRESOURCEINFO, display.d3dkmt_queryresourceinfo, _D3DKMT_QUERYRESOURCEINFO, OpenGL_Structs_1bab95d7-d3a4-4380-939f-bca4e2d98478.xml, d3dkmthk/D3DKMT_QUERYRESOURCEINFO
+ms.keywords: ",  , ,, 3, C, D, D3DKMT_QUERYRESOURCEINFO, D3DKMT_QUERYRESOURCEINFO structure [Display Devices], E, F, I, K, M, N, O, OpenGL_Structs_1bab95d7-d3a4-4380-939f-bca4e2d98478.xml, Q, R, S, T, U, Y, _, _D3DKMT_QUERYRESOURCEINFO, d3dkmthk/D3DKMT_QUERYRESOURCEINFO, display.d3dkmt_queryresourceinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

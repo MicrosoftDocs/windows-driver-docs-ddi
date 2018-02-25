@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8f3817e7-8409-4b75-be28-ac7fe32145cb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.setvalues, IDebugRegisters, SetValues method [Windows Debugging], IDebugRegisters2 interface, SetValues, IDebugRegisters::SetValues, IDebugRegisters interface [Windows Debugging], SetValues method, dbgeng/IDebugRegisters2::SetValues, IDebugRegisters2::SetValues, SetValues method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], SetValues method, SetValues method [Windows Debugging], IDebugRegisters interface, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, dbgeng/IDebugRegisters::SetValues
+ms.keywords: ",  , ,, ., :, D, I, IDebugRegisters, IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, R, S, SetValues method [Windows Debugging], SetValues method [Windows Debugging], IDebugRegisters interface, SetValues method [Windows Debugging], IDebugRegisters2 interface, SetValues,IDebugRegisters.SetValues, V, a, b, dbgeng/IDebugRegisters2::SetValues, dbgeng/IDebugRegisters::SetValues, debugger.setvalues, e, g, i, l, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -162,6 +162,10 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
@@ -171,10 +175,6 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
 
 

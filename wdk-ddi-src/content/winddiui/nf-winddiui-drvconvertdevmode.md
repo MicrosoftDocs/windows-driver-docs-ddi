@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, winddiui/DrvConvertDevMode, print.drvconvertdevmode, DrvConvertDevMode function [Print Devices], DrvConvertDevMode
+ms.keywords: ",  , C, D, DrvConvertDevMode, DrvConvertDevMode function [Print Devices], M, d, e, n, o, print.drvconvertdevmode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, r, t, v, winddiui/DrvConvertDevMode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

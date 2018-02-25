@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 50CBBBED-EF1B-485F-90D3-0056AF8984E7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.beginthreadstackreconstruction, BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], BeginThreadStackReconstruction, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, dbgeng/BeginThreadStackReconstruction
+ms.keywords: BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, dbgeng/BeginThreadStackReconstruction, debugger.beginthreadstackreconstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

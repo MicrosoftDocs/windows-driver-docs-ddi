@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df3bbc09-14aa-4243-887b-d88d02a59f73
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IKsPin::KsMediaSamplesCompleted, IKsPin, ksproxy/IKsPin::KsMediaSamplesCompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method, stream.ikspin_ksmediasamplescompleted, KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface, KsMediaSamplesCompleted method [Streaming Media Devices]
+ms.keywords: ",  , ,, ., :, C, I, IKsPin, IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method, IKsPin::KsMediaSamplesCompleted, K, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface, KsMediaSamplesCompleted,IKsPin.KsMediaSamplesCompleted, M, P, S, a, d, e, i, ksproxy/IKsPin::KsMediaSamplesCompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, l, m, n, o, p, s, stream.ikspin_ksmediasamplescompleted, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,7 +94,7 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
 
 
 
@@ -102,7 +102,7 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B62920AB-39B2-4A04-AFB9-9C935A273F9A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3ExitLatencyChanged method [Audio Devices], IAdapterPowerManagement3 interface, D3ExitLatencyChanged, D3ExitLatencyChanged method [Audio Devices], IAdapterPowerManagement3::D3ExitLatencyChanged, IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], D3ExitLatencyChanged method, audio.iadapterpowermanagement3_d3exitlatencychanged, portcls/IAdapterPowerManagement3::D3ExitLatencyChanged
+ms.keywords: ",  , ,, ., 3, :, A, C, D, D3ExitLatencyChanged method [Audio Devices], D3ExitLatencyChanged method [Audio Devices], IAdapterPowerManagement3 interface, D3ExitLatencyChanged,IAdapterPowerManagement3.D3ExitLatencyChanged, E, I, IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], D3ExitLatencyChanged method, IAdapterPowerManagement3::D3ExitLatencyChanged, L, M, P, a, audio.iadapterpowermanagement3_d3exitlatencychanged, c, d, e, g, h, i, m, n, o, p, portcls/IAdapterPowerManagement3::D3ExitLatencyChanged, r, t, w, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,7 +115,7 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>
+<a href="..\portcls\nn-portcls-iadapterpowermanagement3.md">IAdapterPowerManagement3</a>
 
 
 
@@ -123,7 +123,7 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement3.md">IAdapterPowerManagement3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>
 
 
 

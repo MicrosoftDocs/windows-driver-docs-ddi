@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3606d5f4-760f-4ba1-84ea-218b6c2a2e20
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function [Display Devices], d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, display.d3dkmtqueryremotevidpnsourcefromgdidisplayname, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
+ms.keywords: ",  , 3, D, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function [Display Devices], F, G, K, M, N, P, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, Q, R, S, T, V, a, c, d, d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, display.d3dkmtqueryremotevidpnsourcefromgdidisplayname, e, i, l, m, n, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -52,7 +52,7 @@ req.typenames: D3DKMT_DRIVERVERSION
 ## -description
 
 
-Maps a GDI display name to a remote video present network (VidPN) source ID that is needed for a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtoutputduplpresent.md">D3DKMTOutputDuplPresent</a> function.
+Maps a GDI display name to a remote video present network (VidPN) source ID that is needed for a call to the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_outputduplpresent.md">D3DKMTOutputDuplPresent</a> function.
 
 
 ## -syntax
@@ -121,7 +121,7 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtoutputduplpresent.md">D3DKMTOutputDuplPresent</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_outputduplpresent.md">D3DKMTOutputDuplPresent</a>
 
 
 

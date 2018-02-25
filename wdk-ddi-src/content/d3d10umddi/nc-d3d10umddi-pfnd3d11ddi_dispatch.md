@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6fbbf05a-efb0-4f24-8811-b87141cf2daa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dispatch, Dispatch callback function [Display Devices], Dispatch, PFND3D11DDI_DISPATCH, PFND3D11DDI_DISPATCH, d3d10umddi/Dispatch, UserModeDisplayDriverDx11_Functions_1b4b62fc-3cc5-4506-9a61-30ee65f8ffcd.xml
+ms.keywords: Dispatch, Dispatch callback function [Display Devices], PFND3D11DDI_DISPATCH, UserModeDisplayDriverDx11_Functions_1b4b62fc-3cc5-4506-9a61-30ee65f8ffcd.xml, d3d10umddi/Dispatch, display.dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

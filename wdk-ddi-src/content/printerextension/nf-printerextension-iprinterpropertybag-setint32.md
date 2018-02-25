@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9E6B55C3-C177-4C07-9AB5-7C743CE47016
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SetInt32 method [Print Devices], IPrinterPropertyBag interface, print.iprinterpropertybag_setint32, printerextension/IPrinterPropertyBag::SetInt32, SetInt32 method [Print Devices], IPrinterPropertyBag::SetInt32, SetInt32, IPrinterPropertyBag interface [Print Devices], SetInt32 method, IPrinterPropertyBag
+ms.keywords: ",  , ,, ., 2, 3, :, B, I, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], SetInt32 method, IPrinterPropertyBag::SetInt32, P, S, SetInt32 method [Print Devices], SetInt32 method [Print Devices], IPrinterPropertyBag interface, SetInt32,IPrinterPropertyBag.SetInt32, a, e, g, i, n, o, p, print.iprinterpropertybag_setint32, printerextension/IPrinterPropertyBag::SetInt32, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

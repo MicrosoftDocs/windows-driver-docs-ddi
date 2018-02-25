@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a1f58757-809d-4351-8b1a-fd4420981c24
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnsetdisplaymodecb, pfnSetDisplayModeCb callback function [Display Devices], pfnSetDisplayModeCb, PFND3DDDI_SETDISPLAYMODECB, PFND3DDDI_SETDISPLAYMODECB, d3dumddi/pfnSetDisplayModeCb, D3Druntime_Functions_717329e1-853d-498e-8792-ba6468825cbb.xml
+ms.keywords: D3Druntime_Functions_717329e1-853d-498e-8792-ba6468825cbb.xml, PFND3DDDI_SETDISPLAYMODECB, d3dumddi/pfnSetDisplayModeCb, display.pfnsetdisplaymodecb, pfnSetDisplayModeCb, pfnSetDisplayModeCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -194,7 +194,7 @@ The following code example shows how to set the allocation for scanning out to t
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplaymode.md">D3DDDICB_SETDISPLAYMODE</a>
 
 
 
@@ -202,11 +202,11 @@ The following code example shows how to set the allocation for scanning out to t
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymode.md">SetDisplayMode</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplaymode.md">D3DDDICB_SETDISPLAYMODE</a>
 
 
 

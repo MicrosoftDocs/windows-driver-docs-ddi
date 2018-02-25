@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b1489593-9458-4e78-b59d-c8a780a3a3f1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsSetTime method [Streaming Media Devices], ksproxy_6d169c35-dd1b-4ccb-b028-f6a8d19e51ea.xml, stream.iksclockpropertyset_kssettime, IKsClockPropertySet, ksproxy/IKsClockPropertySet::KsSetTime, KsSetTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet interface [Streaming Media Devices], KsSetTime method, IKsClockPropertySet::KsSetTime, KsSetTime
+ms.keywords: ",  , ,, ., :, C, I, IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsSetTime method, IKsClockPropertySet::KsSetTime, K, KsSetTime method [Streaming Media Devices], KsSetTime method [Streaming Media Devices], IKsClockPropertySet interface, KsSetTime,IKsClockPropertySet.KsSetTime, P, S, T, c, e, i, k, ksproxy/IKsClockPropertySet::KsSetTime, ksproxy_6d169c35-dd1b-4ccb-b028-f6a8d19e51ea.xml, l, m, o, p, r, s, stream.iksclockpropertyset_kssettime, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

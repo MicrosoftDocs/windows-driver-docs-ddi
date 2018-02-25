@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76954a20-7cd7-454b-a965-8c3f0cdb6e8f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], kernel.keflushiobuffers, wdm/KeFlushIoBuffers, k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, KeFlushIoBuffers
+ms.keywords: ",  , B, F, I, K, KeFlushIoBuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], e, f, h, k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, kernel.keflushiobuffers, l, o, r, s, u, wdm/KeFlushIoBuffers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

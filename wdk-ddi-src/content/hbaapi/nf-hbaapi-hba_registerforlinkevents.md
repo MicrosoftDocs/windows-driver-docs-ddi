@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f0e6834c-b827-4342-83f1-5980f8edce24
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hba_registerforlinkevents, HBA_RegisterForLinkEvents routine [Storage Devices], hbaapi/HBA_RegisterForLinkEvents, fibreHBA_rtns_7fd8f7c4-faaf-4190-99c8-560615e14365.xml, HBA_RegisterForLinkEvents
+ms.keywords: ",  , A, B, E, F, H, HBA_RegisterForLinkEvents, HBA_RegisterForLinkEvents routine [Storage Devices], L, R, _, e, fibreHBA_rtns_7fd8f7c4-faaf-4190-99c8-560615e14365.xml, g, hbaapi/HBA_RegisterForLinkEvents, i, k, n, o, r, s, storage.hba_registerforlinkevents, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -175,15 +175,15 @@ Only RLIR events are reported. To stop event delivery, call <a href="..\hbaapi\n
 
 ## -see-also
 
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 

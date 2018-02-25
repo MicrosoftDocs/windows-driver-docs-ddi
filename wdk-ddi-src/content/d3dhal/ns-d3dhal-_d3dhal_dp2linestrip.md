@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1f893474-c132-4843-985a-5ef1d0d8f32d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DHAL_DP2LINESTRIP structure [Display Devices], LPD3DHAL_DP2LINESTRIP, LPD3DHAL_DP2LINESTRIP structure pointer [Display Devices], d3dhal/D3DHAL_DP2LINESTRIP, d3dstrct_d49daf52-1228-463a-8db5-3802da2fc787.xml, D3DHAL_DP2LINESTRIP, _D3DHAL_DP2LINESTRIP, display.d3dhal_dp2linestrip, *LPD3DHAL_DP2LINESTRIP, d3dhal/LPD3DHAL_DP2LINESTRIP
+ms.keywords: ",  , *, *LPD3DHAL_DP2LINESTRIP, ,, 2, 3, A, D, D3DHAL_DP2LINESTRIP, D3DHAL_DP2LINESTRIP structure [Display Devices], E, H, I, L, LPD3DHAL_DP2LINESTRIP, LPD3DHAL_DP2LINESTRIP structure pointer [Display Devices], N, P, R, S, T, _, _D3DHAL_DP2LINESTRIP, d3dhal/D3DHAL_DP2LINESTRIP, d3dhal/LPD3DHAL_DP2LINESTRIP, d3dstrct_d49daf52-1228-463a-8db5-3802da2fc787.xml, display.d3dhal_dp2linestrip"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,7 +89,7 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-D3DDP2OP_LINESTRIP
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -97,7 +97,7 @@ D3DDP2OP_LINESTRIP
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_LINESTRIP
 
 
 

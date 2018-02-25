@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fcc2679c-9a73-4bd0-ad2d-e7b48df9c7f7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: video/PVIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE structure [Display Devices], PVIDEO_PORT_I2C_INTERFACE, video/VIDEO_PORT_I2C_INTERFACE, Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], VIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, _VIDEO_PORT_I2C_INTERFACE
+ms.keywords: ",  , *, *PVIDEO_PORT_I2C_INTERFACE, ,, 2, A, C, D, E, F, I, N, O, P, PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], R, T, V, VIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE structure [Display Devices], Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, _, _VIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, video/PVIDEO_PORT_I2C_INTERFACE, video/VIDEO_PORT_I2C_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

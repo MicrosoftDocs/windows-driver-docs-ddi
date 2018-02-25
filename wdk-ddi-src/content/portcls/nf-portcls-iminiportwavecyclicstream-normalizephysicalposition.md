@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 554cad50-d952-4658-904b-b2a8a8f75b76
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, IMiniportWaveCyclicStream, NormalizePhysicalPosition method [Audio Devices], IMiniportWaveCyclicStream::NormalizePhysicalPosition, NormalizePhysicalPosition, IMiniportWaveCyclicStream interface [Audio Devices], NormalizePhysicalPosition method, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition, audio.iminiportwavecyclicstream_normalizephysicalposition, NormalizePhysicalPosition method [Audio Devices], IMiniportWaveCyclicStream interface
+ms.keywords: ",  , ,, ., :, C, I, IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], NormalizePhysicalPosition method, IMiniportWaveCyclicStream::NormalizePhysicalPosition, M, N, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices], IMiniportWaveCyclicStream interface, NormalizePhysicalPosition,IMiniportWaveCyclicStream.NormalizePhysicalPosition, P, S, W, a, audio.iminiportwavecyclicstream_normalizephysicalposition, audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, c, e, h, i, l, m, n, o, p, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition, r, s, t, v, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

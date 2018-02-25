@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BD11B67F-9229-4584-A20D-7D7C70B42977
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: msviddrv/LPVIDEO_OPEN_PARMS, LPVIDEO_OPEN_PARMS structure pointer [Streaming Media Devices], VIDEO_OPEN_PARMS, VIDEO_OPEN_PARMS structure [Streaming Media Devices], tag_video_open_parms, *LPVIDEO_OPEN_PARMS, msviddrv/VIDEO_OPEN_PARMS, LPVIDEO_OPEN_PARMS, stream.video_open_parms
+ms.keywords: ",  , *, *LPVIDEO_OPEN_PARMS, ,, A, D, E, I, L, LPVIDEO_OPEN_PARMS, LPVIDEO_OPEN_PARMS structure pointer [Streaming Media Devices], M, N, O, P, R, S, V, VIDEO_OPEN_PARMS, VIDEO_OPEN_PARMS structure [Streaming Media Devices], _, a, d, e, g, i, m, msviddrv/LPVIDEO_OPEN_PARMS, msviddrv/VIDEO_OPEN_PARMS, n, o, p, r, s, stream.video_open_parms, t, tag_video_open_parms, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

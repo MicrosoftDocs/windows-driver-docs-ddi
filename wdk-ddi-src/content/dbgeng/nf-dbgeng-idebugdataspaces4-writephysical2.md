@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 15a83343-b95b-4f79-b4f2-ed2ad60d170e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WritePhysical2, IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces4, debugger.writephysical2, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical2 method, WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::WritePhysical2, WritePhysical2 method [Windows Debugging]
+ms.keywords: ",  , ,, ., 2, 4, :, D, I, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical2 method, IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, P, S, W, WritePhysical2 method [Windows Debugging], WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, WritePhysical2,IDebugDataSpaces4.WritePhysical2, a, b, c, dbgeng/IDebugDataSpaces4::WritePhysical2, debugger.writephysical2, e, g, h, i, l, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -185,11 +185,11 @@ The flags DEBUG_PHYSICAL_CACHED, DEBUG_PHYSICAL_UNCACHED, and DEBUG_PHYSICAL_WRI
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 

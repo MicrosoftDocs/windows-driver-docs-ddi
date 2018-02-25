@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 447d623a-88cb-4d3d-8b05-4f5624c707ad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NETWORK_OPEN_ECP_CONTEXT_V0 structure [Installable File System Drivers], ntifs/NETWORK_OPEN_ECP_CONTEXT_V0, PNETWORK_OPEN_ECP_CONTEXT_V0 structure pointer [Installable File System Drivers], ECP_Structures_8bd64f25-774a-4f87-a903-07ce0a3c0989.xml, *PNETWORK_OPEN_ECP_CONTEXT_V0, ifsk.network_open_ecp_context_v0, NETWORK_OPEN_ECP_CONTEXT_V0, PNETWORK_OPEN_ECP_CONTEXT_V0, _NETWORK_OPEN_ECP_CONTEXT_V0, ntifs/PNETWORK_OPEN_ECP_CONTEXT_V0
+ms.keywords: ",  , *, *PNETWORK_OPEN_ECP_CONTEXT_V0, ,, 0, C, E, ECP_Structures_8bd64f25-774a-4f87-a903-07ce0a3c0989.xml, K, N, NETWORK_OPEN_ECP_CONTEXT_V0, NETWORK_OPEN_ECP_CONTEXT_V0 structure [Installable File System Drivers], O, P, PNETWORK_OPEN_ECP_CONTEXT_V0, PNETWORK_OPEN_ECP_CONTEXT_V0 structure pointer [Installable File System Drivers], R, T, V, W, X, _, _NETWORK_OPEN_ECP_CONTEXT_V0, ifsk.network_open_ecp_context_v0, ntifs/NETWORK_OPEN_ECP_CONTEXT_V0, ntifs/PNETWORK_OPEN_ECP_CONTEXT_V0"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,11 +152,11 @@ In most cases, drivers that run on Windows Vista and later versions of Windows u
 
 
 
-<a href="..\ntifs\ns-ntifs-_network_open_ecp_context.md">NETWORK_OPEN_ECP_CONTEXT</a>
-
-
-
 <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_network_open_ecp_context.md">NETWORK_OPEN_ECP_CONTEXT</a>
 
 
 

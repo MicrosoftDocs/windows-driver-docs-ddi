@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 96F920FC-43CE-4ACC-B880-9AD03B5D6009
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PHOTOMODE structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_PHOTOMODE, *PKSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE, ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE, stream.kscamera_extendedprop_photomode, tagKSCAMERA_EXTENDEDPROP_PHOTOMODE
+ms.keywords: ",  , *, *PKSCAMERA_EXTENDEDPROP_PHOTOMODE, ,, A, C, D, E, H, K, KSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE structure [Streaming Media Devices], M, N, O, P, PKSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE structure pointer [Streaming Media Devices], R, S, T, X, _, a, g, ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE, ksmedia/PKSCAMERA_EXTENDEDPROP_PHOTOMODE, stream.kscamera_extendedprop_photomode, t, tagKSCAMERA_EXTENDEDPROP_PHOTOMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

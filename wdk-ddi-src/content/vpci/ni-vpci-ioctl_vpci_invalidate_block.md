@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 66D1626A-7F22-48B8-8DB3-7B6E1634BABE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.IOCTL_VPCI_INVALIDATE_BLOCK, IOCTL_VPCI_INVALIDATE_BLOCK control code, IOCTL_VPCI_INVALIDATE_BLOCK, vpci/IOCTL_VPCI_INVALIDATE_BLOCK
+ms.keywords: IOCTL_VPCI_INVALIDATE_BLOCK, IOCTL_VPCI_INVALIDATE_BLOCK control code, PCI.IOCTL_VPCI_INVALIDATE_BLOCK, vpci/IOCTL_VPCI_INVALIDATE_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -390,23 +390,7 @@ When the VF driver handles the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451903">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisminvalidateconfigblock.md">NdisMInvalidateConfigBlock</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -418,7 +402,23 @@ When the VF driver handles the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisminvalidateconfigblock.md">NdisMInvalidateConfigBlock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
@@ -426,7 +426,7 @@ When the VF driver handles the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 

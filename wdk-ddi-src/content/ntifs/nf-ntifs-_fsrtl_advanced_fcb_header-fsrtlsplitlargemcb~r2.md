@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c48b978e-8519-41c0-b711-013c5ccf4abe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlSplitLargeMcb, ifsk.fsrtlsplitlargemcb, FsRtlSplitLargeMcb routine [Installable File System Drivers], ntifs/FsRtlSplitLargeMcb, fsrtlref_f8b7262b-59e2-442d-9525-faa934101bd8.xml
+ms.keywords: ",  , F, FsRtlSplitLargeMcb, FsRtlSplitLargeMcb routine [Installable File System Drivers], L, M, R, S, a, b, c, e, fsrtlref_f8b7262b-59e2-442d-9525-faa934101bd8.xml, g, i, ifsk.fsrtlsplitlargemcb, l, ntifs/FsRtlSplitLargeMcb, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,11 @@ If a pool allocation failure occurs, <b>FsRtlSplitLargeMcb</b> raises a STATUS_I
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb~r1.md">FsRtlTruncateLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry~r2.md">FsRtlLookupLastLargeMcbEntry</a>
 
 
 
@@ -118,15 +122,15 @@ If a pool allocation failure occurs, <b>FsRtlSplitLargeMcb</b> raises a STATUS_I
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry~r6.md">FsRtlLookupLargeMcbEntry</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb~r1.md">FsRtlTruncateLargeMcb</a>
 
 
 
@@ -134,15 +138,11 @@ If a pool allocation failure occurs, <b>FsRtlSplitLargeMcb</b> raises a STATUS_I
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry~r2.md">FsRtlLookupLastLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry~r6.md">FsRtlLookupLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
 
 
 

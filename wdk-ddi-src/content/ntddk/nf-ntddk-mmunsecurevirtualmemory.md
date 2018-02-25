@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 979eef24-e53b-476c-b9db-e56c43630913
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/MmUnsecureVirtualMemory, MmUnsecureVirtualMemory, k106_0bfc6e9e-a4e9-4868-b1fb-da6714146dbf.xml, MmUnsecureVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.mmunsecurevirtualmemory
+ms.keywords: ",  , M, MmUnsecureVirtualMemory, MmUnsecureVirtualMemory routine [Kernel-Mode Driver Architecture], U, V, a, c, e, i, k106_0bfc6e9e-a4e9-4868-b1fb-da6714146dbf.xml, kernel.mmunsecurevirtualmemory, l, m, n, ntddk/MmUnsecureVirtualMemory, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

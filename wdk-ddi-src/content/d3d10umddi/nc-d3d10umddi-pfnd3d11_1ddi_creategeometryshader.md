@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A0C3826D-E4F3-4169-A899-41C11006DE69
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.creategeometryshader_d3d11_1_, CreateGeometryShader(D3D11_1) callback function [Display Devices], CreateGeometryShader(D3D11_1), PFND3D11_1DDI_CREATEGEOMETRYSHADER, PFND3D11_1DDI_CREATEGEOMETRYSHADER, d3d10umddi/CreateGeometryShader(D3D11_1)
+ms.keywords: CreateGeometryShader(D3D11_1), CreateGeometryShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEGEOMETRYSHADER, d3d10umddi/CreateGeometryShader(D3D11_1), display.creategeometryshader_d3d11_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -139,7 +139,7 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_stage_io_signatures.md">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a>
 
 
 
@@ -151,7 +151,7 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_stage_io_signatures.md">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
 
 
 

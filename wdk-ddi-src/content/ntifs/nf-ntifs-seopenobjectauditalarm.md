@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a4310cf8-1518-4d25-b2f9-a232ddd9c535
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: seref_87dbea09-cd36-40c2-8241-16c8180f1945.xml, ntifs/SeOpenObjectAuditAlarm, SeOpenObjectAuditAlarm routine [Installable File System Drivers], SeOpenObjectAuditAlarm, ifsk.seopenobjectauditalarm
+ms.keywords: ",  , A, O, S, SeOpenObjectAuditAlarm, SeOpenObjectAuditAlarm routine [Installable File System Drivers], a, b, c, d, e, i, ifsk.seopenobjectauditalarm, j, l, m, n, ntifs/SeOpenObjectAuditAlarm, p, r, seref_87dbea09-cd36-40c2-8241-16c8180f1945.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,14 +144,6 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
 
 
@@ -164,11 +156,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
 
 
 
@@ -176,11 +164,23 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 588d5e73-4ec2-486b-914f-7076949653ad
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVA_ConfigAlphaCombine, dxvaref_3bd67a73-c786-412c-90ad-c546ae2e4645.xml, *LPDXVA_ConfigAlphaCombine, dxva/LPDXVA_ConfigAlphaCombine, display.dxva_configalphacombine, LPDXVA_ConfigAlphaCombine structure pointer [Display Devices], _DXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine structure [Display Devices], dxva/DXVA_ConfigAlphaCombine, LPDXVA_ConfigAlphaCombine
+ms.keywords: ",  , *, *LPDXVA_ConfigAlphaCombine, ,, A, C, D, DXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine structure [Display Devices], L, LPDXVA_ConfigAlphaCombine, LPDXVA_ConfigAlphaCombine structure pointer [Display Devices], P, V, X, _, _DXVA_ConfigAlphaCombine, a, b, display.dxva_configalphacombine, dxva/DXVA_ConfigAlphaCombine, dxva/LPDXVA_ConfigAlphaCombine, dxvaref_3bd67a73-c786-412c-90ad-c546ae2e4645.xml, e, f, g, h, i, l, m, n, o, p"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

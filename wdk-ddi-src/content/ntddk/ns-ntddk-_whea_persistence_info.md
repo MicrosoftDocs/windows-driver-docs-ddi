@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: ab429d1b-0b4d-4897-b5f0-73113d16758e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWHEA_PERSISTENCE_INFO, WHEA_PERSISTENCE_INFO, PWHEA_PERSISTENCE_INFO union pointer [WHEA Drivers and Applications], WHEA_PERSISTENCE_INFO union [WHEA Drivers and Applications], ntddk/PWHEA_PERSISTENCE_INFO, _WHEA_PERSISTENCE_INFO, ntddk/WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO, whearef_0c5f7bbf-fc55-4667-b97a-9b28ec014bb5.xml, whea.whea_persistence_info
+ms.keywords: ",  , *, *PWHEA_PERSISTENCE_INFO, ,, A, C, E, F, H, I, N, O, P, PWHEA_PERSISTENCE_INFO, PWHEA_PERSISTENCE_INFO union pointer [WHEA Drivers and Applications], R, S, T, W, WHEA_PERSISTENCE_INFO, WHEA_PERSISTENCE_INFO union [WHEA Drivers and Applications], _, _WHEA_PERSISTENCE_INFO, ntddk/PWHEA_PERSISTENCE_INFO, ntddk/WHEA_PERSISTENCE_INFO, whea.whea_persistence_info, whearef_0c5f7bbf-fc55-4667-b97a-9b28ec014bb5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

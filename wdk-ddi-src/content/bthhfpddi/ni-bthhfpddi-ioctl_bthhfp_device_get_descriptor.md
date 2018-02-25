@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 94B5E83E-8151-4BD6-9E1E-6C96B460D65F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.ioctl_bthhfp_device_get_descriptor, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code [Audio Devices], IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
+ms.keywords: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code [Audio Devices], audio.ioctl_bthhfp_device_get_descriptor, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

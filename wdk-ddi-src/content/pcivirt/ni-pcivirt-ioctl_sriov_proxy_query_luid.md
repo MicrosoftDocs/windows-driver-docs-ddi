@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 9f10ed34-f718-4c35-9b6f-29554bf30a0f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.ioctl-sriov-proxy-query-luid, IOCTL_SRIOV_PROXY_QUERY_LUID control code [Buses], IOCTL_SRIOV_PROXY_QUERY_LUID, pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID
+ms.keywords: IOCTL_SRIOV_PROXY_QUERY_LUID, IOCTL_SRIOV_PROXY_QUERY_LUID control code [Buses], PCI.ioctl-sriov-proxy-query-luid, pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

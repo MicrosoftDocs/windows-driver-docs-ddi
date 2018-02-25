@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad603c9c-aa11-4c8b-9d19-be2938608f3d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwps_net_buffer_list_notify_fn0, FwpsNetBufferListNotifyFN0 callback function [Network Drivers Starting with Windows Vista], FwpsNetBufferListNotifyFN0, FWPS_NET_BUFFER_LIST_NOTIFY_FN0, FWPS_NET_BUFFER_LIST_NOTIFY_FN0, fwpsk/FwpsNetBufferListNotifyFN0, wfp_ref_2_funct_4_callout_89757871-18df-415f-8dc1-d977395a09c9.xml
+ms.keywords: FWPS_NET_BUFFER_LIST_NOTIFY_FN0, FwpsNetBufferListNotifyFN0, FwpsNetBufferListNotifyFN0 callback function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListNotifyFN0, netvista.fwps_net_buffer_list_notify_fn0, wfp_ref_2_funct_4_callout_89757871-18df-415f-8dc1-d977395a09c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -139,7 +139,7 @@ This function is associated with a callout driver by a call to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 
 
@@ -147,7 +147,7 @@ This function is associated with a callout driver by a call to
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
 
 
@@ -155,7 +155,7 @@ This function is associated with a callout driver by a call to
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
 
 
 

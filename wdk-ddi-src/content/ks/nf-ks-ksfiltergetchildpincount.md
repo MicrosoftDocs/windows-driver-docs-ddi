@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 29e78bc3-0dc2-4e76-b683-c1e9a2d454d4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsFilterGetChildPinCount, stream.ksfiltergetchildpincount, avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices]
+ms.keywords: ",  , C, F, G, K, KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices], P, avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, d, e, h, i, ks/KsFilterGetChildPinCount, l, n, o, r, s, stream.ksfiltergetchildpincount, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,7 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
@@ -113,7 +109,11 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 

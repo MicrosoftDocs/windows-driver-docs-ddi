@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 677619d2-86a1-492e-9964-d50624376ef4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PDXGK_SPB_INTERFACE structure pointer [Display Devices], display.dxgk_spb_interface, dispmprt/PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE, _DXGK_SPB_INTERFACE, dispmprt/DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices]
+ms.keywords: ",  , *, *PDXGK_SPB_INTERFACE, ,, A, B, C, D, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], E, F, G, I, K, N, P, PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], R, S, T, X, _, _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -408,7 +408,7 @@ A pointer to a variable that receives the final completion status and informatio
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
 
 
 
@@ -416,7 +416,7 @@ A pointer to a variable that receives the final completion status and informatio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439861">SpbResourceIoControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>
 
 
 
@@ -424,7 +424,7 @@ A pointer to a variable that receives the final completion status and informatio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439861">SpbResourceIoControl</a>
 
 
 

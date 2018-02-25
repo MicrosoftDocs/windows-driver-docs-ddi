@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 09885782-2293-49a3-af48-6450dbc6a24e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiamdef/wiasGetRootItem, wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiasGetRootItem, image.wiasgetrootitem, wiasGetRootItem function [Imaging Devices]
+ms.keywords: ",  , G, I, R, a, e, i, image.wiasgetrootitem, m, o, s, t, w, wiamdef/wiasGetRootItem, wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiasGetRootItem, wiasGetRootItem function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

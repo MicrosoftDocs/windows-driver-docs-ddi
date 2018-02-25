@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 325E5717-6B84-45AE-85D4-BA1839DB76A2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_SS_CHARACTERISTICS, _NDIS_MINIPORT_SS_CHARACTERISTICS"
+ms.keywords: ",  , *, *PNDIS_MINIPORT_SS_CHARACTERISTICS, ,, A, C, D, E, H, I, M, N, NDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, _NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -140,11 +140,11 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

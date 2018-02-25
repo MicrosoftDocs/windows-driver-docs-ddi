@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: e9826b4d-e8ac-495e-8125-7835b62011dc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_usb_get_node_connection_driverkey_name, IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME control code [Buses], IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, usbirp_cdc9e1be-96fd-41d4-a0d3-1303b0b4fb1d.xml
+ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME control code [Buses], buses.ioctl_usb_get_node_connection_driverkey_name, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, usbirp_cdc9e1be-96fd-41d4-a0d3-1303b0b4fb1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

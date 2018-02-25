@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 44b57aa2-37ef-4491-8a88-9e7f880f5c1b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortWritePortBufferUchar, storage.storportwriteportbufferuchar, StorPortWritePortBufferUchar routine [Storage Devices], storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml, StorPortWritePortBufferUchar
+ms.keywords: ",  , B, P, S, StorPortWritePortBufferUchar, StorPortWritePortBufferUchar routine [Storage Devices], U, W, a, c, e, f, h, i, o, r, storage.storportwriteportbufferuchar, storport/StorPortWritePortBufferUchar, storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -120,18 +120,18 @@ Contains the number of data items of size <b>sizeof</b>(UCHAR) to be written.
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>. 
 
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>
+
+
+
 <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>
 
 
 

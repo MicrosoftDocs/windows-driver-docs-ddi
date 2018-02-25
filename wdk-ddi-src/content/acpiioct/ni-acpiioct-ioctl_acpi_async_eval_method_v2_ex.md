@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 99907C55-39CE-4D00-B7B3-4196E5CDF27A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.ioctl_acpi_async_eval_method_v2_ex, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX control code [ACPI Devices], IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX
+ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX control code [ACPI Devices], acpi.ioctl_acpi_async_eval_method_v2_ex, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -107,11 +107,7 @@ The size, in bytes, of the output buffer.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -119,7 +115,11 @@ The size, in bytes, of the output buffer.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

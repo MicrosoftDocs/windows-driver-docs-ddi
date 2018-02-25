@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 043c15dc-ebd7-4d91-8f65-d89d6064cc7c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfInterruptSetExtendedPolicy, DFInterruptObjectRef_ed600fb0-0e09-4c00-a132-cd4947dd2b04.xml, kmdf.wdfinterruptsetextendedpolicy, WdfInterruptSetExtendedPolicy method, wdf.wdfinterruptsetextendedpolicy, wdfinterrupt/WdfInterruptSetExtendedPolicy
+ms.keywords: ",  , DFInterruptObjectRef_ed600fb0-0e09-4c00-a132-cd4947dd2b04.xml, E, I, P, S, W, WdfInterruptSetExtendedPolicy, WdfInterruptSetExtendedPolicy method, c, d, e, f, i, kmdf.wdfinterruptsetextendedpolicy, l, n, o, p, r, t, u, wdf.wdfinterruptsetextendedpolicy, wdfinterrupt/WdfInterruptSetExtendedPolicy, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: c9ca8bb4-2a05-4934-b589-41fba8092b1b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFSimulatedBatterySystemAction, dtf.iwdtfsimulatedbatterysystemaction_enablesimulatedbattery, EnableSimulatedBattery method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery, EnableSimulatedBattery method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, EnableSimulatedBattery, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], EnableSimulatedBattery method
+ms.keywords: ",  , ,, ., :, A, B, D, E, EnableSimulatedBattery method [Windows Device Testing Framework], EnableSimulatedBattery method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, EnableSimulatedBattery,IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery, F, I, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], EnableSimulatedBattery method, IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery, S, T, W, a, b, c, d, dtf.iwdtfsimulatedbatterysystemaction_enablesimulatedbattery, e, i, l, m, n, o, r, s, t, u, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,11 +89,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md">IWDTFSimulatedBatterySystemAction</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265161">IWDTFSimulatedBatterySystemAction::DisableRealBatteries</a>
+
+
+
+<a href="..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md">IWDTFSimulatedBatterySystemAction</a>
 
 
 

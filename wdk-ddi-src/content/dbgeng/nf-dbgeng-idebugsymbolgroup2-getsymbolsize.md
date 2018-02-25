@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f35bbbeb-585b-47b0-ae36-bd37fe9e1bbc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolSize method, GetSymbolSize, IDebugSymbolGroup2::GetSymbolSize, debugger.getsymbolsize, IDebugSymbolGroup2, GetSymbolSize method [Windows Debugging], dbgeng/IDebugSymbolGroup2::GetSymbolSize, ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2 interface
+ms.keywords: ",  , ,, ., 2, :, ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, D, G, GetSymbolSize method [Windows Debugging], GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolSize,IDebugSymbolGroup2.GetSymbolSize, I, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolSize method, IDebugSymbolGroup2::GetSymbolSize, S, b, dbgeng/IDebugSymbolGroup2::GetSymbolSize, debugger.getsymbolsize, e, g, i, l, m, o, p, r, t, u, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -128,15 +128,15 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 
 
 <a href="https://msdn.microsoft.com/b6f03eb5-e386-4e88-a729-db08f1fa460c">IDebugSymbols::GetTypeSize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

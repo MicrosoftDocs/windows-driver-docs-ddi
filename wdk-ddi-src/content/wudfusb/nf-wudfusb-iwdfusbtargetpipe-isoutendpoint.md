@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb6c5b25-ea21-44cb-8b67-c5266c8bc1e4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFUsbTargetPipe::IsOutEndPoint, wdf.iwdfusbtargetpipe_isoutendpoint, umdf.iwdfusbtargetpipe_isoutendpoint, IsOutEndPoint method, IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint, IWDFUsbTargetPipe interface, IsOutEndPoint method, IsOutEndPoint method, IWDFUsbTargetPipe interface, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml
+ms.keywords: ",  , ,, ., :, D, E, F, I, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IsOutEndPoint method, IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint method, IsOutEndPoint method, IWDFUsbTargetPipe interface, IsOutEndPoint,IWDFUsbTargetPipe.IsOutEndPoint, O, P, T, U, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml, W, a, b, d, e, g, i, n, o, p, r, s, t, u, umdf.iwdfusbtargetpipe_isoutendpoint, wdf.iwdfusbtargetpipe_isoutendpoint, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

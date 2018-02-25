@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9588ef16-baf7-4e2b-a624-864ae218c385
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsPinGetConnectedPinDeviceObject, KsPinGetConnectedPinDeviceObject function [Streaming Media Devices], ks/KsPinGetConnectedPinDeviceObject, stream.kspingetconnectedpindeviceobject, avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml
+ms.keywords: ",  , C, D, G, K, KsPinGetConnectedPinDeviceObject, KsPinGetConnectedPinDeviceObject function [Streaming Media Devices], O, P, avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml, b, c, d, e, i, j, ks/KsPinGetConnectedPinDeviceObject, n, o, s, stream.kspingetconnectedpindeviceobject, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

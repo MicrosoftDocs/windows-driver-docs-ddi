@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4a08c6dc-61ac-421f-83b7-73f1f54aea71
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvreceivepacket, Dot11ExtIhvReceivePacket callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvReceivePacket, DOT11EXTIHV_RECEIVE_PACKET, DOT11EXTIHV_RECEIVE_PACKET, wlanihv/Dot11ExtIhvReceivePacket, Native_802.11_IHV_Ext_8f86438e-c311-425f-952f-08311bc3be2b.xml
+ms.keywords: DOT11EXTIHV_RECEIVE_PACKET, Dot11ExtIhvReceivePacket, Dot11ExtIhvReceivePacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_8f86438e-c311-425f-952f-08311bc3be2b.xml, netvista.dot11extihvreceivepacket, wlanihv/Dot11ExtIhvReceivePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -152,11 +152,11 @@ Payload
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

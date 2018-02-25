@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 213711fb-26eb-443b-aff4-8f84b643adb3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_get_media_types, IOCTL_STORAGE_GET_MEDIA_TYPES control code [Storage Devices], IOCTL_STORAGE_GET_MEDIA_TYPES, ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES, k307_9e0698c0-04ff-48b5-ba02-903c59bf6f58.xml
+ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES, IOCTL_STORAGE_GET_MEDIA_TYPES control code [Storage Devices], k307_9e0698c0-04ff-48b5-ba02-903c59bf6f58.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES, storage.ioctl_storage_get_media_types
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

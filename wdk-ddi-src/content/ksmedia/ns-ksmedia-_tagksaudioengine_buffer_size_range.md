@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7BFF1B51-9559-471C-868C-F3E861CB4914
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSAUDIOENGINE_BUFFER_SIZE_RANGE, KSAUDIOENGINE_BUFFER_SIZE_RANGE structure [Audio Devices], PKSAUDIOENGINE_BUFFER_SIZE_RANGE structure pointer [Audio Devices], *PKSAUDIOENGINE_BUFFER_SIZE_RANGE, ksmedia/KSAUDIOENGINE_BUFFER_SIZE_RANGE, _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE, PKSAUDIOENGINE_BUFFER_SIZE_RANGE, ksmedia/PKSAUDIOENGINE_BUFFER_SIZE_RANGE, audio.ksaudio_buffer_limits
+ms.keywords: ",  , *, *PKSAUDIOENGINE_BUFFER_SIZE_RANGE, ,, A, B, D, E, F, G, I, K, KSAUDIOENGINE_BUFFER_SIZE_RANGE, KSAUDIOENGINE_BUFFER_SIZE_RANGE structure [Audio Devices], N, O, P, PKSAUDIOENGINE_BUFFER_SIZE_RANGE, PKSAUDIOENGINE_BUFFER_SIZE_RANGE structure pointer [Audio Devices], R, S, U, Z, _, _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE, a, audio.ksaudio_buffer_limits, g, ksmedia/KSAUDIOENGINE_BUFFER_SIZE_RANGE, ksmedia/PKSAUDIOENGINE_BUFFER_SIZE_RANGE, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,11 +93,11 @@ The audio stack uses the information about the buffer size limits to determine t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450867">KSPROPERTY_AUDIOENGINE</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450867">KSPROPERTY_AUDIOENGINE</a>
 
 
 

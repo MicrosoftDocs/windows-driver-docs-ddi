@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1c30293f-1516-47a7-bb2c-29f9dc682777
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IMiniportWavePci interface [Audio Devices], Service method, audio.iminiportwavepci_service, IMiniportWavePci::Service, audmp-routines_837c6515-20a3-4b55-b930-24fc1b461ea6.xml, Service method [Audio Devices], IMiniportWavePci interface, portcls/IMiniportWavePci::Service, Service, Service method [Audio Devices], IMiniportWavePci
+ms.keywords: ",  , ,, ., :, I, IMiniportWavePci, IMiniportWavePci interface [Audio Devices], Service method, IMiniportWavePci::Service, M, P, S, Service method [Audio Devices], Service method [Audio Devices], IMiniportWavePci interface, Service,IMiniportWavePci.Service, W, a, audio.iminiportwavepci_service, audmp-routines_837c6515-20a3-4b55-b930-24fc1b461ea6.xml, c, e, i, n, o, p, portcls/IMiniportWavePci::Service, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,15 +94,11 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536918">IPortWavePci::Notify</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536734">IMiniportWavePci::Init</a>
 
 
 
@@ -110,7 +106,11 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536734">IMiniportWavePci::Init</a>
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
 
 
 

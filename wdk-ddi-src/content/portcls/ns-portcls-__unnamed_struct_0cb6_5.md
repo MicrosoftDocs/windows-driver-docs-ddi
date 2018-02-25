@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b91a7582-e146-4ded-a6b7-cb77850bfd2c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PPCEVENT_ITEM structure pointer [Audio Devices], portcls/PCEVENT_ITEM, PCEVENT_ITEM, audio.pcevent_item, portcls/PPCEVENT_ITEM, PPCEVENT_ITEM, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, PCEVENT_ITEM structure [Audio Devices], *PPCEVENT_ITEM
+ms.keywords: ",  , *, *PPCEVENT_ITEM, ,, C, E, I, M, N, P, PCEVENT_ITEM, PCEVENT_ITEM structure [Audio Devices], PPCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices], T, V, _, audio.pcevent_item, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, portcls/PCEVENT_ITEM, portcls/PPCEVENT_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,39 +70,17 @@ typedef struct {
 
 
 
-### -field portcls.Set
-
- 
-
-
-### -field portcls.Id
-
- 
-
-
-### -field portcls.Flags
-
- 
-
-
-### -field portcls.Handler
-
- 
-
-
-
-
-#### - Set
+### -field Set
 
 Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536195">Audio Drivers Event Sets</a>.
 
 
-#### - Id
+### -field Id
 
 Specifies the event ID. This member identifies an event item within the event set. If the event set contains N items, valid event IDs are integers in the range 0 to N-1.
 
 
-#### - Flags
+### -field Flags
 
 Specifies the type of event. This member is set to one of the following values:
 
@@ -127,7 +105,7 @@ Indicates that the event notification should be enabled for the next occurrence 
 If the client specifies this flag, the driver returns STATUS_SUCCESS if it supports the event and an error code if it does not.
 
 
-#### - Handler
+### -field Handler
 
 Pointer to the miniport driver's event-handler routine. This member is a function pointer of type PCPFNEVENT_HANDLER, which is defined as follows:
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8DA0FF6C-CA2C-4943-93C3-BFC3773617CC
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.copytiles, CopyTiles callback function [Display Devices], CopyTiles, PFND3DWDDM1_3DDI_COPYTILES, PFND3DWDDM1_3DDI_COPYTILES, d3d10umddi/CopyTiles
+ms.keywords: CopyTiles, CopyTiles callback function [Display Devices], PFND3DWDDM1_3DDI_COPYTILES, d3d10umddi/CopyTiles, display.copytiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -126,11 +126,7 @@ The Direct3D runtime does not expect this function to fail.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tile_region_size.md">D3DWDDM1_3DDI_TILE_REGION_SIZE</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tiled_resource_coordinate.md">D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE</a>
 
 
 
@@ -138,7 +134,11 @@ The Direct3D runtime does not expect this function to fail.
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tiled_resource_coordinate.md">D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tile_region_size.md">D3DWDDM1_3DDI_TILE_REGION_SIZE</a>
 
 
 

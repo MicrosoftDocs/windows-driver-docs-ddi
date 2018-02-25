@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c97b399e-fb25-475a-a2a0-0cf4fb24433c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFUsbTargetDevice, RetrieveDescriptor method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice::RetrieveDescriptor, RetrieveDescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, IWDFUsbTargetDevice interface, RetrieveDescriptor method, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor, umdf.iwdfusbtargetdevice_retrievedescriptor, RetrieveDescriptor method, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrieveDescriptor method, IWDFUsbTargetDevice::RetrieveDescriptor, R, RetrieveDescriptor method, RetrieveDescriptor method, IWDFUsbTargetDevice interface, RetrieveDescriptor,IWDFUsbTargetDevice.RetrieveDescriptor, T, U, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, W, a, b, c, e, g, i, o, p, r, s, t, umdf.iwdfusbtargetdevice_retrievedescriptor, v, wdf.iwdfusbtargetdevice_retrievedescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

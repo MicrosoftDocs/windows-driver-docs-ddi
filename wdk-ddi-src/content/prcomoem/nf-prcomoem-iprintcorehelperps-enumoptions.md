@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd23f4e6-7a99-4347-ae29-a1e832db2e03
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: prcomoem/IPrintCoreHelperPS::EnumOptions, EnumOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, EnumOptions, EnumOptions method [Print Devices], IPrintCoreHelperPS::EnumOptions, print.iprintcorehelperps_enumoptions, print_unidrv-pscript_allplugins_89c5ea61-aedf-43c6-9a8b-020656476f35.xml, IPrintCoreHelperPS interface [Print Devices], EnumOptions method
+ms.keywords: ",  , ,, ., :, C, E, EnumOptions method [Print Devices], EnumOptions method [Print Devices], IPrintCoreHelperPS interface, EnumOptions,IPrintCoreHelperPS.EnumOptions, H, I, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], EnumOptions method, IPrintCoreHelperPS::EnumOptions, O, P, S, e, i, l, m, n, o, p, prcomoem/IPrintCoreHelperPS::EnumOptions, print.iprintcorehelperps_enumoptions, print_unidrv-pscript_allplugins_89c5ea61-aedf-43c6-9a8b-020656476f35.xml, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,11 +114,11 @@ When <b>IPrintCoreHelperPS::EnumOptions</b> returns, the option list contains al
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551977">IPrintCoreHelperPS::EnumFeatures</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
 
 
 

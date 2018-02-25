@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 394343A5-10E4-4F64-AD3C-1D2114422B39
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_udecx_wdf_device_reset, EvtUdecxWdfDeviceReset callback function [Buses], EvtUdecxWdfDeviceReset, EVT_UDECX_WDF_DEVICE_RESET, EVT_UDECX_WDF_DEVICE_RESET, udecxwdfdevice/EvtUdecxWdfDeviceReset
+ms.keywords: EVT_UDECX_WDF_DEVICE_RESET, EvtUdecxWdfDeviceReset, EvtUdecxWdfDeviceReset callback function [Buses], buses.evt_udecx_wdf_device_reset, udecxwdfdevice/EvtUdecxWdfDeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

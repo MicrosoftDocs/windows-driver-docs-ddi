@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2984b246-3e3c-4121-b7a0-d9509a1717a3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ObInsertObject function [Installable File System Drivers], ObInsertObject, ntifs/ObInsertObject, obref_9ecb8aa6-496e-4daf-96cf-d68ec5863e94.xml, ifsk.obinsertobject
+ms.keywords: ",  , I, O, ObInsertObject, ObInsertObject function [Installable File System Drivers], b, c, e, ifsk.obinsertobject, j, n, ntifs/ObInsertObject, obref_9ecb8aa6-496e-4daf-96cf-d68ec5863e94.xml, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

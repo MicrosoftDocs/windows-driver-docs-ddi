@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6CF651D7-7F5F-4622-8FDF-8BFF4E4A701D
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.debugextensioncanunload, DebugExtensionCanUnload, DebugExtensionCanUnload callback function [Windows Debugging], DebugExtensionCanUnload, PDEBUG_EXTENSION_CANUNLOAD, PDEBUG_EXTENSION_CANUNLOAD, dbgeng/DebugExtensionCanUnload
+ms.keywords: DebugExtensionCanUnload, DebugExtensionCanUnload callback function [Windows Debugging], PDEBUG_EXTENSION_CANUNLOAD, dbgeng/DebugExtensionCanUnload, debugger.debugextensioncanunload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

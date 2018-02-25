@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: efb3c93c-5405-418b-a063-afa8e5e9e59a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: Request method [Windows Debugging], IDebugAdvanced2::Request, Request method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging], Request method, IDebugAdvanced3::Request, Request, IDebugAdvanced2 interface [Windows Debugging], Request method, IDebugAdvanced2, IDebugAdvanced_8fbf249e-5550-42c0-b16d-d42aaa4de660.xml, debugger.request, Request method [Windows Debugging], IDebugAdvanced2 interface, dbgeng/IDebugAdvanced3::Request, dbgeng/IDebugAdvanced2::Request
+ms.keywords: ",  , ,, ., 2, :, A, D, I, IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], Request method, IDebugAdvanced2::Request, IDebugAdvanced3 interface [Windows Debugging], Request method, IDebugAdvanced3::Request, IDebugAdvanced_8fbf249e-5550-42c0-b16d-d42aaa4de660.xml, R, Request method [Windows Debugging], Request method [Windows Debugging], IDebugAdvanced2 interface, Request method [Windows Debugging], IDebugAdvanced3 interface, Request,IDebugAdvanced2.Request, a, b, c, d, dbgeng/IDebugAdvanced2::Request, dbgeng/IDebugAdvanced3::Request, debugger.request, e, g, n, q, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -321,47 +321,11 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541623">DEBUG_REQUEST_TARGET_EXCEPTION_THREAD</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541561">DEBUG_REQUEST_GET_CAPTURED_EVENT_CODE_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541575">DEBUG_REQUEST_READ_USER_MINIDUMP_STREAM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541602">DEBUG_REQUEST_TARGET_CAN_DETACH</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541616">DEBUG_REQUEST_TARGET_EXCEPTION_RECORD</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541553">DEBUG_REQUEST_GET_ADDITIONAL_CREATE_OPTIONS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541572">DEBUG_REQUEST_READ_CAPTURED_EVENT_CODE_STREAM</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541597">DEBUG_REQUEST_SOURCE_PATH_HAS_SOURCE_SERVER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541606">DEBUG_REQUEST_TARGET_EXCEPTION_CONTEXT</a>
 
 
 
@@ -373,7 +337,43 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541597">DEBUG_REQUEST_SOURCE_PATH_HAS_SOURCE_SERVER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541575">DEBUG_REQUEST_READ_USER_MINIDUMP_STREAM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541623">DEBUG_REQUEST_TARGET_EXCEPTION_THREAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541602">DEBUG_REQUEST_TARGET_CAN_DETACH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541572">DEBUG_REQUEST_READ_CAPTURED_EVENT_CODE_STREAM</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541586">DEBUG_REQUEST_SET_ADDITIONAL_CREATE_OPTIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541553">DEBUG_REQUEST_GET_ADDITIONAL_CREATE_OPTIONS</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541606">DEBUG_REQUEST_TARGET_EXCEPTION_CONTEXT</a>
 
 
 

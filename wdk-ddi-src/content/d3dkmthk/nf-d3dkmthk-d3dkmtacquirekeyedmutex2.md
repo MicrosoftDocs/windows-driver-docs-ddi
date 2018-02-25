@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94ebfeb6-2035-4dd6-bbc9-ba82939b51ec
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTAcquireKeyedMutex2, d3dkmthk/D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2, D3DKMTAcquireKeyedMutex2 function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX2
+ms.keywords: ",  , 2, 3, A, D, D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 function [Display Devices], K, M, PFND3DKMT_ACQUIREKEYEDMUTEX2, T, c, d, d3dkmthk/D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2, e, i, q, r, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,7 +129,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a> could not complete because of insufficient memory.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -145,18 +145,18 @@ This function might also return other <b>NTSTATUS</b> values.
 
 
 
-<b>D3DKMTAcquireKeyedMutex2</b> behaves like the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
+<b>D3DKMTAcquireKeyedMutex2</b> behaves like the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
 
 
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2.md">D3DKMT_ACQUIREKEYEDMUTEX2</a>
-
-
-
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
 
 
 

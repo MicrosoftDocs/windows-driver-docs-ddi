@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 914c4ef8-2210-468c-8720-11f8adf9dce7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdevicegetdefaultqueue, DFDeviceObjectGeneralRef_17d2efb6-80ae-4045-baa4-68d610b9e0c3.xml, wdfdevice/WdfDeviceGetDefaultQueue, WdfDeviceGetDefaultQueue, kmdf.wdfdevicegetdefaultqueue, WdfDeviceGetDefaultQueue method
+ms.keywords: ",  , D, DFDeviceObjectGeneralRef_17d2efb6-80ae-4045-baa4-68d610b9e0c3.xml, G, Q, W, WdfDeviceGetDefaultQueue, WdfDeviceGetDefaultQueue method, a, c, d, e, f, i, kmdf.wdfdevicegetdefaultqueue, l, t, u, v, wdf.wdfdevicegetdefaultqueue, wdfdevice/WdfDeviceGetDefaultQueue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

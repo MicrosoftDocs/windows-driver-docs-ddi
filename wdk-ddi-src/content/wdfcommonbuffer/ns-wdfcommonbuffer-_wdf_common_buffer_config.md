@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19e98448-6951-4eb4-bca1-8119cd6f7713
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_COMMON_BUFFER_CONFIG, wdf.wdf_common_buffer_config, kmdf.wdf_common_buffer_config, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG, wdfcommonbuffer/PWDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG, DFCommonBufferObjectRef_6b9d3f2e-8954-4777-b5e4-9828f73feec3.xml, PWDF_COMMON_BUFFER_CONFIG structure pointer, PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG structure, _WDF_COMMON_BUFFER_CONFIG
+ms.keywords: ",  , *, *PWDF_COMMON_BUFFER_CONFIG, ,, B, C, D, DFCommonBufferObjectRef_6b9d3f2e-8954-4777-b5e4-9828f73feec3.xml, E, F, G, I, M, N, O, P, PWDF_COMMON_BUFFER_CONFIG, PWDF_COMMON_BUFFER_CONFIG structure pointer, R, U, W, WDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG structure, _, _WDF_COMMON_BUFFER_CONFIG, kmdf.wdf_common_buffer_config, wdf.wdf_common_buffer_config, wdfcommonbuffer/PWDF_COMMON_BUFFER_CONFIG, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,11 +98,11 @@ For more information about specifying alignment requirements, see <a href="https
 
 ## -see-also
 
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreatewithconfig.md">WdfCommonBufferCreateWithConfig</a>
-
-
-
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
+
+
+
+<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreatewithconfig.md">WdfCommonBufferCreateWithConfig</a>
 
 
 

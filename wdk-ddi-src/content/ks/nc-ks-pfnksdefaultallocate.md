@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f718e788-306a-4dbc-96cb-a81299aafe1d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminiallocate, AVStrMiniAllocate, AVStrMiniAllocate routine [Streaming Media Devices], AVStrMiniAllocate, PFNKSDEFAULTALLOCATE, PFNKSDEFAULTALLOCATE, ks/AVStrMiniAllocate, avstclbk_3ed4229c-f462-4b86-9dd4-374275f10c24.xml
+ms.keywords: AVStrMiniAllocate, AVStrMiniAllocate routine [Streaming Media Devices], PFNKSDEFAULTALLOCATE, avstclbk_3ed4229c-f462-4b86-9dd4-374275f10c24.xml, ks/AVStrMiniAllocate, stream.avstrminiallocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,11 +103,11 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-
-
 <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 
 

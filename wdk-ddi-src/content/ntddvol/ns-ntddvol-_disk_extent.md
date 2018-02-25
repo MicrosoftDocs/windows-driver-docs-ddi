@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 74ffdfba-1b80-479d-9637-43222a438fa9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DISK_EXTENT, storage.disk_extent, DISK_EXTENT structure [Storage Devices], PDISK_EXTENT structure pointer [Storage Devices], _DISK_EXTENT, ntddvol/PDISK_EXTENT, ntddvol/DISK_EXTENT, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml, PDISK_EXTENT, *PDISK_EXTENT
+ms.keywords: ",  , *, *PDISK_EXTENT, ,, D, DISK_EXTENT, DISK_EXTENT structure [Storage Devices], E, I, K, N, P, PDISK_EXTENT, PDISK_EXTENT structure pointer [Storage Devices], S, T, X, _, _DISK_EXTENT, ntddvol/DISK_EXTENT, ntddvol/PDISK_EXTENT, storage.disk_extent, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

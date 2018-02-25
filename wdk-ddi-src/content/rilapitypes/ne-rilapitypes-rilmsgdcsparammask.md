@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58ec244c-ccd5-480d-8185-2c62273aeb1f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PARAM_MDCS_FLAGS, rilapitypes/RIL_PARAM_MDCS_MSGCLASS, RILMSGDCSPARAMMASK, rilapitypes/RIL_PARAM_MDCS_ALL, RIL_PARAM_MDCS_LANGUAGE, rilapitypes/RIL_PARAM_MDCS_INDICATION, rilapitypes/RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_INDICATION, RIL_PARAM_MDCS_ALL, RIL_PARAM_MDCS_MSGCLASS, RIL_PARAM_MDCS_ALPHABET, rilapitypes/RILMSGDCSPARAMMASK, RILMSGDCSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_MDCS_FLAGS, rilapitypes/RIL_PARAM_MDCS_ALPHABET, netvista.rilmsgdcsparammask_2
+ms.keywords: ",  , ,, A, C, D, G, I, K, L, M, P, R, RILMSGDCSPARAMMASK, RILMSGDCSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MDCS_ALL, RIL_PARAM_MDCS_ALPHABET, RIL_PARAM_MDCS_FLAGS, RIL_PARAM_MDCS_INDICATION, RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_MSGCLASS, S, netvista.rilmsgdcsparammask_2, rilapitypes/RILMSGDCSPARAMMASK, rilapitypes/RIL_PARAM_MDCS_ALL, rilapitypes/RIL_PARAM_MDCS_ALPHABET, rilapitypes/RIL_PARAM_MDCS_FLAGS, rilapitypes/RIL_PARAM_MDCS_INDICATION, rilapitypes/RIL_PARAM_MDCS_LANGUAGE, rilapitypes/RIL_PARAM_MDCS_MSGCLASS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

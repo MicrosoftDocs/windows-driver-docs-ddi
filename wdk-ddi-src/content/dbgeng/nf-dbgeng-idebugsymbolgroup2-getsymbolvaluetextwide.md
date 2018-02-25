@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 56e147ea-497b-4691-8a62-8165828b1f36
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetSymbolValueTextWide, IDebugSymbolGroup2::GetSymbolValueTextWide, GetSymbolValueTextWide method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolValueTextWide method, debugger.getsymbolvaluetextwide, IDebugSymbolGroup2, GetSymbolValueTextWide method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::GetSymbolValueTextWide
+ms.keywords: ",  , ,, ., 2, :, D, G, GetSymbolValueTextWide method [Windows Debugging], GetSymbolValueTextWide method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolValueTextWide,IDebugSymbolGroup2.GetSymbolValueTextWide, I, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolValueTextWide method, IDebugSymbolGroup2::GetSymbolValueTextWide, S, T, V, W, a, b, d, dbgeng/IDebugSymbolGroup2::GetSymbolValueTextWide, debugger.getsymbolvaluetextwide, e, g, i, l, m, o, p, r, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -142,11 +142,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

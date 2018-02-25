@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b91f33b3-2706-4c94-9960-ceea023891af
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.iksclockpropertyset_ksgetcorrelatedtime, IKsClockPropertySet, KsGetCorrelatedTime method [Streaming Media Devices], KsGetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetCorrelatedTime, ksproxy_79582c7f-456c-420e-88eb-b0cb6916040f.xml, IKsClockPropertySet::KsGetCorrelatedTime, ksproxy/IKsClockPropertySet::KsGetCorrelatedTime, IKsClockPropertySet interface [Streaming Media Devices], KsGetCorrelatedTime method
+ms.keywords: ",  , ,, ., :, C, G, I, IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetCorrelatedTime method, IKsClockPropertySet::KsGetCorrelatedTime, K, KsGetCorrelatedTime method [Streaming Media Devices], KsGetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetCorrelatedTime,IKsClockPropertySet.KsGetCorrelatedTime, P, S, T, a, c, d, e, i, k, ksproxy/IKsClockPropertySet::KsGetCorrelatedTime, ksproxy_79582c7f-456c-420e-88eb-b0cb6916040f.xml, l, m, o, p, r, s, stream.iksclockpropertyset_ksgetcorrelatedtime, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,15 +94,15 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559756">IKsClockPropertySet::KsSetCorrelatedTime</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
 
 
 
 <a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559756">IKsClockPropertySet::KsSetCorrelatedTime</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ab49643b-ab77-49ea-9a3b-e3a184cd29d0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: drvAcquireItemData, IWiaMiniDrv::drvAcquireItemData, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData, drvAcquireItemData method [Imaging Devices], image.iwiaminidrv_drvacquireitemdata, drvAcquireItemData method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvAcquireItemData method
+ms.keywords: ",  , ,, ., :, A, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvAcquireItemData method, IWiaMiniDrv::drvAcquireItemData, M, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, W, a, c, d, drvAcquireItemData method [Imaging Devices], drvAcquireItemData method [Imaging Devices], IWiaMiniDrv interface, drvAcquireItemData,IWiaMiniDrv.drvAcquireItemData, e, i, image.iwiaminidrv_drvacquireitemdata, m, n, q, r, t, u, v, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -211,11 +211,7 @@ Other error code
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
-
-
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
 
 
 
@@ -223,7 +219,11 @@ Other error code
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 
 
 

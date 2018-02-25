@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ed085787-6731-42b5-9e19-adedbad11a9c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlNormalizeNtstatus, ifsk.fsrtlnormalizentstatus, FsRtlNormalizeNtstatus routine [Installable File System Drivers], FsRtlNormalizeNtstatus, fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml
+ms.keywords: ",  , F, FsRtlNormalizeNtstatus, FsRtlNormalizeNtstatus routine [Installable File System Drivers], N, R, a, e, fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml, i, ifsk.fsrtlnormalizentstatus, l, m, ntifs/FsRtlNormalizeNtstatus, o, r, s, t, u, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

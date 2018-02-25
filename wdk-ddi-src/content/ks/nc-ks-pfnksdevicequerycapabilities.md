@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 12084f07-5b6a-44d4-8ab3-325309e69372
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminidevicequerycapabilities, AVStrMiniDeviceQueryCapabilities, AVStrMiniDeviceQueryCapabilities routine [Streaming Media Devices], AVStrMiniDeviceQueryCapabilities, PFNKSDEVICEQUERYCAPABILITIES, PFNKSDEVICEQUERYCAPABILITIES, ks/AVStrMiniDeviceQueryCapabilities, avstclbk_6078ead8-c11e-4f25-9742-21740e9a9da8.xml
+ms.keywords: AVStrMiniDeviceQueryCapabilities, AVStrMiniDeviceQueryCapabilities routine [Streaming Media Devices], PFNKSDEVICEQUERYCAPABILITIES, avstclbk_6078ead8-c11e-4f25-9742-21740e9a9da8.xml, ks/AVStrMiniDeviceQueryCapabilities, stream.avstrminidevicequerycapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -109,11 +109,11 @@ This routine is called when an <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-
-
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00987914-9fe2-4245-b463-ef362e31679d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoTargetQueryTargetProperty method, wdf.wdfiotargetquerytargetproperty, wdfiotarget/WdfIoTargetQueryTargetProperty, kmdf.wdfiotargetquerytargetproperty, DFIOTargetRef_33739a99-4af2-4e90-92e5-b75e785f1c2c.xml, WdfIoTargetQueryTargetProperty
+ms.keywords: ",  , DFIOTargetRef_33739a99-4af2-4e90-92e5-b75e785f1c2c.xml, I, P, Q, T, W, WdfIoTargetQueryTargetProperty, WdfIoTargetQueryTargetProperty method, a, d, e, f, g, kmdf.wdfiotargetquerytargetproperty, o, p, r, t, u, wdf.wdfiotargetquerytargetproperty, wdfiotarget/WdfIoTargetQueryTargetProperty, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -197,15 +197,11 @@ status = WdfIoTargetQueryTargetProperty(
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 
@@ -214,6 +210,10 @@ status = WdfIoTargetQueryTargetProperty(
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetallocandquerytargetproperty.md">WdfIoTargetAllocAndQueryTargetProperty</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b0ffd1a6-aaa1-4001-a02b-6c0693b7ec5c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_get_drive_layout_ex, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Storage Devices], IOCTL_DISK_GET_DRIVE_LAYOUT_EX, ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX, k307_81993d9b-900f-412c-ac07-f0765114141f.xml
+ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT_EX, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Storage Devices], k307_81993d9b-900f-412c-ac07-f0765114141f.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX, storage.ioctl_disk_get_drive_layout_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -116,11 +116,11 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>
+
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 81730acb-ff15-438d-8225-125283f61db2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, display.videoportsignaldmacomplete, video/VideoPortSignalDmaComplete, VideoPortSignalDmaComplete function [Display Devices], VideoPortSignalDmaComplete
+ms.keywords: ",  , C, D, P, S, V, VideoPortSignalDmaComplete, VideoPortSignalDmaComplete function [Display Devices], VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, a, d, display.videoportsignaldmacomplete, e, g, i, l, m, n, o, p, r, t, video/VideoPortSignalDmaComplete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

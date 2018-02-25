@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fd634768-5e1e-4f40-82fd-5ef69148c3d7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddirender, DxgkDdiRender callback function [Display Devices], DxgkDdiRender, DXGKDDI_RENDER, DXGKDDI_RENDER, d3dkmddi/DxgkDdiRender, DmFunctions_e6f475cd-e097-4ea7-9f66-9e0b2d78d46b.xml
+ms.keywords: DXGKDDI_RENDER, DmFunctions_e6f475cd-e097-4ea7-9f66-9e0b2d78d46b.xml, DxgkDdiRender, DxgkDdiRender callback function [Display Devices], d3dkmddi/DxgkDdiRender, display.dxgkddirender
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -282,11 +282,11 @@ The user-mode display driver should always split up commands that might translat
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
 
 
@@ -298,19 +298,7 @@ The user-mode display driver should always split up commands that might translat
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
 
 
 
@@ -319,6 +307,18 @@ The user-mode display driver should always split up commands that might translat
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
 
 
 

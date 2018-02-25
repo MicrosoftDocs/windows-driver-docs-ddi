@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5fd3c915-77e0-4f81-9131-0eaf9d3493a3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugControl2::ControlledOutputVaList, IDebugControl2::ControlledOutputVaList, debugger.controlledoutputvalist, IDebugControl::ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, dbgeng/IDebugControl::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ControlledOutputVaList method, IDebugControl3::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, IDebugControl, ControlledOutputVaList, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method, ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, ControlledOutputVaList method [Windows Debugging], IDebugControl interface
+ms.keywords: ",  , ,, ., :, C, ControlledOutputVaList method [Windows Debugging], ControlledOutputVaList method [Windows Debugging], IDebugControl interface, ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, ControlledOutputVaList,IDebugControl.ControlledOutputVaList, D, I, IDebugControl, IDebugControl interface [Windows Debugging], ControlledOutputVaList method, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl2::ControlledOutputVaList, IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl3::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, L, O, V, a, b, d, dbgeng/IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, dbgeng/IDebugControl::ControlledOutputVaList, debugger.controlledoutputvalist, e, g, i, l, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -475,19 +475,7 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
 
 
@@ -496,6 +484,18 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
 
 

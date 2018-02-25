@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A38B30F9-D55B-4CC2-9B71-3B597ACCE0EB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlquerythreadplaceholdercompatibilitymode, ntifs/RtlQueryThreadPlaceholderCompatibilityMode, RtlQueryThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], RtlQueryThreadPlaceholderCompatibilityMode
+ms.keywords: ",  , C, M, P, Q, R, RtlQueryThreadPlaceholderCompatibilityMode, RtlQueryThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], T, a, b, c, d, e, h, i, ifsk.rtlquerythreadplaceholdercompatibilitymode, l, m, ntifs/RtlQueryThreadPlaceholderCompatibilityMode, o, p, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

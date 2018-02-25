@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 596bfba5-7025-4cdc-b1f9-c8df546f6dac
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_RegisterForAdapterPortEvents, fibreHBA_rtns_147e7408-58e4-47bc-8d3f-185c8ee68b83.xml, storage.hba_registerforadapterportevents, hbaapi/HBA_RegisterForAdapterPortEvents, HBA_RegisterForAdapterPortEvents routine [Storage Devices]
+ms.keywords: ",  , A, B, E, F, H, HBA_RegisterForAdapterPortEvents, HBA_RegisterForAdapterPortEvents routine [Storage Devices], P, R, _, a, d, e, fibreHBA_rtns_147e7408-58e4-47bc-8d3f-185c8ee68b83.xml, g, hbaapi/HBA_RegisterForAdapterPortEvents, i, n, o, p, r, s, storage.hba_registerforadapterportevents, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,7 +178,7 @@ For a list of port events, see <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 
 
@@ -186,7 +186,7 @@ For a list of port events, see <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

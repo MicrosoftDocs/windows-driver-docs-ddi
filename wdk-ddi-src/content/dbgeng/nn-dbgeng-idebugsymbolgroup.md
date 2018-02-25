@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dd629e4a-938e-4db6-b0f3-6dd12a431486
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugsymbolgroup, IDebugSymbolGroup interface [Windows Debugging], IDebugSymbolGroup interface [Windows Debugging], described, IDebugSymbolGroup, dbgeng/IDebugSymbolGroup, ComOther_f174a794-e2c2-4d0a-912e-b3de6327ef19.xml
+ms.keywords: ComOther_f174a794-e2c2-4d0a-912e-b3de6327ef19.xml, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], IDebugSymbolGroup interface [Windows Debugging], described, dbgeng/IDebugSymbolGroup, debugger.idebugsymbolgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

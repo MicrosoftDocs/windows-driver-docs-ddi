@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 90e8a390-7d30-4bcf-8c81-438c86529ceb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ibidispl2, IBidiSpl2 interface [Print Devices], IBidiSpl2 interface [Print Devices], described, IBidiSpl2, bidispl/IBidiSpl2, _win32_IBidiSpl2, gdi.ibidispl2
+ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], IBidiSpl2 interface [Print Devices], described, _win32_IBidiSpl2, bidispl/IBidiSpl2, gdi.ibidispl2, print.ibidispl2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -108,11 +108,11 @@ Releases a printer from a bidirectional communication request.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
 <a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+
+
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 

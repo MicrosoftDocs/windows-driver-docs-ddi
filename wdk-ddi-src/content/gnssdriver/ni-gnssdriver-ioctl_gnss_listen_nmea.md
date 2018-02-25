@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 975F5FB4-503D-44E7-8D4C-2AEFE72B672B
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.ioctl_gnss_listen_nmea, IOCTL_GNSS_LISTEN_NMEA control code [Sensor Devices], IOCTL_GNSS_LISTEN_NMEA, gnssdriver/IOCTL_GNSS_LISTEN_NMEA
+ms.keywords: IOCTL_GNSS_LISTEN_NMEA, IOCTL_GNSS_LISTEN_NMEA control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_NMEA, sensors.ioctl_gnss_listen_nmea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -142,11 +142,7 @@ When the driver completes the I/O call, the calling client will need to issue an
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -154,7 +150,11 @@ When the driver completes the I/O call, the calling client will need to issue an
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

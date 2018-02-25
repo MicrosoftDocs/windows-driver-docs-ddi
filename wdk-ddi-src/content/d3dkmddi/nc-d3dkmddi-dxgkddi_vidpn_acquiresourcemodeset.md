@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cf19f468-86c1-4cc9-8945-e23f73a85c91
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_vidpn_interface_pfnacquiresourcemodeset, pfnAcquireSourceModeSet callback function [Display Devices], pfnAcquireSourceModeSet, DXGKDDI_VIDPN_ACQUIRESOURCEMODESET, DXGKDDI_VIDPN_ACQUIRESOURCEMODESET, d3dkmddi/pfnAcquireSourceModeSet, VidPnFunctions_1ef2f7d1-cdea-4b0d-a8b5-76b5013afba3.xml
+ms.keywords: DXGKDDI_VIDPN_ACQUIRESOURCEMODESET, VidPnFunctions_1ef2f7d1-cdea-4b0d-a8b5-76b5013afba3.xml, d3dkmddi/pfnAcquireSourceModeSet, display.dxgk_vidpn_interface_pfnacquiresourcemodeset, pfnAcquireSourceModeSet, pfnAcquireSourceModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -166,11 +166,11 @@ The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNSOURCEMODESET data types are defined in <i>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_releasetargetmodeset.md">pfnReleaseTargetModeSet</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset.md">pfnCreateNewSourceModeSet</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_releasetargetmodeset.md">pfnReleaseTargetModeSet</a>
 
 
 

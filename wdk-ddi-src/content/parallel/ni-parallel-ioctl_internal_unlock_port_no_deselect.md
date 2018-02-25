@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 516441bc-d240-43d2-a206-3d0bd8e712e9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_internal_unlock_port_no_deselect, IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT control code [Parallel Ports], IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, parallel/IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, cisspd_a62d2a09-93e4-4fc4-ac5d-9589d930c794.xml
+ms.keywords: IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT control code [Parallel Ports], cisspd_a62d2a09-93e4-4fc4-ac5d-9589d930c794.xml, parallel/IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, parports.ioctl_internal_unlock_port_no_deselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -113,7 +113,7 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port_no_select.md">IOCTL_INTERNAL_LOCK_PORT_NO_SELECT</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
 
 
 
@@ -121,7 +121,7 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port_no_select.md">IOCTL_INTERNAL_LOCK_PORT_NO_SELECT</a>
 
 
 

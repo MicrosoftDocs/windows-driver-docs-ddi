@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: db037fc8-d503-4a72-b6bc-d5189f6786d4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugControl::CoerceValue, CoerceValue method [Windows Debugging], CoerceValue method [Windows Debugging], IDebugControl3 interface, IDebugControl3::CoerceValue, IDebugControl2 interface [Windows Debugging], CoerceValue method, CoerceValue method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::CoerceValue, IDebugControl interface [Windows Debugging], CoerceValue method, CoerceValue method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], CoerceValue method, debugger.coercevalue, IDebugControl, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, IDebugControl2::CoerceValue, CoerceValue, dbgeng/IDebugControl2::CoerceValue, IDebugControl::CoerceValue
+ms.keywords: ",  , ,, ., :, C, CoerceValue method [Windows Debugging], CoerceValue method [Windows Debugging], IDebugControl interface, CoerceValue method [Windows Debugging], IDebugControl2 interface, CoerceValue method [Windows Debugging], IDebugControl3 interface, CoerceValue,IDebugControl.CoerceValue, D, I, IDebugControl, IDebugControl interface [Windows Debugging], CoerceValue method, IDebugControl2 interface [Windows Debugging], CoerceValue method, IDebugControl2::CoerceValue, IDebugControl3 interface [Windows Debugging], CoerceValue method, IDebugControl3::CoerceValue, IDebugControl::CoerceValue, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, V, a, b, c, dbgeng/IDebugControl2::CoerceValue, dbgeng/IDebugControl3::CoerceValue, dbgeng/IDebugControl::CoerceValue, debugger.coercevalue, e, g, l, n, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,7 +125,7 @@ This method converts a value of one type into a value of another type.  If the s
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -133,11 +133,11 @@ This method converts a value of one type into a value of another type.  If the s
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3c61d947-3e05-4750-a50c-be9b2dc573f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorinterrupt, HwStorInterrupt routine [Storage Devices], HwStorInterrupt, HW_INTERRUPT, HW_INTERRUPT, storport/HwStorInterrupt, stormini_17f68641-1cfd-47b3-a52f-be98f96e693f.xml
+ms.keywords: HW_INTERRUPT, HwStorInterrupt, HwStorInterrupt routine [Storage Devices], storage.hwstorinterrupt, stormini_17f68641-1cfd-47b3-a52f-be98f96e693f.xml, storport/HwStorInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

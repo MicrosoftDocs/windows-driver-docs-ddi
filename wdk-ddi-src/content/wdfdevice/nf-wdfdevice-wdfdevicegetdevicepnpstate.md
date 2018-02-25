@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 25936ed9-d213-458f-bbc8-90eedea9ba02
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceGetDevicePnpState, DFDeviceObjectGeneralRef_8c17c41d-4e8e-499e-83db-92006e4fe08a.xml, WdfDeviceGetDevicePnpState method, kmdf.wdfdevicegetdevicepnpstate, wdfdevice/WdfDeviceGetDevicePnpState, wdf.wdfdevicegetdevicepnpstate
+ms.keywords: ",  , D, DFDeviceObjectGeneralRef_8c17c41d-4e8e-499e-83db-92006e4fe08a.xml, G, P, S, W, WdfDeviceGetDevicePnpState, WdfDeviceGetDevicePnpState method, a, c, d, e, f, i, kmdf.wdfdevicegetdevicepnpstate, n, p, t, v, wdf.wdfdevicegetdevicepnpstate, wdfdevice/WdfDeviceGetDevicePnpState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,11 +119,11 @@ state = WdfDeviceGetDevicePnpState(Device);</pre>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevstatenormalize.md">WdfDevStateNormalize</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerstate.md">WdfDeviceGetDevicePowerState</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevstatenormalize.md">WdfDevStateNormalize</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 9006f74f-4033-4f07-816c-380d6d8b3a2d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DeviceConnected, usbioctl/DeviceInLegacyHub, _USB_CONNECTION_STATUS, usbioctl/PUSB_CONNECTION_STATUS, PUSB_CONNECTION_STATUS enumeration pointer [Buses], USB_CONNECTION_STATUS enumeration [Buses], NoDeviceConnected, DeviceCausedOvercurrent, USB_CONNECTION_STATUS, *PUSB_CONNECTION_STATUS, DeviceInLegacyHub, usbioctl/DeviceGeneralFailure, usbioctl/DeviceEnumerating, buses.usb_connection_status, usbioctl/DeviceConnected, usbioctl/DeviceReset, DeviceNotEnoughPower, usbioctl/DeviceCausedOvercurrent, usbioctl/DeviceNotEnoughBandwidth, usbioctl/NoDeviceConnected, usbioctl/USB_CONNECTION_STATUS, usbioctl/DeviceFailedEnumeration, usbioctl/DeviceHubNestedTooDeeply, DeviceHubNestedTooDeeply, DeviceGeneralFailure, DeviceFailedEnumeration, DeviceNotEnoughBandwidth, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml, usbioctl/DeviceNotEnoughPower, DeviceEnumerating, DeviceReset, PUSB_CONNECTION_STATUS
+ms.keywords: ",  , *, *PUSB_CONNECTION_STATUS, ,, A, B, C, DeviceCausedOvercurrent, DeviceConnected, DeviceEnumerating, DeviceFailedEnumeration, DeviceGeneralFailure, DeviceHubNestedTooDeeply, DeviceInLegacyHub, DeviceNotEnoughBandwidth, DeviceNotEnoughPower, DeviceReset, E, I, N, NoDeviceConnected, O, P, PUSB_CONNECTION_STATUS, PUSB_CONNECTION_STATUS enumeration pointer [Buses], S, T, U, USB_CONNECTION_STATUS, USB_CONNECTION_STATUS enumeration [Buses], _, _USB_CONNECTION_STATUS, buses.usb_connection_status, usbioctl/DeviceCausedOvercurrent, usbioctl/DeviceConnected, usbioctl/DeviceEnumerating, usbioctl/DeviceFailedEnumeration, usbioctl/DeviceGeneralFailure, usbioctl/DeviceHubNestedTooDeeply, usbioctl/DeviceInLegacyHub, usbioctl/DeviceNotEnoughBandwidth, usbioctl/DeviceNotEnoughPower, usbioctl/DeviceReset, usbioctl/NoDeviceConnected, usbioctl/PUSB_CONNECTION_STATUS, usbioctl/USB_CONNECTION_STATUS, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -148,15 +148,15 @@ The USB bus driver reports connection status in a <a href="..\usbioctl\ns-usbioc
 
 ## -see-also
 
+<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
 
 
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
-
-
-
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
 
 
 

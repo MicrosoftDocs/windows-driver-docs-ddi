@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7f0c7d72-9fe6-4cc1-8028-fd64cdee5d85
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DEVICE_DESCRIPTION_VERSION1, _DEVICE_DESCRIPTION, wdm/PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION2, DEVICE_DESCRIPTION, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION3, wdm/DEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], kernel.device_description, *PDEVICE_DESCRIPTION
+ms.keywords: ",  , *, *PDEVICE_DESCRIPTION, ,, C, D, DEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION, DEVICE_DESCRIPTION_VERSION1, DEVICE_DESCRIPTION_VERSION2, DEVICE_DESCRIPTION_VERSION3, E, I, N, O, P, PDEVICE_DESCRIPTION, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], R, S, T, V, _, _DEVICE_DESCRIPTION, kernel.device_description, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, wdm/DEVICE_DESCRIPTION, wdm/PDEVICE_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -190,7 +190,7 @@ The number of the DMA channel to which a subordinate device is assigned. The dev
 
 ### -field InterfaceType
 
-The interface type of the I/O bus to use for DMA. Set this member to the <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a> enumeration value that indicates the interface type. For more information, see the Remarks section.
+The interface type of the I/O bus to use for DMA. Set this member to the <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a> enumeration value that indicates the interface type. For more information, see the Remarks section.
 
 
 ### -field DmaWidth
@@ -263,7 +263,7 @@ To allocate resources for a DMA controller, the I/O manager needs information ab
 
 Before calling <b>IoGetDmaAdapter</b>, the driver should first zero-initialize the entire <b>DEVICE_DESCRIPTION</b> structure, then fill in selected members to describe the device.
 
-The <b>InterfaceType</b> member specifies the type of bus interface that will be used for DMA. If you set <b>InterfaceType</b> to <b>InterfaceTypeUndefined</b>, <b>IoGetDmaAdapter</b> queries the PDO to determine the correct interface type for your device. Or, you can specify an explicit interface type, such as <b>Internal</b>, <b>Isa</b>, <b>Eisa</b>, or <b>PCIBus</b>. For more information, see the list of supported interface types in <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>.
+The <b>InterfaceType</b> member specifies the type of bus interface that will be used for DMA. If you set <b>InterfaceType</b> to <b>InterfaceTypeUndefined</b>, <b>IoGetDmaAdapter</b> queries the PDO to determine the correct interface type for your device. Or, you can specify an explicit interface type, such as <b>Internal</b>, <b>Isa</b>, <b>Eisa</b>, or <b>PCIBus</b>. For more information, see the list of supported interface types in <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>.
 
 If the <b>ScatterGather</b> member is set to <b>TRUE</b> and the <b>InterfaceType</b> member is set to <b>PCIBus</b>, the <b>Dma32BitAddresses</b> member is ignored and <b>IoGetDmaAdapter</b> assumes that the device supports 32-bit DMA addresses.
 
@@ -278,15 +278,11 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 
@@ -294,7 +290,11 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 

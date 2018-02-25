@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6259CC70-A54B-4A44-B38B-D24C296C8EA0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxroothub/P_HUB_INFO_FROM_PARENT, _HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], buses._hub_info_from_parent, P_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], HUB_INFO_FROM_PARENT
+ms.keywords: ",  , *, *PHUB_INFO_FROM_PARENT, ,, A, B, E, F, H, HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], I, M, N, O, P, P_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], R, T, U, _, _HUB_INFO_FROM_PARENT, buses._hub_info_from_parent, ucxroothub/P_HUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

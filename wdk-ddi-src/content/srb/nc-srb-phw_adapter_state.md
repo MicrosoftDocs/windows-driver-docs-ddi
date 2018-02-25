@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68483404-5ea7-47f6-a6ae-6909e5b6759e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.phw_adapter_state, (*PHW_ADAPTER_STATE) callback function [Storage Devices], (*PHW_ADAPTER_STATE), srb/(*PHW_ADAPTER_STATE), ide_minikr_65caac84-2b5a-4977-81ff-d9efc1808dbb.xml
+ms.keywords: "(*PHW_ADAPTER_STATE), (*PHW_ADAPTER_STATE) callback function [Storage Devices], ide_minikr_65caac84-2b5a-4977-81ff-d9efc1808dbb.xml, srb/(*PHW_ADAPTER_STATE), storage.phw_adapter_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

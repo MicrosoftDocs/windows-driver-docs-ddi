@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: e481afe8-659a-406d-9574-ffa048ea3c45
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: gpiobtn.hwn_client_stop_device, HwnClientStopDevice callback function, HwnClientStopDevice, HWN_CLIENT_STOP_DEVICE, HWN_CLIENT_STOP_DEVICE, hwnclx/HwnClientStopDevice, *PHWN_CLIENT_STOP_DEVICE callback function pointer, *PHWN_CLIENT_STOP_DEVICE
+ms.keywords: "*PHWN_CLIENT_STOP_DEVICE, *PHWN_CLIENT_STOP_DEVICE callback function pointer, HWN_CLIENT_STOP_DEVICE, HwnClientStopDevice, HwnClientStopDevice callback function, gpiobtn.hwn_client_stop_device, hwnclx/HwnClientStopDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

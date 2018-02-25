@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7d61402e-e248-4770-a828-9c266e528115
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SendRecvXMLString, IBidiSpl2::SendRecvXMLString, print.ibidispl2_ibidispl2__sendrecvxmlstring, _win32_IBidiSpl2_SendRecvXMLString, IBidiSpl2, SendRecvXMLString method [Print Devices], IBidiSpl2 interface, SendRecvXMLString method [Print Devices], bidispl/IBidiSpl2::SendRecvXMLString, gdi.ibidispl2_ibidispl2__sendrecvxmlstring, IBidiSpl2 interface [Print Devices], SendRecvXMLString method
+ms.keywords: ",  , ,, ., 2, :, B, I, IBidiSpl2, IBidiSpl2 interface [Print Devices], SendRecvXMLString method, IBidiSpl2::SendRecvXMLString, L, M, R, S, SendRecvXMLString method [Print Devices], SendRecvXMLString method [Print Devices], IBidiSpl2 interface, SendRecvXMLString,IBidiSpl2.SendRecvXMLString, X, _win32_IBidiSpl2_SendRecvXMLString, bidispl/IBidiSpl2::SendRecvXMLString, c, d, e, g, gdi.ibidispl2_ibidispl2__sendrecvxmlstring, i, l, n, p, print.ibidispl2_ibidispl2__sendrecvxmlstring, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

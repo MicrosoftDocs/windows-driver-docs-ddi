@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PepPerfStateTypeDiscrete, kernel.pep_perf_state_type, PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeMax, PepPerfStateTypeMax, PepPerfStateTypeRange, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepPerfStateTypeRange, pepfx/PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, _PEP_PERF_STATE_TYPE, *PPEP_PERF_STATE_TYPE
+ms.keywords: ",  , *, *PPEP_PERF_STATE_TYPE, ,, A, E, F, P, PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PepPerfStateTypeDiscrete, PepPerfStateTypeMax, PepPerfStateTypeRange, R, S, T, Y, _, _PEP_PERF_STATE_TYPE, kernel.pep_perf_state_type, pepfx/PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, pepfx/PepPerfStateTypeMax, pepfx/PepPerfStateTypeRange"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -88,14 +88,14 @@ Reserved for use by operating system.
 
 
 
-The <b>Type</b> member of the <a href="..\pep_x\ns-pep_x-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a> structure is a <b>PEP_PERF_STATE_TYPE</b> enumeration value.
+The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a> structure is a <b>PEP_PERF_STATE_TYPE</b> enumeration value.
 
 
 
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
+<a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
 
 
 

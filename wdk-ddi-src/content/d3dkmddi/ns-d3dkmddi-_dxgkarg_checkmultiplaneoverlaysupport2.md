@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 477EBC8A-04A5-4904-AC62-0FA7DB861ACC
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure [Display Devices], d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, *IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, display.dxgkarg_checkmultiplaneoverlaysupport2"
+ms.keywords: ",  , *, *IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, ,, 2, A, C, D, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure [Display Devices], E, G, H, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, _, _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, display.dxgkarg_checkmultiplaneoverlaysupport2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,11 +94,11 @@ Specifies additional information.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source.md">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md">DxgkDdiCheckMultiPlaneOverlaySupport2</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source.md">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a>
 
 
 

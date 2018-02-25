@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: af9d35d8-9e3c-4be0-8ba4-a0b548b1d7ac
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PWIAS_DOWN_SAMPLE_INFO, image.wias_down_sample_info, _WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO, wiastrct_f7468047-47a4-4c3a-ada4-3bf329b32304.xml, PWIAS_DOWN_SAMPLE_INFO structure pointer [Imaging Devices], wiamindr_lh/WIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO, wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO structure [Imaging Devices]
+ms.keywords: ",  , *, *PWIAS_DOWN_SAMPLE_INFO, ,, A, D, E, F, I, L, M, N, O, P, PWIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO structure pointer [Imaging Devices], S, W, WIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO structure [Imaging Devices], _, _WIAS_DOWN_SAMPLE_INFO, image.wias_down_sample_info, wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO, wiamindr_lh/WIAS_DOWN_SAMPLE_INFO, wiastrct_f7468047-47a4-4c3a-ada4-3bf329b32304.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

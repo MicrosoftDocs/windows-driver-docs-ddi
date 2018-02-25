@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AB5939B9-01DD-4F51-BAEB-6C5EC909FAE1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExAcquireRundownProtectionEx, ExAcquireRundownProtectionEx, ExAcquireRundownProtectionEx routine [Kernel-Mode Driver Architecture], kernel.exacquirerundownprotectionex
+ms.keywords: ",  , A, E, ExAcquireRundownProtectionEx, ExAcquireRundownProtectionEx routine [Kernel-Mode Driver Architecture], P, R, c, d, e, i, kernel.exacquirerundownprotectionex, n, o, q, r, t, u, w, wdm/ExAcquireRundownProtectionEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,15 +103,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
-
-
-
-<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
-
-
-
-<a href="..\wdm\nf-wdm-exreleaserundownprotectionex.md">ExReleaseRundownProtectionEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
 
 
 
@@ -119,7 +111,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
+
+
+
+<a href="..\wdm\nf-wdm-exreleaserundownprotectionex.md">ExReleaseRundownProtectionEx</a>
 
 
 

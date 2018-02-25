@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f62ce8d-058b-4838-bc7a-fae84c1b5111
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVA2_Structs_9b88e486-0ea5-4fc3-bac9-1f7fcc2f5492.xml, d3dumddi/DXVADDI_DECODEINPUT, DXVADDI_DECODEINPUT structure [Display Devices], DXVADDI_DECODEINPUT, display.dxvaddi_decodeinput, _DXVADDI_DECODEINPUT
+ms.keywords: ",  , ,, A, C, D, DXVA2_Structs_9b88e486-0ea5-4fc3-bac9-1f7fcc2f5492.xml, DXVADDI_DECODEINPUT, DXVADDI_DECODEINPUT structure [Display Devices], E, I, N, O, P, T, U, V, X, _, _DXVADDI_DECODEINPUT, d3dumddi/DXVADDI_DECODEINPUT, display.dxvaddi_decodeinput"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,7 +89,7 @@ A pointer to the DXVADDI_DECODEINPUT structure is specified in the <b>pInfo</b> 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferinfo.md">DXVADDI_DECODEBUFFERINFO</a>
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
@@ -101,11 +101,11 @@ A pointer to the DXVADDI_DECODEINPUT structure is specified in the <b>pInfo</b> 
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferinfo.md">DXVADDI_DECODEBUFFERINFO</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
-
-
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 

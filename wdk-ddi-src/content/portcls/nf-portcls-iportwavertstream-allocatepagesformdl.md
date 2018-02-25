@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 44839b9e-f206-49e6-a9f6-14e79d1e0ae2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: portcls/IPortWaveRTStream::AllocatePagesForMdl, AllocatePagesForMdl method [Audio Devices], IPortWaveRTStream interface, audio.iportwavertstream_allocatepagesformdl, AllocatePagesForMdl, IPortWaveRTStream::AllocatePagesForMdl, IPortWaveRTStream interface [Audio Devices], AllocatePagesForMdl method, AllocatePagesForMdl method [Audio Devices], audmp-routines_2722e5c2-7fd2-4b72-acbf-474313bca229.xml, IPortWaveRTStream
+ms.keywords: ",  , ,, ., :, A, AllocatePagesForMdl method [Audio Devices], AllocatePagesForMdl method [Audio Devices], IPortWaveRTStream interface, AllocatePagesForMdl,IPortWaveRTStream.AllocatePagesForMdl, F, I, IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], AllocatePagesForMdl method, IPortWaveRTStream::AllocatePagesForMdl, M, P, R, S, T, W, a, audio.iportwavertstream_allocatepagesformdl, audmp-routines_2722e5c2-7fd2-4b72-acbf-474313bca229.xml, c, d, e, g, l, m, o, portcls/IPortWaveRTStream::AllocatePagesForMdl, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,15 +106,15 @@ Like the <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
+
+
+
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
 
 
 

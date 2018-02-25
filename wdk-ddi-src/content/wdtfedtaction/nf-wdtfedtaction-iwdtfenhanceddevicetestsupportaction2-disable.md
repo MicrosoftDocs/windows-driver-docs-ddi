@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: cf67d391-8c73-43d7-aab3-57837c78dbc4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Disable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::Disable, IWDTFEnhancedDeviceTestSupportAction2::Disable, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], Disable method, Disable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Disable, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.Disable, Disable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2, dtf.iwdtfenhanceddevicetestsupportaction2_disable
+ms.keywords: ",  , ,, ., 2, :, A, D, Disable method [Windows Device Testing Framework], Disable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, Disable,IWDTFEnhancedDeviceTestSupportAction2.Disable, E, F, I, IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], Disable method, IWDTFEnhancedDeviceTestSupportAction2::Disable, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.Disable, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::Disable, S, T, W, a, b, c, d, dtf.iwdtfenhanceddevicetestsupportaction2_disable, e, h, i, l, n, o, p, r, s, t, u, v, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Disable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

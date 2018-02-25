@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 421397FF-4956-4052-B63D-32F8E79A22D0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterpropertybag_interface, IPrinterPropertyBag interface [Print Devices], IPrinterPropertyBag interface [Print Devices], described, IPrinterPropertyBag, printerextension/IPrinterPropertyBag
+ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], IPrinterPropertyBag interface [Print Devices], described, print.iprinterpropertybag_interface, printerextension/IPrinterPropertyBag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -172,18 +172,6 @@ Writes a string property.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/52EC01D5-43C7-4CE0-ABEC-1604A4198316">IPrinterExtensionContext::DriverProperties</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
-
-
-
-<a href="https://msdn.microsoft.com/21B370C9-BDF7-42A6-B0CC-BC9B19F9D2D5">IPrinterExtensionContext::UserProperties</a>
-
-
-
 <a href="https://msdn.microsoft.com/87EED8B5-676C-4056-812B-B0424148FCFA">IPrinterQueue::GetProperties</a>
 
 
@@ -193,6 +181,18 @@ Writes a string property.
 
 
 <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+
+
+
+<a href="https://msdn.microsoft.com/21B370C9-BDF7-42A6-B0CC-BC9B19F9D2D5">IPrinterExtensionContext::UserProperties</a>
+
+
+
+<a href="https://msdn.microsoft.com/52EC01D5-43C7-4CE0-ABEC-1604A4198316">IPrinterExtensionContext::DriverProperties</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 

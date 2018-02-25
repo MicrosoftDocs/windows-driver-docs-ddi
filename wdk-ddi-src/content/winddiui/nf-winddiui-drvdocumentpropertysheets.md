@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fc7e98ba-5c49-4c2d-af2e-b6c13757f6e6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DrvDocumentPropertySheets function [Print Devices], print.drvdocumentpropertysheets, winddiui/DrvDocumentPropertySheets, print_interface-graphics_00cc0beb-e6f1-41dd-ae0b-fd59a6d14465.xml, DrvDocumentPropertySheets
+ms.keywords: ",  , D, DrvDocumentPropertySheets, DrvDocumentPropertySheets function [Print Devices], P, S, c, e, h, m, n, o, p, print.drvdocumentpropertysheets, print_interface-graphics_00cc0beb-e6f1-41dd-ae0b-fd59a6d14465.xml, r, s, t, u, v, winddiui/DrvDocumentPropertySheets, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,7 +153,7 @@ If the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure is not zero, 
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_documentpropertyheader.md">DOCUMENTPROPERTYHEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
 
@@ -161,7 +161,7 @@ If the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure is not zero, 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
+<a href="..\winddiui\ns-winddiui-_documentpropertyheader.md">DOCUMENTPROPERTYHEADER</a>
 
 
 

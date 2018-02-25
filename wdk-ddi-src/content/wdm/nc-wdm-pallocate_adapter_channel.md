@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3339754-1a54-48f0-90c8-6c7db59fb7cc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.allocateadapterchannel, AllocateAdapterChannel, AllocateAdapterChannel callback function [Kernel-Mode Driver Architecture], AllocateAdapterChannel, PALLOCATE_ADAPTER_CHANNEL, PALLOCATE_ADAPTER_CHANNEL, wdm/AllocateAdapterChannel, kdma_b2d02da0-ab8f-4fc3-a7a5-a981920c071d.xml
+ms.keywords: AllocateAdapterChannel, AllocateAdapterChannel callback function [Kernel-Mode Driver Architecture], PALLOCATE_ADAPTER_CHANNEL, kdma_b2d02da0-ab8f-4fc3-a7a5-a981920c071d.xml, kernel.allocateadapterchannel, wdm/AllocateAdapterChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -169,23 +169,11 @@ The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</
 
 
 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
-<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
-
-
-
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
-
-
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
 
 
@@ -193,7 +181,19 @@ The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
+
+
+<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
+
+
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 

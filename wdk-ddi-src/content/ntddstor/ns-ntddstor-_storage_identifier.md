@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2b0610a-dffa-48fb-bc5a-355fa9f05770
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PSTORAGE_IDENTIFIER, ntddstor/STORAGE_IDENTIFIER, ntddstor/PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER, STORAGE_IDENTIFIER structure [Storage Devices], PSTORAGE_IDENTIFIER structure pointer [Storage Devices], PSTORAGE_IDENTIFIER, _STORAGE_IDENTIFIER, storage.storage_identifier, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml"
+ms.keywords: ",  , *, *PSTORAGE_IDENTIFIER, ,, A, D, E, F, G, I, N, O, P, PSTORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER structure pointer [Storage Devices], R, S, STORAGE_IDENTIFIER, STORAGE_IDENTIFIER structure [Storage Devices], T, _, _STORAGE_IDENTIFIER, ntddstor/PSTORAGE_IDENTIFIER, ntddstor/STORAGE_IDENTIFIER, storage.storage_identifier, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ Every device identification page (page code 0x83) of SCSI vital product data con
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566990">STORAGE_IDENTIFIER_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566349">STORAGE_ASSOCIATION_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566990">STORAGE_IDENTIFIER_TYPE</a>
 
 
 

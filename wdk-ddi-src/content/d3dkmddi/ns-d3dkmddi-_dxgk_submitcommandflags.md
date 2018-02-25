@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b73e49d1-3e71-4c36-b628-3d5a3975e5fa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, DXGK_SUBMITCOMMANDFLAGS, display.dxgk_submitcommandflags, _DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices]
+ms.keywords: ",  , ,, A, B, C, D, DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, F, G, I, K, L, M, N, O, S, T, U, X, _, _DXGK_SUBMITCOMMANDFLAGS, d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, display.dxgk_submitcommandflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

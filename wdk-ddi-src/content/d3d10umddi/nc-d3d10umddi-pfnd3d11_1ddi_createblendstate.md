@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5956412e-ae35-4960-afc0-a82c6a2aa9f1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createblendstate_d3d11_1_, CreateBlendState(D3D11_1) callback function [Display Devices], CreateBlendState(D3D11_1), PFND3D11_1DDI_CREATEBLENDSTATE, PFND3D11_1DDI_CREATEBLENDSTATE, d3d10umddi/CreateBlendState(D3D11_1), display.pfncreateblendstate
+ms.keywords: CreateBlendState(D3D11_1), CreateBlendState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEBLENDSTATE, d3d10umddi/CreateBlendState(D3D11_1), display.createblendstate_d3d11_1_, display.pfncreateblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,19 +135,19 @@ The user-mode display driver is not required to create more than 4,096 unique in
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyblendstate.md">DestroyBlendState</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D11_1)</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_blend_desc.md">D3D11_1_DDI_BLEND_DESC</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyblendstate.md">DestroyBlendState</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f27dae6e-2fc7-4e26-84fb-4ce48da3db6b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort, DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, WdfUsbTargetDeviceFormatRequestForCyclePort method, WdfUsbTargetDeviceFormatRequestForCyclePort, kmdf.wdfusbtargetdeviceformatrequestforcycleport, wdf.wdfusbtargetdeviceformatrequestforcycleport
+ms.keywords: ",  , C, D, DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, F, P, R, T, U, W, WdfUsbTargetDeviceFormatRequestForCyclePort, WdfUsbTargetDeviceFormatRequestForCyclePort method, a, b, c, d, e, f, g, i, kmdf.wdfusbtargetdeviceformatrequestforcycleport, l, m, o, q, r, s, t, u, v, wdf.wdfusbtargetdeviceformatrequestforcycleport, wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,7 +190,7 @@ if (WdfRequestSend(
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -198,7 +198,7 @@ if (WdfRequestSend(
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 

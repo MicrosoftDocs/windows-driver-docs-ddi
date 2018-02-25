@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_win32_IBidiSpl_MultiSendRecv, IBidiSpl::MultiSendRecv, IBidiSpl interface [Print Devices], MultiSendRecv method, bidispl/IBidiSpl::MultiSendRecv, IBidiSpl, MultiSendRecv, print.ibidispl_ibidispl__multisendrecv, MultiSendRecv method [Print Devices], gdi.ibidispl_ibidispl__multisendrecv, MultiSendRecv method [Print Devices], IBidiSpl interface"
+ms.keywords: ",  , ,, ., :, B, I, IBidiSpl, IBidiSpl interface [Print Devices], MultiSendRecv method, IBidiSpl::MultiSendRecv, M, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices], IBidiSpl interface, MultiSendRecv,IBidiSpl.MultiSendRecv, R, S, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, c, d, e, gdi.ibidispl_ibidispl__multisendrecv, i, l, n, p, print.ibidispl_ibidispl__multisendrecv, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -174,11 +174,11 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 

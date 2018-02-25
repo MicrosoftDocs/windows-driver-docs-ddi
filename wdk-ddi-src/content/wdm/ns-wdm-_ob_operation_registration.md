@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06da3ec0-b8d3-4bd8-8270-ead38b7deada
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, *POB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION, wdm/OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION, PsProcessType, _OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture], kernel.ob_operation_registration, PsThreadType, POB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *POB_OPERATION_REGISTRATION, ,, A, B, E, G, I, N, O, OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture], P, POB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], PsProcessType, PsThreadType, R, S, T, _, _OB_OPERATION_REGISTRATION, kernel.ob_operation_registration, kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, wdm/OB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,15 +129,15 @@ In each <b>OB_OPERATION_REGISTRATION</b> structure passed to <b>ObRegisterCallba
 
 
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
 
 
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+
+
+
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
 
 

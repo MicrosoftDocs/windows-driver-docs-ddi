@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 09347A56-C3F8-4E0D-A557-CECB7BBC7DB8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: bdatypes/BDA_CAS_REQUESTTUNERDATA, stream.bda_cas_requesttunerdata, BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], bdatypes/PBDA_CAS_REQUESTTUNERDATA, *PBDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA, _BDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices]
+ms.keywords: ",  , *, *PBDA_CAS_REQUESTTUNERDATA, ,, A, B, BDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], C, D, E, N, P, PBDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices], Q, R, S, T, U, _, _BDA_CAS_REQUESTTUNERDATA, bdatypes/BDA_CAS_REQUESTTUNERDATA, bdatypes/PBDA_CAS_REQUESTTUNERDATA, stream.bda_cas_requesttunerdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

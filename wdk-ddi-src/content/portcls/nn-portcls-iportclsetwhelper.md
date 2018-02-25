@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7BF9E3AB-D508-4FB8-8C47-C0B338933A56
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iportclsetwhelper, IPortClsEtwHelper interface [Audio Devices], IPortClsEtwHelper interface [Audio Devices], described, IPortClsEtwHelper, portcls/IPortClsEtwHelper
+ms.keywords: IPortClsEtwHelper, IPortClsEtwHelper interface [Audio Devices], IPortClsEtwHelper interface [Audio Devices], described, audio.iportclsetwhelper, portcls/IPortClsEtwHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

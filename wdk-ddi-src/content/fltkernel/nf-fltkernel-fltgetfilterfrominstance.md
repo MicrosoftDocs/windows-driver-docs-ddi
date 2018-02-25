@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2fe73705-4b44-4c75-8677-3325b6be9250
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltgetfilterfrominstance, FltGetFilterFromInstance, FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml, fltkernel/FltGetFilterFromInstance, FltGetFilterFromInstance routine [Installable File System Drivers]
+ms.keywords: ",  , F, FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml, FltGetFilterFromInstance, FltGetFilterFromInstance routine [Installable File System Drivers], G, I, a, c, e, fltkernel/FltGetFilterFromInstance, i, ifsk.fltgetfilterfrominstance, l, m, n, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,7 +123,7 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
 
 
 
@@ -131,11 +131,11 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstances.md">FltEnumerateInstances</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
 
 
 

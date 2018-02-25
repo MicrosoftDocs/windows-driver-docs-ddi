@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac0ec68a-1f2c-4a39-bf88-0e69d50b1279
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME structure [Display Devices], _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, display.d3dkmt_queryremotevidpnsourcefromgdidisplayname
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME structure [Display Devices], E, F, G, I, K, L, M, N, O, P, Q, R, S, T, U, V, Y, _, _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, d3dkmthk/D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, display.d3dkmt_queryremotevidpnsourcefromgdidisplayname"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,7 +80,7 @@ typedef struct _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryremotevidpnsourcefromgdidisplayname.md">D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_queryremotevidpnsourcefromgdidisplayname.md">D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wsk/WskRegister, netvista.wskregister, WskRegister function [Network Drivers Starting with Windows Vista], wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml, WskRegister
+ms.keywords: ",  , R, W, WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], e, g, i, k, netvista.wskregister, r, s, t, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,7 +163,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
+<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
 
 
@@ -171,7 +171,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
+<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
 
 

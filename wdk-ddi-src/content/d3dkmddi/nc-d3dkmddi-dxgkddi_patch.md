@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 363be784-0e3b-4f9a-a643-80857478bbae
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddipatch, DxgkDdiPatch callback function [Display Devices], DxgkDdiPatch, DXGKDDI_PATCH, DXGKDDI_PATCH, d3dkmddi/DxgkDdiPatch, DmFunctions_dc8691fa-b688-4762-a641-93e4625d8931.xml
+ms.keywords: DXGKDDI_PATCH, DmFunctions_dc8691fa-b688-4762-a641-93e4625d8931.xml, DxgkDdiPatch, DxgkDdiPatch callback function [Display Devices], d3dkmddi/DxgkDdiPatch, display.dxgkddipatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

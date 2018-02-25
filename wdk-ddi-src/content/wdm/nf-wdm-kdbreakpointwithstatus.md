@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 0b7f2f55-f7b8-415b-b683-3b6b96f84eb3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: KdBreakPointWithStatus, devtest.kdbreakpointwithstatus, ntddk/KdBreakPointWithStatus, KdBreakPointWithStatus function [Driver Development Tools], DebugFns_f34fa39a-d436-44db-97ff-3ccdd50384d8.xml
+ms.keywords: ",  , B, DebugFns_f34fa39a-d436-44db-97ff-3ccdd50384d8.xml, K, KdBreakPointWithStatus, KdBreakPointWithStatus function [Driver Development Tools], P, S, W, a, d, devtest.kdbreakpointwithstatus, e, h, i, k, n, ntddk/KdBreakPointWithStatus, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -100,19 +100,19 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgbreakpointwithstatus.md">DbgBreakPointWithStatus</a>
-
-
-
 <a href="..\wdm\nf-wdm-dbgbreakpoint.md">DbgBreakPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>
+<a href="..\wdm\nf-wdm-dbgbreakpointwithstatus.md">DbgBreakPointWithStatus</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548063">KdBreakPoint</a>
+
+
+
+<a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>
 
 
 

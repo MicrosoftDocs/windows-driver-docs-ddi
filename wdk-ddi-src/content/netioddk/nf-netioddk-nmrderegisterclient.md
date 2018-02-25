@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64fff189-392e-42c3-8d9a-0d6daa07d2f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.nmrderegisterclient, nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml, NmrDeregisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrDeregisterClient, NmrDeregisterClient
+ms.keywords: ",  , C, D, N, NmrDeregisterClient, NmrDeregisterClient function [Network Drivers Starting with Windows Vista], e, g, i, l, m, n, netioddk/NmrDeregisterClient, netvista.nmrderegisterclient, nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,11 +160,7 @@ A client module typically calls the
 
 ## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
 
 
 
@@ -173,7 +169,7 @@ A client module typically calls the
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
+<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
 
 
 
@@ -182,6 +178,10 @@ A client module typically calls the
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
 
 

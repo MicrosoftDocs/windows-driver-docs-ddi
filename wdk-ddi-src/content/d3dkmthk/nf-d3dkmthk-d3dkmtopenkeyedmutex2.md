@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33140445-e312-4495-990a-033a87598fa1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTOpenKeyedMutex2, PFND3DKMT_OPENKEYEDMUTEX2, D3DKMTOpenKeyedMutex2 function [Display Devices], display.d3dkmtopenkeyedmutex2, D3DKMTOpenKeyedMutex2
+ms.keywords: ",  , 2, 3, D, D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 function [Display Devices], K, M, O, PFND3DKMT_OPENKEYEDMUTEX2, T, d, d3dkmthk/D3DKMTOpenKeyedMutex2, display.d3dkmtopenkeyedmutex2, e, n, p, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,7 +129,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a> could not complete because of insufficient memory.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_openkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a> could not complete because of insufficient memory.
 
 </td>
 </tr>

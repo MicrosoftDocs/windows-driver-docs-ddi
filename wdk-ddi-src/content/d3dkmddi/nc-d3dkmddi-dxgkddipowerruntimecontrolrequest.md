@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 56535128-3107-4fb5-b0e1-2e913c386cc2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddipowerruntimecontrolrequest, DxgkDdiPowerRuntimeControlRequest callback function [Display Devices], DxgkDdiPowerRuntimeControlRequest, PDXGKDDIPOWERRUNTIMECONTROLREQUEST, PDXGKDDIPOWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkDdiPowerRuntimeControlRequest
+ms.keywords: DxgkDdiPowerRuntimeControlRequest, DxgkDdiPowerRuntimeControlRequest callback function [Display Devices], PDXGKDDIPOWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkDdiPowerRuntimeControlRequest, display.dxgkddipowerruntimecontrolrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -221,11 +221,11 @@ The operating system guarantees that this function follows the zero level synchr
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentresidency.md">DxgkCbSetPowerComponentResidency</a>
 
 
 
@@ -233,7 +233,7 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentresidency.md">DxgkCbSetPowerComponentResidency</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

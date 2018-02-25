@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9cd17a86-6652-414d-a80d-2e61c0ac99b6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.scsiportcompleterequest, ScsiPortCompleteRequest, srb/ScsiPortCompleteRequest, ScsiPortCompleteRequest routine [Storage Devices], scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml
+ms.keywords: ",  , C, P, R, S, ScsiPortCompleteRequest, ScsiPortCompleteRequest routine [Storage Devices], c, e, i, l, m, o, p, q, r, s, scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml, srb/ScsiPortCompleteRequest, storage.scsiportcompleterequest, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,7 +122,7 @@ None
 
 
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 04e3dfba-3313-4575-9956-5b1861b8212a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFUsbTargetDevice, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, wdf.iwdfusbtargetdevice_retrievedeviceinformation, RetrieveDeviceInformation method, RetrieveDeviceInformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, umdf.iwdfusbtargetdevice_retrievedeviceinformation
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, IWDFUsbTargetDevice::RetrieveDeviceInformation, R, RetrieveDeviceInformation method, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, RetrieveDeviceInformation,IWDFUsbTargetDevice.RetrieveDeviceInformation, T, U, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, W, a, b, c, e, f, g, i, m, n, o, r, s, t, umdf.iwdfusbtargetdevice_retrievedeviceinformation, v, wdf.iwdfusbtargetdevice_retrievedeviceinformation, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

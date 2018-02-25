@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb1e3c27-71c1-4920-9aa4-3253306fa3f4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.assigndebugbinary, AssignDebugBinary callback function [Display Devices], AssignDebugBinary, PFND3D11_1DDI_ASSIGNDEBUGBINARY, PFND3D11_1DDI_ASSIGNDEBUGBINARY, d3d10umddi/AssignDebugBinary, display.pfnassigndebugbinary, display.assigndebugbinary_d3d11_1_
+ms.keywords: AssignDebugBinary, AssignDebugBinary callback function [Display Devices], PFND3D11_1DDI_ASSIGNDEBUGBINARY, d3d10umddi/AssignDebugBinary, display.assigndebugbinary, display.assigndebugbinary_d3d11_1_, display.pfnassigndebugbinary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -128,11 +128,11 @@ The driver should not encounter any error, except for <b>D3DDDIERR_DEVICEREMOVED
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_d3d11_options_data.md">D3D11_1DDI_D3D11_OPTIONS_DATA</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

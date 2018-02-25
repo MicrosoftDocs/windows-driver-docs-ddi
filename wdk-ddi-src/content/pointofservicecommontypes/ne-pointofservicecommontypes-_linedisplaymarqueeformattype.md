@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: BB182083-58F2-4706-9D6B-B581325BDD48
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: pointofservicecommontypes/, pointofservicecommontypes/PLineDisplayMarqueeFormatType, _LineDisplayMarqueeFormatType, LineDisplayMarqueeFormatType enumeration, pointofservicecommontypes/LineDisplayMarqueeFormatType, pos.linedisplaymarqueeformattype, PLineDisplayMarqueeFormatType enumeration pointer, LineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType
+ms.keywords: ",  , ,, D, F, L, LineDisplayMarqueeFormatType, LineDisplayMarqueeFormatType enumeration, M, PLineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType enumeration pointer, T, _, _LineDisplayMarqueeFormatType, a, e, i, l, m, n, o, p, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeFormatType, pointofservicecommontypes/PLineDisplayMarqueeFormatType, pos.linedisplaymarqueeformattype, q, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

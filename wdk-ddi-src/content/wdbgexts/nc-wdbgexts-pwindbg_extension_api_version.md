@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1bc24b16-7dbf-4c95-87ac-c9b38e6a4c59
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.extensionapiversion, ExtensionApiVersion, ExtensionApiVersion callback function [Windows Debugging], ExtensionApiVersion, PWINDBG_EXTENSION_API_VERSION, PWINDBG_EXTENSION_API_VERSION, wdbgexts/ExtensionApiVersion, WdbgExts_Callbacks_1aa063c9-a47d-4c18-a643-007f635b8cff.xml
+ms.keywords: ExtensionApiVersion, ExtensionApiVersion callback function [Windows Debugging], PWINDBG_EXTENSION_API_VERSION, WdbgExts_Callbacks_1aa063c9-a47d-4c18-a643-007f635b8cff.xml, debugger.extensionapiversion, wdbgexts/ExtensionApiVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

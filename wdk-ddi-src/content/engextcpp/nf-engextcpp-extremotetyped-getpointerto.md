@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f237e8a-c0d3-4812-a96d-4cdc6f8e31df
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EngExtCpp_Ref_fe04e8e3-888e-4d96-9a24-4bec51f71f16.xml, ExtRemoteTyped::GetPointerTo, ExtRemoteTyped, GetPointerTo, GetPointerTo method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], GetPointerTo method, GetPointerTo method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_getpointerto
+ms.keywords: ",  , ,, ., :, E, EngExtCpp_Ref_fe04e8e3-888e-4d96-9a24-4bec51f71f16.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], GetPointerTo method, ExtRemoteTyped::GetPointerTo, G, GetPointerTo method [Windows Debugging], GetPointerTo method [Windows Debugging], ExtRemoteTyped interface, GetPointerTo,ExtRemoteTyped.GetPointerTo, P, R, T, d, debugger.extremotetyped_getpointerto, e, i, m, n, o, p, r, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

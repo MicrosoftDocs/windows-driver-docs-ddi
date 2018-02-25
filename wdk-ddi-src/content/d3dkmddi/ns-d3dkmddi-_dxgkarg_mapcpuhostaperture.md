@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ACC0C800-B6E3-4EF2-846C-63BF4564D0FD
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKARG_MAPCPUHOSTAPERTURE, display.dxgkarg_mapcpuhostaperture, _DXGKARG_MAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE structure [Display Devices]
+ms.keywords: ",  , ,, A, C, D, DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE structure [Display Devices], E, G, H, K, M, O, P, R, S, T, U, X, _, _DXGKARG_MAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE, display.dxgkarg_mapcpuhostaperture"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

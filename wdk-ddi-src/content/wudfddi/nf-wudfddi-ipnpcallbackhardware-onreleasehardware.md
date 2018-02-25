@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8975941a-21ad-4d51-9215-b35fa65cdfeb
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IPnpCallbackHardware::OnReleaseHardware, UMDFDeviceObjectRef_d8966916-01c2-4e3d-b69b-d97ac06fe48a.xml, IPnpCallbackHardware, OnReleaseHardware method, IPnpCallbackHardware interface, umdf.ipnpcallbackhardware_onreleasehardware, OnReleaseHardware, IPnpCallbackHardware interface, OnReleaseHardware method, OnReleaseHardware method, wdf.ipnpcallbackhardware_onreleasehardware, IPnpCallbackHardware::OnReleaseHardware
+ms.keywords: ",  , ,, ., :, C, H, I, IPnpCallbackHardware, IPnpCallbackHardware interface, OnReleaseHardware method, IPnpCallbackHardware::OnReleaseHardware, O, OnReleaseHardware method, OnReleaseHardware method, IPnpCallbackHardware interface, OnReleaseHardware,IPnpCallbackHardware.OnReleaseHardware, P, R, UMDFDeviceObjectRef_d8966916-01c2-4e3d-b69b-d97ac06fe48a.xml, a, b, c, d, e, k, l, n, p, r, s, umdf.ipnpcallbackhardware_onreleasehardware, w, wdf.ipnpcallbackhardware_onreleasehardware, wudfddi/IPnpCallbackHardware::OnReleaseHardware"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,11 +101,7 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/652B92C2-EF04-482A-BB57-9F64F947EE4F">IPnpCallbackHardware2::OnReleaseHardware</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 
@@ -113,11 +109,15 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/652B92C2-EF04-482A-BB57-9F64F947EE4F">IPnpCallbackHardware2::OnReleaseHardware</a>
 
 
 

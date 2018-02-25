@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 92F2AED7-935F-4E3E-934F-D6DF9AA87495
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.bufblt1, BufBlt1 callback function [Display Devices], BufBlt1, PFND3DDDI_BUFBLT1, PFND3DDDI_BUFBLT1, d3dumddi/BufBlt1
+ms.keywords: BufBlt1, BufBlt1 callback function [Display Devices], PFND3DDDI_BUFBLT1, d3dumddi/BufBlt1, display.bufblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -102,11 +102,11 @@ __checkReturn HRESULT APIENTRY* BufBlt1(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt1.md">D3DDDIARG_BUFFERBLT1</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt1.md">D3DDDIARG_BUFFERBLT1</a>
 
 
 

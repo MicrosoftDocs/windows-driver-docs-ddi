@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4d946524-8ad2-45a0-91be-861b30b0c297
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsDeleteFilterFactory function [Streaming Media Devices], avfunc_60aeaa09-5563-47ea-a117-4b65a468b058.xml, ks/KsDeleteFilterFactory, KsDeleteFilterFactory, stream.ksdeletefilterfactory
+ms.keywords: ",  , D, F, K, KsDeleteFilterFactory, KsDeleteFilterFactory function [Streaming Media Devices], a, avfunc_60aeaa09-5563-47ea-a117-4b65a468b058.xml, c, e, i, ks/KsDeleteFilterFactory, l, o, r, s, stream.ksdeletefilterfactory, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -74,19 +74,19 @@ A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> str
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-
-
-<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
-
-
-
 <a href="..\ks\nf-ks-ksfilterfactorysetdeviceclassesstate.md">KsFilterFactorySetDeviceClassesState</a>
 
 
 
 <a href="..\ks\nf-ks-ksfilterfactoryaddcreateitem.md">KsFilterFactoryAddCreateItem</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
+
+<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
 
 
 

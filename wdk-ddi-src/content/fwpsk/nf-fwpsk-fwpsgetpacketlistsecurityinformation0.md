@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c3391615-963b-4916-9280-ce782269692c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], netvista.fwpsgetpacketlistsecurityinformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml, FwpsGetPacketListSecurityInformation0, fwpsk/FwpsGetPacketListSecurityInformation0
+ms.keywords: ",  , 0, F, FwpsGetPacketListSecurityInformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], G, I, L, P, S, a, c, e, f, fwpsk/FwpsGetPacketListSecurityInformation0, i, k, m, n, netvista.fwpsgetpacketlistsecurityinformation0, o, p, r, s, t, u, w, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -188,11 +188,11 @@ A callout driver calls the
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
 <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 

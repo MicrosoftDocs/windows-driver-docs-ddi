@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2fbe08ca-a9eb-4e3b-aa28-1ff34ad22a46
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_ValidateConfigurationDescriptor routine [Buses], usbdlib/USBD_ValidateConfigurationDescriptor, buses.usbd_validateconfigurationdescriptor, USBD_ValidateConfigurationDescriptor
+ms.keywords: ",  , B, C, D, S, U, USBD_ValidateConfigurationDescriptor, USBD_ValidateConfigurationDescriptor routine [Buses], V, _, a, buses.usbd_validateconfigurationdescriptor, c, d, e, f, g, i, l, n, o, p, r, s, t, u, usbdlib/USBD_ValidateConfigurationDescriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

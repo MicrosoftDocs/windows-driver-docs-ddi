@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 7c49c394-d0b3-4594-a623-0a13825bdcec
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SDCMD_DESCRIPTOR structure [Buses], *PSDCMD_DESCRIPTOR, sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, _SDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], SDCMD_DESCRIPTOR, sddef/SDCMD_DESCRIPTOR, sddef/PSDCMD_DESCRIPTOR, SD.sdcmd_descriptor, PSDCMD_DESCRIPTOR
+ms.keywords: ",  , *, *PSDCMD_DESCRIPTOR, ,, C, D, E, I, M, O, P, PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], R, S, SD.sdcmd_descriptor, SDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR structure [Buses], T, _, _SDCMD_DESCRIPTOR, sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, sddef/PSDCMD_DESCRIPTOR, sddef/SDCMD_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,19 +135,7 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538045">SD_TRANSFER_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
 
 
 
@@ -159,11 +147,23 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538045">SD_TRANSFER_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
 
 
 

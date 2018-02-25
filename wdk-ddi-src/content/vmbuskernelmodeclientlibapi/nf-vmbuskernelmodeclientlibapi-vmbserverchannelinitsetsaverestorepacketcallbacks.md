@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2E704BF1-21E2-498E-82C2-2B55BF44D044
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbServerChannelInitSetSaveRestorePacketCallbacks function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetsaverestorepacketcallbacks, VmbServerChannelInitSetSaveRestorePacketCallbacks, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetSaveRestorePacketCallbacks
+ms.keywords: ",  , C, I, P, R, S, V, VmbServerChannelInitSetSaveRestorePacketCallbacks, VmbServerChannelInitSetSaveRestorePacketCallbacks function [Network Drivers Starting with Windows Vista], a, b, c, e, h, i, k, l, m, n, netvista.vmbserverchannelinitsetsaverestorepacketcallbacks, o, r, s, t, v, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetSaveRestorePacketCallbacks"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,11 +120,11 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue.md">VmbChannelSaveContinue</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelrestorefrombuffer.md">VmbChannelRestoreFromBuffer</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue.md">VmbChannelSaveContinue</a>
 
 
 

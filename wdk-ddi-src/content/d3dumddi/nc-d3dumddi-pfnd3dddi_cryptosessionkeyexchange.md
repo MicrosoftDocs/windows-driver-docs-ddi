@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f8055bb3-b8f1-47f5-9ae0-8e7a26989871
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.cryptosessionkeyexchange, CryptoSessionKeyExchange callback function [Display Devices], CryptoSessionKeyExchange, PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE, PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE, d3dumddi/CryptoSessionKeyExchange, UserModeDisplayDriver_Functions_36eab785-562d-4f2d-bcf2-2da53708f98d.xml
+ms.keywords: CryptoSessionKeyExchange, CryptoSessionKeyExchange callback function [Display Devices], PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE, UserModeDisplayDriver_Functions_36eab785-562d-4f2d-bcf2-2da53708f98d.xml, d3dumddi/CryptoSessionKeyExchange, display.cryptosessionkeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

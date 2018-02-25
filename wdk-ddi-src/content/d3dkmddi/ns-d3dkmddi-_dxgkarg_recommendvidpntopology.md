@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a3efdc8-4534-4de6-89f8-42d94ba8b9a6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKARG_RECOMMENDVIDPNTOPOLOGY, _DXGKARG_RECOMMENDVIDPNTOPOLOGY, display.dxgkarg_recommendvidpntopology, DXGKARG_RECOMMENDVIDPNTOPOLOGY structure [Display Devices], d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY, DmStructs_960673e2-caf0-4f46-9b8c-c1da025fb6bf.xml
+ms.keywords: ",  , ,, A, C, D, DXGKARG_RECOMMENDVIDPNTOPOLOGY, DXGKARG_RECOMMENDVIDPNTOPOLOGY structure [Display Devices], DmStructs_960673e2-caf0-4f46-9b8c-c1da025fb6bf.xml, E, G, I, K, L, M, N, O, P, R, T, V, X, Y, _, _DXGKARG_RECOMMENDVIDPNTOPOLOGY, d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY, display.dxgkarg_recommendvidpntopology"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

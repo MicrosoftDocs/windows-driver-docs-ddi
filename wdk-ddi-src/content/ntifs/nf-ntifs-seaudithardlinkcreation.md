@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f032afe5-da68-4763-a4f0-6e61869223e1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SeAuditHardLinkCreation function [Installable File System Drivers], SeAuditHardLinkCreation, ifsk.seaudithardlinkcreation, seref_da710638-38e7-4305-9102-7cfbc4299f94.xml, ntifs/SeAuditHardLinkCreation
+ms.keywords: ",  , A, C, H, L, S, SeAuditHardLinkCreation, SeAuditHardLinkCreation function [Installable File System Drivers], a, d, e, i, ifsk.seaudithardlinkcreation, k, n, ntifs/SeAuditHardLinkCreation, o, r, seref_da710638-38e7-4305-9102-7cfbc4299f94.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea1d6f35-1dc5-4c65-9158-7f85464c5cd7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], hbapiwmi/ScsiInquiry_OUT, storage.scsiinquiry_out2, *PScsiInquiry_OUT, PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], hbapiwmi/PScsiInquiry_OUT, structs-Fibre_2c7df8b3-a571-4e88-b4db-202d2bd39ce8.xml, ScsiInquiry_OUT"
+ms.keywords: ",  , *, *PScsiInquiry_OUT, ,, I, O, P, PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], S, ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], T, U, _, _ScsiInquiry_OUT, c, hbapiwmi/PScsiInquiry_OUT, hbapiwmi/ScsiInquiry_OUT, i, n, q, r, s, storage.scsiinquiry_out2, structs-Fibre_2c7df8b3-a571-4e88-b4db-202d2bd39ce8.xml, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

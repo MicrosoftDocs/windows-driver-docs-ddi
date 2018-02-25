@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2bdf9564-70b0-4936-95e5-4470b731ac3b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiautil/CWiauFormatConverter::~CWiauFormatConverter, ~CWiauFormatConverter, image.cwiauformatconverter__cwiauformatconverter, CWiauFormatConverter, CWiauFormatConverter::~CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], ~CWiauFormatConverter method, ~CWiauFormatConverter method [Imaging Devices], wiauFncs_9e90093a-c28a-4cbb-a4be-55750e309940.xml, ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface
+ms.keywords: ",  , ,, ., :, C, CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], ~CWiauFormatConverter method, CWiauFormatConverter::~CWiauFormatConverter, F, W, a, e, i, image.cwiauformatconverter__cwiauformatconverter, m, n, o, r, t, u, v, wiauFncs_9e90093a-c28a-4cbb-a4be-55750e309940.xml, wiautil/CWiauFormatConverter::~CWiauFormatConverter, ~, ~CWiauFormatConverter method [Imaging Devices], ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface, ~CWiauFormatConverter,CWiauFormatConverter.~CWiauFormatConverter"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,11 +79,11 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540370">CWiauFormatConverter::CWiauFormatConverter</a>
+
+
+
+<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
 
 
 

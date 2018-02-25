@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 6a2ee9be-03bc-436d-91c7-f00222911b19
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER, wdm/PCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER structure pointer [Buses], PCI_CAPABILITIES_HEADER structure [Buses], _PCI_CAPABILITIES_HEADER, PCI.pci_capabilities_header, pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml, wdm/PPCI_CAPABILITIES_HEADER
+ms.keywords: ",  , *, *PPCI_CAPABILITIES_HEADER, ,, A, B, C, D, E, H, I, L, P, PCI.pci_capabilities_header, PCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER structure [Buses], PPCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER structure pointer [Buses], R, S, T, _, _PCI_CAPABILITIES_HEADER, pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml, wdm/PCI_CAPABILITIES_HEADER, wdm/PPCI_CAPABILITIES_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -272,11 +272,11 @@ All PCI Capability structures have the header described by PCI_CAPABILITIES_HEAD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
 
 
 

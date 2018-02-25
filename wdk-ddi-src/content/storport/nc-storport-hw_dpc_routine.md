@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bc646191-e405-49e2-8793-0c0b81e52f50
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstordpcroutine, HwStorDpcRoutine routine [Storage Devices], HwStorDpcRoutine, HW_DPC_ROUTINE, HW_DPC_ROUTINE, storport/HwStorDpcRoutine, stormini_593e93b3-e078-48a4-b192-75cc161686bb.xml
+ms.keywords: HW_DPC_ROUTINE, HwStorDpcRoutine, HwStorDpcRoutine routine [Storage Devices], storage.hwstordpcroutine, stormini_593e93b3-e078-48a4-b192-75cc161686bb.xml, storport/HwStorDpcRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -178,11 +178,7 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
-
-
-
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
 
 
 
@@ -190,11 +186,15 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 
 
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+
+
+<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+
+
+
 <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
-
-
-
-<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
 
 
 

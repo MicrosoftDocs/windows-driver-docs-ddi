@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4E06AFD0-42D3-479F-B285-34919826F750
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3::GetCurrentSystemServerName, IDebugSystemObjects3, debugger.idebugsystemobjects3_getcurrentsystemservername, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServerName method, GetCurrentSystemServerName, GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName
+ms.keywords: ",  , ,, ., 3, :, C, D, G, GetCurrentSystemServerName method [Windows Debugging], GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentSystemServerName,IDebugSystemObjects3.GetCurrentSystemServerName, I, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServerName method, IDebugSystemObjects3::GetCurrentSystemServerName, N, O, S, a, b, c, dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName, debugger.idebugsystemobjects3_getcurrentsystemservername, e, g, j, m, n, r, s, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,11 +114,11 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
 
 

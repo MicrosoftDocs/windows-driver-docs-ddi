@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 7FFE7301-1C03-4221-9E3B-412FE89919FB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_umdf_hid_set_feature, IOCTL_UMDF_HID_SET_FEATURE control code, IOCTL_UMDF_HID_SET_FEATURE, hidport/IOCTL_UMDF_HID_SET_FEATURE, umdf.ioctl_umdf_hid_set_feature
+ms.keywords: IOCTL_UMDF_HID_SET_FEATURE, IOCTL_UMDF_HID_SET_FEATURE control code, hid.ioctl_umdf_hid_set_feature, hidport/IOCTL_UMDF_HID_SET_FEATURE, umdf.ioctl_umdf_hid_set_feature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -129,11 +129,11 @@ HID minidrivers that carry out the I/O to the device must also:
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439657">IOCTL_UMDF_HID_GET_FEATURE</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
 
 
 

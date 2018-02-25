@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bf21128-acf3-4d7d-83c5-a32ac54e78ca
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.mmlockpagabledatasection, MmLockPagableDataSection, MmLockPagableDataSection routine [Kernel-Mode Driver Architecture], wdm/MmLockPagableDataSection, k106_05a47a6d-54f2-48d3-abba-ba3864aaa94b.xml
+ms.keywords: ",  , D, L, M, MmLockPagableDataSection, MmLockPagableDataSection routine [Kernel-Mode Driver Architecture], P, S, a, b, c, e, g, i, k, k106_05a47a6d-54f2-48d3-abba-ba3864aaa94b.xml, kernel.mmlockpagabledatasection, l, m, n, o, t, wdm/MmLockPagableDataSection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,15 +127,15 @@ For more information about paging data, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
 
 
 
 <a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
 
 
 

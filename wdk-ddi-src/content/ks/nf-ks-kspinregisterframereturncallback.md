@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 480f33e7-6fe6-40a1-9e1b-351378b7e003
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsPinRegisterFrameReturnCallback, KsPinRegisterFrameReturnCallback, KsPinRegisterFrameReturnCallback function [Streaming Media Devices], stream.kspinregisterframereturncallback, avfunc_16d1d4cd-f3ae-4cc0-b903-1db1f5b40a6f.xml
+ms.keywords: ",  , C, F, K, KsPinRegisterFrameReturnCallback, KsPinRegisterFrameReturnCallback function [Streaming Media Devices], P, R, a, avfunc_16d1d4cd-f3ae-4cc0-b903-1db1f5b40a6f.xml, b, c, e, g, i, k, ks/KsPinRegisterFrameReturnCallback, l, m, n, r, s, stream.kspinregisterframereturncallback, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,11 +105,11 @@ Minidrivers that call this function are directly responsible for injecting frame
 
 
 
-<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a>
+
+
+
+<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
 
 
 

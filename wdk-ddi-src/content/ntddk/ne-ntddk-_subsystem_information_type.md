@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B1E334BF-AAB3-410D-8D10-A750E8459E42
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SUBSYSTEM_INFORMATION_TYPE, SubsystemInformationTypeWin32, kernel.subsystem_information_type, _SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE, MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/SUBSYSTEM_INFORMATION_TYPE, ntddk/MaxSubsystemInformationType, SubsystemInformationTypeWSL, ntddk/SubsystemInformationTypeWin32, ntddk/SubsystemInformationTypeWSL
+ms.keywords: ",  , *, *PSUBSYSTEM_INFORMATION_TYPE, ,, A, B, E, F, I, M, MaxSubsystemInformationType, N, O, P, R, S, SUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], SubsystemInformationTypeWSL, SubsystemInformationTypeWin32, T, U, Y, _, _SUBSYSTEM_INFORMATION_TYPE, kernel.subsystem_information_type, ntddk/MaxSubsystemInformationType, ntddk/SUBSYSTEM_INFORMATION_TYPE, ntddk/SubsystemInformationTypeWSL, ntddk/SubsystemInformationTypeWin32"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

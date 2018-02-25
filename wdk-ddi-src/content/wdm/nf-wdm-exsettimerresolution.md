@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 968d57fa-7a8e-42cf-b73b-d669ecbbaf48
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, ExSetTimerResolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], kernel.exsettimerresolution, wdm/ExSetTimerResolution
+ms.keywords: ",  , E, ExSetTimerResolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], R, S, T, e, i, k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, kernel.exsettimerresolution, l, m, n, o, r, s, t, u, wdm/ExSetTimerResolution, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

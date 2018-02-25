@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 328f9ffe-67ae-4ba5-98e4-b3b00068eb0e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MmIsAddressValid, kernel.mmisaddressvalid, ntddk/MmIsAddressValid, k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, MmIsAddressValid routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, I, M, MmIsAddressValid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], V, a, d, e, i, k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, kernel.mmisaddressvalid, l, m, ntddk/MmIsAddressValid, r, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

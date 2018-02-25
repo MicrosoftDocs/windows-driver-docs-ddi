@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ADD9AA38-594D-413A-BE8B-BCC6B62EAA8E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.masktableentry, MaskTableEntry routine [Kernel-Mode Driver Architecture], MaskTableEntry, PCI_MSIX_MASKUNMASK_ENTRY, PCI_MSIX_MASKUNMASK_ENTRY, wdm/MaskTableEntry, kernel.msixmasktableentry, drvr_interface_c4246cdd-8a44-423e-b145-fae6e1e96716.xml
+ms.keywords: MaskTableEntry, MaskTableEntry routine [Kernel-Mode Driver Architecture], PCI_MSIX_MASKUNMASK_ENTRY, drvr_interface_c4246cdd-8a44-423e-b145-fae6e1e96716.xml, kernel.masktableentry, kernel.msixmasktableentry, wdm/MaskTableEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -134,11 +134,11 @@ You can unmask the table entry by calling <a href="..\wdm\nc-wdm-pci_msix_maskun
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">UnmaskTableEntry</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pci_msix_table_config_interface.md">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
+
+
+
+<a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">UnmaskTableEntry</a>
 
 
 

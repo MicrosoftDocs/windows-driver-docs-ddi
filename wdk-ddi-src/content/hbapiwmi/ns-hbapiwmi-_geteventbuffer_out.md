@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1ba41017-8c4b-49eb-b0ec-8e58c2673314
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/PGetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], _GetEventBuffer_OUT, PGetEventBuffer_OUT, storage.geteventbuffer_out, PGetEventBuffer_OUT structure pointer [Storage Devices], hbapiwmi/GetEventBuffer_OUT, GetEventBuffer_OUT, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml, *PGetEventBuffer_OUT
+ms.keywords: ",  , *, *PGetEventBuffer_OUT, ,, B, E, G, GetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], O, P, PGetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], T, U, _, _GetEventBuffer_OUT, e, f, hbapiwmi/GetEventBuffer_OUT, hbapiwmi/PGetEventBuffer_OUT, n, r, storage.geteventbuffer_out, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14e9a28c-65cc-4e90-8220-85f1981c8cd7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoRaiseInformationalHardError routine [Kernel-Mode Driver Architecture], k104_7af16dc2-0500-411e-962a-7d8c1fe40ba0.xml, kernel.ioraiseinformationalharderror, IoRaiseInformationalHardError, ntddk/IoRaiseInformationalHardError
+ms.keywords: ",  , E, H, I, IoRaiseInformationalHardError, IoRaiseInformationalHardError routine [Kernel-Mode Driver Architecture], R, a, d, e, f, i, k104_7af16dc2-0500-411e-962a-7d8c1fe40ba0.xml, kernel.ioraiseinformationalharderror, l, m, n, ntddk/IoRaiseInformationalHardError, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,15 +116,15 @@ Starting with Windows Vista, if the routine is called from a thread in session 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
 
 
 

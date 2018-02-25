@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 28f9cfcd-ed2e-4760-9016-3542c27cb347
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.queryroutine, QueryRoutine routine [Kernel-Mode Driver Architecture], QueryRoutine, RTL_QUERY_REGISTRY_ROUTINE, RTL_QUERY_REGISTRY_ROUTINE, wdm/QueryRoutine, DrvrRtns_a5cd47f1-6d3c-495e-a83d-ccbd276c1728.xml
+ms.keywords: DrvrRtns_a5cd47f1-6d3c-495e-a83d-ccbd276c1728.xml, QueryRoutine, QueryRoutine routine [Kernel-Mode Driver Architecture], RTL_QUERY_REGISTRY_ROUTINE, kernel.queryroutine, wdm/QueryRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -174,11 +174,11 @@ The RTL_QUERY_REGISTRY_ROUTINE function type is defined in the Wdm.h header file
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 

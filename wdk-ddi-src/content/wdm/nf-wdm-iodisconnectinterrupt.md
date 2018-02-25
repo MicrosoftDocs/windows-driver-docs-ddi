@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06130ec3-7031-4c40-932a-7342c26b7e15
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoDisconnectInterrupt, k104_6ed94efc-9513-4ad3-87d0-cec41e912876.xml, IoDisconnectInterrupt routine [Kernel-Mode Driver Architecture], wdm/IoDisconnectInterrupt, kernel.iodisconnectinterrupt
+ms.keywords: ",  , D, I, IoDisconnectInterrupt, IoDisconnectInterrupt routine [Kernel-Mode Driver Architecture], c, e, i, k104_6ed94efc-9513-4ad3-87d0-cec41e912876.xml, kernel.iodisconnectinterrupt, n, o, p, r, s, t, u, wdm/IoDisconnectInterrupt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,11 @@ If the driver stored the pointer to its interrupt object(s) in the device extens
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
 
 

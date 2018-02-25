@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2488E73E-CF47-4852-8090-BC063DCC4EA4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_input_stream_parameters, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020 structure [Display Devices]
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], E, G, I, M, N, O, P, R, S, T, U, V, _, d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_input_stream_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,23 +152,7 @@ Whether to enable automatic processing features on the video processor.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_input_stream_rate_info_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO</a>
-
-
-
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a>
-
-
-
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020.md">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a>
-
-
-
-<a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
-
-
-
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_input_stream_flags_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a>
 
 
 
@@ -180,7 +164,23 @@ Whether to enable automatic processing features on the video processor.
 
 
 
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020.md">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a>
+
+
+
+<a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
+
+
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_transform_0020.md">D3D12DDI_VIDEO_PROCESS_TRANSFORM</a>
+
+
+
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_input_stream_flags_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_input_stream_rate_info_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO</a>
 
 
 

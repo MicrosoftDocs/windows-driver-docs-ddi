@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 80553c9e-3e80-4219-8cc0-2bd4dd6fa76b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_ENUM_PDO_RESULTS, ENUM_PDO_RESULTS, ehstorioctl/ENUM_PDO_RESULTS, *PENUM_PDO_RESULTS, PENUM_PDO_RESULTS, storage.enum_pdo_results, ENUM_PDO_RESULTS structure [Storage Devices], PENUM_PDO_RESULTS structure pointer [Storage Devices], ehstorioctl/PENUM_PDO_RESULTS, structs-silo_45277a1e-1ca6-4bce-a952-b26860796f51.xml"
+ms.keywords: ",  , *, *PENUM_PDO_RESULTS, ,, D, E, ENUM_PDO_RESULTS, ENUM_PDO_RESULTS structure [Storage Devices], L, M, N, O, P, PENUM_PDO_RESULTS, PENUM_PDO_RESULTS structure pointer [Storage Devices], R, S, T, U, _, _ENUM_PDO_RESULTS, ehstorioctl/ENUM_PDO_RESULTS, ehstorioctl/PENUM_PDO_RESULTS, storage.enum_pdo_results, structs-silo_45277a1e-1ca6-4bce-a952-b26860796f51.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 071000a3-c1b7-47fd-aec7-9e9f32edddf6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.readdataline, ReadDataLine callback function [Display Devices], ReadDataLine, PVIDEO_READ_DATA_LINE, PVIDEO_READ_DATA_LINE, video/ReadDataLine, VideoMiniport_Functions_6507a035-50bc-4a1e-92bf-f07e75cf023b.xml
+ms.keywords: PVIDEO_READ_DATA_LINE, ReadDataLine, ReadDataLine callback function [Display Devices], VideoMiniport_Functions_6507a035-50bc-4a1e-92bf-f07e75cf023b.xml, display.readdataline, video/ReadDataLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -96,19 +96,7 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
-
-
-
 <a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
-
-
-
-<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
 
 
@@ -116,7 +104,19 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
+
+
+
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+
+
+<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
 
 
 

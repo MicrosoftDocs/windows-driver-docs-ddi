@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5ba14903-1519-4edd-bc3c-a05cb040652d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsAllocateDefaultClock, ksfunc_448f966b-08aa-4ac5-92db-36d923275754.xml, KsAllocateDefaultClock, stream.ksallocatedefaultclock, KsAllocateDefaultClock function [Streaming Media Devices]
+ms.keywords: ",  , A, C, D, K, KsAllocateDefaultClock, KsAllocateDefaultClock function [Streaming Media Devices], a, c, e, f, k, ks/KsAllocateDefaultClock, ksfunc_448f966b-08aa-4ac5-92db-36d923275754.xml, l, o, s, stream.ksallocatedefaultclock, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ When the clock is no longer needed, the driver must call <a href="..\ks\nf-ks-ks
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
-
-
-
 <a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
+
+
+
+<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
 
 
 

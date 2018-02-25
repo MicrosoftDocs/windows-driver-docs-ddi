@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 86f8021d-9b02-457f-9bee-4631c711094f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032, display.d3d12ddiarg-create-video-decoder-heap-0032, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032 structure [Display Devices]
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032 structure [Display Devices], E, G, H, I, O, P, R, T, V, _, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032, display.d3d12ddiarg-create-video-decoder-heap-0032"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

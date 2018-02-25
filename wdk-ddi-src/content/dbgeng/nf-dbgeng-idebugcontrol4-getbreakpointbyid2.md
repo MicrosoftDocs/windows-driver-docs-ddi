@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 110eaa8a-d564-4900-8a08-d081572a5f43
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2, GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetBreakpointById2 method, IDebugControl4, GetBreakpointById2, IDebugControl4::GetBreakpointById2
+ms.keywords: ",  , ,, ., 2, 4, :, B, C, D, G, GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging], IDebugControl4 interface, GetBreakpointById2,IDebugControl4.GetBreakpointById2, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetBreakpointById2 method, IDebugControl4::GetBreakpointById2, a, b, d, dbgeng/IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2, e, g, i, k, l, n, o, p, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -128,11 +128,11 @@ If the specified breakpoint does not belong to the current process, the method w
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
 
 
 

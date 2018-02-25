@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21a2f593-716a-434a-922c-23544ddb0122
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ClfsMgmtTailAdvanceFailure, ClfsMgmtTailAdvanceFailure, Clfs_management_6512b59a-78e2-4b01-ba4f-00b099c2c53f.xml, kernel.clfsmgmttailadvancefailure, ClfsMgmtTailAdvanceFailure routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, C, ClfsMgmtTailAdvanceFailure, ClfsMgmtTailAdvanceFailure routine [Kernel-Mode Driver Architecture], Clfs_management_6512b59a-78e2-4b01-ba4f-00b099c2c53f.xml, F, M, T, a, c, d, e, f, g, i, kernel.clfsmgmttailadvancefailure, l, m, n, r, s, t, u, v, wdm/ClfsMgmtTailAdvanceFailure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

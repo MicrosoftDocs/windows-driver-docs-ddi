@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3cdf467c-41f5-4a44-b10a-41aeb76ca815
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.calcprivatevideoprocessorinputviewsize, CalcPrivateVideoProcessorInputViewSize callback function [Display Devices], CalcPrivateVideoProcessorInputViewSize, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE, d3d10umddi/CalcPrivateVideoProcessorInputViewSize
+ms.keywords: CalcPrivateVideoProcessorInputViewSize, CalcPrivateVideoProcessorInputViewSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE, d3d10umddi/CalcPrivateVideoProcessorInputViewSize, display.calcprivatevideoprocessorinputviewsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

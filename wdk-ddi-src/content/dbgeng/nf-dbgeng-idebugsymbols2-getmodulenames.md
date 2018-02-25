@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dd33f88a-91f6-4ea4-bb6b-6fb505676684
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.getmodulenames, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::GetModuleNames, IDebugSymbols3::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, IDebugSymbols interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols interface, GetModuleNames, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method, IDebugSymbols2::GetModuleNames, GetModuleNames method [Windows Debugging], IDebugSymbols, dbgeng/IDebugSymbols3::GetModuleNames, IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, dbgeng/IDebugSymbols2::GetModuleNames, IDebugSymbols2, GetModuleNames method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: ",  , ,, ., 2, :, D, G, GetModuleNames method [Windows Debugging], GetModuleNames method [Windows Debugging], IDebugSymbols interface, GetModuleNames method [Windows Debugging], IDebugSymbols2 interface, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, GetModuleNames,IDebugSymbols.GetModuleNames, GetModuleNames,IDebugSymbols2.GetModuleNames, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetModuleNames method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method, IDebugSymbols2::GetModuleNames, IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, IDebugSymbols3::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, M, N, S, a, b, d, dbgeng/IDebugSymbols2::GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, dbgeng/IDebugSymbols::GetModuleNames, debugger.getmodulenames, e, g, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -195,19 +195,19 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547149">GetModuleNameString</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 

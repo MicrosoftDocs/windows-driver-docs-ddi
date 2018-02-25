@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 21eddcfe-fe86-4135-a91c-42ec6e8e428a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintCoreHelper interface [Print Devices], EnumFeatures method, prcomoem/IPrintCoreHelper::EnumFeatures, EnumFeatures, print.iprintcorehelper_enumfeatures, IPrintCoreHelper::EnumFeatures, IPrintCoreHelper, EnumFeatures method [Print Devices], IPrintCoreHelper interface, print_unidrv-pscript_allplugins_322210f8-379e-4b8a-973b-ed44a7245965.xml, EnumFeatures method [Print Devices]
+ms.keywords: ",  , ,, ., :, C, E, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCoreHelper interface, EnumFeatures,IPrintCoreHelper.EnumFeatures, F, H, I, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], EnumFeatures method, IPrintCoreHelper::EnumFeatures, P, a, e, i, l, m, n, o, p, prcomoem/IPrintCoreHelper::EnumFeatures, print.iprintcorehelper_enumfeatures, print_unidrv-pscript_allplugins_322210f8-379e-4b8a-973b-ed44a7245965.xml, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,11 +104,11 @@ For Unidrv features, the feature list is based on the GPD view of the configurat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
 
 
 

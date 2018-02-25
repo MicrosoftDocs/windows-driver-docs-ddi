@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f203a83c-0108-4e20-9972-06857099378c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createblendstate, CreateBlendState callback function [Display Devices], CreateBlendState, PFND3D10DDI_CREATEBLENDSTATE, PFND3D10DDI_CREATEBLENDSTATE, d3d10umddi/CreateBlendState, UserModeDisplayDriverDx10_Functions_5c67ddaf-f8a2-4529-8684-1f0298221a8d.xml
+ms.keywords: CreateBlendState, CreateBlendState callback function [Display Devices], PFND3D10DDI_CREATEBLENDSTATE, UserModeDisplayDriverDx10_Functions_5c67ddaf-f8a2-4529-8684-1f0298221a8d.xml, d3d10umddi/CreateBlendState, display.createblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,15 +135,11 @@ The user-mode display driver is not required to create more than 4,096 unique in
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyblendstate.md">DestroyBlendState</a>
 
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_blend_desc.md">D3D10_DDI_BLEND_DESC</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyblendstate.md">DestroyBlendState</a>
 
 
 
@@ -152,6 +148,10 @@ The user-mode display driver is not required to create more than 4,096 unique in
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

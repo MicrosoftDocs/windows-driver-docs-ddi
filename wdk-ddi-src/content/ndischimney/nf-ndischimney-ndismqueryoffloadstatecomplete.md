@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7bcc6610-0c48-4a7f-b8fa-be372af201ba
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMQueryOffloadStateComplete
+ms.keywords: ",  , C, M, N, NdisMQueryOffloadStateComplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista], O, Q, S, a, d, e, f, i, l, m, ndischimney/NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, o, p, r, s, t, tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

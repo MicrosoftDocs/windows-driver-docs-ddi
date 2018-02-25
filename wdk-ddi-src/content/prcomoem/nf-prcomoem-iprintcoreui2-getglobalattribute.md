@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fa5555df-4ada-40f3-9878-e6ba3dac2345
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_unidrv-pscript_ui_bd9fbd99-28f2-4613-a5d4-72b98fee95eb.xml, IPrintCoreUI2, prcomoem/IPrintCoreUI2::GetGlobalAttribute, GetGlobalAttribute method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices], GetGlobalAttribute method, GetGlobalAttribute, GetGlobalAttribute method [Print Devices], print.iprintcoreui2_getglobalattribute, IPrintCoreUI2::GetGlobalAttribute
+ms.keywords: ",  , ,, ., 2, :, A, C, G, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices], IPrintCoreUI2 interface, GetGlobalAttribute,IPrintCoreUI2.GetGlobalAttribute, I, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetGlobalAttribute method, IPrintCoreUI2::GetGlobalAttribute, P, U, a, b, e, i, l, n, o, prcomoem/IPrintCoreUI2::GetGlobalAttribute, print.iprintcoreui2_getglobalattribute, print_unidrv-pscript_ui_bd9fbd99-28f2-4613-a5d4-72b98fee95eb.xml, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -191,11 +191,11 @@ For more information, see <a href="https://msdn.microsoft.com/0e23ecba-7d89-44f5
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
 
 
 
@@ -203,7 +203,7 @@ For more information, see <a href="https://msdn.microsoft.com/0e23ecba-7d89-44f5
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
 
 
 

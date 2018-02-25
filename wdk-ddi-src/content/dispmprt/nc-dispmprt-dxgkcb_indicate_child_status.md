@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 780a8867-bba1-4b1b-a941-b55bfe087b7b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbindicatechildstatus, DxgkCbIndicateChildStatus callback function [Display Devices], DxgkCbIndicateChildStatus, DXGKCB_INDICATE_CHILD_STATUS, DXGKCB_INDICATE_CHILD_STATUS, dispmprt/DxgkCbIndicateChildStatus, DpFunctions_db80be21-a515-411f-beb0-64f7514c11f4.xml
+ms.keywords: DXGKCB_INDICATE_CHILD_STATUS, DpFunctions_db80be21-a515-411f-beb0-64f7514c11f4.xml, DxgkCbIndicateChildStatus, DxgkCbIndicateChildStatus callback function [Display Devices], display.dxgkcbindicatechildstatus, dispmprt/DxgkCbIndicateChildStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -172,11 +172,11 @@ AtiSimulateMonitor(HW_DEVICE_EXTENSION *pHwDeviceExtension, PR2_SIMULATE_MONITOR
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e7870f7a-545e-43eb-99c5-42a740585c43
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dhal/D3DHAL_DP2ISSUEQUERY, *LPD3DHAL_DP2ISSUEQUERY, display.d3dhal_dp2issuequery, D3DHAL_DP2ISSUEQUERY structure [Display Devices], d3dstrct_bc6a2c98-b3cf-4161-8aca-fadda2a6cceb.xml, d3dhal/LPD3DHAL_DP2ISSUEQUERY, _D3DHAL_DP2ISSUEQUERY, D3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY structure pointer [Display Devices]
+ms.keywords: ",  , *, *LPD3DHAL_DP2ISSUEQUERY, ,, 2, 3, A, D, D3DHAL_DP2ISSUEQUERY, D3DHAL_DP2ISSUEQUERY structure [Display Devices], E, H, I, L, LPD3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY structure pointer [Display Devices], P, Q, R, S, U, Y, _, _D3DHAL_DP2ISSUEQUERY, d3dhal/D3DHAL_DP2ISSUEQUERY, d3dhal/LPD3DHAL_DP2ISSUEQUERY, d3dstrct_bc6a2c98-b3cf-4161-8aca-fadda2a6cceb.xml, display.d3dhal_dp2issuequery"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,19 +133,19 @@ The runtime uses D3DHAL_DP2ISSUEQUERY to identify each query that the driver mus
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
 D3DDP2OP_ISSUEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9D5980F1-A244-4C5C-B032-68C10BF9D6E7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.close_ndk_adapter_handler, CloseNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], CloseNdkAdapterHandler, CLOSE_NDK_ADAPTER_HANDLER, CLOSE_NDK_ADAPTER_HANDLER, ndisndk/CloseNdkAdapterHandler
+ms.keywords: CLOSE_NDK_ADAPTER_HANDLER, CloseNdkAdapterHandler, CloseNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/CloseNdkAdapterHandler, netvista.close_ndk_adapter_handler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -106,7 +106,7 @@ The <i>CLOSE_NDK_ADAPTER_HANDLER</i> function closes an <a href="..\ndkpi\ns-ndk
 
 
 
-<a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
 
 
@@ -114,7 +114,7 @@ The <i>CLOSE_NDK_ADAPTER_HANDLER</i> function closes an <a href="..\ndkpi\ns-ndk
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+<a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a>
 
 
 

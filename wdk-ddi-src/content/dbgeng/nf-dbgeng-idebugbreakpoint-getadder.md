@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f57abfc5-d6ae-474b-bea9-bfc53dff7f57
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::GetAdder, GetAdder, dbgeng/IDebugBreakpoint2::GetAdder, IDebugBreakpoint interface [Windows Debugging], GetAdder method, GetAdder method [Windows Debugging], IDebugBreakpoint, IDebugBreakpoint2::GetAdder, IDebugBreakpoint::GetAdder, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, debugger.getadder, GetAdder method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], GetAdder method
+ms.keywords: ",  , ,, ., :, A, B, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, D, G, GetAdder method [Windows Debugging], GetAdder method [Windows Debugging], IDebugBreakpoint interface, GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, GetAdder,IDebugBreakpoint.GetAdder, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetAdder method, IDebugBreakpoint2 interface [Windows Debugging], GetAdder method, IDebugBreakpoint2::GetAdder, IDebugBreakpoint::GetAdder, a, b, d, dbgeng/IDebugBreakpoint2::GetAdder, dbgeng/IDebugBreakpoint::GetAdder, debugger.getadder, e, g, i, k, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 91640a96-abad-424e-b9bd-301dad2b6aac
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExInterlockedInsertHeadList routine [Kernel-Mode Driver Architecture], kernel.exinterlockedinsertheadlist, k102_35e48cb9-2d0b-42df-aee0-b391b0ade424.xml, ExInterlockedInsertHeadList, wdm/ExInterlockedInsertHeadList
+ms.keywords: ",  , E, ExInterlockedInsertHeadList, ExInterlockedInsertHeadList routine [Kernel-Mode Driver Architecture], H, I, L, a, c, d, e, i, k, k102_35e48cb9-2d0b-42df-aee0-b391b0ade424.xml, kernel.exinterlockedinsertheadlist, l, n, o, r, s, t, wdm/ExInterlockedInsertHeadList, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ The <b>ExInterlockedInsertHeadList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 
@@ -125,7 +125,7 @@ The <b>ExInterlockedInsertHeadList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 

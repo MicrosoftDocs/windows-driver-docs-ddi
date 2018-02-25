@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0817C977-1113-4953-B60C-A69185443335
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videodecoderenabledownsampling, pfnVideoDecoderEnableDownsampling callback function [Display Devices], pfnVideoDecoderEnableDownsampling, PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING, PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING, d3d10umddi/pfnVideoDecoderEnableDownsampling
+ms.keywords: PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING, d3d10umddi/pfnVideoDecoderEnableDownsampling, display.videodecoderenabledownsampling, pfnVideoDecoderEnableDownsampling, pfnVideoDecoderEnableDownsampling callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -130,7 +130,7 @@ This function can only be called once, prior to the first <a href="..\d3d10umddi
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a>
 
 
 
@@ -138,7 +138,7 @@ This function can only be called once, prior to the first <a href="..\d3d10umddi
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3e80790c-72b9-4e26-a767-a25e6425118e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PCHANGER_READ_ELEMENT_STATUS, ntddchgr/CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_READ_ELEMENT_STATUS, structs-changer_bbb217cb-b38d-4d81-941f-ac1d78d0c584.xml, storage.changer_read_element_status, ntddchgr/PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure [Storage Devices], *PCHANGER_READ_ELEMENT_STATUS
+ms.keywords: ",  , *, *PCHANGER_READ_ELEMENT_STATUS, ,, A, C, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure [Storage Devices], D, E, G, H, L, M, N, P, PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer [Storage Devices], R, S, T, U, _, _CHANGER_READ_ELEMENT_STATUS, ntddchgr/CHANGER_READ_ELEMENT_STATUS, ntddchgr/PCHANGER_READ_ELEMENT_STATUS, storage.changer_read_element_status, structs-changer_bbb217cb-b38d-4d81-941f-ac1d78d0c584.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,15 +80,15 @@ Indicates, when <b>TRUE</b>, that volume tag information should be reported in a
 
 ## -see-also
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
 
 
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
 
 
 

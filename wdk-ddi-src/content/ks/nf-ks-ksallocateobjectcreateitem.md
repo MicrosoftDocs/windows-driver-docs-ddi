@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 43c3894c-5568-4cba-80ed-1d4e4388547b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsAllocateObjectCreateItem function [Streaming Media Devices], KsAllocateObjectCreateItem, stream.ksallocateobjectcreateitem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, ks/KsAllocateObjectCreateItem
+ms.keywords: ",  , A, C, I, K, KsAllocateObjectCreateItem, KsAllocateObjectCreateItem function [Streaming Media Devices], O, a, b, c, e, j, ks/KsAllocateObjectCreateItem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, l, m, o, r, s, stream.ksallocateobjectcreateitem, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

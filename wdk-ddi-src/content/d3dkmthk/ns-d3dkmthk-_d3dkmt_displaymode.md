@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04d3d4bd-3926-43bf-b64e-0ba0c2589a54
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_DISPLAYMODE, D3DKMT_DISPLAYMODE structure [Display Devices], OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, d3dkmthk/D3DKMT_DISPLAYMODE, display.d3dkmt_displaymode, _D3DKMT_DISPLAYMODE
+ms.keywords: ",  , ,, 3, A, D, D3DKMT_DISPLAYMODE, D3DKMT_DISPLAYMODE structure [Display Devices], E, I, K, L, M, O, OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, P, S, T, Y, _, _D3DKMT_DISPLAYMODE, d3dkmthk/D3DKMT_DISPLAYMODE, display.d3dkmt_displaymode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,7 +130,7 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 
@@ -138,7 +138,7 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
 
 
 
@@ -146,7 +146,7 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D951D5A0-3A93-4B67-B25A-31EE61C0A065
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usbfn_get_attach_action, UsbFnGetAttachAction callback function [Buses], UsbFnGetAttachAction, USBFN_GET_ATTACH_ACTION, USBFN_GET_ATTACH_ACTION, usbfnattach/UsbFnGetAttachAction, PFN_USBFN_GET_ATTACH_ACTION callback function pointer [Buses], PFN_USBFN_GET_ATTACH_ACTION
+ms.keywords: PFN_USBFN_GET_ATTACH_ACTION, PFN_USBFN_GET_ATTACH_ACTION callback function pointer [Buses], USBFN_GET_ATTACH_ACTION, UsbFnGetAttachAction, UsbFnGetAttachAction callback function [Buses], buses.usbfn_get_attach_action, usbfnattach/UsbFnGetAttachAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

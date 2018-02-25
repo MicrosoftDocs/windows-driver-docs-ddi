@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3003169-8437-4f43-b777-fcb4d43d4d72
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlFastCheckLockForRead, ifsk.fsrtlfastchecklockforread, fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml, FsRtlFastCheckLockForRead routine [Installable File System Drivers], ntifs/FsRtlFastCheckLockForRead
+ms.keywords: ",  , C, F, FsRtlFastCheckLockForRead, FsRtlFastCheckLockForRead routine [Installable File System Drivers], L, R, a, c, d, e, fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml, h, ifsk.fsrtlfastchecklockforread, k, l, ntifs/FsRtlFastCheckLockForRead, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

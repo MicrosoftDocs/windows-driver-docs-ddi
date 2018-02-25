@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4D3FC503-A502-41D3-AB76-5A2BEBE4C551
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.checkpresentdurationsupport, CheckPresentDurationSupport callback function [Display Devices], CheckPresentDurationSupport, PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, d3dumddi/CheckPresentDurationSupport
+ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport callback function [Display Devices], PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, d3dumddi/CheckPresentDurationSupport, display.checkpresentdurationsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

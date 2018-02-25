@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61f3839a-f428-4585-a046-edce85d829dd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS, *PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS, netvista.ndis_nic_switch_free_vf_parameters, _NDIS_NIC_SWITCH_FREE_VF_PARAMETERS, ntddndis/NDIS_NIC_SWITCH_FREE_VF_PARAMETERS, NDIS_NIC_SWITCH_FREE_VF_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS, PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_FREE_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS, ,, A, C, D, E, F, H, I, M, N, NDIS_NIC_SWITCH_FREE_VF_PARAMETERS, NDIS_NIC_SWITCH_FREE_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], P, PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS, PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, V, W, _, _NDIS_NIC_SWITCH_FREE_VF_PARAMETERS, netvista.ndis_nic_switch_free_vf_parameters, ntddndis/NDIS_NIC_SWITCH_FREE_VF_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,11 +115,11 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF o
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

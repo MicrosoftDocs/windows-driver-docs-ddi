@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b09373ef-7b65-46f7-b5b7-a6dcecf0166c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: vidcapstruct_70c7d301-6c91-4955-bcaa-67cad29cb15a.xml, KSPROPERTY_TUNER_SCAN_STATUS_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S, *PKSPROPERTY_TUNER_SCAN_STATUS_S, PKSPROPERTY_TUNER_SCAN_STATUS_S, PKSPROPERTY_TUNER_SCAN_STATUS_S structure pointer [Streaming Media Devices], stream.ksproperty_tuner_scan_status_s, ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S
+ms.keywords: ",  , *, *PKSPROPERTY_TUNER_SCAN_STATUS_S, ,, A, C, E, K, KSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S structure [Streaming Media Devices], N, O, P, PKSPROPERTY_TUNER_SCAN_STATUS_S, PKSPROPERTY_TUNER_SCAN_STATUS_S structure pointer [Streaming Media Devices], R, S, T, U, Y, _, ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S, ksmedia/PKSPROPERTY_TUNER_SCAN_STATUS_S, stream.ksproperty_tuner_scan_status_s, vidcapstruct_70c7d301-6c91-4955-bcaa-67cad29cb15a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,6 +124,10 @@ The current locked-in frequency, in Hz, on the tuning device.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
 
@@ -133,10 +137,6 @@ The current locked-in frequency, in Hz, on the tuning device.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565893">KSPROPERTY_TUNER_SCAN_STATUS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

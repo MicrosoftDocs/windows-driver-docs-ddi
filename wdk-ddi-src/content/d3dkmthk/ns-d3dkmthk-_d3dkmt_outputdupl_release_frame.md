@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98d31b6b-c31a-4509-a89f-f09932468313
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME, display.d3dkmt_outputdupl_release_frame, _D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, D, D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure [Display Devices], E, F, K, L, M, O, P, R, S, T, U, _, _D3DKMT_OUTPUTDUPL_RELEASE_FRAME, d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME, display.d3dkmt_outputdupl_release_frame"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: D3DKMT_OUTPUTDUPL_RELEASE_FRAME
 ## -description
 
 
-Defines the duplicated desktop image that is to be released in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtoutputduplreleaseframe.md">D3DKMTOutputDuplReleaseFrame</a> function.
+Defines the duplicated desktop image that is to be released in a call to the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_outputduplreleaseframe.md">D3DKMTOutputDuplReleaseFrame</a> function.
 
 
 ## -syntax
@@ -87,7 +87,7 @@ typedef struct _D3DKMT_OUTPUTDUPL_RELEASE_FRAME {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtoutputduplreleaseframe.md">D3DKMTOutputDuplReleaseFrame</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_outputduplreleaseframe.md">D3DKMTOutputDuplReleaseFrame</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c4fd9a56-8743-4099-b261-43c1afc2a5f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TmReferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], TmReferenceEnlistmentKey, kernel.tmreferenceenlistmentkey, wdm/TmReferenceEnlistmentKey, ktm_ref_9e57ee05-1004-4d3d-9fa6-9eb473057bbf.xml
+ms.keywords: ",  , E, K, R, T, TmReferenceEnlistmentKey, TmReferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], c, e, f, i, kernel.tmreferenceenlistmentkey, ktm_ref_9e57ee05-1004-4d3d-9fa6-9eb473057bbf.xml, l, m, n, r, s, t, wdm/TmReferenceEnlistmentKey, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,19 +150,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-tmdereferenceenlistmentkey.md">TmDereferenceEnlistmentKey</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 
@@ -171,6 +159,18 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmdereferenceenlistmentkey.md">TmDereferenceEnlistmentKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 

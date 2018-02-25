@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce54cf4e-5b50-4142-b3c7-ff29b7bdbb35
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbevalacpimethod, DxgkCbEvalAcpiMethod callback function [Display Devices], DxgkCbEvalAcpiMethod, DXGKCB_EVAL_ACPI_METHOD, DXGKCB_EVAL_ACPI_METHOD, dispmprt/DxgkCbEvalAcpiMethod, DpFunctions_e18a1463-e8cb-4ecf-a50f-424dd71db4c3.xml
+ms.keywords: DXGKCB_EVAL_ACPI_METHOD, DpFunctions_e18a1463-e8cb-4ecf-a50f-424dd71db4c3.xml, DxgkCbEvalAcpiMethod, DxgkCbEvalAcpiMethod callback function [Display Devices], display.dxgkcbevalacpimethod, dispmprt/DxgkCbEvalAcpiMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -215,7 +215,7 @@ The following code example shows how to evaluate an ACPI method.
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
 
 
@@ -227,7 +227,7 @@ The following code example shows how to evaluate an ACPI method.
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4B42E143-17F5-4841-A9EA-C225B167E242
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddstor/AtaDataTypeIdentify, ntddstor/STORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/AtaDataTypeLogPage, ntddstor/AtaDataTypeUnknown, STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Storage Devices], storage.storage_protocol_ata_data_type, STORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeIdentify, ntddstor/PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeLogPage, PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Storage Devices], _STORAGE_PROTOCOL_ATA_DATA_TYPE, PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeUnknown, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE
+ms.keywords: ",  , *, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE, ,, A, AtaDataTypeIdentify, AtaDataTypeLogPage, AtaDataTypeUnknown, C, D, E, G, L, O, P, PSTORAGE_PROTOCOL_ATA_DATA_TYPE, PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Storage Devices], R, S, STORAGE_PROTOCOL_ATA_DATA_TYPE, STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Storage Devices], T, Y, _, _STORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/AtaDataTypeIdentify, ntddstor/AtaDataTypeLogPage, ntddstor/AtaDataTypeUnknown, ntddstor/PSTORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/STORAGE_PROTOCOL_ATA_DATA_TYPE, storage.storage_protocol_ata_data_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f1d3a443-7980-4894-b6a9-04c0886c6996
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getencryptionbltkey1, pfnGetEncryptionBltKey callback function [Display Devices], pfnGetEncryptionBltKey, PFND3D11_1DDI_GETENCRYPTIONBLTKEY, PFND3D11_1DDI_GETENCRYPTIONBLTKEY, d3d10umddi/pfnGetEncryptionBltKey
+ms.keywords: PFND3D11_1DDI_GETENCRYPTIONBLTKEY, d3d10umddi/pfnGetEncryptionBltKey, display.getencryptionbltkey1, pfnGetEncryptionBltKey, pfnGetEncryptionBltKey callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,11 +115,11 @@ When the <b>GetEncryptionBltKey</b> function is called, the display miniport dri
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt.md">EncryptionBlt(D3D11_1)</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt.md">EncryptionBlt(D3D11_1)</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DAEA7A9C-3ACD-49E5-A634-A844D9694412
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddscsi/MPIO_PASS_THROUGH_PATH_EX, storage.mpio_pass_through_path_ex, PMPIO_PASS_THROUGH_PATH_EX structure pointer [Storage Devices], _MPIO_PASS_THROUGH_PATH_EX, PMPIO_PASS_THROUGH_PATH_EX, *PMPIO_PASS_THROUGH_PATH_EX, MPIO_PASS_THROUGH_PATH_EX structure [Storage Devices], ntddscsi/PMPIO_PASS_THROUGH_PATH_EX, MPIO_PASS_THROUGH_PATH_EX
+ms.keywords: ",  , *, *PMPIO_PASS_THROUGH_PATH_EX, ,, A, E, G, H, I, M, MPIO_PASS_THROUGH_PATH_EX, MPIO_PASS_THROUGH_PATH_EX structure [Storage Devices], O, P, PMPIO_PASS_THROUGH_PATH_EX, PMPIO_PASS_THROUGH_PATH_EX structure pointer [Storage Devices], R, S, T, U, X, _, _MPIO_PASS_THROUGH_PATH_EX, ntddscsi/MPIO_PASS_THROUGH_PATH_EX, ntddscsi/PMPIO_PASS_THROUGH_PATH_EX, storage.mpio_pass_through_path_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,23 +119,7 @@ The <b>PathID</b> for the real LUN. This value can be obtained by using a WMI re
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a>
-
-
-
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a>
-
-
-
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_ex.md">IOCTL_MPIO_PASS_THROUGH_PATH_EX</a>
-
-
-
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
@@ -143,7 +127,23 @@ The <b>PathID</b> for the real LUN. This value can be obtained by using a WMI re
 
 
 
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a>
+
+
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a>
+
+
+
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_ex.md">IOCTL_MPIO_PASS_THROUGH_PATH_EX</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
 
 
 

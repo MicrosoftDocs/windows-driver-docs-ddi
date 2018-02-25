@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8bfe793d-c902-4459-98eb-e134759efc48
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: REG_QUERY_KEY_SECURITY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_QUERY_KEY_SECURITY_INFORMATION, kernel.reg_query_key_security_information, kstruct_d_952b1831-9ce9-4f9e-8669-02480c0ad3a0.xml, wdm/REG_QUERY_KEY_SECURITY_INFORMATION, PREG_QUERY_KEY_SECURITY_INFORMATION, wdm/PREG_QUERY_KEY_SECURITY_INFORMATION, REG_QUERY_KEY_SECURITY_INFORMATION, PREG_QUERY_KEY_SECURITY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _REG_QUERY_KEY_SECURITY_INFORMATION
+ms.keywords: ",  , *, *PREG_QUERY_KEY_SECURITY_INFORMATION, ,, A, C, E, F, G, I, K, M, N, O, P, PREG_QUERY_KEY_SECURITY_INFORMATION, PREG_QUERY_KEY_SECURITY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], Q, R, REG_QUERY_KEY_SECURITY_INFORMATION, REG_QUERY_KEY_SECURITY_INFORMATION structure [Kernel-Mode Driver Architecture], S, T, U, Y, _, _REG_QUERY_KEY_SECURITY_INFORMATION, kernel.reg_query_key_security_information, kstruct_d_952b1831-9ce9-4f9e-8669-02480c0ad3a0.xml, wdm/PREG_QUERY_KEY_SECURITY_INFORMATION, wdm/REG_QUERY_KEY_SECURITY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,11 +122,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
 
 
 
@@ -134,11 +134,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
+<a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 

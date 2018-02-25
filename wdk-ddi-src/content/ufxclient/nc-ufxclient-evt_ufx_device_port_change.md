@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A231F47E-C7A2-4C21-99F8-EC856C6F6D88
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_port_change, EvtUfxDevicePortChange callback function [Buses], EvtUfxDevicePortChange, EVT_UFX_DEVICE_PORT_CHANGE, EVT_UFX_DEVICE_PORT_CHANGE, ufxclient/EvtUfxDevicePortChange, PFN_UFX_DEVICE_PORT_CHANGE callback function pointer [Buses], PFN_UFX_DEVICE_PORT_CHANGE
+ms.keywords: EVT_UFX_DEVICE_PORT_CHANGE, EvtUfxDevicePortChange, EvtUfxDevicePortChange callback function [Buses], PFN_UFX_DEVICE_PORT_CHANGE, PFN_UFX_DEVICE_PORT_CHANGE callback function pointer [Buses], buses.evt_ufx_device_port_change, ufxclient/EvtUfxDevicePortChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -170,11 +170,11 @@ Arguments:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3d681026-7ccb-4dcb-bed1-505c13089177
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PARAM_LU_LAC, ntddrilapitypes/RIL_PARAM_LU_ALL, ntddrilapitypes/RILLOCATIONINFOPARAMMASK, RIL_PARAM_LU_CELLID, RIL_PARAM_LU_ALL, RIL_PARAM_LU_HUICCAPP, ntddrilapitypes/RIL_PARAM_LU_TAC, ntddrilapitypes/RIL_PARAM_LU_LAC, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILLOCATIONINFOPARAMMASK, netvista.rillocationinfoparammask, ntddrilapitypes/RIL_PARAM_LU_HUICCAPP, RIL_PARAM_LU_TAC, ntddrilapitypes/RIL_PARAM_LU_CELLID
+ms.keywords: ",  , ,, A, C, F, I, K, L, M, N, O, P, R, RILLOCATIONINFOPARAMMASK, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_LU_ALL, RIL_PARAM_LU_CELLID, RIL_PARAM_LU_HUICCAPP, RIL_PARAM_LU_LAC, RIL_PARAM_LU_TAC, S, T, netvista.rillocationinfoparammask, ntddrilapitypes/RILLOCATIONINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_LU_ALL, ntddrilapitypes/RIL_PARAM_LU_CELLID, ntddrilapitypes/RIL_PARAM_LU_HUICCAPP, ntddrilapitypes/RIL_PARAM_LU_LAC, ntddrilapitypes/RIL_PARAM_LU_TAC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

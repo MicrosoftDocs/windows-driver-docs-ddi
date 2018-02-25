@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48322143-8c95-4ffa-ac7a-597ed5fb066c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPort_Functions_c9709e69-cf6e-4772-8889-0c37f79c0b22.xml, display.videoportwriteregisterbufferulong, video/VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong function [Display Devices]
+ms.keywords: ",  , B, P, R, U, V, VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong function [Display Devices], VideoPort_Functions_c9709e69-cf6e-4772-8889-0c37f79c0b22.xml, W, d, display.videoportwriteregisterbufferulong, e, f, g, i, l, n, o, r, s, t, u, video/VideoPortWriteRegisterBufferUlong"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

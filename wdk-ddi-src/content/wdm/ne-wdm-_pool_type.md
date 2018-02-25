@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a3dd0c74-3835-4f03-8b62-08954baaffe7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/NonPagedPoolMustSucceedSession, PagedPoolCacheAligned, wdm/NonPagedPoolSession, NonPagedPoolBaseCacheAligned, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/NonPagedPoolSessionNx, DontUseThisType, wdm/DontUseThisType, wdm/NonPagedPoolExecute, POOL_TYPE, NonPagedPoolCacheAlignedSession, wdm/NonPagedPoolMustSucceed, wdm/PagedPool, NonPagedPoolMustSucceed, kernel.pool_type, wdm/POOL_TYPE, wdm/PagedPoolCacheAlignedSession, wdm/NonPagedPool, NonPagedPoolMustSucceedSession, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, wdm/NonPagedPoolCacheAlignedMustSSession, NonPagedPoolExecute, wdm/NonPagedPoolNxCacheAligned, PagedPool, wdm/NonPagedPoolBaseMustSucceed, MaxPoolType, NonPagedPoolNxCacheAligned, NonPagedPoolCacheAligned, wdm/NonPagedPoolCacheAlignedMustS, NonPagedPoolCacheAlignedMustS, NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolCacheAlignedSession, NonPagedPoolNx, NonPagedPoolCacheAlignedMustSSession, wdm/NonPagedPoolNx, NonPagedPoolSession, wdm/MaxPoolType, DontUseThisTypeSession, wdm/NonPagedPoolBase, NonPagedPoolBaseMustSucceed, PagedPoolCacheAlignedSession, wdm/NonPagedPoolBaseCacheAligned, NonPagedPool, wdm/DontUseThisTypeSession, NonPagedPoolBase, PagedPoolSession, wdm/NonPagedPoolCacheAligned, wdm/PagedPoolSession, wdm/NonPagedPoolBaseCacheAlignedMustS, _POOL_TYPE, NonPagedPoolSessionNx, wdm/PagedPoolCacheAligned
+ms.keywords: ",  , ,, DontUseThisType, DontUseThisTypeSession, E, L, MaxPoolType, NonPagedPool, NonPagedPoolBase, NonPagedPoolBaseCacheAligned, NonPagedPoolBaseCacheAlignedMustS, NonPagedPoolBaseMustSucceed, NonPagedPoolCacheAligned, NonPagedPoolCacheAlignedMustS, NonPagedPoolCacheAlignedMustSSession, NonPagedPoolCacheAlignedSession, NonPagedPoolExecute, NonPagedPoolMustSucceed, NonPagedPoolMustSucceedSession, NonPagedPoolNx, NonPagedPoolNxCacheAligned, NonPagedPoolSession, NonPagedPoolSessionNx, O, P, POOL_TYPE, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], PagedPool, PagedPoolCacheAligned, PagedPoolCacheAlignedSession, PagedPoolSession, T, Y, _, _POOL_TYPE, kernel.pool_type, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, wdm/DontUseThisType, wdm/DontUseThisTypeSession, wdm/MaxPoolType, wdm/NonPagedPool, wdm/NonPagedPoolBase, wdm/NonPagedPoolBaseCacheAligned, wdm/NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolBaseMustSucceed, wdm/NonPagedPoolCacheAligned, wdm/NonPagedPoolCacheAlignedMustS, wdm/NonPagedPoolCacheAlignedMustSSession, wdm/NonPagedPoolCacheAlignedSession, wdm/NonPagedPoolExecute, wdm/NonPagedPoolMustSucceed, wdm/NonPagedPoolMustSucceedSession, wdm/NonPagedPoolNx, wdm/NonPagedPoolNxCacheAligned, wdm/NonPagedPoolSession, wdm/NonPagedPoolSessionNx, wdm/POOL_TYPE, wdm/PagedPool, wdm/PagedPoolCacheAligned, wdm/PagedPoolCacheAlignedSession, wdm/PagedPoolSession"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -213,6 +213,18 @@ Reserved for exclusive use by the operating system.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
 
@@ -221,23 +233,7 @@ Reserved for exclusive use by the operating system.
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
 
 
 
@@ -245,7 +241,11 @@ Reserved for exclusive use by the operating system.
 
 
 
-<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

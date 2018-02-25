@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F3FA3790-0754-4D5E-9F27-8ECD71278520
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_NDIS_NDK_STATISTICS_INFO, PNDIS_NDK_STATISTICS_INFO, ntddndis/PNDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO, PNDIS_NDK_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_ndk_statistics_info, ntddndis/NDIS_NDK_STATISTICS_INFO"
+ms.keywords: ",  , ,, A, C, D, F, I, K, N, NDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], O, PNDIS_NDK_STATISTICS_INFO, PNDIS_NDK_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], S, T, _, _NDIS_NDK_STATISTICS_INFO, netvista.ndis_ndk_statistics_info, ntddndis/NDIS_NDK_STATISTICS_INFO, ntddndis/PNDIS_NDK_STATISTICS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

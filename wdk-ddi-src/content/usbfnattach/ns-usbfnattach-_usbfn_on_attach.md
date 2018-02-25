@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2CD75FA9-F77E-4AC5-870E-69CF05DB9312
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBFN_ON_ATTACH, usbfnattach/PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH structure pointer [Buses], USBFN_ON_ATTACH structure [Buses], PUSBFN_ON_ATTACH, usbfnattach/USBFN_ON_ATTACH, _USBFN_ON_ATTACH, buses.usbfn_on_attach, *PUSBFN_ON_ATTACH
+ms.keywords: ",  , *, *PUSBFN_ON_ATTACH, ,, A, B, C, F, H, N, O, P, PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH structure pointer [Buses], S, T, U, USBFN_ON_ATTACH, USBFN_ON_ATTACH structure [Buses], _, _USBFN_ON_ATTACH, buses.usbfn_on_attach, usbfnattach/PUSBFN_ON_ATTACH, usbfnattach/USBFN_ON_ATTACH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 38e1bb07-be98-494b-a9c9-a83edef367e0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, OEMQueryDeviceSupport function [Print Devices], printoem/OEMQueryDeviceSupport, OEMQueryDeviceSupport, print.oemquerydevicesupport
+ms.keywords: ",  , D, E, M, O, OEMQueryDeviceSupport, OEMQueryDeviceSupport function [Print Devices], Q, S, c, e, i, o, p, print.oemquerydevicesupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, printoem/OEMQueryDeviceSupport, r, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

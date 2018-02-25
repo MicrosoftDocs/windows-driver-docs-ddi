@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5b74b4c4-d1a3-4587-900a-b54eebfeb553
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxref_5883f8a0-cc54-4efe-bb98-13239c78abff.xml, ifsk.rxsetminirdrcancelroutine, rxcontx/RxSetMinirdrCancelRoutine, RxSetMinirdrCancelRoutine routine [Installable File System Drivers], RxSetMinirdrCancelRoutine
+ms.keywords: ",  , C, M, R, RxSetMinirdrCancelRoutine, RxSetMinirdrCancelRoutine routine [Installable File System Drivers], S, a, c, d, e, i, ifsk.rxsetminirdrcancelroutine, l, n, o, r, rxcontx/RxSetMinirdrCancelRoutine, rxref_5883f8a0-cc54-4efe-bb98-13239c78abff.xml, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,11 +118,11 @@ The <b>RxSetMinirdrCancelRoutine</b> routine sets the <b>MRxCancelRoutine</b> me
 
 ## -see-also
 
+<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+
+
+
 <a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
 
 
 
@@ -130,11 +130,15 @@ The <b>RxSetMinirdrCancelRoutine</b> routine sets the <b>MRxCancelRoutine</b> me
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
 
 
 
@@ -146,11 +150,7 @@ The <b>RxSetMinirdrCancelRoutine</b> routine sets the <b>MRxCancelRoutine</b> me
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 

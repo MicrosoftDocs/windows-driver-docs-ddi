@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 649ce7fc-6852-43f3-b944-b2b64fcba874
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbqueryvidpninterface, DxgkCbQueryVidPnInterface callback function [Display Devices], DxgkCbQueryVidPnInterface, DXGKCB_QUERYVIDPNINTERFACE, DXGKCB_QUERYVIDPNINTERFACE, d3dkmddi/DxgkCbQueryVidPnInterface, DpFunctions_0bbf993b-c05b-402b-af4a-cf1a3ec4d4b8.xml
+ms.keywords: DXGKCB_QUERYVIDPNINTERFACE, DpFunctions_0bbf993b-c05b-402b-af4a-cf1a3ec4d4b8.xml, DxgkCbQueryVidPnInterface, DxgkCbQueryVidPnInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryVidPnInterface, display.dxgkcbqueryvidpninterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -150,15 +150,11 @@ The interface version specified by <i>VidPnInterfaceVersion</i> is not supported
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPN Interface</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570559">VidPN Target Mode Set Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPN Topology Interface</a>
 
 
 
@@ -166,7 +162,11 @@ The interface version specified by <i>VidPnInterfaceVersion</i> is not supported
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPN Topology Interface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPN Interface</a>
 
 
 

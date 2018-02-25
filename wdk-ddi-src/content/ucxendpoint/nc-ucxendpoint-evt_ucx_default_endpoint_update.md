@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 0a67ef0a-07ec-43d3-9a25-b28192677b35
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_default_endpoint_update, EvtUcxDefaultEndpointUpdate callback function [Buses], EvtUcxDefaultEndpointUpdate, EVT_UCX_DEFAULT_ENDPOINT_UPDATE, EVT_UCX_DEFAULT_ENDPOINT_UPDATE, ucxendpoint/EvtUcxDefaultEndpointUpdate, PEVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function pointer [Buses], PEVT_UCX_DEFAULT_ENDPOINT_UPDATE
+ms.keywords: EVT_UCX_DEFAULT_ENDPOINT_UPDATE, EvtUcxDefaultEndpointUpdate, EvtUcxDefaultEndpointUpdate callback function [Buses], PEVT_UCX_DEFAULT_ENDPOINT_UPDATE, PEVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function pointer [Buses], buses.evt_ucx_default_endpoint_update, ucxendpoint/EvtUcxDefaultEndpointUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -139,11 +139,11 @@ Endpoint_EvtUcxDefaultEndpointUpdate(
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
-
-
-
 <a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+
+
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
 
 
 

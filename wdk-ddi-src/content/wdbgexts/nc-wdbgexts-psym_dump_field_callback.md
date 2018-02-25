@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3a1d9751-194a-4eb7-86f1-f6e812b52f0c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.psym_dump_field_callback, PSYM_DUMP_FIELD_CALLBACK function pointer [Windows Debugging], PSYM_DUMP_FIELD_CALLBACK, wdbgexts/PSYM_DUMP_FIELD_CALLBACK, WdbgExts_Ref_37493dec-e340-408d-8f7c-bda18057f427.xml
+ms.keywords: PSYM_DUMP_FIELD_CALLBACK, PSYM_DUMP_FIELD_CALLBACK function pointer [Windows Debugging], WdbgExts_Ref_37493dec-e340-408d-8f7c-bda18057f427.xml, debugger.psym_dump_field_callback, wdbgexts/PSYM_DUMP_FIELD_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

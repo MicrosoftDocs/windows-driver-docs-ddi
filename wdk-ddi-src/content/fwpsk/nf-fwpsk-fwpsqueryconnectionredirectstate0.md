@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6db0a5ac-edab-4e84-b378-30ed0c23cd4b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsQueryConnectionRedirectState0, netvista.fwpsqueryconnectionredirectstate0, fwpsk/FwpsQueryConnectionRedirectState0, FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , 0, C, F, FwpsQueryConnectionRedirectState0, FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista], Q, R, S, a, c, d, e, fwpsk/FwpsQueryConnectionRedirectState0, i, n, netvista.fwpsqueryconnectionredirectstate0, o, p, r, s, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,11 +129,11 @@ If the redirect status is FWPS_CONNECTION_PREVIOUSLY_REDIRECTED_BY_SELF, the ALE
 
 ## -see-also
 
-<a href="..\fwpsk\ne-fwpsk-fwps_connection_redirect_state_.md">FWPS_CONNECTION_REDIRECT_STATE</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a>
+
+
+
+<a href="..\fwpsk\ne-fwpsk-fwps_connection_redirect_state_.md">FWPS_CONNECTION_REDIRECT_STATE</a>
 
 
 

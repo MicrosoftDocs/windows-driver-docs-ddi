@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 51a04ca9-4ccd-409e-b47a-1105637e6f6f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.dump_unload, Dump_Unload routine [Storage Devices], Dump_Unload, PDUMP_UNLOAD, PDUMP_UNLOAD, ntdddump/Dump_Unload, filter_rtns_01414353-4ca7-409e-a360-a7ad69a57b40.xml
+ms.keywords: Dump_Unload, Dump_Unload routine [Storage Devices], PDUMP_UNLOAD, filter_rtns_01414353-4ca7-409e-a360-a7ad69a57b40.xml, ntdddump/Dump_Unload, storage.dump_unload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

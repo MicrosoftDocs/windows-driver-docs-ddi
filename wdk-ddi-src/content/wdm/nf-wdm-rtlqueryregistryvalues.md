@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6c6d0664-0c00-461b-bcac-13070511430c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], RtlQueryRegistryValues, wdm/RtlQueryRegistryValues, kernel.rtlqueryregistryvalues, k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml
+ms.keywords: ",  , Q, R, RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], V, a, e, g, i, k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, l, r, s, t, u, wdm/RtlQueryRegistryValues, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -558,7 +558,11 @@ See <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a> for a description
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\smclib\nf-smclib-rtlzeromemory.md">RtlZeroMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 
 
@@ -570,15 +574,11 @@ See <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a> for a description
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-
-
-<a href="..\minitape\nf-minitape-rtlzeromemory.md">RtlZeroMemory</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

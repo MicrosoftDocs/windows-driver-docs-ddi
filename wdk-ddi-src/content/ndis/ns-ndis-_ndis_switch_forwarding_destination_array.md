@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f48b3b5f-000e-4e57-87b7-52ce542773f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, ndis/PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, ndis/NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_forwarding_destination_array, NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY"
+ms.keywords: ",  , *, *PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, ,, A, C, D, E, F, G, H, I, N, NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY structure pointer [Network Drivers Starting with Windows Vista], R, S, T, W, Y, _, _NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, ndis/NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, ndis/PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, netvista.ndis_switch_forwarding_destination_array"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -162,6 +162,10 @@ Extensible switch extensions can use the <a href="https://msdn.microsoft.com/lib
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
@@ -171,14 +175,6 @@ Extensible switch extensions can use the <a href="https://msdn.microsoft.com/lib
 
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/9A740524-0FC1-4585-8059-F678D4777F66">UpdateNetBufferListDestinations</a>
-
-
-
-<a href="https://msdn.microsoft.com/7ABBB3F3-66F5-4651-8A5A-94940F3FD82D">Forwarding Extensions</a>
 
 
 
@@ -202,7 +198,11 @@ Extensible switch extensions can use the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
+<a href="https://msdn.microsoft.com/7ABBB3F3-66F5-4651-8A5A-94940F3FD82D">Forwarding Extensions</a>
+
+
+
+<a href="https://msdn.microsoft.com/9A740524-0FC1-4585-8059-F678D4777F66">UpdateNetBufferListDestinations</a>
 
 
 

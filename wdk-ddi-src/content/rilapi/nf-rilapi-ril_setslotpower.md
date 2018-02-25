@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c7e12c2a-3382-478b-a306-7c86c93d45d0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_setslotpower, rilapi/RIL_SetSlotPower, RIL_SetSlotPower method [Network Drivers Starting with Windows Vista], RIL_SetSlotPower
+ms.keywords: ",  , I, L, P, R, RIL_SetSlotPower, RIL_SetSlotPower method [Network Drivers Starting with Windows Vista], S, _, e, l, netvista.ril_setslotpower, o, r, rilapi/RIL_SetSlotPower, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

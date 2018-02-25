@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstoradaptercontrol, HwStorAdapterControl routine [Storage Devices], HwStorAdapterControl, HW_ADAPTER_CONTROL, HW_ADAPTER_CONTROL, storport/HwStorAdapterControl, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml
+ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -1006,10 +1006,6 @@ The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
-
-
-
 <a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
 
 
@@ -1018,11 +1014,15 @@ The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header 
 
 
 
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
+
 <a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
 
 
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
 
 
 

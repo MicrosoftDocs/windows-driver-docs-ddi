@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 64daec14-8e16-4df3-bb0c-27760223b86c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getquerydata, GetQueryData callback function [Display Devices], GetQueryData, PFND3DDDI_GETQUERYDATA, PFND3DDDI_GETQUERYDATA, d3dumddi/GetQueryData, UserModeDisplayDriver_Functions_05870f6b-5971-4201-9910-c8c8c548878a.xml
+ms.keywords: GetQueryData, GetQueryData callback function [Display Devices], PFND3DDDI_GETQUERYDATA, UserModeDisplayDriver_Functions_05870f6b-5971-4201-9910-c8c8c548878a.xml, d3dumddi/GetQueryData, display.getquerydata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e780be4b-ac62-43c2-9767-7745ff1c7dbb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.getlinebyoffsetwide, IDebugSymbols3 interface [Windows Debugging], GetLineByOffsetWide method, GetLineByOffsetWide, IDebugSymbols3, dbgeng/IDebugSymbols3::GetLineByOffsetWide, IDebugSymbols3::GetLineByOffsetWide, GetLineByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetLineByOffsetWide method [Windows Debugging]
+ms.keywords: ",  , ,, ., 3, :, B, D, G, GetLineByOffsetWide method [Windows Debugging], GetLineByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetLineByOffsetWide,IDebugSymbols3.GetLineByOffsetWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetLineByOffsetWide method, IDebugSymbols3::GetLineByOffsetWide, L, O, S, W, b, d, dbgeng/IDebugSymbols3::GetLineByOffsetWide, debugger.getlinebyoffsetwide, e, f, g, i, l, m, n, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D44FF0C7-D82C-4CDD-A5F9-BBD8257C6771
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_STOR_POFX_COMPONENT, storport/STOR_POFX_COMPONENT, STOR_POFX_COMPONENT structure [Storage Devices], *PSTOR_POFX_COMPONENT, STOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], PSTOR_POFX_COMPONENT, storage.stor_pofx_component, storport/PSTOR_POFX_COMPONENT"
+ms.keywords: ",  , *, *PSTOR_POFX_COMPONENT, ,, C, E, F, M, N, O, P, PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], R, S, STOR_POFX_COMPONENT, STOR_POFX_COMPONENT structure [Storage Devices], T, X, _, _STOR_POFX_COMPONENT, storage.stor_pofx_component, storport/PSTOR_POFX_COMPONENT, storport/STOR_POFX_COMPONENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,11 +127,11 @@ For a unit device component, if an additional F-state is included in the <b>FSta
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_pofx_component_idle_state.md">STOR_POFX_COMPONENT_IDLE_STATE</a>
-
-
-
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_pofx_component_idle_state.md">STOR_POFX_COMPONENT_IDLE_STATE</a>
 
 
 

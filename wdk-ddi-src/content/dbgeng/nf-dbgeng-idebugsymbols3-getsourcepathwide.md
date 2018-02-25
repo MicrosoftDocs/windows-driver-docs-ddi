@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6c9c8270-78c4-4bc2-a0e4-5c5e245326ad
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetSourcePathWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourcePathWide method, dbgeng/IDebugSymbols3::GetSourcePathWide, GetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, GetSourcePathWide method [Windows Debugging], debugger.getsourcepathwide, IDebugSymbols3::GetSourcePathWide
+ms.keywords: ",  , ,, ., 3, :, D, G, GetSourcePathWide method [Windows Debugging], GetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, GetSourcePathWide,IDebugSymbols3.GetSourcePathWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourcePathWide method, IDebugSymbols3::GetSourcePathWide, P, S, W, a, b, c, d, dbgeng/IDebugSymbols3::GetSourcePathWide, debugger.getsourcepathwide, e, g, h, i, l, m, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,7 +136,7 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -148,7 +148,7 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
 
 
 

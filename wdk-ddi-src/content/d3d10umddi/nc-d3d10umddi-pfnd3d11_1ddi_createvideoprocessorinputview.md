@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3942c53-e366-41c5-9f43-d093fa6b6ed6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createvideoprocessorinputview, CreateVideoProcessorInputView callback function [Display Devices], CreateVideoProcessorInputView, PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW, PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW, d3d10umddi/CreateVideoProcessorInputView
+ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW, d3d10umddi/CreateVideoProcessorInputView, display.createvideoprocessorinputview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -188,11 +188,11 @@ When the runtime  calls <i>CreateVideoProcessorInputView</i>, it passes the hand
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorinputviewsize.md">CalcPrivateVideoProcessorInputViewSize</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a>
 
 
 

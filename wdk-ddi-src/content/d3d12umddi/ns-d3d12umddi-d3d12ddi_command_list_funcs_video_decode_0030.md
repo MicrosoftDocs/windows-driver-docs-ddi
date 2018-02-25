@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ca1b9c07-0195-4e0d-9917-96def0a8ea47
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030, display.d3d12ddi-command-list-funcs-video-decode-0030, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030 structure [Display Devices], E, F, I, L, M, N, O, S, T, U, V, _, d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030, display.d3d12ddi-command-list-funcs-video-decode-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 00d8385e-e339-4e63-a79a-f5fa87d8987d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.camallocatebandwidthex, CamAllocateBandwidthEx, CamAllocateBandwidthEx routine [Streaming Media Devices], CamAllocateBandwidthEx, PCAM_ALLOCATE_BW_ROUTINE_EX, PCAM_ALLOCATE_BW_ROUTINE_EX, usbcamdi/CamAllocateBandwidthEx, usbcmdpr_dd4a1139-55b9-4342-9eeb-69e902497fa2.xml
+ms.keywords: CamAllocateBandwidthEx, CamAllocateBandwidthEx routine [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE_EX, stream.camallocatebandwidthex, usbcamdi/CamAllocateBandwidthEx, usbcmdpr_dd4a1139-55b9-4342-9eeb-69e902497fa2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -130,11 +130,11 @@ This function is required.
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
-
-
-
 <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
 
 
 

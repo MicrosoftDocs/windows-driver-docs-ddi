@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 747cfbfb-2a38-4a0d-b8c6-662d0c3967ba
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidgetpowerstate, HwVidGetPowerState callback function [Display Devices], HwVidGetPowerState, PVIDEO_HW_POWER_GET, PVIDEO_HW_POWER_GET, video/HwVidGetPowerState, VideoMiniport_Functions_b47b2224-5e0b-44af-9d04-107ff1299381.xml
+ms.keywords: HwVidGetPowerState, HwVidGetPowerState callback function [Display Devices], PVIDEO_HW_POWER_GET, VideoMiniport_Functions_b47b2224-5e0b-44af-9d04-107ff1299381.xml, display.hwvidgetpowerstate, video/HwVidGetPowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,11 +144,11 @@ This function must not return the current power state of the device.
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a>
 
 
 

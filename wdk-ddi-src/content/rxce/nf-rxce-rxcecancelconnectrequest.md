@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 32893a68-68ac-4bac-ab0f-1d07a1e873f3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxCeCancelConnectRequest routine [Installable File System Drivers], ifsk.rxcecancelconnectrequest, rxce/RxCeCancelConnectRequest, rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml, RxCeCancelConnectRequest
+ms.keywords: ",  , C, R, RxCeCancelConnectRequest, RxCeCancelConnectRequest routine [Installable File System Drivers], a, c, e, ifsk.rxcecancelconnectrequest, l, n, o, q, rxce/RxCeCancelConnectRequest, rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

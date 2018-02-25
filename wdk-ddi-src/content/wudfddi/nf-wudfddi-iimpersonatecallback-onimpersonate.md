@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f06e89c-5298-4335-ab9a-ef69e635152c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, wdf.iimpersonatecallback_onimpersonate, OnImpersonate method, IImpersonateCallback interface, umdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate, OnImpersonate, IImpersonateCallback::OnImpersonate, IImpersonateCallback interface, OnImpersonate method, OnImpersonate method, IImpersonateCallback
+ms.keywords: ",  , ,, ., :, C, I, IImpersonateCallback, IImpersonateCallback interface, OnImpersonate method, IImpersonateCallback::OnImpersonate, O, OnImpersonate method, OnImpersonate method, IImpersonateCallback interface, OnImpersonate,IImpersonateCallback.OnImpersonate, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, a, b, c, e, k, l, m, n, o, p, r, s, t, umdf.iimpersonatecallback_onimpersonate, wdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,11 +101,11 @@ For more information about how UMDF and UMDF drivers handle impersonation, see <
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
 
 
 

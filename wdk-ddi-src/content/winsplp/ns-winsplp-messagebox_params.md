@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 28a94e25-9beb-46a1-9e9d-9fe4823372be
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PMESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS structure [Print Devices], *PMESSAGEBOX_PARAMS, print.messagebox_params, winsplp/MESSAGEBOX_PARAMS, PMESSAGEBOX_PARAMS structure pointer [Print Devices], winsplp/PMESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS, spoolfnc_c70908b4-e8de-4e3e-810d-d76cf2104d91.xml
+ms.keywords: ",  , *, *PMESSAGEBOX_PARAMS, ,, A, B, E, G, M, MESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS structure [Print Devices], O, P, PMESSAGEBOX_PARAMS, PMESSAGEBOX_PARAMS structure pointer [Print Devices], R, S, X, _, print.messagebox_params, spoolfnc_c70908b4-e8de-4e3e-810d-d76cf2104d91.xml, winsplp/MESSAGEBOX_PARAMS, winsplp/PMESSAGEBOX_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

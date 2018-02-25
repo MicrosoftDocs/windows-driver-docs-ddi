@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b2723a34-d9c2-40c9-b6c9-6441ead63d2e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ChangerGetProductData function [Storage Devices], storage.changergetproductdata, ChangerGetProductData, chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, mcd/ChangerGetProductData
+ms.keywords: ",  , C, ChangerGetProductData, ChangerGetProductData function [Storage Devices], D, G, P, a, c, chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, d, e, g, h, mcd/ChangerGetProductData, n, o, r, storage.changergetproductdata, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

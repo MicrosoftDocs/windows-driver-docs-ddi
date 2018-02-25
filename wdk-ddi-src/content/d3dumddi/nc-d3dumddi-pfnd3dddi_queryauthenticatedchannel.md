@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 13b65b5a-9512-4d67-b629-479bdd74674e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.queryauthenticatedchannel, QueryAuthenticatedChannel callback function [Display Devices], QueryAuthenticatedChannel, PFND3DDDI_QUERYAUTHENTICATEDCHANNEL, PFND3DDDI_QUERYAUTHENTICATEDCHANNEL, d3dumddi/QueryAuthenticatedChannel, UserModeDisplayDriver_Functions_4d4f5258-9b7c-42c8-b256-223b6b99d1f6.xml
+ms.keywords: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], UserModeDisplayDriver_Functions_4d4f5258-9b7c-42c8-b256-223b6b99d1f6.xml, d3dumddi/QueryAuthenticatedChannel, display.queryauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -148,11 +148,11 @@ Except for those situations in which the application incorrectly specifies an ou
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_queryauthenicatedchannel.md">D3DDDIARG_QUERYAUTHENTICATEDCHANNEL</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a>
 
 
 

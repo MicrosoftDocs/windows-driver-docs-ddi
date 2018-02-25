@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2bfdc5c6-da5a-43c1-9165-02d6c448a690
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfiotarget2_formatrequestforsetinformation, IWDFIoTarget2::FormatRequestForSetInformation, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, wdf.iwdfiotarget2_formatrequestforsetinformation, FormatRequestForSetInformation, FormatRequestForSetInformation method, IWDFIoTarget2 interface, FormatRequestForSetInformation method, IWDFIoTarget2 interface, FormatRequestForSetInformation method, IWDFIoTarget2
+ms.keywords: ",  , ,, ., 2, :, D, F, FormatRequestForSetInformation method, FormatRequestForSetInformation method, IWDFIoTarget2 interface, FormatRequestForSetInformation,IWDFIoTarget2.FormatRequestForSetInformation, I, IWDFIoTarget2, IWDFIoTarget2 interface, FormatRequestForSetInformation method, IWDFIoTarget2::FormatRequestForSetInformation, R, S, T, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, W, a, e, f, g, i, m, n, o, q, r, s, t, u, umdf.iwdfiotarget2_formatrequestforsetinformation, wdf.iwdfiotarget2_formatrequestforsetinformation, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -224,11 +224,11 @@ Error;
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559184">IWDFIoTarget2::FormatRequestForQueryInformation</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
 
 
 

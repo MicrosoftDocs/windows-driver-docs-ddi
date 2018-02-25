@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3e0c51af-ceb9-4c06-ab6a-ccc468997fdd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry function [Imaging Devices], wiamicro/MicroEntry, MicroEntry, image.microentry
+ms.keywords: ",  , E, M, MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry, MicroEntry function [Imaging Devices], c, i, image.microentry, n, o, r, t, wiamicro/MicroEntry, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ Two structures are passed to the function. A <a href="..\wiamicro\ns-wiamicro-va
 
 ## -see-also
 
+<a href="..\wiamicro\ns-wiamicro-val.md">VAL</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
 
 
 
@@ -113,7 +113,7 @@ Two structures are passed to the function. A <a href="..\wiamicro\ns-wiamicro-va
 
 
 
-<a href="..\wiamicro\ns-wiamicro-val.md">VAL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
 
 
 

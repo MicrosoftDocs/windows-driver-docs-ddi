@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49DDDEF8-F949-4674-A18B-9BB091D163C2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlWriteNonVolatileMemory, ifsk.rtlwritenonvolatilememory, ntddk/RtlWriteNonVolatileMemory, RtlWriteNonVolatileMemory routine [Installable File System Drivers]
+ms.keywords: ",  , M, N, R, RtlWriteNonVolatileMemory, RtlWriteNonVolatileMemory routine [Installable File System Drivers], V, W, a, e, i, ifsk.rtlwritenonvolatilememory, l, m, n, ntddk/RtlWriteNonVolatileMemory, o, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,15 +150,8 @@ The request was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
+<a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">
+RtlFlushNonVolatileMemory</a>
 
 
 
@@ -166,12 +159,19 @@ The request was successful.
 
 
 
+<a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
+
+
+
 <a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
-
-
-
-<a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">
-RtlFlushNonVolatileMemory</a>
 
 
 

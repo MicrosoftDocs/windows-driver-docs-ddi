@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 04153845-4170-40db-ba60-3d438ae0a60d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsResolveRequiredAttributes, stream.ksresolverequiredattributes, ksproxy_fb22470c-5445-4005-b1c3-4f708cc0a47f.xml, KsResolveRequiredAttributes function [Streaming Media Devices], ksproxy/KsResolveRequiredAttributes
+ms.keywords: ",  , A, K, KsResolveRequiredAttributes, KsResolveRequiredAttributes function [Streaming Media Devices], R, b, d, e, i, ksproxy/KsResolveRequiredAttributes, ksproxy_fb22470c-5445-4005-b1c3-4f708cc0a47f.xml, l, o, q, r, s, stream.ksresolverequiredattributes, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
+<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
 
 

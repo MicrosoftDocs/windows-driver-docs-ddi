@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ea36895-4728-45ad-84f7-3517afd2327d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMCoDeactivateVcComplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], netvista.ndismcodeactivatevccomplete, condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, ndis/NdisMCoDeactivateVcComplete
+ms.keywords: ",  , C, D, M, N, NdisMCoDeactivateVcComplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], V, a, c, condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, d, e, i, l, m, ndis/NdisMCoDeactivateVcComplete, netvista.ndismcodeactivatevccomplete, o, p, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,16 +127,16 @@ A call to
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
    ProtocolCmDeactivateVcComplete</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1b8fc764-023f-4aa0-b610-2394a48efc02
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTSignalSynchronizationObject function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObject, D3DKMTSignalSynchronizationObject, OpenGL_Functions_183a6489-8a99-4dd3-a697-04db44b229c9.xml, display.d3dkmtsignalsynchronizationobject
+ms.keywords: ",  , 3, D, D3DKMTSignalSynchronizationObject, D3DKMTSignalSynchronizationObject function [Display Devices], K, M, O, OpenGL_Functions_183a6489-8a99-4dd3-a697-04db44b229c9.xml, S, T, a, b, c, d3dkmthk/D3DKMTSignalSynchronizationObject, display.d3dkmtsignalsynchronizationobject, e, g, h, i, j, l, n, o, r, t, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

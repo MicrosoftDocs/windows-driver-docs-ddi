@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: afa27127-b427-4831-b5f5-3e293738c275
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeExpandKernelStackAndCallout, k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml, KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture], kernel.keexpandkernelstackandcallout, ntddk/KeExpandKernelStackAndCallout
+ms.keywords: ",  , A, C, E, K, KeExpandKernelStackAndCallout, KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture], S, a, c, d, e, k, k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml, kernel.keexpandkernelstackandcallout, l, n, ntddk/KeExpandKernelStackAndCallout, o, p, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,11 +112,11 @@ The calling thread must not call the <a href="..\wdm\nf-wdm-psterminatesystemthr
 
 
 
-<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545494">ExpandedStackCall</a>
+
+
+
+<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
 
 

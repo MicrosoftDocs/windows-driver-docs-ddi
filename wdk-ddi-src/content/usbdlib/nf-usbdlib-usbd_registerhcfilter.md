@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2cc24024-75ec-45ba-867c-efc8e7da7587
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_RegisterHcFilter routine [Buses], buses.usbd_registerhcfilter, USBD_RegisterHcFilter, usbdlib/USBD_RegisterHcFilter, usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml
+ms.keywords: ",  , B, D, F, H, R, S, U, USBD_RegisterHcFilter, USBD_RegisterHcFilter routine [Buses], _, buses.usbd_registerhcfilter, c, e, g, i, l, r, s, t, usbdlib/USBD_RegisterHcFilter, usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

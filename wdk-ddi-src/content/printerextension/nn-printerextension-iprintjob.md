@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 068E53EC-26B8-48E7-A605-081709C94043
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintjob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices], described, IPrintJob, printerextension/IPrintJob
+ms.keywords: IPrintJob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices], described, print.iprintjob, printerextension/IPrintJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -200,11 +200,11 @@ The <b>IPrintJob</b> interface provides a wrapper around select properties of th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
+
+
+
+<a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D0CD9950-DF73-4D46-B901-FA45BA88D3CF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterqueueevent_onbidiresponsereceived, IPrinterQueueEvent::OnBidiResponseReceived, IPrinterQueueEvent interface [Print Devices], OnBidiResponseReceived method, OnBidiResponseReceived method [Print Devices], IPrinterQueueEvent interface, printerextension/IPrinterQueueEvent::OnBidiResponseReceived, IPrinterQueueEvent, OnBidiResponseReceived, OnBidiResponseReceived method [Print Devices]
+ms.keywords: ",  , ,, ., :, B, E, I, IPrinterQueueEvent, IPrinterQueueEvent interface [Print Devices], OnBidiResponseReceived method, IPrinterQueueEvent::OnBidiResponseReceived, O, OnBidiResponseReceived method [Print Devices], OnBidiResponseReceived method [Print Devices], IPrinterQueueEvent interface, OnBidiResponseReceived,IPrinterQueueEvent.OnBidiResponseReceived, P, Q, R, c, d, e, i, n, o, p, print.iprinterqueueevent_onbidiresponsereceived, printerextension/IPrinterQueueEvent::OnBidiResponseReceived, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,11 +99,11 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/E98A121A-514A-4437-A542-E8629697B7EA">IPrinterQueue::SendBidiQuery</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
 
 
 
@@ -111,7 +111,7 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
+<a href="https://msdn.microsoft.com/E98A121A-514A-4437-A542-E8629697B7EA">IPrinterQueue::SendBidiQuery</a>
 
 
 

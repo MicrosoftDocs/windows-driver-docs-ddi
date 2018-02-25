@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 579462C6-2C0B-41AC-836D-2D3448080AD8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.ioctl_gpio_write_pins, IOCTL_GPIO_WRITE_PINS control code [Parallel Ports], IOCTL_GPIO_WRITE_PINS, gpio/IOCTL_GPIO_WRITE_PINS
+ms.keywords: GPIO.ioctl_gpio_write_pins, IOCTL_GPIO_WRITE_PINS, IOCTL_GPIO_WRITE_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_WRITE_PINS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -128,11 +128,11 @@ For code examples that show how to use the <b>IOCTL_GPIO_WRITE_PINS</b> request 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
 
 
 

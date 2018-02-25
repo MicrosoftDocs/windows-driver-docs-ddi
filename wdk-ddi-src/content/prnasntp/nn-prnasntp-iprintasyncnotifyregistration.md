@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintasyncnotifyregistration, IPrintAsyncNotifyRegistration interface [Print Devices], IPrintAsyncNotifyRegistration interface [Print Devices], described, IPrintAsyncNotifyRegistration, prnasntp/IPrintAsyncNotifyRegistration
+ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], IPrintAsyncNotifyRegistration interface [Print Devices], described, print.iprintasyncnotifyregistration, prnasntp/IPrintAsyncNotifyRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

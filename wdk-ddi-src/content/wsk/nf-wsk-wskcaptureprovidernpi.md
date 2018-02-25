@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml, netvista.wskcaptureprovidernpi, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], WskCaptureProviderNPI
+ms.keywords: ",  , C, I, N, P, W, WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], a, d, e, i, k, netvista.wskcaptureprovidernpi, o, p, r, s, t, u, v, wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -210,15 +210,15 @@ Callers of the
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
 
 
 
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
 
 
 

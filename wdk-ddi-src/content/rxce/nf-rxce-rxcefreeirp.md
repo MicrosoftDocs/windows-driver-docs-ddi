@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 71e3283c-2dbc-4579-a374-e51e123b852f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxcefreeirp, RxCeFreeIrp, rxce/RxCeFreeIrp, RxCeFreeIrp function [Installable File System Drivers], rxref_93b8da8d-d9fe-41e3-8423-5b3d8102f7a7.xml
+ms.keywords: ",  , C, F, I, R, RxCeFreeIrp, RxCeFreeIrp function [Installable File System Drivers], e, ifsk.rxcefreeirp, p, r, rxce/RxCeFreeIrp, rxref_93b8da8d-d9fe-41e3-8423-5b3d8102f7a7.xml, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2ec9222b-d9e7-4386-ac66-30c5436f549d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iminiportwavertstreamnotification_freebufferwithnotification, IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, IMiniportWaveRTStreamNotification, FreeBufferWithNotification method [Audio Devices], portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, FreeBufferWithNotification, FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface
+ms.keywords: ",  , ,, ., :, B, F, FreeBufferWithNotification method [Audio Devices], FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, FreeBufferWithNotification,IMiniportWaveRTStreamNotification.FreeBufferWithNotification, I, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, M, N, R, S, T, W, a, audio.iminiportwavertstreamnotification_freebufferwithnotification, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, c, e, f, h, i, m, n, o, p, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,11 +102,11 @@ The port driver calls this method to free an audio buffer that was allocated wit
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 

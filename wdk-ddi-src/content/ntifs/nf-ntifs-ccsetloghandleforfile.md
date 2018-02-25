@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7bb56650-a75e-4b49-bfb3-83848ede29c0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: LogHandle, CcSetLogHandleForFile routine [Installable File System Drivers], ntifs/CcSetLogHandleForFile, Lsn, CcSetLogHandleForFile, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, ifsk.ccsetloghandleforfile
+ms.keywords: ",  , C, CcSetLogHandleForFile, CcSetLogHandleForFile routine [Installable File System Drivers], F, H, L, LogHandle, Lsn, S, a, c, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, d, e, g, i, ifsk.ccsetloghandleforfile, l, n, ntifs/CcSetLogHandleForFile, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

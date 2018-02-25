@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 701A7ED2-F35F-4B6B-BC91-ADCF60E294D2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._ioctl_usb_get_frame_number_and_qpc_for_time_sync, IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC control code [Buses], IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, usbioctl/ IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
+ms.keywords: IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC control code [Buses], buses._ioctl_usb_get_frame_number_and_qpc_for_time_sync, usbioctl/ IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -142,11 +142,7 @@ In order to predict QPC  values with accuracy, the USB driver stack might poll t
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -154,7 +150,11 @@ In order to predict QPC  values with accuracy, the USB driver stack might poll t
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

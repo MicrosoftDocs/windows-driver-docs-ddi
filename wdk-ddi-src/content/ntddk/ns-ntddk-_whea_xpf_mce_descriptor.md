@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: cdf52fe7-40ac-4baf-aaa0-c23b40574376
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WHEA_XPF_MCE_DESCRIPTOR, whea.whea_xpf_mce_descriptor, WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/PWHEA_XPF_MCE_DESCRIPTOR, *PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR, whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml, ntddk/WHEA_XPF_MCE_DESCRIPTOR, _WHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications]
+ms.keywords: ",  , *, *PWHEA_XPF_MCE_DESCRIPTOR, ,, A, C, D, E, F, H, I, M, O, P, PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], R, S, T, W, WHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], X, _, _WHEA_XPF_MCE_DESCRIPTOR, ntddk/PWHEA_XPF_MCE_DESCRIPTOR, ntddk/WHEA_XPF_MCE_DESCRIPTOR, whea.whea_xpf_mce_descriptor, whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

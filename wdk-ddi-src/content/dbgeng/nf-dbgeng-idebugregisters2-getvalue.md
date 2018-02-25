@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 227d7b4f-bf94-4763-bb1f-32efbc087bb1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugRegisters, dbgeng/IDebugRegisters2::GetValue, dbgeng/IDebugRegisters::GetValue, GetValue method [Windows Debugging], IDebugRegisters2 interface, GetValue, IDebugRegisters2::GetValue, debugger.getvalue, IDebugRegisters2 interface [Windows Debugging], GetValue method, GetValue method [Windows Debugging], IDebugRegisters2, GetValue method [Windows Debugging], IDebugRegisters interface, IDebugRegisters::GetValue, IDebugRegisters interface [Windows Debugging], GetValue method, IDebugRegisters_f3e89ca1-7516-476e-8c85-560d8f28f0a8.xml
+ms.keywords: ",  , ,, ., 2, :, D, G, GetValue method [Windows Debugging], GetValue method [Windows Debugging], IDebugRegisters interface, GetValue method [Windows Debugging], IDebugRegisters2 interface, GetValue,IDebugRegisters.GetValue, GetValue,IDebugRegisters2.GetValue, I, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetValue method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetValue method, IDebugRegisters2::GetValue, IDebugRegisters::GetValue, IDebugRegisters_f3e89ca1-7516-476e-8c85-560d8f28f0a8.xml, R, V, a, b, dbgeng/IDebugRegisters2::GetValue, dbgeng/IDebugRegisters::GetValue, debugger.getvalue, e, g, i, l, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -142,11 +142,7 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
 
 
@@ -154,7 +150,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
 
 
 

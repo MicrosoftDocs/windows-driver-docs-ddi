@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6d4b7a25-436f-4547-8969-66dd45fa46fd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiauGetDrvItemContext, image.wiaugetdrvitemcontext, wiauFncs_3928edcb-8885-456a-a27d-62612fcb2d1a.xml, wiauGetDrvItemContext function [Imaging Devices], wiautil/wiauGetDrvItemContext
+ms.keywords: ",  , C, D, G, I, a, e, i, image.wiaugetdrvitemcontext, m, n, o, r, t, u, v, w, wiauFncs_3928edcb-8885-456a-a27d-62612fcb2d1a.xml, wiauGetDrvItemContext, wiauGetDrvItemContext function [Imaging Devices], wiautil/wiauGetDrvItemContext, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

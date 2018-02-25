@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 288863ca-1a11-456f-8d6b-b429668c2bf2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_BTH_LOCAL_RADIO_INFO, bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], BTH_LOCAL_RADIO_INFO, bthioctl/BTH_LOCAL_RADIO_INFO, bltooth.bth_local_radio_info, *PBTH_LOCAL_RADIO_INFO, bthioctl/PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices]"
+ms.keywords: ",  , *, *PBTH_LOCAL_RADIO_INFO, ,, A, B, BTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], C, D, F, H, I, L, N, O, P, PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices], R, T, _, _BTH_LOCAL_RADIO_INFO, bltooth.bth_local_radio_info, bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, bthioctl/BTH_LOCAL_RADIO_INFO, bthioctl/PBTH_LOCAL_RADIO_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,11 +124,11 @@ The
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
-
-
-
 <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 204f101d-770c-4363-9371-0ee76dfa0b2c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtiotargetremovecomplete, EvtIoTargetRemoveComplete callback function, EvtIoTargetRemoveComplete, EVT_WDF_IO_TARGET_REMOVE_COMPLETE, EVT_WDF_IO_TARGET_REMOVE_COMPLETE, wdfiotarget/EvtIoTargetRemoveComplete, DFIOTargetRef_d0c566ce-1ed7-4adb-9988-bc1751f000e1.xml, kmdf.evtiotargetremovecomplete
+ms.keywords: DFIOTargetRef_d0c566ce-1ed7-4adb-9988-bc1751f000e1.xml, EVT_WDF_IO_TARGET_REMOVE_COMPLETE, EvtIoTargetRemoveComplete, EvtIoTargetRemoveComplete callback function, kmdf.evtiotargetremovecomplete, wdf.evtiotargetremovecomplete, wdfiotarget/EvtIoTargetRemoveComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,7 +142,7 @@ The <b>EVT_WDF_IO_TARGET_REMOVE_COMPLETE</b> function type is defined in the Wdf
 
 ## -see-also
 
-<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_canceled.md">EvtIoTargetRemoveCanceled</a>
+<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a>
 
 
 
@@ -154,7 +154,7 @@ The <b>EVT_WDF_IO_TARGET_REMOVE_COMPLETE</b> function type is defined in the Wdf
 
 
 
-<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a>
+<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_canceled.md">EvtIoTargetRemoveCanceled</a>
 
 
 

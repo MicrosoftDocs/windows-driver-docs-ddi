@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f3abb5e4-6711-47bb-82b5-7ef838d49258
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsFilterGetDevice, avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml, KsFilterGetDevice, stream.ksfiltergetdevice, KsFilterGetDevice function [Streaming Media Devices]
+ms.keywords: ",  , D, F, G, K, KsFilterGetDevice, KsFilterGetDevice function [Streaming Media Devices], avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml, c, e, i, ks/KsFilterGetDevice, l, r, s, stream.ksfiltergetdevice, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,11 +92,11 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsG
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
-
-
 <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 

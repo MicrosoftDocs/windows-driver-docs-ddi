@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c5e5dae-14f6-47b9-8c27-48ecc73a43ef
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_OFFERRESOURCES, _D3DDDIARG_OFFERRESOURCES, d3dumddi/D3DDDIARG_OFFERRESOURCES, display.d3dddiarg_offerresources, D3DDDIARG_OFFERRESOURCES structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_OFFERRESOURCES, D3DDDIARG_OFFERRESOURCES structure [Display Devices], E, F, G, I, O, R, S, U, _, _D3DDDIARG_OFFERRESOURCES, d3dumddi/D3DDDIARG_OFFERRESOURCES, display.d3dddiarg_offerresources"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 6867a88d-6bce-46eb-894a-cc034a1c3ece
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PSCO_LINK_TYPE, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], bltooth.sco_link_type, *PSCO_LINK_TYPE, bthddi/SCO_LINK_TYPE, ScoLinkType, bthddi/ScoLinkType, _SCO_LINK_TYPE, SCO_LINK_TYPE, SCO_LINK_TYPE enumeration [Bluetooth Devices], bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, bthddi/eScoLinkType, bthddi/PSCO_LINK_TYPE, eScoLinkType
+ms.keywords: ",  , *, *PSCO_LINK_TYPE, ,, C, E, I, K, L, N, O, P, PSCO_LINK_TYPE, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], S, SCO_LINK_TYPE, SCO_LINK_TYPE enumeration [Bluetooth Devices], ScoLinkType, T, Y, _, _SCO_LINK_TYPE, bltooth.sco_link_type, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, bthddi/PSCO_LINK_TYPE, bthddi/SCO_LINK_TYPE, bthddi/ScoLinkType, bthddi/eScoLinkType, eScoLinkType"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

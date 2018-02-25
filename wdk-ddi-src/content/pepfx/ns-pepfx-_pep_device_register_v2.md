@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67747FF9-4808-45BB-8809-24B2CE56546B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_DEVICE_REGISTER, kernel.pep_device_register_v2, _PEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER, pepfx/PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2 structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2, pepfx/PEP_DEVICE_REGISTER_V2, PPEP_DEVICE_REGISTER_V2 structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PPEP_DEVICE_REGISTER, *PPEP_DEVICE_REGISTER_V2, ,, 2, C, D, E, G, I, P, PEP_DEVICE_REGISTER, PEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2 structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_REGISTER_V2, PPEP_DEVICE_REGISTER_V2 structure pointer [Kernel-Mode Driver Architecture], R, S, T, V, _, _PEP_DEVICE_REGISTER_V2, kernel.pep_device_register_v2, pepfx/PEP_DEVICE_REGISTER_V2, pepfx/PPEP_DEVICE_REGISTER_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,25 +80,25 @@ The number of components in this device, which is also the number of elements in
 
 ### -field Components
 
-The first element in an array of pointers to <a href="..\pep_x\ns-pep_x-_pep_component_v2.md">PEP_COMPONENT_V2</a> structures. Each element in the array points to a structure that describes a component in the device. If this array contains more than one element, the additional elements immediately follow the end of the <b>PEP_DEVICE_REGISTER</b> structure.
+The first element in an array of pointers to <a href="..\pepfx\ns-pepfx-_pep_component_v2.md">PEP_COMPONENT_V2</a> structures. Each element in the array points to a structure that describes a component in the device. If this array contains more than one element, the additional elements immediately follow the end of the <b>PEP_DEVICE_REGISTER</b> structure.
 
 
 ## -remarks
 
 
 
-The <a href="..\pep_x\ns-pep_x-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a> structure contains a <b>Register</b> member that points to a <b>PEP_DEVICE_REGISTER</b> structure.
+The <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a> structure contains a <b>Register</b> member that points to a <b>PEP_DEVICE_REGISTER</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_pep_component_v2.md">PEP_COMPONENT_V2</a>
+<a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a>
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a>
+<a href="..\pepfx\ns-pepfx-_pep_component_v2.md">PEP_COMPONENT_V2</a>
 
 
 

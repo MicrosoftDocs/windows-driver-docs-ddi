@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 19f387d3-6c00-4c71-8114-61c53654613c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PushEntryList, kernel.pushentrylist, PushEntryList routine [Kernel-Mode Driver Architecture], k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, PushEntryList
+ms.keywords: ",  , E, L, P, PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture], h, i, k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, kernel.pushentrylist, n, r, s, t, u, wdm/PushEntryList, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,11 +103,11 @@ Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList<
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-popentrylist.md">PopEntryList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-popentrylist.md">PopEntryList</a>
 
 
 

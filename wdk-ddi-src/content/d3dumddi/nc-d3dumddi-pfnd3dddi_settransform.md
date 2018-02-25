@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e989ea4-3693-4c0b-86a5-96b865a0193f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.settransform, SetTransform callback function [Display Devices], SetTransform, PFND3DDDI_SETTRANSFORM, PFND3DDDI_SETTRANSFORM, d3dumddi/SetTransform, UserModeDisplayDriver_Functions_721be745-bcea-4eeb-9bd4-ddda1f1912a5.xml
+ms.keywords: PFND3DDDI_SETTRANSFORM, SetTransform, SetTransform callback function [Display Devices], UserModeDisplayDriver_Functions_721be745-bcea-4eeb-9bd4-ddda1f1912a5.xml, d3dumddi/SetTransform, display.settransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

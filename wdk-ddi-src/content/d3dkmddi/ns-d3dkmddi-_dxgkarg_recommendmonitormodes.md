@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 283f398e-4162-4c46-847b-834f8f303052
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkarg_recommendmonitormodes, _DXGKARG_RECOMMENDMONITORMODES, DXGKARG_RECOMMENDMONITORMODES structure [Display Devices], d3dkmddi/DXGKARG_RECOMMENDMONITORMODES, DXGKARG_RECOMMENDMONITORMODES, DmStructs_151c48fa-735a-4962-9fe7-446830441f1c.xml
+ms.keywords: ",  , ,, A, C, D, DXGKARG_RECOMMENDMONITORMODES, DXGKARG_RECOMMENDMONITORMODES structure [Display Devices], DmStructs_151c48fa-735a-4962-9fe7-446830441f1c.xml, E, G, I, K, M, N, O, R, S, T, X, _, _DXGKARG_RECOMMENDMONITORMODES, d3dkmddi/DXGKARG_RECOMMENDMONITORMODES, display.dxgkarg_recommendmonitormodes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

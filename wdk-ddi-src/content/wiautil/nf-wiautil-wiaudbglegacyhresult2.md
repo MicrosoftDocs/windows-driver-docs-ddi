@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1b73c94b-07a8-4b65-8ed7-d5f1a073c3b2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiautil/wiauDbgLegacyHresult2, image.wiaudbglegacyhresult2, wiauDbgLegacyHresult2, wiauFncs_b980cd55-047b-4870-9bad-928253d0ce77.xml, wiauDbgLegacyHresult2 function [Imaging Devices]
+ms.keywords: ",  , 2, D, H, L, a, b, c, e, g, i, image.wiaudbglegacyhresult2, l, r, s, t, u, w, wiauDbgLegacyHresult2, wiauDbgLegacyHresult2 function [Imaging Devices], wiauFncs_b980cd55-047b-4870-9bad-928253d0ce77.xml, wiautil/wiauDbgLegacyHresult2, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

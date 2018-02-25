@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 619695dc-8525-4200-a0c2-8ce0fb1010ed
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createvideoprocessoroutputview, CreateVideoProcessorOutputView callback function [Display Devices], CreateVideoProcessorOutputView, PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW, PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW, d3d10umddi/CreateVideoProcessorOutputView
+ms.keywords: CreateVideoProcessorOutputView, CreateVideoProcessorOutputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW, d3d10umddi/CreateVideoProcessorOutputView, display.createvideoprocessoroutputview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

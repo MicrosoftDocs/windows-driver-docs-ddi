@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 76a1294f-d098-4751-9b59-923993379c6e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisretreatnetbufferlistdatastart, NdisRetreatNetBufferListDataStart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, ndis/NdisRetreatNetBufferListDataStart, NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , B, D, L, N, NdisRetreatNetBufferListDataStart, NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista], R, S, a, d, e, f, i, ndis/NdisRetreatNetBufferListDataStart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, netvista.ndisretreatnetbufferlistdatastart, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -194,16 +194,12 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
 
 
 
 <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferlistdatastart.md">
-   NdisAdvanceNetBufferListDataStart</a>
 
 
 
@@ -212,7 +208,7 @@ Call the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -220,8 +216,12 @@ Call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-   NdisAdvanceNetBufferDataStart</a>
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferlistdatastart.md">
+   NdisAdvanceNetBufferListDataStart</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

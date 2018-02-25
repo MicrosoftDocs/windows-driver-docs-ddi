@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c31d7e52-46f7-46b9-9fa2-1778f2301b4d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminidevicequeryremove, AVStrMiniDeviceQueryRemove, AVStrMiniDeviceQueryRemove, AVStrMiniDeviceQueryInterface, AVStrMiniDeviceQueryRemove routine [Streaming Media Devices], AVStrMiniDeviceQueryRemove, PFNKSDEVICEIRP, PFNKSDEVICEIRP, ks/AVStrMiniDeviceQueryRemove, avstclbk_e4e3e23a-c4e7-47fb-ad10-6a0a630669ed.xml
+ms.keywords: AVStrMiniDeviceQueryInterface, AVStrMiniDeviceQueryRemove, AVStrMiniDeviceQueryRemove routine [Streaming Media Devices], PFNKSDEVICEIRP, avstclbk_e4e3e23a-c4e7-47fb-ad10-6a0a630669ed.xml, ks/AVStrMiniDeviceQueryRemove, stream.avstrminidevicequeryremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -164,11 +164,11 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-
-
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0809a013-9977-44fc-b800-576b4fd983e8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml, FwpsInjectTransportReceiveAsync0, fwpsk/FwpsInjectTransportReceiveAsync0, netvista.fwpsinjecttransportreceiveasync0, FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , 0, A, F, FwpsInjectTransportReceiveAsync0, FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista], I, R, T, a, c, e, fwpsk/FwpsInjectTransportReceiveAsync0, i, j, n, netvista.fwpsinjecttransportreceiveasync0, o, p, r, s, t, v, w, wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -343,8 +343,8 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-   FwpsAllocateCloneNetBufferList0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
+   FwpsGetPacketListSecurityInformation0</a>
 
 
 
@@ -357,11 +357,29 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectnetworksendasync0.md">FwpsInjectNetworkSendAsync0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+   FwpsAllocateNetBufferAndNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
 
 
 
@@ -373,21 +391,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
-
-
-
 <a href="..\fwpsk\ne-fwpsk-fwps_packet_injection_state_.md">FWPS_PACKET_INJECTION_STATE</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-   FwpsAllocateNetBufferAndNetBufferList0</a>
 
 
 
@@ -399,7 +403,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -407,21 +411,17 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
-   FwpsGetPacketListSecurityInformation0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+   FwpsAllocateCloneNetBufferList0</a>
 
 
 
 <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_.md">
    FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
 
 

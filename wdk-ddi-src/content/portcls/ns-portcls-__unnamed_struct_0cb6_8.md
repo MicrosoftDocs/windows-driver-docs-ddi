@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: e83051ca-07fa-439d-8b0f-cbe6d84679a7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: portcls/PCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR structure [Audio Devices], PCNODE_DESCRIPTOR, audio.pcnode_descriptor, audpc-struct_275973f3-8db9-4b2c-ad30-e375b5e69656.xml, *PPCNODE_DESCRIPTOR, PPCNODE_DESCRIPTOR, PPCNODE_DESCRIPTOR structure pointer [Audio Devices], portcls/PPCNODE_DESCRIPTOR
+ms.keywords: ",  , *, *PPCNODE_DESCRIPTOR, ,, C, D, E, I, N, O, P, PCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR structure [Audio Devices], PPCNODE_DESCRIPTOR, PPCNODE_DESCRIPTOR structure pointer [Audio Devices], R, S, T, _, audio.pcnode_descriptor, audpc-struct_275973f3-8db9-4b2c-ad30-e375b5e69656.xml, portcls/PCNODE_DESCRIPTOR, portcls/PPCNODE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,44 +70,22 @@ typedef struct {
 
 
 
-### -field portcls.Flags
-
- 
-
-
-### -field portcls.AutomationTable
-
- 
-
-
-### -field portcls.Type
-
- 
-
-
-### -field portcls.Name
-
- 
-
-
-
-
-#### - Flags
+### -field Flags
 
 Set to zero. No flag bits are currently defined.
 
 
-#### - AutomationTable
+### -field AutomationTable
 
 Pointer to the automation table, which is a structure of type <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>. This member can be set to <b>NULL</b> to indicate no automation support. The automation table specifies the handlers for the properties and events belonging to the node instance.
 
 
-#### - Type
+### -field Type
 
 Specifies the node type. This member is a pointer to a GUID that uniquely identifies the node type. See the list of node-type GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536219">Audio Topology Nodes</a>.
 
 
-#### - Name
+### -field Name
 
 Pointer to a GUID that represents the name of this topology node. This GUID is specified in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565809">KSPROPERTY_TOPOLOGY_NAME</a>get-property request to obtain the corresponding name string for the node. This pointer can be set to <b>NULL</b> to indicate that the GUID in the <b>Type</b> member should be used to determine the node name.
 
@@ -129,15 +107,15 @@ For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure 
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565809">KSPROPERTY_TOPOLOGY_NAME</a>
 
 
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
+
+
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 74e6457f-4a99-4b19-9a7e-3ebac5aef48e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createdomainshader_d3d11_1_, CreateDomainShader(D3D11_1) callback function [Display Devices], CreateDomainShader(D3D11_1), PFND3D11_1DDI_CREATEDOMAINSHADER, PFND3D11_1DDI_CREATEDOMAINSHADER, d3d10umddi/CreateDomainShader(D3D11_1), display.pfncreatedomainshader
+ms.keywords: CreateDomainShader(D3D11_1), CreateDomainShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEDOMAINSHADER, d3d10umddi/CreateDomainShader(D3D11_1), display.createdomainshader_d3d11_1_, display.pfncreatedomainshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -128,11 +128,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_tessellation_io_signatures.md">D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivatetessellationshadersize.md">CalcPrivateTessellationShaderSize(D3D11_1)</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_tessellation_io_signatures.md">D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES</a>
 
 
 

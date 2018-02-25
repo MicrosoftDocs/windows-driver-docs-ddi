@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1CBB3CDF-E7DD-4686-8EF6-FBCADE978A16
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntintsafe/RtlSSIZETAdd, kernel.rtlssizetadd, RtlSSIZETAdd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, E, I, R, RtlSSIZETAdd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture], S, T, Z, d, kernel.rtlssizetadd, l, ntintsafe/RtlSSIZETAdd, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

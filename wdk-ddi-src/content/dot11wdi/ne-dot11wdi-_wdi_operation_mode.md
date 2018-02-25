@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9838eeb9-6bd6-46a5-9361-6af3aa2d3014
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: dot11wdi/WDI_OPERATION_MODE, dot11wdi/WDI_OPERATION_MODE_P2P_DEVICE, dot11wdi/WDI_OPERATION_MODE_P2P_GO, netvista.wdi_operation_mode, _WDI_OPERATION_MODE, WDI_OPERATION_MODE enumeration [Network Drivers Starting with Windows Vista], WDI_OPERATION_MODE_STA, WDI_OPERATION_MODE_P2P_GO, dot11wdi/WDI_OPERATION_MODE_STA, WDI_OPERATION_MODE_P2P_DEVICE, dot11wdi/WDI_OPERATION_MODE_P2P_CLIENT, netvista.wifi_operation_mode, WDI_OPERATION_MODE, WDI_OPERATION_MODE_P2P_CLIENT
+ms.keywords: ",  , ,, A, D, E, I, M, N, O, P, R, T, W, WDI_OPERATION_MODE, WDI_OPERATION_MODE enumeration [Network Drivers Starting with Windows Vista], WDI_OPERATION_MODE_P2P_CLIENT, WDI_OPERATION_MODE_P2P_DEVICE, WDI_OPERATION_MODE_P2P_GO, WDI_OPERATION_MODE_STA, _, _WDI_OPERATION_MODE, dot11wdi/WDI_OPERATION_MODE, dot11wdi/WDI_OPERATION_MODE_P2P_CLIENT, dot11wdi/WDI_OPERATION_MODE_P2P_DEVICE, dot11wdi/WDI_OPERATION_MODE_P2P_GO, dot11wdi/WDI_OPERATION_MODE_STA, netvista.wdi_operation_mode, netvista.wifi_operation_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

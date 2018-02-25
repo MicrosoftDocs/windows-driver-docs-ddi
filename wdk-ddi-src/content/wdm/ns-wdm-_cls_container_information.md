@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9e083aba-1039-4ad3-9650-0e6e38ceb0c0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CLFS_CONTAINER_INFORMATION, wdm/PPCLFS_CONTAINER_INFORMATION, *PCLFS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], CLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_a_757d7a17-feb2-4b99-8b6f-f83288858851.xml, PCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_CONTAINER_INFORMATION, kernel.clfs_container_information, PPCLS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION, wdm/PCLFS_CONTAINER_INFORMATION, wdm/CLS_CONTAINER_INFORMATION, CLS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PCLS_CONTAINER_INFORMATION, wdm/PPCLS_CONTAINER_INFORMATION, PCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLS_CONTAINER_INFORMATION
+ms.keywords: ",  , *, *PCLFS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, ,, A, C, CLFS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_CONTAINER_INFORMATION, CLS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], E, F, I, L, M, N, O, P, PCLFS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_CONTAINER_INFORMATION, PCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, S, T, _, _CLS_CONTAINER_INFORMATION, kernel.clfs_container_information, kstruct_a_757d7a17-feb2-4b99-8b6f-f83288858851.xml, wdm/CLFS_CONTAINER_INFORMATION, wdm/CLS_CONTAINER_INFORMATION, wdm/PCLFS_CONTAINER_INFORMATION, wdm/PCLS_CONTAINER_INFORMATION, wdm/PPCLFS_CONTAINER_INFORMATION, wdm/PPCLS_CONTAINER_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -214,7 +214,7 @@ Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+<a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
 
 
 
@@ -222,7 +222,7 @@ Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b>
 
 
 
-<a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 
 

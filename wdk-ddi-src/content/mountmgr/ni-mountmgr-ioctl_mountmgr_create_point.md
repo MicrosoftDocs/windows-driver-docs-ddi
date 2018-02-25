@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 580af31d-4122-48fe-a9da-097787f87620
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_mountmgr_create_point, IOCTL_MOUNTMGR_CREATE_POINT control code [Storage Devices], IOCTL_MOUNTMGR_CREATE_POINT, mountmgr/IOCTL_MOUNTMGR_CREATE_POINT, k307_c1159db5-2699-4bac-9fe9-67ceda477ddb.xml
+ms.keywords: IOCTL_MOUNTMGR_CREATE_POINT, IOCTL_MOUNTMGR_CREATE_POINT control code [Storage Devices], k307_c1159db5-2699-4bac-9fe9-67ceda477ddb.xml, mountmgr/IOCTL_MOUNTMGR_CREATE_POINT, storage.ioctl_mountmgr_create_point
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

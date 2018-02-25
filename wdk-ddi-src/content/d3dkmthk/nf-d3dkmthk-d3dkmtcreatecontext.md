@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, PFND3DKMT_CREATECONTEXT, D3DKMTCreateContext function [Display Devices], d3dkmthk/D3DKMTCreateContext, display.d3dkmtcreatecontext, D3DKMTCreateContext
+ms.keywords: ",  , 3, C, D, D3DKMTCreateContext, D3DKMTCreateContext function [Display Devices], K, M, OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, PFND3DKMT_CREATECONTEXT, T, a, d3dkmthk/D3DKMTCreateContext, display.d3dkmtcreatecontext, e, n, o, r, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,7 +129,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a> could not complete because of insufficient memory.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createcontext.md">D3DKMTCreateContext</a> could not complete because of insufficient memory.
 
 </td>
 </tr>

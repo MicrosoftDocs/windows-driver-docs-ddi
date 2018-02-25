@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2435ef20-c75c-4b28-9824-8428b2ac6326
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_get_hcd_driverkey_name, IOCTL_GET_HCD_DRIVERKEY_NAME control code [Buses], IOCTL_GET_HCD_DRIVERKEY_NAME, usbioctl/IOCTL_GET_HCD_DRIVERKEY_NAME, usbirp_e5bfae17-3a5d-414d-a24d-6c09269618aa.xml
+ms.keywords: IOCTL_GET_HCD_DRIVERKEY_NAME, IOCTL_GET_HCD_DRIVERKEY_NAME control code [Buses], buses.ioctl_get_hcd_driverkey_name, usbioctl/IOCTL_GET_HCD_DRIVERKEY_NAME, usbirp_e5bfae17-3a5d-414d-a24d-6c09269618aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d05eeeb-ab68-4770-88c1-483c56dbc116
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml, PAddiSNSServer_IN, AddiSNSServer_IN structure [Storage Devices], AddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], iscsiop/AddiSNSServer_IN, iscsiop/PAddiSNSServer_IN, *PAddiSNSServer_IN, _AddiSNSServer_IN, storage.addisnsserver_in
+ms.keywords: ",  , *, *PAddiSNSServer_IN, ,, A, AddiSNSServer_IN, AddiSNSServer_IN structure [Storage Devices], I, N, P, PAddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], S, _, _AddiSNSServer_IN, d, e, i, iscsiop/AddiSNSServer_IN, iscsiop/PAddiSNSServer_IN, r, storage.addisnsserver_in, structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

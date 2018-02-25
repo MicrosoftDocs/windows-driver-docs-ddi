@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d72c3067-21df-40ee-a898-100fcdc5eaca
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], netvista.fwpsstreaminjectasync0, fwpsk/FwpsStreamInjectAsync0, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml, FwpsStreamInjectAsync0
+ms.keywords: ",  , 0, A, F, FwpsStreamInjectAsync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], I, S, a, c, e, fwpsk/FwpsStreamInjectAsync0, j, m, n, netvista.fwpsstreaminjectasync0, p, r, s, t, w, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -363,8 +363,19 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-   FwpsAllocateCloneNetBufferList0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
 
 
 
@@ -377,19 +388,7 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
 
 
@@ -398,11 +397,12 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+   FwpsAllocateCloneNetBufferList0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
 
 
 
@@ -410,7 +410,7 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 97a8822f-ed0c-43ae-8b4e-08642558773d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidP_GetExtendedAttributes routine [Human Input Devices], HidP_GetExtendedAttributes, hid.hidp_getextendedattributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml, hidpi/HidP_GetExtendedAttributes
+ms.keywords: ",  , A, E, G, H, HidP_GetExtendedAttributes, HidP_GetExtendedAttributes routine [Human Input Devices], P, _, b, d, e, hid.hidp_getextendedattributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml, hidpi/HidP_GetExtendedAttributes, i, n, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,15 +162,15 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a>
-
-
-
 <a href="..\hidpi\ns-hidpi-_hidp_extended_attributes.md">HIDP_EXTENDED_ATTRIBUTES</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a>
 
 
 

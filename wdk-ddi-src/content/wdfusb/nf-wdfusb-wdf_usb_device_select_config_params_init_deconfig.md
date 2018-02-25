@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cc7ee273-e445-4cdb-b96d-b63db6e433de
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_usb_device_select_config_params_init_deconfig, kmdf.wdf_usb_device_select_config_params_init_deconfig, DFUsbRef_9dcc7843-1cc0-4af0-9763-31fbac46ce41.xml, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function
+ms.keywords: ",  , A, B, C, D, DFUsbRef_9dcc7843-1cc0-4af0-9763-31fbac46ce41.xml, E, F, G, I, L, M, N, O, P, R, S, T, U, V, W, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function, _, kmdf.wdf_usb_device_select_config_params_init_deconfig, wdf.wdf_usb_device_select_config_params_init_deconfig, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,7 +150,11 @@ Status = WdfUsbTargetDeviceSelectConfig(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_interfaces_descriptors.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_urb.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB</a>
 
 
 
@@ -162,11 +166,7 @@ Status = WdfUsbTargetDeviceSelectConfig(
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_urb.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_interfaces_descriptors.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</a>
 
 
 

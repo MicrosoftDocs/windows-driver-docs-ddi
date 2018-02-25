@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B4216BA1-FC5C-4A3B-BB74-E071BD2048F8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoFxSetComponentResidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentresidency, wdm/PoFxSetComponentResidency
+ms.keywords: ",  , C, F, P, PoFxSetComponentResidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], R, S, c, d, e, i, kernel.pofxsetcomponentresidency, m, n, o, p, s, t, wdm/PoFxSetComponentResidency, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ A handle that represents the registration of the device with the power managemen
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -param Residency [in]

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8bed3cec-1779-4b3c-9ba2-aa4a335fecd1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES, stream.kswave_input_capabilities, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], ksmedia/KSWAVE_INPUT_CAPABILITIES, ksmedia/PKSWAVE_INPUT_CAPABILITIES, dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml
+ms.keywords: ",  , *, *PKSWAVE_INPUT_CAPABILITIES, ,, A, B, C, E, I, K, KSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], L, N, P, PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], S, T, U, V, W, _, dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, ksmedia/KSWAVE_INPUT_CAPABILITIES, ksmedia/PKSWAVE_INPUT_CAPABILITIES, stream.kswave_input_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

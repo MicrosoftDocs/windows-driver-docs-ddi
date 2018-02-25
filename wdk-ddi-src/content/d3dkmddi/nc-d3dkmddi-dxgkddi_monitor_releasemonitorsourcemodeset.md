@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: af5f4a1b-232c-4192-96b4-8fa31dfe3019
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_monitor_interface_pfnreleasemonitorsourcemodeset, pfnReleaseMonitorSourceModeSet callback function [Display Devices], pfnReleaseMonitorSourceModeSet, DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET, DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET, d3dkmddi/pfnReleaseMonitorSourceModeSet, VidPnFunctions_5f8e1fd8-b807-4da2-901e-0284e21d858e.xml
+ms.keywords: DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET, VidPnFunctions_5f8e1fd8-b807-4da2-901e-0284e21d858e.xml, d3dkmddi/pfnReleaseMonitorSourceModeSet, display.dxgk_monitor_interface_pfnreleasemonitorsourcemodeset, pfnReleaseMonitorSourceModeSet, pfnReleaseMonitorSourceModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

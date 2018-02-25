@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9c659319-d0a5-43a7-b9a9-9fad18397a09
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbsynchronizeexecution, DxgkCbSynchronizeExecution callback function [Display Devices], DxgkCbSynchronizeExecution, DXGKCB_SYNCHRONIZE_EXECUTION, DXGKCB_SYNCHRONIZE_EXECUTION, dispmprt/DxgkCbSynchronizeExecution, DpFunctions_3d9aecd7-8082-4869-a0d1-4a6cdadc4839.xml
+ms.keywords: DXGKCB_SYNCHRONIZE_EXECUTION, DpFunctions_3d9aecd7-8082-4869-a0d1-4a6cdadc4839.xml, DxgkCbSynchronizeExecution, DxgkCbSynchronizeExecution callback function [Display Devices], display.dxgkcbsynchronizeexecution, dispmprt/DxgkCbSynchronizeExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

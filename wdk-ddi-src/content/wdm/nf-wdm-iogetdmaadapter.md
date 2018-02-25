@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fa108ef4-54b8-4c6a-9d77-25e6b9e2c09d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_36398d16-2a22-4a85-a260-265aa9c54bbd.xml, IoGetDmaAdapter, IoGetDmaAdapter routine [Kernel-Mode Driver Architecture], kernel.iogetdmaadapter, wdm/IoGetDmaAdapter
+ms.keywords: ",  , A, D, G, I, IoGetDmaAdapter, IoGetDmaAdapter routine [Kernel-Mode Driver Architecture], a, d, e, k104_36398d16-2a22-4a85-a260-265aa9c54bbd.xml, kernel.iogetdmaadapter, m, o, p, r, t, wdm/IoGetDmaAdapter"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,15 +120,15 @@ To free the adapter object, the driver should call <a href="..\wdm\nc-wdm-pput_d
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
+<a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>
 
 
 

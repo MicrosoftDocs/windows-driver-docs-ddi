@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b21c3ee1-13e8-4796-af45-6ba60e84df4e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.propsheetui_info, *PPROPSHEETUI_INFO, PROPSHEETUI_INFO structure [Print Devices], compstui/PROPSHEETUI_INFO, PPROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, PROPSHEETUI_INFO, _PROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], compstui/PPROPSHEETUI_INFO
+ms.keywords: ",  , *, *PPROPSHEETUI_INFO, ,, E, F, H, I, N, O, P, PPROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], PROPSHEETUI_INFO, PROPSHEETUI_INFO structure [Print Devices], R, S, T, U, _, _PROPSHEETUI_INFO, compstui/PPROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, print.propsheetui_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

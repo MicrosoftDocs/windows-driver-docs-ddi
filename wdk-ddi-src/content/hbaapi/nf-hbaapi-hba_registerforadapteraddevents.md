@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7395ccb8-2608-46ae-a378-987bd757761b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_RegisterForAdapterAddEvents, HBA_RegisterForAdapterAddEvents routine [Storage Devices], fibreHBA_rtns_d44e8303-9d14-4f36-830e-bca76a494dfd.xml, storage.hba_registerforadapteraddevents, hbaapi/HBA_RegisterForAdapterAddEvents
+ms.keywords: ",  , A, B, E, F, H, HBA_RegisterForAdapterAddEvents, HBA_RegisterForAdapterAddEvents routine [Storage Devices], R, _, a, d, e, fibreHBA_rtns_d44e8303-9d14-4f36-830e-bca76a494dfd.xml, g, hbaapi/HBA_RegisterForAdapterAddEvents, i, n, o, p, r, s, storage.hba_registerforadapteraddevents, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,11 +150,11 @@ When a new adapter is added to the system, an event of type HBA_EVENT_ADAPTER_AD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

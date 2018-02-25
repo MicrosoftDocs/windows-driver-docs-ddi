@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9e354357-590b-45cf-bace-5b431f408422
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugsystemobjects2, IDebugSystemObjects2 interface [Windows Debugging], IDebugSystemObjects2 interface [Windows Debugging], described, IDebugSystemObjects2, dbgeng/IDebugSystemObjects2
+ms.keywords: IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], IDebugSystemObjects2 interface [Windows Debugging], described, dbgeng/IDebugSystemObjects2, debugger.idebugsystemobjects2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -117,11 +117,11 @@ Sets the implicit thread for the current process.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects.md">IDebugSystemObjects</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
 
 

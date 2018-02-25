@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f2bfb07c-1493-4a29-9d42-e284af29a376
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_POWER_RUNTIME_STATE, d3dkmddi/DXGK_POWER_RUNTIME_STATE, display.dxgk_power_runtime_state, DXGK_POWER_RUNTIME_STATE structure [Display Devices], DXGK_POWER_RUNTIME_STATE"
+ms.keywords: ",  , ,, A, D, DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE structure [Display Devices], E, G, I, K, M, N, O, P, R, S, T, U, W, X, _, _DXGK_POWER_RUNTIME_STATE, d3dkmddi/DXGK_POWER_RUNTIME_STATE, display.dxgk_power_runtime_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

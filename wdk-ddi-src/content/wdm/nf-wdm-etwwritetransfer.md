@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 72a1c2f4-5f20-4c00-baf5-3d48fe27f48d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.etwwritetransfer, EtwWriteTransfer function [Driver Development Tools], wdm/EtwWriteTransfer, EtwWriteTransfer, etw_km_210cf13d-0f54-4a51-b8f2-7d37b22d8eac.xml
+ms.keywords: ",  , E, EtwWriteTransfer, EtwWriteTransfer function [Driver Development Tools], T, W, a, devtest.etwwritetransfer, e, etw_km_210cf13d-0f54-4a51-b8f2-7d37b22d8eac.xml, f, i, n, r, s, t, w, wdm/EtwWriteTransfer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,11 +123,11 @@ You can call <b>EtwWriteTransfer</b> at any IRQL. However, when IRQL is greater 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
-
-
-
 <a href="..\wdm\nf-wdm-etwwrite.md">EtwWrite</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
 
 
 

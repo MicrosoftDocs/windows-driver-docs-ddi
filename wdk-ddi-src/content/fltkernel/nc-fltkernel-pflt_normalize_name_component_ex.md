@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7c2bc90a-c724-4787-b604-f7257a83aae7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.pflt_normalize_name_component_ex, NormalizeNameComponentExCallback routine [Installable File System Drivers], NormalizeNameComponentExCallback, PFLT_NORMALIZE_NAME_COMPONENT_EX, PFLT_NORMALIZE_NAME_COMPONENT_EX, fltkernel/NormalizeNameComponentExCallback, FltCallbacks_d5ac42d8-4a17-49c0-b46f-f0c055ded4f3.xml
+ms.keywords: FltCallbacks_d5ac42d8-4a17-49c0-b46f-f0c055ded4f3.xml, NormalizeNameComponentExCallback, NormalizeNameComponentExCallback routine [Installable File System Drivers], PFLT_NORMALIZE_NAME_COMPONENT_EX, fltkernel/NormalizeNameComponentExCallback, ifsk.pflt_normalize_name_component_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -151,27 +151,7 @@ If the minifilter driver uses the <i>NormalizationContext</i> parameter, it shou
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iogettransactionparameterblock.md">IoGetTransactionParameterBlock</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_txn_parameter_block.md">TXN_PARAMETER_BLOCK</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
 
 
 
@@ -179,11 +159,11 @@ If the minifilter driver uses the <i>NormalizationContext</i> parameter, it shou
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-
-
-
 <a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component.md">PFLT_NORMALIZE_NAME_COMPONENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
 
 
 
@@ -191,7 +171,27 @@ If the minifilter driver uses the <i>NormalizationContext</i> parameter, it shou
 
 
 
+<a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_txn_parameter_block.md">TXN_PARAMETER_BLOCK</a>
+
+
+
 <a href="..\fltkernel\nc-fltkernel-pflt_generate_file_name.md">PFLT_GENERATE_FILE_NAME</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
 
 
 

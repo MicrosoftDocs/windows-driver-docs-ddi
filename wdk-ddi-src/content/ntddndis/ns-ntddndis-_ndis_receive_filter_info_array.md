@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32896b46-1143-4598-ad15-2eb4dbdea6e8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml, PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY, netvista.ndis_receive_filter_info_array, *PNDIS_RECEIVE_FILTER_INFO_ARRAY, _NDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY
+ms.keywords: ",  , *, *PNDIS_RECEIVE_FILTER_INFO_ARRAY, ,, A, C, D, E, F, I, L, N, NDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], R, S, T, V, Y, _, _NDIS_RECEIVE_FILTER_INFO_ARRAY, netvista.ndis_receive_filter_info_array, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

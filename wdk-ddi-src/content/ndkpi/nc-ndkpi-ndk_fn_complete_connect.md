@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85AD83CE-C00F-4D5A-BCDE-22D1B83201A8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_complete_connect, NdkCompleteConnect callback function [Network Drivers Starting with Windows Vista], NdkCompleteConnect, NDK_FN_COMPLETE_CONNECT, NDK_FN_COMPLETE_CONNECT, ndkpi/NdkCompleteConnect
+ms.keywords: NDK_FN_COMPLETE_CONNECT, NdkCompleteConnect, NdkCompleteConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCompleteConnect, netvista.ndk_fn_complete_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -199,11 +199,11 @@ The <i>NdkCompleteConnect</i> function completes a connection request that was  
 
 ## -see-also
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect_event_callback.md">NDK_FN_DISCONNECT_EVENT_CALLBACK</a>
 
 
 
@@ -211,15 +211,15 @@ The <i>NdkCompleteConnect</i> function completes a connection request that was  
 
 
 
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect_event_callback.md">NDK_FN_DISCONNECT_EVENT_CALLBACK</a>
 
 
 

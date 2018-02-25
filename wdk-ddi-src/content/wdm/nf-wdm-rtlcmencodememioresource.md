@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69b978a2-3895-42fc-a87a-a97064d02e7a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/RtlCmEncodeMemIoResource, kernel.rtlcmencodememioresource, RtlCmEncodeMemIoResource, k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, E, I, M, R, RtlCmEncodeMemIoResource, RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], c, d, e, k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, kernel.rtlcmencodememioresource, l, m, n, o, r, s, t, u, wdm/RtlCmEncodeMemIoResource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,11 +190,11 @@ Lowest 32 bits must be zero.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a>
 
 
 

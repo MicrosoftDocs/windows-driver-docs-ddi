@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8C09B692-3439-4ACD-942D-F7A107E2B4DA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddi_queryconnectionchange, DXGKDDI_QUERYCONNECTIONCHANGE callback function [Display Devices], DXGKDDI_QUERYCONNECTIONCHANGE, d3dkmddi/DXGKDDI_QUERYCONNECTIONCHANGE
+ms.keywords: DXGKDDI_QUERYCONNECTIONCHANGE, DXGKDDI_QUERYCONNECTIONCHANGE callback function [Display Devices], d3dkmddi/DXGKDDI_QUERYCONNECTIONCHANGE, display.dxgkddi_queryconnectionchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

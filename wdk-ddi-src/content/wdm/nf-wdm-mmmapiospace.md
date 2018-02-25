@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: efc9eb0e-0e83-46db-a450-79b9472fedff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], wdm/MmMapIoSpace, kernel.mmmapiospace
+ms.keywords: ",  , I, M, MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], S, a, c, e, k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, kernel.mmmapiospace, m, o, p, wdm/MmMapIoSpace"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,19 +109,19 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
 
 

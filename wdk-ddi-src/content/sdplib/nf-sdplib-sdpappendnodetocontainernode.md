@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: beec5516-6191-4b70-8c80-ddbaedbad5c0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.sdpappendnodetocontainernode, SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode function [Bluetooth Devices], bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, sdplib/SdpAppendNodeToContainerNode
+ms.keywords: ",  , A, C, N, S, SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode function [Bluetooth Devices], T, a, bltooth.sdpappendnodetocontainernode, bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, d, e, i, n, o, p, r, sdplib/SdpAppendNodeToContainerNode, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

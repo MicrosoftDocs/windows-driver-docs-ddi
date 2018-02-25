@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 50D52380-1FBE-4046-A7DC-8415501D7FA6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: BDA_IPv6_ADDRESS structure [Streaming Media Devices], _BDA_IPv6_ADDRESS, stream.bda_ipv6_address, PBDA_IPv6_ADDRESS, *PBDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS, bdatypes/BDA_IPv6_ADDRESS, PBDA_IPv6_ADDRESS structure pointer [Streaming Media Devices], bdatypes/PBDA_IPv6_ADDRESS
+ms.keywords: ",  , *, *PBDA_IPv6_ADDRESS, ,, 6, A, B, BDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS structure [Streaming Media Devices], D, E, I, P, PBDA_IPv6_ADDRESS, PBDA_IPv6_ADDRESS structure pointer [Streaming Media Devices], R, S, _, _BDA_IPv6_ADDRESS, bdatypes/BDA_IPv6_ADDRESS, bdatypes/PBDA_IPv6_ADDRESS, stream.bda_ipv6_address, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

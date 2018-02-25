@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91b07a5c-ed25-4268-bd6d-273ae8b1ac28
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiopmgetrandomnumber, DxgkDdiOPMGetRandomNumber callback function [Display Devices], DxgkDdiOPMGetRandomNumber, DXGKDDI_OPM_GET_RANDOM_NUMBER, DXGKDDI_OPM_GET_RANDOM_NUMBER, dispmprt/DxgkDdiOPMGetRandomNumber, Dm_Opm_functions_a7d335ef-61bf-452a-a811-20048ff28dbf.xml
+ms.keywords: DXGKDDI_OPM_GET_RANDOM_NUMBER, Dm_Opm_functions_a7d335ef-61bf-452a-a811-20048ff28dbf.xml, DxgkDdiOPMGetRandomNumber, DxgkDdiOPMGetRandomNumber callback function [Display Devices], display.dxgkddiopmgetrandomnumber, dispmprt/DxgkDdiOPMGetRandomNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,7 +115,11 @@ For more information about cryptographically secure random numbers, see section 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
 
 
 
@@ -123,11 +127,7 @@ For more information about cryptographically secure random numbers, see section 
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

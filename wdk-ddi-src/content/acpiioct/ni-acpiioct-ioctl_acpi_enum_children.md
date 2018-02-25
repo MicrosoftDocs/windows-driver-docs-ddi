@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 86d713e0-ec1e-4417-9ff7-8574bd040a6e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.ioctl_acpi_enum_children, IOCTL_ACPI_ENUM_CHILDREN control code [ACPI Devices], IOCTL_ACPI_ENUM_CHILDREN, acpiioct/IOCTL_ACPI_ENUM_CHILDREN, acpi-meth-eval-ref_243e3f53-71b8-4090-bcf1-48b0c5634b5e.xml
+ms.keywords: IOCTL_ACPI_ENUM_CHILDREN, IOCTL_ACPI_ENUM_CHILDREN control code [ACPI Devices], acpi-meth-eval-ref_243e3f53-71b8-4090-bcf1-48b0c5634b5e.xml, acpi.ioctl_acpi_enum_children, acpiioct/IOCTL_ACPI_ENUM_CHILDREN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -168,7 +168,7 @@ IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL&lt; DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_child.md">ACPI_ENUM_CHILD</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
 
 
 
@@ -176,7 +176,7 @@ IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL&lt; DISPATCH_LEVEL.
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_enum_child.md">ACPI_ENUM_CHILD</a>
 
 
 

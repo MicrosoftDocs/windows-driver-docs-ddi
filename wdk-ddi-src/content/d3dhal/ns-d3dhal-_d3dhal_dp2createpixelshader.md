@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa3a7f17-7210-458f-979b-1da455790e4a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_D3DHAL_DP2CREATEPIXELSHADER, *LPD3DHAL_DP2CREATEPIXELSHADER, display.d3dhal_dp2createpixelshader, D3DHAL_DP2CREATEPIXELSHADER, d3dhal/D3DHAL_DP2CREATEPIXELSHADER, LPD3DHAL_DP2CREATEPIXELSHADER structure pointer [Display Devices], LPD3DHAL_DP2CREATEPIXELSHADER, d3dhal/LPD3DHAL_DP2CREATEPIXELSHADER, D3DHAL_DP2CREATEPIXELSHADER structure [Display Devices], d3dstrct_b17c15ca-697a-407b-b304-ac52ccf6ce6e.xml"
+ms.keywords: ",  , *, *LPD3DHAL_DP2CREATEPIXELSHADER, ,, 2, 3, A, C, D, D3DHAL_DP2CREATEPIXELSHADER, D3DHAL_DP2CREATEPIXELSHADER structure [Display Devices], E, H, I, L, LPD3DHAL_DP2CREATEPIXELSHADER, LPD3DHAL_DP2CREATEPIXELSHADER structure pointer [Display Devices], P, R, S, T, X, _, _D3DHAL_DP2CREATEPIXELSHADER, d3dhal/D3DHAL_DP2CREATEPIXELSHADER, d3dhal/LPD3DHAL_DP2CREATEPIXELSHADER, d3dstrct_b17c15ca-697a-407b-b304-ac52ccf6ce6e.xml, display.d3dhal_dp2createpixelshader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,7 +97,7 @@ It is important to note that the creation of a pixel shader does not imply the s
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -105,7 +105,7 @@ D3DDP2OP_CREATEPIXELSHADER
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
 
 
 

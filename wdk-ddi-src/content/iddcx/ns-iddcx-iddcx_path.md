@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c0126718-6bb0-493c-9fdd-78ae372f8fd4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDDCX_PATH, IDDCX_PATH structure structure [Display Devices], display.iddcx_path, IDDCX_PATH structure, IDDCX_PATH structure [Display Devices], IDDCX_PATH structure pointer [Display Devices], iddcx/IDDCX_PATH
+ms.keywords: ",  , A, C, D, H, I, IDDCX_PATH, IDDCX_PATH structure, IDDCX_PATH structure [Display Devices], IDDCX_PATH structure pointer [Display Devices], IDDCX_PATH structure structure [Display Devices], P, T, X, _, display.iddcx_path, iddcx/IDDCX_PATH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c69eedb1-c975-412c-aa9f-cf64a702f937
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createdevice_d3d10_, CreateDevice callback function [Display Devices], CreateDevice, PFND3D10DDI_CREATEDEVICE, PFND3D10DDI_CREATEDEVICE, d3d10umddi/CreateDevice, UserModeDisplayDriverDx10_Functions_4d3d9d4c-e03b-46a9-a62a-cb49f071c0a2.xml
+ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3D10DDI_CREATEDEVICE, UserModeDisplayDriverDx10_Functions_4d3d9d4c-e03b-46a9-a62a-cb49f071c0a2.xml, d3d10umddi/CreateDevice, display.createdevice_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -157,11 +157,11 @@ Generally, devices are independent of each other, so that resources that are cre
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_adapterfuncs.md">D3D10DDI_ADAPTERFUNCS</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice(D3D10)</a>
 
 
 
@@ -169,7 +169,7 @@ Generally, devices are independent of each other, so that resources that are cre
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice(D3D10)</a>
 
 
 

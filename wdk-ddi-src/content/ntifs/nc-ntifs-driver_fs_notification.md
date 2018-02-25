@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 571aaa9b-8620-46ff-af29-19b00804e0ad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.pdriver_fs_notification, DriverNotificationRoutine routine [Installable File System Drivers], DriverNotificationRoutine, DRIVER_FS_NOTIFICATION, DRIVER_FS_NOTIFICATION, ntifs/DriverNotificationRoutine, FilterCallbacks_5b421108-0db7-47ba-afba-3a8b79a61d66.xml
+ms.keywords: DRIVER_FS_NOTIFICATION, DriverNotificationRoutine, DriverNotificationRoutine routine [Installable File System Drivers], FilterCallbacks_5b421108-0db7-47ba-afba-3a8b79a61d66.xml, ifsk.pdriver_fs_notification, ntifs/DriverNotificationRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -151,11 +151,11 @@ typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;</pre>
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
 
 
 

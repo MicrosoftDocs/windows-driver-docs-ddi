@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: abac76e0-eb8a-450a-a797-3733a8f71990
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.agpallocatepool, AgpAllocatePool callback function [Display Devices], AgpAllocatePool, DXGKCB_AGP_ALLOCATE_POOL, DXGKCB_AGP_ALLOCATE_POOL, dispmprt/AgpAllocatePool, DpFunctions_2bd4981c-c9f1-4b37-a921-9eb33d1b622b.xml
+ms.keywords: AgpAllocatePool, AgpAllocatePool callback function [Display Devices], DXGKCB_AGP_ALLOCATE_POOL, DpFunctions_2bd4981c-c9f1-4b37-a921-9eb33d1b622b.xml, display.agpallocatepool, dispmprt/AgpAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -140,19 +140,19 @@ Call <b>AgpAllocatePool</b> in the display miniport driver's <a href="..\dispmpr
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_free_pool.md">AgpFreePool</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_set_command.md">AgpSetCommand</a>
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_free_pool.md">AgpFreePool</a>
 
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 65828926-FDA7-4F65-AD55-B7E03639FA27
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsStartSiloMonitor routine [Kernel-Mode Driver Architecture], PsStartSiloMonitor, ntddk/PsStartSiloMonitor, kernel.psstartsilomonitor
+ms.keywords: ",  , M, P, PsStartSiloMonitor, PsStartSiloMonitor routine [Kernel-Mode Driver Architecture], S, a, i, kernel.psstartsilomonitor, l, n, ntddk/PsStartSiloMonitor, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

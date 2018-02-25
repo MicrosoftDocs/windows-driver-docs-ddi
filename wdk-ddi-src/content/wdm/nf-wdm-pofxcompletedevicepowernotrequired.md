@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7DCAFA7C-6F13-4020-BCB6-D36EE164BDAA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired, kernel.pofxcompletedevicepowernotrequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, D, F, N, P, PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture], R, c, d, e, i, kernel.pofxcompletedevicepowernotrequired, l, m, o, p, q, r, t, u, v, w, wdm/PoFxCompleteDevicePowerNotRequired, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

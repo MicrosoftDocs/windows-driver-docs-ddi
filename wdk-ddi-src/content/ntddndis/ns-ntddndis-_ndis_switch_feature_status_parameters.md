@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6d365e49-49ff-4b00-8cce-cf0c25cc2491
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS, ntddndis/NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, _NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS, *PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_feature_status_parameters, NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
+ms.keywords: ",  , *, *PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS, ,, A, C, D, E, F, H, I, M, N, NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], P, PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, W, _, _NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_feature_status_parameters, ntddndis/NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -168,7 +168,7 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_custom.md">NDIS_
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598260">OID_SWITCH_FEATURE_STATUS_QUERY</a>
 
 
 
@@ -176,7 +176,7 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_custom.md">NDIS_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598260">OID_SWITCH_FEATURE_STATUS_QUERY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

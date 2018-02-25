@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45bda979-8f89-41cf-a0c9-3d8777cd5a56
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_WatchUiccFileChange, rilapi/RIL_WatchUiccFileChange, netvista.ril_watchuiccfilechange, RIL_WatchUiccFileChange method [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , C, F, I, L, R, RIL_WatchUiccFileChange, RIL_WatchUiccFileChange method [Network Drivers Starting with Windows Vista], U, W, _, a, c, e, g, h, i, l, n, netvista.ril_watchuiccfilechange, rilapi/RIL_WatchUiccFileChange, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

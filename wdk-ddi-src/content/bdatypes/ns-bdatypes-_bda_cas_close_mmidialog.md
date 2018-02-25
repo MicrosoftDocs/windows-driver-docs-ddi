@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 430580CF-F2FB-4684-B681-361E74D8EABD
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: bdatypes/BDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG, PBDA_CAS_CLOSE_MMIDIALOG structure pointer [Streaming Media Devices], stream.bda_cas_close_mmidialog, PBDA_CAS_CLOSE_MMIDIALOG, _BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG, bdatypes/PBDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG structure [Streaming Media Devices]
+ms.keywords: ",  , *, *PBDA_CAS_CLOSE_MMIDIALOG, ,, A, B, BDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG structure [Streaming Media Devices], C, D, E, G, I, L, M, O, P, PBDA_CAS_CLOSE_MMIDIALOG, PBDA_CAS_CLOSE_MMIDIALOG structure pointer [Streaming Media Devices], S, _, _BDA_CAS_CLOSE_MMIDIALOG, bdatypes/BDA_CAS_CLOSE_MMIDIALOG, bdatypes/PBDA_CAS_CLOSE_MMIDIALOG, stream.bda_cas_close_mmidialog"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

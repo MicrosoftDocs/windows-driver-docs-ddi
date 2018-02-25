@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c49b1c12-8757-4d15-807d-fdb963746810
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONSTATUS, _D3DKMT_QUERYPROTECTEDSESSIONSTATUS, display.d3dkmt-queryprotectedsessionstatus, D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure [Display Devices], d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONSTATUS
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_QUERYPROTECTEDSESSIONSTATUS, D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure [Display Devices], E, I, K, M, N, O, P, Q, R, S, T, U, Y, _, _D3DKMT_QUERYPROTECTEDSESSIONSTATUS, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONSTATUS, display.d3dkmt-queryprotectedsessionstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

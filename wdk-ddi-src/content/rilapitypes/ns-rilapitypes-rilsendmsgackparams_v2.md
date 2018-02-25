@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 10bd2f88-ad1e-4d48-a338-e49c82a66d7a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilsendmsgackparams_v2_2, RILSENDMSGACKPARAMS_V2, rilapitypes/RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], *LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS
+ms.keywords: ",  , *, *LPRILSENDMSGACKPARAMS, ,, 2, A, C, D, E, G, I, K, L, M, N, P, R, RILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], S, V, _, netvista.rilsendmsgackparams_v2_2, rilapitypes/RILSENDMSGACKPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

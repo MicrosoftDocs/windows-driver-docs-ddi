@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6fe7465d-938a-400f-b141-76e8a5ffbe90
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, wdfsync/WdfWaitLockAcquire, kmdf.wdfwaitlockacquire, WdfWaitLockAcquire method, wdf.wdfwaitlockacquire, WdfWaitLockAcquire
+ms.keywords: ",  , A, DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, L, W, WdfWaitLockAcquire, WdfWaitLockAcquire method, a, c, d, e, f, i, k, kmdf.wdfwaitlockacquire, o, q, r, t, u, wdf.wdfwaitlockacquire, wdfsync/WdfWaitLockAcquire"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,7 +163,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfWaitLockAcquire</b> method does not return until it acquires the wait lock or until the time-out period expires. 
 
-<b>WdfWaitLockAcquire</b> calls <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="https://msdn.microsoft.com/74ed953c-1b2a-40b9-9df3-16869b198b38">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
+<b>WdfWaitLockAcquire</b> calls <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="https://msdn.microsoft.com/74ed953c-1b2a-40b9-9df3-16869b198b38">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
 
 If the <i>Timeout</i> pointer is <b>NULL</b>, or if the time-out value is not zero, <b>WdfWaitLockAcquire</b> must be called at IRQL = PASSIVE_LEVEL.
 
@@ -202,11 +202,11 @@ WdfWaitLockRelease(FilterDeviceCollectionLock);</pre>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 
 

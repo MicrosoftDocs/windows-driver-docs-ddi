@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 36e0041d-700f-44db-84b6-3745026cb6f7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.isdevicehighspeed, IsDeviceHighSpeed, PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED, IsDeviceHighSpeed callback function [Buses], IsDeviceHighSpeed, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED, usbbusif/IsDeviceHighSpeed, usbinterKR_eaf122ed-eee1-4924-a186-b0474b8c9816.xml
+ms.keywords: IsDeviceHighSpeed, IsDeviceHighSpeed callback function [Buses], PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED, buses.isdevicehighspeed, usbbusif/IsDeviceHighSpeed, usbinterKR_eaf122ed-eee1-4924-a186-b0474b8c9816.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

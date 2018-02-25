@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 60f35000-c62d-4d1b-8592-862c2d74b7a2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: biometric.winbio_capture_parameters, WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices], winbio_ioctl/WINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices], biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, *PWINBIO_CAPTURE_PARAMETERS, winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS, _WINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS
+ms.keywords: ",  , *, *PWINBIO_CAPTURE_PARAMETERS, ,, A, B, C, E, I, M, N, O, P, PWINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices], R, S, T, U, W, WINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices], _, _WINBIO_CAPTURE_PARAMETERS, biometric.winbio_capture_parameters, biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS, winbio_ioctl/WINBIO_CAPTURE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

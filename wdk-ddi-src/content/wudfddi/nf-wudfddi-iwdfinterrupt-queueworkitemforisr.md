@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5C6DC011-4032-4DB6-AE17-88E510DF9A3A
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFInterrupt interface, QueueWorkItemForIsr method, IWDFInterrupt, umdf.iwdfinterrupt_queueworkitemforisr, QueueWorkItemForIsr, IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr method, IWDFInterrupt interface, wudfddi/IWDFInterrupt::QueueWorkItemForIsr, wdf.iwdfinterrupt_queueworkitemforisr, QueueWorkItemForIsr method
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFInterrupt, IWDFInterrupt interface, QueueWorkItemForIsr method, IWDFInterrupt::QueueWorkItemForIsr, Q, QueueWorkItemForIsr method, QueueWorkItemForIsr method, IWDFInterrupt interface, QueueWorkItemForIsr,IWDFInterrupt.QueueWorkItemForIsr, W, e, k, m, n, o, p, r, s, t, u, umdf.iwdfinterrupt_queueworkitemforisr, wdf.iwdfinterrupt_queueworkitemforisr, wudfddi/IWDFInterrupt::QueueWorkItemForIsr"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,11 +96,11 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
-
-
-
 <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
 
 

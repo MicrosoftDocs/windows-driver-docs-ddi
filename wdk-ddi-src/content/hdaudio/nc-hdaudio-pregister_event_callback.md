@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0f94146b-aa60-4106-aba6-0f1cb3e53008
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.registereventcallback, RegisterEventCallback callback function [Audio Devices], RegisterEventCallback, PREGISTER_EVENT_CALLBACK, PREGISTER_EVENT_CALLBACK, hdaudio/RegisterEventCallback, aud-prop2_4ef71e0f-0887-4d20-8198-cb5b9c161647.xml
+ms.keywords: PREGISTER_EVENT_CALLBACK, RegisterEventCallback, RegisterEventCallback callback function [Audio Devices], aud-prop2_4ef71e0f-0887-4d20-8198-cb5b9c161647.xml, audio.registereventcallback, hdaudio/RegisterEventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -175,7 +175,11 @@ The first call parameter is a structure of type <a href="..\hdaudio\ns-hdaudio-_
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+<a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 
@@ -183,11 +187,7 @@ The first call parameter is a structure of type <a href="..\hdaudio\ns-hdaudio-_
 
 
 
-<a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
 
 
 

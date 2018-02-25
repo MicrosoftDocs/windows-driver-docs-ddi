@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 358c3089-7238-4604-add8-575b611b3bc9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_tape_get_position, IOCTL_TAPE_GET_POSITION control code [Storage Devices], IOCTL_TAPE_GET_POSITION, ntddtape/IOCTL_TAPE_GET_POSITION, k307_88069692-1167-4a21-914b-505e1100f6dc.xml
+ms.keywords: IOCTL_TAPE_GET_POSITION, IOCTL_TAPE_GET_POSITION control code [Storage Devices], k307_88069692-1167-4a21-914b-505e1100f6dc.xml, ntddtape/IOCTL_TAPE_GET_POSITION, storage.ioctl_tape_get_position
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -110,11 +110,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567946">TapeMiniGetPosition</a>
+
+
+
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 

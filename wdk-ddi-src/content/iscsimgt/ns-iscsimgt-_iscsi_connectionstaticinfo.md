@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14d4464e-d4e8-446c-8822-0b16c984313c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml, ISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo structure pointer [Storage Devices], *PISCSI_ConnectionStaticInfo, iscsimgt/PISCSI_ConnectionStaticInfo, _ISCSI_ConnectionStaticInfo, storage.iscsi_connectionstaticinfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], PISCSI_ConnectionStaticInfo, iscsimgt/ISCSI_ConnectionStaticInfo
+ms.keywords: ",  , *, *PISCSI_ConnectionStaticInfo, ,, C, I, ISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], P, PISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo structure pointer [Storage Devices], S, _, _ISCSI_ConnectionStaticInfo, a, c, e, f, i, iscsimgt/ISCSI_ConnectionStaticInfo, iscsimgt/PISCSI_ConnectionStaticInfo, n, o, storage.iscsi_connectionstaticinfo, structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -256,7 +256,7 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561494">ISCSI_CONNECTION_PROTOCOL_TYPE_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561490">ISCSI_ConnectionStaticInfo WMI Class</a>
 
 
 
@@ -264,15 +264,15 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561490">ISCSI_ConnectionStaticInfo WMI Class</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561494">ISCSI_CONNECTION_PROTOCOL_TYPE_QUALIFIERS</a>
 
 
 

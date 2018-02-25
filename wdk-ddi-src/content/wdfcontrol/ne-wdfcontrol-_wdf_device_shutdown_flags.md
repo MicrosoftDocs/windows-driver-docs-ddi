@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e394f8de-7257-4baa-9057-bd4bad34212d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_WDF_DEVICE_SHUTDOWN_FLAGS, DFDeviceObjectControllerDevObjRef_67312956-1032-4272-9b69-ed1674b5e951.xml, WdfDeviceLastChanceShutdown, wdfcontrol/WdfDeviceShutdown, kmdf.wdf_device_shutdown_flags, WdfDeviceShutdown, WDF_DEVICE_SHUTDOWN_FLAGS enumeration, wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS, WDF_DEVICE_SHUTDOWN_FLAGS, wdfcontrol/WdfDeviceLastChanceShutdown, wdf.wdf_device_shutdown_flags"
+ms.keywords: ",  , ,, A, C, D, DFDeviceObjectControllerDevObjRef_67312956-1032-4272-9b69-ed1674b5e951.xml, E, F, G, H, I, L, N, O, S, T, U, V, W, WDF_DEVICE_SHUTDOWN_FLAGS, WDF_DEVICE_SHUTDOWN_FLAGS enumeration, WdfDeviceLastChanceShutdown, WdfDeviceShutdown, _, _WDF_DEVICE_SHUTDOWN_FLAGS, kmdf.wdf_device_shutdown_flags, wdf.wdf_device_shutdown_flags, wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS, wdfcontrol/WdfDeviceLastChanceShutdown, wdfcontrol/WdfDeviceShutdown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43063BD3-8F2C-4F27-A304-75FBD5C87674
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ioreportrootdevice, IoReportRootDevice routine [Kernel-Mode Driver Architecture], IoReportRootDevice, ntddk/IoReportRootDevice
+ms.keywords: ",  , D, I, IoReportRootDevice, IoReportRootDevice routine [Kernel-Mode Driver Architecture], R, c, e, i, kernel.ioreportrootdevice, ntddk/IoReportRootDevice, o, p, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,7 @@ Pointer to the driver object of the driver that detected the device.
 
 Drivers for devices that cannot be detected by a PnP bus driver use <b>IoReportRootDevice</b> to report their device to the system. Devices that can be detected by a PnP bus driver should be reported in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a> request.
 
-A driver typically calls this routine from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
+A driver typically calls this routine from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
 <b>IoReportRootDevice</b> marks the device as a root-enumerated device and this identification is persistent across system boots. The PnP manager "detects" the device on the root-enumerated list and configures it like a PnP device: the PnP manager queries for device information, identifies the appropriate drivers and calls their <i>AddDevice</i> routines, and sends all the appropriate PnP IRPs.
 
@@ -105,23 +105,11 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
 ## -see-also
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551679">IRP_MN_QUERY_ID</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -129,7 +117,19 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
 
 
+<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-ioreportdetecteddevice.md">IoReportDetectedDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 

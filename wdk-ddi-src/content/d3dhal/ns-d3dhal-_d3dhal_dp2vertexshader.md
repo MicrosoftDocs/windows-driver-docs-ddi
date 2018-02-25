@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9207768b-530a-49d5-999e-0e8eb6bd1fe5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DHAL_DP2VERTEXSHADER structure [Display Devices], d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, *LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER, display.d3dhal_dp2vertexshader, d3dhal/D3DHAL_DP2VERTEXSHADER, _D3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], D3DHAL_DP2VERTEXSHADER
+ms.keywords: ",  , *, *LPD3DHAL_DP2VERTEXSHADER, ,, 2, 3, A, D, D3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER structure [Display Devices], E, H, L, LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], P, R, S, T, V, X, _, _D3DHAL_DP2VERTEXSHADER, d3dhal/D3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, display.d3dhal_dp2vertexshader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,35 +105,7 @@ For D3DDP2OP_SETVERTEXSHADERDECL operations, the runtime specifies a legacy FVF 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-D3DDP2OP_SETVERTEXSHADER
-
-
-
-D3DDP2OP_SETSTREAMSOURCE
-
-
-
-D3DDP2OP_SETSTREAMSOURCEUM
-
-
-
-D3DDP2OP_DELETEVERTEXSHADER
-
-
-
-D3DDP2OP_CREATEVERTEXSHADER
-
-
-
-D3DDP2OP_DELETEVERTEXSHADERFUNC
+D3DDP2OP_SETVERTEXSHADERFUNC
 
 
 
@@ -141,15 +113,43 @@ D3DDP2OP_DELETEVERTEXSHADERDECL
 
 
 
-D3DDP2OP_SETVERTEXSHADERDECL
+D3DDP2OP_SETSTREAMSOURCEUM
 
 
 
-D3DDP2OP_SETVERTEXSHADERFUNC
+D3DDP2OP_DELETEVERTEXSHADERFUNC
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
+
+
+
+D3DDP2OP_SETVERTEXSHADER
 
 
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setvertexshaderconst.md">D3DHAL_DP2SETVERTEXSHADERCONST</a>
+
+
+
+D3DDP2OP_SETVERTEXSHADERDECL
+
+
+
+D3DDP2OP_CREATEVERTEXSHADER
+
+
+
+D3DDP2OP_SETSTREAMSOURCE
+
+
+
+D3DDP2OP_DELETEVERTEXSHADER
 
 
 

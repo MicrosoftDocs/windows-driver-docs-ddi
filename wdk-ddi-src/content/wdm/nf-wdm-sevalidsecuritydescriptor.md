@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14657843-bd48-4cab-b913-c95aeb6a6083
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/SeValidSecurityDescriptor, k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, SeValidSecurityDescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], kernel.sevalidsecuritydescriptor
+ms.keywords: ",  , D, S, SeValidSecurityDescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], V, a, c, d, e, i, k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, kernel.sevalidsecuritydescriptor, l, o, p, r, s, t, u, wdm/SeValidSecurityDescriptor, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

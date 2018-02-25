@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7bb39a5b-7519-47a6-82ca-440942ae2c84
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ipartimage, IPartImage interface [Print Devices], IPartImage interface [Print Devices], described, IPartImage, filterpipeline/IPartImage, filterpipeline_faed49d4-60d1-4063-a4aa-c9ec8c56655d.xml
+ms.keywords: IPartImage, IPartImage interface [Print Devices], IPartImage interface [Print Devices], described, filterpipeline/IPartImage, filterpipeline_faed49d4-60d1-4063-a4aa-c9ec8c56655d.xml, print.ipartimage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

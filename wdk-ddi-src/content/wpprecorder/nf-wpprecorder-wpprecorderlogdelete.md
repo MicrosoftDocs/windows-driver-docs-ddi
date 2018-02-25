@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: AEE10756-7301-4B55-82A5-27CA595854EA
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wpprecorder/imp_WppRecorderLogDelete, imp_WppRecorderLogDelete function [Driver Development Tools], devtest.wpprecorderlogdelete, imp_WppRecorderLogDelete, WppRecorderLogDelete
+ms.keywords: ",  , D, L, R, W, WppRecorderLogDelete, c, d, devtest.wpprecorderlogdelete, e, g, imp_WppRecorderLogDelete, imp_WppRecorderLogDelete function [Driver Development Tools], l, o, p, r, t, wpprecorder/imp_WppRecorderLogDelete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

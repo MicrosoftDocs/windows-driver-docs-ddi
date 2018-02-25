@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 51DE471E-5409-4ED9-BC50-29D18E8F5A16
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.getidlewakeinfo, GetIdleWakeInfo routine [Kernel-Mode Driver Architecture], GetIdleWakeInfo, GET_IDLE_WAKE_INFO, GET_IDLE_WAKE_INFO, wdm/GetIdleWakeInfo
+ms.keywords: GET_IDLE_WAKE_INFO, GetIdleWakeInfo, GetIdleWakeInfo routine [Kernel-Mode Driver Architecture], kernel.getidlewakeinfo, wdm/GetIdleWakeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -80,7 +80,7 @@ A pointer to interface-specific context information. The caller sets this parame
 
 ### -param SystemPowerState [in]
 
-System power state. Set this parameter to one of the following <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration values:
+System power state. Set this parameter to one of the following <a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration values:
 
 <ul>
 <li><b>PowerSystemWorking</b></li>
@@ -156,11 +156,11 @@ An inline helper function, <b>MapWakeDepthToDstate</b>, is provided to convert t
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
-
-
-
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+
+
+
+<a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
 
@@ -172,11 +172,11 @@ An inline helper function, <b>MapWakeDepthToDstate</b>, is provided to convert t
 
 
 
-<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+
+
+<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3A8B040D-7B48-4CDB-985B-906AE1762E22
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfncheckcounter, D3DDDI_COUNTER_TYPE, pfnCheckCounter callback function [Display Devices], pfnCheckCounter, PFND3DDDI_CHECKCOUNTER, PFND3DDDI_CHECKCOUNTER, d3dumddi/pfnCheckCounter
+ms.keywords: D3DDDI_COUNTER_TYPE, PFND3DDDI_CHECKCOUNTER, d3dumddi/pfnCheckCounter, display.pfncheckcounter, pfnCheckCounter, pfnCheckCounter callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -261,11 +261,11 @@ If a counter ID can always be monitored (and it doesn't interfere with monitorin
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounter.md">CheckCounter</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a>
 
 
 

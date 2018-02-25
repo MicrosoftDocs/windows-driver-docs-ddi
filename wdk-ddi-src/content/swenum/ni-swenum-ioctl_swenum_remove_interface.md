@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 89E7498F-8568-4A24-8731-E84AC8D1CE94
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ioctl_swenum_remove_interface, IOCTL_SWENUM_REMOVE_INTERFACE control code [Streaming Media Devices], IOCTL_SWENUM_REMOVE_INTERFACE, swenum/IOCTL_SWENUM_REMOVE_INTERFACE
+ms.keywords: IOCTL_SWENUM_REMOVE_INTERFACE, IOCTL_SWENUM_REMOVE_INTERFACE control code [Streaming Media Devices], stream.ioctl_swenum_remove_interface, swenum/IOCTL_SWENUM_REMOVE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -100,11 +100,7 @@ req.product: Windows 10 or later.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -112,7 +108,11 @@ req.product: Windows 10 or later.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E66742D4-A972-4096-8DDC-E8F42E8B8D25
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.freestacksymframes, FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], FreeStackSymFrames, PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, dbgeng/FreeStackSymFrames
+ms.keywords: FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, dbgeng/FreeStackSymFrames, debugger.freestacksymframes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

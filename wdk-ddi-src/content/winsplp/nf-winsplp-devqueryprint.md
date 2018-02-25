@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B3135A43-A328-4103-AB75-A37F02322F70
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winsplp/DevQueryPrint, DevQueryPrint, print.devqueryprint, DevQueryPrint function [Print Devices]
+ms.keywords: ",  , D, DevQueryPrint, DevQueryPrint function [Print Devices], P, Q, e, i, n, print.devqueryprint, r, t, u, v, winsplp/DevQueryPrint, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

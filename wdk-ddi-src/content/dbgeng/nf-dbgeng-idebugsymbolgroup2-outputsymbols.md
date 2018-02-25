@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1fe99cc4-35d9-432a-aed9-074d40438976
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbolGroup interface [Windows Debugging], OutputSymbols method, debugger.outputsymbols, OutputSymbols, OutputSymbols method [Windows Debugging], IDebugSymbolGroup, IDebugSymbolGroup::OutputSymbols, ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, IDebugSymbolGroup2 interface [Windows Debugging], OutputSymbols method, dbgeng/IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup2, OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface, OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::OutputSymbols, dbgeng/IDebugSymbolGroup::OutputSymbols
+ms.keywords: ",  , ,, ., 2, :, ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, D, G, I, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], OutputSymbols method, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], OutputSymbols method, IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup::OutputSymbols, O, OutputSymbols method [Windows Debugging], OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface, OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, OutputSymbols,IDebugSymbolGroup.OutputSymbols, OutputSymbols,IDebugSymbolGroup2.OutputSymbols, S, b, dbgeng/IDebugSymbolGroup2::OutputSymbols, dbgeng/IDebugSymbolGroup::OutputSymbols, debugger.outputsymbols, e, g, l, m, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -182,15 +182,15 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

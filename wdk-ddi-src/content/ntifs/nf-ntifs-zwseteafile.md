@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e791900a-06a8-4c8b-8ca8-c4e73d94f609
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.zwseteafile, ZwSetEaFile routine [Kernel-Mode Driver Architecture], ntifs/ZwSetEaFile, ZwSetEaFile
+ms.keywords: ",  , E, F, S, Z, ZwSetEaFile, ZwSetEaFile routine [Kernel-Mode Driver Architecture], a, e, i, kernel.zwseteafile, l, ntifs/ZwSetEaFile, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6B99D78A-B582-4114-9472-D01D39FDD4C9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportinterlockedremoveheadlist, storport/StorPortInterlockedRemoveHeadList, StorPortInterlockedRemoveHeadList routine [Storage Devices], StorPortInterlockedRemoveHeadList
+ms.keywords: ",  , H, I, L, P, R, S, StorPortInterlockedRemoveHeadList, StorPortInterlockedRemoveHeadList routine [Storage Devices], a, c, d, e, i, k, l, m, n, o, r, s, storage.storportinterlockedremoveheadlist, storport/StorPortInterlockedRemoveHeadList, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,7 +152,7 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedremoveheadlist.md">StorPortInterlockedRemoveHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790427">StorPortInitializeSpinLock</a>
 
 
 
@@ -160,7 +160,7 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\storport\nf-storport-storportinterlockedremoveheadlist.md">StorPortInterlockedRemoveHeadList</a>
 
 
 
@@ -168,7 +168,7 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790427">StorPortInitializeSpinLock</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 

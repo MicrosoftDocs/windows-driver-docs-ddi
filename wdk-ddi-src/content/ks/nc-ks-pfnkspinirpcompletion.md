@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 46b29026-b3a9-49cc-8f3d-0318516526d2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminipinirpcompletion, AVStrMiniPinIrpCompletion, AVStrMiniPinIrpCompletion routine [Streaming Media Devices], AVStrMiniPinIrpCompletion, PFNKSPINIRPCOMPLETION, PFNKSPINIRPCOMPLETION, ks/AVStrMiniPinIrpCompletion, avstclbk_fabf9c16-a37b-4101-9468-dc247545aea0.xml
+ms.keywords: AVStrMiniPinIrpCompletion, AVStrMiniPinIrpCompletion routine [Streaming Media Devices], PFNKSPINIRPCOMPLETION, avstclbk_fabf9c16-a37b-4101-9468-dc247545aea0.xml, ks/AVStrMiniPinIrpCompletion, stream.avstrminipinirpcompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,11 @@ The minidriver specifies this routine's address in the <i>IrpCompletion</i> para
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
 <a href="..\ks\nf-ks-kspinregisterirpcompletioncallback.md">KsPinRegisterIrpCompletionCallback</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 

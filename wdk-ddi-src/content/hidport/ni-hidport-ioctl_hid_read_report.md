@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 83a7cf49-6879-4e91-b398-d97d4b69e5b1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_hid_read_report, IOCTL_HID_READ_REPORT control code [Human Input Devices], IOCTL_HID_READ_REPORT, hidport/IOCTL_HID_READ_REPORT, hidioreq_e75980f5-3db7-4e29-b25a-9d3c3260d0f6.xml
+ms.keywords: IOCTL_HID_READ_REPORT, IOCTL_HID_READ_REPORT control code [Human Input Devices], hid.ioctl_hid_read_report, hidioreq_e75980f5-3db7-4e29-b25a-9d3c3260d0f6.xml, hidport/IOCTL_HID_READ_REPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -131,7 +131,19 @@ IOCTL_HID_READ_REPORT  is typically used for continuously completing input repor
 
 ## -see-also
 
+<a href="..\hidport\ni-hidport-ioctl_hid_write_report.md">IOCTL_HID_WRITE_REPORT</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+
+
+
 <a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
 
 
@@ -143,23 +155,11 @@ IOCTL_HID_READ_REPORT  is typically used for continuously completing input repor
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
-
-
-
-<a href="..\hidport\ni-hidport-ioctl_hid_write_report.md">IOCTL_HID_WRITE_REPORT</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
-
-
-
-<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
-
-
-
 <a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
 
 
 

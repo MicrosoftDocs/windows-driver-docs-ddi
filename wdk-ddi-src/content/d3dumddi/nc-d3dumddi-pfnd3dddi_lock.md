@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2289073-d46a-4a12-8de7-30400e04cc22
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.lock, Lock callback function [Display Devices], Lock, PFND3DDDI_LOCK, PFND3DDDI_LOCK, d3dumddi/Lock, UserModeDisplayDriver_Functions_c4db91e8-a67e-4647-97d3-abde07926169.xml
+ms.keywords: Lock, Lock callback function [Display Devices], PFND3DDDI_LOCK, UserModeDisplayDriver_Functions_c4db91e8-a67e-4647-97d3-abde07926169.xml, d3dumddi/Lock, display.lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -167,15 +167,7 @@ The user-mode display driver returns a pointer to the memory for the locked surf
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
 
 
 
@@ -183,7 +175,15 @@ The user-mode display driver returns a pointer to the memory for the locked surf
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 

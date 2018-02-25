@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c376297a-11a6-4e9f-b551-36a573cdb7e0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiauPropsInPropSpec, wiauPropsInPropSpec function [Imaging Devices], wiauFncs_2490b5b3-8051-4711-b681-1aef18580182.xml, wiautil/wiauPropsInPropSpec, image.wiaupropsinpropspec
+ms.keywords: ",  , I, P, S, a, c, e, i, image.wiaupropsinpropspec, n, o, p, r, s, u, w, wiauFncs_2490b5b3-8051-4711-b681-1aef18580182.xml, wiauPropsInPropSpec, wiauPropsInPropSpec function [Imaging Devices], wiautil/wiauPropsInPropSpec"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

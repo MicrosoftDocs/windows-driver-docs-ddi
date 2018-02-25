@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 22c7ae24-c2dc-46d6-b3c2-b908ad6d181c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS, *LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS, netvista.rilsendrestricteduicccmdparams, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *LPRILSENDRESTRICTEDUICCCMDPARAMS, ,, A, C, D, E, I, L, M, N, P, R, RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.rilsendrestricteduicccmdparams, ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

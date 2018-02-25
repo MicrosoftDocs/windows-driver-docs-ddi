@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 46F23D7A-5C7A-4BCC-A575-5D47F590B07C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnsignalsynchronizationobjectfromgpucb, pfnSignalSynchronizationObjectFromGpuCb callback function [Display Devices], pfnSignalSynchronizationObjectFromGpuCb, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPUCB, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPUCB, d3dumddi/pfnSignalSynchronizationObjectFromGpuCb
+ms.keywords: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPUCB, d3dumddi/pfnSignalSynchronizationObjectFromGpuCb, display.pfnsignalsynchronizationobjectfromgpucb, pfnSignalSynchronizationObjectFromGpuCb, pfnSignalSynchronizationObjectFromGpuCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,15 +112,15 @@ This function semantics are similar to existing <a href="..\d3dumddi\nc-d3dumddi
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpu2cb.md">pfnSignalSynchronizationObjectFromGpu2Cb</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
 
 
 

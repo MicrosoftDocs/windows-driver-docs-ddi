@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0973cef3-41a8-495e-aa8a-ce64df53b892
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh callback function [Display Devices], pfnStartSessionKeyRefresh, PFND3D11_1DDI_STARTSESSIONKEYREFRESH, PFND3D11_1DDI_STARTSESSIONKEYREFRESH, d3d10umddi/pfnStartSessionKeyRefresh
+ms.keywords: PFND3D11_1DDI_STARTSESSIONKEYREFRESH, d3d10umddi/pfnStartSessionKeyRefresh, display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh, pfnStartSessionKeyRefresh callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b7f34d42-6044-43c6-85c8-ca3a6177c057
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsStreamPointerGetNextClone, KsStreamPointerGetNextClone, avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, KsStreamPointerGetNextClone function [Streaming Media Devices], stream.ksstreampointergetnextclone
+ms.keywords: ",  , C, G, K, KsStreamPointerGetNextClone, KsStreamPointerGetNextClone function [Streaming Media Devices], N, P, S, a, avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, e, i, ks/KsStreamPointerGetNextClone, l, m, n, o, r, s, stream.ksstreampointergetnextclone, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,7 +95,7 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
 
 
 
@@ -103,7 +103,7 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
 
 

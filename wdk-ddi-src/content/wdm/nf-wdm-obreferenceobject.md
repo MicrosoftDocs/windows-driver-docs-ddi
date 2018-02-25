@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d911089a-f23a-4d0e-a333-c01ec3ac89dc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ObReferenceObject, ObfReferenceObject, kernel.obreferenceobject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, ObReferenceObject, wdm/ObfReferenceObject, ObReferenceObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , O, ObReferenceObject, ObReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, R, b, c, e, f, j, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, kernel.obreferenceobject, n, r, t, wdm/ObReferenceObject, wdm/ObfReferenceObject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -93,7 +93,7 @@ When the reference count for an object reaches zero, a kernel-mode component can
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
@@ -101,7 +101,7 @@ When the reference count for an object reaches zero, a kernel-mode component can
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

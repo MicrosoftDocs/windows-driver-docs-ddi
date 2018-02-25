@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ab3f8abb-4735-42c1-9664-8f2f5f7d5da7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getvideoprocessorfilterrange, pfnGetVideoProcessorFilterRange callback function [Display Devices], pfnGetVideoProcessorFilterRange, PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE, PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE, d3d10umddi/pfnGetVideoProcessorFilterRange
+ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE, d3d10umddi/pfnGetVideoProcessorFilterRange, display.getvideoprocessorfilterrange, pfnGetVideoProcessorFilterRange, pfnGetVideoProcessorFilterRange callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -130,15 +130,15 @@ This callback function does not return a value.
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_filter_range.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
 
 
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_filter_range.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a>
 
 
 

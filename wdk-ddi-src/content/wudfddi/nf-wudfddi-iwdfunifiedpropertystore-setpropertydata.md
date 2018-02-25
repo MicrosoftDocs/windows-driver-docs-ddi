@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: SetPropertyData, umdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore::SetPropertyData, IWDFUnifiedPropertyStore, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData method, IWDFUnifiedPropertyStore interface, SetPropertyData method, SetPropertyData method, IWDFUnifiedPropertyStore interface, wdf.iwdfunifiedpropertystore_setpropertydata
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, SetPropertyData method, IWDFUnifiedPropertyStore::SetPropertyData, P, S, SetPropertyData method, SetPropertyData method, IWDFUnifiedPropertyStore interface, SetPropertyData,IWDFUnifiedPropertyStore.SetPropertyData, U, W, a, d, e, f, i, n, o, p, r, t, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -227,7 +227,7 @@ exit:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
 
 
 
@@ -235,15 +235,15 @@ exit:
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a>
 
 
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7c3fed89-a4e1-436f-9cbb-e140ad42bb13
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxCreateMidAtlas function [Installable File System Drivers], rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml, midatlax/RxCreateMidAtlas, ifsk.rxcreatemidatlas, RxCreateMidAtlas
+ms.keywords: ",  , A, C, M, R, RxCreateMidAtlas, RxCreateMidAtlas function [Installable File System Drivers], a, d, e, i, ifsk.rxcreatemidatlas, l, midatlax/RxCreateMidAtlas, r, rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,15 +116,15 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
-
-
-
-<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
-
-
-
 <a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
 
 
 
@@ -132,7 +132,7 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
 
 
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
 
 
 

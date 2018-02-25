@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7f4ac419-a24e-4421-9891-9fea9479e781
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iresourcelist_addentry, IResourceList interface [Audio Devices], AddEntry method, portcls/IResourceList::AddEntry, AddEntry, AddEntry method [Audio Devices], AddEntry method [Audio Devices], IResourceList interface, IResourceList, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, IResourceList::AddEntry
+ms.keywords: ",  , ,, ., :, A, AddEntry method [Audio Devices], AddEntry method [Audio Devices], IResourceList interface, AddEntry,IResourceList.AddEntry, E, I, IResourceList, IResourceList interface [Audio Devices], AddEntry method, IResourceList::AddEntry, L, R, audio.iresourcelist_addentry, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, c, d, e, i, n, o, portcls/IResourceList::AddEntry, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -108,11 +108,11 @@ Indicates there are no free entries in the list.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
-
-
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

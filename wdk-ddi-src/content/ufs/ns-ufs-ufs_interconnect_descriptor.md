@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6C6EAA96-40E9-467F-903B-AE44CE5B77CF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ufs/PUFS_INTERCONNECT_DESCRIPTOR, UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], UFS_INTERCONNECT_DESCRIPTOR, storage.ufs_interconnect_descriptor, *PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR
+ms.keywords: ",  , *, *PUFS_INTERCONNECT_DESCRIPTOR, ,, C, D, E, F, I, N, O, P, PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], R, S, T, U, UFS_INTERCONNECT_DESCRIPTOR, UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], _, storage.ufs_interconnect_descriptor, ufs/PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

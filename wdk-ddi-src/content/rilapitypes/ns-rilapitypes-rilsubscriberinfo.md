@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b05a38c6-afc5-4dc1-8e51-ecf9d47e144e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilsubscriberinfo, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSUBSCRIBERINFO, RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO
+ms.keywords: ",  , *, *LPRILSUBSCRIBERINFO, ,, B, C, E, F, I, L, N, O, P, R, RILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], S, U, netvista.rilsubscriberinfo, rilapitypes/RILSUBSCRIBERINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

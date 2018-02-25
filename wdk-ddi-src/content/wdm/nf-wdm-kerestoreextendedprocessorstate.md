@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ea5e654a-9cb5-4d4d-9660-339410a6a20f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], KeRestoreExtendedProcessorState, kernel.kerestoreextendedprocessorstate, wdm/KeRestoreExtendedProcessorState, k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml
+ms.keywords: ",  , E, K, KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], P, R, S, a, c, d, e, k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml, kernel.kerestoreextendedprocessorstate, n, o, r, s, t, wdm/KeRestoreExtendedProcessorState, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,7 +113,7 @@ A similar set of rules apply to the <a href="..\wdm\nf-wdm-kesavefloatingpointst
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
+<a href="..\wdm\nf-wdm-kesaveextendedprocessorstate.md">KeSaveExtendedProcessorState</a>
 
 
 
@@ -121,11 +121,11 @@ A similar set of rules apply to the <a href="..\wdm\nf-wdm-kesavefloatingpointst
 
 
 
-<a href="..\wdm\nf-wdm-kesaveextendedprocessorstate.md">KeSaveExtendedProcessorState</a>
-
-
-
 <a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
 
 
 

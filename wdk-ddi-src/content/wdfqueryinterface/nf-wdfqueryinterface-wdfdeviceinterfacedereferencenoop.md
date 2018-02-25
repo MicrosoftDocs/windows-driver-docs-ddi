@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76319a0b-a7b3-48f6-804b-e01bc360c441
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdeviceinterfacedereferencenoop, WdfDeviceInterfaceDereferenceNoOp method, kmdf.wdfdeviceinterfacedereferencenoop, DFDeviceObjectDriverDefIntRef_2bfa96a8-a58a-4408-83db-11670d7de8c7.xml, WdfDeviceInterfaceDereferenceNoOp, wdfqueryinterface/WdfDeviceInterfaceDereferenceNoOp
+ms.keywords: ",  , D, DFDeviceObjectDriverDefIntRef_2bfa96a8-a58a-4408-83db-11670d7de8c7.xml, I, N, O, W, WdfDeviceInterfaceDereferenceNoOp, WdfDeviceInterfaceDereferenceNoOp method, a, c, d, e, f, i, kmdf.wdfdeviceinterfacedereferencenoop, n, o, p, r, t, v, wdf.wdfdeviceinterfacedereferencenoop, wdfqueryinterface/WdfDeviceInterfaceDereferenceNoOp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,15 +104,15 @@ For a code example that uses <b>WdfDeviceInterfaceDereferenceNoOp</b>, see <a hr
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
-
-
-
 <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
 
 
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F970A7FB-DF6F-414B-8B4B-C7E4C5C620B1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USB_PROTOCOLS, _USB_PROTOCOLS, USB_PROTOCOLS union [Buses], PUSB_PROTOCOLS union pointer [Buses], PUSB_PROTOCOLS, usbioctl/USB_PROTOCOLS, usbioctl/PUSB_PROTOCOLS, *PUSB_PROTOCOLS, buses.usb_protocols
+ms.keywords: ",  , *, *PUSB_PROTOCOLS, ,, B, C, L, O, P, PUSB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], R, S, T, U, USB_PROTOCOLS, USB_PROTOCOLS union [Buses], _, _USB_PROTOCOLS, buses.usb_protocols, usbioctl/PUSB_PROTOCOLS, usbioctl/USB_PROTOCOLS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ Reserved. Do not use.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2.md">USB_NODE_CONNECTION_INFORMATION_EX_V2</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 761967c9-c31f-4b7b-837a-bd48285c54fc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OEMPDriverEvent function [Print Devices], OEMPDriverEvent, print.oempdriverevent, print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, printoem/OEMPDriverEvent
+ms.keywords: ",  , D, E, M, O, OEMPDriverEvent, OEMPDriverEvent function [Print Devices], P, e, i, n, print.oempdriverevent, print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, printoem/OEMPDriverEvent, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d0dea63-de0d-4421-b123-ce31ac6af1d9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsFreeCloneNetBufferList0, fwpsk/FwpsFreeCloneNetBufferList0, wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], netvista.fwpsfreeclonenetbufferlist0
+ms.keywords: ",  , 0, B, C, F, FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], L, N, e, f, fwpsk/FwpsFreeCloneNetBufferList0, i, l, n, netvista.fwpsfreeclonenetbufferlist0, o, p, r, s, t, u, w, wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

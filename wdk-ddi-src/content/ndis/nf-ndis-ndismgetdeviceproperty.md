@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: caef96b6-1b94-475d-9f78-66ae6d6ac979
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], netvista.ndismgetdeviceproperty, ndis/NdisMGetDeviceProperty, miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, NdisMGetDeviceProperty
+ms.keywords: ",  , D, G, M, N, NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], P, c, d, e, i, miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty, o, p, r, s, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

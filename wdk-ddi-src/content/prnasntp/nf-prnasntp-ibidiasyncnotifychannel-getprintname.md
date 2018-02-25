@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: DE84073F-8D87-4C72-B820-4CBCF1B9DF2F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: prnasntp/IBidiAsyncNotifyChannel::GetPrintName, GetPrintName method [Print Devices], GetPrintName method [Print Devices], IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices], GetPrintName method, GetPrintName, IBidiAsyncNotifyChannel::GetPrintName, IBidiAsyncNotifyChannel, print.ibidiasyncnotifychannel_getprintname
+ms.keywords: ",  , ,, ., :, A, B, C, G, GetPrintName method [Print Devices], GetPrintName method [Print Devices], IBidiAsyncNotifyChannel interface, GetPrintName,IBidiAsyncNotifyChannel.GetPrintName, I, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], GetPrintName method, IBidiAsyncNotifyChannel::GetPrintName, N, P, a, c, d, e, f, h, i, l, m, n, o, print.ibidiasyncnotifychannel_getprintname, prnasntp/IBidiAsyncNotifyChannel::GetPrintName, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9b155d09-6fb2-4c6c-bde6-7eadeb09bc40
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ks_dvd_yuv, KS_DVD_YUV structure [Streaming Media Devices], KS_DVD_YUV, *PKS_DVD_YUV, dvdref_ea41e501-8a59-4d54-8dde-792ce2673b8c.xml, ksmedia/KS_DVD_YUV, PKS_DVD_YUV structure pointer [Streaming Media Devices], PKS_DVD_YUV, _KS_DVD_YUV, ksmedia/PKS_DVD_YUV
+ms.keywords: ",  , *, *PKS_DVD_YUV, ,, D, K, KS_DVD_YUV, KS_DVD_YUV structure [Streaming Media Devices], P, PKS_DVD_YUV, PKS_DVD_YUV structure pointer [Streaming Media Devices], S, U, V, Y, _, _KS_DVD_YUV, dvdref_ea41e501-8a59-4d54-8dde-792ce2673b8c.xml, ksmedia/KS_DVD_YUV, ksmedia/PKS_DVD_YUV, stream.ks_dvd_yuv"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

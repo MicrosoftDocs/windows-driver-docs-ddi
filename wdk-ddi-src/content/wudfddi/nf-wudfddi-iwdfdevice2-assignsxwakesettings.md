@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32d3b680-298b-443e-a2c4-db8fc057bf75
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: AssignSxWakeSettings method, AssignSxWakeSettings method, IWDFDevice2 interface, IWDFDevice2, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, AssignSxWakeSettings, wudfddi/IWDFDevice2::AssignSxWakeSettings, wdf.iwdfdevice2_assignsxwakesettings, IWDFDevice2 interface, AssignSxWakeSettings method, IWDFDevice2::AssignSxWakeSettings, umdf.iwdfdevice2_assignsxwakesettings
+ms.keywords: ",  , ,, ., 2, :, A, AssignSxWakeSettings method, AssignSxWakeSettings method, IWDFDevice2 interface, AssignSxWakeSettings,IWDFDevice2.AssignSxWakeSettings, D, F, I, IWDFDevice2, IWDFDevice2 interface, AssignSxWakeSettings method, IWDFDevice2::AssignSxWakeSettings, S, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, W, a, c, e, g, i, k, n, s, t, umdf.iwdfdevice2_assignsxwakesettings, v, wdf.iwdfdevice2_assignsxwakesettings, wudfddi/IWDFDevice2::AssignSxWakeSettings, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,7 +79,7 @@ A <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-
 
 ### -param UserControlOfWakeSettings [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
 
 
 ### -param Enabled [in]
@@ -227,11 +227,11 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a5277cee-40e8-4c87-8521-8ae59c9b33a3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoportreadportushort, VideoPortReadPortUshort function [Display Devices], VideoPort_Functions_cb14aa82-3092-4982-83c5-4682d7a487c0.xml, video/VideoPortReadPortUshort, VideoPortReadPortUshort
+ms.keywords: ",  , P, R, U, V, VideoPortReadPortUshort, VideoPortReadPortUshort function [Display Devices], VideoPort_Functions_cb14aa82-3092-4982-83c5-4682d7a487c0.xml, a, d, display.videoportreadportushort, e, h, i, o, r, s, t, video/VideoPortReadPortUshort"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,15 +95,15 @@ Callers of <b>VideoPortReadPortUshort</b> can be running at any IRQL, provided t
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-
-
-
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 

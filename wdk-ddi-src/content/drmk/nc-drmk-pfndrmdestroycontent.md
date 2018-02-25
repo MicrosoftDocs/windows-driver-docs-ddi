@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 24B98C91-9EB3-4D00-8D58-F6C96610946A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.pfndrmdestroycontent, DRMDestroyContent callback function [Audio Devices], DRMDestroyContent, PFNDRMDESTROYCONTENT, PFNDRMDESTROYCONTENT, drmk/DRMDestroyContent, DRMDestroyContent callback function [Audio Devices], DRMDestroyContent
+ms.keywords: DRMDestroyContent, DRMDestroyContent callback function [Audio Devices], PFNDRMDESTROYCONTENT, audio.pfndrmdestroycontent, drmk/DRMDestroyContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

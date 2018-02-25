@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3bf33ebb-bdb1-487d-b10f-1f00227d7128
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlDeleteElementGenericTable, ifsk.rtldeleteelementgenerictable, RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers], rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml
+ms.keywords: ",  , D, E, G, R, RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtldeleteelementgenerictable, l, m, n, ntddk/RtlDeleteElementGenericTable, r, rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,11 +118,11 @@ The caller-supplied <i>CompareRoutine</i> or <i>FreeRoutine</i> contains pageabl
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
 
 
 

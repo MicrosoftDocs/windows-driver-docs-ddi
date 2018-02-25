@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bb0fec4e-e6be-46e1-b6be-253dd0579ca6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_aacs_generate_binding_nonce, IOCTL_AACS_GENERATE_BINDING_NONCE control code [Storage Devices], IOCTL_AACS_GENERATE_BINDING_NONCE, ntddcdvd/IOCTL_AACS_GENERATE_BINDING_NONCE, k307_ff2a829d-24b6-4d74-92e4-18c342689db7.xml
+ms.keywords: IOCTL_AACS_GENERATE_BINDING_NONCE, IOCTL_AACS_GENERATE_BINDING_NONCE control code [Storage Devices], k307_ff2a829d-24b6-4d74-92e4-18c342689db7.xml, ntddcdvd/IOCTL_AACS_GENERATE_BINDING_NONCE, storage.ioctl_aacs_generate_binding_nonce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

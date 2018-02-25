@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 913F96FD-9C51-4A45-86A9-8830E1A395EE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._ucxusbdeviceinitseteventcallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses], UcxUsbDeviceInitSetEventCallbacks
+ms.keywords: ",  , C, D, E, I, S, U, UcxUsbDeviceInitSetEventCallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses], a, b, buses._ucxusbdeviceinitseteventcallbacks, c, e, i, k, l, n, s, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ For a code example, see <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_contr
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-
-
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_callbacks.md">UCX_USBDEVICE_EVENT_CALLBACKS</a>
+
+
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 

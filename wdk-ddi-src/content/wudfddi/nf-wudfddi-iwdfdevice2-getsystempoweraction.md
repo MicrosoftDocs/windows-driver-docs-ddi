@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0030d64b-3f88-4bb3-b7d2-fcdc57d4d887
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDevice2 interface, GetSystemPowerAction method, IWDFDevice2::GetSystemPowerAction, IWDFDevice2, wdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction, umdf.iwdfdevice2_getsystempoweraction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, GetSystemPowerAction method, GetSystemPowerAction, GetSystemPowerAction method, IWDFDevice2 interface
+ms.keywords: ",  , ,, ., 2, :, A, D, F, G, GetSystemPowerAction method, GetSystemPowerAction method, IWDFDevice2 interface, GetSystemPowerAction,IWDFDevice2.GetSystemPowerAction, I, IWDFDevice2, IWDFDevice2 interface, GetSystemPowerAction method, IWDFDevice2::GetSystemPowerAction, P, S, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, W, c, e, i, m, n, o, r, s, t, umdf.iwdfdevice2_getsystempoweraction, v, w, wdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,7 +74,7 @@ POWER_ACTION GetSystemPowerAction();
 
 
 
-<b>GetSystemPowerAction</b> returns a <a href="..\wudfddi\ne-wudfddi-__midl___midl_itf_wudfddi_0000_0000_0001.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
+<b>GetSystemPowerAction</b> returns a <a href="..\ntpoapi\ne-ntpoapi-ppower_action.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
 
 
 

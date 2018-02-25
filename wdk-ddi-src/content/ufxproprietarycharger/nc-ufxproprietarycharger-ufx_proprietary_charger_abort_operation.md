@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 32BCBE1C-BD0E-46D6-9C6D-6B8F1CE0E540
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ufx_proprietary_charger_abort_operation, UfxProprietaryChargerAbort callback function [Buses], UfxProprietaryChargerAbort, UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, ufxproprietarycharger/UfxProprietaryChargerAbort, PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback function pointer [Buses], PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION
+ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, UfxProprietaryChargerAbort, UfxProprietaryChargerAbort callback function [Buses], buses.ufx_proprietary_charger_abort_operation, ufxproprietarycharger/UfxProprietaryChargerAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

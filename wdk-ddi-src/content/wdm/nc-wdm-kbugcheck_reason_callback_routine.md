@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a3d33a3a-efe7-4346-82bc-555c57ae7b74
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.bugcheckaddpagescallback, BugCheckAddPagesCallback, BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, MyBugCheckCallback callback function [Kernel-Mode Driver Architecture], MyBugCheckCallback, KBUGCHECK_REASON_CALLBACK_ROUTINE, KBUGCHECK_REASON_CALLBACK_ROUTINE, wdm/MyBugCheckCallback, DrvrRtns_337f5b60-9ed5-4a1b-a215-1d3b1e3abb1e.xml
+ms.keywords: BugCheckAddPagesCallback, BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, DrvrRtns_337f5b60-9ed5-4a1b-a215-1d3b1e3abb1e.xml, KBUGCHECK_REASON_CALLBACK_ROUTINE, MyBugCheckCallback, MyBugCheckCallback callback function [Kernel-Mode Driver Architecture], kernel.bugcheckaddpagescallback, wdm/MyBugCheckCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -233,11 +233,15 @@ The KBUGCHECK_REASON_CALLBACK_ROUTINE function type is defined in the Wdm.h head
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAGES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
 
 
 
-<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 
 
@@ -245,15 +249,11 @@ The KBUGCHECK_REASON_CALLBACK_ROUTINE function type is defined in the Wdm.h head
 
 
 
-<a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAGES</a>
+<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
 
 
 
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 
 

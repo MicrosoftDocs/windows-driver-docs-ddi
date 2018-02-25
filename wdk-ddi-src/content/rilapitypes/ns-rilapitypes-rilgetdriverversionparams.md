@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b396b12e-f8c4-4e5e-b3c4-9822bcd996a4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilgetdriverversionparams_2, *LPRILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGETDRIVERVERSIONPARAMS
+ms.keywords: ",  , *, *LPRILGETDRIVERVERSIONPARAMS, ,, A, D, E, G, I, L, M, N, O, P, R, RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], S, T, V, netvista.rilgetdriverversionparams_2, rilapitypes/RILGETDRIVERVERSIONPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cdf0017f-e8c0-4e95-bea6-8bc2509c090c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksservicebusenumpnprequest, ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, KsServiceBusEnumPnpRequest function [Streaming Media Devices], KsServiceBusEnumPnpRequest, swenum/KsServiceBusEnumPnpRequest
+ms.keywords: ",  , B, E, K, KsServiceBusEnumPnpRequest, KsServiceBusEnumPnpRequest function [Streaming Media Devices], P, R, S, c, e, i, ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, m, n, p, q, r, s, stream.ksservicebusenumpnprequest, swenum/KsServiceBusEnumPnpRequest, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -202,11 +202,11 @@ IRP_MN_QUERY_CAPABILITIES
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
-
-
-
 <a href="..\swenum\nf-swenum-ksservicebusenumcreaterequest.md">KsServiceBusEnumCreateRequest</a>
+
+
+
+<a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
 
 
 

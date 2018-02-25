@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 943a9139-f3b8-468e-9357-26b7b6bfed32
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.getnearnamebyoffsetwide, IDebugSymbols3, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, IDebugSymbols3::GetNearNameByOffsetWide, GetNearNameByOffsetWide method [Windows Debugging], GetNearNameByOffsetWide, IDebugSymbols3 interface [Windows Debugging], GetNearNameByOffsetWide method, GetNearNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: ",  , ,, ., 3, :, B, D, G, GetNearNameByOffsetWide method [Windows Debugging], GetNearNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetNearNameByOffsetWide,IDebugSymbols3.GetNearNameByOffsetWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNearNameByOffsetWide method, IDebugSymbols3::GetNearNameByOffsetWide, N, O, S, W, a, b, d, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, debugger.getnearnamebyoffsetwide, e, f, g, i, l, m, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

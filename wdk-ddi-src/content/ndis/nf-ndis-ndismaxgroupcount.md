@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 080707c5-cf46-4066-a241-684cdae37fee
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisMaxGroupCount, NdisMaxGroupCount function [Network Drivers Starting with Windows Vista], netvista.ndismaxgroupcount, NdisMaxGroupCount, ndis_processor_group_ref_5744be61-71b7-4abc-ad66-30b26558c0ac.xml
+ms.keywords: ",  , C, G, M, N, NdisMaxGroupCount, NdisMaxGroupCount function [Network Drivers Starting with Windows Vista], a, d, i, n, ndis/NdisMaxGroupCount, ndis_processor_group_ref_5744be61-71b7-4abc-ad66-30b26558c0ac.xml, netvista.ndismaxgroupcount, o, p, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

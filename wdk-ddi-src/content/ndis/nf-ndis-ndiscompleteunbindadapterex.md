@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a1daad4-d4b7-4950-be58-73612949fba9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiscompleteunbindadapterex, ndis/NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml, NdisCompleteUnbindAdapterEx
+ms.keywords: ",  , A, C, E, N, NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], U, a, b, d, e, i, l, m, n, ndis/NdisCompleteUnbindAdapterEx, netvista.ndiscompleteunbindadapterex, o, p, protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,15 +112,15 @@ On return from
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 

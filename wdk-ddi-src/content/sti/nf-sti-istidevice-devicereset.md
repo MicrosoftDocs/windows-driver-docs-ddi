@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8a52c452-9a80-45d5-9bc8-85e17654eb6a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStiDevice, DeviceReset method [Imaging Devices], IStiDevice interface [Imaging Devices], DeviceReset method, sti/IStiDevice::DeviceReset, IStiDevice::DeviceReset, DeviceReset, DeviceReset method [Imaging Devices], IStiDevice interface, image.istidevice_devicereset, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml
+ms.keywords: ",  , ,, ., :, D, DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices], IStiDevice interface, DeviceReset,IStiDevice.DeviceReset, I, IStiDevice, IStiDevice interface [Imaging Devices], DeviceReset method, IStiDevice::DeviceReset, R, S, c, e, i, image.istidevice_devicereset, s, sti/IStiDevice::DeviceReset, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

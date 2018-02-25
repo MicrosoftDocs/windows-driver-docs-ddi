@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ec9fd207-4ed8-4bc9-b240-b5214e8c7f67
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.camconfigureex, CamConfigureEx, CamConfigureEx routine [Streaming Media Devices], CamConfigureEx, PCAM_CONFIGURE_ROUTINE_EX, PCAM_CONFIGURE_ROUTINE_EX, usbcamdi/CamConfigureEx, usbcmdpr_79d31303-32b2-493e-87b6-d6e1a9ad292d.xml
+ms.keywords: CamConfigureEx, CamConfigureEx routine [Streaming Media Devices], PCAM_CONFIGURE_ROUTINE_EX, stream.camconfigureex, usbcamdi/CamConfigureEx, usbcmdpr_79d31303-32b2-493e-87b6-d6e1a9ad292d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -140,7 +140,7 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
 
 
@@ -148,15 +148,15 @@ This function is required.
 
 
 
+<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+
+
+
 <a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-
-
-
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 

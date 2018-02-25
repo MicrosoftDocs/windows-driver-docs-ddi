@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8aa7e23e-f52e-4252-9f22-56ce523f6cba
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setvideoprocessrendertarget, SetVideoProcessRenderTarget callback function [Display Devices], SetVideoProcessRenderTarget, PFND3DDDI_SETVIDEOPROCESSRENDERTARGET, PFND3DDDI_SETVIDEOPROCESSRENDERTARGET, d3dumddi/SetVideoProcessRenderTarget, UserModeDisplayDriver_Functions_8ce2d981-2c69-45e9-a2e2-eba9026be1a0.xml
+ms.keywords: PFND3DDDI_SETVIDEOPROCESSRENDERTARGET, SetVideoProcessRenderTarget, SetVideoProcessRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_8ce2d981-2c69-45e9-a2e2-eba9026be1a0.xml, d3dumddi/SetVideoProcessRenderTarget, display.setvideoprocessrendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,11 +142,11 @@ All video processing render targets are created by setting the <a href="..\d3duk
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setvideoprocessrendertarget.md">D3DDDIARG_SETVIDEOPROCESSRENDERTARGET</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags.md">D3DDDI_RESOURCEFLAGS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setvideoprocessrendertarget.md">D3DDDIARG_SETVIDEOPROCESSRENDERTARGET</a>
 
 
 

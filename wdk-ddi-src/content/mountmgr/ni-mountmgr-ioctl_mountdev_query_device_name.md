@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3df96552-d4f6-4d1c-bc07-3eff5f3eabfb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_mountdev_query_device_name, IOCTL_MOUNTDEV_QUERY_DEVICE_NAME control code [Storage Devices], IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, mountmgr/IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, k307_4a0b9087-3740-4467-aa0f-ca7f56b8ae13.xml
+ms.keywords: IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, IOCTL_MOUNTDEV_QUERY_DEVICE_NAME control code [Storage Devices], k307_4a0b9087-3740-4467-aa0f-ca7f56b8ae13.xml, mountmgr/IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, storage.ioctl_mountdev_query_device_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

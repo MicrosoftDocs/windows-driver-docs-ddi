@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/HalAllocateHardwareCounters, kernel.halallocatehardwarecounters, k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, C, H, HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], a, c, d, e, k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, kernel.halallocatehardwarecounters, l, n, ntddk/HalAllocateHardwareCounters, o, r, s, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9cf60a9b-cb1e-46a5-b8d8-c7fc2c6f2cf3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetMsgInUiccStatus, RIL_GetMsgInUiccStatus, netvista.ril_getmsginuiccstatus
+ms.keywords: ",  , G, I, L, M, R, RIL_GetMsgInUiccStatus, RIL_GetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], S, U, _, a, c, e, g, i, n, netvista.ril_getmsginuiccstatus, rilapi/RIL_GetMsgInUiccStatus, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

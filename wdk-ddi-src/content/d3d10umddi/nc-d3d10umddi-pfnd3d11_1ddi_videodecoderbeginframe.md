@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5aebc8c9-baa1-457f-9e46-3a86929ba0b5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videodecoderbeginframe, pfnVideoDecoderBeginFrame callback function [Display Devices], pfnVideoDecoderBeginFrame, PFND3D11_1DDI_VIDEODECODERBEGINFRAME, PFND3D11_1DDI_VIDEODECODERBEGINFRAME, d3d10umddi/pfnVideoDecoderBeginFrame
+ms.keywords: PFND3D11_1DDI_VIDEODECODERBEGINFRAME, d3d10umddi/pfnVideoDecoderBeginFrame, display.videodecoderbeginframe, pfnVideoDecoderBeginFrame, pfnVideoDecoderBeginFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -181,15 +181,15 @@ If the <b>pContentKey</b> member is set to NULL, the video frame data should be 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecodersubmitbuffers.md">VideoDecoderSubmitBuffers</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderendframe.md">VideoDecoderEndFrame</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
 
 
 

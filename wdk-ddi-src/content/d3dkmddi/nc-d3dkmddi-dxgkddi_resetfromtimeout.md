@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9bfc801-33f6-4911-ab7d-8e3c99a5e2e9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiresetfromtimeout, DxgkDdiResetFromTimeout callback function [Display Devices], DxgkDdiResetFromTimeout, DXGKDDI_RESETFROMTIMEOUT, DXGKDDI_RESETFROMTIMEOUT, d3dkmddi/DxgkDdiResetFromTimeout, DmFunctions_de82b888-dc3d-40b6-a3c3-360254efb972.xml
+ms.keywords: DXGKDDI_RESETFROMTIMEOUT, DmFunctions_de82b888-dc3d-40b6-a3c3-360254efb972.xml, DxgkDdiResetFromTimeout, DxgkDdiResetFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiResetFromTimeout, display.dxgkddiresetfromtimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -99,7 +99,7 @@ For more information about time-outs in this situation, see <a href="https://msd
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_releaseswizzlingrange.md">DxgkDdiReleaseSwizzlingRange</a>
 
 
 
@@ -107,7 +107,7 @@ For more information about time-outs in this situation, see <a href="https://msd
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_releaseswizzlingrange.md">DxgkDdiReleaseSwizzlingRange</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

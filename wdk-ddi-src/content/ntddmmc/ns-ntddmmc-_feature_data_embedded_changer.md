@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1335d1fa-af96-4a31-a1cf-266f7a3325ef
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PFEATURE_DATA_EMBEDDED_CHANGER structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER, storage.feature_data_embedded_changer, _FEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER structure [Storage Devices], structs-CD-ROM_655edb8d-6748-4d10-8cd9-51b3a696bccd.xml, ntddmmc/PFEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER, PFEATURE_DATA_EMBEDDED_CHANGER
+ms.keywords: ",  , *, *PFEATURE_DATA_EMBEDDED_CHANGER, ,, A, B, C, D, E, F, FEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER structure [Storage Devices], G, H, M, N, P, PFEATURE_DATA_EMBEDDED_CHANGER, PFEATURE_DATA_EMBEDDED_CHANGER structure pointer [Storage Devices], R, T, U, _, _FEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/FEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/PFEATURE_DATA_EMBEDDED_CHANGER, storage.feature_data_embedded_changer, structs-CD-ROM_655edb8d-6748-4d10-8cd9-51b3a696bccd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,11 +131,11 @@ This structure holds data for the feature named "Embedded Changer" by the <i>SCS
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 

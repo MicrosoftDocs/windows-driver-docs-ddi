@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a28a8ee0-24df-45b5-8850-f3b3984b3b64
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, InitializeFilter, IPrintPipelineFilter interface [Print Devices], InitializeFilter method, InitializeFilter method [Print Devices], IPrintPipelineFilter interface, IPrintPipelineFilter::InitializeFilter, filterpipeline/IPrintPipelineFilter::InitializeFilter, IPrintPipelineFilter, InitializeFilter method [Print Devices], print.iprintpipelinefilter_initializefilter
+ms.keywords: ",  , ,, ., :, F, I, IPrintPipelineFilter, IPrintPipelineFilter interface [Print Devices], InitializeFilter method, IPrintPipelineFilter::InitializeFilter, InitializeFilter method [Print Devices], InitializeFilter method [Print Devices], IPrintPipelineFilter interface, InitializeFilter,IPrintPipelineFilter.InitializeFilter, P, a, e, filterpipeline/IPrintPipelineFilter::InitializeFilter, filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, i, l, n, p, print.iprintpipelinefilter_initializefilter, r, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,11 @@ Get the read and write interfaces.
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
-
-
-
 <a href="..\filterpipeline\nn-filterpipeline-iprintpipelinemanagercontrol.md">IPrintPipelineManagerControl</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
 
 
 

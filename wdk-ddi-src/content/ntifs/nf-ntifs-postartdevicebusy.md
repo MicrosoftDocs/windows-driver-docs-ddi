@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3801fdf-c300-4863-afb9-49fad011dc4c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoStartDeviceBusy, portn_b129df72-9d6a-46b7-99db-ad2e96cfeafe.xml, kernel.postartdevicebusy, PoStartDeviceBusy routine [Kernel-Mode Driver Architecture], wdm/PoStartDeviceBusy
+ms.keywords: ",  , B, D, P, PoStartDeviceBusy, PoStartDeviceBusy routine [Kernel-Mode Driver Architecture], S, a, c, e, i, kernel.postartdevicebusy, o, portn_b129df72-9d6a-46b7-99db-ad2e96cfeafe.xml, r, s, t, u, v, wdm/PoStartDeviceBusy, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,11 @@ Rather than use the <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> routines
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a>
-
-
-
 <a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a>
 
 
 

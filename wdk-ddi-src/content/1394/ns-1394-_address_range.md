@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4eeb543b-0c23-4119-8e42-ff086b4b7682
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_ADDRESS_RANGE, 1394/ADDRESS_RANGE, IEEE.address_range, 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, ADDRESS_RANGE, 1394/PADDRESS_RANGE, ADDRESS_RANGE structure [Buses], PADDRESS_RANGE, PADDRESS_RANGE structure pointer [Buses], *PADDRESS_RANGE"
+ms.keywords: ",  , *, *PADDRESS_RANGE, ,, 1394/ADDRESS_RANGE, 1394/PADDRESS_RANGE, 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, A, ADDRESS_RANGE, ADDRESS_RANGE structure [Buses], D, E, G, IEEE.address_range, N, P, PADDRESS_RANGE, PADDRESS_RANGE structure pointer [Buses], R, S, _, _ADDRESS_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

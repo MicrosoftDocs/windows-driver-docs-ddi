@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b8c37df8-ba86-4cfd-add0-49ba9c90f04a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisetbacklightoptimization, DxgkDdiSetBacklightOptimization callback function [Display Devices], DxgkDdiSetBacklightOptimization, DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, dispmprt/DxgkDdiSetBacklightOptimization
+ms.keywords: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, DxgkDdiSetBacklightOptimization, DxgkDdiSetBacklightOptimization callback function [Display Devices], display.dxgkddisetbacklightoptimization, dispmprt/DxgkDdiSetBacklightOptimization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -111,15 +111,15 @@ This function should be made pageable.
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_state.md">DxgkDdiSetBrightnessState</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
 <a href="..\d3dkmdt\ne-d3dkmdt-dxgk_backlight_optimization_level.md">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_state.md">DxgkDdiSetBrightnessState</a>
 
 
 

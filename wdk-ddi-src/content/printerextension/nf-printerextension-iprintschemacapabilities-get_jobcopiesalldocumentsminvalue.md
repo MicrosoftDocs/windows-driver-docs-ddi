@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 181D085C-65C5-4D7E-9A1B-8641CC9B799B
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, print.iprintschemacapabilities_jobcopiesalldocumentsminvalue, IPrintSchemaCapabilities interface [Print Devices], JobCopiesAllDocumentsMinValue property, IPrintSchemaCapabilities, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, JobCopiesAllDocumentsMinValue property [Print Devices], IPrintSchemaCapabilities interface, JobCopiesAllDocumentsMinValue property [Print Devices], IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue, get_JobCopiesAllDocumentsMinValue
+ms.keywords: ",  , ,, ., :, A, C, D, I, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], JobCopiesAllDocumentsMinValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, J, JobCopiesAllDocumentsMinValue property [Print Devices], JobCopiesAllDocumentsMinValue property [Print Devices], IPrintSchemaCapabilities interface, M, P, S, V, _, a, b, c, e, g, get_JobCopiesAllDocumentsMinValue, get_JobCopiesAllDocumentsMinValue,IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue, h, i, l, m, n, o, p, print.iprintschemacapabilities_jobcopiesalldocumentsminvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

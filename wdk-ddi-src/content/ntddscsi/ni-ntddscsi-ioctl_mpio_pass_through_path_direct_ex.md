@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2B5AF281-C080-4ED9-9C58-5757CDE0117A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_mpio_pass_through_path_direct_ex, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX control code [Storage Devices], IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX, ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX
+ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX control code [Storage Devices], ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX, storage.ioctl_mpio_pass_through_path_direct_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

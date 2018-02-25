@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aa2c549c-eb16-4d59-9280-1913c8c0266a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndischimney/NdisMUpdateOffloadComplete, netvista.ndismupdateoffloadcomplete, NdisMUpdateOffloadComplete, NdisMUpdateOffloadComplete function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_c525f7d7-2a4d-47ef-8337-85551fb1f7ab.xml
+ms.keywords: ",  , C, M, N, NdisMUpdateOffloadComplete, NdisMUpdateOffloadComplete function [Network Drivers Starting with Windows Vista], O, U, a, d, e, f, i, l, m, ndischimney/NdisMUpdateOffloadComplete, netvista.ndismupdateoffloadcomplete, o, p, s, t, tcp_chim_ndis_func_c525f7d7-2a4d-47ef-8337-85551fb1f7ab.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,12 +134,12 @@ The update operation did not succeed. The offload target should continue normal 
 
 
 
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
 
 

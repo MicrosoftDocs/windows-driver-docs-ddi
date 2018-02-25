@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 05280f35-7728-464e-9a8a-e45ab797e8a9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks-struct_64848a64-102a-44ec-b5d1-331526828c60.xml, *PSWENUM_INSTALL_INTERFACE, SWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE structure pointer [Streaming Media Devices], SWENUM_INSTALL_INTERFACE structure [Streaming Media Devices], _SWENUM_INSTALL_INTERFACE, stream.swenum_install_interface, swenum/SWENUM_INSTALL_INTERFACE, swenum/PSWENUM_INSTALL_INTERFACE
+ms.keywords: ",  , *, *PSWENUM_INSTALL_INTERFACE, ,, A, C, E, F, I, L, M, N, P, PSWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE structure pointer [Streaming Media Devices], R, S, SWENUM_INSTALL_INTERFACE, SWENUM_INSTALL_INTERFACE structure [Streaming Media Devices], T, U, W, _, _SWENUM_INSTALL_INTERFACE, ks-struct_64848a64-102a-44ec-b5d1-331526828c60.xml, stream.swenum_install_interface, swenum/PSWENUM_INSTALL_INTERFACE, swenum/SWENUM_INSTALL_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,11 +96,11 @@ The <i>swenum</i> driver uses device interface instances as placeholders for sof
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksinstallbusenuminterface.md">KsInstallBusEnumInterface</a>
-
-
-
 <a href="..\swenum\nf-swenum-ksremovebusenuminterface.md">KsRemoveBusEnumInterface</a>
+
+
+
+<a href="..\swenum\nf-swenum-ksinstallbusenuminterface.md">KsInstallBusEnumInterface</a>
 
 
 

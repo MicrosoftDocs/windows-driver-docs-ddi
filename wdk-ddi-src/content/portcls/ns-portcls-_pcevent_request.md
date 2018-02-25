@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b28bd1c2-9fbe-4427-a4ba-5b79a338e913
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PCEVENT_REQUEST, audpc-struct_d60c4cf4-11e2-44b7-842a-65d965c8c422.xml, portcls/PPCEVENT_REQUEST, _PCEVENT_REQUEST, *PPCEVENT_REQUEST, audio.pcevent_request, PPCEVENT_REQUEST, portcls/PCEVENT_REQUEST, PPCEVENT_REQUEST structure pointer [Audio Devices], PCEVENT_REQUEST structure [Audio Devices]
+ms.keywords: ",  , *, *PPCEVENT_REQUEST, ,, C, E, N, P, PCEVENT_REQUEST, PCEVENT_REQUEST structure [Audio Devices], PPCEVENT_REQUEST, PPCEVENT_REQUEST structure pointer [Audio Devices], Q, R, S, T, U, V, _, _PCEVENT_REQUEST, audio.pcevent_request, audpc-struct_d60c4cf4-11e2-44b7-842a-65d965c8c422.xml, portcls/PCEVENT_REQUEST, portcls/PPCEVENT_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -185,19 +185,19 @@ The handler can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636
 
 ## -see-also
 
-<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537695">PCFILTER_NODE</a>
-
-
-
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
+
+
+
+<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537695">PCFILTER_NODE</a>
 
 
 

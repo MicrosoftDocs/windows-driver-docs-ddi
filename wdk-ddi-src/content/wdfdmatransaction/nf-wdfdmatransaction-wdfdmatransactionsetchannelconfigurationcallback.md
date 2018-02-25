@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B38BD937-5027-4EED-9ECA-3333F56DFFA8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdmatransactionsetchannelconfigurationcallback, WdfDmaTransactionSetChannelConfigurationCallback method, WdfDmaTransactionSetChannelConfigurationCallback, kmdf.wdfdmatransactionsetchannelconfigurationcallback, wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback
+ms.keywords: ",  , C, D, S, T, W, WdfDmaTransactionSetChannelConfigurationCallback, WdfDmaTransactionSetChannelConfigurationCallback method, a, b, c, d, e, f, g, h, i, k, kmdf.wdfdmatransactionsetchannelconfigurationcallback, l, m, n, o, r, s, t, u, wdf.wdfdmatransactionsetchannelconfigurationcallback, wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

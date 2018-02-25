@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d5b56926-bcfb-4411-b24d-cc0758852510
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, GetMessage method [Audio Devices], IAllocatorMXF interface, GetMessage, IAllocatorMXF::GetMessage, audio.iallocatormxf_getmessage, dmusicks/IAllocatorMXF::GetMessage, IAllocatorMXF interface [Audio Devices], GetMessage method, GetMessage method [Audio Devices], IAllocatorMXF
+ms.keywords: ",  , ,, ., :, A, F, G, GetMessage method [Audio Devices], GetMessage method [Audio Devices], IAllocatorMXF interface, GetMessage,IAllocatorMXF.GetMessage, I, IAllocatorMXF, IAllocatorMXF interface [Audio Devices], GetMessage method, IAllocatorMXF::GetMessage, M, X, a, audio.iallocatormxf_getmessage, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, c, dmusicks/IAllocatorMXF::GetMessage, e, g, l, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

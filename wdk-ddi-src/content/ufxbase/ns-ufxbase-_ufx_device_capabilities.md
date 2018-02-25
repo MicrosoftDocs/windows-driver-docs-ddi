@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 896919C9-E72E-4C0F-9E3E-9BEE9F55D27D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ufxbase/UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES, ufxbase/PUFX_DEVICE_CAPABILITIES, _UFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], buses.ufx_device_capabilities
+ms.keywords: ",  , *, *PUFX_DEVICE_CAPABILITIES, ,, A, B, C, D, E, F, I, L, P, PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], S, T, U, UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], V, X, _, _UFX_DEVICE_CAPABILITIES, buses.ufx_device_capabilities, ufxbase/PUFX_DEVICE_CAPABILITIES, ufxbase/UFX_DEVICE_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

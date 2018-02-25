@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22b50f49-821a-407e-89c0-fe7d637664fa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM, D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE, D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_DESTINATION, D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_DESTINATION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE, display.d3d11_1ddi_video_processor_alpha_fill_mode, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_BACKGROUND, D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_BACKGROUND
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE, D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_BACKGROUND, D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_DESTINATION, D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE, D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM, E, F, H, I, L, M, O, P, R, S, V, _, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_BACKGROUND, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_DESTINATION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM, display.d3d11_1ddi_video_processor_alpha_fill_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,11 +96,11 @@ If the input stream does not have alpha data, the video processor sets the alpha
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode.md">VideoProcessorSetOutputAlphaFillMode</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputbackgroundcolor.md">VideoProcessorSetOutputBackgroundColor</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode.md">VideoProcessorSetOutputAlphaFillMode</a>
 
 
 

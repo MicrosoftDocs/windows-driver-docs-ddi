@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0ca4d42f-3036-4b81-91a4-fbce7ac891fe
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiquerycurrentfence, DxgkDdiQueryCurrentFence callback function [Display Devices], DxgkDdiQueryCurrentFence, DXGKDDI_QUERYCURRENTFENCE, DXGKDDI_QUERYCURRENTFENCE, d3dkmddi/DxgkDdiQueryCurrentFence, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml
+ms.keywords: DXGKDDI_QUERYCURRENTFENCE, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -143,15 +143,15 @@ At device interrupt IRQL, calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_i
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
 
 
 
@@ -159,7 +159,7 @@ At device interrupt IRQL, calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_i
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 01d74e69-55fe-4e2e-94ab-7676f9e33403
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_LINK_STATE, ntddndis/PNDIS_LINK_STATE, netvista.ndis_link_state, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_STATE, ntddndis/NDIS_LINK_STATE, _NDIS_LINK_STATE
+ms.keywords: ",  , *, *PNDIS_LINK_STATE, ,, A, D, E, I, K, L, N, NDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], P, PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], S, T, _, _NDIS_LINK_STATE, netvista.ndis_link_state, ntddndis/NDIS_LINK_STATE, ntddndis/PNDIS_LINK_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -208,11 +208,15 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 
 
@@ -225,16 +229,12 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
  OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
 
 
 

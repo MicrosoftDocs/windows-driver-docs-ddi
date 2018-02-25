@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: FADB79BD-0404-4116-9EE8-AE7C063DBF26
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ibidiasyncnotifychannel_sendnotification, IBidiAsyncNotifyChannel interface [Print Devices], SendNotification method, SendNotification method [Print Devices], SendNotification method [Print Devices], IBidiAsyncNotifyChannel interface, SendNotification, IBidiAsyncNotifyChannel::SendNotification, IBidiAsyncNotifyChannel, prnasntp/IBidiAsyncNotifyChannel::SendNotification
+ms.keywords: ",  , ,, ., :, A, B, C, I, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], SendNotification method, IBidiAsyncNotifyChannel::SendNotification, N, S, SendNotification method [Print Devices], SendNotification method [Print Devices], IBidiAsyncNotifyChannel interface, SendNotification,IBidiAsyncNotifyChannel.SendNotification, a, c, d, e, f, h, i, l, n, o, print.ibidiasyncnotifychannel_sendnotification, prnasntp/IBidiAsyncNotifyChannel::SendNotification, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

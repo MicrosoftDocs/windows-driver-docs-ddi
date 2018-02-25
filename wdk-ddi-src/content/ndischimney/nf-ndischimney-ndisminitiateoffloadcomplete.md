@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 983b2e04-1563-4f2e-85a7-8fd93ec1cd8c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: tcp_chim_ndis_func_e5917638-7b7e-49e6-afad-63bbb3490cd9.xml, netvista.ndisminitiateoffloadcomplete, NdisMInitiateOffloadComplete function [Network Drivers Starting with Windows Vista], NdisMInitiateOffloadComplete, ndischimney/NdisMInitiateOffloadComplete
+ms.keywords: ",  , C, I, M, N, NdisMInitiateOffloadComplete, NdisMInitiateOffloadComplete function [Network Drivers Starting with Windows Vista], O, a, d, e, f, i, l, m, n, ndischimney/NdisMInitiateOffloadComplete, netvista.ndisminitiateoffloadcomplete, o, p, s, t, tcp_chim_ndis_func_e5917638-7b7e-49e6-afad-63bbb3490cd9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -179,11 +179,7 @@ For more information, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569816">OID_TCP_TASK_OFFLOAD</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
@@ -192,7 +188,7 @@ For more information, see
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569816">OID_TCP_TASK_OFFLOAD</a>
 
 
 
@@ -200,7 +196,11 @@ For more information, see
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
 
 
 

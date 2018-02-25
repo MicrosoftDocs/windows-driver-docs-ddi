@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2d5f0224-dbed-461b-bf05-4db7ae7d810e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_get_bank_select_code, IOCTL_VIDEO_GET_BANK_SELECT_CODE control code [Display Devices], IOCTL_VIDEO_GET_BANK_SELECT_CODE, ntddvdeo/IOCTL_VIDEO_GET_BANK_SELECT_CODE, Video_IOCTLs_3e7414c6-20b6-48b8-81e5-31bc820d1bc4.xml
+ms.keywords: IOCTL_VIDEO_GET_BANK_SELECT_CODE, IOCTL_VIDEO_GET_BANK_SELECT_CODE control code [Display Devices], Video_IOCTLs_3e7414c6-20b6-48b8-81e5-31bc820d1bc4.xml, display.ioctl_video_get_bank_select_code, ntddvdeo/IOCTL_VIDEO_GET_BANK_SELECT_CODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

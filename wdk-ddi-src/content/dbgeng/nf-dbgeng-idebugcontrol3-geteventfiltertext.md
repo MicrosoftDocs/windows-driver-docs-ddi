@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d311a030-e24c-427c-8a52-0c67d4fac653
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.geteventfiltertext, IDebugControl interface [Windows Debugging], GetEventFilterText method, GetEventFilterText method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], GetEventFilterText method, GetEventFilterText method [Windows Debugging], IDebugControl3 interface, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, GetEventFilterText method [Windows Debugging], IDebugControl3, IDebugControl, IDebugControl::GetEventFilterText, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, dbgeng/IDebugControl3::GetEventFilterText, dbgeng/IDebugControl2::GetEventFilterText, IDebugControl3::GetEventFilterText, dbgeng/IDebugControl::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, GetEventFilterText, IDebugControl2, IDebugControl2::GetEventFilterText
+ms.keywords: ",  , ,, ., 3, :, C, D, E, F, G, GetEventFilterText method [Windows Debugging], GetEventFilterText method [Windows Debugging], IDebugControl interface, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, GetEventFilterText method [Windows Debugging], IDebugControl3 interface, GetEventFilterText,IDebugControl.GetEventFilterText, GetEventFilterText,IDebugControl2.GetEventFilterText, GetEventFilterText,IDebugControl3.GetEventFilterText, I, IDebugControl, IDebugControl interface [Windows Debugging], GetEventFilterText method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetEventFilterText method, IDebugControl2::GetEventFilterText, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, IDebugControl3::GetEventFilterText, IDebugControl::GetEventFilterText, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, T, b, dbgeng/IDebugControl2::GetEventFilterText, dbgeng/IDebugControl3::GetEventFilterText, dbgeng/IDebugControl::GetEventFilterText, debugger.geteventfiltertext, e, g, i, l, n, o, r, t, u, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -142,7 +142,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -154,7 +154,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
 
 
 

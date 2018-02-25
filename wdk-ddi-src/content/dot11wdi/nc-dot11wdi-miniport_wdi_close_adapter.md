@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E6A96765-3D95-431B-B29A-5BD7641325A8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdicloseadapter, MiniportWdiCloseAdapter callback function [Network Drivers Starting with Windows Vista], MiniportWdiCloseAdapter, MINIPORT_WDI_CLOSE_ADAPTER, MINIPORT_WDI_CLOSE_ADAPTER, dot11wdi/MiniportWdiCloseAdapter
+ms.keywords: MINIPORT_WDI_CLOSE_ADAPTER, MiniportWdiCloseAdapter, MiniportWdiCloseAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCloseAdapter, netvista.miniportwdicloseadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

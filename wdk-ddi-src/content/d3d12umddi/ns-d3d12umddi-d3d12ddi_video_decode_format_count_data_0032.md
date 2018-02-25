@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d28fe10-1dfc-4017-9ab0-d8b8e2d45448
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, display.d3d12ddi-video-decode-format-count-data-0032
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 structure [Display Devices], E, F, I, M, N, O, R, T, U, V, _, d3d12umddi/D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, display.d3d12ddi-video-decode-format-count-data-0032"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

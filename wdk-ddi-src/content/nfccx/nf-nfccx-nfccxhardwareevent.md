@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 5D108897-93D9-4C67-9138-86C608AD8C4C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: NfcCxHardwareEvent, nfpdrivers._nfccxhardwareevent, nfccx/NfcCxHardwareEvent, NfcCxHardwareEvent method [Near-Field Proximity Drivers]
+ms.keywords: ",  , C, E, H, N, NfcCxHardwareEvent, NfcCxHardwareEvent method [Near-Field Proximity Drivers], a, c, d, e, f, n, nfccx/NfcCxHardwareEvent, nfpdrivers._nfccxhardwareevent, r, t, v, w, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

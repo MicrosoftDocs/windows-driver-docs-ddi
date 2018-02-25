@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: A9E4404C-D307-4137-B640-AF28A962B2AD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfpdrivers.ioctl_smartcard_is_absent, IOCTL_SMARTCARD_IS_ABSENT control code [Near-Field Proximity Drivers], IOCTL_SMARTCARD_IS_ABSENT, winsmcrd/IOCTL_SMARTCARD_IS_ABSENT
+ms.keywords: IOCTL_SMARTCARD_IS_ABSENT, IOCTL_SMARTCARD_IS_ABSENT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_is_absent, winsmcrd/IOCTL_SMARTCARD_IS_ABSENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

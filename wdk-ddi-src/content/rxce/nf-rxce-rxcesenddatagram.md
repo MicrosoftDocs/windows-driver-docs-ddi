@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxCeSendDatagram function [Installable File System Drivers], rxce/RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, ifsk.rxcesenddatagram, RxCeSendDatagram
+ms.keywords: ",  , C, D, R, RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers], S, a, d, e, g, ifsk.rxcesenddatagram, m, n, r, rxce/RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

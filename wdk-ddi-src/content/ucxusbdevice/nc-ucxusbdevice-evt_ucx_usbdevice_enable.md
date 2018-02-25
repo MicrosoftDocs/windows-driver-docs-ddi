@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: ac46a6eb-c30d-4b1f-8e14-0ae44ae0d4f1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_enable, EvtUcxUsbDeviceEnable callback function [Buses], EvtUcxUsbDeviceEnable, EVT_UCX_USBDEVICE_ENABLE, EVT_UCX_USBDEVICE_ENABLE, ucxusbdevice/EvtUcxUsbDeviceEnable, PEVT_UCX_USBDEVICE_ENABLE callback function pointer [Buses], PEVT_UCX_USBDEVICE_ENABLE
+ms.keywords: EVT_UCX_USBDEVICE_ENABLE, EvtUcxUsbDeviceEnable, EvtUcxUsbDeviceEnable callback function [Buses], PEVT_UCX_USBDEVICE_ENABLE, PEVT_UCX_USBDEVICE_ENABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_enable, ucxusbdevice/EvtUcxUsbDeviceEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

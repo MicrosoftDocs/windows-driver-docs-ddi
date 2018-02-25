@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59d023d4-a2b4-4183-9572-cb48621c76fb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, RtlCompareString routine [Kernel-Mode Driver Architecture], ntddk/RtlCompareString, RtlCompareString, kernel.rtlcomparestring
+ms.keywords: ",  , C, R, RtlCompareString, RtlCompareString routine [Kernel-Mode Driver Architecture], S, a, e, g, i, k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, kernel.rtlcomparestring, l, m, n, ntddk/RtlCompareString, o, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

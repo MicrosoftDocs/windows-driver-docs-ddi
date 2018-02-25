@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5dd82086-d39c-4ebc-9e2a-73ef504f873c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeInitializeDpc routine [Kernel-Mode Driver Architecture], KeInitializeDpc, wdm/KeInitializeDpc, k105_069c115c-3a05-442e-8fc4-56dcb635a473.xml, kernel.keinitializedpc
+ms.keywords: ",  , D, I, K, KeInitializeDpc, KeInitializeDpc routine [Kernel-Mode Driver Architecture], a, c, e, i, k105_069c115c-3a05-442e-8fc4-56dcb635a473.xml, kernel.keinitializedpc, l, n, p, t, wdm/KeInitializeDpc, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,7 @@ Storage for the DPC object must be resident: in the device extension of a driver
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 
 
@@ -115,11 +115,11 @@ Storage for the DPC object must be resident: in the device extension of a driver
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 
 

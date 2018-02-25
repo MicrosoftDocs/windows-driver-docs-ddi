@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: d6ea5ac7-d324-4986-bbfb-4decd278acf7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_par_set_read_address, IOCTL_PAR_SET_READ_ADDRESS control code [Parallel Ports], IOCTL_PAR_SET_READ_ADDRESS, ntddpar/IOCTL_PAR_SET_READ_ADDRESS, cisspd_91a85f87-e3c1-4ccb-aeab-13a484c75224.xml
+ms.keywords: IOCTL_PAR_SET_READ_ADDRESS, IOCTL_PAR_SET_READ_ADDRESS control code [Parallel Ports], cisspd_91a85f87-e3c1-4ccb-aeab-13a484c75224.xml, ntddpar/IOCTL_PAR_SET_READ_ADDRESS, parports.ioctl_par_set_read_address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

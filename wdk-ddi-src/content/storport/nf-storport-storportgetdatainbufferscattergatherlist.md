@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 015592AE-4AF6-48C8-BF79-6B22A6FCAB98
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortGetDataInBufferScatterGatherList, storport/StorPortGetDataInBufferScatterGatherList, storage.storportgetdatainbufferscattergatherlist, StorPortGetDataInBufferScatterGatherList routine [Storage Devices]
+ms.keywords: ",  , B, D, G, I, L, P, S, StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], a, c, e, f, h, i, n, o, r, s, storage.storportgetdatainbufferscattergatherlist, storport/StorPortGetDataInBufferScatterGatherList, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: BA86280E-8324-4D98-B16C-504D427A6A4B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UfxDeviceCreate, buses.ufxdevicecreate, ufxclient/UfxDeviceCreate, UfxDeviceCreate method [Buses]
+ms.keywords: ",  , C, D, U, UfxDeviceCreate, UfxDeviceCreate method [Buses], a, buses.ufxdevicecreate, c, e, f, i, r, t, ufxclient/UfxDeviceCreate, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

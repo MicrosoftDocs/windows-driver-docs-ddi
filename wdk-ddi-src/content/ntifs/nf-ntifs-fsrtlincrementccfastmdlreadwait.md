@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a3a811dc-1dbf-4656-b7ec-bad818f6d1f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlIncrementCcFastMdlReadWait, FsRtlIncrementCcFastMdlReadWait routine [Installable File System Drivers], fsrtlref_6ab13976-a131-41bf-970c-f2a554d87d92.xml, FsRtlIncrementCcFastMdlReadWait, ifsk.fsrtlincrementccfastmdlreadwait
+ms.keywords: ",  , C, F, FsRtlIncrementCcFastMdlReadWait, FsRtlIncrementCcFastMdlReadWait routine [Installable File System Drivers], I, M, R, W, a, c, d, e, fsrtlref_6ab13976-a131-41bf-970c-f2a554d87d92.xml, i, ifsk.fsrtlincrementccfastmdlreadwait, l, m, n, ntifs/FsRtlIncrementCcFastMdlReadWait, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

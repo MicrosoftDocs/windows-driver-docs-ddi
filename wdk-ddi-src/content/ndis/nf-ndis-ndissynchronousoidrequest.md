@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BF539DDA-59ED-4010-88BC-3C7D8DC475EF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisSynchronousOidRequest function [Network Drivers Starting with Windows Vista], NdisSynchronousOidRequest, ndis/NdisSynchronousOidRequest, netvista.ndissynchronousoidrequest
+ms.keywords: ",  , N, NdisSynchronousOidRequest, NdisSynchronousOidRequest function [Network Drivers Starting with Windows Vista], O, R, S, c, d, e, h, i, n, ndis/NdisSynchronousOidRequest, netvista.ndissynchronousoidrequest, o, q, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -245,7 +245,7 @@ Protocol drivers are not required to implement <a href="..\ndis\nc-ndis-protocol
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
 
 
 
@@ -253,11 +253,11 @@ Protocol drivers are not required to implement <a href="..\ndis\nc-ndis-protocol
 
 
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
 
 
 
@@ -265,7 +265,7 @@ Protocol drivers are not required to implement <a href="..\ndis\nc-ndis-protocol
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 
 

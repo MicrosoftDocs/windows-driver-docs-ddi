@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A38BA15D-FDD8-41D1-87ED-2CABC1926962
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswditxsendcompleteindication, NdisWdiTxSendCompleteIndication callback function [Network Drivers Starting with Windows Vista], NdisWdiTxSendCompleteIndication, NDIS_WDI_TX_SEND_COMPLETE_IND, NDIS_WDI_TX_SEND_COMPLETE_IND, dot11wdi/NdisWdiTxSendCompleteIndication
+ms.keywords: NDIS_WDI_TX_SEND_COMPLETE_IND, NdisWdiTxSendCompleteIndication, NdisWdiTxSendCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendCompleteIndication, netvista.ndiswditxsendcompleteindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -130,7 +130,7 @@ A TX completion with a frame with <b>WDI_TxFrameStatus_SendPostponed</b> is iden
 
 
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_frame_status.md">WDI_TX_FRAME_STATUS</a>
 
 
 
@@ -138,7 +138,7 @@ A TX completion with a frame with <b>WDI_TxFrameStatus_SendPostponed</b> is iden
 
 
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_frame_status.md">WDI_TX_FRAME_STATUS</a>
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
 
 
 

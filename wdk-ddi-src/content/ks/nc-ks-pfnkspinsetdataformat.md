@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f38222e8-f432-4a28-ba2f-2e4f60edd762
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminipinsetdataformat, AVStrMiniPinSetDataFormat, AVStrMiniPinSetDataFormat routine [Streaming Media Devices], AVStrMiniPinSetDataFormat, PFNKSPINSETDATAFORMAT, PFNKSPINSETDATAFORMAT, ks/AVStrMiniPinSetDataFormat, avstclbk_c72cee40-d3d3-45df-8ece-2eb0a8b52e38.xml
+ms.keywords: AVStrMiniPinSetDataFormat, AVStrMiniPinSetDataFormat routine [Streaming Media Devices], PFNKSPINSETDATAFORMAT, avstclbk_c72cee40-d3d3-45df-8ece-2eb0a8b52e38.xml, ks/AVStrMiniPinSetDataFormat, stream.avstrminipinsetdataformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -127,7 +127,7 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -135,7 +135,11 @@ This routine is optional.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
 
 
@@ -144,10 +148,6 @@ This routine is optional.
 
 
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-
-
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
 
 

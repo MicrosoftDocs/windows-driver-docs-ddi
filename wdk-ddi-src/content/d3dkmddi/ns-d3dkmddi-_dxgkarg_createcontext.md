@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94239501-2eeb-479a-851a-14ae665c5887
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkarg_createcontext, _DXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT structure [Display Devices], d3dkmddi/DXGKARG_CREATECONTEXT, *INOUT_PDXGKARG_CREATECONTEXT, DmStructs_f88f9027-046c-482e-93c6-882c325d1a09.xml, DXGKARG_CREATECONTEXT
+ms.keywords: ",  , *, *INOUT_PDXGKARG_CREATECONTEXT, ,, A, C, D, DXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT structure [Display Devices], DmStructs_f88f9027-046c-482e-93c6-882c325d1a09.xml, E, G, I, K, N, O, P, R, T, U, X, _, _DXGKARG_CREATECONTEXT, d3dkmddi/DXGKARG_CREATECONTEXT, display.dxgkarg_createcontext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,7 +114,7 @@ typedef struct _DXGKARG_CREATECONTEXT {
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextflags.md">DXGK_CREATECONTEXTFLAGS</a>
 
 
 
@@ -122,15 +122,15 @@ typedef struct _DXGKARG_CREATECONTEXT {
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextflags.md">DXGK_CREATECONTEXTFLAGS</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
 
 

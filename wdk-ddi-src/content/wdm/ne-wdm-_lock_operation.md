@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25b2dd6a-2e20-4221-bef4-0001bbaae1d5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: LOCK_OPERATION enumeration [Installable File System Drivers], wdm/IoReadAccess, IoReadAccess, wdm/LOCK_OPERATION, wdm/IoModifyAccess, wdm/IoWriteAccess, LOCK_OPERATION, _LOCK_OPERATION, ifsk.lock_operation, IoWriteAccess, IoModifyAccess
+ms.keywords: ",  , ,, A, C, E, I, IoModifyAccess, IoReadAccess, IoWriteAccess, K, L, LOCK_OPERATION, LOCK_OPERATION enumeration [Installable File System Drivers], N, O, P, R, T, _, _LOCK_OPERATION, ifsk.lock_operation, wdm/IoModifyAccess, wdm/IoReadAccess, wdm/IoWriteAccess, wdm/LOCK_OPERATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

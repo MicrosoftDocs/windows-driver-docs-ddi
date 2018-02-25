@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 349712b1-bd1f-4f1f-a242-b6aa36e48773
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.ext_command, EngExtCpp_Ref_a6dc21d7-b0c2-4e13-add5-ecfe3c38a94a.xml, EXT_COMMAND function [Windows Debugging], EXT_COMMAND, engextcpp/EXT_COMMAND
+ms.keywords: ",  , A, C, D, E, EXT_COMMAND, EXT_COMMAND function [Windows Debugging], EngExtCpp_Ref_a6dc21d7-b0c2-4e13-add5-ecfe3c38a94a.xml, M, N, O, T, X, _, debugger.ext_command, engextcpp/EXT_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -164,11 +164,11 @@ One of the source files to be compiled into the EngExtCpp extension library shou
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
-
-
-
 <a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
 
 

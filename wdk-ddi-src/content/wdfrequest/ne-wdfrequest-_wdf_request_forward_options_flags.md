@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6161bfd3-482c-4571-bd88-2e25d32b34a0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration, kmdf.wdf_request_forward_options_flags, WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET, WDF_REQUEST_FORWARD_OPTIONS_FLAGS, wdfrequest/WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_FLAGS, _WDF_REQUEST_FORWARD_OPTIONS_FLAGS, wdf.wdf_request_forward_options_flags, DFRequestObjectRef_cad8f6c6-9c76-4dc3-ac3f-3938e5174563.xml
+ms.keywords: ",  , ,, A, D, DFRequestObjectRef_cad8f6c6-9c76-4dc3-ac3f-3938e5174563.xml, E, F, G, I, L, N, O, P, Q, R, S, T, U, W, WDF_REQUEST_FORWARD_OPTIONS_FLAGS, WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration, WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET, _, _WDF_REQUEST_FORWARD_OPTIONS_FLAGS, kmdf.wdf_request_forward_options_flags, wdf.wdf_request_forward_options_flags, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_FLAGS, wdfrequest/WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

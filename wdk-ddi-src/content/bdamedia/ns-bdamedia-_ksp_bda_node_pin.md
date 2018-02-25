@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 684a0b26-0e25-44fb-bca9-c86ac029b3b8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PKSP_BDA_NODE_PIN, bdamedia/KSP_BDA_NODE_PIN, bdamedia/PKSP_BDA_NODE_PIN, PKSP_BDA_NODE_PIN, bdaref_5e3a84db-906c-4d12-863d-9a77b2f7d78c.xml, _KSP_BDA_NODE_PIN, stream.ksp_bda_node_pin, PKSP_BDA_NODE_PIN structure pointer [Streaming Media Devices], KSP_BDA_NODE_PIN structure [Streaming Media Devices], KSP_BDA_NODE_PIN"
+ms.keywords: ",  , *, *PKSP_BDA_NODE_PIN, ,, A, B, D, E, I, K, KSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN structure [Streaming Media Devices], N, O, P, PKSP_BDA_NODE_PIN, PKSP_BDA_NODE_PIN structure pointer [Streaming Media Devices], S, _, _KSP_BDA_NODE_PIN, bdamedia/KSP_BDA_NODE_PIN, bdamedia/PKSP_BDA_NODE_PIN, bdaref_5e3a84db-906c-4d12-863d-9a77b2f7d78c.xml, stream.ksp_bda_node_pin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ Identifier of an output pin of the filter.
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdapropertygetcontrollingpinid.md">BdaPropertyGetControllingPinId</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
@@ -104,7 +104,7 @@ Identifier of an output pin of the filter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+<a href="..\bdasup\nf-bdasup-bdapropertygetcontrollingpinid.md">BdaPropertyGetControllingPinId</a>
 
 
 

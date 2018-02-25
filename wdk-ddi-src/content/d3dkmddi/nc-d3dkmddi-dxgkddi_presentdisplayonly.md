@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b68839e3-ad82-4fcc-8e5a-02dea5db08d9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddipresentdisplayonly, DxgkDdiPresentDisplayOnly callback function [Display Devices], DxgkDdiPresentDisplayOnly, DXGKDDI_PRESENTDISPLAYONLY, DXGKDDI_PRESENTDISPLAYONLY, d3dkmddi/DxgkDdiPresentDisplayOnly
+ms.keywords: DXGKDDI_PRESENTDISPLAYONLY, DxgkDdiPresentDisplayOnly, DxgkDdiPresentDisplayOnly callback function [Display Devices], d3dkmddi/DxgkDdiPresentDisplayOnly, display.dxgkddipresentdisplayonly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -146,7 +146,11 @@ The operating system guarantees that this function follows the  zero level  sync
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
+
+
+
+<a href="https://msdn.microsoft.com/8970246b-b46f-464f-93b2-973cc351ed07">DxgkCbPresentDisplayOnlyProgress</a>
 
 
 
@@ -158,15 +162,11 @@ The operating system guarantees that this function follows the  zero level  sync
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
-
-
-
-<a href="https://msdn.microsoft.com/8970246b-b46f-464f-93b2-973cc351ed07">DxgkCbPresentDisplayOnlyProgress</a>
 
 
 

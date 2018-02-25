@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8faf167e-3110-453f-8234-32dfa543b520
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetInterruptTimeout method, dbgeng/IDebugControl3::GetInterruptTimeout, debugger.getinterrupttimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl interface, IDebugControl2::GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], dbgeng/IDebugControl2::GetInterruptTimeout, IDebugControl3 interface [Windows Debugging], GetInterruptTimeout method, dbgeng/IDebugControl::GetInterruptTimeout, IDebugControl2 interface [Windows Debugging], GetInterruptTimeout method, IDebugControl_33383d54-faba-46a1-8e14-8a3215b0d2f7.xml, IDebugControl, GetInterruptTimeout, IDebugControl::GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl2 interface
+ms.keywords: ",  , ,, ., :, C, D, G, GetInterruptTimeout method [Windows Debugging], GetInterruptTimeout method [Windows Debugging], IDebugControl interface, GetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, GetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, GetInterruptTimeout,IDebugControl.GetInterruptTimeout, I, IDebugControl, IDebugControl interface [Windows Debugging], GetInterruptTimeout method, IDebugControl2 interface [Windows Debugging], GetInterruptTimeout method, IDebugControl2::GetInterruptTimeout, IDebugControl3 interface [Windows Debugging], GetInterruptTimeout method, IDebugControl3::GetInterruptTimeout, IDebugControl::GetInterruptTimeout, IDebugControl_33383d54-faba-46a1-8e14-8a3215b0d2f7.xml, T, b, dbgeng/IDebugControl2::GetInterruptTimeout, dbgeng/IDebugControl3::GetInterruptTimeout, dbgeng/IDebugControl::GetInterruptTimeout, debugger.getinterrupttimeout, e, g, i, l, m, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,11 +115,15 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556725">SetInterruptTimeout</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
 
 
 
@@ -131,11 +135,7 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
 
 
 

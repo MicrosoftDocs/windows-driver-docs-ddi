@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ebfb768a-fa6b-4781-96e1-787278237d5f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILSETSMSCPARAMS, netvista.rilsetsmscparams, RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista], RILSETSMSCPARAMS, *LPRILSETSMSCPARAMS
+ms.keywords: ",  , *, *LPRILSETSMSCPARAMS, ,, A, C, E, I, L, M, P, R, RILSETSMSCPARAMS, RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilsetsmscparams, ntddrilapitypes/RILSETSMSCPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e62ad086-f652-4e2c-bc2d-f1ccb197f01e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createcomputeshader, CreateComputeShader callback function [Display Devices], CreateComputeShader, PFND3D11DDI_CREATECOMPUTESHADER, PFND3D11DDI_CREATECOMPUTESHADER, d3d10umddi/CreateComputeShader, UserModeDisplayDriverDx11_Functions_37f002b7-445e-4a89-8c3d-586c8072773d.xml
+ms.keywords: CreateComputeShader, CreateComputeShader callback function [Display Devices], PFND3D11DDI_CREATECOMPUTESHADER, UserModeDisplayDriverDx11_Functions_37f002b7-445e-4a89-8c3d-586c8072773d.xml, d3d10umddi/CreateComputeShader, display.createcomputeshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -133,7 +133,7 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
@@ -141,11 +141,11 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
 
 
 

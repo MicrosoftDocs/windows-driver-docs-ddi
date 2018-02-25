@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FA6EA2BA-938C-4377-A85A-2168C4C1F3C6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMT_SUBMITCOMMAND, display.d3dkmt_submitcommand, _D3DKMT_SUBMITCOMMAND, D3DKMT_SUBMITCOMMAND structure [Display Devices], D3DKMT_SUBMITCOMMAND
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DKMT_SUBMITCOMMAND, D3DKMT_SUBMITCOMMAND structure [Display Devices], I, K, M, N, O, S, T, U, _, _D3DKMT_SUBMITCOMMAND, d3dkmthk/D3DKMT_SUBMITCOMMAND, display.d3dkmt_submitcommand"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 3cb30b74-d50d-49dd-ab5d-de1cf71facd4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_endpoint_ok_to_cancel_transfers, EvtUcxEndpointOkToCancelTransfers callback function [Buses], EvtUcxEndpointOkToCancelTransfers, EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, ucxendpoint/EvtUcxEndpointOkToCancelTransfers, PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function pointer [Buses], PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
+ms.keywords: EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, EvtUcxEndpointOkToCancelTransfers, EvtUcxEndpointOkToCancelTransfers callback function [Buses], PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function pointer [Buses], buses.evt_ucx_endpoint_ok_to_cancel_transfers, ucxendpoint/EvtUcxEndpointOkToCancelTransfers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 58FE3B56-AFC6-46DE-BBE1-CCFA8FF1390A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: msviddrv/VIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices], msviddrv/LPVIDEOCONFIGPARMS, tag_video_configure_parms, VIDEOCONFIGPARMS structure [Streaming Media Devices], VIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS, stream.videoconfigparms
+ms.keywords: ",  , *, *LPVIDEOCONFIGPARMS, ,, A, C, D, E, F, G, I, L, LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices], M, N, O, P, R, S, V, VIDEOCONFIGPARMS, VIDEOCONFIGPARMS structure [Streaming Media Devices], _, a, c, d, e, f, g, i, m, msviddrv/LPVIDEOCONFIGPARMS, msviddrv/VIDEOCONFIGPARMS, n, o, p, r, s, stream.videoconfigparms, t, tag_video_configure_parms, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

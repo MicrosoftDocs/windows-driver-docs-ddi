@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 731ae55e-8cfb-4b76-b811-dbdabd8dd067
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortWriteRegisterUchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml, storage.storportwriteregisteruchar, storport/StorPortWriteRegisterUchar, StorPortWriteRegisterUchar routine [Storage Devices]
+ms.keywords: ",  , P, R, S, StorPortWriteRegisterUchar, StorPortWriteRegisterUchar routine [Storage Devices], U, W, a, c, e, g, h, i, o, r, s, storage.storportwriteregisteruchar, storport/StorPortWriteRegisterUchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -107,7 +107,7 @@ Specifies the value to be written to the HBA's register.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteregisterbufferushort.md">ScsiPortWriteRegisterBufferUshort</a>
+<a href="..\storport\nf-storport-scsiportwriteregisterbufferushort.md">ScsiPortWriteRegisterBufferUshort</a>
 
 
 

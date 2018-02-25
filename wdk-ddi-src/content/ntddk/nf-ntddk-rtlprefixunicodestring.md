@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9b26f4ed-6621-4dc5-8b60-9e4d3bf8d898
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlPrefixUnicodeString, k109_b6130d6d-1a25-460b-a962-3b9353626768.xml, RtlPrefixUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlprefixunicodestring, RtlPrefixUnicodeString
+ms.keywords: ",  , P, R, RtlPrefixUnicodeString, RtlPrefixUnicodeString routine [Kernel-Mode Driver Architecture], S, U, c, d, e, f, g, i, k109_b6130d6d-1a25-460b-a962-3b9353626768.xml, kernel.rtlprefixunicodestring, l, n, ntddk/RtlPrefixUnicodeString, o, r, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

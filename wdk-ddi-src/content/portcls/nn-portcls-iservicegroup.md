@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: eef2741e-e1a3-471b-a756-d89990929738
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iservicegroup, IServiceGroup interface [Audio Devices], IServiceGroup interface [Audio Devices], described, IServiceGroup, portcls/IServiceGroup, audmp-routines_10cfd005-be11-47a2-a929-f338f40e6f79.xml
+ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], IServiceGroup interface [Audio Devices], described, audio.iservicegroup, audmp-routines_10cfd005-be11-47a2-a929-f338f40e6f79.xml, portcls/IServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

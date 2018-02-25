@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 75d66965-ab97-4f67-b62f-e7fedbf524a6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PcGetDeviceProperty function [Audio Devices], audio.pcgetdeviceproperty, audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, portcls/PcGetDeviceProperty, PcGetDeviceProperty
+ms.keywords: ",  , D, G, P, PcGetDeviceProperty, PcGetDeviceProperty function [Audio Devices], audio.pcgetdeviceproperty, audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, c, e, i, o, p, portcls/PcGetDeviceProperty, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

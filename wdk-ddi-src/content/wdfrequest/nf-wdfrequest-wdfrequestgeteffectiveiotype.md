@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ED63E47F-B91F-49DC-9CE9-8CFE8F670B16
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestGetEffectiveIoType method, wdf.wdfrequestgeteffectiveiotype, WdfRequestGetEffectiveIoType, wdfrequest/WdfRequestGetEffectiveIoType
+ms.keywords: ",  , E, G, I, R, T, W, WdfRequestGetEffectiveIoType, WdfRequestGetEffectiveIoType method, c, d, e, f, i, o, p, q, s, t, u, v, wdf.wdfrequestgeteffectiveiotype, wdfrequest/WdfRequestGetEffectiveIoType, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8332DD64-B75E-40A4-9D98-3406187150F2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicheckmultiplaneoverlaysupport, DxgkDdiCheckMultiPlaneOverlaySupport callback function [Display Devices], DxgkDdiCheckMultiPlaneOverlaySupport, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT, d3dkmddi/DxgkDdiCheckMultiPlaneOverlaySupport
+ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT, DxgkDdiCheckMultiPlaneOverlaySupport, DxgkDdiCheckMultiPlaneOverlaySupport callback function [Display Devices], d3dkmddi/DxgkDdiCheckMultiPlaneOverlaySupport, display.dxgkddicheckmultiplaneoverlaysupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -92,11 +92,11 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise it returns one of the er
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport.md">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

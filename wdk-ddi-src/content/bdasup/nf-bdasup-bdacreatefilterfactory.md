@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bce1a41a-03fa-4f41-aeba-e18c85b07e00
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: bdaref_187ab038-cc22-4f82-a9c9-b326b77fef64.xml, BdaCreateFilterFactory, BdaCreateFilterFactory function [Streaming Media Devices], bdasup/BdaCreateFilterFactory, stream.bdacreatefilterfactory
+ms.keywords: ",  , B, BdaCreateFilterFactory, BdaCreateFilterFactory function [Streaming Media Devices], C, F, a, bdaref_187ab038-cc22-4f82-a9c9-b326b77fef64.xml, bdasup/BdaCreateFilterFactory, c, d, e, i, l, o, r, stream.bdacreatefilterfactory, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,7 +127,27 @@ If a BDA minidriver requires a pointer to the newly created filter factory (<a h
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+
+
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
@@ -136,26 +156,6 @@ If a BDA minidriver requires a pointer to the newly created filter factory (<a h
 
 
 <a href="..\bdasup\nf-bdasup-bdacreatefilterfactoryex.md">BdaCreateFilterFactoryEx</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-
-
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 

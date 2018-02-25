@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 99b270a0-0634-41a8-9de7-d2a2d4c3059f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-general_3c393126-f5c8-47d8-bfb5-6127ce656e9a.xml, ntddstor/PSTORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Storage Devices], ntddstor/STORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR, _STORAGE_DEVICE_DESCRIPTOR, storage.storage_device_descriptor, STORAGE_DEVICE_DESCRIPTOR structure [Storage Devices]
+ms.keywords: ",  , ,, A, C, D, E, G, I, O, P, PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Storage Devices], R, S, STORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR structure [Storage Devices], T, V, _, _STORAGE_DEVICE_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_DESCRIPTOR, ntddstor/STORAGE_DEVICE_DESCRIPTOR, storage.storage_device_descriptor, structs-general_3c393126-f5c8-47d8-bfb5-6127ce656e9a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -183,11 +183,11 @@ An application or driver can determine the required buffer size by casting the r
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 
@@ -195,11 +195,11 @@ An application or driver can determine the required buffer size by casting the r
 
 
 
+<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+
+
+
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 

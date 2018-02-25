@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c126639-494d-45b4-81c2-1af6dc773db6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, wdm/ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], ExNotifyCallback, kernel.exnotifycallback
+ms.keywords: ",  , C, E, ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], N, a, b, c, f, i, k, k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, l, o, t, wdm/ExNotifyCallback, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

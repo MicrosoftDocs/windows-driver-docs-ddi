@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2cea4812-7eba-4558-9c2e-30de460be21f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setvertexshaderfunc, SetVertexShaderFunc callback function [Display Devices], SetVertexShaderFunc, PFND3DDDI_SETVERTEXSHADERFUNC, PFND3DDDI_SETVERTEXSHADERFUNC, d3dumddi/SetVertexShaderFunc, UserModeDisplayDriver_Functions_aeaa5094-5619-4cf5-b2c3-c4b6aeed9b33.xml
+ms.keywords: PFND3DDDI_SETVERTEXSHADERFUNC, SetVertexShaderFunc, SetVertexShaderFunc callback function [Display Devices], UserModeDisplayDriver_Functions_aeaa5094-5619-4cf5-b2c3-c4b6aeed9b33.xml, d3dumddi/SetVertexShaderFunc, display.setvertexshaderfunc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

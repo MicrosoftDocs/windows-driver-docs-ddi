@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57ed4f33-6ce6-41ae-b424-147318ba7656
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], wdm/KeInitializeTimerEx, k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, KeInitializeTimerEx, kernel.keinitializetimerex
+ms.keywords: ",  , E, I, K, KeInitializeTimerEx, KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], T, a, e, i, k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, kernel.keinitializetimerex, l, m, n, r, t, wdm/KeInitializeTimerEx, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,15 +113,7 @@ Use <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a> or <a href="..\wdm\nf-w
 
 
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
 
 
 
@@ -130,6 +122,14 @@ Use <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a> or <a href="..\wdm\nf-w
 
 
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
 
 
 

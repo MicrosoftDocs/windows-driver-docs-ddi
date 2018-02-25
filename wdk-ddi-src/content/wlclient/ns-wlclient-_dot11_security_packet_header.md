@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a880137-58a6-4b89-8384-a92c37f289a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml, _DOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], DOT11_SECURITY_PACKET_HEADER, netvista.dot11_security_packet_header, wlclient/DOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER, DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], *PDOT11_SECURITY_PACKET_HEADER, wlclient/PDOT11_SECURITY_PACKET_HEADER
+ms.keywords: ",  , *, *PDOT11_SECURITY_PACKET_HEADER, ,, 1, A, C, D, DOT11_SECURITY_PACKET_HEADER, DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], E, H, I, K, Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml, O, P, PDOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, Y, _, _DOT11_SECURITY_PACKET_HEADER, netvista.dot11_security_packet_header, wlclient/DOT11_SECURITY_PACKET_HEADER, wlclient/PDOT11_SECURITY_PACKET_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

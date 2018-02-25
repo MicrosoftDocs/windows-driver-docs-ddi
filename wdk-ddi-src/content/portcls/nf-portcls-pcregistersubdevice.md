@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 97461adf-053b-484b-9425-b23ac6deb1bd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: portcls/PcRegisterSubdevice, audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml, PcRegisterSubdevice function [Audio Devices], audio.pcregistersubdevice, PcRegisterSubdevice
+ms.keywords: ",  , P, PcRegisterSubdevice, PcRegisterSubdevice function [Audio Devices], R, S, audio.pcregistersubdevice, audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml, b, c, d, e, g, i, portcls/PcRegisterSubdevice, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,7 +109,11 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -117,11 +121,7 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 
 

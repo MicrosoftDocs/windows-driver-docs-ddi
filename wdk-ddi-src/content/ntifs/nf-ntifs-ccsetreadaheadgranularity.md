@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3ab0c8b8-1f41-48b7-9c42-ea843ebcd82e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/CcSetReadAheadGranularity, ccref_9b995224-0e59-43c6-b827-c15d9ae6e86c.xml, CcSetReadAheadGranularity routine [Installable File System Drivers], ifsk.ccsetreadaheadgranularity, CcSetReadAheadGranularity
+ms.keywords: ",  , A, C, CcSetReadAheadGranularity, CcSetReadAheadGranularity routine [Installable File System Drivers], G, R, S, a, c, ccref_9b995224-0e59-43c6-b827-c15d9ae6e86c.xml, d, e, h, i, ifsk.ccsetreadaheadgranularity, l, n, ntifs/CcSetReadAheadGranularity, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,7 @@ After <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
 
 
@@ -110,7 +106,11 @@ After <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 
 
 

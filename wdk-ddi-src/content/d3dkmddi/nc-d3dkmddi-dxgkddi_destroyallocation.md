@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cade544a-f9c6-4635-ab57-d09d694ca315
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddidestroyallocation, DxgkDdiDestroyAllocation callback function [Display Devices], DxgkDdiDestroyAllocation, DXGKDDI_DESTROYALLOCATION, DXGKDDI_DESTROYALLOCATION, d3dkmddi/DxgkDdiDestroyAllocation, DmFunctions_4139c309-b149-436b-9ed1-89c0c26f5425.xml
+ms.keywords: DXGKDDI_DESTROYALLOCATION, DmFunctions_4139c309-b149-436b-9ed1-89c0c26f5425.xml, DxgkDdiDestroyAllocation, DxgkDdiDestroyAllocation callback function [Display Devices], d3dkmddi/DxgkDdiDestroyAllocation, display.dxgkddidestroyallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,15 +105,15 @@ The display miniport driver can release the entire resource as well as allocatio
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_destroyallocation.md">DXGKARG_DESTROYALLOCATION</a>
 
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
 
 
 

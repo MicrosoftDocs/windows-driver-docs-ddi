@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fbf6291e-9602-45d7-a620-702491a1d7de
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NtSetSecurityObject, ntifs/NtSetSecurityObject, ntifs/ZwSetSecurityObject, kernel.zwsetsecurityobject, ZwSetSecurityObject, k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , N, NtSetSecurityObject, O, S, ZwSetSecurityObject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], b, c, e, i, j, k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, kernel.zwsetsecurityobject, ntifs/NtSetSecurityObject, ntifs/ZwSetSecurityObject, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -271,15 +271,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetsecurityobject.md">FltSetSecurityObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 
 
@@ -288,6 +284,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

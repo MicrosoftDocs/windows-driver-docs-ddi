@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 10d5da82-8fbe-45fa-8051-42f6a1e3adce
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetPromptTextWide method [Windows Debugging], dbgeng/IDebugControl4::GetPromptTextWide, GetPromptTextWide, IDebugControl4, IDebugControl4::GetPromptTextWide, GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method, debugger.getprompttextwide
+ms.keywords: ",  , ,, ., 4, :, C, D, G, GetPromptTextWide method [Windows Debugging], GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, GetPromptTextWide,IDebugControl4.GetPromptTextWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method, IDebugControl4::GetPromptTextWide, P, T, W, b, d, dbgeng/IDebugControl4::GetPromptTextWide, debugger.getprompttextwide, e, g, i, l, m, n, o, p, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -134,11 +134,11 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
 
 

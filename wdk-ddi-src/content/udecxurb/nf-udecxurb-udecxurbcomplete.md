@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F0B014F3-AE40-466B-BD9A-0D01DF70DCFF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUrbComplete, UdecxUrbComplete function [Buses], buses.udecxurbcomplete, udecxurb/UdecxUrbComplete
+ms.keywords: ",  , C, U, UdecxUrbComplete, UdecxUrbComplete function [Buses], b, buses.udecxurbcomplete, c, d, e, l, m, o, p, r, t, udecxurb/UdecxUrbComplete, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

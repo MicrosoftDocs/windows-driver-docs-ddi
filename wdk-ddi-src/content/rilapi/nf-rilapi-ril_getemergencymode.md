@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3c95d10b-5db6-40d0-9caa-518235e81d6d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_getemergencymode, RIL_GetEmergencyMode, RIL_GetEmergencyMode method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetEmergencyMode
+ms.keywords: ",  , E, G, I, L, M, R, RIL_GetEmergencyMode, RIL_GetEmergencyMode method [Network Drivers Starting with Windows Vista], _, c, d, e, g, m, n, netvista.ril_getemergencymode, o, r, rilapi/RIL_GetEmergencyMode, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

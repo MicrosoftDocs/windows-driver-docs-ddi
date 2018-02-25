@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B78E5AEF-DC31-44B2-92D8-DE7C83726E29
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_querysegmentin4, DXGK_QUERYSEGMENTIN4, d3dkmddi/DXGK_QUERYSEGMENTIN4, _DXGK_QUERYSEGMENTIN4, DXGK_QUERYSEGMENTIN4 structure [Display Devices]
+ms.keywords: ",  , ,, 4, D, DXGK_QUERYSEGMENTIN4, DXGK_QUERYSEGMENTIN4 structure [Display Devices], E, G, I, K, M, N, Q, R, S, T, U, X, Y, _, _DXGK_QUERYSEGMENTIN4, d3dkmddi/DXGK_QUERYSEGMENTIN4, display.dxgk_querysegmentin4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

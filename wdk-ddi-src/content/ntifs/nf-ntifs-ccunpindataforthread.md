@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9c29689c-ce5e-4b29-a17b-32d96f8f87e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/CcUnpinDataForThread, CcUnpinDataForThread, CcUnpinDataForThread routine [Installable File System Drivers], ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, ifsk.ccunpindataforthread
+ms.keywords: ",  , C, CcUnpinDataForThread, CcUnpinDataForThread routine [Installable File System Drivers], D, F, T, U, a, c, ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, d, e, h, i, ifsk.ccunpindataforthread, n, ntifs/CcUnpinDataForThread, o, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

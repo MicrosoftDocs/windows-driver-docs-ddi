@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 213d0ee8-96f1-4927-be87-1b504b3f3478
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoTargetQueryForInterface method, wdf.wdfiotargetqueryforinterface, DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, wdfiotarget/WdfIoTargetQueryForInterface, WdfIoTargetQueryForInterface, kmdf.wdfiotargetqueryforinterface
+ms.keywords: ",  , DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, F, I, Q, T, W, WdfIoTargetQueryForInterface, WdfIoTargetQueryForInterface method, a, c, d, e, f, g, kmdf.wdfiotargetqueryforinterface, n, o, r, t, u, wdf.wdfiotargetqueryforinterface, wdfiotarget/WdfIoTargetQueryForInterface, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,15 +192,15 @@ if (!NT_SUCCESS (status)){
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 

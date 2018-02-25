@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1ba94491-718b-41bf-bc22-2d99ba34c6af
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlIsFatDbcsLegal, ntifs/FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], ifsk.fsrtlisfatdbcslegal, fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml
+ms.keywords: ",  , D, F, FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], I, L, R, a, b, c, e, fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml, g, ifsk.fsrtlisfatdbcslegal, l, ntifs/FsRtlIsFatDbcsLegal, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

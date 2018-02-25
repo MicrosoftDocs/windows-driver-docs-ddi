@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 25405dd8-730e-4de6-af44-9dd584ed3087
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, print.iprintcoreps2_drvwritespoolbuf, IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, DrvWriteSpoolBuf method [Print Devices], prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, IPrintCorePS2::DrvWriteSpoolBuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml, IPrintCorePS2, DrvWriteSpoolBuf
+ms.keywords: ",  , ,, ., 2, :, B, C, D, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, DrvWriteSpoolBuf,IPrintCorePS2.DrvWriteSpoolBuf, I, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, IPrintCorePS2::DrvWriteSpoolBuf, P, S, W, e, f, i, l, n, o, p, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -152,11 +152,11 @@ This method has the same behavior as <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553103">IPrintOemDriverPS::DrvWriteSpoolBuf</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553103">IPrintOemDriverPS::DrvWriteSpoolBuf</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ea8ba463-e8dd-4952-bcad-6fe565fe3292
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dcaps/LPD3DLIGHTINGCAPS, *LPD3DLIGHTINGCAPS, D3DLIGHTINGCAPS structure [Display Devices], _D3DLIGHTINGCAPS, display.d3dlightingcaps, LPD3DLIGHTINGCAPS, d3dstrct_98470d9f-b4ed-49ee-9c0f-34c991916de3.xml, LPD3DLIGHTINGCAPS structure pointer [Display Devices], d3dcaps/D3DLIGHTINGCAPS, D3DLIGHTINGCAPS
+ms.keywords: ",  , *, *LPD3DLIGHTINGCAPS, ,, 3, A, C, D, D3DLIGHTINGCAPS, D3DLIGHTINGCAPS structure [Display Devices], G, H, I, L, LPD3DLIGHTINGCAPS, LPD3DLIGHTINGCAPS structure pointer [Display Devices], N, P, S, T, _, _D3DLIGHTINGCAPS, d3dcaps/D3DLIGHTINGCAPS, d3dcaps/LPD3DLIGHTINGCAPS, d3dstrct_98470d9f-b4ed-49ee-9c0f-34c991916de3.xml, display.d3dlightingcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

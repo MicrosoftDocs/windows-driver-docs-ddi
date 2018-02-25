@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 1e6b922d-01a2-4a67-91cb-74956d40d769
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SdpCreateNodeAlternative function [Bluetooth Devices], bth_funcs_e54ab424-3fbf-479a-9368-51d824c1fbec.xml, bltooth.sdpcreatenodealternative, sdplib/SdpCreateNodeAlternative, SdpCreateNodeAlternative
+ms.keywords: ",  , A, C, N, S, SdpCreateNodeAlternative, SdpCreateNodeAlternative function [Bluetooth Devices], a, bltooth.sdpcreatenodealternative, bth_funcs_e54ab424-3fbf-479a-9368-51d824c1fbec.xml, d, e, i, l, n, o, p, r, sdplib/SdpCreateNodeAlternative, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
-
-
-
 <a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">SdpAppendNodeToContainerNode</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
 
 
 

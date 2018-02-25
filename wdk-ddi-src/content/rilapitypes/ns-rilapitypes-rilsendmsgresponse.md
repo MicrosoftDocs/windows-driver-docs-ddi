@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46fd1e3e-38de-460e-8bb8-ff7db2a16e1a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilsendmsgresponse_2, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], RILSENDMSGRESPONSE, *LPRILSENDMSGRESPONSE, rilapitypes/RILSENDMSGRESPONSE
+ms.keywords: ",  , *, *LPRILSENDMSGRESPONSE, ,, D, E, G, I, L, M, N, O, P, R, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], S, netvista.rilsendmsgresponse_2, rilapitypes/RILSENDMSGRESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

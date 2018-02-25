@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6239f9b5-99e9-4ed7-b2a8-863c1784692b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_SendScsiInquiry, fibreHBA_rtns_7a60c4a4-d9d4-408f-b5c9-6cb593f510fb.xml, HBA_SendScsiInquiry routine [Storage Devices], storage.hba_sendscsiinquiry, hbaapi/HBA_SendScsiInquiry
+ms.keywords: ",  , A, B, H, HBA_SendScsiInquiry, HBA_SendScsiInquiry routine [Storage Devices], I, S, _, c, d, e, fibreHBA_rtns_7a60c4a4-d9d4-408f-b5c9-6cb593f510fb.xml, hbaapi/HBA_SendScsiInquiry, i, n, q, r, s, storage.hba_sendscsiinquiry, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

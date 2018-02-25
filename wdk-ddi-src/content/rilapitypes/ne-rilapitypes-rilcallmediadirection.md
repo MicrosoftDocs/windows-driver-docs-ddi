@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fcb5f1a4-8673-412e-95ac-5f3ca781411b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCALLMEDIADIRECTION, rilapitypes/RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_TX, RIL_CALLMEDIADIRECTION_RX, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIADIRECTION_MAX, rilapitypes/RIL_CALLMEDIADIRECTION_RX, rilapitypes/RIL_CALLMEDIADIRECTION_TX, rilapitypes/RIL_CALLMEDIADIRECTION_RXTX, rilapitypes/RILCALLMEDIADIRECTION, netvista.rilcallmediadirection_2, RIL_CALLMEDIADIRECTION_RXTX
+ms.keywords: ",  , ,, A, C, D, E, I, L, M, N, O, R, RILCALLMEDIADIRECTION, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_RX, RIL_CALLMEDIADIRECTION_RXTX, RIL_CALLMEDIADIRECTION_TX, T, netvista.rilcallmediadirection_2, rilapitypes/RILCALLMEDIADIRECTION, rilapitypes/RIL_CALLMEDIADIRECTION_MAX, rilapitypes/RIL_CALLMEDIADIRECTION_RX, rilapitypes/RIL_CALLMEDIADIRECTION_RXTX, rilapitypes/RIL_CALLMEDIADIRECTION_TX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba803eab-74ae-4998-b013-9f4470da8382
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvinitservice, Dot11ExtIhvInitService callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvInitService, DOT11EXTIHV_INIT_SERVICE, DOT11EXTIHV_INIT_SERVICE, wlanihv/Dot11ExtIhvInitService, Native_802.11_IHV_Ext_8e49584c-f0e7-4ff5-a3cb-5eafde2ff081.xml
+ms.keywords: DOT11EXTIHV_INIT_SERVICE, Dot11ExtIhvInitService, Dot11ExtIhvInitService callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_8e49584c-f0e7-4ff5-a3cb-5eafde2ff081.xml, netvista.dot11extihvinitservice, wlanihv/Dot11ExtIhvInitService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -159,15 +159,15 @@ For more information about
 
 ## -see-also
 
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
 
 
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a>
-
-
-
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
 
 
 

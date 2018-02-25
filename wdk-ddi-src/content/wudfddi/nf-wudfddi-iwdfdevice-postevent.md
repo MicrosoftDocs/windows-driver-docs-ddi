@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3df25c91-d421-48fe-958c-48bce3bc78b8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDevice::PostEvent, PostEvent, wudfddi/IWDFDevice::PostEvent, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, PostEvent method, IWDFDevice interface, wdf.iwdfdevice_postevent, PostEvent method, IWDFDevice, IWDFDevice interface, PostEvent method
+ms.keywords: ",  , ,, ., :, D, E, F, I, IWDFDevice, IWDFDevice interface, PostEvent method, IWDFDevice::PostEvent, P, PostEvent method, PostEvent method, IWDFDevice interface, PostEvent,IWDFDevice.PostEvent, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, W, c, e, i, n, o, s, t, umdf.iwdfdevice_postevent, v, wdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,7 +80,7 @@ The GUID for the event. The GUID is determined by the application and the driver
 
 ### -param EventType [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
 
 ### -param pbData [in]
@@ -180,11 +180,11 @@ For information about creating device events, see <a href="https://docs.microsof
 
 
 
-<a href="..\minitape\nf-minitape-field_offset.md">FIELD_OFFSET</a>
-
-
-
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+
+
+<a href="..\minitape\nf-minitape-field_offset.md">FIELD_OFFSET</a>
 
 
 

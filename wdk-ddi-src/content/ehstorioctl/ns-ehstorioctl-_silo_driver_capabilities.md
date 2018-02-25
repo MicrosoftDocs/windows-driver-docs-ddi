@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ehstorioctl/SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, storage.silo_driver_capabilities, *PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], PSILO_DRIVER_CAPABILITIES, CAP_ON_DEMAND_AUTHENTICATION, SILO_DRIVER_CAPABILITIES, _SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices]
+ms.keywords: ",  , *, *PSILO_DRIVER_CAPABILITIES, ,, A, B, C, CAP_BANDING_SUPPORT, CAP_ON_DEMAND_AUTHENTICATION, D, E, I, L, O, P, PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], R, S, SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices], T, V, _, _SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,11 +141,11 @@ To receive band management requests from the enhanced storage class driver, a si
 
 
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
-
-
-
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
+
+
+
+<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f450117-9bd2-4021-b8f1-393db5784136
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], wdm/ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient, kernel.clfsmgmtregistermanagedclient, Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml
+ms.keywords: ",  , C, ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml, M, R, a, d, e, f, g, i, kernel.clfsmgmtregistermanagedclient, l, m, n, r, s, t, wdm/ClfsMgmtRegisterManagedClient"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,11 +171,11 @@ More than one client can register with a log stream.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
-
-
-
 <a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
 
 
 

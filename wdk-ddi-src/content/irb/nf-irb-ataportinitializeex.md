@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 578992cf-63eb-4b8e-b0cb-9caee5c534e1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AtaPortInitializeEx, storage.ataportinitializeex, irb/AtaPortInitializeEx, atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, AtaPortInitializeEx routine [Storage Devices]
+ms.keywords: ",  , A, AtaPortInitializeEx, AtaPortInitializeEx routine [Storage Devices], E, I, P, a, atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, e, i, irb/AtaPortInitializeEx, l, n, o, r, storage.ataportinitializeex, t, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,7 +130,11 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
+<a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
+
+
+
+<a href="..\mcd\nf-mcd-driverentry.md">DriverEntry</a>
 
 
 
@@ -138,11 +142,7 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 
 
-<a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
-
-
-
-<a href="..\mcd\nf-mcd-driverentry.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
 
 

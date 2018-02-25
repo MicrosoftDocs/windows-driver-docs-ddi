@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0340cfa7-957d-4404-8dbd-d3178436de0f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KEY_VALUE_FULL_INFORMATION, kernel.key_value_full_information, PKEY_VALUE_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], KEY_VALUE_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], _KEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION, *PKEY_VALUE_FULL_INFORMATION, PKEY_VALUE_FULL_INFORMATION, wdm/PKEY_VALUE_FULL_INFORMATION, kstruct_c_15c88f03-6342-40db-9f43-cb4087f24610.xml
+ms.keywords: ",  , *, *PKEY_VALUE_FULL_INFORMATION, ,, A, E, F, I, K, KEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], L, M, N, O, P, PKEY_VALUE_FULL_INFORMATION, PKEY_VALUE_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, T, U, V, Y, _, _KEY_VALUE_FULL_INFORMATION, kernel.key_value_full_information, kstruct_c_15c88f03-6342-40db-9f43-cb4087f24610.xml, wdm/KEY_VALUE_FULL_INFORMATION, wdm/PKEY_VALUE_FULL_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,14 +105,6 @@ A string of Unicode characters naming a value entry of the key.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
-
-
-
 <a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
 
 
@@ -121,7 +113,15 @@ A string of Unicode characters naming a value entry of the key.
 
 
 
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c619e9b3-3736-48e3-a84d-e166be4f39af
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFRequestObjectRef_180dea64-0a3a-4b59-89e8-37705a674e77.xml, wdf.wdfrequestretrieveinputmemory, WdfRequestRetrieveInputMemory method, WdfRequestRetrieveInputMemory, wdfrequest/WdfRequestRetrieveInputMemory, kmdf.wdfrequestretrieveinputmemory
+ms.keywords: ",  , DFRequestObjectRef_180dea64-0a3a-4b59-89e8-37705a674e77.xml, I, M, R, W, WdfRequestRetrieveInputMemory, WdfRequestRetrieveInputMemory method, d, e, f, i, kmdf.wdfrequestretrieveinputmemory, m, n, o, p, q, r, s, t, u, v, wdf.wdfrequestretrieveinputmemory, wdfrequest/WdfRequestRetrieveInputMemory, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -270,11 +270,11 @@ Exit:
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">WdfRequestRetrieveInputBuffer</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
 
 

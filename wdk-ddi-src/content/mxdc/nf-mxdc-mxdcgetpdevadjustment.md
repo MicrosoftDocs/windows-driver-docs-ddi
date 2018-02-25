@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4839337b-0328-4919-8f49-d7847743845c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment, MxdcGetPDEVAdjustment function [Print Devices], print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml, mxdc/MxdcGetPDEVAdjustment
+ms.keywords: ",  , A, D, E, G, M, MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment function [Print Devices], P, V, c, d, e, j, m, mxdc/MxdcGetPDEVAdjustment, n, print.mxdcgetpdevadjustment, print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -432,15 +432,15 @@ All rotation will be done on the imageable area. If a configuration component (U
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuimxdc.md">IPrintOemUIMXDC Interface</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuimxdc.md">IPrintOemUIMXDC Interface</a>
 
 
 

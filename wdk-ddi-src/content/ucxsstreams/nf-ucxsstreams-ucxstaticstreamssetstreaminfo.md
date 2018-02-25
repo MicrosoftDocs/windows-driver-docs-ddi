@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxStaticStreamsSetStreamInfo method [Buses], UcxStaticStreamsSetStreamInfo, buses._ucxstaticstreamssetstreaminfo
+ms.keywords: ",  , I, S, U, UcxStaticStreamsSetStreamInfo, UcxStaticStreamsSetStreamInfo method [Buses], a, buses._ucxstaticstreamssetstreaminfo, c, e, f, i, m, n, o, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3f7f904c-1d5e-4647-a566-1ec447a4cd13
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.ioctl_acpi_eval_method, IOCTL_ACPI_EVAL_METHOD control code [ACPI Devices], IOCTL_ACPI_EVAL_METHOD, acpiioct/IOCTL_ACPI_EVAL_METHOD, acpi-meth-eval-ref_6908d1cb-5ac2-4251-8363-25530ebd542a.xml
+ms.keywords: IOCTL_ACPI_EVAL_METHOD, IOCTL_ACPI_EVAL_METHOD control code [ACPI Devices], acpi-meth-eval-ref_6908d1cb-5ac2-4251-8363-25530ebd542a.xml, acpi.ioctl_acpi_eval_method, acpiioct/IOCTL_ACPI_EVAL_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -186,31 +186,11 @@ IOCTL_ACPI_EVAL_METHOD can be used only at IRQL &lt; DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_v1.md">ACPI_EVAL_INPUT_BUFFER</a>
-
-
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
-
-
-
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
-
-
-
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
-
-
-
 <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_integer_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
-
-
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING</a>
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
 
 
 
@@ -218,7 +198,27 @@ IOCTL_ACPI_EVAL_METHOD can be used only at IRQL &lt; DISPATCH_LEVEL.
 
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_v1.md">ACPI_EVAL_INPUT_BUFFER</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
+
+
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
+
+
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 1a7eb79c-5a3e-4977-ba1f-682bbebb0494
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bth_structs_cf7da00a-9c32-432d-a8a2-7bac58fe17e0.xml, _BRB_SCO_GET_CHANNEL_INFO structure [Bluetooth Devices], bltooth._brb_sco_get_channel_info, bthddi/_BRB_SCO_GET_CHANNEL_INFO, _BRB_SCO_GET_CHANNEL_INFO
+ms.keywords: ",  , A, B, C, E, F, G, H, I, L, N, O, R, S, T, _, _BRB_SCO_GET_CHANNEL_INFO, _BRB_SCO_GET_CHANNEL_INFO structure [Bluetooth Devices], bltooth._brb_sco_get_channel_info, bth_structs_cf7da00a-9c32-432d-a8a2-7bac58fe17e0.xml, bthddi/_BRB_SCO_GET_CHANNEL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -345,11 +345,7 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536868">BRB_SCO_GET_CHANNEL_INFO</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a>
+<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
 
 
 
@@ -361,7 +357,11 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 
 
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
+<a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536868">BRB_SCO_GET_CHANNEL_INFO</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 11f086af-bda7-4dab-8c4b-0db2e89588d1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfInterruptGetInfo method, wdf.wdfinterruptgetinfo, kmdf.wdfinterruptgetinfo, wdfinterrupt/WdfInterruptGetInfo, WdfInterruptGetInfo, DFInterruptObjectRef_eb163aa0-1ba3-491d-b215-85c8773dcfc9.xml
+ms.keywords: ",  , DFInterruptObjectRef_eb163aa0-1ba3-491d-b215-85c8773dcfc9.xml, G, I, W, WdfInterruptGetInfo, WdfInterruptGetInfo method, d, e, f, kmdf.wdfinterruptgetinfo, n, o, p, r, t, u, wdf.wdfinterruptgetinfo, wdfinterrupt/WdfInterruptGetInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,11 +143,11 @@ WdfInterruptGetInfo(
 
 
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
+
+
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3e90c3b-5ead-40d1-9143-a2b1fc8c255d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k105_f9344044-a57f-4ee4-800c-a03edcc27196.xml, kernel.keleavecriticalregion, KeLeaveCriticalRegion routine [Kernel-Mode Driver Architecture], KeLeaveCriticalRegion, wdm/KeLeaveCriticalRegion
+ms.keywords: ",  , C, K, KeLeaveCriticalRegion, KeLeaveCriticalRegion routine [Kernel-Mode Driver Architecture], L, R, a, c, e, g, i, k105_f9344044-a57f-4ee4-800c-a03edcc27196.xml, kernel.keleavecriticalregion, l, n, o, r, t, v, wdm/KeLeaveCriticalRegion"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,11 @@ Highest-level drivers can call this routine while running in the context of the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
+<a href="..\ntddk\nf-ntddk-keareapcsdisabled.md">KeAreApcsDisabled</a>
 
 
 
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 
 

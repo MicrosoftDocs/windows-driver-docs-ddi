@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b65608f4-de9a-4bed-a966-586e50c50e45
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: AddContentHandlers method [Audio Devices], audio.idrmport2_addcontenthandlers, IDrmPort2 interface [Audio Devices], AddContentHandlers method, AddContentHandlers, audmp-routines_f2bbb2e7-eed1-4ffd-93d9-050dcb6b0b60.xml, portcls/IDrmPort2::AddContentHandlers, IDrmPort2, AddContentHandlers method [Audio Devices], IDrmPort2 interface, IDrmPort2::AddContentHandlers
+ms.keywords: ",  , ,, ., 2, :, A, AddContentHandlers method [Audio Devices], AddContentHandlers method [Audio Devices], IDrmPort2 interface, AddContentHandlers,IDrmPort2.AddContentHandlers, C, D, H, I, IDrmPort2, IDrmPort2 interface [Audio Devices], AddContentHandlers method, IDrmPort2::AddContentHandlers, P, a, audio.idrmport2_addcontenthandlers, audmp-routines_f2bbb2e7-eed1-4ffd-93d9-050dcb6b0b60.xml, d, e, l, m, n, o, portcls/IDrmPort2::AddContentHandlers, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d11be514-2a45-407e-884a-66f6f503f57a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: drmk/PKSDRMAUDIOSTREAM_CONTENTID, PKSDRMAUDIOSTREAM_CONTENTID, *PKSDRMAUDIOSTREAM_CONTENTID, drmk/KSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID structure [Audio Devices], KSDRMAUDIOSTREAM_CONTENTID, audio.ksdrmaudiostream_contentid, aud-prop_451e4ef3-53c7-4be2-a59c-efd34633c007.xml, PKSDRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices]
+ms.keywords: ",  , *, *PKSDRMAUDIOSTREAM_CONTENTID, ,, A, C, D, E, I, K, KSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID structure [Audio Devices], M, N, O, P, PKSDRMAUDIOSTREAM_CONTENTID, PKSDRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], R, S, T, U, _, aud-prop_451e4ef3-53c7-4be2-a59c-efd34633c007.xml, audio.ksdrmaudiostream_contentid, drmk/KSDRMAUDIOSTREAM_CONTENTID, drmk/PKSDRMAUDIOSTREAM_CONTENTID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

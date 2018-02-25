@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8b44e1e1-c648-4eec-bb3e-ab327dc08f98
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iqueuecallbackwrite, IQueueCallbackWrite interface, IQueueCallbackWrite interface, described, IQueueCallbackWrite, wudfddi/IQueueCallbackWrite, UMDFQueueObjectRef_4abdce88-185f-4dab-823a-00da96d7d630.xml, umdf.iqueuecallbackwrite
+ms.keywords: IQueueCallbackWrite, IQueueCallbackWrite interface, IQueueCallbackWrite interface, described, UMDFQueueObjectRef_4abdce88-185f-4dab-823a-00da96d7d630.xml, umdf.iqueuecallbackwrite, wdf.iqueuecallbackwrite, wudfddi/IQueueCallbackWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

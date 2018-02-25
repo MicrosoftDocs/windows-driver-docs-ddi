@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 37CE6358-68F8-49E2-8B3E-126D5D135ADF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_controller_reset, EvtUfxDeviceControllerReset callback function [Buses], EvtUfxDeviceControllerReset, EVT_UFX_DEVICE_CONTROLLER_RESET, EVT_UFX_DEVICE_CONTROLLER_RESET, ufxclient/EvtUfxDeviceControllerReset, PFN_UFX_DEVICE_CONTROLLER_RESET callback function pointer [Buses], PFN_UFX_DEVICE_CONTROLLER_RESET
+ms.keywords: EVT_UFX_DEVICE_CONTROLLER_RESET, EvtUfxDeviceControllerReset, EvtUfxDeviceControllerReset callback function [Buses], PFN_UFX_DEVICE_CONTROLLER_RESET, PFN_UFX_DEVICE_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ufx_device_controller_reset, ufxclient/EvtUfxDeviceControllerReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -114,11 +114,11 @@ The client driver indicates completion of this event by calling the <a href="..\
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 

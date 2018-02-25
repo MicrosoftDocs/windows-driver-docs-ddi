@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4dcf8fb6-71f5-4e11-a92a-0292c2a1515c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.changebandwidthallocation, ChangeBandwidthAllocation callback function [Audio Devices], ChangeBandwidthAllocation, PCHANGE_BANDWIDTH_ALLOCATION, PCHANGE_BANDWIDTH_ALLOCATION, hdaudio/ChangeBandwidthAllocation, aud-prop2_3d85fecb-4617-404b-951b-7457f9e650cc.xml
+ms.keywords: ChangeBandwidthAllocation, ChangeBandwidthAllocation callback function [Audio Devices], PCHANGE_BANDWIDTH_ALLOCATION, aud-prop2_3d85fecb-4617-404b-951b-7457f9e650cc.xml, audio.changebandwidthallocation, hdaudio/ChangeBandwidthAllocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -226,11 +226,23 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 
 
+<a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
 
 
@@ -242,23 +254,11 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>
 
 
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
 
 

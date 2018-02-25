@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03715e4e-6f8a-402d-9544-b01cc06d1809
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlUnicodeStringCchCatN function [Kernel-Mode Driver Architecture], safestrings_3958e107-6da7-4bf5-a592-097ddb52c1b2.xml, kernel.rtlunicodestringcchcatn, ntstrsafe/RtlUnicodeStringCchCatN, RtlUnicodeStringCchCatN
+ms.keywords: ",  , C, N, R, RtlUnicodeStringCchCatN, RtlUnicodeStringCchCatN function [Kernel-Mode Driver Architecture], S, U, a, c, d, e, g, h, i, kernel.rtlunicodestringcchcatn, l, n, ntstrsafe/RtlUnicodeStringCchCatN, o, r, safestrings_3958e107-6da7-4bf5-a592-097ddb52c1b2.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

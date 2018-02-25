@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 75de51b1-063b-49b2-a390-2bafd44e04b0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hbafcpbindingentry2, hbapiwmi/HBAFCPBindingEntry2, HBAFCPBindingEntry2, structs-Fibre_b15c2291-b1fc-4f4f-9890-ddf50e3dee9e.xml, PHBAFCPBindingEntry2 structure pointer [Storage Devices], *PHBAFCPBindingEntry2, hbapiwmi/PHBAFCPBindingEntry2, HBAFCPBindingEntry2 structure [Storage Devices], PHBAFCPBindingEntry2, _HBAFCPBindingEntry2
+ms.keywords: ",  , *, *PHBAFCPBindingEntry2, ,, 2, A, B, C, E, F, H, HBAFCPBindingEntry2, HBAFCPBindingEntry2 structure [Storage Devices], P, PHBAFCPBindingEntry2, PHBAFCPBindingEntry2 structure pointer [Storage Devices], _, _HBAFCPBindingEntry2, d, g, hbapiwmi/HBAFCPBindingEntry2, hbapiwmi/PHBAFCPBindingEntry2, i, n, r, storage.hbafcpbindingentry2, structs-Fibre_b15c2291-b1fc-4f4f-9890-ddf50e3dee9e.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -170,11 +170,11 @@ For an explanation of the fibre channel protocol (FCP), see the T11 committee's 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556036">HBAFCPBindingEntry2 WMI Class</a>
-
-
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556036">HBAFCPBindingEntry2 WMI Class</a>
 
 
 

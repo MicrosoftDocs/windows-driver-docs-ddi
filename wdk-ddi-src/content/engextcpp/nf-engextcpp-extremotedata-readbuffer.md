@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1ad13196-a133-4168-9a36-1f7e4ed5c4f1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ReadBuffer method [Windows Debugging], ExtRemoteData class, EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, debugger.extremotedata_readbuffer, ExtRemoteData::ReadBuffer, ReadBuffer, ExtRemoteData, ExtRemoteData class [Windows Debugging], ReadBuffer method, ReadBuffer method [Windows Debugging]
+ms.keywords: ",  , ,, ., :, B, D, E, EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], ReadBuffer method, ExtRemoteData::ReadBuffer, R, ReadBuffer method [Windows Debugging], ReadBuffer method [Windows Debugging], ExtRemoteData class, ReadBuffer,ExtRemoteData.ReadBuffer, a, d, debugger.extremotedata_readbuffer, e, f, m, o, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

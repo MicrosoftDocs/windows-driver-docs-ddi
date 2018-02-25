@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6fce78f7-a23e-4651-b6d8-b3d5387ccc27
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, ksmedia/PVRAM_SURFACE_INFO, ksmedia/VRAM_SURFACE_INFO, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], PVRAM_SURFACE_INFO, *PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], stream.vram_surface_info
+ms.keywords: ",  , *, *PVRAM_SURFACE_INFO, ,, A, C, E, F, I, M, N, O, P, PVRAM_SURFACE_INFO, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], R, S, U, V, VRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], _, avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, ksmedia/PVRAM_SURFACE_INFO, ksmedia/VRAM_SURFACE_INFO, stream.vram_surface_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,11 +129,11 @@ The data in these members persists for the lifetime of the stream header. When a
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a>
+
+
+
+<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5417b821-b51d-4789-8380-f93d113f42d3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisEqualMemory, ndis/NdisEqualMemory, netvista.ndisequalmemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml
+ms.keywords: ",  , E, M, N, NdisEqualMemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], a, d, e, i, l, m, ndis/NdisEqualMemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, netvista.ndisequalmemory, o, q, r, s, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -103,11 +103,7 @@ Callers of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+<a href="..\smclib\nf-smclib-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 
@@ -115,12 +111,16 @@ Callers of
 
 
 
-<a href="..\minitape\nf-minitape-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
    NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
 
 

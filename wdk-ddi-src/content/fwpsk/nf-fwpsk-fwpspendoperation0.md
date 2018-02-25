@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03423785-83c5-4908-8c06-3be1b226c29e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendOperation0, FwpsPendOperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml, netvista.fwpspendoperation0
+ms.keywords: ",  , 0, F, FwpsPendOperation0, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], O, P, a, d, e, fwpsk/FwpsPendOperation0, i, n, netvista.fwpspendoperation0, o, p, r, s, t, w, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -223,7 +223,7 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a>
 
 
 
@@ -231,7 +231,7 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
 
 

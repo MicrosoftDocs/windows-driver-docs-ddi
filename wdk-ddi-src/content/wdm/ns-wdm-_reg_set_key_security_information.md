@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 196bad19-85a6-41a0-ac61-b70594a19f0f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/REG_SET_KEY_SECURITY_INFORMATION, REG_SET_KEY_SECURITY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_SET_KEY_SECURITY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _REG_SET_KEY_SECURITY_INFORMATION, PREG_SET_KEY_SECURITY_INFORMATION, wdm/PREG_SET_KEY_SECURITY_INFORMATION, kernel.reg_set_key_security_information, *PREG_SET_KEY_SECURITY_INFORMATION, kstruct_d_2154cf21-9f72-488b-ad13-687ada458991.xml, REG_SET_KEY_SECURITY_INFORMATION
+ms.keywords: ",  , *, *PREG_SET_KEY_SECURITY_INFORMATION, ,, A, C, E, F, G, I, K, M, N, O, P, PREG_SET_KEY_SECURITY_INFORMATION, PREG_SET_KEY_SECURITY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, REG_SET_KEY_SECURITY_INFORMATION, REG_SET_KEY_SECURITY_INFORMATION structure [Kernel-Mode Driver Architecture], S, T, U, Y, _, _REG_SET_KEY_SECURITY_INFORMATION, kernel.reg_set_key_security_information, kstruct_d_2154cf21-9f72-488b-ad13-687ada458991.xml, wdm/PREG_SET_KEY_SECURITY_INFORMATION, wdm/REG_SET_KEY_SECURITY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,6 +116,10 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 
@@ -129,10 +133,6 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 

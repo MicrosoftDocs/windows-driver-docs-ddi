@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f43f7dea-26a6-4e3f-99e2-5e3488a621b0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstatevsshadercb, pfnStateVsShaderCb callback function [Display Devices], pfnStateVsShaderCb, PFND3D10DDI_STATE_VS_SHADER_CB, PFND3D10DDI_STATE_VS_SHADER_CB, d3d10umddi/pfnStateVsShaderCb, d3d10state_functions_e9873351-ceaf-4cc2-9f92-7b3708d803bd.xml
+ms.keywords: PFND3D10DDI_STATE_VS_SHADER_CB, d3d10state_functions_e9873351-ceaf-4cc2-9f92-7b3708d803bd.xml, d3d10umddi/pfnStateVsShaderCb, display.pfnstatevsshadercb, pfnStateVsShaderCb, pfnStateVsShaderCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

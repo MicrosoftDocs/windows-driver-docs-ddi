@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8a5d8f8c-4924-4ae0-a7b2-8d2b04a49a9e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKSPROPERTY_MEMBERSHEADER, ks/KSPROPERTY_MEMBERSHEADER, KSPROPERTY_MEMBERSHEADER, PKSPROPERTY_MEMBERSHEADER structure pointer [Streaming Media Devices], KSPROPERTY_MEMBERSHEADER structure [Streaming Media Devices], *PKSPROPERTY_MEMBERSHEADER, ks/PKSPROPERTY_MEMBERSHEADER, ks-struct_d43fb5ec-043b-4378-8bdb-aaf80a616150.xml, stream.ksproperty_membersheader
+ms.keywords: ",  , *, *PKSPROPERTY_MEMBERSHEADER, ,, A, B, D, E, H, K, KSPROPERTY_MEMBERSHEADER, KSPROPERTY_MEMBERSHEADER structure [Streaming Media Devices], M, O, P, PKSPROPERTY_MEMBERSHEADER, PKSPROPERTY_MEMBERSHEADER structure pointer [Streaming Media Devices], R, S, T, Y, _, ks-struct_d43fb5ec-043b-4378-8bdb-aaf80a616150.xml, ks/KSPROPERTY_MEMBERSHEADER, ks/PKSPROPERTY_MEMBERSHEADER, stream.ksproperty_membersheader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -193,6 +193,18 @@ For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="..\ks\ns
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_BOUNDS_LONG</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
+
+
+
 <a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
 
 
@@ -201,23 +213,11 @@ For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="..\ks\ns
 
 
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_BOUNDS_LONG</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
-
-
-
 <a href="..\ks\ns-ks-ksproperty_stepping_longlong.md">KSPROPERTY_STEPPING_LONGLONG</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 

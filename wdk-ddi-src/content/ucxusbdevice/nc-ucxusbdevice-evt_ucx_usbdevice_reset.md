@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6876e35c-f293-4849-915f-c686a9d91dd1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_reset, EvtUcxUsbDeviceReset callback function [Buses], EvtUcxUsbDeviceReset, EVT_UCX_USBDEVICE_RESET, EVT_UCX_USBDEVICE_RESET, ucxusbdevice/EvtUcxUsbDeviceReset, PEVT_UCX_USBDEVICE_RESET callback function pointer [Buses], PEVT_UCX_USBDEVICE_RESET
+ms.keywords: EVT_UCX_USBDEVICE_RESET, EvtUcxUsbDeviceReset, EvtUcxUsbDeviceReset callback function [Buses], PEVT_UCX_USBDEVICE_RESET, PEVT_UCX_USBDEVICE_RESET callback function pointer [Buses], buses.evt_ucx_usbdevice_reset, ucxusbdevice/EvtUcxUsbDeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -140,11 +140,11 @@ UsbDevice_EvtUcxUsbDeviceReset(
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-
-
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_reset.md">USBDEVICE_RESET</a>
+
+
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 

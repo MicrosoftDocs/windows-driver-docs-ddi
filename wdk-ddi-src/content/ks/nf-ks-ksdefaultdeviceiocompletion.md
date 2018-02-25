@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6e466815-aef4-4602-b3cf-66b47b2e3f3b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksdefaultdeviceiocompletion, KsDefaultDeviceIoCompletion, ks/KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion function [Streaming Media Devices], ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml
+ms.keywords: ",  , C, D, I, K, KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion function [Streaming Media Devices], a, c, e, f, i, ks/KsDefaultDeviceIoCompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, l, m, n, o, p, s, stream.ksdefaultdeviceiocompletion, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

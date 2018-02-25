@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1f6b4d93-fca8-40da-b87e-c95169f142ea
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], KsMoveIrpsOnCancelableQueue, ks/KsMoveIrpsOnCancelableQueue, ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, stream.ksmoveirpsoncancelablequeue
+ms.keywords: ",  , C, I, K, KsMoveIrpsOnCancelableQueue, KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], M, O, Q, a, b, c, e, ks/KsMoveIrpsOnCancelableQueue, ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, l, n, o, p, r, s, stream.ksmoveirpsoncancelablequeue, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f5327cbf-e71b-4c1c-94c0-0e27afb4d7cf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksmethod_type_irp_storage, ks/KSMETHOD_TYPE_IRP_STORAGE, KSMETHOD_TYPE_IRP_STORAGE, ksfunc_de99d882-5298-4972-9d16-fa4478d6229c.xml, KSMETHOD_TYPE_IRP_STORAGE macro [Streaming Media Devices]
+ms.keywords: ",  , A, D, E, G, H, I, K, KSMETHOD_TYPE_IRP_STORAGE, KSMETHOD_TYPE_IRP_STORAGE macro [Streaming Media Devices], M, O, P, R, S, T, Y, _, ks/KSMETHOD_TYPE_IRP_STORAGE, ksfunc_de99d882-5298-4972-9d16-fa4478d6229c.xml, stream.ksmethod_type_irp_storage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -86,19 +86,11 @@ The macro is defined as follows:
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
-<a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
-
-
-
 <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+
+
+<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 
 
@@ -106,7 +98,15 @@ The macro is defined as follows:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+
+
+
 <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+
+
+<a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
 
 
 

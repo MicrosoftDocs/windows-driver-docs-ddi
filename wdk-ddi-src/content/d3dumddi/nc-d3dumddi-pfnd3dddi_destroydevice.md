@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a3c158c2-6c0d-4da0-80f4-569971b10673
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroydevice, DestroyDevice callback function [Display Devices], DestroyDevice, PFND3DDDI_DESTROYDEVICE, PFND3DDDI_DESTROYDEVICE, d3dumddi/DestroyDevice, UserModeDisplayDriver_Functions_4d34f924-8742-4957-b3f0-d4a63d338ada.xml
+ms.keywords: DestroyDevice, DestroyDevice callback function [Display Devices], PFND3DDDI_DESTROYDEVICE, UserModeDisplayDriver_Functions_4d34f924-8742-4957-b3f0-d4a63d338ada.xml, d3dumddi/DestroyDevice, display.destroydevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -97,15 +97,15 @@ Before the driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocat
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 
 

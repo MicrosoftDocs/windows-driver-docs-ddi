@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc5da07d-fcd2-40f9-8ba9-d7ddf35e7b7f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml, netvista.ndisequalstring, NdisEqualString macro [Network Drivers Starting with Windows Vista], NdisEqualString, ndis/NdisEqualString
+ms.keywords: ",  , E, N, NdisEqualString, NdisEqualString macro [Network Drivers Starting with Windows Vista], S, a, d, g, i, l, n, ndis/NdisEqualString, ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml, netvista.ndisequalstring, q, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -101,19 +101,11 @@ Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-term
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -121,7 +113,15 @@ Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-term
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
 
 

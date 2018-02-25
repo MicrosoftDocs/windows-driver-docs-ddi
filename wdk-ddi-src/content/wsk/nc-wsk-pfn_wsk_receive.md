@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7fe65842-8ddb-4aca-931f-03b35dd2b039
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskreceive, WskReceive callback function [Network Drivers Starting with Windows Vista], WskReceive, PFN_WSK_RECEIVE, PFN_WSK_RECEIVE, wsk/WskReceive, wskref_7a0473b3-5687-44e8-b505-a346e9546807.xml
+ms.keywords: PFN_WSK_RECEIVE, WskReceive, WskReceive callback function [Network Drivers Starting with Windows Vista], netvista.wskreceive, wsk/WskReceive, wskref_7a0473b3-5687-44e8-b505-a346e9546807.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -331,15 +331,15 @@ If the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
 
 
 
@@ -356,7 +356,7 @@ If the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1b003614-e80c-459d-a315-0dfdabcec5cc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_init_win32k_callbacks, IOCTL_VIDEO_INIT_WIN32K_CALLBACKS control code [Display Devices], IOCTL_VIDEO_INIT_WIN32K_CALLBACKS, ntddvdeo/IOCTL_VIDEO_INIT_WIN32K_CALLBACKS, Video_IOCTLs_b482cd12-bd15-47b4-ba9c-fca652800d62.xml
+ms.keywords: IOCTL_VIDEO_INIT_WIN32K_CALLBACKS, IOCTL_VIDEO_INIT_WIN32K_CALLBACKS control code [Display Devices], Video_IOCTLs_b482cd12-bd15-47b4-ba9c-fca652800d62.xml, display.ioctl_video_init_win32k_callbacks, ntddvdeo/IOCTL_VIDEO_INIT_WIN32K_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

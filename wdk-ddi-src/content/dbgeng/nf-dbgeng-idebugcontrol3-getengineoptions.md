@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a64645da-e11a-4568-9865-64eb7463892c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetEngineOptions method [Windows Debugging], IDebugControl interface, GetEngineOptions method [Windows Debugging], IDebugControl3 interface, GetEngineOptions method [Windows Debugging], GetEngineOptions, IDebugControl2 interface [Windows Debugging], GetEngineOptions method, IDebugControl::GetEngineOptions, dbgeng/IDebugControl::GetEngineOptions, GetEngineOptions method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetEngineOptions method, IDebugControl3, IDebugControl, IDebugControl2, IDebugControl_75edd4f2-c81d-408d-a61a-3c2fcf5932e6.xml, IDebugControl interface [Windows Debugging], GetEngineOptions method, dbgeng/IDebugControl2::GetEngineOptions, dbgeng/IDebugControl3::GetEngineOptions, IDebugControl3::GetEngineOptions, IDebugControl2::GetEngineOptions, debugger.getengineoptions
+ms.keywords: ",  , ,, ., 3, :, C, D, E, G, GetEngineOptions method [Windows Debugging], GetEngineOptions method [Windows Debugging], IDebugControl interface, GetEngineOptions method [Windows Debugging], IDebugControl2 interface, GetEngineOptions method [Windows Debugging], IDebugControl3 interface, GetEngineOptions,IDebugControl.GetEngineOptions, GetEngineOptions,IDebugControl2.GetEngineOptions, GetEngineOptions,IDebugControl3.GetEngineOptions, I, IDebugControl, IDebugControl interface [Windows Debugging], GetEngineOptions method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetEngineOptions method, IDebugControl2::GetEngineOptions, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetEngineOptions method, IDebugControl3::GetEngineOptions, IDebugControl::GetEngineOptions, IDebugControl_75edd4f2-c81d-408d-a61a-3c2fcf5932e6.xml, O, b, dbgeng/IDebugControl2::GetEngineOptions, dbgeng/IDebugControl3::GetEngineOptions, dbgeng/IDebugControl::GetEngineOptions, debugger.getengineoptions, e, g, i, l, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,7 +104,7 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -116,7 +116,7 @@ The method was successful.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
 
 
 

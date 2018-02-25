@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b3fa3a4-a77a-4c5f-b157-1fbdc3a7be33
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i, DISPLAYID_DETAILED_TIMING_TYPE_I, _DISPLAYID_DETAILED_TIMING_TYPE_I, DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices]
+ms.keywords: ",  , ,, A, D, DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, E, G, I, L, M, N, P, S, T, Y, _, _DISPLAYID_DETAILED_TIMING_TYPE_I, d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -185,7 +185,7 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a>
 
 
 
@@ -193,7 +193,7 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
 
 
 

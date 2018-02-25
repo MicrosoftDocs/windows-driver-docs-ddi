@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1AA59350-2475-4BF7-B447-42FDDB311882
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_protocol_command, IOCTL_STORAGE_PROTOCOL_COMMAND control code [Storage Devices], IOCTL_STORAGE_PROTOCOL_COMMAND, ntddstor/IOCTL_STORAGE_PROTOCOL_COMMAND
+ms.keywords: IOCTL_STORAGE_PROTOCOL_COMMAND, IOCTL_STORAGE_PROTOCOL_COMMAND control code [Storage Devices], ntddstor/IOCTL_STORAGE_PROTOCOL_COMMAND, storage.ioctl_storage_protocol_command
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

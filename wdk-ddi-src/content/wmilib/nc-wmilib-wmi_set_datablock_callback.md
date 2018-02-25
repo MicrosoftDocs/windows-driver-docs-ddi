@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 429c84e4-16da-452a-b26d-a71546299f0b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.dpwmisetdatablock, DpWmiSetDataBlock, DpWmiSetDataBlock callback function [Kernel-Mode Driver Architecture], DpWmiSetDataBlock, WMI_SET_DATABLOCK_CALLBACK, WMI_SET_DATABLOCK_CALLBACK, wmilib/DpWmiSetDataBlock, k903_bb4a483a-1ffc-4664-930b-13cc3579086e.xml
+ms.keywords: DpWmiSetDataBlock, DpWmiSetDataBlock callback function [Kernel-Mode Driver Architecture], WMI_SET_DATABLOCK_CALLBACK, k903_bb4a483a-1ffc-4664-930b-13cc3579086e.xml, kernel.dpwmisetdatablock, wmilib/DpWmiSetDataBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1686A3CA-AD4A-4560-8665-9AFBE920CDDA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdipostadapterrestart, MiniportWdiPostAdapterRestart callback function [Network Drivers Starting with Windows Vista], MiniportWdiPostAdapterRestart, MINIPORT_WDI_POST_ADAPTER_RESTART, MINIPORT_WDI_POST_ADAPTER_RESTART, dot11wdi/MiniportWdiPostAdapterRestart
+ms.keywords: MINIPORT_WDI_POST_ADAPTER_RESTART, MiniportWdiPostAdapterRestart, MiniportWdiPostAdapterRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterRestart, netvista.miniportwdipostadapterrestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -138,11 +138,11 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 
 ## -see-also
 
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">NDIS_MINIPORT_RESTART_PARAMETERS</a>
 
 
 
@@ -150,7 +150,7 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">NDIS_MINIPORT_RESTART_PARAMETERS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6107da09-3f3d-4a89-91e4-f920061f7704
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTWaitForIdle, D3DKMTWaitForIdle, display.d3dkmtwaitforidle, OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, D3DKMTWaitForIdle function [Display Devices]
+ms.keywords: ",  , 3, D, D3DKMTWaitForIdle, D3DKMTWaitForIdle function [Display Devices], F, I, K, M, OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, T, W, a, d, d3dkmthk/D3DKMTWaitForIdle, display.d3dkmtwaitforidle, e, i, l, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

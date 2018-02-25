@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 310adb3e-1af4-430e-ba50-bd145ffda361
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.calcprivateshaderresourceviewsize_d3d10_1_, CalcPrivateShaderResourceViewSize_d3d10_1_ callback function [Display Devices], CalcPrivateShaderResourceViewSize_d3d10_1_, PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE, PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE, d3d10umddi/CalcPrivateShaderResourceViewSize_d3d10_1_, UserModeDisplayDriverDx10_Functions_dc420977-d68c-4e07-b134-fc5540a96e7b.xml
+ms.keywords: CalcPrivateShaderResourceViewSize_d3d10_1_, CalcPrivateShaderResourceViewSize_d3d10_1_ callback function [Display Devices], PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE, UserModeDisplayDriverDx10_Functions_dc420977-d68c-4e07-b134-fc5540a96e7b.xml, d3d10umddi/CalcPrivateShaderResourceViewSize_d3d10_1_, display.calcprivateshaderresourceviewsize_d3d10_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,11 +104,11 @@ SIZE_T APIENTRY CalcPrivateShaderResourceViewSize_d3d10_1_(
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddi_devicefuncs.md">D3D10_1DDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddiarg_createshaderresourceview.md">D3D10_1DDIARG_CREATESHADERRESOURCEVIEW</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddi_devicefuncs.md">D3D10_1DDI_DEVICEFUNCS</a>
 
 
 

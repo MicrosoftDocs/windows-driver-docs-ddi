@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 86e8946f-f87f-40d4-bd02-6e4befe847e0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbbusif/USBC_DEVICE_CONFIGURATION_INTERFACE_V1, buses.usbc_device_configuration_interface_v1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbbusif/PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure pointer [Buses], USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure [Buses], usbinterKR_f3f8ee06-a861-4787-a611-766308347395.xml, _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1
+ms.keywords: ",  , *, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, ,, 1, A, B, C, D, E, F, G, I, N, O, P, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure pointer [Buses], R, S, T, U, USBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure [Buses], V, _, _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, buses.usbc_device_configuration_interface_v1, usbbusif/PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbbusif/USBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbinterKR_f3f8ee06-a861-4787-a611-766308347395.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,17 +87,17 @@ The version of the interface.
 
 ### -field Context
 
-The USB generic parent driver does not use this member. It is populated by the vendor supplied filter driver and may be used to track instance information for the bus interface. It is passed as a parameter to <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> and <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
+The USB generic parent driver does not use this member. It is populated by the vendor supplied filter driver and may be used to track instance information for the bus interface. It is passed as a parameter to <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> and <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
 ### -field StartDeviceCallback

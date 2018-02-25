@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c4352eab-8bbd-429e-93ad-190372d29f2c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/PNDIS_REQUEST_TYPE, NdisRequestGeneric3, NdisRequestOpen, NdisRequestQueryInformation, NdisRequestQueryStatistics, *PNDIS_REQUEST_TYPE, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, NdisRequestSetInformation, netvista.ndis_request_type, ntddndis/NdisRequestQueryInformation, NdisRequestReset, ntddndis/NdisRequestReset, ntddndis/NdisRequestClose, NdisRequestGeneric4, _NDIS_REQUEST_TYPE, ntddndis/NdisRequestGeneric2, NdisRequestClose, NdisRequestGeneric2, ntddndis/NdisRequestGeneric3, ntddndis/NdisRequestSend, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_REQUEST_TYPE, NdisRequestGeneric1, ntddndis/NdisRequestGeneric1, ntddndis/NdisRequestOpen, ntddndis/NdisRequestSetInformation, NdisRequestMethod, ntddndis/NdisRequestGeneric4, ntddndis/NdisRequestTransferData, NdisRequestSend, PNDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE, NdisRequestTransferData, ntddndis/NdisRequestMethod, ntddndis/NdisRequestQueryStatistics
+ms.keywords: ",  , *, *PNDIS_REQUEST_TYPE, ,, D, E, I, N, NDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisRequestClose, NdisRequestGeneric1, NdisRequestGeneric2, NdisRequestGeneric3, NdisRequestGeneric4, NdisRequestMethod, NdisRequestOpen, NdisRequestQueryInformation, NdisRequestQueryStatistics, NdisRequestReset, NdisRequestSend, NdisRequestSetInformation, NdisRequestTransferData, P, PNDIS_REQUEST_TYPE, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], Q, R, S, T, U, Y, _, _NDIS_REQUEST_TYPE, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, netvista.ndis_request_type, ntddndis/NDIS_REQUEST_TYPE, ntddndis/NdisRequestClose, ntddndis/NdisRequestGeneric1, ntddndis/NdisRequestGeneric2, ntddndis/NdisRequestGeneric3, ntddndis/NdisRequestGeneric4, ntddndis/NdisRequestMethod, ntddndis/NdisRequestOpen, ntddndis/NdisRequestQueryInformation, ntddndis/NdisRequestQueryStatistics, ntddndis/NdisRequestReset, ntddndis/NdisRequestSend, ntddndis/NdisRequestSetInformation, ntddndis/NdisRequestTransferData, ntddndis/PNDIS_REQUEST_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -170,11 +170,11 @@ The NDIS_REQUEST_TYPE enumeration is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 

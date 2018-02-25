@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba29b92-5735-4050-b690-3c25e4f57cd1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisResetEvent, ndis_event_ref_2970c5ca-b236-41e4-b156-c283f4f637f9.xml, netvista.ndisresetevent, NdisResetEvent function [Network Drivers Starting with Windows Vista], ndis/NdisResetEvent
+ms.keywords: ",  , E, N, NdisResetEvent, NdisResetEvent function [Network Drivers Starting with Windows Vista], R, d, e, i, n, ndis/NdisResetEvent, ndis_event_ref_2970c5ca-b236-41e4-b156-c283f4f637f9.xml, netvista.ndisresetevent, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,11 +104,11 @@ When an event is set to the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
 
 
 

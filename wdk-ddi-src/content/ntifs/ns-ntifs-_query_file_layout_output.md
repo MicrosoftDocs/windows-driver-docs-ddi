@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 204893BE-8B89-4BE4-BEDB-BF28DBAAACE9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: QUERY_FILE_LAYOUT_SINGLE_INSTANCED, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], ntifs/QUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], ifsk.query_file_layout_output, *PQUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT, _QUERY_FILE_LAYOUT_OUTPUT, ntifs/PQUERY_FILE_LAYOUT_OUTPUT
+ms.keywords: ",  , *, *PQUERY_FILE_LAYOUT_OUTPUT, ,, A, E, F, I, L, O, P, PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], Q, QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_SINGLE_INSTANCED, R, T, U, Y, _, _QUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, ntifs/QUERY_FILE_LAYOUT_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

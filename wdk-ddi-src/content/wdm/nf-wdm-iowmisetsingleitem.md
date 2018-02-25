@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 73c6ddaa-f090-430a-86b5-61b33cb8ffc8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoWMISetSingleItem, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml, kernel.iowmisetsingleitem, wdm/IoWMISetSingleItem
+ms.keywords: ",  , I, IoWMISetSingleItem, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], M, S, W, e, g, i, k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml, kernel.iowmisetsingleitem, l, m, n, o, t, wdm/IoWMISetSingleItem"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -207,11 +207,11 @@ Drivers can also use <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetS
 
 
 
-<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
 
 
 

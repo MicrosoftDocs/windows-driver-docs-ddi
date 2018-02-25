@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: adbd1e83-37f0-4e0c-92e3-92c6c79eb24f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices], avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, KsPinGetParentFilter, stream.kspingetparentfilter
+ms.keywords: ",  , F, G, K, KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices], P, a, avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, e, i, ks/KsPinGetParentFilter, l, n, r, s, stream.kspingetparentfilter, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,15 +93,15 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> for which to return t
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
 <a href="..\ks\nf-ks-ksgetparent.md">KsGetParent</a>
 
 
 
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F3BEE6FB-51C5-4C3C-A831-3B7C06B3C14D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.vmbchannelgetpointer, VmbChannelGetPointer function [Network Drivers Starting with Windows Vista], VmbChannelGetPointer, vmbuskernelmodeclientlibapi/VmbChannelGetPointer
+ms.keywords: ",  , C, G, P, V, VmbChannelGetPointer, VmbChannelGetPointer function [Network Drivers Starting with Windows Vista], a, b, e, h, i, l, m, n, netvista.vmbchannelgetpointer, o, r, t, vmbuskernelmodeclientlibapi/VmbChannelGetPointer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

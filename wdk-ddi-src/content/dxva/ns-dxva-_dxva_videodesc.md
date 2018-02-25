@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5623ed85-e78a-48f2-ab21-e6364da86b2a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dxva/LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], dxva/DXVA_VideoDesc, dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml, LPDXVA_VideoDesc, display.dxva_videodesc, *LPDXVA_VideoDesc, DXVA_VideoDesc, _DXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices]
+ms.keywords: ",  , *, *LPDXVA_VideoDesc, ,, A, D, DXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices], L, LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], P, V, X, _, _DXVA_VideoDesc, c, d, display.dxva_videodesc, dxva/DXVA_VideoDesc, dxva/LPDXVA_VideoDesc, dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml, e, i, o, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,11 +119,11 @@ For examples showing structure member values for deinterlacing or converting dif
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_frequency.md">DXVA_Frequency</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
 
 

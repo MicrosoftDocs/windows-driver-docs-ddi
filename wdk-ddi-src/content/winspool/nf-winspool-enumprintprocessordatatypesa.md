@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 018880d0-0b0b-4130-bd8f-93814e40fe1e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EnumPrintProcessorDatatypes, print.enumprintprocessordatatypes, EnumPrintProcessorDatatypesA, winspool/EnumPrintProcessorDatatypes, EnumPrintProcessorDatatypes function [Print Devices], spoolfnc_f0686e8e-e1bc-448a-8dd1-eeccfb66dd9e.xml
+ms.keywords: ",  , A, D, E, EnumPrintProcessorDatatypes, EnumPrintProcessorDatatypes function [Print Devices], EnumPrintProcessorDatatypesA, P, a, c, e, i, m, n, o, p, print.enumprintprocessordatatypes, r, s, spoolfnc_f0686e8e-e1bc-448a-8dd1-eeccfb66dd9e.xml, t, u, winspool/EnumPrintProcessorDatatypes, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

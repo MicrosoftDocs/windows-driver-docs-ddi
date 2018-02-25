@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eefb8f2c-e460-4f9c-851d-9a97dbcd728f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnpresentcbdxgi, pfnPresentCbDXGI callback function [Display Devices], pfnPresentCbDXGI, PFNDDXGIDDI_PRESENTCB, PFNDDXGIDDI_PRESENTCB, dxgiddi/pfnPresentCbDXGI, d3d10state_functions_22004360-a0a0-4d54-ac0e-d7fadec2bf67.xml
+ms.keywords: PFNDDXGIDDI_PRESENTCB, d3d10state_functions_22004360-a0a0-4d54-ac0e-d7fadec2bf67.xml, display.pfnpresentcbdxgi, dxgiddi/pfnPresentCbDXGI, pfnPresentCbDXGI, pfnPresentCbDXGI callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,19 +153,7 @@ The Direct3D runtime restricts the set of formats that can be presented through 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a>
-
-
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_callbacks.md">DXGI_DDI_BASE_CALLBACKS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
 
 
 
@@ -173,7 +161,19 @@ The Direct3D runtime restricts the set of formats that can be presented through 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 40516E83-892C-4538-B452-DAB0F5ACBB25
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceAllocAndQueryInterfaceProperty, wdfdevice/WdfDeviceAllocAndQueryInterfaceProperty, WdfDeviceAllocAndQueryInterfaceProperty method, wdf.wdfdeviceallocandqueryinterfaceproperty
+ms.keywords: ",  , A, D, I, P, Q, W, WdfDeviceAllocAndQueryInterfaceProperty, WdfDeviceAllocAndQueryInterfaceProperty method, a, c, d, e, f, i, l, n, o, p, r, t, u, v, wdf.wdfdeviceallocandqueryinterfaceproperty, wdfdevice/WdfDeviceAllocAndQueryInterfaceProperty, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,11 +150,7 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
 
 
 
@@ -162,7 +158,11 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
 
 
 

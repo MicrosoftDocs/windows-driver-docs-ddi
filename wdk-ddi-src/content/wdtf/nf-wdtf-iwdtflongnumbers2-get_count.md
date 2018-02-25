@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 9a8c47b1-e8b9-42b4-8625-7d916178611e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFDeviceDepot2.Count, Microsoft::WDTF::IWDTFDeviceDepot2::Count, IWDTFLongNumbers2, wdtf/IWDTFDeviceDepot2::Count, IWDTFDeviceDepot2, dtf.iwdtfdevicedepot2_count, IWDTFDeviceDepot2::get_Count, get_Count, wdtf/IWDTFDeviceDepot2::get_Count, IWDTFLongNumbers2::get_Count, IWDTFActions2::get_Count, Microsoft.WDTF.IWDTFDeviceDepot2.Count, Count property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFActions2, Count property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Count property
+ms.keywords: ",  , ,, ., 2, :, C, Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, D, F, I, IWDTFActions2, IWDTFActions2::get_Count, IWDTFDeviceDepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Count property, IWDTFDeviceDepot2.Count, IWDTFDeviceDepot2::get_Count, IWDTFLongNumbers2, IWDTFLongNumbers2::get_Count, L, Microsoft.WDTF.IWDTFDeviceDepot2.Count, Microsoft::WDTF::IWDTFDeviceDepot2::Count, N, T, W, _, b, dtf.iwdtfdevicedepot2_count, e, g, get_Count,IWDTFActions2.get_Count, get_Count,IWDTFDeviceDepot2.get_Count, get_Count,IWDTFLongNumbers2.get_Count, m, n, o, r, s, t, u, wdtf/IWDTFDeviceDepot2::Count, wdtf/IWDTFDeviceDepot2::get_Count"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

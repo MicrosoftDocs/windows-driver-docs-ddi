@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 220ce3b8-2820-4753-9659-5ce7b4f4f32d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.registrycallback, RegistryCallback routine [Kernel-Mode Driver Architecture], RegistryCallback, EX_CALLBACK_FUNCTION, EX_CALLBACK_FUNCTION, wdm/RegistryCallback, DrvrRtns_988f8f3d-4ee8-4351-8fc0-703a88bd8421.xml
+ms.keywords: DrvrRtns_988f8f3d-4ee8-4351-8fc0-703a88bd8421.xml, EX_CALLBACK_FUNCTION, RegistryCallback, RegistryCallback routine [Kernel-Mode Driver Architecture], kernel.registrycallback, wdm/RegistryCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -588,11 +588,15 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+<a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
 
 
 
@@ -601,10 +605,6 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 
 <a href="..\wdm\ne-wdm-_reg_notify_class.md">REG_NOTIFY_CLASS</a>
-
-
-
-<a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
 
 
 

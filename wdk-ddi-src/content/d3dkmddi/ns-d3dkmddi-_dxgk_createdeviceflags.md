@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31dc1493-a7c9-4ca0-b718-98224d9c5675
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DmStructs_f8513fe3-ce39-4555-a667-20ff383583fc.xml, DXGK_CREATEDEVICEFLAGS, display.dxgk_createdeviceflags, _DXGK_CREATEDEVICEFLAGS, DXGK_CREATEDEVICEFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATEDEVICEFLAGS
+ms.keywords: ",  , ,, A, C, D, DXGK_CREATEDEVICEFLAGS, DXGK_CREATEDEVICEFLAGS structure [Display Devices], DmStructs_f8513fe3-ce39-4555-a667-20ff383583fc.xml, E, F, G, I, K, L, R, S, T, V, X, _, _DXGK_CREATEDEVICEFLAGS, d3dkmddi/DXGK_CREATEDEVICEFLAGS, display.dxgk_createdeviceflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,11 +110,11 @@ A member in the union that DXGK_CREATEDEVICEFLAGS contains that can hold a 32-bi
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
 
 
 

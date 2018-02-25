@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c5fd12eb-0779-400f-a271-84b7b379529f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugClient_519f5e11-6f3b-4469-8352-e6cd7c1ed384.xml, ConnectProcessServer method [Windows Debugging], IDebugClient4 interface, ConnectProcessServer method [Windows Debugging], IDebugClient3 interface, ConnectProcessServer method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient4::ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient4, dbgeng/IDebugClient2::ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient3, debugger.connectprocessserver, IDebugClient4::ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient3 interface [Windows Debugging], ConnectProcessServer method, IDebugClient2::ConnectProcessServer, IDebugClient interface [Windows Debugging], ConnectProcessServer method, IDebugClient4 interface [Windows Debugging], ConnectProcessServer method, IDebugClient3::ConnectProcessServer, IDebugClient5::ConnectProcessServer, IDebugClient2 interface [Windows Debugging], ConnectProcessServer method, IDebugClient2, IDebugClient::ConnectProcessServer, dbgeng/IDebugClient3::ConnectProcessServer, IDebugClient5 interface [Windows Debugging], ConnectProcessServer method, IDebugClient, dbgeng/IDebugClient::ConnectProcessServer, dbgeng/IDebugClient5::ConnectProcessServer, ConnectProcessServer, IDebugClient5
+ms.keywords: ",  , ,, ., 5, :, C, ConnectProcessServer method [Windows Debugging], ConnectProcessServer method [Windows Debugging], IDebugClient interface, ConnectProcessServer method [Windows Debugging], IDebugClient2 interface, ConnectProcessServer method [Windows Debugging], IDebugClient3 interface, ConnectProcessServer method [Windows Debugging], IDebugClient4 interface, ConnectProcessServer method [Windows Debugging], IDebugClient5 interface, ConnectProcessServer,IDebugClient.ConnectProcessServer, ConnectProcessServer,IDebugClient2.ConnectProcessServer, ConnectProcessServer,IDebugClient3.ConnectProcessServer, ConnectProcessServer,IDebugClient4.ConnectProcessServer, ConnectProcessServer,IDebugClient5.ConnectProcessServer, D, I, IDebugClient, IDebugClient interface [Windows Debugging], ConnectProcessServer method, IDebugClient2, IDebugClient2 interface [Windows Debugging], ConnectProcessServer method, IDebugClient2::ConnectProcessServer, IDebugClient3, IDebugClient3 interface [Windows Debugging], ConnectProcessServer method, IDebugClient3::ConnectProcessServer, IDebugClient4, IDebugClient4 interface [Windows Debugging], ConnectProcessServer method, IDebugClient4::ConnectProcessServer, IDebugClient5, IDebugClient5 interface [Windows Debugging], ConnectProcessServer method, IDebugClient5::ConnectProcessServer, IDebugClient::ConnectProcessServer, IDebugClient_519f5e11-6f3b-4469-8352-e6cd7c1ed384.xml, P, S, b, c, dbgeng/IDebugClient2::ConnectProcessServer, dbgeng/IDebugClient3::ConnectProcessServer, dbgeng/IDebugClient4::ConnectProcessServer, dbgeng/IDebugClient5::ConnectProcessServer, dbgeng/IDebugClient::ConnectProcessServer, debugger.connectprocessserver, e, g, i, l, n, o, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,47 +121,7 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
 
 
 
@@ -169,11 +129,51 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

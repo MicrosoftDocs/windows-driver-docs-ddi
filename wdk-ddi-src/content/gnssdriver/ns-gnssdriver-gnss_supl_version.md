@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D004DAEF-F25F-442D-9A6D-91FB8A18E0DB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: gnssdriver/PGNSS_SUPL_VERSION, PGNSS_SUPL_VERSION structure pointer [Sensor Devices], GNSS_SUPL_VERSION structure [Sensor Devices], PGNSS_SUPL_VERSION, gnssdriver/GNSS_SUPL_VERSION, GNSS_SUPL_VERSION, sensors.gnss_supl_version, *PGNSS_SUPL_VERSION
+ms.keywords: ",  , *, *PGNSS_SUPL_VERSION, ,, E, G, GNSS_SUPL_VERSION, GNSS_SUPL_VERSION structure [Sensor Devices], I, L, N, O, P, PGNSS_SUPL_VERSION, PGNSS_SUPL_VERSION structure pointer [Sensor Devices], R, S, U, V, _, gnssdriver/GNSS_SUPL_VERSION, gnssdriver/PGNSS_SUPL_VERSION, sensors.gnss_supl_version"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

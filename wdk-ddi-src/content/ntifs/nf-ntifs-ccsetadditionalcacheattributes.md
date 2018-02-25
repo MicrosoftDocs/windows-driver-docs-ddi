@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2f891543-0222-45c8-97cd-719ec5dd2fa8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ccref_a9722d17-3140-4bcd-abd9-46d31fa13174.xml, CcSetAdditionalCacheAttributes routine [Installable File System Drivers], ntifs/CcSetAdditionalCacheAttributes, ifsk.ccsetadditionalcacheattributes, CcSetAdditionalCacheAttributes
+ms.keywords: ",  , A, C, CcSetAdditionalCacheAttributes, CcSetAdditionalCacheAttributes routine [Installable File System Drivers], S, a, b, c, ccref_a9722d17-3140-4bcd-abd9-46d31fa13174.xml, d, e, h, i, ifsk.ccsetadditionalcacheattributes, l, n, ntifs/CcSetAdditionalCacheAttributes, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,7 +104,7 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
 
 
@@ -112,7 +112,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 

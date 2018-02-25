@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bea6d458-943e-466f-adca-466f26dc3599
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVA2_Structs_dc28e351-d197-4440-a3fd-dc3a49e35230.xml, DXVADDI_VIDEOPROCESSORCAPS, DXVADDI_VIDEOPROCESSORCAPS structure [Display Devices], _DXVADDI_VIDEOPROCESSORCAPS, d3dumddi/DXVADDI_VIDEOPROCESSORCAPS, display.dxvaddi_videoprocessorcaps
+ms.keywords: ",  , ,, A, C, D, DXVA2_Structs_dc28e351-d197-4440-a3fd-dc3a49e35230.xml, DXVADDI_VIDEOPROCESSORCAPS, DXVADDI_VIDEOPROCESSORCAPS structure [Display Devices], E, I, O, P, R, S, V, X, _, _DXVADDI_VIDEOPROCESSORCAPS, d3dumddi/DXVADDI_VIDEOPROCESSORCAPS, display.dxvaddi_videoprocessorcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -584,11 +584,15 @@ The video processing device uses sharpening detail filtering.
 
 ## -see-also
 
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
 
 
 
@@ -600,15 +604,11 @@ The video processing device uses sharpening detail filtering.
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
 
 
 

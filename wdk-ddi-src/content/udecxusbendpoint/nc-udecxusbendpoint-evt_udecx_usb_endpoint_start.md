@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 3F58B6FF-65C5-4B28-81DD-3726B6695BF7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_udecx_usb_endpoint_start, EvtUsbEndpointStart callback function [Buses], EvtUsbEndpointStart, EVT_UDECX_USB_ENDPOINT_START, EVT_UDECX_USB_ENDPOINT_START, udecxusbendpoint/EvtUsbEndpointStart
+ms.keywords: EVT_UDECX_USB_ENDPOINT_START, EvtUsbEndpointStart, EvtUsbEndpointStart callback function [Buses], buses.evt_udecx_usb_endpoint_start, udecxusbendpoint/EvtUsbEndpointStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,15 +103,15 @@ After the client driver creates an endpoint, it does not automatically start rec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

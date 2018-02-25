@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2f704899-eb5e-4632-a76d-eb474f3273f9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILRANGE, netvista.rilrange, RILRANGE structure [Network Drivers Starting with Windows Vista], RILRANGE, *LPRILRANGE
+ms.keywords: ",  , *, *LPRILRANGE, ,, A, E, G, I, L, N, P, R, RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], netvista.rilrange, ntddrilapitypes/RILRANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

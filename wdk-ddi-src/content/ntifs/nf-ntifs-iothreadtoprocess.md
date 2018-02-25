@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fcb51574-d966-4cd5-a946-c38dd2798b7f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/IoThreadToProcess, IoThreadToProcess, IoThreadToProcess routine [Installable File System Drivers], ioref_59269b9a-0a64-410d-aafa-b070b2eacfd7.xml, ifsk.iothreadtoprocess
+ms.keywords: ",  , I, IoThreadToProcess, IoThreadToProcess routine [Installable File System Drivers], P, T, a, c, d, e, h, ifsk.iothreadtoprocess, ioref_59269b9a-0a64-410d-aafa-b070b2eacfd7.xml, ntifs/IoThreadToProcess, o, r, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,11 +85,11 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9ec6835c-43b8-4878-9ddf-1ca7c24435c2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_create_disk, IOCTL_DISK_CREATE_DISK control code [Storage Devices], IOCTL_DISK_CREATE_DISK, ntdddisk/IOCTL_DISK_CREATE_DISK, k307_1520ab81-e89f-4531-a6ac-0998e1b1b658.xml
+ms.keywords: IOCTL_DISK_CREATE_DISK, IOCTL_DISK_CREATE_DISK control code [Storage Devices], k307_1520ab81-e89f-4531-a6ac-0998e1b1b658.xml, ntdddisk/IOCTL_DISK_CREATE_DISK, storage.ioctl_disk_create_disk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

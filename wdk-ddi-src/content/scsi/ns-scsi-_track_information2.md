@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2fea2f8a-eb55-409c-80d2-c3f49ab6bfdf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PTRACK_INFORMATION2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml, TRACK_INFORMATION2, *PTRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], _TRACK_INFORMATION2, scsi/TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], storage.track_information2, scsi/PTRACK_INFORMATION2
+ms.keywords: ",  , *, *PTRACK_INFORMATION2, ,, 2, A, C, F, I, K, M, N, O, P, PTRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], R, T, TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], _, _TRACK_INFORMATION2, scsi/PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, storage.track_information2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

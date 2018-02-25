@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: f21ba9f4-9571-4918-8f10-97bd308c69f3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbbusif/USB_BUS_INTERFACE_USBDI_V0, PUSB_BUS_INTERFACE_USBDI_V0 structure pointer [Buses], buses.usb_bus_interface_usbdi_v0, usbbusif/PUSB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0 structure [Buses], *PUSB_BUS_INTERFACE_USBDI_V0, _USB_BUS_INTERFACE_USBDI_V0, usbinterKR_2af580ba-2b3f-4f20-808a-5cd5d42b8ada.xml, PUSB_BUS_INTERFACE_USBDI_V0
+ms.keywords: ",  , *, *PUSB_BUS_INTERFACE_USBDI_V0, ,, 0, A, B, C, D, E, F, I, N, P, PUSB_BUS_INTERFACE_USBDI_V0, PUSB_BUS_INTERFACE_USBDI_V0 structure pointer [Buses], R, S, T, U, USB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0 structure [Buses], V, _, _USB_BUS_INTERFACE_USBDI_V0, buses.usb_bus_interface_usbdi_v0, usbbusif/PUSB_BUS_INTERFACE_USBDI_V0, usbbusif/USB_BUS_INTERFACE_USBDI_V0, usbinterKR_2af580ba-2b3f-4f20-808a-5cd5d42b8ada.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,12 +141,12 @@ Contains information that describes the USB bus and the USB bus driver that expo
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
 ### -field GetUSBDIVersion
@@ -180,11 +180,11 @@ For information about how to query for these interfaces, see <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
 
 
 

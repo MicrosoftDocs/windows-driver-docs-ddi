@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 64cbb304-51f6-4db4-93cb-a64ea5e03599
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DrvUpdateUISetting method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2, DrvUpdateUISetting, print.iprintcoreui2_drvupdateuisetting, IPrintCoreUI2 interface [Print Devices], DrvUpdateUISetting method, IPrintCoreUI2::DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], prcomoem/IPrintCoreUI2::DrvUpdateUISetting, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml
+ms.keywords: ",  , ,, ., 2, :, C, D, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices], IPrintCoreUI2 interface, DrvUpdateUISetting,IPrintCoreUI2.DrvUpdateUISetting, I, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], DrvUpdateUISetting method, IPrintCoreUI2::DrvUpdateUISetting, P, S, U, a, d, e, g, i, n, o, p, prcomoem/IPrintCoreUI2::DrvUpdateUISetting, print.iprintcoreui2_drvupdateuisetting, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -194,7 +194,7 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 
@@ -202,7 +202,7 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a>
 
 
 

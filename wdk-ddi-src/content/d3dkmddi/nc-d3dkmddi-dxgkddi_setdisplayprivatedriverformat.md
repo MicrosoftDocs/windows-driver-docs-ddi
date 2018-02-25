@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 053fdf22-20c3-4b57-94f4-0613857abfa7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisetdisplayprivatedriverformat, DxgkDdiSetDisplayPrivateDriverFormat callback function [Display Devices], DxgkDdiSetDisplayPrivateDriverFormat, DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT, DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT, d3dkmddi/DxgkDdiSetDisplayPrivateDriverFormat, DmFunctions_4171835f-0a79-4161-9bcd-c7311c9905ac.xml
+ms.keywords: DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT, DmFunctions_4171835f-0a79-4161-9bcd-c7311c9905ac.xml, DxgkDdiSetDisplayPrivateDriverFormat, DxgkDdiSetDisplayPrivateDriverFormat callback function [Display Devices], d3dkmddi/DxgkDdiSetDisplayPrivateDriverFormat, display.dxgkddisetdisplayprivatedriverformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

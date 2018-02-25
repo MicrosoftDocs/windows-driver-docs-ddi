@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a919dd8-a266-42c8-8f97-3314a5d52f4f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_PIPE_DIMENSIONS, PPIPE_DIMENSIONS, stream.pipe_dimensions, *PPIPE_DIMENSIONS, PPIPE_DIMENSIONS structure pointer [Streaming Media Devices], ksproxy/PPIPE_DIMENSIONS, ksproxy_29ffc785-a205-468d-a604-ac4022bdf488.xml, PIPE_DIMENSIONS, PIPE_DIMENSIONS structure [Streaming Media Devices], ksproxy/PIPE_DIMENSIONS"
+ms.keywords: ",  , *, *PPIPE_DIMENSIONS, ,, D, E, I, M, N, O, P, PIPE_DIMENSIONS, PIPE_DIMENSIONS structure [Streaming Media Devices], PPIPE_DIMENSIONS, PPIPE_DIMENSIONS structure pointer [Streaming Media Devices], S, _, _PIPE_DIMENSIONS, ksproxy/PIPE_DIMENSIONS, ksproxy/PPIPE_DIMENSIONS, ksproxy_29ffc785-a205-468d-a604-ac4022bdf488.xml, stream.pipe_dimensions"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

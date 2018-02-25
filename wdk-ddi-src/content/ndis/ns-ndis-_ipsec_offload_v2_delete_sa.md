@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a75088e8-c7a5-4ca4-a8fc-8e88f9e20bb9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: task_offload_IPsecv2_ref_98d355a4-b502-4601-a419-815d4de90c6f.xml, PIPSEC_OFFLOAD_V2_DELETE_SA, *PIPSEC_OFFLOAD_V2_DELETE_SA, IPSEC_OFFLOAD_V2_DELETE_SA structure [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_DELETE_SA, netvista.ipsec_offload_v2_delete_sa, ndis/IPSEC_OFFLOAD_V2_DELETE_SA, IPSEC_OFFLOAD_V2_DELETE_SA, PIPSEC_OFFLOAD_V2_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], ndis/PIPSEC_OFFLOAD_V2_DELETE_SA
+ms.keywords: ",  , *, *PIPSEC_OFFLOAD_V2_DELETE_SA, ,, 2, A, C, D, E, F, I, IPSEC_OFFLOAD_V2_DELETE_SA, IPSEC_OFFLOAD_V2_DELETE_SA structure [Network Drivers Starting with Windows Vista], L, O, P, PIPSEC_OFFLOAD_V2_DELETE_SA, PIPSEC_OFFLOAD_V2_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], S, T, V, _, _IPSEC_OFFLOAD_V2_DELETE_SA, ndis/IPSEC_OFFLOAD_V2_DELETE_SA, ndis/PIPSEC_OFFLOAD_V2_DELETE_SA, netvista.ipsec_offload_v2_delete_sa, task_offload_IPsecv2_ref_98d355a4-b502-4601-a419-815d4de90c6f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,17 +110,17 @@ The IPSEC_OFFLOAD_V2_DELETE_SA structure defines a handle for a SA that should b
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 

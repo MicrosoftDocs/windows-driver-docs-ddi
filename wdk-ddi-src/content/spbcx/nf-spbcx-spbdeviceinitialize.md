@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 2EB57066-164F-445C-8621-7B65E6715E97
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SpbDeviceInitialize, SPB.spbdeviceinitialize, spbcx/SpbDeviceInitialize, SpbDeviceInitialize method [Buses]
+ms.keywords: ",  , D, I, S, SPB.spbdeviceinitialize, SpbDeviceInitialize, SpbDeviceInitialize method [Buses], a, b, c, e, i, l, n, p, spbcx/SpbDeviceInitialize, t, v, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,7 @@ If the structure pointed to by <i>Config</i> is not filled out correctly, <a hre
 
 ## -see-also
 
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
 
 
 
@@ -114,11 +114,11 @@ If the structure pointed to by <i>Config</i> is not filled out correctly, <a hre
 
 
 
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406207">SPB_CONTROLLER_CONFIG_INIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
 
 
 

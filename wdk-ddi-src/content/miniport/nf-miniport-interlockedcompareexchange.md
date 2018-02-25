@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/InterlockedCompareExchange, k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, kernel.interlockedcompareexchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], InterlockedCompareExchange
+ms.keywords: ",  , C, E, I, InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], a, c, d, e, g, h, k, k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, kernel.interlockedcompareexchange, l, m, n, o, p, r, t, wdm/InterlockedCompareExchange, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,15 +131,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
-
-
-
-<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
-
-
-
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedcompareexchange64.md">ExInterlockedCompareExchange64</a>
 
 
 
@@ -147,7 +143,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedcompareexchange64.md">ExInterlockedCompareExchange64</a>
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D0B2E7EA-3D1F-4FD1-AB8D-EAB8406B9127
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], USBD_SelectInterfaceUrbAllocateAndBuild, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild, buses.usbd_selectinterfaceurballocateandbuild
+ms.keywords: ",  , A, B, D, I, S, U, USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], _, a, b, buses.usbd_selectinterfaceurballocateandbuild, c, d, e, f, i, l, n, o, r, t, u, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -176,11 +176,11 @@ The client driver can reuse an URB allocated by <b>USBD_SelectInterfaceUrbAlloca
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_selectconfigurballocateandbuild.md">USBD_SelectConfigUrbAllocateAndBuild</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_selectconfigurballocateandbuild.md">USBD_SelectConfigUrbAllocateAndBuild</a>
 
 
 

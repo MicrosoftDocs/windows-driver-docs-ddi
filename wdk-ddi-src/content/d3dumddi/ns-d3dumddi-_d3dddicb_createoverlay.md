@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 52f95379-7bfd-4606-9199-ea253ccd6f35
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDICB_CREATEOVERLAY structure [Display Devices], D3D_param_Structs_d6883734-5c4a-480f-bb54-12df15297daa.xml, _D3DDDICB_CREATEOVERLAY, d3dumddi/D3DDDICB_CREATEOVERLAY, display.d3dddicb_createoverlay, D3DDDICB_CREATEOVERLAY
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY structure [Display Devices], D3D_param_Structs_d6883734-5c4a-480f-bb54-12df15297daa.xml, E, I, L, O, R, T, V, Y, _, _D3DDDICB_CREATEOVERLAY, d3dumddi/D3DDDICB_CREATEOVERLAY, display.d3dddicb_createoverlay"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

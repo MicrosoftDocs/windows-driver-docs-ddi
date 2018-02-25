@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 507729e9-96da-461c-badb-a3725abf6591
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfioresourcerequirementslistremovebyioreslist, WdfIoResourceRequirementsListRemoveByIoResList method, WdfIoResourceRequirementsListRemoveByIoResList, DFResourceObjectRef_fa50f423-3ade-4deb-89a0-d79cd3f98710.xml, kmdf.wdfioresourcerequirementslistremovebyioreslist, wdfresource/WdfIoResourceRequirementsListRemoveByIoResList
+ms.keywords: ",  , B, DFResourceObjectRef_fa50f423-3ade-4deb-89a0-d79cd3f98710.xml, I, L, R, W, WdfIoResourceRequirementsListRemoveByIoResList, WdfIoResourceRequirementsListRemoveByIoResList method, c, d, e, f, i, kmdf.wdfioresourcerequirementslistremovebyioreslist, m, n, o, q, r, s, t, u, v, wdf.wdfioresourcerequirementslistremovebyioreslist, wdfresource/WdfIoResourceRequirementsListRemoveByIoResList, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -181,6 +181,18 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
+
+
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremove.md">WdfIoResourceRequirementsListRemove</a>
+
+
+
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetioreslist.md">WdfIoResourceRequirementsListGetIoResList</a>
 
 
@@ -189,19 +201,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
-
-
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetcount.md">WdfIoResourceListGetCount</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
-
-
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremove.md">WdfIoResourceRequirementsListRemove</a>
 
 
 

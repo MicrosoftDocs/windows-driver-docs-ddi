@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 287B674F-9692-47FA-AB92-F101270F7FC4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_urs_set_role, EvtUrsSetRole callback function [Buses], EvtUrsSetRole, EVT_URS_SET_ROLE, EVT_URS_SET_ROLE, ursdevice/EvtUrsSetRole, PFN_URS_SET_ROLE callback function pointer [Buses], PFN_URS_SET_ROLE
+ms.keywords: EVT_URS_SET_ROLE, EvtUrsSetRole, EvtUrsSetRole callback function [Buses], PFN_URS_SET_ROLE, PFN_URS_SET_ROLE callback function pointer [Buses], buses.evt_urs_set_role, ursdevice/EvtUrsSetRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 28DD175B-9869-4CFC-9BDD-172DA7E015DE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2piotransmitwritebuffer, EvtSerCx2PioTransmitWriteBuffer callback function [Serial Ports], EvtSerCx2PioTransmitWriteBuffer, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER, 2/EvtSerCx2PioTransmitWriteBuffer
+ms.keywords: 2/EvtSerCx2PioTransmitWriteBuffer, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER, EvtSerCx2PioTransmitWriteBuffer, EvtSerCx2PioTransmitWriteBuffer callback function [Serial Ports], serports.evtsercx2piotransmitwritebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -161,7 +161,15 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER</b> function type is defined in the 
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_drain_fifo.md">EvtSerCx2PioTransmitCancelDrainFifo</a>
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_purge_fifo.md">EvtSerCx2PioTransmitPurgeFifo</a>
 
 
 
@@ -177,15 +185,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER</b> function type is defined in the 
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_purge_fifo.md">EvtSerCx2PioTransmitPurgeFifo</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_drain_fifo.md">EvtSerCx2PioTransmitCancelDrainFifo</a>
 
 
 

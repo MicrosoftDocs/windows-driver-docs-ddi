@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43aa7188-d6aa-4890-8eac-1342a984005b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstatevsconstbufcb, pfnStateVsConstBufCb callback function [Display Devices], pfnStateVsConstBufCb, PFND3D10DDI_STATE_VS_CONSTBUF_CB, PFND3D10DDI_STATE_VS_CONSTBUF_CB, d3d10umddi/pfnStateVsConstBufCb, d3d10state_functions_e0f1c7e6-7f55-462a-b723-011f6bf30906.xml
+ms.keywords: PFND3D10DDI_STATE_VS_CONSTBUF_CB, d3d10state_functions_e0f1c7e6-7f55-462a-b723-011f6bf30906.xml, d3d10umddi/pfnStateVsConstBufCb, display.pfnstatevsconstbufcb, pfnStateVsConstBufCb, pfnStateVsConstBufCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -119,15 +119,15 @@ The <i>Base</i> and <i>Count</i> parameters that the driver passes to the <b>pfn
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setconstantbuffers.md">VsSetConstantBuffers</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setconstantbuffers.md">VsSetConstantBuffers</a>
 
 
 

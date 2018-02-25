@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1b6eec23-82b4-4e8f-89d0-e76d6449906e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kstrallocateframe, KStrAllocateFrame routine [Streaming Media Devices], KStrAllocateFrame, PFNALLOCATOR_ALLOCATEFRAME, PFNALLOCATOR_ALLOCATEFRAME, ks/KStrAllocateFrame, ksfunc_a90af96e-53df-43f5-b847-ba1876b788fd.xml
+ms.keywords: KStrAllocateFrame, KStrAllocateFrame routine [Streaming Media Devices], PFNALLOCATOR_ALLOCATEFRAME, ks/KStrAllocateFrame, ksfunc_a90af96e-53df-43f5-b847-ba1876b788fd.xml, stream.kstrallocateframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,11 +103,11 @@ You can pass an instance of this structure as part of a <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
+
+
+
+<a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
 
 
 

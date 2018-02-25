@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], InstallStateInstalled, _DEVICE_INSTALL_STATE, InstallStateNeedsReinstall, InstallStateFailedInstall, wdm/InstallStateFinishInstall, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], *PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, wdm/PDEVICE_INSTALL_STATE, InstallStateFinishInstall, PDEVICE_INSTALL_STATE, wdm/InstallStateInstalled, wdm/DEVICE_INSTALL_STATE, kernel.device_install_state, wdm/InstallStateFailedInstall, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/InstallStateNeedsReinstall
+ms.keywords: ",  , *, *PDEVICE_INSTALL_STATE, ,, A, C, D, DEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], E, I, InstallStateFailedInstall, InstallStateFinishInstall, InstallStateInstalled, InstallStateNeedsReinstall, L, N, P, PDEVICE_INSTALL_STATE, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], S, T, V, _, _DEVICE_INSTALL_STATE, kernel.device_install_state, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/DEVICE_INSTALL_STATE, wdm/InstallStateFailedInstall, wdm/InstallStateFinishInstall, wdm/InstallStateInstalled, wdm/InstallStateNeedsReinstall, wdm/PDEVICE_INSTALL_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -102,11 +102,11 @@ The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
+
+
+<a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
 
 
 

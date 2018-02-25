@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2959c470-1da7-4396-a591-7a356379f9de
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WIAS_LWARNING macro [Imaging Devices], image.wias_lwarning, IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, WIAS_LWARNING, wiamdef/WIAS_LWARNING
+ms.keywords: ",  , A, G, I, IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, L, N, R, S, W, WIAS_LWARNING, WIAS_LWARNING macro [Imaging Devices], _, image.wias_lwarning, wiamdef/WIAS_LWARNING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -130,15 +130,15 @@ Please note that it does not write to the new log file used in Windows Vista and
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
+<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
 
 
 

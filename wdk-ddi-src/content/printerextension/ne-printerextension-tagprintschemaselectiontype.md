@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 30BB7A95-512C-418B-B496-47832DD4C0BC
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PrintSchemaSelectionType_PickOne, print.printschemaselectiontype, PrintSchemaSelectionType_PickMany, printerextension/PrintSchemaSelectionType, tagPrintSchemaSelectionType, PrintSchemaSelectionType enumeration [Print Devices], printerextension/PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType, printerextension/PrintSchemaSelectionType_PickOne
+ms.keywords: ",  , ,, P, PrintSchemaSelectionType, PrintSchemaSelectionType enumeration [Print Devices], PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType_PickOne, S, T, a, c, e, g, h, i, l, m, n, o, p, print.printschemaselectiontype, printerextension/PrintSchemaSelectionType, printerextension/PrintSchemaSelectionType_PickMany, printerextension/PrintSchemaSelectionType_PickOne, r, t, tagPrintSchemaSelectionType, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

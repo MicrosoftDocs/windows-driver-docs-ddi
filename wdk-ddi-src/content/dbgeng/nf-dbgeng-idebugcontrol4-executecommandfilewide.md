@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4c3fbd76-745a-45d0-b4fd-6da382712322
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, debugger.executecommandfilewide, ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ExecuteCommandFileWide, IDebugControl4::ExecuteCommandFileWide, IDebugControl4, ExecuteCommandFileWide method [Windows Debugging]
+ms.keywords: ",  , ,, ., 4, :, C, D, E, ExecuteCommandFileWide method [Windows Debugging], ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, ExecuteCommandFileWide,IDebugControl4.ExecuteCommandFileWide, F, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, IDebugControl4::ExecuteCommandFileWide, W, a, b, c, d, dbgeng/IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide, e, g, i, l, m, n, o, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,11 +123,11 @@ This method reads the specified file and execute the commands one line at a time
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
 
 
 

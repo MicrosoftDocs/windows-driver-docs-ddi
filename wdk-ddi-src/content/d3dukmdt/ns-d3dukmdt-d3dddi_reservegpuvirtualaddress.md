@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddi_reservegpuvirtualaddress, D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS
+ms.keywords: ",  , ,, 3, A, D, D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], E, G, I, L, P, R, S, T, U, V, _, d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

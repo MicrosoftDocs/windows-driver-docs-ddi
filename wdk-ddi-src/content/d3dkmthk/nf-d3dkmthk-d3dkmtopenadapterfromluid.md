@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1007c8ba-c503-4522-aef8-23b89bec3d62
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTOpenAdapterFromLuid, D3DKMTOpenAdapterFromLuid function [Display Devices], display.d3dkmtopenadapterfromluid, D3DKMTOpenAdapterFromLuid
+ms.keywords: ",  , 3, A, D, D3DKMTOpenAdapterFromLuid, D3DKMTOpenAdapterFromLuid function [Display Devices], F, K, L, M, O, T, a, d, d3dkmthk/D3DKMTOpenAdapterFromLuid, display.d3dkmtopenadapterfromluid, e, i, m, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9bbf2f63-4479-47ee-a014-78b13deccb4c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-Fibre_2ff7917d-a369-4cc9-ab8e-c774f63761a7.xml, storage.ms_smhba_sas_phy, _MS_SMHBA_SAS_PHY, hbapiwmi/MS_SMHBA_SAS_PHY, *PMS_SMHBA_SAS_PHY, PMS_SMHBA_SAS_PHY structure pointer [Storage Devices], MS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY structure [Storage Devices], PMS_SMHBA_SAS_PHY, hbapiwmi/PMS_SMHBA_SAS_PHY
+ms.keywords: ",  , *, *PMS_SMHBA_SAS_PHY, ,, A, B, H, M, MS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY structure [Storage Devices], P, PMS_SMHBA_SAS_PHY, PMS_SMHBA_SAS_PHY structure pointer [Storage Devices], S, Y, _, _MS_SMHBA_SAS_PHY, hbapiwmi/MS_SMHBA_SAS_PHY, hbapiwmi/PMS_SMHBA_SAS_PHY, storage.ms_smhba_sas_phy, structs-Fibre_2ff7917d-a369-4cc9-ab8e-c774f63761a7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

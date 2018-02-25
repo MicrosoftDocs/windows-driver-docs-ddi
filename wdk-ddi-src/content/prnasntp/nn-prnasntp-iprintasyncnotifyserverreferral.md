@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 46B3C57E-EE02-4821-9D5F-A2005CFC2998
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintasyncnotifyserverreferral, IPrintAsyncNotifyServerReferral interface [Print Devices], IPrintAsyncNotifyServerReferral interface [Print Devices], described, IPrintAsyncNotifyServerReferral, prnasntp/IPrintAsyncNotifyServerReferral
+ms.keywords: IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], IPrintAsyncNotifyServerReferral interface [Print Devices], described, print.iprintasyncnotifyserverreferral, prnasntp/IPrintAsyncNotifyServerReferral
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

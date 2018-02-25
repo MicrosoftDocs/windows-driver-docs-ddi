@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 299fd2fc-d7f4-4176-addd-d45d010b1056
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ntddk/PshedSynchronizeExecution, PshedSynchronizeExecution, whea.pshedsynchronizeexecution, PshedSynchronizeExecution function [WHEA Drivers and Applications], whearef_7a6363f4-466d-498a-97c4-b5f7937005dd.xml
+ms.keywords: ",  , E, P, PshedSynchronizeExecution, PshedSynchronizeExecution function [WHEA Drivers and Applications], S, c, d, e, h, i, n, ntddk/PshedSynchronizeExecution, o, r, s, t, u, whea.pshedsynchronizeexecution, whearef_7a6363f4-466d-498a-97c4-b5f7937005dd.xml, x, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

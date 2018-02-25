@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4831e13b-19e7-458c-a392-a135d43fc989
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: BdaCheckChanges function [Streaming Media Devices], stream.bdacheckchanges, BdaCheckChanges, bdaref_d60c7f03-8188-4be5-807c-e21384429341.xml, bdasup/BdaCheckChanges
+ms.keywords: ",  , B, BdaCheckChanges, BdaCheckChanges function [Streaming Media Devices], C, a, bdaref_d60c7f03-8188-4be5-807c-e21384429341.xml, bdasup/BdaCheckChanges, c, d, e, g, h, k, n, s, stream.bdacheckchanges"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,19 +100,19 @@ A BDA minidriver calls the <b>BdaCheckChanges</b> function to verify a group of 
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
-
-
 <a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563407">KSMETHOD_BDA_CHECK_CHANGES</a>
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563407">KSMETHOD_BDA_CHECK_CHANGES</a>
 
 
 

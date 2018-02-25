@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a6bdbd68-b4ec-467f-9892-e968243e8994
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], RtlIoDecodeMemIoResource, k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml, wdm/RtlIoDecodeMemIoResource, kernel.rtliodecodememioresource
+ms.keywords: ",  , D, I, M, R, RtlIoDecodeMemIoResource, RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], c, d, e, k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml, kernel.rtliodecodememioresource, l, m, o, r, s, t, u, wdm/RtlIoDecodeMemIoResource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ The <b>Type</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md"
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 

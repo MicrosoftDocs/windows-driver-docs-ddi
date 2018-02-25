@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3257a207-dd7e-4321-b037-95d62cea6f76
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntdddisk/DetectNone, ntdddisk/DetectInt13, DetectExInt13, ntdddisk/DetectExInt13, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml, DetectInt13, DetectNone, DETECTION_TYPE, _DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices], storage.detection_type, ntdddisk/DETECTION_TYPE
+ms.keywords: ",  , ,, C, D, DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices], DetectExInt13, DetectInt13, DetectNone, E, I, N, O, P, T, Y, _, _DETECTION_TYPE, ntdddisk/DETECTION_TYPE, ntdddisk/DetectExInt13, ntdddisk/DetectInt13, ntdddisk/DetectNone, storage.detection_type, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

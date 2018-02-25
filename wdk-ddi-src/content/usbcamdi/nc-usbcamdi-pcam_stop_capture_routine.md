@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c4403edb-3035-469b-bdb9-c33882a1c90c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.camstopcapture, CamStopCapture, CamStopCapture callback function [Streaming Media Devices], CamStopCapture, PCAM_STOP_CAPTURE_ROUTINE, PCAM_STOP_CAPTURE_ROUTINE, usbcamdi/CamStopCapture, usbcmdpr_56cc6085-dfff-4576-b19a-45683a7b62d8.xml
+ms.keywords: CamStopCapture, CamStopCapture callback function [Streaming Media Devices], PCAM_STOP_CAPTURE_ROUTINE, stream.camstopcapture, usbcamdi/CamStopCapture, usbcmdpr_56cc6085-dfff-4576-b19a-45683a7b62d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B8413B02-32A6-40AE-9DD2-C25AD2D2D45C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportallocatehostmemorybuffer, StorPortAllocateHostMemoryBuffer routine [Storage Devices], storport/StorPortAllocateHostMemoryBuffer, StorPortAllocateHostMemoryBuffer
+ms.keywords: ",  , A, B, H, M, P, S, StorPortAllocateHostMemoryBuffer, StorPortAllocateHostMemoryBuffer routine [Storage Devices], a, c, e, f, l, m, o, r, s, storage.storportallocatehostmemorybuffer, storport/StorPortAllocateHostMemoryBuffer, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

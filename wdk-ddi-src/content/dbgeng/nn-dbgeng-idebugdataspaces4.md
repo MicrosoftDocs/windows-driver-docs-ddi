@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e03202a5-2e4a-43f8-8183-fdd26df6ff8f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugdataspaces4, IDebugDataSpaces4 interface [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], described, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4
+ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], described, dbgeng/IDebugDataSpaces4, debugger.idebugdataspaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

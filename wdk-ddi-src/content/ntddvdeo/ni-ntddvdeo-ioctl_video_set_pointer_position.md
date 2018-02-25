@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de581a49-da6d-410b-82be-28cc1eccfde4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_set_pointer_position, IOCTL_VIDEO_SET_POINTER_POSITION control code [Display Devices], IOCTL_VIDEO_SET_POINTER_POSITION, ntddvdeo/IOCTL_VIDEO_SET_POINTER_POSITION, Video_IOCTLs_cc9ab1b6-f2be-4dab-b657-f686bc0af329.xml
+ms.keywords: IOCTL_VIDEO_SET_POINTER_POSITION, IOCTL_VIDEO_SET_POINTER_POSITION control code [Display Devices], Video_IOCTLs_cc9ab1b6-f2be-4dab-b657-f686bc0af329.xml, display.ioctl_video_set_pointer_position, ntddvdeo/IOCTL_VIDEO_SET_POINTER_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

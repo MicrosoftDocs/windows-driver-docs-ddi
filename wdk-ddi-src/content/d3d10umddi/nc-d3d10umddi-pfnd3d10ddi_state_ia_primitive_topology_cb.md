@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a394a5b-afbc-41f5-8013-ab228e6284f9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstateiaprimitivetopologycb, pfnStateIaPrimitiveTopologyCb callback function [Display Devices], pfnStateIaPrimitiveTopologyCb, PFND3D10DDI_STATE_IA_PRIMITIVE_TOPOLOGY_CB, PFND3D10DDI_STATE_IA_PRIMITIVE_TOPOLOGY_CB, d3d10umddi/pfnStateIaPrimitiveTopologyCb, d3d10state_functions_5866253f-2d14-41e3-b60d-d633b272848c.xml
+ms.keywords: PFND3D10DDI_STATE_IA_PRIMITIVE_TOPOLOGY_CB, d3d10state_functions_5866253f-2d14-41e3-b60d-d633b272848c.xml, d3d10umddi/pfnStateIaPrimitiveTopologyCb, display.pfnstateiaprimitivetopologycb, pfnStateIaPrimitiveTopologyCb, pfnStateIaPrimitiveTopologyCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

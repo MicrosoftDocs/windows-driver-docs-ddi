@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29359aa3-2429-45fc-bc19-b58df60c4e89
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntstrsafe/RtlStringCbVPrintfExA, RtlStringCbVPrintfExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbVPrintfExW, STRSAFE_FILL_BEHIND_NULL, RtlStringCbVPrintfExA, STRSAFE_FILL_ON_FAILURE, STRSAFE_NULL_ON_FAILURE, safestrings_95156244-d97b-452b-bd09-3e68d3c25392.xml, kernel.rtlstringcbvprintfex, STRSAFE_NO_TRUNCATION, STRSAFE_IGNORE_NULLS, RtlStringCbVPrintfEx, RtlStringCbVPrintfExW
+ms.keywords: ",  , C, E, P, R, RtlStringCbVPrintfEx, RtlStringCbVPrintfExA, RtlStringCbVPrintfExW, RtlStringCbVPrintfExW function [Kernel-Mode Driver Architecture], S, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, V, W, b, f, g, i, kernel.rtlstringcbvprintfex, l, n, ntstrsafe/RtlStringCbVPrintfExA, ntstrsafe/RtlStringCbVPrintfExW, r, safestrings_95156244-d97b-452b-bd09-3e68d3c25392.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -315,15 +315,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
 
 
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
 
 
 

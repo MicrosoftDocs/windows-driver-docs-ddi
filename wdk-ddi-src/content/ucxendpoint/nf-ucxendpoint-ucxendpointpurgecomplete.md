@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F640D54B-277F-4382-9478-8A7AFAD242E2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxendpoint/UcxEndpointPurgeComplete, UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete
+ms.keywords: ",  , C, E, P, U, UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete, c, d, e, g, i, l, m, n, o, p, r, t, u, ucxendpoint/UcxEndpointPurgeComplete, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

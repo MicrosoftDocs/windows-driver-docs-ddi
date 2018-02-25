@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ae679f76-2e26-43f2-a097-1e158fbc0cc7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WritePhysicalWithFlags, WritePhysicalWithFlags function [Windows Debugging], debugger.writephysicalwithflags, WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, wdbgexts/WritePhysicalWithFlags
+ms.keywords: ",  , F, P, W, WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, WritePhysicalWithFlags, WritePhysicalWithFlags function [Windows Debugging], a, c, debugger.writephysicalwithflags, e, g, h, i, l, r, s, t, wdbgexts/WritePhysicalWithFlags, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

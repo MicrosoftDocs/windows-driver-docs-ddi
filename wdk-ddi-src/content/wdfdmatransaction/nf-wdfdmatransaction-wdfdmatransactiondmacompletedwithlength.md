@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f436ac1-1e36-449c-a23f-b5729e5a20c2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaTransactionDmaCompletedWithLength method, wdf.wdfdmatransactiondmacompletedwithlength, kmdf.wdfdmatransactiondmacompletedwithlength, wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength, DFDmaObjectRef_b04fb6c6-98ce-4d3b-8bc9-10a29f6bde46.xml, WdfDmaTransactionDmaCompletedWithLength
+ms.keywords: ",  , C, D, DFDmaObjectRef_b04fb6c6-98ce-4d3b-8bc9-10a29f6bde46.xml, L, T, W, WdfDmaTransactionDmaCompletedWithLength, WdfDmaTransactionDmaCompletedWithLength method, a, c, d, e, f, g, h, i, kmdf.wdfdmatransactiondmacompletedwithlength, l, m, n, o, p, r, s, t, wdf.wdfdmatransactiondmacompletedwithlength, wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

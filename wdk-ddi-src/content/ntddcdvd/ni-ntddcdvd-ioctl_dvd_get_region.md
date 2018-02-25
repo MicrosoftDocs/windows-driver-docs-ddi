@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2c3d6962-1d72-47e7-aa7c-226e5a3aa3d4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_dvd_get_region, IOCTL_DVD_GET_REGION control code [Storage Devices], IOCTL_DVD_GET_REGION, ntddcdvd/IOCTL_DVD_GET_REGION, k307_74494f73-c80e-4ca6-adec-03d4ca6d335e.xml
+ms.keywords: IOCTL_DVD_GET_REGION, IOCTL_DVD_GET_REGION control code [Storage Devices], k307_74494f73-c80e-4ca6-adec-03d4ca6d335e.xml, ntddcdvd/IOCTL_DVD_GET_REGION, storage.ioctl_dvd_get_region
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

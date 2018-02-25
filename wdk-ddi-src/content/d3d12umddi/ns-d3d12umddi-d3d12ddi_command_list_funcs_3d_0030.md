@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ec09b652-a809-48e2-9f34-507df5fd9036
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0030, D3D12DDI_COMMAND_LIST_FUNCS_3D_0030, D3D12DDI_COMMAND_LIST_FUNCS_3D_0030 structure [Display Devices], display.d3d12ddi-command-list-funcs-3d-0030
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_COMMAND_LIST_FUNCS_3D_0030, D3D12DDI_COMMAND_LIST_FUNCS_3D_0030 structure [Display Devices], F, I, L, M, N, O, S, T, U, _, d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0030, display.d3d12ddi-command-list-funcs-3d-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

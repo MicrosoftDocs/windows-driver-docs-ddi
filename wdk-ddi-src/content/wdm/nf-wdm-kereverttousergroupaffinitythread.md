@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 13a1a106-0c5c-4c0e-964d-27e549e1c699
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.kereverttousergroupaffinitythread, wdm/KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread, k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, G, K, KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], R, T, U, a, d, e, f, h, i, k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, kernel.kereverttousergroupaffinitythread, n, o, p, r, s, t, u, v, wdm/KeRevertToUserGroupAffinityThread, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

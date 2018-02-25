@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4a3a39ac-0db9-48a9-8da6-c2b914fa1de6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audpc-routines_51deae73-e4dd-4b39-ae73-77cf31f8ec06.xml, PcNewDmaChannel, audio.pcnewdmachannel, PcNewDmaChannel function [Audio Devices], portcls/PcNewDmaChannel
+ms.keywords: ",  , C, D, N, P, PcNewDmaChannel, PcNewDmaChannel function [Audio Devices], a, audio.pcnewdmachannel, audpc-routines_51deae73-e4dd-4b39-ae73-77cf31f8ec06.xml, c, e, h, l, m, n, portcls/PcNewDmaChannel, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,7 +135,11 @@ The <i>OutDmaChannel</i> and <i>OuterUnknown </i>parameters follow the <a href="
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -143,11 +147,7 @@ The <i>OutDmaChannel</i> and <i>OuterUnknown </i>parameters follow the <a href="
 
 
 
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 

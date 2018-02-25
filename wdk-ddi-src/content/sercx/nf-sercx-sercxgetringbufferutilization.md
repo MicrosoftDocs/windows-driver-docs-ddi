@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 8D4B8682-5713-47D6-A18E-F2EE44614DFB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1/SerCxGetRingBufferUtilization, serports.sercxgetringbufferutilization, SerCxGetRingBufferUtilization method [Serial Ports], SerCxGetRingBufferUtilization
+ms.keywords: ",  , 1/SerCxGetRingBufferUtilization, B, C, G, R, S, SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization method [Serial Ports], U, a, e, f, g, i, l, n, o, r, serports.sercxgetringbufferutilization, t, u, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

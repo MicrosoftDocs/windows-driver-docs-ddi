@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46e666a6-be4c-40fb-b9e1-00ced9fb4d05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.keregisternmicallback, k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml, KeRegisterNmiCallback, wdm/KeRegisterNmiCallback, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, K, KeRegisterNmiCallback, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture], N, R, a, b, c, e, g, i, k, k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml, kernel.keregisternmicallback, l, m, r, s, t, wdm/KeRegisterNmiCallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ff96ea2b-a1f9-417c-98e6-fbf9cc9f6827
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfObjectDereferenceActual method, DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, wdfobject/WdfObjectDereferenceActual, kmdf.wdfobjectdereferenceactual, WdfObjectDereferenceActual, wdf.wdfobjectdereferenceactual
+ms.keywords: ",  , A, D, DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, O, W, WdfObjectDereferenceActual, WdfObjectDereferenceActual method, a, b, c, d, e, f, j, kmdf.wdfobjectdereferenceactual, l, n, r, t, u, wdf.wdfobjectdereferenceactual, wdfobject/WdfObjectDereferenceActual"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,11 +144,11 @@ The following code example decrements an object's reference count and assigns a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
-
-
-
 <a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c244d5a1-d3c1-4f8f-9b55-3729e5f13887
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, image.iwiaerrorhandler_reportstatus, ReportStatus, ReportStatus method [Imaging Devices], wia_lh/IWiaErrorHandler::ReportStatus, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, IWiaErrorHandler, ReportStatus method [Imaging Devices], IWiaErrorHandler interface
+ms.keywords: ",  , ,, ., :, E, H, I, IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, R, ReportStatus method [Imaging Devices], ReportStatus method [Imaging Devices], IWiaErrorHandler interface, ReportStatus,IWiaErrorHandler.ReportStatus, S, W, a, d, e, i, image.iwiaerrorhandler_reportstatus, l, n, o, p, r, s, t, u, wia_lh/IWiaErrorHandler::ReportStatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -153,11 +153,11 @@ If <i>hrStatus</i> is S_OK, the data transfer has resumed and no delay or error 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543904">IWiaErrorHandler::GetStatusDescription</a>
-
-
-
 <a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543904">IWiaErrorHandler::GetStatusDescription</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 605C58C2-9A4F-4185-BB5C-95C9F5180C05
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFInterrupt, wudfddi/IWDFInterrupt::Enable, umdf.iwdfinterrupt_enable, Enable method, IWDFInterrupt::Enable, wdf.iwdfinterrupt_enable, Enable method, IWDFInterrupt interface, Enable, IWDFInterrupt interface, Enable method
+ms.keywords: ",  , ,, ., :, D, E, Enable method, Enable method, IWDFInterrupt interface, Enable,IWDFInterrupt.Enable, F, I, IWDFInterrupt, IWDFInterrupt interface, Enable method, IWDFInterrupt::Enable, W, a, b, e, l, n, p, r, t, u, umdf.iwdfinterrupt_enable, wdf.iwdfinterrupt_enable, wudfddi/IWDFInterrupt::Enable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

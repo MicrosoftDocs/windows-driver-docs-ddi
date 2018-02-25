@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 80450bfb-ae3a-46cd-8cf2-905df5adf70d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlDecompressFragment, rtlref_40a25add-c5bc-40f5-bb79-d5dcd6c11d69.xml, ntifs/RtlDecompressFragment, ifsk.rtldecompressfragment, RtlDecompressFragment function [Installable File System Drivers]
+ms.keywords: ",  , D, F, R, RtlDecompressFragment, RtlDecompressFragment function [Installable File System Drivers], a, c, e, g, ifsk.rtldecompressfragment, l, m, n, ntifs/RtlDecompressFragment, o, p, r, rtlref_40a25add-c5bc-40f5-bb79-d5dcd6c11d69.xml, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -235,7 +235,7 @@ To decompress an entire compressed buffer, use the <a href="..\ntifs\nf-ntifs-rt
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
 
 
 
@@ -243,19 +243,19 @@ To decompress an entire compressed buffer, use the <a href="..\ntifs\nf-ntifs-rt
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
 
 
 

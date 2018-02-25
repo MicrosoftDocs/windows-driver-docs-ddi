@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b8b8e2af-487c-4d7b-8af0-b6365d4703b0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kernel.ke_processor_change_notify_context, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture]"
+ms.keywords: ",  , *, *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, ,, A, C, E, F, G, H, I, K, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture], N, O, P, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], R, S, T, X, Y, _, _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kernel.ke_processor_change_notify_context, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,11 +132,11 @@ A device driver's callback function that receives these notifications must not m
 
 
 
-<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
-
-
-
 <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
+
+
+
+<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
 

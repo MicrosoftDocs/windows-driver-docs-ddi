@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6DFCA3CB-D5DE-4EF5-892B-776B932E6CE6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl5::GetStackTraceEx, GetStackTraceEx method [Windows Debugging], GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex, IDebugControl5 interface [Windows Debugging], GetStackTraceEx method, GetStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5, dbgeng/IDebugControl5::GetStackTraceEx
+ms.keywords: ",  , ,, ., 5, :, C, D, E, G, GetStackTraceEx method [Windows Debugging], GetStackTraceEx method [Windows Debugging], IDebugControl5 interface, GetStackTraceEx,IDebugControl5.GetStackTraceEx, I, IDebugControl5, IDebugControl5 interface [Windows Debugging], GetStackTraceEx method, IDebugControl5::GetStackTraceEx, S, T, a, b, c, dbgeng/IDebugControl5::GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex, e, g, k, l, n, o, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -161,7 +161,7 @@ No stack frames were returned.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
 
 
 
@@ -169,11 +169,15 @@ No stack frames were returned.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818567">OutputStackTraceEx</a>
+
+
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_stacktrace_routine.md">StackTrace</a>
 
 
 
@@ -185,11 +189,7 @@ No stack frames were returned.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818567">OutputStackTraceEx</a>
-
-
-
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_stacktrace_routine.md">StackTrace</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 

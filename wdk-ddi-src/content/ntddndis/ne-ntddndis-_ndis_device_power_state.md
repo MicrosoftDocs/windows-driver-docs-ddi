@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d241b0ee-7b13-453d-ac6a-015b82effb95
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/NdisDeviceStateMaximum, ntddndis/NdisDeviceStateD2, NdisDeviceStateD1, NdisDeviceStateD0, NdisDeviceStateMaximum, ntddndis/PNDIS_DEVICE_POWER_STATE, PNDIS_DEVICE_POWER_STATE, netvista.ndis_device_power_state, _NDIS_DEVICE_POWER_STATE, NDIS_DEVICE_POWER_STATE enumeration [Network Drivers Starting with Windows Vista], NdisDeviceStateD3, ntddndis/NdisDeviceStateD3, NDIS_DEVICE_POWER_STATE, NdisDeviceStateD2, PNDIS_DEVICE_POWER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD0, ntddndis/NdisDeviceStateUnspecified, ntddndis/NdisDeviceStateD1, NdisDeviceStateUnspecified, ntddndis/NDIS_DEVICE_POWER_STATE
+ms.keywords: ",  , *, *PNDIS_DEVICE_POWER_STATE, ,, A, C, D, E, I, N, NDIS_DEVICE_POWER_STATE, NDIS_DEVICE_POWER_STATE enumeration [Network Drivers Starting with Windows Vista], NdisDeviceStateD0, NdisDeviceStateD1, NdisDeviceStateD2, NdisDeviceStateD3, NdisDeviceStateMaximum, NdisDeviceStateUnspecified, O, P, PNDIS_DEVICE_POWER_STATE, PNDIS_DEVICE_POWER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], R, S, T, V, W, _, _NDIS_DEVICE_POWER_STATE, netvista.ndis_device_power_state, ntddndis/NDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD0, ntddndis/NdisDeviceStateD1, ntddndis/NdisDeviceStateD2, ntddndis/NdisDeviceStateD3, ntddndis/NdisDeviceStateMaximum, ntddndis/NdisDeviceStateUnspecified, ntddndis/PNDIS_DEVICE_POWER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -136,19 +136,7 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
 
 
 
@@ -156,11 +144,23 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters.md">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
+
+
+
 <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters.md">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>
+<a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
 
 
 

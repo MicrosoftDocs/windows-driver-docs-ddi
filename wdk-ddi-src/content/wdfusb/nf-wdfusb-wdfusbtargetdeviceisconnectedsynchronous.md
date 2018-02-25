@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1e598f83-01ad-4c3e-8044-a66041f6ad96
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfusbtargetdeviceisconnectedsynchronous, kmdf.wdfusbtargetdeviceisconnectedsynchronous, WdfUsbTargetDeviceIsConnectedSynchronous, wdfusb/WdfUsbTargetDeviceIsConnectedSynchronous, DFUsbRef_52c60eb0-7e47-4064-9bb5-f2c7ba2e182a.xml, WdfUsbTargetDeviceIsConnectedSynchronous method
+ms.keywords: ",  , C, D, DFUsbRef_52c60eb0-7e47-4064-9bb5-f2c7ba2e182a.xml, I, S, T, U, W, WdfUsbTargetDeviceIsConnectedSynchronous, WdfUsbTargetDeviceIsConnectedSynchronous method, a, b, c, d, e, f, g, h, i, kmdf.wdfusbtargetdeviceisconnectedsynchronous, n, o, r, s, t, u, v, wdf.wdfusbtargetdeviceisconnectedsynchronous, wdfusb/WdfUsbTargetDeviceIsConnectedSynchronous, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

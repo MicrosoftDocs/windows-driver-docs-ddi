@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 412c35b2-eb08-43a3-b776-053645806f5d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: scsiscan/SCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], SCSISCAN_CMD structure [Imaging Devices], scsiscan/PSCSISCAN_CMD, image.scsiscan_cmd, _SCSISCAN_CMD, *PSCSISCAN_CMD, PSCSISCAN_CMD, stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml, SCSISCAN_CMD
+ms.keywords: ",  , *, *PSCSISCAN_CMD, ,, A, C, D, I, M, N, P, PSCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], S, SCSISCAN_CMD, SCSISCAN_CMD structure [Imaging Devices], _, _SCSISCAN_CMD, image.scsiscan_cmd, scsiscan/PSCSISCAN_CMD, scsiscan/SCSISCAN_CMD, stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

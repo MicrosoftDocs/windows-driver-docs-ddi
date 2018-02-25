@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E1DC536B-581E-43F8-99B2-776DC30EEBB7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKARG_RENDERGDI structure [Display Devices], display.dxgkarg_rendergdi, _DXGKARG_RENDERGDI, *INOUT_PDXGKARG_RENDERGDI, d3dkmddi/DXGKARG_RENDERGDI, DXGKARG_RENDERGDI
+ms.keywords: ",  , *, *INOUT_PDXGKARG_RENDERGDI, ,, A, D, DXGKARG_RENDERGDI, DXGKARG_RENDERGDI structure [Display Devices], E, G, I, K, N, O, P, R, T, U, X, _, _DXGKARG_RENDERGDI, d3dkmddi/DXGKARG_RENDERGDI, display.dxgkarg_rendergdi"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

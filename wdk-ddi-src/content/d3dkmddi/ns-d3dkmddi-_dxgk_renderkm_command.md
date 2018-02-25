@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 998bf0ca-c08d-41d9-ba3e-74a620ed51ae
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_RENDERKM_COMMAND, DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, DXGK_RENDERKM_COMMAND structure [Display Devices], _DXGK_RENDERKM_COMMAND, d3dkmddi/DXGK_RENDERKM_COMMAND, display.dxgk_renderkm_command
+ms.keywords: ",  , ,, A, C, D, DXGK_RENDERKM_COMMAND, DXGK_RENDERKM_COMMAND structure [Display Devices], DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, E, G, K, M, N, O, R, X, _, _DXGK_RENDERKM_COMMAND, d3dkmddi/DXGK_RENDERKM_COMMAND, display.dxgk_renderkm_command"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -158,15 +158,7 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
 
 
 
@@ -174,11 +166,15 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_cleartypeblend.md">DXGK_GDIARG_CLEARTYPEBLEND</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
 
 
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a>
 
 
 
@@ -186,7 +182,11 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_cleartypeblend.md">DXGK_GDIARG_CLEARTYPEBLEND</a>
 
 
 

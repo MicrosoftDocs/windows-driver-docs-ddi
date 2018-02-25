@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation, _DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices]
+ms.keywords: ",  , ,, A, B, C, D, DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], E, G, I, K, L, M, N, O, P, R, T, X, _, _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,11 +129,11 @@ Specifies the driver protection parameters.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapcontextallocation.md">DxgkCbMapContextAllocation</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapcontextallocation.md">DxgkCbMapContextAllocation</a>
 
 
 

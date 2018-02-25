@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b10ddd9-a48d-4f96-b35e-db017d1f9583
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createmiracastcontext, CreateMiracastContext callback function [Display Devices], CreateMiracastContext, PFN_CREATE_MIRACAST_CONTEXT, PFN_CREATE_MIRACAST_CONTEXT, netdispumdddi/CreateMiracastContext
+ms.keywords: CreateMiracastContext, CreateMiracastContext callback function [Display Devices], PFN_CREATE_MIRACAST_CONTEXT, display.createmiracastcontext, netdispumdddi/CreateMiracastContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -114,11 +114,7 @@ The operating system guarantees that only one of the <i>CreateMiracastContext</i
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
-
-
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+<a href="..\netdispumdddi\ns-netdispumdddi-_miracast_callbacks.md">MIRACAST_CALLBACKS</a>
 
 
 
@@ -126,7 +122,11 @@ The operating system guarantees that only one of the <i>CreateMiracastContext</i
 
 
 
-<a href="..\netdispumdddi\ns-netdispumdddi-_miracast_callbacks.md">MIRACAST_CALLBACKS</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
 
 

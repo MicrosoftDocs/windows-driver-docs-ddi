@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 82fcf0da-e945-4cb4-90fc-bb095119ef20
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlgetfilesize, fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml, FsRtlGetFileSize, FsRtlGetFileSize routine [Installable File System Drivers], ntifs/FsRtlGetFileSize
+ms.keywords: ",  , F, FsRtlGetFileSize, FsRtlGetFileSize routine [Installable File System Drivers], G, R, S, e, fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml, i, ifsk.fsrtlgetfilesize, l, ntifs/FsRtlGetFileSize, s, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,11 +130,11 @@ The <b>FsRtlGetFileSize</b> routine is used to retrieve the file size for a file
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
 
 
 

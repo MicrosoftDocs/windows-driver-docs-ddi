@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FAA97E98-FB31-462E-9776-5C27A10FD773
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ikspinpipe_kssetpipe, ksproxy/IKsPinPipe::KsSetPipe, IKsPinPipe::KsSetPipe, KsSetPipe method [Streaming Media Devices], IKsPinPipe, KsSetPipe, KsSetPipe method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe interface [Streaming Media Devices], KsSetPipe method
+ms.keywords: ",  , ,, ., :, I, IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPipe method, IKsPinPipe::KsSetPipe, K, KsSetPipe method [Streaming Media Devices], KsSetPipe method [Streaming Media Devices], IKsPinPipe interface, KsSetPipe,IKsPinPipe.KsSetPipe, P, S, e, i, ksproxy/IKsPinPipe::KsSetPipe, n, p, s, stream.ikspinpipe_kssetpipe, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

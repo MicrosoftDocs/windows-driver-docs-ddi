@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e7170e8-2b77-45a7-9ff5-834452c13ddf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.cssetshaderwithifaces, CsSetShaderWithIfaces callback function [Display Devices], CsSetShaderWithIfaces, PFND3D11DDI_SETSHADER_WITH_IFACES, PFND3D11DDI_SETSHADER_WITH_IFACES, d3d10umddi/CsSetShaderWithIfaces, UserModeDisplayDriverDx11_Functions_bffc7a50-c0dd-420e-b599-5fb1e223ef3c.xml
+ms.keywords: CsSetShaderWithIfaces, CsSetShaderWithIfaces callback function [Display Devices], PFND3D11DDI_SETSHADER_WITH_IFACES, UserModeDisplayDriverDx11_Functions_bffc7a50-c0dd-420e-b599-5fb1e223ef3c.xml, d3d10umddi/CsSetShaderWithIfaces, display.cssetshaderwithifaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -150,7 +150,7 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
@@ -158,11 +158,11 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
 
 
 

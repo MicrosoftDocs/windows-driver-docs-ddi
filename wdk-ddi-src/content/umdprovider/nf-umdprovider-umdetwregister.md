@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDEtwRegister, display.umdetwregister, UMDEtwRegister function [Display Devices], umdprovider/UMDEtwRegister
+ms.keywords: ",  , D, E, M, R, U, UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, e, g, i, r, s, t, umdprovider/UMDEtwRegister, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -179,11 +179,11 @@ The <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">Ev
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwunregister.md">UMDEtwUnregister</a>
-
-
-
 <a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
+
+
+
+<a href="..\umdprovider\nf-umdprovider-umdetwunregister.md">UMDEtwUnregister</a>
 
 
 

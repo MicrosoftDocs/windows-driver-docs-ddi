@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d024da2c-9629-4907-98b8-a29dc6022ac0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], kernel.exinterlockedremoveheadlist, ExInterlockedRemoveHeadList, wdm/ExInterlockedRemoveHeadList
+ms.keywords: ",  , E, ExInterlockedRemoveHeadList, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], H, I, L, R, a, c, d, e, i, k, k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, kernel.exinterlockedremoveheadlist, l, m, n, o, r, s, t, v, wdm/ExInterlockedRemoveHeadList, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,7 +111,7 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 
@@ -119,7 +119,7 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 

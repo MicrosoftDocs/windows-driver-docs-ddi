@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6B085DBB-2AAA-4170-A2B1-EA4D2C207A24
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PUFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR structure pointer [Storage Devices], PUFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR, ufs/UFS_DEVICE_HEALTH_DESCRIPTOR, ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR structure [Storage Devices], storage.ufs_device_health_descriptor"
+ms.keywords: ",  , *, *PUFS_DEVICE_HEALTH_DESCRIPTOR, ,, A, C, D, E, F, H, I, L, O, P, PUFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR structure pointer [Storage Devices], R, S, T, U, UFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR structure [Storage Devices], V, _, storage.ufs_device_health_descriptor, ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR, ufs/UFS_DEVICE_HEALTH_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

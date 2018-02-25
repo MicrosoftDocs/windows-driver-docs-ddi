@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 42ddf77a-14c8-4d6a-98a2-b0c67836990d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, debugger.createsymbolgroup2, dbgeng/IDebugSymbols3::CreateSymbolGroup2, IDebugSymbols3::CreateSymbolGroup2, CreateSymbolGroup2, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method, CreateSymbolGroup2 method [Windows Debugging]
+ms.keywords: ",  , ,, ., 2, 3, :, C, CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, CreateSymbolGroup2,IDebugSymbols3.CreateSymbolGroup2, D, G, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method, IDebugSymbols3::CreateSymbolGroup2, S, a, b, dbgeng/IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2, e, g, l, m, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,15 +115,15 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
 
 
 

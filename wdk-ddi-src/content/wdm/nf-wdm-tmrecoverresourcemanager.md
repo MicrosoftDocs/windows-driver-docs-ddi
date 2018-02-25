@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d327ea40-ce4d-4218-a367-919240a5a60c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/TmRecoverResourceManager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, kernel.tmrecoverresourcemanager, TmRecoverResourceManager
+ms.keywords: ",  , M, R, T, TmRecoverResourceManager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], a, c, e, g, kernel.tmrecoverresourcemanager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, m, n, o, r, s, u, v, wdm/TmRecoverResourceManager"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,15 +118,15 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
 
 
 

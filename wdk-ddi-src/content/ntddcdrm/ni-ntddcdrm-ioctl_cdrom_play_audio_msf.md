@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cb88fa6b-e96a-41a9-abcc-9ab28b62954f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_play_audio_msf, IOCTL_CDROM_PLAY_AUDIO_MSF control code [Storage Devices], IOCTL_CDROM_PLAY_AUDIO_MSF, ntddcdrm/IOCTL_CDROM_PLAY_AUDIO_MSF, k307_dce77286-4efa-4b8b-bb78-2c771bd75727.xml
+ms.keywords: IOCTL_CDROM_PLAY_AUDIO_MSF, IOCTL_CDROM_PLAY_AUDIO_MSF control code [Storage Devices], k307_dce77286-4efa-4b8b-bb78-2c771bd75727.xml, ntddcdrm/IOCTL_CDROM_PLAY_AUDIO_MSF, storage.ioctl_cdrom_play_audio_msf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

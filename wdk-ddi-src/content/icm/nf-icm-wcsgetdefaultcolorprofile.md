@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a5ace7f3-dc61-4799-b129-3c25c392ebf6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WcsGetDefaultColorProfile function [Print Devices], WcsGetDefaultColorProfile, print.wcsgetdefaultcolorprofile, icm/WcsGetDefaultColorProfile, colorfnc_c7de4cff-ebfb-4392-a2a2-1229a6b08aa1.xml
+ms.keywords: ",  , C, D, G, P, W, WcsGetDefaultColorProfile, WcsGetDefaultColorProfile function [Print Devices], a, c, colorfnc_c7de4cff-ebfb-4392-a2a2-1229a6b08aa1.xml, e, f, i, icm/WcsGetDefaultColorProfile, l, o, print.wcsgetdefaultcolorprofile, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,7 +128,7 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
+<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
 
 
 
@@ -136,11 +136,11 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 
 
-<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
-
-
-
 <a href="..\icm\nf-icm-wcsgetdefaultcolorprofilesize.md">WcsGetDefaultColorProfileSize</a>
+
+
+
+<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
 
 

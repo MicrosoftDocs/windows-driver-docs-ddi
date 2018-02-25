@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A7917082-4C3F-445A-AD26-32DE670754E5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PcGetPhysicalDeviceObject function [Audio Devices], audio.pcgetphysicaldeviceobject, portcls/PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject
+ms.keywords: ",  , D, G, O, P, PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject function [Audio Devices], a, audio.pcgetphysicaldeviceobject, b, c, e, h, i, j, l, portcls/PcGetPhysicalDeviceObject, s, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

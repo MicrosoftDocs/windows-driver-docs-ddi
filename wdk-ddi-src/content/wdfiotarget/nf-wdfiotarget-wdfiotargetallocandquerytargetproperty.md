@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b66ba25-7723-4805-aa7c-7091a18d749b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoTargetAllocAndQueryTargetProperty, WdfIoTargetAllocAndQueryTargetProperty method, kmdf.wdfiotargetallocandquerytargetproperty, DFIOTargetRef_f92747ac-d6f3-444f-a76b-91503a0db3a3.xml, wdfiotarget/WdfIoTargetAllocAndQueryTargetProperty, wdf.wdfiotargetallocandquerytargetproperty
+ms.keywords: ",  , A, DFIOTargetRef_f92747ac-d6f3-444f-a76b-91503a0db3a3.xml, I, P, Q, T, W, WdfIoTargetAllocAndQueryTargetProperty, WdfIoTargetAllocAndQueryTargetProperty method, a, c, d, e, f, g, kmdf.wdfiotargetallocandquerytargetproperty, l, n, o, p, r, t, u, wdf.wdfiotargetallocandquerytargetproperty, wdfiotarget/WdfIoTargetAllocAndQueryTargetProperty, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -184,7 +184,7 @@ status = WdfIoTargetAllocAndQueryTargetProperty(
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -192,15 +192,11 @@ status = WdfIoTargetAllocAndQueryTargetProperty(
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetquerytargetproperty.md">WdfIoTargetQueryTargetProperty</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
 
 
@@ -212,7 +208,11 @@ status = WdfIoTargetAllocAndQueryTargetProperty(
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetquerytargetproperty.md">WdfIoTargetQueryTargetProperty</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: f65789b6-b2d1-4e5d-92b3-10730e76661a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PUSB_HUB_INFORMATION, USB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml, _USB_HUB_INFORMATION, usbioctl/PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION, usbioctl/USB_HUB_INFORMATION, USB_HUB_INFORMATION structure [Buses], PUSB_HUB_INFORMATION structure pointer [Buses], buses.usb_hub_information"
+ms.keywords: ",  , *, *PUSB_HUB_INFORMATION, ,, A, B, F, H, I, M, N, O, P, PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION structure pointer [Buses], R, S, T, U, USB_HUB_INFORMATION, USB_HUB_INFORMATION structure [Buses], _, _USB_HUB_INFORMATION, buses.usb_hub_information, usbioctl/PUSB_HUB_INFORMATION, usbioctl/USB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,11 +85,11 @@ A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the 
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a>
 
 
 

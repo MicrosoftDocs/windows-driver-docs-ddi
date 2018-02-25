@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 65fa0654-25b5-4ead-ac9e-0eb0f404259a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_8c1e2870-c803-4ca4-99f1-8f39a00983c8.xml, D3DKMTReleaseProcessVidPnSourceOwners function [Display Devices], d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners, display.d3dkmtreleaseprocessvidpnsourceowners, D3DKMTReleaseProcessVidPnSourceOwners
+ms.keywords: ",  , 3, D, D3DKMTReleaseProcessVidPnSourceOwners, D3DKMTReleaseProcessVidPnSourceOwners function [Display Devices], K, M, O, OpenGL_Functions_8c1e2870-c803-4ca4-99f1-8f39a00983c8.xml, P, R, S, T, V, a, c, d, d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners, display.d3dkmtreleaseprocessvidpnsourceowners, e, i, l, n, o, r, s, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

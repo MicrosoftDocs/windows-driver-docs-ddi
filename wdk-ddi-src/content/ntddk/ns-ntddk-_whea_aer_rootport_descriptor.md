@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 0c92e8d5-eb98-4789-a221-ebf891cd3876
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR, whea.whea_aer_rootport_descriptor, *PWHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR, _WHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml
+ms.keywords: ",  , *, *PWHEA_AER_ROOTPORT_DESCRIPTOR, ,, A, C, D, E, H, I, O, P, PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], R, S, T, W, WHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], _, _WHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR, whea.whea_aer_rootport_descriptor, whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

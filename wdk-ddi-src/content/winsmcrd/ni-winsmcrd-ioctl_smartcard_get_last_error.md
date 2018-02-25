@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: eb482764-3a78-498b-985c-1efc77000291
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: smartcrd.ioctl_smartcard_get_last_error, IOCTL_SMARTCARD_GET_LAST_ERROR control code [Smart Card Reader Devices], IOCTL_SMARTCARD_GET_LAST_ERROR, winsmcrd/IOCTL_SMARTCARD_GET_LAST_ERROR, scioctls_f53172a6-95cb-4d50-9a2b-bccc623bf85b.xml
+ms.keywords: IOCTL_SMARTCARD_GET_LAST_ERROR, IOCTL_SMARTCARD_GET_LAST_ERROR control code [Smart Card Reader Devices], scioctls_f53172a6-95cb-4d50-9a2b-bccc623bf85b.xml, smartcrd.ioctl_smartcard_get_last_error, winsmcrd/IOCTL_SMARTCARD_GET_LAST_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

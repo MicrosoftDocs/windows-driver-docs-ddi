@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 508d73f6-1660-4663-87f5-8dbd1dff153a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKSAUDIO_MIXCAP_TABLE, audio.ksaudio_mixcap_table, *PKSAUDIO_MIXCAP_TABLE, ksmedia/PKSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE, aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], ksmedia/KSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE structure [Audio Devices]
+ms.keywords: ",  , *, *PKSAUDIO_MIXCAP_TABLE, ,, A, B, C, D, E, I, K, KSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE structure [Audio Devices], L, M, O, P, PKSAUDIO_MIXCAP_TABLE, PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], S, T, U, X, _, aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, audio.ksaudio_mixcap_table, ksmedia/KSAUDIO_MIXCAP_TABLE, ksmedia/PKSAUDIO_MIXCAP_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

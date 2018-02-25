@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9f4b076f-006b-47cd-b970-8beed8d7e804
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.keremovequeuedpc, wdm/KeRemoveQueueDpc, k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], KeRemoveQueueDpc
+ms.keywords: ",  , D, K, KeRemoveQueueDpc, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], Q, R, c, e, k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, kernel.keremovequeuedpc, m, o, p, u, v, wdm/KeRemoveQueueDpc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

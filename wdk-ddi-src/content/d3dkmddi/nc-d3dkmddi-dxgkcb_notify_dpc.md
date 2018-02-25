@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3df3f7d4-3721-46f5-b9e3-19bd3d870292
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbnotifydpc, DxgkCbNotifyDpc callback function [Display Devices], DxgkCbNotifyDpc, DXGKCB_NOTIFY_DPC, DXGKCB_NOTIFY_DPC, d3dkmddi/DxgkCbNotifyDpc, DpFunctions_a1e9512a-ae77-4e3b-9876-5ce247b811e5.xml
+ms.keywords: DXGKCB_NOTIFY_DPC, DpFunctions_a1e9512a-ae77-4e3b-9876-5ce247b811e5.xml, DxgkCbNotifyDpc, DxgkCbNotifyDpc callback function [Display Devices], d3dkmddi/DxgkCbNotifyDpc, display.dxgkcbnotifydpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -128,15 +128,15 @@ D3DDDINotifyDPC(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
 
 
 

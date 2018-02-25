@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, IoGetSiloParameters, ntddk/IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers]
+ms.keywords: ",  , G, I, IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers], P, PIO_FOEXT_SILO_PARAMETERS, S, a, e, i, ifsk.iogetsiloparameters, l, m, ntddk/IoGetSiloParameters, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

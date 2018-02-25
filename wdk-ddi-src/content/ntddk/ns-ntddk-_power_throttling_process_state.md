@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f22be66a-1f1c-4999-a99e-9a8575313239
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_POWER_THROTTLING_PROCESS_STATE, ntddk/POWER_THROTTLING_PROCESS_STATE, kernel.power_throttling_process_state, POWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture], *PPOWER_THROTTLING_PROCESS_STATE"
+ms.keywords: ",  , *, *PPOWER_THROTTLING_PROCESS_STATE, ,, A, C, E, G, H, I, L, N, O, P, POWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture], R, S, T, W, _, _POWER_THROTTLING_PROCESS_STATE, kernel.power_throttling_process_state, ntddk/POWER_THROTTLING_PROCESS_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

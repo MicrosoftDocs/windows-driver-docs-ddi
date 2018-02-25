@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 73e323a4-d40e-4414-92b7-310bfb0f6457
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: MarkCancelable method, IWDFIoRequest interface, umdf.iwdfiorequest_markcancelable, wdf.iwdfiorequest_markcancelable, wudfddi/IWDFIoRequest::MarkCancelable, IWDFIoRequest interface, MarkCancelable method, IWDFIoRequest::MarkCancelable, MarkCancelable, UMDFRequestObjectRef_c1304e95-724d-4ced-abc2-801b1606f43b.xml, MarkCancelable method, IWDFIoRequest
+ms.keywords: ",  , ,, ., :, C, D, F, I, IWDFIoRequest, IWDFIoRequest interface, MarkCancelable method, IWDFIoRequest::MarkCancelable, M, MarkCancelable method, MarkCancelable method, IWDFIoRequest interface, MarkCancelable,IWDFIoRequest.MarkCancelable, R, UMDFRequestObjectRef_c1304e95-724d-4ced-abc2-801b1606f43b.xml, W, a, b, c, e, k, l, n, o, q, r, s, t, u, umdf.iwdfiorequest_markcancelable, wdf.iwdfiorequest_markcancelable, wudfddi/IWDFIoRequest::MarkCancelable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -146,7 +146,7 @@ The following code example sets up a request so that the framework can cancel it
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
 
 
@@ -154,7 +154,11 @@ The following code example sets up a request so that the framework can cancel it
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
+<a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
 
 
 
@@ -166,15 +170,11 @@ The following code example sets up a request so that the framework can cancel it
 
 
 
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
 
 

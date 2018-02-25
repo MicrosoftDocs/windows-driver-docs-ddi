@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 279df233-9164-4c80-b31f-1d4cdc1073fa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_read_toc_ex, IOCTL_CDROM_READ_TOC_EX control code [Storage Devices], IOCTL_CDROM_READ_TOC_EX, ntddcdrm/IOCTL_CDROM_READ_TOC_EX, k307_5206dcdd-936b-4d6f-b51a-4407e54814ea.xml
+ms.keywords: IOCTL_CDROM_READ_TOC_EX, IOCTL_CDROM_READ_TOC_EX control code [Storage Devices], k307_5206dcdd-936b-4d6f-b51a-4407e54814ea.xml, ntddcdrm/IOCTL_CDROM_READ_TOC_EX, storage.ioctl_cdrom_read_toc_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

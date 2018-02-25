@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: FEEF13FE-E7CF-4513-8E16-B1E46283883C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._ioctl_usb_get_device_characteristics, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control code [Buses], IOCTL_USB_GET_DEVICE_CHARACTERISTICS, usbioctl/ IOCTL_USB_GET_DEVICE_CHARACTERISTICS
+ms.keywords: IOCTL_USB_GET_DEVICE_CHARACTERISTICS, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control code [Buses], buses._ioctl_usb_get_device_characteristics, usbioctl/ IOCTL_USB_GET_DEVICE_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -116,7 +116,11 @@ The size of the <a href="..\usbioctl\ns-usbioctl-_usb_device_characteristics.md"
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -124,15 +128,11 @@ The size of the <a href="..\usbioctl\ns-usbioctl-_usb_device_characteristics.md"
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2acb40c-cb6e-45b4-b0be-911f6b37094e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PHBA_SCSIID, HBA_ScsiId structure [Storage Devices], HBA_ScsiId, storage.hba_scsiid, hbaapi/PHBA_SCSIID, hbaapi/HBA_ScsiId, HBA_SCSIID structure [Storage Devices], HBA_SCSIID, structs-Fibre_855aa506-19ff-469d-8b32-3fc7f9e84ade.xml, PHBA_SCSIID structure pointer [Storage Devices], *PHBA_SCSIID
+ms.keywords: ",  , *, *PHBA_SCSIID, ,, A, B, C, D, H, HBA_SCSIID, HBA_SCSIID structure [Storage Devices], HBA_ScsiId, HBA_ScsiId structure [Storage Devices], I, P, PHBA_SCSIID, PHBA_SCSIID structure pointer [Storage Devices], S, _, c, d, hbaapi/HBA_ScsiId, hbaapi/PHBA_SCSIID, i, s, storage.hba_scsiid, structs-Fibre_855aa506-19ff-469d-8b32-3fc7f9e84ade.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

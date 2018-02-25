@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: D2790496-1F86-4EF0-8AFE-77AC0C89EE05
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.wpprecordergettriageinfo, imp_WppRecorderGetTriageInfo function [Driver Development Tools], imp_WppRecorderGetTriageInfo, wpprecorder/imp_WppRecorderGetTriageInfo
+ms.keywords: ",  , G, I, R, T, W, _, a, c, d, devtest.wpprecordergettriageinfo, e, f, g, i, imp_WppRecorderGetTriageInfo, imp_WppRecorderGetTriageInfo function [Driver Development Tools], m, n, o, p, r, t, wpprecorder/imp_WppRecorderGetTriageInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

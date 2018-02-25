@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 01469cd7-a023-42b0-9306-fc390bf990e6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCMCIA.pcmcia_modify_memory_window, ModifyMemoryWindow callback function [Buses], ModifyMemoryWindow, PCMCIA_MODIFY_MEMORY_WINDOW, PCMCIA_MODIFY_MEMORY_WINDOW, ntddpcm/ModifyMemoryWindow, memcdref_fdb376f2-4f80-4a35-ab23-f007bdc05cad.xml
+ms.keywords: ModifyMemoryWindow, ModifyMemoryWindow callback function [Buses], PCMCIA.pcmcia_modify_memory_window, PCMCIA_MODIFY_MEMORY_WINDOW, memcdref_fdb376f2-4f80-4a35-ab23-f007bdc05cad.xml, ntddpcm/ModifyMemoryWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -156,11 +156,11 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
 
 
 

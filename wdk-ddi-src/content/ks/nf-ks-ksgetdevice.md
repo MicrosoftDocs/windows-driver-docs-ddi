@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 27fb223f-9e6b-42af-b3d8-1018dc5416c2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsGetDevice, stream.ksgetdevice, avfunc_8459c499-365e-4cd4-927c-b359792937b0.xml, KsGetDevice, KsGetDevice function [Streaming Media Devices]
+ms.keywords: ",  , D, G, K, KsGetDevice, KsGetDevice function [Streaming Media Devices], avfunc_8459c499-365e-4cd4-927c-b359792937b0.xml, c, e, i, ks/KsGetDevice, s, stream.ksgetdevice, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,11 @@ Minidrivers typically do not call this function directly. There are a number of 
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
 <a href="..\ks\nf-ks-ksfiltergetdevice.md">KsFilterGetDevice</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
@@ -111,11 +111,11 @@ Minidrivers typically do not call this function directly. There are a number of 
 
 
 
-<a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>
-
-
-
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>
 
 
 

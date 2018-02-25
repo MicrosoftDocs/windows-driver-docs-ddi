@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 483e6144-9752-4d47-9ed4-7e73bc0a59cc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI.sriov_invalidate_block, *PSRIOV_INVALIDATE_BLOCK, _SRIOV_INVALIDATE_BLOCK, pcivirt/SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses]
+ms.keywords: ",  , *, *PSRIOV_INVALIDATE_BLOCK, ,, A, B, C, D, E, I, K, L, N, O, P, PCI.sriov_invalidate_block, R, S, SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses], T, V, _, _SRIOV_INVALIDATE_BLOCK, pcivirt/SRIOV_INVALIDATE_BLOCK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 31e88a5b-d97c-482a-aab0-dd987b15d657
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisCoDeleteVc, ndis/NdisCoDeleteVc, NdisCoDeleteVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_19f96afa-aa63-44e4-817a-8b701c6d12c6.xml, netvista.ndiscodeletevc
+ms.keywords: ",  , C, D, N, NdisCoDeleteVc, NdisCoDeleteVc function [Network Drivers Starting with Windows Vista], V, c, condis_protocol_ref_19f96afa-aa63-44e4-817a-8b701c6d12c6.xml, d, e, i, l, ndis/NdisCoDeleteVc, netvista.ndiscodeletevc, o, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,23 +169,7 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
 
 
@@ -197,7 +181,23 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
 
 
 
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 14999036-c137-4056-b6f7-53a8476fd385
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtioqueuestate, EvtIoQueueState callback function, EvtIoQueueState, EVT_WDF_IO_QUEUE_STATE, EVT_WDF_IO_QUEUE_STATE, wdfio/EvtIoQueueState, DFQueueObjectRef_726524eb-d12b-451c-aa6e-3f60aa9b7940.xml, kmdf.evtioqueuestate
+ms.keywords: DFQueueObjectRef_726524eb-d12b-451c-aa6e-3f60aa9b7940.xml, EVT_WDF_IO_QUEUE_STATE, EvtIoQueueState, EvtIoQueueState callback function, kmdf.evtioqueuestate, wdf.evtioqueuestate, wdfio/EvtIoQueueState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -145,15 +145,7 @@ The <b>EVT_WDF_IO_QUEUE_STATE</b> function type is defined in the Wdfio.h header
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
-
-
-
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
-
-
-
-<a href="..\wdfio\nf-wdfio-wdfioqueuereadynotify.md">WdfIoQueueReadyNotify</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -161,7 +153,15 @@ The <b>EVT_WDF_IO_QUEUE_STATE</b> function type is defined in the Wdfio.h header
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuereadynotify.md">WdfIoQueueReadyNotify</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
 
 
 

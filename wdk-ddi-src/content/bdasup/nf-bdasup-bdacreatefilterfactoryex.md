@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 105b6a66-5800-4079-af88-f44d01134ff0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.bdacreatefilterfactoryex, bdasup/BdaCreateFilterFactoryEx, BdaCreateFilterFactoryEx function [Streaming Media Devices], bdaref_9a145859-e899-4180-ac91-63479e4e04c0.xml, BdaCreateFilterFactoryEx
+ms.keywords: ",  , B, BdaCreateFilterFactoryEx, BdaCreateFilterFactoryEx function [Streaming Media Devices], C, E, F, a, bdaref_9a145859-e899-4180-ac91-63479e4e04c0.xml, bdasup/BdaCreateFilterFactoryEx, c, d, e, i, l, o, r, stream.bdacreatefilterfactoryex, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -133,23 +133,7 @@ A BDA minidriver calls <b>BdaCreateFilterFactoryEx</b> rather than the <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-
-
-<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
@@ -157,11 +141,27 @@ A BDA minidriver calls <b>BdaCreateFilterFactoryEx</b> rather than the <a href="
 
 
 
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
+
+
+
+<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
 
 
 

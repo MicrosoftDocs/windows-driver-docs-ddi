@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 7ED9D607-2F7A-4835-9D1E-FC33EF594974
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_proprietary_charger_set_property, EvtUfxDeviceProprietaryChargerSetProperty callback function [Buses], EvtUfxDeviceProprietaryChargerSetProperty, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, ufxclient/EvtUfxDeviceProprietaryChargerSetProperty, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
+ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EvtUfxDeviceProprietaryChargerSetProperty, EvtUfxDeviceProprietaryChargerSetProperty callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_set_property, ufxclient/EvtUfxDeviceProprietaryChargerSetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -116,11 +116,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md">UfxDeviceProprietaryChargerDetectComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md">UfxDeviceProprietaryChargerDetectComplete</a>
 
 
 

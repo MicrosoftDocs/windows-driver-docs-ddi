@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C2D32ABB-5ABE-4580-9577-1144569EA8E1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl4::GetManagedStatus, GetManagedStatus method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetManagedStatus method, GetManagedStatus, debugger.idebugcontrol4_getmanagedstatus, dbgeng/IDebugControl4::GetManagedStatus, IDebugControl4, GetManagedStatus method [Windows Debugging], IDebugControl4 interface
+ms.keywords: ",  , ,, ., 4, :, C, D, G, GetManagedStatus method [Windows Debugging], GetManagedStatus method [Windows Debugging], IDebugControl4 interface, GetManagedStatus,IDebugControl4.GetManagedStatus, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetManagedStatus method, IDebugControl4::GetManagedStatus, M, S, a, b, d, dbgeng/IDebugControl4::GetManagedStatus, debugger.idebugcontrol4_getmanagedstatus, e, g, l, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

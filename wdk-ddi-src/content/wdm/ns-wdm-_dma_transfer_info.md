@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1CD5CE6F-5179-40D5-BCD9-3587914C8139
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PDMA_TRANSFER_INFO, DMA_TRANSFER_INFO, wdm/DMA_TRANSFER_INFO, DMA_TRANSFER_INFO structure [Kernel-Mode Driver Architecture], _DMA_TRANSFER_INFO, PDMA_TRANSFER_INFO, PDMA_TRANSFER_INFO structure pointer [Kernel-Mode Driver Architecture], wdm/PDMA_TRANSFER_INFO, kernel.dma_transfer_info"
+ms.keywords: ",  , *, *PDMA_TRANSFER_INFO, ,, A, D, DMA_TRANSFER_INFO, DMA_TRANSFER_INFO structure [Kernel-Mode Driver Architecture], E, F, I, M, N, O, P, PDMA_TRANSFER_INFO, PDMA_TRANSFER_INFO structure pointer [Kernel-Mode Driver Architecture], R, S, T, _, _DMA_TRANSFER_INFO, kernel.dma_transfer_info, wdm/DMA_TRANSFER_INFO, wdm/PDMA_TRANSFER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

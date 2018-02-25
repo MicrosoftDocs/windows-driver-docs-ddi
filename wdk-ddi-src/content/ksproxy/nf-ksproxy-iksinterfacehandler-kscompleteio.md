@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2ff69f59-5fbd-43fd-afe5-9717d7928d2a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices], KsCompleteIo method, KsCompleteIo, KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml, KsCompleteIo method [Streaming Media Devices], stream.iksinterfacehandler_kscompleteio, IKsInterfaceHandler::KsCompleteIo, IKsInterfaceHandler, ksproxy/IKsInterfaceHandler::KsCompleteIo
+ms.keywords: ",  , ,, ., :, C, H, I, IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], KsCompleteIo method, IKsInterfaceHandler::KsCompleteIo, K, KsCompleteIo method [Streaming Media Devices], KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface, KsCompleteIo,IKsInterfaceHandler.KsCompleteIo, a, c, d, e, f, ksproxy/IKsInterfaceHandler::KsCompleteIo, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml, l, m, n, o, p, r, s, stream.iksinterfacehandler_kscompleteio, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

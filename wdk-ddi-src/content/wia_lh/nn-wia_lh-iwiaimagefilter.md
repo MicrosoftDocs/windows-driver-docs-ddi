@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: de74898b-ac04-468d-874d-7ca281e22a86
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.iwiaimagefilter_interface, IWiaImageFilter interface [Imaging Devices], IWiaImageFilter interface [Imaging Devices], described, IWiaImageFilter, wia_lh/IWiaImageFilter, IWiaErrorHandler_3922a578-25ee-448c-a0db-c339711ad2cb.xml
+ms.keywords: IWiaErrorHandler_3922a578-25ee-448c-a0db-c339711ad2cb.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], IWiaImageFilter interface [Imaging Devices], described, image.iwiaimagefilter_interface, wia_lh/IWiaImageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

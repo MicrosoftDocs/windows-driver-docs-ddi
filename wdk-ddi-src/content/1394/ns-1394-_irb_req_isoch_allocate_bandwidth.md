@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 68118E69-5644-4FE4-A75B-CE0FC427BA06
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, 1394/IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH structure [Buses], IEEE.irb_req_isoch_allocate_bandwidth"
+ms.keywords: ",  , ,, 1394/IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, A, B, C, D, E, H, I, IEEE.irb_req_isoch_allocate_bandwidth, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH structure [Buses], L, N, O, Q, R, S, T, W, _, _IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

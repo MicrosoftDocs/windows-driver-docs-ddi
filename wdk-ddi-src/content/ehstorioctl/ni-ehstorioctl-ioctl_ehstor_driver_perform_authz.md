@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 689EE1EB-820A-4873-92C5-08F5F1873825
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_driver_perform_authz, IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control code [Storage Devices], IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
+ms.keywords: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, storage.ioctl_ehstor_driver_perform_authz
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PDO_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

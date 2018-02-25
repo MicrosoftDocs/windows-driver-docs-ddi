@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 45cf398f-f7f0-4eb1-b490-4123c6c9f6fa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltFreeCallbackData routine [Installable File System Drivers], ifsk.fltfreecallbackdata, FltApiRef_e_to_o_1ad2fa09-dd36-4178-a422-a6a1f3854182.xml, FltFreeCallbackData, fltkernel/FltFreeCallbackData
+ms.keywords: ",  , C, D, F, FltApiRef_e_to_o_1ad2fa09-dd36-4178-a422-a6a1f3854182.xml, FltFreeCallbackData, FltFreeCallbackData routine [Installable File System Drivers], a, b, c, e, fltkernel/FltFreeCallbackData, ifsk.fltfreecallbackdata, k, l, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,15 +97,15 @@ The <b>FltFreeCallbackData</b> routine frees any <a href="..\wdm\ns-wdm-_mdl.md"
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23cc9c64-99d4-4602-a1b0-234fe7fcc3da
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.unlock, Unlock callback function [Display Devices], Unlock, PFND3DDDI_UNLOCK, PFND3DDDI_UNLOCK, d3dumddi/Unlock, UserModeDisplayDriver_Functions_20b0d6f7-4bda-4d0f-9c3a-27d4011d2591.xml
+ms.keywords: PFND3DDDI_UNLOCK, Unlock, Unlock callback function [Display Devices], UserModeDisplayDriver_Functions_20b0d6f7-4bda-4d0f-9c3a-27d4011d2591.xml, d3dumddi/Unlock, display.unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -155,7 +155,11 @@ The runtime calls the user-mode display driver's <i>Unlock</i> function to unloc
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
 
 
 
@@ -163,11 +167,7 @@ The runtime calls the user-mode display driver's <i>Unlock</i> function to unloc
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

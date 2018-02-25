@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3cf87a18-8b5a-40f2-9c0e-2b29167e283d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.closeprintprocessor, winsplp/ClosePrintProcessor, spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, ClosePrintProcessor function [Print Devices], ClosePrintProcessor
+ms.keywords: ",  , C, ClosePrintProcessor, ClosePrintProcessor function [Print Devices], P, c, e, i, l, n, o, print.closeprintprocessor, r, s, spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, t, winsplp/ClosePrintProcessor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

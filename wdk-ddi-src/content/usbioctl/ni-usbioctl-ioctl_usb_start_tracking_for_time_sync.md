@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: C9EA7A04-3B53-46D4-BC1B-A2766577095F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_usb_start_tracking_for_time_sync, IOCTL_USB_START_TRACKING_FOR_TIME_SYNC control code [Buses], IOCTL_USB_START_TRACKING_FOR_TIME_SYNC, usbioctl/IOCTL_USB_START_TRACKING_FOR_TIME_SYNC
+ms.keywords: IOCTL_USB_START_TRACKING_FOR_TIME_SYNC, IOCTL_USB_START_TRACKING_FOR_TIME_SYNC control code [Buses], buses.ioctl_usb_start_tracking_for_time_sync, usbioctl/IOCTL_USB_START_TRACKING_FOR_TIME_SYNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -127,11 +127,7 @@ The driver stack disables those interrupts when it receives and completes the <a
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -139,7 +135,11 @@ The driver stack disables those interrupts when it receives and completes the <a
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

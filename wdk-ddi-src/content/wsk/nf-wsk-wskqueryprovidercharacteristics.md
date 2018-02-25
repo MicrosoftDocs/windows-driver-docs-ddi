@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b8a81d7e-abab-4343-a044-ac9dd913c7f2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WskQueryProviderCharacteristics, netvista.wskqueryprovidercharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml, wsk/WskQueryProviderCharacteristics
+ms.keywords: ",  , C, P, Q, W, WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], a, c, d, e, h, i, k, netvista.wskqueryprovidercharacteristics, o, r, s, t, u, v, wsk/WskQueryProviderCharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,11 +146,11 @@ WSK clients can use this function to determine the WSK NPI versions supported by
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_provider_characteristics.md">WSK_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
 
 

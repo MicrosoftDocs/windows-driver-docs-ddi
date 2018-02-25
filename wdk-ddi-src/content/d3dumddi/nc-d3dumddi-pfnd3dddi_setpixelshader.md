@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b7ffd96d-086e-445a-89cf-6f34a5b8a5d4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setpixelshader, SetPixelShader callback function [Display Devices], SetPixelShader, PFND3DDDI_SETPIXELSHADER, PFND3DDDI_SETPIXELSHADER, d3dumddi/SetPixelShader, UserModeDisplayDriver_Functions_dd7fa75c-0753-4786-b04a-2fdd0d0e7071.xml
+ms.keywords: PFND3DDDI_SETPIXELSHADER, SetPixelShader, SetPixelShader callback function [Display Devices], UserModeDisplayDriver_Functions_dd7fa75c-0753-4786-b04a-2fdd0d0e7071.xml, d3dumddi/SetPixelShader, display.setpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

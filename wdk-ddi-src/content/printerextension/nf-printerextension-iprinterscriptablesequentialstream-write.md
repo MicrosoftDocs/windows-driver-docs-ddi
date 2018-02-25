@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1140F881-A6E1-4342-A069-BE9EB3BD4BF8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterscriptablesequentialstream_write, Write method [Print Devices], Write method [Print Devices], IPrinterScriptableSequentialStream interface, IPrinterScriptableSequentialStream::Write, Write, IPrinterScriptableSequentialStream interface [Print Devices], Write method, IPrinterScriptableSequentialStream, printerextension/IPrinterScriptableSequentialStream::Write
+ms.keywords: ",  , ,, ., :, I, IPrinterScriptableSequentialStream, IPrinterScriptableSequentialStream interface [Print Devices], Write method, IPrinterScriptableSequentialStream::Write, P, S, W, Write method [Print Devices], Write method [Print Devices], IPrinterScriptableSequentialStream interface, Write,IPrinterScriptableSequentialStream.Write, a, b, c, e, i, l, m, n, p, print.iprinterscriptablesequentialstream_write, printerextension/IPrinterScriptableSequentialStream::Write, q, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

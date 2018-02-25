@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25c03114-8e50-40a2-869a-08b11b7490be
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltallocatedeferredioworkitem, FltAllocateDeferredIoWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_2fd5a055-2bcb-47a5-af89-5a34a92982f1.xml, FltAllocateDeferredIoWorkItem, fltkernel/FltAllocateDeferredIoWorkItem
+ms.keywords: ",  , A, D, F, FltAllocateDeferredIoWorkItem, FltAllocateDeferredIoWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_2fd5a055-2bcb-47a5-af89-5a34a92982f1.xml, I, W, a, c, d, e, f, fltkernel/FltAllocateDeferredIoWorkItem, ifsk.fltallocatedeferredioworkitem, k, l, m, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,11 +92,11 @@ To free the work item, a minifilter driver typically calls <a href="..\fltkernel
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltfreedeferredioworkitem.md">FltFreeDeferredIoWorkItem</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
 
 
 

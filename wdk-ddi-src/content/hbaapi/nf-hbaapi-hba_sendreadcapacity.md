@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 642a085f-03d4-438a-8584-c1f420161e94
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hba_sendreadcapacity, hbaapi/HBA_SendReadCapacity, HBA_SendReadCapacity routine [Storage Devices], fibreHBA_rtns_0defc2d1-5d08-4d31-981e-09dbb0d700a7.xml, HBA_SendReadCapacity
+ms.keywords: ",  , A, B, C, H, HBA_SendReadCapacity, HBA_SendReadCapacity routine [Storage Devices], R, S, _, a, c, d, e, fibreHBA_rtns_0defc2d1-5d08-4d31-981e-09dbb0d700a7.xml, hbaapi/HBA_SendReadCapacity, i, n, p, storage.hba_sendreadcapacity, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 69a2eebb-9294-4fc1-871a-587792f84f35
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VIDEO_CHILD_STATE structure [Display Devices], PVIDEO_CHILD_STATE, _VIDEO_CHILD_STATE, video/PVIDEO_CHILD_STATE, PVIDEO_CHILD_STATE structure pointer [Display Devices], video/VIDEO_CHILD_STATE, display.video_child_state, VIDEO_CHILD_STATE, Video_Structs_330b2d6d-13da-4949-9827-73e7829931b6.xml, *PVIDEO_CHILD_STATE
+ms.keywords: ",  , *, *PVIDEO_CHILD_STATE, ,, A, C, D, E, H, I, L, O, P, PVIDEO_CHILD_STATE, PVIDEO_CHILD_STATE structure pointer [Display Devices], S, T, V, VIDEO_CHILD_STATE, VIDEO_CHILD_STATE structure [Display Devices], Video_Structs_330b2d6d-13da-4949-9827-73e7829931b6.xml, _, _VIDEO_CHILD_STATE, display.video_child_state, video/PVIDEO_CHILD_STATE, video/VIDEO_CHILD_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,11 +90,11 @@ One member of the <a href="..\video\ns-video-_video_child_state_configuration.md
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-
-
-
 <a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 

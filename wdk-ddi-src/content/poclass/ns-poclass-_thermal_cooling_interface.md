@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1636CA34-7F5F-4690-B2AB-2882F0E91D74
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.thermal_cooling_interface, THERMAL_COOLING_INTERFACE, poclass/PTHERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], *PTHERMAL_DEVICE_INTERFACE, poclass/THERMAL_COOLING_INTERFACE, *PTHERMAL_COOLING_INTERFACE, _THERMAL_COOLING_INTERFACE, THERMAL_DEVICE_INTERFACE, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], PTHERMAL_COOLING_INTERFACE
+ms.keywords: ",  , *, *PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, ,, A, C, D, E, F, G, H, I, L, M, N, O, P, PTHERMAL_COOLING_INTERFACE, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], R, T, THERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], THERMAL_DEVICE_INTERFACE, V, _, _THERMAL_COOLING_INTERFACE, kernel.thermal_cooling_interface, poclass/PTHERMAL_COOLING_INTERFACE, poclass/THERMAL_COOLING_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,12 +91,12 @@ A pointer to interface-specific context information. During a callback to any of
 
 ### -field InterfaceReference
 
- A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+ A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field Flags
@@ -137,19 +137,11 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
-
-
-
-<a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 
 
@@ -157,15 +149,23 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
+<a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698265">GUID_THERMAL_COOLING_INTERFACE</a>
+
+
+
+<a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
 
 
 

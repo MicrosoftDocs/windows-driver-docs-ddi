@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 159d4767-b0e2-4d76-b23c-e078e13827dd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: biometric.winbio_bir, WINBIO_BIR, WINBIO_BIR structure [Biometric Devices], biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, winbio_types/WINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], _WINBIO_BIR, *PWINBIO_BIR, PWINBIO_BIR, winbio_types/PWINBIO_BIR
+ms.keywords: ",  , *, *PWINBIO_BIR, ,, B, I, N, O, P, PWINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], R, W, WINBIO_BIR, WINBIO_BIR structure [Biometric Devices], _, _WINBIO_BIR, biometric.winbio_bir, biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, winbio_types/PWINBIO_BIR, winbio_types/WINBIO_BIR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,11 +104,7 @@ The offset of where the <i>StandardDataBlock</i> starts should be the offset of 
 
 ## -see-also
 
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
-
-
-
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a>
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a>
 
 
 
@@ -116,7 +112,11 @@ The offset of where the <i>StandardDataBlock</i> starts should be the offset of 
 
 
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a>
+<a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a>
+
+
+
+<a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
 
 
 

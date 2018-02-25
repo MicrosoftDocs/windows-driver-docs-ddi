@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 40C11C4B-2FFE-452F-AA08-2BCD4B6A4F7F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GNSS_BREADCRUMB_LIST structure [Sensor Devices], gnssdriver/PGNSS_BREADCRUMB_LIST, *PGNSS_BREADCRUMB_LIST, PGNSS_BREADCRUMB_LIST structure pointer [Sensor Devices], sensors.gnss_breadcrumb_list, PGNSS_BREADCRUMB_LIST, gnssdriver/GNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST
+ms.keywords: ",  , *, *PGNSS_BREADCRUMB_LIST, ,, A, B, C, D, E, G, GNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST structure [Sensor Devices], I, L, M, N, P, PGNSS_BREADCRUMB_LIST, PGNSS_BREADCRUMB_LIST structure pointer [Sensor Devices], R, S, T, U, _, gnssdriver/GNSS_BREADCRUMB_LIST, gnssdriver/PGNSS_BREADCRUMB_LIST, sensors.gnss_breadcrumb_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

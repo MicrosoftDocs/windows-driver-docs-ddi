@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 0A44551A-F379-442D-99E9-87231F5FB178
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usbfn_get_attach_action_abort, UsbFnGetAttachActionAbort callback function [Buses], UsbFnGetAttachActionAbort, USBFN_GET_ATTACH_ACTION_ABORT, USBFN_GET_ATTACH_ACTION_ABORT, usbfnattach/UsbFnGetAttachActionAbort, USBFN_SET_DEVICE_STATE callback function [Buses], USBFN_SET_DEVICE_STATE
+ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE callback function [Buses], UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

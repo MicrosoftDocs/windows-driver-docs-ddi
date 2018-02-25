@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1AB058ED-F0FC-47AC-9C0B-152CFE612F03
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugadvanced4, IDebugAdvanced4 interface [Windows Debugging], IDebugAdvanced4 interface [Windows Debugging], described, IDebugAdvanced4, dbgeng/IDebugAdvanced4
+ms.keywords: IDebugAdvanced4, IDebugAdvanced4 interface [Windows Debugging], IDebugAdvanced4 interface [Windows Debugging], described, dbgeng/IDebugAdvanced4, debugger.idebugadvanced4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

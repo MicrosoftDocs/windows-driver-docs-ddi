@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 946a6ea7-5818-4959-adf2-3568c1b64b1a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.iwiaminidrv_drvgetcapabilities, drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvGetCapabilities, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, drvGetCapabilities, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvGetCapabilities method, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities, drvGetCapabilities method [Imaging Devices]
+ms.keywords: ",  , ,, ., :, C, D, G, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvGetCapabilities method, IWiaMiniDrv::drvGetCapabilities, M, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, W, a, b, d, drvGetCapabilities method [Imaging Devices], drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface, drvGetCapabilities,IWiaMiniDrv.drvGetCapabilities, e, i, image.iwiaminidrv_drvgetcapabilities, l, n, p, r, s, t, v, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -176,11 +176,11 @@ The <i>Wiadef.h</i> header lists several predefined commands and events.
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_dev_cap_drv.md">WIA_DEV_CAP_DRV</a>
+
+
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 

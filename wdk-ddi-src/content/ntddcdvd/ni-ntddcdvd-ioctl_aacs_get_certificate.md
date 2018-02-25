@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1245f9c3-702c-48d8-8ecd-c0ce40d520b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_aacs_get_certificate, IOCTL_AACS_GET_CERTIFICATE control code [Storage Devices], IOCTL_AACS_GET_CERTIFICATE, ntddcdvd/IOCTL_AACS_GET_CERTIFICATE, k307_53c85a18-def4-48b8-bc19-12347714d191.xml
+ms.keywords: IOCTL_AACS_GET_CERTIFICATE, IOCTL_AACS_GET_CERTIFICATE control code [Storage Devices], k307_53c85a18-def4-48b8-bc19-12347714d191.xml, ntddcdvd/IOCTL_AACS_GET_CERTIFICATE, storage.ioctl_aacs_get_certificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

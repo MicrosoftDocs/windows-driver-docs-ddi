@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8daa501-13cf-4fba-ab98-b1a2d0325ce1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.calcprivatevideodecoderoutputviewsize, CalcPrivateVideoDecoderOutputViewSize callback function [Display Devices], CalcPrivateVideoDecoderOutputViewSize, PFND3D11_1DDI_CALCPRIVATEVIDEODECODEROUTPUTVIEWSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEODECODEROUTPUTVIEWSIZE, d3d10umddi/CalcPrivateVideoDecoderOutputViewSize
+ms.keywords: CalcPrivateVideoDecoderOutputViewSize, CalcPrivateVideoDecoderOutputViewSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEODECODEROUTPUTVIEWSIZE, d3d10umddi/CalcPrivateVideoDecoderOutputViewSize, display.calcprivatevideodecoderoutputviewsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

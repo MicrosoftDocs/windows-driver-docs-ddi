@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fd4e712a-8bde-4c80-b288-3fa7b69a2681
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OEMFontManagement function [Print Devices], print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, print.oemfontmanagement, OEMFontManagement, printoem/OEMFontManagement
+ms.keywords: ",  , E, F, M, O, OEMFontManagement, OEMFontManagement function [Print Devices], a, e, g, m, n, o, print.oemfontmanagement, print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, printoem/OEMFontManagement, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

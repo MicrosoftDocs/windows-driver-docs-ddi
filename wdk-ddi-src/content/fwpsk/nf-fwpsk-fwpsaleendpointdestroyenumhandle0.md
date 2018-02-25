@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45ec429e-d324-40c9-bedc-acd75ccb160e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwpsaleendpointdestroyenumhandle0, FwpsAleEndpointDestroyEnumHandle0 function [Network Drivers Starting with Windows Vista], FwpsAleEndpointDestroyEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_3230abaf-8185-43b4-b46f-b1c1688ede2d.xml, fwpsk/FwpsAleEndpointDestroyEnumHandle0
+ms.keywords: ",  , 0, A, D, E, F, FwpsAleEndpointDestroyEnumHandle0, FwpsAleEndpointDestroyEnumHandle0 function [Network Drivers Starting with Windows Vista], H, a, d, e, fwpsk/FwpsAleEndpointDestroyEnumHandle0, i, l, m, n, netvista.fwpsaleendpointdestroyenumhandle0, o, p, r, s, t, u, w, wfp_ref_2_funct_3_fwps_A-B_3230abaf-8185-43b4-b46f-b1c1688ede2d.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e524d3d-d9dc-4d95-ad13-258cd51bc532
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSETCALLBARRINGSTATUSPARAMS, netvista.rilsetcallbarringstatusparams, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSETCALLBARRINGSTATUSPARAMS, *LPRILSETCALLBARRINGSTATUSPARAMS
+ms.keywords: ",  , *, *LPRILSETCALLBARRINGSTATUSPARAMS, ,, A, B, C, E, G, I, L, M, N, P, R, RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.rilsetcallbarringstatusparams, ntddrilapitypes/RILSETCALLBARRINGSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

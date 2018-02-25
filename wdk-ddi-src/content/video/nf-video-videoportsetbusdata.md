@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2a9ce391-718e-4be0-9699-7612b63d31f0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoportsetbusdata, VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, VideoPortSetBusData, VideoPortSetBusData function [Display Devices], video/VideoPortSetBusData
+ms.keywords: ",  , B, D, P, S, V, VideoPortSetBusData, VideoPortSetBusData function [Display Devices], VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, a, d, display.videoportsetbusdata, e, i, o, r, s, t, u, video/VideoPortSetBusData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,15 +131,7 @@ For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
 
 
 
@@ -147,11 +139,19 @@ For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a 
 
 
 
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
+
+
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 

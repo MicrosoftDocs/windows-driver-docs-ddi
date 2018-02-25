@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 9159A6ED-0D85-422D-936A-13D7EC907A7C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcmInitializeDevice method [Buses], ucmmanager/UcmInitializeDevice, UcmInitializeDevice, buses.ucminitializedevice
+ms.keywords: ",  , D, I, U, UcmInitializeDevice, UcmInitializeDevice method [Buses], a, buses.ucminitializedevice, c, e, i, l, m, n, t, ucmmanager/UcmInitializeDevice, v, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

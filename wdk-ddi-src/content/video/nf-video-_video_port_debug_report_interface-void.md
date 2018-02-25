@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 965bb4c7-826d-425b-b10d-2d5a29ca0f91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMapFile, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, NdisMapFile function [Network Drivers Starting with Windows Vista], ndis/NdisMapFile, netvista.ndismapfile, VOID
+ms.keywords: ",  , D, I, NdisMapFile, NdisMapFile function [Network Drivers Starting with Windows Vista], O, V, VOID, ndis/NdisMapFile, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, netvista.ndismapfile"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,11 +159,11 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
 
 
 
@@ -171,7 +171,7 @@ A miniport driver can call
 
 
 
-<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

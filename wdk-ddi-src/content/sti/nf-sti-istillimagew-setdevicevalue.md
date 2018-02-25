@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e2ea9c59-cc63-4ced-a225-e0c9667dd574
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStillImage interface [Imaging Devices], SetDeviceValue method, stifnc_74822300-cad0-43db-80b9-d3f868afcd19.xml, SetDeviceValue, SetDeviceValue method [Imaging Devices], IStillImage interface, IStillImageW, sti/IStillImage::SetDeviceValue, IStillImage::SetDeviceValue, SetDeviceValue method [Imaging Devices], image.istillimage_setdevicevalue, IStillImageW::SetDeviceValue
+ms.keywords: ",  , ,, ., :, D, I, IStillImage interface [Imaging Devices], SetDeviceValue method, IStillImage::SetDeviceValue, IStillImageW, IStillImageW::SetDeviceValue, S, SetDeviceValue method [Imaging Devices], SetDeviceValue method [Imaging Devices], IStillImage interface, SetDeviceValue,IStillImageW.SetDeviceValue, V, W, a, c, e, g, i, image.istillimage_setdevicevalue, l, m, sti/IStillImage::SetDeviceValue, stifnc_74822300-cad0-43db-80b9-d3f868afcd19.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

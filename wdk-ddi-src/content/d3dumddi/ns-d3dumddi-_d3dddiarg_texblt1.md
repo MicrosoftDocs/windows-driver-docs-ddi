@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e11fd9b5-c3ad-4f8f-890c-30ca5ce4a57f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dddiarg_texblt1, _D3DDDIARG_TEXBLT1, d3dumddi/D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1 structure [Display Devices], D3DDDIARG_TEXBLT1
+ms.keywords: ",  , ,, 1, 3, A, B, D, D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1 structure [Display Devices], E, G, I, L, R, T, X, _, _D3DDDIARG_TEXBLT1, d3dumddi/D3DDDIARG_TEXBLT1, display.d3dddiarg_texblt1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,7 +104,7 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 
@@ -112,7 +112,7 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
 
 
 

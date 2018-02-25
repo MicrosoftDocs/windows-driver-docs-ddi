@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a8326707-cffc-4a20-ad3d-c7862661f513
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createresource2, CreateResource2 callback function [Display Devices], CreateResource2, PFND3DDDI_CREATERESOURCE2, PFND3DDDI_CREATERESOURCE2, d3dumddi/CreateResource2
+ms.keywords: CreateResource2, CreateResource2 callback function [Display Devices], PFND3DDDI_CREATERESOURCE2, d3dumddi/CreateResource2, display.createresource2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -193,11 +193,19 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a>
 
 
 
@@ -209,23 +217,15 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settexture.md">SetTexture</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
 
 

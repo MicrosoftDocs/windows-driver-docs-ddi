@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4035ef73-e1a2-49e4-808d-c40c980393a4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroycryptosession, DestroyCryptoSession callback function [Display Devices], DestroyCryptoSession, PFND3DDDI_DESTROYCRYPTOSESSION, PFND3DDDI_DESTROYCRYPTOSESSION, d3dumddi/DestroyCryptoSession, UserModeDisplayDriver_Functions_c1fa988d-a8b7-4538-94cd-d364873f4216.xml
+ms.keywords: DestroyCryptoSession, DestroyCryptoSession callback function [Display Devices], PFND3DDDI_DESTROYCRYPTOSESSION, UserModeDisplayDriver_Functions_c1fa988d-a8b7-4538-94cd-d364873f4216.xml, d3dumddi/DestroyCryptoSession, display.destroycryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -132,11 +132,11 @@ The encryption session is successfully destroyed.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroycryptosession.md">D3DDDIARG_DESTROYCRYPTOSESSION</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroycryptosession.md">D3DDDIARG_DESTROYCRYPTOSESSION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: B64849A6-DDB1-4BD1-B4B6-1E38DE9237E5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucmtypes/UcmTypeCOperatingModeInvalid, ucmtypes/UCM_TYPEC_OPERATING_MODE, UcmTypeCOperatingModeUfp, ucmtypes/UcmTypeCOperatingModeDrp, ucmtypes/UcmTypeCOperatingModeUfp, UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeDfp, _UCM_TYPEC_OPERATING_MODE, UcmTypeCOperatingModeInvalid, buses.ucm_type_c_operating_mode, UCM_TYPEC_OPERATING_MODE, UCM_TYPEC_OPERATING_MODE enumeration [Buses], ucmtypes/UcmTypeCOperatingModeDfp
+ms.keywords: ",  , ,, A, C, D, E, G, I, M, N, O, P, R, T, U, UCM_TYPEC_OPERATING_MODE, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UcmTypeCOperatingModeDfp, UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeInvalid, UcmTypeCOperatingModeUfp, Y, _, _UCM_TYPEC_OPERATING_MODE, buses.ucm_type_c_operating_mode, ucmtypes/UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeDfp, ucmtypes/UcmTypeCOperatingModeDrp, ucmtypes/UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeUfp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

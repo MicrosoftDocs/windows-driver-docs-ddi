@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a21495e-8a4d-4177-a2c5-b6a928d86fd9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.keenterguardedregion, k105_0f632d64-85dc-4c0f-8a26-8b4710673ab5.xml, wdm/KeEnterGuardedRegion, KeEnterGuardedRegion routine [Kernel-Mode Driver Architecture], KeEnterGuardedRegion
+ms.keywords: ",  , E, G, K, KeEnterGuardedRegion, KeEnterGuardedRegion routine [Kernel-Mode Driver Architecture], R, a, d, e, g, i, k105_0f632d64-85dc-4c0f-8a26-8b4710673ab5.xml, kernel.keenterguardedregion, n, o, r, t, u, wdm/KeEnterGuardedRegion"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,7 @@ For more information about guarded regions, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
+<a href="..\ntddk\nf-ntddk-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
 
 
 

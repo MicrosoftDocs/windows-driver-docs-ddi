@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bda13dc9-a9cc-4946-aadb-b073e5df787a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlDeleteTunnelCache routine [Installable File System Drivers], FsRtlDeleteTunnelCache, ifsk.fsrtldeletetunnelcache, fsrtlref_b5481e27-6ade-4057-8d63-3af814f9b80e.xml, ntifs/FsRtlDeleteTunnelCache
+ms.keywords: ",  , C, D, F, FsRtlDeleteTunnelCache, FsRtlDeleteTunnelCache routine [Installable File System Drivers], R, T, a, c, e, fsrtlref_b5481e27-6ade-4057-8d63-3af814f9b80e.xml, h, ifsk.fsrtldeletetunnelcache, l, n, ntifs/FsRtlDeleteTunnelCache, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

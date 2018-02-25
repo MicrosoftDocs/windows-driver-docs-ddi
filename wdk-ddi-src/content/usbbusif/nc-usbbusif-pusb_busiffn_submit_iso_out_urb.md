@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: cc8996e5-e10d-463b-91e3-6ef56d3fa32a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.submitisoouturb, SubmitIsoOutUrb, SubmitIsoOutUrb callback function [Buses], SubmitIsoOutUrb, USB_BUSIFFN_SUBMIT_ISO_OUT_URB, USB_BUSIFFN_SUBMIT_ISO_OUT_URB, usbbusif/SubmitIsoOutUrb, usbinterKR_7caf9f1e-d3e3-4d26-b91f-c2864594703a.xml
+ms.keywords: SubmitIsoOutUrb, SubmitIsoOutUrb callback function [Buses], USB_BUSIFFN_SUBMIT_ISO_OUT_URB, buses.submitisoouturb, usbbusif/SubmitIsoOutUrb, usbinterKR_7caf9f1e-d3e3-4d26-b91f-c2864594703a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

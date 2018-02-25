@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57B52C5B-D151-4112-8173-23D18C636E98
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdipostadapterpause, MiniportWdiPostAdapterPause callback function [Network Drivers Starting with Windows Vista], MiniportWdiPostAdapterPause, MINIPORT_WDI_POST_ADAPTER_PAUSE, MINIPORT_WDI_POST_ADAPTER_PAUSE, dot11wdi/MiniportWdiPostAdapterPause
+ms.keywords: MINIPORT_WDI_POST_ADAPTER_PAUSE, MiniportWdiPostAdapterPause, MiniportWdiPostAdapterPause callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterPause, netvista.miniportwdipostadapterpause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,11 @@ The return value is only used for logging/informational purposes.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_miniport_pause_parameters.md">NDIS_MINIPORT_PAUSE_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
 
 

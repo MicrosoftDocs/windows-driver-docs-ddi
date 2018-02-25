@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c82cfde4-f214-4722-8f59-d727ad5bfe7e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetPersoDeactivationState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetPersoDeactivationState, RIL_GetPersoDeactivationState, netvista.ril_getpersodeactivationstate
+ms.keywords: ",  , D, G, I, L, P, R, RIL_GetPersoDeactivationState, RIL_GetPersoDeactivationState method [Network Drivers Starting with Windows Vista], S, _, a, c, e, i, n, netvista.ril_getpersodeactivationstate, o, r, rilapi/RIL_GetPersoDeactivationState, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

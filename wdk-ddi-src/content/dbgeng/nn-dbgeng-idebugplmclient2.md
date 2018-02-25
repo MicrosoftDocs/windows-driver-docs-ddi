@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 22AACAD1-292B-42D9-95F7-A3654E2077FB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugplmclient2, IDebugPlmClient2 interface [Windows Debugging], IDebugPlmClient2 interface [Windows Debugging], described, IDebugPlmClient2, dbgeng/IDebugPlmClient2
+ms.keywords: IDebugPlmClient2, IDebugPlmClient2 interface [Windows Debugging], IDebugPlmClient2 interface [Windows Debugging], described, dbgeng/IDebugPlmClient2, debugger.idebugplmclient2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

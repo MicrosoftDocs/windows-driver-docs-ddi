@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a2e9e398-7b47-49eb-b587-7c42a0162f90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: miniport_memory_shared_ref_20e686ee-bdd4-484d-b3c5-af6bbb764059.xml, NdisGetPhysicalAddressLow macro [Network Drivers Starting with Windows Vista], ndis/NdisGetPhysicalAddressLow, NdisGetPhysicalAddressLow, netvista.ndisgetphysicaladdresslow
+ms.keywords: ",  , A, G, L, N, NdisGetPhysicalAddressLow, NdisGetPhysicalAddressLow macro [Network Drivers Starting with Windows Vista], P, a, c, d, e, h, i, l, miniport_memory_shared_ref_20e686ee-bdd4-484d-b3c5-af6bbb764059.xml, ndis/NdisGetPhysicalAddressLow, netvista.ndisgetphysicaladdresslow, o, r, s, t, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -74,15 +74,15 @@ Specifies a physical address of an OS-dependent size.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557129">NDIS_PHYSICAL_ADDRESS</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisgetphysicaladdresshigh.md">NdisGetPhysicalAddressHigh</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndissetphysicaladdresslow.md">NdisSetPhysicalAddressLow</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557129">NDIS_PHYSICAL_ADDRESS</a>
 
 
 

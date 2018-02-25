@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ec0c38a-8614-417b-9ec3-678c7d80841f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_CUSTOMSIZEPARAM, PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], CUSTOMSIZEPARAM structure [Print Devices], printoem/CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM, CUSTOMSIZEPARAM, printoem/PCUSTOMSIZEPARAM, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, print.customsizeparam"
+ms.keywords: ",  , *, *PCUSTOMSIZEPARAM, ,, A, C, CUSTOMSIZEPARAM, CUSTOMSIZEPARAM structure [Print Devices], E, I, M, O, P, PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], R, S, T, U, Z, _, _CUSTOMSIZEPARAM, print.customsizeparam, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, printoem/CUSTOMSIZEPARAM, printoem/PCUSTOMSIZEPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

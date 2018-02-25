@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KeSetImportanceDpc, KeSetImportanceDpc, k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, kernel.kesetimportancedpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , D, I, K, KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], S, a, c, e, k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, kernel.kesetimportancedpc, m, n, o, p, r, t, wdm/KeSetImportanceDpc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,7 +129,7 @@ When the system begins processing the DPC queue. Typically, <b>KeInsertQueueDpc<
 
 </li>
 </ul>
-By default, DPCs are assigned to the DPC queue for the current processor, so specifying <b>MediumImportance</b> or <b>MediumHighImportance</b> for <i>Importance</i> has the same effect. However, drivers can use <a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> to change the processor that the DPC will be assigned to.
+By default, DPCs are assigned to the DPC queue for the current processor, so specifying <b>MediumImportance</b> or <b>MediumHighImportance</b> for <i>Importance</i> has the same effect. However, drivers can use <a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> to change the processor that the DPC will be assigned to.
 
 For Windows Vista and later versions of the Windows operating system, you can use <b>KeSetImportanceDpc</b> for threaded DPCs. If the caller sets <i>Importance</i> to <b>HighImportance</b>, the DPC is placed at the beginning of the queue; otherwise, it is placed at the end. The routine does not affect when the threaded DPC queue is processed. Threaded DPCs are always processed by a dedicated thread at IRQL = PASSIVE_LEVEL. For more information about threaded DPCs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564621">Threaded DPCs</a>.
 
@@ -142,15 +142,15 @@ For more information about how the system processes the DPC queue, see <a href="
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
 
 
 

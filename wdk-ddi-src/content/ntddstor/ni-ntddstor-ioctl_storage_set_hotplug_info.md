@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5badc919-8663-4905-aaec-70f6b51ab2f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_set_hotplug_info, IOCTL_STORAGE_SET_HOTPLUG_INFO control code [Storage Devices], IOCTL_STORAGE_SET_HOTPLUG_INFO, ntddstor/IOCTL_STORAGE_SET_HOTPLUG_INFO, k307_f6fb6bb6-0058-4fa6-9d4f-2f964b1ef646.xml
+ms.keywords: IOCTL_STORAGE_SET_HOTPLUG_INFO, IOCTL_STORAGE_SET_HOTPLUG_INFO control code [Storage Devices], k307_f6fb6bb6-0058-4fa6-9d4f-2f964b1ef646.xml, ntddstor/IOCTL_STORAGE_SET_HOTPLUG_INFO, storage.ioctl_storage_set_hotplug_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -110,11 +110,11 @@ The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INFO_LEN
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
-
-
-
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_hotplug_info.md">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
 
 
 

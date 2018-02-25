@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 20471ee0-33c3-4ffa-bce8-b008569cb268
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_hid_set_feature, IOCTL_HID_SET_FEATURE control code [Human Input Devices], IOCTL_HID_SET_FEATURE, hidclass/IOCTL_HID_SET_FEATURE, hidioreq_3edb174b-db89-4892-957a-080021f3af9a.xml
+ms.keywords: IOCTL_HID_SET_FEATURE, IOCTL_HID_SET_FEATURE control code [Human Input Devices], hid.ioctl_hid_set_feature, hidclass/IOCTL_HID_SET_FEATURE, hidioreq_3edb174b-db89-4892-957a-080021f3af9a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -140,27 +140,15 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O, sh
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
-
-
-
-<a href="..\hidport\ni-hidport-ioctl_hid_read_report.md">IOCTL_HID_READ_REPORT</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
-
-
-
-<a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a>
-
-
-
 <a href="..\hidport\ni-hidport-ioctl_hid_write_report.md">IOCTL_HID_WRITE_REPORT</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
 
 
 
@@ -168,7 +156,19 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O, sh
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+<a href="..\hidport\ni-hidport-ioctl_hid_read_report.md">IOCTL_HID_READ_REPORT</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+
+
+
+<a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
 
 

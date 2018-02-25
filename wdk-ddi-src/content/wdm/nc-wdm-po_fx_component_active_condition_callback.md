@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D9EA3F98-7646-4882-BE07-818280404D6A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.componentactiveconditioncallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], ComponentActiveConditionCallback, PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, wdm/ComponentActiveConditionCallback
+ms.keywords: ComponentActiveConditionCallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, kernel.componentactiveconditioncallback, wdm/ComponentActiveConditionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -74,7 +74,7 @@ VOID ComponentActiveConditionCallback(
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 
 ### -param Component [in]
@@ -150,7 +150,7 @@ The PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK function type is defined in the Wd
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 

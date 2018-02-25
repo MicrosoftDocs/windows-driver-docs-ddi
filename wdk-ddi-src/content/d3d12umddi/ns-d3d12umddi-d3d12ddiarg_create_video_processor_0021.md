@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2FA77D7D-E1CC-44BA-8725-7132682A1BD6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure [Display Devices], display.d3d12ddiarg_create_video_processor, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure [Display Devices], E, G, I, O, P, R, S, T, V, _, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, display.d3d12ddiarg_create_video_processor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

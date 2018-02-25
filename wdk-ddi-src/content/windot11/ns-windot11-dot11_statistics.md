@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 714ad442-596b-4e67-82ce-a50e1808a3af
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], netvista.dot11_statistics, *PDOT11_STATISTICS, DOT11_STATISTICS, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, PDOT11_STATISTICS, windot11/DOT11_STATISTICS
+ms.keywords: ",  , *, *PDOT11_STATISTICS, ,, 1, A, C, D, DOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], I, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, O, P, PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], S, T, _, netvista.dot11_statistics, windot11/DOT11_STATISTICS, windot11/PDOT11_STATISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

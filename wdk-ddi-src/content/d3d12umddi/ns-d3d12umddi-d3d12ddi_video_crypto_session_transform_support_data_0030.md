@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fb83a03e-56d9-4daf-93c1-407744ad134a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, display.d3d12ddi-video-crypto-session-transform-support-data-0030, D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030 structure [Display Devices]
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030 structure [Display Devices], E, F, I, M, N, O, P, R, S, T, U, V, Y, _, d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, display.d3d12ddi-video-crypto-session-transform-support-data-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

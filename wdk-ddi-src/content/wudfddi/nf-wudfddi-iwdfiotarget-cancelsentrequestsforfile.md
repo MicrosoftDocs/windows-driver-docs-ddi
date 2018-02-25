@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: df008ee8-352f-4655-b4c0-750eeb281e6a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfiotarget_cancelsentrequestsforfile, wdf.iwdfiotarget_cancelsentrequestsforfile, wudfddi/IWDFIoTarget::CancelSentRequestsForFile, IWDFIoTarget interface, CancelSentRequestsForFile method, IWDFIoTarget::CancelSentRequestsForFile, UMDFIoTargetObjectRef_d2a2405f-312e-4e3c-8ffa-8568438805b0.xml, CancelSentRequestsForFile method, IWDFIoTarget, CancelSentRequestsForFile, CancelSentRequestsForFile method, IWDFIoTarget interface
+ms.keywords: ",  , ,, ., :, C, CancelSentRequestsForFile method, CancelSentRequestsForFile method, IWDFIoTarget interface, CancelSentRequestsForFile,IWDFIoTarget.CancelSentRequestsForFile, D, F, I, IWDFIoTarget, IWDFIoTarget interface, CancelSentRequestsForFile method, IWDFIoTarget::CancelSentRequestsForFile, R, S, T, UMDFIoTargetObjectRef_d2a2405f-312e-4e3c-8ffa-8568438805b0.xml, W, a, c, e, g, i, l, n, o, q, r, s, t, u, umdf.iwdfiotarget_cancelsentrequestsforfile, wdf.iwdfiotarget_cancelsentrequestsforfile, wudfddi/IWDFIoTarget::CancelSentRequestsForFile"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,11 +86,11 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 

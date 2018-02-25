@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 13e1afa2-5552-468f-ac6b-3458dedd9b76
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.reportstatistic, PFN_REPORT_STATISTIC, ReportStatistic callback function [Display Devices], ReportStatistic, PFN_REPORT_STATISTIC, PFN_REPORT_STATISTIC, netdispumdddi/ReportStatistic
+ms.keywords: PFN_REPORT_STATISTIC, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,11 +113,11 @@ For more info on how to use this function, see these topics:
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
-
-
-
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_statistic_data.md">MIRACAST_STATISTIC_DATA</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
 
 

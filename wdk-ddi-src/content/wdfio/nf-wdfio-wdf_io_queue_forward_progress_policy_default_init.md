@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d4342c72-6737-4f9a-927a-dbfdd69da38d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, DFQueueObjectRef_bc87904f-0d02-4369-ae30-734766e7335b.xml, kmdf.wdf_io_queue_forward_progress_policy_default_init, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function, wdf.wdf_io_queue_forward_progress_policy_default_init
+ms.keywords: ",  , A, C, D, DFQueueObjectRef_bc87904f-0d02-4369-ae30-734766e7335b.xml, E, F, G, I, L, N, O, P, Q, R, S, T, U, W, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function, Y, _, kmdf.wdf_io_queue_forward_progress_policy_default_init, wdf.wdf_io_queue_forward_progress_policy_default_init, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,15 +129,15 @@ status = WdfIoQueueAssignForwardProgressPolicy(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_examine_init.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
 
 
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_pagingio_init.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_examine_init.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d352785b-982f-4469-bee8-6274c0ce1cd6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN, storage.setchapsharedsecret_in, SetCHAPSharedSecret_IN structure [Storage Devices], iscsiop/SetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN structure pointer [Storage Devices], PSetCHAPSharedSecret_IN, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml, iscsiop/PSetCHAPSharedSecret_IN, _SetCHAPSharedSecret_IN
+ms.keywords: ",  , *, *PSetCHAPSharedSecret_IN, ,, A, C, H, I, N, P, PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN structure pointer [Storage Devices], S, SetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], _, _SetCHAPSharedSecret_IN, a, c, d, e, h, iscsiop/PSetCHAPSharedSecret_IN, iscsiop/SetCHAPSharedSecret_IN, r, storage.setchapsharedsecret_in, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

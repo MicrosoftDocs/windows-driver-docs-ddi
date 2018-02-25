@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b9ac4c2f-1eba-4425-a102-56fef6d0f5a7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintCorePS2 interface [Print Devices], GetOptionAttribute method, GetOptionAttribute method [Print Devices], prcomoem/IPrintCorePS2::GetOptionAttribute, IPrintCorePS2::GetOptionAttribute, GetOptionAttribute method [Print Devices], IPrintCorePS2 interface, print.iprintcoreps2_getoptionattribute, IPrintCorePS2, GetOptionAttribute, print_unidrv-pscript_rendering_514bd3e6-bf9e-464b-ade6-3a871523c9a4.xml
+ms.keywords: ",  , ,, ., 2, :, A, C, G, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices], IPrintCorePS2 interface, GetOptionAttribute,IPrintCorePS2.GetOptionAttribute, I, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], GetOptionAttribute method, IPrintCorePS2::GetOptionAttribute, O, P, S, b, e, i, n, o, p, prcomoem/IPrintCorePS2::GetOptionAttribute, print.iprintcoreps2_getoptionattribute, print_unidrv-pscript_rendering_514bd3e6-bf9e-464b-ade6-3a871523c9a4.xml, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -205,15 +205,11 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553006">IPrintCorePS2::GetFeatureAttribute</a>
 
 
 
@@ -221,7 +217,11 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553006">IPrintCorePS2::GetFeatureAttribute</a>
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
 
 
 

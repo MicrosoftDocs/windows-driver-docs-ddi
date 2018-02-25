@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d29fb09-0ddc-4b61-8f85-c0e69d891bc5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeResetSynchronously, wdf.wdfusbtargetpiperesetsynchronously, WdfUsbTargetPipeResetSynchronously, WdfUsbTargetPipeResetSynchronously method, kmdf.wdfusbtargetpiperesetsynchronously, DFUsbRef_07fcbce0-9754-49c9-988b-0875242739a0.xml
+ms.keywords: ",  , DFUsbRef_07fcbce0-9754-49c9-988b-0875242739a0.xml, P, R, S, T, U, W, WdfUsbTargetPipeResetSynchronously, WdfUsbTargetPipeResetSynchronously method, a, b, c, d, e, f, g, h, i, kmdf.wdfusbtargetpiperesetsynchronously, l, n, o, p, r, s, t, u, wdf.wdfusbtargetpiperesetsynchronously, wdfusb/WdfUsbTargetPipeResetSynchronously, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -241,11 +241,7 @@ status = WdfUsbTargetPipeResetSynchronously(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeabortsynchronously.md">WdfUsbTargetPipeAbortSynchronously</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 
@@ -253,7 +249,11 @@ status = WdfUsbTargetPipeResetSynchronously(
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeabortsynchronously.md">WdfUsbTargetPipeAbortSynchronously</a>
 
 
 

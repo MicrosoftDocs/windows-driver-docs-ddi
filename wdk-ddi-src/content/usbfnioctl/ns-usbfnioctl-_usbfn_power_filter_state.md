@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D5C7DC47-37F7-4727-AFB6-137F67786001
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBFN_POWER_FILTER_STATE structure [Buses], PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE, usbfnioctl/PUSBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE structure pointer [Buses], buses.usbfn_power_filter_state, _USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE
+ms.keywords: ",  , *, *PUSBFN_POWER_FILTER_STATE, ,, A, B, E, F, I, L, N, O, P, PUSBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE structure pointer [Buses], R, S, T, U, USBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses], W, _, _USBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, usbfnioctl/PUSBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ Do not use.
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
-
-
-
 <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
+
+
+
+<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
 
 
 

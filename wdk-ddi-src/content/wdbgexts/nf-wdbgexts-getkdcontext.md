@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cf795629-cf62-45fa-ad5e-e2eef576bcfd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, wdbgexts/GetKdContext, GetKdContext, debugger.getkdcontext, GetKdContext function [Windows Debugging]
+ms.keywords: ",  , C, G, GetKdContext, GetKdContext function [Windows Debugging], K, WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, d, debugger.getkdcontext, e, n, o, t, wdbgexts/GetKdContext, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ce7a843-0053-4351-ba79-161d83e245ac
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfusbtargetpipesendurbsynchronously, DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, wdf.wdfusbtargetpipesendurbsynchronously, WdfUsbTargetPipeSendUrbSynchronously method, wdfusb/WdfUsbTargetPipeSendUrbSynchronously, WdfUsbTargetPipeSendUrbSynchronously
+ms.keywords: ",  , DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, P, S, T, U, W, WdfUsbTargetPipeSendUrbSynchronously, WdfUsbTargetPipeSendUrbSynchronously method, a, b, c, d, e, f, g, h, i, kmdf.wdfusbtargetpipesendurbsynchronously, l, n, o, p, r, s, t, u, wdf.wdfusbtargetpipesendurbsynchronously, wdfusb/WdfUsbTargetPipeSendUrbSynchronously, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7673163e-3663-4dc0-b454-bf358b87d62d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILUICCAPPINFO, RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCAPPINFO, netvista.riluiccappinfo_2"
+ms.keywords: ",  , *, *LPRILUICCAPPINFO, ,, A, C, F, I, L, N, O, P, R, RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], U, netvista.riluiccappinfo_2, rilapitypes/RILUICCAPPINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

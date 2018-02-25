@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RandomAccess, kernel.io_access_mode, IO_ACCESS_MODE, SequentialAccess, wdm/RandomAccess, wdm/SequentialAccess, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], wdm/IO_ACCESS_MODE, _IO_ACCESS_MODE
+ms.keywords: ",  , ,, A, C, D, E, I, IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], M, O, RandomAccess, S, SequentialAccess, _, _IO_ACCESS_MODE, kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

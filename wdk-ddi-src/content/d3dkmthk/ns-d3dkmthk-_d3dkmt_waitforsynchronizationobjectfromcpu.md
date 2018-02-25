@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 76091965-D87B-4429-85A8-EC8085C773D7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, WaitAny, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_waitforsynchronizationobjectfromcpu
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], E, F, H, I, J, K, M, N, O, P, R, S, T, U, W, WaitAny, Y, Z, _, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_waitforsynchronizationobjectfromcpu"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

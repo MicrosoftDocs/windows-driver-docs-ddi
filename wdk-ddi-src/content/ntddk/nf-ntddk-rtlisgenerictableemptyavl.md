@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9190DA2F-5530-4427-862F-00434DD9C950
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlIsGenericTableEmptyAvl routine [Installable File System Drivers], ntddk/RtlIsGenericTableEmptyAvl, ifsk.rtlisgenerictableemptyavl, RtlIsGenericTableEmptyAvl
+ms.keywords: ",  , A, E, G, I, R, RtlIsGenericTableEmptyAvl, RtlIsGenericTableEmptyAvl routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtlisgenerictableemptyavl, l, m, n, ntddk/RtlIsGenericTableEmptyAvl, p, r, s, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

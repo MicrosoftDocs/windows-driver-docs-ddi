@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTExtractBundleObject method [Display Devices], D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject, d3dkmthk/D3DKMTExtractBundleObject
+ms.keywords: ",  , 3, B, D, D3DKMTExtractBundleObject, D3DKMTExtractBundleObject method [Display Devices], E, K, M, O, T, a, b, c, d, d3dkmthk/D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject, e, j, l, n, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

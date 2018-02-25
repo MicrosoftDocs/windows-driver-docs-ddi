@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ba4a87cc-2412-4769-9694-d6eefd750c4b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: RemoveExtension method [Windows Debugging], IDebugControl3 interface, IDebugControl::RemoveExtension, IDebugControl2::RemoveExtension, RemoveExtension method [Windows Debugging], IDebugControl interface, debugger.removeextension, RemoveExtension, dbgeng/IDebugControl::RemoveExtension, IDebugControl, IDebugControl2 interface [Windows Debugging], RemoveExtension method, dbgeng/IDebugControl2::RemoveExtension, IDebugControl3::RemoveExtension, RemoveExtension method [Windows Debugging], RemoveExtension method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::RemoveExtension, IDebugControl interface [Windows Debugging], RemoveExtension method, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, IDebugControl3 interface [Windows Debugging], RemoveExtension method
+ms.keywords: ",  , ,, ., :, C, D, E, I, IDebugControl, IDebugControl interface [Windows Debugging], RemoveExtension method, IDebugControl2 interface [Windows Debugging], RemoveExtension method, IDebugControl2::RemoveExtension, IDebugControl3 interface [Windows Debugging], RemoveExtension method, IDebugControl3::RemoveExtension, IDebugControl::RemoveExtension, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, R, RemoveExtension method [Windows Debugging], RemoveExtension method [Windows Debugging], IDebugControl interface, RemoveExtension method [Windows Debugging], IDebugControl2 interface, RemoveExtension method [Windows Debugging], IDebugControl3 interface, RemoveExtension,IDebugControl.RemoveExtension, b, dbgeng/IDebugControl2::RemoveExtension, dbgeng/IDebugControl3::RemoveExtension, dbgeng/IDebugControl::RemoveExtension, debugger.removeextension, e, g, i, l, m, n, o, r, s, t, u, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,7 +113,7 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -121,11 +121,11 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

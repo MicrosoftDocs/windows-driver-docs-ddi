@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c608dac0-bb2a-4d89-a2f8-1017254c8a6c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture], *PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO, pepfx/PEP_PPM_QUERY_DOMAIN_INFO, _PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info
+ms.keywords: ",  , *, *PPEP_PPM_QUERY_DOMAIN_INFO, ,, A, D, E, F, I, M, N, O, P, PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture], Q, R, U, Y, _, _PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, pepfx/PEP_PPM_QUERY_DOMAIN_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

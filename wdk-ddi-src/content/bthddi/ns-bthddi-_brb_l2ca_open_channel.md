@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 16f79360-c8fd-4be9-9c94-7fa2a1d8c6b5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bthddi/_BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_OPEN_CHANNEL, bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, bltooth._brb_l2ca_open_channel
+ms.keywords: ",  , 2, A, B, C, E, H, L, N, O, P, R, _, _BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_channel, bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, bthddi/_BRB_L2CA_OPEN_CHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -722,16 +722,11 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
-   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
 
 
@@ -739,11 +734,11 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
+
+
+
+<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
 
 
 
@@ -755,15 +750,20 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 
 
-<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
 
 
 

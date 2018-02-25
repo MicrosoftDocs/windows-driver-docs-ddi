@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e73a8111-9e54-4040-a38a-441948e10212
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival, IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices]
+ms.keywords: ",  , A, C, I, IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices], M, a, d, display.iddcxmonitorarrival, i, iddcx/IddCxMonitorArrival, l, n, o, r, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

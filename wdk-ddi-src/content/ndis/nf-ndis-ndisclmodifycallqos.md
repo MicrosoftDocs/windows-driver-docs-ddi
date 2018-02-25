@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c31449a6-e275-480c-83ea-8575fda73cd9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisClModifyCallQoS function [Network Drivers Starting with Windows Vista], NdisClModifyCallQoS, netvista.ndisclmodifycallqos, ndis/NdisClModifyCallQoS, condis_client_ref_55b0158f-e91e-4be8-818b-ade726db0f61.xml
+ms.keywords: ",  , C, M, N, NdisClModifyCallQoS, NdisClModifyCallQoS function [Network Drivers Starting with Windows Vista], Q, S, a, condis_client_ref_55b0158f-e91e-4be8-818b-ade726db0f61.xml, d, f, i, l, ndis/NdisClModifyCallQoS, netvista.ndisclmodifycallqos, o, s, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,7 +118,15 @@ If the call manager does not accept the client's proposed QoS change, the client
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
 
 
 
@@ -127,23 +135,15 @@ If the call manager does not accept the client's proposed QoS change, the client
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 

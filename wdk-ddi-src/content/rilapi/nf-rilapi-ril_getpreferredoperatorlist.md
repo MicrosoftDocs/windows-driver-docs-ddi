@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bee76337-8349-4e61-9b0c-e525ed001850
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetPreferredOperatorList, netvista.ril_getpreferredoperatorlist, RIL_GetPreferredOperatorList method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetPreferredOperatorList
+ms.keywords: ",  , G, I, L, O, P, R, RIL_GetPreferredOperatorList, RIL_GetPreferredOperatorList method [Network Drivers Starting with Windows Vista], _, a, d, e, f, i, netvista.ril_getpreferredoperatorlist, o, p, r, rilapi/RIL_GetPreferredOperatorList, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 96e96366-6306-4d20-8752-e942f2ed4069
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiissupportedvidpn, DxgkDdiIsSupportedVidPn callback function [Display Devices], DxgkDdiIsSupportedVidPn, DXGKDDI_ISSUPPORTEDVIDPN, DXGKDDI_ISSUPPORTEDVIDPN, d3dkmddi/DxgkDdiIsSupportedVidPn, DmFunctions_222f2c38-00c6-466f-b653-3c9529f93849.xml
+ms.keywords: DXGKDDI_ISSUPPORTEDVIDPN, DmFunctions_222f2c38-00c6-466f-b653-3c9529f93849.xml, DxgkDdiIsSupportedVidPn, DxgkDdiIsSupportedVidPn callback function [Display Devices], d3dkmddi/DxgkDdiIsSupportedVidPn, display.dxgkddiissupportedvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

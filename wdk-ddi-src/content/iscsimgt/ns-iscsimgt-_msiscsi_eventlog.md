@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a31a8688-6002-4ad7-b135-0a8111e2c849
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.msiscsi_eventlog, *PMSiSCSI_Eventlog, _MSiSCSI_Eventlog, PMSiSCSI_EventLog, MSiSCSI_EventLog, MSiSCSI_EventLog structure [Storage Devices], MSiSCSI_Eventlog, iscsimgt/PMSiSCSI_EventLog, structs-iSCSI_d2419ba1-4f36-42c6-8a21-164dadb50263.xml, PMSiSCSI_EventLog structure pointer [Storage Devices], iscsimgt/MSiSCSI_EventLog
+ms.keywords: ",  , *, *PMSiSCSI_Eventlog, ,, C, E, I, M, MSiSCSI_EventLog, MSiSCSI_EventLog structure [Storage Devices], MSiSCSI_Eventlog, P, PMSiSCSI_EventLog, PMSiSCSI_EventLog structure pointer [Storage Devices], S, _, _MSiSCSI_Eventlog, e, g, i, iscsimgt/MSiSCSI_EventLog, iscsimgt/PMSiSCSI_EventLog, l, n, o, storage.msiscsi_eventlog, structs-iSCSI_d2419ba1-4f36-42c6-8a21-164dadb50263.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

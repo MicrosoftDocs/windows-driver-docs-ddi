@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1af85315-4367-49de-9453-eef62c838c97
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroyresource, DestroyResource callback function [Display Devices], DestroyResource, PFND3DDDI_DESTROYRESOURCE, PFND3DDDI_DESTROYRESOURCE, d3dumddi/DestroyResource, UserModeDisplayDriver_Functions_7d6c0444-aa22-4348-9da4-9708414284e9.xml
+ms.keywords: DestroyResource, DestroyResource callback function [Display Devices], PFND3DDDI_DESTROYRESOURCE, UserModeDisplayDriver_Functions_7d6c0444-aa22-4348-9da4-9708414284e9.xml, d3dumddi/DestroyResource, display.destroyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -116,11 +116,11 @@ For more information about creating and destroying resources, see <a href="https
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
 
 
@@ -128,11 +128,11 @@ For more information about creating and destroying resources, see <a href="https
 
 
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
 
 
 

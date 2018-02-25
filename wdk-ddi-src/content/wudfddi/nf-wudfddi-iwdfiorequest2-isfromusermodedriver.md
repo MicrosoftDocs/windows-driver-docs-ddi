@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 17a1e4d8-5438-42b6-b4a5-335e7bd57b1b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest2 interface, IsFromUserModeDriver method, IsFromUserModeDriver method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_isfromusermodedriver, IsFromUserModeDriver method, UMDFRequestObjectRef_81f13df9-e0f7-4d16-9f85-e049a491e08d.xml, wdf.iwdfiorequest2_isfromusermodedriver, IWDFIoRequest2, IWDFIoRequest2::IsFromUserModeDriver, wudfddi/IWDFIoRequest2::IsFromUserModeDriver, IsFromUserModeDriver
+ms.keywords: ",  , ,, ., 2, :, D, F, I, IWDFIoRequest2, IWDFIoRequest2 interface, IsFromUserModeDriver method, IWDFIoRequest2::IsFromUserModeDriver, IsFromUserModeDriver method, IsFromUserModeDriver method, IWDFIoRequest2 interface, IsFromUserModeDriver,IWDFIoRequest2.IsFromUserModeDriver, M, R, U, UMDFRequestObjectRef_81f13df9-e0f7-4d16-9f85-e049a491e08d.xml, W, d, e, i, m, o, q, r, s, t, u, umdf.iwdfiorequest2_isfromusermodedriver, v, wdf.iwdfiorequest2_isfromusermodedriver, wudfddi/IWDFIoRequest2::IsFromUserModeDriver"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,11 +98,11 @@ For a code example that uses <b>IsFromUserModeDriver</b>, see the example at <a 
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestisfromusermodedriver.md">WdfRequestIsFromUserModeDriver</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestisfromusermodedriver.md">WdfRequestIsFromUserModeDriver</a>
 
 
 

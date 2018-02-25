@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e92f0297-8bfc-496d-a00b-e7b5711c7856
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.zwopenkey, wdm/ZwOpenKey, ZwOpenKey routine [Kernel-Mode Driver Architecture], ZwOpenKey, k111_8583b145-a6be-4e4f-8e46-ca7d48b8a07f.xml
+ms.keywords: ",  , K, O, Z, ZwOpenKey, ZwOpenKey routine [Kernel-Mode Driver Architecture], e, k111_8583b145-a6be-4e4f-8e46-ca7d48b8a07f.xml, kernel.zwopenkey, n, p, w, wdm/ZwOpenKey, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,6 +117,18 @@ For more information about working with registry keys, see <a href="https://msdn
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+
+
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
@@ -125,15 +137,7 @@ For more information about working with registry keys, see <a href="https://msdn
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
 
 
 
@@ -141,19 +145,15 @@ For more information about working with registry keys, see <a href="https://msdn
 
 
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
+<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

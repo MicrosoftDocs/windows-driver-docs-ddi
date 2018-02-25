@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 52733647-d577-4507-a5ad-5f56f3a9f8a2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_device_io_type__umdf_, WDF_DEVICE_IO_TYPE enumeration, WdfDeviceIoUndefined, wudfddi_types/WdfDeviceIoNeither, PWDF_DEVICE_IO_TYPE enumeration pointer, WdfDeviceIoDirect, PWDF_DEVICE_IO_TYPE, umdf.wdf_device_io_type__umdf_, wudfddi_types/WdfDeviceIoMaximum, wudfddi_types/WdfDeviceIoBuffered, wudfddi_types/WdfDeviceIoDirect, WdfDeviceIoBufferedOrDirect, WDF_DEVICE_IO_TYPE, WdfDeviceIoNeither, wudfddi_types/WdfDeviceIoUndefined, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, WdfDeviceIoBuffered, _WDF_DEVICE_IO_TYPE, WdfDeviceIoMaximum, wudfddi_types/WdfDeviceIoBufferedOrDirect, *PWDF_DEVICE_IO_TYPE, wudfddi_types/WDF_DEVICE_IO_TYPE, wudfddi_types/PWDF_DEVICE_IO_TYPE
+ms.keywords: ",  , *, *PWDF_DEVICE_IO_TYPE, ,, C, D, E, F, I, O, P, PWDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE enumeration pointer, T, V, W, WDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE enumeration, WdfDeviceIoBuffered, WdfDeviceIoBufferedOrDirect, WdfDeviceIoDirect, WdfDeviceIoMaximum, WdfDeviceIoNeither, WdfDeviceIoUndefined, Y, _, _WDF_DEVICE_IO_TYPE, umdf.wdf_device_io_type__umdf_, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, wdf.wdf_device_io_type__umdf_, wudfddi_types/PWDF_DEVICE_IO_TYPE, wudfddi_types/WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoBuffered, wudfddi_types/WdfDeviceIoBufferedOrDirect, wudfddi_types/WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoMaximum, wudfddi_types/WdfDeviceIoNeither, wudfddi_types/WdfDeviceIoUndefined"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -137,15 +137,15 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
-
-
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ae029e17-7229-49a6-bf5f-96e0cb143d5b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IMiniportWavePciStream::SetState, SetState method [Audio Devices], IMiniportWavePciStream, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml, SetState method [Audio Devices], IMiniportWavePciStream interface, audio.iminiportwavepcistream_setstate, portcls/IMiniportWavePciStream::SetState, IMiniportWavePciStream interface [Audio Devices], SetState method, SetState
+ms.keywords: ",  , ,, ., :, I, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], SetState method, IMiniportWavePciStream::SetState, M, P, S, SetState method [Audio Devices], SetState method [Audio Devices], IMiniportWavePciStream interface, SetState,IMiniportWavePciStream.SetState, W, a, audio.iminiportwavepcistream_setstate, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml, c, e, i, m, n, o, p, portcls/IMiniportWavePciStream::SetState, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -138,11 +138,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMini
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
 
 
 

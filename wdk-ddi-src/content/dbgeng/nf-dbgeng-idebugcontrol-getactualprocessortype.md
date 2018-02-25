@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c02be0a4-f82a-4895-bbae-21f6ffdc5466
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetActualProcessorType method, IDebugControl::GetActualProcessorType, dbgeng/IDebugControl2::GetActualProcessorType, IDebugControl3 interface [Windows Debugging], GetActualProcessorType method, dbgeng/IDebugControl3::GetActualProcessorType, IDebugControl2::GetActualProcessorType, debugger.getactualprocessortype, GetActualProcessorType, GetActualProcessorType method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetActualProcessorType method, IDebugControl3::GetActualProcessorType, IDebugControl, GetActualProcessorType method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetActualProcessorType, GetActualProcessorType method [Windows Debugging], IDebugControl2 interface, GetActualProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl_5511971f-2155-4ba3-b0f3-9bcd91b29555.xml
+ms.keywords: ",  , ,, ., :, A, C, D, G, GetActualProcessorType method [Windows Debugging], GetActualProcessorType method [Windows Debugging], IDebugControl interface, GetActualProcessorType method [Windows Debugging], IDebugControl2 interface, GetActualProcessorType method [Windows Debugging], IDebugControl3 interface, GetActualProcessorType,IDebugControl.GetActualProcessorType, I, IDebugControl, IDebugControl interface [Windows Debugging], GetActualProcessorType method, IDebugControl2 interface [Windows Debugging], GetActualProcessorType method, IDebugControl2::GetActualProcessorType, IDebugControl3 interface [Windows Debugging], GetActualProcessorType method, IDebugControl3::GetActualProcessorType, IDebugControl::GetActualProcessorType, IDebugControl_5511971f-2155-4ba3-b0f3-9bcd91b29555.xml, P, T, a, b, c, dbgeng/IDebugControl2::GetActualProcessorType, dbgeng/IDebugControl3::GetActualProcessorType, dbgeng/IDebugControl::GetActualProcessorType, debugger.getactualprocessortype, e, g, l, n, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -171,14 +171,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
@@ -188,6 +180,14 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546595">GetEffectiveProcessorType</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

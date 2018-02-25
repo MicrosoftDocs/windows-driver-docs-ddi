@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 22c61f1d-027c-4e3e-af34-c513d4e1d0cc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extallocatebuffer, Dot11ExtAllocateBuffer callback function [Network Drivers Starting with Windows Vista], Dot11ExtAllocateBuffer, DOT11EXT_ALLOCATE_BUFFER, DOT11EXT_ALLOCATE_BUFFER, wlanihv/Dot11ExtAllocateBuffer, Native_802.11_IHV_Ext_5f683d7c-9185-4786-9f39-2e397b93fbf0.xml
+ms.keywords: DOT11EXT_ALLOCATE_BUFFER, Dot11ExtAllocateBuffer, Dot11ExtAllocateBuffer callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_5f683d7c-9185-4786-9f39-2e397b93fbf0.xml, netvista.dot11extallocatebuffer, wlanihv/Dot11ExtAllocateBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -155,8 +155,7 @@ In this situation, the DLL must free the memory buffer by calling
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
 
 
@@ -165,7 +164,8 @@ In this situation, the DLL must free the memory buffer by calling
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 147F46A9-1182-4480-8886-7C39F940EA7D
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext, d3dkmthk/D3DKMTCreateHwContext, D3DKMTCreateHwContext method [Display Devices]
+ms.keywords: ",  , 3, C, D, D3DKMTCreateHwContext, D3DKMTCreateHwContext method [Display Devices], H, K, M, T, a, d3dkmthk/D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext, e, n, o, r, t, w, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

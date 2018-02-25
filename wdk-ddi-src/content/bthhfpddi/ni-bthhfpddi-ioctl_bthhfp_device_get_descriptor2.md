@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B72D0236-1C2B-4D0B-86B4-4E9B667BA1B3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.ioctl_bthhfp_device_get_descriptor2, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control code [Audio Devices], IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2
+ms.keywords: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control code [Audio Devices], audio.ioctl_bthhfp_device_get_descriptor2, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -127,11 +127,11 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+
+
+
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
 
 
 

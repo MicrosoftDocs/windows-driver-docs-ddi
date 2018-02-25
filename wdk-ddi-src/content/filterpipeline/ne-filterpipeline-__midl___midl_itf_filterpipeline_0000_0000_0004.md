@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 079BEF8A-514E-42C3-8916-95655C605098
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.expsfontrestriction, filterpipeline/Xps_Restricted_Font_Installable, filterpipeline/Xps_Restricted_Font_Editable, Xps_Restricted_Font_Installable, EXpsFontRestriction enumeration [Print Devices], Xps_Restricted_Font_NoEmbedding, filterpipeline/EXpsFontRestriction, Xps_Restricted_Font_PreviewPrint, EXpsFontRestriction, filterpipeline/Xps_Restricted_Font_PreviewPrint, __MIDL___MIDL_itf_filterpipeline_0000_0000_0004, filterpipeline/Xps_Restricted_Font_NoEmbedding, Xps_Restricted_Font_Editable
+ms.keywords: ",  , ,, 0, 4, D, E, EXpsFontRestriction, EXpsFontRestriction enumeration [Print Devices], F, I, L, M, R, X, Xps_Restricted_Font_Editable, Xps_Restricted_Font_Installable, Xps_Restricted_Font_NoEmbedding, Xps_Restricted_Font_PreviewPrint, _, __MIDL___MIDL_itf_filterpipeline_0000_0000_0004, c, e, f, filterpipeline/EXpsFontRestriction, filterpipeline/Xps_Restricted_Font_Editable, filterpipeline/Xps_Restricted_Font_Installable, filterpipeline/Xps_Restricted_Font_NoEmbedding, filterpipeline/Xps_Restricted_Font_PreviewPrint, i, l, n, o, p, print.expsfontrestriction, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

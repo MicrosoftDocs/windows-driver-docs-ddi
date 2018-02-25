@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 21dfcbe8-2fc1-4495-af54-5d4c83b8bb79
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.ibidirequestcontainer, IBidiRequestContainer interface [Print Devices], IBidiRequestContainer interface [Print Devices], described, IBidiRequestContainer, bidispl/IBidiRequestContainer, _win32_IBidiRequestContainer, gdi.ibidirequestcontainer
+ms.keywords: IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], IBidiRequestContainer interface [Print Devices], described, _win32_IBidiRequestContainer, bidispl/IBidiRequestContainer, gdi.ibidirequestcontainer, print.ibidirequestcontainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -99,11 +99,11 @@ Gets the number of requests in the list.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
 <a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+
+
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 

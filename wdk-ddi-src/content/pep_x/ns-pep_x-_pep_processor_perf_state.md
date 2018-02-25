@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46231ac0-2c34-4154-8b3e-f34c40cbff4a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PPEP_PROCESSOR_PERF_STATE, pepfx/PEP_PROCESSOR_PERF_STATE, _PEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_processor_perf_state"
+ms.keywords: ",  , *, *PPEP_PROCESSOR_PERF_STATE, ,, A, C, E, F, O, P, PEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE structure [Kernel-Mode Driver Architecture], R, S, T, _, _PEP_PROCESSOR_PERF_STATE, kernel.pep_processor_perf_state, pepfx/PEP_PROCESSOR_PERF_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _PEP_PROCESSOR_PERF_STATE {
 
 ### -field Performance
 
-On output, the performance level (on the scale returned by the <a href="..\pep_x\ns-pep_x-_pep_query_component_perf_capabilities.md">PEP_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification) of this performance state.
+On output, the performance level (on the scale returned by the <a href="..\pepfx\ns-pepfx-_pep_query_component_perf_capabilities.md">PEP_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification) of this performance state.
 
 
 ### -field Frequency
@@ -86,11 +86,11 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/506b3d8e-4aba-4e70-a6db-52a52d717c6b">PEP_PPM_QUERY_DISCRETE_PERF_STATES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
+
+
+
+<a href="https://msdn.microsoft.com/506b3d8e-4aba-4e70-a6db-52a52d717c6b">PEP_PPM_QUERY_DISCRETE_PERF_STATES</a>
 
 
 

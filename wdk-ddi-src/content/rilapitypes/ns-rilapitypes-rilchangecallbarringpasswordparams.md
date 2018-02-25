@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a9dda19-329b-4046-bba1-1bbedf37fa31
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilchangecallbarringpasswordparams_2, rilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILCHANGECALLBARRINGPASSWORDPARAMS
+ms.keywords: ",  , *, *LPRILCHANGECALLBARRINGPASSWORDPARAMS, ,, A, B, C, D, E, G, H, I, L, M, N, O, P, R, RILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], S, W, netvista.rilchangecallbarringpasswordparams_2, rilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

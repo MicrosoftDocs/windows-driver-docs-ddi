@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C1B7EE25-B95B-4EAA-8826-269099352FDF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintAsyncNotifyRegistration, prnasntp/IPrintAsyncNotifyRegistration::UnregisterForNotifications, UnregisterForNotifications method [Print Devices], IPrintAsyncNotifyRegistration interface, IPrintAsyncNotifyRegistration interface [Print Devices], UnregisterForNotifications method, print.iprintasyncnotifyregistration_unregisterfornotifications, IPrintAsyncNotifyRegistration::UnregisterForNotifications, UnregisterForNotifications, UnregisterForNotifications method [Print Devices]
+ms.keywords: ",  , ,, ., :, A, F, I, IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], UnregisterForNotifications method, IPrintAsyncNotifyRegistration::UnregisterForNotifications, N, P, R, U, UnregisterForNotifications method [Print Devices], UnregisterForNotifications method [Print Devices], IPrintAsyncNotifyRegistration interface, UnregisterForNotifications,IPrintAsyncNotifyRegistration.UnregisterForNotifications, a, c, e, f, g, i, n, o, print.iprintasyncnotifyregistration_unregisterfornotifications, prnasntp/IPrintAsyncNotifyRegistration::UnregisterForNotifications, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

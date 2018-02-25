@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8F8C97B2-5C77-4AD0-9434-22108111F5A8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, _WDF_DMA_ENABLER_CONFIG_FLAGS, wdf.wdf_dma_enabler_config_flags, WDF_DMA_ENABLER_CONFIG_FLAGS, WDF_DMA_ENABLER_CONFIG_FLAGS enumeration, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, kmdf.wdf_dma_enabler_config_flags
+ms.keywords: ",  , ,, A, B, C, D, E, F, G, I, L, M, N, O, R, S, W, WDF_DMA_ENABLER_CONFIG_FLAGS, WDF_DMA_ENABLER_CONFIG_FLAGS enumeration, WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, _, _WDF_DMA_ENABLER_CONFIG_FLAGS, kmdf.wdf_dma_enabler_config_flags, wdf.wdf_dma_enabler_config_flags, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

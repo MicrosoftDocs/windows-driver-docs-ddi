@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 02524493-3842-462e-86f6-2ab35998c65e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: prcomoem/IPrintOemUni::Compression, Compression method [Print Devices], IPrintOemUni interface, Compression, IPrintOemUni interface [Print Devices], Compression method, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml, Compression method [Print Devices], IPrintOemUni::Compression, IPrintOemUni, print.iprintoemuni_compression
+ms.keywords: ",  , ,, ., :, C, Compression method [Print Devices], Compression method [Print Devices], IPrintOemUni interface, Compression,IPrintOemUni.Compression, I, IPrintOemUni, IPrintOemUni interface [Print Devices], Compression method, IPrintOemUni::Compression, O, P, U, e, i, m, n, o, p, prcomoem/IPrintOemUni::Compression, print.iprintoemuni_compression, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

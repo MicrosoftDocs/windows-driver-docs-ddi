@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 13ECDA33-2047-4F72-A8D4-5281C4BA8543
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensorsdef/PEDOMETER_STEP_TYPE, sensorsdef/PedometerStepType_Unknown, PedometerStepType_Max, PedometerStepType_Force_Dword, PedometerStepType_Unknown, PEDOMETER_STEP_TYPE enumeration [Sensor Devices], PedometerStepType_Running, PedometerStepType_Walking, sensorsdef/PedometerStepType_Force_Dword, sensors.pedometer_step_type, sensorsdef/PedometerStepType_Running, sensorsdef/PedometerStepType_Max, sensorsdef/PedometerStepType_Walking, PEDOMETER_STEP_TYPE
+ms.keywords: ",  , ,, D, E, M, O, P, PEDOMETER_STEP_TYPE, PEDOMETER_STEP_TYPE enumeration [Sensor Devices], PedometerStepType_Force_Dword, PedometerStepType_Max, PedometerStepType_Running, PedometerStepType_Unknown, PedometerStepType_Walking, R, S, T, Y, _, sensors.pedometer_step_type, sensorsdef/PEDOMETER_STEP_TYPE, sensorsdef/PedometerStepType_Force_Dword, sensorsdef/PedometerStepType_Max, sensorsdef/PedometerStepType_Running, sensorsdef/PedometerStepType_Unknown, sensorsdef/PedometerStepType_Walking"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

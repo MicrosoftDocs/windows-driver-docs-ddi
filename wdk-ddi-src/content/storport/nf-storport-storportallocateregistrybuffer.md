@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8d03a63-4b6a-4e84-994b-0e205401e531
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortAllocateRegistryBuffer routine [Storage Devices], StorPortAllocateRegistryBuffer, storport/StorPortAllocateRegistryBuffer, storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, storage.storportallocateregistrybuffer
+ms.keywords: ",  , A, B, P, R, S, StorPortAllocateRegistryBuffer, StorPortAllocateRegistryBuffer routine [Storage Devices], a, c, e, f, g, i, l, o, r, s, storage.storportallocateregistrybuffer, storport/StorPortAllocateRegistryBuffer, storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

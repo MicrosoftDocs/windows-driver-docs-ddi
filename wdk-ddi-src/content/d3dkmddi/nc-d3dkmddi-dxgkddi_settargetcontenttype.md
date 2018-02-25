@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7639BF7B-6219-4490-953F-80E76CDFBAAA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddi_settargetcontenttype, DXGKDDI_SETTARGETCONTENTTYPE callback function [Display Devices], DXGKDDI_SETTARGETCONTENTTYPE, d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE
+ms.keywords: DXGKDDI_SETTARGETCONTENTTYPE, DXGKDDI_SETTARGETCONTENTTYPE callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE, display.dxgkddi_settargetcontenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

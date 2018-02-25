@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ebdf120-ecdd-474b-961d-958179cf30e0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], display.d3dkmtopenprotectedsessionfromnthandle, D3DKMTOpenProtectedSessionFromNtHandle, d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle
+ms.keywords: ",  , 3, D, D3DKMTOpenProtectedSessionFromNtHandle, D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], F, H, K, M, N, O, P, S, T, a, c, d, d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle, display.d3dkmtopenprotectedsessionfromnthandle, e, i, l, m, n, o, p, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

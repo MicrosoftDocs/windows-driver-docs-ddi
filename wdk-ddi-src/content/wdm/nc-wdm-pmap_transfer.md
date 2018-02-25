@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50126ab8-3094-497e-96f8-e41255d275e3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.maptransfer, MapTransfer, MapTransfer callback function [Kernel-Mode Driver Architecture], MapTransfer, PMAP_TRANSFER, PMAP_TRANSFER, wdm/MapTransfer, kdma_4bc30c1d-1d83-424f-9c58-cd92c5e9d331.xml
+ms.keywords: MapTransfer, MapTransfer callback function [Kernel-Mode Driver Architecture], PMAP_TRANSFER, kdma_4bc30c1d-1d83-424f-9c58-cd92c5e9d331.xml, kernel.maptransfer, wdm/MapTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,23 +135,7 @@ The driver of a bus-master device with scatter/gather support can use the return
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
-
-
-
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-
-
-
-<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
 
 
 
@@ -159,15 +143,31 @@ The driver of a bus-master device with scatter/gather support can use the return
 
 
 
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
-
-
-
 <a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
 
 
 
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
+
+
+
+<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
+
+
+
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+
+
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4e10afc0-b9c4-4495-83a1-11f9b82143fc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.iounregisterfsregistrationchange, IoUnregisterFsRegistrationChange, ntifs/IoUnregisterFsRegistrationChange, IoUnregisterFsRegistrationChange routine [Installable File System Drivers], ioref_18a53f5a-49f9-40ba-bf85-d2fea7d6fbfb.xml
+ms.keywords: ",  , C, F, I, IoUnregisterFsRegistrationChange, IoUnregisterFsRegistrationChange routine [Installable File System Drivers], R, U, a, e, g, h, i, ifsk.iounregisterfsregistrationchange, ioref_18a53f5a-49f9-40ba-bf85-d2fea7d6fbfb.xml, n, ntifs/IoUnregisterFsRegistrationChange, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

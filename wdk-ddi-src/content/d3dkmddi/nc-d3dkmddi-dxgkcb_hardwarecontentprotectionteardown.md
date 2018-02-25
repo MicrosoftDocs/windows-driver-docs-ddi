@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7B12B9AD-2288-4CE0-A4D8-F1C96150CE45
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbhardwarecontentprotectionteardown, DxgkCbHardwareContentProtectionTeardown callback function [Display Devices], DxgkCbHardwareContentProtectionTeardown, DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, d3dkmddi/DxgkCbHardwareContentProtectionTeardown
+ms.keywords: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, DxgkCbHardwareContentProtectionTeardown, DxgkCbHardwareContentProtectionTeardown callback function [Display Devices], d3dkmddi/DxgkCbHardwareContentProtectionTeardown, display.dxgkcbhardwarecontentprotectionteardown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

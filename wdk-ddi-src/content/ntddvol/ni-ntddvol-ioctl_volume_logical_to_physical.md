@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: deadee81-4a6d-4c8b-80fd-46c29becc2cf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_volume_logical_to_physical, IOCTL_VOLUME_LOGICAL_TO_PHYSICAL control code [Storage Devices], IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, ntddvol/IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, k307_a96f1e34-902f-4d5f-8935-96a963cfa041.xml
+ms.keywords: IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, IOCTL_VOLUME_LOGICAL_TO_PHYSICAL control code [Storage Devices], k307_a96f1e34-902f-4d5f-8935-96a963cfa041.xml, ntddvol/IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, storage.ioctl_volume_logical_to_physical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -131,15 +131,15 @@ The output buffer is too small. The volume manager sets the <b>Irp-&gt;IoStatus.
 
 ## -see-also
 
-<a href="..\ntddvol\ns-ntddvol-_volume_physical_offset.md">VOLUME_PHYSICAL_OFFSET</a>
-
-
-
 <a href="..\ntddvol\ns-ntddvol-_volume_logical_offset.md">VOLUME_LOGICAL_OFFSET</a>
 
 
 
 <a href="..\ntddvol\ns-ntddvol-_volume_physical_offsets.md">VOLUME_PHYSICAL_OFFSETS</a>
+
+
+
+<a href="..\ntddvol\ns-ntddvol-_volume_physical_offset.md">VOLUME_PHYSICAL_OFFSET</a>
 
 
 

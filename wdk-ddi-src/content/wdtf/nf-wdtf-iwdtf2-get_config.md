@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d7302c51-02b3-4876-b215-6bde1160245a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Config property [Windows Device Testing Framework], IWDTF2 interface, IWDTF2, IWDTF2.Config, Config property [Windows Device Testing Framework], get_Config, wdtf/IWDTF2::Config, wdtf/IWDTF2::get_Config, IWDTF2::get_Config, IWDTF2 interface [Windows Device Testing Framework], Config property, dtf.iwdtf2_config, Microsoft.WDTF.IWDTF2.Config, Microsoft::WDTF::IWDTF2::Config
+ms.keywords: ",  , ,, ., 2, :, C, Config property [Windows Device Testing Framework], Config property [Windows Device Testing Framework], IWDTF2 interface, D, F, I, IWDTF2, IWDTF2 interface [Windows Device Testing Framework], Config property, IWDTF2.Config, IWDTF2::get_Config, Microsoft.WDTF.IWDTF2.Config, Microsoft::WDTF::IWDTF2::Config, T, W, _, dtf.iwdtf2_config, e, f, g, get_Config,IWDTF2.get_Config, i, n, o, t, wdtf/IWDTF2::Config, wdtf/IWDTF2::get_Config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_Config(
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtf2.md">IWDTF2</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtfconfig2.md">IWDTFConfig2</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtf2.md">IWDTF2</a>
 
 
 

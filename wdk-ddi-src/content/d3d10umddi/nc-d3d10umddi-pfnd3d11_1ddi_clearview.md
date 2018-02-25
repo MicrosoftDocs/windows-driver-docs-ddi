@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3cc08ea-22db-4fae-a180-76f3babd1c5c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.clearview, ClearView callback function [Display Devices], ClearView, PFND3D11_1DDI_CLEARVIEW, PFND3D11_1DDI_CLEARVIEW, d3d10umddi/ClearView, display.pfnclearview, display.clearview_d3d11_1_
+ms.keywords: ClearView, ClearView callback function [Display Devices], PFND3D11_1DDI_CLEARVIEW, d3d10umddi/ClearView, display.clearview, display.clearview_d3d11_1_, display.pfnclearview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

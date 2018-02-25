@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 52c7007f-6038-41d8-b459-f0fa1b90fd5e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: biometric.ioctl_biometric_capture_data, IOCTL_BIOMETRIC_CAPTURE_DATA control code [Biometric Devices], IOCTL_BIOMETRIC_CAPTURE_DATA, winbio_ioctl/IOCTL_BIOMETRIC_CAPTURE_DATA, biometric_ref_8337ca76-e92a-4efe-a73f-3f23c01f35c2.xml
+ms.keywords: IOCTL_BIOMETRIC_CAPTURE_DATA, IOCTL_BIOMETRIC_CAPTURE_DATA control code [Biometric Devices], biometric.ioctl_biometric_capture_data, biometric_ref_8337ca76-e92a-4efe-a73f-3f23c01f35c2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CAPTURE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66c0347f-2cf3-42fc-8641-47c731e958c9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnescapecb, pfnEscapeCb callback function [Display Devices], pfnEscapeCb, PFND3DDDI_ESCAPECB, PFND3DDDI_ESCAPECB, d3dumddi/pfnEscapeCb, D3Druntime_Functions_8c7e48ef-f8e8-45d2-a424-9065e97f725f.xml
+ms.keywords: D3Druntime_Functions_8c7e48ef-f8e8-45d2-a424-9065e97f725f.xml, PFND3DDDI_ESCAPECB, d3dumddi/pfnEscapeCb, display.pfnescapecb, pfnEscapeCb, pfnEscapeCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -172,15 +172,15 @@ A user-mode display driver calls <b>pfnEscapeCb</b> to share miscellaneous infor
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_escape.md">D3DDDICB_ESCAPE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 

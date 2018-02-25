@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B25AD9E0-FBDA-4E4F-A268-92C9AA761191
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DebugConnectWide, debugger.debugconnectwide, DebugConnectWide function [Windows Debugging], dbgeng/DebugConnectWide
+ms.keywords: ",  , C, D, DebugConnectWide, DebugConnectWide function [Windows Debugging], W, b, c, d, dbgeng/DebugConnectWide, debugger.debugconnectwide, e, g, i, n, o, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

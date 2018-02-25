@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D9047BB2-2FCD-41DE-B1E1-DE89AAA40ED7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.boundcallback, BoundCallback routine [Kernel-Mode Driver Architecture], BoundCallback, BOUND_CALLBACK, BOUND_CALLBACK, wdm/BoundCallback
+ms.keywords: BOUND_CALLBACK, BoundCallback, BoundCallback routine [Kernel-Mode Driver Architecture], kernel.boundcallback, wdm/BoundCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

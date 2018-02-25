@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1bfe2b9c-90f6-48bf-b0b3-30788ef94110
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.decryptionblt, DecryptionBlt callback function [Display Devices], DecryptionBlt, PFND3DDDI_DECRYPTIONBLT, PFND3DDDI_DECRYPTIONBLT, d3dumddi/DecryptionBlt, UserModeDisplayDriver_Functions_6c7efbab-8c07-4953-80cc-4d18080c12cc.xml
+ms.keywords: DecryptionBlt, DecryptionBlt callback function [Display Devices], PFND3DDDI_DECRYPTIONBLT, UserModeDisplayDriver_Functions_6c7efbab-8c07-4953-80cc-4d18080c12cc.xml, d3dumddi/DecryptionBlt, display.decryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -162,15 +162,15 @@ The Direct3D runtime verifies that the source surface specified by the <b>SrcSub
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decryptionblt.md">D3DDDIARG_DECRYPTIONBLT</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createcryptosession.md">D3DDDIARG_CREATECRYPTOSESSION</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 

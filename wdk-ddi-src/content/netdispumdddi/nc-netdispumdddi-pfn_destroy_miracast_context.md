@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1b155e15-1e4e-45bb-98cc-f1c19923ed2c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroymiracastcontext, DestroyMiracastContext callback function [Display Devices], DestroyMiracastContext, PFN_DESTROY_MIRACAST_CONTEXT, PFN_DESTROY_MIRACAST_CONTEXT, netdispumdddi/DestroyMiracastContext
+ms.keywords: DestroyMiracastContext, DestroyMiracastContext callback function [Display Devices], PFN_DESTROY_MIRACAST_CONTEXT, display.destroymiracastcontext, netdispumdddi/DestroyMiracastContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -108,7 +108,7 @@ The operating system guarantees that only one of the <a href="..\netdispumdddi\n
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
 
 
@@ -116,7 +116,7 @@ The operating system guarantees that only one of the <a href="..\netdispumdddi\n
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
 
 

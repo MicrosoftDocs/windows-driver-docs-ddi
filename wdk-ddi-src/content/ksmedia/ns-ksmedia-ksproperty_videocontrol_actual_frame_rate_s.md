@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 98b6c085-d7d0-47e4-acea-a272487f20c2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksproperty_videocontrol_actual_frame_rate_s, *PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, vidcapstruct_7ae44134-3ba1-4419-9290-c305f345e29c.xml, ksmedia/PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, ksmedia/KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure pointer [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S
+ms.keywords: ",  , *, *PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, ,, A, C, D, E, F, I, K, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure [Streaming Media Devices], L, M, N, O, P, PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure pointer [Streaming Media Devices], R, S, T, U, V, Y, _, ksmedia/KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, stream.ksproperty_videocontrol_actual_frame_rate_s, vidcapstruct_7ae44134-3ba1-4419-9290-c305f345e29c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,7 +113,7 @@ The minidriver should return STATUS_NOT_SUPPORTED if the pin is not open.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -121,7 +121,7 @@ The minidriver should return STATUS_NOT_SUPPORTED if the pin is not open.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
 
 
 

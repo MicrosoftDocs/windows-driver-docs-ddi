@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13cb1da1-0bb7-444e-a0e1-abcac7d0240d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS, _WDF_PDO_EVENT_CALLBACKS, kmdf.wdf_pdo_event_callbacks, WDF_PDO_EVENT_CALLBACKS structure, wdfpdo/WDF_PDO_EVENT_CALLBACKS, PWDF_PDO_EVENT_CALLBACKS structure pointer, wdf.wdf_pdo_event_callbacks, DFDeviceObjectFdoPdoRef_7a22d0f9-82ea-448e-8272-d3009beea440.xml, WDF_PDO_EVENT_CALLBACKS, wdfpdo/PWDF_PDO_EVENT_CALLBACKS
+ms.keywords: ",  , *, *PWDF_PDO_EVENT_CALLBACKS, ,, A, B, C, D, DFDeviceObjectFdoPdoRef_7a22d0f9-82ea-448e-8272-d3009beea440.xml, E, F, K, L, N, O, P, PWDF_PDO_EVENT_CALLBACKS, PWDF_PDO_EVENT_CALLBACKS structure pointer, S, T, V, W, WDF_PDO_EVENT_CALLBACKS, WDF_PDO_EVENT_CALLBACKS structure, _, _WDF_PDO_EVENT_CALLBACKS, kmdf.wdf_pdo_event_callbacks, wdf.wdf_pdo_event_callbacks, wdfpdo/PWDF_PDO_EVENT_CALLBACKS, wdfpdo/WDF_PDO_EVENT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,7 +134,7 @@ Drivers must call <a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">
 
 
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
 
 
 
@@ -142,7 +142,7 @@ Drivers must call <a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
 
 
 

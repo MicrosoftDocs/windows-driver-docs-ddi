@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 200c957d-2ba4-488b-afd7-609c13543a7a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE structure pointer [Display Devices], video/VIDEO_ACCESS_RANGE, display.video_access_range, _VIDEO_ACCESS_RANGE, *PVIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE, Video_Structs_b5c6bb55-a4a4-41be-879c-de6f71abe988.xml, VIDEO_ACCESS_RANGE structure [Display Devices], video/PVIDEO_ACCESS_RANGE
+ms.keywords: ",  , *, *PVIDEO_ACCESS_RANGE, ,, A, C, D, E, G, I, N, O, P, PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE structure pointer [Display Devices], R, S, V, VIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE structure [Display Devices], Video_Structs_b5c6bb55-a4a4-41be-879c-de6f71abe988.xml, _, _VIDEO_ACCESS_RANGE, display.video_access_range, video/PVIDEO_ACCESS_RANGE, video/VIDEO_ACCESS_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -186,19 +186,11 @@ In an array of VIDEO_ACCESS_RANGE-type elements passed to <b>VideoPortSetTrapped
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
-
-
-
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
 
 
 
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-
-
-
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
 
 
 
@@ -206,15 +198,7 @@ In an array of VIDEO_ACCESS_RANGE-type elements passed to <b>VideoPortSetTrapped
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
-
-
-
-<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
 
 
@@ -226,7 +210,7 @@ In an array of VIDEO_ACCESS_RANGE-type elements passed to <b>VideoPortSetTrapped
 
 
 
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 
 
@@ -234,7 +218,23 @@ In an array of VIDEO_ACCESS_RANGE-type elements passed to <b>VideoPortSetTrapped
 
 
 
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+
+
+
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 

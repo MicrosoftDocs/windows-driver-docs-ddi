@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a0a19747-ab39-4606-a49b-78e5e056da32
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winsplp/ControlPrintProcessor, print.controlprintprocessor, ControlPrintProcessor, ControlPrintProcessor function [Print Devices], spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml
+ms.keywords: ",  , C, ControlPrintProcessor, ControlPrintProcessor function [Print Devices], P, c, e, i, l, n, o, print.controlprintprocessor, r, s, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, t, winsplp/ControlPrintProcessor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

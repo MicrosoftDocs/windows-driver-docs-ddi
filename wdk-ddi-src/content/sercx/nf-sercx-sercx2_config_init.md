@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 630C7EDA-8C6A-4BD7-9287-EA15FBA34408
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SERCX2_CONFIG_INIT function [Serial Ports], serports.sercx2_config_init, 2/SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT
+ms.keywords: ",  , 2, 2/SERCX2_CONFIG_INIT, C, E, F, G, I, N, O, R, S, SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT function [Serial Ports], T, X, _, serports.sercx2_config_init"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

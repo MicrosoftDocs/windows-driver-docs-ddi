@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 99a91bb4-4fcd-4b49-bd1e-4551027b5d1f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlinitializegenerictable, ntddk/RtlInitializeGenericTable, rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml, RtlInitializeGenericTable, RtlInitializeGenericTable routine [Installable File System Drivers]
+ms.keywords: ",  , G, I, R, RtlInitializeGenericTable, RtlInitializeGenericTable routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtlinitializegenerictable, l, n, ntddk/RtlInitializeGenericTable, r, rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -243,6 +243,10 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
 
 
@@ -251,15 +255,11 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
 
 
 

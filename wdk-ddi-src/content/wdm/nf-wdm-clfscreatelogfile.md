@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 297f7b03-efd0-4e9c-a758-1a3b5b89511d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ClfsCreateLogFile, Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, ClfsCreateLogFile, kernel.clfscreatelogfile, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, ClfsCreateLogFile, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture], Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, F, L, a, e, f, g, i, kernel.clfscreatelogfile, l, o, r, s, t, wdm/ClfsCreateLogFile"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -395,11 +395,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
 
 
 

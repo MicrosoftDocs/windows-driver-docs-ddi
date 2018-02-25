@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3d474eb7-6622-48fd-bf40-c17d03933828
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_get_control, IOCTL_CDROM_GET_CONTROL control code [Storage Devices], IOCTL_CDROM_GET_CONTROL, ntddcdrm/IOCTL_CDROM_GET_CONTROL, k307_441b4747-9431-42c3-b550-39aaea1229f1.xml
+ms.keywords: IOCTL_CDROM_GET_CONTROL, IOCTL_CDROM_GET_CONTROL control code [Storage Devices], k307_441b4747-9431-42c3-b550-39aaea1229f1.xml, ntddcdrm/IOCTL_CDROM_GET_CONTROL, storage.ioctl_cdrom_get_control
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

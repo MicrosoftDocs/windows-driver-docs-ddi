@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0871EA8C-4F59-451E-89FB-8A0D44219456
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture], kernel.psgetsilomonitorcontextslot, ntddk/PsGetSiloMonitorContextSlot
+ms.keywords: ",  , C, G, M, P, PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture], S, e, i, kernel.psgetsilomonitorcontextslot, l, n, ntddk/PsGetSiloMonitorContextSlot, o, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

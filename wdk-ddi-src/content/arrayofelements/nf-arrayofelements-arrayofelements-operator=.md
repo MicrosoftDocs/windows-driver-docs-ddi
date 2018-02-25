@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: operator= method [Windows Debugging], ExtRemoteTyped class, ExtRemoteTyped class [Windows Debugging], operator= method, debugger.extremotetyped_operatorequals_debug_typed_data, operator=, operator= method [Windows Debugging]
+ms.keywords: ",  , =, ExtRemoteTyped class [Windows Debugging], operator= method, a, debugger.extremotetyped_operatorequals_debug_typed_data, e, o, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging], ExtRemoteTyped class, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,15 +99,15 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 ## -see-also
 
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 
 
-<a href="..\wexlogtrace\nf-wexlogtrace-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
-
-
-
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+<a href="..\arrayofelements\nf-arrayofelements-arrayofelements-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
 
 
 

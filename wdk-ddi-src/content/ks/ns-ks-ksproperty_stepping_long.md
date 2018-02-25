@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bf0c16f5-ecfa-42bc-bd60-805d5b28ddc3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks-struct_2aad8fb1-d35c-4227-ad97-92451261b33c.xml, PKSPROPERTY_STEPPING_LONG, ks/KSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG structure [Streaming Media Devices], PKSPROPERTY_STEPPING_LONG structure pointer [Streaming Media Devices], KSPROPERTY_STEPPING_LONG, ks/PKSPROPERTY_STEPPING_LONG, stream.ksproperty_stepping_long, *PKSPROPERTY_STEPPING_LONG
+ms.keywords: ",  , *, *PKSPROPERTY_STEPPING_LONG, ,, E, G, I, K, KSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG structure [Streaming Media Devices], L, N, O, P, PKSPROPERTY_STEPPING_LONG, PKSPROPERTY_STEPPING_LONG structure pointer [Streaming Media Devices], R, S, T, Y, _, ks-struct_2aad8fb1-d35c-4227-ad97-92451261b33c.xml, ks/KSPROPERTY_STEPPING_LONG, ks/PKSPROPERTY_STEPPING_LONG, stream.ksproperty_stepping_long"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

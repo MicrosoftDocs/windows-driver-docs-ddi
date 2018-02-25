@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FFCD2329-FD6A-48AE-8E9D-56AA7D79B174
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlIsDaxVolume routine [Installable File System Drivers], FsRtlIsDaxVolume, ifsk.fsrtlisdaxvolume, ntifs/FsRtlIsDaxVolume
+ms.keywords: ",  , D, F, FsRtlIsDaxVolume, FsRtlIsDaxVolume routine [Installable File System Drivers], I, R, V, a, e, ifsk.fsrtlisdaxvolume, l, m, ntifs/FsRtlIsDaxVolume, o, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

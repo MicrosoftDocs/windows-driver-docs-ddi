@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5ad6288-6123-4665-a48e-bbae856cc160
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTSetAllocationPriority, OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, D3DKMTSetAllocationPriority function [Display Devices], display.d3dkmtsetallocationpriority, D3DKMTSetAllocationPriority
+ms.keywords: ",  , 3, A, D, D3DKMTSetAllocationPriority, D3DKMTSetAllocationPriority function [Display Devices], K, M, OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, P, S, T, a, c, d3dkmthk/D3DKMTSetAllocationPriority, display.d3dkmtsetallocationpriority, e, i, l, n, o, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

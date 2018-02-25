@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D995FB36-177A-44BF-9326-EB2820DB0962
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortRegistryWriteAdapterKey, storage.storportregistrywriteadapterkey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storport/StorPortRegistryWriteAdapterKey
+ms.keywords: ",  , A, K, P, R, S, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], W, a, d, e, g, i, o, p, r, s, storage.storportregistrywriteadapterkey, storport/StorPortRegistryWriteAdapterKey, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

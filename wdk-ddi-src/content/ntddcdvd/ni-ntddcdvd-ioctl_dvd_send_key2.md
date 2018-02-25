@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 58b9c2a5-cd29-4c62-b5ae-39911821e3b7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_dvd_send_key2, IOCTL_DVD_SEND_KEY2 control code [Storage Devices], IOCTL_DVD_SEND_KEY2, ntddcdvd/IOCTL_DVD_SEND_KEY2, k307_f38bdf8b-8bdc-4f28-bf53-d42f8b04a610.xml
+ms.keywords: IOCTL_DVD_SEND_KEY2, IOCTL_DVD_SEND_KEY2 control code [Storage Devices], k307_f38bdf8b-8bdc-4f28-bf53-d42f8b04a610.xml, ntddcdvd/IOCTL_DVD_SEND_KEY2, storage.ioctl_dvd_send_key2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

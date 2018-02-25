@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 3873ed15-cb68-4442-8b4d-e4b370d29728
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.itracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework], described, ITracer, wdtf/ITracer, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml
+ms.keywords: ITracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework], described, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml, dtf.itracer, wdtf/ITracer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -329,11 +329,11 @@ TraceLevel Path: HKCR\WDTF.Tracer.1\
 
 ## -see-also
 
-<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+
+
+
+<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
 
 
 

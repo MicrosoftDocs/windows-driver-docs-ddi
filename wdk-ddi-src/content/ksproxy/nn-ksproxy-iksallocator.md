@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d6db041-e5ea-4394-9d88-b4b5b377fe1d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.iksallocator, IKsAllocator interface [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices], described, IKsAllocator, ksproxy/IKsAllocator, ksproxy_f3288ae8-cea3-4892-9b5b-f03e2c5ec8c4.xml
+ms.keywords: IKsAllocator, IKsAllocator interface [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices], described, ksproxy/IKsAllocator, ksproxy_f3288ae8-cea3-4892-9b5b-f03e2c5ec8c4.xml, stream.iksallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

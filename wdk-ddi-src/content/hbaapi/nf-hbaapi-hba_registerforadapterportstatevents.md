@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 82598ba4-6e01-44eb-9359-4b85e8f7980c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbaapi/HBA_RegisterForAdapterPortStatEvents, storage.hba_registerforadapterportstatevents, HBA_RegisterForAdapterPortStatEvents routine [Storage Devices], HBA_RegisterForAdapterPortStatEvents, fibreHBA_rtns_38f8ecc4-4c08-4707-98f1-076602ecae27.xml
+ms.keywords: ",  , A, B, E, F, H, HBA_RegisterForAdapterPortStatEvents, HBA_RegisterForAdapterPortStatEvents routine [Storage Devices], P, R, S, _, a, d, e, fibreHBA_rtns_38f8ecc4-4c08-4707-98f1-076602ecae27.xml, g, hbaapi/HBA_RegisterForAdapterPortStatEvents, i, n, o, p, r, s, storage.hba_registerforadapterportstatevents, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -194,7 +194,7 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557117">HBA_PORTSTAT_CALLBACK</a>
 
 
 
@@ -202,7 +202,7 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557117">HBA_PORTSTAT_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

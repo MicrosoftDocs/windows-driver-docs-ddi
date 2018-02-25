@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 586688EC-51B1-488E-BFC6-7796C37593BF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pssetcreatethreadnotifyroutineex, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], ntddk/PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx
+ms.keywords: ",  , C, E, N, P, PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], R, S, T, a, d, e, f, h, i, kernel.pssetcreatethreadnotifyroutineex, n, ntddk/PsSetCreateThreadNotifyRoutineEx, o, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,11 +105,19 @@ A driver must remove any callback function it registers before it unloads. You c
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+<a href="..\ntddk\nf-ntddk-psremovecreatethreadnotifyroutine.md">PsRemoveCreateThreadNotifyRoutine</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
 
 
 
@@ -121,15 +129,7 @@ A driver must remove any callback function it registers before it unloads. You c
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-psremovecreatethreadnotifyroutine.md">PsRemoveCreateThreadNotifyRoutine</a>
+<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
 
 
 

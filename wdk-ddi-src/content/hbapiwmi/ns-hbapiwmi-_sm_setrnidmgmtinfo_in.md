@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4b248886-8f1d-42c3-89dc-f6f0cd9ae683
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SM_SetRNIDMgmtInfo_IN structure [Storage Devices], storage.sm_setrnidmgmtinfo_in, *PSM_SetRNIDMgmtInfo_IN, SM_SetRNIDMgmtInfo_IN, hbapiwmi/PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN structure pointer [Storage Devices], PSM_SetRNIDMgmtInfo_IN, _SM_SetRNIDMgmtInfo_IN, structs-Fibre_1da5987a-4759-4d2a-9e33-5c33123314fc.xml, hbapiwmi/SM_SetRNIDMgmtInfo_IN
+ms.keywords: ",  , *, *PSM_SetRNIDMgmtInfo_IN, ,, D, I, M, N, P, PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN structure pointer [Storage Devices], R, S, SM_SetRNIDMgmtInfo_IN, SM_SetRNIDMgmtInfo_IN structure [Storage Devices], _, _SM_SetRNIDMgmtInfo_IN, e, f, g, hbapiwmi/PSM_SetRNIDMgmtInfo_IN, hbapiwmi/SM_SetRNIDMgmtInfo_IN, m, n, o, storage.sm_setrnidmgmtinfo_in, structs-Fibre_1da5987a-4759-4d2a-9e33-5c33123314fc.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e88c89fb-c308-4c6d-a67d-c8f98d539a43
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KeReadStateSemaphore, KeReadStateSemaphore, k105_cc608a62-f747-4d8c-a4f8-b6df51a4d5dd.xml, KeReadStateSemaphore routine [Kernel-Mode Driver Architecture], kernel.kereadstatesemaphore
+ms.keywords: ",  , K, KeReadStateSemaphore, KeReadStateSemaphore routine [Kernel-Mode Driver Architecture], R, S, a, d, e, h, k105_cc608a62-f747-4d8c-a4f8-b6df51a4d5dd.xml, kernel.kereadstatesemaphore, m, o, p, r, t, wdm/KeReadStateSemaphore"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

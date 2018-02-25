@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5bdb39cc-18b3-4a01-b733-f308273399a1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxvahdddi_blt_state_constriction_data, DXVA2_Structs_4759e9c4-cde3-40d9-8f13-a7437ba73eac.xml, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, _DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA structure [Display Devices]
+ms.keywords: ",  , ,, A, B, C, D, DXVA2_Structs_4759e9c4-cde3-40d9-8f13-a7437ba73eac.xml, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA structure [Display Devices], E, H, I, L, N, O, R, S, T, V, X, _, _DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, display.dxvahdddi_blt_state_constriction_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,15 +93,11 @@ If the supplied sampling size is larger than the size of the target rectangle, t
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
@@ -110,6 +106,10 @@ If the supplied sampling size is larger than the size of the target rectangle, t
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
 
 
 

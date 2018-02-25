@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae230ff0-4fd9-417b-8ee0-80e3ca5a30ff
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbPipeTypeInvalid, wdfusb/WdfUsbPipeTypeInterrupt, kmdf.wdf_usb_pipe_type, WdfUsbPipeTypeBulk, WDF_USB_PIPE_TYPE enumeration, WdfUsbPipeTypeControl, wdf.wdf_usb_pipe_type, DFUsbRef_6a3da4b3-f8ac-4208-bdd2-1136a6417b3a.xml, wdfusb/WDF_USB_PIPE_TYPE, wdfusb/WdfUsbPipeTypeIsochronous, wdfusb/WdfUsbPipeTypeBulk, _WDF_USB_PIPE_TYPE, WdfUsbPipeTypeIsochronous, wdfusb/WdfUsbPipeTypeControl, WDF_USB_PIPE_TYPE, WdfUsbPipeTypeInterrupt, WdfUsbPipeTypeInvalid
+ms.keywords: ",  , ,, B, D, DFUsbRef_6a3da4b3-f8ac-4208-bdd2-1136a6417b3a.xml, E, F, I, P, S, T, U, W, WDF_USB_PIPE_TYPE, WDF_USB_PIPE_TYPE enumeration, WdfUsbPipeTypeBulk, WdfUsbPipeTypeControl, WdfUsbPipeTypeInterrupt, WdfUsbPipeTypeInvalid, WdfUsbPipeTypeIsochronous, Y, _, _WDF_USB_PIPE_TYPE, kmdf.wdf_usb_pipe_type, wdf.wdf_usb_pipe_type, wdfusb/WDF_USB_PIPE_TYPE, wdfusb/WdfUsbPipeTypeBulk, wdfusb/WdfUsbPipeTypeControl, wdfusb/WdfUsbPipeTypeInterrupt, wdfusb/WdfUsbPipeTypeInvalid, wdfusb/WdfUsbPipeTypeIsochronous"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3eebda5e-72c6-4167-a886-58e877551923
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroyauthenticatedchannel1, pfnDestroyAuthenticatedChannel callback function [Display Devices], pfnDestroyAuthenticatedChannel, PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL, PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL, d3d10umddi/pfnDestroyAuthenticatedChannel, display.pfndestroyauthenticatedchannel1
+ms.keywords: PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL, d3d10umddi/pfnDestroyAuthenticatedChannel, display.destroyauthenticatedchannel1, display.pfndestroyauthenticatedchannel1, pfnDestroyAuthenticatedChannel, pfnDestroyAuthenticatedChannel callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c4a6faa4-f3ea-4504-8d3b-a34465c90273
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_changer_get_parameters, IOCTL_CHANGER_GET_PARAMETERS control code [Storage Devices], IOCTL_CHANGER_GET_PARAMETERS, ntddchgr/IOCTL_CHANGER_GET_PARAMETERS, k307_e3288dd0-4585-40de-aa5a-499c596aa75b.xml
+ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control code [Storage Devices], k307_e3288dd0-4585-40de-aa5a-499c596aa75b.xml, ntddchgr/IOCTL_CHANGER_GET_PARAMETERS, storage.ioctl_changer_get_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

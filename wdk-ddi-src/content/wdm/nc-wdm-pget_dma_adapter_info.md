@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2F502ACA-0CFF-46A1-B54C-1034D6E56815
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.getdmaadapterinfo, GetDmaAdapterInfo, GetDmaAdapterInfo callback function [Kernel-Mode Driver Architecture], GetDmaAdapterInfo, PGET_DMA_ADAPTER_INFO, PGET_DMA_ADAPTER_INFO, wdm/GetDmaAdapterInfo
+ms.keywords: GetDmaAdapterInfo, GetDmaAdapterInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_ADAPTER_INFO, kernel.getdmaadapterinfo, wdm/GetDmaAdapterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -136,11 +136,11 @@ For information about the DMA adapter information that is provided by version 1 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER_INFO</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER_INFO</a>
 
 
 

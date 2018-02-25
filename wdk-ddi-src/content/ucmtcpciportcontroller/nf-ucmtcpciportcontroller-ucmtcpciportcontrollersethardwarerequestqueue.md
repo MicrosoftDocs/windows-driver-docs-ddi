@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 47142adb-4d22-41eb-b455-93409bbffffb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ucmtcpciportcontrollersethardwarerequestqueue, ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], UcmTcpciPortControllerSetHardwareRequestQueue
+ms.keywords: ",  , C, H, P, Q, R, S, T, U, UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], a, buses.ucmtcpciportcontrollersethardwarerequestqueue, c, d, e, i, l, m, n, o, p, q, r, s, t, u, ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

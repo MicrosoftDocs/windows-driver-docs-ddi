@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d24d9aea-0cdd-4130-9904-4e50c825612e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfworkitem/WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT, DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, kmdf.wdf_workitem_config_init, wdf.wdf_workitem_config_init, WDF_WORKITEM_CONFIG_INIT function
+ms.keywords: ",  , C, D, DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, E, F, G, I, K, M, N, O, R, T, W, WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT function, _, kmdf.wdf_workitem_config_init, wdf.wdf_workitem_config_init, wdfworkitem/WDF_WORKITEM_CONFIG_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

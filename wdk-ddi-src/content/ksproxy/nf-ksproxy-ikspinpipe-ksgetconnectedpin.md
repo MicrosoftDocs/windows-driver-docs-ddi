@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9025E49D-A12B-4617-9441-13B61137853E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsGetConnectedPin, stream.ikspinpipe_ksgetconnectedpin, IKsPinPipe, IKsPinPipe::KsGetConnectedPin, KsGetConnectedPin method [Streaming Media Devices], IKsPinPipe interface [Streaming Media Devices], KsGetConnectedPin method, ksproxy/IKsPinPipe::KsGetConnectedPin, KsGetConnectedPin method [Streaming Media Devices], IKsPinPipe interface
+ms.keywords: ",  , ,, ., :, C, G, I, IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsGetConnectedPin method, IKsPinPipe::KsGetConnectedPin, K, KsGetConnectedPin method [Streaming Media Devices], KsGetConnectedPin method [Streaming Media Devices], IKsPinPipe interface, KsGetConnectedPin,IKsPinPipe.KsGetConnectedPin, P, c, d, e, i, ksproxy/IKsPinPipe::KsGetConnectedPin, n, o, p, s, stream.ikspinpipe_ksgetconnectedpin, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7cac46d-b64d-4362-99ab-179aa6525ba2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTInvalidateActiveVidPn, D3DKMTInvalidateActiveVidPn function [Display Devices], D3DKMTInvalidateActiveVidPn, display.d3dkmtinvalidateactivevidpn, OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml
+ms.keywords: ",  , 3, A, D, D3DKMTInvalidateActiveVidPn, D3DKMTInvalidateActiveVidPn function [Display Devices], I, K, M, OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml, P, T, V, a, c, d, d3dkmthk/D3DKMTInvalidateActiveVidPn, display.d3dkmtinvalidateactivevidpn, e, i, l, n, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -188,11 +188,11 @@ The OpenGL ICD can call <b>D3DKMTInvalidateActiveVidPn</b> for display modes (fo
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetdisplaymode.md">D3DKMTSetDisplayMode</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_invalidateactivevidpn.md">D3DKMT_INVALIDATEACTIVEVIDPN</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetdisplaymode.md">D3DKMTSetDisplayMode</a>
 
 
 

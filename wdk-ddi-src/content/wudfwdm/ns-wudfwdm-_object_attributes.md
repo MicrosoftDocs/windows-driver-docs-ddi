@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, OBJECT_ATTRIBUTES, *POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES, _OBJECT_ATTRIBUTES, wudfwdm/POBJECT_ATTRIBUTES, wudfwdm/OBJECT_ATTRIBUTES, kernel.object_attributes, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *POBJECT_ATTRIBUTES, ,, A, B, C, E, I, J, O, OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], P, POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], R, S, T, U, _, _OBJECT_ATTRIBUTES, kernel.object_attributes, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, wudfwdm/OBJECT_ATTRIBUTES, wudfwdm/POBJECT_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -220,7 +220,7 @@ Driver routines that run in a process context other than that of the system proc
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
 
 
 
@@ -228,11 +228,7 @@ Driver routines that run in a process context other than that of the system proc
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
 
 
@@ -240,23 +236,27 @@ Driver routines that run in a process context other than that of the system proc
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 

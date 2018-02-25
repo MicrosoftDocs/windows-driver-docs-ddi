@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0e317aea-3625-4511-94e1-355c476c0da6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.sdpretrieveuuid128, SdpRetrieveUuid128 callback function [Bluetooth Devices], SdpRetrieveUuid128, PRETRIEVEUUID128, PRETRIEVEUUID128, sdplib/SdpRetrieveUuid128, bth_funcs_a4149063-722b-45c0-a86b-ffce73b94b0d.xml
+ms.keywords: PRETRIEVEUUID128, SdpRetrieveUuid128, SdpRetrieveUuid128 callback function [Bluetooth Devices], bltooth.sdpretrieveuuid128, bth_funcs_a4149063-722b-45c0-a86b-ffce73b94b0d.xml, sdplib/SdpRetrieveUuid128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

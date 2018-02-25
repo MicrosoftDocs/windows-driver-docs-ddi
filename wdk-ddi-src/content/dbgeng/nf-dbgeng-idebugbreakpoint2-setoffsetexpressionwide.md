@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1db89a5a-641b-4fca-bd60-217c9be8f19f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SetOffsetExpressionWide method [Windows Debugging], SetOffsetExpressionWide, dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpressionWide method, debugger.setoffsetexpressionwide, SetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, IDebugBreakpoint2::SetOffsetExpressionWide
+ms.keywords: ",  , ,, ., 2, :, B, D, E, I, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpressionWide method, IDebugBreakpoint2::SetOffsetExpressionWide, O, S, SetOffsetExpressionWide method [Windows Debugging], SetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, SetOffsetExpressionWide,IDebugBreakpoint2.SetOffsetExpressionWide, W, a, b, d, dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide, debugger.setoffsetexpressionwide, e, f, g, i, k, n, o, p, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

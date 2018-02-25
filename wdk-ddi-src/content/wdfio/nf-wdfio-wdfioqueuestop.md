@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 50ff8064-b28c-4b2b-89d2-bad5e503b2d6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfio/WdfIoQueueStop, WdfIoQueueStop, DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml, wdf.wdfioqueuestop, kmdf.wdfioqueuestop, WdfIoQueueStop method
+ms.keywords: ",  , DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml, I, Q, S, W, WdfIoQueueStop, WdfIoQueueStop method, d, e, f, kmdf.wdfioqueuestop, o, p, t, u, wdf.wdfioqueuestop, wdfio/WdfIoQueueStop"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,11 +143,11 @@ WdfIoQueueStop(
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuestopsynchronously.md">WdfIoQueueStopSynchronously</a>
+
+
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
 
 
 

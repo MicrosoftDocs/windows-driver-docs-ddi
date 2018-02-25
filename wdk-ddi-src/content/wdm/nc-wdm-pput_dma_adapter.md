@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 05a76baf-e5f7-41ca-ac9f-4538cd3e0292
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.putdmaadapter, PutDmaAdapter, PutDmaAdapter callback function [Kernel-Mode Driver Architecture], PutDmaAdapter, PPUT_DMA_ADAPTER, PPUT_DMA_ADAPTER, wdm/PutDmaAdapter, kdma_49fe7ec6-e0a3-445e-9275-08b94ca2cf48.xml
+ms.keywords: PPUT_DMA_ADAPTER, PutDmaAdapter, PutDmaAdapter callback function [Kernel-Mode Driver Architecture], kdma_49fe7ec6-e0a3-445e-9275-08b94ca2cf48.xml, kernel.putdmaadapter, wdm/PutDmaAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,7 +103,7 @@ A driver must call <b>PutDmaAdapter</b> when it receives a PnP <a href="https://
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 
@@ -111,7 +111,7 @@ A driver must call <b>PutDmaAdapter</b> when it receives a PnP <a href="https://
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 

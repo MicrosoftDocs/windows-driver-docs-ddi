@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e9e20d9c-0f2f-4ab1-a249-3e09bb6a7a22
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlZeroMemory, RtlZeroMemory routine [Kernel-Mode Driver Architecture], k109_63d9f0fb-d698-4707-9018-de2fa851a94b.xml, kernel.rtlzeromemory, wdm/RtlZeroMemory
+ms.keywords: ",  , M, R, RtlZeroMemory, RtlZeroMemory routine [Kernel-Mode Driver Architecture], Z, e, k109_63d9f0fb-d698-4707-9018-de2fa851a94b.xml, kernel.rtlzeromemory, l, m, o, r, t, wdm/RtlZeroMemory, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

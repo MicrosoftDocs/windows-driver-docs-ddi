@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f28a1ad6-4946-4d1e-b430-2cdee3dfd835
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.clfslogunpinnedcallback, ClfsLogUnpinnedCallback, ClfsLogUnpinnedCallback callback function [Kernel-Mode Driver Architecture], ClfsLogUnpinnedCallback, PCLFS_CLIENT_LOG_UNPINNED_CALLBACK, PCLFS_CLIENT_LOG_UNPINNED_CALLBACK, wdm/ClfsLogUnpinnedCallback, Clfs_management_e82832a3-b4b9-48c7-a706-9d489a55f728.xml
+ms.keywords: ClfsLogUnpinnedCallback, ClfsLogUnpinnedCallback callback function [Kernel-Mode Driver Architecture], Clfs_management_e82832a3-b4b9-48c7-a706-9d489a55f728.xml, PCLFS_CLIENT_LOG_UNPINNED_CALLBACK, kernel.clfslogunpinnedcallback, wdm/ClfsLogUnpinnedCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 88dbdd78-43a4-4ae2-ae49-336a0a621c5c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisRawReadPortUshort, netvista.ndisrawreadportushort, ndis/NdisRawReadPortUshort, miniport_port_raw_ref_5d9255b3-3679-4cd2-bc07-baa0dc2c684f.xml, NdisRawReadPortUshort macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , N, NdisRawReadPortUshort, NdisRawReadPortUshort macro [Network Drivers Starting with Windows Vista], P, R, U, a, d, e, h, i, miniport_port_raw_ref_5d9255b3-3679-4cd2-bc07-baa0dc2c684f.xml, ndis/NdisRawReadPortUshort, netvista.ndisrawreadportushort, o, r, s, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -93,11 +93,11 @@ Pointer to a caller-supplied variable in which this function returns a USHORT va
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 
@@ -105,15 +105,15 @@ Pointer to a caller-supplied variable in which this function returns a USHORT va
 
 
 
+<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 

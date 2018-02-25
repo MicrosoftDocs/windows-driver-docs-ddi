@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1ae68e5c-f9ea-4454-b015-82e3af0f7ccd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_pm_protocol_offload, NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, *PNDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD
+ms.keywords: ",  , *, *PNDIS_PM_PROTOCOL_OFFLOAD, ,, A, C, D, F, I, L, M, N, NDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, _NDIS_PM_PROTOCOL_OFFLOAD, miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, netvista.ndis_pm_protocol_offload, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -315,6 +315,10 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the
 
 ## -see-also
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_pm_protocol_offload_type.md">NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
@@ -328,10 +332,6 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_pm_protocol_offload_type.md">NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a>
 
 
 

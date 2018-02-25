@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2854fa05-61a9-4515-9dc1-463f160ae89a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFSynchroRef_6e5f9884-82a8-4c1e-a039-9e01f4f3d0f1.xml, WdfSpinLockCreate, kmdf.wdfspinlockcreate, WdfSpinLockCreate method, wdf.wdfspinlockcreate, wdfsync/WdfSpinLockCreate
+ms.keywords: ",  , C, DFSynchroRef_6e5f9884-82a8-4c1e-a039-9e01f4f3d0f1.xml, L, S, W, WdfSpinLockCreate, WdfSpinLockCreate method, a, c, d, e, f, i, k, kmdf.wdfspinlockcreate, n, o, p, r, t, wdf.wdfspinlockcreate, wdfsync/WdfSpinLockCreate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,15 +139,15 @@ status = WdfSpinLockCreate(
 
 
 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550044">WdfSpinLockRelease</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550040">WdfSpinLockAcquire</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

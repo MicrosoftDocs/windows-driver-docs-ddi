@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AD3CDF90-76ED-498B-8DE1-B191504EB415
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterscriptablestream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices], described, IPrinterScriptableStream, printerextension/IPrinterScriptableStream
+ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices], described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -100,6 +100,10 @@ Sets the size of the scriptable stream, in bytes.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/EFF55B5C-55E2-4E03-9D96-FDB1BC550A53">IPrinterScriptablePropertyBag::GetWriteStream</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprinterscriptablesequentialstream.md">IPrinterScriptableSequentialStream</a>
 
 
@@ -109,10 +113,6 @@ Sets the size of the scriptable stream, in bytes.
 
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
-
-
-
-<a href="https://msdn.microsoft.com/EFF55B5C-55E2-4E03-9D96-FDB1BC550A53">IPrinterScriptablePropertyBag::GetWriteStream</a>
 
 
 

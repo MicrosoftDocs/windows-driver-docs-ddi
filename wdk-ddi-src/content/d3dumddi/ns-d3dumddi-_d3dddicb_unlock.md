@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e0e6313-1dfa-4b68-8f58-bfa79f3124d6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDICB_UNLOCK structure [Display Devices], D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml, display.d3dddicb_unlock, _D3DDDICB_UNLOCK, d3dumddi/D3DDDICB_UNLOCK, D3DDDICB_UNLOCK
+ms.keywords: ",  , ,, 3, B, C, D, D3DDDICB_UNLOCK, D3DDDICB_UNLOCK structure [Display Devices], D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml, I, K, L, N, O, U, _, _D3DDDICB_UNLOCK, d3dumddi/D3DDDICB_UNLOCK, display.d3dddicb_unlock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ typedef struct _D3DDDICB_UNLOCK {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
 
 
 

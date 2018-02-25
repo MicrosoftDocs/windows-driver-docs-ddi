@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7c31d2c-3893-4d25-837d-d4650aeb1cd1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddirecommendvidpntopology, DxgkDdiRecommendVidPnTopology callback function [Display Devices], DxgkDdiRecommendVidPnTopology, DXGKDDI_RECOMMENDVIDPNTOPOLOGY, DXGKDDI_RECOMMENDVIDPNTOPOLOGY, d3dkmddi/DxgkDdiRecommendVidPnTopology, DmFunctions_8036db05-72c0-4b67-9151-a33da1df4fb8.xml
+ms.keywords: DXGKDDI_RECOMMENDVIDPNTOPOLOGY, DmFunctions_8036db05-72c0-4b67-9151-a33da1df4fb8.xml, DxgkDdiRecommendVidPnTopology, DxgkDdiRecommendVidPnTopology callback function [Display Devices], d3dkmddi/DxgkDdiRecommendVidPnTopology, display.dxgkddirecommendvidpntopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

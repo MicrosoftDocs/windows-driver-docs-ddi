@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 958d6f1f-e8e8-43e6-a4d4-73bae4b2be21
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PFINVOCATION structure pointer [Print Devices], print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, printoem/PFINVOCATION, print.finvocation, *PFINVOCATION, printoem/FINVOCATION, FINVOCATION, _FINVOCATION, PFINVOCATION, FINVOCATION structure [Print Devices]
+ms.keywords: ",  , *, *PFINVOCATION, ,, A, C, F, FINVOCATION, FINVOCATION structure [Print Devices], I, N, O, P, PFINVOCATION, PFINVOCATION structure pointer [Print Devices], T, V, _, _FINVOCATION, print.finvocation, print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, printoem/FINVOCATION, printoem/PFINVOCATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

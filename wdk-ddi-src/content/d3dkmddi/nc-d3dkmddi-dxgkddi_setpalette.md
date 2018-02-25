@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a46bf84-df62-4247-b842-d5b131c96428
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisetpalette, DxgkDdiSetPalette callback function [Display Devices], DxgkDdiSetPalette, DXGKDDI_SETPALETTE, DXGKDDI_SETPALETTE, d3dkmddi/DxgkDdiSetPalette, DmFunctions_88e6fd1a-1c14-4a4e-8616-c508b07ed94e.xml
+ms.keywords: DXGKDDI_SETPALETTE, DmFunctions_88e6fd1a-1c14-4a4e-8616-c508b07ed94e.xml, DxgkDdiSetPalette, DxgkDdiSetPalette callback function [Display Devices], d3dkmddi/DxgkDdiSetPalette, display.dxgkddisetpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,15 +103,15 @@ Implementation of the <i>DxgkDdiSetPalette</i> function in the Windows Vista dis
 
 ## -see-also
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
+
+
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkarg_setpalette.md">DXGKARG_SETPALETTE</a>
 
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
 
 
 

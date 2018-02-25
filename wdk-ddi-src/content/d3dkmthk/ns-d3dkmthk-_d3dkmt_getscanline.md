@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: af06c31e-0c4f-4e2a-8d19-84c1c63d6bd0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_GETSCANLINE structure [Display Devices], _D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE, OpenGL_Structs_1e99e2c0-2215-43ed-9dc4-657f30903637.xml, d3dkmthk/D3DKMT_GETSCANLINE, display.d3dkmt_getscanline
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE structure [Display Devices], E, G, I, K, L, M, N, OpenGL_Structs_1e99e2c0-2215-43ed-9dc4-657f30903637.xml, S, T, _, _D3DKMT_GETSCANLINE, d3dkmthk/D3DKMT_GETSCANLINE, display.d3dkmt_getscanline"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

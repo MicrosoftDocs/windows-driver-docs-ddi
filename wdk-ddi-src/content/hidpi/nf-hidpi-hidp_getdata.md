@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 37cbd329-81c3-40ef-be42-4a64c4a1ec3a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.hidp_getdata, hidpi/HidP_GetData, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, HidP_GetData, HidP_GetData routine [Human Input Devices]
+ms.keywords: ",  , D, G, H, HidP_GetData, HidP_GetData routine [Human Input Devices], P, _, a, d, e, hid.hidp_getdata, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, hidpi/HidP_GetData, i, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,7 @@ Pointer to a HID report.
 
 ### -param ReportLength [in]
 
-Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type returned by <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> in the collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type returned by <a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a> in the collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
 
 ## -returns
@@ -209,11 +209,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
 
 
 

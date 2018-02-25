@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, debugger.setkernelconnectionoptionswide, IDebugClient5, IDebugClient5::SetKernelConnectionOptionsWide, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide
+ms.keywords: ",  , ,, ., 5, :, C, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, IDebugClient5::SetKernelConnectionOptionsWide, K, O, S, SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, SetKernelConnectionOptionsWide,IDebugClient5.SetKernelConnectionOptionsWide, W, b, c, d, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, debugger.setkernelconnectionoptionswide, e, g, i, l, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -152,11 +152,11 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c4bcab3-b903-4f39-aab0-7efb3b18d068
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroyextensiondevice, DestroyExtensionDevice callback function [Display Devices], DestroyExtensionDevice, PFND3DDDI_DESTROYEXTENSIONDEVICE, PFND3DDDI_DESTROYEXTENSIONDEVICE, d3dumddi/DestroyExtensionDevice, UserModeDisplayDriver_Functions_6d9ce1e0-efda-4633-83fb-fa6a5aa5f37b.xml
+ms.keywords: DestroyExtensionDevice, DestroyExtensionDevice callback function [Display Devices], PFND3DDDI_DESTROYEXTENSIONDEVICE, UserModeDisplayDriver_Functions_6d9ce1e0-efda-4633-83fb-fa6a5aa5f37b.xml, d3dumddi/DestroyExtensionDevice, display.destroyextensiondevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,11 @@ The <b>DestroyExtensionDevice</b> function notifies the driver to destroy the ha
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

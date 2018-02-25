@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5F25CFE0-00C5-45CD-8EA1-50F01BA4EA0B
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3d12ddi_createdevice_0003, PFND3D12DDI_CREATEDEVICE_0003 callback function [Display Devices], PFND3D12DDI_CREATEDEVICE_0003, d3d12umddi/PFND3D12DDI_CREATEDEVICE_0003
+ms.keywords: PFND3D12DDI_CREATEDEVICE_0003, PFND3D12DDI_CREATEDEVICE_0003 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEDEVICE_0003, display.pfnd3d12ddi_createdevice_0003
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

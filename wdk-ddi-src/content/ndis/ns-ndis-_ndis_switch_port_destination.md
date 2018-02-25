@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EC7FFB5E-F50B-40C4-B4B7-0A11A374EBD0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PNDIS_SWITCH_PORT_DESTINATION, NDIS_SWITCH_PORT_DESTINATION, netvista.ndis_switch_port_destination, ndis/NDIS_SWITCH_PORT_DESTINATION, NDIS_SWITCH_PORT_DESTINATION structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_DESTINATION structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_SWITCH_PORT_DESTINATION, PNDIS_SWITCH_PORT_DESTINATION, _NDIS_SWITCH_PORT_DESTINATION"
+ms.keywords: ",  , *, *PNDIS_SWITCH_PORT_DESTINATION, ,, A, C, D, E, H, I, N, NDIS_SWITCH_PORT_DESTINATION, NDIS_SWITCH_PORT_DESTINATION structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_SWITCH_PORT_DESTINATION, PNDIS_SWITCH_PORT_DESTINATION structure pointer [Network Drivers Starting with Windows Vista], R, S, T, W, _, _NDIS_SWITCH_PORT_DESTINATION, ndis/NDIS_SWITCH_PORT_DESTINATION, ndis/PNDIS_SWITCH_PORT_DESTINATION, netvista.ndis_switch_port_destination"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

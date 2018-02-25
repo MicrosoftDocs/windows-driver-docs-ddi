@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6bd7e722-6603-4d3b-9f18-1b7eb531f5fb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_format_tracks_ex, IOCTL_DISK_FORMAT_TRACKS_EX control code [Storage Devices], IOCTL_DISK_FORMAT_TRACKS_EX, ntdddisk/IOCTL_DISK_FORMAT_TRACKS_EX, k307_b3ebee51-e107-493e-b2dc-1457b4b39670.xml
+ms.keywords: IOCTL_DISK_FORMAT_TRACKS_EX, IOCTL_DISK_FORMAT_TRACKS_EX control code [Storage Devices], k307_b3ebee51-e107-493e-b2dc-1457b4b39670.xml, ntdddisk/IOCTL_DISK_FORMAT_TRACKS_EX, storage.ioctl_disk_format_tracks_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

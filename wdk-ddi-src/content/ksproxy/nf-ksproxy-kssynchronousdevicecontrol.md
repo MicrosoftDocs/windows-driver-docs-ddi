@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 82c8f0c0-d9df-4f0d-8a45-dda8fa8a132a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksproxy/KsSynchronousDeviceControl, KsSynchronousDeviceControl, KsSynchronousDeviceControl function [Streaming Media Devices], stream.kssynchronousdevicecontrol, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml
+ms.keywords: ",  , C, D, K, KsSynchronousDeviceControl, KsSynchronousDeviceControl function [Streaming Media Devices], S, c, e, h, i, ksproxy/KsSynchronousDeviceControl, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml, l, n, o, r, s, stream.kssynchronousdevicecontrol, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,11 +165,7 @@ After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will conta
 
 
 
-<a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_ENABLE_EVENT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="..\ks\ni-ks-ioctl_ks_property.md">IOCTL_KS_PROPERTY</a>
 
 
 
@@ -177,7 +173,7 @@ After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will conta
 
 
 
-<a href="..\ks\ni-ks-ioctl_ks_property.md">IOCTL_KS_PROPERTY</a>
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 
@@ -185,7 +181,11 @@ After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will conta
 
 
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_ENABLE_EVENT</a>
 
 
 

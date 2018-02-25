@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 49023D25-D57E-418F-AD10-133377B90493
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnwaitforsynchronizationobjectfromgpucb, pfnWaitForSynchronizationObjectFromGpuCb callback function [Display Devices], pfnWaitForSynchronizationObjectFromGpuCb, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB, d3dumddi/pfnWaitForSynchronizationObjectFromGpuCb
+ms.keywords: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB, d3dumddi/pfnWaitForSynchronizationObjectFromGpuCb, display.pfnwaitforsynchronizationobjectfromgpucb, pfnWaitForSynchronizationObjectFromGpuCb, pfnWaitForSynchronizationObjectFromGpuCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,7 +112,7 @@ This function semantics are similar to existing <a href="..\d3dumddi\nc-d3dumddi
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a>
+<i>pfnWaitForSynchronizationObject2Cb</i>
 
 
 
@@ -120,7 +120,7 @@ This function semantics are similar to existing <a href="..\d3dumddi\nc-d3dumddi
 
 
 
-<i>pfnWaitForSynchronizationObject2Cb</i>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a>
 
 
 

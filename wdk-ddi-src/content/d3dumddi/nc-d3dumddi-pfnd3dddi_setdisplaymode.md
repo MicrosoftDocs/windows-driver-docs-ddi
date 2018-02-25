@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d0e409fe-1c64-4468-b52e-b0ede39f6601
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setdisplaymode, SetDisplayMode callback function [Display Devices], SetDisplayMode, PFND3DDDI_SETDISPLAYMODE, PFND3DDDI_SETDISPLAYMODE, d3dumddi/SetDisplayMode, UserModeDisplayDriver_Functions_939f1113-54d3-4e0e-b065-24226d9948c0.xml
+ms.keywords: PFND3DDDI_SETDISPLAYMODE, SetDisplayMode, SetDisplayMode callback function [Display Devices], UserModeDisplayDriver_Functions_939f1113-54d3-4e0e-b065-24226d9948c0.xml, d3dumddi/SetDisplayMode, display.setdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -128,11 +128,11 @@ The user-mode display driver can set the <b>hPrimaryAllocation</b> member of the
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setdisplaymode.md">D3DDDIARG_SETDISPLAYMODE</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setdisplaymode.md">D3DDDIARG_SETDISPLAYMODE</a>
 
 
 

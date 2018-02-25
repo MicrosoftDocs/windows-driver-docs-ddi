@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8d5fea6-d0fd-4dc4-b8ec-10c72381285b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, kernel.mmallocatemappingaddress, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], wdm/MmAllocateMappingAddress, MmAllocateMappingAddress
+ms.keywords: ",  , A, M, MmAllocateMappingAddress, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], a, c, d, e, g, i, k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, kernel.mmallocatemappingaddress, l, m, n, o, p, r, s, t, wdm/MmAllocateMappingAddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,7 +99,7 @@ Specifies a four-character tag used to identify the buffer. Use a distinct <i>Po
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
+<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
 
 
 
@@ -107,7 +107,7 @@ Specifies a four-character tag used to identify the buffer. Use a distinct <i>Po
 
 
 
-<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
+<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 10CAB3CA-83BF-421B-81F5-2B42790B8928
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_PEP_PROCESSOR_IDLE_STATE, pep_x/PEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], *PPEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE, pep_x/PPEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_processor_idle_state"
+ms.keywords: ",  , *, *PPEP_PROCESSOR_IDLE_STATE, ,, A, C, D, E, I, L, O, P, PEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], R, S, T, _, _PEP_PROCESSOR_IDLE_STATE, kernel.pep_processor_idle_state, pep_x/PEP_PROCESSOR_IDLE_STATE, pep_x/PPEP_PROCESSOR_IDLE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41560DC4-EE5E-4756-8540-ACC19835A9DA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pofxpoweroncrashdumpdevice, wdm/PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, D, F, O, P, PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture], a, c, d, e, h, i, kernel.pofxpoweroncrashdumpdevice, m, n, o, p, r, s, u, v, w, wdm/PoFxPowerOnCrashdumpDevice, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,11 +134,11 @@ This routine can be called at IRQL &lt;= HIGH_LEVEL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a>
 
 
 

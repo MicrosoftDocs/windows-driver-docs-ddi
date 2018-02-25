@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 81D4F3C5-7412-4148-A5B4-0C56DD9ADB35
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_usb_state_change, EvtUfxDeviceUsbStateChange callback function [Buses], EvtUfxDeviceUsbStateChange, EVT_UFX_DEVICE_USB_STATE_CHANGE, EVT_UFX_DEVICE_USB_STATE_CHANGE, ufxclient/EvtUfxDeviceUsbStateChange, PFN_UFX_DEVICE_USB_STATE_CHANGE callback function pointer [Buses], PFN_UFX_DEVICE_USB_STATE_CHANGE
+ms.keywords: EVT_UFX_DEVICE_USB_STATE_CHANGE, EvtUfxDeviceUsbStateChange, EvtUfxDeviceUsbStateChange callback function [Buses], PFN_UFX_DEVICE_USB_STATE_CHANGE, PFN_UFX_DEVICE_USB_STATE_CHANGE callback function pointer [Buses], buses.evt_ufx_device_usb_state_change, ufxclient/EvtUfxDeviceUsbStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -203,11 +203,11 @@ Arguments:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 

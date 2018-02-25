@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42489ADA-78BF-4EBF-A6EC-5484F82C46ED
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditxtalsend, MiniportWdiTxTalSend callback function [Network Drivers Starting with Windows Vista], MiniportWdiTxTalSend, MINIPORT_WDI_TX_TAL_SEND, MINIPORT_WDI_TX_TAL_SEND, dot11wdi/MiniportWdiTxTalSend
+ms.keywords: MINIPORT_WDI_TX_TAL_SEND, MiniportWdiTxTalSend, MiniportWdiTxTalSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSend, netvista.miniportwditxtalsend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -186,23 +186,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
+<a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_dequeue_ind.md">NdisWdiTxDequeueIndication</a>
-
-
-
-<a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
 
 
 
@@ -214,11 +202,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 
 
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_data_send.md">MiniportWdiTxDataSend</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_dequeue_ind.md">NdisWdiTxDequeueIndication</a>
 
 
 

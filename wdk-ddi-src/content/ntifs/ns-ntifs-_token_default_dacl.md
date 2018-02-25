@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: db4c23e1-4a49-4864-9eab-36abb2581e58
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: securitystructures_a79d9155-eff5-457f-8036-c3d718b36c4e.xml, *PTOKEN_DEFAULT_DACL, _TOKEN_DEFAULT_DACL, ntifs/TOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL, ntifs/PTOKEN_DEFAULT_DACL, ifsk.token_default_dacl, TOKEN_DEFAULT_DACL structure [Installable File System Drivers], TOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL structure pointer [Installable File System Drivers]
+ms.keywords: ",  , *, *PTOKEN_DEFAULT_DACL, ,, A, C, D, E, F, K, L, N, O, P, PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL structure pointer [Installable File System Drivers], T, TOKEN_DEFAULT_DACL, TOKEN_DEFAULT_DACL structure [Installable File System Drivers], U, _, _TOKEN_DEFAULT_DACL, ifsk.token_default_dacl, ntifs/PTOKEN_DEFAULT_DACL, ntifs/TOKEN_DEFAULT_DACL, securitystructures_a79d9155-eff5-457f-8036-c3d718b36c4e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,19 +83,19 @@ The <b>SeQueryInformationToken</b> support routine retrieves the default DACL fo
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 

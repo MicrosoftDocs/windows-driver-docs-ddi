@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 95563d68-e812-4c62-9668-8cb25b4735aa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCMCIA.ioctl_socket_information, IOCTL_SOCKET_INFORMATION control code [Buses], IOCTL_SOCKET_INFORMATION, ntddpcm/IOCTL_SOCKET_INFORMATION, memcdref_8730c03b-fc86-4d43-8aa9-6d15abcfa2d0.xml
+ms.keywords: IOCTL_SOCKET_INFORMATION, IOCTL_SOCKET_INFORMATION control code [Buses], PCMCIA.ioctl_socket_information, memcdref_8730c03b-fc86-4d43-8aa9-6d15abcfa2d0.xml, ntddpcm/IOCTL_SOCKET_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

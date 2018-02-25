@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef61f50b-a82b-43df-865f-2f9d9ca906d4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setscissorrects, SetScissorRects callback function [Display Devices], SetScissorRects, PFND3D10DDI_SETSCISSORRECTS, PFND3D10DDI_SETSCISSORRECTS, d3d10umddi/SetScissorRects, UserModeDisplayDriverDx10_Functions_c1eec8b9-134e-4066-9f31-d1693e0c4b66.xml
+ms.keywords: PFND3D10DDI_SETSCISSORRECTS, SetScissorRects, SetScissorRects callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1eec8b9-134e-4066-9f31-d1693e0c4b66.xml, d3d10umddi/SetScissorRects, display.setscissorrects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -157,7 +157,7 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 
@@ -165,7 +165,7 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B1446A29-F2C1-4F08-8B38-5BE9188F5132
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelDeleteGpadl, netvista.vmbchanneldeletegpadl, VmbChannelDeleteGpadl, VmbChannelDeleteGpadl function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , C, D, G, V, VmbChannelDeleteGpadl, VmbChannelDeleteGpadl function [Network Drivers Starting with Windows Vista], a, b, d, e, h, l, m, n, netvista.vmbchanneldeletegpadl, p, t, vmbuskernelmodeclientlibapi/VmbChannelDeleteGpadl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

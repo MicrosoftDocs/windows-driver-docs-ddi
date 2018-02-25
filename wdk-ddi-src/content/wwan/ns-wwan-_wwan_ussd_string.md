@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9DE6CE5D-9570-4728-ACED-D6863812A3F4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_USSD_STRING, wwan/PWWAN_USSD_STRING, PWWAN_USSD_STRING, *PWWAN_USSD_STRING, PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], netvista.wwan_ussd_string, wwan/WWAN_USSD_STRING, _WWAN_USSD_STRING
+ms.keywords: ",  , *, *PWWAN_USSD_STRING, ,, A, D, G, I, N, P, PWWAN_USSD_STRING, PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, W, WWAN_USSD_STRING, WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], _, _WWAN_USSD_STRING, netvista.wwan_ussd_string, wwan/PWWAN_USSD_STRING, wwan/WWAN_USSD_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,11 +109,11 @@ For USSD notifications, the miniport driver or MB device must encode the USSD st
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a>
 
 
 

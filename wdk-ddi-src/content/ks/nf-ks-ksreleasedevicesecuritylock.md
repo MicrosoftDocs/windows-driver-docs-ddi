@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b14a4816-2e72-491d-9881-ae532c287e99
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsReleaseDeviceSecurityLock, KsReleaseDeviceSecurityLock, KsReleaseDeviceSecurityLock function [Streaming Media Devices], ksfunc_4f6e594d-1f06-4741-89f2-d153db3a63e7.xml, stream.ksreleasedevicesecuritylock
+ms.keywords: ",  , D, K, KsReleaseDeviceSecurityLock, KsReleaseDeviceSecurityLock function [Streaming Media Devices], L, R, S, a, c, e, i, k, ks/KsReleaseDeviceSecurityLock, ksfunc_4f6e594d-1f06-4741-89f2-d153db3a63e7.xml, l, o, r, s, stream.ksreleasedevicesecuritylock, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

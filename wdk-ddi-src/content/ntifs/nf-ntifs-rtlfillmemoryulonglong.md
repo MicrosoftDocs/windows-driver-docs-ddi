@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5604cdb-084e-431a-b413-020e8213a18f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml, ifsk.rtlfillmemoryulonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers], ntifs/RtlFillMemoryUlonglong, RtlFillMemoryUlonglong
+ms.keywords: ",  , F, M, R, RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers], U, e, g, i, ifsk.rtlfillmemoryulonglong, l, m, n, ntifs/RtlFillMemoryUlonglong, o, r, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -99,15 +99,15 @@ For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-rtlzeromemory.md">RtlZeroMemory</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+<a href="..\smclib\nf-smclib-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtlfillmemoryulong.md">RtlFillMemoryUlong</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
 
 

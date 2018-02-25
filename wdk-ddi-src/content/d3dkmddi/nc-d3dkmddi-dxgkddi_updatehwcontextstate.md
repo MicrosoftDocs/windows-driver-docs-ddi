@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1187A302-CD7D-418E-B48F-74D1FF29C991
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddi_updatehwcontextstate, DXGKDDI_UPDATEHWCONTEXTSTATE callback function [Display Devices], DXGKDDI_UPDATEHWCONTEXTSTATE, d3dkmddi/DXGKDDI_UPDATEHWCONTEXTSTATE
+ms.keywords: DXGKDDI_UPDATEHWCONTEXTSTATE, DXGKDDI_UPDATEHWCONTEXTSTATE callback function [Display Devices], d3dkmddi/DXGKDDI_UPDATEHWCONTEXTSTATE, display.dxgkddi_updatehwcontextstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

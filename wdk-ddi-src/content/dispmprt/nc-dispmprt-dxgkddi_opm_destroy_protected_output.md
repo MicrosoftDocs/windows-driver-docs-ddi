@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a03381ba-342e-409f-99ab-9790e1d74371
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiopmdestroyprotectedoutput, DxgkDdiOPMDestroyProtectedOutput callback function [Display Devices], DxgkDdiOPMDestroyProtectedOutput, DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT, DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT, dispmprt/DxgkDdiOPMDestroyProtectedOutput, Dm_Opm_functions_e744a9ff-d14b-4cef-aed6-4dba714dc695.xml
+ms.keywords: DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT, Dm_Opm_functions_e744a9ff-d14b-4cef-aed6-4dba714dc695.xml, DxgkDdiOPMDestroyProtectedOutput, DxgkDdiOPMDestroyProtectedOutput callback function [Display Devices], display.dxgkddiopmdestroyprotectedoutput, dispmprt/DxgkDdiOPMDestroyProtectedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,11 +105,11 @@ The DirectX graphics kernel subsystem calls <i>DxgkDdiOPMDestroyProtectedOutput<
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

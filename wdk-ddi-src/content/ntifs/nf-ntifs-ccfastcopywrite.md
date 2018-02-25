@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 414d0b36-d7c2-4a01-8ceb-3817a11c422c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CcFastCopyWrite, ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, ifsk.ccfastcopywrite, ntifs/CcFastCopyWrite, CcFastCopyWrite routine [Installable File System Drivers]
+ms.keywords: ",  , C, CcFastCopyWrite, CcFastCopyWrite routine [Installable File System Drivers], F, W, a, c, ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, e, i, ifsk.ccfastcopywrite, ntifs/CcFastCopyWrite, o, p, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

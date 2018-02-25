@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 65ab5b68-9b76-497b-b560-9a4867d4d34e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.av_c_intersect_handler, PFNAVCINTERSECTHANDLER function pointer [Streaming Media Devices], PFNAVCINTERSECTHANDLER, avc/PFNAVCINTERSECTHANDLER, avcref_6aa55400-08b6-4a96-af38-23e69fed1621.xml
+ms.keywords: PFNAVCINTERSECTHANDLER, PFNAVCINTERSECTHANDLER function pointer [Streaming Media Devices], avc/PFNAVCINTERSECTHANDLER, avcref_6aa55400-08b6-4a96-af38-23e69fed1621.xml, stream.av_c_intersect_handler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -208,19 +208,19 @@ The handler is used in conjunction with the <b>AVC_FUNCTION_GET_PIN_DESCRIPTOR</
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a>
 
 
 
 <a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>
+
+
+
+<a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
 
 
 

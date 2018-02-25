@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 60300845-9050-4D0A-83D1-76A45EA823C1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnsubmitcommandcb, pfnSubmitCommandCb callback function [Display Devices], pfnSubmitCommandCb, PFND3DDDI_SUBMITCOMMANDCB, PFND3DDDI_SUBMITCOMMANDCB, d3dumddi/pfnSubmitCommandCb
+ms.keywords: PFND3DDDI_SUBMITCOMMANDCB, d3dumddi/pfnSubmitCommandCb, display.pfnsubmitcommandcb, pfnSubmitCommandCb, pfnSubmitCommandCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -107,11 +107,11 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_submitcommand.md">D3DDDICB_SUBMITCOMMAND</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 

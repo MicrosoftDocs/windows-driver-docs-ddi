@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 314fdeea-10be-4cb3-8bd7-9b1b4b12e534
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup::ExpandSymbol, IDebugSymbolGroup, dbgeng/IDebugSymbolGroup::ExpandSymbol, IDebugSymbolGroup2 interface [Windows Debugging], ExpandSymbol method, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup interface, debugger.expandsymbol, dbgeng/IDebugSymbolGroup2::ExpandSymbol, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2::ExpandSymbol, ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, IDebugSymbolGroup2, ExpandSymbol, IDebugSymbolGroup interface [Windows Debugging], ExpandSymbol method
+ms.keywords: ",  , ,, ., 2, :, ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, D, E, ExpandSymbol method [Windows Debugging], ExpandSymbol method [Windows Debugging], IDebugSymbolGroup interface, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, ExpandSymbol,IDebugSymbolGroup.ExpandSymbol, ExpandSymbol,IDebugSymbolGroup2.ExpandSymbol, G, I, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], ExpandSymbol method, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], ExpandSymbol method, IDebugSymbolGroup2::ExpandSymbol, IDebugSymbolGroup::ExpandSymbol, S, a, b, d, dbgeng/IDebugSymbolGroup2::ExpandSymbol, dbgeng/IDebugSymbolGroup::ExpandSymbol, debugger.expandsymbol, e, g, l, m, n, o, p, r, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -140,15 +140,15 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fef7c63b-ca9e-47f4-96cb-4dafa080ddcf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PDRIVER_UPGRADE_INFO_1 structure pointer [Print Devices], print_interface-graphics_eb7333cb-f073-4c0b-ade4-20a477d28f67.xml, _DRIVER_UPGRADE_INFO_1, winddiui/DRIVER_UPGRADE_INFO_1, *PDRIVER_UPGRADE_INFO_1, winddiui/PDRIVER_UPGRADE_INFO_1, print.driver_upgrade_info_1, PDRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1 structure [Print Devices]
+ms.keywords: ",  , *, *PDRIVER_UPGRADE_INFO_1, ,, 1, A, D, DRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1 structure [Print Devices], E, F, G, I, N, O, P, PDRIVER_UPGRADE_INFO_1, PDRIVER_UPGRADE_INFO_1 structure pointer [Print Devices], R, U, V, _, _DRIVER_UPGRADE_INFO_1, print.driver_upgrade_info_1, print_interface-graphics_eb7333cb-f073-4c0b-ade4-20a477d28f67.xml, winddiui/DRIVER_UPGRADE_INFO_1, winddiui/PDRIVER_UPGRADE_INFO_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,11 @@ Pointer to a NULL-terminated string that specifies the local directory in which 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a>
-
-
-
 <a href="..\winddiui\ns-winddiui-_driver_upgrade_info_2.md">DRIVER_UPGRADE_INFO_2</a>
+
+
+
+<a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a>
 
 
 

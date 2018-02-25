@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 33087a37-e6fc-4b21-aa9e-e4617eeccd29
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exallocatepoolwithtagpriority, ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], wdm/ExAllocatePoolWithTagPriority, k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml
+ms.keywords: ",  , A, E, ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], P, T, W, a, c, e, g, h, i, k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, kernel.exallocatepoolwithtagpriority, l, o, r, t, wdm/ExAllocatePoolWithTagPriority, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,7 +169,7 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocate
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 
 

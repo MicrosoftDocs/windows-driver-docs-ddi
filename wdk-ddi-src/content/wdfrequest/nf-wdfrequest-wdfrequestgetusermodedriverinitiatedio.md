@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3F2B060F-3818-4BBC-9BF7-7A82128274E0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfrequest/WdfRequestGetUserModeDriverInitiatedIo, wdf.wdfrequestgetusermodeinitiatedio, WdfRequestGetUserModeDriverInitiatedIo method, WdfRequestGetUserModeDriverInitiatedIo
+ms.keywords: ",  , D, G, I, M, R, U, W, WdfRequestGetUserModeDriverInitiatedIo, WdfRequestGetUserModeDriverInitiatedIo method, a, d, e, f, i, n, o, q, r, s, t, u, v, wdf.wdfrequestgetusermodeinitiatedio, wdfrequest/WdfRequestGetUserModeDriverInitiatedIo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

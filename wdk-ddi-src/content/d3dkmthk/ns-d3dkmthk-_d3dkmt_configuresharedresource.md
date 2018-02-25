@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba190f01-428a-4574-8032-c800ce19ba3e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, display.d3dkmt_configuresharedresource, _D3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], E, F, G, H, I, K, M, N, O, OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, R, S, T, U, _, _D3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE, display.d3dkmt_configuresharedresource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: D3DKMT_CONFIGURESHAREDRESOURCE
 ## -description
 
 
-The D3DKMT_CONFIGURESHAREDRESOURCE structure describes parameters that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a> function uses to configure a shared resource. 
+The D3DKMT_CONFIGURESHAREDRESOURCE structure describes parameters that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_configuresharedresource.md">D3DKMTConfigureSharedResource</a> function uses to configure a shared resource. 
 
 
 ## -syntax
@@ -93,12 +93,12 @@ typedef struct _D3DKMT_CONFIGURESHAREDRESOURCE {
 
 ### -field AllowAccess
 
-[in] A Boolean value that specifies whether the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a> function should allow the process to access the resource. <b>TRUE</b> indicates to allow access; <b>FALSE</b> indicates to not allow access. 
+[in] A Boolean value that specifies whether the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_configuresharedresource.md">D3DKMTConfigureSharedResource</a> function should allow the process to access the resource. <b>TRUE</b> indicates to allow access; <b>FALSE</b> indicates to not allow access. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_configuresharedresource.md">D3DKMTConfigureSharedResource</a>
 
 
 

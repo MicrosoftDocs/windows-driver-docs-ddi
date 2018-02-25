@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTOpenResourceFromNtHandle function [Display Devices], display.d3dkmtopenresourcefromnthandle, d3dkmthk/D3DKMTOpenResourceFromNtHandle, D3DKMTOpenResourceFromNtHandle, PFND3DKMT_OPENRESOURCEFROMNTHANDLE
+ms.keywords: ",  , 3, D, D3DKMTOpenResourceFromNtHandle, D3DKMTOpenResourceFromNtHandle function [Display Devices], F, H, K, M, N, O, PFND3DKMT_OPENRESOURCEFROMNTHANDLE, R, T, a, c, d, d3dkmthk/D3DKMTOpenResourceFromNtHandle, display.d3dkmtopenresourcefromnthandle, e, l, m, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,7 +123,7 @@ This function might also return other NTSTATUS values.
 
 
 
- The NT handle to the process, which is used as the <b>hNtHandle</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresourcefromnthandle.md">D3DKMT_OPENRESOURCEFROMNTHANDLE</a> structure, is typically acquired by calling the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a> or <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>  functions.
+ The NT handle to the process, which is used as the <b>hNtHandle</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresourcefromnthandle.md">D3DKMT_OPENRESOURCEFROMNTHANDLE</a> structure, is typically acquired by calling the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a> or <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_opennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>  functions.
 
 
 
@@ -138,7 +138,7 @@ This function might also return other NTSTATUS values.
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_opennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
 
 
 

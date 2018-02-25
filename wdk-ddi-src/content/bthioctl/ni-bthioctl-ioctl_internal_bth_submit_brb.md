@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 60e4ee90-81d4-47a1-aed4-ee39b9fe3174
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_internal_bth_submit_brb, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], IOCTL_INTERNAL_BTH_SUBMIT_BRB, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml
+ms.keywords: IOCTL_INTERNAL_BTH_SUBMIT_BRB, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], bltooth.ioctl_internal_bth_submit_brb, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -512,11 +512,11 @@ These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>
 
 
 

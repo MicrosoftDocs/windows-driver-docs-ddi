@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98110dcc-bd82-444b-80bb-45a989e2f4f1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmt_destroydcfrommemory, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, _D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY
+ms.keywords: ",  , ,, 3, C, D, D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], E, F, K, M, O, OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, R, S, T, Y, _, _D3DKMT_DESTROYDCFROMMEMORY, d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, display.d3dkmt_destroydcfrommemory"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

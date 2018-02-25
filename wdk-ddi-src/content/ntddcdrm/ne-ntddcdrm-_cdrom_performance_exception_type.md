@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4AD156F8-911F-4D70-8B0E-8BB0D0747470
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdrm/PCDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/CDROM_PERFORMANCE_EXCEPTION_TYPE, CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration [Storage Devices], CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/ CdromPerformanceExceptionsOnly, PCDROM_PERFORMANCE_EXCEPTION_TYPE enumeration pointer [Storage Devices], CdromPerformanceExceptionsOnly, _CDROM_PERFORMANCE_EXCEPTION_TYPE, storage.cdrom_performance_exception_type, ntddcdrm/CdromNominalPerformance, PCDROM_PERFORMANCE_EXCEPTION_TYPE, CdromEntirePerformanceList, *PCDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/CdromEntirePerformanceList, CdromNominalPerformance
+ms.keywords: ",  , *, *PCDROM_PERFORMANCE_EXCEPTION_TYPE, ,, A, C, CDROM_PERFORMANCE_EXCEPTION_TYPE, CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration [Storage Devices], CdromEntirePerformanceList, CdromNominalPerformance, CdromPerformanceExceptionsOnly, D, E, F, I, M, N, O, P, PCDROM_PERFORMANCE_EXCEPTION_TYPE, PCDROM_PERFORMANCE_EXCEPTION_TYPE enumeration pointer [Storage Devices], R, T, X, Y, _, _CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/ CdromPerformanceExceptionsOnly, ntddcdrm/CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/CdromEntirePerformanceList, ntddcdrm/CdromNominalPerformance, ntddcdrm/PCDROM_PERFORMANCE_EXCEPTION_TYPE, storage.cdrom_performance_exception_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

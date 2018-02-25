@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3df50a0-2388-4760-b6e2-ef6af650d0e2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGK_VIDMMCAPS, DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], _DXGK_VIDMMCAPS, display.dxgk_vidmmcaps, DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml
+ms.keywords: ",  , ,, A, C, D, DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, G, I, K, M, P, S, V, X, _, _DXGK_VIDMMCAPS, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

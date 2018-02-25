@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a4ca55f9-0fbd-4969-8807-baa79099cff0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdpcwdmgetdpc, kmdf.wdfdpcwdmgetdpc, WdfDpcWdmGetDpc method, wdfdpc/WdfDpcWdmGetDpc, WdfDpcWdmGetDpc, DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml
+ms.keywords: ",  , D, DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml, G, W, WdfDpcWdmGetDpc, WdfDpcWdmGetDpc method, c, d, e, f, kmdf.wdfdpcwdmgetdpc, m, p, t, wdf.wdfdpcwdmgetdpc, wdfdpc/WdfDpcWdmGetDpc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,10 +121,6 @@ pWdmDpc = WdfDpcWdmGetDpc(PDevExt-&gt;CompleteWriteDpc);</pre>
 
 ## -see-also
 
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
-
-
-
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
 
@@ -134,6 +130,10 @@ pWdmDpc = WdfDpcWdmGetDpc(PDevExt-&gt;CompleteWriteDpc);</pre>
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+
+
+<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
 
 
 

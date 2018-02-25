@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 560cfc18-5cbe-4af7-b579-3904ee68acbf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ioctl_ks_write_stream, IOCTL_KS_WRITE_STREAM control code [Streaming Media Devices], IOCTL_KS_WRITE_STREAM, ks/IOCTL_KS_WRITE_STREAM, ks-ioctl_83263ce8-e0b1-4ae5-a5b8-848e0fb99471.xml
+ms.keywords: IOCTL_KS_WRITE_STREAM, IOCTL_KS_WRITE_STREAM control code [Streaming Media Devices], ks-ioctl_83263ce8-e0b1-4ae5-a5b8-848e0fb99471.xml, ks/IOCTL_KS_WRITE_STREAM, stream.ioctl_ks_write_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames:
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

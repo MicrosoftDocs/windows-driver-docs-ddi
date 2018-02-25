@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4ad768c9-211d-4370-b6d3-6d88b223fe48
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsRegisterFilterWithNoKSPins, stream.ksregisterfilterwithnokspins, KsRegisterFilterWithNoKSPins function [Streaming Media Devices], ks/KsRegisterFilterWithNoKSPins, avfunc_c9fc5273-7fd9-41d5-9ac4-5033ed757b7c.xml
+ms.keywords: ",  , F, K, KsRegisterFilterWithNoKSPins, KsRegisterFilterWithNoKSPins function [Streaming Media Devices], N, P, R, S, W, avfunc_c9fc5273-7fd9-41d5-9ac4-5033ed757b7c.xml, e, g, h, i, ks/KsRegisterFilterWithNoKSPins, l, n, o, r, s, stream.ksregisterfilterwithnokspins, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -133,11 +133,11 @@ For more information, see <a href="https://msdn.microsoft.com/fd436406-311b-4537
 
 
 
-<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
 
 
 

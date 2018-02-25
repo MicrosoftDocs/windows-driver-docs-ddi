@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D0036070-A23D-4525-AE80-E10B20330F97
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlLongPtrAdd, ntintsafe/RtlLongPtrAdd, kernel.rtllongptradd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, L, P, R, RtlLongPtrAdd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture], d, g, kernel.rtllongptradd, l, n, ntintsafe/RtlLongPtrAdd, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

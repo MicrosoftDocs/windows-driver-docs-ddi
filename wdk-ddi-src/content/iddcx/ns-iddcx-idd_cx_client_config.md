@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e286cb2-87f4-483b-bc55-f174e7de5989
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDD_CX_CLIENT_CONFIG structure [Display Devices], iddcx/IDD_CX_CLIENT_CONFIG, display.idd_cx_client_config, IDD_CX_CLIENT_CONFIG
+ms.keywords: ",  , C, D, E, F, G, I, IDD_CX_CLIENT_CONFIG, IDD_CX_CLIENT_CONFIG structure [Display Devices], L, N, O, T, X, _, display.idd_cx_client_config, iddcx/IDD_CX_CLIENT_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

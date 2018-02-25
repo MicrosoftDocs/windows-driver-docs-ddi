@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 836e2eb5-b8cf-4c12-a855-f63709622c74
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksmedia/KSMUSICFORMAT, PKSMUSICFORMAT, KSMUSICFORMAT structure [Audio Devices], ksmedia/PKSMUSICFORMAT, *PKSMUSICFORMAT, audio.ksmusicformat, aud-prop_04d08180-a7b6-4b88-aa9d-972e5dc237dd.xml, PKSMUSICFORMAT structure pointer [Audio Devices], KSMUSICFORMAT
+ms.keywords: ",  , *, *PKSMUSICFORMAT, ,, A, C, F, I, K, KSMUSICFORMAT, KSMUSICFORMAT structure [Audio Devices], M, O, P, PKSMUSICFORMAT, PKSMUSICFORMAT structure pointer [Audio Devices], R, S, T, U, aud-prop_04d08180-a7b6-4b88-aa9d-972e5dc237dd.xml, audio.ksmusicformat, ksmedia/KSMUSICFORMAT, ksmedia/PKSMUSICFORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

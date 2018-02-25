@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4d299057-a1cc-4b53-8ab4-031672181e74
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.retrieveerrorinfo, RetrieveErrorInfo callback function [WHEA Drivers and Applications], RetrieveErrorInfo, PSHED_PI_RETRIEVE_ERROR_INFO, PSHED_PI_RETRIEVE_ERROR_INFO, ntddk/RetrieveErrorInfo, whearef_f231db3f-6108-4229-895f-7e0281b5b3b8.xml
+ms.keywords: PSHED_PI_RETRIEVE_ERROR_INFO, RetrieveErrorInfo, RetrieveErrorInfo callback function [WHEA Drivers and Applications], ntddk/RetrieveErrorInfo, whea.retrieveerrorinfo, whearef_f231db3f-6108-4229-895f-7e0281b5b3b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -181,11 +181,7 @@ The PSHED calls a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function at 
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_status.md">ClearErrorStatus</a>
 
 
 
@@ -193,11 +189,15 @@ The PSHED calls a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function at 
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_status.md">ClearErrorStatus</a>
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 

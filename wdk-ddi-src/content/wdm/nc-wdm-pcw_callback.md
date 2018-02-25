@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 5058fc17-1016-45bc-a6ea-5e2458824e7b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.pcwcallback, PcwCallback callback function [Driver Development Tools], PcwCallback, PCW_CALLBACK, PCW_CALLBACK, wdm/PcwCallback, km_pcw_f4d70925-0361-4aa6-9e4b-3f1e00a01535.xml
+ms.keywords: PCW_CALLBACK, PcwCallback, PcwCallback callback function [Driver Development Tools], devtest.pcwcallback, km_pcw_f4d70925-0361-4aa6-9e4b-3f1e00a01535.xml, wdm/PcwCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -274,11 +274,11 @@ In the <i>DriverEntry</i> routine of the KCS example, the <i>KcsGeometricWaveCal
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=144623">Performance Counter Library (PERFLIB)</a>
+
+
+
+<a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
 
 
 

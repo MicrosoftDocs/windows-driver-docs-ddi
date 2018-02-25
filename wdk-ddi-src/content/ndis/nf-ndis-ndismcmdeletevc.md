@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b55d0995-efd8-4a61-85e9-970559e21a88
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMCmDeleteVc function [Network Drivers Starting with Windows Vista], netvista.ndismcmdeletevc, ndis/NdisMCmDeleteVc, condis_mcm_ref_a6a2bb4d-a82e-422f-b9f0-821519513cb4.xml, NdisMCmDeleteVc
+ms.keywords: ",  , C, D, M, N, NdisMCmDeleteVc, NdisMCmDeleteVc function [Network Drivers Starting with Windows Vista], V, c, condis_mcm_ref_a6a2bb4d-a82e-422f-b9f0-821519513cb4.xml, d, e, i, l, m, ndis/NdisMCmDeleteVc, netvista.ndismcmdeletevc, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,19 +151,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
 
 
@@ -171,7 +159,19 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, wdm/RtlVerifyVersionInfo, kernel.rtlverifyversioninfo, RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , I, R, RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], V, e, f, i, k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, kernel.rtlverifyversioninfo, l, n, o, r, s, t, wdm/RtlVerifyVersionInfo, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -479,15 +479,15 @@ To verify a range of system versions, a driver can call <b>RtlVerifyVersionInfo<
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
+
+
+
 <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
-
-
-
-<a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
 
 
 

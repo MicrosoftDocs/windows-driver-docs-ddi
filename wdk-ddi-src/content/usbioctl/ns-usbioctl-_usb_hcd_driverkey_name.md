@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 01161a61-c52a-4a0e-b680-a8c3a224c2e5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses], USB_HCD_DRIVERKEY_NAME structure [Buses], PUSB_HCD_DRIVERKEY_NAME, buses.usb_hcd_driverkey_name, usbioctl/USB_HCD_DRIVERKEY_NAME, usbioctl/PUSB_HCD_DRIVERKEY_NAME, *PUSB_HCD_DRIVERKEY_NAME, _USB_HCD_DRIVERKEY_NAME, usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml, USB_HCD_DRIVERKEY_NAME
+ms.keywords: ",  , *, *PUSB_HCD_DRIVERKEY_NAME, ,, A, B, C, D, E, H, I, K, M, N, P, PUSB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses], R, S, U, USB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME structure [Buses], V, Y, _, _USB_HCD_DRIVERKEY_NAME, buses.usb_hcd_driverkey_name, usbioctl/PUSB_HCD_DRIVERKEY_NAME, usbioctl/USB_HCD_DRIVERKEY_NAME, usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,11 @@ A NULL-terminated Unicode driver key name for the USB host controller.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_get_hcd_driverkey_name.md">IOCTL_GET_HCD_DRIVERKEY_NAME</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_get_hcd_driverkey_name.md">IOCTL_GET_HCD_DRIVERKEY_NAME</a>
 
 
 

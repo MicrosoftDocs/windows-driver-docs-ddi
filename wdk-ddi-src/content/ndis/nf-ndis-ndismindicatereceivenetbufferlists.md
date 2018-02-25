@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMIndicateReceiveNetBufferLists, ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, netvista.ndismindicatereceivenetbufferlists, NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisMIndicateReceiveNetBufferLists
+ms.keywords: ",  , B, I, L, M, N, NdisMIndicateReceiveNetBufferLists, NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], R, a, c, d, e, f, i, n, ndis/NdisMIndicateReceiveNetBufferLists, ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, netvista.ndismindicatereceivenetbufferlists, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -247,15 +247,19 @@ The caller of
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -264,7 +268,7 @@ The caller of
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
 
 
@@ -273,11 +277,7 @@ The caller of
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

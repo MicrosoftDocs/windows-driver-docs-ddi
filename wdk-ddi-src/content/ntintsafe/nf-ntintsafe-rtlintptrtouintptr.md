@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A4677F86-C98A-4F8B-98CA-86082A7D77FD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlIntPtrToUIntPtr function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntPtrToUIntPtr, kernel.rtlintptrtouintptr, RtlIntPtrToUIntPtr
+ms.keywords: ",  , I, P, R, RtlIntPtrToUIntPtr, RtlIntPtrToUIntPtr function [Kernel-Mode Driver Architecture], T, U, kernel.rtlintptrtouintptr, l, n, ntintsafe/RtlIntPtrToUIntPtr, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

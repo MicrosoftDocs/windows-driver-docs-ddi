@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 24319054-5e5c-4330-86e5-b1527c48eaf2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestCancelSentRequest method, kmdf.wdfrequestcancelsentrequest, wdf.wdfrequestcancelsentrequest, wdfrequest/WdfRequestCancelSentRequest, DFRequestObjectRef_203c9cb4-5e9d-4a6b-b30d-b60b8eadf6db.xml, WdfRequestCancelSentRequest
+ms.keywords: ",  , C, DFRequestObjectRef_203c9cb4-5e9d-4a6b-b30d-b60b8eadf6db.xml, R, S, W, WdfRequestCancelSentRequest, WdfRequestCancelSentRequest method, a, c, d, e, f, kmdf.wdfrequestcancelsentrequest, l, n, q, s, t, u, wdf.wdfrequestcancelsentrequest, wdfrequest/WdfRequestCancelSentRequest"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,11 +140,7 @@ OsrFxEvtIoStop(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
 
 
 
@@ -152,11 +148,15 @@ OsrFxEvtIoStop(
 
 
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
-
-
-
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
 
 
 

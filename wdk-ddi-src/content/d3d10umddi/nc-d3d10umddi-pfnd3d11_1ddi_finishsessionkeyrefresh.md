@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95c0433f-e4da-4566-b128-34cb758b8001
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.finishsessionkeyrefresh1, pfnFinishSessionKeyRefresh callback function [Display Devices], pfnFinishSessionKeyRefresh, PFND3D11_1DDI_FINISHSESSIONKEYREFRESH, PFND3D11_1DDI_FINISHSESSIONKEYREFRESH, d3d10umddi/pfnFinishSessionKeyRefresh
+ms.keywords: PFND3D11_1DDI_FINISHSESSIONKEYREFRESH, d3d10umddi/pfnFinishSessionKeyRefresh, display.finishsessionkeyrefresh1, pfnFinishSessionKeyRefresh, pfnFinishSessionKeyRefresh callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

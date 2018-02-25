@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 02DDBE00-C342-474B-8D06-FBB929BA4760
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.evtvhfreadyfornextreadreport, EvtVhfReadyForNextReadReport callback function [Human Input Devices], EvtVhfReadyForNextReadReport, EVT_VHF_READY_FOR_NEXT_READ_REPORT, EVT_VHF_READY_FOR_NEXT_READ_REPORT, vhf/EvtVhfReadyForNextReadReport
+ms.keywords: EVT_VHF_READY_FOR_NEXT_READ_REPORT, EvtVhfReadyForNextReadReport, EvtVhfReadyForNextReadReport callback function [Human Input Devices], hid.evtvhfreadyfornextreadreport, vhf/EvtVhfReadyForNextReadReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

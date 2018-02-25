@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F97642A2-FE77-41D0-A194-8DE6F9B17BB0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUsbEndpointCreate, udecxusbendpoint/UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], buses.udecxusbendpointcreate
+ms.keywords: ",  , C, E, U, UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], a, b, buses.udecxusbendpointcreate, c, d, e, i, n, o, p, r, s, t, udecxusbendpoint/UdecxUsbEndpointCreate, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,11 +106,11 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

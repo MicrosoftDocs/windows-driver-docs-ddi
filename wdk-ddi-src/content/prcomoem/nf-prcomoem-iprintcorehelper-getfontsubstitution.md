@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 09fc48eb-b124-45b1-a796-71d9a6961e07
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintCoreHelper::GetFontSubstitution, IPrintCoreHelper, print_unidrv-pscript_allplugins_04228fad-ab7f-432f-b4b9-dafb18144503.xml, GetFontSubstitution method [Print Devices], IPrintCoreHelper interface [Print Devices], GetFontSubstitution method, print.iprintcorehelper_getfontsubstitution, GetFontSubstitution, GetFontSubstitution method [Print Devices], IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::GetFontSubstitution
+ms.keywords: ",  , ,, ., :, C, F, G, GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices], IPrintCoreHelper interface, GetFontSubstitution,IPrintCoreHelper.GetFontSubstitution, H, I, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], GetFontSubstitution method, IPrintCoreHelper::GetFontSubstitution, P, S, b, e, i, l, n, o, p, prcomoem/IPrintCoreHelper::GetFontSubstitution, print.iprintcorehelper_getfontsubstitution, print_unidrv-pscript_allplugins_04228fad-ab7f-432f-b4b9-dafb18144503.xml, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -168,11 +168,11 @@ To obtain a list of available fonts, create an information context for the curre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552962">IPrintCoreHelper::SetFontSubstitution</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552962">IPrintCoreHelper::SetFontSubstitution</a>
 
 
 

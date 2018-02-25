@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4aaef251-7387-4e42-a7ae-e08120fc95ff
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Stop, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, wudfddi/IWDFRemoteTarget::Stop, IWDFRemoteTarget interface, Stop method, IWDFRemoteTarget::Stop, umdf.iwdfremotetarget_stop, IWDFRemoteTarget, Stop method, IWDFRemoteTarget interface, Stop method, wdf.iwdfremotetarget_stop
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFRemoteTarget, IWDFRemoteTarget interface, Stop method, IWDFRemoteTarget::Stop, R, S, Stop method, Stop method, IWDFRemoteTarget interface, Stop,IWDFRemoteTarget.Stop, T, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, W, a, e, g, m, o, p, r, t, umdf.iwdfremotetarget_stop, wdf.iwdfremotetarget_stop, wudfddi/IWDFRemoteTarget::Stop"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,11 +112,11 @@ The following code example stops a remote I/O target.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560280">IWDFRemoteTarget::Start</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560280">IWDFRemoteTarget::Start</a>
 
 
 

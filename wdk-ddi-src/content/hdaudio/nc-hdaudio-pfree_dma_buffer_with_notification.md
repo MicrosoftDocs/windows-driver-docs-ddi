@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 98fc6201-d9b4-4c85-b624-011f360df068
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.freedmabufferwithnotification, FreeDmaBufferWithNotification callback function [Audio Devices], FreeDmaBufferWithNotification, PFREE_DMA_BUFFER_WITH_NOTIFICATION, PFREE_DMA_BUFFER_WITH_NOTIFICATION, hdaudio/FreeDmaBufferWithNotification, aud-prop2_065b7aad-f695-4076-9450-3311083ac17b.xml
+ms.keywords: FreeDmaBufferWithNotification, FreeDmaBufferWithNotification callback function [Audio Devices], PFREE_DMA_BUFFER_WITH_NOTIFICATION, aud-prop2_065b7aad-f695-4076-9450-3311083ac17b.xml, audio.freedmabufferwithnotification, hdaudio/FreeDmaBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -181,11 +181,11 @@ Callers of FreeDmaBufferWithNotification must be running at IRQL PASSIVE_LEVEL.
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
 
 

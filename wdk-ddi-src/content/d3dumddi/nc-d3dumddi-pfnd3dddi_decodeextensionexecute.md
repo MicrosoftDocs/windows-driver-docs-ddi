@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 522a552a-4588-4dd1-b81f-73ccd4a1c0aa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.decodeextensionexecute, DecodeExtensionExecute callback function [Display Devices], DecodeExtensionExecute, PFND3DDDI_DECODEEXTENSIONEXECUTE, PFND3DDDI_DECODEEXTENSIONEXECUTE, d3dumddi/DecodeExtensionExecute, UserModeDisplayDriver_Functions_426d4fa5-389b-4aca-a1c9-233d3a54b949.xml
+ms.keywords: DecodeExtensionExecute, DecodeExtensionExecute callback function [Display Devices], PFND3DDDI_DECODEEXTENSIONEXECUTE, UserModeDisplayDriver_Functions_426d4fa5-389b-4aca-a1c9-233d3a54b949.xml, d3dumddi/DecodeExtensionExecute, display.decodeextensionexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

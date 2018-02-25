@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2e580a57-03cb-4ff4-b3c6-0b5ef17b4ccb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetFirstChildItem method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::GetFirstChildItem, image.iwiadrvitem_getfirstchilditem, IWiaDrvItem interface [Imaging Devices], GetFirstChildItem method, DrvItem_0ee76640-f07a-4b25-9955-230122a2a662.xml, GetFirstChildItem, IWiaDrvItem::GetFirstChildItem, GetFirstChildItem method [Imaging Devices]
+ms.keywords: ",  , ,, ., :, C, D, DrvItem_0ee76640-f07a-4b25-9955-230122a2a662.xml, F, G, GetFirstChildItem method [Imaging Devices], GetFirstChildItem method [Imaging Devices], IWiaDrvItem interface, GetFirstChildItem,IWiaDrvItem.GetFirstChildItem, I, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetFirstChildItem method, IWiaDrvItem::GetFirstChildItem, W, a, d, e, h, i, image.iwiadrvitem_getfirstchilditem, l, m, r, s, t, v, wiamindr_lh/IWiaDrvItem::GetFirstChildItem"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,15 +100,15 @@ Minidrivers typically use this method to retrieve the first child item in a driv
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543892">IWiaDrvItem::GetParentItem</a>
-
-
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543892">IWiaDrvItem::GetParentItem</a>
 
 
 

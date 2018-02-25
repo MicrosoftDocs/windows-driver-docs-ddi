@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B4AFCD4C-0415-4EC4-BC10-D98F3AB409C5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS structure pointer [Windows Debugging], DEBUG_LAST_EVENT_INFO_EXIT_PROCESS structure [Windows Debugging], _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, debugger.debug_last_event_info_exit_process, dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, *PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, DEBUG_LAST_EVENT_INFO_EXIT_PROCESS
+ms.keywords: ",  , *, *PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, ,, A, B, C, D, DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, DEBUG_LAST_EVENT_INFO_EXIT_PROCESS structure [Windows Debugging], E, F, G, I, L, N, O, P, PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS structure pointer [Windows Debugging], R, S, T, U, V, X, _, _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, debugger.debug_last_event_info_exit_process"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

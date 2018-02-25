@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A925D5D3-EF79-4C14-BE1C-188C255DDF8E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pdxgk_graphicspower_unregister, PDXGK_GRAPHICSPOWER_UNREGISTER callback function [Display Devices], PDXGK_GRAPHICSPOWER_UNREGISTER, d3dkmthk/PDXGK_GRAPHICSPOWER_UNREGISTER
+ms.keywords: PDXGK_GRAPHICSPOWER_UNREGISTER, PDXGK_GRAPHICSPOWER_UNREGISTER callback function [Display Devices], d3dkmthk/PDXGK_GRAPHICSPOWER_UNREGISTER, display.pdxgk_graphicspower_unregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

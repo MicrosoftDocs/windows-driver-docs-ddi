@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2B27E92C-8781-4499-A1E0-7C1BBFFAA2DF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iminiportaudioenginenode_getsupporteddeviceformats, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetSupportedDeviceFormats method, GetSupportedDeviceFormats, IMiniportAudioEngineNode::GetSupportedDeviceFormats, portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats, GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode interface, GetSupportedDeviceFormats method [Audio Devices]
+ms.keywords: ",  , ,, ., :, A, D, E, F, G, GetSupportedDeviceFormats method [Audio Devices], GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode interface, GetSupportedDeviceFormats,IMiniportAudioEngineNode.GetSupportedDeviceFormats, I, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetSupportedDeviceFormats method, IMiniportAudioEngineNode::GetSupportedDeviceFormats, M, N, S, a, audio.iminiportaudioenginenode_getsupporteddeviceformats, c, d, e, g, i, m, n, o, p, portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -97,11 +97,11 @@ returns an appropriate error code.
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
+
+
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a>
 
 
 

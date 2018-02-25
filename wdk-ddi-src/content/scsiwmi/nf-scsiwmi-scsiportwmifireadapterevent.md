@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cb48d1a3-65ef-49f7-b6e5-b3dabf989779
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortWmiFireAdapterEvent macro [Storage Devices], scsiwmi/ScsiPortWmiFireAdapterEvent, ScsiPortWmiFireAdapterEvent, scsiprt_39ab704d-53a4-46d4-9196-f545710692ae.xml, storage.scsiportwmifireadapterevent
+ms.keywords: ",  , A, E, F, P, S, ScsiPortWmiFireAdapterEvent, ScsiPortWmiFireAdapterEvent macro [Storage Devices], W, a, c, d, e, i, m, n, o, p, r, s, scsiprt_39ab704d-53a4-46d4-9196-f545710692ae.xml, scsiwmi/ScsiPortWmiFireAdapterEvent, storage.scsiportwmifireadapterevent, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

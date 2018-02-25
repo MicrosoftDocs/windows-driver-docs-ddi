@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 0528EEE6-31D6-4CF6-8192-3557C28B4D10
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: gnssdriver/PGNSS_NI_REQUEST_PARAM, *PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, gnssdriver/GNSS_NI_REQUEST_PARAM, sensors.gnss_ni_request_param, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices]
+ms.keywords: ",  , *, *PGNSS_NI_REQUEST_PARAM, ,, A, E, G, GNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], I, M, N, P, PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], Q, R, S, T, U, _, gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM, sensors.gnss_ni_request_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

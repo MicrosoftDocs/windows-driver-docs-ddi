@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a9c1d1d7-4222-4c8c-92eb-497d13952bed
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfdrivercreatedfile_close, IWDFDriverCreatedFile interface, Close method, Close method, IWDFDriverCreatedFile interface, Close method, IWDFDriverCreatedFile::Close, wdf.iwdfdrivercreatedfile_close, IWDFDriverCreatedFile, Close, wudfddi/IWDFDriverCreatedFile::Close, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml
+ms.keywords: ",  , ,, ., :, C, Close method, Close method, IWDFDriverCreatedFile interface, Close,IWDFDriverCreatedFile.Close, D, F, I, IWDFDriverCreatedFile, IWDFDriverCreatedFile interface, Close method, IWDFDriverCreatedFile::Close, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml, W, a, d, e, i, l, o, r, s, t, umdf.iwdfdrivercreatedfile_close, v, wdf.iwdfdrivercreatedfile_close, wudfddi/IWDFDriverCreatedFile::Close"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

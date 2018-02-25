@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2e30707-dffd-4990-a552-b67a7d9e2ca4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OEMQueryFontTree function [Print Devices], OEMQueryFontTree, print.oemqueryfonttree, print_unidrv-pscript_rendering_f069b851-3104-4cca-8902-d844350a719e.xml, printoem/OEMQueryFontTree
+ms.keywords: ",  , E, F, M, O, OEMQueryFontTree, OEMQueryFontTree function [Print Devices], Q, T, e, n, o, print.oemqueryfonttree, print_unidrv-pscript_rendering_f069b851-3104-4cca-8902-d844350a719e.xml, printoem/OEMQueryFontTree, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

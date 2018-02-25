@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9b5cbd12-76b1-492e-828e-39a955f6d15c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsetsystemselectionprefsparams_v1, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V1, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V1
+ms.keywords: ",  , *, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V1, ,, 1, A, C, E, F, I, L, M, N, O, P, R, RILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], S, T, V, Y, _, netvista.rilsetsystemselectionprefsparams_v1, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

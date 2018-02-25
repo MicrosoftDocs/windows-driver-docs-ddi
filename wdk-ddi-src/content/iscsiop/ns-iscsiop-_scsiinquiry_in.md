@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b1a73ef7-c13a-4627-8eb0-b9285567caec
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.scsiinquiry_in, PScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], *PScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], iscsiop/PScsiInquiry_IN, structs-iSCSI_2129d82b-f03d-49f2-bf1d-8716840d086c.xml, iscsiop/ScsiInquiry_IN, ScsiInquiry_IN, _ScsiInquiry_IN
+ms.keywords: ",  , *, *PScsiInquiry_IN, ,, I, N, P, PScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], S, ScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], _, _ScsiInquiry_IN, c, i, iscsiop/PScsiInquiry_IN, iscsiop/ScsiInquiry_IN, n, q, r, s, storage.scsiinquiry_in, structs-iSCSI_2129d82b-f03d-49f2-bf1d-8716840d086c.xml, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_out.md">ScsiInquiry_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 

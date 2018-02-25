@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8D0F61E2-A891-4D51-9E33-BFA491B95505
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwps_vswitch_policy_event_callback0, vSwitchPolicyEventNotifyFn callback function [Network Drivers Starting with Windows Vista], vSwitchPolicyEventNotifyFn, FWPS_VSWITCH_POLICY_EVENT_CALLBACK0, FWPS_VSWITCH_POLICY_EVENT_CALLBACK0, fwpsk/vSwitchPolicyEventNotifyFn
+ms.keywords: FWPS_VSWITCH_POLICY_EVENT_CALLBACK0, fwpsk/vSwitchPolicyEventNotifyFn, netvista.fwps_vswitch_policy_event_callback0, vSwitchPolicyEventNotifyFn, vSwitchPolicyEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -203,15 +203,7 @@ If the callout returns STATUS_PENDING from <i>vSwitchPolicyEventNotifyFn</i>, WF
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598278">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_delete_parameters.md">NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</a>
-
-
-
-<a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
 
 
 
@@ -227,11 +219,7 @@ If the callout returns STATUS_PENDING from <i>vSwitchPolicyEventNotifyFn</i>, WF
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598276">OID_SWITCH_PORT_PROPERTY_DELETE</a>
+<a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a>
 
 
 
@@ -243,7 +231,19 @@ If the callout returns STATUS_PENDING from <i>vSwitchPolicyEventNotifyFn</i>, WF
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_delete_parameters.md">NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598278">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598276">OID_SWITCH_PORT_PROPERTY_DELETE</a>
 
 
 

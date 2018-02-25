@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c608643f-e791-44b8-8719-4e98e10fa7b0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGK_VIDPNSOURCEMODESET_INTERFACE, display.dxgk_vidpnsourcemodeset_interface, DmStructs_8e8b4b99-8121-4cff-9d1b-f88a9041e7cd.xml, DXGK_VIDPNSOURCEMODESET_INTERFACE structure [Display Devices], DXGK_VIDPNSOURCEMODESET_INTERFACE, _DXGK_VIDPNSOURCEMODESET_INTERFACE
+ms.keywords: ",  , ,, A, C, D, DXGK_VIDPNSOURCEMODESET_INTERFACE, DXGK_VIDPNSOURCEMODESET_INTERFACE structure [Display Devices], DmStructs_8e8b4b99-8121-4cff-9d1b-f88a9041e7cd.xml, E, F, G, I, K, M, N, O, P, R, S, T, U, V, X, _, _DXGK_VIDPNSOURCEMODESET_INTERFACE, d3dkmddi/DXGK_VIDPNSOURCEMODESET_INTERFACE, display.dxgk_vidpnsourcemodeset_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

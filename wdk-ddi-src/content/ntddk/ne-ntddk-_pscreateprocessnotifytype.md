@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5DD02CF1-50E8-45F2-9035-E0AA48F1470C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsCreateProcessNotifySubsystems, PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems, ntddk/PSCREATEPROCESSNOTIFYTYPE, kernel.pscreateprocessnotifytype, _PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , ,, A, C, E, F, I, N, O, P, PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateProcessNotifySubsystems, R, S, T, Y, _, _PSCREATEPROCESSNOTIFYTYPE, kernel.pscreateprocessnotifytype, ntddk/PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,11 +74,11 @@ Indicates that the driver-registered callback is invoked for processes of all su
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0eae7899-c40b-4a5f-9e9c-adae021885e7">NtQueryInformationProcess</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a>
+
+
+
+<a href="https://msdn.microsoft.com/0eae7899-c40b-4a5f-9e9c-adae021885e7">NtQueryInformationProcess</a>
 
 
 

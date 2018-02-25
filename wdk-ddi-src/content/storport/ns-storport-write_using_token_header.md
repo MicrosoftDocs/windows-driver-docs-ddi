@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A46ED23A-7DB0-4792-B903-F748BCDAD55E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsi/PWRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER, storage.write_using_token_header, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], *PWRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER
+ms.keywords: ",  , *, *PWRITE_USING_TOKEN_HEADER, ,, A, D, E, G, H, I, K, N, O, P, PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], R, S, T, U, W, WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], _, scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, storage.write_using_token_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,11 +132,11 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 ## -see-also
 
-<a href="..\storport\ns-storport-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
-
-
-
 <a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
+
+
+
+<a href="..\storport\ns-storport-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C862D632-5425-4EEB-9C5D-BC3721D9F132
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercxreceive, EvtSerCxReceive callback function [Serial Ports], EvtSerCxReceive, EVT_SERCX_RECEIVE, EVT_SERCX_RECEIVE, 1/EvtSerCxReceive
+ms.keywords: 1/EvtSerCxReceive, EVT_SERCX_RECEIVE, EvtSerCxReceive, EvtSerCxReceive callback function [Serial Ports], serports.evtsercxreceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -157,7 +157,7 @@ For more information about SDV requirements for function declarations, see <a hr
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfdpc\nf-wdfdpc-wdfdpcenqueue.md">WdfDpcEnqueue</a>
 
 
 
@@ -165,7 +165,7 @@ For more information about SDV requirements for function declarations, see <a hr
 
 
 
-<a href="..\wdfdpc\nf-wdfdpc-wdfdpcenqueue.md">WdfDpcEnqueue</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

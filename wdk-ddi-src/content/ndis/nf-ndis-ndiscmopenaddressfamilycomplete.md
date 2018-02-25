@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eed57341-0b1a-4697-b05d-680bc17da796
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisCmOpenAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_0b6dfac0-905d-48a8-b547-85bfe047e8f1.xml, ndis/NdisCmOpenAddressFamilyComplete, NdisCmOpenAddressFamilyComplete, netvista.ndiscmopenaddressfamilycomplete
+ms.keywords: ",  , A, C, F, N, NdisCmOpenAddressFamilyComplete, NdisCmOpenAddressFamilyComplete function [Network Drivers Starting with Windows Vista], O, a, condis_call_manager_ref_0b6dfac0-905d-48a8-b547-85bfe047e8f1.xml, d, e, i, l, m, n, ndis/NdisCmOpenAddressFamilyComplete, netvista.ndiscmopenaddressfamilycomplete, o, p, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,12 +147,13 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
    NdisAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmopenaddressfamilycomplete.md">
+   NdisMCmOpenAddressFamilyComplete</a>
 
 
 
@@ -160,8 +161,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmopenaddressfamilycomplete.md">
-   NdisMCmOpenAddressFamilyComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
 
 
 

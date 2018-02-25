@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 759BA42A-2F38-42D3-A245-8DEA2919DC39
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d12umddi/D3D12DDI_RESOURCE_RANGED_BARRIER_0022, D3D12DDI_RESOURCE_RANGED_BARRIER_0022 structure [Display Devices], D3D12DDI_RESOURCE_RANGED_BARRIER_0022, display.d3d12ddi_resource_ranged_barrier_0022
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, B, C, D, D3D12DDI_RESOURCE_RANGED_BARRIER_0022, D3D12DDI_RESOURCE_RANGED_BARRIER_0022 structure [Display Devices], E, G, I, N, O, R, S, U, _, d3d12umddi/D3D12DDI_RESOURCE_RANGED_BARRIER_0022, display.d3d12ddi_resource_ranged_barrier_0022"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

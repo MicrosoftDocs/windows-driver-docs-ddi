@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: HalftonePattern method [Print Devices], HalftonePattern, IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, prcomoem/IPrintOemUni::HalftonePattern, HalftonePattern method [Print Devices], IPrintOemUni interface, IPrintOemUni, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml, IPrintOemUni interface [Print Devices], HalftonePattern method
+ms.keywords: ",  , ,, ., :, H, HalftonePattern method [Print Devices], HalftonePattern method [Print Devices], IPrintOemUni interface, HalftonePattern,IPrintOemUni.HalftonePattern, I, IPrintOemUni, IPrintOemUni interface [Print Devices], HalftonePattern method, IPrintOemUni::HalftonePattern, O, P, U, a, e, f, i, l, m, n, o, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

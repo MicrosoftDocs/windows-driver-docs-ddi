@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a2d8bdf-cfc2-4724-aab3-0277edb477e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: dot11wdi/PWDI_TXRX_TARGET_CONFIGURATION, WDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], netvista.wifi_txrx_target_configuration, netvista.wdi_txrx_target_configuration, *PWDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION, WDI_TXRX_TARGET_CONFIGURATION structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_TARGET_CONFIGURATION, dot11wdi/WDI_TXRX_TARGET_CONFIGURATION
+ms.keywords: ",  , *, *PWDI_TXRX_TARGET_CONFIGURATION, ,, A, C, D, E, F, G, I, N, O, P, PWDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], R, T, U, W, WDI_TXRX_TARGET_CONFIGURATION, WDI_TXRX_TARGET_CONFIGURATION structure [Network Drivers Starting with Windows Vista], X, _, _WDI_TXRX_TARGET_CONFIGURATION, dot11wdi/PWDI_TXRX_TARGET_CONFIGURATION, dot11wdi/WDI_TXRX_TARGET_CONFIGURATION, netvista.wdi_txrx_target_configuration, netvista.wifi_txrx_target_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

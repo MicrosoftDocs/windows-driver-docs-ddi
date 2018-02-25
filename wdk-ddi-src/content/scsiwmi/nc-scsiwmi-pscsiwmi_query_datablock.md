@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a2e588b8-50d6-4bed-b50c-c42be24955f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwscsiwmiquerydatablock, HwScsiWmiQueryDataBlock, HwScsiWmiQueryDataBlock callback function [Storage Devices], HwScsiWmiQueryDataBlock, PSCSIWMI_QUERY_DATABLOCK, PSCSIWMI_QUERY_DATABLOCK, scsiwmi/HwScsiWmiQueryDataBlock, Scsimini_1405dcfc-840b-4cc6-bd4c-63d071aa993e.xml
+ms.keywords: HwScsiWmiQueryDataBlock, HwScsiWmiQueryDataBlock callback function [Storage Devices], PSCSIWMI_QUERY_DATABLOCK, Scsimini_1405dcfc-840b-4cc6-bd4c-63d071aa993e.xml, scsiwmi/HwScsiWmiQueryDataBlock, storage.hwscsiwmiquerydatablock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,7 +137,7 @@ The miniport driver writes instance data to the buffer. For requests that do not
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 
@@ -145,7 +145,7 @@ The miniport driver writes instance data to the buffer. For requests that do not
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 

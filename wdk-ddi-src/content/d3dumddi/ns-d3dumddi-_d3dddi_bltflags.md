@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 844d6aed-2ca2-45ef-bd53-54344dbdadbf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDI_BLTFLAGS structure [Display Devices], display.d3dddi_bltflags, _D3DDDI_BLTFLAGS, D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, d3dumddi/D3DDDI_BLTFLAGS, D3DDDI_BLTFLAGS
+ms.keywords: ",  , ,, 3, A, B, D, D3DDDI_BLTFLAGS, D3DDDI_BLTFLAGS structure [Display Devices], D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, F, G, I, L, S, T, _, _D3DDDI_BLTFLAGS, d3dumddi/D3DDDI_BLTFLAGS, display.d3dddi_bltflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -267,11 +267,11 @@ The <b>BeginPresentToDwm</b>, <b>ContinuePresentToDwm</b>, and <b>EndPresentToDw
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_blt.md">D3DDDIARG_BLT</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_blt.md">D3DDDIARG_BLT</a>
 
 
 

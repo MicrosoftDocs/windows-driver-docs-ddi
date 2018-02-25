@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac03889a-1e02-4852-8ed9-487674c6e0de
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsGateInitializeAnd, KsGateInitializeAnd function [Streaming Media Devices], avfunc_9eb102c9-08f4-44f7-bc3e-889aa8f85f23.xml, stream.ksgateinitializeand, KsGateInitializeAnd
+ms.keywords: ",  , A, G, I, K, KsGateInitializeAnd, KsGateInitializeAnd function [Streaming Media Devices], a, avfunc_9eb102c9-08f4-44f7-bc3e-889aa8f85f23.xml, d, e, i, ks/KsGateInitializeAnd, l, n, s, stream.ksgateinitializeand, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,15 +100,11 @@ The next gate (following <i>AndGate</i>) must be an OR gate, whether it is speci
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 
@@ -117,6 +113,10 @@ The next gate (following <i>AndGate</i>) must be an OR gate, whether it is speci
 
 
 <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 717ac510-b456-43b9-9500-b07e942f424c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kstrmethodhandler, KStrMethodHandler, KStrGetPropertyHandler, KStrSetPropertyHandler, KStrSupportHandler, KStrHandler routine [Streaming Media Devices], KStrHandler, PFNKSHANDLER, PFNKSHANDLER, ks/KStrHandler, ksfunc_53b62198-4059-4715-b405-c6f55d736a09.xml
+ms.keywords: KStrGetPropertyHandler, KStrHandler, KStrHandler routine [Streaming Media Devices], KStrMethodHandler, KStrSetPropertyHandler, KStrSupportHandler, PFNKSHANDLER, ks/KStrHandler, ksfunc_53b62198-4059-4715-b405-c6f55d736a09.xml, stream.kstrmethodhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,11 +153,7 @@ The handler declaration used for <i>KStrMethodHandler</i> and <i>KStrSupportHand
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
-
-
-
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
 
@@ -165,7 +161,11 @@ The handler declaration used for <i>KStrMethodHandler</i> and <i>KStrSupportHand
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+
+
+<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8794413f-f4d5-4382-8886-2f0659d8a781
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setblendstate, SetBlendState callback function [Display Devices], SetBlendState, PFND3D10DDI_SETBLENDSTATE, PFND3D10DDI_SETBLENDSTATE, d3d10umddi/SetBlendState, UserModeDisplayDriverDx10_Functions_11dcf032-7cd6-497e-985d-548960276981.xml
+ms.keywords: PFND3D10DDI_SETBLENDSTATE, SetBlendState, SetBlendState callback function [Display Devices], UserModeDisplayDriverDx10_Functions_11dcf032-7cd6-497e-985d-548960276981.xml, d3d10umddi/SetBlendState, display.setblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -133,11 +133,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

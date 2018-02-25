@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8c97c4f0-3cb8-4457-8389-02d9fba51400
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.istillimage_gethwnotificationstate, GetHwNotificationState, IStillImageW::GetHwNotificationState, GetHwNotificationState method [Imaging Devices], IStillImage interface, IStillImageW, sti/IStillImage::GetHwNotificationState, IStillImage interface [Imaging Devices], GetHwNotificationState method, IStillImage::GetHwNotificationState, stifnc_9dab6727-1954-4054-b918-be9666c05301.xml, GetHwNotificationState method [Imaging Devices]
+ms.keywords: ",  , ,, ., :, G, GetHwNotificationState method [Imaging Devices], GetHwNotificationState method [Imaging Devices], IStillImage interface, GetHwNotificationState,IStillImageW.GetHwNotificationState, H, I, IStillImage interface [Imaging Devices], GetHwNotificationState method, IStillImage::GetHwNotificationState, IStillImageW, IStillImageW::GetHwNotificationState, N, S, W, a, c, e, f, g, i, image.istillimage_gethwnotificationstate, l, m, n, o, sti/IStillImage::GetHwNotificationState, stifnc_9dab6727-1954-4054-b918-be9666c05301.xml, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

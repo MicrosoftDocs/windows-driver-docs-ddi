@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa7cee9a-5051-4ebc-be7c-ac9ac91ba631
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, _D3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE, display.d3dkmt_checkmonitorpowerstate, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices]
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], E, H, I, K, M, N, O, OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, P, R, S, T, W, _, _D3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, display.d3dkmt_checkmonitorpowerstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,7 +80,7 @@ typedef struct _D3DKMT_CHECKMONITORPOWERSTATE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckmonitorpowerstate.md">D3DKMTCheckMonitorPowerState</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checkmonitorpowerstate.md">D3DKMTCheckMonitorPowerState</a>
 
 
 

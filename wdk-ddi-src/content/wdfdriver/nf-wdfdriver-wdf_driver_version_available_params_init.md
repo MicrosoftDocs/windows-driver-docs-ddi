@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aba3844e-745d-4d2c-9855-0535f53d7b0a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDriverObjectRef_9638f416-7d77-45af-8e87-07c51198fb05.xml, wdf.wdf_driver_version_available_params_init, WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT, WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function, kmdf.wdf_driver_version_available_params_init, wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
+ms.keywords: ",  , A, B, D, DFDriverObjectRef_9638f416-7d77-45af-8e87-07c51198fb05.xml, E, F, I, L, M, N, O, P, R, S, T, V, W, WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT, WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function, _, kmdf.wdf_driver_version_available_params_init, wdf.wdf_driver_version_available_params_init, wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

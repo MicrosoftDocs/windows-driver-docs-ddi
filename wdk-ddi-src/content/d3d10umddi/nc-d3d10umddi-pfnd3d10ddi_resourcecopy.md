@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a837f42-0bea-4425-b693-dd7947ac24b1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.resourcecopy, ResourceCopy callback function [Display Devices], ResourceCopy, PFND3D10DDI_RESOURCECOPY, PFND3D10DDI_RESOURCECOPY, d3d10umddi/ResourceCopy, UserModeDisplayDriverDx10_Functions_40047363-38d4-4271-8c24-f9a7ea565079.xml
+ms.keywords: PFND3D10DDI_RESOURCECOPY, ResourceCopy, ResourceCopy callback function [Display Devices], UserModeDisplayDriverDx10_Functions_40047363-38d4-4271-8c24-f9a7ea565079.xml, d3d10umddi/ResourceCopy, display.resourcecopy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -191,11 +191,7 @@ The source and destination resources must have the same number of samples and qu
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddi_devicefuncs.md">D3D10_1DDI_DEVICEFUNCS</a>
 
 
 
@@ -203,11 +199,15 @@ The source and destination resources must have the same number of samples and qu
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddi_devicefuncs.md">D3D10_1DDI_DEVICEFUNCS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c654e822-a932-4da0-ab11-4669bd8ba4b4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminifiltercreate, AVStrMiniFilterCreate, AVStrMiniFilterClose, MyAVStrMiniFilterIRPHandler routine [Streaming Media Devices], MyAVStrMiniFilterIRPHandler, PFNKSFILTERIRP, PFNKSFILTERIRP, ks/MyAVStrMiniFilterIRPHandler, avstclbk_76b73509-587e-47bd-9de7-92eac4237706.xml
+ms.keywords: AVStrMiniFilterClose, AVStrMiniFilterCreate, MyAVStrMiniFilterIRPHandler, MyAVStrMiniFilterIRPHandler routine [Streaming Media Devices], PFNKSFILTERIRP, avstclbk_76b73509-587e-47bd-9de7-92eac4237706.xml, ks/MyAVStrMiniFilterIRPHandler, stream.avstrminifiltercreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

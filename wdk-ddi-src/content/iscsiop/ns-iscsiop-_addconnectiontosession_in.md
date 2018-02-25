@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7fcb0b87-1f9e-4956-a59a-cd83fa04e5db
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AddConnectionToSession_IN structure [Storage Devices], iscsiop/AddConnectionToSession_IN, _AddConnectionToSession_IN, structs-iSCSI_4e238073-ca54-4da3-afcc-4b45e4da243f.xml, PAddConnectionToSession_IN, PAddConnectionToSession_IN structure pointer [Storage Devices], AddConnectionToSession_IN, iscsiop/PAddConnectionToSession_IN, storage.addconnectiontosession_in, *PAddConnectionToSession_IN
+ms.keywords: ",  , *, *PAddConnectionToSession_IN, ,, A, AddConnectionToSession_IN, AddConnectionToSession_IN structure [Storage Devices], C, I, N, P, PAddConnectionToSession_IN, PAddConnectionToSession_IN structure pointer [Storage Devices], S, T, _, _AddConnectionToSession_IN, c, d, e, i, iscsiop/AddConnectionToSession_IN, iscsiop/PAddConnectionToSession_IN, n, o, s, storage.addconnectiontosession_in, structs-iSCSI_4e238073-ca54-4da3-afcc-4b45e4da243f.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,19 +137,7 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_out.md">AddConnectionToSession_OUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 
@@ -157,11 +145,23 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_out.md">AddConnectionToSession_OUT</a>
+
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
 
 

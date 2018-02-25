@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfeec8b1-48fb-420e-b602-699a5f2d659a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoAllocateController, k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, ntddk/IoAllocateController, IoAllocateController routine [Kernel-Mode Driver Architecture], kernel.ioallocatecontroller
+ms.keywords: ",  , A, C, I, IoAllocateController, IoAllocateController routine [Kernel-Mode Driver Architecture], a, c, e, k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, kernel.ioallocatecontroller, l, n, ntddk/IoAllocateController, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,11 +112,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">Contr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
 
 
 

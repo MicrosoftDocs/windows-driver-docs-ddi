@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 700412A3-5905-4401-BA65-C2DE1613398D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtldeleteelementgenerictableavl, ntddk/RtlDeleteElementGenericTableAvl, RtlDeleteElementGenericTableAvl routine [Installable File System Drivers], RtlDeleteElementGenericTableAvl
+ms.keywords: ",  , A, D, E, G, R, RtlDeleteElementGenericTableAvl, RtlDeleteElementGenericTableAvl routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtldeleteelementgenerictableavl, l, m, n, ntddk/RtlDeleteElementGenericTableAvl, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

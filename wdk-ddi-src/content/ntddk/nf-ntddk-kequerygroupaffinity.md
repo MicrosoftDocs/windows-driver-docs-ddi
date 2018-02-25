@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 235ec93e-5b3c-4a19-876f-f668271a56a5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeQueryGroupAffinity, kernel.kequerygroupaffinity, wdm/KeQueryGroupAffinity, k105_9116eade-e2ed-47f4-a204-c21d456371b0.xml, KeQueryGroupAffinity routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, G, K, KeQueryGroupAffinity, KeQueryGroupAffinity routine [Kernel-Mode Driver Architecture], Q, e, f, i, k105_9116eade-e2ed-47f4-a204-c21d456371b0.xml, kernel.kequerygroupaffinity, n, o, p, r, t, u, wdm/KeQueryGroupAffinity, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ KAFFINITY KeQueryGroupAffinity(
 
 ### -param GroupNumber [in]
 
-The group number. If a multiprocessor system contains <i>n</i> groups, the groups are numbered from 0 to <i>n</i>-1. To obtain the number of active groups in the system, call the <a href="..\wdm\nf-wdm-kequeryactivegroupcount.md">KeQueryActiveGroupCount</a> routine. 
+The group number. If a multiprocessor system contains <i>n</i> groups, the groups are numbered from 0 to <i>n</i>-1. To obtain the number of active groups in the system, call the <a href="..\ntddk\nf-ntddk-kequeryactivegroupcount.md">KeQueryActiveGroupCount</a> routine. 
 
 
 ## -returns
@@ -85,18 +85,18 @@ The group number. If a multiprocessor system contains <i>n</i> groups, the group
 
 
 
-A related routine, <a href="..\wdm\nf-wdm-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>, returns an affinity mask that represents a set of active processors, but this routine, unlike <b>KeQueryGroupAffinity</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeQueryActiveProcessors</b> returns an affinity mask for the active processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeQueryActiveProcessors</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeQueryGroupAffinity</b> instead of <b>KeQueryActiveProcessors</b>. 
+A related routine, <a href="..\ntddk\nf-ntddk-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>, returns an affinity mask that represents a set of active processors, but this routine, unlike <b>KeQueryGroupAffinity</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeQueryActiveProcessors</b> returns an affinity mask for the active processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeQueryActiveProcessors</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeQueryGroupAffinity</b> instead of <b>KeQueryActiveProcessors</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>
 
 
 

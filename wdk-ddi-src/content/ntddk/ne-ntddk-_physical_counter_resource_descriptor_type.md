@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58fa1312-eb21-405d-85de-59ea69d9447f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.physical_counter_resource_descriptor_type, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ntddk/ResourceTypeSingle, ntddk/ResourceTypeRange, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ResourceTypeExtendedCounterConfiguration, ResourceTypeOverflow, ntddk/ResourceTypeMax, ntddk/ResourceTypeExtendedCounterConfiguration, ntddk/ResourceTypeOverflow, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ResourceTypeSingle, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration [Kernel-Mode Driver Architecture], ResourceTypeRange, ResourceTypeMax, sysenum_cb8d2405-4299-4e91-9f55-dc9c84587148.xml
+ms.keywords: ",  , ,, A, C, D, E, H, I, L, N, O, P, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration [Kernel-Mode Driver Architecture], R, ResourceTypeExtendedCounterConfiguration, ResourceTypeMax, ResourceTypeOverflow, ResourceTypeRange, ResourceTypeSingle, S, T, U, Y, _, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, kernel.physical_counter_resource_descriptor_type, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ntddk/ResourceTypeExtendedCounterConfiguration, ntddk/ResourceTypeMax, ntddk/ResourceTypeOverflow, ntddk/ResourceTypeRange, ntddk/ResourceTypeSingle, sysenum_cb8d2405-4299-4e91-9f55-dc9c84587148.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

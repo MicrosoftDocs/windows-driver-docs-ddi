@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07ad70b0-9af2-4fbd-baff-aa91dd583a20
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D11DDI_SHADER_CAPS structure [Display Devices], D3D11DDI_SHADER_CAPS, display.d3d11ddi_shader_caps, D3D11DDICAPS_SHADER_COMPUTE_PLUS_RAW_AND_STRUCTURED_BUFFERS_IN_SHADER_4_X (0x2), d3d10umddi/D3D11DDI_SHADER_CAPS, UMDisplayDriver_Dx11param_Structs_e0026993-2d6d-4478-8796-c423c841f7f8.xml, D3D11DDICAPS_SHADER_DOUBLES (0x1)
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11DDICAPS_SHADER_COMPUTE_PLUS_RAW_AND_STRUCTURED_BUFFERS_IN_SHADER_4_X (0x2), D3D11DDICAPS_SHADER_DOUBLES (0x1), D3D11DDI_SHADER_CAPS, D3D11DDI_SHADER_CAPS structure [Display Devices], E, H, I, P, R, S, UMDisplayDriver_Dx11param_Structs_e0026993-2d6d-4478-8796-c423c841f7f8.xml, _, d3d10umddi/D3D11DDI_SHADER_CAPS, display.d3d11ddi_shader_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,11 +88,7 @@ Drivers that run the <a href="https://msdn.microsoft.com/7d724751-761e-409c-8398
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createcomputeshader.md">CreateComputeShader</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createunorderedaccessview.md">CreateUnorderedAccessView</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
 
 
 
@@ -104,7 +100,11 @@ Drivers that run the <a href="https://msdn.microsoft.com/7d724751-761e-409c-8398
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createunorderedaccessview.md">CreateUnorderedAccessView</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createcomputeshader.md">CreateComputeShader</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2a45c971-3dad-47ad-a819-6f2c6e34ad37
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugClient4 interface [Windows Debugging], CreateProcessWide method, IDebugClient4::CreateProcessWide, dbgeng/IDebugClient3::CreateProcessWide, IDebugClient3, dbgeng/IDebugClient4::CreateProcessWide, dbgeng/IDebugClient5::CreateProcessWide, IDebugClient3 interface [Windows Debugging], CreateProcessWide method, CreateProcessWide method [Windows Debugging], IDebugClient3 interface, IDebugClient5::CreateProcessWide, IDebugClient5, CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient5 interface, debugger.createprocesswide, CreateProcessWide method [Windows Debugging], IDebugClient4, CreateProcessWide method [Windows Debugging], IDebugClient4 interface, IDebugClient3::CreateProcessWide, IDebugClient5 interface [Windows Debugging], CreateProcessWide method
+ms.keywords: ",  , ,, ., 5, :, C, CreateProcessWide method [Windows Debugging], CreateProcessWide method [Windows Debugging], IDebugClient3 interface, CreateProcessWide method [Windows Debugging], IDebugClient4 interface, CreateProcessWide method [Windows Debugging], IDebugClient5 interface, CreateProcessWide,IDebugClient3.CreateProcessWide, CreateProcessWide,IDebugClient4.CreateProcessWide, CreateProcessWide,IDebugClient5.CreateProcessWide, D, I, IDebugClient3, IDebugClient3 interface [Windows Debugging], CreateProcessWide method, IDebugClient3::CreateProcessWide, IDebugClient4, IDebugClient4 interface [Windows Debugging], CreateProcessWide method, IDebugClient4::CreateProcessWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], CreateProcessWide method, IDebugClient5::CreateProcessWide, P, W, a, b, c, d, dbgeng/IDebugClient3::CreateProcessWide, dbgeng/IDebugClient4::CreateProcessWide, dbgeng/IDebugClient5::CreateProcessWide, debugger.createprocesswide, e, g, i, l, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -129,19 +129,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -149,7 +137,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
 
 
@@ -157,7 +145,19 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

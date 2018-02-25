@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f4c8de23-dc92-41b0-82ee-2622d3942c0e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksfiltercreatepinfactory, avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices], ks/KsFilterCreatePinFactory
+ms.keywords: ",  , C, F, K, KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices], P, a, avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, c, e, i, ks/KsFilterCreatePinFactory, l, n, o, r, s, stream.ksfiltercreatepinfactory, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

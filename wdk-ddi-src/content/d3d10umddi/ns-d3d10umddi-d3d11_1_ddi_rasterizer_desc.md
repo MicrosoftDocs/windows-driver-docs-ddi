@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a78655b3-3ca3-4632-9ac4-3efae6b10a0c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3d11_1_ddi_rasterizer_desc, d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC, D3D11_1_DDI_RASTERIZER_DESC, D3D11_1_DDI_RASTERIZER_DESC structure [Display Devices]
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1_DDI_RASTERIZER_DESC, D3D11_1_DDI_RASTERIZER_DESC structure [Display Devices], E, I, R, S, T, Z, _, d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC, display.d3d11_1_ddi_rasterizer_desc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

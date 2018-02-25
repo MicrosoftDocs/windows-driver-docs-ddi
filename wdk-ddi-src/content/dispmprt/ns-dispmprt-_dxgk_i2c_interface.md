@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aba0ebc8-2c92-4d27-a35b-9ac25ac6e5ab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE structure [Display Devices], DXGK_I2C_INTERFACE, *PDXGK_I2C_INTERFACE, dispmprt/PDXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE, display.dxgk_i2c_interface, PDXGK_I2C_INTERFACE structure pointer [Display Devices], DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, dispmprt/DXGK_I2C_INTERFACE"
+ms.keywords: ",  , *, *PDXGK_I2C_INTERFACE, ,, 2, A, C, D, DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE structure [Display Devices], DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, E, F, G, I, K, N, P, PDXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE structure pointer [Display Devices], R, T, X, _, _DXGK_I2C_INTERFACE, display.dxgk_i2c_interface, dispmprt/DXGK_I2C_INTERFACE, dispmprt/PDXGK_I2C_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

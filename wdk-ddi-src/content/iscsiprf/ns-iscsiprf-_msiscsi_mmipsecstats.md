@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 75b11689-f940-467e-92ee-59b5e0adbf70
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], PMSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml, iscsiprf/PMSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, storage.msiscsi_mmipsecstats, MSiSCSI_MMIPSECStats"
+ms.keywords: ",  , *, *PMSiSCSI_MMIPSECStats, ,, C, E, I, M, MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], P, PMSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], S, _, _MSiSCSI_MMIPSECStats, a, i, iscsiprf/MSiSCSI_MMIPSECStats, iscsiprf/PMSiSCSI_MMIPSECStats, s, storage.msiscsi_mmipsecstats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

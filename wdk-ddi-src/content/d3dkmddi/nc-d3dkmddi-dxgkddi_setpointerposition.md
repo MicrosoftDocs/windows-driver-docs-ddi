@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b30e4f19-068c-4ab0-a2e9-b1f57592be1c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisetpointerposition, DxgkDdiSetPointerPosition callback function [Display Devices], DxgkDdiSetPointerPosition, DXGKDDI_SETPOINTERPOSITION, DXGKDDI_SETPOINTERPOSITION, d3dkmddi/DxgkDdiSetPointerPosition, DmFunctions_1067a75d-aece-48c2-93c1-35465c57c07e.xml
+ms.keywords: DXGKDDI_SETPOINTERPOSITION, DmFunctions_1067a75d-aece-48c2-93c1-35465c57c07e.xml, DxgkDdiSetPointerPosition, DxgkDdiSetPointerPosition callback function [Display Devices], d3dkmddi/DxgkDdiSetPointerPosition, display.dxgkddisetpointerposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -107,7 +107,7 @@ If you run a <i>DxgkDdiSetPointerPosition</i> thread simultaneously with another
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointerposition.md">DXGKARG_SETPOINTERPOSITION</a>
 
 
 
@@ -115,7 +115,7 @@ If you run a <i>DxgkDdiSetPointerPosition</i> thread simultaneously with another
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointerposition.md">DXGKARG_SETPOINTERPOSITION</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

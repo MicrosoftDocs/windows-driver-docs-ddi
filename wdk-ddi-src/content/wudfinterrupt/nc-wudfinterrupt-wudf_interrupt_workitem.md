@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10677BC2-2A98-41C8-BAE9-1FA3689ACD93
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.oninterruptworkitem, OnInterruptWorkItem callback function, OnInterruptWorkItem, WUDF_INTERRUPT_WORKITEM, WUDF_INTERRUPT_WORKITEM, wudfinterrupt/OnInterruptWorkItem, umdf.oninterruptworkitem
+ms.keywords: OnInterruptWorkItem, OnInterruptWorkItem callback function, WUDF_INTERRUPT_WORKITEM, umdf.oninterruptworkitem, wdf.oninterruptworkitem, wudfinterrupt/OnInterruptWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -167,11 +167,11 @@ Then, implement your callback function as follows:
 
 ## -see-also
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
-
-
-
 <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
+
+
+
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
 
 
 

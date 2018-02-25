@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0715e4d4-665c-42cb-9c74-48c2c558c277
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetJobAttributesEx function [Print Devices], print.getjobattributesex, spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, GetJobAttributesEx, winsplp/GetJobAttributesEx
+ms.keywords: ",  , A, E, G, GetJobAttributesEx, GetJobAttributesEx function [Print Devices], J, b, e, i, o, print.getjobattributesex, r, s, spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, t, u, winsplp/GetJobAttributesEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -222,11 +222,11 @@ This function first checks whether the driver supports the attribute level that 
 
 
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
 
 
 

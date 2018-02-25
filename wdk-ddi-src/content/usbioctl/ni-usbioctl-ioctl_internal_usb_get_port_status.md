@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: eb15d01c-e77c-4605-9c12-dd8495834875
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_get_port_status, IOCTL_INTERNAL_USB_GET_PORT_STATUS control code [Buses], IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbioctl/IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbirp_4fc2e386-093d-45b3-a74d-da66e711d71d.xml
+ms.keywords: IOCTL_INTERNAL_USB_GET_PORT_STATUS, IOCTL_INTERNAL_USB_GET_PORT_STATUS control code [Buses], buses.ioctl_internal_usb_get_port_status, usbioctl/IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbirp_4fc2e386-093d-45b3-a74d-da66e711d71d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

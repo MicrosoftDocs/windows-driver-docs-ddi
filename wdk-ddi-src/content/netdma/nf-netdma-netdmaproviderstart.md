@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e99ebbe8-8605-4bf2-9ec0-d7cde25058f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netdma/NetDmaProviderStart, netvista.netdmaproviderstart, NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , D, N, NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], P, S, a, d, e, i, m, netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netvista.netdmaproviderstart, o, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,7 +130,7 @@ Before a DMA provider driver calls
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 
@@ -138,11 +138,11 @@ Before a DMA provider driver calls
 
 
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
 
 

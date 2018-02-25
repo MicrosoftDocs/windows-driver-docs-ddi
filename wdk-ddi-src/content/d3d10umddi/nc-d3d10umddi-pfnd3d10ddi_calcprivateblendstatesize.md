@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c13862b0-3136-4a95-bb00-6057f2934068
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.calcprivateblendstatesize, CalcPrivateBlendStateSize callback function [Display Devices], CalcPrivateBlendStateSize, PFND3D10DDI_CALCPRIVATEBLENDSTATESIZE, PFND3D10DDI_CALCPRIVATEBLENDSTATESIZE, d3d10umddi/CalcPrivateBlendStateSize, UserModeDisplayDriverDx10_Functions_bb7c2ca6-61c8-4f54-a635-4ec9fb539837.xml
+ms.keywords: CalcPrivateBlendStateSize, CalcPrivateBlendStateSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEBLENDSTATESIZE, UserModeDisplayDriverDx10_Functions_bb7c2ca6-61c8-4f54-a635-4ec9fb539837.xml, d3d10umddi/CalcPrivateBlendStateSize, display.calcprivateblendstatesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,11 +113,11 @@ None.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_blend_desc.md">D3D10_DDI_BLEND_DESC</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 

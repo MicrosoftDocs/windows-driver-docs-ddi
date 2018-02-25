@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c31efc3-b844-4e51-947d-b48f36020766
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createcryptosession1, CreateCryptoSession callback function [Display Devices], CreateCryptoSession, PFND3D11_1DDI_CREATECRYPTOSESSION, PFND3D11_1DDI_CREATECRYPTOSESSION, d3d10umddi/CreateCryptoSession
+ms.keywords: CreateCryptoSession, CreateCryptoSession callback function [Display Devices], PFND3D11_1DDI_CREATECRYPTOSESSION, d3d10umddi/CreateCryptoSession, display.createcryptosession1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -179,11 +179,11 @@ If the <b>DecodeProfile</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatecryptosessionsize.md">CalcPrivateCryptoSessionSize</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
 
 
 

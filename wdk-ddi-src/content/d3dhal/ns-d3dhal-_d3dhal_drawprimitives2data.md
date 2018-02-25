@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d971e866-3049-4722-bfec-ca3364f291fd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DHAL_DRAWPRIMITIVES2DATA, *LPD3DHAL_DRAWPRIMITIVES2DATA, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, _D3DHAL_DRAWPRIMITIVES2DATA, display.d3dhal_drawprimitives2data, d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], LPD3DHAL_DRAWPRIMITIVES2DATA
+ms.keywords: ",  , *, *LPD3DHAL_DRAWPRIMITIVES2DATA, ,, 2, 3, A, D, D3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], E, H, I, L, LPD3DHAL_DRAWPRIMITIVES2DATA, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], M, P, R, S, T, V, W, _, _D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, display.d3dhal_drawprimitives2data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -485,7 +485,7 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 ## -see-also
 
-<a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551726">DD_SURFACE_GLOBAL</a>
 
 
 
@@ -497,11 +497,11 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551726">DD_SURFACE_GLOBAL</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
 
 
 

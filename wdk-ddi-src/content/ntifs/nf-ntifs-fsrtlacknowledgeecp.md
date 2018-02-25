@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1f91c2ef-300d-43f5-8d2c-d4f2fd326915
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlAcknowledgeEcp, FsRtlAcknowledgeEcp, FsRtlAcknowledgeEcp routine [Installable File System Drivers], fsrtlref_2c3b8577-e61e-4ff3-9443-b3838077d762.xml, ifsk.fsrtlacknowledgeecp
+ms.keywords: ",  , A, E, F, FsRtlAcknowledgeEcp, FsRtlAcknowledgeEcp routine [Installable File System Drivers], R, c, d, e, fsrtlref_2c3b8577-e61e-4ff3-9443-b3838077d762.xml, g, ifsk.fsrtlacknowledgeecp, k, l, n, ntifs/FsRtlAcknowledgeEcp, o, p, s, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,15 +94,7 @@ You can use the <a href="..\fltkernel\nf-fltkernel-fltisecpacknowledged.md">FltI
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltisecpfromusermode.md">FltIsEcpFromUserMode</a>
 
 
 
@@ -110,7 +102,19 @@ You can use the <a href="..\fltkernel\nf-fltkernel-fltisecpacknowledged.md">FltI
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 
 
@@ -118,11 +122,7 @@ You can use the <a href="..\fltkernel\nf-fltkernel-fltisecpacknowledged.md">FltI
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltisecpfromusermode.md">FltIsEcpFromUserMode</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 

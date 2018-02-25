@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 719465dd-4547-491c-ab30-ae63bba1b72c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoprocessblt, VideoProcessBlt callback function [Display Devices], VideoProcessBlt, PFND3DDDI_VIDEOPROCESSBLT, PFND3DDDI_VIDEOPROCESSBLT, d3dumddi/VideoProcessBlt, UserModeDisplayDriver_Functions_23e47fd3-a838-4b56-82c3-7894d2b173a1.xml
+ms.keywords: PFND3DDDI_VIDEOPROCESSBLT, UserModeDisplayDriver_Functions_23e47fd3-a838-4b56-82c3-7894d2b173a1.xml, VideoProcessBlt, VideoProcessBlt callback function [Display Devices], d3dumddi/VideoProcessBlt, display.videoprocessblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -131,11 +131,11 @@ The DirectX VA video processing operation is successfully performed.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 

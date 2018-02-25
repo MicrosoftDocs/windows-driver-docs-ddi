@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 9ff62523-e9e3-4f32-802f-6fee0082d925
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usb/_URB_OS_FEATURE_DESCRIPTOR_REQUEST, _URB_OS_FEATURE_DESCRIPTOR_REQUEST, buses._urb_os_feature_descriptor_request, _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure [Buses]
+ms.keywords: ",  , A, B, C, D, E, F, I, O, P, Q, R, S, T, U, _, _URB_OS_FEATURE_DESCRIPTOR_REQUEST, _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure [Buses], buses._urb_os_feature_descriptor_request, usb/_URB_OS_FEATURE_DESCRIPTOR_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -179,11 +179,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 465b13a7-59e0-47f8-9e33-82043a23f146
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: StartSymbolMatch method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::StartSymbolMatch, IDebugSymbols2 interface [Windows Debugging], StartSymbolMatch method, dbgeng/IDebugSymbols::StartSymbolMatch, IDebugSymbols interface [Windows Debugging], StartSymbolMatch method, StartSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::StartSymbolMatch, StartSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::StartSymbolMatch, StartSymbolMatch method [Windows Debugging], dbgeng/IDebugSymbols3::StartSymbolMatch, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, IDebugSymbols, debugger.startsymbolmatch, StartSymbolMatch, dbgeng/IDebugSymbols2::StartSymbolMatch, IDebugSymbols2
+ms.keywords: ",  , ,, ., 2, :, D, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols2::StartSymbolMatch, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols3::StartSymbolMatch, IDebugSymbols::StartSymbolMatch, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, M, S, StartSymbolMatch method [Windows Debugging], StartSymbolMatch method [Windows Debugging], IDebugSymbols interface, StartSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, StartSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, StartSymbolMatch,IDebugSymbols.StartSymbolMatch, StartSymbolMatch,IDebugSymbols2.StartSymbolMatch, a, b, c, dbgeng/IDebugSymbols2::StartSymbolMatch, dbgeng/IDebugSymbols3::StartSymbolMatch, dbgeng/IDebugSymbols::StartSymbolMatch, debugger.startsymbolmatch, e, g, h, l, m, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -132,15 +132,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -148,7 +144,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
 
 
 

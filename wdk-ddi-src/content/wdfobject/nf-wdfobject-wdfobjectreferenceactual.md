@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0bb58c1-1036-496a-b108-c0d5e5de3bc2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfobjectreferenceactual, WdfObjectReferenceActual method, kmdf.wdfobjectreferenceactual, WdfObjectReferenceActual, DFGenObjectRef_f1251726-c87f-4faa-9a96-0b7e49da2f2c.xml, wdfobject/WdfObjectReferenceActual
+ms.keywords: ",  , A, DFGenObjectRef_f1251726-c87f-4faa-9a96-0b7e49da2f2c.xml, O, R, W, WdfObjectReferenceActual, WdfObjectReferenceActual method, a, b, c, d, e, f, j, kmdf.wdfobjectreferenceactual, l, n, r, t, u, wdf.wdfobjectreferenceactual, wdfobject/WdfObjectReferenceActual"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

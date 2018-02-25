@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A52C8293-C037-4062-9A63-AD69237F7B3D
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_SWIZZLE_PATTERN_DESC_0022, display.d3d12ddi_swizzle_pattern_desc_0022, D3D12DDI_SWIZZLE_PATTERN_DESC_0022 structure [Display Devices], d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_DESC_0022
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_SWIZZLE_PATTERN_DESC_0022, D3D12DDI_SWIZZLE_PATTERN_DESC_0022 structure [Display Devices], E, I, L, N, P, R, S, T, W, Z, _, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_DESC_0022, display.d3d12ddi_swizzle_pattern_desc_0022"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21841DC6-B95F-4372-BBD1-EA195832A118
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditaltxrxstop, MiniportWdiTalTxRxStop callback function [Network Drivers Starting with Windows Vista], MiniportWdiTalTxRxStop, MINIPORT_WDI_TAL_TXRX_STOP, MINIPORT_WDI_TAL_TXRX_STOP, dot11wdi/MiniportWdiTalTxRxStop
+ms.keywords: MINIPORT_WDI_TAL_TXRX_STOP, MiniportWdiTalTxRxStop, MiniportWdiTalTxRxStop callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxStop, netvista.miniportwditaltxrxstop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -90,15 +90,15 @@ This callback function does not return a value.
 
 ## -see-also
 
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 

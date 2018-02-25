@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76b7e097-4953-4988-8999-07bbfbd65912
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.knownstructoutput, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], KnownStructOutput, PDEBUG_KNOWN_StructOutput, PDEBUG_KNOWN_StructOutput, dbgeng/KnownStructOutput, Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml
+ms.keywords: Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], PDEBUG_KNOWN_StructOutput, dbgeng/KnownStructOutput, debugger.knownstructoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c880eff-4b4c-439e-9239-f2343c1fe084
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidfindadapter, HwVidFindAdapter callback function [Display Devices], HwVidFindAdapter, PVIDEO_HW_FIND_ADAPTER, PVIDEO_HW_FIND_ADAPTER, video/HwVidFindAdapter, VideoMiniport_Functions_f035d610-08b2-4403-b9dc-c069520d61bb.xml
+ms.keywords: HwVidFindAdapter, HwVidFindAdapter callback function [Display Devices], PVIDEO_HW_FIND_ADAPTER, VideoMiniport_Functions_f035d610-08b2-4403-b9dc-c069520d61bb.xml, display.hwvidfindadapter, video/HwVidFindAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -245,39 +245,15 @@ If the driver does not handle interrupts, <i>HwVidFindAdapter</i> should set bot
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
 
 
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
-
-
-
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-
-
-
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
-
-
-
-<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 
 
 <a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
-
-
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 
@@ -289,15 +265,39 @@ If the driver does not handle interrupts, <i>HwVidFindAdapter</i> should set bot
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
+
+
+
 <a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
 
 
 
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
 
 
 
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+
+
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+
+
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 

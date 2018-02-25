@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83E5D362-BC3C-4480-9904-6ABBB26DAFF2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.powerondumpdevicecallback, PowerOnDumpDeviceCallback routine [Kernel-Mode Driver Architecture], PowerOnDumpDeviceCallback, PEPCALLBACKPOWERONCRASHDUMPDEVICE, PEPCALLBACKPOWERONCRASHDUMPDEVICE, pepfx/PowerOnDumpDeviceCallback
+ms.keywords: PEPCALLBACKPOWERONCRASHDUMPDEVICE, PowerOnDumpDeviceCallback, PowerOnDumpDeviceCallback routine [Kernel-Mode Driver Architecture], kernel.powerondumpdevicecallback, pepfx/PowerOnDumpDeviceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -72,7 +72,7 @@ BOOLEAN PowerOnDumpDeviceCallback(
 
 ### -param CrashdumpInformation [in]
 
-A pointer to a <a href="..\pep_x\ns-pep_x-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
+A pointer to a <a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
 
 
 ## -returns
@@ -99,11 +99,11 @@ The <i>PowerOnDumpDeviceCallback</i> routine is called at IRQL = HIGH_LEVEL with
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_CRASHDUMP_DEVICE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
 
 
 

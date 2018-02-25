@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: AE0DA609-90E5-452F-B24E-0902C5E868A8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT, UDECX_USB_ENDPOINT_CALLBACKS_INIT, buses.udecx_usb_endpoint_callbacks_init, UDECX_USB_ENDPOINT_CALLBACKS_INIT method [Buses]
+ms.keywords: ",  , A, B, C, D, E, I, K, L, N, O, P, S, T, U, UDECX_USB_ENDPOINT_CALLBACKS_INIT, UDECX_USB_ENDPOINT_CALLBACKS_INIT method [Buses], X, _, buses.udecx_usb_endpoint_callbacks_init, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

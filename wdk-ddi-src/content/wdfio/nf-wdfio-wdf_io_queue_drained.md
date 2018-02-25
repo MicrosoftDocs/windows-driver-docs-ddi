@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1b2384c3-6438-4456-b4fc-44211b8a3fb1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_IO_QUEUE_DRAINED, WDF_IO_QUEUE_DRAINED function, wdf.wdf_io_queue_drained, wdfio/WDF_IO_QUEUE_DRAINED, DFQueueObjectRef_ddc761b3-266a-4942-94ed-8ecca07575d1.xml, kmdf.wdf_io_queue_drained
+ms.keywords: ",  , A, D, DFQueueObjectRef_ddc761b3-266a-4942-94ed-8ecca07575d1.xml, E, F, I, N, O, Q, R, U, W, WDF_IO_QUEUE_DRAINED, WDF_IO_QUEUE_DRAINED function, _, kmdf.wdf_io_queue_drained, wdf.wdf_io_queue_drained, wdfio/WDF_IO_QUEUE_DRAINED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,7 @@ IsQueueDrained(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
-
-
-
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_ready.md">WDF_IO_QUEUE_READY</a>
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_stopped.md">WDF_IO_QUEUE_STOPPED</a>
 
 
 
@@ -139,7 +135,11 @@ IsQueueDrained(
 
 
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_stopped.md">WDF_IO_QUEUE_STOPPED</a>
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_ready.md">WDF_IO_QUEUE_READY</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
 
 
 

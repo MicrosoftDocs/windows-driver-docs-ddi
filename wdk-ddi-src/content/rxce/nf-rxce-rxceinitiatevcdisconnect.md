@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 978ddc02-9ff0-4798-879c-e4bc99081dcb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml, rxce/RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], ifsk.rxceinitiatevcdisconnect
+ms.keywords: ",  , C, D, I, R, RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], V, a, c, e, i, ifsk.rxceinitiatevcdisconnect, n, o, rxce/RxCeInitiateVCDisconnect, rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,11 +123,11 @@ The <i>pVc</i> parameter passed to this routine was invalid.
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
-
-
-
 <a href="..\rxce\nf-rxce-rxcebuildvc.md">RxCeBuildVC</a>
+
+
+
+<a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
 
 
 

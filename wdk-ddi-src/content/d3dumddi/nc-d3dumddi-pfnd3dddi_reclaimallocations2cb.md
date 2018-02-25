@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1D3439BA-AB3D-4D94-B4C8-91BE9B3349A1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnreclaimallocations2cb, pfnReclaimAllocations2Cb callback function [Display Devices], pfnReclaimAllocations2Cb, PFND3DDDI_RECLAIMALLOCATIONS2CB, PFND3DDDI_RECLAIMALLOCATIONS2CB, d3dumddi/pfnReclaimAllocations2Cb
+ms.keywords: PFND3DDDI_RECLAIMALLOCATIONS2CB, d3dumddi/pfnReclaimAllocations2Cb, display.pfnreclaimallocations2cb, pfnReclaimAllocations2Cb, pfnReclaimAllocations2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -145,15 +145,15 @@ The video memory manager or display miniport driver could not complete the opera
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_reclaimallocations.md">D3DDDICB_RECLAIMALLOCATIONS2</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
 <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_reclaimallocations.md">D3DDDICB_RECLAIMALLOCATIONS2</a>
 
 
 

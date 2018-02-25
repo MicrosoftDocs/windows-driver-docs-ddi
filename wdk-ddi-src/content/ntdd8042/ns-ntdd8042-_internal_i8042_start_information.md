@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8ceaa9de-195f-4a89-bc3e-323256097248
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_INTERNAL_I8042_START_INFORMATION, hid.internal_i8042_start_information, INTERNAL_I8042_START_INFORMATION, i8042ref_bf7bcffd-5c6b-47b4-be53-2b543990b2fa.xml, ntdd8042/PINTERNAL_I8042_START_INFORMATION, PINTERNAL_I8042_START_INFORMATION, ntdd8042/INTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION structure [Human Input Devices], PINTERNAL_I8042_START_INFORMATION structure pointer [Human Input Devices], *PINTERNAL_I8042_START_INFORMATION"
+ms.keywords: ",  , *, *PINTERNAL_I8042_START_INFORMATION, ,, 0, 2, 4, 8, A, E, F, I, INTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION structure [Human Input Devices], L, M, N, O, P, PINTERNAL_I8042_START_INFORMATION, PINTERNAL_I8042_START_INFORMATION structure pointer [Human Input Devices], R, S, T, _, _INTERNAL_I8042_START_INFORMATION, hid.internal_i8042_start_information, i8042ref_bf7bcffd-5c6b-47b4-be53-2b543990b2fa.xml, ntdd8042/INTERNAL_I8042_START_INFORMATION, ntdd8042/PINTERNAL_I8042_START_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

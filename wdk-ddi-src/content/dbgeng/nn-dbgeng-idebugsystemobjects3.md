@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8924c46b-e2b5-473f-aa0c-e755cd9cbbc6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugsystemobjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging], described, IDebugSystemObjects3, dbgeng/IDebugSystemObjects3
+ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging], described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -149,11 +149,11 @@ Makes the specified target the current target.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects2.md">IDebugSystemObjects2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects.md">IDebugSystemObjects</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects2.md">IDebugSystemObjects2</a>
 
 
 

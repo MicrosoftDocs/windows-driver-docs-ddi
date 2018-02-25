@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e27c6af5-c9fa-4fe6-ad39-82ea59a0f27b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetFieldNameWide method, IDebugSymbols3, GetFieldNameWide method [Windows Debugging], GetFieldNameWide, dbgeng/IDebugSymbols3::GetFieldNameWide, GetFieldNameWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getfieldnamewide, IDebugSymbols3::GetFieldNameWide
+ms.keywords: ",  , ,, ., 3, :, D, F, G, GetFieldNameWide method [Windows Debugging], GetFieldNameWide method [Windows Debugging], IDebugSymbols3 interface, GetFieldNameWide,IDebugSymbols3.GetFieldNameWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldNameWide method, IDebugSymbols3::GetFieldNameWide, N, S, W, a, b, d, dbgeng/IDebugSymbols3::GetFieldNameWide, debugger.getfieldnamewide, e, g, i, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

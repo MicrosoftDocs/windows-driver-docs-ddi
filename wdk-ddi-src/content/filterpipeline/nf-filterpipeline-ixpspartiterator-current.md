@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: Current, IXpsPartIterator, filterpipeline/IXpsPartIterator::Current, IXpsPartIterator interface [Print Devices], Current method, Current method [Print Devices], IXpsPartIterator interface, Current method [Print Devices], print.ixpspartiterator_current, IXpsPartIterator::Current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml
+ms.keywords: ",  , ,, ., :, C, Current method [Print Devices], Current method [Print Devices], IXpsPartIterator interface, Current,IXpsPartIterator.Current, I, IXpsPartIterator, IXpsPartIterator interface [Print Devices], Current method, IXpsPartIterator::Current, P, X, a, e, filterpipeline/IXpsPartIterator::Current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, n, o, p, print.ixpspartiterator_current, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

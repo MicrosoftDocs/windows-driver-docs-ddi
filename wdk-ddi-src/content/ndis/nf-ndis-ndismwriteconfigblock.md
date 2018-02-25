@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de7f651b-9847-41e9-9f52-71c2365bac44
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndismwriteconfigblock, ndis/NdisMWriteConfigBlock, NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , B, C, M, N, NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista], W, c, d, e, f, g, i, k, l, n, ndis/NdisMWriteConfigBlock, netvista.ndismwriteconfigblock, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

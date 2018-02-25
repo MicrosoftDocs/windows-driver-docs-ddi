@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 16364b13-d902-4ba3-8d0a-c044946afa1e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfusbtargetpipe, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface, described, IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe, UMDFUSBref_985f9453-7475-4e9b-894c-5d4e7b8d3971.xml, umdf.iwdfusbtargetpipe
+ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface, described, UMDFUSBref_985f9453-7475-4e9b-894c-5d4e7b8d3971.xml, umdf.iwdfusbtargetpipe, wdf.iwdfusbtargetpipe, wudfusb/IWDFUsbTargetPipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

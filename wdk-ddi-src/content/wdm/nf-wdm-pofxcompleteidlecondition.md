@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D43DA9A4-02F4-4C4E-83AE-DFADA0FCC73D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pofxcompleteidlecondition, wdm/PoFxCompleteIdleCondition, PoFxCompleteIdleCondition, PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, F, I, P, PoFxCompleteIdleCondition, PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture], d, e, i, kernel.pofxcompleteidlecondition, l, m, n, o, p, t, wdm/PoFxCompleteIdleCondition, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ A handle that represents the registration of the device with PoFx. The device dr
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ## -returns
@@ -105,11 +105,11 @@ When PoFx calls the driver's <i>ComponentIdleConditionCallback</i> routine, the 
 
 
 
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 

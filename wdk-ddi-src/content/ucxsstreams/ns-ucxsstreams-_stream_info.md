@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: B8AE8866-AC13-4E7B-8815-70846DEECA12
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxsstreams/P_STREAM_INFO, buses._stream_info, *PSTREAM_INFO, STREAM_INFO, P_STREAM_INFO, _STREAM_INFO, ucxsstreams/_STREAM_INFO, STREAM_INFO structure [Buses], P_STREAM_INFO structure pointer [Buses]
+ms.keywords: ",  , *, *PSTREAM_INFO, ,, A, E, F, I, M, N, O, P, P_STREAM_INFO, P_STREAM_INFO structure pointer [Buses], R, S, STREAM_INFO, STREAM_INFO structure [Buses], T, _, _STREAM_INFO, buses._stream_info, ucxsstreams/P_STREAM_INFO, ucxsstreams/_STREAM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

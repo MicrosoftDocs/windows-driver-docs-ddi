@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c74b5969-35d4-45db-b631-31e00572107d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.allocatedmabufferwithnotification, AllocateDmaBufferWithNotification callback function [Audio Devices], AllocateDmaBufferWithNotification, PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, hdaudio/AllocateDmaBufferWithNotification, aud-prop2_37aa129c-f389-402a-ba68-8dedb9ce6b6b.xml
+ms.keywords: AllocateDmaBufferWithNotification, AllocateDmaBufferWithNotification callback function [Audio Devices], PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, aud-prop2_37aa129c-f389-402a-ba68-8dedb9ce6b6b.xml, audio.allocatedmabufferwithnotification, hdaudio/AllocateDmaBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -257,11 +257,15 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
 
 
@@ -269,15 +273,11 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
 
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
 
 

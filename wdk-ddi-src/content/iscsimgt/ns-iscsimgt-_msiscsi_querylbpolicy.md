@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: da45810a-12f2-4242-8428-a1717ecf8af3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsimgt/MSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy structure [Storage Devices], storage.msiscsi_querylbpolicy, PMSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, iscsimgt/PMSiSCSI_QueryLBPolicy, _MSiSCSI_QueryLBPolicy
+ms.keywords: ",  , *, *PMSiSCSI_QueryLBPolicy, ,, B, C, I, L, M, MSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy structure [Storage Devices], P, PMSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], Q, S, _, _MSiSCSI_QueryLBPolicy, c, e, i, iscsimgt/MSiSCSI_QueryLBPolicy, iscsimgt/PMSiSCSI_QueryLBPolicy, l, o, r, storage.msiscsi_querylbpolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 
 
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1bb7c529-df26-4173-a098-6a19adf6b569
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: GetFcpPersistentBinding_OUT, hbapiwmi/GetFcpPersistentBinding_OUT, structs-Fibre_6deac9e1-fd5f-4bc1-9349-39bc61c4c6bb.xml, storage.getfcppersistentbinding_out, *PGetFcpPersistentBinding_OUT, PGetFcpPersistentBinding_OUT, _GetFcpPersistentBinding_OUT, GetFcpPersistentBinding_OUT structure [Storage Devices], hbapiwmi/PGetFcpPersistentBinding_OUT, PGetFcpPersistentBinding_OUT structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PGetFcpPersistentBinding_OUT, ,, B, F, G, GetFcpPersistentBinding_OUT, GetFcpPersistentBinding_OUT structure [Storage Devices], O, P, PGetFcpPersistentBinding_OUT, PGetFcpPersistentBinding_OUT structure pointer [Storage Devices], T, U, _, _GetFcpPersistentBinding_OUT, c, d, e, g, hbapiwmi/GetFcpPersistentBinding_OUT, hbapiwmi/PGetFcpPersistentBinding_OUT, i, n, p, r, s, storage.getfcppersistentbinding_out, structs-Fibre_6deac9e1-fd5f-4bc1-9349-39bc61c4c6bb.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

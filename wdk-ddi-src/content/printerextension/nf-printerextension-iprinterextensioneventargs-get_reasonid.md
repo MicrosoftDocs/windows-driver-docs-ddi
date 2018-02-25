@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 404E9893-97BA-48A7-87CE-0B4AF46692CE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterExtensionEventArgs, printerextension/IPrinterExtensionEventArgs::ReasonId, ReasonId property [Print Devices], IPrinterExtensionEventArgs interface, print.iprinterextensioneventargs_reasonid, IPrinterExtensionEventArgs interface [Print Devices], ReasonId property, printerextension/IPrinterExtensionEventArgs::get_ReasonId, IPrinterExtensionEventArgs.ReasonId, ReasonId property [Print Devices], get_ReasonId, IPrinterExtensionEventArgs::get_ReasonId
+ms.keywords: ",  , ,, ., :, A, E, I, IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], ReasonId property, IPrinterExtensionEventArgs.ReasonId, IPrinterExtensionEventArgs::get_ReasonId, P, R, ReasonId property [Print Devices], ReasonId property [Print Devices], IPrinterExtensionEventArgs interface, _, a, d, e, g, get_ReasonId, get_ReasonId,IPrinterExtensionEventArgs.get_ReasonId, i, n, o, print.iprinterextensioneventargs_reasonid, printerextension/IPrinterExtensionEventArgs::ReasonId, printerextension/IPrinterExtensionEventArgs::get_ReasonId, r, s, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

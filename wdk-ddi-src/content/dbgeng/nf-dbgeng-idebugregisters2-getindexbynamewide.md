@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb6a50b4-275f-42c9-8121-17677971ebb2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, GetIndexByNameWide, IDebugRegisters2::GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2, debugger.getindexbynamewide
+ms.keywords: ",  , ,, ., 2, :, B, D, G, GetIndexByNameWide method [Windows Debugging], GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide,IDebugRegisters2.GetIndexByNameWide, I, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, IDebugRegisters2::GetIndexByNameWide, N, R, W, a, b, d, dbgeng/IDebugRegisters2::GetIndexByNameWide, debugger.getindexbynamewide, e, g, i, m, n, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

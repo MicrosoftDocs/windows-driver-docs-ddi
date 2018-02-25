@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: caa8ea5b-7167-444a-9d81-6e4ea9375dd6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstateomdepthstatecb, pfnStateOmDepthStateCb callback function [Display Devices], pfnStateOmDepthStateCb, PFND3D10DDI_STATE_OM_DEPTHSTATE_CB, PFND3D10DDI_STATE_OM_DEPTHSTATE_CB, d3d10umddi/pfnStateOmDepthStateCb, d3d10state_functions_85bda608-2aa7-4756-9901-4f568b87ca6b.xml
+ms.keywords: PFND3D10DDI_STATE_OM_DEPTHSTATE_CB, d3d10state_functions_85bda608-2aa7-4756-9901-4f568b87ca6b.xml, d3d10umddi/pfnStateOmDepthStateCb, display.pfnstateomdepthstatecb, pfnStateOmDepthStateCb, pfnStateOmDepthStateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,11 +104,11 @@ The <b>pfnStateOmDepthStateCb</b> function calls the user-mode display driver's 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setdepthstencilstate.md">SetDepthStencilState</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setdepthstencilstate.md">SetDepthStencilState</a>
 
 
 

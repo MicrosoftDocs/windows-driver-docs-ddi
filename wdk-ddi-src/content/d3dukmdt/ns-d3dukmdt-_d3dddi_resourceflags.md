@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a466a158-dacf-42cc-b2ad-8af5b2c6c7d5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS structure [Display Devices], D3D_other_Structs_f00f4222-1c56-4b96-abe4-bf05088b7aa4.xml, _D3DDDI_RESOURCEFLAGS, display.d3dddi_resourceflags, d3dukmdt/D3DDDI_RESOURCEFLAGS
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS structure [Display Devices], D3D_other_Structs_f00f4222-1c56-4b96-abe4-bf05088b7aa4.xml, E, F, G, I, L, O, R, S, U, _, _D3DDDI_RESOURCEFLAGS, d3dukmdt/D3DDDI_RESOURCEFLAGS, display.d3dddi_resourceflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -348,11 +348,11 @@ A 32-bit value that identifies the type of resource to create.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
 
 

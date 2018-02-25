@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 67fb316e-359f-4bf0-b061-a4b18e359f38
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVA2_Structs_0b64fc90-1ad4-4d38-9fda-68454167b9dd.xml, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, display.dxvahdddi_blt_state_alpha_fill_data, d3dumddi/DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
+ms.keywords: ",  , ,, A, B, D, DXVA2_Structs_0b64fc90-1ad4-4d38-9fda-68454167b9dd.xml, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure [Display Devices], E, F, H, I, L, P, S, T, V, X, _, _DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, display.dxvahdddi_blt_state_alpha_fill_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,7 @@ If the input stream is disabled or unavailable, the output remains unchanged.
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_alpha_fill_mode.md">DXVAHDDDI_ALPHA_FILL_MODE</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 
@@ -121,7 +117,11 @@ If the input stream is disabled or unavailable, the output remains unchanged.
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
+
+
+
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_alpha_fill_mode.md">DXVAHDDDI_ALPHA_FILL_MODE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2dc32517-3730-4a1c-a59a-f5036d6f54ef
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k105_351b5540-c341-46d1-b2da-1ea88f78b7b2.xml, KeRemoveEntryDeviceQueue, kernel.keremoveentrydevicequeue, KeRemoveEntryDeviceQueue routine [Kernel-Mode Driver Architecture], wdm/KeRemoveEntryDeviceQueue
+ms.keywords: ",  , D, E, K, KeRemoveEntryDeviceQueue, KeRemoveEntryDeviceQueue routine [Kernel-Mode Driver Architecture], Q, R, c, e, i, k105_351b5540-c341-46d1-b2da-1ea88f78b7b2.xml, kernel.keremoveentrydevicequeue, m, n, o, r, t, u, v, wdm/KeRemoveEntryDeviceQueue, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,11 +103,15 @@ The specified <i>DeviceQueue</i> spin lock is released and IRQL is restored to i
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
 
 
 
 <a href="..\wdm\nf-wdm-keremovebykeydevicequeue.md">KeRemoveByKeyDeviceQueue</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
 
 
 
@@ -116,10 +120,6 @@ The specified <i>DeviceQueue</i> spin lock is released and IRQL is restored to i
 
 
 <a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
 
 
 

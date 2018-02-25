@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 475D7ECF-B8A8-445D-8ED7-029BD57C8C48
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_DEVICE_SERVICE_COMMAND, wwan/PWWAN_DEVICE_SERVICE_COMMAND, netvista.wwan_device_service_command, PWWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND, _WWAN_DEVICE_SERVICE_COMMAND, *PWWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *PWWAN_DEVICE_SERVICE_COMMAND, ,, A, C, D, E, I, M, N, O, P, PWWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], R, S, V, W, WWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], _, _WWAN_DEVICE_SERVICE_COMMAND, netvista.wwan_device_service_command, wwan/PWWAN_DEVICE_SERVICE_COMMAND, wwan/WWAN_DEVICE_SERVICE_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

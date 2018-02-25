@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 0AD4316E-67E7-4810-86DA-5DEB5C4E6DE6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ufxdeviceiointernalcontrol, UfxDeviceIoInternalControl, UfxDeviceIoInternalControl method [Buses], ufxclient/UfxDeviceIoInternalControl
+ms.keywords: ",  , C, D, I, U, UfxDeviceIoInternalControl, UfxDeviceIoInternalControl method [Buses], a, buses.ufxdeviceiointernalcontrol, c, e, f, i, l, n, o, r, t, ufxclient/UfxDeviceIoInternalControl, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

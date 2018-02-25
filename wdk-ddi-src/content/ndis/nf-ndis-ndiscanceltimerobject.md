@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b66652b7-2e02-49f5-a7e3-60ff35363a19
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, ndis/NdisCancelTimerObject, netvista.ndiscanceltimerobject, NdisCancelTimerObject
+ms.keywords: ",  , C, N, NdisCancelTimerObject, NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], O, T, a, b, c, d, e, i, j, l, m, n, ndis/NdisCancelTimerObject, ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, netvista.ndiscanceltimerobject, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,7 +128,7 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 
 
@@ -136,7 +136,7 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 
 

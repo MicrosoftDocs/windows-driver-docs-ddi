@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 87EED8B5-676C-4056-812B-B0424148FCFA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterQueue interface [Print Devices], GetProperties method, GetProperties method [Print Devices], IPrinterQueue interface, printerextension/IPrinterQueue::GetProperties, IPrinterQueue, IPrinterQueue::GetProperties, GetProperties, GetProperties method [Print Devices], print.iprinterqueue_getproperties
+ms.keywords: ",  , ,, ., :, G, GetProperties method [Print Devices], GetProperties method [Print Devices], IPrinterQueue interface, GetProperties,IPrinterQueue.GetProperties, I, IPrinterQueue, IPrinterQueue interface [Print Devices], GetProperties method, IPrinterQueue::GetProperties, P, Q, e, i, n, o, p, print.iprinterqueue_getproperties, printerextension/IPrinterQueue::GetProperties, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a07a97ea-17f0-4e24-89c5-1b24600ac497
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PGetFcpTargetMapping_IN structure pointer [Storage Devices], GetFcpTargetMapping_IN structure [Storage Devices], GetFcpTargetMapping_IN, PGetFcpTargetMapping_IN, *PGetFcpTargetMapping_IN, hbapiwmi/PGetFcpTargetMapping_IN, storage.getfcptargetmapping_in, hbapiwmi/GetFcpTargetMapping_IN, _GetFcpTargetMapping_IN, structs-Fibre_1c84c265-fc0a-4d56-bdb9-7a10ef80b707.xml
+ms.keywords: ",  , *, *PGetFcpTargetMapping_IN, ,, F, G, GetFcpTargetMapping_IN, GetFcpTargetMapping_IN structure [Storage Devices], I, M, N, P, PGetFcpTargetMapping_IN, PGetFcpTargetMapping_IN structure pointer [Storage Devices], T, _, _GetFcpTargetMapping_IN, a, c, e, g, hbapiwmi/GetFcpTargetMapping_IN, hbapiwmi/PGetFcpTargetMapping_IN, i, n, p, r, storage.getfcptargetmapping_in, structs-Fibre_1c84c265-fc0a-4d56-bdb9-7a10ef80b707.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

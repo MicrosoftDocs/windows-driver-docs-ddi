@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c90119a8-c93b-4432-b164-b1f4c562ef2d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugRegisters2::GetStackOffset2, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetStackOffset2 method [Windows Debugging], IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method, IDebugRegisters2::GetStackOffset2, GetStackOffset2, IDebugRegisters2, debugger.getstackoffset2
+ms.keywords: ",  , ,, ., 2, :, D, G, GetStackOffset2 method [Windows Debugging], GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetStackOffset2,IDebugRegisters2.GetStackOffset2, I, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method, IDebugRegisters2::GetStackOffset2, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, O, R, S, a, b, c, dbgeng/IDebugRegisters2::GetStackOffset2, debugger.getstackoffset2, e, f, g, i, k, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

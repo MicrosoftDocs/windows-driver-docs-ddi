@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9366722a-c545-411d-a59f-63edfb0cd68e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: pointofservicedriverinterface/MsrTrackIds_Track1, MsrTrackIds enumeration, pointofservicedriverinterface/MsrTrackIds_Track3, MsrTrackIds, MsrTrackIds_Track4, pointofservicedriverinterface/MsrTrackIds_Track2, MsrTrackIds_Track1, pos.msrtrackids, MsrTrackIds_None, pointofservicedriverinterface/MsrTrackIds, MsrTrackIds_Track2, MsrTrackIds_Track3, pointofservicedriverinterface/MsrTrackIds_None, pointofservicedriverinterface/MsrTrackIds_Track4, _MsrTrackIds
+ms.keywords: ",  , ,, I, M, MsrTrackIds, MsrTrackIds enumeration, MsrTrackIds_None, MsrTrackIds_Track1, MsrTrackIds_Track2, MsrTrackIds_Track3, MsrTrackIds_Track4, T, _, _MsrTrackIds, a, c, d, k, pointofservicedriverinterface/MsrTrackIds, pointofservicedriverinterface/MsrTrackIds_None, pointofservicedriverinterface/MsrTrackIds_Track1, pointofservicedriverinterface/MsrTrackIds_Track2, pointofservicedriverinterface/MsrTrackIds_Track3, pointofservicedriverinterface/MsrTrackIds_Track4, pos.msrtrackids, r, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

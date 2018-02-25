@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ed0eac1a-8e41-44c3-a538-9ec48492425f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFQueueObjectRef_2dd692cd-27fb-41fc-ab9d-2bb9db9b32bb.xml, OnDeviceIoControl, wdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, OnDeviceIoControl method, IQueueCallbackDeviceIoControl interface, IQueueCallbackDeviceIoControl interface, OnDeviceIoControl method, IQueueCallbackDeviceIoControl::OnDeviceIoControl, wudfddi/IQueueCallbackDeviceIoControl::OnDeviceIoControl, umdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, IQueueCallbackDeviceIoControl, OnDeviceIoControl method
+ms.keywords: ",  , ,, ., :, C, D, I, IQueueCallbackDeviceIoControl, IQueueCallbackDeviceIoControl interface, OnDeviceIoControl method, IQueueCallbackDeviceIoControl::OnDeviceIoControl, O, OnDeviceIoControl method, OnDeviceIoControl method, IQueueCallbackDeviceIoControl interface, OnDeviceIoControl,IQueueCallbackDeviceIoControl.OnDeviceIoControl, Q, UMDFQueueObjectRef_2dd692cd-27fb-41fc-ab9d-2bb9db9b32bb.xml, a, b, c, e, i, k, l, n, o, r, t, u, umdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, v, wdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, wudfddi/IQueueCallbackDeviceIoControl::OnDeviceIoControl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -143,11 +143,7 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackdeviceiocontrol.md">IQueueCallbackDeviceIoControl</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 
@@ -155,7 +151,11 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackdeviceiocontrol.md">IQueueCallbackDeviceIoControl</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

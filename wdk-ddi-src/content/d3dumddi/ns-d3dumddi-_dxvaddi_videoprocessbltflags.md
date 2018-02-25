@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 790a18fa-5481-432a-921b-6310a0ab78d7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices], DXVADDI_VIDEOPROCESSBLTFLAGS, DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml, d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS, display.dxvaddi_videoprocessbltflags, _DXVADDI_VIDEOPROCESSBLTFLAGS
+ms.keywords: ",  , ,, A, B, C, D, DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml, DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices], E, F, G, I, L, O, P, R, S, T, V, X, _, _DXVADDI_VIDEOPROCESSBLTFLAGS, d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS, display.dxvaddi_videoprocessbltflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

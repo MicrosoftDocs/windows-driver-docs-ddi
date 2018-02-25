@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b6482124-0d65-4953-8a8f-a09c0a88d830
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetexcludeunencrypted, Dot11ExtSetExcludeUnencrypted callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetExcludeUnencrypted, DOT11EXT_SET_EXCLUDE_UNENCRYPTED, DOT11EXT_SET_EXCLUDE_UNENCRYPTED, wlanihv/Dot11ExtSetExcludeUnencrypted, Native_802.11_IHV_Ext_aa6f594d-e5b7-4ba0-9ad8-deb42f6c23ad.xml
+ms.keywords: DOT11EXT_SET_EXCLUDE_UNENCRYPTED, Dot11ExtSetExcludeUnencrypted, Dot11ExtSetExcludeUnencrypted callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_aa6f594d-e5b7-4ba0-9ad8-deb42f6c23ad.xml, netvista.dot11extsetexcludeunencrypted, wlanihv/Dot11ExtSetExcludeUnencrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -118,15 +118,15 @@ A call to the
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 3EF9BB26-81B2-4ED7-A934-AF3E73B650A0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394/IRB_REQ_BUS_RESET_NOTIFICATION, IEEE.irb_req_bus_reset_notification, IRB_REQ_BUS_RESET_NOTIFICATION, _IRB_REQ_BUS_RESET_NOTIFICATION, IRB_REQ_BUS_RESET_NOTIFICATION structure [Buses]
+ms.keywords: ",  , ,, 1394/IRB_REQ_BUS_RESET_NOTIFICATION, A, B, C, E, F, I, IEEE.irb_req_bus_reset_notification, IRB_REQ_BUS_RESET_NOTIFICATION, IRB_REQ_BUS_RESET_NOTIFICATION structure [Buses], N, O, Q, R, S, T, U, _, _IRB_REQ_BUS_RESET_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

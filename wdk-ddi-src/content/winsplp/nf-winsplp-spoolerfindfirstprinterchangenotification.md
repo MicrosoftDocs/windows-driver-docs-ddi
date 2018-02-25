@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 429A5DF5-46A6-4A41-A77B-4D5743C841DC
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.spoolerfindfirstprinterchangenotification, winsplp/SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices]
+ms.keywords: ",  , C, F, N, P, S, SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices], a, c, d, e, f, g, h, i, l, n, o, p, print.spoolerfindfirstprinterchangenotification, r, s, t, winsplp/SpoolerFindFirstPrinterChangeNotification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

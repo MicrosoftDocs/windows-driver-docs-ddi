@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f6eec5a1-7d73-415f-84d9-1ec3f512abaf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.drvquerycolorprofile, winddiui/DrvQueryColorProfile, DrvQueryColorProfile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml, DrvQueryColorProfile function [Print Devices]
+ms.keywords: ",  , C, D, DrvQueryColorProfile, DrvQueryColorProfile function [Print Devices], P, Q, e, f, i, l, o, print.drvquerycolorprofile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml, r, u, v, winddiui/DrvQueryColorProfile, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

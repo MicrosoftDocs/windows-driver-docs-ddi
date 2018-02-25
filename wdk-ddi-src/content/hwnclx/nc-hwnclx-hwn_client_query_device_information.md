@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: e67f0384-79a8-4040-aab4-bf5b865ad989
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: gpiobtn.hwn_client_query_device_information, HwnClientQueryDeviceInformation callback function, HwnClientQueryDeviceInformation, HWN_CLIENT_QUERY_DEVICE_INFORMATION, HWN_CLIENT_QUERY_DEVICE_INFORMATION, hwnclx/HwnClientQueryDeviceInformation, PHWN_CLIENT_QUERY_DEVICE_INFORMATION callback function pointer, PHWN_CLIENT_QUERY_DEVICE_INFORMATION
+ms.keywords: HWN_CLIENT_QUERY_DEVICE_INFORMATION, HwnClientQueryDeviceInformation, HwnClientQueryDeviceInformation callback function, PHWN_CLIENT_QUERY_DEVICE_INFORMATION, PHWN_CLIENT_QUERY_DEVICE_INFORMATION callback function pointer, gpiobtn.hwn_client_query_device_information, hwnclx/HwnClientQueryDeviceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

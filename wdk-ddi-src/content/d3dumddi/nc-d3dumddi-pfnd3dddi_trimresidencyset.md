@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 192F419C-F38F-4B42-8111-86D58D6781DA
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfntrimresidencyset, pfnTrimResidencySet callback function [Display Devices], pfnTrimResidencySet, PFND3DDDI_TRIMRESIDENCYSET, PFND3DDDI_TRIMRESIDENCYSET, d3dukmdt/pfnTrimResidencySet
+ms.keywords: PFND3DDDI_TRIMRESIDENCYSET, d3dukmdt/pfnTrimResidencySet, display.pfntrimresidencyset, pfnTrimResidencySet, pfnTrimResidencySet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

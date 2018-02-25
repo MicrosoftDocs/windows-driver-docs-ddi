@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 79e8cdb8-8c01-4fed-8490-5adeb52c0ea2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: QueryDeviceCapabilities, IAdapterPowerManagement, portcls/IAdapterPowerManagement::QueryDeviceCapabilities, IAdapterPowerManagement::QueryDeviceCapabilities, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, QueryDeviceCapabilities method [Audio Devices], QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface
+ms.keywords: ",  , ,, ., :, A, C, D, I, IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, IAdapterPowerManagement::QueryDeviceCapabilities, M, P, Q, QueryDeviceCapabilities method [Audio Devices], QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, QueryDeviceCapabilities,IAdapterPowerManagement.QueryDeviceCapabilities, a, audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, b, c, d, e, g, i, l, m, n, o, p, portcls/IAdapterPowerManagement::QueryDeviceCapabilities, r, s, t, u, v, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,7 +116,7 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
+<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
 
 
 
@@ -124,11 +124,11 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
+
+
+
 <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5FA7613C-8714-481D-8439-9F3334D2E9E5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: printerextension/IPrintSchemaCapabilities::get_PageImageableSize, IPrintSchemaCapabilities, PageImageableSize property [Print Devices], IPrintSchemaCapabilities interface, IPrintSchemaCapabilities.PageImageableSize, IPrintSchemaCapabilities::get_PageImageableSize, get_PageImageableSize, printerextension/IPrintSchemaCapabilities::PageImageableSize, IPrintSchemaCapabilities interface [Print Devices], PageImageableSize property, print.iprintschemacapabilities_pageimageablesize, PageImageableSize property [Print Devices]
+ms.keywords: ",  , ,, ., :, C, I, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], PageImageableSize property, IPrintSchemaCapabilities.PageImageableSize, IPrintSchemaCapabilities::get_PageImageableSize, P, PageImageableSize property [Print Devices], PageImageableSize property [Print Devices], IPrintSchemaCapabilities interface, S, _, a, b, c, e, g, get_PageImageableSize, get_PageImageableSize,IPrintSchemaCapabilities.get_PageImageableSize, h, i, l, m, n, p, print.iprintschemacapabilities_pageimageablesize, printerextension/IPrintSchemaCapabilities::PageImageableSize, printerextension/IPrintSchemaCapabilities::get_PageImageableSize, r, s, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

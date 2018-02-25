@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 206D74F6-09D5-4C04-8A0A-A7765E64BB27
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoSetLinkShareAccess, IoSetLinkShareAccess function [Kernel-Mode Driver Architecture], wdm/IoSetLinkShareAccess, kernel.iosetlinkshareaccess
+ms.keywords: ",  , A, I, IoSetLinkShareAccess, IoSetLinkShareAccess function [Kernel-Mode Driver Architecture], L, S, a, c, e, h, i, k, kernel.iosetlinkshareaccess, n, o, r, s, t, wdm/IoSetLinkShareAccess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,11 +131,11 @@ This function does not return a value.
 
 
 
-<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
+
+
+
+<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
 
 
 

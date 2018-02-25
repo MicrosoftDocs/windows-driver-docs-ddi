@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: bc90a153-e6ff-4736-b625-1260a84bb157
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure [Buses], wdm/PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, pci_struct_50b450a2-7198-4021-947b-2c276ca9b274.xml, _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure pointer [Buses], PCI.pci_express_enhanced_capability_header, wdm/PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
+ms.keywords: ",  , *, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, ,, A, B, C, D, E, H, I, L, N, P, PCI.pci_express_enhanced_capability_header, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure [Buses], PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure pointer [Buses], R, S, T, X, Y, _, _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, pci_struct_50b450a2-7198-4021-947b-2c276ca9b274.xml, wdm/PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, wdm/PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -210,11 +210,11 @@ A PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER is included at the beginning of every e
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537558">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537558">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>
 
 
 

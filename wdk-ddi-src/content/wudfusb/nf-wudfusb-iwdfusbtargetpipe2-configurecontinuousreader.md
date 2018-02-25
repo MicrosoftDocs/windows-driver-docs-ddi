@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: accb2690-0ab7-4623-8493-545e6e722a7a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFUsbTargetPipe2::ConfigureContinuousReader, IWDFUsbTargetPipe2, ConfigureContinuousReader, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, ConfigureContinuousReader method, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader, umdf.iwdfusbtargetpipe2_configurecontinuousreader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface
+ms.keywords: ",  , ,, ., 2, :, C, ConfigureContinuousReader method, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader,IWDFUsbTargetPipe2.ConfigureContinuousReader, D, F, I, IWDFUsbTargetPipe2, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, IWDFUsbTargetPipe2::ConfigureContinuousReader, P, R, T, U, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, W, a, b, d, e, f, g, i, n, o, p, r, s, t, u, umdf.iwdfusbtargetpipe2_configurecontinuousreader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -261,11 +261,7 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
 
 
 
@@ -273,15 +269,11 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
 
 
 
@@ -289,7 +281,15 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
 
 
 

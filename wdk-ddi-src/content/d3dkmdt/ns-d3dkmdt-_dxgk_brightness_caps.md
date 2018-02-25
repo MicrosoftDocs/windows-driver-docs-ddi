@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e01ef4c9-1374-4d60-9307-32d878759c72
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_BRIGHTNESS_CAPS structure [Display Devices], _DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS, display.dxgk_brightness_caps, d3dkmdt/DXGK_BRIGHTNESS_CAPS
+ms.keywords: ",  , ,, A, B, C, D, DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS structure [Display Devices], E, G, H, I, K, N, P, R, S, T, X, _, _DXGK_BRIGHTNESS_CAPS, d3dkmdt/DXGK_BRIGHTNESS_CAPS, display.dxgk_brightness_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e64715d2-a8f1-47c3-9422-b565800ff79e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsGateInitialize, KsGateInitialize function [Streaming Media Devices], stream.ksgateinitialize, KsGateInitialize, avfunc_1ec7041b-e335-4920-ad40-06290d1579c2.xml
+ms.keywords: ",  , G, I, K, KsGateInitialize, KsGateInitialize function [Streaming Media Devices], a, avfunc_1ec7041b-e335-4920-ad40-06290d1579c2.xml, e, i, ks/KsGateInitialize, l, n, s, stream.ksgateinitialize, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,11 +122,11 @@ To learn more about the gate construct in AVStream, see <a href="https://msdn.mi
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
 
 
 

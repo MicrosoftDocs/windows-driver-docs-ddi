@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 88DEC1F2-F0E7-4E95-9A46-D9E8EF72B1BB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_device_power_cap, IOCTL_STORAGE_DEVICE_POWER_CAP control code [Storage Devices], IOCTL_STORAGE_DEVICE_POWER_CAP, ntddstor/IOCTL_STORAGE_DEVICE_POWER_CAP
+ms.keywords: IOCTL_STORAGE_DEVICE_POWER_CAP, IOCTL_STORAGE_DEVICE_POWER_CAP control code [Storage Devices], ntddstor/IOCTL_STORAGE_DEVICE_POWER_CAP, storage.ioctl_storage_device_power_cap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -115,11 +115,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_power_cap.md">STORAGE_DEVICE_POWER_CAP</a>
-
-
-
 <a href="..\ntddstor\ne-ntddstor-_storage_device_power_cap_units.md">STORAGE_DEVICE_POWER_CAP_UNITS</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_power_cap.md">STORAGE_DEVICE_POWER_CAP</a>
 
 
 

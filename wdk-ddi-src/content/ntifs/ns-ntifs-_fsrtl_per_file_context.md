@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d20668f0-b076-4edd-bf21-98841cbbdc74
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PFSRTL_PER_FILE_CONTEXT, contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, FSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], ntifs/PFSRTL_PER_FILE_CONTEXT, _FSRTL_PER_FILE_CONTEXT, ifsk.fsrtl_per_file_context, ntifs/FSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT"
+ms.keywords: ",  , *, *PFSRTL_PER_FILE_CONTEXT, ,, C, E, F, FSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], I, L, N, O, P, PFSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], R, S, T, X, _, _FSRTL_PER_FILE_CONTEXT, contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, ifsk.fsrtl_per_file_context, ntifs/FSRTL_PER_FILE_CONTEXT, ntifs/PFSRTL_PER_FILE_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -151,11 +151,7 @@ For more information about how to use and create context objects, see <a href="h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlteardownperfilecontexts.md">FsRtlTeardownPerFileContexts</a>
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
 
 
 
@@ -163,7 +159,7 @@ For more information about how to use and create context objects, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
 
 
 
@@ -171,7 +167,11 @@ For more information about how to use and create context objects, see <a href="h
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtlteardownperfilecontexts.md">FsRtlTeardownPerFileContexts</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
 
 
 

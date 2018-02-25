@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A7C7FBE5-9046-48C7-AEE6-85C17CDE83AD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AppendTailList, wdm/AppendTailList, kernel.appendtaillist, AppendTailList routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], L, T, a, d, e, i, kernel.appendtaillist, l, n, p, s, t, wdm/AppendTailList"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,11 +141,11 @@ The <code>MyAppendTailList</code> function in this code example treats both the 
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
 
 
 

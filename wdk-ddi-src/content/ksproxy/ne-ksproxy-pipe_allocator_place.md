@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 86B1D8BB-7213-403C-8EAB-D681A5DBF49E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: Pipe_Allocator_FirstPin, Pipe_Allocator_None, ksproxy/Pipe_Allocator_MiddlePin, PIPE_ALLOCATOR_PLACE, Pipe_Allocator_MiddlePin, ksproxy/Pipe_Allocator_FirstPin, *PPIPE_ALLOCATOR_PLACE, stream.pipe_allocator_place, ksproxy/PIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_None, PIPE_ALLOCATOR_PLACE enumeration [Streaming Media Devices], Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_LastPin
+ms.keywords: ",  , *, *PPIPE_ALLOCATOR_PLACE, ,, A, C, E, I, L, O, P, PIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE enumeration [Streaming Media Devices], Pipe_Allocator_FirstPin, Pipe_Allocator_LastPin, Pipe_Allocator_MiddlePin, Pipe_Allocator_None, R, T, _, ksproxy/PIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_FirstPin, ksproxy/Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_MiddlePin, ksproxy/Pipe_Allocator_None, stream.pipe_allocator_place"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

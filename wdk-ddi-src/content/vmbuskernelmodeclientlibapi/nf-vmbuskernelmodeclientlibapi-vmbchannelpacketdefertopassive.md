@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 796F849F-7281-4AE9-BE0D-350D24A39C61
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.vmbchannelpacketdefertopassive, VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], VmbChannelPacketDeferToPassive, vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive
+ms.keywords: ",  , C, D, P, T, V, VmbChannelPacketDeferToPassive, VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], a, b, c, e, f, h, i, k, l, m, n, netvista.vmbchannelpacketdefertopassive, o, r, s, t, v, vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

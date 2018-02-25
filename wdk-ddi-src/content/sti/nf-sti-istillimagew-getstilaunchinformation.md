@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: cfcd6e2d-541a-4a28-b2c7-409eb10bcf1e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetSTILaunchInformation method [Imaging Devices], IStillImage interface, sti/IStillImage::GetSTILaunchInformation, stifnc_b73269ec-512a-4d07-a43a-8c72a28a751b.xml, GetSTILaunchInformation, IStillImageW, IStillImage::GetSTILaunchInformation, IStillImage interface [Imaging Devices], GetSTILaunchInformation method, image.istillimage_getstilaunchinformation, GetSTILaunchInformation method [Imaging Devices], IStillImageW::GetSTILaunchInformation
+ms.keywords: ",  , ,, ., :, G, GetSTILaunchInformation method [Imaging Devices], GetSTILaunchInformation method [Imaging Devices], IStillImage interface, GetSTILaunchInformation,IStillImageW.GetSTILaunchInformation, I, IStillImage interface [Imaging Devices], GetSTILaunchInformation method, IStillImage::GetSTILaunchInformation, IStillImageW, IStillImageW::GetSTILaunchInformation, L, S, T, W, a, c, e, f, g, h, i, image.istillimage_getstilaunchinformation, l, m, n, o, r, sti/IStillImage::GetSTILaunchInformation, stifnc_b73269ec-512a-4d07-a43a-8c72a28a751b.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

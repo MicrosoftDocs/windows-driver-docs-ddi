@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1A6B6EA3-66EE-4736-9457-2A295A7FAF4D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDK_SHARED_ENDPOINT structure [Network Drivers Starting with Windows Vista], PNDK_SHARED_ENDPOINT, ndkpi/PNDK_SHARED_ENDPOINT, PNDK_SHARED_ENDPOINT structure pointer [Network Drivers Starting with Windows Vista], NDK_SHARED_ENDPOINT, _NDK_SHARED_ENDPOINT, netvista.ndk_shared_endpoint, ndkpi/NDK_SHARED_ENDPOINT
+ms.keywords: ",  , ,, A, D, E, H, I, K, N, NDK_SHARED_ENDPOINT, NDK_SHARED_ENDPOINT structure [Network Drivers Starting with Windows Vista], O, P, PNDK_SHARED_ENDPOINT, PNDK_SHARED_ENDPOINT structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, _NDK_SHARED_ENDPOINT, ndkpi/NDK_SHARED_ENDPOINT, ndkpi/PNDK_SHARED_ENDPOINT, netvista.ndk_shared_endpoint"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,15 +89,7 @@ NDK provider must set the <b>Dispatch</b> member to its own <a href="..\ndkpi\ns
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint_dispatch.md">NDK_SHARED_ENDPOINT_DISPATCH</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
 
 
@@ -106,6 +98,14 @@ NDK provider must set the <b>Dispatch</b> member to its own <a href="..\ndkpi\ns
 
 
 <a href="https://msdn.microsoft.com/956D3550-11C8-48D0-BCF4-9027515C7C0E">NDKPI Listeners, Connectors, and Endpoints</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f240d75-e7c5-4ba2-a0f0-22280aaaefd6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], display.dxgiddicb_present_multiplane_overlay, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
+ms.keywords: ",  , ,, A, B, C, D, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], E, G, I, L, M, N, O, P, R, S, T, U, V, X, Y, _, display.dxgiddicb_present_multiplane_overlay, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,6 +108,10 @@ An array of structures of type <a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane
 
 ## -see-also
 
+<a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
 
@@ -121,10 +125,6 @@ An array of structures of type <a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane
 
 
 <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md">pfnPresentMultiplaneOverlay (DXGI)</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a>
 
 
 

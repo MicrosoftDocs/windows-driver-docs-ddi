@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 693DAA13-70B3-48A7-9BC2-6369691539FD
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprinterextensioncontextcollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices], described, IPrinterExtensionContextCollection, printerextension/IPrinterExtensionContextCollection
+ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices], described, print.iprinterextensioncontextcollection, printerextension/IPrinterExtensionContextCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -120,11 +120,11 @@ Gets a count of the number of <a href="..\printerextension\nn-printerextension-i
 
 
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

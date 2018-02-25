@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 067eeba4-2914-4616-98c8-f163cbe5fae2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroycryptosession1, pfnDestroyCryptoSession callback function [Display Devices], pfnDestroyCryptoSession, PFND3D11_1DDI_DESTROYCRYPTOSESSION, PFND3D11_1DDI_DESTROYCRYPTOSESSION, d3d10umddi/pfnDestroyCryptoSession, display.pfndestroycryptosession1
+ms.keywords: PFND3D11_1DDI_DESTROYCRYPTOSESSION, d3d10umddi/pfnDestroyCryptoSession, display.destroycryptosession1, display.pfndestroycryptosession1, pfnDestroyCryptoSession, pfnDestroyCryptoSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

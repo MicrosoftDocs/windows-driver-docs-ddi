@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 44C5BE49-E8D5-4E6C-BDC5-494F180D580A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: eMuteAttribute, ePeakMeterAttribute, eChannelTargetType, portcls/eMuteAttribute, portcls/ePeakMeterAttribute, eChannelTargetType enumeration [Audio Devices], portcls/eChannelTargetType, eVolumeAttribute, audio.echanneltargettype, portcls/eVolumeAttribute
+ms.keywords: ",  , ,, C, T, a, audio.echanneltargettype, e, eChannelTargetType, eChannelTargetType enumeration [Audio Devices], eMuteAttribute, ePeakMeterAttribute, eVolumeAttribute, g, h, l, n, p, portcls/eChannelTargetType, portcls/eMuteAttribute, portcls/ePeakMeterAttribute, portcls/eVolumeAttribute, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

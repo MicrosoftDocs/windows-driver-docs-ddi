@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: AFB502BF-4BC2-439E-BF1F-5D1DE3172362
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses], usb/PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION, *PUSBD_STREAM_INFORMATION, buses.usbd_stream_information, PUSBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION structure [Buses], _USBD_STREAM_INFORMATION
+ms.keywords: ",  , *, *PUSBD_STREAM_INFORMATION, ,, A, B, D, E, F, I, M, N, O, P, PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses], R, S, T, U, USBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION structure [Buses], _, _USBD_STREAM_INFORMATION, buses.usbd_stream_information, usb/PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,15 +102,7 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
-
-
-
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -118,7 +110,15 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
 
 
 

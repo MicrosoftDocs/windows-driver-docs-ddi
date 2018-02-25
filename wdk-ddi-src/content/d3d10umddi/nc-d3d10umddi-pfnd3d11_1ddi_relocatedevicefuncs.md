@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5d9f964e-5d7a-4b6c-977e-c718e3424f84
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.relocatedevicefuncs_d3d11_1_, RelocateDeviceFuncs(D3D11_1) callback function [Display Devices], RelocateDeviceFuncs(D3D11_1), PFND3D11_1DDI_RELOCATEDEVICEFUNCS, PFND3D11_1DDI_RELOCATEDEVICEFUNCS, d3d10umddi/RelocateDeviceFuncs(D3D11_1), display.pfnrelocatedevicefuncs
+ms.keywords: PFND3D11_1DDI_RELOCATEDEVICEFUNCS, RelocateDeviceFuncs(D3D11_1), RelocateDeviceFuncs(D3D11_1) callback function [Display Devices], d3d10umddi/RelocateDeviceFuncs(D3D11_1), display.pfnrelocatedevicefuncs, display.relocatedevicefuncs_d3d11_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,11 +113,11 @@ A user-mode display driver can use the <i>RelocateDeviceFuncs(D3D11_1)</i> funct
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

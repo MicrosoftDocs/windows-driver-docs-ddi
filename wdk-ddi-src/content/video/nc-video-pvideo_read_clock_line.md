@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1051a234-ef63-454e-8957-292e86f4efcd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.readclockline, ReadClockLine callback function [Display Devices], ReadClockLine, PVIDEO_READ_CLOCK_LINE, PVIDEO_READ_CLOCK_LINE, video/ReadClockLine, VideoMiniport_Functions_5e7bcadb-43ea-4a1b-81b7-666cabd66aa0.xml
+ms.keywords: PVIDEO_READ_CLOCK_LINE, ReadClockLine, ReadClockLine callback function [Display Devices], VideoMiniport_Functions_5e7bcadb-43ea-4a1b-81b7-666cabd66aa0.xml, display.readclockline, video/ReadClockLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -96,11 +96,7 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
-
-
-
-<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
 
 
 
@@ -116,7 +112,11 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
+
+
+
+<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
 
 

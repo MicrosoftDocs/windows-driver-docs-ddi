@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 36CF2034-C816-421A-8B59-A4DC4EFFEB70
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ioctl_usb_get_transport_characteristics, IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS control code [Buses], IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS, usbioctl/IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS
+ms.keywords: IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS, IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS control code [Buses], buses.ioctl_usb_get_transport_characteristics, usbioctl/IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -142,7 +142,11 @@ If the client diver is interested in knowing the latest information at all times
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -150,15 +154,11 @@ If the client diver is interested in knowing the latest information at all times
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 

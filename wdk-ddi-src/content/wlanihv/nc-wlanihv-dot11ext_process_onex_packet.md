@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 796c2976-b7b1-49ea-bf23-c018efd228ee
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extprocessonexpacket, Dot11ExtProcessOneXPacket callback function [Network Drivers Starting with Windows Vista], Dot11ExtProcessOneXPacket, DOT11EXT_PROCESS_ONEX_PACKET, DOT11EXT_PROCESS_ONEX_PACKET, wlanihv/Dot11ExtProcessOneXPacket, Native_802.11_IHV_Ext_261bf893-01bf-45d2-96da-b11745a2ae56.xml
+ms.keywords: DOT11EXT_PROCESS_ONEX_PACKET, Dot11ExtProcessOneXPacket, Dot11ExtProcessOneXPacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_261bf893-01bf-45d2-96da-b11745a2ae56.xml, netvista.dot11extprocessonexpacket, wlanihv/Dot11ExtProcessOneXPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -138,6 +138,10 @@ For more information about using the 802.1X module for authentication, see
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
@@ -147,15 +151,11 @@ For more information about using the 802.1X module for authentication, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
 
 

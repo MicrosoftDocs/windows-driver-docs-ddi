@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8418ed17-39f0-4a3b-9eb5-453c7cc2ae98
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxResumeBlockedOperations_Serially function [Installable File System Drivers], ifsk.rxresumeblockedoperations_serially, rxref_b1284b31-72f0-4e0e-9602-817080b96e16.xml, rxcontx/RxResumeBlockedOperations_Serially, RxResumeBlockedOperations_Serially
+ms.keywords: ",  , B, O, R, RxResumeBlockedOperations_Serially, RxResumeBlockedOperations_Serially function [Installable File System Drivers], S, _, a, c, d, e, i, ifsk.rxresumeblockedoperations_serially, k, l, m, n, o, p, r, rxcontx/RxResumeBlockedOperations_Serially, rxref_b1284b31-72f0-4e0e-9602-817080b96e16.xml, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,15 @@ A network mini-redirector may need to call <b>RxResumeBlockedOperations_Serially
 
 ## -see-also
 
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
+
+
+
 <a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
 
 
 
@@ -119,7 +127,7 @@ A network mini-redirector may need to call <b>RxResumeBlockedOperations_Serially
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
 
 
 
@@ -127,19 +135,11 @@ A network mini-redirector may need to call <b>RxResumeBlockedOperations_Serially
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
-
-
-
 <a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 

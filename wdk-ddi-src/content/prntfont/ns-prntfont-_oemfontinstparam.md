@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cdd3ed28-a077-4b89-9222-ba282b9c7205
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OEMFONTINSTPARAM structure [Print Devices], _OEMFONTINSTPARAM, print.oemfontinstparam, prntfont/OEMFONTINSTPARAM, POEMFONTINSTPARAM, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, prntfont/POEMFONTINSTPARAM, POEMFONTINSTPARAM structure pointer [Print Devices], OEMFONTINSTPARAM, *POEMFONTINSTPARAM
+ms.keywords: ",  , *, *POEMFONTINSTPARAM, ,, A, E, F, I, M, N, O, OEMFONTINSTPARAM, OEMFONTINSTPARAM structure [Print Devices], P, POEMFONTINSTPARAM, POEMFONTINSTPARAM structure pointer [Print Devices], R, S, T, _, _OEMFONTINSTPARAM, print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, prntfont/OEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

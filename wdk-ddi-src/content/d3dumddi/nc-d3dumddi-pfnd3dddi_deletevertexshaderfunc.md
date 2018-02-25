@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 780fc47c-bbb9-400a-a2f3-cdce4a18072f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.deletevertexshaderfunc, DeleteVertexShaderFunc callback function [Display Devices], DeleteVertexShaderFunc, PFND3DDDI_DELETEVERTEXSHADERFUNC, PFND3DDDI_DELETEVERTEXSHADERFUNC, d3dumddi/DeleteVertexShaderFunc, UserModeDisplayDriver_Functions_fda8f115-6f28-4295-b74e-14f32168a616.xml
+ms.keywords: DeleteVertexShaderFunc, DeleteVertexShaderFunc callback function [Display Devices], PFND3DDDI_DELETEVERTEXSHADERFUNC, UserModeDisplayDriver_Functions_fda8f115-6f28-4295-b74e-14f32168a616.xml, d3dumddi/DeleteVertexShaderFunc, display.deletevertexshaderfunc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

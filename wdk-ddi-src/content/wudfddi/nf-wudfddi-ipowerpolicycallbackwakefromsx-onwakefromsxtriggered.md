@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b2379f2d-61a0-4741-a375-c17b95b0faf6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, OnWakeFromSxTriggered method, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx interface, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, OnWakeFromSxTriggered, IPowerPolicyCallbackWakeFromSx interface, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx
+ms.keywords: ",  , ,, ., :, C, F, I, IPowerPolicyCallbackWakeFromSx, IPowerPolicyCallbackWakeFromSx interface, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, O, OnWakeFromSxTriggered method, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx interface, OnWakeFromSxTriggered,IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered, P, S, T, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, W, a, b, c, d, e, g, i, k, l, m, n, o, r, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, w, wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,7 +101,7 @@ For more information about this callback function, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefromsx.md">IPowerPolicyCallbackWakeFromSx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556828">IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx</a>
 
 
 
@@ -109,7 +109,7 @@ For more information about this callback function, see <a href="https://docs.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556828">IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx</a>
+<a href="..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefromsx.md">IPowerPolicyCallbackWakeFromSx</a>
 
 
 

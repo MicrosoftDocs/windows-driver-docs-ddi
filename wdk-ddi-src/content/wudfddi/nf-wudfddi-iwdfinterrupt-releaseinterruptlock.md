@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55ED21D9-D704-4E38-AFCF-B1D1FDB67DB3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFInterrupt::ReleaseInterruptLock, umdf.iwdfinterrupt_releaseinterruptlock, IWDFInterrupt, wdf.iwdfinterrupt_releaseinterruptlock, wudfddi/IWDFInterrupt::ReleaseInterruptLock, IWDFInterrupt interface, ReleaseInterruptLock method, ReleaseInterruptLock method, ReleaseInterruptLock, ReleaseInterruptLock method, IWDFInterrupt interface
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFInterrupt, IWDFInterrupt interface, ReleaseInterruptLock method, IWDFInterrupt::ReleaseInterruptLock, L, R, ReleaseInterruptLock method, ReleaseInterruptLock method, IWDFInterrupt interface, ReleaseInterruptLock,IWDFInterrupt.ReleaseInterruptLock, W, a, c, e, k, l, n, o, p, r, s, t, u, umdf.iwdfinterrupt_releaseinterruptlock, wdf.iwdfinterrupt_releaseinterruptlock, wudfddi/IWDFInterrupt::ReleaseInterruptLock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

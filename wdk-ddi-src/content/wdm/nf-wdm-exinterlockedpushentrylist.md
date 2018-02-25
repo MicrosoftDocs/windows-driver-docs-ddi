@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7a932f69-c5dd-4844-b461-b986c00a08c7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExInterlockedPushEntryList, kernel.exinterlockedpushentrylist, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedPushEntryList, k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml
+ms.keywords: ",  , E, ExInterlockedPushEntryList, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], I, L, P, c, d, e, h, i, k, k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, kernel.exinterlockedpushentrylist, l, n, o, r, s, t, u, wdm/ExInterlockedPushEntryList, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,11 +109,15 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+
+
+
 <a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
 
 
 
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 
@@ -122,10 +126,6 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 
 <a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 

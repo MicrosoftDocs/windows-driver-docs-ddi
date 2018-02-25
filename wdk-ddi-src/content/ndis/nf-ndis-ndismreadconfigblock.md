@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a4b5e669-7abb-4c60-b2dc-249103d0b20c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisMReadConfigBlock, NdisMReadConfigBlock, netvista.ndismreadconfigblock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , B, C, M, N, NdisMReadConfigBlock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], R, a, c, d, e, f, g, i, k, l, n, ndis/NdisMReadConfigBlock, netvista.ndismreadconfigblock, o, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

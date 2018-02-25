@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55674946-A2DA-4695-8673-6BF3123FB5FC
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdmatransactionstopsystemtransfer, WdfDmaTransactionStopSystemTransfer method, wdfdmatransaction/WdfDmaTransactionStopSystemTransfer, wdf.wdfdmatransactionstopsystemtransfer, WdfDmaTransactionStopSystemTransfer
+ms.keywords: ",  , D, S, T, W, WdfDmaTransactionStopSystemTransfer, WdfDmaTransactionStopSystemTransfer method, a, c, d, e, f, i, kmdf.wdfdmatransactionstopsystemtransfer, m, n, o, p, r, s, t, wdf.wdfdmatransactionstopsystemtransfer, wdfdmatransaction/WdfDmaTransactionStopSystemTransfer, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

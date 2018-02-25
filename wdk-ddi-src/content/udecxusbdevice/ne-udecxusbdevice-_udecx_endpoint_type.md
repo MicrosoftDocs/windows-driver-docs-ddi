@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: EFA5DDC0-9E6B-450E-B191-1DA9FBAC269C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.udecx_endpoint_type, *PUDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, UdecxEndpointTypeSimple, udecxusbdevice/UdecxEndpointTypeInvalid, UDECX_ENDPOINT_TYPE enumeration [Buses], udecxusbdevice/UdecxEndpointTypeSimple, UdecxEndpointTypeInvalid, udecxusbdevice/UDECX_ENDPOINT_TYPE, _UDECX_ENDPOINT_TYPE, UdecxEndpointTypeDynamic, UDECX_ENDPOINT_TYPE
+ms.keywords: ",  , *, *PUDECX_ENDPOINT_TYPE, ,, C, D, E, I, N, O, P, T, U, UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE enumeration [Buses], UdecxEndpointTypeDynamic, UdecxEndpointTypeInvalid, UdecxEndpointTypeSimple, X, Y, _, _UDECX_ENDPOINT_TYPE, buses.udecx_endpoint_type, udecxusbdevice/UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, udecxusbdevice/UdecxEndpointTypeInvalid, udecxusbdevice/UdecxEndpointTypeSimple"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

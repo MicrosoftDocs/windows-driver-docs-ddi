@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9dc7f71a-753d-41ca-8eaa-bff6536e834f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.closeadapter, CloseAdapter callback function [Display Devices], CloseAdapter, PFND3DDDI_CLOSEADAPTER, PFND3DDDI_CLOSEADAPTER, d3dumddi/CloseAdapter, UserModeDisplayDriver_Functions_ccc1793f-15b1-480f-8835-38326b749308.xml
+ms.keywords: CloseAdapter, CloseAdapter callback function [Display Devices], PFND3DDDI_CLOSEADAPTER, UserModeDisplayDriver_Functions_ccc1793f-15b1-480f-8835-38326b749308.xml, d3dumddi/CloseAdapter, display.closeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -97,7 +97,11 @@ Before <b>CloseAdapter</b> closes the graphics adapter object, all of the displa
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 
 
@@ -105,11 +109,7 @@ Before <b>CloseAdapter</b> closes the graphics adapter object, all of the displa
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a>
 
 
 

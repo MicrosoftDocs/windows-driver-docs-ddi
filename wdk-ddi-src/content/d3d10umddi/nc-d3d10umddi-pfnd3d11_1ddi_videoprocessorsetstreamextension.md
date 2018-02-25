@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 380f7fbd-34aa-401b-a7dc-5d8b521f7948
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoprocessorsetstreamextension, pfnVideoProcessorSetStreamExtension callback function [Display Devices], pfnVideoProcessorSetStreamExtension, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION, d3d10umddi/pfnVideoProcessorSetStreamExtension
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION, d3d10umddi/pfnVideoProcessorSetStreamExtension, display.videoprocessorsetstreamextension, pfnVideoProcessorSetStreamExtension, pfnVideoProcessorSetStreamExtension callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

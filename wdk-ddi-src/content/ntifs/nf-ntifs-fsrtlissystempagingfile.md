@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BF92ADEA-4A9F-41E0-BE52-0794D1D827A1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlIsPagingFile routine [Installable File System Drivers], ntifs/FsRtlIsPagingFile, FsRtlIsPagingFile, FsRtlIsSystemPagingFile, ifsk.fsrtlissystempagingfile
+ms.keywords: ",  , F, FsRtlIsPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], FsRtlIsSystemPagingFile, I, P, R, S, a, e, g, i, ifsk.fsrtlissystempagingfile, l, m, n, ntifs/FsRtlIsPagingFile, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,15 +83,15 @@ Pointer to a file object for the file.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
 
 
 

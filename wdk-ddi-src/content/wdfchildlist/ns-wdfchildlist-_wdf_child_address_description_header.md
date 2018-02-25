@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ea8041c-be80-42ff-9693-f6331508f6b2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure, *PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, wdfchildlist/PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, wdf.wdf_child_address_description_header, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure pointer, PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, kmdf.wdf_child_address_description_header, _WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_3fc67e2b-a0f5-4e03-a901-b2629e494157.xml
+ms.keywords: ",  , *, *PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, ,, A, C, D, DFDeviceObjectChildListRef_3fc67e2b-a0f5-4e03-a901-b2629e494157.xml, E, F, H, I, L, N, O, P, PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure pointer, R, S, T, W, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure, _, _WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, kmdf.wdf_child_address_description_header, wdf.wdf_child_address_description_header, wdfchildlist/PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,11 +126,11 @@ For more information about address descriptions, see <a href="https://docs.micro
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
-
-
-
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
 
 
 

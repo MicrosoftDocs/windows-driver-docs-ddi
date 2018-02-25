@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d3a96377-71f9-40ba-a15f-cacd64dcc6c4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: bdatypes/BDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST structure [Streaming Media Devices], bdaref_a78db54e-c75e-46dc-8b81-f97163569450.xml, _BDA_PROGRAM_PID_LIST, bdatypes/PBDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST, stream.bda_program_pid_list, PBDA_PROGRAM_PID_LIST structure pointer [Streaming Media Devices]
+ms.keywords: ",  , *, *PBDA_PROGRAM_PID_LIST, ,, A, B, BDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST structure [Streaming Media Devices], D, G, I, L, M, O, P, PBDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST structure pointer [Streaming Media Devices], R, S, T, _, _BDA_PROGRAM_PID_LIST, bdaref_a78db54e-c75e-46dc-8b81-f97163569450.xml, bdatypes/BDA_PROGRAM_PID_LIST, bdatypes/PBDA_PROGRAM_PID_LIST, stream.bda_program_pid_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

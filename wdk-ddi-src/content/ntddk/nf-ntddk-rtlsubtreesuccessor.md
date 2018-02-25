@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: de592c2a-6f52-48ef-b2ee-253d83cafa80
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_65e50284-427f-47d9-92c7-719b8bc1bab5.xml, RtlSubtreeSuccessor, RtlSubtreeSuccessor routine [Installable File System Drivers], ifsk.rtlsubtreesuccessor, ntddk/RtlSubtreeSuccessor
+ms.keywords: ",  , R, RtlSubtreeSuccessor, RtlSubtreeSuccessor routine [Installable File System Drivers], S, b, c, e, ifsk.rtlsubtreesuccessor, l, ntddk/RtlSubtreeSuccessor, o, r, rtlref_65e50284-427f-47d9-92c7-719b8bc1bab5.xml, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,19 +96,19 @@ Callers of <b>RtlSubtreeSuccessor</b> must be running at IRQL &lt;= DISPATCH_LEV
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlsubtreepredecessor.md">RtlSubtreePredecessor</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 

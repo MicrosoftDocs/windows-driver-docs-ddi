@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bff9d991-63a1-47af-a351-073c82c0d31c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTOpenAdapterFromDeviceName function [Display Devices], OpenGL_Functions_8298711e-9466-4e00-b77a-0c7a1ee88bed.xml, D3DKMTOpenAdapterFromDeviceName, display.d3dkmtopenadapterfromdevicename, d3dkmthk/D3DKMTOpenAdapterFromDeviceName
+ms.keywords: ",  , 3, A, D, D3DKMTOpenAdapterFromDeviceName, D3DKMTOpenAdapterFromDeviceName function [Display Devices], F, K, M, N, O, OpenGL_Functions_8298711e-9466-4e00-b77a-0c7a1ee88bed.xml, T, a, c, d, d3dkmthk/D3DKMTOpenAdapterFromDeviceName, display.d3dkmtopenadapterfromdevicename, e, i, m, n, o, p, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

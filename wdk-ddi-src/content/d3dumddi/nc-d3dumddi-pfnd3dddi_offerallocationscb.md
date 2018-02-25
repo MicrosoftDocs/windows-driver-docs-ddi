@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D711C545-BDEE-4EE5-B80A-75F01FAA0C33
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnofferallocationscb, pfnOfferAllocationsCb callback function [Display Devices], pfnOfferAllocationsCb, PFND3DDDI_OFFERALLOCATIONSCB, PFND3DDDI_OFFERALLOCATIONSCB, d3dumddi/pfnOfferAllocationsCb
+ms.keywords: PFND3DDDI_OFFERALLOCATIONSCB, d3dumddi/pfnOfferAllocationsCb, display.pfnofferallocationscb, pfnOfferAllocationsCb, pfnOfferAllocationsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -159,15 +159,7 @@ After the driver calls <b>pfnOfferAllocationsCb</b> to offer an allocation to re
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
@@ -176,6 +168,14 @@ After the driver calls <b>pfnOfferAllocationsCb</b> to offer an allocation to re
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">pfnOfferResources</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 

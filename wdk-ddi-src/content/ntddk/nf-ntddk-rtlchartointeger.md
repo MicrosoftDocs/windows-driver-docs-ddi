@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a08cb12a-c574-4871-9bba-f8f3a766f377
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlCharToInteger, k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, RtlCharToInteger, kernel.rtlchartointeger, RtlCharToInteger routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, I, R, RtlCharToInteger, RtlCharToInteger routine [Kernel-Mode Driver Architecture], T, a, e, g, h, k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, kernel.rtlchartointeger, l, n, ntddk/RtlCharToInteger, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

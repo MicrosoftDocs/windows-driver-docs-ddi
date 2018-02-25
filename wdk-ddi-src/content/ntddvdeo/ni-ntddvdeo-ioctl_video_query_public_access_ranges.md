@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ae79e9c-34e4-4862-afd1-be6e808183cf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_query_public_access_ranges, IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES control code [Display Devices], IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES, ntddvdeo/IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES, Video_IOCTLs_e41d01a5-e889-445e-87cd-948f95ba2810.xml
+ms.keywords: IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_e41d01a5-e889-445e-87cd-948f95ba2810.xml, display.ioctl_video_query_public_access_ranges, ntddvdeo/IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

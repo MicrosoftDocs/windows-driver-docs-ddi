@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F5A853B2-4A8C-4929-AAEC-28844DEF0B29
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION, _DXGKARG_SETTARGETANALOGCOPYPROTECTION, DXGKARG_SETTARGETANALOGCOPYPROTECTION, DXGKARG_SETTARGETANALOGCOPYPROTECTION structure [Display Devices], display.dxgkarg_settargetanalogcopyprotection
+ms.keywords: ",  , ,, A, C, D, DXGKARG_SETTARGETANALOGCOPYPROTECTION, DXGKARG_SETTARGETANALOGCOPYPROTECTION structure [Display Devices], E, G, I, K, L, N, O, P, R, S, T, X, Y, _, _DXGKARG_SETTARGETANALOGCOPYPROTECTION, d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION, display.dxgkarg_settargetanalogcopyprotection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

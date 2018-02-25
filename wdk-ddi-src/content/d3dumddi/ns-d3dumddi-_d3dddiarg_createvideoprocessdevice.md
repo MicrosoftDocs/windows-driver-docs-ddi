@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b875755c-9559-41ee-8a9b-1de05a2f1dab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_CREATEVIDEOPROCESSDEVICE, _D3DDDIARG_CREATEVIDEOPROCESSDEVICE, d3dumddi/D3DDDIARG_CREATEVIDEOPROCESSDEVICE, D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure [Display Devices], display.d3dddiarg_createvideoprocessdevice, UMDisplayDriver_param_Structs_b8b0d8fa-b750-440d-afa4-556ffb33074a.xml
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_CREATEVIDEOPROCESSDEVICE, D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure [Display Devices], E, G, I, O, P, R, S, T, UMDisplayDriver_param_Structs_b8b0d8fa-b750-440d-afa4-556ffb33074a.xml, V, _, _D3DDDIARG_CREATEVIDEOPROCESSDEVICE, d3dumddi/D3DDDIARG_CREATEVIDEOPROCESSDEVICE, display.d3dddiarg_createvideoprocessdevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

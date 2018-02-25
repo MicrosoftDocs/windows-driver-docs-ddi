@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: ec6739d3-5956-4cc2-90ff-75c67c0a84e7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bth_sdp_submit_record, IOCTL_BTH_SDP_SUBMIT_RECORD control code [Bluetooth Devices], IOCTL_BTH_SDP_SUBMIT_RECORD, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD, bth_ioctls_e32ecb99-7a41-4405-844e-8c1038d3cb89.xml
+ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD, IOCTL_BTH_SDP_SUBMIT_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record, bth_ioctls_e32ecb99-7a41-4405-844e-8c1038d3cb89.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

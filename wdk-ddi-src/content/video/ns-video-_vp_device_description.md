@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a605e37d-56cd-4d72-a713-314e20c2f630
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.vp_device_description, _VP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, *PVP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], video/VP_DEVICE_DESCRIPTION, video/PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], VP_DEVICE_DESCRIPTION
+ms.keywords: ",  , *, *PVP_DEVICE_DESCRIPTION, ,, C, D, E, I, N, O, P, PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], R, S, T, V, VP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, _, _VP_DEVICE_DESCRIPTION, display.vp_device_description, video/PVP_DEVICE_DESCRIPTION, video/VP_DEVICE_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

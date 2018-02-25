@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d6f73582-5eaf-452f-ad5a-cdf5ab99d809
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSM_GetTargetMapping_IN, SM_GetTargetMapping_IN structure [Storage Devices], structs-Fibre_0109f5f0-dd0c-4a30-8b0a-aa33a54b5a61.xml, hbapiwmi/PSM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN, PSM_GetTargetMapping_IN structure pointer [Storage Devices], hbapiwmi/SM_GetTargetMapping_IN, _SM_GetTargetMapping_IN, storage.sm_gettargetmapping_in, SM_GetTargetMapping_IN
+ms.keywords: ",  , *, *PSM_GetTargetMapping_IN, ,, G, I, M, N, P, PSM_GetTargetMapping_IN, PSM_GetTargetMapping_IN structure pointer [Storage Devices], S, SM_GetTargetMapping_IN, SM_GetTargetMapping_IN structure [Storage Devices], T, _, _SM_GetTargetMapping_IN, a, e, g, hbapiwmi/PSM_GetTargetMapping_IN, hbapiwmi/SM_GetTargetMapping_IN, i, n, p, r, storage.sm_gettargetmapping_in, structs-Fibre_0109f5f0-dd0c-4a30-8b0a-aa33a54b5a61.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

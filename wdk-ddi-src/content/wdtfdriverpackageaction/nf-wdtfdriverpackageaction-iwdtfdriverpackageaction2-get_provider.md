@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 1d97bd4b-4e8c-4e36-97cc-c704b85e77ae
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Provider property, Microsoft.WDTF.IWDTFDriverPackageAction2.Provider, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Provider, IWDTFDriverPackageAction2.Provider, IWDTFDriverPackageAction2, get_Provider, Microsoft::WDTF::IWDTFDriverPackageAction2::Provider, dtf.iwdtfdriverpackageaction2_provider, Provider property [Windows Device Testing Framework], IWDTFDriverPackageAction2::get_Provider, Provider property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Provider
+ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Provider property, IWDTFDriverPackageAction2.Provider, IWDTFDriverPackageAction2::get_Provider, Microsoft.WDTF.IWDTFDriverPackageAction2.Provider, Microsoft::WDTF::IWDTFDriverPackageAction2::Provider, P, Provider property [Windows Device Testing Framework], Provider property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, T, W, _, a, c, d, dtf.iwdtfdriverpackageaction2_provider, e, g, get_Provider,IWDTFDriverPackageAction2.get_Provider, i, k, n, o, r, t, v, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Provider, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Provider"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

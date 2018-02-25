@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bac960c5-7c29-4550-9b82-5adb6a0cc243
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winspool/BINARY_CONTAINER, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, BINARY_CONTAINER structure [Print Devices], BINARY_CONTAINER, PBINARY_CONTAINER structure pointer [Print Devices], print.binary_container, PBINARY_CONTAINER, *PBINARY_CONTAINER, winspool/PBINARY_CONTAINER, _BINARY_CONTAINER
+ms.keywords: ",  , *, *PBINARY_CONTAINER, ,, A, B, BINARY_CONTAINER, BINARY_CONTAINER structure [Print Devices], C, E, I, N, O, P, PBINARY_CONTAINER, PBINARY_CONTAINER structure pointer [Print Devices], R, T, Y, _, _BINARY_CONTAINER, print.binary_container, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, winspool/BINARY_CONTAINER, winspool/PBINARY_CONTAINER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

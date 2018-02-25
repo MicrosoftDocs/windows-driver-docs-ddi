@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 18C1A210-6C6D-4BA7-AE62-81774DD62C58
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.irb_req_free_address_range, IRB_REQ_FREE_ADDRESS_RANGE structure [Buses], 1394/IRB_REQ_FREE_ADDRESS_RANGE, _IRB_REQ_FREE_ADDRESS_RANGE, IRB_REQ_FREE_ADDRESS_RANGE
+ms.keywords: ",  , ,, 1394/IRB_REQ_FREE_ADDRESS_RANGE, A, B, D, E, F, G, I, IEEE.irb_req_free_address_range, IRB_REQ_FREE_ADDRESS_RANGE, IRB_REQ_FREE_ADDRESS_RANGE structure [Buses], N, Q, R, S, _, _IRB_REQ_FREE_ADDRESS_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

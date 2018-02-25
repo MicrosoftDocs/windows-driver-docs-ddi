@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 78c37e2c-171b-483c-967d-1b80bde24338
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbaapi/HBA_OpenAdapter, HBA_OpenAdapter routine [Storage Devices], storage.hba_openadapter, fibreHBA_rtns_2c583fd9-a3b4-4e35-aa22-31f5f9bb2002.xml, HBA_OpenAdapter
+ms.keywords: ",  , A, B, H, HBA_OpenAdapter, HBA_OpenAdapter routine [Storage Devices], O, _, a, d, e, fibreHBA_rtns_2c583fd9-a3b4-4e35-aa22-31f5f9bb2002.xml, hbaapi/HBA_OpenAdapter, n, p, r, storage.hba_openadapter, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

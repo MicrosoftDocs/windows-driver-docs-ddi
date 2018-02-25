@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d3479656-310f-4e2d-a671-296bc3e2f1ab
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.dsmsetloadbalancepolicy_out, structs-scsibus_f22d33bc-ce52-4369-8dd2-085c393a9107.xml, PDsmSetLoadBalancePolicy_OUT, mpiodisk/PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT, _DsmSetLoadBalancePolicy_OUT, *PDsmSetLoadBalancePolicy_OUT, mpiodisk/DsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT structure [Storage Devices], PDsmSetLoadBalancePolicy_OUT structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PDsmSetLoadBalancePolicy_OUT, ,, B, D, DsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT structure [Storage Devices], L, O, P, PDsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT structure pointer [Storage Devices], S, T, U, _, _DsmSetLoadBalancePolicy_OUT, a, c, d, e, i, l, m, mpiodisk/DsmSetLoadBalancePolicy_OUT, mpiodisk/PDsmSetLoadBalancePolicy_OUT, n, o, s, storage.dsmsetloadbalancepolicy_out, structs-scsibus_f22d33bc-ce52-4369-8dd2-085c393a9107.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

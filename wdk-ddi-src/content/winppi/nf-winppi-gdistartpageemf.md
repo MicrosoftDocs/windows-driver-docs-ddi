@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 963c809f-da89-4f27-ba8b-3de8cdcec179
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GdiStartPageEMF, gdifnc_fbb09921-04b5-49e2-b8a7-fe23657a0f4f.xml, winppi/GdiStartPageEMF, print.gdistartpageemf, GdiStartPageEMF function [Print Devices]
+ms.keywords: ",  , E, F, G, GdiStartPageEMF, GdiStartPageEMF function [Print Devices], M, P, S, a, d, e, g, gdifnc_fbb09921-04b5-49e2-b8a7-fe23657a0f4f.xml, i, print.gdistartpageemf, r, t, winppi/GdiStartPageEMF"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

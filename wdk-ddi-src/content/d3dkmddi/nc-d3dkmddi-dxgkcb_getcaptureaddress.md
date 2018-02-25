@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f87a5a5f-20d3-48cb-93f0-114eafe7238b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbgetcaptureaddress, DxgkCbGetCaptureAddress callback function [Display Devices], DxgkCbGetCaptureAddress, DXGKCB_GETCAPTUREADDRESS, DXGKCB_GETCAPTUREADDRESS, d3dkmddi/DxgkCbGetCaptureAddress, DpFunctions_a8e4882c-a196-4cdf-826f-fa4cf44ba8f8.xml
+ms.keywords: DXGKCB_GETCAPTUREADDRESS, DpFunctions_a8e4882c-a196-4cdf-826f-fa4cf44ba8f8.xml, DxgkCbGetCaptureAddress, DxgkCbGetCaptureAddress callback function [Display Devices], d3dkmddi/DxgkCbGetCaptureAddress, display.dxgkcbgetcaptureaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

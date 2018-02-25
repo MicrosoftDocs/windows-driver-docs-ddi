@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4deaa42e-8c8b-461a-845e-424b543b52b1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlunicodestringtoansisize, RtlUnicodeStringToAnsiSize, wdm/RtlUnicodeStringToAnsiSize, k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, R, RtlUnicodeStringToAnsiSize, RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], S, T, U, c, d, e, g, i, k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, kernel.rtlunicodestringtoansisize, l, n, o, r, s, t, wdm/RtlUnicodeStringToAnsiSize, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

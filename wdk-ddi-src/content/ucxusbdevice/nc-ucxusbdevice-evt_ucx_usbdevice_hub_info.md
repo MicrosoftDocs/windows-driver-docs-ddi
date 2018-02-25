@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 5bf8000d-63d8-4901-b3fc-d3c43cefe37e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_hub_info, EvtUcxUsbDeviceHubInfo callback function [Buses], EvtUcxUsbDeviceHubInfo, EVT_UCX_USBDEVICE_HUB_INFO, EVT_UCX_USBDEVICE_HUB_INFO, ucxusbdevice/EvtUcxUsbDeviceHubInfo, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], PEVT_UCX_USBDEVICE_HUB_INFO
+ms.keywords: EVT_UCX_USBDEVICE_HUB_INFO, EvtUcxUsbDeviceHubInfo, EvtUcxUsbDeviceHubInfo callback function [Buses], PEVT_UCX_USBDEVICE_HUB_INFO, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], buses.evt_ucx_usbdevice_hub_info, ucxusbdevice/EvtUcxUsbDeviceHubInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -146,11 +146,11 @@ UsbDevice_EvtUcxUsbDeviceHubInfo(
 
 ## -see-also
 
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_hub_info.md">USBDEVICE_HUB_INFO</a>
+
+
+
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init.md">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
-
-
-
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 
@@ -158,7 +158,7 @@ UsbDevice_EvtUcxUsbDeviceHubInfo(
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_hub_info.md">USBDEVICE_HUB_INFO</a>
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 103E60D4-4640-430D-A4AE-E03D8B6E7031
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_proprietary_charger_reset, EvtUfxDeviceProprietaryChargerReset callback function [Buses], EvtUfxDeviceProprietaryChargerReset, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, ufxclient/EvtUfxDeviceProprietaryChargerReset, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function pointer [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET
+ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, EvtUfxDeviceProprietaryChargerReset, EvtUfxDeviceProprietaryChargerReset callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_reset, ufxclient/EvtUfxDeviceProprietaryChargerReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -106,11 +106,11 @@ The USB function class extension (UFX) invokes this  event callback to indicate 
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md">UfxDeviceProprietaryChargerDetectComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md">UfxDeviceProprietaryChargerDetectComplete</a>
 
 
 

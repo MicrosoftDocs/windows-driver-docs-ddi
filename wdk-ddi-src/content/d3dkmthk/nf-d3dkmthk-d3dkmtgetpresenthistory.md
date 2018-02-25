@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e00af04e-4770-4505-a06c-c44405dcaab5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_9070e169-207c-478d-8eab-b0bcfad65362.xml, d3dkmthk/D3DKMTGetPresentHistory, display.d3dkmtgetpresenthistory, D3DKMTGetPresentHistory, D3DKMTGetPresentHistory function [Display Devices]
+ms.keywords: ",  , 3, D, D3DKMTGetPresentHistory, D3DKMTGetPresentHistory function [Display Devices], G, H, K, M, OpenGL_Functions_9070e169-207c-478d-8eab-b0bcfad65362.xml, P, T, d3dkmthk/D3DKMTGetPresentHistory, display.d3dkmtgetpresenthistory, e, i, n, o, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 18083431-37b5-49e9-9c69-8b6cd7b5f736
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml, ifsk.iogetattacheddevice, IoGetAttachedDevice routine [Installable File System Drivers], IoGetAttachedDevice, ntifs/IoGetAttachedDevice
+ms.keywords: ",  , A, D, G, I, IoGetAttachedDevice, IoGetAttachedDevice routine [Installable File System Drivers], a, c, d, e, h, i, ifsk.iogetattacheddevice, ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml, ntifs/IoGetAttachedDevice, o, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,11 +104,11 @@ Callers of <b>IoGetAttachedDevice</b> must ensure that no device objects are add
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

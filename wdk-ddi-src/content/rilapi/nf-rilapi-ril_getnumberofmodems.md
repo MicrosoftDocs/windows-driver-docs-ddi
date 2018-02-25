@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81747f24-d1ed-412a-b0ae-95b737059b0d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetNumberOfModems method [Network Drivers Starting with Windows Vista], RIL_GetNumberOfModems, rilapi/RIL_GetNumberOfModems, netvista.ril_getnumberofmodems
+ms.keywords: ",  , G, I, L, M, N, O, R, RIL_GetNumberOfModems, RIL_GetNumberOfModems method [Network Drivers Starting with Windows Vista], _, b, d, e, f, m, netvista.ril_getnumberofmodems, o, r, rilapi/RIL_GetNumberOfModems, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

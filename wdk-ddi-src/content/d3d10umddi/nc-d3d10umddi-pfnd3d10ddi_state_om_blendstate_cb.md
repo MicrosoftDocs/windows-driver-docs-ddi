@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3cec9d99-0d15-4c61-9de2-ab203a56441d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstateomblendstatecb, pfnStateOmBlendStateCb callback function [Display Devices], pfnStateOmBlendStateCb, PFND3D10DDI_STATE_OM_BLENDSTATE_CB, PFND3D10DDI_STATE_OM_BLENDSTATE_CB, d3d10umddi/pfnStateOmBlendStateCb, d3d10state_functions_18da32ca-c230-4119-a721-cbb8511a8b7c.xml
+ms.keywords: PFND3D10DDI_STATE_OM_BLENDSTATE_CB, d3d10state_functions_18da32ca-c230-4119-a721-cbb8511a8b7c.xml, d3d10umddi/pfnStateOmBlendStateCb, display.pfnstateomblendstatecb, pfnStateOmBlendStateCb, pfnStateOmBlendStateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,15 +104,15 @@ The <b>pfnStateOmBlendStateCb</b> function calls the user-mode display driver's 
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setblendstate.md">SetBlendState</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
 
 
 

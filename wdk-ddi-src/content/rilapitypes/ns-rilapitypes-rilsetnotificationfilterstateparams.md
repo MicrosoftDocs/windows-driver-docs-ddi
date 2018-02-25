@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 87dc2ef3-047c-4255-832c-508b378ca412
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSETNOTIFICATIONFILTERSTATEPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS, *LPRILSETNOTIFICATIONFILTERSTATEPARAMS, netvista.rilsetnotificationfilterstateparams_2
+ms.keywords: ",  , *, *LPRILSETNOTIFICATIONFILTERSTATEPARAMS, ,, A, C, E, F, I, L, M, N, O, P, R, RILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilsetnotificationfilterstateparams_2, rilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

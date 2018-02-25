@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bccacf88-b66b-4d55-b3a8-9d9b8cfcede8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMDT_MONITOR_SOURCE_MODE structure [Display Devices], D3DKMDT_MONITOR_SOURCE_MODE, d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE, _D3DKMDT_MONITOR_SOURCE_MODE, display.d3dkmdt_monitor_source_mode, DmStructs_165795ef-f70e-4f50-a35f-c6009c547be2.xml
+ms.keywords: ",  , ,, 3, C, D, D3DKMDT_MONITOR_SOURCE_MODE, D3DKMDT_MONITOR_SOURCE_MODE structure [Display Devices], DmStructs_165795ef-f70e-4f50-a35f-c6009c547be2.xml, E, I, K, M, N, O, R, S, T, U, _, _D3DKMDT_MONITOR_SOURCE_MODE, d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE, display.d3dkmdt_monitor_source_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

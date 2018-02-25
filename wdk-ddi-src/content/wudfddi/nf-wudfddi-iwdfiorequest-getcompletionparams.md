@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aaca14ff-9ea2-43f4-bfa9-9151d855c3af
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest interface, GetCompletionParams method, IWDFIoRequest, wdf.iwdfiorequest_getcompletionparams, wudfddi/IWDFIoRequest::GetCompletionParams, IWDFIoRequest::GetCompletionParams, GetCompletionParams method, GetCompletionParams method, IWDFIoRequest interface, UMDFRequestObjectRef_dbfb5f9c-c1ad-425d-9bcb-627cc961d00d.xml, umdf.iwdfiorequest_getcompletionparams, GetCompletionParams
+ms.keywords: ",  , ,, ., :, C, D, F, G, GetCompletionParams method, GetCompletionParams method, IWDFIoRequest interface, GetCompletionParams,IWDFIoRequest.GetCompletionParams, I, IWDFIoRequest, IWDFIoRequest interface, GetCompletionParams method, IWDFIoRequest::GetCompletionParams, P, R, UMDFRequestObjectRef_dbfb5f9c-c1ad-425d-9bcb-627cc961d00d.xml, W, a, e, i, l, m, n, o, p, q, r, s, t, u, umdf.iwdfiorequest_getcompletionparams, wdf.iwdfiorequest_getcompletionparams, wudfddi/IWDFIoRequest::GetCompletionParams"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

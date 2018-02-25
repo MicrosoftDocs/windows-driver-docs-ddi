@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3ff5a328-04b0-4de9-abe1-759c36f31899
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_set_partition_info, IOCTL_DISK_SET_PARTITION_INFO control code [Storage Devices], IOCTL_DISK_SET_PARTITION_INFO, ntdddisk/IOCTL_DISK_SET_PARTITION_INFO, k307_9035067b-43ed-4b4f-9516-23fd7448d5e6.xml
+ms.keywords: IOCTL_DISK_SET_PARTITION_INFO, IOCTL_DISK_SET_PARTITION_INFO control code [Storage Devices], k307_9035067b-43ed-4b4f-9516-23fd7448d5e6.xml, ntdddisk/IOCTL_DISK_SET_PARTITION_INFO, storage.ioctl_disk_set_partition_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

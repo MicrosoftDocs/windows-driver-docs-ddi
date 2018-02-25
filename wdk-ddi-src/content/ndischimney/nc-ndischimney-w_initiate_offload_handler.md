@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f430642b-01bf-4ed7-bfea-e8dd8d5a8208
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportinitiateoffload, MiniportInitiateOffload callback function [Network Drivers Starting with Windows Vista], MiniportInitiateOffload, W_INITIATE_OFFLOAD_HANDLER, W_INITIATE_OFFLOAD_HANDLER, ndischimney/MiniportInitiateOffload, tcp_chim_miniport_func_58c338e0-ea8e-41c2-a781-a32f4be7758c.xml
+ms.keywords: MiniportInitiateOffload, MiniportInitiateOffload callback function [Network Drivers Starting with Windows Vista], W_INITIATE_OFFLOAD_HANDLER, ndischimney/MiniportInitiateOffload, netvista.miniportinitiateoffload, tcp_chim_miniport_func_58c338e0-ea8e-41c2-a781-a32f4be7758c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -167,7 +167,7 @@ For each state object that it offloads, the offload target must also supply a PV
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
@@ -176,7 +176,7 @@ For each state object that it offloads, the offload target must also supply a PV
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
 
 
 

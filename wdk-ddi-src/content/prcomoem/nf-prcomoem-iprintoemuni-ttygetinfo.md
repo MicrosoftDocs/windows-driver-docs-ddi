@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0df8c555-4298-47e7-a6a7-43f101620e04
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml, IPrintOemUni interface [Print Devices], TTYGetInfo method, TTYGetInfo method [Print Devices], TTYGetInfo method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::TTYGetInfo, TTYGetInfo, print.iprintoemuni_ttygetinfo, IPrintOemUni::TTYGetInfo, IPrintOemUni
+ms.keywords: ",  , ,, ., :, G, I, IPrintOemUni, IPrintOemUni interface [Print Devices], TTYGetInfo method, IPrintOemUni::TTYGetInfo, O, P, T, TTYGetInfo method [Print Devices], TTYGetInfo method [Print Devices], IPrintOemUni interface, TTYGetInfo,IPrintOemUni.TTYGetInfo, U, Y, e, f, i, m, n, o, prcomoem/IPrintOemUni::TTYGetInfo, print.iprintoemuni_ttygetinfo, print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

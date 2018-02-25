@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 62C15E35-D9B6-449D-9AF2-F8A1F75C2BB9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.set_dax_alloc_alignment_hint_input, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ntifs/PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure pointer [Installable File System Drivers], ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure [Installable File System Drivers], PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+ms.keywords: ",  , *, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ,, A, C, D, E, G, H, I, L, M, N, O, P, PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure pointer [Installable File System Drivers], S, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure [Installable File System Drivers], T, U, X, _, _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ifsk.set_dax_alloc_alignment_hint_input, ntifs/PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

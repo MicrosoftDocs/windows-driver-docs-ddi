@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 7516B493-F86E-44C5-ABCD-450B6F66AA15
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PPNP_SERIAL_BUS_DESCRIPTOR structure pointer [Buses], reshub/PNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR, SPB.pnp_serial_bus_descriptor, _PNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR structure [Buses], reshub/PPNP_SERIAL_BUS_DESCRIPTOR, *PPNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR
+ms.keywords: ",  , *, *PPNP_SERIAL_BUS_DESCRIPTOR, ,, A, B, C, D, E, I, L, N, O, P, PNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR structure [Buses], PPNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR structure pointer [Buses], R, S, SPB.pnp_serial_bus_descriptor, T, U, _, _PNP_SERIAL_BUS_DESCRIPTOR, reshub/PNP_SERIAL_BUS_DESCRIPTOR, reshub/PPNP_SERIAL_BUS_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

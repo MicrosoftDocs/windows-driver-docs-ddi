@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 038e52be-04db-41c2-aa19-85bc4eb8bc57
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.allocatecapturedmaengine, AllocateCaptureDmaEngine callback function [Audio Devices], AllocateCaptureDmaEngine, PALLOCATE_CAPTURE_DMA_ENGINE, PALLOCATE_CAPTURE_DMA_ENGINE, hdaudio/AllocateCaptureDmaEngine, aud-prop2_0eb8fa9c-157f-4979-8db1-362ec56cd3c3.xml
+ms.keywords: AllocateCaptureDmaEngine, AllocateCaptureDmaEngine callback function [Audio Devices], PALLOCATE_CAPTURE_DMA_ENGINE, aud-prop2_0eb8fa9c-157f-4979-8db1-362ec56cd3c3.xml, audio.allocatecapturedmaengine, hdaudio/AllocateCaptureDmaEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -202,15 +202,11 @@ A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_contiguous_dma_buffer.md">AllocateContiguousDmaBuffer</a>
 
 
 
@@ -218,7 +214,23 @@ A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
 
 
@@ -230,19 +242,7 @@ A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_contiguous_dma_buffer.md">AllocateContiguousDmaBuffer</a>
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
 
 

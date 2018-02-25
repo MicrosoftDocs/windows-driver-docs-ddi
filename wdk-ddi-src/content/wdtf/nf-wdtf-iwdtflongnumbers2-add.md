@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 2a3228a3-f2b4-45c8-9cb0-b3834308f5da
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Add method [Windows Device Testing Framework], IWDTFLongNumbers2 interface, wdtf/IWDTFLongNumbers2::Add, IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], Add method, Add method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFLongNumbers2.Add, Microsoft::WDTF::IWDTFLongNumbers2::Add, dtf.iwdtflongnumbers2_add, Add, IWDTFLongNumbers2::Add
+ms.keywords: ",  , ,, ., 2, :, A, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework], IWDTFLongNumbers2 interface, Add,IWDTFLongNumbers2.Add, D, F, I, IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], Add method, IWDTFLongNumbers2::Add, L, Microsoft.WDTF.IWDTFLongNumbers2.Add, Microsoft::WDTF::IWDTFLongNumbers2::Add, N, T, W, b, d, dtf.iwdtflongnumbers2_add, e, g, m, n, o, r, s, u, wdtf/IWDTFLongNumbers2::Add"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

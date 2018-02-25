@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B0422248-2F5F-4AE6-93C9-D96B5E4A1B5A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.debugbaseeventcallbacks, DebugBaseEventCallbacks class [Windows Debugging], DebugBaseEventCallbacks class [Windows Debugging], described, DebugBaseEventCallbacks, dbgeng/DebugBaseEventCallbacks
+ms.keywords: DebugBaseEventCallbacks, DebugBaseEventCallbacks class [Windows Debugging], DebugBaseEventCallbacks class [Windows Debugging], described, dbgeng/DebugBaseEventCallbacks, debugger.debugbaseeventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

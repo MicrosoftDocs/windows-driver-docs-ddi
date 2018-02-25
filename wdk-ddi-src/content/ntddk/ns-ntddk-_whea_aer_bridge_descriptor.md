@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 33cc9d34-cffb-410d-9948-37c8a409e0a5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "*PWHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], whea.whea_aer_bridge_descriptor, ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], _WHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR, whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml, WHEA_AER_BRIDGE_DESCRIPTOR"
+ms.keywords: ",  , *, *PWHEA_AER_BRIDGE_DESCRIPTOR, ,, A, B, C, D, E, G, H, I, O, P, PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], R, S, T, W, WHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], _, _WHEA_AER_BRIDGE_DESCRIPTOR, ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, whea.whea_aer_bridge_descriptor, whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

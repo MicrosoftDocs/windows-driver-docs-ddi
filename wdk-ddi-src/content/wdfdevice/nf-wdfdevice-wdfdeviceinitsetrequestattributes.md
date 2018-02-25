@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ac705ff9-8019-47f9-8842-05f9152af29c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceInitSetRequestAttributes, wdfdevice/WdfDeviceInitSetRequestAttributes, wdf.wdfdeviceinitsetrequestattributes, WdfDeviceInitSetRequestAttributes method, kmdf.wdfdeviceinitsetrequestattributes, DFDeviceObjectGeneralRef_30c50afa-81a1-4f3c-a2b0-987920922a4f.xml
+ms.keywords: ",  , A, D, DFDeviceObjectGeneralRef_30c50afa-81a1-4f3c-a2b0-987920922a4f.xml, I, R, S, W, WdfDeviceInitSetRequestAttributes, WdfDeviceInitSetRequestAttributes method, b, c, d, e, f, i, kmdf.wdfdeviceinitsetrequestattributes, n, q, r, s, t, u, v, wdf.wdfdeviceinitsetrequestattributes, wdfdevice/WdfDeviceInitSetRequestAttributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

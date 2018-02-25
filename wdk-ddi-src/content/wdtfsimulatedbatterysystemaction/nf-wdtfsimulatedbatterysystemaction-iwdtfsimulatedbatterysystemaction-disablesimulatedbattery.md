@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 52ddeb83-8ac3-4e9d-84d8-dddfcc404b6e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], DisableSimulatedBattery method, IWDTFSimulatedBatterySystemAction, DisableSimulatedBattery, IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery, dtf.iwdtfsimulatedbatterysystemaction_disablesimulatedbattery, DisableSimulatedBattery method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery, DisableSimulatedBattery method [Windows Device Testing Framework]
+ms.keywords: ",  , ,, ., :, A, B, D, DisableSimulatedBattery method [Windows Device Testing Framework], DisableSimulatedBattery method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, DisableSimulatedBattery,IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery, F, I, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], DisableSimulatedBattery method, IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery, S, T, W, a, b, c, d, dtf.iwdtfsimulatedbatterysystemaction_disablesimulatedbattery, e, i, l, m, n, o, r, s, t, u, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

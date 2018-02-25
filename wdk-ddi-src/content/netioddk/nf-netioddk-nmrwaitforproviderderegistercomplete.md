@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ec6e75e8-f24a-4d76-b6e1-af35b5402f91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], nmrref_bd063787-0438-49de-9816-e5a110528d54.xml, NmrWaitForProviderDeregisterComplete, netvista.nmrwaitforproviderderegistercomplete, netioddk/NmrWaitForProviderDeregisterComplete
+ms.keywords: ",  , C, D, F, N, NmrWaitForProviderDeregisterComplete, NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], P, W, a, d, e, g, i, l, m, netioddk/NmrWaitForProviderDeregisterComplete, netvista.nmrwaitforproviderderegistercomplete, nmrref_bd063787-0438-49de-9816-e5a110528d54.xml, o, p, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a5da1ed0-c4e6-4ab8-b581-64bc7d0519f2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugdataspaces3, IDebugDataSpaces3 interface [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], described, IDebugDataSpaces3, dbgeng/IDebugDataSpaces3
+ms.keywords: IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], described, dbgeng/IDebugDataSpaces3, debugger.idebugdataspaces3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -120,11 +120,11 @@ Initializes a enumeration over the tagged data associated with a debugger sessio
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 

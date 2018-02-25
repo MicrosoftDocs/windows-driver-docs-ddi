@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2b77853d-2c34-4902-90e3-b9a58d56e88e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ntddk/PWHEA_AER_ENDPOINT_DESCRIPTOR, PWHEA_AER_ENDPOINT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], *PWHEA_AER_ENDPOINT_DESCRIPTOR, WHEA_AER_ENDPOINT_DESCRIPTOR structure [WHEA Drivers and Applications], whearef_06cb1486-51b0-457d-a0d0-b902c6c43cfc.xml, _WHEA_AER_ENDPOINT_DESCRIPTOR, ntddk/WHEA_AER_ENDPOINT_DESCRIPTOR, WHEA_AER_ENDPOINT_DESCRIPTOR, whea.whea_aer_endpoint_descriptor, PWHEA_AER_ENDPOINT_DESCRIPTOR
+ms.keywords: ",  , *, *PWHEA_AER_ENDPOINT_DESCRIPTOR, ,, A, C, D, E, H, I, N, O, P, PWHEA_AER_ENDPOINT_DESCRIPTOR, PWHEA_AER_ENDPOINT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], R, S, T, W, WHEA_AER_ENDPOINT_DESCRIPTOR, WHEA_AER_ENDPOINT_DESCRIPTOR structure [WHEA Drivers and Applications], _, _WHEA_AER_ENDPOINT_DESCRIPTOR, ntddk/PWHEA_AER_ENDPOINT_DESCRIPTOR, ntddk/WHEA_AER_ENDPOINT_DESCRIPTOR, whea.whea_aer_endpoint_descriptor, whearef_06cb1486-51b0-457d-a0d0-b902c6c43cfc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

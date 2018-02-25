@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aed565f5-a9c1-4130-a192-68bb699b4bd1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddigetpossiblebrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], DxgkDdiGetPossibleBrightness, DXGK_BRIGHTNESS_GET_POSSIBLE, DXGK_BRIGHTNESS_GET_POSSIBLE, dispmprt/DxgkDdiGetPossibleBrightness, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml
+ms.keywords: DXGK_BRIGHTNESS_GET_POSSIBLE, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml, DxgkDdiGetPossibleBrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], display.dxgkddigetpossiblebrightness, dispmprt/DxgkDdiGetPossibleBrightness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

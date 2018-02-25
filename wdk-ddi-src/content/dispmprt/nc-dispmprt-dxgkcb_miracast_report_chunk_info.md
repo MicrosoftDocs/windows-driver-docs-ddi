@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94A99749-EF80-4593-B03C-54A7AA2BDFC8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbreportchunkinfo, DxgkCbReportChunkInfo callback function [Display Devices], DxgkCbReportChunkInfo, DXGKCB_MIRACAST_REPORT_CHUNK_INFO, DXGKCB_MIRACAST_REPORT_CHUNK_INFO, dispmprt/DxgkCbReportChunkInfo
+ms.keywords: DXGKCB_MIRACAST_REPORT_CHUNK_INFO, DxgkCbReportChunkInfo, DxgkCbReportChunkInfo callback function [Display Devices], display.dxgkcbreportchunkinfo, dispmprt/DxgkCbReportChunkInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,11 +113,11 @@ The display miniport driver  calls this function when it wants to report chunk i
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
-
-
-
 <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
 
 
 
@@ -125,7 +125,7 @@ The display miniport driver  calls this function when it wants to report chunk i
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
 
 
 

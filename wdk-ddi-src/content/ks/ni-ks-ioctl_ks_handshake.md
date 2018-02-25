@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 63c50af0-365b-4074-a703-9e43b1514a55
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ioctl_ks_handshake, IOCTL_KS_HANDSHAKE control code [Streaming Media Devices], IOCTL_KS_HANDSHAKE, ks/IOCTL_KS_HANDSHAKE, ks-ioctl_f848d65c-b795-439e-a8a1-d4c2e0764ef1.xml
+ms.keywords: IOCTL_KS_HANDSHAKE, IOCTL_KS_HANDSHAKE control code [Streaming Media Devices], ks-ioctl_f848d65c-b795-439e-a8a1-d4c2e0764ef1.xml, ks/IOCTL_KS_HANDSHAKE, stream.ioctl_ks_handshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames:
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -116,11 +116,11 @@ If the <b>InLength</b> and <b>OutLength</b> parameters in the call to <b>KsSynch
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
+
+
+
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 
 
 

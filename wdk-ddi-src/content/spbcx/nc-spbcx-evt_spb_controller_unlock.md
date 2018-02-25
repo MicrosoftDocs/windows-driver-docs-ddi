@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 4EB36115-2783-4FD5-9CEE-1F7C971C334D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPB.evtspbcontrollerunlock, EvtSpbControllerUnlock callback function [Buses], EvtSpbControllerUnlock, EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK, spbcx/EvtSpbControllerUnlock
+ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -163,15 +163,15 @@ The EVT_SPB_CONTROLLER_UNLOCK function type is defined in the Spbcx.h header fil
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
 
 
 <a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
 
 
 

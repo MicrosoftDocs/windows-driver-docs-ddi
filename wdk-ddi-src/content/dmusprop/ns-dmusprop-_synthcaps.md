@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d9d7327f-a413-4828-b204-e08198d0fe9e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.synthcaps, PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], SYNTHCAPS, *PSYNTHCAPS, SYNTHCAPS structure [Audio Devices], aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, dmusprop/PSYNTHCAPS, dmusprop/SYNTHCAPS, _SYNTHCAPS
+ms.keywords: ",  , *, *PSYNTHCAPS, ,, A, C, H, N, P, PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], S, SYNTHCAPS, SYNTHCAPS structure [Audio Devices], T, Y, _, _SYNTHCAPS, aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, audio.synthcaps, dmusprop/PSYNTHCAPS, dmusprop/SYNTHCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

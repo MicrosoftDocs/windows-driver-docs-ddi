@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: db4335c1-b6c9-4afd-b30f-95b736be696b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlunicodetocustomcpn, ntifs/RtlUnicodeToCustomCPN, RtlUnicodeToCustomCPN, rtlref_0c9942bd-a950-4d59-8fc7-58c41cfe78d4.xml
+ms.keywords: ",  , C, N, P, R, RtlUnicodeToCustomCPN, RtlUnicodeToCustomCPN function [Installable File System Drivers], T, U, c, d, e, i, ifsk.rtlunicodetocustomcpn, l, m, n, ntifs/RtlUnicodeToCustomCPN, o, rtlref_0c9942bd-a950-4d59-8fc7-58c41cfe78d4.xml, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

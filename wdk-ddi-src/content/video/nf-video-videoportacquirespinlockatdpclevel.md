@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 72c6e923-e7c0-4d3d-a115-33e3e11053eb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], display.videoportacquirespinlockatdpclevel, video/VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel, VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml
+ms.keywords: ",  , A, D, L, P, S, V, VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, c, d, display.videoportacquirespinlockatdpclevel, e, i, k, l, n, o, p, q, r, t, u, v, video/VideoPortAcquireSpinLockAtDpcLevel"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 097cd455-018e-46ef-8b8f-8eae7ea3eaff
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiamdef/wiasWritePropFloat, wiasWritePropFloat, wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml, image.wiaswritepropfloat, wiasWritePropFloat function [Imaging Devices]
+ms.keywords: ",  , F, P, W, a, e, i, image.wiaswritepropfloat, l, o, p, r, s, t, w, wiamdef/wiasWritePropFloat, wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml, wiasWritePropFloat, wiasWritePropFloat function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,15 +104,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
 
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
 
 
 

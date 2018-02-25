@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 452dc67b-1938-4757-99bd-507a32d9a71a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects4, IDebugSystemObjects3, debugger.gettotalnumberthreadsandprocesses, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses
+ms.keywords: ",  , ,, ., 4, :, A, D, G, GetTotalNumberThreadsAndProcesses method [Windows Debugging], GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, GetTotalNumberThreadsAndProcesses,IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses,IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses, I, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, N, O, P, S, T, a, b, c, d, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, debugger.gettotalnumberthreadsandprocesses, e, g, h, j, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,15 +136,15 @@ If no target is found, all the values are set to zero.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 99a86339-62ce-48fd-a1f4-5c3061e624b5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure [Display Devices], UMDisplayDriver_param_Structs_2b02df7d-1bae-446f-b52a-0a9353114504.xml, _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, d3dumddi/D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, display.d3dddiarg_authenticatedchannelkeyexchange, D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure [Display Devices], E, G, H, I, K, L, N, R, T, U, UMDisplayDriver_param_Structs_2b02df7d-1bae-446f-b52a-0a9353114504.xml, X, Y, _, _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, d3dumddi/D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, display.d3dddiarg_authenticatedchannelkeyexchange"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

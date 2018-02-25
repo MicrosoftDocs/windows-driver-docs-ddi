@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 33eb0244-e0f3-4db7-b6df-2668e826fbd8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ikscontrol8, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices], described, IKsControl, ks/IKsControl, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml
+ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices], described, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml, ks/IKsControl, stream.ikscontrol8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -157,15 +157,15 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 ## -see-also
 
+<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+
+
+
 <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
 
 
 <a href="..\ks\nn-ks-ikscontrol.md">IKsControl (Kernel Streaming Proxy)</a>
-
-
-
-<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
 
 
 

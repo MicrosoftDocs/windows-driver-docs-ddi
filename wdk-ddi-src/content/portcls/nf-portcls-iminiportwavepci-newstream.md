@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: cad3eeb5-2106-4648-97e5-cf3bb8601599
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IMiniportWavePci interface [Audio Devices], NewStream method, NewStream method [Audio Devices], IMiniportWavePci interface, NewStream, audio.iminiportwavepci_newstream, NewStream method [Audio Devices], IMiniportWavePci::NewStream, portcls/IMiniportWavePci::NewStream, IMiniportWavePci, audmp-routines_cf0b0f93-033d-47f1-8e07-c0407e0a89f3.xml
+ms.keywords: ",  , ,, ., :, I, IMiniportWavePci, IMiniportWavePci interface [Audio Devices], NewStream method, IMiniportWavePci::NewStream, M, N, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportWavePci interface, NewStream,IMiniportWavePci.NewStream, P, S, W, a, audio.iminiportwavepci_newstream, audmp-routines_cf0b0f93-033d-47f1-8e07-c0407e0a89f3.xml, c, e, i, m, n, o, p, portcls/IMiniportWavePci::NewStream, r, t, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -160,6 +160,26 @@ Note that the <code>NewStream</code> methods for the other port types (WaveCycli
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
+
+
+
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
@@ -173,26 +193,6 @@ Note that the <code>NewStream</code> methods for the other port types (WaveCycli
 
 
 <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
 
 
 

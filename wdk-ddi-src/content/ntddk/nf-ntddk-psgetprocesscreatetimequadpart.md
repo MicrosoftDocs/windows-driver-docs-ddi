@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d202b6d9-9964-4c95-acd3-f641e8f9d879
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsGetProcessCreateTimeQuadPart routine [Kernel-Mode Driver Architecture], ntddk/PsGetProcessCreateTimeQuadPart, PsGetProcessCreateTimeQuadPart, kernel.psgetprocesscreatetimequadpart, k108_57bcfbb5-501b-41bf-964c-14c2b90548ea.xml
+ms.keywords: ",  , C, G, P, PsGetProcessCreateTimeQuadPart, PsGetProcessCreateTimeQuadPart routine [Kernel-Mode Driver Architecture], Q, T, a, c, d, e, i, k108_57bcfbb5-501b-41bf-964c-14c2b90548ea.xml, kernel.psgetprocesscreatetimequadpart, m, ntddk/PsGetProcessCreateTimeQuadPart, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

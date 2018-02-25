@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6cee6662-2eef-4caf-ab70-780748521ba9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent interface, IRemoteInterfaceCallbackEvent interface, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent
+ms.keywords: ",  , ,, ., :, C, E, I, IRemoteInterfaceCallbackEvent, IRemoteInterfaceCallbackEvent interface, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, O, OnRemoteInterfaceEvent method, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent interface, OnRemoteInterfaceEvent,IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent, R, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, a, b, c, e, f, k, l, m, n, o, r, t, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, v, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,15 +123,15 @@ For more information about a driver's <b>OnRemoteInterfaceEvent</b> event callba
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556893">IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackevent.md">IRemoteInterfaceCallbackEvent</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6350A740-BD69-40C3-804A-075F9889865B
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KSPROPERTY_QUALITY enumeration [Streaming Media Devices], ks/KSPROPERTY_QUALITY_ERROR, stream.ksproperty_quality, KSPROPERTY_QUALITY_REPORT, KSPROPERTY_QUALITY, ks/KSPROPERTY_QUALITY, ks/KSPROPERTY_QUALITY_REPORT, KSPROPERTY_QUALITY_ERROR
+ms.keywords: ",  , ,, A, E, I, K, KSPROPERTY_QUALITY, KSPROPERTY_QUALITY enumeration [Streaming Media Devices], KSPROPERTY_QUALITY_ERROR, KSPROPERTY_QUALITY_REPORT, L, O, P, Q, R, S, T, U, Y, _, ks/KSPROPERTY_QUALITY, ks/KSPROPERTY_QUALITY_ERROR, ks/KSPROPERTY_QUALITY_REPORT, stream.ksproperty_quality"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

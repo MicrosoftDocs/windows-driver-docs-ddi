@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 06926380-aae5-4d9f-94e0-43098f8a0423
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PDEBUG_SPECIFIC_FILTER_PARAMETERS, Structures_b0152b9b-4809-46c8-81a7-5f571720eca1.xml, DEBUG_SPECIFIC_FILTER_PARAMETERS structure [Windows Debugging], dbgeng/PDEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS structure pointer [Windows Debugging], _DEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS, debugger.debug_specific_filter_parameters, PDEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS"
+ms.keywords: ",  , *, *PDEBUG_SPECIFIC_FILTER_PARAMETERS, ,, A, B, C, D, DEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS structure [Windows Debugging], E, F, G, I, L, M, P, PDEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS structure pointer [Windows Debugging], R, S, Structures_b0152b9b-4809-46c8-81a7-5f571720eca1.xml, T, U, _, _DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/PDEBUG_SPECIFIC_FILTER_PARAMETERS, debugger.debug_specific_filter_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,11 +100,11 @@ Specifies the size, in characters, of the specific event filter argument.  This 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
 
 
 

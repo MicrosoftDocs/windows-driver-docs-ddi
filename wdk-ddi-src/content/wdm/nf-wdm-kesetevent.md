@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2017660-f001-449c-9c33-e26c2897ead1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeSetEvent routine [Kernel-Mode Driver Architecture], k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, kernel.kesetevent, wdm/KeSetEvent, KeSetEvent
+ms.keywords: ",  , E, K, KeSetEvent, KeSetEvent routine [Kernel-Mode Driver Architecture], S, e, k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, kernel.kesetevent, n, t, v, wdm/KeSetEvent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,14 +115,6 @@ If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL &lt;= D
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
-
-
-
 <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
 
@@ -131,11 +123,15 @@ If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL &lt;= D
 
 
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-
-
-
 <a href="https://go.microsoft.com/fwlink/p/?linkid=838602">Specifying Priority Boosts When Completing I/O Requests</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
@@ -144,6 +140,10 @@ If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL &lt;= D
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5AF55FED-6FD6-41BE-A743-1E9D0EA51C9C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnupdatesubresourceup, pfnUpdateSubresourceUP callback function [Display Devices], pfnUpdateSubresourceUP, PFND3DDDI_UPDATESUBRESOURCEUP, PFND3DDDI_UPDATESUBRESOURCEUP, d3dumddi/pfnUpdateSubresourceUP
+ms.keywords: PFND3DDDI_UPDATESUBRESOURCEUP, d3dumddi/pfnUpdateSubresourceUP, display.pfnupdatesubresourceup, pfnUpdateSubresourceUP, pfnUpdateSubresourceUP callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 710683e7-f628-4baa-b485-75b481812b97
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_D3DDDIARG_ZRANGE, display.d3dddiarg_zrange, D3DDDIARG_ZRANGE structure [Display Devices], D3DDDIARG_ZRANGE, d3dumddi/D3DDDIARG_ZRANGE, UMDisplayDriver_param_Structs_e1184f4e-5bff-4bdc-bf7a-473039a66ff7.xml"
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_ZRANGE, D3DDDIARG_ZRANGE structure [Display Devices], E, G, I, N, R, UMDisplayDriver_param_Structs_e1184f4e-5bff-4bdc-bf7a-473039a66ff7.xml, Z, _, _D3DDDIARG_ZRANGE, d3dumddi/D3DDDIARG_ZRANGE, display.d3dddiarg_zrange"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 87767b2b-8ca3-4d19-8719-673562246a41
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ChangerPerformDiagnostics function [Storage Devices], chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, mcd/ChangerPerformDiagnostics, ChangerPerformDiagnostics, storage.changerperformdiagnostics
+ms.keywords: ",  , C, ChangerPerformDiagnostics, ChangerPerformDiagnostics function [Storage Devices], D, P, a, c, chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, e, f, g, h, i, m, mcd/ChangerPerformDiagnostics, n, o, r, s, storage.changerperformdiagnostics, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

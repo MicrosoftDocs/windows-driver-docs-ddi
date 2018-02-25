@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85888B9A-669C-478F-9318-EE9821BC3AF3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.open_ndk_adapter_handler, OpenNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], OpenNdkAdapterHandler, OPEN_NDK_ADAPTER_HANDLER, OPEN_NDK_ADAPTER_HANDLER, ndisndk/OpenNdkAdapterHandler
+ms.keywords: OPEN_NDK_ADAPTER_HANDLER, OpenNdkAdapterHandler, OpenNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/OpenNdkAdapterHandler, netvista.open_ndk_adapter_handler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -181,11 +181,7 @@ The miniport driver calls the <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -193,7 +189,7 @@ The miniport driver calls the <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_h
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_handler.md">CLOSE_NDK_ADAPTER_HANDLER</a>
 
 
 
@@ -201,7 +197,11 @@ The miniport driver calls the <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_h
 
 
 
-<a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_handler.md">CLOSE_NDK_ADAPTER_HANDLER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 
 
 

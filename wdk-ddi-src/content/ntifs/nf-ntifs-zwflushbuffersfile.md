@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b6ac1458-775d-4f73-86a1-30bfbf2256cc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], NtFlushBuffersFile, kernel.zwflushbuffersfile, ZwFlushBuffersFile, ntifs/ZwFlushBuffersFile, ntifs/NtFlushBuffersFile, k111_4d1d812f-cead-4300-96cb-c2e8a916ac8a.xml
+ms.keywords: ",  , B, F, NtFlushBuffersFile, Z, ZwFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], e, f, h, i, k111_4d1d812f-cead-4300-96cb-c2e8a916ac8a.xml, kernel.zwflushbuffersfile, l, ntifs/NtFlushBuffersFile, ntifs/ZwFlushBuffersFile, r, s, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,6 +137,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltflushbuffers.md">FltFlushBuffers</a>
 
 
@@ -150,10 +154,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>
 
 
 

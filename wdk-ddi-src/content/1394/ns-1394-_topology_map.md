@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0a4c7ffc-94f9-4068-b650-1da43e45d0ad
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394/PTOPOLOGY_MAP, IEEE.topology_map, 1394stct_4afaf64f-e60c-4521-91c7-82abefd49b55.xml, PTOPOLOGY_MAP structure pointer [Buses], *PTOPOLOGY_MAP, PTOPOLOGY_MAP, TOPOLOGY_MAP structure [Buses], _TOPOLOGY_MAP, TOPOLOGY_MAP, 1394/TOPOLOGY_MAP
+ms.keywords: ",  , *, *PTOPOLOGY_MAP, ,, 1394/PTOPOLOGY_MAP, 1394/TOPOLOGY_MAP, 1394stct_4afaf64f-e60c-4521-91c7-82abefd49b55.xml, A, G, IEEE.topology_map, L, M, O, P, PTOPOLOGY_MAP, PTOPOLOGY_MAP structure pointer [Buses], T, TOPOLOGY_MAP, TOPOLOGY_MAP structure [Buses], Y, _, _TOPOLOGY_MAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

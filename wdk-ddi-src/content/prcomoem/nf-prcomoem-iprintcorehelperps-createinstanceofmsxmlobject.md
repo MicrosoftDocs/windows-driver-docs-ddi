@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 017f6e00-694b-4ada-86be-cf2be047fa88
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintCoreHelperPS interface [Print Devices], CreateInstanceOfMSXMLObject method, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, IPrintCoreHelperPS, CreateInstanceOfMSXMLObject method [Print Devices], print.iprintcorehelperps_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml, CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject
+ms.keywords: ",  , ,, ., :, C, CreateInstanceOfMSXMLObject method [Print Devices], CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS interface, CreateInstanceOfMSXMLObject,IPrintCoreHelperPS.CreateInstanceOfMSXMLObject, H, I, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], CreateInstanceOfMSXMLObject method, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, L, M, O, P, S, X, a, b, c, e, f, i, j, l, n, o, p, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, print.iprintcorehelperps_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

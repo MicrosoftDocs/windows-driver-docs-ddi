@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 05a22049-5165-41a3-aa6f-134c5d1b6c15
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.getusbdiversion, GetUSBDIVersion, PUSB_BUSIFFN_GETUSBDI_VERSION, GetUSBDIVersion callback function [Buses], GetUSBDIVersion, USB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml
+ms.keywords: GetUSBDIVersion, GetUSBDIVersion callback function [Buses], PUSB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, buses.getusbdiversion, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -124,11 +124,11 @@ The function definition that is provided on this reference page is an example fu
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_getusbdiversion.md">USBD_GetUSBDIVersion</a>
+
+
+
+<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
 
 
 

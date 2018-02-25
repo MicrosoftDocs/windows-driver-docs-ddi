@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExAllocatePool, k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, E, ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], P, a, c, e, k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, l, o, t, wdm/ExAllocatePool, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,7 +121,7 @@ The system automatically sets certain standard event objects when the amount of 
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 
 

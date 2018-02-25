@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4fe45811-a823-4cc6-bdc4-a1f2ac892d37
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, stream.ksgetobjecttypefromirp, ks/KsGetObjectTypeFromIrp
+ms.keywords: ",  , F, G, I, K, KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], O, T, avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, b, c, e, j, ks/KsGetObjectTypeFromIrp, m, o, p, r, s, stream.ksgetobjecttypefromirp, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,15 +88,15 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 
 
 
+<a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
+
+
+
 <a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
 
 
 
 <a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
-
-
-
-<a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
 
 
 

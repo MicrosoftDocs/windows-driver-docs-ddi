@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2a885dd5-d328-4aae-8771-613ff93b35ac
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintoemdriverui_interface, IPrintOemDriverUI interface [Print Devices], IPrintOemDriverUI interface [Print Devices], described, IPrintOemDriverUI, prcomoem/IPrintOemDriverUI, print_unidrv-pscript_ui_af445d30-9f51-4759-867d-d93e9ae0bc34.xml
+ms.keywords: IPrintOemDriverUI, IPrintOemDriverUI interface [Print Devices], IPrintOemDriverUI interface [Print Devices], described, prcomoem/IPrintOemDriverUI, print.iprintoemdriverui_interface, print_unidrv-pscript_ui_af445d30-9f51-4759-867d-d93e9ae0bc34.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

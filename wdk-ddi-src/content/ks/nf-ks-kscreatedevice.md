@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92a1c2d7-6a6f-4b5e-be04-b444abe3e1d5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsCreateDevice, ks/KsCreateDevice, avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, KsCreateDevice function [Streaming Media Devices], stream.kscreatedevice
+ms.keywords: ",  , C, D, K, KsCreateDevice, KsCreateDevice function [Streaming Media Devices], a, avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, c, e, i, ks/KsCreateDevice, r, s, stream.kscreatedevice, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,23 +121,11 @@ If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is p
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-
-
 <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
 
 
 
@@ -145,11 +133,23 @@ If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is p
 
 
 
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
 <a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 
 

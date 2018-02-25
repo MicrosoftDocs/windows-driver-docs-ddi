@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensorsclassextension/Unknown, sensorsclassextension/High, sensorsclassextension/MagnetometerAccuracy, Unreliable, sensorsclassextension/Approximate, MagnetometerAccuracy, sensorsclassextension/Unreliable, MagnetometerAccuracy enumeration [Sensor Devices], Approximate, High, sensors.magnetometeraccuracy, Unknown
+ms.keywords: ",  , ,, A, Approximate, High, M, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], Unknown, Unreliable, a, c, e, g, m, n, o, r, sensors.magnetometeraccuracy, sensorsclassextension/Approximate, sensorsclassextension/High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/Unknown, sensorsclassextension/Unreliable, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

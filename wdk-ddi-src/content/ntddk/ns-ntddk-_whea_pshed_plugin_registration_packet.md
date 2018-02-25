@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 9dafa65f-26f6-42a6-a125-013c61a66ccc
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ntddk/PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure pointer [WHEA Drivers and Applications], WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure [WHEA Drivers and Applications], whearef_9e79e188-a1ce-4d98-a15d-a45c27f9e836.xml, _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whea.whea_pshed_plugin_registration_packet, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET
+ms.keywords: ",  , *, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ,, A, C, D, E, G, H, I, K, L, N, O, P, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure pointer [WHEA Drivers and Applications], R, S, T, U, W, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure [WHEA Drivers and Applications], _, _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ntddk/PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whea.whea_pshed_plugin_registration_packet, whearef_9e79e188-a1ce-4d98-a15d-a45c27f9e836.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -151,11 +151,11 @@ A PSHED plug-in passes an initialized WHEA_PSHED_PLUGIN_REGISTRATION_PACKET stru
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_callbacks.md">WHEA_PSHED_PLUGIN_CALLBACKS</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_callbacks.md">WHEA_PSHED_PLUGIN_CALLBACKS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4783CB44-3A55-4C7C-8EA2-1A72317CC955
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], *PPEP_PPM_IDLE_SELECT, pep_x/PPEP_PPM_IDLE_SELECT, pep_x/PEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select, _PEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PPEP_PPM_IDLE_SELECT, ,, C, D, E, I, L, M, P, PEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture], S, T, _, _PEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select, pep_x/PEP_PPM_IDLE_SELECT, pep_x/PPEP_PPM_IDLE_SELECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,7 +100,7 @@ typedef struct _PEP_PPM_IDLE_SELECT {
 
 ### -field DependencyArray
 
-[in] A pointer to an output buffer to which the PEP writes an array of <a href="..\pep_x\ns-pep_x-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a> structures. The elements of this array specify processor idle dependencies or wake dependencies that must be met for this idle transition to succeed. The PEP sets the <b>DependencyArrayUsed</b> member to the actual number of array elements that the PEP writes to the buffer. The output buffer is allocated by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>DependencyArrayCount</b> member.
+[in] A pointer to an output buffer to which the PEP writes an array of <a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a> structures. The elements of this array specify processor idle dependencies or wake dependencies that must be met for this idle transition to succeed. The PEP sets the <b>DependencyArrayUsed</b> member to the actual number of array elements that the PEP writes to the buffer. The output buffer is allocated by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>DependencyArrayCount</b> member.
 
 
 ### -field PlatformIdleStateIndex
@@ -119,11 +119,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
-
-
-
 <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
 
 
 

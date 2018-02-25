@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e80a314d-cef1-4289-84db-0a6b6531ae5f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags, DXGK_CREATECONTEXTALLOCATIONFLAGS"
+ms.keywords: ",  , ,, A, C, D, DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], E, F, G, I, K, L, N, O, R, S, T, X, _, _DXGK_CREATECONTEXTALLOCATIONFLAGS, d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

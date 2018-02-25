@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2bc43cd0-97a2-4120-8e6f-425664d3d28c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_vidpn_interface_pfngettopology, pfnGetTopology callback function [Display Devices], pfnGetTopology, DXGKDDI_VIDPN_GETTOPOLOGY, DXGKDDI_VIDPN_GETTOPOLOGY, d3dkmddi/pfnGetTopology, VidPnFunctions_2818281e-102f-4c76-a57d-3b133b0692e6.xml
+ms.keywords: DXGKDDI_VIDPN_GETTOPOLOGY, VidPnFunctions_2818281e-102f-4c76-a57d-3b133b0692e6.xml, d3dkmddi/pfnGetTopology, display.dxgk_vidpn_interface_pfngettopology, pfnGetTopology, pfnGetTopology callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -139,11 +139,11 @@ The lifetime of the DXGK_VIDPNTOPOLOGY_INTERFACE structure returned in <i>ppVidP
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPN Topology Interface</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpntopology_interface.md">DXGK_VIDPNTOPOLOGY_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPN Topology Interface</a>
 
 
 

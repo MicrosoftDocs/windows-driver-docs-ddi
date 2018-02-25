@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: B065CDE1-BB6D-4209-881B-50743A38EDBE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.ioctl_gnss_listen_agnss, IOCTL_GNSS_LISTEN_AGNSS control code [Sensor Devices], IOCTL_GNSS_LISTEN_AGNSS, gnssdriver/IOCTL_GNSS_LISTEN_AGNSS
+ms.keywords: IOCTL_GNSS_LISTEN_AGNSS, IOCTL_GNSS_LISTEN_AGNSS control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_AGNSS, sensors.ioctl_gnss_listen_agnss
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -132,11 +132,7 @@ Whenever the GNSS driver requires assistance data, it completes the I/O operatio
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -144,7 +140,11 @@ Whenever the GNSS driver requires assistance data, it completes the I/O operatio
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

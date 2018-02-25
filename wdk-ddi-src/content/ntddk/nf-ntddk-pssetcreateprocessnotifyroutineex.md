@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e982200c-f30c-423e-bd85-03365850c996
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k108_b68156fb-55d5-4192-a4d0-d74603647f42.xml, PsSetCreateProcessNotifyRoutineEx routine [Kernel-Mode Driver Architecture], kernel.pssetcreateprocessnotifyroutineex, PsSetCreateProcessNotifyRoutineEx, ntddk/PsSetCreateProcessNotifyRoutineEx
+ms.keywords: ",  , C, E, N, P, PsSetCreateProcessNotifyRoutineEx, PsSetCreateProcessNotifyRoutineEx routine [Kernel-Mode Driver Architecture], R, S, a, c, e, f, i, k108_b68156fb-55d5-4192-a4d0-d74603647f42.xml, kernel.pssetcreateprocessnotifyroutineex, n, ntddk/PsSetCreateProcessNotifyRoutineEx, o, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

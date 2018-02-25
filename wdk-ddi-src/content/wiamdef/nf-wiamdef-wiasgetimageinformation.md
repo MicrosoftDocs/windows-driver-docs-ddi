@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 457c4b98-313d-4b31-aa6c-fb62fea6fc7d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiasFncs_6603ae74-b0b9-48f4-9fa9-83cdf3edc1d6.xml, image.wiasgetimageinformation, wiasGetImageInformation, wiasGetImageInformation function [Imaging Devices], wiamdef/wiasGetImageInformation
+ms.keywords: ",  , G, I, a, e, f, g, i, image.wiasgetimageinformation, m, n, o, r, s, t, w, wiamdef/wiasGetImageInformation, wiasFncs_6603ae74-b0b9-48f4-9fa9-83cdf3edc1d6.xml, wiasGetImageInformation, wiasGetImageInformation function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

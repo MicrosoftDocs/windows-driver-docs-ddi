@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: e43b2a10-20b5-4cb8-ae7b-fc1feb7a4bf1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS structure pointer [Buses], _UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, buses.ucmtcpci_port_controller_get_status_out_params, UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS structure [Buses]
+ms.keywords: ",  , *, *PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, ,, A, C, E, G, I, L, M, N, O, P, PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS structure pointer [Buses], R, S, T, U, UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS structure [Buses], _, _UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, buses.ucmtcpci_port_controller_get_status_out_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

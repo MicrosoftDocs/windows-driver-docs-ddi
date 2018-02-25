@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B8D09AB4-1F36-44E1-8D4F-33E7E4DBBFE3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method, audio.iminiportaudioenginenode_getaudioenginedescriptor, GetAudioEngineDescriptor, IMiniportAudioEngineNode::GetAudioEngineDescriptor, GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor
+ms.keywords: ",  , ,, ., :, A, D, E, G, GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface, GetAudioEngineDescriptor,IMiniportAudioEngineNode.GetAudioEngineDescriptor, I, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method, IMiniportAudioEngineNode::GetAudioEngineDescriptor, M, N, audio.iminiportaudioenginenode_getaudioenginedescriptor, c, d, e, g, i, n, o, p, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,11 +89,11 @@ Audio engine descriptor object. This parameter is of type <a href="..\ksmedia\ns
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_descriptor.md">KSAUDIOENGINE_DESCRIPTOR</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_descriptor.md">KSAUDIOENGINE_DESCRIPTOR</a>
 
 
 

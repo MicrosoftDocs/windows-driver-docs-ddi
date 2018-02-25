@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3330379f-e484-4fd7-b914-fc969398b56b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT, PScsiReadCapacity_OUT, ScsiReadCapacity_OUT, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml, storage.scsireadcapacity_out, _ScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], ScsiReadCapacity_OUT structure [Storage Devices], iscsiop/PScsiReadCapacity_OUT
+ms.keywords: ",  , *, *PScsiReadCapacity_OUT, ,, C, O, P, PScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], R, S, ScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], T, U, _, _ScsiReadCapacity_OUT, a, c, d, e, i, iscsiop/PScsiReadCapacity_OUT, iscsiop/ScsiReadCapacity_OUT, p, s, storage.scsireadcapacity_out, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,7 +107,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
@@ -115,7 +115,7 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
 
 
 

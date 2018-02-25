@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6adc5234-a7c3-4860-8d3e-6c990f460ecc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_free_public_access_ranges, IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES control code [Display Devices], IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES, ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES, Video_IOCTLs_8b60ca4e-5d15-4fa1-8257-805d90276262.xml
+ms.keywords: IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_8b60ca4e-5d15-4fa1-8257-805d90276262.xml, display.ioctl_video_free_public_access_ranges, ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -118,11 +118,11 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
-
-
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_public_access_ranges.md">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
 
 
 

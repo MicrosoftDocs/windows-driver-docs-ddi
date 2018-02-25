@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 885CC365-A730-4C1E-AD74-89D47DC17407
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_reassign_blocks_ex, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Storage Devices], IOCTL_DISK_REASSIGN_BLOCKS_EX, ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX
+ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Storage Devices], ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX, storage.ioctl_disk_reassign_blocks_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

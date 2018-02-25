@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: A97DE517-26ED-452F-9066-94F73BC47BDE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.gnss_platform_capability, PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices], gnssdriver/PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY, gnssdriver/GNSS_PLATFORM_CAPABILITY, PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices]
+ms.keywords: ",  , *, *PGNSS_PLATFORM_CAPABILITY, ,, A, B, C, F, G, GNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices], I, L, M, N, O, P, PGNSS_PLATFORM_CAPABILITY, PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices], R, S, T, Y, _, gnssdriver/GNSS_PLATFORM_CAPABILITY, gnssdriver/PGNSS_PLATFORM_CAPABILITY, sensors.gnss_platform_capability"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

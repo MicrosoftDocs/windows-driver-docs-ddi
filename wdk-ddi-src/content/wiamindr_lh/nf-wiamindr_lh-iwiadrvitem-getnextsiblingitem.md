@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc348f40-aaa4-4cd4-9dee-c02748d7412c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IWiaDrvItem::GetNextSiblingItem, GetNextSiblingItem method [Imaging Devices], IWiaDrvItem interface, DrvItem_659ed27a-dca2-40de-acb7-f057178e9ab7.xml, IWiaDrvItem, GetNextSiblingItem, IWiaDrvItem interface [Imaging Devices], GetNextSiblingItem method, wiamindr_lh/IWiaDrvItem::GetNextSiblingItem, GetNextSiblingItem method [Imaging Devices], image.iwiadrvitem_getnextsiblingitem
+ms.keywords: ",  , ,, ., :, D, DrvItem_659ed27a-dca2-40de-acb7-f057178e9ab7.xml, G, GetNextSiblingItem method [Imaging Devices], GetNextSiblingItem method [Imaging Devices], IWiaDrvItem interface, GetNextSiblingItem,IWiaDrvItem.GetNextSiblingItem, I, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetNextSiblingItem method, IWiaDrvItem::GetNextSiblingItem, N, S, W, a, b, e, g, i, image.iwiadrvitem_getnextsiblingitem, l, m, n, r, t, v, wiamindr_lh/IWiaDrvItem::GetNextSiblingItem, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,7 +100,7 @@ Minidrivers obtain a pointer to the first child item in a folder by calling <a h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543892">IWiaDrvItem::GetParentItem</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
 
 
@@ -108,7 +108,7 @@ Minidrivers obtain a pointer to the first child item in a folder by calling <a h
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543892">IWiaDrvItem::GetParentItem</a>
 
 
 

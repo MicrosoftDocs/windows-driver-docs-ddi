@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D89713A8-7CE7-4A87-AED7-62ACF7D1BA06
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlInitializeGenericTableAvl, ifsk.rtlinitializegenerictableavl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], ntddk/RtlInitializeGenericTableAvl
+ms.keywords: ",  , A, G, I, R, RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtlinitializegenerictableavl, l, n, ntddk/RtlInitializeGenericTableAvl, r, t, v, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -243,27 +243,7 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DIS
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTableAvl</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
 
 
 
@@ -272,6 +252,26 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DIS
 
 
 <a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
 
 
 

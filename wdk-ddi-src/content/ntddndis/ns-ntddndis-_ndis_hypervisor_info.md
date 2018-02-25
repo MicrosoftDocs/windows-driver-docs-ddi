@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 847987d4-f67b-4e88-9a8d-9be4ad9be80d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_hypervisor_info, PNDIS_HYPERVISOR_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_HYPERVISOR_INFO, ntddndis/PNDIS_HYPERVISOR_INFO, NDIS_HYPERVISOR_INFO structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_c0f9611a-2d20-4757-ba59-16bf6a83549c.xml, _NDIS_HYPERVISOR_INFO, ntddndis/NDIS_HYPERVISOR_INFO, PNDIS_HYPERVISOR_INFO, NDIS_HYPERVISOR_INFO
+ms.keywords: ",  , *, *PNDIS_HYPERVISOR_INFO, ,, D, E, F, H, I, N, NDIS_HYPERVISOR_INFO, NDIS_HYPERVISOR_INFO structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_HYPERVISOR_INFO, PNDIS_HYPERVISOR_INFO structure pointer [Network Drivers Starting with Windows Vista], R, S, V, Y, _, _NDIS_HYPERVISOR_INFO, netvista.ndis_hypervisor_info, ntddndis/NDIS_HYPERVISOR_INFO, ntddndis/PNDIS_HYPERVISOR_INFO, virtual_machine_queue_ref_c0f9611a-2d20-4757-ba59-16bf6a83549c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -128,7 +128,7 @@ NDIS drivers pass this structure to the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndisgethypervisorinfo.md">NdisGetHypervisorInfo Function</a>
 
 
 
@@ -136,7 +136,7 @@ NDIS drivers pass this structure to the
 
 
 
-<a href="..\ndis\nf-ndis-ndisgethypervisorinfo.md">NdisGetHypervisorInfo Function</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

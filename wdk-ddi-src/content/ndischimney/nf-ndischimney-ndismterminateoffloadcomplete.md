@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d444eae5-2e7c-41f2-9fb2-55e172505cf6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndismterminateoffloadcomplete, NdisMTerminateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMTerminateOffloadComplete, tcp_chim_ndis_func_3e692d5c-5cad-4567-8639-76f97bf2e39c.xml, NdisMTerminateOffloadComplete
+ms.keywords: ",  , C, M, N, NdisMTerminateOffloadComplete, NdisMTerminateOffloadComplete function [Network Drivers Starting with Windows Vista], O, T, a, d, e, f, i, l, m, n, ndischimney/NdisMTerminateOffloadComplete, netvista.ndismterminateoffloadcomplete, o, p, r, s, t, tcp_chim_ndis_func_3e692d5c-5cad-4567-8639-76f97bf2e39c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -213,16 +213,16 @@ The offload target frees all resources, such as memory, that are associated with
 
 
 
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
 
 
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 

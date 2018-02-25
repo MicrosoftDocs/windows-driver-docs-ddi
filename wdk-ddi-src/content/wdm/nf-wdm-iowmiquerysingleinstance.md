@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 742535da-4726-4320-88ec-f6752ad02fb3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_ef4cfbd8-cca3-4ec0-99cd-3715c2ddf52f.xml, IoWMIQuerySingleInstance, wdm/IoWMIQuerySingleInstance, kernel.iowmiquerysingleinstance, IoWMIQuerySingleInstance routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , I, IoWMIQuerySingleInstance, IoWMIQuerySingleInstance routine [Kernel-Mode Driver Architecture], M, Q, S, W, a, c, e, g, i, k104_ef4cfbd8-cca3-4ec0-99cd-3715c2ddf52f.xml, kernel.iowmiquerysingleinstance, l, n, o, r, s, t, u, wdm/IoWMIQuerySingleInstance, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,11 +165,11 @@ To query for multiple WMI classes and instance names, use the <a href="..\wdm\nf
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
 
 
 
@@ -177,7 +177,7 @@ To query for multiple WMI classes and instance names, use the <a href="..\wdm\nf
 
 
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
+<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
 
 
 

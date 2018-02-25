@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 190adc75-7274-49e2-a9b6-2897168df091
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.svgahwioportulongstring, SvgaHwIoPortUlongString callback function [Display Devices], SvgaHwIoPortUlongString, PDRIVER_IO_PORT_ULONG_STRING, PDRIVER_IO_PORT_ULONG_STRING, video/SvgaHwIoPortUlongString, VideoMiniport_Functions_107f011d-c8c7-4f9f-ac81-4d0b33caa3da.xml
+ms.keywords: PDRIVER_IO_PORT_ULONG_STRING, SvgaHwIoPortUlongString, SvgaHwIoPortUlongString callback function [Display Devices], VideoMiniport_Functions_107f011d-c8c7-4f9f-ac81-4d0b33caa3da.xml, display.svgahwioportulongstring, video/SvgaHwIoPortUlongString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,15 +137,7 @@ If one or more application-issued x86 <b>INSD</b> or <b>OUTSD</b> instructions m
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
-
-
-
-<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
 
 
 
@@ -153,7 +145,11 @@ If one or more application-issued x86 <b>INSD</b> or <b>OUTSD</b> instructions m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+<a href="..\video\nc-video-pdriver_io_port_ulong.md">SvgaHwIoPortUlong</a>
+
+
+
+<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
 
 
 
@@ -161,7 +157,11 @@ If one or more application-issued x86 <b>INSD</b> or <b>OUTSD</b> instructions m
 
 
 
-<a href="..\video\nc-video-pdriver_io_port_ulong.md">SvgaHwIoPortUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+
+
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 
 

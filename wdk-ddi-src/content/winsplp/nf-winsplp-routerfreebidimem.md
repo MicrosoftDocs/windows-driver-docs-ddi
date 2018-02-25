@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 946b1630-844a-43ac-8c26-fdfa2ee7866a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: RouterFreeBidiMem function [Print Devices], winsplp/RouterFreeBidiMem, RouterFreeBidiMem, spoolfnc_cc4cfcb8-c020-4112-9774-a2961e8a4ba2.xml, print.routerfreebidimem
+ms.keywords: ",  , B, F, M, R, RouterFreeBidiMem, RouterFreeBidiMem function [Print Devices], d, e, i, m, o, print.routerfreebidimem, r, spoolfnc_cc4cfcb8-c020-4112-9774-a2961e8a4ba2.xml, t, u, winsplp/RouterFreeBidiMem"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

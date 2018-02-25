@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 663c0543-7059-4fb7-be3d-57edbba6bf83
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortWriteRegisterBufferUshort, srb/ScsiPortWriteRegisterBufferUshort, ScsiPortWriteRegisterBufferUshort routine [Storage Devices], scsiprt_300e2355-e8b2-4341-912d-a24954568824.xml, storage.scsiportwriteregisterbufferushort
+ms.keywords: ",  , B, P, R, S, ScsiPortWriteRegisterBufferUshort, ScsiPortWriteRegisterBufferUshort routine [Storage Devices], U, W, c, e, f, g, h, i, o, r, s, scsiprt_300e2355-e8b2-4341-912d-a24954568824.xml, srb/ScsiPortWriteRegisterBufferUshort, storage.scsiportwriteregisterbufferushort, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

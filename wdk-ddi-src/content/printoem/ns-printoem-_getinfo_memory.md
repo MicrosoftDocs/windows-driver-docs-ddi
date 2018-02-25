@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d6730599-a8f0-4bea-9ee4-47a60249271d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_unidrv-pscript_rendering_d39a4f36-c521-4da4-8f63-5121b344d33a.xml, PGETINFO_MEMORY, _GETINFO_MEMORY, print.getinfo_memory, GETINFO_MEMORY, PGETINFO_MEMROY, printoem/GETINFO_MEMORY, PGETINFO_MEMORY structure pointer [Print Devices], GETINFO_MEMORY structure [Print Devices], printoem/PGETINFO_MEMORY
+ms.keywords: ",  , ,, E, F, G, GETINFO_MEMORY, GETINFO_MEMORY structure [Print Devices], I, M, N, O, P, PGETINFO_MEMORY, PGETINFO_MEMORY structure pointer [Print Devices], PGETINFO_MEMROY, R, T, Y, _, _GETINFO_MEMORY, print.getinfo_memory, print_unidrv-pscript_rendering_d39a4f36-c521-4da4-8f63-5121b344d33a.xml, printoem/GETINFO_MEMORY, printoem/PGETINFO_MEMORY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

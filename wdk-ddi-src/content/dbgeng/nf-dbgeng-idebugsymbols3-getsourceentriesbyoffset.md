@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CA84F931-5EB9-49D0-9EA5-288900A8DE46
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetSourceEntriesByOffset, IDebugSymbols3::GetSourceEntriesByOffset, GetSourceEntriesByOffset, IDebugSymbols3, GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByOffset method [Windows Debugging], debugger.idebugsymbols3_getsourceentriesbyoffset, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByOffset method
+ms.keywords: ",  , ,, ., 3, :, B, D, E, G, GetSourceEntriesByOffset method [Windows Debugging], GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByOffset,IDebugSymbols3.GetSourceEntriesByOffset, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByOffset method, IDebugSymbols3::GetSourceEntriesByOffset, O, S, b, c, dbgeng/IDebugSymbols3::GetSourceEntriesByOffset, debugger.idebugsymbols3_getsourceentriesbyoffset, e, f, g, i, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bcf159a7-75a5-46aa-897a-2c5eb00f51d8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: mpiowmi/MPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION structure [Storage Devices], mpiowmi/PMPIO_ADAPTER_INFORMATION, PMPIO_ADAPTER_INFORMATION structure pointer [Storage Devices], PMPIO_ADAPTER_INFORMATION, structs-scsibus_bcdbb143-5a91-4a69-83e5-82e32c23b404.xml, MPIO_ADAPTER_INFORMATION, _MPIO_ADAPTER_INFORMATION, *PMPIO_ADAPTER_INFORMATION, storage.mpio_adapter_information
+ms.keywords: ",  , *, *PMPIO_ADAPTER_INFORMATION, ,, A, D, E, F, I, M, MPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION structure [Storage Devices], N, O, P, PMPIO_ADAPTER_INFORMATION, PMPIO_ADAPTER_INFORMATION structure pointer [Storage Devices], R, T, _, _MPIO_ADAPTER_INFORMATION, mpiowmi/MPIO_ADAPTER_INFORMATION, mpiowmi/PMPIO_ADAPTER_INFORMATION, storage.mpio_adapter_information, structs-scsibus_bcdbb143-5a91-4a69-83e5-82e32c23b404.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

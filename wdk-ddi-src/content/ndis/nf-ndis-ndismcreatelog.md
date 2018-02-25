@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 804112cf-fc59-4a04-b848-4239b32e35d7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMCreateLog, ndis/NdisMCreateLog, miniport_logging_ref_e6ca8197-b4f0-4eb9-bfe4-f4b957a124c8.xml, netvista.ndismcreatelog, NdisMCreateLog function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , C, L, M, N, NdisMCreateLog, NdisMCreateLog function [Network Drivers Starting with Windows Vista], a, d, e, g, i, miniport_logging_ref_e6ca8197-b4f0-4eb9-bfe4-f4b957a124c8.xml, ndis/NdisMCreateLog, netvista.ndismcreatelog, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,11 +169,11 @@ Whatever size of log file is allocated, subsequent calls to
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
 
 
 
@@ -181,7 +181,7 @@ Whatever size of log file is allocated, subsequent calls to
 
 
 
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
 
 
 

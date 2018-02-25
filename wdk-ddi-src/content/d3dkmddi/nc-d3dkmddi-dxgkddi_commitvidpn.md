@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 979b86e9-f3ff-4022-8c00-b6afc2b1f747
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicommitvidpn, DxgkDdiCommitVidPn callback function [Display Devices], DxgkDdiCommitVidPn, DXGKDDI_COMMITVIDPN, DXGKDDI_COMMITVIDPN, d3dkmddi/DxgkDdiCommitVidPn, DmFunctions_467cba1e-3eeb-4735-9fb3-46c8c737b48d.xml
+ms.keywords: DXGKDDI_COMMITVIDPN, DmFunctions_467cba1e-3eeb-4735-9fb3-46c8c737b48d.xml, DxgkDdiCommitVidPn, DxgkDdiCommitVidPn callback function [Display Devices], d3dkmddi/DxgkDdiCommitVidPn, display.dxgkddicommitvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,7 +112,11 @@ Beginning with Windows 8, if the display miniport driver sets the <b>SupportSmo
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
 
 
@@ -120,11 +124,7 @@ Beginning with Windows 8, if the display miniport driver sets the <b>SupportSmo
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9743FF37-0E8A-499F-AADB-9CD7BDC381E0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDOT11_WFD_INVITATION_FLAGS, windot11/PDOT11_WFD_INVITATION_FLAGS, *PDOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS, windot11/DOT11_WFD_INVITATION_FLAGS, _DOT11_WFD_INVITATION_FLAGS, netvista.dot11_wfd_invitation_flags, PDOT11_WFD_INVITATION_FLAGS structure pointer [Network Drivers Starting with Windows Vista], Join, DOT11_WFD_INVITATION_FLAGS structure [Network Drivers Starting with Windows Vista], Reinvoke
+ms.keywords: ",  , *, *PDOT11_WFD_INVITATION_FLAGS, ,, 1, A, D, DOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS structure [Network Drivers Starting with Windows Vista], F, G, I, Join, L, N, O, P, PDOT11_WFD_INVITATION_FLAGS, PDOT11_WFD_INVITATION_FLAGS structure pointer [Network Drivers Starting with Windows Vista], Reinvoke, S, T, V, W, _, _DOT11_WFD_INVITATION_FLAGS, netvista.dot11_wfd_invitation_flags, windot11/DOT11_WFD_INVITATION_FLAGS, windot11/PDOT11_WFD_INVITATION_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

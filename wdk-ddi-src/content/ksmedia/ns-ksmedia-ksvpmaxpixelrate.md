@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6510e732-b0ad-43c7-87a3-3630fdfd848d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksvpmaxpixelrate, ksmedia/PKSVPMAXPIXELRATE, PKSVPMAXPIXELRATE, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], KSVPMAXPIXELRATE, dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml, ksmedia/KSVPMAXPIXELRATE, KSVPMAXPIXELRATE structure [Streaming Media Devices], *PKSVPMAXPIXELRATE
+ms.keywords: ",  , *, *PKSVPMAXPIXELRATE, ,, A, E, I, K, KSVPMAXPIXELRATE, KSVPMAXPIXELRATE structure [Streaming Media Devices], L, M, P, PKSVPMAXPIXELRATE, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], R, S, T, V, X, dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml, ksmedia/KSVPMAXPIXELRATE, ksmedia/PKSVPMAXPIXELRATE, stream.ksvpmaxpixelrate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

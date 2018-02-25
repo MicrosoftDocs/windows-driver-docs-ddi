@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ebcd31f9-79cd-4c43-8cac-231ff97f269e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered, wudfddi/IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered, umdf.ipowerpolicycallbackwakefroms0_onwakefroms0triggered, OnWakeFromS0Triggered method, OnWakeFromS0Triggered, wdf.ipowerpolicycallbackwakefroms0_onwakefroms0triggered, OnWakeFromS0Triggered method, IPowerPolicyCallbackWakeFromS0 interface, IPowerPolicyCallbackWakeFromS0, IPowerPolicyCallbackWakeFromS0 interface, OnWakeFromS0Triggered method, UMDFDeviceObjectRef_52f89758-227c-4849-83ac-30826d2d36d0.xml
+ms.keywords: ",  , ,, ., 0, :, C, F, I, IPowerPolicyCallbackWakeFromS0, IPowerPolicyCallbackWakeFromS0 interface, OnWakeFromS0Triggered method, IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered, O, OnWakeFromS0Triggered method, OnWakeFromS0Triggered method, IPowerPolicyCallbackWakeFromS0 interface, OnWakeFromS0Triggered,IPowerPolicyCallbackWakeFromS0.OnWakeFromS0Triggered, P, S, T, UMDFDeviceObjectRef_52f89758-227c-4849-83ac-30826d2d36d0.xml, W, a, b, c, d, e, g, i, k, l, m, n, o, r, umdf.ipowerpolicycallbackwakefroms0_onwakefroms0triggered, w, wdf.ipowerpolicycallbackwakefroms0_onwakefroms0triggered, wudfddi/IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,11 +101,11 @@ For more information about this callback function, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556819">IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556817">IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556819">IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0</a>
 
 
 

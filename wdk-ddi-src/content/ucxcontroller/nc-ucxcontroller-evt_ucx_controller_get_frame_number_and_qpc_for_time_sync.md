@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A8D666BD-5C2A-416F-901E-5FF7CF38A084
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_controller_get_frame_number_and_qpc_for_time_sync, EvtUcxControllerGetFrameNumberAndQpcForTimeSync callback function [Buses], EvtUcxControllerGetFrameNumberAndQpcForTimeSync, EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync
+ms.keywords: EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, EvtUcxControllerGetFrameNumberAndQpcForTimeSync, EvtUcxControllerGetFrameNumberAndQpcForTimeSync callback function [Buses], buses.evt_ucx_controller_get_frame_number_and_qpc_for_time_sync, ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

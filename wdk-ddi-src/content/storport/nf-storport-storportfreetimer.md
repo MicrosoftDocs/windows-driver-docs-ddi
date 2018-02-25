@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportfreetimer, StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices], storport/StorPortFreeTimer
+ms.keywords: ",  , F, P, S, StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices], T, e, i, m, o, r, storage.storportfreetimer, storport/StorPortFreeTimer, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,7 +162,7 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
 
 
 
@@ -170,7 +170,7 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 
 
-<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 

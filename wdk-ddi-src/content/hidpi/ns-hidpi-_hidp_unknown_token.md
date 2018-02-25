@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 6c9e0477-1698-41bf-9ce6-43e7e8741425
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hidpi/HIDP_UNKNOWN_TOKEN, hid.hidp_unknown_token, HIDP_UNKNOWN_TOKEN structure [Human Input Devices], PHIDP_UNKNOWN_TOKEN structure pointer [Human Input Devices], PHIDP_UNKNOWN_TOKEN, _HIDP_UNKNOWN_TOKEN, hidpi/PHIDP_UNKNOWN_TOKEN, hidstrct_646ea225-5fff-4430-9112-06bb4cf8c988.xml, *PHIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN
+ms.keywords: ",  , *, *PHIDP_UNKNOWN_TOKEN, ,, D, E, H, HIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN structure [Human Input Devices], I, K, N, O, P, PHIDP_UNKNOWN_TOKEN, PHIDP_UNKNOWN_TOKEN structure pointer [Human Input Devices], T, U, W, _, _HIDP_UNKNOWN_TOKEN, hid.hidp_unknown_token, hidpi/HIDP_UNKNOWN_TOKEN, hidpi/PHIDP_UNKNOWN_TOKEN, hidstrct_646ea225-5fff-4430-9112-06bb4cf8c988.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

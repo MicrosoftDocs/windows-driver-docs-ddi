@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a610f6c5-6627-406e-9b33-f321c6d55a89
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortWriteRegisterBufferUlong routine [Storage Devices], storport/StorPortWriteRegisterBufferUlong, storprt_f43e38af-b5f2-4727-990c-dc0cb79bbc09.xml, StorPortWriteRegisterBufferUlong, storage.storportwriteregisterbufferulong
+ms.keywords: ",  , B, P, R, S, StorPortWriteRegisterBufferUlong, StorPortWriteRegisterBufferUlong routine [Storage Devices], U, W, e, f, g, i, l, n, o, r, s, storage.storportwriteregisterbufferulong, storport/StorPortWriteRegisterBufferUlong, storprt_f43e38af-b5f2-4727-990c-dc0cb79bbc09.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

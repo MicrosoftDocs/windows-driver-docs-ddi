@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: a589b1e1-7462-4de7-83df-c3d55fa01b76
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_internal_i8042_keyboard_start_information, IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION control code [Human Input Devices], IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION, ntdd8042/IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION, i8042ref_d5599642-48b8-4b77-b4bb-6e0d7596045d.xml
+ms.keywords: IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION, IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION control code [Human Input Devices], hid.ioctl_internal_i8042_keyboard_start_information, i8042ref_d5599642-48b8-4b77-b4bb-6e0d7596045d.xml, ntdd8042/IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

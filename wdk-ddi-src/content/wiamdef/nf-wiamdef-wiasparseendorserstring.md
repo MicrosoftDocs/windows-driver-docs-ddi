@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c724a4f5-55ef-413d-bd1a-9cd39d3e42f5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, wiamdef/wiasParseEndorserString, wiasParseEndorserString, wiasParseEndorserString function [Imaging Devices], image.wiasparseendorserstring
+ms.keywords: ",  , E, P, S, a, d, e, g, i, image.wiasparseendorserstring, n, o, r, s, t, w, wiamdef/wiasParseEndorserString, wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, wiasParseEndorserString, wiasParseEndorserString function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,11 +132,11 @@ Assuming that the WIA_DPS_ENDORSER_STRING property contains "This is $MY_TOKEN$"
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a>
-
-
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a>
+
+
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a>
 
 
 

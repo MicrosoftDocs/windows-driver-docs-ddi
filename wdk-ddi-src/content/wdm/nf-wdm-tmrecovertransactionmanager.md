@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67b18170-a17f-44fd-a5ab-12bccf2082fe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ktm_ref_1917a36a-c7bd-4a00-b054-bb710b7c0e93.xml, kernel.tmrecovertransactionmanager, TmRecoverTransactionManager, TmRecoverTransactionManager routine [Kernel-Mode Driver Architecture], wdm/TmRecoverTransactionManager
+ms.keywords: ",  , M, R, T, TmRecoverTransactionManager, TmRecoverTransactionManager routine [Kernel-Mode Driver Architecture], a, c, e, g, i, kernel.tmrecovertransactionmanager, ktm_ref_1917a36a-c7bd-4a00-b054-bb710b7c0e93.xml, m, n, o, r, s, t, v, wdm/TmRecoverTransactionManager"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

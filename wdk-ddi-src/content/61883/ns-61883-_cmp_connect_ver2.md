@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2A2C1478-0512-4F84-90B9-B9C62B5D44DA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CMP_CONNECT_VER2, PCMP_CONNECT_VER2, *PCMP_CONNECT_VER2, 61883/CMP_CONNECT_VER2, PCMP_CONNECT_VER2 structure pointer, CMP_CONNECT_VER2 structure, _CMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, *PCMP_CONNECT, IEEE.cmp_connect_ver2, CMP_CONNECT
+ms.keywords: ",  , *, *PCMP_CONNECT, *PCMP_CONNECT_VER2, ,, 2, 61883/CMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, C, CMP_CONNECT, CMP_CONNECT_VER2, CMP_CONNECT_VER2 structure, E, IEEE.cmp_connect_ver2, M, N, O, P, PCMP_CONNECT_VER2, PCMP_CONNECT_VER2 structure pointer, R, T, V, _, _CMP_CONNECT_VER2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

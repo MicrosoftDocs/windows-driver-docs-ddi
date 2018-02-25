@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 97731224-bf08-4578-958e-729acbb5a628
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtioresume, EvtIoResume callback function, EvtIoResume, EVT_WDF_IO_QUEUE_IO_RESUME, EVT_WDF_IO_QUEUE_IO_RESUME, wdfio/EvtIoResume, DFQueueObjectRef_1ecb2f86-9461-47b7-967d-6cb14edbbe82.xml, kmdf.evtioresume
+ms.keywords: DFQueueObjectRef_1ecb2f86-9461-47b7-967d-6cb14edbbe82.xml, EVT_WDF_IO_QUEUE_IO_RESUME, EvtIoResume, EvtIoResume callback function, kmdf.evtioresume, wdf.evtioresume, wdfio/EvtIoResume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -149,11 +149,11 @@ The <b>EVT_WDF_IO_QUEUE_IO_RESUME</b> function type is defined in the Wdfio.h he
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
-
-
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
 
 

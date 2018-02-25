@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf2604fe-e7d3-43af-916e-b03979ee71aa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_check_verify, IOCTL_DISK_CHECK_VERIFY control code [Storage Devices], IOCTL_DISK_CHECK_VERIFY, ntdddisk/IOCTL_DISK_CHECK_VERIFY, k307_6a32996e-8526-466a-bcbe-b79b8bacadc6.xml
+ms.keywords: IOCTL_DISK_CHECK_VERIFY, IOCTL_DISK_CHECK_VERIFY control code [Storage Devices], k307_6a32996e-8526-466a-bcbe-b79b8bacadc6.xml, ntdddisk/IOCTL_DISK_CHECK_VERIFY, storage.ioctl_disk_check_verify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

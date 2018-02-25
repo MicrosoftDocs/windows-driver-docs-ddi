@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5b3ee4f1-5c5a-413f-b927-96293cc87e98
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsCopyObjectBagItems, stream.kscopyobjectbagitems, KsCopyObjectBagItems function [Streaming Media Devices], avfunc_26fe6218-6e9e-4a1a-93c6-f8f2ca10abbb.xml, ks/KsCopyObjectBagItems
+ms.keywords: ",  , B, C, I, K, KsCopyObjectBagItems, KsCopyObjectBagItems function [Streaming Media Devices], O, a, avfunc_26fe6218-6e9e-4a1a-93c6-f8f2ca10abbb.xml, b, c, e, g, j, ks/KsCopyObjectBagItems, m, o, p, s, stream.kscopyobjectbagitems, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,7 @@ Note that mutexes for both bags should be held. If the object bag in question is
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
-
-
-
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
 
 
 
@@ -115,15 +111,7 @@ Note that mutexes for both bags should be held. If the object bag in question is
 
 
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-
-
-
-<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
-
-
-
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
 
 
 
@@ -131,7 +119,19 @@ Note that mutexes for both bags should be held. If the object bag in question is
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
+
+<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
+
+
+
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
 
 

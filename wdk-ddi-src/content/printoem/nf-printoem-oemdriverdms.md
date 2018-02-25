@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 261d4dbc-6374-4b11-80a0-64b0a2fc6abe
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, OEMDriverDMS function [Print Devices], OEMDriverDMS, print.oemdriverdms, printoem/OEMDriverDMS
+ms.keywords: ",  , D, E, M, O, OEMDriverDMS, OEMDriverDMS function [Print Devices], S, e, i, print.oemdriverdms, print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, printoem/OEMDriverDMS, r, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

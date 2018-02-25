@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CBBB1350-66BE-4F74-A0CE-0400245352F3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorworkitem, HwStorWorkItem routine [Storage Devices], HwStorWorkItem, HW_WORKITEM, HW_WORKITEM, storport/HwStorWorkItem
+ms.keywords: HW_WORKITEM, HwStorWorkItem, HwStorWorkItem routine [Storage Devices], storage.hwstorworkitem, storport/HwStorWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -128,7 +128,7 @@ HW_WORKITEM (
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
 
 
 
@@ -136,7 +136,7 @@ HW_WORKITEM (
 
 
 
-<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
 
 
 

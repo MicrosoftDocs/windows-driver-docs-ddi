@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5E3DC6C7-E370-4120-81B7-2093812AD009
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrinterExtensionContextCollection::GetAt, printerextension/IPrinterExtensionContextCollection::GetAt, IPrinterExtensionContextCollection interface [Print Devices], GetAt method, GetAt, GetAt method [Print Devices], IPrinterExtensionContextCollection interface, get_GetAt, GetAt method [Print Devices], print.iprinterextensioncontextcollection_getat, IPrinterExtensionContextCollection
+ms.keywords: ",  , ,, ., :, A, C, E, G, GetAt method [Print Devices], GetAt method [Print Devices], IPrinterExtensionContextCollection interface, GetAt,IPrinterExtensionContextCollection.GetAt, I, IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], GetAt method, IPrinterExtensionContextCollection::GetAt, P, c, e, get_GetAt, i, l, n, o, print.iprinterextensioncontextcollection_getat, printerextension/IPrinterExtensionContextCollection::GetAt, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,11 +90,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
 
 

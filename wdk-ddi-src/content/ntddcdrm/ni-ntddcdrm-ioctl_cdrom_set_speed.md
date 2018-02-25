@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14acc5f4-1346-4da4-b692-01396cff776e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_set_speed, IOCTL_CDROM_SET_SPEED control code [Storage Devices], IOCTL_CDROM_SET_SPEED, ntddcdrm/IOCTL_CDROM_SET_SPEED, k307_df26ae09-2af1-4290-812a-b0f279112d97.xml
+ms.keywords: IOCTL_CDROM_SET_SPEED, IOCTL_CDROM_SET_SPEED control code [Storage Devices], k307_df26ae09-2af1-4290-812a-b0f279112d97.xml, ntddcdrm/IOCTL_CDROM_SET_SPEED, storage.ioctl_cdrom_set_speed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

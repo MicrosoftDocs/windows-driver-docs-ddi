@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 62451fc4-92cc-4553-80cc-0843cf734a62
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoprocessblthd, VideoProcessBltHD callback function [Display Devices], VideoProcessBltHD, PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD, PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD, d3dumddi/VideoProcessBltHD, UserModeDisplayDriver_Functions_72b2babe-fc93-4960-93d3-6bc2022227c8.xml
+ms.keywords: PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD, UserModeDisplayDriver_Functions_72b2babe-fc93-4960-93d3-6bc2022227c8.xml, VideoProcessBltHD, VideoProcessBltHD callback function [Display Devices], d3dumddi/VideoProcessBltHD, display.videoprocessblthd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

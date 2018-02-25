@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1797b64d-ca2c-4b07-aaad-bef4966b5ca7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Structs_ec86c228-3c85-4fe9-996a-e1b3f08a0ee1.xml, D3DKMT_CHECKOCCLUSION structure [Display Devices], D3DKMT_CHECKOCCLUSION, display.d3dkmt_checkocclusion, d3dkmthk/D3DKMT_CHECKOCCLUSION, _D3DKMT_CHECKOCCLUSION
+ms.keywords: ",  , ,, 3, C, D, D3DKMT_CHECKOCCLUSION, D3DKMT_CHECKOCCLUSION structure [Display Devices], E, H, I, K, L, M, N, O, OpenGL_Structs_ec86c228-3c85-4fe9-996a-e1b3f08a0ee1.xml, S, T, U, _, _D3DKMT_CHECKOCCLUSION, d3dkmthk/D3DKMT_CHECKOCCLUSION, display.d3dkmt_checkocclusion"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _D3DKMT_CHECKOCCLUSION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckocclusion.md">D3DKMTCheckOcclusion</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checkocclusion.md">D3DKMTCheckOcclusion</a>
 
 
 

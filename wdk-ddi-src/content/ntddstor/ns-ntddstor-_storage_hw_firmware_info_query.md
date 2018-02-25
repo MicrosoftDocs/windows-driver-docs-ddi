@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7B58F050-2AF4-4BD5-95AB-254BCAA865F6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PSTORAGE_HW_FIRMWARE_INFO_QUERY, storage.storage_hw_firmware_info_query, PSTORAGE_HW_FIRMWARE_INFO_QUERY structure pointer [Storage Devices], ntddstor/PSTORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY structure [Storage Devices], PSTORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY, _STORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY"
+ms.keywords: ",  , *, *PSTORAGE_HW_FIRMWARE_INFO_QUERY, ,, A, E, F, G, H, I, M, N, O, P, PSTORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY structure pointer [Storage Devices], Q, R, S, STORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY structure [Storage Devices], T, U, W, Y, _, _STORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/PSTORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY, storage.storage_hw_firmware_info_query"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a655baef-4f99-45a1-ac78-5f54d2f4f1ab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoprocessorsetstreampalette, pfnVideoProcessorSetStreamPalette callback function [Display Devices], pfnVideoProcessorSetStreamPalette, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE, d3d10umddi/pfnVideoProcessorSetStreamPalette
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE, d3d10umddi/pfnVideoProcessorSetStreamPalette, display.videoprocessorsetstreampalette, pfnVideoProcessorSetStreamPalette, pfnVideoProcessorSetStreamPalette callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -159,11 +159,11 @@ If the driver does not report the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALP
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
 
 
 

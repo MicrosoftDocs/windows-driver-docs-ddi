@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 14863379-0639-4D24-AFA4-AE2196328B87
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.iosetfileobjectignoresharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], IoSetFileObjectIgnoreSharing, ntddk/IoSetFileObjectIgnoreSharing
+ms.keywords: ",  , F, I, IoSetFileObjectIgnoreSharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], O, S, a, b, c, e, g, h, i, ifsk.iosetfileobjectignoresharing, j, l, n, ntddk/IoSetFileObjectIgnoreSharing, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

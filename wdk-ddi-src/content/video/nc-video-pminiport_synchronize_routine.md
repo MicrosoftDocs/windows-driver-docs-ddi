@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04e3bac6-c905-4c95-bd1b-e85b46c4296d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidsynchronizeexecutioncallback, HwVidSynchronizeExecutionCallback callback function [Display Devices], HwVidSynchronizeExecutionCallback, PMINIPORT_SYNCHRONIZE_ROUTINE, PMINIPORT_SYNCHRONIZE_ROUTINE, video/HwVidSynchronizeExecutionCallback, VideoMiniport_Functions_98ebe64f-4ba9-475b-8095-b97dceaaf946.xml
+ms.keywords: HwVidSynchronizeExecutionCallback, HwVidSynchronizeExecutionCallback callback function [Display Devices], PMINIPORT_SYNCHRONIZE_ROUTINE, VideoMiniport_Functions_98ebe64f-4ba9-475b-8095-b97dceaaf946.xml, display.hwvidsynchronizeexecutioncallback, video/HwVidSynchronizeExecutionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -100,7 +100,7 @@ The miniport driver of an adapter that does not generate interrupts also can hav
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
 
 
 
@@ -108,7 +108,7 @@ The miniport driver of an adapter that does not generate interrupts also can hav
 
 
 
-<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 

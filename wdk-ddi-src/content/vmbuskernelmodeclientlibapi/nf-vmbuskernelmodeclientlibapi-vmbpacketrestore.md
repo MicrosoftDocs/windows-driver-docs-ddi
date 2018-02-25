@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CE8BBFB7-FC6C-458B-89EC-355A6DD18399
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbPacketRestore, netvista.vmbpacketrestore, VmbPacketRestore function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketRestore
+ms.keywords: ",  , P, R, V, VmbPacketRestore, VmbPacketRestore function [Network Drivers Starting with Windows Vista], a, b, c, e, k, m, netvista.vmbpacketrestore, o, r, s, t, vmbuskernelmodeclientlibapi/VmbPacketRestore"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

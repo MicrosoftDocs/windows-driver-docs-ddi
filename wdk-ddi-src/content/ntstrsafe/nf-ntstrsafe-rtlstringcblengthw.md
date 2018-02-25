@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 74644211-7cf5-48d4-9025-7831cb449979
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCbLengthA, RtlStringCbLength, kernel.rtlstringcblength, RtlStringCbLengthW function [Kernel-Mode Driver Architecture], RtlStringCbLengthW, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml, ntstrsafe/RtlStringCbLengthW, ntstrsafe/RtlStringCbLengthA
+ms.keywords: ",  , C, L, R, RtlStringCbLength, RtlStringCbLengthA, RtlStringCbLengthW, RtlStringCbLengthW function [Kernel-Mode Driver Architecture], S, W, b, e, g, h, i, kernel.rtlstringcblength, l, n, ntstrsafe/RtlStringCbLengthA, ntstrsafe/RtlStringCbLengthW, r, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

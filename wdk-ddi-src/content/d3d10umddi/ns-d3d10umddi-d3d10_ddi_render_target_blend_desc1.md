@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4cbc3072-46f1-40c3-ba3f-4d99f19b280e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: UMDisplayDriver_Dx10param_Structs_cc133adc-9ca8-4596-b3b8-9c3b352cd696.xml, D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure [Display Devices], d3d10umddi/D3D10_DDI_RENDER_TARGET_BLEND_DESC1, display.d3d10_ddi_render_target_blend_desc1, D3D10_DDI_RENDER_TARGET_BLEND_DESC1
+ms.keywords: ",  , ,, 0, 1, 3, A, B, C, D, D3D10_DDI_RENDER_TARGET_BLEND_DESC1, D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure [Display Devices], E, G, I, L, N, R, S, T, UMDisplayDriver_Dx10param_Structs_cc133adc-9ca8-4596-b3b8-9c3b352cd696.xml, _, d3d10umddi/D3D10_DDI_RENDER_TARGET_BLEND_DESC1, display.d3d10_ddi_render_target_blend_desc1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -183,11 +183,11 @@ An array of D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structures are specified in the 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_createblendstate.md">CreateBlendState(D3D10_1)</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
 
 
 
@@ -195,11 +195,11 @@ An array of D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structures are specified in the 
 
 
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a>
+
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
 
 
 

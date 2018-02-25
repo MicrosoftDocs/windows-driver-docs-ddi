@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e588a844-0b20-418c-9c65-e85f3a992d5c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml, ksmedia/KS_VIDEOINFO, ksmedia/PKS_VIDEOINFO, PKS_VIDEOINFO, *PKS_VIDEOINFO, stream.ks_videoinfo, KS_VIDEOINFO structure [Streaming Media Devices], tagKS_VIDEOINFO
+ms.keywords: ",  , *, *PKS_VIDEOINFO, ,, D, E, F, I, K, KS_VIDEOINFO, KS_VIDEOINFO structure [Streaming Media Devices], N, O, P, PKS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], S, V, _, a, g, ksmedia/KS_VIDEOINFO, ksmedia/PKS_VIDEOINFO, stream.ks_videoinfo, t, tagKS_VIDEOINFO, vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -140,15 +140,15 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-tagks_rgbquad.md">KS_RGBQUAD</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
 
 
 

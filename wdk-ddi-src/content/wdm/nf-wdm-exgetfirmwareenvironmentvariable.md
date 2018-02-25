@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5AD76955-A44C-4231-9394-0B6595CFB33D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExGetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], ExGetFirmwareEnvironmentVariable, wdm/ExGetFirmwareEnvironmentVariable, kernel.exgetfirmwareenvironmentvariable
+ms.keywords: ",  , E, ExGetFirmwareEnvironmentVariable, ExGetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], F, G, V, a, b, e, i, kernel.exgetfirmwareenvironmentvariable, l, m, n, o, r, t, v, w, wdm/ExGetFirmwareEnvironmentVariable, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -243,15 +243,15 @@ If you create a backup datastore, you can use this function to save all the boot
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba">GetFirmwareEnvironmentVariable</a>
-
-
-
 <a href="..\wdm\nf-wdm-exsetfirmwareenvironmentvariable.md">ExSetFirmwareEnvironmentVariable</a>
 
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba">GetFirmwareEnvironmentVariable</a>
 
 
 

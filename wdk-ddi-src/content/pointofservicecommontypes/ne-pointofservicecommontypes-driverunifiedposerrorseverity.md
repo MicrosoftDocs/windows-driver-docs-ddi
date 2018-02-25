@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: a8c592fa-2736-49e4-8d4d-8729baef9c49
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: Fatal, DriverUnifiedPosErrorSeverity enumeration, Warning, pointofservicecommontypes/Warning, Unrecoverable, pointofservicecommontypes/Unrecoverable, AssistanceRequired, pos.unifiedposerrorseverity, pointofservicecommontypes/UnknownErrorSeverity, Recoverable, pointofservicecommontypes/Recoverable, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, pointofservicecommontypes/ AssistanceRequired, UnknownErrorSeverity, DriverUnifiedPosErrorSeverity, pointofservicecommontypes/Fatal
+ms.keywords: ",  , ,, AssistanceRequired, D, DriverUnifiedPosErrorSeverity, DriverUnifiedPosErrorSeverity enumeration, E, Fatal, P, Recoverable, S, U, UnknownErrorSeverity, Unrecoverable, Warning, d, e, f, i, n, o, pointofservicecommontypes/ AssistanceRequired, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, pointofservicecommontypes/Fatal, pointofservicecommontypes/Recoverable, pointofservicecommontypes/UnknownErrorSeverity, pointofservicecommontypes/Unrecoverable, pointofservicecommontypes/Warning, pos.unifiedposerrorseverity, r, s, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

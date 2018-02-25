@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3f7b704f-be73-459a-bb5a-bbe649751900
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetCommand method [Windows Debugging], debugger.getcommand, IDebugBreakpoint2::GetCommand, GetCommand, GetCommand method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetCommand method, IDebugBreakpoint2 interface [Windows Debugging], GetCommand method, ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, dbgeng/IDebugBreakpoint::GetCommand, IDebugBreakpoint::GetCommand, IDebugBreakpoint, dbgeng/IDebugBreakpoint2::GetCommand, GetCommand method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2
+ms.keywords: ",  , ,, ., 2, :, B, C, ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, D, G, GetCommand method [Windows Debugging], GetCommand method [Windows Debugging], IDebugBreakpoint interface, GetCommand method [Windows Debugging], IDebugBreakpoint2 interface, GetCommand,IDebugBreakpoint.GetCommand, GetCommand,IDebugBreakpoint2.GetCommand, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetCommand method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetCommand method, IDebugBreakpoint2::GetCommand, IDebugBreakpoint::GetCommand, a, b, d, dbgeng/IDebugBreakpoint2::GetCommand, dbgeng/IDebugBreakpoint::GetCommand, debugger.getcommand, e, g, i, k, m, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

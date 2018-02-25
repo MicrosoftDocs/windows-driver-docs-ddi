@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db1cce43-1eae-4af0-bb61-a5c295e3d325
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsQueryInformationFile function [Streaming Media Devices], ks/KsQueryInformationFile, stream.ksqueryinformationfile, KsQueryInformationFile, ksfunc_3d343664-3fda-4612-96d4-3fe36532c99e.xml
+ms.keywords: ",  , F, I, K, KsQueryInformationFile, KsQueryInformationFile function [Streaming Media Devices], Q, a, e, f, i, ks/KsQueryInformationFile, ksfunc_3d343664-3fda-4612-96d4-3fe36532c99e.xml, l, m, n, o, r, s, stream.ksqueryinformationfile, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

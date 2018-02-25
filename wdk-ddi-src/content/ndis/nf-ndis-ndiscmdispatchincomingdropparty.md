@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisCmDispatchIncomingDropParty, condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], ndis/NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty
+ms.keywords: ",  , C, D, I, N, NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], P, a, c, condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, d, g, h, i, m, n, ndis/NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty, o, p, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,12 +146,11 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
-   ProtocolCoReceiveNetBufferLists</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 
 
@@ -160,12 +159,13 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
    NdisMCmDispatchIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 
 

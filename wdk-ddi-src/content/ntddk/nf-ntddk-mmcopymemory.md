@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2B5492CD-B24D-44B5-BDAE-0B43A1AF1FCA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory, MmCopyMemory
+ms.keywords: ",  , C, M, MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], e, kernel.mmcopymemory, m, ntddk/MmCopyMemory, o, p, r, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

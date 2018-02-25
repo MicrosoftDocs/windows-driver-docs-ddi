@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6c4aea1f-e788-49c7-91c0-831c87c6fd39
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.kspin_dispatch, PKSPIN_DISPATCH, KSPIN_DISPATCH, *PKSPIN_DISPATCH, KSPIN_DISPATCH structure [Streaming Media Devices], avstruct_2ef1e08b-327f-476c-9c0b-804582f67815.xml, ks/KSPIN_DISPATCH, ks/PKSPIN_DISPATCH, PKSPIN_DISPATCH structure pointer [Streaming Media Devices], _KSPIN_DISPATCH
+ms.keywords: ",  , *, *PKSPIN_DISPATCH, ,, A, C, D, H, I, K, KSPIN_DISPATCH, KSPIN_DISPATCH structure [Streaming Media Devices], N, P, PKSPIN_DISPATCH, PKSPIN_DISPATCH structure pointer [Streaming Media Devices], S, T, _, _KSPIN_DISPATCH, avstruct_2ef1e08b-327f-476c-9c0b-804582f67815.xml, ks/KSPIN_DISPATCH, ks/PKSPIN_DISPATCH, stream.kspin_dispatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,19 +139,19 @@ If the minidriver needs to determine whether it has been signaled to go to a spe
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
-<a href="..\ks\ns-ks-_ksclock_dispatch.md">KSCLOCK_DISPATCH</a>
-
-
-
 <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
 
 
 
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
 <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
+
+
+
+<a href="..\ks\ns-ks-_ksclock_dispatch.md">KSCLOCK_DISPATCH</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f62b63e3-011b-43ef-b7f5-769aa00ff3ca
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiasReadPropBin function [Imaging Devices], wiasReadPropBin, wiamdef/wiasReadPropBin, image.wiasreadpropbin, wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml
+ms.keywords: ",  , B, P, R, a, d, e, i, image.wiasreadpropbin, n, o, p, r, s, w, wiamdef/wiasReadPropBin, wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml, wiasReadPropBin, wiasReadPropBin function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,7 +117,7 @@ This function allocates a buffer and stores its address in the <i>ppbVal</i> par
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
 
 
 
@@ -125,15 +125,15 @@ This function allocates a buffer and stores its address in the <i>ppbVal</i> par
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
 
 
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
 
 
 

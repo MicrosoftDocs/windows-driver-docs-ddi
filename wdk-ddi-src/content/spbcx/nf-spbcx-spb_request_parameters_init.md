@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 65C3DF3D-812D-44ED-B471-2D29ADBC2BBA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPB_REQUEST_PARAMETERS_INIT function [Buses], SPB_REQUEST_PARAMETERS_INIT, SPB.spb_request_parameters_init, spbcx/SPB_REQUEST_PARAMETERS_INIT
+ms.keywords: ",  , A, B, E, I, M, N, P, Q, R, S, SPB.spb_request_parameters_init, SPB_REQUEST_PARAMETERS_INIT, SPB_REQUEST_PARAMETERS_INIT function [Buses], T, U, _, spbcx/SPB_REQUEST_PARAMETERS_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ Your SPB controller driver must use this function to initialize an <b>SPB_REQUES
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
-
-
-
 <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
 
 
 

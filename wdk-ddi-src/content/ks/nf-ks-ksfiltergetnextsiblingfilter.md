@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0b0a306a-6066-4a7d-ae2d-12eb8bb3adc0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsFilterGetNextSiblingFilter, stream.ksfiltergetnextsiblingfilter, ks/KsFilterGetNextSiblingFilter, KsFilterGetNextSiblingFilter function [Streaming Media Devices], avfunc_bda9f36a-10d4-4de3-88b2-a358aad4fd04.xml
+ms.keywords: ",  , F, G, K, KsFilterGetNextSiblingFilter, KsFilterGetNextSiblingFilter function [Streaming Media Devices], N, S, avfunc_bda9f36a-10d4-4de3-88b2-a358aad4fd04.xml, b, e, g, i, ks/KsFilterGetNextSiblingFilter, l, n, r, s, stream.ksfiltergetnextsiblingfilter, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,15 +92,15 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetnextsibling.md
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
+
+
+
 <a href="..\ks\nf-ks-ksfilterfactorygetfirstchildfilter.md">KsFilterFactoryGetFirstChildFilter</a>
 
 
 
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
-
-
-<a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
 
 
 

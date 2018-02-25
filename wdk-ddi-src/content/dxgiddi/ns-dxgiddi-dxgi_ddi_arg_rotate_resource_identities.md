@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 904b16d1-44dc-4d7a-96cb-3fd82d378b24
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES, display.dxgi_ddi_arg_rotate_resource_identities, DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES structure [Display Devices], dxgiddi/DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES, UMDisplayDriver_Dx10param_Structs_f52f40ab-97f1-4c3f-839f-9da2dc8e7798.xml
+ms.keywords: ",  , ,, A, C, D, DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES, DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES structure [Display Devices], E, G, I, N, O, R, S, T, U, UMDisplayDriver_Dx10param_Structs_f52f40ab-97f1-4c3f-839f-9da2dc8e7798.xml, X, _, display.dxgi_ddi_arg_rotate_resource_identities, dxgiddi/DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

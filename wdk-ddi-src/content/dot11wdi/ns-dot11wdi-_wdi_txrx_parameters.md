@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 839a1c3d-ac9f-4723-a0f1-6610b763c32a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wifi_txrx_parameters, WDI_TXRX_PARAMETERS, *PWDI_TXRX_PARAMETERS, _WDI_TXRX_PARAMETERS, PWDI_TXRX_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_PARAMETERS structure [Network Drivers Starting with Windows Vista], PWDI_TXRX_PARAMETERS, dot11wdi/WDI_TXRX_PARAMETERS, netvista.wdi_txrx_parameters, dot11wdi/PWDI_TXRX_PARAMETERS
+ms.keywords: ",  , *, *PWDI_TXRX_PARAMETERS, ,, A, D, E, I, M, P, PWDI_TXRX_PARAMETERS, PWDI_TXRX_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, W, WDI_TXRX_PARAMETERS, WDI_TXRX_PARAMETERS structure [Network Drivers Starting with Windows Vista], X, _, _WDI_TXRX_PARAMETERS, dot11wdi/PWDI_TXRX_PARAMETERS, dot11wdi/WDI_TXRX_PARAMETERS, netvista.wdi_txrx_parameters, netvista.wifi_txrx_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

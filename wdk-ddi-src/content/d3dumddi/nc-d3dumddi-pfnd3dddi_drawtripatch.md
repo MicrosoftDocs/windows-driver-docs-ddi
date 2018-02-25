@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98e5f2c5-2795-4226-b5c0-9498b37c22df
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.drawtripatch, DrawTriPatch callback function [Display Devices], DrawTriPatch, PFND3DDDI_DRAWTRIPATCH, PFND3DDDI_DRAWTRIPATCH, d3dumddi/DrawTriPatch, UserModeDisplayDriver_Functions_a4fb7bb1-ec56-45a9-9cca-5be7bd9f4746.xml
+ms.keywords: DrawTriPatch, DrawTriPatch callback function [Display Devices], PFND3DDDI_DRAWTRIPATCH, UserModeDisplayDriver_Functions_a4fb7bb1-ec56-45a9-9cca-5be7bd9f4746.xml, d3dumddi/DrawTriPatch, display.drawtripatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -150,11 +150,11 @@ The driver receives notification to release cached patch information through the
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawtripatch.md">D3DDDIARG_DRAWTRIPATCH</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

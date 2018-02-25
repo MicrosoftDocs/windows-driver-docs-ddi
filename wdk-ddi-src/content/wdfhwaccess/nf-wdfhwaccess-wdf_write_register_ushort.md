@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E098794F-9A32-409E-9B44-04FDCEF75341
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_WRITE_REGISTER_USHORT function, wdf.wdf_write_register_ushort, WDF_WRITE_REGISTER_USHORT, wdfhwaccess/WDF_WRITE_REGISTER_USHORT
+ms.keywords: ",  , D, E, F, G, H, I, O, R, S, T, U, W, WDF_WRITE_REGISTER_USHORT, WDF_WRITE_REGISTER_USHORT function, _, wdf.wdf_write_register_ushort, wdfhwaccess/WDF_WRITE_REGISTER_USHORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8720db3f-aafc-4657-a0cd-3068760855a3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, display.d3dkmtrender, D3DKMTRender, D3DKMTRender function [Display Devices], d3dkmthk/D3DKMTRender
+ms.keywords: ",  , 3, D, D3DKMTRender, D3DKMTRender function [Display Devices], K, M, OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, R, T, d, d3dkmthk/D3DKMTRender, display.d3dkmtrender, e, n, r"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -278,11 +278,11 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTRende
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
 
 
 

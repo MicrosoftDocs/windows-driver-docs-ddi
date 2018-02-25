@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32596330-6cd9-4f82-9140-7f9a26cf7932
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest2 interface, RetrieveInputMemory method, umdf.iwdfiorequest2_retrieveinputmemory, wdf.iwdfiorequest2_retrieveinputmemory, RetrieveInputMemory, IWDFIoRequest2, UMDFRequestObjectRef_48cb0129-5727-4321-a4c5-77ae12fd685b.xml, IWDFIoRequest2::RetrieveInputMemory, RetrieveInputMemory method, wudfddi/IWDFIoRequest2::RetrieveInputMemory, RetrieveInputMemory method, IWDFIoRequest2 interface
+ms.keywords: ",  , ,, ., 2, :, D, F, I, IWDFIoRequest2, IWDFIoRequest2 interface, RetrieveInputMemory method, IWDFIoRequest2::RetrieveInputMemory, M, R, RetrieveInputMemory method, RetrieveInputMemory method, IWDFIoRequest2 interface, RetrieveInputMemory,IWDFIoRequest2.RetrieveInputMemory, UMDFRequestObjectRef_48cb0129-5727-4321-a4c5-77ae12fd685b.xml, W, e, i, m, n, o, p, q, r, s, t, u, umdf.iwdfiorequest2_retrieveinputmemory, v, wdf.iwdfiorequest2_retrieveinputmemory, wudfddi/IWDFIoRequest2::RetrieveInputMemory, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -194,11 +194,7 @@ Exit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
 
 
 
@@ -206,7 +202,11 @@ Exit:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
 
 
@@ -214,7 +214,7 @@ Exit:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
 
 
 

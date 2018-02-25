@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7f9a2a76-ee50-4f72-a588-d7b9145c14a6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getcertificatesize, pfnGetCertificateSize callback function [Display Devices], pfnGetCertificateSize, PFND3D11_1DDI_GETCERTIFICATESIZE, PFND3D11_1DDI_GETCERTIFICATESIZE, d3d10umddi/pfnGetCertificateSize
+ms.keywords: PFND3D11_1DDI_GETCERTIFICATESIZE, d3d10umddi/pfnGetCertificateSize, display.getcertificatesize, pfnGetCertificateSize, pfnGetCertificateSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -111,11 +111,11 @@ Based on the data in the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_certifi
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_certificate_info.md">D3D11_1DDI_CERTIFICATE_INFO</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a>
 
 
 

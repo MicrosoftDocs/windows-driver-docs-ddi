@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2ab1b2dd-4848-4eb0-9836-e3be987535a6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KeSaveFloatingPointState, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], kernel.kesavefloatingpointstate, KeSaveFloatingPointState, k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml
+ms.keywords: ",  , F, K, KeSaveFloatingPointState, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], P, S, a, e, g, i, k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, kernel.kesavefloatingpointstate, l, n, o, t, v, wdm/KeSaveFloatingPointState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,7 +120,7 @@ A successful call to <b>KeSaveFloatingPointState</b> allows the caller to carry 
 
 If the call to <b>KeSaveFloatingPointState</b> is successful, the data at <i>FloatSave</i> is opaque to the caller. The caller should not release the memory that it allocated for this data until after the call to <a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>.
 
-In Windows Vista and earlier versions of Windows, a <b>KeSaveFloatingPointState</b> call and the corresponding <b>KeRestoreFloatingPointState</b> call must occur in a guarded region. That is, the <a href="..\wdm\nf-wdm-keenterguardedregion.md">KeEnterGuardedRegion</a> routine must be called before <b>KeSaveFloatingPointState</b> is called, and the <a href="..\wdm\nf-wdm-keleaveguardedregion.md">KeLeaveGuardedRegion</a> routine must be called after <b>KeRestoreFloatingPointState</b> is called. No such requirement exists in Windows 7 and later versions of Windows.
+In Windows Vista and earlier versions of Windows, a <b>KeSaveFloatingPointState</b> call and the corresponding <b>KeRestoreFloatingPointState</b> call must occur in a guarded region. That is, the <a href="..\ntddk\nf-ntddk-keenterguardedregion.md">KeEnterGuardedRegion</a> routine must be called before <b>KeSaveFloatingPointState</b> is called, and the <a href="..\ntddk\nf-ntddk-keleaveguardedregion.md">KeLeaveGuardedRegion</a> routine must be called after <b>KeRestoreFloatingPointState</b> is called. No such requirement exists in Windows 7 and later versions of Windows.
 
 For performance reasons, drivers should avoid doing any floating-point operations unless absolutely necessary. The overhead of saving and restoring the current thread's nonvolatile floating-point state degrades the performance of any driver that does floating-point operations.
 
@@ -129,11 +129,15 @@ For performance reasons, drivers should avoid doing any floating-point operation
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keenterguardedregion.md">KeEnterGuardedRegion</a>
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
 
 
 
-<a href="..\wdm\nf-wdm-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
+<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-keenterguardedregion.md">KeEnterGuardedRegion</a>
 
 
 
@@ -141,11 +145,7 @@ For performance reasons, drivers should avoid doing any floating-point operation
 
 
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-
-
-
-<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
+<a href="..\ntddk\nf-ntddk-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
 
 
 

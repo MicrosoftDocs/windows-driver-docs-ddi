@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 96827d2e-0fee-4276-a758-82f5b7383eec
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortZeroMemory, video/VideoPortZeroMemory, VideoPort_Functions_518c5fa4-2011-47bd-a24c-0dff144dfa3a.xml, VideoPortZeroMemory function [Display Devices], display.videoportzeromemory
+ms.keywords: ",  , M, P, V, VideoPortZeroMemory, VideoPortZeroMemory function [Display Devices], VideoPort_Functions_518c5fa4-2011-47bd-a24c-0dff144dfa3a.xml, Z, d, display.videoportzeromemory, e, i, m, o, r, t, video/VideoPortZeroMemory, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,19 +105,11 @@ Callers of <b>VideoPortZeroMemory</b> can be running at any IRQL if the memory p
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
-
-
-
 <a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
 
 
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
-
-
-
-<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
@@ -125,11 +117,19 @@ Callers of <b>VideoPortZeroMemory</b> can be running at any IRQL if the memory p
 
 
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-
-
-
 <a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+
+
+
+<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+
+
+
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 

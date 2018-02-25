@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a975e201-9015-4315-830e-4cd7cc5a3bc5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwscsiwmifunctioncontrol, HwScsiWmiFunctionControl, HwScsiWmiFunctionControl callback function [Storage Devices], HwScsiWmiFunctionControl, PSCSIWMI_FUNCTION_CONTROL, PSCSIWMI_FUNCTION_CONTROL, scsiwmi/HwScsiWmiFunctionControl, Scsimini_42361f5c-fc45-4883-997e-afa65bc376c4.xml
+ms.keywords: HwScsiWmiFunctionControl, HwScsiWmiFunctionControl callback function [Storage Devices], PSCSIWMI_FUNCTION_CONTROL, Scsimini_42361f5c-fc45-4883-997e-afa65bc376c4.xml, scsiwmi/HwScsiWmiFunctionControl, storage.hwscsiwmifunctioncontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -123,7 +123,7 @@ If the SRB is completed in the <b>HwScsiWmiFunctionControl</b> callback, then th
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 
@@ -135,7 +135,7 @@ If the SRB is completed in the <b>HwScsiWmiFunctionControl</b> callback, then th
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 

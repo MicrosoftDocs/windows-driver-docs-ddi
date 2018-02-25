@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 558b81c5-5f6b-41a5-8d89-6ee39b9c1cd1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.appendprinternotifyinfodata, winsplp/AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices], spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml
+ms.keywords: ",  , A, AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices], D, I, N, P, a, d, e, f, i, n, o, p, print.appendprinternotifyinfodata, r, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, t, winsplp/AppendPrinterNotifyInfoData, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,11 +128,11 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
 
 
 

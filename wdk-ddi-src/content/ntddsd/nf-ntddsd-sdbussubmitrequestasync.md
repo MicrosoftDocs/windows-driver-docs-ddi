@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: c4425ba5-adf7-4734-a400-1a233a441047
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: sd-rtns_69f249eb-f2e8-48fa-8857-b47c732faea6.xml, SdBusSubmitRequestAsync function [Buses], SdBusSubmitRequestAsync, ntddsd/SdBusSubmitRequestAsync, SD.sdbussubmitrequestasync
+ms.keywords: ",  , A, B, R, S, SD.sdbussubmitrequestasync, SdBusSubmitRequestAsync, SdBusSubmitRequestAsync function [Buses], b, c, d, e, i, m, n, ntddsd/SdBusSubmitRequestAsync, q, s, sd-rtns_69f249eb-f2e8-48fa-8857-b47c732faea6.xml, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

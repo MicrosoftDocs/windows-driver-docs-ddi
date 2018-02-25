@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 091aee9d-5ecd-481a-b5e2-28b4828b2c2e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: HDAUDIO_DEVICE_INFORMATION, PHDAUDIO_DEVICE_INFORMATION structure pointer [Audio Devices], hdaudio/PHDAUDIO_DEVICE_INFORMATION, hdaudio/HDAUDIO_DEVICE_INFORMATION, audio.hdaudio_device_information, PHDAUDIO_DEVICE_INFORMATION, _HDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION structure [Audio Devices], *PHDAUDIO_DEVICE_INFORMATION, aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml
+ms.keywords: ",  , *, *PHDAUDIO_DEVICE_INFORMATION, ,, A, C, D, E, F, H, HDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION structure [Audio Devices], I, M, N, O, P, PHDAUDIO_DEVICE_INFORMATION, PHDAUDIO_DEVICE_INFORMATION structure pointer [Audio Devices], R, T, U, V, _, _HDAUDIO_DEVICE_INFORMATION, aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, audio.hdaudio_device_information, hdaudio/HDAUDIO_DEVICE_INFORMATION, hdaudio/PHDAUDIO_DEVICE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

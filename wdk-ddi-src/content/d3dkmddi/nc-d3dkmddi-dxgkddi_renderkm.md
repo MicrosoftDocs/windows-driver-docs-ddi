@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5841934d-7e0a-4bb8-a7f8-17d8c0af351f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddirenderkm, DxgkDdiRenderKm callback function [Display Devices], DxgkDdiRenderKm, DXGKDDI_RENDERKM, DXGKDDI_RENDERKM, d3dkmddi/DxgkDdiRenderKm, DmFunctions_f8138753-f755-410c-b0a0-4422dee9bfb6.xml
+ms.keywords: DXGKDDI_RENDERKM, DmFunctions_f8138753-f755-410c-b0a0-4422dee9bfb6.xml, DxgkDdiRenderKm, DxgkDdiRenderKm callback function [Display Devices], d3dkmddi/DxgkDdiRenderKm, display.dxgkddirenderkm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -211,19 +211,7 @@ In guaranteed contract DMA mode, when the display miniport driver translates a c
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
 
 
 
@@ -231,11 +219,11 @@ In guaranteed contract DMA mode, when the display miniport driver translates a c
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
 
 
 
@@ -247,7 +235,19 @@ In guaranteed contract DMA mode, when the display miniport driver translates a c
 
 
 
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
 
 

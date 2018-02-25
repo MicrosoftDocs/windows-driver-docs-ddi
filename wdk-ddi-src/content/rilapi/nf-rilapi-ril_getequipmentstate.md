@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf7f1572-b967-4aaf-8705-99ede231484a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_getequipmentstate, RIL_GetEquipmentState, rilapi/RIL_GetEquipmentState
+ms.keywords: ",  , E, G, I, L, R, RIL_GetEquipmentState, RIL_GetEquipmentState method [Network Drivers Starting with Windows Vista], S, _, a, e, i, m, n, netvista.ril_getequipmentstate, p, q, rilapi/RIL_GetEquipmentState, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

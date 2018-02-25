@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cf508b5c-4af8-4371-b833-eaa71535afc5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsAddObjectCreateItemToDeviceHeader, stream.ksaddobjectcreateitemtodeviceheader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml, ks/KsAddObjectCreateItemToDeviceHeader
+ms.keywords: ",  , A, C, D, H, I, K, KsAddObjectCreateItemToDeviceHeader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], O, T, a, b, c, d, e, i, j, ks/KsAddObjectCreateItemToDeviceHeader, ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml, m, o, r, s, stream.ksaddobjectcreateitemtodeviceheader, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

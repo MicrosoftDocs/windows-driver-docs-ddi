@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 22945e04-9feb-4f4b-9ca6-916dab372a64
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndismfreenetbuffersglist, NdisMFreeNetBufferSGList, ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml, NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMFreeNetBufferSGList
+ms.keywords: ",  , B, F, G, L, M, N, NdisMFreeNetBufferSGList, NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], S, d, e, f, i, ndis/NdisMFreeNetBufferSGList, ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml, netvista.ndismfreenetbuffersglist, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -138,19 +138,15 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 
 
 
-<a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
-
-
-
-<a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
+
+
+
+<a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
 
 
 
@@ -159,7 +155,11 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
 
 
 

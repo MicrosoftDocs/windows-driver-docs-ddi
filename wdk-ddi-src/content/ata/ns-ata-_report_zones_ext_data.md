@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c6b4b7c-548d-42c0-af9b-cf0d65bf2e45
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ata/REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA, _REPORT_ZONES_EXT_DATA, storage.report_zones_ext_data, REPORT_ZONES_EXT_DATA structure [Storage Devices], PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], PREPORT_ZONES_EXT_DATA, ata/PREPORT_ZONES_EXT_DATA
+ms.keywords: ",  , *, *PREPORT_ZONES_EXT_DATA, ,, A, D, E, N, O, P, PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], R, REPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA structure [Storage Devices], S, T, X, Z, _, _REPORT_ZONES_EXT_DATA, ata/PREPORT_ZONES_EXT_DATA, ata/REPORT_ZONES_EXT_DATA, storage.report_zones_ext_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

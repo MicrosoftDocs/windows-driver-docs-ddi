@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: CE611168-76B3-496F-91C7-932E1F259529
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.gnss_fixsessiontype, GNSS_FixSession_ContinuousTracking, GNSS_FIXSESSIONTYPE, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], GNSS_FixSession_DistanceTracking, gnssdriver/GNSS_FixSession_DistanceTracking, gnssdriver/GNSS_FIXSESSIONTYPE, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_SingleShot, GNSS_FixSession_LKG, GNSS_FixSession_SingleShot, gnssdriver/GNSS_FixSession_ContinuousTracking
+ms.keywords: ",  , ,, E, F, G, GNSS_FIXSESSIONTYPE, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], GNSS_FixSession_ContinuousTracking, GNSS_FixSession_DistanceTracking, GNSS_FixSession_LKG, GNSS_FixSession_SingleShot, I, N, O, P, S, T, X, Y, _, gnssdriver/GNSS_FIXSESSIONTYPE, gnssdriver/GNSS_FixSession_ContinuousTracking, gnssdriver/GNSS_FixSession_DistanceTracking, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_SingleShot, sensors.gnss_fixsessiontype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

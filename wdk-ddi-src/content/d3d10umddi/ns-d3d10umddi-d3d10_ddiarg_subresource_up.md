@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 035ce56c-b2a0-4ee0-83ce-4a45f05e5ff4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D10_DDIARG_SUBRESOURCE_UP, d3d10umddi/D3D10_DDIARG_SUBRESOURCE_UP, UMDisplayDriver_Dx10param_Structs_4bc98700-ad44-4b40-9fc2-b40eeae79626.xml, display.d3d10_ddiarg_subresource_up, D3D10_DDIARG_SUBRESOURCE_UP structure [Display Devices]
+ms.keywords: ",  , ,, 0, 1, 3, A, B, C, D, D3D10_DDIARG_SUBRESOURCE_UP, D3D10_DDIARG_SUBRESOURCE_UP structure [Display Devices], E, G, I, O, P, R, S, U, UMDisplayDriver_Dx10param_Structs_4bc98700-ad44-4b40-9fc2-b40eeae79626.xml, _, d3d10umddi/D3D10_DDIARG_SUBRESOURCE_UP, display.d3d10_ddiarg_subresource_up"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

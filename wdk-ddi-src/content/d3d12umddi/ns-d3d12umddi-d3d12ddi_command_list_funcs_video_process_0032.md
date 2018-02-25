@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c49f79cc-6ceb-4379-94ac-983b897d198b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032 structure [Display Devices], display.d3d12ddi-command-list-funcs-video-process-0032, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032, d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032 structure [Display Devices], E, F, I, L, M, N, O, P, R, S, T, U, V, _, d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032, display.d3d12ddi-command-list-funcs-video-process-0032"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

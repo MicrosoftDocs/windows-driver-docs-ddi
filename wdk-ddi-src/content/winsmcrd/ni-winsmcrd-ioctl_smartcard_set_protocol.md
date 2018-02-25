@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 9A54D427-128F-41C1-B6BD-EE09B0402C32
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfpdrivers.ioctl_smartcard_set_protocol, IOCTL_SMARTCARD_SET_PROTOCOL control code [Near-Field Proximity Drivers], IOCTL_SMARTCARD_SET_PROTOCOL, winsmcrd/IOCTL_SMARTCARD_SET_PROTOCOL
+ms.keywords: IOCTL_SMARTCARD_SET_PROTOCOL, IOCTL_SMARTCARD_SET_PROTOCOL control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_set_protocol, winsmcrd/IOCTL_SMARTCARD_SET_PROTOCOL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

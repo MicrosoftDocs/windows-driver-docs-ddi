@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e027ac5-7b5d-43cc-8d37-c0a3e77e68c9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ata_zone_descriptor, ATA_ZONE_DESCRIPTOR structure [Storage Devices], ATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], ata/PATA_ZONE_DESCRIPTOR, _ATA_ZONE_DESCRIPTOR, ata/ATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR
+ms.keywords: ",  , *, *PATA_ZONE_DESCRIPTOR, ,, A, ATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR structure [Storage Devices], C, D, E, I, N, O, P, PATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], R, S, T, Z, _, _ATA_ZONE_DESCRIPTOR, ata/ATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2dd695c4-ed3e-4278-b82e-6643aaded890
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILEUTRAMRL, RILEUTRAMRL, *LPRILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl
+ms.keywords: ",  , *, *LPRILEUTRAMRL, ,, A, E, I, L, M, P, R, RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], T, U, netvista.rileutramrl, rilapitypes/RILEUTRAMRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

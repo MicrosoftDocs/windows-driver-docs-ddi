@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 16672908-6f1f-471b-b82e-d548e3efeb20
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: AVC_SETCONNECT_INFO structure [Streaming Media Devices], PAVC_SETCONNECT_INFO structure pointer [Streaming Media Devices], AVC_SETCONNECT_INFO, avc/PAVC_SETCONNECT_INFO, stream.avc_setconnect_info, PAVC_SETCONNECT_INFO, *PAVC_SETCONNECT_INFO, _AVC_SETCONNECT_INFO, avc/AVC_SETCONNECT_INFO, avcref_eec9cff7-6ae3-49d3-a649-349b8284630b.xml
+ms.keywords: ",  , *, *PAVC_SETCONNECT_INFO, ,, A, AVC_SETCONNECT_INFO, AVC_SETCONNECT_INFO structure [Streaming Media Devices], C, E, F, I, N, O, P, PAVC_SETCONNECT_INFO, PAVC_SETCONNECT_INFO structure pointer [Streaming Media Devices], S, T, V, _, _AVC_SETCONNECT_INFO, avc/AVC_SETCONNECT_INFO, avc/PAVC_SETCONNECT_INFO, avcref_eec9cff7-6ae3-49d3-a649-349b8284630b.xml, stream.avc_setconnect_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,7 +93,7 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554171">AVC_FUNCTION_SET_CONNECTINFO</a>
+<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
 
 
@@ -101,7 +101,7 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 
 
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554171">AVC_FUNCTION_SET_CONNECTINFO</a>
 
 
 

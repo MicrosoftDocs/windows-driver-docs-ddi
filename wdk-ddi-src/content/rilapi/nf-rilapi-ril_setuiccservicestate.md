@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 96b17a3f-1e69-47f5-aa09-59abfb5c1505
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_SetUiccServiceState, RIL_SetUiccServiceState method [Network Drivers Starting with Windows Vista], netvista.ril_setuiccservicestate, RIL_SetUiccServiceState
+ms.keywords: ",  , I, L, R, RIL_SetUiccServiceState, RIL_SetUiccServiceState method [Network Drivers Starting with Windows Vista], S, U, _, a, c, e, i, netvista.ril_setuiccservicestate, r, rilapi/RIL_SetUiccServiceState, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

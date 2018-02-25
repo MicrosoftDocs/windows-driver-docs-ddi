@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 52a877c7-b274-4bec-b948-edb0585a09e1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportacquirespinlock, StorPortAcquireSpinLock routine [Storage Devices], storport/StorPortAcquireSpinLock, StorPortAcquireSpinLock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml
+ms.keywords: ",  , A, L, P, S, StorPortAcquireSpinLock, StorPortAcquireSpinLock routine [Storage Devices], c, e, i, k, n, o, p, q, r, storage.storportacquirespinlock, storport/StorPortAcquireSpinLock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -194,7 +194,7 @@ None
 
 </td>
 <td>
- Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
+ Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ None
 
 </td>
 <td>
- Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
+ Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>
@@ -280,7 +280,7 @@ None
 
 </td>
 <td>
- Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
+ Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>
@@ -391,7 +391,7 @@ DPC, StartIo, Interrupt
 
 </td>
 <td>
- Interrupt (when <b>SynchronizationModel</b> member of <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
+ Interrupt (when <b>SynchronizationModel</b> member of <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>
@@ -403,7 +403,7 @@ DPC, StartIo, Interrupt
 
 </td>
 <td>
- Interrupt (when <b>SynchronizationModel</b> member of <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
+ Interrupt (when <b>SynchronizationModel</b> member of <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>
@@ -477,7 +477,7 @@ DPC, StartIo, Interrupt
 
 </td>
 <td>
- Interrupt (when <b>SynchronizationModel</b> member of <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
+ Interrupt (when <b>SynchronizationModel</b> member of <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f12af70c-a6f2-42da-be62-1cfeb90b6239
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.drawindexedprimitive2, DrawIndexedPrimitive2 callback function [Display Devices], DrawIndexedPrimitive2, PFND3DDDI_DRAWINDEXEDPRIMITIVE2, PFND3DDDI_DRAWINDEXEDPRIMITIVE2, d3dumddi/DrawIndexedPrimitive2, UserModeDisplayDriver_Functions_55bb1ac5-49e3-428b-9737-ffe0577e6bba.xml
+ms.keywords: DrawIndexedPrimitive2, DrawIndexedPrimitive2 callback function [Display Devices], PFND3DDDI_DRAWINDEXEDPRIMITIVE2, UserModeDisplayDriver_Functions_55bb1ac5-49e3-428b-9737-ffe0577e6bba.xml, d3dumddi/DrawIndexedPrimitive2, display.drawindexedprimitive2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,11 +135,11 @@ When the Microsoft Direct3D runtime specifies triangle-edge flags in the value t
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a>
 
 
 

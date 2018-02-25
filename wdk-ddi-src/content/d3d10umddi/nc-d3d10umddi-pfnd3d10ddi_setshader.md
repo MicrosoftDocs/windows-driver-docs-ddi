@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ab689c60-3099-4d69-a7e2-5edfb623cbc3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.cssetshader, CsSetShader callback function [Display Devices], CsSetShader, PFND3D10DDI_SETSHADER, PFND3D10DDI_SETSHADER, d3d10umddi/CsSetShader, UserModeDisplayDriverDx11_Functions_4e96f922-1a22-45c3-9c50-a4b71a79f695.xml
+ms.keywords: CsSetShader, CsSetShader callback function [Display Devices], PFND3D10DDI_SETSHADER, UserModeDisplayDriverDx11_Functions_4e96f922-1a22-45c3-9c50-a4b71a79f695.xml, d3d10umddi/CsSetShader, display.cssetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

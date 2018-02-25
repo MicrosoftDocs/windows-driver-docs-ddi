@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e1c1a67e-a18d-4eef-88ce-cd7edd371f54
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, umdf.iwdfioqueue_getdevice, wudfddi/IWDFIoQueue::GetDevice, GetDevice method, GetDevice, IWDFIoQueue::GetDevice, wdf.iwdfioqueue_getdevice, IWDFIoQueue, GetDevice method, IWDFIoQueue interface, IWDFIoQueue interface, GetDevice method
+ms.keywords: ",  , ,, ., :, D, F, G, GetDevice method, GetDevice method, IWDFIoQueue interface, GetDevice,IWDFIoQueue.GetDevice, I, IWDFIoQueue, IWDFIoQueue interface, GetDevice method, IWDFIoQueue::GetDevice, Q, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, W, c, e, i, o, t, u, umdf.iwdfioqueue_getdevice, v, wdf.iwdfioqueue_getdevice, wudfddi/IWDFIoQueue::GetDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,11 +86,11 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 

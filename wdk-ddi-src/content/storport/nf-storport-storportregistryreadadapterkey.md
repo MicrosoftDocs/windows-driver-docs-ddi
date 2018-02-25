@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 85D43276-53A1-4CEE-99FE-23ED8BECB316
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortRegistryWriteAdapterKey, StorPortRegistryReadAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storport/StorPortRegistryWriteAdapterKey, storage.storportregistryreadadapterkey
+ms.keywords: ",  , A, K, P, R, S, StorPortRegistryReadAdapterKey, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], a, d, e, g, i, o, p, r, s, storage.storportregistryreadadapterkey, storport/StorPortRegistryWriteAdapterKey, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

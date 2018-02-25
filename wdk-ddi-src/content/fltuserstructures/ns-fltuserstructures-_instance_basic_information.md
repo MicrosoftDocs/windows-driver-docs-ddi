@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 35e2b098-1bc2-4ffc-86c8-b60b651df027
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PINSTANCE_BASIC_INFORMATION structure pointer [Installable File System Drivers], fltuserstructures/PINSTANCE_BASIC_INFORMATION, _INSTANCE_BASIC_INFORMATION, PINSTANCE_BASIC_INFORMATION, INSTANCE_BASIC_INFORMATION, FltSystemStructures_bc615e69-e0f4-478b-9684-9371d62f5602.xml, fltuserstructures/INSTANCE_BASIC_INFORMATION, ifsk.instance_basic_information, INSTANCE_BASIC_INFORMATION structure [Installable File System Drivers]
+ms.keywords: ",  , ,, A, B, C, E, F, FltSystemStructures_bc615e69-e0f4-478b-9684-9371d62f5602.xml, I, INSTANCE_BASIC_INFORMATION, INSTANCE_BASIC_INFORMATION structure [Installable File System Drivers], M, N, O, P, PINSTANCE_BASIC_INFORMATION, PINSTANCE_BASIC_INFORMATION structure pointer [Installable File System Drivers], R, S, T, _, _INSTANCE_BASIC_INFORMATION, fltuserstructures/INSTANCE_BASIC_INFORMATION, fltuserstructures/PINSTANCE_BASIC_INFORMATION, ifsk.instance_basic_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,10 +95,6 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540538">FilterInstanceFindClose</a>
 
 
@@ -107,19 +103,15 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541535">FilterVolumeInstanceFindClose</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
 
 
 
@@ -127,11 +119,19 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
+
+
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_aggregate_standard_information.md">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541535">FilterVolumeInstanceFindClose</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
 
 
 

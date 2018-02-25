@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 845FA810-0286-4FA9-9BD4-A160989C581A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, CreatePrintAsyncNotifyRegistration, CreatePrintAsyncNotifyRegistration method [Print Devices], IPrintAsyncNotify interface, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, CreatePrintAsyncNotifyRegistration method [Print Devices], IPrintAsyncNotify interface [Print Devices], CreatePrintAsyncNotifyRegistration method, IPrintAsyncNotify, print.iprintasyncnotify_createprintasyncnotifyregistration
+ms.keywords: ",  , ,, ., :, A, C, CreatePrintAsyncNotifyRegistration method [Print Devices], CreatePrintAsyncNotifyRegistration method [Print Devices], IPrintAsyncNotify interface, CreatePrintAsyncNotifyRegistration,IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration, I, IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], CreatePrintAsyncNotifyRegistration method, IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, N, P, R, a, c, e, f, g, i, n, o, print.iprintasyncnotify_createprintasyncnotifyregistration, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

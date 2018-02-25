@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 9e02f32b-cd39-4953-9698-a1800bedf0e2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.sdpcreatenodesequence, sdplib/SdpCreateNodeSequence, bth_funcs_646168a7-522f-425c-99b7-706b84e02e20.xml, SdpCreateNodeSequence, SdpCreateNodeSequence function [Bluetooth Devices]
+ms.keywords: ",  , C, N, S, SdpCreateNodeSequence, SdpCreateNodeSequence function [Bluetooth Devices], a, bltooth.sdpcreatenodesequence, bth_funcs_646168a7-522f-425c-99b7-706b84e02e20.xml, c, d, e, n, o, p, q, r, sdplib/SdpCreateNodeSequence, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,11 +103,11 @@ A sequence node can be added as a top-level attribute of an SDP record by callin
 
 ## -see-also
 
-<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
-
-
-
 <a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">SdpAppendNodeToContainerNode</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
 
 
 

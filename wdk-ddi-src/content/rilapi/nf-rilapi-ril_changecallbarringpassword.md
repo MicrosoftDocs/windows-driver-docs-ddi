@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f312e955-c8a5-4642-ac8a-a0173f034a63
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_ChangeCallBarringPassword, netvista.ril_changecallbarringpassword, RIL_ChangeCallBarringPassword, RIL_ChangeCallBarringPassword method [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , B, C, I, L, P, R, RIL_ChangeCallBarringPassword, RIL_ChangeCallBarringPassword method [Network Drivers Starting with Windows Vista], _, a, d, e, g, h, i, l, n, netvista.ril_changecallbarringpassword, o, r, rilapi/RIL_ChangeCallBarringPassword, s, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

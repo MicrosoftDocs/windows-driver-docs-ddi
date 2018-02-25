@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 373D7CA9-AF1B-46E8-AE6A-F693A9214527
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], buses.usbfn_class_information_packet_ex, PUSBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX, *PUSBFN_CLASS_INFORMATION_PACKET_EX, _USBFN_CLASS_INFORMATION_PACKET_EX
+ms.keywords: ",  , *, *PUSBFN_CLASS_INFORMATION_PACKET_EX, ,, A, B, C, E, F, I, K, L, M, N, O, P, PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], R, S, T, U, USBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], X, _, _USBFN_CLASS_INFORMATION_PACKET_EX, buses.usbfn_class_information_packet_ex, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

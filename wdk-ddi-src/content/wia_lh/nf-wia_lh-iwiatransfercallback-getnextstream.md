@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 025c29d3-1167-4aa3-8399-01dab5729267
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, image.iwiatransfercallback_getnextstream, GetNextStream method [Imaging Devices], IWiaTransferCallback, GetNextStream method [Imaging Devices], IWiaTransferCallback interface, IWiaTransferCallback interface [Imaging Devices], GetNextStream method, IWiaTransferCallback::GetNextStream, GetNextStream, wia_lh/IWiaTransferCallback::GetNextStream
+ms.keywords: ",  , ,, ., :, C, G, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices], IWiaTransferCallback interface, GetNextStream,IWiaTransferCallback.GetNextStream, I, IWiaTransferCallback, IWiaTransferCallback interface [Imaging Devices], GetNextStream method, IWiaTransferCallback::GetNextStream, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, N, S, T, W, a, b, c, e, f, i, image.iwiatransfercallback_getnextstream, k, l, m, n, r, s, t, wia_lh/IWiaTransferCallback::GetNextStream, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

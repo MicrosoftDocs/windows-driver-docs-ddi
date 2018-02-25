@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 371f494c-abd2-43c8-ab06-749144762b01
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D11_1DDI_VIDEO_INPUT structure [Display Devices], D3D11_1DDI_VIDEO_INPUT, display.d3d11_1ddi_video_input, d3d10umddi/D3D11_1DDI_VIDEO_INPUT
+ms.keywords: ",  , ,, 1, 3, D, D3D11_1DDI_VIDEO_INPUT, D3D11_1DDI_VIDEO_INPUT structure [Display Devices], E, I, N, O, P, T, U, V, _, d3d10umddi/D3D11_1DDI_VIDEO_INPUT, display.d3d11_1ddi_video_input"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

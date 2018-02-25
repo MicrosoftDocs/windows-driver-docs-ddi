@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9F50CA34-DDEA-49E4-8149-B92D00476720
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.sercx2_transaction_type, SerCx2TransactionTypePio, SERCX2_TRANSACTION_TYPE, _SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypePio, SerCx2TransactionTypeDefault, 2/SerCx2TransactionTypeCustom, SerCx2TransactionTypeCustom, 2/SerCx2TransactionTypeSystemDma, 2/SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypeDefault, SERCX2_TRANSACTION_TYPE enumeration [Serial Ports], SerCx2TransactionTypeSystemDma
+ms.keywords: ",  , ,, 2, 2/SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypeCustom, 2/SerCx2TransactionTypeDefault, 2/SerCx2TransactionTypePio, 2/SerCx2TransactionTypeSystemDma, A, C, E, I, N, O, P, R, S, SERCX2_TRANSACTION_TYPE, SERCX2_TRANSACTION_TYPE enumeration [Serial Ports], SerCx2TransactionTypeCustom, SerCx2TransactionTypeDefault, SerCx2TransactionTypePio, SerCx2TransactionTypeSystemDma, T, X, Y, _, _SERCX2_TRANSACTION_TYPE, serports.sercx2_transaction_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

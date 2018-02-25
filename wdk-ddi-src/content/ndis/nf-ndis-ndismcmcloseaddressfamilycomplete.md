@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: be551557-06db-4fc9-bdcb-030e621e205a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], netvista.ndismcmcloseaddressfamilycomplete, condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, ndis/NdisMCmCloseAddressFamilyComplete, NdisMCmCloseAddressFamilyComplete
+ms.keywords: ",  , A, C, F, M, N, NdisMCmCloseAddressFamilyComplete, NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], a, condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, d, e, i, l, m, ndis/NdisMCmCloseAddressFamilyComplete, netvista.ndismcmcloseaddressfamilycomplete, o, p, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -127,8 +127,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
-   NdisCmCloseAddressFamilyComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
 
 
 
@@ -136,15 +135,16 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
+<a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+   NdisCmCloseAddressFamilyComplete</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 
 

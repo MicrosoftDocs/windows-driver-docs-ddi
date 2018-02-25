@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: AD653C7C-7C43-4258-98F8-3D9EDB51AE44
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.ioctl_hid_send_idle_notification_request, IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST control code [Human Input Devices], IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST, hidport/IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
+ms.keywords: IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST, IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST control code [Human Input Devices], hid.ioctl_hid_send_idle_notification_request, hidport/IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

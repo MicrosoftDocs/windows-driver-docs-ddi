@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f8ebeaa9-e487-461b-8d95-50094bcc2bf5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.clfsloggrowthcompletecallback, ClfsLogGrowthCompleteCallback, ClfsLogGrowthCompleteCallback callback function [Kernel-Mode Driver Architecture], ClfsLogGrowthCompleteCallback, PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK, PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK, wdm/ClfsLogGrowthCompleteCallback, Clfs_management_656d5a55-7a42-48c3-a788-d1eec6b5e11e.xml
+ms.keywords: ClfsLogGrowthCompleteCallback, ClfsLogGrowthCompleteCallback callback function [Kernel-Mode Driver Architecture], Clfs_management_656d5a55-7a42-48c3-a788-d1eec6b5e11e.xml, PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK, kernel.clfsloggrowthcompletecallback, wdm/ClfsLogGrowthCompleteCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6e3db876-c9f9-4de9-a0e2-5911132b72be
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_f2301345-c6d8-42bf-82f9-f8f97d29674f.xml, D3DKMTGetOverlayState function [Display Devices], display.d3dkmtgetoverlaystate, d3dkmthk/D3DKMTGetOverlayState, D3DKMTGetOverlayState
+ms.keywords: ",  , 3, D, D3DKMTGetOverlayState, D3DKMTGetOverlayState function [Display Devices], G, K, M, O, OpenGL_Functions_f2301345-c6d8-42bf-82f9-f8f97d29674f.xml, S, T, a, d3dkmthk/D3DKMTGetOverlayState, display.d3dkmtgetoverlaystate, e, l, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39041953-11ef-4f31-9b7e-09ce40b6b930
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfStringGetUnicodeString, kmdf.wdfstringgetunicodestring, WdfStringGetUnicodeString method, wdf.wdfstringgetunicodestring, DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, wdfstring/WdfStringGetUnicodeString
+ms.keywords: ",  , DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, G, S, U, W, WdfStringGetUnicodeString, WdfStringGetUnicodeString method, c, d, e, f, g, i, kmdf.wdfstringgetunicodestring, n, o, r, t, wdf.wdfstringgetunicodestring, wdfstring/WdfStringGetUnicodeString"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,11 +132,11 @@ WdfStringGetUnicodeString(
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

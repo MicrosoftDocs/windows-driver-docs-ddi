@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.umdetw_allocation_usage, UMDETW_ALLOCATION_USAGE, _UMDETW_ALLOCATION_USAGE, umdprovider/UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices]
+ms.keywords: ",  , ,, A, C, D, E, G, I, L, M, N, O, S, T, U, UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], W, _, _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, umdprovider/UMDETW_ALLOCATION_USAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

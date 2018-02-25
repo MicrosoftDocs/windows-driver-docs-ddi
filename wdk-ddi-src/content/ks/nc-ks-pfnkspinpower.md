@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6362ca08-cf8d-4e54-b144-10b2252f05c5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminipinpower, AVStrMiniPinPower, AVStrMiniPinPower routine [Streaming Media Devices], AVStrMiniPinPower, PFNKSPINPOWER, PFNKSPINPOWER, ks/AVStrMiniPinPower, avstclbk_fd047ae3-b574-4dad-a16b-2152193fb2cd.xml
+ms.keywords: AVStrMiniPinPower, AVStrMiniPinPower routine [Streaming Media Devices], PFNKSPINPOWER, avstclbk_fd047ae3-b574-4dad-a16b-2152193fb2cd.xml, ks/AVStrMiniPinPower, stream.avstrminipinpower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,11 +103,11 @@ The minidriver specifies an address for routines of this type in the <i>Sleep </
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
-
-
-
 <a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
 
 
 

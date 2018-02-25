@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dd833373-2879-49f0-9b16-fddb2f7495c1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_spin_lock_ref_a4e1c783-4682-401c-a198-fdc14cbfa383.xml, ndis/NdisReleaseSpinLock, NdisReleaseSpinLock, NdisReleaseSpinLock macro [Network Drivers Starting with Windows Vista], netvista.ndisreleasespinlock
+ms.keywords: ",  , L, N, NdisReleaseSpinLock, NdisReleaseSpinLock macro [Network Drivers Starting with Windows Vista], R, S, a, c, d, e, i, k, l, n, ndis/NdisReleaseSpinLock, ndis_spin_lock_ref_a4e1c783-4682-401c-a198-fdc14cbfa383.xml, netvista.ndisreleasespinlock, o, p, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -110,11 +110,11 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4cc0c9b0-8ddc-408e-bc49-81e5a19843d2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_CloseUiccLogicalChannel, netvista.ril_closeuicclogicalchannel, RIL_CloseUiccLogicalChannel method [Network Drivers Starting with Windows Vista], rilapi/RIL_CloseUiccLogicalChannel
+ms.keywords: ",  , C, I, L, R, RIL_CloseUiccLogicalChannel, RIL_CloseUiccLogicalChannel method [Network Drivers Starting with Windows Vista], U, _, a, c, e, g, h, i, l, n, netvista.ril_closeuicclogicalchannel, o, rilapi/RIL_CloseUiccLogicalChannel, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

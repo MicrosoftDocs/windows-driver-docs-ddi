@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 34612bc5-bed5-4645-8619-64ae2a603d1e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml, kernel.iogetcontainerinformation, IoGetContainerInformation routine [Kernel-Mode Driver Architecture], wdm/IoGetContainerInformation, IoGetContainerInformation
+ms.keywords: ",  , C, G, I, IoGetContainerInformation, IoGetContainerInformation routine [Kernel-Mode Driver Architecture], a, e, f, i, k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml, kernel.iogetcontainerinformation, m, n, o, r, t, wdm/IoGetContainerInformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,7 +160,7 @@ This routine can potentially support queries for a variety of information classe
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a>
+<a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
 
 
 
@@ -168,7 +168,7 @@ This routine can potentially support queries for a variety of information classe
 
 
 
-<a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
+<a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a>
 
 
 

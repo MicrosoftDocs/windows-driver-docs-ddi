@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68523fcb-bb0d-492f-b6ae-3dab4f6aa637
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfiorequest2_iscanceled, IWDFIoRequest2 interface, IsCanceled method, IsCanceled method, IsCanceled, umdf.iwdfiorequest2_iscanceled, IWDFIoRequest2, wudfddi/IWDFIoRequest2::IsCanceled, IsCanceled method, IWDFIoRequest2 interface, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, IWDFIoRequest2::IsCanceled
+ms.keywords: ",  , ,, ., 2, :, C, D, F, I, IWDFIoRequest2, IWDFIoRequest2 interface, IsCanceled method, IWDFIoRequest2::IsCanceled, IsCanceled method, IsCanceled method, IWDFIoRequest2 interface, IsCanceled,IWDFIoRequest2.IsCanceled, R, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, W, a, c, d, e, l, n, o, q, s, t, u, umdf.iwdfiorequest2_iscanceled, wdf.iwdfiorequest2_iscanceled, wudfddi/IWDFIoRequest2::IsCanceled"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,19 +124,19 @@ In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the dri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
 
 

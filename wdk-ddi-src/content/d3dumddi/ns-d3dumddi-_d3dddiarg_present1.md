@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 17EBEEF1-4C86-4948-AADA-669B2952755A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_PRESENT1 structure [Display Devices], display.d3dddiarg_present1, D3DDDIARG_PRESENT1, d3dumddi/D3DDDIARG_PRESENT1, _D3DDDIARG_PRESENT1
+ms.keywords: ",  , ,, 1, 3, A, D, D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1 structure [Display Devices], E, G, I, N, P, R, S, T, _, _D3DDDIARG_PRESENT1, d3dumddi/D3DDDIARG_PRESENT1, display.d3dddiarg_present1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,7 +132,7 @@ The driver can use this member to perform optimizations, though it's not require
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_presentflags.md">D3DDDI_PRESENTFLAGS</a>
 
 
 
@@ -140,7 +140,7 @@ The driver can use this member to perform optimizations, though it's not require
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present1.md">pfnPresent1(D3D)</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
 
 
 
@@ -148,7 +148,7 @@ The driver can use this member to perform optimizations, though it's not require
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_presentflags.md">D3DDDI_PRESENTFLAGS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present1.md">pfnPresent1(D3D)</a>
 
 
 

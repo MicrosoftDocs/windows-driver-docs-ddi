@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c4cef278-1771-4903-a5cf-85674463aff8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.destroyquery, DestroyQuery callback function [Display Devices], DestroyQuery, PFND3DDDI_DESTROYQUERY, PFND3DDDI_DESTROYQUERY, d3dumddi/DestroyQuery, UserModeDisplayDriver_Functions_ce2ecc4e-9e2e-485f-bde3-8800e62c5b8d.xml
+ms.keywords: DestroyQuery, DestroyQuery callback function [Display Devices], PFND3DDDI_DESTROYQUERY, UserModeDisplayDriver_Functions_ce2ecc4e-9e2e-485f-bde3-8800e62c5b8d.xml, d3dumddi/DestroyQuery, display.destroyquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

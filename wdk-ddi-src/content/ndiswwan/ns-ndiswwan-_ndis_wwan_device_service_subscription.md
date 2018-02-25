@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 65B9739B-98C6-441E-B15A-67C32A5FB232
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_device_service_subscription, *PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
+ms.keywords: ",  , *, *PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ,, A, B, C, D, E, I, N, NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, V, W, _, _NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, netvista.ndis_wwan_device_service_subscription"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -136,11 +136,11 @@ This member points to the list of the GUIDs by using the WWAN_LIST_HEADER struct
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh440096">OID_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 

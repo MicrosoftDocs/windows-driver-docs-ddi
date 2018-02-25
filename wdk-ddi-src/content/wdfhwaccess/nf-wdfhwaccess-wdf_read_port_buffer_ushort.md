@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 74784405-8435-4305-A630-255D7BB24157
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_read_port_buffer_ushort, WDF_READ_PORT_BUFFER_USHORT, wdfhwaccess/WDF_READ_PORT_BUFFER_USHORT, WDF_READ_PORT_BUFFER_USHORT function
+ms.keywords: ",  , A, B, D, E, F, H, O, P, R, S, T, U, W, WDF_READ_PORT_BUFFER_USHORT, WDF_READ_PORT_BUFFER_USHORT function, _, wdf.wdf_read_port_buffer_ushort, wdfhwaccess/WDF_READ_PORT_BUFFER_USHORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

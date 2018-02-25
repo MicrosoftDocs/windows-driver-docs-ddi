@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0186dc75-6d37-4adb-8337-6daa634bd936
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_BRB_L2CA_UPDATE_CHANNEL, bthddi/_BRB_L2CA_UPDATE_CHANNEL, _BRB_L2CA_UPDATE_CHANNEL structure [Bluetooth Devices], bth_structs_7ee8d85e-5cf3-4820-a325-6abe0777b22a.xml, bltooth._brb_l2ca_update_channel"
+ms.keywords: ",  , 2, A, B, C, D, E, H, L, N, P, R, T, U, _, _BRB_L2CA_UPDATE_CHANNEL, _BRB_L2CA_UPDATE_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_update_channel, bth_structs_7ee8d85e-5cf3-4820-a325-6abe0777b22a.xml, bthddi/_BRB_L2CA_UPDATE_CHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

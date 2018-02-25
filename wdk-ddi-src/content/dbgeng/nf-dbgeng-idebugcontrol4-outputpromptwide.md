@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c9b2eecf-fa9d-442e-9875-d068add25289
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugControl4::OutputPromptWide, OutputPromptWide, IDebugControl4::OutputPromptWide, OutputPromptWide method [Windows Debugging], IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputPromptWide method, debugger.outputpromptwide, OutputPromptWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: ",  , ,, ., 4, :, C, D, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputPromptWide method, IDebugControl4::OutputPromptWide, O, OutputPromptWide method [Windows Debugging], OutputPromptWide method [Windows Debugging], IDebugControl4 interface, OutputPromptWide,IDebugControl4.OutputPromptWide, P, W, b, d, dbgeng/IDebugControl4::OutputPromptWide, debugger.outputpromptwide, e, g, i, l, m, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -312,15 +312,11 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -328,7 +324,11 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
 
 
 

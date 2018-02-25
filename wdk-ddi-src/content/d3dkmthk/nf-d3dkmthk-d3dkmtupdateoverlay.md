@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bd8fc34a-60a3-4ae7-b13e-50d8b4342834
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTUpdateOverlay, display.d3dkmtupdateoverlay, D3DKMTUpdateOverlay function [Display Devices], OpenGL_Functions_bddc75da-dc62-43cf-8ee7-ec9958198669.xml, D3DKMTUpdateOverlay
+ms.keywords: ",  , 3, D, D3DKMTUpdateOverlay, D3DKMTUpdateOverlay function [Display Devices], K, M, O, OpenGL_Functions_bddc75da-dc62-43cf-8ee7-ec9958198669.xml, T, U, a, d, d3dkmthk/D3DKMTUpdateOverlay, display.d3dkmtupdateoverlay, e, l, p, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

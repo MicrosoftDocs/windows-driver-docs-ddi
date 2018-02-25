@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 927fdd48-416e-4e8f-a29c-c2799952197e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_endpoint_reset, EvtUcxEndpointReset callback function [Buses], EvtUcxEndpointReset, EVT_UCX_ENDPOINT_RESET, EVT_UCX_ENDPOINT_RESET, ucxendpoint/EvtUcxEndpointReset, PEVT_UCX_ENDPOINT_RESET callback function pointer [Buses], PEVT_UCX_ENDPOINT_RESET
+ms.keywords: EVT_UCX_ENDPOINT_RESET, EvtUcxEndpointReset, EvtUcxEndpointReset callback function [Buses], PEVT_UCX_ENDPOINT_RESET, PEVT_UCX_ENDPOINT_RESET callback function pointer [Buses], buses.evt_ucx_endpoint_reset, ucxendpoint/EvtUcxEndpointReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

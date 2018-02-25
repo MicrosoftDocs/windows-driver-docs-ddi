@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5862e6eb-acf8-4034-ad8f-d59f87c49596
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION structure [Display Devices], display.dxgkmdt_opm_standard_information, DmStructs_95069fc9-f530-4764-900b-0fa6dee51656.xml, d3dkmdt/DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION"
+ms.keywords: ",  , ,, A, D, DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION structure [Display Devices], DmStructs_95069fc9-f530-4764-900b-0fa6dee51656.xml, F, G, I, K, M, N, O, P, R, S, T, X, _, _DXGKMDT_OPM_STANDARD_INFORMATION, d3dkmdt/DXGKMDT_OPM_STANDARD_INFORMATION, display.dxgkmdt_opm_standard_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -144,19 +144,19 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>
+
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a>
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 
@@ -168,11 +168,11 @@ Reserved. Must be set to zero.
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
 
 
 
@@ -180,7 +180,7 @@ Reserved. Must be set to zero.
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
 
 
 

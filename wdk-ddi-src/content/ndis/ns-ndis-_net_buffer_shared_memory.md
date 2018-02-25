@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 492bb1cd-fc3e-4e85-9074-32ebbf1fb837
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNET_BUFFER_SHARED_MEMORY structure pointer [Network Drivers Starting with Windows Vista], ndis_netbuf_macros_media_specific_5b9066cf-413a-4483-9b05-e06ceed9081e.xml, _NET_BUFFER_SHARED_MEMORY, netvista.net_buffer_shared_memory, *PNET_BUFFER_SHARED_MEMORY, ndis/PNET_BUFFER_SHARED_MEMORY, ndis/NET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_SHARED_MEMORY
+ms.keywords: ",  , *, *PNET_BUFFER_SHARED_MEMORY, ,, A, B, D, E, F, H, M, N, NET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY structure [Network Drivers Starting with Windows Vista], O, P, PNET_BUFFER_SHARED_MEMORY, PNET_BUFFER_SHARED_MEMORY structure pointer [Network Drivers Starting with Windows Vista], R, S, T, U, Y, _, _NET_BUFFER_SHARED_MEMORY, ndis/NET_BUFFER_SHARED_MEMORY, ndis/PNET_BUFFER_SHARED_MEMORY, ndis_netbuf_macros_media_specific_5b9066cf-413a-4483-9b05-e06ceed9081e.xml, netvista.net_buffer_shared_memory"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,12 +125,12 @@ Use the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/net-buffer-shared-mem-next-segment">
    NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568725">NET_BUFFER_SHARED_MEM_LENGTH</a>
 
 
 
@@ -138,15 +138,15 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568725">NET_BUFFER_SHARED_MEM_LENGTH</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>
 
 
 

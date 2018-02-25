@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 594614ee-0d30-4574-81ad-a523e7fadc2c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsPinGetConnectedPinInterface, KsPinGetConnectedPinInterface function [Streaming Media Devices], avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml, stream.kspingetconnectedpininterface, KsPinGetConnectedPinInterface
+ms.keywords: ",  , C, G, I, K, KsPinGetConnectedPinInterface, KsPinGetConnectedPinInterface function [Streaming Media Devices], P, a, avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml, c, d, e, f, i, ks/KsPinGetConnectedPinInterface, n, o, r, s, stream.kspingetconnectedpininterface, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,19 +125,11 @@ Otherwise, STATUS_UNSUCCESSFUL is returned.
 
 ## -see-also
 
+<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+
+
+
 <a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
-
-
-
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
-
-
-
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-
-
-
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
 
 
 
@@ -145,11 +137,19 @@ Otherwise, STATUS_UNSUCCESSFUL is returned.
 
 
 
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
+
+
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+
+
+<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
 
 
 

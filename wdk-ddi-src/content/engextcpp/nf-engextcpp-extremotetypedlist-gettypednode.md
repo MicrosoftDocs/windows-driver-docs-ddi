@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ExtRemoteTypedList class [Windows Debugging], GetTypedNode method, debugger.extremotetypedlist_gettypednode, GetTypedNode method [Windows Debugging], ExtRemoteTypedList class, EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, GetTypedNode method [Windows Debugging], ExtRemoteTypedList::GetTypedNode, ExtRemoteTypedList, GetTypedNode
+ms.keywords: ",  , ,, ., :, E, EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], GetTypedNode method, ExtRemoteTypedList::GetTypedNode, G, GetTypedNode method [Windows Debugging], GetTypedNode method [Windows Debugging], ExtRemoteTypedList class, GetTypedNode,ExtRemoteTypedList.GetTypedNode, L, N, R, T, d, debugger.extremotetypedlist_gettypednode, e, i, m, o, p, s, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DE95A3E9-3542-49EE-AA62-3430A6B2D7C7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PEP_COORDINATED_DEPENDENCY_OPTION, pepfx/PPEP_COORDINATED_DEPENDENCY_OPTION, PEP_COORDINATED_DEPENDENCY_OPTION structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_DEPENDENCY_OPTION structure pointer [Kernel-Mode Driver Architecture], PEP_COORDINATED_DEPENDENCY_OPTION, _PEP_COORDINATED_DEPENDENCY_OPTION, kernel.pep_coordinated_dependency_option, PPEP_COORDINATED_DEPENDENCY_OPTION, *PPEP_COORDINATED_DEPENDENCY_OPTION
+ms.keywords: ",  , *, *PPEP_COORDINATED_DEPENDENCY_OPTION, ,, A, C, D, E, I, N, O, P, PEP_COORDINATED_DEPENDENCY_OPTION, PEP_COORDINATED_DEPENDENCY_OPTION structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_DEPENDENCY_OPTION, PPEP_COORDINATED_DEPENDENCY_OPTION structure pointer [Kernel-Mode Driver Architecture], R, T, Y, _, _PEP_COORDINATED_DEPENDENCY_OPTION, kernel.pep_coordinated_dependency_option, pepfx/PEP_COORDINATED_DEPENDENCY_OPTION, pepfx/PPEP_COORDINATED_DEPENDENCY_OPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,11 +98,11 @@ Indicates if this state is a valid state for a dependent processor to be in.
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_pep_ppm_query_coordinated_dependency.md">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_ppm_query_coordinated_dependency.md">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>
 
 
 

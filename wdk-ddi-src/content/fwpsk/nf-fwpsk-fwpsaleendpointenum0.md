@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8b3257ea-9eeb-426b-8c82-a4f0242861a8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml, FwpsAleEndpointEnum0, netvista.fwpsaleendpointenum0, fwpsk/FwpsAleEndpointEnum0, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , 0, A, E, F, FwpsAleEndpointEnum0, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista], d, e, fwpsk/FwpsAleEndpointEnum0, i, l, m, n, netvista.fwpsaleendpointenum0, o, p, s, t, u, w, wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -176,8 +176,7 @@ When finished examining endpoint properties, the callout driver must call
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
-   FwpsAleEndpointGetSecurityInfo0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
 
 
@@ -186,12 +185,13 @@ When finished examining endpoint properties, the callout driver must call
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
+   FwpsAleEndpointGetSecurityInfo0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
    FwpsAleEndpointCreateEnumHandle0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
 
 

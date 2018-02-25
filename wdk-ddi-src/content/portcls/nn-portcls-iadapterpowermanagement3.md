@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5F0729DB-C991-4745-9550-9D25D6836A1F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.iadapterpowermanagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices], described, IAdapterPowerManagement3, portcls/IAdapterPowerManagement3
+ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices], described, audio.iadapterpowermanagement3, portcls/IAdapterPowerManagement3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -92,11 +92,11 @@ PortCls calls the PowerChangeState3 method to request a change to the new power 
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregisteradapterpowermanagement.md">PcRegisterAdapterPowerManagement</a>
-
-
-
 <a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcregisteradapterpowermanagement.md">PcRegisterAdapterPowerManagement</a>
 
 
 

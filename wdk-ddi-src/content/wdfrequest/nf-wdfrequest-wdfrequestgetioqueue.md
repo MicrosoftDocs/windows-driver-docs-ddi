@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b7d67a3-2899-47b1-9652-d3696d37ec2d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestGetIoQueue method, WdfRequestGetIoQueue, wdfrequest/WdfRequestGetIoQueue, DFRequestObjectRef_5ac140be-04cf-480c-a917-9942d23b550f.xml, kmdf.wdfrequestgetioqueue, wdf.wdfrequestgetioqueue
+ms.keywords: ",  , DFRequestObjectRef_5ac140be-04cf-480c-a917-9942d23b550f.xml, G, I, Q, R, W, WdfRequestGetIoQueue, WdfRequestGetIoQueue method, d, e, f, kmdf.wdfrequestgetioqueue, o, q, s, t, u, wdf.wdfrequestgetioqueue, wdfrequest/WdfRequestGetIoQueue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

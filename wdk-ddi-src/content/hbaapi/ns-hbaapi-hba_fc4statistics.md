@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1e37d2c-5688-4528-9cc5-62e70a7561fe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbaapi/HBA_FC4Statistics, hbaapi/PHBA_FC4STATISTICS, structs-Fibre_1ab7a8f5-1b91-44ea-82b7-9c9ee92ce0e5.xml, *PHBA_FC4STATISTICS, HBA_FC4Statistics, PHBA_FC4STATISTICS structure pointer [Storage Devices], HBA_FC4STATISTICS structure [Storage Devices], PHBA_FC4STATISTICS, HBA_FC4STATISTICS, HBA_FC4Statistics structure [Storage Devices], storage.hba_fc4statistics
+ms.keywords: ",  , *, *PHBA_FC4STATISTICS, ,, 4, A, B, C, F, H, HBA_FC4STATISTICS, HBA_FC4STATISTICS structure [Storage Devices], HBA_FC4Statistics, HBA_FC4Statistics structure [Storage Devices], I, P, PHBA_FC4STATISTICS, PHBA_FC4STATISTICS structure pointer [Storage Devices], S, T, _, a, c, hbaapi/HBA_FC4Statistics, hbaapi/PHBA_FC4STATISTICS, i, s, storage.hba_fc4statistics, structs-Fibre_1ab7a8f5-1b91-44ea-82b7-9c9ee92ce0e5.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

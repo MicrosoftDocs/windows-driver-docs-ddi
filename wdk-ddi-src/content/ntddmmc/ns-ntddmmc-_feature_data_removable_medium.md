@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b25feb68-75bb-4a9d-b842-e15f619a18c4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml, PFEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], _FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], *PFEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM
+ms.keywords: ",  , *, *PFEATURE_DATA_REMOVABLE_MEDIUM, ,, A, B, D, E, F, FEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], I, L, M, O, P, PFEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], R, T, U, V, _, _FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,11 +135,11 @@ This structure holds data for the feature named "Removable Medium" by the <i>MMC
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 

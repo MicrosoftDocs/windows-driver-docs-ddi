@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 68461243-ddf4-4883-84d2-4c105f1634b2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.finalizeerrorrecord, FinalizeErrorRecord callback function [WHEA Drivers and Applications], FinalizeErrorRecord, PSHED_PI_FINALIZE_ERROR_RECORD, PSHED_PI_FINALIZE_ERROR_RECORD, ntddk/FinalizeErrorRecord, whearef_fac1a23e-6b56-4b04-8930-e5f12f5c84a8.xml
+ms.keywords: FinalizeErrorRecord, FinalizeErrorRecord callback function [WHEA Drivers and Applications], PSHED_PI_FINALIZE_ERROR_RECORD, ntddk/FinalizeErrorRecord, whea.finalizeerrorrecord, whearef_fac1a23e-6b56-4b04-8930-e5f12f5c84a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -171,15 +171,7 @@ The PSHED calls a PSHED plug-in's <i>FinalizeErrorRecord</i> callback function a
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 
@@ -191,7 +183,15 @@ The PSHED calls a PSHED plug-in's <i>FinalizeErrorRecord</i> callback function a
 
 
 
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 

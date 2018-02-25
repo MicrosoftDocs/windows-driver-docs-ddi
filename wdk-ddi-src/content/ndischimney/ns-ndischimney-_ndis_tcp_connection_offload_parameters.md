@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8d3f971-2abc-425d-9929-518f093262a7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], tcp_chim_struct_481b5b2a-f226-4306-a2a9-640f711fb75b.xml, ndischimney/PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, netvista.ndis_tcp_connection_offload_parameters, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ndischimney/NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
+ms.keywords: ",  , *, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ,, A, C, D, E, F, I, L, M, N, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ndischimney/NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ndischimney/PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, netvista.ndis_tcp_connection_offload_parameters, tcp_chim_struct_481b5b2a-f226-4306-a2a9-640f711fb75b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -223,11 +223,8 @@ The
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">Full TCP Offload</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg158102.aspx">
+   OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a>
 
 
 
@@ -235,8 +232,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg158102.aspx">
-   OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">Full TCP Offload</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
 
 
 

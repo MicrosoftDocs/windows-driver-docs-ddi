@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1cfe2d2d-99fa-4dc2-b517-5026fd72d5d4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: namcache/RxNameCacheCreateEntry, ifsk.rxnamecachecreateentry, rxref_a1245999-8aba-4012-a143-609517c2686b.xml, RxNameCacheCreateEntry function [Installable File System Drivers], RxNameCacheCreateEntry
+ms.keywords: ",  , C, E, N, R, RxNameCacheCreateEntry, RxNameCacheCreateEntry function [Installable File System Drivers], a, c, e, h, ifsk.rxnamecachecreateentry, m, n, namcache/RxNameCacheCreateEntry, r, rxref_a1245999-8aba-4012-a143-609517c2686b.xml, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,10 +106,6 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 ## -see-also
 
-<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
-
-
-
 <a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
 
 
@@ -118,7 +114,7 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
+<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
 
 
 
@@ -126,7 +122,11 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
+<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
 
 
 
@@ -134,7 +134,7 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
 
 
 

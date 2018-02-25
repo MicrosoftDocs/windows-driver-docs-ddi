@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0cfcd019-0c5b-4635-859f-741a6e4aa91d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KTMOBJECT_CURSOR, PKTMOBJECT_CURSOR, wdm/PKTMOBJECT_CURSOR, _KTMOBJECT_CURSOR, wdm/KTMOBJECT_CURSOR, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], *PKTMOBJECT_CURSOR, kernel.ktmobject_cursor, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , *, *PKTMOBJECT_CURSOR, ,, B, C, E, J, K, KTMOBJECT_CURSOR, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], M, O, P, PKTMOBJECT_CURSOR, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], R, S, T, U, _, _KTMOBJECT_CURSOR, kernel.ktmobject_cursor, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, wdm/KTMOBJECT_CURSOR, wdm/PKTMOBJECT_CURSOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

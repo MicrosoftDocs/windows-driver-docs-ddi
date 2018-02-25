@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8a5d3fba-ffd5-4fbc-973a-d5bfec6bb6e3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DmEnums_62dac0af-5d16-4943-ad25-71a00d0d4e9e.xml, display.displayid_detailed_timing_type_i_scanning_mode, d3dkmdt/DIDDT1_Interlaced, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Progressive, DIDDT1_Interlaced, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, DIDDT1_Progressive
+ms.keywords: ",  , A, C, D, DIDDT1_Interlaced, DIDDT1_Progressive, DmEnums_62dac0af-5d16-4943-ad25-71a00d0d4e9e.xml, E, G, I, L, M, N, O, P, S, T, Y, _, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Interlaced, d3dkmdt/DIDDT1_Progressive, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, display.displayid_detailed_timing_type_i_scanning_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

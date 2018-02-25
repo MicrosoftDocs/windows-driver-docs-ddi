@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ea2b5338-81cf-4114-bb07-16e8ff4d2b95
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.capturetosysmem, CaptureToSysMem callback function [Display Devices], CaptureToSysMem, PFND3DDDI_CAPTURETOSYSMEM, PFND3DDDI_CAPTURETOSYSMEM, d3dumddi/CaptureToSysMem, UserModeDisplayDriver_Functions_9d7270cc-da5e-4c04-8ab6-93b9cfd7a475.xml
+ms.keywords: CaptureToSysMem, CaptureToSysMem callback function [Display Devices], PFND3DDDI_CAPTURETOSYSMEM, UserModeDisplayDriver_Functions_9d7270cc-da5e-4c04-8ab6-93b9cfd7a475.xml, d3dumddi/CaptureToSysMem, display.capturetosysmem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,11 +141,11 @@ The <b>CaptureToSysMem</b> function is similar to the <a href="..\d3dumddi\nc-d3
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_capturetosysmem.md">D3DDDIARG_CAPTURETOSYSMEM</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

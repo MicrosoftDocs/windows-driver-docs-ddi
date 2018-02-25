@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 31846ec9-0a4b-4e1f-9c14-c1b139f39c55
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskinspectcomplete, WskInspectComplete callback function [Network Drivers Starting with Windows Vista], WskInspectComplete, PFN_WSK_INSPECT_COMPLETE, PFN_WSK_INSPECT_COMPLETE, wsk/WskInspectComplete, wskref_af7aebea-0be9-457d-8404-6106b21312ec.xml
+ms.keywords: PFN_WSK_INSPECT_COMPLETE, WskInspectComplete, WskInspectComplete callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectcomplete, wsk/WskInspectComplete, wskref_af7aebea-0be9-457d-8404-6106b21312ec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -238,6 +238,14 @@ If the WSK application calls the
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
@@ -246,7 +254,7 @@ If the WSK application calls the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
 
 
 
@@ -254,19 +262,11 @@ If the WSK application calls the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
 
 

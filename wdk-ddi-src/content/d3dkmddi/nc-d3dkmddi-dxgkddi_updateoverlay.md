@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b131dbb9-1e11-4d04-97cb-e15ec2b025c7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiupdateoverlay, DxgkDdiUpdateOverlay callback function [Display Devices], DxgkDdiUpdateOverlay, DXGKDDI_UPDATEOVERLAY, DXGKDDI_UPDATEOVERLAY, d3dkmddi/DxgkDdiUpdateOverlay, DmFunctions_cc73fb5c-c4b9-476a-9227-fe2d15e288ea.xml
+ms.keywords: DXGKDDI_UPDATEOVERLAY, DmFunctions_cc73fb5c-c4b9-476a-9227-fe2d15e288ea.xml, DxgkDdiUpdateOverlay, DxgkDdiUpdateOverlay callback function [Display Devices], d3dkmddi/DxgkDdiUpdateOverlay, display.dxgkddiupdateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -168,11 +168,11 @@ The display miniport driver is not compatible with the user-mode display driver 
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
 
 
 

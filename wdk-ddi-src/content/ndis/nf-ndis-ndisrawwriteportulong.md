@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24abe892-7d49-4bc4-8862-e375f9862a5f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisRawWritePortUlong, miniport_port_raw_ref_54b23b9a-fb43-4591-a123-6c564850f5cf.xml, netvista.ndisrawwriteportulong, ndis/NdisRawWritePortUlong, NdisRawWritePortUlong macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , N, NdisRawWritePortUlong, NdisRawWritePortUlong macro [Network Drivers Starting with Windows Vista], P, R, U, W, a, d, e, g, i, l, miniport_port_raw_ref_54b23b9a-fb43-4591-a123-6c564850f5cf.xml, n, ndis/NdisRawWritePortUlong, netvista.ndisrawwriteportulong, o, r, s, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -92,18 +92,6 @@ Specifies the ULONG to be written.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
@@ -113,6 +101,18 @@ Specifies the ULONG to be written.
 
 
 <a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 

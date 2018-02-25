@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 11126cc9-43a1-41b1-adc9-13af57157d74
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: MappingAvailable, audio.iminiportwavepcistream_mappingavailable, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], MappingAvailable method, MappingAvailable method [Audio Devices], IMiniportWavePciStream::MappingAvailable, portcls/IMiniportWavePciStream::MappingAvailable, audmp-routines_931efc43-ec71-4b60-905a-47ec374da31e.xml, MappingAvailable method [Audio Devices], IMiniportWavePciStream interface
+ms.keywords: ",  , ,, ., :, A, I, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], MappingAvailable method, IMiniportWavePciStream::MappingAvailable, M, MappingAvailable method [Audio Devices], MappingAvailable method [Audio Devices], IMiniportWavePciStream interface, MappingAvailable,IMiniportWavePciStream.MappingAvailable, P, S, W, a, audio.iminiportwavepcistream_mappingavailable, audmp-routines_931efc43-ec71-4b60-905a-47ec374da31e.xml, b, c, e, g, i, l, m, n, o, p, portcls/IMiniportWavePciStream::MappingAvailable, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d94e3b80-b151-4b3a-a37d-bfba2850b28f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_ManageCalls, RIL_ManageCalls method [Network Drivers Starting with Windows Vista], RIL_ManageCalls, netvista.ril_managecalls
+ms.keywords: ",  , C, I, L, M, R, RIL_ManageCalls, RIL_ManageCalls method [Network Drivers Starting with Windows Vista], _, a, e, g, l, n, netvista.ril_managecalls, rilapi/RIL_ManageCalls, s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

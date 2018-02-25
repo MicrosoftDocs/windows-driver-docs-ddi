@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 42d70c1f-5cce-4097-849d-a5aa05b669b5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices], strmini/DebugLevelMaximum, DebugLevelInfo, DebugLevelTrace, stream.stream_debug_level, ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, strmini/DebugLevelError, STREAM_DEBUG_LEVEL, DebugLevelError, DebugLevelVerbose, strmini/DebugLevelTrace, strmini/DebugLevelVerbose, strmini/DebugLevelFatal, strmini/DebugLevelInfo, strmini/DebugLevelWarning, strmini/STREAM_DEBUG_LEVEL, DebugLevelMaximum, DebugLevelWarning, DebugLevelFatal
+ms.keywords: ",  , ,, A, B, D, DebugLevelError, DebugLevelFatal, DebugLevelInfo, DebugLevelMaximum, DebugLevelTrace, DebugLevelVerbose, DebugLevelWarning, E, G, L, M, R, S, STREAM_DEBUG_LEVEL, STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices], T, U, V, _, ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, stream.stream_debug_level, strmini/DebugLevelError, strmini/DebugLevelFatal, strmini/DebugLevelInfo, strmini/DebugLevelMaximum, strmini/DebugLevelTrace, strmini/DebugLevelVerbose, strmini/DebugLevelWarning, strmini/STREAM_DEBUG_LEVEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

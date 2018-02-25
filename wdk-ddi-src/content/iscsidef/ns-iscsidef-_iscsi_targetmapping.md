@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b8c5024-5d37-4f85-be00-1a60dd9ab323
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml, *PISCSI_TargetMapping, _ISCSI_TargetMapping, iscsidef/PISCSI_TargetMapping, iscsidef/ISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], ISCSI_TargetMapping structure [Storage Devices], storage.iscsi_targetmapping, ISCSI_TargetMapping, PISCSI_TargetMapping
+ms.keywords: ",  , *, *PISCSI_TargetMapping, ,, C, I, ISCSI_TargetMapping, ISCSI_TargetMapping structure [Storage Devices], M, P, PISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], S, T, _, _ISCSI_TargetMapping, a, e, g, i, iscsidef/ISCSI_TargetMapping, iscsidef/PISCSI_TargetMapping, n, p, r, storage.iscsi_targetmapping, structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,11 +127,11 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
 
 
 
@@ -139,7 +139,7 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 

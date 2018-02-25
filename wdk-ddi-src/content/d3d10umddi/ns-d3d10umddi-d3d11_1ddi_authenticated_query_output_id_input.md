@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7dd6da58-0105-4374-be01-58729f095d01
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, display.d3d11_1ddi_authenticated_query_output_id_input, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT structure [Display Devices], E, H, I, N, O, P, Q, R, T, U, Y, _, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, display.d3d11_1ddi_authenticated_query_output_id_input"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

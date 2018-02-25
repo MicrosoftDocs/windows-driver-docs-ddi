@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebef1d9f-9559-436c-b425-92ccf3bbf203
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortReadRegisterBufferUlong, video/VideoPortReadRegisterBufferUlong, display.videoportreadregisterbufferulong, VideoPortReadRegisterBufferUlong function [Display Devices], VideoPort_Functions_69ff5729-b386-4527-8bca-adc70e2d467d.xml
+ms.keywords: ",  , B, P, R, U, V, VideoPortReadRegisterBufferUlong, VideoPortReadRegisterBufferUlong function [Display Devices], VideoPort_Functions_69ff5729-b386-4527-8bca-adc70e2d467d.xml, a, d, display.videoportreadregisterbufferulong, e, f, g, i, l, n, o, r, s, t, u, video/VideoPortReadRegisterBufferUlong"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,15 +109,15 @@ Callers of <b>VideoPortReadRegisterBufferUlong</b> can be running at any IRQL, p
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-
-
-
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 

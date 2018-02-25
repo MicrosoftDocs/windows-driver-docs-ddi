@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1820e11c-0888-4d6d-aa75-b895c863eb43
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices], d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent"
+ms.keywords: ",  , ,, 3, D, D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices], E, K, L, M, N, O, P, R, S, T, U, _, _D3DKMT_OUTPUTDUPLPRESENT, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,11 +117,11 @@ The zero-based identification number of a video present source in a path of a vi
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplpresentflags.md">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
 
 
 

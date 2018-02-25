@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: af326cb1-446a-49b7-a381-472deb9ecc82
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/SeQuerySubjectContextToken, SeQuerySubjectContextToken, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml, SeQuerySubjectContextToken function [Installable File System Drivers], ifsk.sequerysubjectcontexttoken
+ms.keywords: ",  , C, Q, S, SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers], T, b, c, e, ifsk.sequerysubjectcontexttoken, j, k, n, ntifs/SeQuerySubjectContextToken, o, r, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -87,19 +87,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
 
 
 
@@ -111,7 +99,19 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
 
 
 

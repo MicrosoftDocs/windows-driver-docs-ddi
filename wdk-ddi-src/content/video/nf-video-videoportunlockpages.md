@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c233d4e1-285c-4f74-bb37-808cf855b19c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortUnlockPages function [Display Devices], VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, video/VideoPortUnlockPages, VideoPortUnlockPages, display.videoportunlockpages
+ms.keywords: ",  , P, U, V, VideoPortUnlockPages, VideoPortUnlockPages function [Display Devices], VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, a, c, d, display.videoportunlockpages, e, g, i, k, l, n, o, r, s, t, video/VideoPortUnlockPages"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

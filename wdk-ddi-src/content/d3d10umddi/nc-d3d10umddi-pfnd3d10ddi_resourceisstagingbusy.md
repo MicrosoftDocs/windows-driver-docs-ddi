@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df8498e2-a3b5-4bc8-b6d2-0d444f1d1485
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.resourceisstagingbusy, ResourceIsStagingBusy callback function [Display Devices], ResourceIsStagingBusy, PFND3D10DDI_RESOURCEISSTAGINGBUSY, PFND3D10DDI_RESOURCEISSTAGINGBUSY, d3d10umddi/ResourceIsStagingBusy, UserModeDisplayDriverDx10_Functions_4109ed72-e2a5-4b1a-bfc6-7e5ce9227efc.xml
+ms.keywords: PFND3D10DDI_RESOURCEISSTAGINGBUSY, ResourceIsStagingBusy, ResourceIsStagingBusy callback function [Display Devices], UserModeDisplayDriverDx10_Functions_4109ed72-e2a5-4b1a-bfc6-7e5ce9227efc.xml, d3d10umddi/ResourceIsStagingBusy, display.resourceisstagingbusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -117,15 +117,15 @@ The user-mode display driver is not required to flush any partially built comman
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
 
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

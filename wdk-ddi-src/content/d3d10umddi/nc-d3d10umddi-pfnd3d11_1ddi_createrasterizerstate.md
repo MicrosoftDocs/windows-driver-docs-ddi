@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5640e1c9-6a38-4eca-9048-0bc9ff66c43c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createrasterizerstate_d3d11_1_, CreateRasterizerState(D3D11_1) callback function [Display Devices], CreateRasterizerState(D3D11_1), PFND3D11_1DDI_CREATERASTERIZERSTATE, PFND3D11_1DDI_CREATERASTERIZERSTATE, d3d10umddi/CreateRasterizerState(D3D11_1), display.pfncreaterasterizerstate
+ms.keywords: CreateRasterizerState(D3D11_1), CreateRasterizerState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATERASTERIZERSTATE, d3d10umddi/CreateRasterizerState(D3D11_1), display.createrasterizerstate_d3d11_1_, display.pfncreaterasterizerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -133,15 +133,15 @@ The user-mode display driver is not required to create more than 4,096 unique in
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivaterasterizerstatesize.md">CalcPrivateRasterizerStateSize(D3D11_1)</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyrasterizerstate.md">DestroyRasterizerState</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

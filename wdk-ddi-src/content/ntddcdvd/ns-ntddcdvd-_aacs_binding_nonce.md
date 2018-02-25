@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8bbefe34-9653-4868-894f-a77c1fc9939f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PAACS_BINDING_NONCE, storage.aacs_binding_nonce, _AACS_BINDING_NONCE, *PAACS_BINDING_NONCE, AACS_BINDING_NONCE, PAACS_BINDING_NONCE structure pointer [Storage Devices], structs-DVD_4420e26a-681e-4942-9f90-699bcd80b37f.xml, ntddcdvd/PAACS_BINDING_NONCE, ntddcdvd/AACS_BINDING_NONCE, AACS_BINDING_NONCE structure [Storage Devices]
+ms.keywords: ",  , *, *PAACS_BINDING_NONCE, ,, A, AACS_BINDING_NONCE, AACS_BINDING_NONCE structure [Storage Devices], B, C, D, E, G, I, N, O, P, PAACS_BINDING_NONCE, PAACS_BINDING_NONCE structure pointer [Storage Devices], S, _, _AACS_BINDING_NONCE, ntddcdvd/AACS_BINDING_NONCE, ntddcdvd/PAACS_BINDING_NONCE, storage.aacs_binding_nonce, structs-DVD_4420e26a-681e-4942-9f90-699bcd80b37f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

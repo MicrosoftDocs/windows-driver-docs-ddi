@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 250c0022-ceaa-40c6-8431-9ec53438fdb9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PUSBSCAN_GET_DESCRIPTOR, usbscan/USBSCAN_GET_DESCRIPTOR, usbscan/PUSBSCAN_GET_DESCRIPTOR, PUSBSCAN_GET_DESCRIPTOR structure pointer [Imaging Devices], stifnc_1e92e306-420d-47ec-bb8a-8c906c3b62ea.xml, USBSCAN_GET_DESCRIPTOR, _USBSCAN_GET_DESCRIPTOR, USBSCAN_GET_DESCRIPTOR structure [Imaging Devices], image.usbscan_get_descriptor, PUSBSCAN_GET_DESCRIPTOR"
+ms.keywords: ",  , *, *PUSBSCAN_GET_DESCRIPTOR, ,, A, B, C, D, E, G, I, N, O, P, PUSBSCAN_GET_DESCRIPTOR, PUSBSCAN_GET_DESCRIPTOR structure pointer [Imaging Devices], R, S, T, U, USBSCAN_GET_DESCRIPTOR, USBSCAN_GET_DESCRIPTOR structure [Imaging Devices], _, _USBSCAN_GET_DESCRIPTOR, image.usbscan_get_descriptor, stifnc_1e92e306-420d-47ec-bb8a-8c906c3b62ea.xml, usbscan/PUSBSCAN_GET_DESCRIPTOR, usbscan/USBSCAN_GET_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

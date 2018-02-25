@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f4beff75-6177-40c7-a62c-6e24bc54ea58
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportwriteregisterushort, StorPortWriteRegisterUshort routine [Storage Devices], storport/StorPortWriteRegisterUshort, storprt_f4cd6932-3fd0-435f-87f3-7241a5778073.xml, StorPortWriteRegisterUshort
+ms.keywords: ",  , P, R, S, StorPortWriteRegisterUshort, StorPortWriteRegisterUshort routine [Storage Devices], U, W, e, g, h, i, o, r, s, storage.storportwriteregisterushort, storport/StorPortWriteRegisterUshort, storprt_f4cd6932-3fd0-435f-87f3-7241a5778073.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -107,7 +107,7 @@ Specifies the USHORT value to be written to the HBA's register.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteregisterushort.md">ScsiPortWriteRegisterUshort</a>
+<a href="..\storport\nf-storport-scsiportwriteregisterushort.md">ScsiPortWriteRegisterUshort</a>
 
 
 

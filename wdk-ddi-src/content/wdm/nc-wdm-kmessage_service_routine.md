@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f84e1835-33a4-4300-8701-ed73249f8119
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.interruptmessageservice, InterruptMessageService routine [Kernel-Mode Driver Architecture], InterruptMessageService, KMESSAGE_SERVICE_ROUTINE, KMESSAGE_SERVICE_ROUTINE, wdm/InterruptMessageService, DrvrRtns_1f39517a-fa8b-44a4-9e6c-2ecc428cd416.xml
+ms.keywords: DrvrRtns_1f39517a-fa8b-44a4-9e6c-2ecc428cd416.xml, InterruptMessageService, InterruptMessageService routine [Kernel-Mode Driver Architecture], KMESSAGE_SERVICE_ROUTINE, kernel.interruptmessageservice, wdm/InterruptMessageService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -170,11 +170,11 @@ The KMESSAGE_SERVICE_ROUTINE function type is defined in the Wdm.h header file. 
 
 
 
-<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
 
 
 

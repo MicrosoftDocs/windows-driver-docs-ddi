@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 64870c9f-facf-4344-93d0-12cbcec86e11
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.getcryptokeyexchangetype, GetCryptoKeyExchangeType callback function [Display Devices], GetCryptoKeyExchangeType, PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, d3d10umddi/GetCryptoKeyExchangeType
+ms.keywords: GetCryptoKeyExchangeType, GetCryptoKeyExchangeType callback function [Display Devices], PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, d3d10umddi/GetCryptoKeyExchangeType, display.getcryptokeyexchangetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

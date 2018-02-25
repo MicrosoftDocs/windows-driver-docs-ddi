@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d193398-752f-4aef-8ae6-59c9afabd79a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_SVCSTAT_DISABLED, netvista.rilservicesettingsstatus_2, rilapitypes/RILSERVICESETTINGSSTATUS, RIL_SVCSTAT_MAX, RIL_SVCSTAT_DISABLED, rilapitypes/RIL_SVCSTAT_MAX, rilapitypes/RIL_SVCSTAT_ENABLED, RIL_SVCSTAT_ENABLED, RILSERVICESETTINGSSTATUS, rilapitypes/RIL_SVCSTAT_DEFAULT, RIL_SVCSTAT_DEFAULT, RILSERVICESETTINGSSTATUS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , ,, A, C, E, G, I, L, N, R, RILSERVICESETTINGSSTATUS, RILSERVICESETTINGSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCSTAT_DEFAULT, RIL_SVCSTAT_DISABLED, RIL_SVCSTAT_ENABLED, RIL_SVCSTAT_MAX, S, T, U, V, netvista.rilservicesettingsstatus_2, rilapitypes/RILSERVICESETTINGSSTATUS, rilapitypes/RIL_SVCSTAT_DEFAULT, rilapitypes/RIL_SVCSTAT_DISABLED, rilapitypes/RIL_SVCSTAT_ENABLED, rilapitypes/RIL_SVCSTAT_MAX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f0c86720-4914-47b1-abb1-151196cc2a68
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExAllocateFromPagedLookasideList, kernel.exallocatefrompagedlookasidelist, ExAllocateFromPagedLookasideList, k102_96e03fc6-f951-4c96-8de4-32d67e85ec02.xml, ExAllocateFromPagedLookasideList routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , A, E, ExAllocateFromPagedLookasideList, ExAllocateFromPagedLookasideList routine [Kernel-Mode Driver Architecture], F, L, P, a, c, d, e, g, i, k, k102_96e03fc6-f951-4c96-8de4-32d67e85ec02.xml, kernel.exallocatefrompagedlookasidelist, l, m, o, r, s, t, wdm/ExAllocateFromPagedLookasideList, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

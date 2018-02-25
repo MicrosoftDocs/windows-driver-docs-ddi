@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4243ac31-83a7-47b5-8406-9d9537fbeb11
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS::GetGlobalAttribute, IPrintCoreHelperPS, GetGlobalAttribute, GetGlobalAttribute method [Print Devices], print.iprintcorehelperps_getglobalattribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute
+ms.keywords: ",  , ,, ., :, A, C, G, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface, GetGlobalAttribute,IPrintCoreHelperPS.GetGlobalAttribute, H, I, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, IPrintCoreHelperPS::GetGlobalAttribute, P, S, a, b, e, i, l, n, o, p, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, print.iprintcorehelperps_getglobalattribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -170,15 +170,15 @@ For more information about <b>IPrintCoreHelperPS::GetGlobalAttribute</b>, see <a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551998">IPrintCoreHelperPS::GetFeatureAttribute</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
 
 
 
 <a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551998">IPrintCoreHelperPS::GetFeatureAttribute</a>
 
 
 

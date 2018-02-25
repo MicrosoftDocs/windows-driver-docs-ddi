@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 637A210F-9FD7-49BD-AF71-8A77E07D5C20
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: printerextension/PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting_Device, PrintSchemaConstrainedSetting enumeration [Print Devices], printerextension/PrintSchemaConstrainedSetting_Device, tagPrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_PrintTicket, PrintSchemaConstrainedSetting, print.printschemaconstrainedsetting, PrintSchemaConstrainedSetting_PrintTicket, printerextension/PrintSchemaConstrainedSetting_Admin, PrintSchemaConstrainedSetting_Admin, PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting_None
+ms.keywords: ",  , ,, C, P, PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting enumeration [Print Devices], PrintSchemaConstrainedSetting_Admin, PrintSchemaConstrainedSetting_Device, PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_PrintTicket, S, a, c, d, e, g, h, i, m, n, o, print.printschemaconstrainedsetting, printerextension/PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_Admin, printerextension/PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting_PrintTicket, r, s, t, tagPrintSchemaConstrainedSetting"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: e21fa089-0650-4a3f-96f9-f479d36ef080
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.pi8042_keyboard_isr, KeyboardIsr callback function [Human Input Devices], KeyboardIsr, PI8042_KEYBOARD_ISR, PI8042_KEYBOARD_ISR, ntdd8042/KeyboardIsr, i8042ref_34293f47-3e6c-4721-ab58-8ac531543c8e.xml
+ms.keywords: KeyboardIsr, KeyboardIsr callback function [Human Input Devices], PI8042_KEYBOARD_ISR, hid.pi8042_keyboard_isr, i8042ref_34293f47-3e6c-4721-ab58-8ac531543c8e.xml, ntdd8042/KeyboardIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -135,7 +135,7 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
 
 
 
@@ -143,15 +143,15 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 
 
-<a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
-
-
-
 <a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
+
+
+
+<a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
 
 
 

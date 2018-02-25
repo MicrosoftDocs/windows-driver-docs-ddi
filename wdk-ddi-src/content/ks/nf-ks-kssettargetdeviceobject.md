@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d90f70d-8cbe-4c95-ae54-494ff404631a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsSetTargetDeviceObject, KsSetTargetDeviceObject function [Streaming Media Devices], ks/KsSetTargetDeviceObject, stream.kssettargetdeviceobject, ksfunc_f5e0140d-a6f3-49a1-a319-f55bdd5f0734.xml
+ms.keywords: ",  , D, K, KsSetTargetDeviceObject, KsSetTargetDeviceObject function [Streaming Media Devices], O, S, T, a, b, c, e, g, i, j, ks/KsSetTargetDeviceObject, ksfunc_f5e0140d-a6f3-49a1-a319-f55bdd5f0734.xml, r, s, stream.kssettargetdeviceobject, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,7 @@ If <b>KsSetDevicePnpAndBaseObject</b> is also used to assign the PnP object stac
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
-
-
-
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+<a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
 
 
 
@@ -113,7 +109,11 @@ If <b>KsSetDevicePnpAndBaseObject</b> is also used to assign the PnP object stac
 
 
 
-<a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
+<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+
+
+
+<a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
 
 
 

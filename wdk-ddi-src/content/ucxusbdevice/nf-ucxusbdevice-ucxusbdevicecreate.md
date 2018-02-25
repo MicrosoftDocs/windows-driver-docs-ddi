@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 36883440-805F-4588-AA04-3A7BCBEB6D76
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._ucxusbdevicecreate, UcxUsbDeviceCreate method [Buses], UcxUsbDeviceCreate, ucxusbdevice/UcxUsbDeviceCreate
+ms.keywords: ",  , C, D, U, UcxUsbDeviceCreate, UcxUsbDeviceCreate method [Buses], a, b, buses._ucxusbdevicecreate, c, e, i, r, s, t, ucxusbdevice/UcxUsbDeviceCreate, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

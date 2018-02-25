@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05FE0F91-781F-4B8B-87D1-E06BC315856C
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestSetActivityId, wdf.wdfrequestsetactivityid, WdfRequestSetActivityId method, wdfrequest/WdfRequestSetActivityId
+ms.keywords: ",  , A, I, R, S, W, WdfRequestSetActivityId, WdfRequestSetActivityId method, c, d, e, f, i, q, s, t, u, v, wdf.wdfrequestsetactivityid, wdfrequest/WdfRequestSetActivityId, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

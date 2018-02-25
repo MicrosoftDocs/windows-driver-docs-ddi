@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B91EF786-51F7-406E-BCC2-C917E6881886
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugSymbols4::GetScopeEx, IDebugSymbols4 interface [Windows Debugging], GetScopeEx method, GetScopeEx method [Windows Debugging], IDebugSymbols4 interface, GetScopeEx method [Windows Debugging], debugger.idebugsymbols4_getscopeex, GetScopeEx, IDebugSymbols4::GetScopeEx, IDebugSymbols4
+ms.keywords: ",  , ,, ., 4, :, D, E, G, GetScopeEx method [Windows Debugging], GetScopeEx method [Windows Debugging], IDebugSymbols4 interface, GetScopeEx,IDebugSymbols4.GetScopeEx, I, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], GetScopeEx method, IDebugSymbols4::GetScopeEx, S, b, c, dbgeng/IDebugSymbols4::GetScopeEx, debugger.idebugsymbols4_getscopeex, e, g, l, m, o, p, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

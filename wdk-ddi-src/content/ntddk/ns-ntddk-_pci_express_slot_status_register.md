@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1012abf2-a73b-49d9-8017-b0b1a1c7fbcd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml, ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI.pci_express_slot_status_register, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], *PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses]"
+ms.keywords: ",  , *, *PPCI_EXPRESS_SLOT_STATUS_REGISTER, ,, A, C, E, G, I, L, O, P, PCI.pci_express_slot_status_register, PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], R, S, T, U, X, _, _PCI_EXPRESS_SLOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

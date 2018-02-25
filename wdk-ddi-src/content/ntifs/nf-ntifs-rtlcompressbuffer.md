@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49fb1062-9709-4691-9655-8cbf3c5055fb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: COMPRESSION_FORMAT_XPRESS_HUFF, RtlCompressBuffer function [Installable File System Drivers], COMPRESSION_ENGINE_HIBER, COMPRESSION_ENGINE_STANDARD, COMPRESSION_FORMAT_NONE, COMPRESSION_ENGINE_MAXIMUM, ntifs/RtlCompressBuffer, RtlCompressBuffer, ifsk.rtlcompressbuffer, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_DEFAULT, rtlref_5d0857eb-eefe-4e85-8f89-fcbfe37ce41f.xml, COMPRESSION_FORMAT_XPRESS
+ms.keywords: ",  , B, C, COMPRESSION_ENGINE_HIBER, COMPRESSION_ENGINE_MAXIMUM, COMPRESSION_ENGINE_STANDARD, COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, R, RtlCompressBuffer, RtlCompressBuffer function [Installable File System Drivers], e, f, ifsk.rtlcompressbuffer, l, m, ntifs/RtlCompressBuffer, o, p, r, rtlref_5d0857eb-eefe-4e85-8f89-fcbfe37ce41f.xml, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -321,11 +321,7 @@ To extract an uncompressed fragment from a compressed buffer, use the <a href=".
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
 
 
 
@@ -333,7 +329,11 @@ To extract an uncompressed fragment from a compressed buffer, use the <a href=".
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+<a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
 
 
 

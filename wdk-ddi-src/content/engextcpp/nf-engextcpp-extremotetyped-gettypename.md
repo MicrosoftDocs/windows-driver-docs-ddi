@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 162b3a05-dccd-4df4-8728-801a8fb39afc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ExtRemoteTyped, GetTypeName method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], GetTypeName method, GetTypeName method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::GetTypeName, debugger.extremotetyped_gettypename, GetTypeName, EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml
+ms.keywords: ",  , ,, ., :, E, EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], GetTypeName method, ExtRemoteTyped::GetTypeName, G, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging], ExtRemoteTyped interface, GetTypeName,ExtRemoteTyped.GetTypeName, N, R, T, a, d, debugger.extremotetyped_gettypename, e, m, o, p, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,7 +78,7 @@ PSTR GetTypeName();
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extextension~r1.md">ExtExtension</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544527">EXT_DECLARE_GLOBALS</a>
 
 
 
@@ -90,7 +90,7 @@ PSTR GetTypeName();
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544527">EXT_DECLARE_GLOBALS</a>
+<a href="..\engextcpp\nl-engextcpp-extextension~r1.md">ExtExtension</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: a54f3fb4-032a-4538-8b6d-20d6834d08c4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbdlib/USBD_CalculateUsbBandwidth, usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml, USBD_CalculateUsbBandwidth, USBD_CalculateUsbBandwidth routine [Buses], buses.usbd_calculateusbbandwidth
+ms.keywords: ",  , B, C, D, S, U, USBD_CalculateUsbBandwidth, USBD_CalculateUsbBandwidth routine [Buses], _, a, b, buses.usbd_calculateusbbandwidth, c, d, e, h, i, l, n, s, t, u, usbdlib/USBD_CalculateUsbBandwidth, usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,11 +106,11 @@ The <b>USBD_CalculateUsbBandwidth</b> routine approximates the bandwidth using t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
 <a href="..\usb\ne-usb-_usbd_pipe_type.md">USBD_PIPE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
 
 

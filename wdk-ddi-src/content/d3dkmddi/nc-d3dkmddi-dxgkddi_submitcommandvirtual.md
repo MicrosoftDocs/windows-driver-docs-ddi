@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7A55FB51-BDC2-4215-895E-3250579BEAF0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisubmitcommandvirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], DxgkDdiSubmitCommandVirtual, DXGKDDI_SUBMITCOMMANDVIRTUAL, DXGKDDI_SUBMITCOMMANDVIRTUAL, d3dkmddi/DxgkDdiSubmitCommandVirtual
+ms.keywords: DXGKDDI_SUBMITCOMMANDVIRTUAL, DxgkDdiSubmitCommandVirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommandVirtual, display.dxgkddisubmitcommandvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -138,11 +138,11 @@ All other return values will lead to the OS <i>bugcheck</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommandvirtual.md">DXGKARG_SUBMITCOMMANDVIRTUAL</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommandvirtual.md">DXGKARG_SUBMITCOMMANDVIRTUAL</a>
 
 
 

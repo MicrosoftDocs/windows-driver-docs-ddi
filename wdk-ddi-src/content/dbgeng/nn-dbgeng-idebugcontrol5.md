@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6C358D49-970D-4687-B16E-7D1B44CB0A8E
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugcontrol5, IDebugControl5 interface [Windows Debugging], IDebugControl5 interface [Windows Debugging], described, IDebugControl5, dbgeng/IDebugControl5
+ms.keywords: IDebugControl5, IDebugControl5 interface [Windows Debugging], IDebugControl5 interface [Windows Debugging], described, dbgeng/IDebugControl5, debugger.idebugcontrol5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -117,7 +117,7 @@ The OutputStackTraceEx method outputs either the supplied stack frame or the cur
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -125,11 +125,11 @@ The OutputStackTraceEx method outputs either the supplied stack frame or the cur
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

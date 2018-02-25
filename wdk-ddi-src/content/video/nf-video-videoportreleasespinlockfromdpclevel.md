@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 375158e7-3fb5-4e49-a7cf-ee9a1e5c07ca
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPortReleaseSpinLockFromDpcLevel, display.videoportreleasespinlockfromdpclevel, VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, video/VideoPortReleaseSpinLockFromDpcLevel
+ms.keywords: ",  , D, F, L, P, R, S, V, VideoPortReleaseSpinLockFromDpcLevel, VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, a, c, d, display.videoportreleasespinlockfromdpclevel, e, i, k, l, m, n, o, p, r, s, t, v, video/VideoPortReleaseSpinLockFromDpcLevel"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,11 +108,11 @@ It is an error to call <b>VideoPortReleaseSpinLockFromDpcLevel</b> if the given 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
-
-
-
 <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
+
+
+
+<a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
 
 
 

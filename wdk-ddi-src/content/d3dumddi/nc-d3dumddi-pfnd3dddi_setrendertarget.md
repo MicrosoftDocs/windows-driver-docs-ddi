@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 067378bd-a2d8-4c83-9436-531519eadaa3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setrendertarget, SetRenderTarget callback function [Display Devices], SetRenderTarget, PFND3DDDI_SETRENDERTARGET, PFND3DDDI_SETRENDERTARGET, d3dumddi/SetRenderTarget, UserModeDisplayDriver_Functions_c6c2e714-ac5c-4106-98da-1d87a322c652.xml
+ms.keywords: PFND3DDDI_SETRENDERTARGET, SetRenderTarget, SetRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_c6c2e714-ac5c-4106-98da-1d87a322c652.xml, d3dumddi/SetRenderTarget, display.setrendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

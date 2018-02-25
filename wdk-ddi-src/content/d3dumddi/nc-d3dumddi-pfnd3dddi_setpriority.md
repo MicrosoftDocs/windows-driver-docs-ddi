@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61ac2d28-7aed-4796-8d09-591db936013b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setpriority, SetPriority callback function [Display Devices], SetPriority, PFND3DDDI_SETPRIORITY, PFND3DDDI_SETPRIORITY, d3dumddi/SetPriority, UserModeDisplayDriver_Functions_6e8f2a2a-f88b-45b6-9c59-b942cb44664b.xml
+ms.keywords: PFND3DDDI_SETPRIORITY, SetPriority, SetPriority callback function [Display Devices], UserModeDisplayDriver_Functions_6e8f2a2a-f88b-45b6-9c59-b942cb44664b.xml, d3dumddi/SetPriority, display.setpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -140,11 +140,11 @@ The Microsoft Direct3D runtime calls <i>SetPriority</i> to set the priority leve
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpriority.md">D3DDDIARG_SETPRIORITY</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpriority.md">D3DDDIARG_SETPRIORITY</a>
 
 
 

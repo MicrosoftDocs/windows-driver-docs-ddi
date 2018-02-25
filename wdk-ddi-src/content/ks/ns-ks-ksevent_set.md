@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0cfe3674-2261-44f5-a916-fb786bb25fe5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KSEVENT_SET, PKSEVENT_SET structure pointer [Streaming Media Devices], PKSEVENT_SET, *PKSEVENT_SET, ks-struct_f3a678ec-93b4-4b60-959a-ca750b4ac4c2.xml, KSEVENT_SET structure [Streaming Media Devices], stream.ksevent_set, ks/PKSEVENT_SET, KSEVENT_SET
+ms.keywords: ",  , *, *PKSEVENT_SET, ,, E, K, KSEVENT_SET, KSEVENT_SET structure [Streaming Media Devices], N, P, PKSEVENT_SET, PKSEVENT_SET structure pointer [Streaming Media Devices], S, T, V, _, ks-struct_f3a678ec-93b4-4b60-959a-ca750b4ac4c2.xml, ks/KSEVENT_SET, ks/PKSEVENT_SET, stream.ksevent_set"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

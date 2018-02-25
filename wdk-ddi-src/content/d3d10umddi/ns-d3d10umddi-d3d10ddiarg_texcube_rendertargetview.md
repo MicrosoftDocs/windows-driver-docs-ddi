@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cffd2c5d-847b-4ecd-b99d-5916e7b5bbd0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, UMDisplayDriver_Dx10param_Structs_ae4aad64-f7e2-4c42-9abc-0f241842170a.xml, display.d3d10ddiarg_texcube_rendertargetview, D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure [Display Devices], d3d10umddi/D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
+ms.keywords: ",  , ,, 0, 1, 3, A, B, C, D, D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure [Display Devices], E, G, I, N, R, T, U, UMDisplayDriver_Dx10param_Structs_ae4aad64-f7e2-4c42-9abc-0f241842170a.xml, V, W, X, _, d3d10umddi/D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, display.d3d10ddiarg_texcube_rendertargetview"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,11 +90,11 @@ typedef struct D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW {
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6e59a1c7-ddd4-40a6-8e75-879cbef010db
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxpdereferencenetfcb, RxpDereferenceNetFcb function [Installable File System Drivers], fcb/RxpDereferenceNetFcb, RxpDereferenceNetFcb, rxref_5b67e32d-12f2-4c52-9099-16505e00233f.xml
+ms.keywords: ",  , D, F, N, R, RxpDereferenceNetFcb, RxpDereferenceNetFcb function [Installable File System Drivers], b, c, e, f, fcb/RxpDereferenceNetFcb, ifsk.rxpdereferencenetfcb, n, p, r, rxref_5b67e32d-12f2-4c52-9099-16505e00233f.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

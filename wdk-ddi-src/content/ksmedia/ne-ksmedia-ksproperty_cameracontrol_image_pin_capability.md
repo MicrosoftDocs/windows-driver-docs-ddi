@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FB7FB950-079C-41DC-AB9D-AD5D7460D7A7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY enumeration [Streaming Media Devices], stream.ksproperty_cameracontrol_image_pin_capability, ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY
+ms.keywords: ",  , ,, A, B, C, E, G, I, K, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY_ID, L, M, N, O, P, R, S, T, Y, _, ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY, ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY_ID, stream.ksproperty_cameracontrol_image_pin_capability"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

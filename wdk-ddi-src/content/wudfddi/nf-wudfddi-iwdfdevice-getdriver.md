@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d17d970-56b7-494a-aa7b-d60065ff06d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfdevice_getdriver, GetDriver method, IWDFDevice interface, GetDriver method, wudfddi/IWDFDevice::GetDriver, wdf.iwdfdevice_getdriver, IWDFDevice::GetDriver, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, IWDFDevice interface, GetDriver method, GetDriver, IWDFDevice
+ms.keywords: ",  , ,, ., :, D, F, G, GetDriver method, GetDriver method, IWDFDevice interface, GetDriver,IWDFDevice.GetDriver, I, IWDFDevice, IWDFDevice interface, GetDriver method, IWDFDevice::GetDriver, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, W, c, e, i, r, t, umdf.iwdfdevice_getdriver, v, wdf.iwdfdevice_getdriver, wudfddi/IWDFDevice::GetDriver"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

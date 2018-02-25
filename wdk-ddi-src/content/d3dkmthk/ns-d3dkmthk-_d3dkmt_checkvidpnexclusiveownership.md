@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a7f05a0-11ae-49ed-9015-f2712cc77880
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, OpenGL_Structs_23afa7dd-8aaa-402b-9b99-235be17cd26e.xml, D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure [Display Devices], d3dkmthk/D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, display.d3dkmt_checkvidpnexclusiveownership"
+ms.keywords: ",  , ,, 3, C, D, D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure [Display Devices], E, H, I, K, L, M, N, O, OpenGL_Structs_23afa7dd-8aaa-402b-9b99-235be17cd26e.xml, P, R, S, T, U, V, W, X, _, _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, d3dkmthk/D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, display.d3dkmt_checkvidpnexclusiveownership"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,7 +80,7 @@ typedef struct _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckvidpnexclusiveownership.md">D3DKMTCheckVidPnExclusiveOwnership</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checkvidpnexclusiveownership.md">D3DKMTCheckVidPnExclusiveOwnership</a>
 
 
 

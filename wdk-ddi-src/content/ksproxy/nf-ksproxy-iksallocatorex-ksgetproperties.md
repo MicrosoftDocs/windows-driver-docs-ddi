@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 82F2FE7D-D02B-47A1-8FC7-2D5CFC4CADA1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsGetProperties method [Streaming Media Devices], IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsGetProperties, IKsAllocatorEx, KsGetProperties, stream.iksallocatorex_ksgetproperties, IKsAllocatorEx interface [Streaming Media Devices], KsGetProperties method, KsGetProperties method [Streaming Media Devices], IKsAllocatorEx::KsGetProperties
+ms.keywords: ",  , ,, ., :, A, E, G, I, IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], KsGetProperties method, IKsAllocatorEx::KsGetProperties, K, KsGetProperties method [Streaming Media Devices], KsGetProperties method [Streaming Media Devices], IKsAllocatorEx interface, KsGetProperties,IKsAllocatorEx.KsGetProperties, P, a, c, e, i, ksproxy/IKsAllocatorEx::KsGetProperties, l, o, p, r, s, stream.iksallocatorex_ksgetproperties, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

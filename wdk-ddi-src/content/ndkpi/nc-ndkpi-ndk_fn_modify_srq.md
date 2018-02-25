@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ABB42AC6-8483-420C-B9A9-063C91E4FB13
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_modify_srq, NdkModifySrq callback function [Network Drivers Starting with Windows Vista], NdkModifySrq, NDK_FN_MODIFY_SRQ, NDK_FN_MODIFY_SRQ, ndkpi/NdkModifySrq
+ms.keywords: NDK_FN_MODIFY_SRQ, NdkModifySrq, NdkModifySrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkModifySrq, netvista.ndk_fn_modify_srq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -176,11 +176,7 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
@@ -188,7 +184,11 @@ An error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
 
 

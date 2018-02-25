@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ffc6332b-7daa-4b23-8cf4-6077f7d1d40a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml, RxCeAllocateIrpWithMDL function [Installable File System Drivers], rxce/RxCeAllocateIrpWithMDL, ifsk.rxceallocateirpwithmdl, RxCeAllocateIrpWithMDL
+ms.keywords: ",  , A, C, D, I, L, M, R, RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL function [Installable File System Drivers], W, a, c, e, h, i, ifsk.rxceallocateirpwithmdl, l, o, p, r, rxce/RxCeAllocateIrpWithMDL, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

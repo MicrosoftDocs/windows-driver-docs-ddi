@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4537447a-17d5-4431-929c-7a8fda0f2986
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExRegisterCallback, kernel.exregistercallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, ExRegisterCallback
+ms.keywords: ",  , C, E, ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], R, a, b, c, e, g, i, k, k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, kernel.exregistercallback, l, r, s, t, wdm/ExRegisterCallback, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -156,15 +156,15 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
+
+
+
 <a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
 
 
 
 <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
-
-
-
-<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
 
 
 

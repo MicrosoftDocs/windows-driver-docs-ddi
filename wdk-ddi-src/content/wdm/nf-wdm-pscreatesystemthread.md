@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f6bfae4-8515-4fc4-aab3-9e16dbeda6da
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PsCreateSystemThread, PsCreateSystemThread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.pscreatesystemthread, k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml
+ms.keywords: ",  , C, P, PsCreateSystemThread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], S, T, a, d, e, h, k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, kernel.pscreatesystemthread, m, r, s, t, wdm/PsCreateSystemThread, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,7 +151,15 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
+
+
+
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
 
 
 
@@ -160,14 +168,6 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e23ae80-7c39-4cee-b1ab-80085f24d41f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFRemoteTarget::CloseForQueryRemove, umdf.iwdfremotetarget_closeforqueryremove, CloseForQueryRemove, CloseForQueryRemove method, CloseForQueryRemove method, IWDFRemoteTarget interface, UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, IWDFRemoteTarget, IWDFRemoteTarget interface, CloseForQueryRemove method, wudfddi/IWDFRemoteTarget::CloseForQueryRemove, wdf.iwdfremotetarget_closeforqueryremove
+ms.keywords: ",  , ,, ., :, C, CloseForQueryRemove method, CloseForQueryRemove method, IWDFRemoteTarget interface, CloseForQueryRemove,IWDFRemoteTarget.CloseForQueryRemove, D, F, I, IWDFRemoteTarget, IWDFRemoteTarget interface, CloseForQueryRemove method, IWDFRemoteTarget::CloseForQueryRemove, Q, R, T, UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, W, a, e, g, l, m, o, r, s, t, u, umdf.iwdfremotetarget_closeforqueryremove, v, wdf.iwdfremotetarget_closeforqueryremove, wudfddi/IWDFRemoteTarget::CloseForQueryRemove, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

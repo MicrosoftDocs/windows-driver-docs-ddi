@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ae3077a3-01a8-4578-9a26-b8b14ec51a7a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: usbscan/READ_DATA_PIPE, PIPE_TYPE, WRITE_DATA_PIPE, ALL_PIPE, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, usbscan/PIPE_TYPE, PIPE_TYPE enumeration [Imaging Devices], image.pipe_type, usbscan/EVENT_PIPE, usbscan/WRITE_DATA_PIPE, READ_DATA_PIPE, EVENT_PIPE, usbscan/ALL_PIPE
+ms.keywords: ",  , ,, ALL_PIPE, E, EVENT_PIPE, I, P, PIPE_TYPE, PIPE_TYPE enumeration [Imaging Devices], READ_DATA_PIPE, T, WRITE_DATA_PIPE, Y, _, image.pipe_type, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, usbscan/ALL_PIPE, usbscan/EVENT_PIPE, usbscan/PIPE_TYPE, usbscan/READ_DATA_PIPE, usbscan/WRITE_DATA_PIPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

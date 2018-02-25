@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 60FCFF5B-4040-423F-A9B6-2DFE7DDD9DD0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsGetEffectiveServerSilo, kernel.psgeteffectiveserversilo, ntddk/PsGetEffectiveServerSilo, PsGetEffectiveServerSilo routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , E, G, P, PsGetEffectiveServerSilo, PsGetEffectiveServerSilo routine [Kernel-Mode Driver Architecture], S, c, e, f, i, kernel.psgeteffectiveserversilo, l, ntddk/PsGetEffectiveServerSilo, o, r, s, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

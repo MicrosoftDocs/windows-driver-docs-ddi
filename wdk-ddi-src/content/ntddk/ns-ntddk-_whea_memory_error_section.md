@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_MEMORY_ERROR_SECTION, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, WHEA_MEMORY_ERROR, whea.whea_memory_error_section, _WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION
+ms.keywords: ",  , *, *PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, ,, A, C, E, H, I, M, N, O, P, PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], R, S, T, W, WHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], Y, _, _WHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -283,11 +283,7 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
 
 
 
@@ -295,7 +291,11 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 

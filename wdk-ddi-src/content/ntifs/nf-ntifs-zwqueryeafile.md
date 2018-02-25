@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c4261a83-3c91-4bc1-93bf-d2d04c324e94
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.zwqueryeafile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], ZwQueryEaFile, ntifs/ZwQueryEaFile
+ms.keywords: ",  , E, F, Q, Z, ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], a, e, i, kernel.zwqueryeafile, l, ntifs/ZwQueryEaFile, r, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

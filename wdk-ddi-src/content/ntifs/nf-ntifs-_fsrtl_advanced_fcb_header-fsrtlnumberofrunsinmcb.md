@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cb519cb5-5209-4ca6-92bc-860c53d3ca6c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlnumberofrunsinmcb, ntifs/FsRtlNumberOfRunsInMcb, FsRtlNumberOfRunsInMcb function [Installable File System Drivers], FsRtlNumberOfRunsInMcb, fsrtlref_2f405315-e2d0-45f0-95de-61b397b20f11.xml
+ms.keywords: ",  , F, FsRtlNumberOfRunsInMcb, FsRtlNumberOfRunsInMcb function [Installable File System Drivers], I, M, N, O, R, b, c, e, f, fsrtlref_2f405315-e2d0-45f0-95de-61b397b20f11.xml, ifsk.fsrtlnumberofrunsinmcb, l, m, n, ntifs/FsRtlNumberOfRunsInMcb, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

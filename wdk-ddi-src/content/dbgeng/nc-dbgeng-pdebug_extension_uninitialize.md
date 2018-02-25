@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 34585815-d683-4702-bbfe-76d5d9fe244c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.debugextensionuninitialize, DebugExtensionUninitialize, DebugExtensionUninitialize callback function [Windows Debugging], DebugExtensionUninitialize, PDEBUG_EXTENSION_UNINITIALIZE, PDEBUG_EXTENSION_UNINITIALIZE, dbgeng/DebugExtensionUninitialize, Extensions_Ref_76594e24-5f2d-495f-b8a9-6acec1f21ba4.xml
+ms.keywords: DebugExtensionUninitialize, DebugExtensionUninitialize callback function [Windows Debugging], Extensions_Ref_76594e24-5f2d-495f-b8a9-6acec1f21ba4.xml, PDEBUG_EXTENSION_UNINITIALIZE, dbgeng/DebugExtensionUninitialize, debugger.debugextensionuninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

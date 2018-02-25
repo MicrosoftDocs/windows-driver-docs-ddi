@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5E1CE999-8173-49B6-8CF7-F3A5B193A230
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportquerydepthslist, StorPortQueryDepthSList routine [Storage Devices], storport/StorPortQueryDepthSList, StorPortQueryDepthSList
+ms.keywords: ",  , D, L, P, Q, S, StorPortQueryDepthSList, StorPortQueryDepthSList routine [Storage Devices], e, h, i, o, p, r, s, storage.storportquerydepthslist, storport/StorPortQueryDepthSList, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,11 +146,11 @@ Since <b>StorPortQueryDepthSList</b> is not interlocked, the list  depth value p
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
-
-
-
 <a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
 
 
 
@@ -158,7 +158,7 @@ Since <b>StorPortQueryDepthSList</b> is not interlocked, the list  depth value p
 
 
 
-<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
+<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
 
 

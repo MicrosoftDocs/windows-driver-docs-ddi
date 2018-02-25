@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0474a8dc-e2e3-4c84-8058-6229bf0e9d62
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.isptr64, WdbgExts_Ref_488f3445-c3ae-4847-8e3b-cf3892dcd365.xml, IsPtr64, IsPtr64 function [Windows Debugging], wdbgexts/IsPtr64
+ms.keywords: ",  , 4, 6, I, IsPtr64, IsPtr64 function [Windows Debugging], P, WdbgExts_Ref_488f3445-c3ae-4847-8e3b-cf3892dcd365.xml, debugger.isptr64, r, s, t, wdbgexts/IsPtr64"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

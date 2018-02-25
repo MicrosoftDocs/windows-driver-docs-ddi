@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 66189a9a-241f-4457-87cd-d5d583a46f14
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ntddk/PWHEA_ERROR_PACKET_V1, *PWHEA_ERROR_PACKET, ntddk/WHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V1 structure [WHEA Drivers and Applications], PWHEA_ERROR_PACKET_V1 structure pointer [WHEA Drivers and Applications], _WHEA_ERROR_PACKET_V1, PWHEA_ERROR_PACKET_V1, *PWHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET_V1, whea.whea_error_packet_v1, whearef_d65ca9a6-c7ff-42f0-b7d5-763b6a34b924.xml
+ms.keywords: ",  , *, *PWHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V1, ,, 1, A, C, E, H, K, O, P, PWHEA_ERROR_PACKET_V1, PWHEA_ERROR_PACKET_V1 structure pointer [WHEA Drivers and Applications], R, T, V, W, WHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET_V1 structure [WHEA Drivers and Applications], _, _WHEA_ERROR_PACKET_V1, ntddk/PWHEA_ERROR_PACKET_V1, ntddk/WHEA_ERROR_PACKET_V1, whea.whea_error_packet_v1, whearef_d65ca9a6-c7ff-42f0-b7d5-763b6a34b924.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -238,15 +238,11 @@ The WHEA_ERROR_PACKET_V1 structure describes the error data that is contained in
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_v2.md">WHEA_ERROR_PACKET_V2</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">Platform-Specific Hardware Error Driver (PSHED) Plug-Ins</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_v2.md">WHEA_ERROR_PACKET_V2</a>
 
 
 
@@ -254,11 +250,7 @@ The WHEA_ERROR_PACKET_V1 structure describes the error data that is contained in
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
-
-
-
-<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
+<a href="..\ntddk\ne-ntddk-_whea_raw_data_format.md">WHEA_RAW_DATA_FORMAT</a>
 
 
 
@@ -266,7 +258,15 @@ The WHEA_ERROR_PACKET_V1 structure describes the error data that is contained in
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_nmi_error_section.md">WHEA_NMI_ERROR_SECTION</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">Platform-Specific Hardware Error Driver (PSHED) Plug-Ins</a>
 
 
 
@@ -274,15 +274,7 @@ The WHEA_ERROR_PACKET_V1 structure describes the error data that is contained in
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
-
-
-
-<a href="..\ntddk\ne-ntddk-_whea_raw_data_format.md">WHEA_RAW_DATA_FORMAT</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
+<a href="..\ntddk\ns-ntddk-_whea_nmi_error_section.md">WHEA_NMI_ERROR_SECTION</a>
 
 
 
@@ -291,6 +283,14 @@ The WHEA_ERROR_PACKET_V1 structure describes the error data that is contained in
 
 
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
 
 
 

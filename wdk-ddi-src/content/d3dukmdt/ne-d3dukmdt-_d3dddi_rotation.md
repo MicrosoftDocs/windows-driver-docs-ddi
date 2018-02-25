@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c167b958-bd09-441e-9680-f193da5ad77f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dukmdt/D3DDDI_ROTATION_270, D3DDDI_ROTATION_270, D3DDDI_ROTATION_90, D3DDDI_ROTATION_IDENTITY, _D3DDDI_ROTATION, display.d3dddi_rotation, d3dukmdt/D3DDDI_ROTATION, D3DDDI_ROTATION enumeration [Display Devices], d3dukmdt/D3DDDI_ROTATION_IDENTITY, D3DDDI_ROTATION, D3D_other_Structs_0f55b4dd-2156-4590-a2c7-1daebcc16ba3.xml, d3dukmdt/D3DDDI_ROTATION_90, D3DDDI_ROTATION_180, d3dukmdt/D3DDDI_ROTATION_180
+ms.keywords: ",  , ,, 3, A, D, D3DDDI_ROTATION, D3DDDI_ROTATION enumeration [Display Devices], D3DDDI_ROTATION_180, D3DDDI_ROTATION_270, D3DDDI_ROTATION_90, D3DDDI_ROTATION_IDENTITY, D3D_other_Structs_0f55b4dd-2156-4590-a2c7-1daebcc16ba3.xml, I, N, O, R, T, _, _D3DDDI_ROTATION, d3dukmdt/D3DDDI_ROTATION, d3dukmdt/D3DDDI_ROTATION_180, d3dukmdt/D3DDDI_ROTATION_270, d3dukmdt/D3DDDI_ROTATION_90, d3dukmdt/D3DDDI_ROTATION_IDENTITY, display.d3dddi_rotation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

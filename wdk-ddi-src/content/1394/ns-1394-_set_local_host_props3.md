@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: f49a8b86-5611-4737-9b25-e7446e155bbc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PSET_LOCAL_HOST_PROPS3, 1394/PSET_LOCAL_HOST_PROPS3, IEEE.set_local_host_props3, SET_LOCAL_HOST_PROPS3 structure [Buses], PSET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3 structure pointer [Buses], _SET_LOCAL_HOST_PROPS3, 1394/SET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3, 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml"
+ms.keywords: ",  , *, *PSET_LOCAL_HOST_PROPS3, ,, 1394/PSET_LOCAL_HOST_PROPS3, 1394/SET_LOCAL_HOST_PROPS3, 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml, 3, A, C, E, H, IEEE.set_local_host_props3, L, O, P, PSET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3 structure pointer [Buses], R, S, SET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3 structure [Buses], T, _, _SET_LOCAL_HOST_PROPS3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

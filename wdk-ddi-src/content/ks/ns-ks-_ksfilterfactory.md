@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c40e25f8-e6e5-43bc-895d-a6b247d07470
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: avstruct_def7ad6b-4cda-4677-abbc-3f8a458fbc87.xml, _KSFILTERFACTORY, ks/KSFILTERFACTORY, ks/PKSFILTERFACTORY, KSFILTERFACTORY, *PKSFILTERFACTORY, KSFILTERFACTORY structure [Streaming Media Devices], stream.ksfilterfactory, PKSFILTERFACTORY, PKSFILTERFACTORY structure pointer [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSFILTERFACTORY, ,, A, C, E, F, I, K, KSFILTERFACTORY, KSFILTERFACTORY structure [Streaming Media Devices], L, O, P, PKSFILTERFACTORY, PKSFILTERFACTORY structure pointer [Streaming Media Devices], R, S, T, Y, _, _KSFILTERFACTORY, avstruct_def7ad6b-4cda-4677-abbc-3f8a458fbc87.xml, ks/KSFILTERFACTORY, ks/PKSFILTERFACTORY, stream.ksfilterfactory"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

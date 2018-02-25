@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d2d0c14-a311-4235-9ceb-4b703ef602fe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCchCatW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCatW, ntstrsafe/RtlStringCchCatA, RtlStringCchCat, safestrings_03a0e306-3b4e-4808-b257-a8327b688a08.xml, RtlStringCchCatA, kernel.rtlstringcchcat, RtlStringCchCatW
+ms.keywords: ",  , C, R, RtlStringCchCat, RtlStringCchCatA, RtlStringCchCatW, RtlStringCchCatW function [Kernel-Mode Driver Architecture], S, W, a, c, g, h, i, kernel.rtlstringcchcat, l, n, ntstrsafe/RtlStringCchCatA, ntstrsafe/RtlStringCchCatW, r, safestrings_03a0e306-3b4e-4808-b257-a8327b688a08.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

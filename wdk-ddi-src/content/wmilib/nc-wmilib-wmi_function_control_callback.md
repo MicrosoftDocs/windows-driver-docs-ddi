@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c1480927-eefa-4078-a866-68dc1b7c5e9c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.dpwmifunctioncontrol, DpWmiFunctionControl, DpWmiFunctionControl callback function [Kernel-Mode Driver Architecture], DpWmiFunctionControl, WMI_FUNCTION_CONTROL_CALLBACK, WMI_FUNCTION_CONTROL_CALLBACK, wmilib/DpWmiFunctionControl, k903_d43ba720-8de2-411d-ae6c-3ba6b7bfe3ca.xml
+ms.keywords: DpWmiFunctionControl, DpWmiFunctionControl callback function [Kernel-Mode Driver Architecture], WMI_FUNCTION_CONTROL_CALLBACK, k903_d43ba720-8de2-411d-ae6c-3ba6b7bfe3ca.xml, kernel.dpwmifunctioncontrol, wmilib/DpWmiFunctionControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -158,15 +158,7 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550848">IRP_MN_DISABLE_COLLECTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
-
-
-
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 
@@ -174,11 +166,19 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550851">IRP_MN_DISABLE_EVENTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550848">IRP_MN_DISABLE_COLLECTION</a>
 
 
 
 <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550851">IRP_MN_DISABLE_EVENTS</a>
+
+
+
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 

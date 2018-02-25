@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 107C7EB4-9C72-49CF-A330-7D517CC67F35
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStiDeviceControl::RawDeviceControl, IStiDeviceControl, stiusd/IStiDeviceControl::RawDeviceControl, RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, image.istidevicecontrol_rawdevicecontrol, IStiDeviceControl interface [Imaging Devices], RawDeviceControl method, RawDeviceControl method [Imaging Devices], RawDeviceControl
+ms.keywords: ",  , ,, ., :, C, D, I, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], RawDeviceControl method, IStiDeviceControl::RawDeviceControl, R, RawDeviceControl method [Imaging Devices], RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, RawDeviceControl,IStiDeviceControl.RawDeviceControl, S, a, c, e, i, image.istidevicecontrol_rawdevicecontrol, l, n, o, r, stiusd/IStiDeviceControl::RawDeviceControl, t, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

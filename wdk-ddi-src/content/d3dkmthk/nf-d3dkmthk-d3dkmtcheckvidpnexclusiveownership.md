@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 06333989-177c-4c58-b95a-60313c04fe35
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_edc90d51-f7e4-4bb5-be24-1a32b9fb4461.xml, display.d3dkmtcheckvidpnexclusiveownership, D3DKMTCheckVidPnExclusiveOwnership, d3dkmthk/D3DKMTCheckVidPnExclusiveOwnership, D3DKMTCheckVidPnExclusiveOwnership function [Display Devices], PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
+ms.keywords: ",  , 3, C, D, D3DKMTCheckVidPnExclusiveOwnership, D3DKMTCheckVidPnExclusiveOwnership function [Display Devices], E, K, M, O, OpenGL_Functions_edc90d51-f7e4-4bb5-be24-1a32b9fb4461.xml, P, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, T, V, c, d, d3dkmthk/D3DKMTCheckVidPnExclusiveOwnership, display.d3dkmtcheckvidpnexclusiveownership, e, h, i, k, l, n, p, r, s, u, v, w, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

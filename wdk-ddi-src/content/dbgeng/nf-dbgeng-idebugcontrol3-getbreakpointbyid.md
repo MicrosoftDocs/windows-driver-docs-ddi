@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6873609d-7f5a-474d-8b48-fee9f93c812b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/IDebugControl3::GetBreakpointById, GetBreakpointById method [Windows Debugging], IDebugControl interface, GetBreakpointById method [Windows Debugging], IDebugControl3 interface, GetBreakpointById method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetBreakpointById, IDebugControl::GetBreakpointById, IDebugControl3 interface [Windows Debugging], GetBreakpointById method, dbgeng/IDebugControl::GetBreakpointById, IDebugControl2 interface [Windows Debugging], GetBreakpointById method, IDebugControl3::GetBreakpointById, IDebugControl_641f8e32-6c08-4b63-89c6-877b52a86ab2.xml, IDebugControl3, GetBreakpointById method [Windows Debugging], IDebugControl, IDebugControl2, IDebugControl interface [Windows Debugging], GetBreakpointById method, GetBreakpointById, debugger.getbreakpointbyid, dbgeng/IDebugControl2::GetBreakpointById
+ms.keywords: ",  , ,, ., 3, :, B, C, D, G, GetBreakpointById method [Windows Debugging], GetBreakpointById method [Windows Debugging], IDebugControl interface, GetBreakpointById method [Windows Debugging], IDebugControl2 interface, GetBreakpointById method [Windows Debugging], IDebugControl3 interface, GetBreakpointById,IDebugControl.GetBreakpointById, GetBreakpointById,IDebugControl2.GetBreakpointById, GetBreakpointById,IDebugControl3.GetBreakpointById, I, IDebugControl, IDebugControl interface [Windows Debugging], GetBreakpointById method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetBreakpointById method, IDebugControl2::GetBreakpointById, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetBreakpointById method, IDebugControl3::GetBreakpointById, IDebugControl::GetBreakpointById, IDebugControl_641f8e32-6c08-4b63-89c6-877b52a86ab2.xml, a, b, d, dbgeng/IDebugControl2::GetBreakpointById, dbgeng/IDebugControl3::GetBreakpointById, dbgeng/IDebugControl::GetBreakpointById, debugger.getbreakpointbyid, e, g, i, k, l, n, o, p, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -130,6 +130,10 @@ If the specified breakpoint does not belong to the current process, the method w
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
 
 
@@ -139,10 +143,6 @@ If the specified breakpoint does not belong to the current process, the method w
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

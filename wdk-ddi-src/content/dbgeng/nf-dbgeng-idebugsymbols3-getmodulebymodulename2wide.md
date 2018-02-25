@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 49e27e24-d38a-4a22-a92f-33a384437250
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugSymbols3, dbgeng/IDebugSymbols3::GetModuleByModuleName2Wide, IDebugSymbols3::GetModuleByModuleName2Wide, debugger.getmodulebymodulename2wide, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2Wide method, GetModuleByModuleName2Wide method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleName2Wide method [Windows Debugging], GetModuleByModuleName2Wide
+ms.keywords: ",  , ,, ., 2, 3, :, B, D, G, GetModuleByModuleName2Wide method [Windows Debugging], GetModuleByModuleName2Wide method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleName2Wide,IDebugSymbols3.GetModuleByModuleName2Wide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2Wide method, IDebugSymbols3::GetModuleByModuleName2Wide, M, N, S, W, a, b, d, dbgeng/IDebugSymbols3::GetModuleByModuleName2Wide, debugger.getmodulebymodulename2wide, e, g, i, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -176,11 +176,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547095">GetModuleByModuleName</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547095">GetModuleByModuleName</a>
 
 
 

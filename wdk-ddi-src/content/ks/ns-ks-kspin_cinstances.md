@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 90C861C3-26E0-43C0-A4CA-FD5491995DAB
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KSPIN_CINSTANCES, *PKSPIN_CINSTANCES, PKSPIN_CINSTANCES, KSPIN_CINSTANCES structure [Streaming Media Devices], KSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], stream.kspin_cinstances, ks/PKSPIN_CINSTANCES
+ms.keywords: ",  , *, *PKSPIN_CINSTANCES, ,, A, C, E, I, K, KSPIN_CINSTANCES, KSPIN_CINSTANCES structure [Streaming Media Devices], N, P, PKSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], S, T, _, ks/KSPIN_CINSTANCES, ks/PKSPIN_CINSTANCES, stream.kspin_cinstances"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

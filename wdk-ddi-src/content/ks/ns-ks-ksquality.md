@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 36caaea9-2354-4ed8-9649-5eb102def8d5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KSQUALITY, KSQUALITY, stream.ksquality, KSQUALITY structure [Streaming Media Devices], PKSQUALITY, PKSQUALITY structure pointer [Streaming Media Devices], *PKSQUALITY, ks-struct_a2b63e1c-e5b4-437d-a5ba-0746f8388eef.xml, ks/PKSQUALITY
+ms.keywords: ",  , *, *PKSQUALITY, ,, A, I, K, KSQUALITY, KSQUALITY structure [Streaming Media Devices], L, P, PKSQUALITY, PKSQUALITY structure pointer [Streaming Media Devices], Q, S, T, U, Y, ks-struct_a2b63e1c-e5b4-437d-a5ba-0746f8388eef.xml, ks/KSQUALITY, ks/PKSQUALITY, stream.ksquality"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

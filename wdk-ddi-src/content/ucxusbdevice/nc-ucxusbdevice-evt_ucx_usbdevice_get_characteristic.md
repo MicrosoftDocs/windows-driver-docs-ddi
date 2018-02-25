@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: EE8568F6-3D88-477E-9F0D-044D014EBCF3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_get_characteristic, EvtUcxDeviceGetCharacteristic callback function [Buses], EvtUcxDeviceGetCharacteristic, EVT_UCX_USBDEVICE_GET_CHARACTERISTIC, EVT_UCX_USBDEVICE_GET_CHARACTERISTIC, ucxusbdevice/EvtUcxDeviceGetCharacteristic, *PFN_UCX_USBDEVICE_GET_CHARACTERISTIC callback function pointer [Buses], *PFN_UCX_USBDEVICE_GET_CHARACTERISTIC
+ms.keywords: "*PFN_UCX_USBDEVICE_GET_CHARACTERISTIC, *PFN_UCX_USBDEVICE_GET_CHARACTERISTIC callback function pointer [Buses], EVT_UCX_USBDEVICE_GET_CHARACTERISTIC, EvtUcxDeviceGetCharacteristic, EvtUcxDeviceGetCharacteristic callback function [Buses], buses.evt_ucx_usbdevice_get_characteristic, ucxusbdevice/EvtUcxDeviceGetCharacteristic"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

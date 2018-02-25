@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 61537680-0453-4484-b07a-e0d90b45c412
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl4::GetSpecificFilterArgumentWide, GetSpecificFilterArgumentWide, debugger.getspecificfilterargumentwide, GetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4, GetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetSpecificFilterArgumentWide, IDebugControl4 interface [Windows Debugging], GetSpecificFilterArgumentWide method
+ms.keywords: ",  , ,, ., 4, :, A, C, D, F, G, GetSpecificFilterArgumentWide method [Windows Debugging], GetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, GetSpecificFilterArgumentWide,IDebugControl4.GetSpecificFilterArgumentWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSpecificFilterArgumentWide method, IDebugControl4::GetSpecificFilterArgumentWide, S, W, b, c, d, dbgeng/IDebugControl4::GetSpecificFilterArgumentWide, debugger.getspecificfilterargumentwide, e, f, g, i, l, m, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -140,7 +140,7 @@ For a list of specific filters that have argument and the interpretation of thos
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
 
 
 
@@ -148,7 +148,7 @@ For a list of specific filters that have argument and the interpretation of thos
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

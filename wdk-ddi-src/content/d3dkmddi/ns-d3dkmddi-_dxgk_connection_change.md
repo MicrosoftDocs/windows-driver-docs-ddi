@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0B0D640C-3E4B-4DE0-AA11-C751F210C77A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change, d3dkmddi/DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], DXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE, d3dkmddi/PDXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices]"
+ms.keywords: ",  , *, *PDXGK_CONNECTION_CHANGE, ,, A, C, D, DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], E, G, H, I, K, N, O, P, PDXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], T, X, _, _DXGK_CONNECTION_CHANGE, d3dkmddi/DXGK_CONNECTION_CHANGE, d3dkmddi/PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

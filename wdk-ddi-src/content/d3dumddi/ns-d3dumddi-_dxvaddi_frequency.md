@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5bfb02f6-4482-4260-827f-54c5f74b6b46
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], display.dxvaddi_frequency, _DXVADDI_FREQUENCY, d3dumddi/DXVADDI_FREQUENCY
+ms.keywords: ",  , ,, A, C, D, DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], E, F, I, N, Q, R, U, V, X, Y, _, _DXVADDI_FREQUENCY, d3dumddi/DXVADDI_FREQUENCY, display.dxvaddi_frequency"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

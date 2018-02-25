@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0F016D21-34CD-43DD-BE39-C6DF6D63A3AC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/File_TIMESTAMPS, ifsk.file_timestamps, FILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], _FILE_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], *PFILE_TIMESTAMPS, PFILE_TIMESTAMPS
+ms.keywords: ",  , *, *PFILE_TIMESTAMPS, ,, A, E, F, FILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], I, L, M, P, PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], S, T, _, _FILE_TIMESTAMPS, ifsk.file_timestamps, ntifs/File_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

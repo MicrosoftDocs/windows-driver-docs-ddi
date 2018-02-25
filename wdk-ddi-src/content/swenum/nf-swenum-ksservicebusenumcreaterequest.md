@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 23a2dd4d-ea30-4646-a4c3-bc90ad60933d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsServiceBusEnumCreateRequest function [Streaming Media Devices], swenum/KsServiceBusEnumCreateRequest, ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, stream.ksservicebusenumcreaterequest, KsServiceBusEnumCreateRequest
+ms.keywords: ",  , B, C, E, K, KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices], R, S, a, c, e, i, ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, m, n, q, r, s, stream.ksservicebusenumcreaterequest, swenum/KsServiceBusEnumCreateRequest, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a394f539-bd66-44e2-a857-d657a123b473
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, kmdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle, wdf.wdfdevicestopidle, WdfDeviceStopIdle, WdfDeviceStopIdle method
+ms.keywords: ",  , D, DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, I, S, W, WdfDeviceStopIdle, WdfDeviceStopIdle method, c, d, e, f, i, kmdf.wdfdevicestopidle, l, o, p, t, v, wdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -138,15 +138,15 @@ status = WdfDeviceStopIdle(Device, TRUE);</pre>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932460">WdfDeviceStopIdleWithTag</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn932459">WdfDeviceResumeIdleWithTag</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceresumeidle.md">WdfDeviceResumeIdle</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932460">WdfDeviceStopIdleWithTag</a>
 
 
 

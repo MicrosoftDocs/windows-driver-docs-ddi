@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F2CE35C8-F3BA-49E3-AE27-2FC5BFEC2D58
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfrequestgetrequestorprocessid, WdfRequestGetRequestorProcessId method, WdfRequestGetRequestorProcessId, wdfrequest/WdfRequestGetRequestorProcessId
+ms.keywords: ",  , G, I, P, R, W, WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId method, c, d, e, f, o, q, r, s, t, u, wdf.wdfrequestgetrequestorprocessid, wdfrequest/WdfRequestGetRequestorProcessId"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

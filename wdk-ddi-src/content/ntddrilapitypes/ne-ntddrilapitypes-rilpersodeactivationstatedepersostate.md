@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81147a47-b5aa-4f00-812d-2c6cf9d5ab8b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilpersodeactivationstatedepersostate, RIL_DEPERSOSTATE_PUK_BLOCKED, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED, RIL_DEPERSOSTATE_PUK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_MAX, ntddrilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RIL_DEPERSOSTATE_CK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED, RIL_DEPERSOSTATE_MAX, RILPERSODEACTIVATIONSTATEDEPERSOSTATE
+ms.keywords: ",  , ,, A, C, D, E, I, L, N, O, P, R, RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_DEPERSOSTATE_CK_REQUIRED, RIL_DEPERSOSTATE_MAX, RIL_DEPERSOSTATE_PUK_BLOCKED, RIL_DEPERSOSTATE_PUK_REQUIRED, S, T, V, netvista.rilpersodeactivationstatedepersostate, ntddrilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE, ntddrilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_MAX, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

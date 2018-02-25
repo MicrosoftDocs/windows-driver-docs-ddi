@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E95D2713-8F95-460E-9107-4793B002A6AC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ufx_proprietary_charger_detect, UfxProprietaryChargerDetect callback function [Buses], UfxProprietaryChargerDetect, UFX_PROPRIETARY_CHARGER_DETECT, UFX_PROPRIETARY_CHARGER_DETECT, ufxproprietarycharger/UfxProprietaryChargerDetect, PFN_UFX_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], PFN_UFX_PROPRIETARY_CHARGER_DETECT
+ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_DETECT, PFN_UFX_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_DETECT, UfxProprietaryChargerDetect, UfxProprietaryChargerDetect callback function [Buses], buses.ufx_proprietary_charger_detect, ufxproprietarycharger/UfxProprietaryChargerDetect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

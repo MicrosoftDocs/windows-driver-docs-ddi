@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b441fbca-75fe-4b9d-a9d5-2ad5a4a55801
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.iwiaerrorhandler_interface, IWiaErrorHandler interface [Imaging Devices], IWiaErrorHandler interface [Imaging Devices], described, IWiaErrorHandler, wia_lh/IWiaErrorHandler, IWiaErrorHandler_0a501695-14b7-4aab-aee8-19ce74caea94.xml
+ms.keywords: IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], IWiaErrorHandler interface [Imaging Devices], described, IWiaErrorHandler_0a501695-14b7-4aab-aee8-19ce74caea94.xml, image.iwiaerrorhandler_interface, wia_lh/IWiaErrorHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

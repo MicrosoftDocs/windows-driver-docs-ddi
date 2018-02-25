@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E602F16A-AFD8-4698-AC90-1686887FFEA6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensorsdef/ActivityState_InVehicle, sensorsdef/ActivityState_Walking, ActivityState_Idle, sensorsdef/ActivityState_Force_Dword, sensorsdef/ActivityState_Fidgeting, ActivityState_Max, sensorsdef/ActivityState_Unknown, ActivityState_Running, sensors.activity_states, sensorsdef/ActivityState_Biking, ACTIVITY_STATE enumeration [Sensor Devices], ActivityState_Stationary, ActivityState_Biking, sensorsdef/ActivityState_Stationary, sensorsdef/ACTIVITY_STATE, ActivityState_InVehicle, ActivityState_Unknown, sensorsdef/ActivityState_Idle, ACTIVITY_STATE, ActivityState_Fidgeting, sensorsdef/ActivityState_Running, ActivityState_Walking, ActivityState_Force_Dword, sensorsdef/ActivityState_Max
+ms.keywords: ",  , ,, A, ACTIVITY_STATE, ACTIVITY_STATE enumeration [Sensor Devices], ActivityState_Biking, ActivityState_Fidgeting, ActivityState_Force_Dword, ActivityState_Idle, ActivityState_InVehicle, ActivityState_Max, ActivityState_Running, ActivityState_Stationary, ActivityState_Unknown, ActivityState_Walking, C, E, I, S, T, V, Y, _, sensors.activity_states, sensorsdef/ACTIVITY_STATE, sensorsdef/ActivityState_Biking, sensorsdef/ActivityState_Fidgeting, sensorsdef/ActivityState_Force_Dword, sensorsdef/ActivityState_Idle, sensorsdef/ActivityState_InVehicle, sensorsdef/ActivityState_Max, sensorsdef/ActivityState_Running, sensorsdef/ActivityState_Stationary, sensorsdef/ActivityState_Unknown, sensorsdef/ActivityState_Walking"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

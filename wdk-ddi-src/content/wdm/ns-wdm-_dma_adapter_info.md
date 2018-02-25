@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 181C3421-85D1-457E-85A5-42C84AE41BD6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DMA_ADAPTER_INFO structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO, wdm/PDMA_ADAPTER_INFO, wdm/DMA_ADAPTER_INFO, _DMA_ADAPTER_INFO, DMA_ADAPTER_INFO, PDMA_ADAPTER_INFO structure pointer [Kernel-Mode Driver Architecture], *PDMA_ADAPTER_INFO, kernel.dma_adapter_info
+ms.keywords: ",  , *, *PDMA_ADAPTER_INFO, ,, A, D, DMA_ADAPTER_INFO, DMA_ADAPTER_INFO structure [Kernel-Mode Driver Architecture], E, F, I, M, N, O, P, PDMA_ADAPTER_INFO, PDMA_ADAPTER_INFO structure pointer [Kernel-Mode Driver Architecture], R, T, _, _DMA_ADAPTER_INFO, kernel.dma_adapter_info, wdm/DMA_ADAPTER_INFO, wdm/PDMA_ADAPTER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

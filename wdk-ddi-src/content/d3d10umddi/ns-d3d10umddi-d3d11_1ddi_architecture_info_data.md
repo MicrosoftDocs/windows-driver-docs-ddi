@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 262d511d-2846-415d-b1b8-2687f12f9f78
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3d11_1ddi_architecture_info_data, d3d10umddi/D3D11_1DDI_ARCHITECTURE_INFO_DATA, D3D11_1DDI_ARCHITECTURE_INFO_DATA, D3D11_1DDI_ARCHITECTURE_INFO_DATA structure [Display Devices]
+ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_ARCHITECTURE_INFO_DATA, D3D11_1DDI_ARCHITECTURE_INFO_DATA structure [Display Devices], E, F, H, I, N, O, R, T, U, _, d3d10umddi/D3D11_1DDI_ARCHITECTURE_INFO_DATA, display.d3d11_1ddi_architecture_info_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 44B8C5DF-D25F-4688-8EDB-135B63802BB6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugcontrol7, IDebugControl7 interface [Windows Debugging], IDebugControl7 interface [Windows Debugging], described, IDebugControl7, dbgeng/IDebugControl7
+ms.keywords: IDebugControl7, IDebugControl7 interface [Windows Debugging], IDebugControl7 interface [Windows Debugging], described, dbgeng/IDebugControl7, debugger.idebugcontrol7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -81,15 +81,7 @@ The GetDebuggeeType2 method describes the nature of the current target.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -101,7 +93,15 @@ The GetDebuggeeType2 method describes the nature of the current target.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 

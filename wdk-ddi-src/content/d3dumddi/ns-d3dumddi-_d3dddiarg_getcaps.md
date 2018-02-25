@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50063bd0-c9d4-4013-8f83-8f9d92aa87c0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_GETCAPS, display.d3dddiarg_getcaps, d3dumddi/D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS structure [Display Devices], UMDisplayDriver_param_Structs_05260c15-4f63-4a85-b9c8-db53ed8135cd.xml, _D3DDDIARG_GETCAPS
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS structure [Display Devices], E, G, I, P, R, S, T, UMDisplayDriver_param_Structs_05260c15-4f63-4a85-b9c8-db53ed8135cd.xml, _, _D3DDDIARG_GETCAPS, d3dumddi/D3DDDIARG_GETCAPS, display.d3dddiarg_getcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,11 +101,11 @@ For information on how to specify <b>D3DDDIARG_GETCAPS</b> member values along w
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 

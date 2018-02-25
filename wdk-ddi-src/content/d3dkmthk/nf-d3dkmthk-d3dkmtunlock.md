@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d672d99a-973f-46b3-b46c-cb0a82a85ede
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmtunlock, OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, d3dkmthk/D3DKMTUnlock, D3DKMTUnlock function [Display Devices], D3DKMTUnlock
+ms.keywords: ",  , 3, D, D3DKMTUnlock, D3DKMTUnlock function [Display Devices], K, M, OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, T, U, c, d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock, k, l, n, o"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

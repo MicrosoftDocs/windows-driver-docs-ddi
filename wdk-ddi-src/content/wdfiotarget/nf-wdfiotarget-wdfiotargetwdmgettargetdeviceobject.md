@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 199c2fd6-ecff-4b72-b55d-086687989485
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfiotargetwdmgettargetdeviceobject, WdfIoTargetWdmGetTargetDeviceObject method, wdfiotarget/WdfIoTargetWdmGetTargetDeviceObject, WdfIoTargetWdmGetTargetDeviceObject, kmdf.wdfiotargetwdmgettargetdeviceobject, DFIOTargetRef_82d5005b-ced0-4ae5-8a73-8714d2895ead.xml
+ms.keywords: ",  , D, DFIOTargetRef_82d5005b-ced0-4ae5-8a73-8714d2895ead.xml, G, I, O, T, W, WdfIoTargetWdmGetTargetDeviceObject, WdfIoTargetWdmGetTargetDeviceObject method, a, b, c, d, e, f, g, i, j, kmdf.wdfiotargetwdmgettargetdeviceobject, m, o, r, t, v, wdf.wdfiotargetwdmgettargetdeviceobject, wdfiotarget/WdfIoTargetWdmGetTargetDeviceObject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,15 +135,15 @@ The following code example checks an I/O target's WDM DEVICE_OBJECT structure to
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md">WdfIoTargetWdmGetTargetFileHandle</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md">WdfIoTargetWdmGetTargetFileHandle</a>
 
 
 

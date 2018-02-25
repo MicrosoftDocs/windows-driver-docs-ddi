@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NmrClientAttachProvider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml, netioddk/NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], netvista.nmrclientattachprovider
+ms.keywords: ",  , A, C, N, NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], P, a, c, d, e, h, i, l, m, n, netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml, o, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -217,11 +217,11 @@ If the
 
 ## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
-
-
-
 <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
 
 

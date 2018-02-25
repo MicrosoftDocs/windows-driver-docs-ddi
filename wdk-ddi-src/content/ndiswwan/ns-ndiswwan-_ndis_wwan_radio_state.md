@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61173af4-5b6f-47e9-b236-6b45bcd83a9f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_WWAN_RADIO_STATE, *PNDIS_WWAN_RADIO_STATE, WwanRef_24973f17-426f-492f-ac5e-1f2651dcebd1.xml, ndiswwan/NDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_RADIO_STATE, _NDIS_WWAN_RADIO_STATE, PNDIS_WWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_RADIO_STATE, netvista.ndis_wwan_radio_state
+ms.keywords: ",  , *, *PNDIS_WWAN_RADIO_STATE, ,, A, D, E, I, N, NDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_WWAN_RADIO_STATE, PNDIS_WWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], R, S, T, W, WwanRef_24973f17-426f-492f-ac5e-1f2651dcebd1.xml, _, _NDIS_WWAN_RADIO_STATE, ndiswwan/NDIS_WWAN_RADIO_STATE, ndiswwan/PNDIS_WWAN_RADIO_STATE, netvista.ndis_wwan_radio_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -202,11 +202,11 @@ Miniport drivers can set the
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a>
 
 
 

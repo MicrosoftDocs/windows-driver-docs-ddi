@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c4e3d6b-e000-4ac4-b200-966689d05426
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ipigenericcall, IpiGenericCall routine [Kernel-Mode Driver Architecture], IpiGenericCall, KIPI_BROADCAST_WORKER, KIPI_BROADCAST_WORKER, wdm/IpiGenericCall, DrvrRtns_80b940d9-3d19-4525-af3f-8e4058c57ddc.xml
+ms.keywords: DrvrRtns_80b940d9-3d19-4525-af3f-8e4058c57ddc.xml, IpiGenericCall, IpiGenericCall routine [Kernel-Mode Driver Architecture], KIPI_BROADCAST_WORKER, kernel.ipigenericcall, wdm/IpiGenericCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

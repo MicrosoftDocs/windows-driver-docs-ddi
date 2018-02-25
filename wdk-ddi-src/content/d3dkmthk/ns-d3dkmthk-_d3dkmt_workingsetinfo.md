@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1a5b75e4-abdd-4916-b2b5-4dbb53a525ae
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMT_WORKINGSETINFO, display.d3dkmt_workingsetinfo, OpenGL_Structs_a3992911-10eb-48fe-a755-fe14e68fbaa8.xml, D3DKMT_WORKINGSETINFO, D3DKMT_WORKINGSETINFO structure [Display Devices], _D3DKMT_WORKINGSETINFO
+ms.keywords: ",  , ,, 3, D, D3DKMT_WORKINGSETINFO, D3DKMT_WORKINGSETINFO structure [Display Devices], E, F, G, I, K, M, N, O, OpenGL_Structs_a3992911-10eb-48fe-a755-fe14e68fbaa8.xml, R, S, T, W, _, _D3DKMT_WORKINGSETINFO, d3dkmthk/D3DKMT_WORKINGSETINFO, display.d3dkmt_workingsetinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

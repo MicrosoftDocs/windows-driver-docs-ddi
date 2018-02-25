@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 93b155eb-0254-441f-b01f-3da8eb7376a5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, drvInitializeWia, drvInitializeWia method [Imaging Devices], IWiaMiniDrv::drvInitializeWia, wiamindr_lh/IWiaMiniDrv::drvInitializeWia, image.iwiaminidrv_drvinitializewia, IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method, IWiaMiniDrv, drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface
+ms.keywords: ",  , ,, ., :, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method, IWiaMiniDrv::drvInitializeWia, M, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, W, a, d, drvInitializeWia method [Imaging Devices], drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvInitializeWia,IWiaMiniDrv.drvInitializeWia, e, i, image.iwiaminidrv_drvinitializewia, l, n, r, t, v, wiamindr_lh/IWiaMiniDrv::drvInitializeWia, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -194,11 +194,11 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
 
 
 
@@ -206,7 +206,7 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4A8123D3-3A7D-4716-BD02-DD6533DB22F6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnofferallocations2cb, pfnOfferAllocations2Cb callback function [Display Devices], pfnOfferAllocations2Cb, PFND3DDDI_OFFERALLOCATIONS2CB, PFND3DDDI_OFFERALLOCATIONS2CB, d3dumddi/pfnOfferAllocations2Cb
+ms.keywords: PFND3DDDI_OFFERALLOCATIONS2CB, d3dumddi/pfnOfferAllocations2Cb, display.pfnofferallocations2cb, pfnOfferAllocations2Cb, pfnOfferAllocations2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -169,7 +169,7 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">pfnOfferResources</a>
 
 
 
@@ -177,7 +177,7 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">pfnOfferResources</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 

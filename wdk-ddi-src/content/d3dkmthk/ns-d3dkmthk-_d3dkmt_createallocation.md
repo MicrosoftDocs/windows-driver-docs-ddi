@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e698027-23f8-4765-a4ac-955cd4b24a70
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Structs_983d37f8-47ad-40ea-b3da-2a211e9f0967.xml, _D3DKMT_CREATEALLOCATION, display.d3dkmt_createallocation, d3dkmthk/D3DKMT_CREATEALLOCATION, D3DKMT_CREATEALLOCATION structure [Display Devices], D3DKMT_CREATEALLOCATION
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CREATEALLOCATION, D3DKMT_CREATEALLOCATION structure [Display Devices], E, I, K, L, M, N, O, OpenGL_Structs_983d37f8-47ad-40ea-b3da-2a211e9f0967.xml, R, T, _, _D3DKMT_CREATEALLOCATION, d3dkmthk/D3DKMT_CREATEALLOCATION, display.d3dkmt_createallocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,7 +92,7 @@ typedef struct _D3DKMT_CREATEALLOCATION {
 
 [in/out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the resource that is associated with the allocations. The value in <b>hResource</b> should always be zero unless an allocation will be added to an existing resource, in which case <b>hResource</b> contains the resource handle. 
 
-When the <b>CreateResource</b> bit-field flag is set in the <b>Flags</b> member, the OpenGL runtime generates a unique handle and passes it back to the driver. On output from the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateallocation.md">D3DKMTCreateAllocation</a> function, <b>hResource</b> specifies the handle that the driver should use in subsequent OpenGL runtime calls to identify the resource. The resource handle that is returned is device-specific and is valid only when used with the device that it was created on.
+When the <b>CreateResource</b> bit-field flag is set in the <b>Flags</b> member, the OpenGL runtime generates a unique handle and passes it back to the driver. On output from the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createallocation.md">D3DKMTCreateAllocation</a> function, <b>hResource</b> specifies the handle that the driver should use in subsequent OpenGL runtime calls to identify the resource. The resource handle that is returned is device-specific and is valid only when used with the device that it was created on.
 
 
 ### -field hGlobalShare
@@ -155,11 +155,11 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createallocation.md">D3DKMTCreateAllocation</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a>
-
-
-
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateallocation.md">D3DKMTCreateAllocation</a>
 
 
 

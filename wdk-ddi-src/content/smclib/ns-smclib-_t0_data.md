@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: CC827018-F6B2-48DF-BF0A-36654F866BD9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: smclib/T0_DATA, smartcrd.t0_data, PT0_DATA, *PT0_DATA, _T0_DATA, smclib/PT0_DATA, T0_DATA structure [Smart Card Reader Devices], PT0_DATA structure pointer [Smart Card Reader Devices], T0_DATA
+ms.keywords: ",  , *, *PT0_DATA, ,, 0, A, D, P, PT0_DATA, PT0_DATA structure pointer [Smart Card Reader Devices], T, T0_DATA, T0_DATA structure [Smart Card Reader Devices], _, _T0_DATA, smartcrd.t0_data, smclib/PT0_DATA, smclib/T0_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

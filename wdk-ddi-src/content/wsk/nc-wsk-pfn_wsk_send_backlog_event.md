@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e944af6f-6753-48b0-b3f6-0709f24e3ff0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wsksendbacklogevent, WskSendBacklogEvent callback function [Network Drivers Starting with Windows Vista], WskSendBacklogEvent, PFN_WSK_SEND_BACKLOG_EVENT, PFN_WSK_SEND_BACKLOG_EVENT, wsk/WskSendBacklogEvent, wskref_9b34fa29-9c3a-4aa2-8ceb-3f637c4902cd.xml
+ms.keywords: PFN_WSK_SEND_BACKLOG_EVENT, WskSendBacklogEvent, WskSendBacklogEvent callback function [Network Drivers Starting with Windows Vista], netvista.wsksendbacklogevent, wsk/WskSendBacklogEvent, wskref_9b34fa29-9c3a-4aa2-8ceb-3f637c4902cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,19 +153,11 @@ A WSK application's <i>WskSendBacklogEvent</i> event callback function must not 
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 
@@ -174,11 +166,19 @@ A WSK application's <i>WskSendBacklogEvent</i> event callback function must not 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
 
 

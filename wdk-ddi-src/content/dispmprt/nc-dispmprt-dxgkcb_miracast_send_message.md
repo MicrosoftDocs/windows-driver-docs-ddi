@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbmiracastsendmessage, DxgkCbMiracastSendMessage callback function [Display Devices], DxgkCbMiracastSendMessage, DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE, dispmprt/DxgkCbMiracastSendMessage
+ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -205,7 +205,7 @@ DriverCallbackFunction(
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
 
 
 
@@ -213,7 +213,7 @@ DriverCallbackFunction(
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 779fd7ff-e4d6-45b4-8164-186e9cb89513
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.setscissorrect, SetScissorRect callback function [Display Devices], SetScissorRect, PFND3DDDI_SETSCISSORRECT, PFND3DDDI_SETSCISSORRECT, d3dumddi/SetScissorRect, UserModeDisplayDriver_Functions_bd6b8a3d-d007-4272-9d43-f65c5da3959a.xml
+ms.keywords: PFND3DDDI_SETSCISSORRECT, SetScissorRect, SetScissorRect callback function [Display Devices], UserModeDisplayDriver_Functions_bd6b8a3d-d007-4272-9d43-f65c5da3959a.xml, d3dumddi/SetScissorRect, display.setscissorrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

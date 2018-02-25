@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 686D141E-E6EA-4BB6-8556-0ECAC592E8F0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportfreehostmemorybuffer, StorPortFreeHostMemoryBuffer, storport/StorPortFreeHostMemoryBuffer, StorPortFreeHostMemoryBuffer routine [Storage Devices]
+ms.keywords: ",  , B, F, H, M, P, S, StorPortFreeHostMemoryBuffer, StorPortFreeHostMemoryBuffer routine [Storage Devices], e, f, m, o, r, s, storage.storportfreehostmemorybuffer, storport/StorPortFreeHostMemoryBuffer, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

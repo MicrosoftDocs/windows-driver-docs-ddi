@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c4e83638-4931-460f-848b-ceb0f7a00afb
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfrequest/WDF_REQUEST_PARAMETERS_INIT, WDF_REQUEST_PARAMETERS_INIT, kmdf.wdf_request_parameters_init, wdf.wdf_request_parameters_init, WDF_REQUEST_PARAMETERS_INIT function, DFRequestObjectRef_1c1e97cb-9ca1-473a-aa30-d39fdadbc726.xml
+ms.keywords: ",  , A, D, DFRequestObjectRef_1c1e97cb-9ca1-473a-aa30-d39fdadbc726.xml, E, F, I, M, N, P, Q, R, S, T, U, W, WDF_REQUEST_PARAMETERS_INIT, WDF_REQUEST_PARAMETERS_INIT function, _, kmdf.wdf_request_parameters_init, wdf.wdf_request_parameters_init, wdfrequest/WDF_REQUEST_PARAMETERS_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,11 @@ MyEvtIoDefault(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
-
-
-
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 

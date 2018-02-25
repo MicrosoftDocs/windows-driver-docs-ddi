@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec1db013-b630-421b-8d22-385a2d9b9510
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortSetBusDataByOffset routine [Storage Devices], StorPortSetBusDataByOffset, storport/StorPortSetBusDataByOffset, storage.storportsetbusdatabyoffset, storprt_ebb2afc1-b190-4674-8ee7-bd61953565ab.xml
+ms.keywords: ",  , B, D, O, P, S, StorPortSetBusDataByOffset, StorPortSetBusDataByOffset routine [Storage Devices], a, e, f, o, r, s, storage.storportsetbusdatabyoffset, storport/StorPortSetBusDataByOffset, storprt_ebb2afc1-b190-4674-8ee7-bd61953565ab.xml, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,7 @@ Pointer to the miniport driver's per-HBA storage area.
 
 ### -param BusDataType [in]
 
-Contains a value of type <a href="..\miniport\ne-miniport-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of the bus for which configuration information is to be written. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
+Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of the bus for which configuration information is to be written. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
 
 
 ### -param SystemIoBusNumber [in]

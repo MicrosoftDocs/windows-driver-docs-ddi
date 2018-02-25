@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 65b64678-09dc-4bc2-8362-d15eba5a828a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PWNODE_SINGLE_ITEM, wmistr/WNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM, wmistr/PWNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], tagWNODE_SINGLE_ITEM, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, kernel.wnode_single_item"
+ms.keywords: ",  , *, *PWNODE_SINGLE_ITEM, ,, D, E, G, I, L, M, N, O, P, PWNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], S, T, W, WNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], _, a, g, kernel.wnode_single_item, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, t, tagWNODE_SINGLE_ITEM, wmistr/PWNODE_SINGLE_ITEM, wmistr/WNODE_SINGLE_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,11 +122,11 @@ A driver builds a <b>WNODE_SINGLE_ITEM</b> to generate an event that consists of
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 

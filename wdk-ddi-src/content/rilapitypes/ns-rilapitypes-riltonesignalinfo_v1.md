@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c6685a19-73d3-4725-90b8-7c859791381a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.riltonesignalinfo_v1_2, RILTONESIGNALINFO_V1 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILTONESIGNALINFO_V1, *LPRILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1
+ms.keywords: ",  , *, *LPRILTONESIGNALINFO_V1, ,, 1, A, E, F, G, I, L, N, O, P, R, RILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1 structure [Network Drivers Starting with Windows Vista], S, T, V, _, netvista.riltonesignalinfo_v1_2, rilapitypes/RILTONESIGNALINFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

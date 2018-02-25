@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ca9fc65f-299d-4d23-b98e-471daf07f413
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SupportDelayedService method [Audio Devices], IServiceGroup interface, SupportDelayedService, SupportDelayedService method [Audio Devices], audio.iservicegroup_supportdelayedservice, portcls/IServiceGroup::SupportDelayedService, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, IServiceGroup, IServiceGroup interface [Audio Devices], SupportDelayedService method, IServiceGroup::SupportDelayedService
+ms.keywords: ",  , ,, ., :, D, G, I, IServiceGroup, IServiceGroup interface [Audio Devices], SupportDelayedService method, IServiceGroup::SupportDelayedService, S, SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices], IServiceGroup interface, SupportDelayedService,IServiceGroup.SupportDelayedService, a, audio.iservicegroup_supportdelayedservice, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, c, d, e, i, l, o, p, portcls/IServiceGroup::SupportDelayedService, r, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

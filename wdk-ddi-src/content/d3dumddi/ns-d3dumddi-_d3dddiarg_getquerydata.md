@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98c6ada1-89a4-4cbd-bb6c-98c190fa15d8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDIARG_GETQUERYDATA structure [Display Devices], D3DDDIARG_GETQUERYDATA, UMDisplayDriver_param_Structs_7f9fefc5-6bce-4a76-9841-d91a40710d4a.xml, display.d3dddiarg_getquerydata, d3dumddi/D3DDDIARG_GETQUERYDATA, _D3DDDIARG_GETQUERYDATA
+ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA structure [Display Devices], E, G, I, Q, R, T, U, UMDisplayDriver_param_Structs_7f9fefc5-6bce-4a76-9841-d91a40710d4a.xml, Y, _, _D3DDDIARG_GETQUERYDATA, d3dumddi/D3DDDIARG_GETQUERYDATA, display.d3dddiarg_getquerydata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

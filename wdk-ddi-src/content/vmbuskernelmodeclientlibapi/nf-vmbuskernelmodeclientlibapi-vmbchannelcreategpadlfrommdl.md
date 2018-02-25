@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6C63E250-1A11-45E8-B535-263806DA4A33
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromMdl, VmbChannelCreateGpadlFromMdl, netvista.vmbchannelcreategpadlfrommdl, VmbChannelCreateGpadlFromMdl function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_GPADL_READ_ONLY
+ms.keywords: ",  , C, F, G, M, V, VMBUS_CHANNEL_GPADL_READ_ONLY, VmbChannelCreateGpadlFromMdl, VmbChannelCreateGpadlFromMdl function [Network Drivers Starting with Windows Vista], a, b, d, e, h, l, m, n, netvista.vmbchannelcreategpadlfrommdl, o, p, r, t, vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromMdl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,11 +146,11 @@ the GPADL description to the opposite endpoint and received confirmation.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a>
 
 
 

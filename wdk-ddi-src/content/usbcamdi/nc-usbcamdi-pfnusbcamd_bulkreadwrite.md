@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4888e6a7-be44-4ed9-80be-9dd7641653ef
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.usbcamd_bulkreadwrite, USBCAMD_BulkReadWrite routine [Streaming Media Devices], USBCAMD_BulkReadWrite, PFNUSBCAMD_BulkReadWrite, PFNUSBCAMD_BulkReadWrite, usbcamdi/USBCAMD_BulkReadWrite, usbcmdpr_6044cfed-1a8c-48a5-ac28-16c8ac151fcc.xml
+ms.keywords: PFNUSBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite routine [Streaming Media Devices], stream.usbcamd_bulkreadwrite, usbcamdi/USBCAMD_BulkReadWrite, usbcmdpr_6044cfed-1a8c-48a5-ac28-16c8ac151fcc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -177,11 +177,11 @@ USBCAMD can accept one read and one write request at a time.
 
 ## -see-also
 
-<a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
-
-
-
 <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
+
+
+
+<a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
 
 
 

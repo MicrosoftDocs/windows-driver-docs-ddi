@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ab97d0b0-00fc-499c-9b1b-83731fe8e935
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_e96c134a-dfb1-474a-b730-1fb6e8d8f86f.xml, *PClearCache_OUT, storage.clearcache_out, PClearCache_OUT, PClearCache_OUT structure pointer [Storage Devices], _ClearCache_OUT, iscsiop/ClearCache_OUT, ClearCache_OUT structure [Storage Devices], ClearCache_OUT, iscsiop/PClearCache_OUT
+ms.keywords: ",  , *, *PClearCache_OUT, ,, C, ClearCache_OUT, ClearCache_OUT structure [Storage Devices], O, P, PClearCache_OUT, PClearCache_OUT structure pointer [Storage Devices], T, U, _, _ClearCache_OUT, a, c, e, h, iscsiop/ClearCache_OUT, iscsiop/PClearCache_OUT, l, r, storage.clearcache_out, structs-iSCSI_e96c134a-dfb1-474a-b730-1fb6e8d8f86f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

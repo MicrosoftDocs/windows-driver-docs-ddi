@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fbd6222c-6d54-4e2a-aa5b-8051f0838886
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKSRESOLUTION structure pointer [Streaming Media Devices], KSRESOLUTION, KSRESOLUTION structure [Streaming Media Devices], *PKSRESOLUTION, ks/KSRESOLUTION, stream.ksresolution, PKSRESOLUTION, ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, ks/PKSRESOLUTION
+ms.keywords: ",  , *, *PKSRESOLUTION, ,, E, I, K, KSRESOLUTION, KSRESOLUTION structure [Streaming Media Devices], L, N, O, P, PKSRESOLUTION, PKSRESOLUTION structure pointer [Streaming Media Devices], R, S, T, U, ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, ks/KSRESOLUTION, ks/PKSRESOLUTION, stream.ksresolution"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

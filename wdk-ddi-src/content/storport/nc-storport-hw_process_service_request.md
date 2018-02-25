@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bdcaf9a7-4c79-407b-bec4-182f3a1d1f37
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorprocessservicerequest, HwStorProcessServiceRequest routine [Storage Devices], HwStorProcessServiceRequest, HW_PROCESS_SERVICE_REQUEST, HW_PROCESS_SERVICE_REQUEST, storport/HwStorProcessServiceRequest, storvmini_50b0d1a2-74bf-4ee4-a9f7-3c30f1a81507.xml
+ms.keywords: HW_PROCESS_SERVICE_REQUEST, HwStorProcessServiceRequest, HwStorProcessServiceRequest routine [Storage Devices], storage.hwstorprocessservicerequest, storport/HwStorProcessServiceRequest, storvmini_50b0d1a2-74bf-4ee4-a9f7-3c30f1a81507.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -158,11 +158,11 @@ The <b>HW_PROCESS_SERVICE_REQUEST</b> function type is defined in the Storport.h
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_miniport_process_service_irp.md">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
-
-
-
 <a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_miniport_process_service_irp.md">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
 
 
 

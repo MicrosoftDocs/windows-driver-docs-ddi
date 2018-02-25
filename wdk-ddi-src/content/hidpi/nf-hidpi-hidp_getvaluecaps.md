@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 74c26072-3b41-4d5c-96a1-d9c5b37ed97a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hidpi/HidP_GetValueCaps, hidfunc_e600ab99-103c-43dd-b37b-fe35a96b2482.xml, hid.hidp_getvaluecaps, HidP_GetValueCaps, HidP_GetValueCaps routine [Human Input Devices]
+ms.keywords: ",  , C, G, H, HidP_GetValueCaps, HidP_GetValueCaps routine [Human Input Devices], P, V, _, a, d, e, hid.hidp_getvaluecaps, hidfunc_e600ab99-103c-43dd-b37b-fe35a96b2482.xml, hidpi/HidP_GetValueCaps, i, l, p, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,11 +145,15 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 ## -see-also
 
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetButtonCaps</a>
 
 
 
@@ -157,11 +161,7 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetButtonCaps</a>
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
 
 

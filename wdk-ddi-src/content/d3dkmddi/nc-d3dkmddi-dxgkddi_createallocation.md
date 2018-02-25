@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a28287d6-4dfa-4db4-92df-bbcd9379a5b2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddicreateallocation, DxgkDdiCreateAllocation callback function [Display Devices], DxgkDdiCreateAllocation, DXGKDDI_CREATEALLOCATION, DXGKDDI_CREATEALLOCATION, d3dkmddi/DxgkDdiCreateAllocation, DmFunctions_fa00d14b-b5f1-4dde-8283-cc7b71911f76.xml
+ms.keywords: DXGKDDI_CREATEALLOCATION, DmFunctions_fa00d14b-b5f1-4dde-8283-cc7b71911f76.xml, DxgkDdiCreateAllocation, DxgkDdiCreateAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCreateAllocation, display.dxgkddicreateallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -170,7 +170,11 @@ Starting in Windows 8.1, when <i>DxgkDdiCreateAllocation</i> is called, the dis
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 
 
@@ -182,15 +186,11 @@ Starting in Windows 8.1, when <i>DxgkDdiCreateAllocation</i> is called, the dis
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

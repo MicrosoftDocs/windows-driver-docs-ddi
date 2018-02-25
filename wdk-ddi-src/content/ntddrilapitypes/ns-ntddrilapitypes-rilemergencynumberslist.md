@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bfeaff04-6dd2-4889-9ab3-f20361dc2f5c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILEMERGENCYNUMBERSLIST, netvista.rilemergencynumberslist, *LPRILEMERGENCYNUMBERSLIST
+ms.keywords: ",  , *, *LPRILEMERGENCYNUMBERSLIST, ,, B, C, E, G, I, L, M, N, P, R, RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], S, T, U, Y, netvista.rilemergencynumberslist, ntddrilapitypes/RILEMERGENCYNUMBERSLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

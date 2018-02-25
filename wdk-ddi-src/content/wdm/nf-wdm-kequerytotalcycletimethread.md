@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EC3A5F02-3D04-466E-8EB4-4BDA9CE47886
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], KeQueryTotalCycleTimeThread, wdm/KeQueryTotalCycleTimeThread, kernel.kequerytotalcycletimethread_
+ms.keywords: ",  , C, K, KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], Q, T, a, c, d, e, h, i, kernel.kequerytotalcycletimethread_, l, m, o, r, t, u, wdm/KeQueryTotalCycleTimeThread, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

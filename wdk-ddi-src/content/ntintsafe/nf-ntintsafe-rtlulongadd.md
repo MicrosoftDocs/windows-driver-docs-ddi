@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03E5C0DB-E245-43E2-80C0-0C1D67673038
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlULongAdd function [Kernel-Mode Driver Architecture], RtlULongAdd, ntintsafe/RtlULongAdd, kernel.rtlulongadd
+ms.keywords: ",  , A, L, R, RtlULongAdd, RtlULongAdd function [Kernel-Mode Driver Architecture], U, d, g, kernel.rtlulongadd, l, n, ntintsafe/RtlULongAdd, o, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

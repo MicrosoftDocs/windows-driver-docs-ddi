@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4b2e981d-1ad7-4f40-86d2-e6b210cec7d2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.sequerysessionidtoken, SeQuerySessionIdToken function [Installable File System Drivers], SeQuerySessionIdToken, seref_9b30e13e-4132-4bc1-a2e1-7ccfb07b808e.xml, ntifs/SeQuerySessionIdToken
+ms.keywords: ",  , I, Q, S, SeQuerySessionIdToken, SeQuerySessionIdToken function [Installable File System Drivers], T, d, e, i, ifsk.sequerysessionidtoken, k, n, ntifs/SeQuerySessionIdToken, o, r, s, seref_9b30e13e-4132-4bc1-a2e1-7ccfb07b808e.xml, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

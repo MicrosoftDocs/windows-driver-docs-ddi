@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dae00663-17bd-461d-9b3f-febff2d9811b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidresethw, HwVidResetHw callback function [Display Devices], HwVidResetHw, PVIDEO_HW_RESET_HW, PVIDEO_HW_RESET_HW, video/HwVidResetHw, VideoMiniport_Functions_783bcc9a-8af3-4cfb-8121-a2bbeb0e64f1.xml
+ms.keywords: HwVidResetHw, HwVidResetHw callback function [Display Devices], PVIDEO_HW_RESET_HW, VideoMiniport_Functions_783bcc9a-8af3-4cfb-8121-a2bbeb0e64f1.xml, display.hwvidresethw, video/HwVidResetHw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -120,15 +120,7 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>
-
-
-
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_reset_device.md">IOCTL_VIDEO_RESET_DEVICE</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
 
 
@@ -136,7 +128,15 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_reset_device.md">IOCTL_VIDEO_RESET_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CcScheduleReadAheadEx, ifsk.ccschedulereadaheadex, CcScheduleReadAheadEx routine [Installable File System Drivers], ntifs/CcScheduleReadAheadEx
+ms.keywords: ",  , A, C, CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], E, R, S, a, c, d, e, h, ifsk.ccschedulereadaheadex, l, ntifs/CcScheduleReadAheadEx, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,19 +116,7 @@ None
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
 
 
@@ -137,6 +125,18 @@ None
 
 
 <b>CcCopyReadEx</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
 
 

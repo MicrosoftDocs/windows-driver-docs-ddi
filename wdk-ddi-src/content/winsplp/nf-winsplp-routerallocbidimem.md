@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 39042c66-3db1-41bd-b06d-12aefcb007d3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: RouterAllocBidiMem, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, winsplp/RouterAllocBidiMem, print.routerallocbidimem, RouterAllocBidiMem function [Print Devices]
+ms.keywords: ",  , A, B, M, R, RouterAllocBidiMem, RouterAllocBidiMem function [Print Devices], c, d, e, i, l, m, o, print.routerallocbidimem, r, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, t, u, winsplp/RouterAllocBidiMem"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ When the memory allocated by this function is no longer needed, it can be return
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-routerfreebidimem.md">RouterFreeBidiMem</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-routerfreebidimem.md">RouterFreeBidiMem</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 63ca0e60-700b-459a-a88a-bc7bb6f5f6e6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwAllocateLocallyUniqueId, k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml, kernel.zwallocatelocallyuniqueid, ntddk/ZwAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture], NtAllocateLocallyUniqueId, ntddk/NtAllocateLocallyUniqueId
+ms.keywords: ",  , A, I, L, NtAllocateLocallyUniqueId, U, Z, ZwAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture], a, c, d, e, i, k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml, kernel.zwallocatelocallyuniqueid, l, n, ntddk/NtAllocateLocallyUniqueId, ntddk/ZwAllocateLocallyUniqueId, o, q, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

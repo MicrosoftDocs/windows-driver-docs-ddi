@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b195c6df-79c4-427d-b722-309f43a4e150
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml, kmdf.wdfdmatransactionsetmaximumlength, wdfdmatransaction/WdfDmaTransactionSetMaximumLength, WdfDmaTransactionSetMaximumLength, wdf.wdfdmatransactionsetmaximumlength, WdfDmaTransactionSetMaximumLength method
+ms.keywords: ",  , D, DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml, L, M, S, T, W, WdfDmaTransactionSetMaximumLength, WdfDmaTransactionSetMaximumLength method, a, c, d, e, f, g, h, i, kmdf.wdfdmatransactionsetmaximumlength, m, n, o, r, s, t, u, wdf.wdfdmatransactionsetmaximumlength, wdfdmatransaction/WdfDmaTransactionSetMaximumLength, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

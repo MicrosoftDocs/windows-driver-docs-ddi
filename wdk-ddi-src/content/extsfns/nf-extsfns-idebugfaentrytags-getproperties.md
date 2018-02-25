@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 140EAE7D-E349-4096-8578-6CF011C1FBA7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: extsfns/IDebugFAEntryTags::GetProperties, IDebugFAEntryTags interface [Windows Debugging], GetProperties method, debugger.idebugfaentrytags_getproperties, IDebugFAEntryTags::GetProperties, GetProperties method [Windows Debugging], IDebugFAEntryTags interface, IDebugFAEntryTags, GetProperties, GetProperties method [Windows Debugging]
+ms.keywords: ",  , ,, ., :, A, D, E, F, G, GetProperties method [Windows Debugging], GetProperties method [Windows Debugging], IDebugFAEntryTags interface, GetProperties,IDebugFAEntryTags.GetProperties, I, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], GetProperties method, IDebugFAEntryTags::GetProperties, P, T, a, b, debugger.idebugfaentrytags_getproperties, e, extsfns/IDebugFAEntryTags::GetProperties, g, i, n, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,15 +158,15 @@ The caller passed at least one invalid parameter.
 
 ## -see-also
 
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
+
+
+
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
 
 
 
@@ -174,7 +174,7 @@ The caller passed at least one invalid parameter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 

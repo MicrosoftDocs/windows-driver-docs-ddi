@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f2f4c54c-7413-48e5-a165-d71f35642b6c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiqueryadapterinfo, DxgkDdiQueryAdapterInfo callback function [Display Devices], DxgkDdiQueryAdapterInfo, DXGKDDI_QUERYADAPTERINFO, DXGKDDI_QUERYADAPTERINFO, d3dkmddi/DxgkDdiQueryAdapterInfo, DmFunctions_700dcca1-79a6-4d31-953c-00e33c8a404d.xml
+ms.keywords: DXGKDDI_QUERYADAPTERINFO, DmFunctions_700dcca1-79a6-4d31-953c-00e33c8a404d.xml, DxgkDdiQueryAdapterInfo, DxgkDdiQueryAdapterInfo callback function [Display Devices], d3dkmddi/DxgkDdiQueryAdapterInfo, display.dxgkddiqueryadapterinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -159,7 +159,7 @@ If the DirectX graphics kernel subsystem supplies the DXGKQAITYPE_QUERYSEGMENT v
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
 
 
@@ -167,7 +167,7 @@ If the DirectX graphics kernel subsystem supplies the DXGKQAITYPE_QUERYSEGMENT v
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

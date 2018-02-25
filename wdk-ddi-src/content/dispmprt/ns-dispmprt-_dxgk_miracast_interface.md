@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39DCDA28-D32F-4755-91FB-0D42822D7B54
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_DXGK_MIRACAST_INTERFACE, display.dxgk_miracast_display_interface, DXGK_MIRACAST_DISPLAY_INTERFACE structure [Display Devices], *PDXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE structure pointer [Display Devices], dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE, dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE"
+ms.keywords: ",  , *, *PDXGK_MIRACAST_DISPLAY_INTERFACE, ,, A, C, D, DXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE structure [Display Devices], E, F, G, I, K, L, M, N, P, PDXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE structure pointer [Display Devices], R, S, T, X, Y, _, _DXGK_MIRACAST_INTERFACE, display.dxgk_miracast_display_interface, dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE, dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,7 +141,7 @@ For more info on how to use the Miracast interface, see <a href="https://msdn.mi
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_query_caps.md">DxgkDdiMiracastQueryCaps</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_handle_io_control.md">DxgkDdiMiracastIoControl</a>
 
 
 
@@ -153,7 +153,7 @@ For more info on how to use the Miracast interface, see <a href="https://msdn.mi
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_handle_io_control.md">DxgkDdiMiracastIoControl</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_query_caps.md">DxgkDdiMiracastQueryCaps</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 627b14dc-9b13-464c-ba23-6e91bef2b940
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wdbgexts/PFIELD_INFO, WdbgExts_Ref_4c79e59a-cd12-4ad9-affb-b7f0bd7689fb.xml, debugger.field_info, *PFIELD_INFO, PFIELD_INFO structure pointer [Windows Debugging], FIELD_INFO, PFIELD_INFO, wdbgexts/FIELD_INFO, FIELD_INFO structure [Windows Debugging], _FIELD_INFO
+ms.keywords: ",  , *, *PFIELD_INFO, ,, D, E, F, FIELD_INFO, FIELD_INFO structure [Windows Debugging], I, L, N, O, P, PFIELD_INFO, PFIELD_INFO structure pointer [Windows Debugging], WdbgExts_Ref_4c79e59a-cd12-4ad9-affb-b7f0bd7689fb.xml, _, _FIELD_INFO, debugger.field_info, wdbgexts/FIELD_INFO, wdbgexts/PFIELD_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -225,11 +225,11 @@ When calling the <a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SY
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-psym_dump_field_callback.md">PSYM_DUMP_FIELD_CALLBACK</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540429">DBG_DUMP_FIELD_XXX</a>
+
+
+
+<a href="..\wdbgexts\nc-wdbgexts-psym_dump_field_callback.md">PSYM_DUMP_FIELD_CALLBACK</a>
 
 
 

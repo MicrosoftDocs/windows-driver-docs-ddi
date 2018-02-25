@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 773490EE-ECFC-4089-869D-19683A76E4FA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/WwanUssdRequestInitiate, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, netvista.wwan_ussd_request_type, WwanUssdRequestInitiate, WWAN_USSD_REQUEST_TYPE, wwan/WWAN_USSD_REQUEST_TYPE, WwanUssdRequestContinue, WwanUssdRequestCancel, wwan/WwanUssdRequestContinue, _WWAN_USSD_REQUEST_TYPE
+ms.keywords: ",  , *, *PWWAN_USSD_REQUEST_TYPE, ,, A, D, E, N, P, Q, R, S, T, U, W, WWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdRequestCancel, WwanUssdRequestContinue, WwanUssdRequestInitiate, Y, _, _WWAN_USSD_REQUEST_TYPE, netvista.wwan_ussd_request_type, wwan/WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, wwan/WwanUssdRequestContinue, wwan/WwanUssdRequestInitiate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

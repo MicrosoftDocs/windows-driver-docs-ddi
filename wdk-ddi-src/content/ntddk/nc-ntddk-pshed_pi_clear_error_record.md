@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e9893f9c-7fbd-4a02-8c2d-d7c480ed5198
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.clearerrorrecord, ClearErrorRecord callback function [WHEA Drivers and Applications], ClearErrorRecord, PSHED_PI_CLEAR_ERROR_RECORD, PSHED_PI_CLEAR_ERROR_RECORD, ntddk/ClearErrorRecord, whearef_1644b60c-c232-4cca-805b-d6a061425f61.xml
+ms.keywords: ClearErrorRecord, ClearErrorRecord callback function [WHEA Drivers and Applications], PSHED_PI_CLEAR_ERROR_RECORD, ntddk/ClearErrorRecord, whea.clearerrorrecord, whearef_1644b60c-c232-4cca-805b-d6a061425f61.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -139,15 +139,11 @@ The Windows kernel calls into the PSHED to clear an error record from the system
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_write_error_record.md">WriteErrorRecord</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_write_error_record.md">WriteErrorRecord</a>
 
 
 
@@ -156,6 +152,10 @@ The Windows kernel calls into the PSHED to clear an error record from the system
 
 
 <a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 

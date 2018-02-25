@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb4578c9-48e5-4113-ba58-a3d71052f782
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml, scsiwmi/ScsiPortWmiSetData, ScsiPortWmiSetData, ScsiPortWmiSetData routine [Storage Devices], storage.scsiportwmisetdata
+ms.keywords: ",  , D, P, S, ScsiPortWmiSetData, ScsiPortWmiSetData routine [Storage Devices], W, a, c, e, i, m, o, r, s, scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml, scsiwmi/ScsiPortWmiSetData, storage.scsiportwmisetdata, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,11 +143,11 @@ The memory allocated for the request context must remain valid until after the m
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
-
-
-
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
 
 
 

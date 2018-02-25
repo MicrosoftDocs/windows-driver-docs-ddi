@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: CE450017-1792-4B69-8289-902396D0D7B1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsGenerateThermalEvent function [Streaming Media Devices], KsGenerateThermalEvent, stream.ksgeneratethermalevent, ks/KsGenerateThermalEvent
+ms.keywords: ",  , E, G, K, KsGenerateThermalEvent, KsGenerateThermalEvent function [Streaming Media Devices], T, a, e, h, ks/KsGenerateThermalEvent, l, m, n, r, s, stream.ksgeneratethermalevent, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

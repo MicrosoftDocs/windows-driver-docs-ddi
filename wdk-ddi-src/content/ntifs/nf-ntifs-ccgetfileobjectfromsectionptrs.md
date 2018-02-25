@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: da756f88-e2c6-4bff-8390-be48902fe130
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.ccgetfileobjectfromsectionptrs, ntifs/CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], CcGetFileObjectFromSectionPtrs, ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml
+ms.keywords: ",  , C, CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], F, G, O, P, S, b, c, ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml, e, i, ifsk.ccgetfileobjectfromsectionptrs, j, l, m, n, ntifs/CcGetFileObjectFromSectionPtrs, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

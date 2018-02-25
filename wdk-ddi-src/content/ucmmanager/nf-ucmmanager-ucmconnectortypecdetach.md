@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E89DC8B6-9379-4FE2-BF4C-897DA9DFA11C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcmConnectorTypeCDetach method [Buses], ucmmanager/UcmConnectorTypeCDetach, buses.ucmconnectortypecdetach, UcmConnectorTypeCDetach
+ms.keywords: ",  , C, D, T, U, UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses], a, buses.ucmconnectortypecdetach, c, e, h, m, n, o, p, r, t, ucmmanager/UcmConnectorTypeCDetach, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

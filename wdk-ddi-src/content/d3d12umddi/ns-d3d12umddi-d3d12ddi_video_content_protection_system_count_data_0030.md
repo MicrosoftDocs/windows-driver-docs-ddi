@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3cd9db56-7b6e-4ee3-bbce-c13830b93a24
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030, d3d12umddi/D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030, display.d3d12ddi-video-content-protection-system-count-data-0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030 structure [Display Devices]
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030 structure [Display Devices], E, I, M, N, O, P, R, S, T, U, V, Y, _, d3d12umddi/D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030, display.d3d12ddi-video-content-protection-system-count-data-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

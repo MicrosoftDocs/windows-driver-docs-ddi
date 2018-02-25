@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 18BA159D-5E78-41AC-8CB8-97AEC2AE9592
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnd3dwddm2_2ddi_set_shadercache_session, pfnSetShaderCacheSession callback function [Display Devices], pfnSetShaderCacheSession, PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION, d3d10umddi/pfnSetShaderCacheSession
+ms.keywords: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION, d3d10umddi/pfnSetShaderCacheSession, display.pfnd3dwddm2_2ddi_set_shadercache_session, pfnSetShaderCacheSession, pfnSetShaderCacheSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

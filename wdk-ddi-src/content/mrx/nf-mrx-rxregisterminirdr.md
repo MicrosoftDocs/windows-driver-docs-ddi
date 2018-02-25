@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9c2fedd-b513-4ea9-b915-cdcc05b88d6f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxRegisterMinirdr function [Installable File System Drivers], rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml, mrx/RxRegisterMinirdr, RxRegisterMinirdr, ifsk.rxregisterminirdr
+ms.keywords: ",  , M, R, RxRegisterMinirdr, RxRegisterMinirdr function [Installable File System Drivers], d, e, g, i, ifsk.rxregisterminirdr, mrx/RxRegisterMinirdr, n, r, rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,7 +81,7 @@ A pointer to where the created device object will be stored.
 
 ### -param DriverObject [in, out]
 
-A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver. 
+A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver. 
 
 
 ### -param MrdrDispatch [in]
@@ -218,7 +218,7 @@ The call to create the device object returned a <b>NULL</b> device object.
 
 A network mini-redirector registers with RDBSS whenever the driver is loaded by the kernel and unregisters with RDBSS when the driver is unloaded. A non-monolithic driver (the SMB network mini-redirector) communicates with the <i>Rdbss.sys</i>, another kernel driver. For a monolithic network mini-redirector driver that statically links with <i>Rdbsslib.lib</i>, this communication is merely a call to an <i>Rdbsslib.lib</i> library routine.
 
-A network mini-redirector informs RDBSS that it has been loaded by calling <b>RxRegisterMinirdr</b>, the registration routine exported from RDBSS. When a network mini-redirector driver first starts (in its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine), the driver calls the RDBSS <b>RxRegisterMinirdr</b> routine to register the network mini-redirector driver with RDBSS. Based on the parameters passed to <b>RxRegisterMinirdr</b>, RDBSS calls <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> to create the device object for the network mini-redirector driver. 
+A network mini-redirector informs RDBSS that it has been loaded by calling <b>RxRegisterMinirdr</b>, the registration routine exported from RDBSS. When a network mini-redirector driver first starts (in its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine), the driver calls the RDBSS <b>RxRegisterMinirdr</b> routine to register the network mini-redirector driver with RDBSS. Based on the parameters passed to <b>RxRegisterMinirdr</b>, RDBSS calls <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> to create the device object for the network mini-redirector driver. 
 
 As part of this registration process, the network mini-redirector passes a parameter to <b>RxRegisterMinirdr</b> that is a pointer to a large structure, MINIRDR_DISPATCH, which contains configuration information for the network mini-redirector and a dispatch table of pointers to callback routines implemented by the network mini-redirector driver. This configuration data is used to configure internal RDBSS tables for use with this network mini-redirector. RDBSS uses the callback routines passed in this structure to communicate with the network mini-redirector. A network mini-redirector can chose to implement only some of these callback routines. Any callback routine that is not implemented should be set to a <b>NULL</b> pointer in the dispatch table passed to RDBSS. Only callback routines implemented by the network mini-redirector will be called by RDBSS. 
 
@@ -299,11 +299,11 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -315,15 +315,7 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
-
-
-
 <a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
-
-
-
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
 
 
 
@@ -331,11 +323,19 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 
 
 <a href="..\mrx\nc-mrx-pmrx_calldown_ctx.md">MRxStart</a>
+
+
+
+<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
 
 
 

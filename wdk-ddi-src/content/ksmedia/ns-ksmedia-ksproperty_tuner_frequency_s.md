@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 19d2c3cc-69e3-4216-9eb7-32b522fe058b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKSPROPERTY_TUNER_FREQUENCY_S, ksmedia/KSPROPERTY_TUNER_FREQUENCY_S, vidcapstruct_7757eed6-a41b-4bcd-ad7b-05aca3b54cd0.xml, KSPROPERTY_TUNER_FREQUENCY_S structure [Streaming Media Devices], stream.ksproperty_tuner_frequency_s, ksmedia/PKSPROPERTY_TUNER_FREQUENCY_S, *PKSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S, PKSPROPERTY_TUNER_FREQUENCY_S structure pointer [Streaming Media Devices]
+ms.keywords: ",  , *, *PKSPROPERTY_TUNER_FREQUENCY_S, ,, C, E, F, K, KSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S structure [Streaming Media Devices], N, O, P, PKSPROPERTY_TUNER_FREQUENCY_S, PKSPROPERTY_TUNER_FREQUENCY_S structure pointer [Streaming Media Devices], Q, R, S, T, U, Y, _, ksmedia/KSPROPERTY_TUNER_FREQUENCY_S, ksmedia/PKSPROPERTY_TUNER_FREQUENCY_S, stream.ksproperty_tuner_frequency_s, vidcapstruct_7757eed6-a41b-4bcd-ad7b-05aca3b54cd0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,6 +116,10 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
 
@@ -125,10 +129,6 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565833">KSPROPERTY_TUNER_FREQUENCY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

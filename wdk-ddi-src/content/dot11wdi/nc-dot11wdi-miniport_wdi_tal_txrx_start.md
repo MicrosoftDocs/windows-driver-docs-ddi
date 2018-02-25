@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6F88F4B1-8D2A-41CC-8D60-C1CF91ED072A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditaltxrxstart, MiniportWdiTalTxRxStart callback function [Network Drivers Starting with Windows Vista], MiniportWdiTalTxRxStart, MINIPORT_WDI_TAL_TXRX_START, MINIPORT_WDI_TAL_TXRX_START, dot11wdi/MiniportWdiTalTxRxStart
+ms.keywords: MINIPORT_WDI_TAL_TXRX_START, MiniportWdiTalTxRxStart, MiniportWdiTalTxRxStart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxStart, netvista.miniportwditaltxrxstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -121,7 +121,11 @@ Indicates that the miniport driver successfully started the datapath components.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_configuration.md">WDI_TXRX_TARGET_CONFIGURATION</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 
@@ -133,11 +137,7 @@ Indicates that the miniport driver successfully started the datapath components.
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_configuration.md">WDI_TXRX_TARGET_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
 
 

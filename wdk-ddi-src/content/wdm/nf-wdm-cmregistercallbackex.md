@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7ec7d9a4-3c6f-4b67-abbb-1e0dcbf6fb90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/CmRegisterCallbackEx, ConfigMgrRef_60ae8a2c-45c7-4b5e-ae19-916402b47903.xml, kernel.cmregistercallbackex, CmRegisterCallbackEx, CmRegisterCallbackEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, CmRegisterCallbackEx, CmRegisterCallbackEx routine [Kernel-Mode Driver Architecture], ConfigMgrRef_60ae8a2c-45c7-4b5e-ae19-916402b47903.xml, E, R, a, b, c, e, g, i, k, kernel.cmregistercallbackex, l, m, r, s, t, wdm/CmRegisterCallbackEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,11 +161,7 @@ For more information about <b>CmRegisterCallbackEx</b> and filtering registry op
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 
@@ -173,11 +169,15 @@ For more information about <b>CmRegisterCallbackEx</b> and filtering registry op
 
 
 
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
 <a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7143e3a1-f383-4ea8-8e97-d9d7a9089db4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_getradiostategroups, rilapi/RIL_GetRadioStateGroups, RIL_GetRadioStateGroups method [Network Drivers Starting with Windows Vista], RIL_GetRadioStateGroups
+ms.keywords: ",  , G, I, L, R, RIL_GetRadioStateGroups, RIL_GetRadioStateGroups method [Network Drivers Starting with Windows Vista], S, _, a, d, e, i, netvista.ril_getradiostategroups, o, p, r, rilapi/RIL_GetRadioStateGroups, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

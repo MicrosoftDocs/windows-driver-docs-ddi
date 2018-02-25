@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08bc78de-ba04-4845-9d22-c06cd5684f7f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdpcenqueue, wdfdpc/WdfDpcEnqueue, DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml, kmdf.wdfdpcenqueue, WdfDpcEnqueue method, WdfDpcEnqueue
+ms.keywords: ",  , D, DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml, E, W, WdfDpcEnqueue, WdfDpcEnqueue method, c, d, e, f, kmdf.wdfdpcenqueue, n, p, q, u, wdf.wdfdpcenqueue, wdfdpc/WdfDpcEnqueue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

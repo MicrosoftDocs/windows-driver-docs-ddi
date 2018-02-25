@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, compstui/EXTPUSH, compstui/PEXTPUSH, PEXTPUSH structure pointer [Print Devices], EXTPUSH, *PEXTPUSH, EXTPUSH structure [Print Devices], _EXTPUSH, print.extpush
+ms.keywords: ",  , *, *PEXTPUSH, ,, E, EXTPUSH, EXTPUSH structure [Print Devices], H, P, PEXTPUSH, PEXTPUSH structure pointer [Print Devices], S, T, U, X, _, _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

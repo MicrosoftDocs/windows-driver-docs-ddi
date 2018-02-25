@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4eb909fe-7ba2-4208-b713-54252022a5cf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], tagKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2, *PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2, stream.ks_videoinfoheader2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml
+ms.keywords: ",  , *, *PKS_VIDEOINFOHEADER2, ,, 2, A, D, E, F, H, I, K, KS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], N, O, P, PKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], R, S, V, _, a, g, ksmedia/KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, stream.ks_videoinfoheader2, t, tagKS_VIDEOINFOHEADER2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

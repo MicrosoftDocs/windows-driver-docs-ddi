@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8ccf24a4-f087-4d61-8a9e-4bc05d7ec7bf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.ksfilterreleaseprocessingmutex, KsFilterReleaseProcessingMutex function [Streaming Media Devices], avfunc_35026563-e7aa-4305-a4fc-2558c1b21aa7.xml, ks/KsFilterReleaseProcessingMutex, KsFilterReleaseProcessingMutex
+ms.keywords: ",  , F, K, KsFilterReleaseProcessingMutex, KsFilterReleaseProcessingMutex function [Streaming Media Devices], M, P, R, a, avfunc_35026563-e7aa-4305-a4fc-2558c1b21aa7.xml, c, e, g, i, ks/KsFilterReleaseProcessingMutex, l, n, o, r, s, stream.ksfilterreleaseprocessingmutex, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

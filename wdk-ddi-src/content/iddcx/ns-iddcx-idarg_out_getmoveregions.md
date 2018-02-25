@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b95b2da7-8078-4e71-91db-a1b399bc44a2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDARG_OUT_GETMOVEREGIONS, iddcx/IDARG_OUT_GETMOVEREGIONS, IDARG_OUT_GETMOVEREGIONS structure [Display Devices], display.idarg_out_getmoveregions
+ms.keywords: ",  , A, D, E, G, I, IDARG_OUT_GETMOVEREGIONS, IDARG_OUT_GETMOVEREGIONS structure [Display Devices], M, N, O, R, S, T, U, V, _, display.idarg_out_getmoveregions, iddcx/IDARG_OUT_GETMOVEREGIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

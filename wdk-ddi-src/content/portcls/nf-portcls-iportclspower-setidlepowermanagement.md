@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ccef350c-7c46-43fa-8834-b0d712d9cf38
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, SetIdlePowerManagement method [Audio Devices], IPortClsPower::SetIdlePowerManagement, portcls/IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, IPortClsPower, audio.iportclspower_setidlepowermanagement, SetIdlePowerManagement, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method
+ms.keywords: ",  , ,, ., :, C, I, IPortClsPower, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, IPortClsPower::SetIdlePowerManagement, M, P, S, SetIdlePowerManagement method [Audio Devices], SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, SetIdlePowerManagement,IPortClsPower.SetIdlePowerManagement, a, audio.iportclspower_setidlepowermanagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, d, e, g, l, m, n, o, portcls/IPortClsPower::SetIdlePowerManagement, r, s, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,15 +98,15 @@ When the <i>bEnabled</i> parameter is set to <b>TRUE</b>, it indicates that the 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
-
-
-
 <a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
 
 
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
 
 
 

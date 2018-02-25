@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4bb88e3c-2309-42f5-bc22-4c7182358e6e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnstatersscissorcb, pfnStateRsScissorCb callback function [Display Devices], pfnStateRsScissorCb, PFND3D10DDI_STATE_RS_SCISSOR_CB, PFND3D10DDI_STATE_RS_SCISSOR_CB, d3d10umddi/pfnStateRsScissorCb, d3d10state_functions_8690a3ee-bc2c-4164-808b-c308a1784893.xml
+ms.keywords: PFND3D10DDI_STATE_RS_SCISSOR_CB, d3d10state_functions_8690a3ee-bc2c-4164-808b-c308a1784893.xml, d3d10umddi/pfnStateRsScissorCb, display.pfnstatersscissorcb, pfnStateRsScissorCb, pfnStateRsScissorCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

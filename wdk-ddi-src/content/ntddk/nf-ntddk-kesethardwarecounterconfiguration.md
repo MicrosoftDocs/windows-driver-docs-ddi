@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration
+ms.keywords: ",  , C, H, K, KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], S, a, d, e, f, g, i, k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration, n, ntddk/KeSetHardwareCounterConfiguration, o, r, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -155,19 +155,19 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
 
 
 

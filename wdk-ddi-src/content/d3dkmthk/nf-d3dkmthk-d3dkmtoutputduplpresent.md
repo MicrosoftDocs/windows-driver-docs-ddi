@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5846165-f58d-44a8-9242-02a2f85d3a8d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PFND3DKMT_OUTPUTDUPLPRESENT, D3DKMTOutputDuplPresent, d3dkmthk/D3DKMTOutputDuplPresent, D3DKMTOutputDuplPresent function [Display Devices], display.d3dkmtoutputduplpresent
+ms.keywords: ",  , 3, D, D3DKMTOutputDuplPresent, D3DKMTOutputDuplPresent function [Display Devices], K, M, O, P, PFND3DKMT_OUTPUTDUPLPRESENT, T, d3dkmthk/D3DKMTOutputDuplPresent, display.d3dkmtoutputduplpresent, e, l, n, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,7 +135,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtoutputduplpresent.md">D3DKMTOutputDuplPresent</a> could not complete because of insufficient memory.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_outputduplpresent.md">D3DKMTOutputDuplPresent</a> could not complete because of insufficient memory.
 
 </td>
 </tr>

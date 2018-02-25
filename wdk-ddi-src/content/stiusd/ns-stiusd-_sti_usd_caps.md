@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 24dda069-5f93-469d-8ce3-87b488019b88
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stiusd/STI_USD_CAPS, STI_USD_CAPS, PSTI_USD_CAPS structure pointer [Imaging Devices], *PSTI_USD_CAPS, _STI_USD_CAPS, stifnc_4f136561-e3a7-467d-b8be-a60db8534126.xml, stiusd/PSTI_USD_CAPS, image.sti_usd_caps, STI_USD_CAPS structure [Imaging Devices], PSTI_USD_CAPS
+ms.keywords: ",  , *, *PSTI_USD_CAPS, ,, A, C, D, I, P, PSTI_USD_CAPS, PSTI_USD_CAPS structure pointer [Imaging Devices], S, STI_USD_CAPS, STI_USD_CAPS structure [Imaging Devices], T, U, _, _STI_USD_CAPS, image.sti_usd_caps, stifnc_4f136561-e3a7-467d-b8be-a60db8534126.xml, stiusd/PSTI_USD_CAPS, stiusd/STI_USD_CAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

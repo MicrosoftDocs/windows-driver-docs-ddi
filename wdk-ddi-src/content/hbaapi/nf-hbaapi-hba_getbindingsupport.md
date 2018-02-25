@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 60542ed9-fbb0-48a3-bc97-ce3db7b4ae10
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fibreHBA_rtns_98be4752-e595-4f33-b688-a373588c16f0.xml, HBA_GetBindingSupport routine [Storage Devices], storage.hba_getbindingsupport, hbaapi/HBA_GetBindingSupport, HBA_GetBindingSupport
+ms.keywords: ",  , A, B, G, H, HBA_GetBindingSupport, HBA_GetBindingSupport routine [Storage Devices], S, _, d, e, fibreHBA_rtns_98be4752-e595-4f33-b688-a373588c16f0.xml, g, hbaapi/HBA_GetBindingSupport, i, n, o, p, r, storage.hba_getbindingsupport, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,11 +140,11 @@ Returned if an unspecified error occurred that prevented the retrieval of the po
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ab5f33b9-5261-4d30-bceb-8e91a24ae0a8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml, wdm/MmUnmapLockedPages, MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], kernel.mmunmaplockedpages, MmUnmapLockedPages
+ms.keywords: ",  , L, M, MmUnmapLockedPages, MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], P, U, a, c, d, e, g, k, k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml, kernel.mmunmaplockedpages, m, n, o, p, s, wdm/MmUnmapLockedPages"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ Note that if the call to <b>MmMapLockedPages</b> or <b>MmMapLockedPagesSpecifyCa
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 77ceaebe-ded1-4fbb-bc10-593ff62fcbe2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsSetPowerDispatch routine [Streaming Media Devices], ks/KsSetPowerDispatch, stream.kssetpowerdispatch, KsSetPowerDispatch, ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml
+ms.keywords: ",  , D, K, KsSetPowerDispatch, KsSetPowerDispatch routine [Streaming Media Devices], P, S, a, c, e, h, i, ks/KsSetPowerDispatch, ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, o, p, r, s, stream.kssetpowerdispatch, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 48C444CD-4D8B-491A-98EB-27B8796FD3A7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: AsyncGetNotification, prnasntp/IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, print.iprintunidiasyncnotifyregistration_asyncgetnotification, IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, IPrintUnidiAsyncNotifyRegistration, AsyncGetNotification method [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices], AsyncGetNotification method, AsyncGetNotification method [Print Devices], IPrintUnidiAsyncNotifyRegistration interface
+ms.keywords: ",  , ,, ., :, A, AsyncGetNotification method [Print Devices], AsyncGetNotification method [Print Devices], IPrintUnidiAsyncNotifyRegistration interface, AsyncGetNotification,IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification, G, I, IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], AsyncGetNotification method, IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, N, P, R, U, a, c, d, e, f, g, i, n, o, print.iprintunidiasyncnotifyregistration_asyncgetnotification, prnasntp/IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

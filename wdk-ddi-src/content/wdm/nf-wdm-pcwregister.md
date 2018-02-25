@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 40fdb77c-bd6b-4ecd-a9c8-fd5e5b2adc80
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: km_pcw_5204b626-3251-4c63-bd89-be1470980960.xml, wdm/PcwRegister, PcwRegister, PcwRegister function [Driver Development Tools], devtest.pcwregister
+ms.keywords: ",  , P, PcwRegister, PcwRegister function [Driver Development Tools], R, c, devtest.pcwregister, e, g, i, km_pcw_5204b626-3251-4c63-bd89-be1470980960.xml, r, s, t, w, wdm/PcwRegister"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a5ad0f35-8413-4828-92f8-47544a6e802e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "_BDA_PID_MAP, PBDA_PID_MAP structure pointer [Streaming Media Devices], bdaref_a0793356-2192-4a72-9605-3d0d6d981ad2.xml, *PBDA_PID_MAP, BDA_PID_MAP structure [Streaming Media Devices], bdatypes/PBDA_PID_MAP, bdatypes/BDA_PID_MAP, stream.bda_pid_map, BDA_PID_MAP, PBDA_PID_MAP"
+ms.keywords: ",  , *, *PBDA_PID_MAP, ,, A, B, BDA_PID_MAP, BDA_PID_MAP structure [Streaming Media Devices], D, I, M, P, PBDA_PID_MAP, PBDA_PID_MAP structure pointer [Streaming Media Devices], _, _BDA_PID_MAP, bdaref_a0793356-2192-4a72-9605-3d0d6d981ad2.xml, bdatypes/BDA_PID_MAP, bdatypes/PBDA_PID_MAP, stream.bda_pid_map"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,11 +90,11 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
-
-
-
 <a href="..\bdatypes\ns-bdatypes-_bda_pid_unmap.md">BDA_PID_UNMAP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
 
 
 

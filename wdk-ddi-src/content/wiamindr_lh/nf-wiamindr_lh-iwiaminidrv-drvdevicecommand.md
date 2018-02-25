@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e17c81a6-8c4e-41f0-bd98-f7a9a0f20893
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvDeviceCommand method, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand, drvDeviceCommand method [Imaging Devices], IWiaMiniDrv interface, drvDeviceCommand, drvDeviceCommand method [Imaging Devices], IWiaMiniDrv, IWiaMiniDrv::drvDeviceCommand, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, image.iwiaminidrv_drvdevicecommand
+ms.keywords: ",  , ,, ., :, C, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvDeviceCommand method, IWiaMiniDrv::drvDeviceCommand, M, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, W, a, c, d, drvDeviceCommand method [Imaging Devices], drvDeviceCommand method [Imaging Devices], IWiaMiniDrv interface, drvDeviceCommand,IWiaMiniDrv.drvDeviceCommand, e, i, image.iwiaminidrv_drvdevicecommand, m, n, o, r, v, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

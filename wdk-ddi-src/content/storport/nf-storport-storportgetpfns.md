@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F9E69501-4889-4A1B-8942-C6D4406474DE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortGetPfns, StorPortGetPfns, storage.storportgetpfns, StorPortGetPfns routine [Storage Devices]
+ms.keywords: ",  , G, P, S, StorPortGetPfns, StorPortGetPfns routine [Storage Devices], e, f, n, o, r, s, storage.storportgetpfns, storport/StorPortGetPfns, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -164,18 +164,18 @@ A pointer to one of the parameters  is <b>NULL</b>.
 
  Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the device object for the HBA immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567093">StorPortGetOriginalMdl</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 
 

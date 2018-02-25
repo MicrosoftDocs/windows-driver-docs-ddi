@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e1464561-b9f2-41aa-921e-84f3a855130f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*INOUT_PDXGKARG_CREATEALLOCATION, display.dxgkarg_createallocation, _DXGKARG_CREATEALLOCATION, DmStructs_751430a9-4161-4230-bb97-d09600d48d62.xml, DXGKARG_CREATEALLOCATION, d3dkmddi/DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION structure [Display Devices]"
+ms.keywords: ",  , *, *INOUT_PDXGKARG_CREATEALLOCATION, ,, A, C, D, DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION structure [Display Devices], DmStructs_751430a9-4161-4230-bb97-d09600d48d62.xml, E, G, I, K, L, N, O, P, R, T, U, X, _, _DXGKARG_CREATEALLOCATION, d3dkmddi/DXGKARG_CREATEALLOCATION, display.dxgkarg_createallocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,15 +104,15 @@ typedef struct _DXGKARG_CREATEALLOCATION {
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createallocationflags.md">DXGK_CREATEALLOCATIONFLAGS</a>
 
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
 
 

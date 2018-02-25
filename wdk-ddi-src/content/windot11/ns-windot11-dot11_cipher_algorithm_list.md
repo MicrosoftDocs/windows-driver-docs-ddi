@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b6d96a82-f744-4663-8373-886f4245c106
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DOT11_CIPHER_ALGORITHM_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_algorithm_list, Native_802.11_data_types_704d7a5a-0cf5-459f-af0c-06dfdc936a9e.xml, *PDOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_CIPHER_ALGORITHM_LIST, windot11/PDOT11_CIPHER_ALGORITHM_LIST, windot11/DOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST
+ms.keywords: ",  , *, *PDOT11_CIPHER_ALGORITHM_LIST, ,, 1, A, C, D, DOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST structure [Network Drivers Starting with Windows Vista], E, G, H, I, L, M, Native_802.11_data_types_704d7a5a-0cf5-459f-af0c-06dfdc936a9e.xml, O, P, PDOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, netvista.dot11_cipher_algorithm_list, windot11/DOT11_CIPHER_ALGORITHM_LIST, windot11/PDOT11_CIPHER_ALGORITHM_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -209,8 +209,7 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
 
 
@@ -223,7 +222,8 @@ Return NDIS_STATUS_SUCCESS from its
 
 
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
 
 

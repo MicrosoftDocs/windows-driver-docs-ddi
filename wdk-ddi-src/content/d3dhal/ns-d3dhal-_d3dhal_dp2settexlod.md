@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 89fc8319-64ec-4e9d-8863-e5140e9f7a44
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DHAL_DP2SETTEXLOD structure [Display Devices], _D3DHAL_DP2SETTEXLOD, d3dhal/D3DHAL_DP2SETTEXLOD, d3dstrct_8b7c348f-b058-4cd8-ac49-788765e4fa15.xml, display.d3dhal_dp2settexlod, D3DHAL_DP2SETTEXLOD, *LPD3DHAL_DP2SETTEXLOD
+ms.keywords: ",  , *, *LPD3DHAL_DP2SETTEXLOD, ,, 2, 3, A, D, D3DHAL_DP2SETTEXLOD, D3DHAL_DP2SETTEXLOD structure [Display Devices], E, H, L, O, P, S, T, X, _, _D3DHAL_DP2SETTEXLOD, d3dhal/D3DHAL_DP2SETTEXLOD, d3dstrct_8b7c348f-b058-4cd8-ac49-788765e4fa15.xml, display.d3dhal_dp2settexlod"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

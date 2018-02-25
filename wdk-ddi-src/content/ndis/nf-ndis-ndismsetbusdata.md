@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b9153b3-f379-40c4-87f6-1fa380070e65
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMSetBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetBusData, NdisMSetBusData, netvista.ndismsetbusdata, hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml
+ms.keywords: ",  , B, D, M, N, NdisMSetBusData, NdisMSetBusData function [Network Drivers Starting with Windows Vista], S, a, d, e, hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, i, ndis/NdisMSetBusData, netvista.ndismsetbusdata, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -138,11 +138,11 @@ This function replaces the NDIS 5.1
 
 
 
-<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b039609e-d259-44d7-bbde-20993576e18a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SeImpersonateClient, ifsk.seimpersonateclient, ntifs/SeImpersonateClient, seref_27996dfe-95b9-4d36-8182-9528fedef7d8.xml, SeImpersonateClient function [Installable File System Drivers]
+ms.keywords: ",  , C, I, S, SeImpersonateClient, SeImpersonateClient function [Installable File System Drivers], a, e, i, ifsk.seimpersonateclient, l, m, n, ntifs/SeImpersonateClient, o, p, r, s, seref_27996dfe-95b9-4d36-8182-9528fedef7d8.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

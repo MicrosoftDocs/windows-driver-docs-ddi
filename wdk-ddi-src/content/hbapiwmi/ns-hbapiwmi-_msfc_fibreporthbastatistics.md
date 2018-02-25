@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8b365e7a-6d52-417f-8c0b-78feac24602f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, hbapiwmi/PMSFC_FibrePortHBAStatistics, _MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml, MSFC_FibrePortHBAStatistics structure [Storage Devices], PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], hbapiwmi/MSFC_FibrePortHBAStatistics
+ms.keywords: ",  , *, *PMSFC_FibrePortHBAStatistics, ,, A, B, C, F, H, M, MSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics structure [Storage Devices], P, PMSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], S, _, _MSFC_FibrePortHBAStatistics, a, b, c, e, hbapiwmi/MSFC_FibrePortHBAStatistics, hbapiwmi/PMSFC_FibrePortHBAStatistics, i, o, r, s, storage.msfc_fibreporthbastatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

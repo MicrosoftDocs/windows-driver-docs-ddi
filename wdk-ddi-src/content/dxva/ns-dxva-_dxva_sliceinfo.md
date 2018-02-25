@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fd1d0cf5-2ee2-44d8-945f-492af57c3990
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml, *LPDXVA_SliceInfo, LPDXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], _DXVA_SliceInfo, dxva/LPDXVA_SliceInfo, display.dxva_sliceinfo, DXVA_SliceInfo structure [Display Devices], dxva/DXVA_SliceInfo, DXVA_SliceInfo
+ms.keywords: ",  , *, *LPDXVA_SliceInfo, ,, A, D, DXVA_SliceInfo, DXVA_SliceInfo structure [Display Devices], I, L, LPDXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], P, S, V, X, _, _DXVA_SliceInfo, c, display.dxva_sliceinfo, dxva/DXVA_SliceInfo, dxva/LPDXVA_SliceInfo, dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml, e, f, i, l, n, o"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

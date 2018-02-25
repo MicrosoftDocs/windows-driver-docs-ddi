@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 09229774-14db-448b-bd49-2d39a848c9a6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print_interface-graphics_ffc39ed1-d1b8-4e3d-b0a3-515b90cd6c8f.xml, DrvDocumentEvent function [Print Devices], DrvDocumentEvent, winddiui/DrvDocumentEvent, print.drvdocumentevent
+ms.keywords: ",  , D, DrvDocumentEvent, DrvDocumentEvent function [Print Devices], E, c, e, m, n, o, print.drvdocumentevent, print_interface-graphics_ffc39ed1-d1b8-4e3d-b0a3-515b90cd6c8f.xml, r, t, u, v, winddiui/DrvDocumentEvent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -660,11 +660,11 @@ The <b>DrvDocumentEvent</b> function executes in the context of the user-mode ca
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
-
-
-
 <a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
 
 
 

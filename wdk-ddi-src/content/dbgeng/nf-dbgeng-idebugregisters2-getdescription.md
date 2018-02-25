@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 895d18e7-673e-41bb-a3be-eb5b4a778880
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetDescription method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters, debugger.getdescription, GetDescription, GetDescription method [Windows Debugging], IDebugRegisters interface, GetDescription method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetDescription method, IDebugRegisters::GetDescription, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, IDebugRegisters interface [Windows Debugging], GetDescription method, IDebugRegisters2::GetDescription, dbgeng/IDebugRegisters2::GetDescription, IDebugRegisters2, dbgeng/IDebugRegisters::GetDescription
+ms.keywords: ",  , ,, ., 2, :, D, G, GetDescription method [Windows Debugging], GetDescription method [Windows Debugging], IDebugRegisters interface, GetDescription method [Windows Debugging], IDebugRegisters2 interface, GetDescription,IDebugRegisters.GetDescription, GetDescription,IDebugRegisters2.GetDescription, I, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetDescription method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetDescription method, IDebugRegisters2::GetDescription, IDebugRegisters::GetDescription, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, R, b, c, dbgeng/IDebugRegisters2::GetDescription, dbgeng/IDebugRegisters::GetDescription, debugger.getdescription, e, g, i, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

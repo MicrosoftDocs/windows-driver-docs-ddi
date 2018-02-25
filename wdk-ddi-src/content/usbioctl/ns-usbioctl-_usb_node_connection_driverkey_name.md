@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: b5939a5b-2856-494c-9673-d32e2fc93384
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbstrct_561b9eb1-d580-48c5-ac16-c87647f7a342.xml, usbioctl/USB_NODE_CONNECTION_DRIVERKEY_NAME, USB_NODE_CONNECTION_DRIVERKEY_NAME, buses.usb_node_connection_driverkey_name, USB_NODE_CONNECTION_DRIVERKEY_NAME structure [Buses], _USB_NODE_CONNECTION_DRIVERKEY_NAME, usbioctl/PUSB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME structure pointer [Buses], *PUSB_NODE_CONNECTION_DRIVERKEY_NAME
+ms.keywords: ",  , *, *PUSB_NODE_CONNECTION_DRIVERKEY_NAME, ,, A, B, C, D, E, I, K, M, N, O, P, PUSB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME structure pointer [Buses], R, S, T, U, USB_NODE_CONNECTION_DRIVERKEY_NAME, USB_NODE_CONNECTION_DRIVERKEY_NAME structure [Buses], V, Y, _, _USB_NODE_CONNECTION_DRIVERKEY_NAME, buses.usb_node_connection_driverkey_name, usbioctl/PUSB_NODE_CONNECTION_DRIVERKEY_NAME, usbioctl/USB_NODE_CONNECTION_DRIVERKEY_NAME, usbstrct_561b9eb1-d580-48c5-ac16-c87647f7a342.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

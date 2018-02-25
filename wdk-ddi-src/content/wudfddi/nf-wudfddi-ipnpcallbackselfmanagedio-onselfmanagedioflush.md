@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dee0e30b-ad03-43e4-8a0c-07d3782d7857
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo, UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush method, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, OnSelfManagedIoFlush method
+ms.keywords: ",  , ,, ., :, C, F, I, IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, M, O, OnSelfManagedIoFlush method, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush,IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush, P, S, UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, a, b, c, d, e, f, g, h, k, l, n, o, p, s, u, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,11 +99,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices], display.d3dkmt_offerallocations, _D3DKMT_OFFERALLOCATIONS
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices], E, F, I, K, L, M, N, O, R, S, T, _, _D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, display.d3dkmt_offerallocations"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: D3DKMT_OFFERALLOCATIONS
 ## -description
 
 
-Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>  function.
+Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_offerallocations.md">D3DKMTOfferAllocations</a>  function.
 
 
 ## -syntax
@@ -109,7 +109,7 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_offerallocations.md">D3DKMTOfferAllocations</a>
 
 
 

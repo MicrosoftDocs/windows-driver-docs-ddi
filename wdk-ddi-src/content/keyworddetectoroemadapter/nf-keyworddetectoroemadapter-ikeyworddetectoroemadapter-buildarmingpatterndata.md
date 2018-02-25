@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F74DC3C3-C182-4BBA-93C8-95A73C58CFEF
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices], BuildArmingPatternData method, audio.ikeyworddetectoroemadapter_buildarmingpatterndata, BuildArmingPatternData method [Audio Devices], IKeywordDetectorOemAdapter interface, BuildArmingPatternData, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData, IKeywordDetectorOemAdapter::BuildArmingPatternData, IKeywordDetectorOemAdapter, BuildArmingPatternData method [Audio Devices]
+ms.keywords: ",  , ,, ., :, A, B, BuildArmingPatternData method [Audio Devices], BuildArmingPatternData method [Audio Devices], IKeywordDetectorOemAdapter interface, BuildArmingPatternData,IKeywordDetectorOemAdapter.BuildArmingPatternData, D, I, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], BuildArmingPatternData method, IKeywordDetectorOemAdapter::BuildArmingPatternData, K, O, P, a, audio.ikeyworddetectoroemadapter_buildarmingpatterndata, c, d, e, g, i, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData, l, m, n, o, p, r, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -167,7 +167,7 @@ The operating system may call this method at any time. The operating system may 
 
 ## -see-also
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+<a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a>
 
 
 
@@ -179,7 +179,7 @@ The operating system may call this method at any time. The operating system may 
 
 
 
-<a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a>
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1500E2C2-240F-4087-9275-9FD4170B8BED
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: RegisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, IPortClsRuntimePower interface [Audio Devices], RegisterPowerControlCallback method, IPortClsRuntimePower, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback, portcls/IPortClsRuntimePower::RegisterPowerControlCallback, IPortClsRuntimePower::RegisterPowerControlCallback, audio.iportclsruntimepower_registerpowercontrolcallback
+ms.keywords: ",  , ,, ., :, C, I, IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], RegisterPowerControlCallback method, IPortClsRuntimePower::RegisterPowerControlCallback, P, R, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, RegisterPowerControlCallback,IPortClsRuntimePower.RegisterPowerControlCallback, a, audio.iportclsruntimepower_registerpowercontrolcallback, b, c, e, g, i, k, l, m, n, o, portcls/IPortClsRuntimePower::RegisterPowerControlCallback, r, s, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

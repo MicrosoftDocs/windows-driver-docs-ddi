@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: DAC18721-5747-4D5E-8A25-24B80DE77C99
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ufxclient/UfxDeviceEventComplete, buses.ufxdeviceeventcomplete, UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses]
+ms.keywords: ",  , C, D, E, U, UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses], buses.ufxdeviceeventcomplete, c, e, f, i, l, m, n, o, p, t, ufxclient/UfxDeviceEventComplete, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

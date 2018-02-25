@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3ed4ed2f-66be-4429-b2d6-2d9d3f9bcf3e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsStreamPointerGetIrp, KsStreamPointerGetIrp, stream.ksstreampointergetirp, KsStreamPointerGetIrp function [Streaming Media Devices], avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml
+ms.keywords: ",  , G, I, K, KsStreamPointerGetIrp, KsStreamPointerGetIrp function [Streaming Media Devices], P, S, a, avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml, e, i, ks/KsStreamPointerGetIrp, m, n, o, p, r, s, stream.ksstreampointergetirp, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

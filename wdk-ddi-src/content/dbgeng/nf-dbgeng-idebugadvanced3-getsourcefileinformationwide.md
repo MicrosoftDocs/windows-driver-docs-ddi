@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1b7b26be-b7be-4dc7-9863-413f7293707c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.getsourcefileinformationwide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3 interface, GetSourceFileInformationWide, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformationWide method, IDebugAdvanced3, GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3::GetSourceFileInformationWide
+ms.keywords: ",  , ,, ., 3, :, A, D, F, G, GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3 interface, GetSourceFileInformationWide,IDebugAdvanced3.GetSourceFileInformationWide, I, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformationWide method, IDebugAdvanced3::GetSourceFileInformationWide, S, W, a, b, c, d, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, debugger.getsourcefileinformationwide, e, f, g, i, l, m, n, o, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -172,11 +172,11 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
 
 

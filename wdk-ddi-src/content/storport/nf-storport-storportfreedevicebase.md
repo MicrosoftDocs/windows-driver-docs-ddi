@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4feb3bde-c243-493c-a6f9-4accd545955c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportfreedevicebase, StorPortFreeDeviceBase function [Storage Devices], StorPortFreeDeviceBase, storport/StorPortFreeDeviceBase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml
+ms.keywords: ",  , B, D, F, P, S, StorPortFreeDeviceBase, StorPortFreeDeviceBase function [Storage Devices], a, c, e, i, o, r, s, storage.storportfreedevicebase, storport/StorPortFreeDeviceBase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

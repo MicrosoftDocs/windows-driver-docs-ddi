@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: ae438f89-27b7-423f-9f82-b103ba70b7b5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: gpiobtn._client_device_information, CLIENT_DEVICE_INFORMATION structure, *PCLIENT_DEVICE_INFORMATION, hwnclx/CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION, _CLIENT_DEVICE_INFORMATION
+ms.keywords: ",  , *, *PCLIENT_DEVICE_INFORMATION, ,, A, C, CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION structure, D, E, F, I, L, M, N, O, P, R, T, V, _, _CLIENT_DEVICE_INFORMATION, gpiobtn._client_device_information, hwnclx/CLIENT_DEVICE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AD78ABAD-5DCF-4E1A-B521-8063B5BEA6A6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_driver_report_capabilities, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control code [Storage Devices], IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, ehstorioctl/IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES
+ms.keywords: IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, storage.ioctl_ehstor_driver_report_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PDO_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

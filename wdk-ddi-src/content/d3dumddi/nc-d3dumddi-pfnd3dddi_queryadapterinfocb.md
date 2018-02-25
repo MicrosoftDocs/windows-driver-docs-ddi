@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8008574f-a89e-4fed-b745-7cf5baa68e64
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnqueryadapterinfocb, pfnQueryAdapterInfoCb callback function [Display Devices], pfnQueryAdapterInfoCb, PFND3DDDI_QUERYADAPTERINFOCB, PFND3DDDI_QUERYADAPTERINFOCB, d3dumddi/pfnQueryAdapterInfoCb, D3Druntime_Functions_ca5c02c9-ad59-4a10-8cb7-92d815cd6856.xml
+ms.keywords: D3Druntime_Functions_ca5c02c9-ad59-4a10-8cb7-92d815cd6856.xml, PFND3DDDI_QUERYADAPTERINFOCB, d3dumddi/pfnQueryAdapterInfoCb, display.pfnqueryadapterinfocb, pfnQueryAdapterInfoCb, pfnQueryAdapterInfoCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -173,27 +173,7 @@ The following code example shows how to retrieve graphics adapter information.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_queryadapterinfo.md">D3DDDICB_QUERYADAPTERINFO</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 
@@ -202,6 +182,26 @@ The following code example shows how to retrieve graphics adapter information.
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_queryadapterinfo.md">D3DDDICB_QUERYADAPTERINFO</a>
 
 
 

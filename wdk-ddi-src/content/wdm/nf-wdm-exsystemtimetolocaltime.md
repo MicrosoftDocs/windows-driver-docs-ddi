@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d77ce60e-7b23-4f60-af63-d613ceba281e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exsystemtimetolocaltime, wdm/ExSystemTimeToLocalTime, ExSystemTimeToLocalTime routine [Kernel-Mode Driver Architecture], ExSystemTimeToLocalTime, k102_9cf20274-70ae-41f6-b56f-2dc8aa7fd0e3.xml
+ms.keywords: ",  , E, ExSystemTimeToLocalTime, ExSystemTimeToLocalTime routine [Kernel-Mode Driver Architecture], L, S, T, a, c, e, i, k102_9cf20274-70ae-41f6-b56f-2dc8aa7fd0e3.xml, kernel.exsystemtimetolocaltime, l, m, o, s, t, wdm/ExSystemTimeToLocalTime, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

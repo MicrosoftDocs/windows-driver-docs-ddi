@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8e65085-6837-4d49-a39e-784942ee39a4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilcallaudiomediastate, RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE, ntddrilapitypes/RILCALLAUDIOMEDIASTATE
+ms.keywords: ",  , *, *LPRILCALLAUDIOMEDIASTATE, ,, A, C, D, E, I, L, M, O, P, R, RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.rilcallaudiomediastate, ntddrilapitypes/RILCALLAUDIOMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 265dce25-cecb-4bd1-8f5f-1646779da296
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.phw_find_adapter, (*PHW_FIND_ADAPTER) callback function [Storage Devices], (*PHW_FIND_ADAPTER), srb/(*PHW_FIND_ADAPTER), ide_minikr_dcd06c33-80a8-417c-acf6-5c38fa4d62ed.xml
+ms.keywords: "(*PHW_FIND_ADAPTER), (*PHW_FIND_ADAPTER) callback function [Storage Devices], ide_minikr_dcd06c33-80a8-417c-acf6-5c38fa4d62ed.xml, srb/(*PHW_FIND_ADAPTER), storage.phw_find_adapter"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -189,11 +189,11 @@ For more information about the Storport driver's version of the routine associat
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
-
-
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
+
+<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
 
 
 

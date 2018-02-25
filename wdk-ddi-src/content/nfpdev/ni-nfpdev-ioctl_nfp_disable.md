@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 5999EBAE-9B4A-469C-A8CE-E0A72B6F6A14
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfpdrivers.ioctl_nfp_disable, IOCTL_NFP_DISABLE control code [Near-Field Proximity Drivers], IOCTL_NFP_DISABLE, nfpdev/IOCTL_NFP_DISABLE
+ms.keywords: IOCTL_NFP_DISABLE, IOCTL_NFP_DISABLE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_DISABLE, nfpdrivers.ioctl_nfp_disable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_I
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -160,7 +160,7 @@ The driver MUST complete all pended <a href="..\nfpdev\ni-nfpdev-ioctl_nfp_get_n
 
 ## -see-also
 
-<a href="..\nfpdev\ni-nfpdev-ioctl_nfp_enable.md">IOCTL_NFP_ENABLE</a>
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
 
 
 
@@ -168,7 +168,7 @@ The driver MUST complete all pended <a href="..\nfpdev\ni-nfpdev-ioctl_nfp_get_n
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+<a href="..\nfpdev\ni-nfpdev-ioctl_nfp_enable.md">IOCTL_NFP_ENABLE</a>
 
 
 

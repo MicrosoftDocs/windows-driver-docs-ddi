@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ff80bbc7-93b1-4319-a549-f896ce0f4611
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.avstrminiaddevent, AVStrMiniAddEvent, AVStrMiniAddEvent routine [Streaming Media Devices], AVStrMiniAddEvent, PFNKSADDEVENT, PFNKSADDEVENT, ks/AVStrMiniAddEvent, avstclbk_31147072-c3de-4b02-9fb1-b7f67765acc4.xml
+ms.keywords: AVStrMiniAddEvent, AVStrMiniAddEvent routine [Streaming Media Devices], PFNKSADDEVENT, avstclbk_31147072-c3de-4b02-9fb1-b7f67765acc4.xml, ks/AVStrMiniAddEvent, stream.avstrminiaddevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,10 +113,6 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-
-
-
 <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
 
 
@@ -125,7 +121,7 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 
 
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
@@ -133,11 +129,11 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-
-
-
 <a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
+
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 
@@ -145,7 +141,11 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
 
 

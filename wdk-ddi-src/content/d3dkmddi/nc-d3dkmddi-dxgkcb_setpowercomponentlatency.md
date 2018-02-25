@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8FF86746-15A2-4BDF-98AF-23B5F9960DB9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkcbsetpowercomponentlatency, DxgkCbSetPowerComponentLatency callback function [Display Devices], DxgkCbSetPowerComponentLatency, DXGKCB_SETPOWERCOMPONENTLATENCY, DXGKCB_SETPOWERCOMPONENTLATENCY, d3dkmddi/DxgkCbSetPowerComponentLatency
+ms.keywords: DXGKCB_SETPOWERCOMPONENTLATENCY, DxgkCbSetPowerComponentLatency, DxgkCbSetPowerComponentLatency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentLatency, display.dxgkcbsetpowercomponentlatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,7 +113,7 @@ If the driver sets <i>Latency</i> to a value of <b>PO_FX_UNKNOWN_TIME</b> (defin
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
 
 
@@ -125,7 +125,7 @@ If the driver sets <i>Latency</i> to a value of <b>PO_FX_UNKNOWN_TIME</b> (defin
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 
 
 

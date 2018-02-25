@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F5E66C33-F727-4631-89C6-413C24995A04
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE, kernel.pep_device_power_state, PEP_DEVICE_POWER_STATE structure [Kernel-Mode Driver Architecture], *PPEP_DEVICE_POWER_STATE, pepfx/PPEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE
+ms.keywords: ",  , *, *PPEP_DEVICE_POWER_STATE, ,, A, C, D, E, I, O, P, PEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE structure pointer [Kernel-Mode Driver Architecture], R, S, T, V, W, _, _PEP_DEVICE_POWER_STATE, kernel.pep_device_power_state, pepfx/PEP_DEVICE_POWER_STATE, pepfx/PPEP_DEVICE_POWER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,15 +109,15 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_DEVICE_POWER_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 
 <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_DEVICE_POWER_STATE</a>
 
 
 

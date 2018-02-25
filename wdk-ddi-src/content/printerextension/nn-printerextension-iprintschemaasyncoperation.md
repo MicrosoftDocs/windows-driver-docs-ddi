@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CEA80412-4B19-493B-A85E-625915D77CA5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschemaasyncoperation_interface, IPrintSchemaAsyncOperation interface [Print Devices], IPrintSchemaAsyncOperation interface [Print Devices], described, IPrintSchemaAsyncOperation, printerextension/IPrintSchemaAsyncOperation
+ms.keywords: IPrintSchemaAsyncOperation, IPrintSchemaAsyncOperation interface [Print Devices], IPrintSchemaAsyncOperation interface [Print Devices], described, print.iprintschemaasyncoperation_interface, printerextension/IPrintSchemaAsyncOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

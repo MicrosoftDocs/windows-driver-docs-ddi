@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 56B7D001-2EC3-4397-B520-193CCF52A9EE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.irb_req_bus_reset, IRB_REQ_BUS_RESET structure [Buses], 1394/IRB_REQ_BUS_RESET, IRB_REQ_BUS_RESET, _IRB_REQ_BUS_RESET
+ms.keywords: ",  , ,, 1394/IRB_REQ_BUS_RESET, B, E, I, IEEE.irb_req_bus_reset, IRB_REQ_BUS_RESET, IRB_REQ_BUS_RESET structure [Buses], Q, R, S, T, U, _, _IRB_REQ_BUS_RESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

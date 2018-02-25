@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3F9A7BBE-BFC2-47B9-856A-0B6930717A36
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure [Display Devices], display.d3dkmt_signalsynchronizationobjectfromgpu2, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
+ms.keywords: ",  , ,, 2, 3, A, B, C, D, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure [Display Devices], E, F, G, H, I, J, K, L, M, N, O, P, R, S, T, U, Y, Z, _, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, display.d3dkmt_signalsynchronizationobjectfromgpu2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

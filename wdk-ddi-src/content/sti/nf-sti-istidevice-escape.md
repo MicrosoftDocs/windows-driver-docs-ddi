@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ca2aae12-b4b8-4bae-bc3b-812a1ae539c0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IStiDevice, Escape method [Imaging Devices], IStiDevice interface, Escape method [Imaging Devices], sti/IStiDevice::Escape, Escape, image.istidevice_escape, IStiDevice interface [Imaging Devices], Escape method, IStiDevice::Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml
+ms.keywords: ",  , ,, ., :, D, E, Escape method [Imaging Devices], Escape method [Imaging Devices], IStiDevice interface, Escape,IStiDevice.Escape, I, IStiDevice, IStiDevice interface [Imaging Devices], Escape method, IStiDevice::Escape, S, a, c, e, i, image.istidevice_escape, p, s, sti/IStiDevice::Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: filterpipeline/DrvPopulateFilterServices, DrvPopulateFilterServices, print.drvpopulatefilterservices, DrvPopulateFilterServices function [Print Devices]
+ms.keywords: ",  , D, DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], F, P, S, a, c, e, filterpipeline/DrvPopulateFilterServices, i, l, o, p, print.drvpopulatefilterservices, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,11 @@ The <a href="https://msdn.microsoft.com/7567c514-3034-4db0-9622-31d14eb3772e">XP
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554320">IPrintPipelinePropertyBag</a>
-
-
-
 <a href="https://msdn.microsoft.com/586247bd-6d06-4728-a5f0-ee3fe1d09321">Filter pipeline configuration file</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554320">IPrintPipelinePropertyBag</a>
 
 
 

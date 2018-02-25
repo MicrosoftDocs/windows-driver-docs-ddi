@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2AC0B5CF-67FB-462F-9118-E30FEDE9A019
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DDT_INVALID, DXGK_DDT_EDID, d3dkmdt/DXGK_DDT_INVALID, d3dkmdt/DXGK_DDT_EDID, PDXGK_DISPLAY_DESCRIPTOR_TYPE, display.dxgk_display_descriptor_type, _DXGK_DISPLAY_DESCRIPTOR_TYPE, *PDXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE, PDXGK_DISPLAY_DESCRIPTOR_TYPE enumeration pointer [Display Devices], DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration [Display Devices], d3dkmdt/PDXGK_DISPLAY_DESCRIPTOR_TYPE
+ms.keywords: ",  , *, *PDXGK_DISPLAY_DESCRIPTOR_TYPE, ,, A, C, D, DXGK_DDT_EDID, DXGK_DDT_INVALID, DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration [Display Devices], E, G, I, K, L, O, P, PDXGK_DISPLAY_DESCRIPTOR_TYPE, PDXGK_DISPLAY_DESCRIPTOR_TYPE enumeration pointer [Display Devices], R, S, T, X, Y, _, _DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/DXGK_DDT_EDID, d3dkmdt/DXGK_DDT_INVALID, d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/PDXGK_DISPLAY_DESCRIPTOR_TYPE, display.dxgk_display_descriptor_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca46be9e-31f6-4118-8958-4eb2c8450e8c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], k109_0213924f-caca-4411-b5cc-d93282f01948.xml, kernel.rtlfreeansistring, RtlFreeAnsiString, wdm/RtlFreeAnsiString
+ms.keywords: ",  , A, F, R, RtlFreeAnsiString, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], S, e, g, i, k109_0213924f-caca-4411-b5cc-d93282f01948.xml, kernel.rtlfreeansistring, l, n, r, s, t, wdm/RtlFreeAnsiString"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

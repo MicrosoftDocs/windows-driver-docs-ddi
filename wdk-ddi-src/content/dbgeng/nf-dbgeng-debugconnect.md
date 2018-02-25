@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77dba83d-cc25-4609-905c-7a036cb7ced9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/DebugConnect, DebugConnect function [Windows Debugging], ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, DebugConnect, debugger.debugconnect
+ms.keywords: ",  , C, ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, D, DebugConnect, DebugConnect function [Windows Debugging], b, c, dbgeng/DebugConnect, debugger.debugconnect, e, g, n, o, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

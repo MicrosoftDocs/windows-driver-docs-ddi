@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7116B31A-D584-4B9D-AFB4-5B15B659BE54
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PDEBUG_OFFSET_REGION, dbgeng/DEBUG_OFFSET_REGION, dbgeng/PDEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION structure pointer [Windows Debugging], debugger.debug_offset_region, _DEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION structure [Windows Debugging], DEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION"
+ms.keywords: ",  , *, *PDEBUG_OFFSET_REGION, ,, B, D, DEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION structure [Windows Debugging], E, F, G, I, N, O, P, PDEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION structure pointer [Windows Debugging], R, S, T, U, _, _DEBUG_OFFSET_REGION, dbgeng/DEBUG_OFFSET_REGION, dbgeng/PDEBUG_OFFSET_REGION, debugger.debug_offset_region"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

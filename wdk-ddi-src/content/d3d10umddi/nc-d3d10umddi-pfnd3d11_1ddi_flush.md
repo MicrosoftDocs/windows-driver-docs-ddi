@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f4bda19-2d51-4058-ba68-cbb5deb44a54
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.flush_d3d11_1_, Flush(D3D11_1) callback function [Display Devices], Flush(D3D11_1), PFND3D11_1DDI_FLUSH, PFND3D11_1DDI_FLUSH, d3d10umddi/Flush(D3D11_1)
+ms.keywords: Flush(D3D11_1), Flush(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_FLUSH, d3d10umddi/Flush(D3D11_1), display.flush_d3d11_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -106,7 +106,7 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_flush_flags.md">D3D11_1_DDI_FLUSH_FLAGS</a>
 
 
 
@@ -114,7 +114,7 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_flush_flags.md">D3D11_1_DDI_FLUSH_FLAGS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

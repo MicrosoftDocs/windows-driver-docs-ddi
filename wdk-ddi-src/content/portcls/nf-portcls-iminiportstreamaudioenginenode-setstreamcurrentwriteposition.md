@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A277FC29-AB92-4D67-9E53-F8E8B36053F9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, SetStreamCurrentWritePosition, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method, IMiniportStreamAudioEngineNode, SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
+ms.keywords: ",  , ,, ., :, A, C, E, I, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, M, N, P, S, SetStreamCurrentWritePosition method [Audio Devices], SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamCurrentWritePosition,IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition, W, a, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, d, e, g, i, m, n, o, p, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdmsec/RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, RtlInitUnicodeString, kernel.wdmlibrtlinitunicodestringex, wdmsec/WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , E, I, R, RtlInitUnicodeString, S, U, W, WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], b, c, d, e, g, i, kernel.wdmlibrtlinitunicodestringex, l, m, n, o, r, t, wdmsec/RtlInitUnicodeString, wdmsec/WdmlibRtlInitUnicodeStringEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

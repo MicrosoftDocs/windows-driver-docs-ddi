@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1812cb0f-9232-4813-9c7b-74c9fa4d03cf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnsetprioritycb, pfnSetPriorityCb callback function [Display Devices], pfnSetPriorityCb, PFND3DDDI_SETPRIORITYCB, PFND3DDDI_SETPRIORITYCB, d3dumddi/pfnSetPriorityCb, D3Druntime_Functions_4bd6f90d-e958-43cc-8267-36d4d0448096.xml
+ms.keywords: D3Druntime_Functions_4bd6f90d-e958-43cc-8267-36d4d0448096.xml, PFND3DDDI_SETPRIORITYCB, d3dumddi/pfnSetPriorityCb, display.pfnsetprioritycb, pfnSetPriorityCb, pfnSetPriorityCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -187,7 +187,7 @@ The following code example shows how to set priority level.
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setpriority.md">D3DDDICB_SETPRIORITY</a>
 
 
 
@@ -195,11 +195,11 @@ The following code example shows how to set priority level.
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569657">SetResourcePriorityDXGI</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setpriority.md">D3DDDICB_SETPRIORITY</a>
 
 
 

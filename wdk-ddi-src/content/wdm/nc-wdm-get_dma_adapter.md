@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0F703E88-2650-4451-9F5A-05FBCF33C131
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.getdmaadapter, GetDmaAdapter routine [Kernel-Mode Driver Architecture], GetDmaAdapter, GET_DMA_ADAPTER, GET_DMA_ADAPTER, ntddk/GetDmaAdapter, kernel.busgetdmaadapter, drvr_interface_5c7fd89d-0b6c-45e7-8559-8666f43beb9a.xml
+ms.keywords: GET_DMA_ADAPTER, GetDmaAdapter, GetDmaAdapter routine [Kernel-Mode Driver Architecture], drvr_interface_5c7fd89d-0b6c-45e7-8559-8666f43beb9a.xml, kernel.busgetdmaadapter, kernel.getdmaadapter, ntddk/GetDmaAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -110,11 +110,7 @@ However, if a driver must obtain an adapter object while running at IRQL ≥ DIS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
 
 
 
@@ -122,7 +118,11 @@ However, if a driver must obtain an adapter object while running at IRQL ≥ DIS
 
 
 
-<a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 

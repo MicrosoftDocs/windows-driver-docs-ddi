@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9ca0fdd5-a724-4d5d-81b2-8885b2aed1ca
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.calcprivatecryptosessionsize, CalcPrivateCryptoSessionSize callback function [Display Devices], CalcPrivateCryptoSessionSize, PFND3D11_1DDI_CALCPRIVATECRYPTOSESSIONSIZE, PFND3D11_1DDI_CALCPRIVATECRYPTOSESSIONSIZE, d3d10umddi/CalcPrivateCryptoSessionSize
+ms.keywords: CalcPrivateCryptoSessionSize, CalcPrivateCryptoSessionSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATECRYPTOSESSIONSIZE, d3d10umddi/CalcPrivateCryptoSessionSize, display.calcprivatecryptosessionsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

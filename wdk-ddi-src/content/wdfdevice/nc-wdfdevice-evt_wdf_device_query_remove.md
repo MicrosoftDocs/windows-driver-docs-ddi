@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 59e6a8bc-e2f9-4d26-92b0-8f8944e1aa88
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicequeryremove, EvtDeviceQueryRemove callback function, EvtDeviceQueryRemove, EVT_WDF_DEVICE_QUERY_REMOVE, EVT_WDF_DEVICE_QUERY_REMOVE, wdfdevice/EvtDeviceQueryRemove, DFDeviceObjectGeneralRef_e982c552-e635-4fa9-8d84-dc4d7c143925.xml, kmdf.evtdevicequeryremove
+ms.keywords: DFDeviceObjectGeneralRef_e982c552-e635-4fa9-8d84-dc4d7c143925.xml, EVT_WDF_DEVICE_QUERY_REMOVE, EvtDeviceQueryRemove, EvtDeviceQueryRemove callback function, kmdf.evtdevicequeryremove, wdf.evtdevicequeryremove, wdfdevice/EvtDeviceQueryRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

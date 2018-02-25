@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d20349-4039-4a5d-a1fd-0488148c623d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*INOUT_PDXGKARG_CREATEDEVICE, display.dxgkarg_createdevice, d3dkmddi/DXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE, DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, _DXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE structure [Display Devices]"
+ms.keywords: ",  , *, *INOUT_PDXGKARG_CREATEDEVICE, ,, A, C, D, DXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE structure [Display Devices], DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, E, G, I, K, N, O, P, R, T, U, V, X, _, _DXGKARG_CREATEDEVICE, d3dkmddi/DXGKARG_CREATEDEVICE, display.dxgkarg_createdevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,7 +108,7 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICE
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createdeviceflags.md">DXGK_CREATEDEVICEFLAGS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
 
 
@@ -116,7 +116,7 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICE
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createdeviceflags.md">DXGK_CREATEDEVICEFLAGS</a>
 
 
 

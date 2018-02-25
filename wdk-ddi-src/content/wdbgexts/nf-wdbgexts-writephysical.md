@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: faafaf0a-29ef-43ef-9f9a-f3b545e83f65
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dbgeng/WritePhysical, WritePhysical function [Windows Debugging], WritePhysical, debugger.writephysical, WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml
+ms.keywords: ",  , P, W, WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, WritePhysical, WritePhysical function [Windows Debugging], a, c, dbgeng/WritePhysical, debugger.writephysical, e, h, i, l, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

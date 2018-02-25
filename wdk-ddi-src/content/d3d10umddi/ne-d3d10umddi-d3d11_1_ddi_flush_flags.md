@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0786c63d-ce4e-47c1-b54f-47f1da90cb64
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D11_1_DDI_FLUSH_FLAGS enumeration [Display Devices], D3DWDDM1_3DDI_TRIM_MEMORY, d3d10umddi/D3D11_1_DDI_FLUSH_FLAGS, D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, display.d3d11_1_ddi_flush_flags, D3D11_1_DDI_FLUSH_FLAGS, d3d10umddi/D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, d3d10umddi/D3DWDDM1_3DDI_TRIM_MEMORY
+ms.keywords: ",  , ,, 1, 3, A, D, D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, D3D11_1_DDI_FLUSH_FLAGS, D3D11_1_DDI_FLUSH_FLAGS enumeration [Display Devices], D3DWDDM1_3DDI_TRIM_MEMORY, F, G, H, I, L, S, U, _, d3d10umddi/D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, d3d10umddi/D3D11_1_DDI_FLUSH_FLAGS, d3d10umddi/D3DWDDM1_3DDI_TRIM_MEMORY, display.d3d11_1_ddi_flush_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

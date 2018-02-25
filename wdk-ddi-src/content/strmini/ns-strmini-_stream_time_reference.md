@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BC3839C0-AED6-470D-9C2B-B1529B2B3D1A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PSTREAM_TIME_REFERENCE structure pointer [Streaming Media Devices], _STREAM_TIME_REFERENCE, stream.stream_time_reference, STREAM_TIME_REFERENCE structure [Streaming Media Devices], STREAM_TIME_REFERENCE, strmini/PSTREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE, strmini/STREAM_TIME_REFERENCE
+ms.keywords: ",  , *, *PSTREAM_TIME_REFERENCE, ,, A, C, E, F, I, M, N, P, PSTREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE structure pointer [Streaming Media Devices], R, S, STREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE structure [Streaming Media Devices], T, _, _STREAM_TIME_REFERENCE, stream.stream_time_reference, strmini/PSTREAM_TIME_REFERENCE, strmini/STREAM_TIME_REFERENCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

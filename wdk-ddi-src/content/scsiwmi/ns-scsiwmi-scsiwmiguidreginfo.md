@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7116445e-751b-478a-8e58-8f5c90d06b9b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], scsiwmi/PSCSIWMIGUIDREGINFO, scsiwmi/SCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo, SCSIWMIGUIDREGINFO structure [Storage Devices], structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml"
+ms.keywords: ",  , *, *PSCSIWMIGUIDREGINFO, ,, C, D, E, F, G, I, M, N, O, P, PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], R, S, SCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO structure [Storage Devices], U, W, scsiwmi/PSCSIWMIGUIDREGINFO, scsiwmi/SCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,7 +120,7 @@ For more information about defining blocks, <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 
@@ -128,7 +128,7 @@ For more information about defining blocks, <a href="https://msdn.microsoft.com/
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 

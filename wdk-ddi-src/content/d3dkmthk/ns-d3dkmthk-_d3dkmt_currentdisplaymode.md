@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ba027f9-3671-461c-bae6-2da0059cf0ab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmt_currentdisplaymode, D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], d3dkmthk/D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE, OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, _D3DKMT_CURRENTDISPLAYMODE
+ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], E, I, K, L, M, N, O, OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, P, R, S, T, U, Y, _, _D3DKMT_CURRENTDISPLAYMODE, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE, display.d3dkmt_currentdisplaymode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

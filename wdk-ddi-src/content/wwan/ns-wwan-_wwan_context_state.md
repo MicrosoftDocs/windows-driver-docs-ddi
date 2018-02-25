@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b2a2a94-6c1a-439f-8d54-cc43e79b3b15
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, _WWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, wwan/PWWAN_CONTEXT_STATE, netvista.wwan_context_state, *PWWAN_CONTEXT_STATE
+ms.keywords: ",  , *, *PWWAN_CONTEXT_STATE, ,, A, C, E, N, O, P, PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], S, T, W, WWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, X, _, _WWAN_CONTEXT_STATE, netvista.wwan_context_state, wwan/PWWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -243,15 +243,15 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
 
 
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_context_state.md">NDIS_WWAN_CONTEXT_STATE</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
 
 
 

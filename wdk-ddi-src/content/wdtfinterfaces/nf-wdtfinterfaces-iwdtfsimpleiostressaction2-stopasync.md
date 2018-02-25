@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: fac4b59b-da9a-4245-bff0-f9177962c9d6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFSimpleIOStressAction2::StopAsync, StopAsync method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFSimpleIOStressAction2::StopAsync, StopAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_stopasync, StopAsync, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], StopAsync method, IWDTFSimpleIOStressAction2, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StopAsync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StopAsync
+ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], StopAsync method, IWDTFSimpleIOStressAction2::StopAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StopAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StopAsync, O, S, StopAsync method [Windows Device Testing Framework], StopAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, StopAsync,IWDTFSimpleIOStressAction2.StopAsync, T, W, c, dtf.iwdtfsimpleiostressaction2_stopasync, e, i, l, m, n, o, p, r, s, t, wdtfinterfaces/IWDTFSimpleIOStressAction2::StopAsync, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

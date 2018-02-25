@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bca1ef90-b574-4ed5-a9ec-c553372490b1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisDeregisterDeviceEx, ndis/NdisDeregisterDeviceEx, netvista.ndisderegisterdeviceex, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml
+ms.keywords: ",  , D, E, N, NdisDeregisterDeviceEx, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], c, d, e, g, i, ndis/NdisDeregisterDeviceEx, ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml, netvista.ndisderegisterdeviceex, r, s, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 893e0be1-aa29-429a-a3ca-a9f19053fd92
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgk_vidpntopology_interface_pfnaddpath, pfnAddPath callback function [Display Devices], pfnAddPath, DXGKDDI_VIDPNTOPOLOGY_ADDPATH, DXGKDDI_VIDPNTOPOLOGY_ADDPATH, d3dkmddi/pfnAddPath, VidPnFunctions_9c594989-a5f6-4977-8a1b-0302d30e8df7.xml
+ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ADDPATH, VidPnFunctions_9c594989-a5f6-4977-8a1b-0302d30e8df7.xml, d3dkmddi/pfnAddPath, display.dxgk_vidpntopology_interface_pfnaddpath, pfnAddPath, pfnAddPath callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -154,15 +154,15 @@ The D3DKMDT_HVIDPNTOPOLOGY data type is defined in<i> D3dkmdt.h</i>.
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_createnewpathinfo.md">pfnCreateNewPathInfo</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_releasepathinfo.md">pfnReleasePathInfo</a>
 
 
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_createnewpathinfo.md">pfnCreateNewPathInfo</a>
 
 
 

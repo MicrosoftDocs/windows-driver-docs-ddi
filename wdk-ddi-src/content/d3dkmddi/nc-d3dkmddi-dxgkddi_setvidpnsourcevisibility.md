@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c94473b4-b898-456d-944d-8879adea16d1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisetvidpnsourcevisibility, DxgkDdiSetVidPnSourceVisibility callback function [Display Devices], DxgkDdiSetVidPnSourceVisibility, DXGKDDI_SETVIDPNSOURCEVISIBILITY, DXGKDDI_SETVIDPNSOURCEVISIBILITY, d3dkmddi/DxgkDdiSetVidPnSourceVisibility, DmFunctions_6a3bb1aa-8bc1-4672-8028-ea3299809a37.xml
+ms.keywords: DXGKDDI_SETVIDPNSOURCEVISIBILITY, DmFunctions_6a3bb1aa-8bc1-4672-8028-ea3299809a37.xml, DxgkDdiSetVidPnSourceVisibility, DxgkDdiSetVidPnSourceVisibility callback function [Display Devices], d3dkmddi/DxgkDdiSetVidPnSourceVisibility, display.dxgkddisetvidpnsourcevisibility
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2C039656-5384-4864-8F29-A336B0ED06C0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfndestroypagingqueuecb, pfnDestroyPagingQueueCb callback function [Display Devices], pfnDestroyPagingQueueCb, PFND3DDDI_DESTROYPAGINGQUEUECB, PFND3DDDI_DESTROYPAGINGQUEUECB, d3dumddi/pfnDestroyPagingQueueCb
+ms.keywords: PFND3DDDI_DESTROYPAGINGQUEUECB, d3dumddi/pfnDestroyPagingQueueCb, display.pfndestroypagingqueuecb, pfnDestroyPagingQueueCb, pfnDestroyPagingQueueCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,11 +112,11 @@ In addition to <b>hPagingQueue</b>, this device driver interface (DDI) invalidat
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpagingqueuecb.md">pfnCreatePagingQueueCb</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_destroypagingqueue.md">D3DDDI_DESTROYPAGINGQUEUE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpagingqueuecb.md">pfnCreatePagingQueueCb</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c16cd27-83f9-4474-9031-edfea0ba665b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.deletevertexshaderdecl, DeleteVertexShaderDecl callback function [Display Devices], DeleteVertexShaderDecl, PFND3DDDI_DELETEVERTEXSHADERDECL, PFND3DDDI_DELETEVERTEXSHADERDECL, d3dumddi/DeleteVertexShaderDecl, UserModeDisplayDriver_Functions_b62ed121-1403-4a6e-8854-6f2dfba6fac6.xml
+ms.keywords: DeleteVertexShaderDecl, DeleteVertexShaderDecl callback function [Display Devices], PFND3DDDI_DELETEVERTEXSHADERDECL, UserModeDisplayDriver_Functions_b62ed121-1403-4a6e-8854-6f2dfba6fac6.xml, d3dumddi/DeleteVertexShaderDecl, display.deletevertexshaderdecl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -110,11 +110,11 @@ The <b>DeleteVertexShaderDecl</b> function notifies the driver about the deletio
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

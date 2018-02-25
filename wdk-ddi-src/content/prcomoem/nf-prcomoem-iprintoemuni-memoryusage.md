@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: MemoryUsage method [Print Devices], prcomoem/IPrintOemUni::MemoryUsage, IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, MemoryUsage, MemoryUsage method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], MemoryUsage method, IPrintOemUni
+ms.keywords: ",  , ,, ., :, I, IPrintOemUni, IPrintOemUni interface [Print Devices], MemoryUsage method, IPrintOemUni::MemoryUsage, M, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices], IPrintOemUni interface, MemoryUsage,IPrintOemUni.MemoryUsage, O, P, U, a, e, g, i, m, n, o, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -172,15 +172,15 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
 <a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a>
 
 
 
 <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
 
 

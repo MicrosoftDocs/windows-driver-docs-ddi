@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FB210147-9CF3-4D32-884E-256BEAFAE6C4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_scsi_pass_through_direct_ex, IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control code [Storage Devices], IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT_EX
+ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, storage.ioctl_scsi_pass_through_direct_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -180,15 +180,15 @@ In order to issue an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</b> request, the under
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a>
 
 
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a>
+
+
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 

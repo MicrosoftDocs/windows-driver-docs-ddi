@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 675b2066-6a65-47cf-bde7-3c843f97c960
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolclcallconnected, ProtocolClCallConnected callback function [Network Drivers Starting with Windows Vista], ProtocolClCallConnected, PROTOCOL_CL_CALL_CONNECTED, PROTOCOL_CL_CALL_CONNECTED, ndis/ProtocolClCallConnected, condis_client_ref_ddc435b4-ff27-4ced-b513-9bba45302496.xml
+ms.keywords: PROTOCOL_CL_CALL_CONNECTED, ProtocolClCallConnected, ProtocolClCallConnected callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ddc435b4-ff27-4ced-b513-9bba45302496.xml, ndis/ProtocolClCallConnected, netvista.protocolclcallconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -148,20 +148,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiscmdispatchcallconnected.md">NdisCmDispatchCallConnected</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
    ProtocolCoReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchcallconnected.md">NdisCmDispatchCallConnected</a>
 
 
 
@@ -169,7 +165,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
 
 

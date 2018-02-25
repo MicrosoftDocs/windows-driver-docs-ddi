@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 67a08982-5d2f-4cd8-be14-76977fde0aac
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddii2ctransmitdatatodisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], DxgkDdiI2CTransmitDataToDisplay, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, dispmprt/DxgkDdiI2CTransmitDataToDisplay, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml
+ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

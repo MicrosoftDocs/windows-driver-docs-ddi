@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1669872a-4306-4773-bd7e-6f481c5e689d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure pointer [Storage Devices], FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure [Storage Devices], ntddmmc/FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, *PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, structs-CD-ROM_b6d53c83-8d7d-4fc1-9e42-b173219961a4.xml, storage.feature_data_dvd_rw_restricted_overwrite, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE
+ms.keywords: ",  , *, *PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ,, A, C, D, E, F, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure [Storage Devices], I, O, P, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure pointer [Storage Devices], R, S, T, U, V, W, _, _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ntddmmc/FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ntddmmc/PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, storage.feature_data_dvd_rw_restricted_overwrite, structs-CD-ROM_b6d53c83-8d7d-4fc1-9e42-b173219961a4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -121,11 +121,11 @@ Devices that support this feature can only write on block boundaries. These devi
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 

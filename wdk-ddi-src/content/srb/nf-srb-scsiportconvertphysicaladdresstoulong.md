@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 55c258d2-922a-430a-ba6b-b05a078b712d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: srb/ScsiPortConvertPhysicalAddressToUlong, scsiprt_5417817d-81ab-4ba9-96f6-589991aecfce.xml, ScsiPortConvertPhysicalAddressToUlong, storage.scsiportconvertphysicaladdresstoulong, ScsiPortConvertPhysicalAddressToUlong routine [Storage Devices]
+ms.keywords: ",  , A, C, P, S, ScsiPortConvertPhysicalAddressToUlong, ScsiPortConvertPhysicalAddressToUlong routine [Storage Devices], T, U, a, c, d, e, g, h, i, l, n, o, r, s, scsiprt_5417817d-81ab-4ba9-96f6-589991aecfce.xml, srb/ScsiPortConvertPhysicalAddressToUlong, storage.scsiportconvertphysicaladdresstoulong, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,15 +85,15 @@ Specifies a value of type SCSI_PHYSICAL_ADDRESS.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
 
 
 
-<a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
+
+<a href="..\storport\ns-storport-_access_range.md">ACCESS_RANGE</a>
 
 
 

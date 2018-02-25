@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17d75b0e-2521-441f-99ea-75d2ea1d52b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], ntdddisk/PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS, structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml, *PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], _DISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, ntdddisk/DISK_COPY_DATA_PARAMETERS
+ms.keywords: ",  , *, *PDISK_COPY_DATA_PARAMETERS, ,, A, C, D, DISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], E, I, K, M, O, P, PDISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], R, S, T, Y, _, _DISK_COPY_DATA_PARAMETERS, ntdddisk/DISK_COPY_DATA_PARAMETERS, ntdddisk/PDISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

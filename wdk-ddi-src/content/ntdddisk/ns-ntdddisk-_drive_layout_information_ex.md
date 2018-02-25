@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e077f9a6-1d94-4d17-9166-b23756df6cc8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDRIVE_LAYOUT_INFORMATION_EX, storage.drive_layout_information_ex, ntdddisk/DRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Storage Devices], DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Storage Devices], structs-disk_e6755f07-50a7-48db-a39c-4485f3fb7b93.xml, _DRIVE_LAYOUT_INFORMATION_EX, *PDRIVE_LAYOUT_INFORMATION_EX, ntdddisk/PDRIVE_LAYOUT_INFORMATION_EX
+ms.keywords: ",  , *, *PDRIVE_LAYOUT_INFORMATION_EX, ,, A, D, DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Storage Devices], E, F, I, L, M, N, O, P, PDRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Storage Devices], R, T, U, V, X, Y, _, _DRIVE_LAYOUT_INFORMATION_EX, ntdddisk/DRIVE_LAYOUT_INFORMATION_EX, ntdddisk/PDRIVE_LAYOUT_INFORMATION_EX, storage.drive_layout_information_ex, structs-disk_e6755f07-50a7-48db-a39c-4485f3fb7b93.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,7 +114,7 @@ This structure is used for both reading and writing disk partition information. 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
 
 
 
@@ -122,7 +122,7 @@ This structure is used for both reading and writing disk partition information. 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
 
 
 

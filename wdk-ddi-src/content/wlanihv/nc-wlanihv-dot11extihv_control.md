@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 27e1f112-a961-4464-9048-b56394930453
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvcontrol, Dot11ExtIhvControl callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvControl, DOT11EXTIHV_CONTROL, DOT11EXTIHV_CONTROL, wlanihv/Dot11ExtIhvControl, Native_802.11_IHV_Ext_49f041a3-e60a-4d60-92e2-9c12a4c1db5d.xml
+ms.keywords: DOT11EXTIHV_CONTROL, Dot11ExtIhvControl, Dot11ExtIhvControl callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_49f041a3-e60a-4d60-92e2-9c12a4c1db5d.xml, netvista.dot11extihvcontrol, wlanihv/Dot11ExtIhvControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

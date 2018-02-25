@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/STORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT, storport/PSTORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices], STORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, _STORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices]
+ms.keywords: ",  , *, *PSTORPORT_TELEMETRY_EVENT, ,, E, L, M, N, O, P, PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], R, S, STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices], T, V, Y, _, _STORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, storport/PSTORPORT_TELEMETRY_EVENT, storport/STORPORT_TELEMETRY_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

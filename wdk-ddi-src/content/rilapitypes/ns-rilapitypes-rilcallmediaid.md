@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad367969-217c-4b9a-b9b1-1b6d1bf04f2e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLMEDIAID, RILCALLMEDIAID, netvista.rilcallmediaid_2"
+ms.keywords: ",  , *, *LPRILCALLMEDIAID, ,, A, C, D, E, I, L, M, P, R, RILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaid_2, rilapitypes/RILCALLMEDIAID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

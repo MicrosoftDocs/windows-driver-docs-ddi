@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f088a623-e6e8-4810-a7ab-90348f669dac
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/SetPersistentEntry_IN, _SetPersistentEntry_IN, PSetPersistentEntry_IN structure pointer [Storage Devices], structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml, SetPersistentEntry_IN structure [Storage Devices], hbapiwmi/PSetPersistentEntry_IN, SetPersistentEntry_IN, *PSetPersistentEntry_IN, PSetPersistentEntry_IN, storage.setpersistententry_in
+ms.keywords: ",  , *, *PSetPersistentEntry_IN, ,, E, I, N, P, PSetPersistentEntry_IN, PSetPersistentEntry_IN structure pointer [Storage Devices], S, SetPersistentEntry_IN, SetPersistentEntry_IN structure [Storage Devices], _, _SetPersistentEntry_IN, e, hbapiwmi/PSetPersistentEntry_IN, hbapiwmi/SetPersistentEntry_IN, i, n, r, s, storage.setpersistententry_in, structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

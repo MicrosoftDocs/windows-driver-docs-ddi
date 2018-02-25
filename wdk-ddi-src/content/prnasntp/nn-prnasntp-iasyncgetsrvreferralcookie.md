@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F22F5706-7238-43C1-B1F6-E41A0F9F3665
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iasyncgetsrvreferralcookie, IAsyncGetSrvReferralCookie interface [Print Devices], IAsyncGetSrvReferralCookie interface [Print Devices], described, IAsyncGetSrvReferralCookie, prnasntp/IAsyncGetSrvReferralCookie
+ms.keywords: IAsyncGetSrvReferralCookie, IAsyncGetSrvReferralCookie interface [Print Devices], IAsyncGetSrvReferralCookie interface [Print Devices], described, print.iasyncgetsrvreferralcookie, prnasntp/IAsyncGetSrvReferralCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

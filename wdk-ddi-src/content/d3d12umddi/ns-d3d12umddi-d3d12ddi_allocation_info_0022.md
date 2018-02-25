@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A600C402-EB77-4C44-8349-96DAF11B807C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_ALLOCATION_INFO_0022 structure [Display Devices], d3d12umddi/D3D12DDI_ALLOCATION_INFO_0022, D3D12DDI_ALLOCATION_INFO_0022, display.d3d12ddi_allocation_info_0022
+ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_ALLOCATION_INFO_0022, D3D12DDI_ALLOCATION_INFO_0022 structure [Display Devices], F, I, L, N, O, T, _, d3d12umddi/D3D12DDI_ALLOCATION_INFO_0022, display.d3d12ddi_allocation_info_0022"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

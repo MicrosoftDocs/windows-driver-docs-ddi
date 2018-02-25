@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 560cb5a3-ac15-4a11-977a-b66caefc2f6b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_EnableNotifications, netvista.ril_enablenotifications, RIL_EnableNotifications method [Network Drivers Starting with Windows Vista], RIL_EnableNotifications
+ms.keywords: ",  , E, I, L, N, R, RIL_EnableNotifications, RIL_EnableNotifications method [Network Drivers Starting with Windows Vista], _, a, b, c, e, f, i, l, n, netvista.ril_enablenotifications, o, rilapi/RIL_EnableNotifications, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

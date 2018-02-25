@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.interlockeddecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], wdm/InterlockedDecrement, InterlockedDecrement, k102_cc85e517-f056-413e-a095-671867632613.xml
+ms.keywords: ",  , D, I, InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], c, d, e, k, k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, l, m, n, o, r, t, wdm/InterlockedDecrement"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,7 +104,7 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 
@@ -112,11 +112,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
-
-
-
-<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 

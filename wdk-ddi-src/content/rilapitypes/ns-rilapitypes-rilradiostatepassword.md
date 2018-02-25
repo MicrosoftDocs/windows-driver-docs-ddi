@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 879f38f7-ae13-4a39-bc68-b5c5f5f4f32c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILRADIOSTATEPASSWORD, rilapitypes/RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], *LPRILRADIOSTATEPASSWORD, netvista.rilradiostatepassword_2
+ms.keywords: ",  , *, *LPRILRADIOSTATEPASSWORD, ,, A, D, E, I, L, O, P, R, RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], S, T, W, netvista.rilradiostatepassword_2, rilapitypes/RILRADIOSTATEPASSWORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

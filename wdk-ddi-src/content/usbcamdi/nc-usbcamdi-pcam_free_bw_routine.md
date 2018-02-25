@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 360fd299-bb8a-4fbb-899d-0e5fbe228d80
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.camfreebandwidth, CamFreeBandwidth callback function [Streaming Media Devices], CamFreeBandwidth, PCAM_FREE_BW_ROUTINE, PCAM_FREE_BW_ROUTINE, usbcamdi/CamFreeBandwidth, usbcmdpr_bf8779db-a06c-49b8-aa2f-e558a53bfa93.xml
+ms.keywords: CamFreeBandwidth, CamFreeBandwidth callback function [Streaming Media Devices], PCAM_FREE_BW_ROUTINE, stream.camfreebandwidth, usbcamdi/CamFreeBandwidth, usbcmdpr_bf8779db-a06c-49b8-aa2f-e558a53bfa93.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

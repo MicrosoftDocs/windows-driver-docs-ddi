@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b0f4fc9-58fd-46ba-be17-2e1b36b16caa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoGetPagingIoPriority, k104_cde35790-d059-44bb-85c5-abde7cb36319.xml, kernel.iogetpagingiopriority, IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], wdm/IoGetPagingIoPriority
+ms.keywords: ",  , G, I, IoGetPagingIoPriority, IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], P, a, e, g, i, k104_cde35790-d059-44bb-85c5-abde7cb36319.xml, kernel.iogetpagingiopriority, n, o, r, t, wdm/IoGetPagingIoPriority, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

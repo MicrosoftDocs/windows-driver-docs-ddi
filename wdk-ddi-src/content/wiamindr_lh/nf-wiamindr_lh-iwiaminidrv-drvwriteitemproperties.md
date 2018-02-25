@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 350cb7f6-499f-4fbc-b5c0-6f4daf2a2af0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.iwiaminidrv_drvwriteitemproperties, wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties, IWiaMiniDrv interface [Imaging Devices], drvWriteItemProperties method, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, IWiaMiniDrv::drvWriteItemProperties, drvWriteItemProperties, IWiaMiniDrv, drvWriteItemProperties method [Imaging Devices], drvWriteItemProperties method [Imaging Devices], IWiaMiniDrv interface
+ms.keywords: ",  , ,, ., :, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvWriteItemProperties method, IWiaMiniDrv::drvWriteItemProperties, M, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, P, W, a, d, drvWriteItemProperties method [Imaging Devices], drvWriteItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvWriteItemProperties,IWiaMiniDrv.drvWriteItemProperties, e, i, image.iwiaminidrv_drvwriteitemproperties, m, n, o, p, r, s, t, v, wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -130,31 +130,11 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
-
-
-
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
-
-
-
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadmultiple.md">wiasReadMultiple</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
 
 
 
@@ -163,6 +143,26 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
+
+
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadmultiple.md">wiasReadMultiple</a>
 
 
 

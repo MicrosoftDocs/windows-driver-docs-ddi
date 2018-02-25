@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7A10B5E7-293E-4E28-BAB8-E189891A851A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlLookupElementGenericTableAvl, ifsk.rtllookupelementgenerictableavl, RtlLookupElementGenericTableAvl routine [Installable File System Drivers], RtlLookupElementGenericTableAvl
+ms.keywords: ",  , A, E, G, L, R, RtlLookupElementGenericTableAvl, RtlLookupElementGenericTableAvl routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtllookupelementgenerictableavl, k, l, m, n, ntddk/RtlLookupElementGenericTableAvl, o, p, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

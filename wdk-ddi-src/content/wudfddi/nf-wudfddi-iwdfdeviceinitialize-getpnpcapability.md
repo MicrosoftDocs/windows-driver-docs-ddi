@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 64f15528-e934-4bdd-a9f7-6790eef7c7c5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFDeviceObjectRef_1b66d13c-336f-4542-9f44-740679953603.xml, GetPnpCapability, IWDFDeviceInitialize interface, GetPnpCapability method, wudfddi/IWDFDeviceInitialize::GetPnpCapability, GetPnpCapability method, IWDFDeviceInitialize, umdf.iwdfdeviceinitialize_getpnpcapability, wdf.iwdfdeviceinitialize_getpnpcapability, IWDFDeviceInitialize::GetPnpCapability, GetPnpCapability method, IWDFDeviceInitialize interface
+ms.keywords: ",  , ,, ., :, C, D, F, G, GetPnpCapability method, GetPnpCapability method, IWDFDeviceInitialize interface, GetPnpCapability,IWDFDeviceInitialize.GetPnpCapability, I, IWDFDeviceInitialize, IWDFDeviceInitialize interface, GetPnpCapability method, IWDFDeviceInitialize::GetPnpCapability, P, UMDFDeviceObjectRef_1b66d13c-336f-4542-9f44-740679953603.xml, W, a, b, c, e, i, l, n, p, t, umdf.iwdfdeviceinitialize_getpnpcapability, v, wdf.iwdfdeviceinitialize_getpnpcapability, wudfddi/IWDFDeviceInitialize::GetPnpCapability, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -127,11 +127,11 @@ The capability is set.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
-
-
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
 
 
 

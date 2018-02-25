@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a73331a-cc73-4a47-948b-a821600ca6a6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/RtlFillMemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], kernel.rtlfillmemory, k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, RtlFillMemory
+ms.keywords: ",  , F, M, R, RtlFillMemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], e, i, k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, kernel.rtlfillmemory, l, m, o, r, t, wdm/RtlFillMemory, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,7 +98,7 @@ Callers of <b>RtlFillMemory</b> can be running at any IRQL if the destination me
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="..\smclib\nf-smclib-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

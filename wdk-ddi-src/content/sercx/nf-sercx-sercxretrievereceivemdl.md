@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7BC76F62-CA51-4C3F-BBF0-0B192EE871E6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SerCxRetrieveReceiveMdl method [Serial Ports], 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl, serports.sercxretrievereceivemdl
+ms.keywords: ",  , 1/SerCxRetrieveReceiveMdl, C, M, R, S, SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl method [Serial Ports], c, d, e, i, l, r, serports.sercxretrievereceivemdl, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BA710D92-63F4-4B4B-868A-58074FC052E9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_DML, GetInterestMask, GetInterestMask method [Windows Debugging], DEBUG_OUTCBI_ANY_FORMAT, dbgeng/IDebugOutputCallbacks2::GetInterestMask, debugger.idebugoutputcallbacks2_getinterestmask, IDebugOutputCallbacks2::GetInterestMask, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2, GetInterestMask method [Windows Debugging], IDebugOutputCallbacks2 interface, IDebugOutputCallbacks2 interface [Windows Debugging], GetInterestMask method
+ms.keywords: ",  , ,, ., 2, :, C, D, DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, G, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugOutputCallbacks2 interface, GetInterestMask,IDebugOutputCallbacks2.GetInterestMask, I, IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], GetInterestMask method, IDebugOutputCallbacks2::GetInterestMask, M, O, a, b, c, dbgeng/IDebugOutputCallbacks2::GetInterestMask, debugger.idebugoutputcallbacks2_getinterestmask, e, g, k, l, n, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

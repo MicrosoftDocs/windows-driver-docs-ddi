@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b74c989-1a62-4415-a19a-dd0ba2fcff83
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.createresource, CreateResource callback function [Display Devices], CreateResource, PFND3DDDI_CREATERESOURCE, PFND3DDDI_CREATERESOURCE, d3dumddi/CreateResource, UserModeDisplayDriver_Functions_c925b8ed-3e7f-4a56-a4b0-a3c8e2ba8ebf.xml
+ms.keywords: CreateResource, CreateResource callback function [Display Devices], PFND3DDDI_CREATERESOURCE, UserModeDisplayDriver_Functions_c925b8ed-3e7f-4a56-a4b0-a3c8e2ba8ebf.xml, d3dumddi/CreateResource, display.createresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -229,7 +229,7 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
 
 
 
@@ -237,7 +237,19 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags.md">D3DDDI_RESOURCEFLAGS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
 
 
@@ -246,18 +258,6 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settexture.md">SetTexture</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags.md">D3DDDI_RESOURCEFLAGS</a>
 
 
 

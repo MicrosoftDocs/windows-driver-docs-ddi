@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b647cc94-e5eb-494f-b103-22aa30da8946
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.camnewvideoframe, CamNewVideoFrame, CamNewVideoFrame callback function [Streaming Media Devices], CamNewVideoFrame, PCAM_NEW_FRAME_ROUTINE, PCAM_NEW_FRAME_ROUTINE, usbcamdi/CamNewVideoFrame, usbcmdpr_5f488227-2c1a-497e-975a-dc2b388f8489.xml
+ms.keywords: CamNewVideoFrame, CamNewVideoFrame callback function [Streaming Media Devices], PCAM_NEW_FRAME_ROUTINE, stream.camnewvideoframe, usbcamdi/CamNewVideoFrame, usbcmdpr_5f488227-2c1a-497e-975a-dc2b388f8489.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: d5ffd580-ca3d-46c7-b0ba-1cd9962517f8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: powermeter.pmi_configuration_type, pmi/PmiConfigurationMax, PMI_CONFIGURATION_TYPE, PmiConfigurationMax, PMI_CONFIGURATION_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PMI_CONFIGURATION_TYPE, PowerMeterRef_6d83a5b7-03d3-4f86-b2ac-9d70a889285e.xml, PmiMeasurementConfiguration, pmi/PmiBudgetingConfiguration, PmiThresholdConfiguration, pmi/PmiMeasurementConfiguration, pmi/PmiThresholdConfiguration, PmiBudgetingConfiguration
+ms.keywords: ",  , ,, A, C, E, F, G, I, M, N, O, P, PMI_CONFIGURATION_TYPE, PMI_CONFIGURATION_TYPE enumeration [Power Metering and Budgeting Devices], PmiBudgetingConfiguration, PmiConfigurationMax, PmiMeasurementConfiguration, PmiThresholdConfiguration, PowerMeterRef_6d83a5b7-03d3-4f86-b2ac-9d70a889285e.xml, R, T, U, Y, _, pmi/PMI_CONFIGURATION_TYPE, pmi/PmiBudgetingConfiguration, pmi/PmiConfigurationMax, pmi/PmiMeasurementConfiguration, pmi/PmiThresholdConfiguration, powermeter.pmi_configuration_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,7 +101,7 @@ The <b>ConfigurationType</b> member of the <a href="..\pmi\ns-pmi-_pmi_configura
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
+<a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
 
 
 
@@ -109,7 +109,11 @@ The <b>ConfigurationType</b> member of the <a href="..\pmi\ns-pmi-_pmi_configura
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
 
 
 
@@ -117,11 +121,7 @@ The <b>ConfigurationType</b> member of the <a href="..\pmi\ns-pmi-_pmi_configura
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
-
-
-
-<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
 
 
 

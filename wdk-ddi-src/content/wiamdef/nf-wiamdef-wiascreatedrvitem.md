@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc91133a-ae6a-447a-8519-65fbe2929521
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiasCreateDrvItem function [Imaging Devices], wiasCreateDrvItem, wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml, image.wiascreatedrvitem, wiamdef/wiasCreateDrvItem
+ms.keywords: ",  , C, D, I, a, e, i, image.wiascreatedrvitem, m, r, s, t, v, w, wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, wiasCreateDrvItem function [Imaging Devices], wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

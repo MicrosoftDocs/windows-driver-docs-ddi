@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3ce42a6-0d94-46cb-9831-c29f92a677cd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PFEATURE_DATA_CD_TRACK_AT_ONCE, PFEATURE_DATA_CD_TRACK_AT_ONCE structure pointer [Storage Devices], structs-CD-ROM_d2648aa5-b3d5-49f2-98d1-01e90dd72332.xml, FEATURE_DATA_CD_TRACK_AT_ONCE structure [Storage Devices], storage.feature_data_cd_track_at_once, _FEATURE_DATA_CD_TRACK_AT_ONCE, *PFEATURE_DATA_CD_TRACK_AT_ONCE, FEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/PFEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/FEATURE_DATA_CD_TRACK_AT_ONCE
+ms.keywords: ",  , *, *PFEATURE_DATA_CD_TRACK_AT_ONCE, ,, A, C, D, E, F, FEATURE_DATA_CD_TRACK_AT_ONCE, FEATURE_DATA_CD_TRACK_AT_ONCE structure [Storage Devices], K, N, O, P, PFEATURE_DATA_CD_TRACK_AT_ONCE, PFEATURE_DATA_CD_TRACK_AT_ONCE structure pointer [Storage Devices], R, T, U, _, _FEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/FEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/PFEATURE_DATA_CD_TRACK_AT_ONCE, storage.feature_data_cd_track_at_once, structs-CD-ROM_d2648aa5-b3d5-49f2-98d1-01e90dd72332.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -143,11 +143,11 @@ This structure holds data for the feature named "CD Track at Once" by the <i>MMC
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 0fe598b9-2143-4981-b562-6b0f135ec770
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.pparallel_query_waiters_routine, (*PPARALLEL_QUERY_WAITERS_ROUTINE) callback function [Parallel Ports], (*PPARALLEL_QUERY_WAITERS_ROUTINE), parallel/(*PPARALLEL_QUERY_WAITERS_ROUTINE), cisspd_d1e6d424-75ec-4cc1-b144-05900a24a684.xml
+ms.keywords: "(*PPARALLEL_QUERY_WAITERS_ROUTINE), (*PPARALLEL_QUERY_WAITERS_ROUTINE) callback function [Parallel Ports], cisspd_d1e6d424-75ec-4cc1-b144-05900a24a684.xml, parallel/(*PPARALLEL_QUERY_WAITERS_ROUTINE), parports.pparallel_query_waiters_routine"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -96,7 +96,7 @@ For more information, see <a href="https://msdn.microsoft.com/ea3a1998-9e31-4047
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_allocate.md">IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
 
 
@@ -104,15 +104,15 @@ For more information, see <a href="https://msdn.microsoft.com/ea3a1998-9e31-4047
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_free.md">IOCTL_INTERNAL_PARALLEL_PORT_FREE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_allocate.md">IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE</a>
 
 
 
 <a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_free.md">IOCTL_INTERNAL_PARALLEL_PORT_FREE</a>
 
 
 

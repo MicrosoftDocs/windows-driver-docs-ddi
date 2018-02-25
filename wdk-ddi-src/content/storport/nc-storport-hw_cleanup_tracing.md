@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 878a7c4f-8584-4de2-9a32-f1c358d9b27f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorcleanuptracing, HwStorCleanupTracing routine [Storage Devices], HwStorCleanupTracing, HW_CLEANUP_TRACING, HW_CLEANUP_TRACING, storport/HwStorCleanupTracing, storvmini_7a5c9359-04e5-4ad4-b638-14cce4087df2.xml
+ms.keywords: HW_CLEANUP_TRACING, HwStorCleanupTracing, HwStorCleanupTracing routine [Storage Devices], storage.hwstorcleanuptracing, storport/HwStorCleanupTracing, storvmini_7a5c9359-04e5-4ad4-b638-14cce4087df2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

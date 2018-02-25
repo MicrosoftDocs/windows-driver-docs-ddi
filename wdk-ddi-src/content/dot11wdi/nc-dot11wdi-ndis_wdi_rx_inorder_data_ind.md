@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F2F92DAE-6C13-4EE6-9DE7-B77F5FAFAE60
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswdirxinorderdataindication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], NdisWdiRxInorderDataIndication, NDIS_WDI_RX_INORDER_DATA_IND, NDIS_WDI_RX_INORDER_DATA_IND, dot11wdi/NdisWdiRxInorderDataIndication
+ms.keywords: NDIS_WDI_RX_INORDER_DATA_IND, NdisWdiRxInorderDataIndication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxInorderDataIndication, netvista.ndiswdirxinorderdataindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -148,11 +148,7 @@ The RxMgr tracks the number of frames indicated to NDIS against the limit specif
 
 
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_get_mpdus.md">MiniportWdiRxGetMpdus</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_indication_level.md">WDI_RX_INDICATION_LEVEL</a>
 
 
 
@@ -160,15 +156,7 @@ The RxMgr tracks the number of frames indicated to NDIS against the limit specif
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
-
-
-
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_indication_level.md">WDI_RX_INDICATION_LEVEL</a>
+<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_get_mpdus.md">MiniportWdiRxGetMpdus</a>
 
 
 
@@ -177,6 +165,18 @@ The RxMgr tracks the number of frames indicated to NDIS against the limit specif
 
 
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_resume.md">MiniportWdiRxResume</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 842c6ece-5304-428c-afbe-2990d239f38a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dxva/DXVA_DestinationFlags, display.dxva_destinationflags, dxva/DXVA_DestinationFlagMask, DXVA_DestinationFlag_Background_Changed, dxva/DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_Alpha_Changed, DXVA_DestinationFlag_TargetRect_Changed, dxva/DXVA_DestinationFlag_ColorData_Changed, dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml, DXVA_DestinationFlags, DXVA_DestinationFlags enumeration [Display Devices], _DXVA_DestinationFlags, dxva/DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlagMask
+ms.keywords: ",  , ,, A, D, DXVA_DestinationFlagMask, DXVA_DestinationFlag_Alpha_Changed, DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlags, DXVA_DestinationFlags enumeration [Display Devices], F, V, X, _, _DXVA_DestinationFlags, a, display.dxva_destinationflags, dxva/DXVA_DestinationFlagMask, dxva/DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_Background_Changed, dxva/DXVA_DestinationFlag_ColorData_Changed, dxva/DXVA_DestinationFlag_TargetRect_Changed, dxva/DXVA_DestinationFlags, dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml, e, g, i, l, n, o, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

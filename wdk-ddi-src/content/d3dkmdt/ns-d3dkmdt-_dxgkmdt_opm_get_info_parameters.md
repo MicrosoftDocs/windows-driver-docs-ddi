@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88e12eb6-6015-44bc-b170-cc152fdd1397
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS, display.dxgkmdt_opm_get_info_parameters, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, _DXGKMDT_OPM_GET_INFO_PARAMETERS, *PDXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices]
+ms.keywords: ",  , *, *PDXGKMDT_OPM_GET_INFO_PARAMETERS, ,, A, D, DXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, E, F, G, I, K, M, N, O, P, PDXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], R, S, T, X, _, _DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS, display.dxgkmdt_opm_get_info_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

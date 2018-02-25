@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b7b2592-8a67-4eb0-8e87-354fd5f215c5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA, *LPRILPOSITIONINFOTDSCDMA, netvista.rilpositioninfotdscdma, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , *, *LPRILPOSITIONINFOTDSCDMA, ,, A, C, D, F, I, L, M, N, O, P, R, RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilpositioninfotdscdma, rilapitypes/RILPOSITIONINFOTDSCDMA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

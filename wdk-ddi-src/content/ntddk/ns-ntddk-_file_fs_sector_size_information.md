@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 24DEEDC7-B339-44DD-BF48-3BD59520EB8D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], _FILE_FS_SECTOR_SIZE_INFORMATION, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION, ifsk.file_fs_sector_size_information, PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], SSINFO_FLAGS_NO_SEEK_PENALTY, PFILE_FS_SECTOR_SIZE_INFORMATION, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION, *PFILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_ALIGNED_DEVICE, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE
+ms.keywords: ",  , *, *PFILE_FS_SECTOR_SIZE_INFORMATION, ,, A, C, E, F, FILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], I, L, M, N, O, P, PFILE_FS_SECTOR_SIZE_INFORMATION, PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], R, S, SSINFO_FLAGS_ALIGNED_DEVICE, SSINFO_FLAGS_NO_SEEK_PENALTY, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, T, Z, _, _FILE_FS_SECTOR_SIZE_INFORMATION, ifsk.file_fs_sector_size_information, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -164,7 +164,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing <b>FileFsSectorSizeInformation</b> as the value of <i>FileInformationClass</i> and passing a caller-allocated, <b>FILE_FS_SECTOR_SIZE_INFORMATION</b>-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing <b>FileFsSectorSizeInformation</b> as the value of <i>FileInformationClass</i> and passing a caller-allocated, <b>FILE_FS_SECTOR_SIZE_INFORMATION</b>-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -178,7 +178,7 @@ Call <a href="..\ntifs\nf-ntifs-fsrtlgetsectorsizeinformation.md">FsRtlGetSector
 </ul>
 No specific access rights are required to query this information. Thus this information is available as long as the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume. 
 
-The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_SECTOR_SIZE_INFORMATION). 
+The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_SECTOR_SIZE_INFORMATION). 
 
 The file system uses the value of <b>LogicalBytesPerSector</b> to determine the size of an allocation unit. The <b>LogicalBytesPerSector</b> member of this structure is equivalent to the <b>BytesPerSector</b> member of the <a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>  and <a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a> structures.
 
@@ -189,7 +189,7 @@ If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtom
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
+<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 
@@ -197,11 +197,7 @@ If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtom
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
 
 
 
@@ -209,7 +205,11 @@ If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtom
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
 
 
 

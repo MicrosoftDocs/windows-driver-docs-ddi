@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CF75EBC8-D756-49B5-BC1F-1DBE8DC04137
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], display.d3dddicaps_simple_instancing_support, d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
+ms.keywords: ",  , ,, 3, A, C, D, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], E, G, I, L, M, N, O, P, R, S, T, U, _, d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, display.d3dddicaps_simple_instancing_support"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ For more info on simple instancing, see The Microsoft Direct3D 11 topic, <a hre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/940381BB-E8F6-416D-8F36-CC3591E70703">D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/940381BB-E8F6-416D-8F36-CC3591E70703">D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</a>
 
 
 

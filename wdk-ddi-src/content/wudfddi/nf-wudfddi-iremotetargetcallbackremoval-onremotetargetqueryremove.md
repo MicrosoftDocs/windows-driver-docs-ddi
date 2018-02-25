@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10a9510a-a11c-46fa-adb8-b122f6c571f4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, umdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wdf.iremotetargetcallbackremoval_onremotetargetqueryremove, OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface, OnRemoteTargetQueryRemove method, OnRemoteTargetQueryRemove, IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, OnRemoteTargetQueryRemove method, UMDFIoTargetObjectRef_7cdc408d-7527-4af9-9fef-d8ccb9c1d4c3.xml, IRemoteTargetCallbackRemoval
+ms.keywords: ",  , ,, ., :, C, I, IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, O, OnRemoteTargetQueryRemove method, OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval interface, OnRemoteTargetQueryRemove,IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove, Q, R, T, UMDFIoTargetObjectRef_7cdc408d-7527-4af9-9fef-d8ccb9c1d4c3.xml, a, b, c, e, g, k, l, m, n, o, r, t, u, umdf.iremotetargetcallbackremoval_onremotetargetqueryremove, v, wdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

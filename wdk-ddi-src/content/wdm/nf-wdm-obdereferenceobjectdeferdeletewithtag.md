@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 72f1622f-a364-4d93-9c49-c4c7bcda6488
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ObDereferenceObjectDeferDeleteWithTag, k107_c6da92e4-6a70-4f19-bd09-4308964b1e14.xml, ObDereferenceObjectDeferDeleteWithTag routine [Kernel-Mode Driver Architecture], wdm/ObDereferenceObjectDeferDeleteWithTag, kernel.obdereferenceobjectdeferdeletewithtag
+ms.keywords: ",  , D, O, ObDereferenceObjectDeferDeleteWithTag, ObDereferenceObjectDeferDeleteWithTag routine [Kernel-Mode Driver Architecture], T, W, a, b, c, e, f, g, h, i, j, k107_c6da92e4-6a70-4f19-bd09-4308964b1e14.xml, kernel.obdereferenceobjectdeferdeletewithtag, l, n, r, t, wdm/ObDereferenceObjectDeferDeleteWithTag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
-
-
-
 <a href="..\wdm\nf-wdm-obdereferenceobjectdeferdelete.md">ObDereferenceObjectDeferDelete</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5307e1b-3905-4e43-a0b0-0068ba18ef0d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolcmclosecall, ProtocolCmCloseCall callback function [Network Drivers Starting with Windows Vista], ProtocolCmCloseCall, PROTOCOL_CM_CLOSE_CALL, PROTOCOL_CM_CLOSE_CALL, ndis/ProtocolCmCloseCall, condis_call_manager_ref_238e7e85-94af-4e1e-8eb2-04fc89515b4d.xml
+ms.keywords: PROTOCOL_CM_CLOSE_CALL, ProtocolCmCloseCall, ProtocolCmCloseCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_238e7e85-94af-4e1e-8eb2-04fc89515b4d.xml, ndis/ProtocolCmCloseCall, netvista.protocolcmclosecall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -254,7 +254,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
@@ -262,11 +262,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
 
 

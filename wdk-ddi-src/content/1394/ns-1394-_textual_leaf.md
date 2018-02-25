@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 883c561c-0d1b-4a6c-946e-8ca567b12c9a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: TEXTUAL_LEAF structure [Buses], PTEXTUAL_LEAF, 1394/TEXTUAL_LEAF, IEEE.textual_leaf, 1394/PTEXTUAL_LEAF, 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, TEXTUAL_LEAF, _TEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], *PTEXTUAL_LEAF
+ms.keywords: ",  , *, *PTEXTUAL_LEAF, ,, 1394/PTEXTUAL_LEAF, 1394/TEXTUAL_LEAF, 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, A, E, F, IEEE.textual_leaf, L, P, PTEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], T, TEXTUAL_LEAF, TEXTUAL_LEAF structure [Buses], U, X, _, _TEXTUAL_LEAF"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

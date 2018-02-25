@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1e975626-fa47-456f-a2a9-48506c67cbe5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltGetVolumeProperties routine [Installable File System Drivers], ifsk.fltgetvolumeproperties, fltkernel/FltGetVolumeProperties, FltGetVolumeProperties, FltApiRef_e_to_o_3afcdc71-3007-478e-8699-a1480ca118b8.xml
+ms.keywords: ",  , F, FltApiRef_e_to_o_3afcdc71-3007-478e-8699-a1480ca118b8.xml, FltGetVolumeProperties, FltGetVolumeProperties routine [Installable File System Drivers], G, P, V, e, fltkernel/FltGetVolumeProperties, i, ifsk.fltgetvolumeproperties, l, m, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 08c87f1f-ea50-4521-80a2-67369fc6598a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dxva/DXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml, *LPDXVA_COPPCommand, dxva/LPDXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], display.dxva_coppcommand, DXVA_COPPCommand, LPDXVA_COPPCommand structure pointer [Display Devices], LPDXVA_COPPCommand, _DXVA_COPPCommand
+ms.keywords: ",  , *, *LPDXVA_COPPCommand, ,, A, C, D, DXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], L, LPDXVA_COPPCommand, LPDXVA_COPPCommand structure pointer [Display Devices], O, P, V, X, _, _DXVA_COPPCommand, a, d, display.dxva_coppcommand, dxva/DXVA_COPPCommand, dxva/LPDXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml, m, n, o"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,6 +149,10 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
 
 
@@ -157,15 +161,11 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
+<a href="..\dxva\ns-dxva-_dxva_coppsetsignalingcmddata.md">DXVA_COPPSetSignalingCmdData</a>
 
 
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_coppsetsignalingcmddata.md">DXVA_COPPSetSignalingCmdData</a>
 
 
 

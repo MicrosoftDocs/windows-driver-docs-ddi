@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5453CF25-D753-4FED-85E3-D990FAB46626
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/STOR_POFX_DEVICE, _STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE structure [Storage Devices], PSTOR_POFX_DEVICE structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_D3, storage.stor_pofx_device, STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, PSTOR_POFX_DEVICE, storport/PSTOR_POFX_DEVICE
+ms.keywords: ",  , *, *PSTOR_POFX_DEVICE, ,, C, D, E, F, I, O, P, PSTOR_POFX_DEVICE, PSTOR_POFX_DEVICE structure pointer [Storage Devices], R, S, STOR_POFX_DEVICE, STOR_POFX_DEVICE structure [Storage Devices], STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, T, V, X, _, _STOR_POFX_DEVICE, storage.stor_pofx_device, storport/PSTOR_POFX_DEVICE, storport/STOR_POFX_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,7 +159,7 @@ This flag indicates whether a device is available for dump when it is idle.
 
 ### -field Components
 
-This member is the first element in an array of one or more <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
+This member is the first element in an array of one or more <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
 
 
 ## -remarks
@@ -177,19 +177,19 @@ The component for the storage device identified by its <b>Components</b> array i
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
-
-
-
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
-
-
-
 <a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
 
 
 
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+
+
+
+<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
 

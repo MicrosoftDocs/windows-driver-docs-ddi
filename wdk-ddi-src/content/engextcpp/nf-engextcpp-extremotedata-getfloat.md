@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f2781f6b-cc3e-427c-8181-908639613270
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml, GetFloat method [Windows Debugging], debugger.extremotedata_getfloat, ExtRemoteData::GetFloat, GetFloat, GetFloat method [Windows Debugging], ExtRemoteData class, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetFloat method
+ms.keywords: ",  , ,, ., :, D, E, EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetFloat method, ExtRemoteData::GetFloat, F, G, GetFloat method [Windows Debugging], GetFloat method [Windows Debugging], ExtRemoteData class, GetFloat,ExtRemoteData.GetFloat, R, a, debugger.extremotedata_getfloat, e, l, m, o, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

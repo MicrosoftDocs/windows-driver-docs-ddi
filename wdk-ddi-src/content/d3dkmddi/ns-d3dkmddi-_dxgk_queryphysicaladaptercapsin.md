@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4B01E62F-5E5B-4316-B237-EADAA3C72242
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXGK_QUERYPHYSICALADAPTERCAPSIN structure [Display Devices], _DXGK_QUERYPHYSICALADAPTERCAPSIN, display.dxgk_queryphysicaladaptercapsin, d3dkmddi/DXGK_QUERYPHYSICALADAPTERCAPSIN, DXGK_QUERYPHYSICALADAPTERCAPSIN
+ms.keywords: ",  , ,, A, C, D, DXGK_QUERYPHYSICALADAPTERCAPSIN, DXGK_QUERYPHYSICALADAPTERCAPSIN structure [Display Devices], E, G, H, I, K, L, N, P, Q, R, S, T, U, X, Y, _, _DXGK_QUERYPHYSICALADAPTERCAPSIN, d3dkmddi/DXGK_QUERYPHYSICALADAPTERCAPSIN, display.dxgk_queryphysicaladaptercapsin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

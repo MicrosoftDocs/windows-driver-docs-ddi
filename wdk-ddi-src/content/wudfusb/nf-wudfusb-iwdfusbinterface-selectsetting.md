@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c47b025b-1be9-4fdc-965a-a9a82a394177
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFUSBref_2de47773-a511-42e2-b6bb-289cc5fbebb6.xml, IWDFUsbInterface, IWDFUsbInterface interface, SelectSetting method, SelectSetting, IWDFUsbInterface::SelectSetting, SelectSetting method, IWDFUsbInterface interface, wudfusb/IWDFUsbInterface::SelectSetting, SelectSetting method, wdf.iwdfusbinterface_selectsetting, umdf.iwdfusbinterface_selectsetting
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFUsbInterface, IWDFUsbInterface interface, SelectSetting method, IWDFUsbInterface::SelectSetting, S, SelectSetting method, SelectSetting method, IWDFUsbInterface interface, SelectSetting,IWDFUsbInterface.SelectSetting, U, UMDFUSBref_2de47773-a511-42e2-b6bb-289cc5fbebb6.xml, W, a, b, c, e, f, g, i, l, n, r, s, t, umdf.iwdfusbinterface_selectsetting, wdf.iwdfusbinterface_selectsetting, wudfusb/IWDFUsbInterface::SelectSetting"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

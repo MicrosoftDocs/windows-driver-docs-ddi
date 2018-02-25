@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7c524181-c438-47ae-9180-1b0c623f24dc
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl_284f54f4-897e-4329-b588-5eae0c638179.xml, IDebugControl2::SetEffectiveProcessorType, IDebugControl interface [Windows Debugging], SetEffectiveProcessorType method, IDebugControl2 interface [Windows Debugging], SetEffectiveProcessorType method, debugger.seteffectiveprocessortype, dbgeng/IDebugControl3::SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::SetEffectiveProcessorType, IDebugControl, IDebugControl3 interface [Windows Debugging], SetEffectiveProcessorType method, IDebugControl3::SetEffectiveProcessorType, SetEffectiveProcessorType, IDebugControl2, dbgeng/IDebugControl::SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl::SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], IDebugControl interface, SetEffectiveProcessorType method [Windows Debugging]
+ms.keywords: ",  , ,, ., 2, :, C, D, E, I, IDebugControl, IDebugControl interface [Windows Debugging], SetEffectiveProcessorType method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetEffectiveProcessorType method, IDebugControl2::SetEffectiveProcessorType, IDebugControl3 interface [Windows Debugging], SetEffectiveProcessorType method, IDebugControl3::SetEffectiveProcessorType, IDebugControl::SetEffectiveProcessorType, IDebugControl_284f54f4-897e-4329-b588-5eae0c638179.xml, P, S, SetEffectiveProcessorType method [Windows Debugging], SetEffectiveProcessorType method [Windows Debugging], IDebugControl interface, SetEffectiveProcessorType method [Windows Debugging], IDebugControl2 interface, SetEffectiveProcessorType method [Windows Debugging], IDebugControl3 interface, SetEffectiveProcessorType,IDebugControl.SetEffectiveProcessorType, SetEffectiveProcessorType,IDebugControl2.SetEffectiveProcessorType, T, b, c, dbgeng/IDebugControl2::SetEffectiveProcessorType, dbgeng/IDebugControl3::SetEffectiveProcessorType, dbgeng/IDebugControl::SetEffectiveProcessorType, debugger.seteffectiveprocessortype, e, f, g, i, l, n, o, p, r, s, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,19 +113,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546595">GetEffectiveProcessorType</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

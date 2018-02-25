@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8c11811f-c3d3-494b-98d7-15540d5afb24
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetLogFile2Wide method [Windows Debugging], dbgeng/IDebugControl4::GetLogFile2Wide, debugger.getlogfile2wide, GetLogFile2Wide, IDebugControl4 interface [Windows Debugging], GetLogFile2Wide method, IDebugControl4::GetLogFile2Wide, IDebugControl4, GetLogFile2Wide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: ",  , ,, ., 2, 4, :, C, D, F, G, GetLogFile2Wide method [Windows Debugging], GetLogFile2Wide method [Windows Debugging], IDebugControl4 interface, GetLogFile2Wide,IDebugControl4.GetLogFile2Wide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetLogFile2Wide method, IDebugControl4::GetLogFile2Wide, L, W, b, d, dbgeng/IDebugControl4::GetLogFile2Wide, debugger.getlogfile2wide, e, g, i, l, n, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -155,11 +155,11 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
 
 
@@ -167,7 +167,7 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

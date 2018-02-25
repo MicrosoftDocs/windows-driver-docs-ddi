@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d831ea36-16ee-4723-95b1-f9903106b7c0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_volume_get_volume_disk_extents, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control code [Storage Devices], IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, ntddvol/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, k307_8f02f744-6892-4e3f-9b23-158370e6a1e9.xml
+ms.keywords: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control code [Storage Devices], k307_8f02f744-6892-4e3f-9b23-158370e6a1e9.xml, ntddvol/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, storage.ioctl_volume_get_volume_disk_extents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -124,11 +124,11 @@ If the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is large enough for a
 
 ## -see-also
 
-<a href="..\ntddvol\ns-ntddvol-_disk_extent.md">DISK_EXTENT</a>
-
-
-
 <a href="..\ntddvol\ns-ntddvol-_volume_disk_extents.md">VOLUME_DISK_EXTENTS</a>
+
+
+
+<a href="..\ntddvol\ns-ntddvol-_disk_extent.md">DISK_EXTENT</a>
 
 
 

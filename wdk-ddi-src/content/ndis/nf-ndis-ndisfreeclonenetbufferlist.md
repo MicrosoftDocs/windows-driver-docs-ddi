@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3c632d54-8eb2-475b-8cdf-363028f67437
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_netbuf_functions_ref_a8be507f-e574-4cbe-ab9e-b48cbe00a5f6.xml, NdisFreeCloneNetBufferList, ndis/NdisFreeCloneNetBufferList, NdisFreeCloneNetBufferList function [Network Drivers Starting with Windows Vista], netvista.ndisfreeclonenetbufferlist
+ms.keywords: ",  , B, C, F, L, N, NdisFreeCloneNetBufferList, NdisFreeCloneNetBufferList function [Network Drivers Starting with Windows Vista], d, e, f, i, l, n, ndis/NdisFreeCloneNetBufferList, ndis_netbuf_functions_ref_a8be507f-e574-4cbe-ab9e-b48cbe00a5f6.xml, netvista.ndisfreeclonenetbufferlist, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,12 +128,12 @@ The caller must specifiy the same flags that it specified in the
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
    NdisAllocateCloneNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

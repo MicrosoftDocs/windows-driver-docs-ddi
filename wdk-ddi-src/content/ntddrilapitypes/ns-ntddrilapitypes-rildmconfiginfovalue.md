@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dda43544-4609-4674-9616-8e09939f0c39
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rildmconfiginfovalue, ntddrilapitypes/RILDMCONFIGINFOVALUE, *LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], RILDMCONFIGINFOVALUE
+ms.keywords: ",  , *, *LPRILDMCONFIGINFOVALUE, ,, A, C, D, E, F, G, I, L, M, N, O, P, R, RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], U, V, netvista.rildmconfiginfovalue, ntddrilapitypes/RILDMCONFIGINFOVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

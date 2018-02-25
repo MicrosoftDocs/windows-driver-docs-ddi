@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14fb5b30-7169-4d8a-ad72-d0ee86da7f98
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsPinAttachOrGate, stream.kspinattachorgate, KsPinAttachOrGate, avfunc_bcc291d4-ee61-4196-88df-b7aef567a06b.xml, KsPinAttachOrGate function [Streaming Media Devices]
+ms.keywords: ",  , A, G, K, KsPinAttachOrGate, KsPinAttachOrGate function [Streaming Media Devices], O, P, a, avfunc_bcc291d4-ee61-4196-88df-b7aef567a06b.xml, c, e, h, i, ks/KsPinAttachOrGate, n, r, s, stream.kspinattachorgate, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,7 +103,7 @@ Do not leave an unattached OR gate at filter creation time. Instead, create the 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
 
 
 
@@ -111,7 +111,7 @@ Do not leave an unattached OR gate at filter creation time. Instead, create the 
 
 
 
-<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 

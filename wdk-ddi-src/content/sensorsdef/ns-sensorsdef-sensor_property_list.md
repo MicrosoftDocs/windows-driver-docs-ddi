@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 03E03BB9-95DB-49C0-AF14-FFF1998C98A7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SENSOR_PROPERTY_LIST, sensors.sensor_property_list, sensorsdef/PSENSOR_PROPERTY_LIST, SENSOR_PROPERTY_LIST structure [Sensor Devices], PSENSOR_PROPERTY_LIST, sensorsdef/SENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST structure pointer [Sensor Devices]
+ms.keywords: ",  , *, *PSENSOR_PROPERTY_LIST, ,, E, I, L, N, O, P, PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST structure pointer [Sensor Devices], R, S, SENSOR_PROPERTY_LIST, SENSOR_PROPERTY_LIST structure [Sensor Devices], T, Y, _, sensors.sensor_property_list, sensorsdef/PSENSOR_PROPERTY_LIST, sensorsdef/SENSOR_PROPERTY_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

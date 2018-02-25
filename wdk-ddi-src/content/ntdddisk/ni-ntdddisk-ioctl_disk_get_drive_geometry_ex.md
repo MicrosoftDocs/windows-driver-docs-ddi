@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c0cf6b73-3283-4a58-845a-79f3b078db46
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_get_drive_geometry_ex, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, k307_d20497cd-63a3-4e07-9920-b051d68841db.xml
+ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], k307_d20497cd-63a3-4e07-9920-b051d68841db.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, storage.ioctl_disk_get_drive_geometry_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

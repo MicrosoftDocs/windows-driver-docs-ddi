@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 233CCF43-481E-4759-A2FC-0329103F8208
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdiadapterhangdiagnose, MiniportWdiAdapterHangDiagnose callback function [Network Drivers Starting with Windows Vista], MiniportWdiAdapterHangDiagnose, MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE, MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE, dot11wdi/MiniportWdiAdapterHangDiagnose
+ms.keywords: MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE, MiniportWdiAdapterHangDiagnose, MiniportWdiAdapterHangDiagnose callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiAdapterHangDiagnose, netvista.miniportwdiadapterhangdiagnose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

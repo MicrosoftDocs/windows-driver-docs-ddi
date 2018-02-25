@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 60f733e1-d376-4372-b1cc-39508b3a98e5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.rename, Rename callback function [Display Devices], Rename, PFND3DDDI_RENAME, PFND3DDDI_RENAME, d3dumddi/Rename, UserModeDisplayDriver_Functions_50916fb2-ea0e-4143-8588-909a4cd07bec.xml
+ms.keywords: PFND3DDDI_RENAME, Rename, Rename callback function [Display Devices], UserModeDisplayDriver_Functions_50916fb2-ea0e-4143-8588-909a4cd07bec.xml, d3dumddi/Rename, display.rename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,7 +144,7 @@ After <i>Rename</i> returns successfully (with S_OK), the user-mode display driv
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_rename.md">D3DDDIARG_RENAME</a>
 
 
 
@@ -152,7 +152,7 @@ After <i>Rename</i> returns successfully (with S_OK), the user-mode display driv
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_rename.md">D3DDDIARG_RENAME</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
 
 
 
@@ -160,7 +160,7 @@ After <i>Rename</i> returns successfully (with S_OK), the user-mode display driv
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

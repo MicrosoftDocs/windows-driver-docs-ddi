@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E510E2D-AC9B-4F00-B7FD-A67B1F3FEBA7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.canceladapterchannel, CancelAdapterChannel, CancelAdapterChannel callback function [Kernel-Mode Driver Architecture], CancelAdapterChannel, PCANCEL_ADAPTER_CHANNEL, PCANCEL_ADAPTER_CHANNEL, wdm/CancelAdapterChannel
+ms.keywords: CancelAdapterChannel, CancelAdapterChannel callback function [Kernel-Mode Driver Architecture], PCANCEL_ADAPTER_CHANNEL, kernel.canceladapterchannel, wdm/CancelAdapterChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -136,27 +136,7 @@ Similarly, if a driver calls <b>GetScatterGatherListEx</b> or <b>BuildScatterGat
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
-
-
-
 <a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
 
 
 
@@ -164,11 +144,31 @@ Similarly, if a driver calls <b>GetScatterGatherListEx</b> or <b>BuildScatterGat
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
+<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
 
 
 
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
 
 
 

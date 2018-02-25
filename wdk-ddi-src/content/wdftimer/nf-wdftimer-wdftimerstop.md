@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 394593f5-92eb-4f84-adbe-67e0e5320ff0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdftimer/WdfTimerStop, DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, wdf.wdftimerstop, WdfTimerStop method, kmdf.wdftimerstop, WdfTimerStop
+ms.keywords: ",  , DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, S, T, W, WdfTimerStop, WdfTimerStop method, d, e, f, i, kmdf.wdftimerstop, m, o, p, r, t, wdf.wdftimerstop, wdftimer/WdfTimerStop"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,7 +134,7 @@ The following code example stops a specified timer and waits for all of the driv
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
+<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
 
 
 
@@ -142,7 +142,7 @@ The following code example stops a specified timer and waits for all of the driv
 
 
 
-<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
+<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a77d77c5-5c8a-439a-93a3-fe29b15c6ed0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_request_reuse_params_init, WDF_REQUEST_REUSE_PARAMS_INIT, WDF_REQUEST_REUSE_PARAMS_INIT function, kmdf.wdf_request_reuse_params_init, wdfrequest/WDF_REQUEST_REUSE_PARAMS_INIT, DFRequestObjectRef_e43a091a-a926-4705-8241-0620b6ef3096.xml
+ms.keywords: ",  , A, D, DFRequestObjectRef_e43a091a-a926-4705-8241-0620b6ef3096.xml, E, F, I, M, N, P, Q, R, S, T, U, W, WDF_REQUEST_REUSE_PARAMS_INIT, WDF_REQUEST_REUSE_PARAMS_INIT function, _, kmdf.wdf_request_reuse_params_init, wdf.wdf_request_reuse_params_init, wdfrequest/WDF_REQUEST_REUSE_PARAMS_INIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,11 @@ For a code example that uses <b>WDF_REQUEST_REUSE_PARAMS_INIT</b>, see <a href="
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
-
-
-
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
 
 
 

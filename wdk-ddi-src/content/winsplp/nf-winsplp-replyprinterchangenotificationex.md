@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A3A906C0-FA96-4008-B904-1DA333B59833
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: winsplp/ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], ReplyPrinterChangeNotificationEx, print.replyprinterchangenotificationex
+ms.keywords: ",  , C, E, N, P, R, ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], a, c, e, f, g, h, i, l, n, o, p, print.replyprinterchangenotificationex, r, t, winsplp/ReplyPrinterChangeNotificationEx, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

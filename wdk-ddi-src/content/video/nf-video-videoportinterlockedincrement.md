@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d3507214-82bc-4d73-8562-2843d7876137
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortInterlockedIncrement function [Display Devices], VideoPortInterlockedIncrement, display.videoportinterlockedincrement, VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, video/VideoPortInterlockedIncrement
+ms.keywords: ",  , I, P, V, VideoPortInterlockedIncrement, VideoPortInterlockedIncrement function [Display Devices], VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, c, d, display.videoportinterlockedincrement, e, i, k, l, m, n, o, r, t, video/VideoPortInterlockedIncrement"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ This function is atomic only with respect to other <b>VideoPortInterlocked</b><i
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
-
-
-
 <a href="..\video\nf-video-videoportinterlockedexchange.md">VideoPortInterlockedExchange</a>
+
+
+
+<a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
 
 
 

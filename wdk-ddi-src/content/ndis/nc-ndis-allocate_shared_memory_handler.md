@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d85b4f28-707b-4525-afd8-83e1ceb2674e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.netallocatesharedmemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], NetAllocateSharedMemory, ALLOCATE_SHARED_MEMORY_HANDLER, ALLOCATE_SHARED_MEMORY_HANDLER, ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml
+ms.keywords: ALLOCATE_SHARED_MEMORY_HANDLER, NetAllocateSharedMemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml, netvista.netallocatesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -177,16 +177,16 @@ The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HAN
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
 
 
 

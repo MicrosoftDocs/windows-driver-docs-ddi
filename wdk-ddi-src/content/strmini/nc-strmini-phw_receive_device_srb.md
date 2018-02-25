@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 51d8a18d-cd90-4fac-a991-6c0de505576e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.strminireceivedevicepacket, StrMiniReceiveDevicePacket, StrMiniReceiveDevicePacket routine [Streaming Media Devices], StrMiniReceiveDevicePacket, PHW_RECEIVE_DEVICE_SRB, PHW_RECEIVE_DEVICE_SRB, strmini/StrMiniReceiveDevicePacket, strmini-routines_5c9f03d0-a2b0-4078-8ef8-d84cf150355c.xml
+ms.keywords: PHW_RECEIVE_DEVICE_SRB, StrMiniReceiveDevicePacket, StrMiniReceiveDevicePacket routine [Streaming Media Devices], stream.strminireceivedevicepacket, strmini-routines_5c9f03d0-a2b0-4078-8ef8-d84cf150355c.xml, strmini/StrMiniReceiveDevicePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -98,7 +98,7 @@ None
 
 
 
-The minidriver specifies this routine in the <b>HwReceivePacket</b> member of its <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The minidriver passes this structure to the class driver when it registers itself by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
+The minidriver specifies this routine in the <b>HwReceivePacket</b> member of its <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The minidriver passes this structure to the class driver when it registers itself by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
 
 <i>StrMiniReceiveDevicePacket</i> must handle class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device. The class driver passes its information in the form of a pointer to a stream request block. The class driver fills in some of the entries in the stream request block. The minidriver, upon completion of the routine, must fill in additional information that the class driver will use to continue processing. 
 

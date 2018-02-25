@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10d77823-fcaa-43c3-b55e-74f2da97ecf0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortGetCurrentProcessorNumber, storport/StorPortGetCurrentProcessorNumber, storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml, StorPortGetCurrentProcessorNumber routine [Storage Devices], storage.storportgetcurrentprocessornumber
+ms.keywords: ",  , C, G, N, P, S, StorPortGetCurrentProcessorNumber, StorPortGetCurrentProcessorNumber routine [Storage Devices], b, c, e, m, n, o, r, s, storage.storportgetcurrentprocessornumber, storport/StorPortGetCurrentProcessorNumber, storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

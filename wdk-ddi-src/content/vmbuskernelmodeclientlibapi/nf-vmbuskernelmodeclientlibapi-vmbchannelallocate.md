@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 97169CF5-566E-4EF6-88AD-7B68E9FE46EC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelAllocate, VmbChannelAllocate function [Network Drivers Starting with Windows Vista], VmbChannelAllocate, netvista.vmbchannelallocate
+ms.keywords: ",  , A, C, V, VmbChannelAllocate, VmbChannelAllocate function [Network Drivers Starting with Windows Vista], a, b, c, e, h, l, m, n, netvista.vmbchannelallocate, o, t, vmbuskernelmodeclientlibapi/VmbChannelAllocate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,11 +104,11 @@ it is enabled by using the  <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskern
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcleanup.md">VmbChannelCleanup</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelenable.md">VmbChannelEnable</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcleanup.md">VmbChannelCleanup</a>
 
 
 

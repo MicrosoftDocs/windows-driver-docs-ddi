@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5da7c762-ad5c-45bd-aebe-dc3526005569
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: wiauDbgLegacyWarning, wiauDbgLegacyWarning function [Imaging Devices], wiauFncs_03dcc80b-0d36-4130-a05d-bb407cd813cb.xml, wiautil/wiauDbgLegacyWarning, image.wiaudbglegacywarning
+ms.keywords: ",  , D, L, W, a, b, c, e, g, i, image.wiaudbglegacywarning, n, r, u, w, wiauDbgLegacyWarning, wiauDbgLegacyWarning function [Imaging Devices], wiauFncs_03dcc80b-0d36-4130-a05d-bb407cd813cb.xml, wiautil/wiauDbgLegacyWarning, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

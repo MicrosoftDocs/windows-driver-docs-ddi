@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 391f3b20-175f-4b27-b30f-34ccc43ca650
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, storage.scsiportfreedevicebase, srb/ScsiPortFreeDeviceBase, ScsiPortFreeDeviceBase, ScsiPortFreeDeviceBase routine [Storage Devices]
+ms.keywords: ",  , B, D, F, P, S, ScsiPortFreeDeviceBase, ScsiPortFreeDeviceBase routine [Storage Devices], a, c, e, i, o, r, s, scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, srb/ScsiPortFreeDeviceBase, storage.scsiportfreedevicebase, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,11 @@ If a miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAda
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
+
+<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 037B5AD9-39C2-4F50-8E63-0736EA37FEF9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensors.ioctl_gnss_get_fixdata, IOCTL_GNSS_GET_FIXDATA control code [Sensor Devices], IOCTL_GNSS_GET_FIXDATA, gnssdriver/IOCTL_GNSS_GET_FIXDATA
+ms.keywords: IOCTL_GNSS_GET_FIXDATA, IOCTL_GNSS_GET_FIXDATA control code [Sensor Devices], gnssdriver/IOCTL_GNSS_GET_FIXDATA, sensors.ioctl_gnss_get_fixdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -142,11 +142,7 @@ Whenever fix data is ready, the driver must fill the buffer and complete the I/O
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -154,7 +150,11 @@ Whenever fix data is ready, the driver must fill the buffer and complete the I/O
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

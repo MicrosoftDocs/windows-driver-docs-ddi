@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f459cfa7-9fda-4b46-9fc9-05bdc9e5c964
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: DXVA_COPPStatusData, _DXVA_COPPStatusData, dxvaref_76d7144b-c4a7-4530-bf35-be9b9955c9d6.xml, display.dxva_coppstatusdata, dxva/DXVA_COPPStatusData, DXVA_COPPStatusData structure [Display Devices]
+ms.keywords: ",  , ,, A, C, D, DXVA_COPPStatusData, DXVA_COPPStatusData structure [Display Devices], O, P, S, V, X, _, _DXVA_COPPStatusData, a, display.dxva_coppstatusdata, dxva/DXVA_COPPStatusData, dxvaref_76d7144b-c4a7-4530-bf35-be9b9955c9d6.xml, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -241,11 +241,11 @@ The display driver returns status information through the <i>pOutput</i> paramet
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 
 
 
@@ -253,7 +253,7 @@ The display driver returns status information through the <i>pOutput</i> paramet
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
+<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 
 
 

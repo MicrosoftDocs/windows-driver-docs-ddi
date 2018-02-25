@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E5C5DAEA-9F4E-4202-90BE-A8D41EE03BDA
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi_hwaccess/WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG function, wdf.write_register_ulong, umdf.write_register_ulong
+ms.keywords: ",  , E, G, I, L, N, O, R, S, T, U, W, WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG function, _, umdf.write_register_ulong, wdf.write_register_ulong, wudfddi_hwaccess/WRITE_REGISTER_ULONG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

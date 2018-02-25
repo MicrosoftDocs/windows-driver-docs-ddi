@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57d03610-b195-4691-8ee9-26c93560700c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: RetrieveDevicePropertyStore method, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, umdf.iwdfdeviceinitialize_retrievedevicepropertystore, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore, IWDFDeviceInitialize, RetrieveDevicePropertyStore, IWDFDeviceInitialize::RetrieveDevicePropertyStore
+ms.keywords: ",  , ,, ., :, D, F, I, IWDFDeviceInitialize, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore method, IWDFDeviceInitialize::RetrieveDevicePropertyStore, P, R, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore,IWDFDeviceInitialize.RetrieveDevicePropertyStore, S, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, W, a, c, e, i, l, n, o, p, r, t, umdf.iwdfdeviceinitialize_retrievedevicepropertystore, v, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,15 +116,15 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
 
 
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md">WDF_PROPERTY_STORE_DISPOSITION</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>
 
 
 

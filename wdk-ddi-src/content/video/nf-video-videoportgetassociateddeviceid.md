@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6c40f98b-4d93-4ee8-8217-51e6f1170cf8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: video/VideoPortGetAssociatedDeviceID, VideoPort_Functions_56a3fa57-fd1a-4b45-8de7-ee9450a525f4.xml, VideoPortGetAssociatedDeviceID function [Display Devices], VideoPortGetAssociatedDeviceID, display.videoportgetassociateddeviceid
+ms.keywords: ",  , A, D, G, I, P, V, VideoPortGetAssociatedDeviceID, VideoPortGetAssociatedDeviceID function [Display Devices], VideoPort_Functions_56a3fa57-fd1a-4b45-8de7-ee9450a525f4.xml, a, c, d, display.videoportgetassociateddeviceid, e, i, o, r, s, t, v, video/VideoPortGetAssociatedDeviceID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

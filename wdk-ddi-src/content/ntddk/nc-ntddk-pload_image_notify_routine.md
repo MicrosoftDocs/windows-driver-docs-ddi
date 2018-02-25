@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 613962D6-DF27-4AAE-BD8F-6BC0A538D7F8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pload_image_notify_routine, SetLoadImageNotifyRoutine callback function [Kernel-Mode Driver Architecture], SetLoadImageNotifyRoutine, PLOAD_IMAGE_NOTIFY_ROUTINE, PLOAD_IMAGE_NOTIFY_ROUTINE, ntddk/SetLoadImageNotifyRoutine
+ms.keywords: PLOAD_IMAGE_NOTIFY_ROUTINE, SetLoadImageNotifyRoutine, SetLoadImageNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pload_image_notify_routine, ntddk/SetLoadImageNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -118,15 +118,15 @@ When the main executable image for a newly created process is loaded, the load-i
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_image_info_ex.md">IMAGE_INFO_EX</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 
 
 

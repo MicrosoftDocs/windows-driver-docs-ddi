@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac1ba2e0-a289-4dee-b739-d3c1ad0970e1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoprocessorsetoutputtargetrect, pfnVideoProcessorSetOutputTargetRect callback function [Display Devices], pfnVideoProcessorSetOutputTargetRect, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT, d3d10umddi/pfnVideoProcessorSetOutputTargetRect
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT, d3d10umddi/pfnVideoProcessorSetOutputTargetRect, display.videoprocessorsetoutputtargetrect, pfnVideoProcessorSetOutputTargetRect, pfnVideoProcessorSetOutputTargetRect callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

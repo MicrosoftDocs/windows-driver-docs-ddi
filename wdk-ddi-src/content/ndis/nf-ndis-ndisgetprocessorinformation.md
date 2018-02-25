@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2cee5cf4-7dee-49d2-905c-2b9634137ce4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], netvista.ndisgetprocessorinformation, NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, ndis/NdisGetProcessorInformation
+ms.keywords: ",  , G, I, N, NdisGetProcessorInformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], P, a, c, d, e, f, i, m, n, ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, netvista.ndisgetprocessorinformation, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,7 +145,8 @@ RSS-capable miniport drivers that support MSI-X call
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
+<a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
+   NdisGetRssProcessorInformation</a>
 
 
 
@@ -154,8 +155,7 @@ RSS-capable miniport drivers that support MSI-X call
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
-   NdisGetRssProcessorInformation</a>
+<a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
 
 
 

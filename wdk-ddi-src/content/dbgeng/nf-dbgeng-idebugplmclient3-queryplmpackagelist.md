@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BAAAF09B-F39D-44E0-9409-1C98B0C6A56B
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, dbgeng/IDebugPlmClient3::QueryPlmPackageList, debugger.idebugplmclient3_queryplmpackagelist, IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging]
+ms.keywords: ",  , ,, ., 3, :, C, D, I, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, IDebugPlmClient3::QueryPlmPackageList, L, P, Q, QueryPlmPackageList method [Windows Debugging], QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface, QueryPlmPackageList,IDebugPlmClient3.QueryPlmPackageList, a, b, c, dbgeng/IDebugPlmClient3::QueryPlmPackageList, debugger.idebugplmclient3_queryplmpackagelist, e, g, i, k, l, m, n, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

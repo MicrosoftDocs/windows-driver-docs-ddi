@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B3A8F252-D56D-4F20-A0DE-2A29904BC907
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3D12DDI_RANGE structure [Display Devices], D3D12DDI_RANGE, d3d12umddi/D3D12DDI_RANGE, display.d3d12ddi_range
+ms.keywords: ",  , ,, 1, 2, 3, A, D, D3D12DDI_RANGE, D3D12DDI_RANGE structure [Display Devices], E, G, I, N, R, _, d3d12umddi/D3D12DDI_RANGE, display.d3d12ddi_range"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

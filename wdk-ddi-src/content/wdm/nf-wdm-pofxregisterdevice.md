@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41A8B278-3735-41CB-B8D1-45FBF04465AD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregisterdevice, PoFxRegisterDevice, wdm/PoFxRegisterDevice
+ms.keywords: ",  , D, F, P, PoFxRegisterDevice, PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], R, c, e, g, i, kernel.pofxregisterdevice, o, r, s, t, v, wdm/PoFxRegisterDevice, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ A pointer to a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537e
 
 ### -param Device [in]
 
-A pointer to a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that contains the registration information for the device. This structure contains pointers to a set of callback routines that are implemented by the device driver. PoFx calls these routines to communicate with the driver.
+A pointer to a caller-allocated <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that contains the registration information for the device. This structure contains pointers to a set of callback routines that are implemented by the device driver. PoFx calls these routines to communicate with the driver.
 
 
 ### -param Handle [out]
@@ -165,23 +165,11 @@ For information about how the KMDF driver for a multiple-component device regist
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxstartdevicepowermanagement.md">PoFxStartDevicePowerManagement</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
@@ -189,7 +177,19 @@ For information about how the KMDF driver for a multiple-component device regist
 
 
 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxstartdevicepowermanagement.md">PoFxStartDevicePowerManagement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 

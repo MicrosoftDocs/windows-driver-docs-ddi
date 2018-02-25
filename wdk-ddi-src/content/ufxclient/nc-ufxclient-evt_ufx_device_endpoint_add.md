@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F366990E-7FE3-401B-B8BE-E71EAFD3AC58
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ufx_device_endpoint_add, EvtUfxDeviceEndpointAdd callback function [Buses], EvtUfxDeviceEndpointAdd, EVT_UFX_DEVICE_ENDPOINT_ADD, EVT_UFX_DEVICE_ENDPOINT_ADD, ufxclient/EvtUfxDeviceEndpointAdd, PFN_UFX_DEVICE_ENDPOINT_ADD callback function pointer [Buses], PFN_UFX_DEVICE_ENDPOINT_ADD
+ms.keywords: EVT_UFX_DEVICE_ENDPOINT_ADD, EvtUfxDeviceEndpointAdd, EvtUfxDeviceEndpointAdd callback function [Buses], PFN_UFX_DEVICE_ENDPOINT_ADD, PFN_UFX_DEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_endpoint_add, ufxclient/EvtUfxDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -246,11 +246,11 @@ End:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 

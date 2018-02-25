@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1fa29ab6-1faa-4be6-ae87-4cac9057471d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddirecommendmonitormodes, DxgkDdiRecommendMonitorModes callback function [Display Devices], DxgkDdiRecommendMonitorModes, DXGKDDI_RECOMMENDMONITORMODES, DXGKDDI_RECOMMENDMONITORMODES, d3dkmddi/DxgkDdiRecommendMonitorModes, DmFunctions_0e8f1382-ec41-4953-8e1e-f2a5121acc0c.xml
+ms.keywords: DXGKDDI_RECOMMENDMONITORMODES, DmFunctions_0e8f1382-ec41-4953-8e1e-f2a5121acc0c.xml, DxgkDdiRecommendMonitorModes, DxgkDdiRecommendMonitorModes callback function [Display Devices], d3dkmddi/DxgkDdiRecommendMonitorModes, display.dxgkddirecommendmonitormodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

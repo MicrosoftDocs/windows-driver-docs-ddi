@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dbc66db-ea94-4e6a-9618-00999a9dd641
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdeviceselfmanagedioinit, EvtDeviceSelfManagedIoInit callback function, EvtDeviceSelfManagedIoInit, EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT, EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT, wdfdevice/EvtDeviceSelfManagedIoInit, DFDeviceObjectGeneralRef_7c67b851-b6d0-450d-bdc9-2a32aa384a36.xml, kmdf.evtdeviceselfmanagedioinit
+ms.keywords: DFDeviceObjectGeneralRef_7c67b851-b6d0-450d-bdc9-2a32aa384a36.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT, EvtDeviceSelfManagedIoInit, EvtDeviceSelfManagedIoInit callback function, kmdf.evtdeviceselfmanagedioinit, wdf.evtdeviceselfmanagedioinit, wdfdevice/EvtDeviceSelfManagedIoInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -146,7 +146,7 @@ The <b>EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT</b> function type is defined in the W
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_suspend.md">EvtDeviceSelfManagedIoSuspend</a>
 
 
 
@@ -154,7 +154,7 @@ The <b>EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT</b> function type is defined in the W
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_suspend.md">EvtDeviceSelfManagedIoSuspend</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
 
 
 

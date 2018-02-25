@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E55CDAF9-2711-4DC6-8BED-EDB0D78D9158
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CmCallbackGetKeyObjectIDEx, kernel.cmcallbackgetkeyobjectidex, CmCallbackGetKeyObjectIDEx routine [Kernel-Mode Driver Architecture], wdm/CmCallbackGetKeyObjectIDEx
+ms.keywords: ",  , C, CmCallbackGetKeyObjectIDEx, CmCallbackGetKeyObjectIDEx routine [Kernel-Mode Driver Architecture], D, E, G, I, K, O, a, b, c, e, j, k, kernel.cmcallbackgetkeyobjectidex, l, m, t, wdm/CmCallbackGetKeyObjectIDEx, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,19 +152,7 @@ For more information about registry filter drivers, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectid.md">CmCallbackGetKeyObjectID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 
@@ -172,7 +160,19 @@ For more information about registry filter drivers, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectid.md">CmCallbackGetKeyObjectID</a>
 
 
 

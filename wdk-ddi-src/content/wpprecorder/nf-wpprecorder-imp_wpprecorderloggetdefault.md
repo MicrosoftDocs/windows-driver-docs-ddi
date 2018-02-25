@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 823E9AA6-F838-41B1-A502-A983B7F24661
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WppRecorderLogGetDefault, imp_WppRecorderLogGetDefault function [Driver Development Tools], imp_WppRecorderLogGetDefault, devtest.wpprecorderloggetdefault, wpprecorder/imp_WppRecorderLogGetDefault
+ms.keywords: ",  , D, G, L, R, W, WppRecorderLogGetDefault, _, a, c, d, devtest.wpprecorderloggetdefault, e, f, g, i, imp_WppRecorderLogGetDefault, imp_WppRecorderLogGetDefault function [Driver Development Tools], l, m, o, p, r, t, u, wpprecorder/imp_WppRecorderLogGetDefault"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

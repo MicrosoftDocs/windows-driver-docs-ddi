@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e5d622cc-c550-44cf-8923-5092226066d9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddistopcapture, DxgkDdiStopCapture callback function [Display Devices], DxgkDdiStopCapture, DXGKDDI_STOPCAPTURE, DXGKDDI_STOPCAPTURE, d3dkmddi/DxgkDdiStopCapture, DmFunctions_108ab359-fe5b-46f2-bc1b-f1f91bd5b327.xml
+ms.keywords: DXGKDDI_STOPCAPTURE, DmFunctions_108ab359-fe5b-46f2-bc1b-f1f91bd5b327.xml, DxgkDdiStopCapture, DxgkDdiStopCapture callback function [Display Devices], d3dkmddi/DxgkDdiStopCapture, display.dxgkddistopcapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,11 +103,11 @@ When a capture buffer is destroyed, the DirectX graphics kernel subsystem calls 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_stopcapture.md">DXGKARG_STOPCAPTURE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

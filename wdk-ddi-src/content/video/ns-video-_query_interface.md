@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0d813870-10bd-4b41-9f36-1cb45c462697
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: QUERY_INTERFACE structure [Display Devices], QUERY_INTERFACE, *PQUERY_INTERFACE, video/QUERY_INTERFACE, display.query_interface, Video_Structs_facaef96-c0d9-4695-8541-65e5e430f182.xml, _QUERY_INTERFACE, video/PQUERY_INTERFACE, PQUERY_INTERFACE, PQUERY_INTERFACE structure pointer [Display Devices]
+ms.keywords: ",  , *, *PQUERY_INTERFACE, ,, A, C, E, F, I, N, P, PQUERY_INTERFACE, PQUERY_INTERFACE structure pointer [Display Devices], Q, QUERY_INTERFACE, QUERY_INTERFACE structure [Display Devices], R, T, U, Video_Structs_facaef96-c0d9-4695-8541-65e5e430f182.xml, Y, _, _QUERY_INTERFACE, display.query_interface, video/PQUERY_INTERFACE, video/QUERY_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

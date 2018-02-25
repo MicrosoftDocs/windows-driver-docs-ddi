@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 266cdf1a-6122-4f46-8e93-8f76fceb0180
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PowerRequestDisplayRequired, PPOWER_REQUEST_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PowerRequestSystemRequired, wdm/PowerRequestAwayModeRequired, *PPOWER_REQUEST_TYPE, wdm/PowerRequestSystemRequired, PowerRequestAwayModeRequired, wdm/PowerRequestExecutionRequired, PPOWER_REQUEST_TYPE, POWER_REQUEST_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/PowerRequestDisplayRequired, PowerRequestExecutionRequired, wdm/POWER_REQUEST_TYPE, sysenum_2d1a5da5-2541-4db1-bfde-2bd06f38b17c.xml, wdm/PPOWER_REQUEST_TYPE, _POWER_REQUEST_TYPE, kernel.power_request_type, POWER_REQUEST_TYPE
+ms.keywords: ",  , *, *PPOWER_REQUEST_TYPE, ,, E, O, P, POWER_REQUEST_TYPE, POWER_REQUEST_TYPE enumeration [Kernel-Mode Driver Architecture], PPOWER_REQUEST_TYPE, PPOWER_REQUEST_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, Q, R, S, T, U, W, Y, _, _POWER_REQUEST_TYPE, kernel.power_request_type, sysenum_2d1a5da5-2541-4db1-bfde-2bd06f38b17c.xml, wdm/POWER_REQUEST_TYPE, wdm/PPOWER_REQUEST_TYPE, wdm/PowerRequestAwayModeRequired, wdm/PowerRequestDisplayRequired, wdm/PowerRequestExecutionRequired, wdm/PowerRequestSystemRequired"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -131,11 +131,11 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 
 
-<a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a>
-
-
-
 <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 31293354-D68B-475F-91BD-0504129207A5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: gnssdriver/GNSS_AGNSS_REQUEST_TYPE, sensors.gnss_agnss_request_type, GNSS_AGNSS_TimeInjection, GNSS_AGNSS_BlobInjection, GNSS_AGNSS_REQUEST_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_AGNSS_TimeInjection, GNSS_AGNSS_REQUEST_TYPE, GNSS_AGNSS_PositionInjection, gnssdriver/GNSS_AGNSS_PositionInjection, gnssdriver/GNSS_AGNSS_BlobInjection
+ms.keywords: ",  , ,, A, E, G, GNSS_AGNSS_BlobInjection, GNSS_AGNSS_PositionInjection, GNSS_AGNSS_REQUEST_TYPE, GNSS_AGNSS_REQUEST_TYPE enumeration [Sensor Devices], GNSS_AGNSS_TimeInjection, N, P, Q, R, S, T, U, Y, _, gnssdriver/GNSS_AGNSS_BlobInjection, gnssdriver/GNSS_AGNSS_PositionInjection, gnssdriver/GNSS_AGNSS_REQUEST_TYPE, gnssdriver/GNSS_AGNSS_TimeInjection, sensors.gnss_agnss_request_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

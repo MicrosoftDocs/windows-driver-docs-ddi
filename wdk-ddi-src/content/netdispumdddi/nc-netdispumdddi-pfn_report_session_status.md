@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a3e44e55-5c6a-4a79-8caa-3a3b9db6b456
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.reportsessionstatus, PFN_REPORT_SESSION_STATUS, ReportSessionStatus callback function [Display Devices], ReportSessionStatus, PFN_REPORT_SESSION_STATUS, PFN_REPORT_SESSION_STATUS, netdispumdddi/ReportSessionStatus
+ms.keywords: PFN_REPORT_SESSION_STATUS, ReportSessionStatus, ReportSessionStatus callback function [Display Devices], display.reportsessionstatus, netdispumdddi/ReportSessionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

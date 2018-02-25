@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c0404803-d8a5-4698-a725-12c659cbcaab
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], video/PVIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], _VIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], video/VIDEO_X86_BIOS_ARGUMENTS, Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, VIDEO_X86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS, *PVIDEO_X86_BIOS_ARGUMENTS, display.video_x86_bios_arguments
+ms.keywords: ",  , *, *PVIDEO_X86_BIOS_ARGUMENTS, ,, 6, 8, A, B, D, E, G, I, M, N, O, P, PVIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], R, S, T, U, V, VIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], VIDEO_x86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, X, _, _VIDEO_X86_BIOS_ARGUMENTS, display.video_x86_bios_arguments, video/PVIDEO_X86_BIOS_ARGUMENTS, video/VIDEO_X86_BIOS_ARGUMENTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

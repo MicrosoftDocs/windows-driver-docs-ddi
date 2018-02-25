@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3bf5ebf7-8113-4ab2-beb1-1a52df25ac37
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiupdateactivevidpnpresentpath, DxgkDdiUpdateActiveVidPnPresentPath callback function [Display Devices], DxgkDdiUpdateActiveVidPnPresentPath, DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH, DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH, d3dkmddi/DxgkDdiUpdateActiveVidPnPresentPath, DmFunctions_837597a1-a23e-4aa9-b219-b1f69eb58ed1.xml
+ms.keywords: DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH, DmFunctions_837597a1-a23e-4aa9-b219-b1f69eb58ed1.xml, DxgkDdiUpdateActiveVidPnPresentPath, DxgkDdiUpdateActiveVidPnPresentPath callback function [Display Devices], d3dkmddi/DxgkDdiUpdateActiveVidPnPresentPath, display.dxgkddiupdateactivevidpnpresentpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -116,15 +116,15 @@ The <i>DxgkDdiUpdateActiveVidPnPresentPath</i> function should be made pageable.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -132,7 +132,7 @@ The <i>DxgkDdiUpdateActiveVidPnPresentPath</i> function should be made pageable.
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 
 

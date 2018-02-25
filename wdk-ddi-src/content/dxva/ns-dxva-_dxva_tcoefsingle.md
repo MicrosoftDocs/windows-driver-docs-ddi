@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 665a9819-d319-414d-9a31-ee565b293197
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dxva/DXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml, LPDXVA_TCoefSingle structure pointer [Display Devices], *LPDXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices], dxva/LPDXVA_TCoefSingle, display.dxva_tcoefsingle, _DXVA_TCoefSingle, LPDXVA_TCoefSingle, DXVA_TCoefSingle
+ms.keywords: ",  , *, *LPDXVA_TCoefSingle, ,, A, C, D, DXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices], L, LPDXVA_TCoefSingle, LPDXVA_TCoefSingle structure pointer [Display Devices], P, S, T, V, X, _, _DXVA_TCoefSingle, display.dxva_tcoefsingle, dxva/DXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml, e, f, g, i, l, n, o"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

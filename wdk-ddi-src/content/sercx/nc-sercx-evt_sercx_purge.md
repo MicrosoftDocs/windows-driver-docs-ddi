@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 036D9AAC-C740-4108-B952-0A4F91585488
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercxpurge, EvtSerCxPurge callback function [Serial Ports], EvtSerCxPurge, EVT_SERCX_PURGE, EVT_SERCX_PURGE, 1/EvtSerCxPurge
+ms.keywords: 1/EvtSerCxPurge, EVT_SERCX_PURGE, EvtSerCxPurge, EvtSerCxPurge callback function [Serial Ports], serports.evtsercxpurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -187,11 +187,11 @@ For more information about SDV requirements for function declarations, see <a hr
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

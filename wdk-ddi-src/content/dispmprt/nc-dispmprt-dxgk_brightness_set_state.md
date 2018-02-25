@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 804046ff-0cc7-4ff0-be07-b574cb40fd2b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddisetbrightnessstate, DxgkDdiSetBrightnessState callback function [Display Devices], DxgkDdiSetBrightnessState, DXGK_BRIGHTNESS_SET_STATE, DXGK_BRIGHTNESS_SET_STATE, dispmprt/DxgkDdiSetBrightnessState
+ms.keywords: DXGK_BRIGHTNESS_SET_STATE, DxgkDdiSetBrightnessState, DxgkDdiSetBrightnessState callback function [Display Devices], display.dxgkddisetbrightnessstate, dispmprt/DxgkDdiSetBrightnessState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,11 +105,11 @@ This function should be made pageable.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set.md">DxgkDdiSetBrightness</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

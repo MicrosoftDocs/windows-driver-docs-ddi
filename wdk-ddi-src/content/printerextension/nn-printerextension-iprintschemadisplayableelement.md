@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A1ACF7C4-2DEE-405E-AEEE-BC03B9D5FAD2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschemadisplayableelement_interface, IPrintSchemaDisplayableElement interface [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices], described, IPrintSchemaDisplayableElement, printerextension/IPrintSchemaDisplayableElement
+ms.keywords: IPrintSchemaDisplayableElement, IPrintSchemaDisplayableElement interface [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices], described, print.iprintschemadisplayableelement_interface, printerextension/IPrintSchemaDisplayableElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

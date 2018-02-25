@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintunidiasyncnotifyregistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices], described, IPrintUnidiAsyncNotifyRegistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
+ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices], described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

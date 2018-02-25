@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d58a275a-aaaa-4159-ba00-6998b7a63434
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfCompanionTargetSendTaskSynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously, wdf.wdfcompaniontargetsendtasksynchronously, WdfCompanionTargetSendTaskSynchronously method
+ms.keywords: ",  , C, S, T, W, WdfCompanionTargetSendTaskSynchronously, WdfCompanionTargetSendTaskSynchronously method, a, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, wdf.wdfcompaniontargetsendtasksynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6f5a3c65-9d6c-4d5f-af99-71aba16eb254
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KSSTATE_RUN, KSSTATE enumeration [Streaming Media Devices], ks/KSSTATE_ACQUIRE, ks/KSSTATE_PAUSE, stream.ksstate, KSSTATE_PAUSE, *PKSSTATE, KSSTATE_ACQUIRE, ks/PKSSTATE, ks/KSSTATE, KSSTATE_STOP, KSSTATE, ks/KSSTATE_STOP, ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, PKSSTATE, PKSSTATE enumeration pointer [Streaming Media Devices], KSSTATE_RUN
+ms.keywords: ",  , *, *PKSSTATE, ,, A, E, K, KSSTATE, KSSTATE enumeration [Streaming Media Devices], KSSTATE_ACQUIRE, KSSTATE_PAUSE, KSSTATE_RUN, KSSTATE_STOP, P, PKSSTATE, PKSSTATE enumeration pointer [Streaming Media Devices], S, T, ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, ks/KSSTATE, ks/KSSTATE_ACQUIRE, ks/KSSTATE_PAUSE, ks/KSSTATE_RUN, ks/KSSTATE_STOP, ks/PKSSTATE, stream.ksstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

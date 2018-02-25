@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C10CAA33-C407-4183-9090-B9D78B07CD12
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddimiracastquerycaps, DxgkDdiMiracastQueryCaps callback function [Display Devices], DxgkDdiMiracastQueryCaps, DXGKDDI_MIRACAST_QUERY_CAPS, DXGKDDI_MIRACAST_QUERY_CAPS, dispmprt/DxgkDdiMiracastQueryCaps
+ms.keywords: DXGKDDI_MIRACAST_QUERY_CAPS, DxgkDdiMiracastQueryCaps, DxgkDdiMiracastQueryCaps callback function [Display Devices], display.dxgkddimiracastquerycaps, dispmprt/DxgkDdiMiracastQueryCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,11 +112,11 @@ The operating system guarantees that this function follows the third-level synch
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md">DXGK_MIRACAST_CAPS</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

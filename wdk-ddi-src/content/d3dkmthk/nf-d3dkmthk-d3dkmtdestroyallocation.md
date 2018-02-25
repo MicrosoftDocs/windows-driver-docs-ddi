@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 249ca05c-406d-4d47-a266-222f7be1a883
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: OpenGL_Functions_ecc5579c-3b0a-4c2c-9978-9f2591444c03.xml, D3DKMTDestroyAllocation function [Display Devices], display.d3dkmtdestroyallocation, d3dkmthk/D3DKMTDestroyAllocation, D3DKMTDestroyAllocation
+ms.keywords: ",  , 3, A, D, D3DKMTDestroyAllocation, D3DKMTDestroyAllocation function [Display Devices], K, M, OpenGL_Functions_ecc5579c-3b0a-4c2c-9978-9f2591444c03.xml, T, a, c, d3dkmthk/D3DKMTDestroyAllocation, display.d3dkmtdestroyallocation, e, i, l, n, o, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73402b35-85ce-4bb1-8ec5-619805d5a3e0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortReadPortUlong function [Display Devices], VideoPortReadPortUlong, VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml, display.videoportreadportulong, video/VideoPortReadPortUlong
+ms.keywords: ",  , P, R, U, V, VideoPortReadPortUlong, VideoPortReadPortUlong function [Display Devices], VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml, a, d, display.videoportreadportulong, e, g, i, l, n, o, r, t, video/VideoPortReadPortUlong"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,15 +95,15 @@ Callers of <b>VideoPortReadPortUlong</b> can be running at any IRQL, provided th
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-
-
-
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92a84bf3-34bf-4ee7-97c0-f5e6427c0464
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stream.iksreferenceclock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices], described, IKsReferenceClock, ks/IKsReferenceClock, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml
+ms.keywords: IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices], described, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml, ks/IKsReferenceClock, stream.iksreferenceclock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -179,11 +179,11 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
 
 

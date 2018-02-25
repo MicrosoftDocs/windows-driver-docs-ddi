@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 3E75EA87-FBF8-4FFB-9CD7-F8E1D5353D68
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UFX_INTERFACE_PROPRIETARY_CHARGER structure [Buses], buses.ufx_interface_proprietary_charger, ufxproprietarycharger/UFX_INTERFACE_PROPRIETARY_CHARGER, ufxproprietarycharger/PUFX_INTERFACE_PROPRIETARY_CHARGER, UFX_INTERFACE_PROPRIETARY_CHARGER, PUFX_INTERFACE_PROPRIETARY_CHARGER structure pointer [Buses], PUFX_INTERFACE_PROPRIETARY_CHARGER, _UFX_INTERFACE_PROPRIETARY_CHARGER, *PUFX_INTERFACE_PROPRIETARY_CHARGER
+ms.keywords: ",  , *, *PUFX_INTERFACE_PROPRIETARY_CHARGER, ,, A, C, E, F, G, H, I, N, O, P, PUFX_INTERFACE_PROPRIETARY_CHARGER, PUFX_INTERFACE_PROPRIETARY_CHARGER structure pointer [Buses], R, T, U, UFX_INTERFACE_PROPRIETARY_CHARGER, UFX_INTERFACE_PROPRIETARY_CHARGER structure [Buses], X, Y, _, _UFX_INTERFACE_PROPRIETARY_CHARGER, buses.ufx_interface_proprietary_charger, ufxproprietarycharger/PUFX_INTERFACE_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_INTERFACE_PROPRIETARY_CHARGER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

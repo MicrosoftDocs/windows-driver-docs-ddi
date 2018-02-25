@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d0304ac7-cb19-499c-81af-98be33312951
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSUB_Q_CHANNEL_DATA union pointer [Storage Devices], storage.sub_q_channel_data, SUB_Q_CHANNEL_DATA, _SUB_Q_CHANNEL_DATA, structs-CD-ROM_f35761c8-b362-48eb-9cfa-6ee5e7232411.xml, PSUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA union [Storage Devices], ntddcdrm/SUB_Q_CHANNEL_DATA, ntddcdrm/PSUB_Q_CHANNEL_DATA, *PSUB_Q_CHANNEL_DATA
+ms.keywords: ",  , *, *PSUB_Q_CHANNEL_DATA, ,, A, B, C, D, E, H, L, N, P, PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA union pointer [Storage Devices], Q, S, SUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA union [Storage Devices], T, U, _, _SUB_Q_CHANNEL_DATA, ntddcdrm/PSUB_Q_CHANNEL_DATA, ntddcdrm/SUB_Q_CHANNEL_DATA, storage.sub_q_channel_data, structs-CD-ROM_f35761c8-b362-48eb-9cfa-6ee5e7232411.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,7 +95,7 @@ The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure t
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
 
 
 
@@ -103,15 +103,15 @@ The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure t
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
 
 
 

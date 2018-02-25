@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9208bcd7-c030-4c2f-b3bc-e1bff3839cef
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoprocessorsetstreamalpha, pfnVideoProcessorSetStreamAlpha callback function [Display Devices], pfnVideoProcessorSetStreamAlpha, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA, d3d10umddi/pfnVideoProcessorSetStreamAlpha
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA, d3d10umddi/pfnVideoProcessorSetStreamAlpha, display.videoprocessorsetstreamalpha, pfnVideoProcessorSetStreamAlpha, pfnVideoProcessorSetStreamAlpha callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -174,19 +174,19 @@ The driver reports its ability to support stereo alpha blending for an input str
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode.md">VideoProcessorSetOutputAlphaFillMode</a>
 
 
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
 
 
 

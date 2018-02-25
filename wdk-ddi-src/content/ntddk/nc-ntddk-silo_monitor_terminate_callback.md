@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1F87D6AC-3603-4A34-BAAB-8B43ADF9E595
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.silo_monitor_terminate_callback, TerminateCallback callback function [Kernel-Mode Driver Architecture], TerminateCallback, SILO_MONITOR_TERMINATE_CALLBACK, SILO_MONITOR_TERMINATE_CALLBACK, ntddk/TerminateCallback
+ms.keywords: SILO_MONITOR_TERMINATE_CALLBACK, TerminateCallback, TerminateCallback callback function [Kernel-Mode Driver Architecture], kernel.silo_monitor_terminate_callback, ntddk/TerminateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

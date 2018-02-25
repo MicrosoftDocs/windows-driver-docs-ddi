@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ebffcdc-672b-4cfd-9ff2-a911b7c4dde5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILUICCCMDPARAMETERS structure [Network Drivers Starting with Windows Vista], *LPRILUICCCMDPARAMETERS, rilapitypes/RILUICCCMDPARAMETERS, netvista.riluicccmdparameters_2, RILUICCCMDPARAMETERS
+ms.keywords: ",  , *, *LPRILUICCCMDPARAMETERS, ,, A, C, D, E, I, L, M, P, R, RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.riluicccmdparameters_2, rilapitypes/RILUICCCMDPARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 01B5E793-D075-42B5-9ADF-D033249AEE9F
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.pfnsignalsynchronizationobject2cb, pfnSignalSynchronizationObject2Cb callback function [Display Devices], pfnSignalSynchronizationObject2Cb, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB, d3dumddi/pfnSignalSynchronizationObject2Cb
+ms.keywords: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB, d3dumddi/pfnSignalSynchronizationObject2Cb, display.pfnsignalsynchronizationobject2cb, pfnSignalSynchronizationObject2Cb, pfnSignalSynchronizationObject2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -165,11 +165,11 @@ If synchronization objects are of type <b>D3DDDI_FENCE</b> (where <a href="..\d3
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobject2cb.md">pfnWaitForSynchronizationObject2Cb</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_signalsynchronizationobject2.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
 
 
 
@@ -177,11 +177,11 @@ If synchronization objects are of type <b>D3DDDI_FENCE</b> (where <a href="..\d3
 
 
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject2.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT2</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobject2cb.md">pfnWaitForSynchronizationObject2Cb</a>
 
 
 

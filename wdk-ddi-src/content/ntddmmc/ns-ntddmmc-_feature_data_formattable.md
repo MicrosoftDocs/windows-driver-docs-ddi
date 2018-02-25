@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 658ea6a4-309d-4f78-9a02-f93e7d945325
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FEATURE_DATA_FORMATTABLE, ntddmmc/PFEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE structure [Storage Devices], PFEATURE_DATA_FORMATTABLE structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_FORMATTABLE, PFEATURE_DATA_FORMATTABLE, *PFEATURE_DATA_FORMATTABLE, _FEATURE_DATA_FORMATTABLE, storage.feature_data_formattable, structs-CD-ROM_27503157-de29-4c39-bb7a-b17528984f7f.xml
+ms.keywords: ",  , *, *PFEATURE_DATA_FORMATTABLE, ,, A, B, D, E, F, FEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE structure [Storage Devices], L, M, O, P, PFEATURE_DATA_FORMATTABLE, PFEATURE_DATA_FORMATTABLE structure pointer [Storage Devices], R, T, U, _, _FEATURE_DATA_FORMATTABLE, ntddmmc/FEATURE_DATA_FORMATTABLE, ntddmmc/PFEATURE_DATA_FORMATTABLE, storage.feature_data_formattable, structs-CD-ROM_27503157-de29-4c39-bb7a-b17528984f7f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -121,11 +121,11 @@ When queried, devices supporting this feature must return the information indica
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 

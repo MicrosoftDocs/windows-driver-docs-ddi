@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f4263cc6-2065-475a-b618-6a5735c5f66e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.videoportgetprocaddress, VideoPortGetProcAddress callback function [Display Devices], VideoPortGetProcAddress, PVIDEO_PORT_GET_PROC_ADDRESS, PVIDEO_PORT_GET_PROC_ADDRESS, video/VideoPortGetProcAddress, VideoPort_Functions_303c9139-f7bd-4334-9379-ca5e167e4618.xml
+ms.keywords: PVIDEO_PORT_GET_PROC_ADDRESS, VideoPortGetProcAddress, VideoPortGetProcAddress callback function [Display Devices], VideoPort_Functions_303c9139-f7bd-4334-9379-ca5e167e4618.xml, display.videoportgetprocaddress, video/VideoPortGetProcAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

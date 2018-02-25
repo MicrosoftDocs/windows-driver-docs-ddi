@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 11181574-b329-4182-8d17-93d44cb3b839
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: atartns_ef8ff0f5-2d1c-47e1-bf1a-2b554de3969d.xml, storage.ataportgetscattergatherlist, irb/AtaPortGetScatterGatherList, AtaPortGetScatterGatherList, AtaPortGetScatterGatherList routine [Storage Devices]
+ms.keywords: ",  , A, AtaPortGetScatterGatherList, AtaPortGetScatterGatherList routine [Storage Devices], G, L, P, S, a, atartns_ef8ff0f5-2d1c-47e1-bf1a-2b554de3969d.xml, c, e, h, i, irb/AtaPortGetScatterGatherList, o, r, s, storage.ataportgetscattergatherlist, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

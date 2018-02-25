@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1f8f7c8c-f09a-4bf5-a15b-42f210122b54
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSUPSVCINFO, netvista.rilsupsvcinfo, *LPRILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSUPSVCINFO
+ms.keywords: ",  , *, *LPRILSUPSVCINFO, ,, C, F, I, L, N, O, P, R, RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], S, U, V, netvista.rilsupsvcinfo, ntddrilapitypes/RILSUPSVCINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

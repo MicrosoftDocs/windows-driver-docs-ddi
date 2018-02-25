@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4b008fc7-35fe-40f9-8475-1a2ac04edb58
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PPCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, CLS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], wdm/CLS_WRITE_ENTRY, kstruct_a_331b7685-f256-4071-8edf-e517afc2b8cc.xml, PCLFS_WRITE_ENTRY, wdm/PPCLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY, wdm/PPCLS_WRITE_ENTRY, wdm/CLFS_WRITE_ENTRY, CLS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], *PCLFS_WRITE_ENTRY, PPCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PCLS_WRITE_ENTRY, PPCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], kernel.clfs_write_entry, wdm/PCLFS_WRITE_ENTRY, wdm/PCLS_WRITE_ENTRY, _CLS_WRITE_ENTRY, PCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PPCLS_WRITE_ENTRY
+ms.keywords: ",  , *, *PCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, ,, C, CLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], CLS_WRITE_ENTRY, CLS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], E, F, I, L, N, P, PCLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PCLS_WRITE_ENTRY, PCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PPCLFS_WRITE_ENTRY, PPCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PPCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], R, S, T, W, Y, _, _CLS_WRITE_ENTRY, kernel.clfs_write_entry, kstruct_a_331b7685-f256-4071-8edf-e517afc2b8cc.xml, wdm/CLFS_WRITE_ENTRY, wdm/CLS_WRITE_ENTRY, wdm/PCLFS_WRITE_ENTRY, wdm/PCLS_WRITE_ENTRY, wdm/PPCLFS_WRITE_ENTRY, wdm/PPCLS_WRITE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,11 +90,11 @@ CLFS collects the buffers pointed to by several <b>CLFS_WRITE_ENTRY</b> structur
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfsreserveandappendlog.md">ClfsReserveAndAppendLog</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a>
 
 
 

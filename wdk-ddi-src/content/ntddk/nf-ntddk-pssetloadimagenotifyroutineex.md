@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 792cdb59-e0c2-4697-9934-b7e45a7a31a8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/PsSetLoadImageNotifyRoutineEx, kernel.pssetloadimagenotifyroutineex, PsSetLoadImageNotifyRoutineEx function [Kernel-Mode Driver Architecture], PsSetLoadImageNotifyRoutineEx
+ms.keywords: ",  , E, I, L, N, P, PsSetLoadImageNotifyRoutineEx, PsSetLoadImageNotifyRoutineEx function [Kernel-Mode Driver Architecture], R, S, a, d, e, f, g, i, kernel.pssetloadimagenotifyroutineex, m, n, ntddk/PsSetLoadImageNotifyRoutineEx, o, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c067fe92-2364-4122-a7ed-03df7906ae64
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddidestroydevice, DxgkDdiDestroyDevice callback function [Display Devices], DxgkDdiDestroyDevice, DXGKDDI_DESTROYDEVICE, DXGKDDI_DESTROYDEVICE, d3dkmddi/DxgkDdiDestroyDevice, DmFunctions_14927367-d2f9-4aa4-ab3d-a3c8decedbcf.xml
+ms.keywords: DXGKDDI_DESTROYDEVICE, DmFunctions_14927367-d2f9-4aa4-ab3d-a3c8decedbcf.xml, DxgkDdiDestroyDevice, DxgkDdiDestroyDevice callback function [Display Devices], d3dkmddi/DxgkDdiDestroyDevice, display.dxgkddidestroydevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -97,11 +97,11 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
 
 
 

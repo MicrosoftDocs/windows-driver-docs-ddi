@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58226149-daea-40aa-afb6-13ce615434b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportinvalidateoffload, MiniportInvalidateOffload callback function [Network Drivers Starting with Windows Vista], MiniportInvalidateOffload, W_INVALIDATE_OFFLOAD_HANDLER, W_INVALIDATE_OFFLOAD_HANDLER, ndischimney/MiniportInvalidateOffload, tcp_chim_miniport_func_226472dd-905a-42ef-8251-b32acfa93f0b.xml
+ms.keywords: MiniportInvalidateOffload, MiniportInvalidateOffload callback function [Network Drivers Starting with Windows Vista], W_INVALIDATE_OFFLOAD_HANDLER, ndischimney/MiniportInvalidateOffload, netvista.miniportinvalidateoffload, tcp_chim_miniport_func_226472dd-905a-42ef-8251-b32acfa93f0b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -143,12 +143,12 @@ Eventually, the host stack will
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndischimney\nf-ndischimney-ndisminvalidateoffloadcomplete.md">
    NdisMInvalidateOffloadComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
@@ -157,7 +157,7 @@ Eventually, the host stack will
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

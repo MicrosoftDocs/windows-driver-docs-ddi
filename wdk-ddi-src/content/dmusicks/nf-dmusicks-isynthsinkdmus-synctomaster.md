@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5009e4d8-5299-4eeb-a70d-5be87694b1d0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: SyncToMaster method [Audio Devices], ISynthSinkDMus interface, SyncToMaster method [Audio Devices], audio.isynthsinkdmus_synctomaster, dmusicks/ISynthSinkDMus::SyncToMaster, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, ISynthSinkDMus, SyncToMaster, ISynthSinkDMus::SyncToMaster
+ms.keywords: ",  , ,, ., :, D, I, ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, ISynthSinkDMus::SyncToMaster, M, S, SyncToMaster method [Audio Devices], SyncToMaster method [Audio Devices], ISynthSinkDMus interface, SyncToMaster,ISynthSinkDMus.SyncToMaster, T, a, audio.isynthsinkdmus_synctomaster, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, c, dmusicks/ISynthSinkDMus::SyncToMaster, e, h, i, k, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

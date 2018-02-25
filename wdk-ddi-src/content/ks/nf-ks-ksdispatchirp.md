@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6ee88b2d-4086-4e6d-b80b-eff6868ce784
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsDispatchIrp, ksfunc_ed03b195-fcb3-41ca-9794-c9b9f04ce8c9.xml, stream.ksdispatchirp, KsDispatchIrp routine [Streaming Media Devices], KsDispatchIrp
+ms.keywords: ",  , D, I, K, KsDispatchIrp, KsDispatchIrp routine [Streaming Media Devices], a, c, h, i, ks/KsDispatchIrp, ksfunc_ed03b195-fcb3-41ca-9794-c9b9f04ce8c9.xml, p, r, s, stream.ksdispatchirp, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

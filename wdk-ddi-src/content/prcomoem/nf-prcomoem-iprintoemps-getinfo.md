@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9a8b060d-675b-4171-b75e-6df55cd0667f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: GetInfo method [Print Devices], print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml, GetInfo, prcomoem/IPrintOemPS::GetInfo, IPrintOemPS::GetInfo, print.iprintoemps_getinfo, IPrintOemPS, GetInfo method [Print Devices], IPrintOemPS interface, IPrintOemPS interface [Print Devices], GetInfo method
+ms.keywords: ",  , ,, ., :, G, GetInfo method [Print Devices], GetInfo method [Print Devices], IPrintOemPS interface, GetInfo,IPrintOemPS.GetInfo, I, IPrintOemPS, IPrintOemPS interface [Print Devices], GetInfo method, IPrintOemPS::GetInfo, O, P, S, e, f, i, m, n, o, prcomoem/IPrintOemPS::GetInfo, print.iprintoemps_getinfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -190,7 +190,7 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
 
 
 
@@ -198,7 +198,7 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
 
 
 

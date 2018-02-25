@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5713edfd-0b73-4274-862d-23c97f991a68
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k102_dc743b18-db19-4536-a862-e313e201d4d8.xml, kernel.exreinitializeresourcelite, wdm/ExReinitializeResourceLite, ExReinitializeResourceLite routine [Kernel-Mode Driver Architecture], ExReinitializeResourceLite
+ms.keywords: ",  , E, ExReinitializeResourceLite, ExReinitializeResourceLite routine [Kernel-Mode Driver Architecture], L, R, a, c, e, i, k102_dc743b18-db19-4536-a862-e313e201d4d8.xml, kernel.exreinitializeresourcelite, l, n, o, r, s, t, u, wdm/ExReinitializeResourceLite, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,35 +95,7 @@ The <b>ERESOURCE</b> structure is opaque; that is, the members are reserved for 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exacquireresourceexclusivelite.md">ExAcquireResourceExclusiveLite</a>
-
-
-
-<a href="..\wdm\nf-wdm-exisresourceacquiredsharedlite.md">ExIsResourceAcquiredSharedLite</a>
-
-
-
-<a href="..\wdm\nf-wdm-exdeleteresourcelite.md">ExDeleteResourceLite</a>
-
-
-
 <a href="..\wdm\nf-wdm-exconvertexclusivetosharedlite.md">ExConvertExclusiveToSharedLite</a>
-
-
-
-<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
-
-
-
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
-
-
-
-<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
 
 
 
@@ -131,7 +103,35 @@ The <b>ERESOURCE</b> structure is opaque; that is, the members are reserved for 
 
 
 
+<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
+
+
+
+<a href="..\wdm\nf-wdm-exisresourceacquiredsharedlite.md">ExIsResourceAcquiredSharedLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
+
+
+
 <a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
+
+
+
+<a href="..\wdm\nf-wdm-exdeleteresourcelite.md">ExDeleteResourceLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquireresourceexclusivelite.md">ExAcquireResourceExclusiveLite</a>
 
 
 

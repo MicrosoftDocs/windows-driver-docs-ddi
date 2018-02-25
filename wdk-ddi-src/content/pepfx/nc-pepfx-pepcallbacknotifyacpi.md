@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7BC27FD1-CCD8-4ABC-B973-C2242D6C243B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.acceptacpinotification, AcceptAcpiNotification routine [Kernel-Mode Driver Architecture], AcceptAcpiNotification, PEPCALLBACKNOTIFYACPI, PEPCALLBACKNOTIFYACPI, pepfx/AcceptAcpiNotification
+ms.keywords: AcceptAcpiNotification, AcceptAcpiNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYACPI, kernel.acceptacpinotification, pepfx/AcceptAcpiNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -94,7 +94,7 @@ The <i>AcceptAcpiNotification</i> routine must return TRUE if it handles the not
 
 
 
-This routine is implemented by the platform extension plug-in (PEP) for a device. The <b>AcceptAcpiNotification</b> member of the <a href="..\pep_x\ns-pep_x-_pep_information.md">PEP_INFORMATION</a> structure is a pointer to an <i>AcceptAcpiNotification</i> routine. The PEP calls the <a href="..\pep_x\nf-pep_x-pofxregisterplugin.md">PoFxRegisterPlugin</a> or <a href="..\pep_x\nf-pep_x-pofxregisterpluginex.md">PoFxRegisterPluginEx</a> routine to register the PEP's <i>AcceptAcpiNotification</i> routine with PoFx.
+This routine is implemented by the platform extension plug-in (PEP) for a device. The <b>AcceptAcpiNotification</b> member of the <a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a> structure is a pointer to an <i>AcceptAcpiNotification</i> routine. The PEP calls the <a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a> or <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a> routine to register the PEP's <i>AcceptAcpiNotification</i> routine with PoFx.
 
 The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called varies according to the type of notification that is being sent. The notification type is specified by the <i>Notification</i> parameter. For more information about the IRQL at which each notification type is sent, see the individual reference pages under <a href="https://msdn.microsoft.com/library/windows/hardware/mt186628">ACPI notifications</a>.
 
@@ -103,15 +103,15 @@ The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called vari
 
 ## -see-also
 
-<a href="..\pep_x\nf-pep_x-pofxregisterplugin.md">PoFxRegisterPlugin</a>
+<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_information.md">PEP_INFORMATION</a>
+<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
 
 
 
-<a href="..\pep_x\nf-pep_x-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
 
 

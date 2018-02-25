@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bf3a0b49-ecec-4e96-bf09-b269e8852422
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dvdref_602cb4a7-2e70-43a1-8e1a-7604d5b48bc1.xml, PKSWAVE_VOLUME structure pointer [Streaming Media Devices], *PKSWAVE_VOLUME, KSWAVE_VOLUME structure [Streaming Media Devices], ksmedia/KSWAVE_VOLUME, PKSWAVE_VOLUME, KSWAVE_VOLUME, ksmedia/PKSWAVE_VOLUME, stream.kswave_volume
+ms.keywords: ",  , *, *PKSWAVE_VOLUME, ,, A, E, K, KSWAVE_VOLUME, KSWAVE_VOLUME structure [Streaming Media Devices], L, M, O, P, PKSWAVE_VOLUME, PKSWAVE_VOLUME structure pointer [Streaming Media Devices], S, U, V, W, _, dvdref_602cb4a7-2e70-43a1-8e1a-7604d5b48bc1.xml, ksmedia/KSWAVE_VOLUME, ksmedia/PKSWAVE_VOLUME, stream.kswave_volume"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

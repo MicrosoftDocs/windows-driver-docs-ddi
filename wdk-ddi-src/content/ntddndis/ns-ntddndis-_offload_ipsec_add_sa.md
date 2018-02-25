@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 592d338c-8ab0-4163-bcfa-75c941b83c3d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.offload_ipsec_add_sa, ntddndis/OFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], OFFLOAD_IPSEC_ADD_SA, 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, POFFLOAD_IPSEC_ADD_SA, _OFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], *POFFLOAD_IPSEC_ADD_SA, ntddndis/POFFLOAD_IPSEC_ADD_SA
+ms.keywords: ",  , *, *POFFLOAD_IPSEC_ADD_SA, ,, 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, A, C, D, E, F, I, L, O, OFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], P, POFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], S, _, _OFFLOAD_IPSEC_ADD_SA, netvista.offload_ipsec_add_sa, ntddndis/OFFLOAD_IPSEC_ADD_SA, ntddndis/POFFLOAD_IPSEC_ADD_SA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -240,7 +240,11 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 
 
@@ -248,11 +252,7 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
 
 
 

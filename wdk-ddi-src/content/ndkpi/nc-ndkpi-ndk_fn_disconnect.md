@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40622358-F4CA-4DF2-BDA4-E93C4DDB1AF6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_disconnect, NdkDisconnect callback function [Network Drivers Starting with Windows Vista], NdkDisconnect, NDK_FN_DISCONNECT, NDK_FN_DISCONNECT, ndkpi/NdkDisconnect
+ms.keywords: NDK_FN_DISCONNECT, NdkDisconnect, NdkDisconnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkDisconnect, netvista.ndk_fn_disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -162,11 +162,7 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect.md">NDK_FN_CONNECT</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
@@ -174,7 +170,11 @@ An error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect.md">NDK_FN_CONNECT</a>
 
 
 

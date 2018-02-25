@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 957a2658-dddc-4529-8697-5fa44fcb96c2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: powermeter.ioctl_pmi_get_configuration, IOCTL_PMI_GET_CONFIGURATION control code [Power Metering and Budgeting Devices], IOCTL_PMI_GET_CONFIGURATION, pmi/IOCTL_PMI_GET_CONFIGURATION, PowerMeterRef_7d1f1fbc-cd7a-4885-8d41-8f42c4659de7.xml
+ms.keywords: IOCTL_PMI_GET_CONFIGURATION, IOCTL_PMI_GET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_7d1f1fbc-cd7a-4885-8d41-8f42c4659de7.xml, pmi/IOCTL_PMI_GET_CONFIGURATION, powermeter.ioctl_pmi_get_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PMI_MEASUREMENT_UNIT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -175,11 +175,7 @@ A <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGUR
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
+<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
 
 
 
@@ -187,11 +183,19 @@ A <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGUR
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
 
 
 
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -203,11 +207,7 @@ A <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGUR
 
 
 
-<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
-
-
-
-<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
 
 
 

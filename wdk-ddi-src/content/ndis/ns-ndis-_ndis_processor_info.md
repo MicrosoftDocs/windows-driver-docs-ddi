@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55c7044e-20db-4245-a644-93cbeb9cd512
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_processor_info, *PNDIS_PROCESSOR_INFO, _NDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_87f00f3b-dc88-4f7d-be9e-39a649aa87a6.xml, NDIS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], ndis/NDIS_PROCESSOR_INFO, ndis/PNDIS_PROCESSOR_INFO
+ms.keywords: ",  , *, *PNDIS_PROCESSOR_INFO, ,, C, D, E, F, I, N, NDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], O, P, PNDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], R, S, _, _NDIS_PROCESSOR_INFO, ndis/NDIS_PROCESSOR_INFO, ndis/PNDIS_PROCESSOR_INFO, ndis_sysinfo_ref_87f00f3b-dc88-4f7d-be9e-39a649aa87a6.xml, netvista.ndis_processor_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,11 +112,11 @@ The NDIS_PROCESSOR_INFO structure is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_processor_info_ex.md">NDIS_PROCESSOR_INFO_EX</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
 
 
 

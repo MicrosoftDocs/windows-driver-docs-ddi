@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eacfd42d-405c-4c23-8978-0f373a393e10
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiinterruptroutine, DxgkDdiInterruptRoutine callback function [Display Devices], DxgkDdiInterruptRoutine, DXGKDDI_INTERRUPT_ROUTINE, DXGKDDI_INTERRUPT_ROUTINE, dispmprt/DxgkDdiInterruptRoutine, DmFunctions_5341cc5a-0dd5-4493-ab02-0aa66d910ec0.xml
+ms.keywords: DXGKDDI_INTERRUPT_ROUTINE, DmFunctions_5341cc5a-0dd5-4493-ab02-0aa66d910ec0.xml, DxgkDdiInterruptRoutine, DxgkDdiInterruptRoutine callback function [Display Devices], display.dxgkddiinterruptroutine, dispmprt/DxgkDdiInterruptRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -123,7 +123,7 @@ The <i>DxgkDdiInterruptRoutine</i> function can call <a href="..\dispmprt\nc-dis
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
 
 
@@ -131,7 +131,7 @@ The <i>DxgkDdiInterruptRoutine</i> function can call <a href="..\dispmprt\nc-dis
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
 
 
 

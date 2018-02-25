@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 10e7abc9-addd-4f0e-b77b-af9e8e1fa061
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdtf/IWDTFCONFIG2::EnableObjectErrorLogging, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectErrorLogging, EnableObjectErrorLogging, EnableObjectErrorLogging method [Windows Device Testing Framework], IWDTFCONFIG2::EnableObjectErrorLogging, Microsoft.WDTF.IWDTFCONFIG2.EnableObjectErrorLogging, EnableObjectErrorLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface, dtf.iwdtfconfig2_enableobjecterrorlogging, IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectErrorLogging method, IWDTFCONFIG2
+ms.keywords: ",  , ,, ., 2, :, C, D, E, EnableObjectErrorLogging method [Windows Device Testing Framework], EnableObjectErrorLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface, EnableObjectErrorLogging,IWDTFCONFIG2.EnableObjectErrorLogging, F, G, I, IWDTFCONFIG2, IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectErrorLogging method, IWDTFCONFIG2::EnableObjectErrorLogging, L, Microsoft.WDTF.IWDTFCONFIG2.EnableObjectErrorLogging, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectErrorLogging, N, O, T, W, a, b, c, dtf.iwdtfconfig2_enableobjecterrorlogging, e, g, i, j, l, n, o, r, t, wdtf/IWDTFCONFIG2::EnableObjectErrorLogging"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

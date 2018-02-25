@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b41f6539-293f-47ed-b720-5053574a1841
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilpsmediaconfigurationset, RILPSMEDIACONFIGURATIONSET, *LPRILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPSMEDIACONFIGURATIONSET
+ms.keywords: ",  , *, *LPRILPSMEDIACONFIGURATIONSET, ,, A, C, D, E, F, G, I, L, M, N, O, P, R, RILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.rilpsmediaconfigurationset, ntddrilapitypes/RILPSMEDIACONFIGURATIONSET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DDED1237-74B7-4127-8E86-D0794A1FB49B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.translatebusaddress, TranslateBusAddress routine [Kernel-Mode Driver Architecture], TranslateBusAddress, TRANSLATE_BUS_ADDRESS, TRANSLATE_BUS_ADDRESS, wdm/TranslateBusAddress, kernel.bustranslatebusaddress, drvr_interface_68887adb-724b-47ca-80e6-b8b934ae2414.xml
+ms.keywords: TRANSLATE_BUS_ADDRESS, TranslateBusAddress, TranslateBusAddress routine [Kernel-Mode Driver Architecture], drvr_interface_68887adb-724b-47ca-80e6-b8b934ae2414.xml, kernel.bustranslatebusaddress, kernel.translatebusaddress, wdm/TranslateBusAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

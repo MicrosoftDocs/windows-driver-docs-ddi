@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3664ef23-f7bc-4a94-8085-aa5a3d0ba550
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMTConfigureSharedResource function [Display Devices], D3DKMTConfigureSharedResource, PFND3DKMT_CONFIGURESHAREDRESOURCE, display.d3dkmtconfiguresharedresource, OpenGL_Functions_f95f6a64-49a7-4a93-a544-6d4315f12212.xml, d3dkmthk/D3DKMTConfigureSharedResource
+ms.keywords: ",  , 3, C, D, D3DKMTConfigureSharedResource, D3DKMTConfigureSharedResource function [Display Devices], K, M, OpenGL_Functions_f95f6a64-49a7-4a93-a544-6d4315f12212.xml, PFND3DKMT_CONFIGURESHAREDRESOURCE, R, S, T, a, c, d, d3dkmthk/D3DKMTConfigureSharedResource, display.d3dkmtconfiguresharedresource, e, f, g, h, i, n, o, r, s, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,7 +134,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a> could not complete because of insufficient memory.
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_configuresharedresource.md">D3DKMTConfigureSharedResource</a> could not complete because of insufficient memory.
 
 </td>
 </tr>

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 882b47c2-8fbe-4de0-8ef3-206faaf1e990
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksproxy/IKsTopology::CreateNodeInstance, CreateNodeInstance, IKsTopology, stream.ikstopology_createnodeinstance, CreateNodeInstance method [Streaming Media Devices], ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, IKsTopology::CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method
+ms.keywords: ",  , ,, ., :, C, CreateNodeInstance method [Streaming Media Devices], CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, CreateNodeInstance,IKsTopology.CreateNodeInstance, I, IKsTopology, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, IKsTopology::CreateNodeInstance, K, N, T, a, c, d, e, g, ksproxy/IKsTopology::CreateNodeInstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, l, n, o, p, r, s, stream.ikstopology_createnodeinstance, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,15 +113,15 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
 <a href="..\ksproxy\nn-ksproxy-ikstopology.md">IKsTopology</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 54D1F822-2D82-498D-A50F-A917FA127496
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.logmarkerstringtableentry, LogMarkerStringTableEntry callback function [Display Devices], LogMarkerStringTableEntry, PFND3DDDICB_LOGSTRINGTABLEENTRY, PFND3DDDICB_LOGSTRINGTABLEENTRY, d3dumddi/LogMarkerStringTableEntry
+ms.keywords: LogMarkerStringTableEntry, LogMarkerStringTableEntry callback function [Display Devices], PFND3DDDICB_LOGSTRINGTABLEENTRY, d3dumddi/LogMarkerStringTableEntry, display.logmarkerstringtableentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

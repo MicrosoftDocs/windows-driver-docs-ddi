@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D4B99D6F-0A0C-49CE-A8E2-19C1A835EDA6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, storage.srbex_data_io_info, REQUEST_INFO_HYBRID_WRITE_THROUGH_FLAG, REQUEST_INFO_VALID_CACHEPRIORITY_FLAG, SRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO, *PSRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO structure pointer [Storage Devices], REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, storport/PSRBEX_DATA_IO_INFO, storport/SRBEX_DATA_IO_INFO, _SRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO structure [Storage Devices]
+ms.keywords: ",  , *, *PSRBEX_DATA_IO_INFO, ,, A, B, D, E, F, I, N, O, P, PSRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO structure pointer [Storage Devices], R, REQUEST_INFO_HYBRID_WRITE_THROUGH_FLAG, REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_VALID_CACHEPRIORITY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, S, SRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO structure [Storage Devices], T, X, _, _SRBEX_DATA_IO_INFO, storage.srbex_data_io_info, storport/PSRBEX_DATA_IO_INFO, storport/SRBEX_DATA_IO_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -208,7 +208,7 @@ This member is present starting with Windows 8.1 Update.
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

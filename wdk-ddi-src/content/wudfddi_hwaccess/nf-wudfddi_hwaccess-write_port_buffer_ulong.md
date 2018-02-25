@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B5C6FA66-617E-4DB1-A62A-3F3F41E971B0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.write_port_buffer_ulong, WRITE_PORT_BUFFER_ULONG function, wudfddi_hwaccess/WRITE_PORT_BUFFER_ULONG, wdf.write_port_buffer_ulong, WRITE_PORT_BUFFER_ULONG
+ms.keywords: ",  , B, E, F, G, I, L, N, O, P, R, T, U, W, WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG function, _, umdf.write_port_buffer_ulong, wdf.write_port_buffer_ulong, wudfddi_hwaccess/WRITE_PORT_BUFFER_ULONG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

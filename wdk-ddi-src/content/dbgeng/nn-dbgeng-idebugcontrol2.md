@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c8371bbc-cbd1-4ff4-a055-99cc6cd6f8c6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: debugger.idebugcontrol2, IDebugControl2 interface [Windows Debugging], IDebugControl2 interface [Windows Debugging], described, IDebugControl2, dbgeng/IDebugControl2
+ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], IDebugControl2 interface [Windows Debugging], described, dbgeng/IDebugControl2, debugger.idebugcontrol2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -148,11 +148,11 @@ Sets the value of a user-named alias.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

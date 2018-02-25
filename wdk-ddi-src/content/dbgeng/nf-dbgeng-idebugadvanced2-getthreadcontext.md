@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6fe12f3b-b241-42e4-b35d-c8a485a5cfa8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugAdvanced, dbgeng/IDebugAdvanced3::GetThreadContext, IDebugAdvanced interface [Windows Debugging], GetThreadContext method, debugger.getthreadcontext, IDebugAdvanced2, IDebugAdvanced::GetThreadContext, GetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, GetThreadContext method [Windows Debugging], IDebugAdvanced interface, dbgeng/IDebugAdvanced::GetThreadContext, dbgeng/IDebugAdvanced2::GetThreadContext, GetThreadContext, GetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, GetThreadContext method [Windows Debugging], IDebugAdvanced2::GetThreadContext, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, IDebugAdvanced2 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced3 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced3::GetThreadContext
+ms.keywords: ",  , ,, ., 2, :, A, C, D, G, GetThreadContext method [Windows Debugging], GetThreadContext method [Windows Debugging], IDebugAdvanced interface, GetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, GetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, GetThreadContext,IDebugAdvanced.GetThreadContext, GetThreadContext,IDebugAdvanced2.GetThreadContext, I, IDebugAdvanced, IDebugAdvanced interface [Windows Debugging], GetThreadContext method, IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced2::GetThreadContext, IDebugAdvanced3 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced3::GetThreadContext, IDebugAdvanced::GetThreadContext, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, T, a, b, c, d, dbgeng/IDebugAdvanced2::GetThreadContext, dbgeng/IDebugAdvanced3::GetThreadContext, dbgeng/IDebugAdvanced::GetThreadContext, debugger.getthreadcontext, e, g, h, n, o, r, t, u, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,15 +121,7 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556829">SetThreadContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
 
 
@@ -138,6 +130,14 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
 
 

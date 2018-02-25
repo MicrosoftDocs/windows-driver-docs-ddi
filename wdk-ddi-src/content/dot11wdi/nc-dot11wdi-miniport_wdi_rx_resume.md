@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 483C59C3-8F9C-48A5-B5E4-34A60BAE1B1A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdirxresume, MiniportWdiRxResume callback function [Network Drivers Starting with Windows Vista], MiniportWdiRxResume, MINIPORT_WDI_RX_RESUME, MINIPORT_WDI_RX_RESUME, dot11wdi/MiniportWdiRxResume
+ms.keywords: MINIPORT_WDI_RX_RESUME, MiniportWdiRxResume, MiniportWdiRxResume callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxResume, netvista.miniportwdirxresume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -94,11 +94,11 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
-
-
-
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 
 

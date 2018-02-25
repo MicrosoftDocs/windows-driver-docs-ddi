@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c754f540-19ff-491f-89ec-63d3306c4068
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml, dxva/DXVA_DeinterlaceQueryAvailableModes, display.dxva_deinterlacequeryavailablemodes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], DXVA_DeinterlaceQueryAvailableModes, _DXVA_DeinterlaceQueryAvailableModes
+ms.keywords: ",  , ,, A, D, DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], M, Q, V, X, _, _DXVA_DeinterlaceQueryAvailableModes, a, b, c, d, display.dxva_deinterlacequeryavailablemodes, dxva/DXVA_DeinterlaceQueryAvailableModes, dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml, e, i, l, n, o, r, s, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 434CA5F7-24D4-40E7-AE77-C0732D3FBBFF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelPause, VmbChannelPause function [Network Drivers Starting with Windows Vista], VmbChannelPause, netvista.vmbchannelpause
+ms.keywords: ",  , C, P, V, VmbChannelPause, VmbChannelPause function [Network Drivers Starting with Windows Vista], a, b, e, h, l, m, n, netvista.vmbchannelpause, s, u, vmbuskernelmodeclientlibapi/VmbChannelPause"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

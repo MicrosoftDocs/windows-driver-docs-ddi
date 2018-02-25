@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbb01112-9d28-4dbf-88c7-3304d9d6a661
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMT_CREATEBUNDLEOBJECT structure [Display Devices], d3dkmthk/D3DKMT_CREATEBUNDLEOBJECT, _D3DKMT_CREATEBUNDLEOBJECT, display.d3dkmt-createbundleobject, D3DKMT_CREATEBUNDLEOBJECT
+ms.keywords: ",  , ,, 3, A, B, C, D, D3DKMT_CREATEBUNDLEOBJECT, D3DKMT_CREATEBUNDLEOBJECT structure [Display Devices], E, J, K, L, M, N, O, R, T, U, _, _D3DKMT_CREATEBUNDLEOBJECT, d3dkmthk/D3DKMT_CREATEBUNDLEOBJECT, display.d3dkmt-createbundleobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

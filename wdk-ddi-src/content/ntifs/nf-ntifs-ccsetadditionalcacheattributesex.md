@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 187719CD-5F0C-4AFD-BC00-ECD3C29A118F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CcSetAdditionalCacheAttributesEx, ntifs/CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], ifsk.ccsetadditionalcacheattributesex
+ms.keywords: ",  , A, C, CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], E, S, a, b, c, d, e, h, i, ifsk.ccsetadditionalcacheattributesex, l, n, ntifs/CcSetAdditionalCacheAttributesEx, o, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

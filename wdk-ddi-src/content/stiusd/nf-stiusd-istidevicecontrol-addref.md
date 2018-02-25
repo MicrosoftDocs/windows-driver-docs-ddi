@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8aa28efb-a030-4fed-b9f2-0e67ff1e7c9e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, IStiDeviceControl, AddRef method [Imaging Devices], IStiDeviceControl::AddRef, AddRef, stiusd/IStiDeviceControl::AddRef, AddRef method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices], AddRef method, image.istidevicecontrol_addref
+ms.keywords: ",  , ,, ., :, A, AddRef method [Imaging Devices], AddRef method [Imaging Devices], IStiDeviceControl interface, AddRef,IStiDeviceControl.AddRef, C, D, I, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], AddRef method, IStiDeviceControl::AddRef, R, S, c, d, e, f, i, image.istidevicecontrol_addref, l, n, o, r, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, stiusd/IStiDeviceControl::AddRef, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

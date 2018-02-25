@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8e9a247a-f906-4f0e-8249-b67a042aada5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortGetVirtualAddress, scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, srb/ScsiPortGetVirtualAddress, ScsiPortGetVirtualAddress routine [Storage Devices], storage.scsiportgetvirtualaddress
+ms.keywords: ",  , A, G, P, S, ScsiPortGetVirtualAddress, ScsiPortGetVirtualAddress routine [Storage Devices], V, a, c, d, e, i, l, o, r, s, scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, srb/ScsiPortGetVirtualAddress, storage.scsiportgetvirtualaddress, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a9efeb68-8838-476f-8ffb-11c8c71163fc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILMSGMWIPRIORITY, RIL_MSGMWIPRIORITY_MAX, RILMSGMWIPRIORITY, rilapitypes/RIL_MSGMWIPRIORITY_LOW, rilapitypes/RIL_MSGMWIPRIORITY_NORMAL, RILMSGMWIPRIORITY enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGMWIPRIORITY_EMERGENCY, RIL_MSGMWIPRIORITY_LOW, RIL_MSGMWIPRIORITY_NORMAL, rilapitypes/RIL_MSGMWIPRIORITY_URGENT, rilapitypes/RIL_MSGMWIPRIORITY_MAX, RIL_MSGMWIPRIORITY_EMERGENCY, netvista.rilmsgmwipriority_2, RIL_MSGMWIPRIORITY_URGENT
+ms.keywords: ",  , ,, G, I, L, M, O, P, R, RILMSGMWIPRIORITY, RILMSGMWIPRIORITY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGMWIPRIORITY_EMERGENCY, RIL_MSGMWIPRIORITY_LOW, RIL_MSGMWIPRIORITY_MAX, RIL_MSGMWIPRIORITY_NORMAL, RIL_MSGMWIPRIORITY_URGENT, S, T, W, Y, netvista.rilmsgmwipriority_2, rilapitypes/RILMSGMWIPRIORITY, rilapitypes/RIL_MSGMWIPRIORITY_EMERGENCY, rilapitypes/RIL_MSGMWIPRIORITY_LOW, rilapitypes/RIL_MSGMWIPRIORITY_MAX, rilapitypes/RIL_MSGMWIPRIORITY_NORMAL, rilapitypes/RIL_MSGMWIPRIORITY_URGENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

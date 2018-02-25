@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5821ecef-d90b-4b3f-87cd-1b80b86f2671
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.d3dkmtpresent, D3DKMTPresent function [Display Devices], OpenGL_Functions_2a9f80c6-84c7-41bb-be78-02640430226d.xml, d3dkmthk/D3DKMTPresent, D3DKMTPresent
+ms.keywords: ",  , 3, D, D3DKMTPresent, D3DKMTPresent function [Display Devices], K, M, OpenGL_Functions_2a9f80c6-84c7-41bb-be78-02640430226d.xml, P, T, d3dkmthk/D3DKMTPresent, display.d3dkmtpresent, e, n, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -256,15 +256,15 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTPrese
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a>
+
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetdisplaymode.md">D3DKMTSetDisplayMode</a>
 
 
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a>
 
 
 

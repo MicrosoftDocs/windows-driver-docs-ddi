@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41bea2bd-2b4d-467f-bb47-19b0b9f7ff6b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADER, _D3DHAL_DP2CREATEVERTEXSHADER, display.d3dhal_dp2createvertexshader, LPD3DHAL_DP2CREATEVERTEXSHADER, d3dstrct_540af788-1ffd-4696-ac9e-5268c379a14e.xml, D3DHAL_DP2CREATEVERTEXSHADER structure [Display Devices], *LPD3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/D3DHAL_DP2CREATEVERTEXSHADER, LPD3DHAL_DP2CREATEVERTEXSHADER structure pointer [Display Devices]
+ms.keywords: ",  , *, *LPD3DHAL_DP2CREATEVERTEXSHADER, ,, 2, 3, A, C, D, D3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER structure [Display Devices], E, H, L, LPD3DHAL_DP2CREATEVERTEXSHADER, LPD3DHAL_DP2CREATEVERTEXSHADER structure pointer [Display Devices], P, R, S, T, V, X, _, _D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADER, d3dstrct_540af788-1ffd-4696-ac9e-5268c379a14e.xml, display.d3dhal_dp2createvertexshader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,15 +101,15 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552855">Direc
 
 ## -see-also
 
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
 
 
 
 D3DDP2OP_CREATEVERTEXSHADER
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

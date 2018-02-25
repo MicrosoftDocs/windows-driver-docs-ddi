@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8b8c7f61-c22a-421f-999f-291999bb243f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.getlinkpositionregister, GetLinkPositionRegister callback function [Audio Devices], GetLinkPositionRegister, PGET_LINK_POSITION_REGISTER, PGET_LINK_POSITION_REGISTER, hdaudio/GetLinkPositionRegister, aud-prop2_715e978e-6396-479a-a953-6d17016306c4.xml
+ms.keywords: GetLinkPositionRegister, GetLinkPositionRegister callback function [Audio Devices], PGET_LINK_POSITION_REGISTER, aud-prop2_715e978e-6396-479a-a953-6d17016306c4.xml, audio.getlinkpositionregister, hdaudio/GetLinkPositionRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,19 +144,19 @@ For more information, see <a href="https://msdn.microsoft.com/6764affc-a4f0-4568
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 

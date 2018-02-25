@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3ea9a473-606d-4021-89af-5f895020d054
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ks/KsDispatchSpecificProperty, ksfunc_b12751b9-b486-4b57-809b-1f3daa8a1c30.xml, stream.ksdispatchspecificproperty, KsDispatchSpecificProperty, KsDispatchSpecificProperty function [Streaming Media Devices]
+ms.keywords: ",  , D, K, KsDispatchSpecificProperty, KsDispatchSpecificProperty function [Streaming Media Devices], P, S, a, c, e, f, h, i, ks/KsDispatchSpecificProperty, ksfunc_b12751b9-b486-4b57-809b-1f3daa8a1c30.xml, o, p, r, s, stream.ksdispatchspecificproperty, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

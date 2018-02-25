@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f5730d3-6e6c-490f-b2e5-e2d3615b4c3a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisFPauseComplete, NdisFPauseComplete function [Network Drivers Starting with Windows Vista], NdisFPauseComplete, netvista.ndisfpausecomplete, filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml
+ms.keywords: ",  , C, F, N, NdisFPauseComplete, NdisFPauseComplete function [Network Drivers Starting with Windows Vista], P, a, d, e, filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml, i, l, m, ndis/NdisFPauseComplete, netvista.ndisfpausecomplete, o, p, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

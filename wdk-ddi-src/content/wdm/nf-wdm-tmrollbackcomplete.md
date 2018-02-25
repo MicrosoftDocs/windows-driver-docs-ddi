@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 626bae87-8e5c-4d2a-8942-bddb2f6baa6b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/TmRollbackComplete, ktm_ref_57ef03c4-5d49-4871-a1ef-c6083c9680a8.xml, TmRollbackComplete, kernel.tmrollbackcomplete, TmRollbackComplete routine [Kernel-Mode Driver Architecture]
+ms.keywords: ",  , C, R, T, TmRollbackComplete, TmRollbackComplete routine [Kernel-Mode Driver Architecture], a, b, c, e, k, kernel.tmrollbackcomplete, ktm_ref_57ef03c4-5d49-4871-a1ef-c6083c9680a8.xml, l, m, o, p, t, wdm/TmRollbackComplete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,15 +124,11 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
 
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-zwrollbackcomplete.md">ZwRollbackComplete</a>
 
 
 
@@ -144,7 +140,11 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
-<a href="..\wdm\nf-wdm-zwrollbackcomplete.md">ZwRollbackComplete</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 

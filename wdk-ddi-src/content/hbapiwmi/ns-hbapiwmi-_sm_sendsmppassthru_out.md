@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb173171-3990-405e-b740-8c1a0c915165
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSM_SendSMPPassThru_OUT structure pointer [Storage Devices], hbapiwmi/SM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT, structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml, _SM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT structure [Storage Devices], hbapiwmi/PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT, storage.sm_sendsmppassthru_out
+ms.keywords: ",  , *, *PSM_SendSMPPassThru_OUT, ,, M, O, P, PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT structure pointer [Storage Devices], S, SM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT structure [Storage Devices], T, U, _, _SM_SendSMPPassThru_OUT, a, d, e, h, hbapiwmi/PSM_SendSMPPassThru_OUT, hbapiwmi/SM_SendSMPPassThru_OUT, n, r, s, storage.sm_sendsmppassthru_out, structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

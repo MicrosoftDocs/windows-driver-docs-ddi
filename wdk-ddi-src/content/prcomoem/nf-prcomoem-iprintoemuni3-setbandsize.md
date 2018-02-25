@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e75fdfa5-2b25-4d89-b3ef-40cb445f874f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IPrintOemUni3, BMF_8BPP, BMF_8RLE, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml, SetBandSize method [Print Devices], IPrintOemUni3 interface, SetBandSize, BMF_32BPP, BMF_1BPP, SetBandSize method [Print Devices], IPrintOemUni3::SetBandSize, print.iprintoemuni3_setbandsize, prcomoem/IPrintOemUni3::SetBandSize, IPrintOemUni3 interface [Print Devices], SetBandSize method, BMF_4BPP, BMF_16BPP, BMF_24BPP, BMF_4RLE
+ms.keywords: ",  , ,, ., 3, :, B, BMF_16BPP, BMF_1BPP, BMF_24BPP, BMF_32BPP, BMF_4BPP, BMF_4RLE, BMF_8BPP, BMF_8RLE, I, IPrintOemUni3, IPrintOemUni3 interface [Print Devices], SetBandSize method, IPrintOemUni3::SetBandSize, O, P, S, SetBandSize method [Print Devices], SetBandSize method [Print Devices], IPrintOemUni3 interface, SetBandSize,IPrintOemUni3.SetBandSize, U, a, d, e, i, m, n, prcomoem/IPrintOemUni3::SetBandSize, print.iprintoemuni3_setbandsize, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml, r, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

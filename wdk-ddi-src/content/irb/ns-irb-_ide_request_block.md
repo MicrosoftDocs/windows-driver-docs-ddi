@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9e112984-0a7e-4bb9-a10f-b50ab67ce4f3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IDE_REQUEST_BLOCK structure [Storage Devices], structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], _IDE_REQUEST_BLOCK, *PIDE_REQUEST_BLOCK, irb/PIDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK, storage.ide_request_block, irb/IDE_REQUEST_BLOCK
+ms.keywords: ",  , *, *PIDE_REQUEST_BLOCK, ,, B, C, D, E, I, IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK structure [Storage Devices], K, L, O, P, PIDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], Q, R, S, T, U, _, _IDE_REQUEST_BLOCK, irb/IDE_REQUEST_BLOCK, irb/PIDE_REQUEST_BLOCK, storage.ide_request_block, structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -524,16 +524,12 @@ Provides a means of accessing members <b>IdeTaskFile</b>, <b>PowerChange</b>, an
 
 
 
-The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> but with characteristics more suitable for managing devices on an IDE bus.
+The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> but with characteristics more suitable for managing devices on an IDE bus.
 
 
 
 
 ## -see-also
-
-<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaportDeviceBusy</a>
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a>
 
@@ -543,7 +539,11 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href=
 
 
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaportDeviceBusy</a>
 
 
 

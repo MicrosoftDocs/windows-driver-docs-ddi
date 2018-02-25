@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 4FA3F175-52E4-472D-A9B3-B3B4B37E1701
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_endpoint_set_characteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], EvtUcxEndpointSetCharacteristic, EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, ucxendpoint/EvtUcxEndpointSetCharacteristic
+ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

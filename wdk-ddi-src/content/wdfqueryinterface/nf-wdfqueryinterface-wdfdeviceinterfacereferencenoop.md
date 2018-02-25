@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9bb18fd3-e803-4f51-822e-88c06d3385cc
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdeviceinterfacereferencenoop, WdfDeviceInterfaceReferenceNoOp, kmdf.wdfdeviceinterfacereferencenoop, wdfqueryinterface/WdfDeviceInterfaceReferenceNoOp, DFDeviceObjectDriverDefIntRef_8acb0e5a-ff60-4779-ae97-c6a3c0214365.xml, WdfDeviceInterfaceReferenceNoOp method
+ms.keywords: ",  , D, DFDeviceObjectDriverDefIntRef_8acb0e5a-ff60-4779-ae97-c6a3c0214365.xml, I, N, O, R, W, WdfDeviceInterfaceReferenceNoOp, WdfDeviceInterfaceReferenceNoOp method, a, c, d, e, f, i, kmdf.wdfdeviceinterfacereferencenoop, n, o, p, r, t, v, wdf.wdfdeviceinterfacereferencenoop, wdfqueryinterface/WdfDeviceInterfaceReferenceNoOp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

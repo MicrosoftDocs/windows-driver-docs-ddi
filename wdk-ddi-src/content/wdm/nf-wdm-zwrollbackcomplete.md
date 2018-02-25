@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4b6d6791-6c13-49ee-a588-a0ed514279b2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwRollbackComplete routine [Kernel-Mode Driver Architecture], wdm/NtRollbackComplete, ktm_ref_0e759f02-d2c1-4759-a5bc-3c3ceca8186c.xml, wdm/ZwRollbackComplete, ZwRollbackComplete, NtRollbackComplete, kernel.zwrollbackcomplete
+ms.keywords: ",  , C, NtRollbackComplete, R, Z, ZwRollbackComplete, ZwRollbackComplete routine [Kernel-Mode Driver Architecture], a, b, c, e, k, kernel.zwrollbackcomplete, ktm_ref_0e759f02-d2c1-4759-a5bc-3c3ceca8186c.xml, l, m, o, p, t, w, wdm/NtRollbackComplete, wdm/ZwRollbackComplete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,6 +160,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
@@ -169,10 +173,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wdm\nf-wdm-tmrollbackcomplete.md">TmRollbackComplete</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 

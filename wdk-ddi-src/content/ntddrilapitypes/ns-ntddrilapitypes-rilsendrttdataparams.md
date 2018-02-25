@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 733b8ccc-5335-4c7e-bfc0-4618b0b3a4d8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS, ntddrilapitypes/RILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrttdataparams"
+ms.keywords: ",  , *, *LPRILSENDRTTDATAPARAMS, ,, A, D, E, I, L, M, N, P, R, RILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilsendrttdataparams, ntddrilapitypes/RILSENDRTTDATAPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

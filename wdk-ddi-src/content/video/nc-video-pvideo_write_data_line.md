@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3f860619-a479-4291-b3f3-ea4d309beee7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.writedataline, WriteDataLine callback function [Display Devices], WriteDataLine, PVIDEO_WRITE_DATA_LINE, PVIDEO_WRITE_DATA_LINE, video/WriteDataLine, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml
+ms.keywords: PVIDEO_WRITE_DATA_LINE, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml, WriteDataLine, WriteDataLine callback function [Display Devices], display.writedataline, video/WriteDataLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -102,11 +102,7 @@ None
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
-
-
-
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
 
 
 
@@ -118,11 +114,15 @@ None
 
 
 
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
 
 

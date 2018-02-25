@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 134d224a-d472-4d74-be3e-069dbb46a65c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvUnLockWiaDevice method, image.iwiaminidrv_drvunlockwiadevice, drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice, drvUnLockWiaDevice, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, IWiaMiniDrv::drvUnLockWiaDevice
+ms.keywords: ",  , ,, ., :, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvUnLockWiaDevice method, IWiaMiniDrv::drvUnLockWiaDevice, L, M, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, U, W, a, c, d, drvUnLockWiaDevice method [Imaging Devices], drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, drvUnLockWiaDevice,IWiaMiniDrv.drvUnLockWiaDevice, e, i, image.iwiaminidrv_drvunlockwiadevice, k, n, o, r, v, wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -126,15 +126,15 @@ The minidriver's implementation of the <b>IWiaMiniDrv::drvUnLockWiaDevice</b> me
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544995">IWiaMiniDrv::drvLockWiaDevice</a>
+
+
+
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544995">IWiaMiniDrv::drvLockWiaDevice</a>
 
 
 

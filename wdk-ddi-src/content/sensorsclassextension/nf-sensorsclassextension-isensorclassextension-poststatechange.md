@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: ae3bc846-df63-4186-9554-f4600e1f2066
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PostStateChange method [Sensor Devices], ISensorClassExtension, ISensorClassExtension interface [Sensor Devices], PostStateChange method, PostStateChange, PostStateChange method [Sensor Devices], ISensorClassExtension interface, sensors.isensorclassextension_poststatechange, ISensorClassExtension::PostStateChange, sensorsclassextension/ISensorClassExtension::PostStateChange, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml
+ms.keywords: ",  , ,, ., :, C, E, I, ISensorClassExtension, ISensorClassExtension interface [Sensor Devices], PostStateChange method, ISensorClassExtension::PostStateChange, P, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices], ISensorClassExtension interface, PostStateChange,ISensorClassExtension.PostStateChange, S, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, a, e, g, h, i, l, n, o, r, s, sensors.isensorclassextension_poststatechange, sensorsclassextension/ISensorClassExtension::PostStateChange, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -185,11 +185,11 @@ The following example code demonstrates a function that posts a state-changed ev
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545589">ISensorDriver::OnClientSubscribeToEvents</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545589">ISensorDriver::OnClientSubscribeToEvents</a>
 
 
 

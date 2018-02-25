@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 91555FBA-30F5-4CED-BA0D-2F0BE40BFF9E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPD_BUFFER, PD_BUFFER structure [Network Drivers Starting with Windows Vista], _PD_BUFFER, PD_BUFFER, ndis/PD_BUFFER, ndis/PPD_BUFFER, netvista.pd_buffer, PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ",  , ,, B, D, E, F, P, PD_BUFFER, PD_BUFFER structure [Network Drivers Starting with Windows Vista], PPD_BUFFER, PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], R, U, _, _PD_BUFFER, ndis/PD_BUFFER, ndis/PPD_BUFFER, netvista.pd_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

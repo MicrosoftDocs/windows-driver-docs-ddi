@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C8E9278D-D24A-4EEC-8F68-D77C76ECCC40
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: print.iprintschemapageimageablesize_interface, IPrintSchemaPageImageableSize interface [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices], described, IPrintSchemaPageImageableSize, printerextension/IPrintSchemaPageImageableSize
+ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices], described, print.iprintschemapageimageablesize_interface, printerextension/IPrintSchemaPageImageableSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

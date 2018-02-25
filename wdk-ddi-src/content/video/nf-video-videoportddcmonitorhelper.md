@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e4bd9c7-73be-47bc-b4e7-daea7781c46b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: VideoPortDDCMonitorHelper function [Display Devices], video/VideoPortDDCMonitorHelper, VideoPort_Functions_dc0bda84-97c5-49ba-9084-04149f9be157.xml, VideoPortDDCMonitorHelper, display.videoportddcmonitorhelper
+ms.keywords: ",  , C, D, H, M, P, V, VideoPortDDCMonitorHelper, VideoPortDDCMonitorHelper function [Display Devices], VideoPort_Functions_dc0bda84-97c5-49ba-9084-04149f9be157.xml, d, display.videoportddcmonitorhelper, e, i, l, n, o, p, r, t, video/VideoPortDDCMonitorHelper"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,11 +141,7 @@ No EDID
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
-
-
-
-<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
 
 
 
@@ -157,11 +153,15 @@ No EDID
 
 
 
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
 
 
 

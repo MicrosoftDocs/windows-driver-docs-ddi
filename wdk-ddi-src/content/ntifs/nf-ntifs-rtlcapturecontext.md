@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3edd10c-ea4f-4e2d-96f2-3d1cb3804512
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlCaptureContext function [Installable File System Drivers], rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml, ifsk.rtlcapturecontext, RtlCaptureContext, ntifs/RtlCaptureContext
+ms.keywords: ",  , C, R, RtlCaptureContext, RtlCaptureContext function [Installable File System Drivers], a, e, ifsk.rtlcapturecontext, l, n, ntifs/RtlCaptureContext, o, p, r, rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

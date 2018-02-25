@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 92809162-c39e-4dbb-9ab1-a5b6535d5beb
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DHAL_DP2INDEXEDLINESTRIP structure [Display Devices], d3dstrct_ab23071d-9180-48d0-b14c-7c8005652968.xml, *LPD3DHAL_DP2INDEXEDLINESTRIP, LPD3DHAL_DP2INDEXEDLINESTRIP, D3DHAL_DP2INDEXEDLINESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDLINESTRIP, display.d3dhal_dp2indexedlinestrip, d3dhal/D3DHAL_DP2INDEXEDLINESTRIP, _D3DHAL_DP2INDEXEDLINESTRIP, LPD3DHAL_DP2INDEXEDLINESTRIP structure pointer [Display Devices]
+ms.keywords: ",  , *, *LPD3DHAL_DP2INDEXEDLINESTRIP, ,, 2, 3, A, D, D3DHAL_DP2INDEXEDLINESTRIP, D3DHAL_DP2INDEXEDLINESTRIP structure [Display Devices], E, H, I, L, LPD3DHAL_DP2INDEXEDLINESTRIP, LPD3DHAL_DP2INDEXEDLINESTRIP structure pointer [Display Devices], N, P, R, S, T, X, _, _D3DHAL_DP2INDEXEDLINESTRIP, d3dhal/D3DHAL_DP2INDEXEDLINESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDLINESTRIP, d3dstrct_ab23071d-9180-48d0-b14c-7c8005652968.xml, display.d3dhal_dp2indexedlinestrip"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,7 +97,11 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 
 
@@ -105,11 +109,7 @@ D3DDP2OP_INDEXEDLINESTRIP
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
 
 
 

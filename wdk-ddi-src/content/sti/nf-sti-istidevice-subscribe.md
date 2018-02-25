@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6266b311-6846-4615-a686-b68b00001fe7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: image.istidevice_subscribe, sti/IStiDevice::Subscribe, IStiDevice, IStiDevice interface [Imaging Devices], Subscribe method, IStiDevice::Subscribe, Subscribe method [Imaging Devices], Subscribe, Subscribe method [Imaging Devices], IStiDevice interface, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml
+ms.keywords: ",  , ,, ., :, D, I, IStiDevice, IStiDevice interface [Imaging Devices], Subscribe method, IStiDevice::Subscribe, S, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices], IStiDevice interface, Subscribe,IStiDevice.Subscribe, b, c, e, i, image.istidevice_subscribe, r, s, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,11 +106,11 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543796">IStillImage::LaunchApplicationForDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543773">IStiDevice::UnSubscribe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543796">IStillImage::LaunchApplicationForDevice</a>
 
 
 

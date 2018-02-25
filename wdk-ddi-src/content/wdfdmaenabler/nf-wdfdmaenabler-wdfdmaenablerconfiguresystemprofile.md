@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3374EBB8-F43A-4A2A-92AC-623B39F5EFA0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdmaenabler/WdfDmaEnablerConfigureSystemProfile, WdfDmaEnablerConfigureSystemProfile method, WdfDmaEnablerConfigureSystemProfile, wdf.wdfdmaenablerconfiguresystemprofile, kmdf.wdfdmaenablerconfiguresystemprofile
+ms.keywords: ",  , C, D, E, P, S, W, WdfDmaEnablerConfigureSystemProfile, WdfDmaEnablerConfigureSystemProfile method, a, b, d, e, f, g, i, kmdf.wdfdmaenablerconfiguresystemprofile, l, m, n, o, r, s, t, u, wdf.wdfdmaenablerconfiguresystemprofile, wdfdmaenabler/WdfDmaEnablerConfigureSystemProfile, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -202,19 +202,19 @@ ntStatus = WdfDmaEnablerConfigureSystemProfile(fdoExtension-&gt;DmaEnabler,
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
-
-
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
-
-
-
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
 
 
 
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+
+
+<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
 
 
 

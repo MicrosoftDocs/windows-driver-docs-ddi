@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 27816655-1FE9-44A0-81BB-59808FE6F064
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUsbDevicePlugOutAndDelete function [Buses], buses.udecxusbdeviceplugoutanddelete, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete
+ms.keywords: ",  , A, D, O, P, U, UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses], b, buses.udecxusbdeviceplugoutanddelete, c, d, e, g, i, l, n, s, t, u, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

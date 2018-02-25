@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e43de21-59e5-4368-8ea2-34fa52e99950
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.hwvidinitialize, HwVidInitialize callback function [Display Devices], HwVidInitialize, PVIDEO_HW_INITIALIZE, PVIDEO_HW_INITIALIZE, video/HwVidInitialize, VideoMiniport_Functions_7c9d848d-8129-45cc-91f0-7f66f536e7a6.xml
+ms.keywords: HwVidInitialize, HwVidInitialize callback function [Display Devices], PVIDEO_HW_INITIALIZE, VideoMiniport_Functions_7c9d848d-8129-45cc-91f0-7f66f536e7a6.xml, display.hwvidinitialize, video/HwVidInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -102,15 +102,15 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
 <a href="..\video\nc-video-pvideo_hw_reset_hw.md">HwVidResetHw</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
 
 
 

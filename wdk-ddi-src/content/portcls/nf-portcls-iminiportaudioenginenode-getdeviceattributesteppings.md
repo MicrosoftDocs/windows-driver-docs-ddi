@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7AF6C9AF-8955-4F09-A42C-097B4AD1CD3A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceAttributeSteppings method, GetDeviceAttributeSteppings, audio.iminiportaudioenginenode_getdeviceattributesteppings, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings, GetDeviceAttributeSteppings method [Audio Devices], GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface
+ms.keywords: ",  , ,, ., :, A, D, E, G, GetDeviceAttributeSteppings method [Audio Devices], GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceAttributeSteppings,IMiniportAudioEngineNode.GetDeviceAttributeSteppings, I, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceAttributeSteppings method, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, M, N, S, audio.iminiportaudioenginenode_getdeviceattributesteppings, b, c, d, e, g, i, n, o, p, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -107,11 +107,11 @@ returns an appropriate error code.
 
 
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-
-
-
 <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
 
 

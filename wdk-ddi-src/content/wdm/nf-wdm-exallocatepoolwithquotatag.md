@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1d2e4c8c-c76c-4936-80bf-005d8a393aa9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exallocatepoolwithquotatag, wdm/ExAllocatePoolWithQuotaTag, ExAllocatePoolWithQuotaTag routine [Kernel-Mode Driver Architecture], ExAllocatePoolWithQuotaTag, k102_70106c3b-0d33-4fa7-be6a-2ac42cf3cbfe.xml
+ms.keywords: ",  , A, E, ExAllocatePoolWithQuotaTag, ExAllocatePoolWithQuotaTag routine [Kernel-Mode Driver Architecture], P, Q, T, W, a, c, e, g, h, i, k102_70106c3b-0d33-4fa7-be6a-2ac42cf3cbfe.xml, kernel.exallocatepoolwithquotatag, l, o, t, u, wdm/ExAllocatePoolWithQuotaTag, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,7 +110,7 @@ If <i>NumberOfBytes</i> is PAGE_SIZE or greater, a page-aligned buffer is alloca
 
 The system associates the pool tag with the allocated memory. Programming tools, such as WinDbg, can display the pool tag associated with each allocated buffer. The value of <i>Tag</i> is normally displayed in reversed order. For example, if a caller passes 'Fred' as a <i>Tag</i>, it would appear as 'derF' if the pool is dumped or when tracking pool usage in the debugger.
 
-The allocated buffer can be freed with either <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>.
+The allocated buffer can be freed with either <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>.
 
 <div class="alert"><b>Note</b>  Do not set <i>NumberOfBytes</i> = 0. Avoid zero-length allocations because they waste pool header space and, in many cases, indicate a potential validation issue in the calling code. For this reason, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> flags such allocations as possible errors.</div>
 <div> </div>
@@ -127,7 +127,11 @@ Callers of <b>ExAllocatePoolWithQuotaTag</b> must be executing at IRQL &lt;= DIS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 
 
@@ -135,11 +139,7 @@ Callers of <b>ExAllocatePoolWithQuotaTag</b> must be executing at IRQL &lt;= DIS
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

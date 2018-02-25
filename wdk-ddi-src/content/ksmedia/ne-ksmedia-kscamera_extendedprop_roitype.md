@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 29458793-35DA-4CE4-AAD9-E1DD90C28E5C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE, stream.kscamera_extendedprop_roitype, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN
+ms.keywords: ",  , ,, A, C, D, E, I, K, KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, M, N, O, P, R, S, T, X, Y, _, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, stream.kscamera_extendedprop_roitype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

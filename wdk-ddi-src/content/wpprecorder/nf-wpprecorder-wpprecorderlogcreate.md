@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 103796C6-989F-4FE3-A8E6-4B8F5648E521
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WppRecorderLogCreate, imp_WppRecorderLogCreate, devtest.wpprecorderlogcreate, imp_WppRecorderLogCreate function [Driver Development Tools], wpprecorder/imp_WppRecorderLogCreate
+ms.keywords: ",  , C, L, R, W, WppRecorderLogCreate, a, c, d, devtest.wpprecorderlogcreate, e, g, imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], o, p, r, t, wpprecorder/imp_WppRecorderLogCreate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

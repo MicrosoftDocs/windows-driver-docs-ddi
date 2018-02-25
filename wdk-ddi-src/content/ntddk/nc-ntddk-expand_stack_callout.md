@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca9af049-f183-458c-b43f-891678a7be5e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.expandedstackcall, ExpandedStackCall routine [Kernel-Mode Driver Architecture], ExpandedStackCall, EXPAND_STACK_CALLOUT, EXPAND_STACK_CALLOUT, ntddk/ExpandedStackCall, DrvrRtns_2b43fd11-2258-4b8d-adb7-58dcc5d37897.xml
+ms.keywords: DrvrRtns_2b43fd11-2258-4b8d-adb7-58dcc5d37897.xml, EXPAND_STACK_CALLOUT, ExpandedStackCall, ExpandedStackCall routine [Kernel-Mode Driver Architecture], kernel.expandedstackcall, ntddk/ExpandedStackCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 980cd307-9048-4054-be8e-967d15862a14
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDRIVE_LAYOUT_INFORMATION, ntdddisk/PDRIVE_LAYOUT_INFORMATION, PDRIVE_LAYOUT_INFORMATION structure pointer [Storage Devices], *PDRIVE_LAYOUT_INFORMATION, storage.drive_layout_information, structs-disk_4b519d3d-0729-4390-a2e2-b5eb37738db1.xml, ntdddisk/DRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION structure [Storage Devices], _DRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION
+ms.keywords: ",  , *, *PDRIVE_LAYOUT_INFORMATION, ,, A, D, DRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION structure [Storage Devices], E, F, I, L, M, N, O, P, PDRIVE_LAYOUT_INFORMATION, PDRIVE_LAYOUT_INFORMATION structure pointer [Storage Devices], R, T, U, V, Y, _, _DRIVE_LAYOUT_INFORMATION, ntdddisk/DRIVE_LAYOUT_INFORMATION, ntdddisk/PDRIVE_LAYOUT_INFORMATION, storage.drive_layout_information, structs-disk_4b519d3d-0729-4390-a2e2-b5eb37738db1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,11 +97,11 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
-
-
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_layout.md">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
 
 
@@ -109,11 +109,11 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
 
 
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+
+
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout.md">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
 
 

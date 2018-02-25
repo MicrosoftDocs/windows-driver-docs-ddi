@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fbff721a-fdd9-4343-b9a9-92f41fb21ba2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, IDebugControl3 interface [Windows Debugging], SetNextEventIndex method, SetNextEventIndex method [Windows Debugging], debugger.setnexteventindex, dbgeng/IDebugControl3::SetNextEventIndex, IDebugControl3, IDebugControl3::SetNextEventIndex, SetNextEventIndex method [Windows Debugging], IDebugControl3 interface, SetNextEventIndex
+ms.keywords: ",  , ,, ., 3, :, C, D, E, I, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetNextEventIndex method, IDebugControl3::SetNextEventIndex, IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, N, S, SetNextEventIndex method [Windows Debugging], SetNextEventIndex method [Windows Debugging], IDebugControl3 interface, SetNextEventIndex,IDebugControl3.SetNextEventIndex, b, d, dbgeng/IDebugControl3::SetNextEventIndex, debugger.setnexteventindex, e, g, l, n, o, r, t, u, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,15 +165,15 @@ This method is only useful if the target offers a list of events.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 
 

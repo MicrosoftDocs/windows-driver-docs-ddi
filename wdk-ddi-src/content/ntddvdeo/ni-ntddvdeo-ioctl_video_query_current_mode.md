@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16ce3db9-0295-4adc-9dc3-492b711adf2e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.ioctl_video_query_current_mode, IOCTL_VIDEO_QUERY_CURRENT_MODE control code [Display Devices], IOCTL_VIDEO_QUERY_CURRENT_MODE, ntddvdeo/IOCTL_VIDEO_QUERY_CURRENT_MODE, Video_IOCTLs_18538d0f-5243-4326-850d-9fedf30e17cb.xml
+ms.keywords: IOCTL_VIDEO_QUERY_CURRENT_MODE, IOCTL_VIDEO_QUERY_CURRENT_MODE control code [Display Devices], Video_IOCTLs_18538d0f-5243-4326-850d-9fedf30e17cb.xml, display.ioctl_video_query_current_mode, ntddvdeo/IOCTL_VIDEO_QUERY_CURRENT_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -118,11 +118,11 @@ If the miniport driver successfully returns the mode data, it sets the <b>Inform
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a>
-
-
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 38779458-a561-4048-86d8-905e4e50095f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PMS_SMHBA_SCSIENTRY, hbapiwmi/PMS_SMHBA_SCSIENTRY, storage.ms_smhba_scsientry, structs-Fibre_95d0f020-6910-4764-9234-181b525abf5b.xml, hbapiwmi/MS_SMHBA_SCSIENTRY, _MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY structure [Storage Devices], PMS_SMHBA_SCSIENTRY structure pointer [Storage Devices], MS_SMHBA_SCSIENTRY
+ms.keywords: ",  , *, *PMS_SMHBA_SCSIENTRY, ,, A, B, C, E, H, I, M, MS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY structure [Storage Devices], N, P, PMS_SMHBA_SCSIENTRY, PMS_SMHBA_SCSIENTRY structure pointer [Storage Devices], R, S, T, Y, _, _MS_SMHBA_SCSIENTRY, hbapiwmi/MS_SMHBA_SCSIENTRY, hbapiwmi/PMS_SMHBA_SCSIENTRY, storage.ms_smhba_scsientry, structs-Fibre_95d0f020-6910-4764-9234-181b525abf5b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

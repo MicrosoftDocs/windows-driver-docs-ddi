@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BC8D4FB1-69F4-4FAE-BA90-7CCB57D4A6C4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: sensorsdef/MagnetometerAccuracy_Unreliable, MAGNETOMETER_ACCURACY enumeration [Sensor Devices], sensors.magnetometer_accuracy, sensorsdef/MagnetometerAccuracy_High, MagnetometerAccuracy_Approximate, MAGNETOMETER_ACCURACY, MagnetometerAccuracy_Unreliable, MagnetometerAccuracy_Unknown, sensorsdef/MAGNETOMETER_ACCURACY, sensorsdef/MagnetometerAccuracy_Approximate, sensorsdef/MagnetometerAccuracy_Unknown, MagnetometerAccuracy_High
+ms.keywords: ",  , ,, A, C, E, G, M, MAGNETOMETER_ACCURACY, MAGNETOMETER_ACCURACY enumeration [Sensor Devices], MagnetometerAccuracy_Approximate, MagnetometerAccuracy_High, MagnetometerAccuracy_Unknown, MagnetometerAccuracy_Unreliable, N, O, R, T, U, Y, _, sensors.magnetometer_accuracy, sensorsdef/MAGNETOMETER_ACCURACY, sensorsdef/MagnetometerAccuracy_Approximate, sensorsdef/MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unknown, sensorsdef/MagnetometerAccuracy_Unreliable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

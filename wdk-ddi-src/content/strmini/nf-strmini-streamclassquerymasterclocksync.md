@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db58103d-8862-4be1-bca2-9d59d392591c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: strclass-routines_32944030-bbcb-4f21-98cd-09c77ad3cd53.xml, stream.streamclassquerymasterclocksync, StreamClassQueryMasterClockSync routine [Streaming Media Devices], strmini/StreamClassQueryMasterClockSync, StreamClassQueryMasterClockSync
+ms.keywords: ",  , C, M, Q, S, StreamClassQueryMasterClockSync, StreamClassQueryMasterClockSync routine [Streaming Media Devices], a, c, e, k, l, m, n, o, r, s, strclass-routines_32944030-bbcb-4f21-98cd-09c77ad3cd53.xml, stream.streamclassquerymasterclocksync, strmini/StreamClassQueryMasterClockSync, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,6 +104,10 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 ## -see-also
 
+<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
 
 
@@ -113,10 +117,6 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 
 <a href="..\strmini\nc-strmini-phw_query_clock_routine.md">StrMiniClock</a>
-
-
-
-<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 
 

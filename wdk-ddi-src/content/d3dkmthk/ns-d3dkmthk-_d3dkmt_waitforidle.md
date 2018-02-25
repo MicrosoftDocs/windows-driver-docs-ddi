@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0f590f5f-5ffe-4d83-86b0-e8dd0bfa5b8f
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMT_WAITFORIDLE, D3DKMT_WAITFORIDLE structure [Display Devices], OpenGL_Structs_99c47b61-1104-476f-bf7e-312d7cd0ec02.xml, D3DKMT_WAITFORIDLE, _D3DKMT_WAITFORIDLE, display.d3dkmt_waitforidle
+ms.keywords: ",  , ,, 3, A, D, D3DKMT_WAITFORIDLE, D3DKMT_WAITFORIDLE structure [Display Devices], E, F, I, K, L, M, O, OpenGL_Structs_99c47b61-1104-476f-bf7e-312d7cd0ec02.xml, R, T, W, _, _D3DKMT_WAITFORIDLE, d3dkmthk/D3DKMT_WAITFORIDLE, display.d3dkmt_waitforidle"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

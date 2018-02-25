@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2552df19-424e-43ba-9c8d-431123353d4a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlsecondssince1980totime, rtlref_1896255f-11a2-445f-999a-95da533908d8.xml, RtlSecondsSince1980ToTime routine [Installable File System Drivers], RtlSecondsSince1980ToTime, ntifs/RtlSecondsSince1980ToTime
+ms.keywords: ",  , 0, 1, 8, 9, R, RtlSecondsSince1980ToTime, RtlSecondsSince1980ToTime routine [Installable File System Drivers], S, T, c, d, e, i, ifsk.rtlsecondssince1980totime, l, m, n, ntifs/RtlSecondsSince1980ToTime, o, rtlref_1896255f-11a2-445f-999a-95da533908d8.xml, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,7 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlsecondssince1970totime.md">RtlSecondsSince1970ToTime</a>
+<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
 
 
 
@@ -112,7 +108,11 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 
 
-<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
+<a href="..\ntifs\nf-ntifs-rtlsecondssince1970totime.md">RtlSecondsSince1970ToTime</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
 
 
 

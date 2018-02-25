@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eef32784-ea27-42c0-9a7a-74ce3d76665d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_sysinfo_ref_cfd2358c-a52a-43d9-a07b-c64abb3e28b1.xml, NdisGetCurrentSystemTime macro [Network Drivers Starting with Windows Vista], NdisGetCurrentSystemTime, netvista.ndisgetcurrentsystemtime, ndis/NdisGetCurrentSystemTime
+ms.keywords: ",  , C, G, N, NdisGetCurrentSystemTime, NdisGetCurrentSystemTime macro [Network Drivers Starting with Windows Vista], S, T, d, e, i, m, n, ndis/NdisGetCurrentSystemTime, ndis_sysinfo_ref_cfd2358c-a52a-43d9-a07b-c64abb3e28b1.xml, netvista.ndisgetcurrentsystemtime, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c5fcca82-ab8f-4ea9-86df-295f43fe7afa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: condis_call_manager_ref_15a94b5d-378c-46f0-9808-411d1e92218c.xml, NdisCmDispatchCallConnected, NdisCmDispatchCallConnected function [Network Drivers Starting with Windows Vista], netvista.ndiscmdispatchcallconnected, ndis/NdisCmDispatchCallConnected
+ms.keywords: ",  , C, D, N, NdisCmDispatchCallConnected, NdisCmDispatchCallConnected function [Network Drivers Starting with Windows Vista], a, c, condis_call_manager_ref_15a94b5d-378c-46f0-9808-411d1e92218c.xml, d, e, h, i, l, m, n, ndis/NdisCmDispatchCallConnected, netvista.ndiscmdispatchcallconnected, o, p, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,16 +112,17 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+   ProtocolCmIncomingCallComplete</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
    ProtocolCoReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 
 
@@ -129,8 +130,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
-   ProtocolCmIncomingCallComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fa4d523b-4af2-4a6e-aaa6-d84c829b567d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaTransactionGetDevice method, DFDmaObjectRef_eb3ef52a-cba0-4754-8dad-d113b200f949.xml, wdfdmatransaction/WdfDmaTransactionGetDevice, wdf.wdfdmatransactiongetdevice, kmdf.wdfdmatransactiongetdevice, WdfDmaTransactionGetDevice
+ms.keywords: ",  , D, DFDmaObjectRef_eb3ef52a-cba0-4754-8dad-d113b200f949.xml, G, T, W, WdfDmaTransactionGetDevice, WdfDmaTransactionGetDevice method, a, c, d, e, f, i, kmdf.wdfdmatransactiongetdevice, m, n, o, r, s, t, v, wdf.wdfdmatransactiongetdevice, wdfdmatransaction/WdfDmaTransactionGetDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 79a524cd-dec1-4ea8-a660-d9d9c644e162
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiescape, DxgkDdiEscape callback function [Display Devices], DxgkDdiEscape, DXGKDDI_ESCAPE, DXGKDDI_ESCAPE, d3dkmddi/DxgkDdiEscape, DmFunctions_41056daa-dfeb-4ba3-b453-b8d5dd94e8a3.xml
+ms.keywords: DXGKDDI_ESCAPE, DmFunctions_41056daa-dfeb-4ba3-b453-b8d5dd94e8a3.xml, DxgkDdiEscape, DxgkDdiEscape callback function [Display Devices], d3dkmddi/DxgkDdiEscape, display.dxgkddiescape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -179,15 +179,15 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
 
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a>
 
 
 

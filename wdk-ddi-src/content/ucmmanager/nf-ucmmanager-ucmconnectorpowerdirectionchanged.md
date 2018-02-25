@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D1DB20DF-C0FD-4215-8227-CBBB18AF8BE3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcmConnectorPowerDirectionChanged, buses.ucmconnectorpowerdirectionchanged, ucmmanager/UcmConnectorPowerDirectionChanged, UcmConnectorPowerDirectionChanged method [Buses]
+ms.keywords: ",  , C, D, P, U, UcmConnectorPowerDirectionChanged, UcmConnectorPowerDirectionChanged method [Buses], a, buses.ucmconnectorpowerdirectionchanged, c, d, e, g, h, i, m, n, o, r, t, ucmmanager/UcmConnectorPowerDirectionChanged, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

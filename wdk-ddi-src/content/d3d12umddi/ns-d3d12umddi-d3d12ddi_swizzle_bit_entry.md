@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B7FF7AA2-39B2-4D9E-8DDC-0A39FFF49F37
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3d12umddi/D3D12DDI_SWIZZLE_BIT_ENTRY, D3D12DDI_SWIZZLE_BIT_ENTRY, D3D12DDI_SWIZZLE_BIT_ENTRY structure [Display Devices], display.d3d12ddi_swizzle_bit_entry
+ms.keywords: ",  , ,, 1, 2, 3, B, D, D3D12DDI_SWIZZLE_BIT_ENTRY, D3D12DDI_SWIZZLE_BIT_ENTRY structure [Display Devices], E, I, L, N, R, S, T, W, Y, Z, _, d3d12umddi/D3D12DDI_SWIZZLE_BIT_ENTRY, display.d3d12ddi_swizzle_bit_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

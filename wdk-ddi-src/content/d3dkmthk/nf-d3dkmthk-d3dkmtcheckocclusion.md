@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce889a72-5f42-4bcf-aa15-6ec9b0423781
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: d3dkmthk/D3DKMTCheckOcclusion, D3DKMTCheckOcclusion function [Display Devices], D3DKMTCheckOcclusion, OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, display.d3dkmtcheckocclusion
+ms.keywords: ",  , 3, C, D, D3DKMTCheckOcclusion, D3DKMTCheckOcclusion function [Display Devices], K, M, O, OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, T, c, d3dkmthk/D3DKMTCheckOcclusion, display.d3dkmtcheckocclusion, e, h, i, k, l, n, o, s, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

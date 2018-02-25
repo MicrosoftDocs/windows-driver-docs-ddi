@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6760c893-0574-4fb1-b714-d506ebbd0872
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: NewStream, NewStream method [Audio Devices], IMiniportMidi interface, audio.iminiportmidi_newstream, NewStream method [Audio Devices], portcls/IMiniportMidi::NewStream, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, IMiniportMidi, IMiniportMidi interface [Audio Devices], NewStream method, IMiniportMidi::NewStream
+ms.keywords: ",  , ,, ., :, I, IMiniportMidi, IMiniportMidi interface [Audio Devices], NewStream method, IMiniportMidi::NewStream, M, N, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportMidi interface, NewStream,IMiniportMidi.NewStream, S, a, audio.iminiportmidi_newstream, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, d, e, i, m, n, o, p, portcls/IMiniportMidi::NewStream, r, t, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -130,15 +130,7 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
 <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
@@ -146,7 +138,15 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 
 
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 

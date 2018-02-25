@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c055598-5f07-46e1-830d-1df9a459f742
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.dxgkddiopmgetcertificate, DxgkDdiOPMGetCertificate callback function [Display Devices], DxgkDdiOPMGetCertificate, DXGKDDI_OPM_GET_CERTIFICATE, DXGKDDI_OPM_GET_CERTIFICATE, dispmprt/DxgkDdiOPMGetCertificate, Dm_Opm_functions_80d478db-b192-4d86-8938-c105bcc8a677.xml
+ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE, Dm_Opm_functions_80d478db-b192-4d86-8938-c105bcc8a677.xml, DxgkDdiOPMGetCertificate, DxgkDdiOPMGetCertificate callback function [Display Devices], display.dxgkddiopmgetcertificate, dispmprt/DxgkDdiOPMGetCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -180,7 +180,7 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
 
 
 
@@ -188,7 +188,7 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

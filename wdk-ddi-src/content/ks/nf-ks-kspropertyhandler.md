@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: af94f36f-6e1a-4ac5-be6d-64a9a8dade9e
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: KsPropertyHandler, ks/KsPropertyHandler, KsPropertyHandler function [Streaming Media Devices], stream.kspropertyhandler, ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml
+ms.keywords: ",  , H, K, KsPropertyHandler, KsPropertyHandler function [Streaming Media Devices], P, a, d, e, ks/KsPropertyHandler, ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, l, n, o, p, r, s, stream.kspropertyhandler, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

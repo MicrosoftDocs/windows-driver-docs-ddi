@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8642d0b8-ebc8-4053-b35e-3a81108a2f7f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorfindadapter, HwStorFindAdapter routine [Storage Devices], HwStorFindAdapter, HW_FIND_ADAPTER, HW_FIND_ADAPTER, storport/HwStorFindAdapter, stormini_844ef988-84c8-4f93-b732-eb0a2e8d611a.xml
+ms.keywords: HW_FIND_ADAPTER, HwStorFindAdapter, HwStorFindAdapter routine [Storage Devices], storage.hwstorfindadapter, stormini_844ef988-84c8-4f93-b732-eb0a2e8d611a.xml, storport/HwStorFindAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -98,7 +98,7 @@ Supplies a <b>NULL</b>-terminated string with context information about the driv
 
 ### -param ConfigInfo [in, out]
 
-Supplies an initialized <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure that the miniport driver uses during initialization.
+Supplies an initialized <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure that the miniport driver uses during initialization.
 
 
 ### -param Reserved3 [in]
@@ -124,7 +124,7 @@ Reserved for system use.
 </dl>
 </td>
 <td width="60%">
-Indicates that a supported HBA was found and that the HBA-relevant configuration information was successfully determined and set in the <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure.
+Indicates that a supported HBA was found and that the HBA-relevant configuration information was successfully determined and set in the <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ Indicates that no supported HBA was found for the supplied configuration informa
 
 Because the Storport driver supports only Plug and Play (PnP) devices, the <i>HwContext</i> and <i>BusInformation</i> parameters to <b>HwStorFindAdapter</b> are not supplied to non-virtual miniport drivers.
 
-<b>HwStorFindAdapter</b> must set the <b>MaximumTransferLength</b> and <b>NumberOfPhysicalBreaks</b> fields in the <i>ConfigInfo</i> structure. Other than these fields, the <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure will always fully specify all adapter resources that are required to start the adapter. 
+<b>HwStorFindAdapter</b> must set the <b>MaximumTransferLength</b> and <b>NumberOfPhysicalBreaks</b> fields in the <i>ConfigInfo</i> structure. Other than these fields, the <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure will always fully specify all adapter resources that are required to start the adapter. 
 
 The name <b>HwStorFindAdapter</b> is just a placeholder. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
@@ -250,15 +250,15 @@ The <b>HW_FIND_ADAPTER</b> function type is defined in the Storport.h header fil
 
 
 
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
+
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 

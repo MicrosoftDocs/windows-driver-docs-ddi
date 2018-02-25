@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a29f2ff6-1c15-4313-b3a5-73fb8d40d2d7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.riluiccfiles, ntddrilapitypes/RILUICCFILES, RILUICCFILES structure [Network Drivers Starting with Windows Vista], *LPRILUICCFILES, RILUICCFILES
+ms.keywords: ",  , *, *LPRILUICCFILES, ,, C, E, F, I, L, P, R, RILUICCFILES, RILUICCFILES structure [Network Drivers Starting with Windows Vista], S, U, netvista.riluiccfiles, ntddrilapitypes/RILUICCFILES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

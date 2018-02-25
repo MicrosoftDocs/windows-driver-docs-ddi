@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38d0a655-265b-46e0-8af3-de6757025588
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: D3DKMDT_VIDEO_SIGNAL_INFO, DmStructs_10882170-8ccd-481d-bb36-b0a1f706e395.xml, display.d3dkmdt_video_signal_info, _D3DKMDT_VIDEO_SIGNAL_INFO, D3DKMDT_VIDEO_SIGNAL_INFO structure [Display Devices], d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO
+ms.keywords: ",  , ,, 3, A, D, D3DKMDT_VIDEO_SIGNAL_INFO, D3DKMDT_VIDEO_SIGNAL_INFO structure [Display Devices], DmStructs_10882170-8ccd-481d-bb36-b0a1f706e395.xml, E, F, G, I, K, L, M, N, O, S, T, V, _, _D3DKMDT_VIDEO_SIGNAL_INFO, d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO, display.d3dkmdt_video_signal_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

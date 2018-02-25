@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B3E395C3-C642-4A5E-9005-88323A80F90E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT structure [Network Drivers Starting with Windows Vista], windot11/DOT11_CHANNEL_HINT, netvista.dot11_channel_hint, PDOT11_CHANNEL_HINT
+ms.keywords: ",  , *, *PDOT11_CHANNEL_HINT, ,, 1, A, C, D, DOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT structure [Network Drivers Starting with Windows Vista], E, H, I, L, N, O, P, PDOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT structure pointer [Network Drivers Starting with Windows Vista], T, _, netvista.dot11_channel_hint, windot11/DOT11_CHANNEL_HINT, windot11/PDOT11_CHANNEL_HINT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

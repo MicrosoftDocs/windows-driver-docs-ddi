@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d05455d-32ea-4f88-8752-7f5fe40b8b29
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], PBDA_PIN_PAIRING, bdasup/BDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, BDA_PIN_PAIRING, _BDA_PIN_PAIRING, stream.bda_pin_pairing, BDA_PIN_PAIRING structure [Streaming Media Devices], *PBDA_PIN_PAIRING
+ms.keywords: ",  , *, *PBDA_PIN_PAIRING, ,, A, B, BDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices], D, G, I, N, P, PBDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], R, _, _BDA_PIN_PAIRING, bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, bdasup/BDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, stream.bda_pin_pairing"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,10 +116,6 @@ Array of joint values. The value given to a joint corresponds to the index of an
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
-
-
-
 <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
 
 
@@ -129,6 +125,10 @@ Array of joint values. The value given to a joint corresponds to the index of an
 
 
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+
+
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 
 

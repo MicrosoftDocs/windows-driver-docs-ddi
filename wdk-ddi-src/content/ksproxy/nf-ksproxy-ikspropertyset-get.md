@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, Get method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_get, IKsPropertySet, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, Get method [Streaming Media Devices], Get, IKsPropertySet interface [Streaming Media Devices], Get method
+ms.keywords: ",  , ,, ., :, G, Get method [Streaming Media Devices], Get method [Streaming Media Devices], IKsPropertySet interface, Get,IKsPropertySet.Get, I, IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], Get method, IKsPropertySet::Get, K, P, S, e, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, o, p, r, s, stream.ikspropertyset_get, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 57aef4ed-2ece-4af3-b1ca-e4fe5a306f82
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxpReleasePrefixTableLock, ifsk.rxpreleaseprefixtablelock, prefix/RxpReleasePrefixTableLock, RxpReleasePrefixTableLock function [Installable File System Drivers], rxref_34f5b33a-efeb-42a0-8e57-6c32c262319a.xml
+ms.keywords: ",  , L, P, R, RxpReleasePrefixTableLock, RxpReleasePrefixTableLock function [Installable File System Drivers], T, a, b, c, e, f, i, ifsk.rxpreleaseprefixtablelock, k, l, o, p, prefix/RxpReleasePrefixTableLock, r, rxref_34f5b33a-efeb-42a0-8e57-6c32c262319a.xml, s, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,7 +112,11 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 
 
@@ -120,11 +124,11 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
 
 
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
+<a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
 
 
 
@@ -132,11 +136,7 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
-
-
-
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
 
 
 

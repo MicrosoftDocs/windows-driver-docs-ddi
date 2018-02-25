@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E3216F62-5506-4DA2-AD89-B2406D3E97C0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UDECX_WDF_DEVICE_RESET_ACTION, _UDECX_WDF_DEVICE_RESET_ACTION, UdecxWdfDeviceResetActionResetWdfDevice, udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION, UdecxWdfDeviceResetActionResetEachUsbDevice, UDECX_WDF_DEVICE_RESET_ACTION enumeration [Buses], udecxwdfdevice/UdecxWdfDeviceResetActionResetEachUsbDevice, udecxwdfdevice/UdecxWdfDeviceResetActionResetWdfDevice, buses.udecx_wdf_device_reset_action, *PUDECX_WDF_DEVICE_RESET_ACTION
+ms.keywords: ",  , *, *PUDECX_WDF_DEVICE_RESET_ACTION, ,, A, C, D, E, F, I, N, O, P, R, S, T, U, UDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION enumeration [Buses], UdecxWdfDeviceResetActionResetEachUsbDevice, UdecxWdfDeviceResetActionResetWdfDevice, V, W, X, _, _UDECX_WDF_DEVICE_RESET_ACTION, buses.udecx_wdf_device_reset_action, udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION, udecxwdfdevice/UdecxWdfDeviceResetActionResetEachUsbDevice, udecxwdfdevice/UdecxWdfDeviceResetActionResetWdfDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

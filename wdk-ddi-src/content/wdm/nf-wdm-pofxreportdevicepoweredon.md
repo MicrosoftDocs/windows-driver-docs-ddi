@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3138F5D7-CF7E-47B4-817C-AFF00C310AD5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], PoFxReportDevicePoweredOn, kernel.pofxreportdevicepoweredon
+ms.keywords: ",  , D, F, O, P, PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], R, c, d, e, i, kernel.pofxreportdevicepoweredon, n, o, p, r, t, v, w, wdm/PoFxReportDevicePoweredOn, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,7 +105,7 @@ On entry to <b>PoFxReportDevicePoweredOn</b>, the device might be in an uninitia
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
 
 
@@ -113,7 +113,7 @@ On entry to <b>PoFxReportDevicePoweredOn</b>, the device might be in an uninitia
 
 
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 

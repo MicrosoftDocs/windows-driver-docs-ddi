@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7E5E26A-B477-453C-AAFC-9B3572F4FC72
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hwstorstatechange, HwStorStateChange routine [Storage Devices], HwStorStateChange, HW_STATE_CHANGE, HW_STATE_CHANGE, storport/HwStorStateChange
+ms.keywords: HW_STATE_CHANGE, HwStorStateChange, HwStorStateChange routine [Storage Devices], storage.hwstorstatechange, storport/HwStorStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -90,7 +90,7 @@ The type of the address in <i>Address</i>.
 
 ### -param Address [in]
 
-A pointer to a <a href="..\minitape\ns-minitape-_stor_address.md">STOR_ADDRESS</a> structure for the entity whose state change was processed.
+A pointer to a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure for the entity whose state change was processed.
 
 
 ### -param Status [in]
@@ -151,7 +151,7 @@ HW_STATE_CHANGE (
 
 
 
-<a href="..\minitape\ns-minitape-_stor_address.md">STOR_ADDRESS</a>
+<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
 
 
 

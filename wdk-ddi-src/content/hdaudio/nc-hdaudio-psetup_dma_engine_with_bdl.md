@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2760579b-9922-4709-a049-a73f3abd5043
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: audio.setupdmaenginewithbdl, SetupDmaEngineWithBdl callback function [Audio Devices], SetupDmaEngineWithBdl, PSETUP_DMA_ENGINE_WITH_BDL, PSETUP_DMA_ENGINE_WITH_BDL, hdaudio/SetupDmaEngineWithBdl, aud-prop2_7d264dff-4f47-4a5a-a587-636c57a12a9d.xml
+ms.keywords: PSETUP_DMA_ENGINE_WITH_BDL, SetupDmaEngineWithBdl, SetupDmaEngineWithBdl callback function [Audio Devices], aud-prop2_7d264dff-4f47-4a5a-a587-636c57a12a9d.xml, audio.setupdmaenginewithbdl, hdaudio/SetupDmaEngineWithBdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -330,19 +330,7 @@ The caller must allocate the buffer memory and BDL from the nonpaged pool.
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
 
 
@@ -350,11 +338,23 @@ The caller must allocate the buffer memory and BDL from the nonpaged pool.
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
 
 
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 069defee-6295-4492-b0bb-135c476c79aa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml, StorPortReadRegisterBufferUlong, storage.storportreadregisterbufferulong, StorPortReadRegisterBufferUlong routine [Storage Devices]
+ms.keywords: ",  , B, P, R, S, StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong routine [Storage Devices], U, a, d, e, f, g, i, l, n, o, r, s, storage.storportreadregisterbufferulong, storport/StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -120,7 +120,7 @@ Specifies the number of data items to be read. Each data item has a size of <b>s
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>.
+For more information, see <a href="..\storport\nf-storport-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>.
 
 
 
@@ -131,7 +131,7 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferulong
 
 
 
-<a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
+<a href="..\storport\nf-storport-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
 
 
 

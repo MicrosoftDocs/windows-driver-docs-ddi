@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d1064f97-e640-49b6-be8c-19662e5de9bb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_GetFcpTargetMapping, storage.hba_getfcptargetmapping, fibreHBA_rtns_352928a8-39d5-4989-8156-0b1025b59350.xml, HBA_GetFcpTargetMapping routine [Storage Devices], hbaapi/HBA_GetFcpTargetMapping
+ms.keywords: ",  , A, B, F, G, H, HBA_GetFcpTargetMapping, HBA_GetFcpTargetMapping routine [Storage Devices], M, T, _, a, c, e, fibreHBA_rtns_352928a8-39d5-4989-8156-0b1025b59350.xml, g, hbaapi/HBA_GetFcpTargetMapping, i, n, p, r, storage.hba_getfcptargetmapping, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,11 +135,11 @@ Returned if an unspecified error occurred that prevented the retrieval of the ta
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcptargetmapping.md">HBA_FCPTargetMapping</a>
-
-
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_fcptargetmapping.md">HBA_FCPTargetMapping</a>
 
 
 

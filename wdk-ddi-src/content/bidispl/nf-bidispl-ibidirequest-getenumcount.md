@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4c857ff4-02c1-487b-bdb0-44d62a4cf4a1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: gdi.ibidirequest_ibidirequest__getenumcount, GetEnumCount, _win32_IBidiRequest_GetEnumCount, print.ibidirequest_ibidirequest__getenumcount, IBidiRequest, IBidiRequest::GetEnumCount, bidispl/IBidiRequest::GetEnumCount, IBidiRequest interface [Print Devices], GetEnumCount method, GetEnumCount method [Print Devices], GetEnumCount method [Print Devices], IBidiRequest interface
+ms.keywords: ",  , ,, ., :, B, C, E, G, GetEnumCount method [Print Devices], GetEnumCount method [Print Devices], IBidiRequest interface, GetEnumCount,IBidiRequest.GetEnumCount, I, IBidiRequest, IBidiRequest interface [Print Devices], GetEnumCount method, IBidiRequest::GetEnumCount, R, _win32_IBidiRequest_GetEnumCount, bidispl/IBidiRequest::GetEnumCount, d, e, gdi.ibidirequest_ibidirequest__getenumcount, i, m, n, o, print.ibidirequest_ibidirequest__getenumcount, q, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -144,15 +144,15 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
 <a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 
 

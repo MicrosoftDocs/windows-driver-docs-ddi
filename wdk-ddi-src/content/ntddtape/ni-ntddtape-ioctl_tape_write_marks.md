@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cc4dabe3-4e14-4495-89b4-37f1a31ea62d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ioctl_tape_write_marks, IOCTL_TAPE_WRITE_MARKS control code [Storage Devices], IOCTL_TAPE_WRITE_MARKS, ntddtape/IOCTL_TAPE_WRITE_MARKS, k307_f1ba7d65-28cf-4a26-b385-462ca5018d88.xml
+ms.keywords: IOCTL_TAPE_WRITE_MARKS, IOCTL_TAPE_WRITE_MARKS control code [Storage Devices], k307_f1ba7d65-28cf-4a26-b385-462ca5018d88.xml, ntddtape/IOCTL_TAPE_WRITE_MARKS, storage.ioctl_tape_write_marks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -112,15 +112,15 @@ The <b>Information</b> field is set to the number of bytes written. The <b>Statu
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
+
+
+
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
 <a href="..\ntddtape\ns-ntddtape-_tape_write_marks.md">TAPE_WRITE_MARKS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0fd02d1a-e6c4-418d-b890-9b60f4f0c1ce
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilradiopresence_2, RIL_RADIOPRESENCE_PRESENT, RILRADIOPRESENCE, rilapitypes/RIL_RADIOPRESENCE_PRESENT, rilapitypes/RIL_RADIOPRESENCE_MAX, rilapitypes/RILRADIOPRESENCE, RILRADIOPRESENCE enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOPRESENCE_MAX
+ms.keywords: ",  , ,, A, C, D, E, I, L, N, O, P, R, RILRADIOPRESENCE, RILRADIOPRESENCE enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOPRESENCE_MAX, RIL_RADIOPRESENCE_PRESENT, S, netvista.rilradiopresence_2, rilapitypes/RILRADIOPRESENCE, rilapitypes/RIL_RADIOPRESENCE_MAX, rilapitypes/RIL_RADIOPRESENCE_PRESENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

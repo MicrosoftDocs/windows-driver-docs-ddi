@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 966dfc6c-6830-4872-b411-2801e3a4b753
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: display.agpreservevirtual, AgpReserveVirtual callback function [Display Devices], AgpReserveVirtual, PAGP_RESERVE_VIRTUAL, PAGP_RESERVE_VIRTUAL, videoagp/AgpReserveVirtual, VideoPort_Functions_ed4d4e19-25f2-4169-a80e-8c57c80ffd2b.xml
+ms.keywords: AgpReserveVirtual, AgpReserveVirtual callback function [Display Devices], PAGP_RESERVE_VIRTUAL, VideoPort_Functions_ed4d4e19-25f2-4169-a80e-8c57c80ffd2b.xml, display.agpreservevirtual, videoagp/AgpReserveVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -122,7 +122,7 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_vi
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
+<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
 
 
 
@@ -134,7 +134,7 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_vi
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
+<a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
 
 
 

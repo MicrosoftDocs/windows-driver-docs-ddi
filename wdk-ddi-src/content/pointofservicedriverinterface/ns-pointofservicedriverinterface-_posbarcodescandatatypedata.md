@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 1b6fcad3-a6a0-4180-8e36-ae4e597b4eb0
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: pointofservicedriverinterface/PosBarcodeScanDataTypeData, _PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata
+ms.keywords: ",  , ,, B, D, P, PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, S, T, _, _PosBarcodeScanDataTypeData, a, c, d, e, n, o, p, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

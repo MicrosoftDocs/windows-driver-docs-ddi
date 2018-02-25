@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d50bf1d1-fa36-4ab1-9173-bdaf2f5a9f28
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsimpleiostressactions2, IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], described, IWDTFSimpleIOStressActions2, wdtfinterfaces/IWDTFSimpleIOStressActions2
+ms.keywords: IWDTFSimpleIOStressActions2, IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], described, dtf.iwdtfsimpleiostressactions2, wdtfinterfaces/IWDTFSimpleIOStressActions2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B3C23236-2A35-456A-B461-AEC688ACA5B7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2customreceivetransactioninitialize, EvtSerCx2CustomReceiveTransactionInitialize callback function [Serial Ports], EvtSerCx2CustomReceiveTransactionInitialize, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE, 2/EvtSerCx2CustomReceiveTransactionInitialize
+ms.keywords: 2/EvtSerCx2CustomReceiveTransactionInitialize, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE, EvtSerCx2CustomReceiveTransactionInitialize, EvtSerCx2CustomReceiveTransactionInitialize callback function [Serial Ports], serports.evtsercx2customreceivetransactioninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -159,7 +159,7 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
 
@@ -167,15 +167,15 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactioninitializecomplete.md">SerCx2CustomReceiveTransactionInitializeComplete</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 
