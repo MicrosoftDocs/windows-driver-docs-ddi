@@ -148,15 +148,15 @@ If
 
 ## -see-also
 
+<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
+
+
+
 <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
 
 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
 
 

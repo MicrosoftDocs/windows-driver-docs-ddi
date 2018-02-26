@@ -88,7 +88,7 @@ A pointer to a GUID that identifies the interface.
 
 ### -param Interface [out]
 
-A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
+A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
 
 
 ### -param Size [in]

@@ -100,19 +100,19 @@ In all current Windows releases, the WaveCyclic port driver specifies an <i>Inte
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a>
-
-
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a>
 
 
 

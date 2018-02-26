@@ -7,7 +7,7 @@ old-location: kernel\rtlfindnextforwardrunclear.htm
 old-project: kernel
 ms.assetid: d923c1a4-4715-4632-8c75-0e48dda9a210
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, F, N, R, RtlFindNextForwardRunClear, RtlFindNextForwardRunClear routine [Kernel-Mode Driver Architecture], a, d, e, i, k109_3625ede2-f1b5-495d-9b79-2063e0daa567.xml, kernel.rtlfindnextforwardrunclear, l, n, o, r, t, u, w, wdm/RtlFindNextForwardRunClear, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,11 +109,19 @@ Callers of <b>RtlFindNextForwardRunClear</b> must be running at IRQL &lt;= APC_L
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
 
 
@@ -125,21 +133,13 @@ Callers of <b>RtlFindNextForwardRunClear</b> must be running at IRQL &lt;= APC_L
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlFindNextForwardRunClear routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlFindNextForwardRunClear routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

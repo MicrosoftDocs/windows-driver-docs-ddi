@@ -7,7 +7,7 @@ old-location: pos\posdevicecontroltype.htm
 old-project: pos
 ms.assetid: 9f5f3baa-49a0-4711-88c0-b9ff8d87ae1d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, BarcodeScannerInjectEvent, C, CheckHealth, ClaimDevice, D, GetDeviceBasics, GetProperty, Invalid, MsrAuthenticateDevice, MsrDeAuthenticateDevice, MsrRetrieveDeviceAuthentication, MsrUpdateKey, P, PosDeviceControlType, PosDeviceControlType enumeration, ReleaseDevice, ResetStatistics, RetainDevice, RetrieveStatistics, SetProperty, T, UpdateStatistics, _, _MaxDeviceControlType, _PosDeviceControlType, c, e, i, l, n, o, p, pointofservicedriverinterface/BarcodeScannerInjectEvent, pointofservicedriverinterface/CheckHealth, pointofservicedriverinterface/ClaimDevice, pointofservicedriverinterface/GetDeviceBasics, pointofservicedriverinterface/GetProperty, pointofservicedriverinterface/Invalid, pointofservicedriverinterface/MsrAuthenticateDevice, pointofservicedriverinterface/MsrDeAuthenticateDevice, pointofservicedriverinterface/MsrRetrieveDeviceAuthentication, pointofservicedriverinterface/MsrUpdateKey, pointofservicedriverinterface/PosDeviceControlType, pointofservicedriverinterface/ReleaseDevice, pointofservicedriverinterface/ResetStatistics, pointofservicedriverinterface/RetainDevice, pointofservicedriverinterface/RetrieveStatistics, pointofservicedriverinterface/SetProperty, pointofservicedriverinterface/UpdateStatistics, pointofservicedriverinterface/_MaxDeviceControlType, pos.posdevicecontroltype, r, s, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

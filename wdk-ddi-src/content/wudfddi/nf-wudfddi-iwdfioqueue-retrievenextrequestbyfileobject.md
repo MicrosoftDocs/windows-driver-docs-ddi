@@ -172,19 +172,19 @@ For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> meth
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 
 

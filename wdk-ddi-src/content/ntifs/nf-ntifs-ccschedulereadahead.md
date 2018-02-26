@@ -110,14 +110,6 @@ The <b>CcReadAhead</b> macro is a wrapper for <b>CcScheduleReadAhead</b>. It cal
 
 
 
-<a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
 
 
@@ -127,6 +119,14 @@ The <b>CcReadAhead</b> macro is a wrapper for <b>CcScheduleReadAhead</b>. It cal
 
 
 <a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
 
 
 

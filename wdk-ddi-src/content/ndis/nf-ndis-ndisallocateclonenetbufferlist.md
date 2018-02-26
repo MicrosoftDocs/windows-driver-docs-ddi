@@ -163,7 +163,16 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreeclonenetbufferlist.md">NdisFreeCloneNetBufferList</a>
 
 
 
@@ -175,16 +184,7 @@ Call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreeclonenetbufferlist.md">NdisFreeCloneNetBufferList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
 
 
 

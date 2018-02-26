@@ -579,11 +579,15 @@ Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_CAPABILITIES
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -592,12 +596,7 @@ Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_CAPABILITIES
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
-   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info.md">NDIS_RECEIVE_QUEUE_INFO</a>
 
 
 
@@ -605,7 +604,8 @@ Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_CAPABILITIES
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info.md">NDIS_RECEIVE_QUEUE_INFO</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
+   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 

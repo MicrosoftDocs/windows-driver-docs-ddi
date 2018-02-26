@@ -7,7 +7,7 @@ old-location: display\dxva_procampcontrolprop.htm
 old-project: display
 ms.assetid: ce1bae9b-1cc3-45ea-bf46-8aa7ed0362f6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DXVA_ProcAmpControlProp, DXVA_ProcAmpControlProp enumeration [Display Devices], DXVA_ProcAmp_Brightness, DXVA_ProcAmp_Contrast, DXVA_ProcAmp_Hue, DXVA_ProcAmp_None, DXVA_ProcAmp_Saturation, P, V, X, _, _DXVA_ProcAmpControlProp, c, display.dxva_procampcontrolprop, dxva/DXVA_ProcAmpControlProp, dxva/DXVA_ProcAmp_Brightness, dxva/DXVA_ProcAmp_Contrast, dxva/DXVA_ProcAmp_Hue, dxva/DXVA_ProcAmp_None, dxva/DXVA_ProcAmp_Saturation, dxvaref_0bce43bc-3bb3-4c7a-8d83-16db2a513905.xml, l, m, n, o, p, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,5 +110,5 @@ Specifies that the ProcAmp saturation property is used.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_ProcAmpControlProp enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_ProcAmpControlProp enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

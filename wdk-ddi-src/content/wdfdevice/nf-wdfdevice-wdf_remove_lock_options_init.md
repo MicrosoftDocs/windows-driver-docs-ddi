@@ -111,15 +111,15 @@ For a code example that uses <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b>, see <a href=".
 
 ## -see-also
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
 
 
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a>
+
+
+
+<a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
 
 
 

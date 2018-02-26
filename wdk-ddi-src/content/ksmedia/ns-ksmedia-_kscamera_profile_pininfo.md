@@ -7,7 +7,7 @@ old-location: stream\kscamera_profile_pininfo.htm
 old-project: stream
 ms.assetid: 09B7D454-D28C-4E3F-9FF3-0DD595CDB90A
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSCAMERA_PROFILE_PININFO, ,, A, C, E, F, I, K, KSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO structure [Streaming Media Devices], L, M, N, O, P, PKSCAMERA_PROFILE_PININFO, PKSCAMERA_PROFILE_PININFO structure pointer [Streaming Media Devices], R, S, _, _KSCAMERA_PROFILE_PININFO, ksmedia/KSCAMERA_PROFILE_PININFO, ksmedia/PKSCAMERA_PROFILE_PININFO, stream.kscamera_profile_pininfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

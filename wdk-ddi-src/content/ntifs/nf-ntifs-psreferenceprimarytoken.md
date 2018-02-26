@@ -106,11 +106,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -118,7 +114,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
 
 

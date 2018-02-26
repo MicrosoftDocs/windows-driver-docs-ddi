@@ -126,19 +126,19 @@ If the RDMA technology for the NDK provider requires the provider to map ND loca
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_local_endpoint_entry.md">NDIS_NDK_LOCAL_ENDPOINT_ENTRY</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451811">OID_NDK_LOCAL_ENDPOINTS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_local_endpoint_entry.md">NDIS_NDK_LOCAL_ENDPOINT_ENTRY</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451811">OID_NDK_LOCAL_ENDPOINTS</a>
 
 
 

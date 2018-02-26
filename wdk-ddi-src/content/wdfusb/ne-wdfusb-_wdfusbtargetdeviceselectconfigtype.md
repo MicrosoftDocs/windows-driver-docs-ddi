@@ -122,15 +122,15 @@ The <b>WdfUsbTargetDeviceSelectConfigType</b> enumeration is used to specify the
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
-
-
-
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
 
 
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
 
 

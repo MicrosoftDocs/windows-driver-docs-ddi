@@ -441,7 +441,7 @@ An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</
     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
     NdisMRegisterMiniportDriver</a> function. A miniport driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine (see also 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine (see also 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
     Miniport Drivers</a>).
 
@@ -450,12 +450,40 @@ An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_cancel_direct_oid_request.md">
-   MiniportCancelDirectOidRequest</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+   MiniportReturnNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">MiniportDirectOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
 
 
 
@@ -467,52 +495,16 @@ An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</
 
 
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
-   MiniportReturnNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-miniport_cancel_direct_oid_request.md">
+   MiniportCancelDirectOidRequest</a>
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">MiniportDirectOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -520,12 +512,20 @@ An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</
 
 
 
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
    MiniportDevicePnPEventNotify</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

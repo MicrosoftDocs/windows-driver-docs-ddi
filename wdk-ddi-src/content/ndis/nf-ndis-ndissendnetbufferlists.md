@@ -168,7 +168,7 @@ The protocol driver must allocate each NET_BUFFER_LIST structure from a pool by 
 </li>
 </ul>
 The protocol driver can preallocate NET_BUFFER_LIST structures--for example, in its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. Alternatively, the driver,
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. Alternatively, the driver,
     can allocate the structures just prior to calling 
     <b>NdisSendNetBufferLists</b> and then free them when the send operation is complete. When NDIS returns a
     NET_BUFFER_LIST structure to 
@@ -219,25 +219,11 @@ Until NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
-   NdisAllocateCloneNetBufferList</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -250,16 +236,12 @@ Until NDIS calls
 
 
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+   NdisAllocateCloneNetBufferList</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
-   NdisMSendNetBufferListsComplete</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -267,7 +249,25 @@ Until NDIS calls
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
 
 
 

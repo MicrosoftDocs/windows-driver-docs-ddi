@@ -174,11 +174,11 @@ The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> 
 
 
 
-<a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
 
 
 

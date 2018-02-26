@@ -198,6 +198,14 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
+
+
+
+<a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
@@ -206,23 +214,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
 
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="https://msdn.microsoft.com/57d964f1-03c7-4b54-9d04-1d187c96e052">Miniport Adapter Shutdown</a>
-
-
-
-<a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
 
 
 

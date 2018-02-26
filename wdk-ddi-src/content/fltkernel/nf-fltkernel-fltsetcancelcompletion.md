@@ -129,11 +129,15 @@ To cancel an I/O operation, call <a href="..\fltkernel\nf-fltkernel-fltcancelio.
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
+
+
+
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
+<a href="..\fltkernel\nf-fltkernel-fltclearcancelcompletion.md">FltClearCancelCompletion</a>
 
 
 
@@ -142,10 +146,6 @@ To cancel an I/O operation, call <a href="..\fltkernel\nf-fltkernel-fltcancelio.
 
 
 <a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclearcancelcompletion.md">FltClearCancelCompletion</a>
 
 
 

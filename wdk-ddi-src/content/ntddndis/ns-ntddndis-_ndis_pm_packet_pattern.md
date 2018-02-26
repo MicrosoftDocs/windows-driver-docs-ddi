@@ -152,11 +152,11 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569783">OID_PNP_WAKE_UP_PATTERN_LIST</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 
@@ -164,7 +164,7 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569783">OID_PNP_WAKE_UP_PATTERN_LIST</a>
 
 
 

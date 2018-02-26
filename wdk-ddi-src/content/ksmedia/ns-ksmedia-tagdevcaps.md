@@ -7,7 +7,7 @@ old-location: stream\devcaps.htm
 old-project: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PDEVCAPS, ,, A, C, D, DEVCAPS, DEVCAPS structure [Streaming Media Devices], E, P, PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], S, V, a, g, ksmedia/DEVCAPS, ksmedia/PDEVCAPS, stream.devcaps, t, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -325,17 +325,17 @@ The <b>DeviceType</b> member can be used by an application to detect the device 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
 
 
 
- 
+<a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20DEVCAPS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20DEVCAPS structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

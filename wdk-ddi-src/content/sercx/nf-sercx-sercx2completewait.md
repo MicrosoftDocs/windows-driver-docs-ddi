@@ -101,7 +101,7 @@ When an event in the new wait mask occurs, the driver calls <b>SerCx2CompleteWai
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
 
 
 
@@ -113,7 +113,7 @@ When an event in the new wait mask occurs, the driver calls <b>SerCx2CompleteWai
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
+<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
 
 
 

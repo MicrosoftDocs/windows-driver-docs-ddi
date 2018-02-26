@@ -174,6 +174,10 @@ Call the
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
@@ -183,7 +187,7 @@ Call the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
 
 
@@ -191,11 +195,7 @@ Call the
 
 
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

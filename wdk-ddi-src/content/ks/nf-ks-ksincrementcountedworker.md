@@ -7,7 +7,7 @@ old-location: stream\ksincrementcountedworker.htm
 old-project: stream
 ms.assetid: 282ffc00-ca62-4729-afe3-c13ea8069a18
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, I, K, KsIncrementCountedWorker, KsIncrementCountedWorker function [Streaming Media Devices], W, c, d, e, k, ks/KsIncrementCountedWorker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml, m, n, o, r, s, stream.ksincrementcountedworker, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,17 +93,17 @@ This should be called after an addition has been made to the worker's list of ta
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdecrementcountedworker.md">KsDecrementCountedWorker</a>
-
-
-
 <a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
 
 
 
- 
+<a href="..\ks\nf-ks-ksdecrementcountedworker.md">KsDecrementCountedWorker</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsIncrementCountedWorker function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsIncrementCountedWorker function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

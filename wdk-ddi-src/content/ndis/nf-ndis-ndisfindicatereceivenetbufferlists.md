@@ -260,23 +260,11 @@ Setting the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -284,11 +272,23 @@ Setting the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the
 
 
 
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/4f6d44e9-c351-452d-aadf-505e6bb30fc2">Receiving Data in a Filter Driver</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

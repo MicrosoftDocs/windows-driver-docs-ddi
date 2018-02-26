@@ -108,7 +108,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
 
 
 
@@ -116,7 +120,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
+<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
 
 
@@ -128,15 +136,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
-
-
-
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
 
 
 

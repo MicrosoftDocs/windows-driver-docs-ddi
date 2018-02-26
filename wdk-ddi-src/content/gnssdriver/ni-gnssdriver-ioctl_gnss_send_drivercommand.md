@@ -146,6 +146,10 @@ If the GNSS driver does not support a specific command, it indicates so. Drivers
 
 ## -see-also
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
@@ -155,10 +159,6 @@ If the GNSS driver does not support a specific command, it indicates so. Drivers
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

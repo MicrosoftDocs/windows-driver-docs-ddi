@@ -103,7 +103,7 @@ Callers of
 
 
 
-<a href="..\smclib\nf-smclib-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="..\scsi\nf-scsi-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

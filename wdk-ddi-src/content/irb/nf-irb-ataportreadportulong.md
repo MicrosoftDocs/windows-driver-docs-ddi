@@ -7,7 +7,7 @@ old-location: storage\ataportreadportulong.htm
 old-project: storage
 ms.assetid: f9e5fb0a-7add-462c-9b2a-2b543f7c7649
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, AtaPortReadPortUlong, AtaPortReadPortUlong routine [Storage Devices], P, R, U, a, atartns_e2d91111-cf48-4987-82ff-055469d67dc8.xml, d, e, g, irb/AtaPortReadPortUlong, l, n, o, r, storage.ataportreadportulong, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,11 +86,11 @@ A pointer to the I/O port. The address value that is assigned to this parameter 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-
-
-
 <a href="..\irb\nf-irb-ataportreadportushort.md">AtaPortReadPortUshort</a>
+
+
+
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 
 
@@ -102,5 +102,5 @@ A pointer to the I/O port. The address value that is assigned to this parameter 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortReadPortUlong routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortReadPortUlong routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

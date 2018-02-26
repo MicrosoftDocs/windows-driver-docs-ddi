@@ -7,7 +7,7 @@ old-location: stream\kstrfasthandler.htm
 old-project: stream
 ms.assetid: 9a72cdb5-2b57-4331-9836-82653732decf
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: KStrFastHandler, KStrFastHandler routine [Streaming Media Devices], PFNKSFASTHANDLER, ks/KStrFastHandler, ksfunc_e78a76eb-b3e6-4864-bae2-49536d3a9d52.xml, stream.kstrfasthandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

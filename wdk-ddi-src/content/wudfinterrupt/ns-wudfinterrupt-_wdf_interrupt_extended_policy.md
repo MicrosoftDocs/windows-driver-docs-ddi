@@ -91,7 +91,7 @@ A <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INT
 
 ### -field TargetProcessorSetAndGroup
 
-A <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> structure that specifies a processor group and a processor affinity mask within the group, if the <i>Policy</i> parameter is set to <b>WdfIrqPolicySpecifiedProcessors</b>. The GROUP_AFFINITY structure is defined in <i>Winnt.h</i>. 
+A <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> structure that specifies a processor group and a processor affinity mask within the group, if the <i>Policy</i> parameter is set to <b>WdfIrqPolicySpecifiedProcessors</b>. The GROUP_AFFINITY structure is defined in <i>Winnt.h</i>. 
 
 
 ## -remarks
@@ -107,11 +107,11 @@ To initialize a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extend
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
-
-
-
 <a href="https://msdn.microsoft.com/6637E939-010E-4462-92CE-50C4DB867694">IWDFInterrupt::SetExtendedPolicy</a>
+
+
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
 
 
 

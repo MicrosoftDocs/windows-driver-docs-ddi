@@ -7,7 +7,7 @@ old-location: debugger\extremotedata_getushort.htm
 old-project: debugger
 ms.assetid: e5e2061f-5133-4645-8e07-659f08473a51
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, E, EngExtCpp_Ref_5429785d-2f76-434d-96c6-4fa7298aa32e.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetUshort method, ExtRemoteData::GetUshort, G, GetUshort method [Windows Debugging], GetUshort method [Windows Debugging], ExtRemoteData class, GetUshort,ExtRemoteData.GetUshort, R, U, a, debugger.extremotedata_getushort, e, h, m, o, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544044">ExtRemoteData::GetShort</a>
 
 
 
@@ -95,7 +95,7 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544044">ExtRemoteData::GetShort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 
 
@@ -103,5 +103,5 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteData.GetUshort method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteData.GetUshort method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

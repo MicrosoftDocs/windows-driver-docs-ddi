@@ -107,10 +107,6 @@ The IRP handler should not call this function. An adapter driver's IRP handler i
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
@@ -120,6 +116,10 @@ The IRP handler should not call this function. An adapter driver's IRP handler i
 
 
 <a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

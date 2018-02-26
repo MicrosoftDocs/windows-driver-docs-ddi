@@ -7,7 +7,7 @@ old-location: debugger\returninput.htm
 old-project: debugger
 ms.assetid: 1f4c63da-8583-4382-a208-8279b4fe0906
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, :, C, D, I, IDebugControl, IDebugControl interface [Windows Debugging], ReturnInput method, IDebugControl2, IDebugControl2 interface [Windows Debugging], ReturnInput method, IDebugControl2::ReturnInput, IDebugControl3, IDebugControl3 interface [Windows Debugging], ReturnInput method, IDebugControl3::ReturnInput, IDebugControl::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, R, ReturnInput method [Windows Debugging], ReturnInput method [Windows Debugging], IDebugControl interface, ReturnInput method [Windows Debugging], IDebugControl2 interface, ReturnInput method [Windows Debugging], IDebugControl3 interface, ReturnInput,IDebugControl.ReturnInput, ReturnInput,IDebugControl2.ReturnInput, ReturnInput,IDebugControl3.ReturnInput, b, dbgeng/IDebugControl2::ReturnInput, dbgeng/IDebugControl3::ReturnInput, dbgeng/IDebugControl::ReturnInput, debugger.returninput, e, g, l, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

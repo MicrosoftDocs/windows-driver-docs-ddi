@@ -122,7 +122,7 @@ The acquisition of an <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
 
 
 
@@ -130,11 +130,11 @@ The acquisition of an <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+
+
+
+<a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
 
 
 

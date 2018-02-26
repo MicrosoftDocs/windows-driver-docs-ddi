@@ -7,7 +7,7 @@ old-location: storage\stor_device_capabilities_ex.htm
 old-project: storage
 ms.assetid: 6DCD1F8A-45E3-4084-9688-AE59597D65AF
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSTOR_DEVICE_CAPABILITIES_EX, ,, A, B, C, D, E, I, L, O, P, PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], R, S, STOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], T, V, X, _, _STOR_DEVICE_CAPABILITIES_EX, storage.stor_device_capabilities_ex, storport/PSTOR_DEVICE_CAPABILITIES_EX, storport/STOR_DEVICE_CAPABILITIES_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -198,7 +198,7 @@ The eject, removal, and install characteristics for the device are set in the <b
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 
 
@@ -206,7 +206,7 @@ The eject, removal, and install characteristics for the device are set in the <b
 
 
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
 
 
 
@@ -218,5 +218,5 @@ The eject, removal, and install characteristics for the device are set in the <b
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_DEVICE_CAPABILITIES_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_DEVICE_CAPABILITIES_EX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

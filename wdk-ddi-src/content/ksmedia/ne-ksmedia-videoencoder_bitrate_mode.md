@@ -7,7 +7,7 @@ old-location: stream\videoencoder_bitrate_mode.htm
 old-project: stream
 ms.assetid: f941269b-65f3-4245-994f-0a4f6356cf88
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, B, C, ConstantBitRate, D, E, I, M, N, O, R, T, V, VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], VariableBitRateAverage, VariableBitRatePeak, _, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, ksmedia/ConstantBitRate, ksmedia/VIDEOENCODER_BITRATE_MODE, ksmedia/VariableBitRateAverage, ksmedia/VariableBitRatePeak, stream.videoencoder_bitrate_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,5 +116,5 @@ When <b>VariableBitRatePeak</b> mode is used, the <a href="https://msdn.microsof
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20VIDEOENCODER_BITRATE_MODE enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20VIDEOENCODER_BITRATE_MODE enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

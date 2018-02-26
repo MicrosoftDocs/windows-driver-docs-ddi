@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_set_mode.htm
 old-project: stream
 ms.assetid: 188F8AC8-BB1A-43C1-9933-5E03F954C2C0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IOCTL_LAMP_SET_MODE, IOCTL_LAMP_SET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_MODE, stream.ioctl_lamp_set_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

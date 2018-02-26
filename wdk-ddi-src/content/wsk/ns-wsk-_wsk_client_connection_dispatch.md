@@ -139,19 +139,7 @@ As a returned parameter when the WSK subsystem calls the WSK application's
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_send_backlog_event.md">WskSendBacklogEvent</a>
 
 
 
@@ -160,11 +148,23 @@ As a returned parameter when the WSK subsystem calls the WSK application's
 
 
 
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_disconnect_event.md">WskDisconnectEvent</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send_backlog_event.md">WskSendBacklogEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 

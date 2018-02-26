@@ -90,7 +90,7 @@ The <b>GetConfiguredSettingIndex</b> method is provided for convenience because 
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
 
 
@@ -98,7 +98,7 @@ The <b>GetConfiguredSettingIndex</b> method is provided for convenience because 
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
 

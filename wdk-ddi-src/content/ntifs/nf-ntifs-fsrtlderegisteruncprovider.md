@@ -104,11 +104,11 @@ For more information, see the following sections in the Design Guide:
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_outtypedefinition.htm
 old-project: debugger
 ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, E, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, ExtRemoteTyped::OutTypeDefinition, O, OutTypeDefinition method [Windows Debugging], OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface, OutTypeDefinition,ExtRemoteTyped.OutTypeDefinition, R, T, d, debugger.extremotetyped_outtypedefinition, e, f, i, m, n, o, p, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS"
 author: windows-driver-content
 description: Stores the value of the RECEIVE_DETECT Register. This structure is used in the IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT request.
 old-location: buses\ucmtcpci_port_controller_set_receive_detect_in_params.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 2a33613b-e3f5-47e0-b05e-0427a0fb3c58
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, ,, A, C, D, E, I, L, M, N, O, P, PUCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS structure pointer [Buses], R, S, T, U, UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS structure [Buses], V, _, _UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, buses.ucmtcpci_port_controller_set_receive_detect_in_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

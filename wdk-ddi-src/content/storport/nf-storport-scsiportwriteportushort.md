@@ -7,7 +7,7 @@ old-location: storage\scsiportwriteportushort.htm
 old-project: storage
 ms.assetid: 4b1accd8-5dbe-47d6-822e-1997a6ab5082
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , P, S, ScsiPortWritePortUshort, ScsiPortWritePortUshort routine [Storage Devices], U, W, c, e, h, i, o, r, s, scsiprt_e7e27190-3f51-4ede-9b4d-fcc437f46d17.xml, srb/ScsiPortWritePortUshort, storage.scsiportwriteportushort, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,5 +90,5 @@ Specifies the value to be written to the HBA's I/O port.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWritePortUshort routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWritePortUshort routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -85,31 +85,11 @@ For more information about reparse points and volume mount points, see the Micro
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
 
 
 
@@ -121,7 +101,27 @@ For more information about reparse points and volume mount points, see the Micro
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
 
 
 

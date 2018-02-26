@@ -7,7 +7,7 @@ old-location: stream\hw_stream_information.htm
 old-project: stream
 ms.assetid: d1163185-4cae-4f14-ae99-78795da89fb8
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PHW_STREAM_INFORMATION, ,, A, E, F, H, HW_STREAM_INFORMATION, HW_STREAM_INFORMATION structure [Streaming Media Devices], I, M, N, O, P, PHW_STREAM_INFORMATION, PHW_STREAM_INFORMATION structure pointer [Streaming Media Devices], R, S, T, W, _, _HW_STREAM_INFORMATION, strclass-struct_df196092-33e4-4b19-b45c-0986b262f2e9.xml, stream.hw_stream_information, strmini/HW_STREAM_INFORMATION, strmini/PHW_STREAM_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -190,5 +190,5 @@ Note that the class driver does not use this data to handle the <a href="https:/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_STREAM_INFORMATION structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_STREAM_INFORMATION structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

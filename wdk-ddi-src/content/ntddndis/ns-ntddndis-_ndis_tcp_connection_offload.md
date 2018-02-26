@@ -256,17 +256,12 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
    OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
 
 
 
@@ -276,6 +271,10 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -289,7 +288,8 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 
 

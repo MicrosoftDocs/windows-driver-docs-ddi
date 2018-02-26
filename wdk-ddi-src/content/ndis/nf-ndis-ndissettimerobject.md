@@ -160,7 +160,7 @@ To cancel a timer, call the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 
 
@@ -172,7 +172,7 @@ To cancel a timer, call the
 
 
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 

@@ -101,7 +101,7 @@ The <a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a> function 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a>
 
 
 
@@ -109,7 +109,7 @@ The <a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a> function 
 
 
 
-<a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

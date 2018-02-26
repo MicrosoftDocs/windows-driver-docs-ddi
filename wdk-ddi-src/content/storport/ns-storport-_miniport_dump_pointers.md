@@ -7,7 +7,7 @@ old-location: storage\miniport_dump_pointers.htm
 old-project: storage
 ms.assetid: a61da8e7-6db0-4d89-bf68-8fa74c284720
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PMINIPORT_DUMP_POINTERS, ,, D, E, I, M, MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS structure [Storage Devices], N, O, P, PMINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], R, S, T, U, _, _MINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, storport/MINIPORT_DUMP_POINTERS, storport/PMINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -196,6 +196,10 @@ Starting with Windows 8, physical minport drivers can optionally support SRB_FU
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
+
 <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
@@ -208,13 +212,9 @@ Starting with Windows 8, physical minport drivers can optionally support SRB_FU
 
 
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MINIPORT_DUMP_POINTERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MINIPORT_DUMP_POINTERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

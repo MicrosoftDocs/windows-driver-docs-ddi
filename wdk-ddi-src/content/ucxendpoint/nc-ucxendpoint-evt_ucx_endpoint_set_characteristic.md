@@ -4,10 +4,10 @@ title: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC
 author: windows-driver-content
 description: UCX invokes this callback function to set the priority on an endpoint.
 old-location: buses\evt_ucx_endpoint_set_characteristic.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 4FA3F175-52E4-472D-A9B3-B3B4B37E1701
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,5 +114,5 @@ The UCX client driver registers this callback function with the USB host control
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

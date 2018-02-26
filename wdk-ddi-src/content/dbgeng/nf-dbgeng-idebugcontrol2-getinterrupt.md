@@ -7,7 +7,7 @@ old-location: debugger\getinterrupt.htm
 old-project: debugger
 ms.assetid: 597bff1e-0bc1-4c18-9156-661a46cf8e7a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, D, G, GetInterrupt method [Windows Debugging], GetInterrupt method [Windows Debugging], IDebugControl interface, GetInterrupt method [Windows Debugging], IDebugControl2 interface, GetInterrupt method [Windows Debugging], IDebugControl3 interface, GetInterrupt,IDebugControl.GetInterrupt, GetInterrupt,IDebugControl2.GetInterrupt, I, IDebugControl, IDebugControl interface [Windows Debugging], GetInterrupt method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetInterrupt method, IDebugControl2::GetInterrupt, IDebugControl3 interface [Windows Debugging], GetInterrupt method, IDebugControl3::GetInterrupt, IDebugControl::GetInterrupt, IDebugControl_059bd637-c75b-4b52-a382-c645cb4b25b9.xml, b, dbgeng/IDebugControl2::GetInterrupt, dbgeng/IDebugControl3::GetInterrupt, dbgeng/IDebugControl::GetInterrupt, debugger.getinterrupt, e, g, l, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -145,5 +145,5 @@ This method can be called at any time and from any thread.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetInterrupt method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetInterrupt method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -176,7 +176,7 @@ hr = fxTarget-&gt;OpenFileByName(FILE_PATH,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 
 
@@ -184,7 +184,7 @@ hr = fxTarget-&gt;OpenFileByName(FILE_PATH,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 
 
 

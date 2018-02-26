@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_color_ycbcra.htm
 old-project: display
 ms.assetid: d6d8147e-8cc8-4c35-8031-bce2fa3ccd67
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_VIDEO_COLOR_YCbCrA, D3D11_1DDI_VIDEO_COLOR_YCbCrA structure [Display Devices], E, I, L, O, R, V, Y, _, b, d3d10umddi/D3D11_1DDI_VIDEO_COLOR_YCbCrA, display.d3d11_1ddi_video_color_ycbcra, r"
 ms.prod: windows-hardware
 ms.technology: windows-devices

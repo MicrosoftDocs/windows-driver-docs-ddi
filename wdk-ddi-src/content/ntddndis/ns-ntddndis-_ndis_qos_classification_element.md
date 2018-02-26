@@ -289,6 +289,18 @@ For more information on NDIS QoS traffic classes, see <a href="https://msdn.micr
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_qos_parameters.md">NDIS_QOS_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451835">OID_QOS_PARAMETERS</a>
 
 
@@ -301,19 +313,7 @@ For more information on NDIS QoS traffic classes, see <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451832">OID_QOS_OPERATIONAL_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_parameters.md">NDIS_QOS_PARAMETERS</a>
 
 
 

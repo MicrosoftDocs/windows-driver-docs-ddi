@@ -7,7 +7,7 @@ old-location: display\dxgkddidestroyprocess.htm
 old-project: display
 ms.assetid: C5117F9B-876D-4F74-B528-47698666B44B
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: DXGKDDI_DESTROYPROCESS, DxgkDdiDestroyProcess, DxgkDdiDestroyProcess callback function [Display Devices], d3dkmddi/DxgkDdiDestroyProcess, display.dxgkddidestroyprocess, dispmprt/DxgkDdiDestroyProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

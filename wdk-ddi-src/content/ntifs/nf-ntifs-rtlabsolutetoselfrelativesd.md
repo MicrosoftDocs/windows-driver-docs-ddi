@@ -139,15 +139,11 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
 
 
@@ -159,11 +155,15 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
 
 

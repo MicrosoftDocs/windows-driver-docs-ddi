@@ -137,10 +137,6 @@ The ECP context structure (as specified by the <i>EcpType</i> parameter) was not
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 
@@ -149,7 +145,7 @@ The ECP context structure (as specified by the <i>EcpType</i> parameter) was not
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
@@ -157,19 +153,23 @@ The ECP context structure (as specified by the <i>EcpType</i> parameter) was not
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 

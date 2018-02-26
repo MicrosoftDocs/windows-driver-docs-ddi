@@ -162,22 +162,22 @@ You can also use this function to remove the context association by setting the
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
-   FwpsNetBufferListRemoveContext0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext0.md">
    FwpsNetBufferListAssociateContext0</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
    FwpsNetBufferListGetTagForContext0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+   FwpsNetBufferListRemoveContext0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

@@ -173,7 +173,7 @@ Whatever size of log file is allocated, subsequent calls to
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
 
 
 
@@ -181,7 +181,7 @@ Whatever size of log file is allocated, subsequent calls to
 
 
 
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

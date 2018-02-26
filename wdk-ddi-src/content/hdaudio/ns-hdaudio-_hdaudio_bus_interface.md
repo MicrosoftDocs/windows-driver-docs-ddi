@@ -200,26 +200,18 @@ HDAUDIO_BUS_INTERFACE_BDL has three members, <a href="..\hdaudio\nc-hdaudio-pall
 </ul>
 For more information, see <a href="https://msdn.microsoft.com/e24071d3-9021-40c0-907a-91ada8a1306b">Differences Between the HD Audio DDI Versions</a>.
 
-The names and definitions of the first five members (<b>Size</b>, <b>Version</b>, <b>Context</b>, <b>InterfaceReference</b>, and <b>InterfaceDereference</b>) are the same as in the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure. The remaining members are specific to the baseline HD Audio DDI and specify function pointers to the routines in the DDI. For more information, see <a href="https://msdn.microsoft.com/78667254-62a6-41fe-af36-43dbdea63aa8">Obtaining an HDAUDIO_BUS_INTERFACE DDI Object</a>.
+The names and definitions of the first five members (<b>Size</b>, <b>Version</b>, <b>Context</b>, <b>InterfaceReference</b>, and <b>InterfaceDereference</b>) are the same as in the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure. The remaining members are specific to the baseline HD Audio DDI and specify function pointers to the routines in the DDI. For more information, see <a href="https://msdn.microsoft.com/78667254-62a6-41fe-af36-43dbdea63aa8">Obtaining an HDAUDIO_BUS_INTERFACE DDI Object</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-pget_resource_information.md">GetResourceInformation</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
@@ -235,7 +227,15 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
+<a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
 
 
@@ -247,7 +247,7 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pget_link_position_register.md">GetLinkPositionRegister</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
 
 
 
@@ -255,15 +255,15 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
+<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+<a href="..\hdaudio\nc-hdaudio-pget_link_position_register.md">GetLinkPositionRegister</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a>
 
 
 

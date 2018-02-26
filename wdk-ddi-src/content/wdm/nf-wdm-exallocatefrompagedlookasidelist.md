@@ -7,7 +7,7 @@ old-location: kernel\exallocatefrompagedlookasidelist.htm
 old-project: kernel
 ms.assetid: f0c86720-4914-47b1-abb1-151196cc2a68
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, E, ExAllocateFromPagedLookasideList, ExAllocateFromPagedLookasideList routine [Kernel-Mode Driver Architecture], F, L, P, a, c, d, e, g, i, k, k102_96e03fc6-f951-4c96-8de4-32d67e85ec02.xml, kernel.exallocatefrompagedlookasidelist, l, m, o, r, s, t, wdm/ExAllocateFromPagedLookasideList, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
+<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
 
 
@@ -113,7 +113,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
+<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
 
 
 
@@ -121,5 +121,5 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExAllocateFromPagedLookasideList routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExAllocateFromPagedLookasideList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

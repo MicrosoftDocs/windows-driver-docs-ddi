@@ -7,7 +7,7 @@ old-location: storage\iscsi_encryption_types.htm
 old-project: storage
 ms.assetid: f1c7a13b-511a-4e9d-a0e6-9fb27126b1d2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PISCSI_ENCRYPTION_TYPES, ,, C, E, I, ISCSI_ENCRYPTION_TYPES, ISCSI_ENCRYPTION_TYPES enumeration [Storage Devices], ISCSI_ENCRYPT_3DES_HMAC_SHA1, ISCSI_ENCRYPT_AES_CTR, ISCSI_ENCRYPT_NONE, N, O, P, PISCSI_ENCRYPTION_TYPES, PISCSI_ENCRYPTION_TYPES enumeration pointer [Storage Devices], R, S, T, Y, _, iscsicfg/ISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_3DES_HMAC_SHA1, iscsicfg/ISCSI_ENCRYPT_AES_CTR, iscsicfg/ISCSI_ENCRYPT_NONE, iscsicfg/PISCSI_ENCRYPTION_TYPES, storage.iscsi_encryption_types, structs-iSCSI_64fe17d0-9efb-447c-82f1-19f6d954eb1e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,5 +107,5 @@ The ISCSI_ENCRYPTION_TYPES enumeration is used with the <a href="https://msdn.mi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_ENCRYPTION_TYPES enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_ENCRYPTION_TYPES enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

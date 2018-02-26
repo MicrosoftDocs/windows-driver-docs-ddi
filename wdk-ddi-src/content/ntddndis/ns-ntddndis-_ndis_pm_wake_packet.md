@@ -143,11 +143,11 @@ The <b>NDIS_PM_WAKE_PACKET</b> structure is used in the <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
 
 
@@ -155,7 +155,7 @@ The <b>NDIS_PM_WAKE_PACKET</b> structure is used in the <a href="https://msdn.mi
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

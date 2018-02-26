@@ -7,7 +7,7 @@ old-location: stream\kspin_connect.htm
 old-project: stream
 ms.assetid: 62ce7a36-87ce-40d1-bdd4-8a4f4bc60b00
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSPIN_CONNECT, ,, C, E, I, K, KSPIN_CONNECT, KSPIN_CONNECT structure [Streaming Media Devices], N, O, P, PKSPIN_CONNECT, PKSPIN_CONNECT structure pointer [Streaming Media Devices], S, T, _, ks-struct_07642f18-c766-4649-b97a-12582aa0fffb.xml, ks/KSPIN_CONNECT, ks/PKSPIN_CONNECT, stream.kspin_connect"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,17 +111,17 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
-
-
-
 <a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPIN_CONNECT structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPIN_CONNECT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

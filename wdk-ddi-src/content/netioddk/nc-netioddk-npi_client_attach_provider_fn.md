@@ -202,7 +202,7 @@ The NMR calls a client module's
 
 ## -see-also
 
-<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
+<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
 
 
@@ -214,7 +214,7 @@ The NMR calls a client module's
 
 
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
+<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
 
 
 
@@ -223,7 +223,7 @@ The NMR calls a client module's
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
+<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 

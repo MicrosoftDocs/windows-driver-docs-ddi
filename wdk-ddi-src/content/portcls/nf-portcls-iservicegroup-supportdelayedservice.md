@@ -92,11 +92,11 @@ The <code>SupportDelayedService</code> method initializes the notification timer
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537003">IServiceGroup::RequestDelayedService</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 

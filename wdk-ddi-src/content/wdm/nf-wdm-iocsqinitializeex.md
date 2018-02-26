@@ -7,7 +7,7 @@ old-location: kernel\iocsqinitializeex.htm
 old-project: kernel
 ms.assetid: 9f6501c2-a708-4583-a821-e1b8264ff0af
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, E, I, IoCsqInitializeEx, IoCsqInitializeEx routine [Kernel-Mode Driver Architecture], a, e, i, k104_68bf2330-ba47-4896-8052-41afee2d887e.xml, kernel.iocsqinitializeex, l, n, o, q, s, t, wdm/IoCsqInitializeEx, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,42 +143,6 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550567">IO_CSQ_IRP_CONTEXT</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
-
-
-
 <a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
 
 
@@ -191,7 +155,31 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 
 
+<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
+
+
+
 <a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
 
 
 
@@ -199,9 +187,21 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550567">IO_CSQ_IRP_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCsqInitializeEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCsqInitializeEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

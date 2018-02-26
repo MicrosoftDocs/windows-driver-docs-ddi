@@ -123,7 +123,7 @@ When handling the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537136">KSJACK_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537134">KSEVENT_PINCAPS_JACKINFOCHANGE</a>
 
 
 
@@ -131,7 +131,7 @@ When handling the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537134">KSEVENT_PINCAPS_JACKINFOCHANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537136">KSJACK_DESCRIPTION</a>
 
 
 

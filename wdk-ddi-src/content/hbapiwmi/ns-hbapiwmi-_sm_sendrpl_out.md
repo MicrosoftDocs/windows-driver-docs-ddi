@@ -7,7 +7,7 @@ old-location: storage\sm_sendrpl_out.htm
 old-project: storage
 ms.assetid: c8dfc30a-81ac-4342-9996-0c04db80e5e7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSM_SendRPL_OUT, ,, L, M, O, P, PSM_SendRPL_OUT, PSM_SendRPL_OUT structure pointer [Storage Devices], R, S, SM_SendRPL_OUT, SM_SendRPL_OUT structure [Storage Devices], T, U, _, _SM_SendRPL_OUT, d, e, hbapiwmi/PSM_SendRPL_OUT, hbapiwmi/SM_SendRPL_OUT, n, storage.sm_sendrpl_out, structs-Fibre_831fc75d-cdee-4fba-9dd1-22204e814d50.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -96,7 +96,11 @@ Callers of <b>RtlSubtreeSuccessor</b> must be running at IRQL &lt;= DISPATCH_LEV
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
@@ -104,11 +108,7 @@ Callers of <b>RtlSubtreeSuccessor</b> must be running at IRQL &lt;= DISPATCH_LEV
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
 
 
 

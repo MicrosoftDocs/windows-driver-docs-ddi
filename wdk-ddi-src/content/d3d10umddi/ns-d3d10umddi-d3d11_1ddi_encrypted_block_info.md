@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_encrypted_block_info.htm
 old-project: display
 ms.assetid: 36d7fab0-e343-4236-9d13-93cc0e41721e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, B, C, D, D3D11_1DDI_ENCRYPTED_BLOCK_INFO, D3D11_1DDI_ENCRYPTED_BLOCK_INFO structure [Display Devices], E, F, I, K, L, N, O, P, R, T, Y, _, d3d10umddi/D3D11_1DDI_ENCRYPTED_BLOCK_INFO, display.d3d11_1ddi_encrypted_block_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -119,15 +119,15 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
 
 
 

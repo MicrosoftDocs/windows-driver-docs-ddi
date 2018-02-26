@@ -222,23 +222,7 @@ Until NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 
 
@@ -246,8 +230,24 @@ Until NDIS calls
 
 
 
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
    FilterSendNetBufferListsComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

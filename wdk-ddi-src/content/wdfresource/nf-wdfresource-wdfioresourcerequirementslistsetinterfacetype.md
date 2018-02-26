@@ -79,7 +79,7 @@ A handle to a framework resource-requirements-list object that represents a devi
 
 ### -param InterfaceType [in]
 
-An <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>-typed value that identifies the type of bus that the device is connected to. 
+An <a href="..\miniport\ne-miniport-_interface_type.md">INTERFACE_TYPE</a>-typed value that identifies the type of bus that the device is connected to. 
 
 
 ## -returns
@@ -133,7 +133,7 @@ Example_EvtDeviceResourceRequirementsQuery(
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
+<a href="..\miniport\ne-miniport-_interface_type.md">INTERFACE_TYPE</a>
 
 
 

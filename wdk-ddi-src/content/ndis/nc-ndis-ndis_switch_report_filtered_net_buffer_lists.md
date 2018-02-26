@@ -173,7 +173,15 @@ If the packet is being dropped due to policy based on the destination port, the 
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addservice-directive">INF AddService Directive</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -181,15 +189,7 @@ If the packet is being dropped due to policy based on the destination port, the 
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
@@ -197,7 +197,7 @@ If the packet is being dropped due to policy based on the destination port, the 
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 

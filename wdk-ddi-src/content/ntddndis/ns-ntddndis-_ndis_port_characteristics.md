@@ -333,19 +333,7 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
-
-
-
-<a href="https://msdn.microsoft.com/e65f4af5-c527-4d6d-a38c-56da006b1ef7">NDIS Ports</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_port_array.md">NDIS_PORT_ARRAY</a>
 
 
 
@@ -353,11 +341,11 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 
 
-<a href="https://msdn.microsoft.com/a77ceb1b-d4b9-4a42-aa5b-685295722fa3">Types of NDIS Ports</a>
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+<a href="https://msdn.microsoft.com/e65f4af5-c527-4d6d-a38c-56da006b1ef7">NDIS Ports</a>
 
 
 
@@ -365,7 +353,19 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_array.md">NDIS_PORT_ARRAY</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/a77ceb1b-d4b9-4a42-aa5b-685295722fa3">Types of NDIS Ports</a>
 
 
 

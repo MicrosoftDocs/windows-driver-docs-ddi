@@ -7,7 +7,7 @@ old-location: kernel\tmprepreparecomplete.htm
 old-project: kernel
 ms.assetid: 2152e174-c02e-425c-a969-83656052078b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, P, T, TmPrePrepareComplete, TmPrePrepareComplete routine [Kernel-Mode Driver Architecture], a, e, kernel.tmprepreparecomplete, ktm_ref_8ea6e6df-93c0-4b25-9bfe-3d53fbe1793f.xml, l, m, o, p, r, t, wdm/TmPrePrepareComplete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,14 +124,6 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
 
@@ -140,17 +132,25 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
-<a href="..\wdm\nf-wdm-zwprepreparecomplete.md">ZwPrePrepareComplete</a>
-
-
-
 <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-zwprepreparecomplete.md">ZwPrePrepareComplete</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TmPrePrepareComplete routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TmPrePrepareComplete routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -162,7 +162,7 @@ For more information about using lookaside lists with drivers, see <a href="http
 
 
 
-<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
+<a href="..\ntifs\nf-ntifs-fsrtldeleteextracreateparameterlookasidelist.md">FsRtlDeleteExtraCreateParameterLookasideList</a>
 
 
 
@@ -170,7 +170,7 @@ For more information about using lookaside lists with drivers, see <a href="http
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtldeleteextracreateparameterlookasidelist.md">FsRtlDeleteExtraCreateParameterLookasideList</a>
+<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
 
 
 

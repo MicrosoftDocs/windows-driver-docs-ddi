@@ -174,15 +174,7 @@ When the VC has been set up and activated, the call manager calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545392">CO_SAP</a>
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
 
 
@@ -195,7 +187,15 @@ When the VC has been set up and activated, the call manager calls
 
 
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545392">CO_SAP</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 
 
@@ -203,7 +203,7 @@ When the VC has been set up and activated, the call manager calls
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
 
 

@@ -142,6 +142,10 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
    ProtocolClRegisterSapComplete</a>
 
@@ -151,20 +155,16 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
 
 

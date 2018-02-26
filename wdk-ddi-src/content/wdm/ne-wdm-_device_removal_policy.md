@@ -7,7 +7,7 @@ old-location: kernel\device_removal_policy.htm
 old-project: kernel
 ms.assetid: 51d1f0f5-4ca1-4ea6-8561-117240551355
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDEVICE_REMOVAL_POLICY, ,, A, C, D, DEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY enumeration [Kernel-Mode Driver Architecture], E, I, L, M, O, P, PDEVICE_REMOVAL_POLICY, PDEVICE_REMOVAL_POLICY enumeration pointer [Kernel-Mode Driver Architecture], R, RemovalPolicyExpectNoRemoval, RemovalPolicyExpectOrderlyRemoval, RemovalPolicyExpectSurpriseRemoval, V, Y, _, _DEVICE_REMOVAL_POLICY, kernel.device_removal_policy, sysenum_46a08528-1177-4dd0-933f-6c4d7aa6c5b3.xml, wdm/DEVICE_REMOVAL_POLICY, wdm/PDEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectNoRemoval, wdm/RemovalPolicyExpectOrderlyRemoval, wdm/RemovalPolicyExpectSurpriseRemoval"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,5 +112,5 @@ The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_REMOVAL_POLICY enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_REMOVAL_POLICY enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

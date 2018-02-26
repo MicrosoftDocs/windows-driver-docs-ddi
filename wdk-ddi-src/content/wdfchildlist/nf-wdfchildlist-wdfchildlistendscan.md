@@ -107,7 +107,7 @@ For a code example that uses <b>WdfChildListEndScan</b>, see <a href="..\wdfchil
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistenditeration.md">WdfChildListEndIteration</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
 
 
 
@@ -115,7 +115,7 @@ For a code example that uses <b>WdfChildListEndScan</b>, see <a href="..\wdfchil
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistenditeration.md">WdfChildListEndIteration</a>
 
 
 

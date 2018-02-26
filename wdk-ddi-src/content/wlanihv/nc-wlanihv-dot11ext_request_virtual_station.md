@@ -118,12 +118,12 @@ After the operating system creates the new virtual station, the IHV Extensions D
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_release_virtual_station.md">
    Dot11ExtReleaseVirtualStation</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

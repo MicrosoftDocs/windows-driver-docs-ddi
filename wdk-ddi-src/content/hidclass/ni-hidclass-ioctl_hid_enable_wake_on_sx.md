@@ -7,7 +7,7 @@ old-location: hid\ioctl_hid_enable_wake_on_sx.htm
 old-project: hid
 ms.assetid: E06B1444-F270-48A0-A096-E0289DD4DBBA
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_HID_ENABLE_WAKE_ON_SX, IOCTL_HID_ENABLE_WAKE_ON_SX control code [Human Input Devices], hid.ioctl_hid_enable_wake_on_sx, hidclass/IOCTL_HID_ENABLE_WAKE_ON_SX
 ms.prod: windows-hardware
 ms.technology: windows-devices

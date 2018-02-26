@@ -206,11 +206,11 @@ The caller must allocate the <i>codecTransfer</i> array from the nonpaged pool.
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 

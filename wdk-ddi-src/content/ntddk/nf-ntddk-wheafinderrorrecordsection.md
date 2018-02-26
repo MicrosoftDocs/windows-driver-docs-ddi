@@ -161,11 +161,11 @@ The format of the hardware error data is dependent upon the <b>SectionType </b>m
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 
 

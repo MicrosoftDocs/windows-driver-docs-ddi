@@ -127,7 +127,7 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_DELEGATED structure i
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 
 
@@ -135,7 +135,7 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_DELEGATED structure i
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

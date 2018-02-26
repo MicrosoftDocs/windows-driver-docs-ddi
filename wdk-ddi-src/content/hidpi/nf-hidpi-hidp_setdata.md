@@ -7,7 +7,7 @@ old-location: hid\hidp_setdata.htm
 old-project: hid
 ms.assetid: 41f7c240-4e50-4d6c-82aa-902ab05bf715
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, H, HidP_SetData, HidP_SetData routine [Human Input Devices], P, S, _, a, d, e, hid.hidp_setdata, hidfunc_4b2f18db-e7a2-432d-abd6-51240a0ffc91.xml, hidpi/HidP_SetData, i, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -251,23 +251,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
-
-
-
-<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
 
 
 
@@ -275,17 +259,33 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
 
 
 
- 
+<a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_SetData routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_SetData routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

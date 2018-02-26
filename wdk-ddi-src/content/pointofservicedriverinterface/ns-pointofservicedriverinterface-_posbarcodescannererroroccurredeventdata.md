@@ -7,7 +7,7 @@ old-location: pos\posbarcodescannererroroccurredeventdata.htm
 old-project: pos
 ms.assetid: c9e18ed0-bc34-49ed-a31e-20c82d43860f
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, B, D, E, O, P, PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, S, _, _PosBarcodeScannerErrorOccurredEventData, a, c, d, e, n, o, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData, pos.posbarcodescannererroroccurredeventdata, r, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ typedef struct _PosBarcodeScannerErrorOccurredEventData {
 
 ### -field Header
 
-The <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> structure that describes the amount of memory, in bytes, of the <b>PosBarcodeScannerErrorOccurredEventData</b> structure and trailing error message and scan data.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> structure that describes the amount of memory, in bytes, of the <b>PosBarcodeScannerErrorOccurredEventData</b> structure and trailing error message and scan data.
 
 
 ### -field IsRetriable

@@ -7,7 +7,7 @@ old-location: display\dxgkvgpu_escape_type.htm
 old-project: display
 ms.assetid: F7081B59-DB24-4BFE-B1BD-3BE228804AB2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DXGKVGPU_ESCAPE_TYPE, DXGKVGPU_ESCAPE_TYPE enumeration [Display Devices], DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, E, G, K, P, S, T, U, V, X, Y, _, _DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices

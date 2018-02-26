@@ -7,7 +7,7 @@ old-location: debugger\getoutputmask.htm
 old-project: debugger
 ms.assetid: b1076b17-9175-4823-abb7-1c864670e8d5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, D, G, GetOutputMask method [Windows Debugging], GetOutputMask method [Windows Debugging], IDebugClient interface, GetOutputMask method [Windows Debugging], IDebugClient2 interface, GetOutputMask method [Windows Debugging], IDebugClient3 interface, GetOutputMask method [Windows Debugging], IDebugClient4 interface, GetOutputMask method [Windows Debugging], IDebugClient5 interface, GetOutputMask,IDebugClient.GetOutputMask, I, IDebugClient, IDebugClient interface [Windows Debugging], GetOutputMask method, IDebugClient2 interface [Windows Debugging], GetOutputMask method, IDebugClient2::GetOutputMask, IDebugClient3 interface [Windows Debugging], GetOutputMask method, IDebugClient3::GetOutputMask, IDebugClient4 interface [Windows Debugging], GetOutputMask method, IDebugClient4::GetOutputMask, IDebugClient5 interface [Windows Debugging], GetOutputMask method, IDebugClient5::GetOutputMask, IDebugClient::GetOutputMask, IDebugClient_ff2626fe-2299-4008-b655-0b7dbd46ef8b.xml, M, O, a, b, dbgeng/IDebugClient2::GetOutputMask, dbgeng/IDebugClient3::GetOutputMask, dbgeng/IDebugClient4::GetOutputMask, dbgeng/IDebugClient5::GetOutputMask, dbgeng/IDebugClient::GetOutputMask, debugger.getoutputmask, e, g, i, k, l, n, p, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,23 +115,7 @@ For an overview of output in the debugger engine, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548066">GetOtherOutputMask</a>
 
 
 
@@ -139,13 +123,29 @@ For an overview of output in the debugger engine, see <a href="https://msdn.micr
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548066">GetOtherOutputMask</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetOutputMask method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetOutputMask method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

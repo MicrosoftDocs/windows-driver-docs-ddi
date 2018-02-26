@@ -7,7 +7,7 @@ old-location: kernel\kequeryhardwarecounterconfiguration.htm
 old-project: kernel
 ms.assetid: 5ac33177-38fc-4027-95c9-c2cf9ccdaa52
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, H, K, KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], Q, a, d, e, f, g, i, k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml, kernel.kequeryhardwarecounterconfiguration, n, ntddk/KeQueryHardwareCounterConfiguration, o, r, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,17 +136,17 @@ To set the hardware counter configuration to use for thread profiling, call the 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a>
 
 
 
- 
+<a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryHardwareCounterConfiguration routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryHardwareCounterConfiguration routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

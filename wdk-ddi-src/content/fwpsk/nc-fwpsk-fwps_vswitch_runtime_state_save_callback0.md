@@ -202,19 +202,7 @@ See the <i>vSwitchRuntimeStateRestoreNotifyFn</i> (<a href="..\fwpsk\nc-fwpsk-fw
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_save_state.md">NDIS_SWITCH_NIC_SAVE_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
 
 
@@ -222,7 +210,11 @@ See the <i>vSwitchRuntimeStateRestoreNotifyFn</i> (<a href="..\fwpsk\nc-fwpsk-fw
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
 
 
 
@@ -230,11 +222,19 @@ See the <i>vSwitchRuntimeStateRestoreNotifyFn</i> (<a href="..\fwpsk\nc-fwpsk-fw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598268">OID_SWITCH_NIC_SAVE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_save_state.md">NDIS_SWITCH_NIC_SAVE_STATE</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
 
 
 

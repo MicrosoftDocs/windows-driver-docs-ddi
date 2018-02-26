@@ -7,7 +7,7 @@ old-location: display\int10_bios_arguments.htm
 old-project: display
 ms.assetid: 66fc9bd4-da47-4cd1-baf2-b536272ea28e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PINT10_BIOS_ARGUMENTS, ,, 0, 1, A, B, E, G, I, INT10_BIOS_ARGUMENTS, INT10_BIOS_ARGUMENTS structure [Display Devices], M, N, O, P, PINT10_BIOS_ARGUMENTS, PINT10_BIOS_ARGUMENTS structure pointer [Display Devices], R, S, T, U, Video_Structs_986b625a-f1b4-401e-b2db-99463c21e8f9.xml, _, _INT10_BIOS_ARGUMENTS, display.int10_bios_arguments, video/INT10_BIOS_ARGUMENTS, video/PINT10_BIOS_ARGUMENTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,5 +130,5 @@ The first seven members of the INT10_BIOS_ARGUMENTS structure are identical to t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20INT10_BIOS_ARGUMENTS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20INT10_BIOS_ARGUMENTS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

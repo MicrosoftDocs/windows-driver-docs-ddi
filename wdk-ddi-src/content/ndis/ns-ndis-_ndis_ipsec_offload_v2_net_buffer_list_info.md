@@ -226,12 +226,11 @@ To set and get the IPsec information, use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info.md">NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 
 
@@ -244,7 +243,8 @@ To set and get the IPsec information, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 

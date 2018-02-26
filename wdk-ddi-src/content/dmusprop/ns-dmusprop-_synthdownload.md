@@ -91,11 +91,11 @@ If the miniport driver makes its own copy of the DLS data, it sets the <i>Free</
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537398">KSPROPERTY_SYNTH_DLS_UNLOAD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537398">KSPROPERTY_SYNTH_DLS_UNLOAD</a>
 
 
 

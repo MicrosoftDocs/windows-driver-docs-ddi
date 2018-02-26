@@ -99,7 +99,7 @@ Additionally, SerCx2 uses these ready notifications to detect interval time-outs
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
 
 
 
@@ -107,7 +107,7 @@ Additionally, SerCx2 uses these ready notifications to detect interval time-outs
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
 
 

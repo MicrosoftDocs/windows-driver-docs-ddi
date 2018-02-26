@@ -92,7 +92,7 @@ The file object is returned with a reference.  The caller is responsible for cal
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -100,7 +100,7 @@ The file object is returned with a reference.  The caller is responsible for cal
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a>
 
 
 

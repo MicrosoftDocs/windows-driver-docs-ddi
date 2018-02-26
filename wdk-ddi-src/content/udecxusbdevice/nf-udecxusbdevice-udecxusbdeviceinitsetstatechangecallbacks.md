@@ -4,10 +4,10 @@ title: UdecxUsbDeviceInitSetStateChangeCallbacks function
 author: windows-driver-content
 description: Initializes a WDF-allocated structure with pointers to callback functions.
 old-location: buses\udecxusbdeviceinitsetstatechangecallbacks.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: A4D0B6BC-56FD-4378-A8F9-0A306D3FF22F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, D, I, S, U, UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], a, b, buses.udecxusbdeviceinitsetstatechangecallbacks, c, d, e, g, h, i, k, l, n, s, t, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,17 +95,17 @@ This function does not return a value.
 
 
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 
- 
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UdecxUsbDeviceInitSetStateChangeCallbacks function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UdecxUsbDeviceInitSetStateChangeCallbacks function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

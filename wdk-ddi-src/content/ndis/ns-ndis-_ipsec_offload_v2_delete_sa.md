@@ -110,17 +110,17 @@ The IPSEC_OFFLOAD_V2_DELETE_SA structure defines a handle for a SA that should b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 

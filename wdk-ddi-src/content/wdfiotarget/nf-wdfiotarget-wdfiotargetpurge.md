@@ -171,7 +171,7 @@ MyEvtDeviceD0Exit(
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_purge_io_action.md">WDF_IO_TARGET_PURGE_IO_ACTION</a>
 
 
 
@@ -179,7 +179,7 @@ MyEvtDeviceD0Exit(
 
 
 
-<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_purge_io_action.md">WDF_IO_TARGET_PURGE_IO_ACTION</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 

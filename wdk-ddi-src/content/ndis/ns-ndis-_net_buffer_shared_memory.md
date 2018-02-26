@@ -125,6 +125,14 @@ Use the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/net-buffer-shared-mem-next-segment">
    NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</a>
 
@@ -134,19 +142,11 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>
 
 
 

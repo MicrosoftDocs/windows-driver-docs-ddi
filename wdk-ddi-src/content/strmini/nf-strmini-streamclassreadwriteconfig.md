@@ -7,7 +7,7 @@ old-location: stream\streamclassreadwriteconfig.htm
 old-project: stream
 ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, R, S, StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices], W, a, d, e, f, g, i, l, m, n, o, r, s, strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, stream.streamclassreadwriteconfig, strmini/StreamClassReadWriteConfig, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

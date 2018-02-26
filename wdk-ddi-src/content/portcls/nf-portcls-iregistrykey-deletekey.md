@@ -92,11 +92,15 @@ A caller deletes an <b>IRegistryKey</b> object's registry key by calling the <co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536970">IRegistryKey::NewSubKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 
 
@@ -109,10 +113,6 @@ A caller deletes an <b>IRegistryKey</b> object's registry key by calling the <co
 
 
 <a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
 
 
 

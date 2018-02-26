@@ -168,11 +168,7 @@ CUmdfHidDevice::PrepareReader(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
 
 
 
@@ -180,19 +176,23 @@ CUmdfHidDevice::PrepareReader(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
 
 
 

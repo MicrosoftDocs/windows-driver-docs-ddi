@@ -95,11 +95,7 @@ To cancel an I/O operation, call <a href="..\fltkernel\nf-fltkernel-fltcancelio.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
+<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
 
 
 
@@ -107,7 +103,11 @@ To cancel an I/O operation, call <a href="..\fltkernel\nf-fltkernel-fltcancelio.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
 
 
 

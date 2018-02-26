@@ -7,7 +7,7 @@ old-location: storage\ataportregistryfreebuffer.htm
 old-project: storage
 ms.assetid: a84dffce-977e-412a-a12a-e0e156b943ac
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer routine [Storage Devices], B, F, P, R, a, atartns_70807844-dbef-4457-bd47-102aeffcc840.xml, e, f, g, i, irb/AtaPortRegistryFreeBuffer, o, r, s, storage.ataportregistryfreebuffer, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,7 +103,7 @@ The miniport driver must call <b>AtaPortRegistryFreeBuffer</b> either in its <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
 
 
 
@@ -111,7 +111,7 @@ The miniport driver must call <b>AtaPortRegistryFreeBuffer</b> either in its <a 
 
 
 
-<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 
 
@@ -119,5 +119,5 @@ The miniport driver must call <b>AtaPortRegistryFreeBuffer</b> either in its <a 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortRegistryFreeBuffer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortRegistryFreeBuffer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

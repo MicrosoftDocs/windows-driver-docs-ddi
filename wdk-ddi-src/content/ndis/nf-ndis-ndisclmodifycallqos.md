@@ -118,15 +118,11 @@ If the call manager does not accept the client's proposed QoS change, the client
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
@@ -135,15 +131,19 @@ If the call manager does not accept the client's proposed QoS change, the client
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
 
 
 

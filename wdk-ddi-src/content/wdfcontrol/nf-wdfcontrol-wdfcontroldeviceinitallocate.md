@@ -161,15 +161,7 @@ WdfControlFinishInitializing(controlDevice);</pre>
 
 ## -see-also
 
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
-
-
-
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontrolfinishinitializing.md">WdfControlFinishInitializing</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
 
 
@@ -177,15 +169,23 @@ WdfControlFinishInitializing(controlDevice);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontrolfinishinitializing.md">WdfControlFinishInitializing</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
 
 
 

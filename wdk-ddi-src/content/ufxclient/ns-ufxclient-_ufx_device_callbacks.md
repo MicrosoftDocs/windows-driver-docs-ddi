@@ -4,10 +4,10 @@ title: "_UFX_DEVICE_CALLBACKS"
 author: windows-driver-content
 description: The UFX_DEVICE_CALLBACKS structure is used to define then event callback functions supported by the client driver.
 old-location: buses\ufx_device_callbacks.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 71D83E2C-8557-45FC-9769-DB71F5FF61FF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUFX_DEVICE_CALLBACKS, ,, A, B, C, D, E, F, I, K, L, P, PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS structure pointer [Buses], S, U, UFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS structure [Buses], V, X, _, _UFX_DEVICE_CALLBACKS, buses.ufx_device_callbacks, ufxclient/PUFX_DEVICE_CALLBACKS, ufxclient/UFX_DEVICE_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -154,11 +154,11 @@ In NDIS 6.0 and later, callers of
 
 
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 

@@ -133,15 +133,15 @@ The <i>deviceInformation</i> parameter is a pointer to a buffer that contains an
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_device_information.md">HDAUDIO_DEVICE_INFORMATION</a>
 
 
 
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 

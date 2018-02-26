@@ -7,7 +7,7 @@ old-location: storage\getfc4statistics_out.htm
 old-project: storage
 ms.assetid: fc747ff1-cc84-4863-a66a-ae172f45f2bd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PGetFC4Statistics_OUT, ,, 4, C, F, G, GetFC4Statistics_OUT, GetFC4Statistics_OUT structure [Storage Devices], O, P, PGetFC4Statistics_OUT, PGetFC4Statistics_OUT structure pointer [Storage Devices], S, T, U, _, _GetFC4Statistics_OUT, a, c, e, hbapiwmi/GetFC4Statistics_OUT, hbapiwmi/PGetFC4Statistics_OUT, i, s, storage.getfc4statistics_out, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,5 +99,5 @@ The WMI tool suite generates a declaration of the GetFC4Statistics_OUT structure
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetFC4Statistics_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetFC4Statistics_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

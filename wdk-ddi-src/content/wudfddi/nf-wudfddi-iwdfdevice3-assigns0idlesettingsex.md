@@ -145,11 +145,11 @@ SAFE_RELEASE(pIWDFDevice3);
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
 
 
 

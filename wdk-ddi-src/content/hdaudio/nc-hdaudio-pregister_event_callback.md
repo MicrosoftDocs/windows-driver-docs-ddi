@@ -175,10 +175,6 @@ The first call parameter is a structure of type <a href="..\hdaudio\ns-hdaudio-_
 
 
 
-<a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
@@ -188,6 +184,10 @@ The first call parameter is a structure of type <a href="..\hdaudio\ns-hdaudio-_
 
 
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
 
 
 

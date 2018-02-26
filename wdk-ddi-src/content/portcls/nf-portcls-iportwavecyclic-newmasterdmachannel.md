@@ -138,7 +138,7 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
 
 
 
@@ -150,15 +150,15 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536902">IPortWaveCyclic::NewSlaveDmaChannel</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
 
 
-<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536902">IPortWaveCyclic::NewSlaveDmaChannel</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
 
 

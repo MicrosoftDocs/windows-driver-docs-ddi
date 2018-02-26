@@ -7,7 +7,7 @@ old-location: kernel\iowmiqueryalldatamultiple.htm
 old-project: kernel
 ms.assetid: 660ed1ad-3aad-44a9-9523-e167f84fe9d5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, D, I, IoWMIQueryAllDataMultiple, IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture], M, Q, W, a, e, i, k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml, kernel.iowmiqueryalldatamultiple, l, o, p, r, t, u, wdm/IoWMIQueryAllDataMultiple, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,5 +161,5 @@ To query a single WMI class, use <a href="..\wdm\nf-wdm-iowmiqueryalldata.md">Io
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMIQueryAllDataMultiple routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMIQueryAllDataMultiple routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

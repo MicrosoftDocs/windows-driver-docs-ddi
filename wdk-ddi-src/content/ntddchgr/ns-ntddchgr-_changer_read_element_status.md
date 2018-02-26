@@ -7,7 +7,7 @@ old-location: storage\changer_read_element_status.htm
 old-project: storage
 ms.assetid: 3e80790c-72b9-4e26-a767-a25e6425118e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PCHANGER_READ_ELEMENT_STATUS, ,, A, C, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure [Storage Devices], D, E, G, H, L, M, N, P, PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer [Storage Devices], R, S, T, U, _, _CHANGER_READ_ELEMENT_STATUS, ntddchgr/CHANGER_READ_ELEMENT_STATUS, ntddchgr/PCHANGER_READ_ELEMENT_STATUS, storage.changer_read_element_status, structs-changer_bbb217cb-b38d-4d81-941f-ac1d78d0c584.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,15 +80,7 @@ Indicates, when <b>TRUE</b>, that volume tag information should be reported in a
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-
-
-
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 
@@ -96,7 +88,15 @@ Indicates, when <b>TRUE</b>, that volume tag information should be reported in a
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
 
 
 
@@ -104,5 +104,5 @@ Indicates, when <b>TRUE</b>, that volume tag information should be reported in a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_READ_ELEMENT_STATUS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_READ_ELEMENT_STATUS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

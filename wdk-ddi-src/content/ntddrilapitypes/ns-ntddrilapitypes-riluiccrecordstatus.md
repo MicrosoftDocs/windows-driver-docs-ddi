@@ -79,12 +79,12 @@ The size of the structure in bytes.
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riluiccrecordstatusparammask.md">RILUICCRECORDSTATUSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-riluiccrecordstatusparammask.md">RILUICCRECORDSTATUSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field dwRecordType
 
-Specifies the UICC file type, one of <a href="..\rilapitypes\ne-rilapitypes-riluiccrecordtype.md">RILUICCRECORDTYPE</a>.
+Specifies the UICC file type, one of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-riluiccrecordtype.md">RILUICCRECORDTYPE</a>.
 
 
 ### -field dwItemCount
@@ -99,7 +99,7 @@ Specifies the size of each item in bytes.
 
 ### -field fileLockStatus
 
-An array of type <a href="..\rilapitypes\ns-rilapitypes-riluiccfilelockstatus.md">RILUICCFILELOCKSTATUS</a> that describes the access condition and a list of key references for each operation (READ, UPDATE, ACTIVATE, and DEACTIVATE in that order) on that file. 
+An array of type <a href="..\ntddrilapitypes\ns-ntddrilapitypes-riluiccfilelockstatus.md">RILUICCFILELOCKSTATUS</a> that describes the access condition and a list of key references for each operation (READ, UPDATE, ACTIVATE, and DEACTIVATE in that order) on that file. 
 
 
 ## -see-also

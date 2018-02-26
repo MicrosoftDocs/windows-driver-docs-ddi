@@ -120,7 +120,7 @@ RX metadata.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
 
 
@@ -132,11 +132,11 @@ RX metadata.
 
 
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_tx_metadata.md">WDI_TX_METADATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
 
 

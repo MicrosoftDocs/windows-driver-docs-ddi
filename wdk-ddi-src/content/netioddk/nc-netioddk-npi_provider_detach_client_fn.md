@@ -171,11 +171,7 @@ The NMR calls a provider module's
 
 ## -see-also
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
 
 
@@ -183,12 +179,11 @@ The NMR calls a provider module's
 
 
 
+<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
+
+
+
 <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
-   NmrProviderDetachClientComplete</a>
 
 
 
@@ -197,7 +192,12 @@ The NMR calls a provider module's
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+
+
+
+<a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
+   NmrProviderDetachClientComplete</a>
 
 
 

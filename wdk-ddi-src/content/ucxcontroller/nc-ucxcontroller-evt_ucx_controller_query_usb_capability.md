@@ -4,10 +4,10 @@ title: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
 author: windows-driver-content
 description: The client driver's implementation to determine if the controller supports a specific capability.
 old-location: buses\evt_ucx_controller_query_usb_capability.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: c01150b6-e6cf-484c-be3e-c63984e97bb3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, EvtUcxControllerQueryUsbCapability, EvtUcxControllerQueryUsbCapability callback function [Buses], PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function pointer [Buses], buses.evt_ucx_controller_query_usb_capability, ucxcontroller/EvtUcxControllerQueryUsbCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,7 +100,7 @@ Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i
 </ul>
 </li>
 </ul>
-   See the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a> for more information.
+   See the Remarks section of <a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a> for more information.
 
 
 ### -param OutputBufferLength [in]
@@ -275,5 +275,5 @@ Controller_EvtControllerQueryUsbCapability(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -161,16 +161,11 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
+<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
 
 
@@ -179,7 +174,12 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
 
 

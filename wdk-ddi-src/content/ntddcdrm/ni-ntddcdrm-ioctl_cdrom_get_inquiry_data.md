@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_get_inquiry_data.htm
 old-project: storage
 ms.assetid: b327bdd4-f145-4211-a77c-80dffad16547
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_CDROM_GET_INQUIRY_DATA, IOCTL_CDROM_GET_INQUIRY_DATA control code [Storage Devices], k307_9b073c58-022f-47c3-aeba-716277accce5.xml, ntddcdrm/IOCTL_CDROM_GET_INQUIRY_DATA, storage.ioctl_cdrom_get_inquiry_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,17 +119,17 @@ TBD
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_inquirydata.md">INQUIRYDATA</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
 
 
 
- 
+<a href="..\storport\ns-storport-_inquirydata.md">INQUIRYDATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_GET_INQUIRY_DATA control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_GET_INQUIRY_DATA control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

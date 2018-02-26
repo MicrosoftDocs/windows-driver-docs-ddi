@@ -7,7 +7,7 @@ old-location: print\printprovidor.htm
 old-project: print
 ms.assetid: c030cb9d-23c0-4d0e-970f-f447e9af7528
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *LPPRINTPROVIDOR, ,, D, I, L, LPPRINTPROVIDOR, LPPRINTPROVIDOR structure pointer [Print Devices], N, O, P, PRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices], R, T, V, _, _PRINTPROVIDOR, print.printprovidor, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, winsplp/LPPRINTPROVIDOR, winsplp/PRINTPROVIDOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -1046,7 +1046,7 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562068">SendRecvBidiData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a>
 
 
 
@@ -1058,7 +1058,7 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562068">SendRecvBidiData</a>
 
 
 
@@ -1070,5 +1070,5 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PRINTPROVIDOR structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PRINTPROVIDOR structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

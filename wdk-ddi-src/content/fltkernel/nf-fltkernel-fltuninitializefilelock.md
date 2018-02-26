@@ -98,19 +98,23 @@ To free an initialized FILE_LOCK structure, call <a href="..\fltkernel\nf-fltker
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
 
 
 
@@ -119,10 +123,6 @@ To free an initialized FILE_LOCK structure, call <a href="..\fltkernel\nf-fltker
 
 
 <a href="..\fltkernel\nf-fltkernel-fltfreefilelock.md">FltFreeFileLock</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
 
 
 

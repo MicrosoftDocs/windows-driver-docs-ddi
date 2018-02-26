@@ -7,7 +7,7 @@ old-location: stream\bda_useractivity_interval.htm
 old-project: stream
 ms.assetid: 52530081-1518-4A80-A341-DEF71DAA8AC7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *P_BDA_USERACTIVITY_INTERVAL, ,, A, B, BDA_USERACTIVITY_INTERVAL, BDA_USERACTIVITY_INTERVAL structure [Streaming Media Devices], C, D, E, I, L, N, P, P_BDA_USERACTIVITY_INTERVAL, P_BDA_USERACTIVITY_INTERVAL structure pointer [Streaming Media Devices], R, S, T, U, V, Y, _, _BDA_USERACTIVITY_INTERVAL, bdatypes/BDA_USERACTIVITY_INTERVAL, bdatypes/P_BDA_USERACTIVITY_INTERVAL, stream.bda_useractivity_interval"
 ms.prod: windows-hardware
 ms.technology: windows-devices

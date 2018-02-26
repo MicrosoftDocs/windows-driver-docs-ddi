@@ -7,7 +7,7 @@ old-location: debugger\getoffsetexpression.htm
 old-project: debugger
 ms.assetid: 9fbdfa42-7231-4281-ba19-a33e854cd801
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, B, ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, D, E, G, GetOffsetExpression method [Windows Debugging], GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, GetOffsetExpression,IDebugBreakpoint.GetOffsetExpression, GetOffsetExpression,IDebugBreakpoint2.GetOffsetExpression, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint::GetOffsetExpression, O, a, b, dbgeng/IDebugBreakpoint2::GetOffsetExpression, dbgeng/IDebugBreakpoint::GetOffsetExpression, debugger.getoffsetexpression, e, f, g, i, k, n, o, p, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

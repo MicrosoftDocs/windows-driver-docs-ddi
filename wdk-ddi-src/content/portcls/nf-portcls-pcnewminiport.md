@@ -191,7 +191,7 @@ The <i>OutMiniport</i> parameter follows the <a href="https://msdn.microsoft.com
 
 
 
-<a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a>
+<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
 
 
 
@@ -199,7 +199,7 @@ The <i>OutMiniport</i> parameter follows the <a href="https://msdn.microsoft.com
 
 
 
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+<a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a>
 
 
 

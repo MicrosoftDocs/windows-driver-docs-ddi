@@ -7,7 +7,7 @@ old-location: debugger\getsourcepath.htm
 old-project: debugger
 ms.assetid: 93a1efce-5f93-4a09-aa61-ffbd3d619176
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, D, G, GetSourcePath method [Windows Debugging], GetSourcePath method [Windows Debugging], IDebugSymbols interface, GetSourcePath method [Windows Debugging], IDebugSymbols2 interface, GetSourcePath method [Windows Debugging], IDebugSymbols3 interface, GetSourcePath,IDebugSymbols.GetSourcePath, GetSourcePath,IDebugSymbols2.GetSourcePath, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetSourcePath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetSourcePath method, IDebugSymbols2::GetSourcePath, IDebugSymbols3 interface [Windows Debugging], GetSourcePath method, IDebugSymbols3::GetSourcePath, IDebugSymbols::GetSourcePath, IDebugSymbols_cbdf5e16-41ba-4134-b41b-81164dfc07a0.xml, P, S, a, b, c, dbgeng/IDebugSymbols2::GetSourcePath, dbgeng/IDebugSymbols3::GetSourcePath, dbgeng/IDebugSymbols::GetSourcePath, debugger.getsourcepath, e, g, h, l, m, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,6 +138,14 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
@@ -146,19 +154,11 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
 
 
@@ -166,5 +166,5 @@ For more information about manipulating the source path, see <a href="https://ms
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetSourcePath method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetSourcePath method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

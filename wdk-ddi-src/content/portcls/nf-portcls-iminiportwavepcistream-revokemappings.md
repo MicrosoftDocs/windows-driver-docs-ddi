@@ -122,11 +122,15 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+
+
+
 <a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-
-
-
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 
 
@@ -134,15 +138,11 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
-
-
-
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
 

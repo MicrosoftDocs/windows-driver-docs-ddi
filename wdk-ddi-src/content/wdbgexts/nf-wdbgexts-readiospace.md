@@ -7,7 +7,7 @@ old-location: debugger\readiospace.htm
 old-project: debugger
 ms.assetid: 31118f7f-fcc4-45f9-a248-a1d6f929f3a2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , I, R, ReadIoSpace, ReadIoSpace function [Windows Debugging], S, WdbgExts_Ref_e34c76a6-de5d-4347-90a7-959d5392680e.xml, a, c, d, debugger.readiospace, e, o, p, wdbgexts/ReadIoSpace"
 ms.prod: windows-hardware
 ms.technology: windows-devices

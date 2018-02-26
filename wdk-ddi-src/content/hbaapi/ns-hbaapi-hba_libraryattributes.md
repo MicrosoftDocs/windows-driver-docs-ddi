@@ -7,7 +7,7 @@ old-location: storage\hba_libraryattributes.htm
 old-project: storage
 ms.assetid: 9dc03c5d-5e14-4399-b282-f0385a85a16c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PHBA_LIBRARYATTRIBUTES, ,, A, B, E, H, HBA_LIBRARYATTRIBUTES, HBA_LIBRARYATTRIBUTES structure [Storage Devices], HBA_LibraryAttributes, HBA_LibraryAttributes structure [Storage Devices], I, L, P, PHBA_LIBRARYATTRIBUTES, PHBA_LIBRARYATTRIBUTES structure pointer [Storage Devices], R, S, T, U, Y, _, a, b, e, hbaapi/HBA_LibraryAttributes, hbaapi/PHBA_LIBRARYATTRIBUTES, i, r, s, storage.hba_libraryattributes, structs-Fibre_1be227ba-622d-475f-811e-2d65de5cbaa8.xml, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\ioclearactivityidthread.htm
 old-project: kernel
 ms.assetid: 2F69FC2F-C336-4B51-8EFC-0A9AA22121B9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, I, IoClearActivityIdThread, IoClearActivityIdThread routine [Kernel-Mode Driver Architecture], T, a, c, d, e, h, i, kernel.ioclearactivityidthread, l, ntddk/IoClearActivityIdThread, o, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

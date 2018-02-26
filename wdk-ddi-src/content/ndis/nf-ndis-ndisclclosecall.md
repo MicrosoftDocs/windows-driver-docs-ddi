@@ -233,24 +233,11 @@ After the client releases an
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
-   ProtocolClIncomingCallQoSChange</a>
 
 
 
@@ -259,12 +246,15 @@ After the client releases an
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
-   ProtocolCoSendNetBufferListsComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
 
 
@@ -272,11 +262,20 @@ After the client releases an
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
+   ProtocolClIncomingCallQoSChange</a>
 
 
 
@@ -284,7 +283,8 @@ After the client releases an
 
 
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
+<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
+   ProtocolCoSendNetBufferListsComplete</a>
 
 
 

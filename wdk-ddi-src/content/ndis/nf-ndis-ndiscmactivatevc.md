@@ -169,7 +169,20 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+   ProtocolCmActivateVcComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 
 
@@ -181,16 +194,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
-   ProtocolCmActivateVcComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
@@ -198,15 +202,11 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>
 
 
 

@@ -92,11 +92,11 @@ The <code>RemoveMember</code> method removes a service sink that was previously 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
-
-
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
 
 
 

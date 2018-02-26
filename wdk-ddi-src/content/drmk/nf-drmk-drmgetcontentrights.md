@@ -115,19 +115,7 @@ A module that lies downstream from the KS filter that creates the content ID typ
 
 
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcgetcontentrights.md">PcGetContentRights</a>
 
 
 
@@ -135,7 +123,19 @@ A module that lies downstream from the KS filter that creates the content ID typ
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcgetcontentrights.md">PcGetContentRights</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 

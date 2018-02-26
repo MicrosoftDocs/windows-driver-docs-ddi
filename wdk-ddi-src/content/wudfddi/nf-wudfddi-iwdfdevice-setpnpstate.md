@@ -188,15 +188,15 @@ CUmdfHidDevice::OnCompletion(
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557010">IWDFDevice::CommitPnpState</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
 
 
 

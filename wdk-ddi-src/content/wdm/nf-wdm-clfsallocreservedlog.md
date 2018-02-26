@@ -7,7 +7,7 @@ old-location: kernel\clfsallocreservedlog.htm
 old-project: kernel
 ms.assetid: 05e4fb47-38ef-4b46-a1bb-220c5b1a63ca
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, ClfsAllocReservedLog, ClfsAllocReservedLog routine [Kernel-Mode Driver Architecture], Clfs_4429c61b-96d5-48cb-9ff0-5b0e3f01e0ec.xml, L, R, c, d, e, f, g, kernel.clfsallocreservedlog, l, o, r, s, v, wdm/ClfsAllocReservedLog"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,5 +114,5 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsAllocReservedLog routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsAllocReservedLog routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

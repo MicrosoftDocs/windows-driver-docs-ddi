@@ -109,11 +109,11 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
 
 

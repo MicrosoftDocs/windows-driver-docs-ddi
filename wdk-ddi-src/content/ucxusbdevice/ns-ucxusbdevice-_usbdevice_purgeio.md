@@ -4,10 +4,10 @@ title: "_USBDEVICE_PURGEIO"
 author: windows-driver-content
 description: The USBDEVICE_PURGEIO structure contains the handle for the Universal Serial Bus (USB) hub or device to purge I/O for.
 old-location: buses\_usbdevice_purgeio.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 5E45A5A0-59EE-4A72-9CCA-DD1C9A406EB5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUSBDEVICE_PURGEIO, ,, B, C, D, E, G, I, O, P, P_USBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO structure pointer [Buses], R, S, U, USBDEVICE_PURGEIO, USBDEVICE_PURGEIO structure [Buses], V, _, _USBDEVICE_PURGEIO, buses._usbdevice_purgeio, ucxusbdevice/P_USBDEVICE_PURGEIO, ucxusbdevice/_USBDEVICE_PURGEIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,11 +86,11 @@ A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_tree_purgeio.md">USBDEVICE_TREE_PURGEIO</a>
-
-
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_startio.md">USBDEVICE_STARTIO</a>
+
+
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_tree_purgeio.md">USBDEVICE_TREE_PURGEIO</a>
 
 
 
@@ -102,5 +102,5 @@ A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBDEVICE_PURGEIO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBDEVICE_PURGEIO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

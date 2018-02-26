@@ -7,7 +7,7 @@ old-location: storage\stor_crypto_operation_insert_key.htm
 old-project: storage
 ms.assetid: C2E466F6-71E6-4A17-B625-291D9B91F4FF
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSTOR_CRYPTO_OPERATION_INSERT_KEY, ,, A, C, E, I, K, N, O, P, PSTOR_CRYPTO_OPERATION_INSERT_KEY, PSTOR_CRYPTO_OPERATION_INSERT_KEY structure pointer [Storage Devices], R, S, STOR_CRYPTO_OPERATION_INSERT_KEY, STOR_CRYPTO_OPERATION_INSERT_KEY structure [Storage Devices], T, Y, _, _STOR_CRYPTO_OPERATION_INSERT_KEY, storage.stor_crypto_operation_insert_key, storport/PSTOR_CRYPTO_OPERATION_INSERT_KEY, storport/STOR_CRYPTO_OPERATION_INSERT_KEY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -230,19 +230,15 @@ A WSK application can completely close the connection by calling the
 
 ## -see-also
 
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
@@ -251,7 +247,7 @@ A WSK application can completely close the connection by calling the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
 
 
 
@@ -259,7 +255,11 @@ A WSK application can completely close the connection by calling the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 

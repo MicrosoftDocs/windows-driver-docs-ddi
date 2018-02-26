@@ -4,10 +4,10 @@ title: "_URB_CONTROL_VENDOR_OR_CLASS_REQUEST"
 author: windows-driver-content
 description: The _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure is used by USB client drivers to issue a vendor or class-specific command to a device, interface, endpoint, or other device-defined target.
 old-location: buses\_urb_control_vendor_or_class_request.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 3d355489-cc70-4fa1-b08f-08ccf84f5490
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, C, D, E, L, N, O, Q, R, S, T, U, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, V, _, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], buses._urb_control_vendor_or_class_request, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -207,17 +207,17 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-
-
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
- 
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20_URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

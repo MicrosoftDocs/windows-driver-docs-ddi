@@ -7,7 +7,7 @@ old-location: print\printnamedproperty.htm
 old-project: print
 ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, N, P, PrintNamedProperty, PrintNamedProperty structure [Print Devices], a, d, e, i, m, n, o, p, print.printnamedproperty, r, t, winspool/PrintNamedProperty, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

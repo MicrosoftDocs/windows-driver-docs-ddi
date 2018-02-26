@@ -7,7 +7,7 @@ old-location: stream\ksgetobjecttypefromfileobject.htm
 old-project: stream
 ms.assetid: b963cf53-68ea-49b6-bbda-a93216fb10a5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , F, G, K, KsGetObjectTypeFromFileObject, KsGetObjectTypeFromFileObject function [Streaming Media Devices], O, T, avfunc_51a9a4d6-1481-45f9-918e-582907e8513c.xml, b, c, e, i, j, ks/KsGetObjectTypeFromFileObject, l, m, o, p, r, s, stream.ksgetobjecttypefromfileobject, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,6 +84,10 @@ A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structu
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgetpinfromfileobject.md">KsGetPinFromFileObject</a>
+
+
+
 <a href="..\ks\nf-ks-kspingetconnectedpinfileobject.md">KsPinGetConnectedPinFileObject</a>
 
 
@@ -96,13 +100,9 @@ A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structu
 
 
 
-<a href="..\ks\nf-ks-ksgetpinfromfileobject.md">KsGetPinFromFileObject</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGetObjectTypeFromFileObject function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGetObjectTypeFromFileObject function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

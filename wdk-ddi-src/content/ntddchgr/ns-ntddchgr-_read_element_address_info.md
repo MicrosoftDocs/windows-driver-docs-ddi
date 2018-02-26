@@ -7,7 +7,7 @@ old-location: storage\read_element_address_info.htm
 old-project: storage
 ms.assetid: 5fc5b38e-8eef-4ba0-9f29-025df55e4525
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PREAD_ELEMENT_ADDRESS_INFO, ,, A, D, E, F, I, L, M, N, O, P, PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO structure pointer [Storage Devices], R, READ_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO structure [Storage Devices], S, T, _, _READ_ELEMENT_ADDRESS_INFO, ntddchgr/PREAD_ELEMENT_ADDRESS_INFO, ntddchgr/READ_ELEMENT_ADDRESS_INFO, storage.read_element_address_info, structs-changer_5137d1a1-82bb-4333-b555-45bc1c8cc0bf.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,15 +80,7 @@ Contains an array holding the first <a href="..\ntddchgr\ns-ntddchgr-_changer_el
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
 
 
 
@@ -96,9 +88,17 @@ Contains an array holding the first <a href="..\ntddchgr\ns-ntddchgr-_changer_el
 
 
 
- 
+<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20READ_ELEMENT_ADDRESS_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20READ_ELEMENT_ADDRESS_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

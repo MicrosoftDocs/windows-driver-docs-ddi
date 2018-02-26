@@ -7,7 +7,7 @@ old-location: print\iprinterextensionevent_interface.htm
 old-project: print
 ms.assetid: A0F4DB51-D68E-4516-833A-7E984247796B
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], IPrinterExtensionEvent interface [Print Devices], described, print.iprinterextensionevent_interface, printerextension/IPrinterExtensionEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

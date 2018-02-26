@@ -7,7 +7,7 @@ old-location: pos\barcodestatus.htm
 old-project: pos
 ms.assetid: b89ee18b-229d-4ec7-8c69-1b75ad0f3448
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, B, BarcodeStatus, BarcodeStatus enumeration, BarcodeStatusUpdateType_Extended, BarcodeStatusUpdateType_Off, BarcodeStatusUpdateType_OffOrOffline, BarcodeStatusUpdateType_Offline, BarcodeStatusUpdateType_Online, S, _, _BarcodeStatus, a, c, d, e, o, pointofservicecommontypes/BarcodeStatus, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, pointofservicecommontypes/BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, pointofservicecommontypes/BarcodeStatusUpdateType_Online, pos.barcodestatus, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\deleteinitiatornodename_in.htm
 old-project: storage
 ms.assetid: 10b6660c-7f48-4717-89d4-d6a5eb6594c8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDeleteInitiatorNodeName_IN, ,, D, DeleteInitiatorNodeName_IN, DeleteInitiatorNodeName_IN structure [Storage Devices], I, N, P, PDeleteInitiatorNodeName_IN, PDeleteInitiatorNodeName_IN structure pointer [Storage Devices], _, _DeleteInitiatorNodeName_IN, a, d, e, i, iscsiop/DeleteInitiatorNodeName_IN, iscsiop/PDeleteInitiatorNodeName_IN, l, m, n, o, r, storage.deleteinitiatornodename_in, structs-iSCSI_2b687a5a-17af-4eda-b48f-8e7ca06024f2.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,5 +95,5 @@ It is optional that you implement this method.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DeleteInitiatorNodeName_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DeleteInitiatorNodeName_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

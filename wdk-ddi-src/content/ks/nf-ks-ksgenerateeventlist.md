@@ -7,7 +7,7 @@ old-location: stream\ksgenerateeventlist.htm
 old-project: stream
 ms.assetid: 336dbbc1-0f3c-4a3f-b3b4-017f4d158bda
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , E, G, K, KsGenerateEventList, KsGenerateEventList function [Streaming Media Devices], L, a, e, i, ks/KsGenerateEventList, ksfunc_d4a351ab-f750-4486-99ae-72c42794bee0.xml, n, r, s, stream.ksgenerateeventlist, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,15 +117,15 @@ This function can be called at any IRQL level if the locking mechanism permits i
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-
-
-
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
 
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
 
 
 
@@ -137,5 +137,5 @@ This function can be called at any IRQL level if the locking mechanism permits i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGenerateEventList function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGenerateEventList function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

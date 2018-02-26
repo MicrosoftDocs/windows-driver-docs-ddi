@@ -95,11 +95,11 @@ Length in bytes of the data to be copied.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: dtf\iwdtfactions2_enableobjectlogging.htm
 old-project: dtf
 ms.assetid: 854c7770-2857-48ed-8ca6-ad0e26aa412d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, A, D, E, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework], IWDTFActions2 interface, EnableObjectLogging,IWDTFActions2.EnableObjectLogging, F, I, IWDTFActions2, IWDTFActions2 interface [Windows Device Testing Framework], EnableObjectLogging method, IWDTFActions2::EnableObjectLogging, L, O, T, W, a, b, c, dtf.iwdtfactions2_enableobjectlogging, e, g, i, j, l, n, o, s, t, wdtf/IWDTFActions2::EnableObjectLogging"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,5 +87,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFActions2::EnableObjectLogging method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFActions2::EnableObjectLogging method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

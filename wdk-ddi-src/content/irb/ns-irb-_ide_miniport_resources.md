@@ -7,7 +7,7 @@ old-location: storage\ide_miniport_resources.htm
 old-project: storage
 ms.assetid: 867b6152-9846-484f-9eac-07d0f24d55df
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PIDE_MINIPORT_RESOURCES, ,, C, D, E, I, IDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES structure [Storage Devices], M, N, O, P, PIDE_MINIPORT_RESOURCES, PIDE_MINIPORT_RESOURCES structure pointer [Storage Devices], R, S, T, U, _, _IDE_MINIPORT_RESOURCES, irb/IDE_MINIPORT_RESOURCES, irb/PIDE_MINIPORT_RESOURCES, storage.ide_miniport_resources, structs-ATA_28df7197-d4b0-4279-a4db-e9b1269f6ba7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,17 +89,17 @@ The port driver passes this structure to the miniport driver's <a href="https://
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_access_range.md">IDE_ACCESS_RANGE</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_MINIPORT_RESOURCES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_MINIPORT_RESOURCES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

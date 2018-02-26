@@ -7,7 +7,7 @@ old-location: storage\ms_smhba_sasphystatistics.htm
 old-project: storage
 ms.assetid: bb2ab242-9002-4760-86b2-1aaf203ff710
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PMS_SMHBA_SASPHYSTATISTICS, ,, A, B, C, H, I, M, MS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS structure [Storage Devices], P, PMS_SMHBA_SASPHYSTATISTICS, PMS_SMHBA_SASPHYSTATISTICS structure pointer [Storage Devices], S, T, Y, _, _MS_SMHBA_SASPHYSTATISTICS, hbapiwmi/MS_SMHBA_SASPHYSTATISTICS, hbapiwmi/PMS_SMHBA_SASPHYSTATISTICS, storage.ms_smhba_sasphystatistics, structs-Fibre_7059d482-c967-4f18-8c03-b113573cff2f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

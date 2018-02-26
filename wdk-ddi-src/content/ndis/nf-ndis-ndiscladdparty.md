@@ -187,11 +187,27 @@ Whether a multipoint call permits transfers in both directions and/or per-party 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
 
 
 
@@ -200,19 +216,7 @@ Whether a multipoint call permits transfers in both directions and/or per-party 
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
 
 
 
@@ -220,19 +224,15 @@ Whether a multipoint call permits transfers in both directions and/or per-party 
 
 
 
-<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
 
 
 

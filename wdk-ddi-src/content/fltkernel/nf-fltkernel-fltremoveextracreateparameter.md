@@ -151,10 +151,6 @@ The <b>FltRemoveExtraCreateParameter</b> routine searches the ECP list given by 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 
@@ -163,11 +159,7 @@ The <b>FltRemoveExtraCreateParameter</b> routine searches the ECP list given by 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
@@ -175,15 +167,23 @@ The <b>FltRemoveExtraCreateParameter</b> routine searches the ECP list given by 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 

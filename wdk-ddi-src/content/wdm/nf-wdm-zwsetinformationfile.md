@@ -7,7 +7,7 @@ old-location: kernel\zwsetinformationfile.htm
 old-project: kernel
 ms.assetid: a6f92495-89f0-4728-b6d8-083c55bc3206
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , F, I, NtSetInformationFile, S, Z, ZwSetInformationFile, ZwSetInformationFile routine [Kernel-Mode Driver Architecture], a, e, f, i, k111_91ac021a-37b3-4d2d-9369-c80659e0dcd7.xml, kernel.zwsetinformationfile, l, m, n, o, r, t, w, wdm/NtSetInformationFile, wdm/ZwSetInformationFile"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ Handle to the file object. This handle is created by a successful call to <a hre
 
 ### -param IoStatusBlock [out]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. The <b>Information</b> member receives the number of bytes set on the file.
+Pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. The <b>Information</b> member receives the number of bytes set on the file.
 
 
 ### -param FileInformation [in]
@@ -242,15 +242,31 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_disposition_information.md">FILE_DISPOSITION_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
 
 
 
@@ -258,11 +274,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_io_priority_hint_information.md">FILE_IO_PRIORITY_HINT_INFORMATION</a>
 
 
 
@@ -274,23 +294,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_disposition_information.md">FILE_DISPOSITION_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_io_priority_hint_information.md">FILE_IO_PRIORITY_HINT_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a>
 
 
 
@@ -298,11 +302,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+<a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a>
 
 
 
@@ -310,5 +310,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetInformationFile routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetInformationFile routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

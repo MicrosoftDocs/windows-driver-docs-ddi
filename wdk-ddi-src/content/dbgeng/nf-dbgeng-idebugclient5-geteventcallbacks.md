@@ -7,7 +7,7 @@ old-location: debugger\geteventcallbacks.htm
 old-project: debugger
 ms.assetid: b67edb7a-2e74-4b7b-bbfb-5886e89a10a5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 5, :, C, D, E, G, GetEventCallbacks method [Windows Debugging], GetEventCallbacks method [Windows Debugging], IDebugClient interface, GetEventCallbacks method [Windows Debugging], IDebugClient2 interface, GetEventCallbacks method [Windows Debugging], IDebugClient3 interface, GetEventCallbacks method [Windows Debugging], IDebugClient4 interface, GetEventCallbacks method [Windows Debugging], IDebugClient5 interface, GetEventCallbacks,IDebugClient.GetEventCallbacks, GetEventCallbacks,IDebugClient2.GetEventCallbacks, GetEventCallbacks,IDebugClient3.GetEventCallbacks, GetEventCallbacks,IDebugClient4.GetEventCallbacks, GetEventCallbacks,IDebugClient5.GetEventCallbacks, I, IDebugClient, IDebugClient interface [Windows Debugging], GetEventCallbacks method, IDebugClient2, IDebugClient2 interface [Windows Debugging], GetEventCallbacks method, IDebugClient2::GetEventCallbacks, IDebugClient3, IDebugClient3 interface [Windows Debugging], GetEventCallbacks method, IDebugClient3::GetEventCallbacks, IDebugClient4, IDebugClient4 interface [Windows Debugging], GetEventCallbacks method, IDebugClient4::GetEventCallbacks, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetEventCallbacks method, IDebugClient5::GetEventCallbacks, IDebugClient::GetEventCallbacks, IDebugClient_81e23179-deb3-4c14-ae9e-b0c0a1d48f00.xml, a, b, c, dbgeng/IDebugClient2::GetEventCallbacks, dbgeng/IDebugClient3::GetEventCallbacks, dbgeng/IDebugClient4::GetEventCallbacks, dbgeng/IDebugClient5::GetEventCallbacks, dbgeng/IDebugClient::GetEventCallbacks, debugger.geteventcallbacks, e, g, i, k, l, n, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,14 +121,6 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
@@ -137,7 +129,7 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -145,7 +137,15 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -153,5 +153,5 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetEventCallbacks method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetEventCallbacks method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: stream\ksfilterfactoryupdatecachedata.htm
 old-project: stream
 ms.assetid: a5c868a5-0e79-482b-9694-02cae2de99ca
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, D, F, K, KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData function [Streaming Media Devices], U, a, avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, c, d, e, h, i, ks/KsFilterFactoryUpdateCacheData, l, o, p, r, s, stream.ksfilterfactoryupdatecachedata, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ For more information, see <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
 
 
 
@@ -119,7 +119,7 @@ For more information, see <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e
 
 
 
-<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 
 
@@ -127,5 +127,5 @@ For more information, see <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterFactoryUpdateCacheData function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterFactoryUpdateCacheData function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

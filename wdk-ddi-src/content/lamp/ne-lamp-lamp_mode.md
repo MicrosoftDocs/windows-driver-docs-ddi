@@ -7,7 +7,7 @@ old-location: stream\lamp_mode.htm
 old-project: stream
 ms.assetid: B379B6EF-C3AD-4E6F-B32D-F85228DB6A72
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, D, E, L, LAMP_MODE, LAMP_MODE enumeration [Streaming Media Devices], LAMP_MODE_COLOR, LAMP_MODE_WHITE, M, O, P, _, lamp/LAMP_MODE, lamp/LAMP_MODE_COLOR, lamp/LAMP_MODE_WHITE, stream.lamp_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices

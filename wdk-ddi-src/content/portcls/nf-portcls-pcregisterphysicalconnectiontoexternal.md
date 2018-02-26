@@ -125,15 +125,11 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>
-
-
-
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
 
 
 
@@ -141,11 +137,15 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 
 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537029">IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
 
 
 

@@ -263,44 +263,11 @@ If the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569642">OID_GEN_SUPPORTED_LIST</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
 
 
 
@@ -308,12 +275,15 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
-   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569642">OID_GEN_SUPPORTED_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569574">OID_GEN_CURRENT_LOOKAHEAD</a>
 
 
 
@@ -322,12 +292,37 @@ If the
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_scale_capabilities.md">
    NDIS_RECEIVE_SCALE_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -336,11 +331,16 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569574">OID_GEN_CURRENT_LOOKAHEAD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
+<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
 
 
 

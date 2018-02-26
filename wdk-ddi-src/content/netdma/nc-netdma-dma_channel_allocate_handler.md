@@ -172,7 +172,7 @@ The DMA provider driver attempts to allocate a DMA channel with an interrupt CPU
     <i>ChannelParameters</i> parameter. If MSI-X is not supported or MSI-X is supported but a DMA channel with
     a matching interrupt CPU affinity is not available, the DMA provider driver allocates any available DMA
     channel and calls the 
-    <a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> routine to
+    <a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> routine to
     set the target CPU of the interrupt DPC to match one of the specified affinity mask bits.
 
 The DMA provider always driver returns the CPU number that it associated with the interrupt DPC for
@@ -202,7 +202,11 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+<a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
 
 
 
@@ -210,11 +214,7 @@ NetDMA calls
 
 
 
-<a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 

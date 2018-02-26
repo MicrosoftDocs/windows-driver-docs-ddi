@@ -7,7 +7,7 @@ old-location: kernel\psgetjobsilo.htm
 old-project: kernel
 ms.assetid: 1032282B-7CA3-4162-8FC2-1A4A683E9DEF
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , G, J, P, PsGetJobSilo, PsGetJobSilo routine [Kernel-Mode Driver Architecture], S, b, e, i, kernel.psgetjobsilo, l, ntddk/PsGetJobSilo, o, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -84,7 +84,7 @@ Size of this structure in bytes.
 
 ### -field IsPowerPolicyOwner
 
- A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator. 
+ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator. 
 
 
 ### -field PowerIdleTimeout
@@ -134,11 +134,11 @@ Pointer to an <a href="..\nfccx\nc-nfccx-evt_nfc_cx_device_io_control.md">EvtNfc
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 

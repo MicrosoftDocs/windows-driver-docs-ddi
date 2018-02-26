@@ -84,17 +84,17 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 
 ### -param PoolType [in]
 
-Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value.
+Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value.
 
 
 ### -param TranslatedResources [in]
 
-Pointer to a WDM-supplied resource list for translated resources. The list is a system structure of type <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>.
+Pointer to a WDM-supplied resource list for translated resources. The list is a system structure of type <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>.
 
 
 ### -param UntranslatedResources [in]
 
-Pointer to a WDM-supplied resource list for untranslated resources. The list is a system structure of type <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>.
+Pointer to a WDM-supplied resource list for untranslated resources. The list is a system structure of type <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>.
 
 
 ## -returns
@@ -119,7 +119,7 @@ The <i>OutResourceList</i> and <i>OuterUnknown</i> parameters follow the <a href
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 
 
@@ -127,7 +127,7 @@ The <i>OutResourceList</i> and <i>OuterUnknown</i> parameters follow the <a href
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 

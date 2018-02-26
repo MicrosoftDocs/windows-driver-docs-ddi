@@ -176,15 +176,15 @@ The length in bytes of the transfer. This value also was passed to
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>
 
 
 

@@ -170,11 +170,7 @@ To build a scatter/gather list, an NDIS driver passes the NDIS_SCATTER_GATHER_LI
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\ne-ndis-_ndis_shared_memory_usage.md">NDIS_SHARED_MEMORY_USAGE</a>
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 
 
@@ -182,7 +178,11 @@ To build a scatter/gather list, an NDIS driver passes the NDIS_SCATTER_GATHER_LI
 
 
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ne-ndis-_ndis_shared_memory_usage.md">NDIS_SHARED_MEMORY_USAGE</a>
 
 
 

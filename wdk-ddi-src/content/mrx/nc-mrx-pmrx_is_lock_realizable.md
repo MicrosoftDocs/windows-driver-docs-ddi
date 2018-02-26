@@ -137,7 +137,11 @@ The byte range lock that is requested is not supported. A network mini-redirecto
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
 
 
 
@@ -145,11 +149,31 @@ The byte range lock that is requested is not supported. A network mini-redirecto
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
+<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
 
 
 
@@ -161,35 +185,11 @@ The byte range lock that is requested is not supported. A network mini-redirecto
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
 
 
 

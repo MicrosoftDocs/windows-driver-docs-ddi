@@ -7,7 +7,7 @@ old-location: kernel\event_trace_header.htm
 old-project: kernel
 ms.assetid: faddcf82-1025-458f-ab33-c96cd5699ca5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PEVENT_TRACE_HEADER, ,, A, C, D, E, EVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], H, N, P, PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], R, T, V, _, _EVENT_TRACE_HEADER, evntrace/EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER, kernel.event_trace_header, kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -246,11 +246,11 @@ If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_H
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 
 
@@ -262,5 +262,5 @@ If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_H
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20EVENT_TRACE_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20EVENT_TRACE_HEADER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -257,15 +257,7 @@ This structure is essentially identical to the previous version,
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
-
-
-
-<a href="https://msdn.microsoft.com/679E6DE2-4EFB-44F6-936D-2BF611BC9726">Using Layer 2 Filtering</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
 
 
 
@@ -273,11 +265,19 @@ This structure is essentially identical to the previous version,
 
 
 
+<a href="https://msdn.microsoft.com/679E6DE2-4EFB-44F6-936D-2BF611BC9726">Using Layer 2 Filtering</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
 
 
 

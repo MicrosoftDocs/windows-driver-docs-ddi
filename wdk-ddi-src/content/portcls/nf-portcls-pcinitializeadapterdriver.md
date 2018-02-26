@@ -72,12 +72,12 @@ NTSTATUS PcInitializeAdapterDriver(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object, which is a system structure of type <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>. This pointer is passed as a parameter to the adapter's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function.
+Pointer to the driver object, which is a system structure of type <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>. This pointer is passed as a parameter to the adapter's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function.
 
 
 ### -param RegistryPathName [in]
 
-Specifies the registry path name that is to be passed as a parameter to the adapter's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function.
+Specifies the registry path name that is to be passed as a parameter to the adapter's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function.
 
 
 ### -param AddDevice [in]
@@ -171,11 +171,7 @@ An adapter driver that overwrites one or more of the pointers above with a point
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -183,7 +179,11 @@ An adapter driver that overwrites one or more of the pointers above with a point
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
 
 
 

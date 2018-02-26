@@ -181,11 +181,11 @@ if (ioTarget != NULL) {
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfileobject.md">WdfIoTargetWdmGetTargetFileObject</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 

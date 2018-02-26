@@ -212,6 +212,10 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
 
 
@@ -222,10 +226,6 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
    NdisMIndicateReceiveNetBufferLists</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
 
 
 

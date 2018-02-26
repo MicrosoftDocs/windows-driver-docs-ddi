@@ -113,15 +113,15 @@ The upstream module can pass both the content ID and content rights to the downs
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536575">IDrmPort2::AddContentHandlers</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcaddcontenthandlers.md">PcAddContentHandlers</a>
 
 
 
@@ -129,7 +129,7 @@ The upstream module can pass both the content ID and content rights to the downs
 
 
 
-<a href="..\portcls\nf-portcls-pcaddcontenthandlers.md">PcAddContentHandlers</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536575">IDrmPort2::AddContentHandlers</a>
 
 
 

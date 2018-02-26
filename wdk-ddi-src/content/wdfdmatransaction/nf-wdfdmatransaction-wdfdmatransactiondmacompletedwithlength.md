@@ -163,15 +163,15 @@ if (hasTransitioned) {
 
 ## -see-also
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongetcurrentdmatransferlength.md">WdfDmaTransactionGetCurrentDmaTransferLength</a>
 
 
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 
 

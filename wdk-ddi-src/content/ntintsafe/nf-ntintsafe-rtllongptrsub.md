@@ -7,7 +7,7 @@ old-location: kernel\rtllongptrsub.htm
 old-project: kernel
 ms.assetid: 3F95CA04-3CE1-4298-B3B6-5D111AB4F3D3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , L, P, R, RtlLongPtrSub, RtlLongPtrSub function [Kernel-Mode Driver Architecture], S, b, g, kernel.rtllongptrsub, l, n, ntintsafe/RtlLongPtrSub, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

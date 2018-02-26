@@ -7,7 +7,7 @@ old-location: stream\ksautomation_table.htm
 old-project: stream
 ms.assetid: 76ab776d-0921-4fdb-9646-2cb97a582f6e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSAUTOMATION_TABLE, ,, A, B, E, I, K, KSAUTOMATION_TABLE, KSAUTOMATION_TABLE structure [Streaming Media Devices], KSAUTOMATION_TABLE_, L, M, N, O, P, PKSAUTOMATION_TABLE, PKSAUTOMATION_TABLE structure pointer [Streaming Media Devices], S, T, U, _, avstruct_7389df5c-d86a-43b2-9daf-d0e1e8a2dfbe.xml, ks/KSAUTOMATION_TABLE, ks/PKSAUTOMATION_TABLE, stream.ksautomation_table"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,23 +170,7 @@ DEFINE_KSAUTOMATION_EVENTS (MyEventTable)</pre>
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
-
-
-
 <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
-
-
-
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
 
 
 
@@ -194,9 +178,25 @@ DEFINE_KSAUTOMATION_EVENTS (MyEventTable)</pre>
 
 
 
- 
+<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
+
+
+
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSAUTOMATION_TABLE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSAUTOMATION_TABLE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

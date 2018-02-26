@@ -95,7 +95,12 @@ You can assume that the list of elements is stored in memory immediately followi
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_receive.md">NDIS_WWAN_SMS_RECEIVE</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_preferred_providers.md">
+   NDIS_WWAN_SET_PREFERRED_PROVIDERS</a>
 
 
 
@@ -103,16 +108,11 @@ You can assume that the list of elements is stored in memory immediately followi
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_preferred_providers.md">
-   NDIS_WWAN_SET_PREFERRED_PROVIDERS</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_receive.md">NDIS_WWAN_SMS_RECEIVE</a>
 
 
 

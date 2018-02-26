@@ -7,7 +7,7 @@ old-location: stream\ks_h264videoinfo.htm
 old-project: stream
 ms.assetid: 1EBA2124-F5D3-4683-B967-8179CCCD3102
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKS_H264VIDEOINFO, ,, 2, 4, 6, D, E, F, H, I, K, KS_H264VIDEOINFO, KS_H264VIDEOINFO structure [Streaming Media Devices], N, O, P, PKS_H264VIDEOINFO, PKS_H264VIDEOINFO structure pointer [Streaming Media Devices], S, V, _, a, g, ksmedia/KS_H264VIDEOINFO, ksmedia/PKS_H264VIDEOINFO, stream.ks_h264videoinfo, t, tagKS_H264VIDEOINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -752,5 +752,5 @@ The KS_H264VIDEOINFO structure contains the frame and the format descriptor info
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_H264VIDEOINFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_H264VIDEOINFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

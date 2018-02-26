@@ -187,16 +187,8 @@ Before calling this function, the
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
-   FwpsNetBufferListRetrieveContext0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+   FwpsNetBufferListRemoveContext0</a>
 
 
 
@@ -204,13 +196,21 @@ Before calling this function, the
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
-   FwpsNetBufferListRemoveContext0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
+   FwpsNetBufferListRetrieveContext0</a>
+
+
+
+<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
 
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
    FwpsNetBufferListGetTagForContext0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

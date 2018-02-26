@@ -7,7 +7,7 @@ old-location: kernel\pep_crashdump_information.htm
 old-project: kernel
 ms.assetid: B1F680CB-8F82-4B31-A62E-23804FEB0107
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PPEP_CRASHDUMP_INFORMATION, ,, A, C, D, E, F, H, I, M, N, O, P, PEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_CRASHDUMP_INFORMATION, PPEP_CRASHDUMP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, S, T, U, _, _PEP_CRASHDUMP_INFORMATION, kernel.pep_crashdump_information, pepfx/PEP_CRASHDUMP_INFORMATION, pepfx/PPEP_CRASHDUMP_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,10 +91,6 @@ When a fatal system error occurs, the devices in the crash-dump device chain (st
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxpoweroncrashdumpdevice.md">PoFxPowerOnCrashdumpDevice</a>
 
 
@@ -103,9 +99,13 @@ When a fatal system error occurs, the devices in the crash-dump device chain (st
 
 
 
- 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_CRASHDUMP_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_CRASHDUMP_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

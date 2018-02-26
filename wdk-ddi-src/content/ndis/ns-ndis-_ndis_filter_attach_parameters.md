@@ -381,65 +381,7 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_hd_split_current_config.md">NDIS_HD_SPLIT_CURRENT_CONFIG</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
-   NDIS_RECEIVE_FILTER_CAPABILITIES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_capabilities.md">NDIS_SRIOV_CAPABILITIES</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
 
 
@@ -451,11 +393,69 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_capabilities.md">NDIS_SRIOV_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
+   NDIS_RECEIVE_FILTER_CAPABILITIES</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_hd_split_current_config.md">NDIS_HD_SPLIT_CURRENT_CONFIG</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568744">NET_IF_MEDIA_CONNECT_STATE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
 
 
 

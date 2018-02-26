@@ -119,27 +119,7 @@ NDIS later passes the context handle in the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 
@@ -147,8 +127,28 @@ NDIS later passes the context handle in the
 
 
 
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
    MiniportFilterResourceRequirements</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
 
 

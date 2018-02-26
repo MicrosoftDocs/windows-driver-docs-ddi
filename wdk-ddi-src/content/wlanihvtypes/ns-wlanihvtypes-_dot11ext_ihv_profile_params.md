@@ -113,22 +113,12 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">Dot11ExtIhvValidateProfile</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_capability_match.md">
    Dot11ExtIhvPerformCapabilityMatch</a>
-
-
-
-<a href="https://msdn.microsoft.com/fe136eef-4cc7-4a78-a5df-5f6c63a5007b">
-   IDot11ExtUIProperty::Dot11ExtUIPropertySetDisplayInfo</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
-   Dot11ExtIhvCreateDiscoveryProfiles</a>
-
-
-
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_ssid_list.md">DOT11EXT_IHV_SSID_LIST</a>
 
 
 
@@ -142,7 +132,12 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">Dot11ExtIhvValidateProfile</a>
+<a href="https://msdn.microsoft.com/fe136eef-4cc7-4a78-a5df-5f6c63a5007b">
+   IDot11ExtUIProperty::Dot11ExtUIPropertySetDisplayInfo</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
 
 
 
@@ -150,12 +145,17 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 
 
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_ssid_list.md">DOT11EXT_IHV_SSID_LIST</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
+   Dot11ExtIhvCreateDiscoveryProfiles</a>
+
+
+
 <a href="https://msdn.microsoft.com/de353aec-4339-496d-9aff-033b73f5d78e">
    IDot11ExtUIProperty::Dot11ExtUIPropertyGetDisplayInfo</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
 
 
 

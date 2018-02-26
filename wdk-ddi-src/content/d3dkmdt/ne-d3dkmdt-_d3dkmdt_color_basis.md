@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_color_basis.htm
 old-project: display
 ms.assetid: c2a8973d-bdab-44a6-b88b-482355ada1e5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, B, C, D, D3DKMDT_CB_INTENSITY, D3DKMDT_CB_SCRGB, D3DKMDT_CB_SRGB, D3DKMDT_CB_UNINITIALIZED, D3DKMDT_CB_YCBCR, D3DKMDT_CB_YPBPR, D3DKMDT_COLOR_BASIS, D3DKMDT_COLOR_BASIS enumeration [Display Devices], DmEnums_68aa2c18-ed0d-429d-88c3-7a9a7913c7c6.xml, I, K, L, M, O, R, S, T, _, _D3DKMDT_COLOR_BASIS, d3dkmdt/D3DKMDT_CB_INTENSITY, d3dkmdt/D3DKMDT_CB_SCRGB, d3dkmdt/D3DKMDT_CB_SRGB, d3dkmdt/D3DKMDT_CB_UNINITIALIZED, d3dkmdt/D3DKMDT_CB_YCBCR, d3dkmdt/D3DKMDT_CB_YPBPR, d3dkmdt/D3DKMDT_COLOR_BASIS, display.d3dkmdt_color_basis"
 ms.prod: windows-hardware
 ms.technology: windows-devices

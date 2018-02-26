@@ -215,15 +215,7 @@ This member has a value of zero if the peer is not associated.
 
 ## -see-also
 
-<a href="..\windot11\ne-windot11-_dot11_power_mode.md">DOT11_POWER_MODE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\windot11\ns-windot11-_dot11_peer_info_list.md">DOT11_PEER_INFO_LIST</a>
+<a href="..\windot11\ne-windot11-_dot11_association_state.md">DOT11_ASSOCIATION_STATE</a>
 
 
 
@@ -231,11 +223,19 @@ This member has a value of zero if the peer is not associated.
 
 
 
-<a href="..\windot11\ne-windot11-_dot11_association_state.md">DOT11_ASSOCIATION_STATE</a>
+<a href="..\windot11\ne-windot11-_dot11_power_mode.md">DOT11_POWER_MODE</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_peer_info_list.md">DOT11_PEER_INFO_LIST</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

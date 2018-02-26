@@ -7,7 +7,7 @@ old-location: storage\removeisnsserver_out.htm
 old-project: storage
 ms.assetid: 42866b25-280c-492c-8e98-1a04a46561a4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PRemoveiSNSServer_OUT, ,, N, O, P, PRemoveiSNSServer_OUT, PRemoveiSNSServer_OUT structure pointer [Storage Devices], R, RemoveiSNSServer_OUT, RemoveiSNSServer_OUT structure [Storage Devices], S, T, U, _, _RemoveiSNSServer_OUT, e, i, iscsiop/PRemoveiSNSServer_OUT, iscsiop/RemoveiSNSServer_OUT, m, o, r, storage.removeisnsserver_out, structs-iSCSI_8d8df1a1-3b89-42a1-9ef8-3e749a94b531.xml, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,5 +95,5 @@ It is optional that you implement this method.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemoveiSNSServer_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemoveiSNSServer_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

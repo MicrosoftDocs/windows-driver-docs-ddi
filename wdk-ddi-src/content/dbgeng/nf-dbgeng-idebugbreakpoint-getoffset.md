@@ -7,7 +7,7 @@ old-location: debugger\getoffset.htm
 old-project: debugger
 ms.assetid: 7da401c9-10c1-4a2b-91ea-c0f9f58fd87a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, B, ComOther_020a92c1-effa-4b14-9198-153641401e46.xml, D, G, GetOffset method [Windows Debugging], GetOffset method [Windows Debugging], IDebugBreakpoint interface, GetOffset method [Windows Debugging], IDebugBreakpoint2 interface, GetOffset,IDebugBreakpoint.GetOffset, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetOffset method, IDebugBreakpoint2 interface [Windows Debugging], GetOffset method, IDebugBreakpoint2::GetOffset, IDebugBreakpoint::GetOffset, O, a, b, dbgeng/IDebugBreakpoint2::GetOffset, dbgeng/IDebugBreakpoint::GetOffset, debugger.getoffset, e, f, g, i, k, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -107,7 +107,7 @@ For information about how UMDF and UMDF drivers handle impersonation, see <a hre
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
 
 
 
@@ -115,11 +115,11 @@ For information about how UMDF and UMDF drivers handle impersonation, see <a hre
 
 
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
 
 
 

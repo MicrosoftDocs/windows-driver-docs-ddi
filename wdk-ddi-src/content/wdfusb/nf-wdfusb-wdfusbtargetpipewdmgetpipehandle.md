@@ -121,7 +121,7 @@ usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(UsbPipe);</pre>
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
@@ -129,7 +129,7 @@ usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(UsbPipe);</pre>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 

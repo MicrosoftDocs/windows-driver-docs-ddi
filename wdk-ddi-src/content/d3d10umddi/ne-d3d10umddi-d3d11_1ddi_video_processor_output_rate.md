@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_processor_output_rate.htm
 old-project: display
 ms.assetid: ff34c208-9b42-4f72-bb2a-43f3bb44fd68
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, E, I, O, P, R, S, T, U, V, _, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, display.d3d11_1ddi_video_processor_output_rate"
 ms.prod: windows-hardware
 ms.technology: windows-devices

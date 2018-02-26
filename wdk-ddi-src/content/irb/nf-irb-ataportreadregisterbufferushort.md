@@ -7,7 +7,7 @@ old-location: storage\ataportreadregisterbufferushort.htm
 old-project: storage
 ms.assetid: bd2e8fe0-7daf-4fdd-ac3a-893df6d0f10f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, AtaPortReadRegisterBufferUshort, AtaPortReadRegisterBufferUshort routine [Storage Devices], B, P, R, U, a, atartns_4943b97d-90a0-44d9-adfa-d3bce57e88c9.xml, d, e, f, g, h, i, irb/AtaPortReadRegisterBufferUshort, o, r, s, storage.ataportreadregisterbufferushort, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+<a href="..\irb\nf-irb-ataportreadregisterbufferulong.md">AtaPortReadRegisterBufferUlong</a>
 
 
 
@@ -106,7 +106,7 @@ None
 
 
 
-<a href="..\irb\nf-irb-ataportreadregisterbufferulong.md">AtaPortReadRegisterBufferUlong</a>
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 
 
@@ -114,5 +114,5 @@ None
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortReadRegisterBufferUshort routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortReadRegisterBufferUshort routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

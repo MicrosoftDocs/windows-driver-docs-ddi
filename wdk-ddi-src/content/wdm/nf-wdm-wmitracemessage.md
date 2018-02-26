@@ -7,7 +7,7 @@ old-location: kernel\wmitracemessage.htm
 old-project: kernel
 ms.assetid: 045c45fe-c971-4d41-a43d-415c2a4d464b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , M, T, W, WmiTraceMessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], a, c, e, g, i, k902_114717ae-d439-4ddd-b939-913795610dee.xml, kernel.wmitracemessage, m, r, s, wdm/WmiTraceMessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -250,11 +250,7 @@ All message buffers allocated to software tracing session are full.
 
 ## -see-also
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
 
 
 
@@ -262,7 +258,11 @@ All message buffers allocated to software tracing session are full.
 
 
 
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
 
 
 
@@ -274,5 +274,5 @@ All message buffers allocated to software tracing session are full.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WmiTraceMessage routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WmiTraceMessage routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

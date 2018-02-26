@@ -131,15 +131,15 @@ This function replaces the NDIS 5.1
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

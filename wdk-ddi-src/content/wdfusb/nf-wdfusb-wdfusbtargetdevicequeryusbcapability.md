@@ -108,7 +108,7 @@ Length, in bytes, of the buffer pointed to by <i>CapabilityBuffer</i>.
 ### -param CapabilityBuffer [out, optional]
 
 A pointer to a caller-allocated buffer to receive the requested USB capability. This parameter is optional. If 
-                       <i>CapabilityBufferLength</i> is zero, this parameter must be NULL. Similarly, if <i>CapabilityBufferLength</i> is nonzero, this parameter must be supplied. This parameter corresponds to the <i>OutputBuffer</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a> routine.
+                       <i>CapabilityBufferLength</i> is zero, this parameter must be NULL. Similarly, if <i>CapabilityBufferLength</i> is nonzero, this parameter must be supplied. This parameter corresponds to the <i>OutputBuffer</i> parameter of the <a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a> routine.
 
 
 ### -param ResultLength [out, optional]
@@ -278,11 +278,11 @@ This GUID applies to KMDF and UMDF drivers.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a>
 
 
 

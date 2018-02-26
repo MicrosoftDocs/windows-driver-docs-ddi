@@ -101,11 +101,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md"
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md">IQueueCallbackIoResume</a>
 
 
 
@@ -113,7 +109,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md"
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md">IQueueCallbackIoResume</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

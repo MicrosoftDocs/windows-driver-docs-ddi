@@ -178,10 +178,6 @@ After <i>NdkInitializeFastRegisterMr</i> returns, a fast register work request c
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mr.md">NDK_FN_CREATE_MR</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
 
@@ -190,11 +186,15 @@ After <i>NdkInitializeFastRegisterMr</i> returns, a fast register work request c
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_fast_register.md">NDK_FN_FAST_REGISTER</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mr.md">NDK_FN_CREATE_MR</a>
 
 
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_fast_register.md">NDK_FN_FAST_REGISTER</a>
 
 
 

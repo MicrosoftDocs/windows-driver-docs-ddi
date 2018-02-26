@@ -118,7 +118,7 @@ The caller-supplied <i>CompareRoutine</i> contains pageable code.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
 
 
 
@@ -126,7 +126,7 @@ The caller-supplied <i>CompareRoutine</i> contains pageable code.
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: print\addportui.htm
 old-project: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, AddPortUI, I, P, U, d, o, pfnAddPortUI, pfnAddPortUI function [Print Devices], print.addportui, r, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, t, winsplp/pfnAddPortUI"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -177,15 +177,15 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564254">XcvClosePort</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
 
 
 
 <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564254">XcvClosePort</a>
 
 
 
@@ -197,5 +197,5 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20AddPortUI function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20AddPortUI function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

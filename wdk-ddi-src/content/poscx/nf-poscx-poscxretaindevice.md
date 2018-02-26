@@ -7,7 +7,7 @@ old-location: pos\poscxretaindevice.htm
 old-project: pos
 ms.assetid: 0DF5E1DA-35BA-406A-A708-461534373F12
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, D, P, PosCxRetainDevice, PosCxRetainDevice function, R, a, c, e, i, n, o, pos.poscxretaindevice, poscx/PosCxRetainDevice, s, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

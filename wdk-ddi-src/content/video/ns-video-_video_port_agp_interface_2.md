@@ -7,7 +7,7 @@ old-location: display\video_port_agp_interface_2.htm
 old-project: display
 ms.assetid: 626cbf2d-2841-4b52-b17d-5377aa2f6264
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PVIDEO_PORT_AGP_INTERFACE_2, ,, 2, A, C, D, E, F, G, I, N, O, P, PVIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2 structure pointer [Display Devices], R, T, V, VIDEO_PORT_AGP_INTERFACE_2, VIDEO_PORT_AGP_INTERFACE_2 structure [Display Devices], Video_Structs_99a2957c-7304-4e59-9609-748a5d7b878b.xml, _, _VIDEO_PORT_AGP_INTERFACE_2, display.video_port_agp_interface_2, video/PVIDEO_PORT_AGP_INTERFACE_2, video/VIDEO_PORT_AGP_INTERFACE_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,11 +170,11 @@ This structure is identical to the <a href="..\video\ns-video-_video_port_agp_in
 
 ## -see-also
 
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
+
+
+
 <a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -186,5 +186,5 @@ This structure is identical to the <a href="..\video\ns-video-_video_port_agp_in
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_AGP_INTERFACE_2 structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_AGP_INTERFACE_2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

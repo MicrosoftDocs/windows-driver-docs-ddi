@@ -70,7 +70,7 @@ NTSTATUS AddEntry(
 
 ### -param Translated [in]
 
-Pointer to a translated version of the entry. This parameter points to a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure containing the translated version of the entry to be added.
+Pointer to a translated version of the entry. This parameter points to a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure containing the translated version of the entry to be added.
 
 
 ### -param Untranslated [in]
@@ -112,7 +112,7 @@ Indicates there are no free entries in the list.
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

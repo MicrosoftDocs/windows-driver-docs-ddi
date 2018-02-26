@@ -96,7 +96,7 @@ An NDIS driver might call the
     <b>NdisSystemActiveProcessorCount</b> function during initialization before it allocates resources.
 
 <b>NdisSystemActiveProcessorCount</b> is similar to the 
-    <a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcount.md">
+    <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">
     KeQueryActiveProcessorCount</a> function.
 
 <div class="alert"><b>Note</b>  NDIS drivers should not use 
@@ -124,11 +124,7 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
 
 
 
@@ -136,7 +132,11 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 
 
-<a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 

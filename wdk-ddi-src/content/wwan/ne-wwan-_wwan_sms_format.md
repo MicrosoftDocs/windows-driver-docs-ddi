@@ -123,19 +123,11 @@ CDMA-based devices support only
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
 
 
@@ -143,7 +135,15 @@ CDMA-based devices support only
 
 
 
+<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
 
 
 

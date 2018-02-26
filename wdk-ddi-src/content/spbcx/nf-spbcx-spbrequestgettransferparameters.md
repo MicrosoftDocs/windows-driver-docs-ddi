@@ -156,14 +156,6 @@ for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 
@@ -173,6 +165,14 @@ for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 
 

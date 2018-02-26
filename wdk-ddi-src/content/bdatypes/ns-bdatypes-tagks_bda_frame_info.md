@@ -7,7 +7,7 @@ old-location: stream\ks_bda_frame_info.htm
 old-project: stream
 ms.assetid: df261323-f372-49e7-990a-03c1c5cb743d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKS_BDA_FRAME_INFO, ,, A, B, D, E, F, I, K, KS_BDA_FRAME_INFO, KS_BDA_FRAME_INFO structure [Streaming Media Devices], M, N, O, P, PKS_BDA_FRAME_INFO, PKS_BDA_FRAME_INFO structure pointer [Streaming Media Devices], R, S, _, a, bdaref_62fe9ca5-dca5-4287-83e8-59667d70d953.xml, bdatypes/KS_BDA_FRAME_INFO, bdatypes/PKS_BDA_FRAME_INFO, g, stream.ks_bda_frame_info, t, tagKS_BDA_FRAME_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,5 +112,5 @@ Identifies the reason the packet was transferred.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_BDA_FRAME_INFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_BDA_FRAME_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

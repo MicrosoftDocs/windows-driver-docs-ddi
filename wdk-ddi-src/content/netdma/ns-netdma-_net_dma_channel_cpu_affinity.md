@@ -104,10 +104,6 @@ The NetDMA interface calls
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-
-
 <a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
    ProviderSetDmaChannelCpuAffinity</a>
 
@@ -115,6 +111,10 @@ The NetDMA interface calls
 
 <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 

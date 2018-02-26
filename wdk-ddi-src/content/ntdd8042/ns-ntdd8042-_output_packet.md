@@ -7,7 +7,7 @@ old-location: hid\output_packet.htm
 old-project: hid
 ms.assetid: 1d8d723f-aae5-499e-94cf-c7ccdb24c45f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *POUTPUT_PACKET, ,, A, C, E, K, O, OUTPUT_PACKET, OUTPUT_PACKET structure [Human Input Devices], P, POUTPUT_PACKET, POUTPUT_PACKET structure pointer [Human Input Devices], T, U, _, _OUTPUT_PACKET, hid.output_packet, i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, ntdd8042/OUTPUT_PACKET, ntdd8042/POUTPUT_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,11 +128,11 @@ This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_i
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
+
+
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
-
-
-
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 
 
@@ -140,7 +140,7 @@ This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_i
 
 
 
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
+<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 
 
@@ -148,5 +148,5 @@ This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20OUTPUT_PACKET structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20OUTPUT_PACKET structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

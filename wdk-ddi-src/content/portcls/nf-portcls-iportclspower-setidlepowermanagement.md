@@ -98,15 +98,15 @@ When the <i>bEnabled</i> parameter is set to <b>TRUE</b>, it indicates that the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
 <a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+
+
+
+<a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
 
 
 

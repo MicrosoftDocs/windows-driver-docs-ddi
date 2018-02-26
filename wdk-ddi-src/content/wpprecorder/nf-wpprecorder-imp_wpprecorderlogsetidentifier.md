@@ -7,7 +7,7 @@ old-location: devtest\wpprecorderlogsetidentifier.htm
 old-project: devtest
 ms.assetid: E2687B3C-2BCF-4764-99E0-4495296F14C4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , I, L, R, S, W, WppRecorderLogSetIdentifier, _, c, d, devtest.wpprecorderlogsetidentifier, e, f, g, i, imp_WppRecorderLogSetIdentifier, imp_WppRecorderLogSetIdentifier function [Driver Development Tools], m, n, o, p, r, t, wpprecorder/imp_WppRecorderLogSetIdentifier"
 ms.prod: windows-hardware
 ms.technology: windows-devices

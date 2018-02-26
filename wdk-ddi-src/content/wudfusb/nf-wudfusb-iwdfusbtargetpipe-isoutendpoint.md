@@ -98,11 +98,11 @@ For a code example of how to use the <b>IsOutEndPoint</b> method, see <a href="h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
 
 
 

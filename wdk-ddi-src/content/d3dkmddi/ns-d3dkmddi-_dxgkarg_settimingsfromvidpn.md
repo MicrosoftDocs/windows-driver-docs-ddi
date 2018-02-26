@@ -7,7 +7,7 @@ old-location: display\dxgkarg_settimingsfromvidpn.htm
 old-project: display
 ms.assetid: 14D652C4-9812-481E-8E69-A6D7923F01A3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *IN_OUT_PDXGKARG_SETTIMINGSFROMVIDPN, ,, A, D, DXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN structure [Display Devices], E, F, G, I, K, M, N, O, P, PDXGKARG_SETTIMINGSFROMVIDPN, PDXGKARG_SETTIMINGSFROMVIDPN structure pointer [Display Devices], R, S, T, U, V, X, _, _DXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/DXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/PDXGKARG_SETTIMINGSFROMVIDPN, display.dxgkarg_settimingsfromvidpn"
 ms.prod: windows-hardware
 ms.technology: windows-devices

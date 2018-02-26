@@ -7,7 +7,7 @@ old-location: kernel\wnode_header.htm
 old-project: kernel
 ms.assetid: a895f048-b111-4ccc-8466-fe9b169a2f95
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PWNODE_HEADER, ,, A, D, E, H, N, O, P, PWNODE_HEADER, PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], R, W, WNODE_HEADER, WNODE_HEADER structure [Kernel-Mode Driver Architecture], _, _WNODE_HEADER, kernel.wnode_header, kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, wmistr/PWNODE_HEADER, wmistr/WNODE_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -341,14 +341,6 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_method_item.md">WNODE_METHOD_ITEM</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
@@ -361,7 +353,7 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a>
 
 
 
@@ -369,11 +361,11 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 
 
+<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
 
 
 
@@ -381,9 +373,17 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 
 
- 
+<a href="..\wmistr\ns-wmistr-tagwnode_method_item.md">WNODE_METHOD_ITEM</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_HEADER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: print\cpsuicbparam.htm
 old-project: print
 ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PCPSUICBPARAM, ,, A, B, C, CPSUICBPARAM, CPSUICBPARAM structure [Print Devices], I, M, P, PCPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], R, S, U, _, _CPSUICBPARAM, compstui/CPSUICBPARAM, compstui/PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, print.cpsuicbparam"
 ms.prod: windows-hardware
 ms.technology: windows-devices

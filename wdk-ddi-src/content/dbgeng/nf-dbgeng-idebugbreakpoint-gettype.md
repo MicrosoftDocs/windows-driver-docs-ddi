@@ -7,7 +7,7 @@ old-location: debugger\gettype.htm
 old-project: debugger
 ms.assetid: c6aa6560-3183-4e3a-a625-80d1c5072af5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, B, ComOther_3305c400-f816-463b-a643-4495bf546460.xml, D, G, GetType method [Windows Debugging], GetType method [Windows Debugging], IDebugBreakpoint interface, GetType method [Windows Debugging], IDebugBreakpoint2 interface, GetType,IDebugBreakpoint.GetType, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetType method, IDebugBreakpoint2 interface [Windows Debugging], GetType method, IDebugBreakpoint2::GetType, IDebugBreakpoint::GetType, T, a, b, dbgeng/IDebugBreakpoint2::GetType, dbgeng/IDebugBreakpoint::GetType, debugger.gettype, e, g, i, k, n, o, p, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

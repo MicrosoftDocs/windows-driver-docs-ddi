@@ -7,7 +7,7 @@ old-location: debugger\setcontext.htm
 old-project: debugger
 ms.assetid: ca40f869-2b6e-4317-b568-09c5962b629a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: PWINDBG_SET_THREAD_CONTEXT_ROUTINE, SetContext, SetContext callback function [Windows Debugging], WdbgExts_Ref_1a94f80d-7df9-45d1-9bca-19a18a2efb22.xml, debugger.setcontext, wdbgexts/SetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

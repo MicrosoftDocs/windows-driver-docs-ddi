@@ -131,11 +131,11 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> must be running at 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
 
 
 

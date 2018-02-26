@@ -82,7 +82,7 @@ An NDIS handle that was obtained during caller initialization. For more informat
 
 A pointer to the base virtual address of the buffer that the MDL is to describe.
 
-<div class="alert"><b>Important</b>  <p class="note">The <b>VirtualAddress</b> parameter for <b>NdisAllocateMdl</b> only accepts memory from the nonpaged pool. In other words, it requires memory from <a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>*(NonPagedNx), <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>, or <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>. In particular, it should <b>not</b> be used with memory from the stack, paged pool, driver global data, or other memory regions.
+<div class="alert"><b>Important</b>  <p class="note">The <b>VirtualAddress</b> parameter for <b>NdisAllocateMdl</b> only accepts memory from the nonpaged pool. In other words, it requires memory from <a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>*(NonPagedNx), <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>, or <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>. In particular, it should <b>not</b> be used with memory from the stack, paged pool, driver global data, or other memory regions.
 
 <p class="note">If a driver needs to build an MDL for one of these non-nonpaged pool regions, it should use the appropriate kernel APIs for that type of memory, such as <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a> combined with <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages.</a>
 
@@ -125,19 +125,15 @@ All MDLs that are allocated by calling
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+<a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>
 
 
 
@@ -145,11 +141,15 @@ All MDLs that are allocated by calling
 
 
 
-<a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
 
 

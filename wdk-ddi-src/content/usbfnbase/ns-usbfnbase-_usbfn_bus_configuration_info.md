@@ -4,10 +4,10 @@ title: "_USBFN_BUS_CONFIGURATION_INFO"
 author: windows-driver-content
 description: Configuration packet that stores information about an available USB configuration.
 old-location: buses\usbfn_bus_configuration_info.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 26F11BC8-0F43-4E52-B2E1-2C3C6B327CF0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUSBFN_BUS_CONFIGURATION_INFO, ,, A, B, C, F, G, I, N, O, P, PUSBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO structure pointer [Buses], R, S, T, U, USBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO structure [Buses], _, _USBFN_BUS_CONFIGURATION_INFO, buses.usbfn_bus_configuration_info, usbfnbase/PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/USBFN_BUS_CONFIGURATION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

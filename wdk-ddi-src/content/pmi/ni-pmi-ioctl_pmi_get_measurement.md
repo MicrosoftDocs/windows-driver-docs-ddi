@@ -134,14 +134,6 @@ The <b>IOCTL_PMI_GET_MEASUREMENT</b> request queries the current measurement dat
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
@@ -150,7 +142,15 @@ The <b>IOCTL_PMI_GET_MEASUREMENT</b> request queries the current measurement dat
 
 
 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
 <a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

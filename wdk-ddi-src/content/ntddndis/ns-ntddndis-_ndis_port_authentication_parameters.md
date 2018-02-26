@@ -229,12 +229,12 @@ The NDIS_PORT_AUTHENTICATION_PARAMETERS structure is used in
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

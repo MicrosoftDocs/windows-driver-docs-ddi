@@ -226,11 +226,7 @@ The <b>EVT_WDF_OBJECT_CONTEXT_CLEANUP</b> function type is defined in the Wdfobj
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
 
 
@@ -238,11 +234,15 @@ The <b>EVT_WDF_OBJECT_CONTEXT_CLEANUP</b> function type is defined in the Wdfobj
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
-
-
-
 <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemflush.md">WdfWorkItemFlush</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
 
 
 

@@ -84,15 +84,15 @@ An pointer to an <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_C
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 

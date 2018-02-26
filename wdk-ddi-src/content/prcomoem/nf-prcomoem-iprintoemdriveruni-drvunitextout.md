@@ -7,7 +7,7 @@ old-location: print\iprintoemdriveruni_drvunitextout.htm
 old-project: print
 ms.assetid: f8c21813-9bfd-46a5-abb2-78ac2f2301af
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, DrvUniTextOut method [Print Devices], DrvUniTextOut method [Print Devices], IPrintOemDriverUni interface, DrvUniTextOut,IPrintOemDriverUni.DrvUniTextOut, I, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvUniTextOut method, IPrintOemDriverUni::DrvUniTextOut, O, P, T, U, e, i, m, n, prcomoem/IPrintOemDriverUni::DrvUniTextOut, print.iprintoemdriveruni_drvunitextout, print_unidrv-pscript_rendering_a67dafd9-26b4-43ad-82f9-e53caca33053.xml, r, t, u, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

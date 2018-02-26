@@ -124,13 +124,12 @@ From the
 
 ## -see-also
 
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
    ProtocolTerminateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
@@ -139,16 +138,17 @@ From the
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
 <a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
    NdisMTerminateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 

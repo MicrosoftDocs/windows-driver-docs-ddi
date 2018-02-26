@@ -98,10 +98,6 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
@@ -115,6 +111,10 @@ None
 
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 

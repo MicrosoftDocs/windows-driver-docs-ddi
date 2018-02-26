@@ -173,15 +173,7 @@ The following code example shows how to create a memory object for a buffer.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a>
 
 
 
@@ -189,11 +181,19 @@ The following code example shows how to create a memory object for a buffer.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 

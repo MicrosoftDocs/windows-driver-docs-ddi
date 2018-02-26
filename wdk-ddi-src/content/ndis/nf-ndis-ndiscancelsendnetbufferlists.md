@@ -148,7 +148,12 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+   ProtocolSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
 
 
@@ -160,17 +165,12 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 
 
-<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
-   ProtocolSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
 
 
 

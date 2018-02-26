@@ -7,7 +7,7 @@ old-location: kernel\wdmlibrtlinitunicodestringex.htm
 old-project: kernel
 ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, I, R, RtlInitUnicodeString, S, U, W, WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], b, c, d, e, g, i, kernel.wdmlibrtlinitunicodestringex, l, m, n, o, r, t, wdmsec/RtlInitUnicodeString, wdmsec/WdmlibRtlInitUnicodeStringEx, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,17 +101,17 @@ Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL &lt;= DISP
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
 
 
 
- 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WdmlibRtlInitUnicodeStringEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WdmlibRtlInitUnicodeStringEx function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

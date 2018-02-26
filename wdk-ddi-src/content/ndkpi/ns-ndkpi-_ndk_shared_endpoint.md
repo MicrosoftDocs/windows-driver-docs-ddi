@@ -89,7 +89,7 @@ NDK provider must set the <b>Dispatch</b> member to its own <a href="..\ndkpi\ns
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint_dispatch.md">NDK_SHARED_ENDPOINT_DISPATCH</a>
+<a href="https://msdn.microsoft.com/956D3550-11C8-48D0-BCF4-9027515C7C0E">NDKPI Listeners, Connectors, and Endpoints</a>
 
 
 
@@ -97,7 +97,7 @@ NDK provider must set the <b>Dispatch</b> member to its own <a href="..\ndkpi\ns
 
 
 
-<a href="https://msdn.microsoft.com/956D3550-11C8-48D0-BCF4-9027515C7C0E">NDKPI Listeners, Connectors, and Endpoints</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint_dispatch.md">NDK_SHARED_ENDPOINT_DISPATCH</a>
 
 
 

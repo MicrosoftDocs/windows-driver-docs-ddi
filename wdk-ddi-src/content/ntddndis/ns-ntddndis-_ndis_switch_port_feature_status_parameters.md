@@ -182,7 +182,7 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_custom.md">
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598274">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>
 
 
 
@@ -194,7 +194,7 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_custom.md">
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598274">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

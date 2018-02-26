@@ -7,7 +7,7 @@ old-location: print\ipartthumbnail_setthumbnailcontent.htm
 old-project: print
 ms.assetid: 7392aa0b-479a-473f-b8b5-34e14494e050
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, I, IPartThumbnail, IPartThumbnail interface [Print Devices], SetThumbnailContent method, IPartThumbnail::SetThumbnailContent, P, S, SetThumbnailContent method [Print Devices], SetThumbnailContent method [Print Devices], IPartThumbnail interface, SetThumbnailContent,IPartThumbnail.SetThumbnailContent, T, a, b, e, filterpipeline/IPartThumbnail::SetThumbnailContent, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, h, i, l, m, n, o, print.ipartthumbnail_setthumbnailcontent, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

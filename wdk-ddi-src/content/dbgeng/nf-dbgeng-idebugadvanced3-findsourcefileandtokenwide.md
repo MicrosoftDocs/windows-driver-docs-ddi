@@ -7,7 +7,7 @@ old-location: debugger\findsourcefileandtokenwide.htm
 old-project: debugger
 ms.assetid: f406e755-dc46-4228-b70f-3520d3cb46a3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, :, A, D, F, FindSourceFileAndTokenWide method [Windows Debugging], FindSourceFileAndTokenWide method [Windows Debugging], IDebugAdvanced3 interface, FindSourceFileAndTokenWide,IDebugAdvanced3.FindSourceFileAndTokenWide, I, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndTokenWide method, IDebugAdvanced3::FindSourceFileAndTokenWide, S, T, W, a, b, c, d, dbgeng/IDebugAdvanced3::FindSourceFileAndTokenWide, debugger.findsourcefileandtokenwide, e, g, i, k, l, n, o, r, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -218,6 +218,18 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
 
@@ -226,21 +238,9 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced3::FindSourceFileAndTokenWide method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced3::FindSourceFileAndTokenWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: stream\ks_video_stream_config_caps.htm
 old-project: stream
 ms.assetid: a8089653-a14b-4542-bf20-b1b596b1b4ea
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKS_VIDEO_STREAM_CONFIG_CAPS, ,, A, C, D, E, F, G, I, K, KS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS structure [Streaming Media Devices], M, N, O, P, PKS_VIDEO_STREAM_CONFIG_CAPS, PKS_VIDEO_STREAM_CONFIG_CAPS structure pointer [Streaming Media Devices], R, S, T, V, _, _KS_VIDEO_STREAM_CONFIG_CAPS, ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS, ksmedia/PKS_VIDEO_STREAM_CONFIG_CAPS, stream.ks_video_stream_config_caps, vidcapstruct_43cae18b-0430-4a1e-9bac-7de2e32388a6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -463,7 +463,7 @@ The <b>MinCroppingSize</b>, <b>MaxCroppingSize</b>, <b>CropGranularityX</b>, <b>
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
+<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
@@ -471,7 +471,7 @@ The <b>MinCroppingSize</b>, <b>MaxCroppingSize</b>, <b>CropGranularityX</b>, <b>
 
 
 
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
 
 
@@ -479,5 +479,5 @@ The <b>MinCroppingSize</b>, <b>MaxCroppingSize</b>, <b>CropGranularityX</b>, <b>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEO_STREAM_CONFIG_CAPS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEO_STREAM_CONFIG_CAPS structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

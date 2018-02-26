@@ -84,7 +84,11 @@ Minifilters must not attempt to free or replace the buffer in the <a href="..\wu
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltcheckandgrownamecontrol.md">FltCheckAndGrowNameControl</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
 
 
 
@@ -96,11 +100,7 @@ Minifilters must not attempt to free or replace the buffer in the <a href="..\wu
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcheckandgrownamecontrol.md">FltCheckAndGrowNameControl</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
 
 
 

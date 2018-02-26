@@ -7,7 +7,7 @@ old-location: storage\storportallocatehostmemorybuffer.htm
 old-project: storage
 ms.assetid: B8413B02-32A6-40AE-9DD2-C25AD2D2D45C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, H, M, P, S, StorPortAllocateHostMemoryBuffer, StorPortAllocateHostMemoryBuffer routine [Storage Devices], a, c, e, f, l, m, o, r, s, storage.storportallocatehostmemorybuffer, storport/StorPortAllocateHostMemoryBuffer, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -221,5 +221,5 @@ The host memory buffer could not be allocated.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortAllocateHostMemoryBuffer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortAllocateHostMemoryBuffer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

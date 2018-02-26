@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg-open-crypto-session-0030.htm
 old-project: display
 ms.assetid: 8b500956-6d22-4862-b9e4-e3cb545fcc0e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDIARG_OPEN_CRYPTO_SESSION_0030, D3D12DDIARG_OPEN_CRYPTO_SESSION_0030 structure [Display Devices], E, G, I, N, O, P, R, S, T, Y, _, d3d12umddi/D3D12DDIARG_OPEN_CRYPTO_SESSION_0030, display.d3d12ddiarg-open-crypto-session-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices

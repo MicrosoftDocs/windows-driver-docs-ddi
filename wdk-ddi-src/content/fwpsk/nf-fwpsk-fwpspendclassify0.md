@@ -192,11 +192,15 @@ FwpsPendClassify0 increments the reference count for the classification handle p
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
 
 
 
@@ -204,11 +208,7 @@ FwpsPendClassify0 increments the reference count for the classification handle p
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
 
 
 

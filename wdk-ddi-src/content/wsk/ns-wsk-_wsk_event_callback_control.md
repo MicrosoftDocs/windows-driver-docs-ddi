@@ -115,20 +115,20 @@ For more information about enabling and disabling a socket's event callback func
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
    WSK_SET_STATIC_EVENT_CALLBACKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 

@@ -110,7 +110,7 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
+<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
 
 
 
@@ -118,7 +118,7 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
+<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
 
 
 

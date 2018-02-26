@@ -180,11 +180,7 @@ After a driver has consumed and, possibly, modified the configuration informatio
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -193,7 +189,11 @@ After a driver has consumed and, possibly, modified the configuration informatio
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
 
 
@@ -201,15 +201,15 @@ After a driver has consumed and, possibly, modified the configuration informatio
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 
 

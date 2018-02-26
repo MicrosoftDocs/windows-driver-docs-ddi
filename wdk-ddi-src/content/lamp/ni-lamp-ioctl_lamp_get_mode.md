@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_get_mode.htm
 old-project: stream
 ms.assetid: 741FFB14-B6F1-452B-AD8A-E82C0E34CB6A
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IOCTL_LAMP_GET_MODE, IOCTL_LAMP_GET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_MODE, stream.ioctl_lamp_get_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

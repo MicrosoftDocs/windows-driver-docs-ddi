@@ -109,7 +109,7 @@ The WDF_DRIVER_INIT_FLAGS enumeration is used to specify the value for the <b>Dr
 
 ## -see-also
 
-<a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
 
 
 
@@ -117,7 +117,7 @@ The WDF_DRIVER_INIT_FLAGS enumeration is used to specify the value for the <b>Dr
 
 
 
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+<a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
 
 
 

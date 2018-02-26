@@ -7,7 +7,7 @@ old-location: debugger\getconstantname.htm
 old-project: debugger
 ms.assetid: bb308ee7-e8bc-49c0-b1f9-199af7dca289
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, D, G, GetConstantName method [Windows Debugging], GetConstantName method [Windows Debugging], IDebugSymbols2 interface, GetConstantName method [Windows Debugging], IDebugSymbols3 interface, GetConstantName,IDebugSymbols2.GetConstantName, I, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetConstantName method, IDebugSymbols2::GetConstantName, IDebugSymbols3 interface [Windows Debugging], GetConstantName method, IDebugSymbols3::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, N, S, a, b, dbgeng/IDebugSymbols2::GetConstantName, dbgeng/IDebugSymbols3::GetConstantName, debugger.getconstantname, e, g, l, m, n, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

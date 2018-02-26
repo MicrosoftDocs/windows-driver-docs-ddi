@@ -7,7 +7,7 @@ old-location: kernel\pofxregisterdevice.htm
 old-project: kernel
 ms.assetid: 41A8B278-3735-41CB-B8D1-45FBF04465AD
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, F, P, PoFxRegisterDevice, PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], R, c, e, g, i, kernel.pofxregisterdevice, o, r, s, t, v, wdm/PoFxRegisterDevice, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,15 +165,11 @@ For information about how the KMDF driver for a multiple-component device regist
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
-
-
-
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
 
 
 
@@ -181,11 +177,15 @@ For information about how the KMDF driver for a multiple-component device regist
 
 
 
-<a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxstartdevicepowermanagement.md">PoFxStartDevicePowerManagement</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
 
 
 
@@ -197,5 +197,5 @@ For information about how the KMDF driver for a multiple-component device regist
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxRegisterDevice routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxRegisterDevice routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

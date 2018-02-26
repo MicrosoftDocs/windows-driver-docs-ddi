@@ -4,10 +4,10 @@ title: "_URB_CONTROL_TRANSFER"
 author: windows-driver-content
 description: The _URB_CONTROL_TRANSFER structure is used by USB client drivers to transfer data to or from a control pipe.
 old-location: buses\_urb_control_transfer.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: ee557112-ada3-4906-a8f3-e59b59ab2bc1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, C, E, F, L, N, O, R, S, T, U, USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _, _URB_CONTROL_TRANSFER, _URB_CONTROL_TRANSFER structure [Buses], buses._urb_control_transfer, usb/_URB_CONTROL_TRANSFER, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -203,11 +203,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
 <a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -215,7 +215,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -223,5 +223,5 @@ The reserved members of this structure must be treated as opaque and are reserve
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20_URB_CONTROL_TRANSFER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_CONTROL_TRANSFER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

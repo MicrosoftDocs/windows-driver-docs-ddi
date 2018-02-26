@@ -4,10 +4,10 @@ title: IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION
 author: windows-driver-content
 description: The IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION I/O control request retrieves one or more descriptors for the device that is associated with the indicated port index.IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION is a user-mode I/O control request.
 old-location: buses\ioctl_usb_get_descriptor_from_node_connection.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 60b41f73-ef12-4d3f-9df4-8958ab66bf14
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control code [Buses], buses.ioctl_usb_get_descriptor_from_node_connection, usbioctl/IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, usbirp_060f6333-3fe9-4a4b-8ff1-f7403a3e8dfe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,5 +125,5 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

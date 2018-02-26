@@ -213,15 +213,15 @@ The unnamed 25-bitfield between the <b>UnsolicitedResponse</b> and <b>HasFifoOve
 
 ## -see-also
 
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 
 
 <a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
 
 
 

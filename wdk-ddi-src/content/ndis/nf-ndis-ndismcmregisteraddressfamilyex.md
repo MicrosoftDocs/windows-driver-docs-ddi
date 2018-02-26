@@ -206,15 +206,24 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+   NdisCmRegisterAddressFamilyEx</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
@@ -230,21 +239,12 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 
 
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
    ProtocolCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
-   NdisCmRegisterAddressFamilyEx</a>
 
 
 

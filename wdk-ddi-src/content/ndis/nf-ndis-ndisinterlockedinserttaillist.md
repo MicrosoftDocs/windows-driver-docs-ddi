@@ -122,8 +122,7 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
-   NdisInterlockedRemoveHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
 
 
@@ -131,16 +130,17 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
-   NdisInterlockedInsertHeadList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+   NdisInterlockedRemoveHeadList</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
+   NdisInterlockedInsertHeadList</a>
 
 
 

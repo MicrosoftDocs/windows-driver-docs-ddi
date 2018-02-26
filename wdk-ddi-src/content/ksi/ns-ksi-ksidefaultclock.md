@@ -7,7 +7,7 @@ old-location: stream\ksidefaultclock.htm
 old-project: stream
 ms.assetid: 08509C28-DDD4-4060-A16A-857A6BF6F6E1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSIDEFAULTCLOCK, ,, A, C, D, E, F, I, K, KSIDEFAULTCLOCK, KSIDEFAULTCLOCK structure [Streaming Media Devices], L, O, P, PKSIDEFAULTCLOCK, PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices], S, T, U, ksi/KSIDEFAULTCLOCK, ksi/PKSIDEFAULTCLOCK, stream.ksidefaultclock"
 ms.prod: windows-hardware
 ms.technology: windows-devices

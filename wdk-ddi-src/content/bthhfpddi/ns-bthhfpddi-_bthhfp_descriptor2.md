@@ -125,19 +125,19 @@ When <i>SupportsNREC</i> is set to FALSE, the audio driver should support RAW mo
 
 ## -see-also
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues.md">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
 
 
 <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor2.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2</a>
+
+
+
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues.md">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
 
 
 

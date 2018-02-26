@@ -7,8 +7,8 @@ old-location: image\istillimage_getdevicevalue.htm
 old-project: image
 ms.assetid: 506c50fa-f162-4b30-bfb9-91987e064c39
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, D, G, GetDeviceValue method [Imaging Devices], GetDeviceValue method [Imaging Devices], IStillImage interface, GetDeviceValue,IStillImageW.GetDeviceValue, I, IStillImage interface [Imaging Devices], GetDeviceValue method, IStillImage::GetDeviceValue, IStillImageW, IStillImageW::GetDeviceValue, S, V, W, a, c, e, g, i, image.istillimage_getdevicevalue, l, m, sti/IStillImage::GetDeviceValue, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml, t, u, v"
+ms.date: 2/23/2018
+ms.keywords: ",  , ,, ., :, D, G, GetDeviceValue method [Imaging Devices], GetDeviceValue method [Imaging Devices], IStillImageW interface, GetDeviceValue,IStillImageW.GetDeviceValue, I, IStillImageW, IStillImageW interface [Imaging Devices], GetDeviceValue method, IStillImageW::GetDeviceValue, S, V, W, a, c, e, g, i, image.istillimage_getdevicevalue, l, m, sti/IStillImageW::GetDeviceValue, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	sti.h
 apiname:
--	IStillImage.GetDeviceValue
+-	IStillImageW.GetDeviceValue
 product: Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
@@ -125,9 +125,13 @@ Before calling <b>IStillImage::GetDeviceValue</b>, clients of the <b>IStillImage
 
 
 
- 
+<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStillImage::GetDeviceValue method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStillImageW::GetDeviceValue method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

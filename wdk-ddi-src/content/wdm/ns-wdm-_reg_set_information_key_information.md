@@ -7,7 +7,7 @@ old-location: kernel\reg_set_information_key_information.htm
 old-project: kernel
 ms.assetid: 30b29bda-9cd9-4fc8-b168-e66f69b82358
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PREG_SET_INFORMATION_KEY_INFORMATION, ,, A, E, F, G, I, K, M, N, O, P, PREG_SET_INFORMATION_KEY_INFORMATION, PREG_SET_INFORMATION_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, REG_SET_INFORMATION_KEY_INFORMATION, REG_SET_INFORMATION_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], S, T, Y, _, _REG_SET_INFORMATION_KEY_INFORMATION, kernel.reg_set_information_key_information, kstruct_d_f6265b80-6f92-4856-bb8e-49cc97a1c553.xml, wdm/PREG_SET_INFORMATION_KEY_INFORMATION, wdm/REG_SET_INFORMATION_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,17 +120,17 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_SET_INFORMATION_KEY_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_SET_INFORMATION_KEY_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USB_GET_BUS_INFO
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_BUS_INFO I/O request queries the bus driver for certain bus information.
 old-location: buses\ioctl_internal_usb_get_bus_info.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 31a5a829-1bb7-45cb-93b0-e899f7737df2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_BUS_INFO, IOCTL_INTERNAL_USB_GET_BUS_INFO control code [Buses], buses.ioctl_internal_usb_get_bus_info, usbioctl/IOCTL_INTERNAL_USB_GET_BUS_INFO, usbirp_6f2e2c9c-3bbc-40bd-a2e7-6fc79cfcc02b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,5 +121,5 @@ The bus or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20IOCTL_INTERNAL_USB_GET_BUS_INFO control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_INTERNAL_USB_GET_BUS_INFO control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

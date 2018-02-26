@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorlinkinfo_usagehints.htm
 old-project: display
 ms.assetid: 4FC2509A-9983-41F8-901F-60DCEDBC163F
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDXGK_MONITORLINKINFO_USAGEHINTS, ,, A, D, DXGK_MONITORLINKINFO_USAGEHINTS, DXGK_MONITORLINKINFO_USAGEHINTS union [Display Devices], E, F, G, H, I, K, L, M, N, O, P, PDXGK_MONITORLINKINFO_USAGEHINTS, PDXGK_MONITORLINKINFO_USAGEHINTS union pointer [Display Devices], R, S, T, U, X, _, _DXGK_MONITORLINKINFO_USAGEHINTS, d3dkmdt/DXGK_MONITORLINKINFO_USAGEHINTS, d3dkmdt/PDXGK_MONITORLINKINFO_USAGEHINTS, display.dxgk_monitorlinkinfo_usagehints"
 ms.prod: windows-hardware
 ms.technology: windows-devices

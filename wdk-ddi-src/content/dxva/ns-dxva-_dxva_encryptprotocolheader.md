@@ -7,7 +7,7 @@ old-location: display\dxva_encryptprotocolheader.htm
 old-project: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPDXVA_EncryptProtocolHeader, ,, A, D, DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], E, H, L, LPDXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], P, V, X, _, _DXVA_EncryptProtocolHeader, a, c, d, display.dxva_encryptprotocolheader, dxva/DXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml, e, l, n, o, p, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

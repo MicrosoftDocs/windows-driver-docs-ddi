@@ -7,7 +7,7 @@ old-location: storage\hba_sendctpassthruv2.htm
 old-project: storage
 ms.assetid: 95526c2d-19bf-4f4a-abfa-e5be73c1a6a5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , 2, A, B, C, H, HBA_SendCTPassThruV2, HBA_SendCTPassThruV2 routine [Storage Devices], P, S, T, V, _, a, d, e, fibreHBA_rtns_8ed894f5-3f6c-4b71-a149-8e5624643aa0.xml, h, hbaapi/HBA_SendCTPassThruV2, n, r, s, storage.hba_sendctpassthruv2, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,11 +138,11 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
 
 
 
@@ -150,7 +150,7 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
 
 
 
@@ -158,5 +158,5 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendCTPassThruV2 routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendCTPassThruV2 routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

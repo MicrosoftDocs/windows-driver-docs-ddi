@@ -342,7 +342,7 @@ The maximum value for this enumeration.
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
+<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
 
 
 
@@ -350,39 +350,7 @@ The maximum value for this enumeration.
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_origin.md">TOKEN_ORIGIN</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -390,7 +358,47 @@ The maximum value for this enumeration.
 
 
 
+<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_origin.md">TOKEN_ORIGIN</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
+
+
+
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
 
 
 
@@ -398,15 +406,7 @@ The maximum value for this enumeration.
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
-
-
-
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
 
 
 

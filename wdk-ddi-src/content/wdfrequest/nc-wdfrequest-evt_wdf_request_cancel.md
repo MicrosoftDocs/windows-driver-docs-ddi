@@ -148,7 +148,7 @@ The <b>EVT_WDF_REQUEST_CANCEL</b> function type is defined in the Wdfrequest.h h
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 
 
@@ -156,7 +156,7 @@ The <b>EVT_WDF_REQUEST_CANCEL</b> function type is defined in the Wdfrequest.h h
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
 
 
 

@@ -378,7 +378,19 @@ Any server port that is created by <b>FltCreateCommunicationPort</b> must eventu
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltfreesecuritydescriptor.md">FltFreeSecurityDescriptor</a>
+
+
+
 <a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
 
 
 
@@ -386,7 +398,27 @@ Any server port that is created by <b>FltCreateCommunicationPort</b> must eventu
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
@@ -398,43 +430,11 @@ Any server port that is created by <b>FltCreateCommunicationPort</b> must eventu
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreesecuritydescriptor.md">FltFreeSecurityDescriptor</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
 
 
 

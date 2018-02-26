@@ -7,7 +7,7 @@ old-location: storage\storage_zones_attributes.htm
 old-project: storage
 ms.assetid: 6C86A931-C87C-4273-9409-A45A3FDB8B4C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSTORAGE_ZONES_ATTRIBUTES, ,, A, B, E, G, I, N, O, P, PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], R, S, STORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], T, U, Z, ZonesAttributeTypeAndLengthMayDifferent, ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeSameLastZoneLengthDifferent, ZonesAttributeTypeSameLengthSame, _, _STORAGE_ZONES_ATTRIBUTES, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeMayDifferentLengthSame, ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent, ntddstor/ZonesAttributeTypeSameLengthSame, storage.storage_zones_attributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices

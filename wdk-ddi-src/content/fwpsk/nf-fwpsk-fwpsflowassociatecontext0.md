@@ -203,11 +203,7 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -215,15 +211,7 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>
-
-
-
-<a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
 
 
 
@@ -232,6 +220,18 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>
+
+
+
+<a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
 
 
 

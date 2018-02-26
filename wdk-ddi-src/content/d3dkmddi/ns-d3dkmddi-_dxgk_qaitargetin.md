@@ -7,7 +7,7 @@ old-location: display\dxgk_qaitargetin.htm
 old-project: display
 ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DXGK_QAITARGETIN, DXGK_QAITARGETIN structure [Display Devices], DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QUERYINTEGRATEDDISPLAYIN, E, G, I, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y, _, _DXGK_QAITARGETIN, d3dkmddi/DXGK_QAITARGETIN, display.dxgk_qaitargetin"
 ms.prod: windows-hardware
 ms.technology: windows-devices

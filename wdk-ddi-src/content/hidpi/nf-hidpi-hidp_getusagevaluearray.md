@@ -7,7 +7,7 @@ old-location: hid\hidp_getusagevaluearray.htm
 old-project: hid
 ms.assetid: afc92692-c665-44a7-b268-d29adc42f5bd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, G, H, HidP_GetUsageValueArray, HidP_GetUsageValueArray routine [Human Input Devices], P, U, V, _, a, d, e, g, hid.hidp_getusagevaluearray, hidfunc_4e641f34-d016-4b2f-b472-069334d3e461.xml, hidpi/HidP_GetUsageValueArray, i, l, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -243,11 +243,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
+<a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
 
 
 
@@ -255,15 +251,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getscaledusagevalue.md">HidP_GetScaledUsageValue</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
 
 
 
@@ -275,7 +263,19 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
+
+
+
+<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getscaledusagevalue.md">HidP_GetScaledUsageValue</a>
 
 
 
@@ -283,5 +283,5 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetUsageValueArray routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetUsageValueArray routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

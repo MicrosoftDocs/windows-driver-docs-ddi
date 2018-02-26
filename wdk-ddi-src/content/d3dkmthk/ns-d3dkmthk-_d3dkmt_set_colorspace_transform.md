@@ -7,7 +7,7 @@ old-location: display\d3dkmt-set-colorspace-transform.htm
 old-project: display
 ms.assetid: 253c689d-ce30-4065-920a-030e3e9f3b8e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_SET_COLORSPACE_TRANSFORM, D3DKMT_SET_COLORSPACE_TRANSFORM structure [Display Devices], E, F, K, L, M, N, O, P, R, S, T, _, _D3DKMT_SET_COLORSPACE_TRANSFORM, d3dkmthk/D3DKMT_SET_COLORSPACE_TRANSFORM, display.d3dkmt-set-colorspace-transform"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -106,11 +106,7 @@ Drivers must explicitly free all ECP context structures and ECP lookaside lists 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
+<a href="..\ntifs\nf-ntifs-fsrtlinitextracreateparameterlookasidelist.md">FsRtlInitExtraCreateParameterLookasideList</a>
 
 
 
@@ -118,7 +114,11 @@ Drivers must explicitly free all ECP context structures and ECP lookaside lists 
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinitextracreateparameterlookasidelist.md">FsRtlInitExtraCreateParameterLookasideList</a>
+<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
 
 
 

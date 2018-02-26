@@ -7,7 +7,7 @@ old-location: debugger\getcurrentprocesshandle.htm
 old-project: debugger
 ms.assetid: b6780f1c-e093-4d91-8909-dabb1ecaefaa
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, G, GetCurrentProcessHandle, GetCurrentProcessHandle function [Windows Debugging], H, P, WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, a, c, d, debugger.getcurrentprocesshandle, e, l, n, o, r, s, t, u, wdbgexts/GetCurrentProcessHandle"
 ms.prod: windows-hardware
 ms.technology: windows-devices

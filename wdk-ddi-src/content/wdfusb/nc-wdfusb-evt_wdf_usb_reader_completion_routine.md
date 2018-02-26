@@ -193,11 +193,11 @@ The <b>EVT_WDF_USB_READER_COMPLETION_ROUTINE</b> function type is defined in the
 
 
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
-
-
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
 
 
 

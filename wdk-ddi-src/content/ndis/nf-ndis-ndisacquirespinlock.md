@@ -125,16 +125,12 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
    MiniportSynchronizeInterrupt</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
 
 
 
@@ -143,6 +139,10 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 

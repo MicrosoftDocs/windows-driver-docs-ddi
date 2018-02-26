@@ -7,7 +7,7 @@ old-location: stream\bdacheckchanges.htm
 old-project: stream
 ms.assetid: 4831e13b-19e7-458c-a392-a135d43fc989
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, BdaCheckChanges, BdaCheckChanges function [Streaming Media Devices], C, a, bdaref_d60c7f03-8188-4be5-807c-e21384429341.xml, bdasup/BdaCheckChanges, c, d, e, g, h, k, n, s, stream.bdacheckchanges"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,14 +100,6 @@ A BDA minidriver calls the <b>BdaCheckChanges</b> function to verify a group of 
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
-
-
-
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
 
 
@@ -116,9 +108,17 @@ A BDA minidriver calls the <b>BdaCheckChanges</b> function to verify a group of 
 
 
 
- 
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaCheckChanges function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaCheckChanges function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

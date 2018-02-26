@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_video_present_target.htm
 old-project: display
 ms.assetid: e36aba12-51fc-486c-a92c-47f72a4bcb0a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, D, D3DKMDT_VIDEO_PRESENT_TARGET, D3DKMDT_VIDEO_PRESENT_TARGET structure [Display Devices], DmStructs_ef451c58-7ee5-4c52-9afe-9aab45114186.xml, E, G, I, K, M, N, O, P, R, S, T, V, _, _D3DKMDT_VIDEO_PRESENT_TARGET, d3dkmdt/D3DKMDT_VIDEO_PRESENT_TARGET, display.d3dkmdt_video_present_target"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ For more information about video present targets, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_source.md">D3DKMDT_VIDEO_PRESENT_SOURCE</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 
 
@@ -119,17 +119,17 @@ For more information about video present targets, see <a href="https://msdn.micr
 
 
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_source.md">D3DKMDT_VIDEO_PRESENT_SOURCE</a>
+
+
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDEO_PRESENT_TARGET structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDEO_PRESENT_TARGET structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

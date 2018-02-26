@@ -109,11 +109,7 @@ A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>Se
 
 
 
-<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
+<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 
 
 
@@ -121,7 +117,11 @@ A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>Se
 
 
 
-<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
 
 
 

@@ -185,19 +185,7 @@ The caller of
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
 
 
@@ -205,7 +193,19 @@ The caller of
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
 
 

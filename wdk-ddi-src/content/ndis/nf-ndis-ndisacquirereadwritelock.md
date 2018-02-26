@@ -159,16 +159,12 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
    MiniportSynchronizeInterrupt</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisReleaseReadWriteLock</a>
+<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
 
 
 
@@ -181,11 +177,15 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
+<a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisReleaseReadWriteLock</a>
 
 
 

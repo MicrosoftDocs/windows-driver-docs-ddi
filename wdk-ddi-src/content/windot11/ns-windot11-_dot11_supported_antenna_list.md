@@ -181,11 +181,11 @@ Return NDIS_STATUS_SUCCESS from its
 
 
 
-<a href="..\windot11\ns-windot11-_dot11_supported_antenna.md">DOT11_SUPPORTED_ANTENNA</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_supported_antenna.md">DOT11_SUPPORTED_ANTENNA</a>
 
 
 

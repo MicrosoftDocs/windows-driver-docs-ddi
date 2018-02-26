@@ -7,7 +7,7 @@ old-location: print\gdigetpagecount.htm
 old-project: print
 ms.assetid: 0a101b59-c610-4158-97a8-002222a94309
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, G, GdiGetPageCount, GdiGetPageCount function [Print Devices], P, a, d, e, g, gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml, i, n, o, print.gdigetpagecount, t, u, winppi/GdiGetPageCount"
 ms.prod: windows-hardware
 ms.technology: windows-devices

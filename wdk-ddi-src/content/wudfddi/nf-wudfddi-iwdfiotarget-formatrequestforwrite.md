@@ -118,15 +118,15 @@ A pointer to the device offset that is used for the write request. This paramete
 
 
 
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 
 

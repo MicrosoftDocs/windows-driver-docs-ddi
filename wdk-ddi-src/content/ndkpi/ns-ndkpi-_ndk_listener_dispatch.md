@@ -107,15 +107,11 @@ The <b>NDK_LISTENER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-n
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_control_connect_events.md">NDK_FN_CONTROL_CONNECT_EVENTS</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_listener_local_address.md">NDK_FN_GET_LISTENER_LOCAL_ADDRESS</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_control_connect_events.md">NDK_FN_CONTROL_CONNECT_EVENTS</a>
 
 
 
@@ -123,11 +119,15 @@ The <b>NDK_LISTENER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-n
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_listener_local_address.md">NDK_FN_GET_LISTENER_LOCAL_ADDRESS</a>
 
 
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 

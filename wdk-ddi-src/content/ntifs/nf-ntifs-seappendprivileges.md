@@ -128,15 +128,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-
-
-
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
+<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
 
 
 
@@ -144,11 +136,19 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
+
+
+
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+
+
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
 
 
 

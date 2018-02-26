@@ -7,7 +7,7 @@ old-location: dtf\iwdtftarget2_context.htm
 old-project: dtf
 ms.assetid: e7a19b73-3393-4ab4-a967-c00b46f81a9e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, Context property [Windows Device Testing Framework], Context property [Windows Device Testing Framework], IWDTFTarget2 interface, D, F, I, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], Context property, IWDTFTarget2.Context, IWDTFTarget2::get_Context, IWDTFTarget2::put_Context, Microsoft.WDTF.IWDTFTarget2.Context, Microsoft::WDTF::IWDTFTarget2::Context, T, W, _, a, dtf.iwdtftarget2_context, e, g, get_Context,IWDTFTarget2.get_Context, n, ntddk/IWDTFTarget2::Context, ntddk/IWDTFTarget2::get_Context, ntddk/IWDTFTarget2::put_Context, o, p, put_Context,IWDTFTarget2.put_Context, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,5 +106,5 @@ see <a href="https://msdn.microsoft.com/f9e3de20-28be-40c6-802c-f4637b3f6c20">Cr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFTarget2::Context property%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFTarget2::Context property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

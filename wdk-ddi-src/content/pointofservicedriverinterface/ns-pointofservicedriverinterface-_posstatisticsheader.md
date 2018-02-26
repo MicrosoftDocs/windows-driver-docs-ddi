@@ -7,7 +7,7 @@ old-location: pos\posstatisticsheader.htm
 old-project: pos
 ms.assetid: 75567f14-07fe-4861-9f78-e4de6d0bb023
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, H, P, PosStatisticsHeader, PosStatisticsHeader structure, S, _, _PosStatisticsHeader, a, c, d, e, i, o, pointofservicedriverinterface/PosStatisticsHeader, pos.posstatisticsheader, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

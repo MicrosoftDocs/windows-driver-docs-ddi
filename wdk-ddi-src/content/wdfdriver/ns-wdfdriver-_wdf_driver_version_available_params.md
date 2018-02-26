@@ -98,11 +98,11 @@ The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure is used as input to the <a hre
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md">WdfDriverIsVersionAvailable</a>
-
-
-
 <a href="..\wdfdriver\nf-wdfdriver-wdf_driver_version_available_params_init.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md">WdfDriverIsVersionAvailable</a>
 
 
 

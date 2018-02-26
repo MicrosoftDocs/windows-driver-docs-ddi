@@ -193,15 +193,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
@@ -209,11 +201,19 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
 
 

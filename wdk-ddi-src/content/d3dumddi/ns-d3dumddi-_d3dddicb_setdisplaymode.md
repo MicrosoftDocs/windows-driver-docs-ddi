@@ -7,7 +7,7 @@ old-location: display\d3dddicb_setdisplaymode.htm
 old-project: display
 ms.assetid: d2f6d53b-2dd7-46ed-8d1e-dea264da4046
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDICB_SETDISPLAYMODE, D3DDDICB_SETDISPLAYMODE structure [Display Devices], D3D_param_Structs_4aeee940-b195-4020-ad42-b69a2f34f93e.xml, E, I, L, M, O, P, S, T, Y, _, _D3DDDICB_SETDISPLAYMODE, d3dumddi/D3DDDICB_SETDISPLAYMODE, display.d3dddicb_setdisplaymode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,10 +89,6 @@ The user-mode display driver can set the <b>hPrimaryAllocation</b> member in the
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
 
@@ -101,9 +97,13 @@ The user-mode display driver can set the <b>hPrimaryAllocation</b> member in the
 
 
 
- 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_SETDISPLAYMODE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_SETDISPLAYMODE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

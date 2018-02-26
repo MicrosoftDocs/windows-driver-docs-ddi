@@ -100,11 +100,11 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtltimetosecondssince1980.md">RtlTimeToSecondsSince1970</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
 
 
 

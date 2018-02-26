@@ -7,7 +7,7 @@ old-location: pos\poscxopen.htm
 old-project: pos
 ms.assetid: 6AB1BB0A-B350-44D7-B0D0-9A19FD6DEE19
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, O, P, PosCxOpen, PosCxOpen function, e, n, o, p, pos.poscxopen, poscx/PosCxOpen, s, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -148,10 +148,6 @@ CUmdfHidFile::OnCleanupFile(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
 
 
@@ -160,11 +156,15 @@ CUmdfHidFile::OnCleanupFile(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
 
 

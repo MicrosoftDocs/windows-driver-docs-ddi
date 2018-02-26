@@ -7,7 +7,7 @@ old-location: storage\sendrnid_out.htm
 old-project: storage
 ms.assetid: 80f264f6-51cb-4125-832b-603ed8417d32
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSendRNID_OUT, ,, D, I, N, O, P, PSendRNID_OUT, PSendRNID_OUT structure pointer [Storage Devices], R, S, SendRNID_OUT, SendRNID_OUT structure [Storage Devices], T, U, _, _SendRNID_OUT, d, e, hbapiwmi/PSendRNID_OUT, hbapiwmi/SendRNID_OUT, n, storage.sendrnid_out, structs-Fibre_fb365ea2-b9ff-4108-af6c-48c2d812eac3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,5 +103,5 @@ The WMI tool suite generates a declaration of the SendRNID_OUT structure in <i>H
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRNID_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRNID_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

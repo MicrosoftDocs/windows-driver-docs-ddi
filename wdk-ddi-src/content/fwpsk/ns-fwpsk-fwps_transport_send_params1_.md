@@ -165,12 +165,15 @@ The length, in bytes, of the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
 <a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync1.md">
-   FwpsInjectTransportSendAsync1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 
@@ -179,11 +182,8 @@ The length, in bytes, of the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync1.md">
+   FwpsInjectTransportSendAsync1</a>
 
 
 

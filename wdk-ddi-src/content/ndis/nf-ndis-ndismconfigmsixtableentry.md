@@ -169,11 +169,11 @@ For the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

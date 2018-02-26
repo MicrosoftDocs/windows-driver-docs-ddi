@@ -160,11 +160,11 @@ Specify the number of charge/discharge cycles the battery has experienced, or ze
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>
-
-
-
 <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>
 
 
 

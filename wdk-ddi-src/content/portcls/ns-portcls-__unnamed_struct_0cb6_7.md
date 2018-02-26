@@ -151,19 +151,11 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536834">IPinCount::PinCount</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565200">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
-
-
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
 
 
 
@@ -171,7 +163,15 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536834">IPinCount::PinCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
+
+
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
 
 
 

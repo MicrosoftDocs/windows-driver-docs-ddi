@@ -159,7 +159,7 @@ The protocol driver must allocate each NET_BUFFER_LIST structure from a pool by 
 </li>
 </ul>
 The protocol driver can preallocate NET_BUFFER_LIST structures--for example, in its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. Alternatively, the protocol
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. Alternatively, the protocol
     driver can allocate the structures immediately prior to calling 
     <b>NdisCoSendNetBufferLists</b> and then can free them when the send operation is complete. When NDIS
     returns a NET_BUFFER_LIST structure to the 
@@ -209,17 +209,7 @@ Until NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
-   NdisAllocateCloneNetBufferList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -227,8 +217,31 @@ Until NDIS calls
 
 
 
+<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+   NdisAllocateCloneNetBufferList</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_co_send_net_buffer_lists.md">
    MiniportCoSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcosendnetbufferlistscomplete.md">
+   NdisMCoSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
@@ -238,19 +251,6 @@ Until NDIS calls
 
 <a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
    ProtocolCoSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcosendnetbufferlistscomplete.md">
-   NdisMCoSendNetBufferListsComplete</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

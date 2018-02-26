@@ -103,12 +103,12 @@ After the IHV Extensions DLL initiates an 802.1X authentication operation, the o
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
    Dot11ExtIhvOneXIndicateResult</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: print\ioctl_usbprint_vendor_get_command.htm
 old-project: print
 ms.assetid: d4e0220b-2efb-4a24-b80a-23225b06dc66
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IOCTL_USBPRINT_VENDOR_GET_COMMAND, IOCTL_USBPRINT_VENDOR_GET_COMMAND control code [Print Devices], print.ioctl_usbprint_vendor_get_command, usbioctl_edd39494-a6bb-4e28-a059-7c7884626105.xml, usbprint/IOCTL_USBPRINT_VENDOR_GET_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,10 +146,6 @@ The size of the output buffer, in bytes.
 
 ## -see-also
 
-<a href="..\usbprint\ni-usbprint-ioctl_usbprint_vendor_set_command.md">IOCTL_USBPRINT_VENDOR_SET_COMMAND</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
@@ -166,9 +162,13 @@ The size of the output buffer, in bytes.
 
 
 
- 
+<a href="..\usbprint\ni-usbprint-ioctl_usbprint_vendor_set_command.md">IOCTL_USBPRINT_VENDOR_SET_COMMAND</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IOCTL_USBPRINT_VENDOR_GET_COMMAND control code%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IOCTL_USBPRINT_VENDOR_GET_COMMAND control code%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

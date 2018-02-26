@@ -101,19 +101,19 @@ The User-Mode Driver Framework (UMDF) allows only one <b>OnCancel</b> method per
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
 
 

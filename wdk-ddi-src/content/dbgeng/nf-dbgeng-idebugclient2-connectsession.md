@@ -7,7 +7,7 @@ old-location: debugger\connectsession.htm
 old-project: debugger
 ms.assetid: 4531bf2f-ef3b-4d4f-b922-3a01a9468ac9
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, ConnectSession method [Windows Debugging], ConnectSession method [Windows Debugging], IDebugClient interface, ConnectSession method [Windows Debugging], IDebugClient2 interface, ConnectSession method [Windows Debugging], IDebugClient3 interface, ConnectSession method [Windows Debugging], IDebugClient4 interface, ConnectSession method [Windows Debugging], IDebugClient5 interface, ConnectSession,IDebugClient.ConnectSession, ConnectSession,IDebugClient2.ConnectSession, D, I, IDebugClient, IDebugClient interface [Windows Debugging], ConnectSession method, IDebugClient2, IDebugClient2 interface [Windows Debugging], ConnectSession method, IDebugClient2::ConnectSession, IDebugClient3 interface [Windows Debugging], ConnectSession method, IDebugClient3::ConnectSession, IDebugClient4 interface [Windows Debugging], ConnectSession method, IDebugClient4::ConnectSession, IDebugClient5 interface [Windows Debugging], ConnectSession method, IDebugClient5::ConnectSession, IDebugClient::ConnectSession, IDebugClient_b6ec9f48-f400-4a91-bf23-dc40dd702a15.xml, S, b, c, dbgeng/IDebugClient2::ConnectSession, dbgeng/IDebugClient3::ConnectSession, dbgeng/IDebugClient4::ConnectSession, dbgeng/IDebugClient5::ConnectSession, dbgeng/IDebugClient::ConnectSession, debugger.connectsession, e, g, i, l, n, o, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,14 +153,6 @@ For more information about debugging clients, see Debugging Server and Debugging
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
@@ -173,7 +165,7 @@ For more information about debugging clients, see Debugging Server and Debugging
 
 
 
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -181,7 +173,15 @@ For more information about debugging clients, see Debugging Server and Debugging
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -189,5 +189,5 @@ For more information about debugging clients, see Debugging Server and Debugging
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::ConnectSession method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::ConnectSession method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

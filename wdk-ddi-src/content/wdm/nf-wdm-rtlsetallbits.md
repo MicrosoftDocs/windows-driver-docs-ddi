@@ -7,7 +7,7 @@ old-location: kernel\rtlsetallbits.htm
 old-project: kernel
 ms.assetid: a379a910-4712-4d77-af52-614a1b9cc511
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, R, RtlSetAllBits, RtlSetAllBits routine [Kernel-Mode Driver Architecture], S, e, i, k109_e7f7eecf-e845-455b-a94d-eccad1ce448a.xml, kernel.rtlsetallbits, l, s, t, wdm/RtlSetAllBits"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,35 +93,11 @@ Callers of <b>RtlSetAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlfindclearbitsandset.md">RtlFindClearBitsAndSet</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlsetbits.md">RtlSetBits</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
+<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
 
 
 
@@ -129,15 +105,7 @@ Callers of <b>RtlSetAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 
@@ -145,9 +113,41 @@ Callers of <b>RtlSetAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 
 
- 
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetbits.md">RtlSetBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlSetAllBits routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlSetAllBits routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

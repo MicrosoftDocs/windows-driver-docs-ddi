@@ -7,7 +7,7 @@ old-location: stream\ks_videoinfo.htm
 old-project: stream
 ms.assetid: e588a844-0b20-418c-9c65-e85f3a992d5c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKS_VIDEOINFO, ,, D, E, F, I, K, KS_VIDEOINFO, KS_VIDEOINFO structure [Streaming Media Devices], N, O, P, PKS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], S, V, _, a, g, ksmedia/KS_VIDEOINFO, ksmedia/PKS_VIDEOINFO, stream.ks_videoinfo, t, tagKS_VIDEOINFO, vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,6 +140,10 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 ## -see-also
 
+<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_rgbquad.md">KS_RGBQUAD</a>
 
 
@@ -148,13 +152,9 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEOINFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEOINFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

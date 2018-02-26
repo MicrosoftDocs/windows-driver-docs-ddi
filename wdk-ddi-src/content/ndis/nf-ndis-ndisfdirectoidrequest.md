@@ -157,12 +157,15 @@ The direct OID request interface is similar to the general OID request interface
 
 
 
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
+<a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
 
 
 
@@ -171,16 +174,7 @@ The direct OID request interface is similar to the general OID request interface
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
@@ -188,7 +182,13 @@ The direct OID request interface is similar to the general OID request interface
 
 
 
-<a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 

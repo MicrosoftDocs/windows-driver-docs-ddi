@@ -7,7 +7,7 @@ old-location: debugger\getdataparameters.htm
 old-project: debugger
 ms.assetid: e281c67a-df97-464e-9996-b15c18172dc4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, B, ComOther_297fe316-4a1a-476b-a804-056bb56b6e77.xml, D, G, GetDataParameters method [Windows Debugging], GetDataParameters method [Windows Debugging], IDebugBreakpoint interface, GetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, GetDataParameters,IDebugBreakpoint.GetDataParameters, GetDataParameters,IDebugBreakpoint2.GetDataParameters, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetDataParameters method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetDataParameters method, IDebugBreakpoint2::GetDataParameters, IDebugBreakpoint::GetDataParameters, P, a, b, dbgeng/IDebugBreakpoint2::GetDataParameters, dbgeng/IDebugBreakpoint::GetDataParameters, debugger.getdataparameters, e, g, i, k, m, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

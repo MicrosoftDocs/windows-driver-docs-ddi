@@ -223,7 +223,7 @@ For a code example of how to use the <b>CreateIoQueue</b> method, see <a href="h
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md">IQueueCallbackIoResume</a>
 
 
 
@@ -231,19 +231,7 @@ For a code example of how to use the <b>CreateIoQueue</b> method, see <a href="h
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackcreate.md">IQueueCallbackCreate</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohandler.md">IQueueCallbackDefaultIoHandler</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md">IQueueCallbackIoResume</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackdeviceiocontrol.md">IQueueCallbackDeviceIoControl</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
 
 
 
@@ -251,11 +239,11 @@ For a code example of how to use the <b>CreateIoQueue</b> method, see <a href="h
 
 
 
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackiostop.md">IQueueCallbackIoStop</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackwrite.md">IQueueCallbackWrite</a>
-
-
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
 
 
 
@@ -263,11 +251,23 @@ For a code example of how to use the <b>CreateIoQueue</b> method, see <a href="h
 
 
 
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohandler.md">IQueueCallbackDefaultIoHandler</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackdeviceiocontrol.md">IQueueCallbackDeviceIoControl</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackcreate.md">IQueueCallbackCreate</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackiostop.md">IQueueCallbackIoStop</a>
 
 
 

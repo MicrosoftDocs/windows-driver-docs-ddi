@@ -150,11 +150,11 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
 
 
 

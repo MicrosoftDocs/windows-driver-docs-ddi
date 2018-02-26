@@ -7,7 +7,7 @@ old-location: image\iwiatransfercallback_transfercallback.htm
 old-project: image
 ms.assetid: dc6c2057-9617-4c69-ac79-2a8f910a1ee2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, I, IWiaTransferCallback, IWiaTransferCallback interface [Imaging Devices], TransferCallback method, IWiaTransferCallback::TransferCallback, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, T, TransferCallback method [Imaging Devices], TransferCallback method [Imaging Devices], IWiaTransferCallback interface, TransferCallback,IWiaTransferCallback.TransferCallback, W, a, b, c, e, f, i, image.iwiatransfercallback_transfercallback, k, l, n, r, s, wia_lh/IWiaTransferCallback::TransferCallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices

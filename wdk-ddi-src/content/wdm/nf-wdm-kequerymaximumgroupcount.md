@@ -7,7 +7,7 @@ old-location: kernel\kequerymaximumgroupcount.htm
 old-project: kernel
 ms.assetid: b5cf231b-1a78-485f-bf26-fe50fbe63d08
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, G, K, KeQueryMaximumGroupCount, KeQueryMaximumGroupCount routine [Kernel-Mode Driver Architecture], M, Q, a, e, i, k105_c1e0cc3e-f9d0-4570-8a56-b799d2ca5d14.xml, kernel.kequerymaximumgroupcount, m, n, o, p, r, t, u, wdm/KeQueryMaximumGroupCount, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,14 +85,14 @@ The value that is returned by <b>KeQueryMaximumGroupCount</b> remains constant d
 
 In Windows 7, the maximum number of groups in a multiprocessor system is four, but this value might change in future versions of Windows. The safest way to determine the maximum number of groups in Windows 7 or a later versions of the Windows operating system is to call <b>KeQueryMaximumGroupCount</b>. Kernel-mode drivers that call <b>KeQueryMaximumGroupCount</b> will not require code changes if the formula that is used to calculate the maximum number of groups changes in a future version of Windows.
 
-To obtain the number of active groups in a multiprocessor system, call the <a href="..\ntddk\nf-ntddk-kequeryactivegroupcount.md">KeQueryActiveGroupCount</a> routine.
+To obtain the number of active groups in a multiprocessor system, call the <a href="..\wdm\nf-wdm-kequeryactivegroupcount.md">KeQueryActiveGroupCount</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kequeryactivegroupcount.md">KeQueryActiveGroupCount</a>
+<a href="..\wdm\nf-wdm-kequeryactivegroupcount.md">KeQueryActiveGroupCount</a>
 
 
 
@@ -100,5 +100,5 @@ To obtain the number of active groups in a multiprocessor system, call the <a hr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryMaximumGroupCount routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryMaximumGroupCount routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -141,19 +141,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
 
 
@@ -162,15 +150,27 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
 
 

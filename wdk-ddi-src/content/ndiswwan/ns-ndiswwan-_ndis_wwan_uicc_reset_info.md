@@ -182,7 +182,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_uicc_reset_info.md">WWAN_UICC_RESET_I
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -190,11 +190,11 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_uicc_reset_info.md">WWAN_UICC_RESET_I
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_uicc_reset_info.md">WWAN_UICC_RESET_INFO</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
 
 
 

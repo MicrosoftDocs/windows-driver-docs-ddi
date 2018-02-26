@@ -7,7 +7,7 @@ old-location: stream\kspinattachandgate.htm
 old-project: stream
 ms.assetid: 63081b07-add8-49fc-b12d-6aa5c43356ce
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, G, K, KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], P, a, avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, c, d, e, h, i, ks/KsPinAttachAndGate, n, s, stream.kspinattachandgate, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGa
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinattachorgate.md">KsPinAttachOrGate</a>
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 
@@ -109,7 +109,7 @@ To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGa
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="..\ks\nf-ks-kspinattachorgate.md">KsPinAttachOrGate</a>
 
 
 
@@ -117,5 +117,5 @@ To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGa
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinAttachAndGate function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinAttachAndGate function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_child_device_hpd_awareness.htm
 old-project: display
 ms.assetid: daef347a-26d4-46cf-82b4-a5852fe49b71
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDXGK_CHILD_DEVICE_HPD_AWARENESS, ,, A, C, D, DXGK_CHILD_DEVICE_HPD_AWARENESS, DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration [Display Devices], DmEnums_1d5801e8-cb03-4409-a037-b25242176eea.xml, E, G, H, HpdAwarenessAlwaysConnected, HpdAwarenessInterruptible, HpdAwarenessNone, HpdAwarenessPolled, HpdAwarenessUninitialized, I, K, L, N, P, PDXGK_CHILD_DEVICE_HPD_AWARENESS, PDXGK_CHILD_DEVICE_HPD_AWARENESS enumeration pointer [Display Devices], R, S, V, W, X, _, _DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessAlwaysConnected, d3dkmdt/HpdAwarenessInterruptible, d3dkmdt/HpdAwarenessNone, d3dkmdt/HpdAwarenessPolled, d3dkmdt/HpdAwarenessUninitialized, d3dkmdt/PDXGK_CHILD_DEVICE_HPD_AWARENESS, display.dxgk_child_device_hpd_awareness"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,5 +115,5 @@ The <b>ChildCapabilities</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

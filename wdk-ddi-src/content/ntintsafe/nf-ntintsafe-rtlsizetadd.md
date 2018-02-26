@@ -7,7 +7,7 @@ old-location: kernel\rtlsizetadd.htm
 old-project: kernel
 ms.assetid: A3A2BD4D-F95D-4427-BE63-80A6E9AC9293
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, R, RtlSizeTAdd, RtlSizeTAdd function [Kernel-Mode Driver Architecture], S, T, d, e, i, kernel.rtlsizetadd, l, ntintsafe/RtlSizeTAdd, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices

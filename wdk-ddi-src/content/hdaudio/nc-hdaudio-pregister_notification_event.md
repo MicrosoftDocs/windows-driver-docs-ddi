@@ -121,11 +121,7 @@ A pointer to a kernel event that must be notified as DMA progresses.  Depending 
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-punregister_notification_event.md">UnregisterNotificationEvent</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
@@ -137,7 +133,11 @@ A pointer to a kernel event that must be notified as DMA progresses.  Depending 
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-punregister_notification_event.md">UnregisterNotificationEvent</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
 
 
 

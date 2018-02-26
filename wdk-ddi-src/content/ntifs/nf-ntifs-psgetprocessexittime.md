@@ -93,7 +93,7 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psisthreadterminating.md">PsIsThreadTerminating</a>
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 
 
@@ -101,7 +101,7 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+<a href="..\ntifs\nf-ntifs-psisthreadterminating.md">PsIsThreadTerminating</a>
 
 
 

@@ -181,15 +181,15 @@ for (i = 0; i &lt; numSubRequests; i++) {
 
 ## -see-also
 
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectioncreate.md">WdfCollectionCreate</a>
+
+
+
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremoveitem.md">WdfCollectionRemoveItem</a>
 
 
 
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
-
-
-
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectioncreate.md">WdfCollectionCreate</a>
 
 
 

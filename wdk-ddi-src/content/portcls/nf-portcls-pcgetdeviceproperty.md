@@ -161,11 +161,11 @@ Two calls to <b>PcGetDeviceProperty</b> might be necessary to determine the requ
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

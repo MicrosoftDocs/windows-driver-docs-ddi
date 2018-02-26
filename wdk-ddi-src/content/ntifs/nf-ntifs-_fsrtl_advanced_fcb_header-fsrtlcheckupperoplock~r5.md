@@ -273,11 +273,11 @@ An opportunistic lock break is underway. If supplied, <i>PrePendIrpRoutine</i> i
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlupperoplockfsctrl~r4.md">FsRtlUpperOplockFsctrl</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlupperoplockfsctrl~r4.md">FsRtlUpperOplockFsctrl</a>
 
 
 

@@ -166,6 +166,10 @@ For more information about the OIDs defined to use with CONDIS drivers, see
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
 
 
@@ -176,10 +180,6 @@ For more information about the OIDs defined to use with CONDIS drivers, see
 
 <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
    ProtocolCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 

@@ -180,7 +180,7 @@ A callout driver cannot be unloaded until all of the callouts that were previous
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
 
 
 
@@ -188,11 +188,11 @@ A callout driver cannot be unloaded until all of the callouts that were previous
 
 
 
-<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 
 

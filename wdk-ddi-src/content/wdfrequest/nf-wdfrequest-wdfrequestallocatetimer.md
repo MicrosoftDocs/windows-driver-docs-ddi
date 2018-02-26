@@ -175,15 +175,15 @@ if (!NT_SUCCESS(status)){
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 
 <a href="..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_sec.md">WDF_ABS_TIMEOUT_IN_SEC</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: kernel\zwenumeratetransactionobject.htm
 old-project: kernel
 ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, N, NtEnumerateTransactionObject, O, T, ZwEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], a, b, c, e, i, j, kernel.zwenumeratetransactionobject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, m, n, o, r, s, t, u, wdm/NtEnumerateTransactionObject, wdm/ZwEnumerateTransactionObject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -312,10 +312,6 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
@@ -324,9 +320,13 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 
 
 
- 
+<a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwEnumerateTransactionObject routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwEnumerateTransactionObject routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

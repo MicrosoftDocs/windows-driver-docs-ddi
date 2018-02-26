@@ -7,7 +7,7 @@ old-location: kernel\rtlinttochar.htm
 old-project: kernel
 ms.assetid: 407237E2-2CDB-40D5-867C-1EA8E1D80065
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, I, R, RtlIntToChar, RtlIntToChar function [Kernel-Mode Driver Architecture], T, a, h, kernel.rtlinttochar, l, n, ntintsafe/RtlIntToChar, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

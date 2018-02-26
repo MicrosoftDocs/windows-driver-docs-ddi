@@ -7,7 +7,7 @@ old-location: display\dxgk_child_device_type.htm
 old-project: display
 ms.assetid: b16ba776-a6b2-46d0-9b6f-18ea17cf4fce
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDXGK_CHILD_DEVICE_TYPE, ,, C, D, DXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE enumeration [Display Devices], DmEnums_afd3654c-ffb4-49d6-ba59-235148e59d2c.xml, E, G, H, I, K, L, P, PDXGK_CHILD_DEVICE_TYPE, PDXGK_CHILD_DEVICE_TYPE enumeration pointer [Display Devices], T, TypeIntegratedDisplay, TypeOther, TypeUninitialized, TypeVideoOutput, V, X, Y, _, _DXGK_CHILD_DEVICE_TYPE, display.dxgk_child_device_type, dispmprt/DXGK_CHILD_DEVICE_TYPE, dispmprt/PDXGK_CHILD_DEVICE_TYPE, dispmprt/TypeIntegratedDisplay, dispmprt/TypeOther, dispmprt/TypeUninitialized, dispmprt/TypeVideoOutput"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,5 +115,5 @@ For more information about child devices of display adapters, see <a href="https
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_DEVICE_TYPE enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_DEVICE_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

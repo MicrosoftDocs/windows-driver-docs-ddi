@@ -159,15 +159,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-
-
-
 <a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
 
 
 
 <a href="..\sercx\nf-sercx-sercxgetreadintervaltimeout.md">SerCxGetReadIntervalTimeout</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
 
@@ -183,7 +183,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
 

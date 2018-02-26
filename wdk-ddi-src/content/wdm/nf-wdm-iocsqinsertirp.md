@@ -7,7 +7,7 @@ old-location: kernel\iocsqinsertirp.htm
 old-project: kernel
 ms.assetid: ddfc0241-eab0-462b-8e1b-32bb9bcb3671
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, I, IoCsqInsertIrp, IoCsqInsertIrp routine [Kernel-Mode Driver Architecture], e, k104_cecd79a7-3c42-45a2-99f7-54ca2a3e0358.xml, kernel.iocsqinsertirp, n, o, p, q, r, s, t, wdm/IoCsqInsertIrp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,6 +131,38 @@ Callers of <b>IoCsqInsertIrp</b> must be running at an IRQL &lt;= DISPATCH_LEVEL
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
+
+
+
 <a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
 
 
@@ -139,7 +171,7 @@ Callers of <b>IoCsqInsertIrp</b> must be running at an IRQL &lt;= DISPATCH_LEVEL
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
+<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
 
 
 
@@ -151,45 +183,13 @@ Callers of <b>IoCsqInsertIrp</b> must be running at an IRQL &lt;= DISPATCH_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550567">IO_CSQ_IRP_CONTEXT</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCsqInsertIrp routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCsqInsertIrp routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

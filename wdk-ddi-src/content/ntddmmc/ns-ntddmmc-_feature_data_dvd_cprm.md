@@ -7,7 +7,7 @@ old-location: storage\feature_data_dvd_cprm.htm
 old-project: storage
 ms.assetid: 060c1e9a-14d3-4f9b-b898-d8042f5efd7e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PFEATURE_DATA_DVD_CPRM, ,, A, C, D, E, F, FEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM structure [Storage Devices], M, P, PFEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM structure pointer [Storage Devices], R, T, U, V, _, _FEATURE_DATA_DVD_CPRM, ntddmmc/FEATURE_DATA_DVD_CPRM, ntddmmc/PFEATURE_DATA_DVD_CPRM, storage.feature_data_dvd_cprm, structs-CD-ROM_376d4f99-5d92-48ad-b126-d1f6858e7fac.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,17 +95,17 @@ This structure holds data for the feature named "DVD CPRM" by the <i>SCSI Multim
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-
-
-
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
- 
+<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_DVD_CPRM structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_DVD_CPRM structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

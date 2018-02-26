@@ -7,7 +7,7 @@ old-location: stream\kscamera_perframesetting_cap_header.htm
 old-project: stream
 ms.assetid: 7478E83E-0657-4547-993A-84AECBB2562D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSCAMERA_PERFRAMESETTING_CAP_HEADER, ,, A, C, D, E, F, G, H, I, K, KSCAMERA_PERFRAMESETTING_CAP_HEADER, KSCAMERA_PERFRAMESETTING_CAP_HEADER structure [Streaming Media Devices], M, N, P, PKSCAMERA_PERFRAMESETTING_CAP_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_HEADER structure pointer [Streaming Media Devices], R, S, T, _, ksmedia/KSCAMERA_PERFRAMESETTING_CAP_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_CAP_HEADER, stream.kscamera_perframesetting_cap_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices

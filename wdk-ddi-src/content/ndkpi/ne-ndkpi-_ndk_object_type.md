@@ -151,39 +151,7 @@ NDK objects include an <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJ
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
 
 
@@ -191,7 +159,39 @@ NDK objects include an <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJ
 
 
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
 
 

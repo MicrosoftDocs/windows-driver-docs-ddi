@@ -7,7 +7,7 @@ old-location: kernel\vpci_invalidate_block_output.htm
 old-project: kernel
 ms.assetid: 6971C724-CE5E-44BC-8D3A-FAD248771E6F
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PVPCI_INVALIDATE_BLOCK_OUTPUT, ,, A, B, C, D, E, I, K, L, N, O, P, PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], T, U, V, VPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], _, _VPCI_INVALIDATE_BLOCK_OUTPUT, kernel.vpci_invalidate_block_output, vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, vpci/VPCI_INVALIDATE_BLOCK_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,5 +114,5 @@ However, we recommend that IHVs reserve the first 64 VF configuration blocks for
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20VPCI_INVALIDATE_BLOCK_OUTPUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20VPCI_INVALIDATE_BLOCK_OUTPUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

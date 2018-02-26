@@ -7,7 +7,7 @@ old-location: display\d3dkmt_checkmonitorpowerstate.htm
 old-project: display
 ms.assetid: aa7cee9a-5051-4ebc-be7c-ac9ac91ba631
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], E, H, I, K, M, N, O, OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, P, R, S, T, W, _, _D3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, display.d3dkmt_checkmonitorpowerstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,5 +88,5 @@ typedef struct _D3DKMT_CHECKMONITORPOWERSTATE {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_CHECKMONITORPOWERSTATE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_CHECKMONITORPOWERSTATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

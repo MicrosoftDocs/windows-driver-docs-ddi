@@ -7,7 +7,7 @@ old-location: print\oemdocumentpropertysheets.htm
 old-project: print
 ms.assetid: 81c5eced-3d68-4202-83b9-57d661fe4952
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, E, M, O, OEMDocumentPropertySheets, OEMDocumentPropertySheets function [Print Devices], P, S, c, e, h, m, n, o, p, print.oemdocumentpropertysheets, print_obsoletefunctions_793a8444-a6ec-46b0-82bf-ea9cfecdf98a.xml, printoem/OEMDocumentPropertySheets, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

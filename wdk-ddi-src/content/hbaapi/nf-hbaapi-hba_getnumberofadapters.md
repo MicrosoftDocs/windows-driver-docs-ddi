@@ -7,7 +7,7 @@ old-location: storage\hba_getnumberofadapters.htm
 old-project: storage
 ms.assetid: 5864a535-4ff8-4c9a-abf9-f835c7fde305
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, G, H, HBA_GetNumberOfAdapters, HBA_GetNumberOfAdapters routine [Storage Devices], N, O, _, a, b, d, e, f, fibreHBA_rtns_de5ced35-f290-47fb-ada1-df032be61bfd.xml, hbaapi/HBA_GetNumberOfAdapters, m, p, r, s, storage.hba_getnumberofadapters, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

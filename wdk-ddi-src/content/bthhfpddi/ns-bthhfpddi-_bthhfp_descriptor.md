@@ -129,6 +129,10 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
 
 
@@ -137,11 +141,7 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-
-
-
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265129">KSPROPERTY_JACK_CONTAINERID</a>
 
 
 
@@ -149,7 +149,7 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265129">KSPROPERTY_JACK_CONTAINERID</a>
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
 
 
 

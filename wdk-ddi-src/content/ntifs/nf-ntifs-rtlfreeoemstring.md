@@ -98,6 +98,10 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
 
 
@@ -107,10 +111,6 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 <a href="..\ntifs\nf-ntifs-rtlupcaseunicodestringtocountedoemstring.md">RtlUpcaseUnicodeStringToCountedOemString</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
 
 
 

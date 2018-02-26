@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_field_type.htm
 old-project: display
 ms.assetid: 869BF62F-C8FE-4AD8-A413-65FBE97EE7FB
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, D, D3D12DDI_VIDEO_FIELD_TYPE_0020, D3D12DDI_VIDEO_FIELD_TYPE_0020 enumeration [Display Devices], D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_BOTTOM_FIELD_FIRST, D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_TOP_FIELD_FIRST, D3D12DDI_VIDEO_FIELD_TYPE_0020_NONE, E, F, I, L, O, P, T, V, Y, _, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_BOTTOM_FIELD_FIRST, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_TOP_FIELD_FIRST, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020_NONE, display.d3d12ddi_video_field_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices

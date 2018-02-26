@@ -146,11 +146,13 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
+   NdisMCmDispatchIncomingDropParty</a>
 
 
 
@@ -159,13 +161,11 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
-   ProtocolCoReceiveNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
-   NdisMCmDispatchIncomingDropParty</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
 
 

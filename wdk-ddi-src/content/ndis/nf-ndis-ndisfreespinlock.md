@@ -103,15 +103,6 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
-   NdisInterlockedRemoveHeadList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
@@ -128,13 +119,17 @@ Callers of
 
 
 
+<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+   NdisInterlockedRemoveHeadList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
    NdisInterlockedInsertHeadList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
 
 
 
@@ -143,6 +138,11 @@ Callers of
 
 
 <a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
+   NdisInterlockedInsertTailList</a>
 
 
 

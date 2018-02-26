@@ -7,7 +7,7 @@ old-location: storage\device_media_info.htm
 old-project: storage
 ms.assetid: 87906511-7bcb-4f4d-9383-44b0501536e3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDEVICE_MEDIA_INFO, ,, A, C, D, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure [Storage Devices], E, F, I, M, MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, N, O, P, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer [Storage Devices], V, _, _DEVICE_MEDIA_INFO, ntddstor/DEVICE_MEDIA_INFO, ntddstor/PDEVICE_MEDIA_INFO, storage.device_media_info, structs-general_e2c363ff-f053-45be-a807-f90480c0ae1f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -313,5 +313,5 @@ The driver fills in an array of <b>DEVICE_MEDIA_INFO</b> structures, one for eac
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DEVICE_MEDIA_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DEVICE_MEDIA_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

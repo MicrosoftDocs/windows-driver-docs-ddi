@@ -7,7 +7,7 @@ old-location: stream\vram_surface_info.htm
 old-project: stream
 ms.assetid: 6fce78f7-a23e-4651-b6d8-b3d5387ccc27
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PVRAM_SURFACE_INFO, ,, A, C, E, F, I, M, N, O, P, PVRAM_SURFACE_INFO, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], R, S, U, V, VRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], _, avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, ksmedia/PVRAM_SURFACE_INFO, ksmedia/VRAM_SURFACE_INFO, stream.vram_surface_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,5 +141,5 @@ The data in these members persists for the lifetime of the stream header. When a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20VRAM_SURFACE_INFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20VRAM_SURFACE_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

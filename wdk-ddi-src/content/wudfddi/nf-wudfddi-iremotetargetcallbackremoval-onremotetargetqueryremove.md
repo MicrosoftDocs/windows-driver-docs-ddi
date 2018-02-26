@@ -115,11 +115,11 @@ For more information about the <b>OnRemoteTargetQueryRemove</b> event callback f
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556899">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: kernel\exallocatepool.htm
 old-project: kernel
 ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, E, ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], P, a, c, e, k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, l, o, t, wdm/ExAllocatePool, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ PVOID ExAllocatePool(
 
 #### - PoolType [in]
 
-Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>.
+Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>.
 
 You can modify <i>PoolType</i> by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
@@ -117,11 +117,11 @@ The system automatically sets certain standard event objects when the amount of 
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 
 
@@ -133,5 +133,5 @@ The system automatically sets certain standard event objects when the amount of 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExAllocatePool routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExAllocatePool routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

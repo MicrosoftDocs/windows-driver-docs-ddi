@@ -156,12 +156,12 @@ For more information about the post-association operation, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
    NDIS_STATUS_DOT11_DISASSOCIATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
 
 
 
@@ -170,15 +170,15 @@ For more information about the post-association operation, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

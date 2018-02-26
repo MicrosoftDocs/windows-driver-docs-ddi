@@ -4,10 +4,10 @@ title: "_USB_HUB_INFORMATION_EX"
 author: windows-driver-content
 description: The USB_HUB_INFORMATION_EX structure is used with the IOCTL_USB_GET_HUB_INFORMATION_EX I/O control request to retrieve information about a Universal Serial Bus (USB) hub.
 old-location: buses\usb_hub_information_ex.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 23E99282-16BD-4E1E-9419-C1F44B913C4F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUSB_HUB_INFORMATION_EX, ,, A, B, E, F, H, I, M, N, O, P, PUSB_HUB_INFORMATION_EX, PUSB_HUB_INFORMATION_EX structure pointer [Buses], R, S, T, U, USB_HUB_INFORMATION_EX, USB_HUB_INFORMATION_EX structure [Buses], X, _, _USB_HUB_INFORMATION_EX, buses.usb_hub_information_ex, usbioctl/PUSB_HUB_INFORMATION_EX, usbioctl/USB_HUB_INFORMATION_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,15 +102,7 @@ If <b>HubType</b> indicates a USB 3.0 hub,  <b>u.UsbHub30Descriptor</b> is a <a 
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_30_hub_descriptor.md">USB_30_HUB_DESCRIPTOR</a>
-
-
-
 <a href="..\usbioctl\ne-usbioctl-_usb_hub_type.md">USB_HUB_TYPE</a>
-
-
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
 
 
 
@@ -118,9 +110,17 @@ If <b>HubType</b> indicates a USB 3.0 hub,  <b>u.UsbHub30Descriptor</b> is a <a 
 
 
 
- 
+<a href="..\usbspec\ns-usbspec-_usb_30_hub_descriptor.md">USB_30_HUB_DESCRIPTOR</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_HUB_INFORMATION_EX structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_HUB_INFORMATION_EX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

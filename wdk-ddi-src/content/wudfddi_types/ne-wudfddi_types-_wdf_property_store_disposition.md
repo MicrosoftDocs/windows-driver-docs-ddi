@@ -92,7 +92,7 @@ The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration is used as output from the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 
 
@@ -100,7 +100,7 @@ The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration is used as output from the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
 
 
 

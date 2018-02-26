@@ -147,12 +147,12 @@ After using the handle acquired by calling
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
    FwpsAleEndpointDestroyEnumHandle0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
 
 
 

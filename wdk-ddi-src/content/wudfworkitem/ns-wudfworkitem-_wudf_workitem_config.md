@@ -108,11 +108,11 @@ Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> 
 
 
 
-<a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
-
-
-
 <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
+
+
+
+<a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
 
 
 

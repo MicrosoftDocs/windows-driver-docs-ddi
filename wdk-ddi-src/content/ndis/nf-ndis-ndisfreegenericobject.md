@@ -109,11 +109,11 @@ An NDIS handle is required to allocate some NDIS resources (for example, buffer 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocategenericobject.md">NdisAllocateGenericObject</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocategenericobject.md">NdisAllocateGenericObject</a>
 
 
 

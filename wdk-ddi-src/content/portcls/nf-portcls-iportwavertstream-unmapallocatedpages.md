@@ -100,15 +100,15 @@ This method is similar in operation to the <a href="..\wdm\nf-wdm-mmunmaplockedp
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536926">IPortWaveRTStream::FreePagesFromMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
 
 
 

@@ -131,11 +131,11 @@ The structure contains function pointers to the DRM library functions in order t
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
 <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
 
 
@@ -143,7 +143,7 @@ The structure contains function pointers to the DRM library functions in order t
 
 
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
 
 
 
@@ -151,11 +151,11 @@ The structure contains function pointers to the DRM library functions in order t
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 
 
@@ -163,7 +163,7 @@ The structure contains function pointers to the DRM library functions in order t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 

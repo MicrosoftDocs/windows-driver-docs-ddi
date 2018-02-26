@@ -7,7 +7,7 @@ old-location: debugger\setcommand.htm
 old-project: debugger
 ms.assetid: 0c9db77e-6e5d-45cd-a52c-dcc3acf5cba0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, B, C, ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, D, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetCommand method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, IDebugBreakpoint2::SetCommand, IDebugBreakpoint::SetCommand, S, SetCommand method [Windows Debugging], SetCommand method [Windows Debugging], IDebugBreakpoint interface, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface, SetCommand,IDebugBreakpoint.SetCommand, SetCommand,IDebugBreakpoint2.SetCommand, a, b, d, dbgeng/IDebugBreakpoint2::SetCommand, dbgeng/IDebugBreakpoint::SetCommand, debugger.setcommand, e, g, i, k, m, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

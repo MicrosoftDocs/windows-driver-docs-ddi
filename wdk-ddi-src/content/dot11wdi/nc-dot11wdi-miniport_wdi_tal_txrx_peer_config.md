@@ -108,11 +108,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
-
-
-
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_peer_cfg.md">WDI_TXRX_PEER_CFG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
 

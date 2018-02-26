@@ -98,10 +98,6 @@ For more information about looped buffers, buffer positions, and play and record
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563381">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
-
-
-
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
@@ -111,6 +107,10 @@ For more information about looped buffers, buffer positions, and play and record
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537131">KSEVENT_LOOPEDSTREAMING_POSITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563381">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
 
 
 

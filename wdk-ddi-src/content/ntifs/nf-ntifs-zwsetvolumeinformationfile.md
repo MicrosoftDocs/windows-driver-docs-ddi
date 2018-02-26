@@ -7,7 +7,7 @@ old-location: kernel\zwsetvolumeinformationfile.htm
 old-project: kernel
 ms.assetid: 6afc3e8b-0be0-4728-b00f-deea5e60d27e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , F, I, NtSetInformationFile, S, V, Z, ZwSetVolumeInformationFile, ZwSetVolumeInformationFile routine [Kernel-Mode Driver Architecture], a, e, f, i, k111_580470b4-9769-4fec-9811-04f703473131.xml, kernel.zwsetvolumeinformationfile, l, m, n, ntifs/NtSetInformationFile, ntifs/ZwSetVolumeInformationFile, o, r, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ Handle to a file object for an open file, directory, storage device, or volume w
 
 ### -param IoStatusBlock [out]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. 
+Pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. 
 
 
 ### -param FsInformation [in]
@@ -190,7 +190,7 @@ An invalid value was specified for <i>FsInformationClass</i>. This is an error c
 
 
 
-To query volume information, call <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>. 
+To query volume information, call <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>. 
 
 To change information about a file, call <b>ZwSetVolumeInformationFile</b>. 
 
@@ -209,7 +209,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
@@ -221,25 +229,17 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetVolumeInformationFile routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetVolumeInformationFile routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

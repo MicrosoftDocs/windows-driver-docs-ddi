@@ -168,11 +168,11 @@ This parameter allows Windows to turn the radio power on and off. Be aware that 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
 
 
 

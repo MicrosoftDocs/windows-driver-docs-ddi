@@ -7,7 +7,7 @@ old-location: debugger\getmodulebyoffset.htm
 old-project: debugger
 ms.assetid: ff51d0d1-47f1-4df6-b671-d74f791d778b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, B, D, G, GetModuleByOffset method [Windows Debugging], GetModuleByOffset method [Windows Debugging], IDebugSymbols interface, GetModuleByOffset method [Windows Debugging], IDebugSymbols2 interface, GetModuleByOffset method [Windows Debugging], IDebugSymbols3 interface, GetModuleByOffset,IDebugSymbols.GetModuleByOffset, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols2 interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols2::GetModuleByOffset, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols3::GetModuleByOffset, IDebugSymbols::GetModuleByOffset, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, M, O, S, b, d, dbgeng/IDebugSymbols2::GetModuleByOffset, dbgeng/IDebugSymbols3::GetModuleByOffset, dbgeng/IDebugSymbols::GetModuleByOffset, debugger.getmodulebyoffset, e, f, g, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,11 +133,7 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -145,7 +141,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -157,5 +157,5 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetModuleByOffset method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetModuleByOffset method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

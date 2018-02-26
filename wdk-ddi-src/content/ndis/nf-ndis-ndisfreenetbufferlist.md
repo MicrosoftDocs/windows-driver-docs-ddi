@@ -119,7 +119,7 @@ If you allocated context space for a NET_BUFFER_LIST structure with the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -137,7 +137,7 @@ If you allocated context space for a NET_BUFFER_LIST structure with the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

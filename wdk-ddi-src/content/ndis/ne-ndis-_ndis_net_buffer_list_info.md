@@ -438,8 +438,25 @@ Use these enumeration values with the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info.md">
-   NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_header_net_buffer_list_info.md">
+   NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info.md">
+   NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a>
 
 
 
@@ -448,7 +465,12 @@ Use these enumeration values with the
 
 
 
-<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_8021q_info.md">
+   NDIS_NET_BUFFER_LIST_8021Q_INFO</a>
 
 
 
@@ -462,30 +484,17 @@ Use these enumeration values with the
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info.md">
+   NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_tunnel_net_buffer_list_info.md">
    NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_header_net_buffer_list_info.md">
-   NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_filtering_info.md">
-   NDIS_NET_BUFFER_LIST_FILTERING_INFO</a>
 
 
 
@@ -497,17 +506,8 @@ Use these enumeration values with the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_8021q_info.md">
-   NDIS_NET_BUFFER_LIST_8021Q_INFO</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info.md">
-   NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a>
+<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_filtering_info.md">
+   NDIS_NET_BUFFER_LIST_FILTERING_INFO</a>
 
 
 

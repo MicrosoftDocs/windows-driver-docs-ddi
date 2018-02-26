@@ -94,6 +94,10 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
 
 
@@ -107,10 +111,6 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
 
 
 

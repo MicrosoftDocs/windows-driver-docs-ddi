@@ -7,7 +7,7 @@ old-location: pos\linedisplaymarqueetypetype.htm
 old-project: pos
 ms.assetid: 051A9254-42B4-4698-AFF4-0A27D83719F0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, D, L, LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType enumeration, M, PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, T, _, _LineDisplayMarqueeTypeType, a, e, i, l, n, p, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeTypeType, pointofservicecommontypes/PLineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype, q, r, s, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

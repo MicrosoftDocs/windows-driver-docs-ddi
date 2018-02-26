@@ -7,7 +7,7 @@ old-location: stream\bdacreatepin.htm
 old-project: stream
 ms.assetid: ac69fdaa-f1e3-4487-93e1-f900f73be2fe
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, BdaCreatePin, BdaCreatePin function [Streaming Media Devices], C, P, a, bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, bdasup/BdaCreatePin, d, e, i, n, r, stream.bdacreatepin, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,11 +107,11 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">B
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
 
@@ -123,7 +123,7 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">B
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
 
@@ -131,5 +131,5 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">B
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaCreatePin function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaCreatePin function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

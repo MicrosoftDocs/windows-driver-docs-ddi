@@ -137,11 +137,11 @@ The <b>RxInferFileType</b> routine is not called internally by RDBSS. The <b>RxI
 
 ## -see-also
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
+
+<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
 
 

@@ -116,19 +116,19 @@ For more information about using these macros, see <a href="https://docs.microso
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551250">WDF_DECLARE_CONTEXT_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551252">WDF_DECLARE_CONTEXT_TYPE_WITH_NAME</a>
 
 
 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552405">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551250">WDF_DECLARE_CONTEXT_TYPE</a>
 
 
 

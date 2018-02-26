@@ -7,7 +7,7 @@ old-location: kernel\kestallexecutionprocessor.htm
 old-project: kernel
 ms.assetid: 9f03af94-0a29-42f4-84f1-09d8d1c97dd6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, K, KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], P, S, a, c, e, i, k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, kernel.kestallexecutionprocessor, l, n, o, r, s, t, u, wdm/KeStallExecutionProcessor, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ This routine is for use by device drivers and other software that must wait for 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
@@ -103,7 +103,7 @@ This routine is for use by device drivers and other software that must wait for 
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 
 
@@ -111,5 +111,5 @@ This routine is for use by device drivers and other software that must wait for 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeStallExecutionProcessor routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeStallExecutionProcessor routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

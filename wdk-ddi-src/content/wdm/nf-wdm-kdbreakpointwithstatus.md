@@ -7,7 +7,7 @@ old-location: devtest\kdbreakpointwithstatus.htm
 old-project: devtest
 ms.assetid: 0b7f2f55-f7b8-415b-b683-3b6b96f84eb3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, DebugFns_f34fa39a-d436-44db-97ff-3ccdd50384d8.xml, K, KdBreakPointWithStatus, KdBreakPointWithStatus function [Driver Development Tools], P, S, W, a, d, devtest.kdbreakpointwithstatus, e, h, i, k, n, ntddk/KdBreakPointWithStatus, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,6 +100,10 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>
+
+
+
 <a href="..\wdm\nf-wdm-dbgbreakpoint.md">DbgBreakPoint</a>
 
 
@@ -112,13 +116,9 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 
 
-<a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20KdBreakPointWithStatus function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20KdBreakPointWithStatus function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

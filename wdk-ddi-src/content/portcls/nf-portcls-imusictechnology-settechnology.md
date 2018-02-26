@@ -154,11 +154,11 @@ For more information, see <a href="https://msdn.microsoft.com/3b7c2907-e67f-458e
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a>
-
-
-
 <a href="..\portcls\nn-portcls-imusictechnology.md">IMusicTechnology</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a>
 
 
 

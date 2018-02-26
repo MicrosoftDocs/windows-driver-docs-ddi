@@ -135,11 +135,11 @@ The DLL must free any allocated resources for the DLL itself. In particular, all
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
 
 

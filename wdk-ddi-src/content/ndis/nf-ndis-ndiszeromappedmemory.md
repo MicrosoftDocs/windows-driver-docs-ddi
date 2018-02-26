@@ -97,15 +97,15 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiszeromemory.md">NdisZeroMemory</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 

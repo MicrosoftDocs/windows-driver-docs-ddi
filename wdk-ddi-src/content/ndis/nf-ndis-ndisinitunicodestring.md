@@ -120,15 +120,7 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -137,17 +129,25 @@ Callers of
 
 
 
+<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisansistringtounicodestring.md">
    NdisAnsiStringToUnicodeString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
 
 
 

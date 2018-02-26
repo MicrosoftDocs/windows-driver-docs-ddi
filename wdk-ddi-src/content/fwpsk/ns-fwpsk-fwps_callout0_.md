@@ -149,6 +149,18 @@ A callout can set the <b>FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW</b> flag only for 
 
 ## -see-also
 
+<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
 
 
@@ -158,18 +170,6 @@ A callout can set the <b>FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW</b> flag only for 
 
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn0.md">notifyFn0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
 
 
 

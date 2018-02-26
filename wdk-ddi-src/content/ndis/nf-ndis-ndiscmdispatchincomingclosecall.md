@@ -160,12 +160,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
-   NdisMCmDispatchIncomingCloseCall</a>
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
 
 
@@ -174,7 +169,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
@@ -183,11 +178,16 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
+   NdisMCmDispatchIncomingCloseCall</a>
 
 
 

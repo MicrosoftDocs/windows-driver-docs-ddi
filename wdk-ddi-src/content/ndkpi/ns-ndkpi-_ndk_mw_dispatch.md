@@ -95,11 +95,11 @@ The <b>NDK_MW_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mw.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>
 
 
 
@@ -107,7 +107,7 @@ The <b>NDK_MW_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mw.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 

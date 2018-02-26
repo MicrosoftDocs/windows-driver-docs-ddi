@@ -7,7 +7,7 @@ old-location: debugger\getlogfile2.htm
 old-project: debugger
 ms.assetid: 77ab08ce-96c5-4330-aab2-1bf4ab23cfc4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, 4, :, C, D, F, G, GetLogFile2 method [Windows Debugging], GetLogFile2 method [Windows Debugging], IDebugControl4 interface, GetLogFile2,IDebugControl4.GetLogFile2, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetLogFile2 method, IDebugControl4::GetLogFile2, IDebugControl_9822bd84-b8ee-4d36-a66f-e38567d23646.xml, L, b, dbgeng/IDebugControl4::GetLogFile2, debugger.getlogfile2, e, g, i, l, n, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,10 +155,6 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
 
@@ -171,9 +167,13 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetLogFile2 method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetLogFile2 method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

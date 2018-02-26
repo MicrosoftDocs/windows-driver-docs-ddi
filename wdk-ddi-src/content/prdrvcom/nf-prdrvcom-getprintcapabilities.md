@@ -7,7 +7,7 @@ old-location: print\iprintticketprovider_getprintcapabilities.htm
 old-project: print
 ms.assetid: 12dfd953-2336-47ce-8fdc-df8c6138b31d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, G, GetPrintCapabilities, GetPrintCapabilities method [Print Devices], GetPrintCapabilities method [Print Devices], IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices], GetPrintCapabilities method, IPrintTicketProvider::GetPrintCapabilities, P, a, b, e, i, l, n, p, prdrvcom/IPrintTicketProvider::GetPrintCapabilities, print.iprintticketprovider_getprintcapabilities, print_ticket-package_82407167-f510-4a1d-acd4-1baaac8e1928.xml, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

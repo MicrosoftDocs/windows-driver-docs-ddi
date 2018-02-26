@@ -111,8 +111,8 @@ If the number of supported rates in either array is less than 255, the miniport 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-data-rates-value">
-   OID_DOT11_SUPPORTED_DATA_RATES_VALUE</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
 
 
@@ -120,8 +120,8 @@ If the number of supported rates in either array is less than 255, the miniport 
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-data-rates-value">
+   OID_DOT11_SUPPORTED_DATA_RATES_VALUE</a>
 
 
 

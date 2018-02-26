@@ -7,7 +7,7 @@ old-location: kernel\dma_adapter.htm
 old-project: kernel
 ms.assetid: 08cd5b10-725e-4a36-b70d-42a831b79372
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PADAPTER_OBJECT, *PDMA_ADAPTER, ,, A, B, C, D, DMA_ADAPTER, DMA_ADAPTER structure [Kernel-Mode Driver Architecture], E, J, M, O, P, PDMA_ADAPTER, PDMA_ADAPTER structure pointer [Kernel-Mode Driver Architecture], R, T, _, _DMA_ADAPTER, kernel.dma_adapter, kstruct_a_030ef4da-75e2-4427-baf6-cb9a5eb194cf.xml, wdm/DMA_ADAPTER, wdm/PDMA_ADAPTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,11 +98,11 @@ Drivers for devices that use DMA to transfer data use this structure to obtain t
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
-
-
-
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
 
 
 
@@ -114,5 +114,5 @@ Drivers for devices that use DMA to transfer data use this structure to obtain t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DMA_ADAPTER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DMA_ADAPTER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

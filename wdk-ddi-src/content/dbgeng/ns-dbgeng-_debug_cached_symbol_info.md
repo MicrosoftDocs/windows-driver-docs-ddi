@@ -7,7 +7,7 @@ old-location: debugger\debug_cached_symbol_info.htm
 old-project: debugger
 ms.assetid: CC7914B6-DCE1-45D1-84D3-5FF1449AD565
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PDEBUG_CACHED_SYMBOL_INFO, ,, A, B, C, D, DEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], E, F, G, H, I, L, M, N, O, P, PDEBUG_CACHED_SYMBOL_INFO, PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], S, U, Y, _, _DEBUG_CACHED_SYMBOL_INFO, dbgeng/DEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxva_extendedformat.htm
 old-project: display
 ms.assetid: b4d01c1f-8267-490e-a808-87d9be666a94
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, D, DXVA_ExtendedFormat, DXVA_ExtendedFormat structure [Display Devices], E, F, V, X, _, _DXVA_ExtendedFormat, a, d, display.dxva_extendedformat, dxva/DXVA_ExtendedFormat, dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml, e, m, n, o, r, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,23 +110,7 @@ Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by 
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a>
 
 
 
@@ -134,13 +118,29 @@ Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by 
 
 
 
+<a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
+
+
+
 <a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a>
 
 
 
- 
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_ExtendedFormat structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_ExtendedFormat structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

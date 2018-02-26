@@ -352,31 +352,7 @@ Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltre
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
 
 
 
@@ -384,7 +360,27 @@ Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltre
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
 
 
 
@@ -392,11 +388,15 @@ Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltre
 
 
 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
 
 
 

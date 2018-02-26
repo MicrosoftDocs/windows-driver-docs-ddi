@@ -7,7 +7,7 @@ old-location: kernel\gpio_pin_config_type.htm
 old-project: kernel
 ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, C, E, F, G, GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], I, N, O, P, PullDefault, PullDown, PullNone, PullUp, T, Y, _, _GPIO_PIN_CONFIG_TYPE, kernel.gpio_pin_config_type, pepfx/GPIO_PIN_CONFIG_TYPE, pepfx/PullDefault, pepfx/PullDown, pepfx/PullNone, pepfx/PullUp"
 ms.prod: windows-hardware
 ms.technology: windows-devices

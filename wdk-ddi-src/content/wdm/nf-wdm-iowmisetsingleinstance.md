@@ -7,7 +7,7 @@ old-location: kernel\iowmisetsingleinstance.htm
 old-project: kernel
 ms.assetid: 043b51cd-816f-414d-85b2-2573c42393e4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], M, S, W, a, c, e, g, i, k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, kernel.iowmisetsingleinstance, l, n, o, s, t, wdm/IoWMISetSingleInstance"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -202,5 +202,5 @@ Drivers can also use the <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetS
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMISetSingleInstance routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMISetSingleInstance routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

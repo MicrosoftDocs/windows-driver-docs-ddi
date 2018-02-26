@@ -136,10 +136,6 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 
@@ -148,7 +144,7 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
@@ -156,7 +152,7 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
 
 
 
@@ -164,7 +160,11 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameter.md">FltAllocateExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 
 
@@ -172,7 +172,7 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameter.md">FltAllocateExtraCreateParameter</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 

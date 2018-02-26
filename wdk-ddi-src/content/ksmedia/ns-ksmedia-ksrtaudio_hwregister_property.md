@@ -93,15 +93,15 @@ The client uses the KSRTAUDIO_HWREGISTER_PROPERTY structure to request the hardw
 
 
 
+<a href="..\ksmedia\ns-ksmedia-ksrtaudio_hwregister.md">KSRTAUDIO_HWREGISTER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537381">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537376">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksrtaudio_hwregister.md">KSRTAUDIO_HWREGISTER</a>
 
 
 

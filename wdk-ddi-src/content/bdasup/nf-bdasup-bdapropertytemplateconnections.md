@@ -7,7 +7,7 @@ old-location: stream\bdapropertytemplateconnections.htm
 old-project: stream
 ms.assetid: 64b55b53-677a-4977-b865-0a07d34d2530
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, BdaPropertyTemplateConnections, BdaPropertyTemplateConnections function [Streaming Media Devices], C, P, T, a, bdaref_919b0c2d-5bb9-4e17-8028-79f669ab7b8c.xml, bdasup/BdaPropertyTemplateConnections, c, d, e, i, l, m, n, o, p, r, s, stream.bdapropertytemplateconnections, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,19 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+
+
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564386">KSPROPERTY_BDA_TEMPLATE_CONNECTIONS</a>
 
 
 
@@ -124,18 +136,6 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564386">KSPROPERTY_BDA_TEMPLATE_CONNECTIONS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
-
-
-
 <a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
 
 
@@ -144,5 +144,5 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaPropertyTemplateConnections function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaPropertyTemplateConnections function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

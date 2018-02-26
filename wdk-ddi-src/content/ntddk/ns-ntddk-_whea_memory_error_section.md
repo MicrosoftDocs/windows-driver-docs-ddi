@@ -287,7 +287,7 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 
@@ -295,7 +295,7 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\iddcx_opm_encrypted_initialization_parameters.htm
 old-project: display
 ms.assetid: d1df3fc1-2d23-4e90-b663-6322ba4e1eff
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, D, E, I, IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Display Devices], L, M, N, O, P, R, S, T, X, Y, Z, _, display.iddcx_opm_encrypted_initialization_parameters, iddcx/IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

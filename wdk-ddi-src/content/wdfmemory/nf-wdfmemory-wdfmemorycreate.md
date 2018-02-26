@@ -85,7 +85,7 @@ A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF
 
 ### -param PoolType [in]
 
-A <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated. 
+A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated. 
 
 
 ### -param PoolTag [in, optional]
@@ -211,19 +211,7 @@ status = WdfMemoryCreate(
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
-
-
-
 <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
-
-
-
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
@@ -235,7 +223,19 @@ status = WdfMemoryCreate(
 
 
 
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
 
 
 

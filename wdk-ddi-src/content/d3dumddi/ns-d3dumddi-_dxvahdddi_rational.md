@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_rational.htm
 old-project: display
 ms.assetid: 4560fb48-24c3-4beb-acc3-b8d2ed3a81d3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, D, DXVA2_Structs_9e1313ee-e48b-4e3d-9f13-40af1babef82.xml, DXVAHDDDI_RATIONAL, DXVAHDDDI_RATIONAL structure [Display Devices], H, I, L, N, O, R, T, V, X, _, _DXVAHDDDI_RATIONAL, d3dumddi/DXVAHDDDI_RATIONAL, display.dxvahdddi_rational"
 ms.prod: windows-hardware
 ms.technology: windows-devices

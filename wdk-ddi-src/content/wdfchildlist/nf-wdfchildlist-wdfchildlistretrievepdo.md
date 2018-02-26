@@ -147,11 +147,11 @@ hChild = WdfChildListRetrievePdo(
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
-
-
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_retrieve_info_init.md">WDF_CHILD_RETRIEVE_INFO_INIT</a>
+
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
 
 
 

@@ -99,11 +99,11 @@ For more information about when the framework calls this callback function, and 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 

@@ -116,17 +116,17 @@ To obtain an active processor count, call the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
+   NdisGroupActiveProcessorCount</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
    NdisSystemActiveProcessorCount</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
-   NdisGroupActiveProcessorCount</a>
 
 
 

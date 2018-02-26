@@ -97,7 +97,7 @@ A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanu
 
 ### -field AutoForwardCleanupClose
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. For more information about this member, see the following Comments section.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. For more information about this member, see the following Comments section.
 
 
 ### -field FileObjectClass

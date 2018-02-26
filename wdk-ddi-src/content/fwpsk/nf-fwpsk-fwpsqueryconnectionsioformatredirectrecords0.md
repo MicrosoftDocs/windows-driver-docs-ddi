@@ -153,11 +153,7 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>
-
-
-
-<a href="https://msdn.microsoft.com/E0D7CC1A-8F93-45A0-9543-3F2ACAF352F5">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
+<a href="https://msdn.microsoft.com/0AC78ED4-A6EC-4D62-919C-1EF7CDE8EE80">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
 
 
 
@@ -169,7 +165,11 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 
 
-<a href="https://msdn.microsoft.com/0AC78ED4-A6EC-4D62-919C-1EF7CDE8EE80">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
+<a href="https://msdn.microsoft.com/E0D7CC1A-8F93-45A0-9543-3F2ACAF352F5">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>
 
 
 

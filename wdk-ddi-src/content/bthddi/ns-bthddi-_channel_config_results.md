@@ -97,11 +97,11 @@ The CHANNEL_CONFIG_RESULTS structure is passed in the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
 
 

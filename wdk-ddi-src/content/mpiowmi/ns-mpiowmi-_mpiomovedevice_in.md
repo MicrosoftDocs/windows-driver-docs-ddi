@@ -7,7 +7,7 @@ old-location: storage\mpiomovedevice_in.htm
 old-project: storage
 ms.assetid: 2652874f-70d0-4eff-a46d-778a68d55cab
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PMPIOMoveDevice_IN, ,, D, I, M, MPIOMoveDevice_IN, MPIOMoveDevice_IN structure [Storage Devices], N, O, P, PMPIOMoveDevice_IN, PMPIOMoveDevice_IN structure pointer [Storage Devices], _, _MPIOMoveDevice_IN, c, e, i, mpiowmi/MPIOMoveDevice_IN, mpiowmi/PMPIOMoveDevice_IN, o, storage.mpiomovedevice_in, structs-scsibus_d1c11b7d-5c45-441b-8362-642db610e19e.xml, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

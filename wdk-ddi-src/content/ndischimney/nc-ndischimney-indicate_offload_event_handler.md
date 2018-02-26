@@ -154,16 +154,16 @@ The implementation of this function for intermediate drivers is to be determined
 
 
 
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+
+
+
 <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
 
 
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
 
 

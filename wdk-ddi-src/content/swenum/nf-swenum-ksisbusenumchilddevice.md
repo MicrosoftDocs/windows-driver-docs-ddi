@@ -7,7 +7,7 @@ old-location: stream\ksisbusenumchilddevice.htm
 old-project: stream
 ms.assetid: 7b9aa600-dd47-4ef1-acc8-02fb1b4f51ce
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, C, D, E, I, K, KsIsBusEnumChildDevice, KsIsBusEnumChildDevice function [Streaming Media Devices], c, d, e, h, i, ksfunc_5718ba1d-d377-40f8-8972-7005f4064e7c.xml, l, m, n, s, stream.ksisbusenumchilddevice, swenum/KsIsBusEnumChildDevice, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

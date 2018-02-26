@@ -107,6 +107,18 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
 
@@ -115,19 +127,7 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 
 
-<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
 
 
 

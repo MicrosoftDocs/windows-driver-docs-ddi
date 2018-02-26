@@ -152,11 +152,7 @@ For more information on how to report the SR-IOV capabilities of a network adapt
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451859">OID_SRIOV_CURRENT_CAPABILITIES</a>
 
 
 
@@ -164,7 +160,15 @@ For more information on how to report the SR-IOV capabilities of a network adapt
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451862">OID_SRIOV_HARDWARE_CAPABILITIES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -172,15 +176,11 @@ For more information on how to report the SR-IOV capabilities of a network adapt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451862">OID_SRIOV_HARDWARE_CAPABILITIES</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451859">OID_SRIOV_CURRENT_CAPABILITIES</a>
 
 
 

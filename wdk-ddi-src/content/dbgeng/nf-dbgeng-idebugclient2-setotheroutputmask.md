@@ -7,7 +7,7 @@ old-location: debugger\setotheroutputmask.htm
 old-project: debugger
 ms.assetid: 09e698cb-09f0-40e0-90ac-0a03c4e5c17b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, D, I, IDebugClient, IDebugClient interface [Windows Debugging], SetOtherOutputMask method, IDebugClient2, IDebugClient2 interface [Windows Debugging], SetOtherOutputMask method, IDebugClient2::SetOtherOutputMask, IDebugClient3 interface [Windows Debugging], SetOtherOutputMask method, IDebugClient3::SetOtherOutputMask, IDebugClient4 interface [Windows Debugging], SetOtherOutputMask method, IDebugClient4::SetOtherOutputMask, IDebugClient5 interface [Windows Debugging], SetOtherOutputMask method, IDebugClient5::SetOtherOutputMask, IDebugClient::SetOtherOutputMask, IDebugClient_73639f3d-f638-472e-9f30-e33de9321b29.xml, M, O, S, SetOtherOutputMask method [Windows Debugging], SetOtherOutputMask method [Windows Debugging], IDebugClient interface, SetOtherOutputMask method [Windows Debugging], IDebugClient2 interface, SetOtherOutputMask method [Windows Debugging], IDebugClient3 interface, SetOtherOutputMask method [Windows Debugging], IDebugClient4 interface, SetOtherOutputMask method [Windows Debugging], IDebugClient5 interface, SetOtherOutputMask,IDebugClient.SetOtherOutputMask, SetOtherOutputMask,IDebugClient2.SetOtherOutputMask, a, b, dbgeng/IDebugClient2::SetOtherOutputMask, dbgeng/IDebugClient3::SetOtherOutputMask, dbgeng/IDebugClient4::SetOtherOutputMask, dbgeng/IDebugClient5::SetOtherOutputMask, dbgeng/IDebugClient::SetOtherOutputMask, debugger.setotheroutputmask, e, g, h, i, k, l, n, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,23 +121,7 @@ For an overview of output in the debugger engine, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548066">GetOtherOutputMask</a>
 
 
 
@@ -145,13 +129,29 @@ For an overview of output in the debugger engine, see <a href="https://msdn.micr
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548066">GetOtherOutputMask</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetOtherOutputMask method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetOtherOutputMask method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

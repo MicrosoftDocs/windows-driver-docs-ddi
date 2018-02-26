@@ -225,7 +225,7 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
@@ -233,11 +233,11 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
+
+
+
+<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
 
 
 

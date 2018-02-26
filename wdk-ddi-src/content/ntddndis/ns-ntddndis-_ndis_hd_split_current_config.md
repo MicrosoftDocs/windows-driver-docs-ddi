@@ -216,7 +216,7 @@ The NDIS_HD_SPLIT_CURRENT_CONFIG structure is used in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -224,7 +224,7 @@ The NDIS_HD_SPLIT_CURRENT_CONFIG structure is used in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
 
 
 

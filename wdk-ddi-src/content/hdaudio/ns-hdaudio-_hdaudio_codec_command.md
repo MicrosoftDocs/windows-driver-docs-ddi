@@ -153,11 +153,11 @@ The validity of individual members depends on the type of command sent.
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 
 

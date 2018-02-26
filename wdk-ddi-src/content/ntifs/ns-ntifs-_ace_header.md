@@ -217,7 +217,7 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -225,7 +225,7 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
 
 
 
@@ -233,11 +233,11 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
 
 
 

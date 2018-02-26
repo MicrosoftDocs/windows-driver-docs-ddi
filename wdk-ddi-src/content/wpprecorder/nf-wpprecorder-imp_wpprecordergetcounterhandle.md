@@ -7,7 +7,7 @@ old-location: devtest\wpprecordergetcounterhandle.htm
 old-project: devtest
 ms.assetid: 389A4F90-9C81-4C03-A2F9-ACF0E597018C
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, G, H, R, W, WppRecorderGetCounterHandle, _, a, c, d, devtest.wpprecordergetcounterhandle, e, i, imp_WppRecorderGetCounterHandle, imp_WppRecorderGetCounterHandle function [Driver Development Tools], l, m, n, o, p, r, t, u, wpprecorder/imp_WppRecorderGetCounterHandle"
 ms.prod: windows-hardware
 ms.technology: windows-devices

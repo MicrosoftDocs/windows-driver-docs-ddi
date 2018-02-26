@@ -96,10 +96,6 @@ BCBs that have been modified by <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
@@ -113,6 +109,10 @@ BCBs that have been modified by <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.
 
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 

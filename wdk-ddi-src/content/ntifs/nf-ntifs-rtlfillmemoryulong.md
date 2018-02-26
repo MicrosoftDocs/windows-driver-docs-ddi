@@ -106,15 +106,15 @@ For more information about managing buffered data and initializing driver-alloca
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md">RtlFillMemoryUlonglong</a>
 
 
 
-<a href="..\smclib\nf-smclib-rtlzeromemory.md">RtlZeroMemory</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+<a href="..\scsi\nf-scsi-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

@@ -116,11 +116,11 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 ## -see-also
 
-<a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
 
 
 
@@ -128,7 +128,7 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 
 
-<a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
+<a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
 
 
 

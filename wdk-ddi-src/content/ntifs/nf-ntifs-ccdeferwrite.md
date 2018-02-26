@@ -142,7 +142,7 @@ The context parameters passed to <i>PostRoutine</i> are typically the I/O reques
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
+<a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
 
 
 
@@ -150,7 +150,7 @@ The context parameters passed to <i>PostRoutine</i> are typically the I/O reques
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
+<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
 
 
 

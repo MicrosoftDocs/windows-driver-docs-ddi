@@ -149,11 +149,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION</b> function type is de
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
 
@@ -165,7 +161,11 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION</b> function type is de
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
 
 
 

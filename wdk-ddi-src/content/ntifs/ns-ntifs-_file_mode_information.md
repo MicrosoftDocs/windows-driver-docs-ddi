@@ -7,7 +7,7 @@ old-location: kernel\file_mode_information.htm
 old-project: kernel
 ms.assetid: c01ee792-4e39-4135-b389-a5c5ac832245
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PFILE_MODE_INFORMATION, ,, A, D, E, F, FILE_MODE_INFORMATION, FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], I, L, M, N, O, P, PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, T, _, _FILE_MODE_INFORMATION, kernel.file_mode_information, kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, ntifs/FILE_MODE_INFORMATION, ntifs/PFILE_MODE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,17 +125,17 @@ This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_MODE_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_MODE_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

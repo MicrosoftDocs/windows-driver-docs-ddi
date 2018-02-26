@@ -194,11 +194,11 @@ Presentation time does not advance during the states KSSTATE_PAUSE and KSSTATE_S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536494">IAllocatorMXF::GetMessage</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536494">IAllocatorMXF::GetMessage</a>
 
 
 

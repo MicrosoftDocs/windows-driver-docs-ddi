@@ -7,7 +7,7 @@ old-location: print\iprintpipelinemanagercontrol.htm
 old-project: print
 ms.assetid: 82efbe8d-0928-4550-9de1-a806a00791eb
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IPrintPipelineManagerControl, IPrintPipelineManagerControl interface [Print Devices], IPrintPipelineManagerControl interface [Print Devices], described, filterpipeline/IPrintPipelineManagerControl, filterpipeline_5b9732d1-6a75-4059-84fa-1bbbdeb70eb3.xml, print.iprintpipelinemanagercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

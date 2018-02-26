@@ -128,7 +128,12 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_CACHED structure is a
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
 
 
@@ -136,12 +141,7 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_CACHED structure is a
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -132,7 +132,7 @@ If necessary, the serial controller driver can override the default setting by c
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
 
 
 
@@ -144,11 +144,11 @@ If necessary, the serial controller driver can override the default setting by c
 
 
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
 
 
 

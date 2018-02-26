@@ -118,7 +118,7 @@ This function is implemented by the class extension and the driver must call it.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>
+<a href="..\sensorscx\nc-sensorscx-evt_sensor_driver_set_batch_latency.md">EvtSensorSetBatchLatency</a>
 
 
 
@@ -126,7 +126,7 @@ This function is implemented by the class extension and the driver must call it.
 
 
 
-<a href="..\sensorscx\nc-sensorscx-evt_sensor_driver_set_batch_latency.md">EvtSensorSetBatchLatency</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>
 
 
 

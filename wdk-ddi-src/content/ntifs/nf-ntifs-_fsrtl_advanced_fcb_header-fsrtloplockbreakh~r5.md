@@ -245,11 +245,11 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockbreakh.md">F
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltoplockbreakh.md">FltOplockBreakH</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
 
 

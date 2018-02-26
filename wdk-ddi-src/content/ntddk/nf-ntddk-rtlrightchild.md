@@ -91,15 +91,15 @@ Callers of <b>RtlRightChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
 
 
 

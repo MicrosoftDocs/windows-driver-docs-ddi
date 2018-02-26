@@ -7,7 +7,7 @@ old-location: debugger\idebugoutputcallbackswide_output.htm
 old-project: debugger
 ms.assetid: b57661c3-a18f-45ed-b7fc-f6471753566e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, D, I, IDebugOutputCallbacksWide, IDebugOutputCallbacksWide interface [Windows Debugging], Output method, IDebugOutputCallbacksWide::Output, O, Output method [Windows Debugging], Output method [Windows Debugging], IDebugOutputCallbacksWide interface, Output,IDebugOutputCallbacksWide.Output, W, a, b, c, d, dbgeng/IDebugOutputCallbacksWide::Output, debugger.idebugoutputcallbackswide_output, e, g, i, k, l, p, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

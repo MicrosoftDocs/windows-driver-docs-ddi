@@ -7,7 +7,7 @@ old-location: storage\addisnsserver_in.htm
 old-project: storage
 ms.assetid: 5d05eeeb-ab68-4770-88c1-483c56dbc116
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PAddiSNSServer_IN, ,, A, AddiSNSServer_IN, AddiSNSServer_IN structure [Storage Devices], I, N, P, PAddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], S, _, _AddiSNSServer_IN, d, e, i, iscsiop/AddiSNSServer_IN, iscsiop/PAddiSNSServer_IN, r, storage.addisnsserver_in, structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,5 +95,5 @@ It is optional that you implement this method.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddiSNSServer_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddiSNSServer_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

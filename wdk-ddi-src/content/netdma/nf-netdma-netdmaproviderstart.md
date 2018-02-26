@@ -130,19 +130,19 @@ Before a DMA provider driver calls
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-
-
 <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 
 <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 

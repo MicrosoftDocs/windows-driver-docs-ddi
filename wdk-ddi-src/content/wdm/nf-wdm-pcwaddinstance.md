@@ -7,7 +7,7 @@ old-location: devtest\pcwaddinstance.htm
 old-project: devtest
 ms.assetid: 041761dd-ce52-4018-a226-c5181858326c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, I, P, PcwAddInstance, PcwAddInstance function [Driver Development Tools], a, c, d, devtest.pcwaddinstance, e, km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, n, s, t, w, wdm/PcwAddInstance"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,5 +155,5 @@ The <b>PcwAddInstance</b> function either adds an instance or collects data depe
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PcwAddInstance function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PcwAddInstance function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

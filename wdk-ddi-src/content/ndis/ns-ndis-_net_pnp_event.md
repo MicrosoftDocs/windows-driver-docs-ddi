@@ -610,44 +610,11 @@ The
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_bind_failed_notification.md">NDIS_BIND_FAILED_NOTIFICATION</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 
 
@@ -656,12 +623,45 @@ The
 
 
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_bind_failed_notification.md">NDIS_BIND_FAILED_NOTIFICATION</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+   NdisIMInitializeDeviceInstanceEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_protocol_pause_parameters.md">
    NDIS_PROTOCOL_PAUSE_PARAMETERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
 
 
 

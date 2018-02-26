@@ -83,11 +83,11 @@ None
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-
-
-
 <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
+
+
+
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 

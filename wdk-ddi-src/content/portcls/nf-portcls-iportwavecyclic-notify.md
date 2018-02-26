@@ -102,11 +102,11 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
-
-
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
 
 

@@ -212,7 +212,7 @@ Note that audio is processed in a unique way for voice activation training. The 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 
 
 
@@ -220,7 +220,7 @@ Note that audio is processed in a unique way for voice activation training. The 
 
 
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
 
 
 

@@ -92,12 +92,13 @@ The
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+   FwpsNetBufferListRemoveContext0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
    FwpsNetBufferListRetrieveContext0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -110,8 +111,7 @@ The
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
-   FwpsNetBufferListRemoveContext0</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

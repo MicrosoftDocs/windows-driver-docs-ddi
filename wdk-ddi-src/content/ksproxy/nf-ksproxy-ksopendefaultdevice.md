@@ -7,7 +7,7 @@ old-location: stream\ksopendefaultdevice.htm
 old-project: stream
 ms.assetid: a017f0b7-8f4f-4797-96de-10137cb3443e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, K, KsOpenDefaultDevice, KsOpenDefaultDevice function [Streaming Media Devices], O, a, c, e, f, i, ksproxy/KsOpenDefaultDevice, ksproxy_9c80d462-baaa-497b-a337-5d42e94b9c3f.xml, l, n, p, s, stream.ksopendefaultdevice, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

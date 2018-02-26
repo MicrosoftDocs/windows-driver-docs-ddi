@@ -7,7 +7,7 @@ old-location: storage\storage_property_query.htm
 old-project: storage
 ms.assetid: 5f8e4fbd-706c-4694-bcba-927474a66e86
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSTORAGE_PROPERTY_QUERY, ,, A, E, G, O, P, PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY structure pointer [Storage Devices], Q, R, S, STORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY structure [Storage Devices], T, U, Y, _, _STORAGE_PROPERTY_QUERY, ntddstor/PSTORAGE_PROPERTY_QUERY, ntddstor/STORAGE_PROPERTY_QUERY, storage.storage_property_query, structs-general_3b25ee3b-72f2-4f41-8c76-a1764bea86af.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,5 +129,5 @@ If the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_PROPERTY_QUERY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_PROPERTY_QUERY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

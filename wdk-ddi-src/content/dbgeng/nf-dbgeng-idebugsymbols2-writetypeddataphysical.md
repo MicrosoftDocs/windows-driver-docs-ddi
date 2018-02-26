@@ -7,7 +7,7 @@ old-location: debugger\writetypeddataphysical.htm
 old-project: debugger
 ms.assetid: 5f29249f-bb62-45d1-aa0e-108db1d7f906
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, D, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols2::WriteTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols3::WriteTypedDataPhysical, IDebugSymbols::WriteTypedDataPhysical, IDebugSymbols_b5205296-88eb-4af8-8448-b2a79f08e7b0.xml, P, S, T, W, WriteTypedDataPhysical method [Windows Debugging], WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, WriteTypedDataPhysical,IDebugSymbols.WriteTypedDataPhysical, WriteTypedDataPhysical,IDebugSymbols2.WriteTypedDataPhysical, a, b, c, d, dbgeng/IDebugSymbols2::WriteTypedDataPhysical, dbgeng/IDebugSymbols3::WriteTypedDataPhysical, dbgeng/IDebugSymbols::WriteTypedDataPhysical, debugger.writetypeddataphysical, e, g, h, i, l, m, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

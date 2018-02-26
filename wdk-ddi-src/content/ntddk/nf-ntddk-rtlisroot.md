@@ -89,11 +89,11 @@ Callers of <b>RtlIsRoot</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
 
 
 

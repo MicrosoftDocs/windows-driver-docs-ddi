@@ -7,7 +7,7 @@ old-location: display\dxgkarg_queryadapterinfo.htm
 old-project: display
 ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, D, DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO structure [Display Devices], DmStructs_82a38a66-d65c-4b88-be6d-974590e9472a.xml, E, F, G, I, K, N, O, P, Q, R, T, U, X, Y, _, _DXGKARG_QUERYADAPTERINFO, d3dkmddi/DXGKARG_QUERYADAPTERINFO, display.dxgkarg_queryadapterinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,7 +141,15 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_queryadapterinfotype.md">DXGK_QUERYADAPTERINFOTYPE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
 
 
 
@@ -149,7 +157,7 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
 
 
@@ -161,15 +169,7 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_queryadapterinfotype.md">DXGK_QUERYADAPTERINFOTYPE</a>
 
 
 
@@ -177,5 +177,5 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_QUERYADAPTERINFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_QUERYADAPTERINFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

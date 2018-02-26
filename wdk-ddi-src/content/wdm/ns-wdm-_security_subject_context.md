@@ -89,47 +89,7 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
-
-
-
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-
-
-
-<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-
-
-
-<a href="..\wdm\nf-wdm-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-
-
-
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
-
-
-
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
-
-
-
-<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
 
 
 
@@ -137,15 +97,55 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-
-
-
 <a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
 
 
+<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+
+
+
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
+
+
+<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
+
+
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
+
+
+
+<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
+
+
+
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+
+
+
+<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
 
 
 

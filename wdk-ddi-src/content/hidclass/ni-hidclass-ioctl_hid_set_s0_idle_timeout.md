@@ -7,7 +7,7 @@ old-location: hid\ioctl_hid_set_s0_idle_timeout.htm
 old-project: hid
 ms.assetid: 9372E6D5-0E0B-4916-929D-73532FB6A5D6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_HID_SET_S0_IDLE_TIMEOUT, IOCTL_HID_SET_S0_IDLE_TIMEOUT control code [Human Input Devices], hid.ioctl_hid_set_s0_idle_timeout, hidclass/IOCTL_HID_SET_S0_IDLE_TIMEOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices

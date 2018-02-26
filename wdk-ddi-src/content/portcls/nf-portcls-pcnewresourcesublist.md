@@ -84,7 +84,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 
 ### -param PoolType [in]
 
-Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value.
+Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value.
 
 
 ### -param ParentList [in]
@@ -121,15 +121,15 @@ The <i>OutResourceList</i>, <i>OuterUnknown</i>, and <i>ParentList</i> parameter
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536981">IResourceList::AddEntryFromParent</a>
+
+
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 
 

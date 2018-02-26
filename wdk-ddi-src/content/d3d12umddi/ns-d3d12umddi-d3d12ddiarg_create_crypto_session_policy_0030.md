@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg-create-crypto-session-policy-0030.htm
 old-project: display
 ms.assetid: b7574112-2cac-4bec-9039-9afeef4d2f51
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 structure [Display Devices], E, G, I, L, N, O, P, R, S, T, Y, _, d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, display.d3d12ddiarg-create-crypto-session-policy-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices

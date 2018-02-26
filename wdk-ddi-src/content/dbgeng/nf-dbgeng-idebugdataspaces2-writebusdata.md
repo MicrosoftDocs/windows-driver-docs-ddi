@@ -7,7 +7,7 @@ old-location: debugger\writebusdata.htm
 old-project: debugger
 ms.assetid: bd4e762d-b3d5-4a4c-bdeb-998cd72783b4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, B, D, I, IDebugDataSpaces, IDebugDataSpaces interface [Windows Debugging], WriteBusData method, IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces2::WriteBusData, IDebugDataSpaces3 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces3::WriteBusData, IDebugDataSpaces4 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces4::WriteBusData, IDebugDataSpaces::WriteBusData, IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, S, W, WriteBusData method [Windows Debugging], WriteBusData method [Windows Debugging], IDebugDataSpaces interface, WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces3 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces4 interface, WriteBusData,IDebugDataSpaces.WriteBusData, WriteBusData,IDebugDataSpaces2.WriteBusData, a, b, c, dbgeng/IDebugDataSpaces2::WriteBusData, dbgeng/IDebugDataSpaces3::WriteBusData, dbgeng/IDebugDataSpaces4::WriteBusData, dbgeng/IDebugDataSpaces::WriteBusData, debugger.writebusdata, e, g, i, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

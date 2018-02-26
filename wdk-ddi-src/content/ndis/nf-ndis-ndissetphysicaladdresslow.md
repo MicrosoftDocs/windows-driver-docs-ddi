@@ -81,11 +81,11 @@ Specifies the value to be written into the low-order part of the address.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetphysicaladdresshigh.md">NdisSetPhysicalAddressHigh</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisgetphysicaladdresslow.md">NdisGetPhysicalAddressLow</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetphysicaladdresshigh.md">NdisSetPhysicalAddressHigh</a>
 
 
 

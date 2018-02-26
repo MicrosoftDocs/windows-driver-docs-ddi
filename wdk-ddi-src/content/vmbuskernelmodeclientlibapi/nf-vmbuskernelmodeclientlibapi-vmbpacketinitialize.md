@@ -150,11 +150,11 @@ sending the packet.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket.md">VmbChannelSizeofPacket</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
 
 
 

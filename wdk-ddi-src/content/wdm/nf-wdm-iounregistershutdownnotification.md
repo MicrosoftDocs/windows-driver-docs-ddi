@@ -7,7 +7,7 @@ old-location: kernel\iounregistershutdownnotification.htm
 old-project: kernel
 ms.assetid: b48a38ff-60b9-4c01-ac71-4ae07010db1f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, IoUnregisterShutdownNotification, IoUnregisterShutdownNotification routine [Kernel-Mode Driver Architecture], N, S, U, a, c, d, e, f, g, h, i, k104_f242a3dc-8338-4d64-bad7-0cca78c30a45.xml, kernel.iounregistershutdownnotification, n, o, r, s, t, u, w, wdm/IoUnregisterShutdownNotification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,17 +95,17 @@ Calling <b>IoUnregisterShutdownNotification</b> cancels all shutdown notificatio
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoUnregisterShutdownNotification routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoUnregisterShutdownNotification routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -92,15 +92,15 @@ This method connects the synchronization object to the interrupt that was specif
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
 
 
 <a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
+
+
+
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 

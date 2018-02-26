@@ -183,47 +183,15 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
-
-
-
 <a href="..\fcb\nf-fcb-rxcreatenetfobx.md">RxCreateNetFobx</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFCB</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatesrvopen.md">RxCreateSrvOpen</a>
-
-
-
 <a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFobx</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 
@@ -235,7 +203,15 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
+<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFCB</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
 
 
@@ -243,7 +219,11 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
+<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
 
 
 
@@ -251,11 +231,31 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatesrvopen.md">RxCreateSrvOpen</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
 
 
 

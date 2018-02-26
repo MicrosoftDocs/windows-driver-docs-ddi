@@ -206,19 +206,19 @@ The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">NDIS_RECEIVE_FILTER_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
 
 
 

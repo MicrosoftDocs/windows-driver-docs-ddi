@@ -7,7 +7,7 @@ old-location: kernel\rtlsetbit.htm
 old-project: kernel
 ms.assetid: 6e78da3d-7a37-41f9-bfa6-db2e83581769
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , B, R, RtlSetBit, RtlSetBit routine [Kernel-Mode Driver Architecture], S, e, i, k109_44d68cd0-b91e-4a4e-8f4f-c40e25b768b9.xml, kernel.rtlsetbit, l, t, wdm/RtlSetBit"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,5 +111,5 @@ Callers of <b>RtlSetBit</b> must be running at IRQL &lt;= APC_LEVEL if the memor
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlSetBit routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlSetBit routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

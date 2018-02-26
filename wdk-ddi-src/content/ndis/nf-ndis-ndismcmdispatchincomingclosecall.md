@@ -182,27 +182,11 @@ Only connection-oriented miniport drivers that provide call-management support c
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
 
 
@@ -211,7 +195,23 @@ Only connection-oriented miniport drivers that provide call-management support c
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
 
 
 

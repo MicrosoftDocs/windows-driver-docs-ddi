@@ -99,7 +99,7 @@ To initialize the elements in the <b>SPB_TRANSFER_LIST</b> structure's <b>Transf
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406202">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a>
 
 
 
@@ -107,7 +107,7 @@ To initialize the elements in the <b>SPB_TRANSFER_LIST</b> structure's <b>Transf
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406202">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
 
 
 

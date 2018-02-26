@@ -96,7 +96,7 @@ Registered protocol drivers typically call
     <b>NdisDeregisterProtocolDriver</b> when the driver's 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine has been called or after errors occur
     in the 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. Protocol drivers must not
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. Protocol drivers must not
     call 
     <b>NdisDeregisterProtocolDriver</b> from any entry point that NDIS calls. Calling 
     <b>NdisDeregisterProtocolDriver</b> from such an entry point could cause a deadlock.
@@ -117,10 +117,6 @@ After any outstanding bindings have been closed,
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
 
@@ -130,6 +126,10 @@ After any outstanding bindings have been closed,
 
 
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 

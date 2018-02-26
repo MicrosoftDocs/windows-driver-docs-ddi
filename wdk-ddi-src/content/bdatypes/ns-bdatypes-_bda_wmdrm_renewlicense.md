@@ -7,7 +7,7 @@ old-location: stream\bda_wmdrm_renewlicense.htm
 old-project: stream
 ms.assetid: 73AB73F1-CB9B-46A3-8ECC-19E93210D30E
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PBDA_WMDRM_RENEWLICENSE, ,, A, B, BDA_WMDRM_RENEWLICENSE, BDA_WMDRM_RENEWLICENSE structure [Streaming Media Devices], C, D, E, I, L, M, N, P, PBDA_WMDRM_RENEWLICENSE, PBDA_WMDRM_RENEWLICENSE structure pointer [Streaming Media Devices], R, S, W, _, _BDA_WMDRM_RENEWLICENSE, bdatypes/BDA_WMDRM_RENEWLICENSE, bdatypes/PBDA_WMDRM_RENEWLICENSE, stream.bda_wmdrm_renewlicense"
 ms.prod: windows-hardware
 ms.technology: windows-devices

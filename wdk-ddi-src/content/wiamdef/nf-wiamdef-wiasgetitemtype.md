@@ -7,7 +7,7 @@ old-location: image\wiasgetitemtype.htm
 old-project: image
 ms.assetid: 9659d669-ccf3-423a-9c81-12232a978d07
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , G, I, T, a, e, i, image.wiasgetitemtype, m, p, s, t, w, wiamdef/wiasGetItemType, wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, wiasGetItemType, wiasGetItemType function [Imaging Devices], y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

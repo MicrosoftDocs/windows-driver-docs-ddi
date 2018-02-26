@@ -100,6 +100,10 @@ This routine closes handle for the minifilter driver's server port, which listen
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
 
 
@@ -108,15 +112,11 @@ This routine closes handle for the minifilter driver's server port, which listen
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
 
 
 
 <a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
 
 
 

@@ -4,10 +4,10 @@ title: USBD_CalculateUsbBandwidth function
 author: windows-driver-content
 description: The USBD_CalculateUsbBandwidth routine has been deprecated in Windows XP and later operating systems. Do not use.
 old-location: buses\usbd_calculateusbbandwidth.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: a54f3fb4-032a-4538-8b6d-20d6834d08c4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , B, C, D, S, U, USBD_CalculateUsbBandwidth, USBD_CalculateUsbBandwidth routine [Buses], _, a, b, buses.usbd_calculateusbbandwidth, c, d, e, h, i, l, n, s, t, u, usbdlib/USBD_CalculateUsbBandwidth, usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,5 +118,5 @@ The <b>USBD_CalculateUsbBandwidth</b> routine approximates the bandwidth using t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBD_CalculateUsbBandwidth routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_CalculateUsbBandwidth routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

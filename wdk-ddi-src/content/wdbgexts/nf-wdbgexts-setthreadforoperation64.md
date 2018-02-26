@@ -7,7 +7,7 @@ old-location: debugger\setthreadforoperation64.htm
 old-project: debugger
 ms.assetid: 0c8f7113-0866-454a-9596-8733dd78b282
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , 4, 6, F, O, S, SetThreadForOperation64, SetThreadForOperation64 function [Windows Debugging], T, WdbgExts_Ref_8c7ef2e9-4096-4284-9878-63d90f49e227.xml, a, d, debugger.setthreadforoperation64, e, h, i, n, o, p, r, t, wdbgexts/SetThreadForOperation64"
 ms.prod: windows-hardware
 ms.technology: windows-devices

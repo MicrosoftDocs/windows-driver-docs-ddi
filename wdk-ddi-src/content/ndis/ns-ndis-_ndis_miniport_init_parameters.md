@@ -97,7 +97,7 @@ Reserved for NDIS.
 A pointer to an NDIS_RESOURCE_LIST-type structure that lists the hardware resources that the Plug
      and Play Manager assigned to the miniport adapter. The NDIS_RESOURCE_LIST is type definition that is
      equivalent to the 
-     <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a> on Windows
+     <a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a> on Windows
      2000 and later platforms.
 
 
@@ -161,11 +161,30 @@ NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> str
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+   OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+   NdisIMInitializeDeviceInstanceEx</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_port_authentication_parameters.md">
+   NDIS_PORT_AUTHENTICATION_PARAMETERS</a>
 
 
 
@@ -178,26 +197,7 @@ NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> str
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
-   OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_authentication_parameters.md">
-   NDIS_PORT_AUTHENTICATION_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
 
 

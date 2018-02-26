@@ -128,10 +128,6 @@ The NetDMA interface waits for outstanding DMA operations to complete and frees 
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
-
-
-
 <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
 
 
@@ -140,7 +136,7 @@ The NetDMA interface waits for outstanding DMA operations to complete and frees 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 
@@ -148,7 +144,11 @@ The NetDMA interface waits for outstanding DMA operations to complete and frees 
 
 
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
 
 
 

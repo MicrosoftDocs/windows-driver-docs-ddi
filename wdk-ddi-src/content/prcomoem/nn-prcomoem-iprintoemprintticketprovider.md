@@ -7,7 +7,7 @@ old-location: print\iprintoemprintticketprovider_interface.htm
 old-project: print
 ms.assetid: a32b5ec9-b4f2-4f33-879d-252806bd34ed
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], described, prcomoem/IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_interface, print_ticket-package_73ff5919-5d89-4fe1-b10f-03f2b14b716f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,6 +70,15 @@ The <b>IPrintOemPrintTicketProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/bd1ca076-5007-4e38-8e90-4017d7dc8b3f">GetSupportedVersions</a>
+</td>
+<td align="left" width="63%">
+The <code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> method retrieves major versions of the print schemas that are supported by the plug-in provider.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553151">IPrintOemPrintTicketProvider::BindPrinter</a>
 </td>
 <td align="left" width="63%">
@@ -110,15 +119,6 @@ The <code>IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</code> metho
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemPrintTicketProvider::ExpandIntentOptions</code> method enables the plug-in to expand printer options (such as photo printing) into individual feature settings in the print ticket. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553170">IPrintOemPrintTicketProvider::GetSupportedVersions</a>
-</td>
-<td align="left" width="63%">
-The <code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> method retrieves major versions of the print schemas that are supported by the plug-in provider.
 
 </td>
 </tr>

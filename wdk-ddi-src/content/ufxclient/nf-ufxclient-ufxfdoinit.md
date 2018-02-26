@@ -4,10 +4,10 @@ title: UfxFdoInit function
 author: windows-driver-content
 description: Initializes the WDFDEVICE_INIT structure that the client driver subsequently provides when it calls WdfDeviceCreate.
 old-location: buses\ufxfdoinit.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 11CDA6DA-6B26-41BC-8F0B-2F18FC03B3C2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , F, I, U, UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, d, f, i, n, o, t, ufxclient/UfxFdoInit, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

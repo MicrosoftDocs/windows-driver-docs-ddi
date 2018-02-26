@@ -7,7 +7,7 @@ old-location: kernel\rtlvolumedevicetodosname.htm
 old-project: kernel
 ms.assetid: e25db70f-04bf-4fb1-8ff5-2beb4c825797
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, N, R, RtlVolumeDeviceToDosName, RtlVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], T, V, a, c, e, i, k109_a95aea8c-1156-4852-b4eb-38d2f141fcca.xml, kernel.rtlvolumedevicetodosname, l, m, ntddk/RtlVolumeDeviceToDosName, o, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

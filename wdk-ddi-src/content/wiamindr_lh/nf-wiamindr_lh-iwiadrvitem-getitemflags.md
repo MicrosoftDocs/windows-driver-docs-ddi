@@ -7,7 +7,7 @@ old-location: image\iwiadrvitem_getitemflags.htm
 old-project: image
 ms.assetid: 47358d69-ef45-4cac-8187-72c354912c4e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml, F, G, GetItemFlags method [Imaging Devices], GetItemFlags method [Imaging Devices], IWiaDrvItem interface, GetItemFlags,IWiaDrvItem.GetItemFlags, I, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetItemFlags method, IWiaDrvItem::GetItemFlags, W, a, e, g, i, image.iwiadrvitem_getitemflags, l, m, r, s, t, v, wiamindr_lh/IWiaDrvItem::GetItemFlags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,17 +100,17 @@ The method places the current <b>IWiaDrvItem</b> item's flag values in the locat
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
 
 
- 
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::GetItemFlags method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::GetItemFlags method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

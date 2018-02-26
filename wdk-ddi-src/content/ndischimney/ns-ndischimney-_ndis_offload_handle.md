@@ -104,11 +104,11 @@ For more information about the use of the NDIS_OFFLOAD_HANDLE structure, see
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
-
-
-
 <a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
 
 
 

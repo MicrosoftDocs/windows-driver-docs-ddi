@@ -155,11 +155,11 @@ For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
 
 
 

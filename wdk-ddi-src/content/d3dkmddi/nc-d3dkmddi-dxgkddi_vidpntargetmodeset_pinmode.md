@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfnpinmode.htm
 old-project: display
 ms.assetid: 91ea3105-2fdf-4533-a2d4-d27f1e660056
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_PINMODE, VidPnFunctions_2b6f869f-bd7d-4699-8934-04cbe56bf0af.xml, d3dkmddi/pfnPinMode, display.dxgk_vidpntargetmodeset_interface_pfnpinmode, pfnPinMode, pfnPinMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

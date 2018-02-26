@@ -4,10 +4,10 @@ title: "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 author: windows-driver-content
 description: The _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure is used by USB client drivers to retrieve delays associated with isochronous transfer programming in the host controller and transfer completion so that the client driver can ensure that the device gets the isochronous packets in time.
 old-location: buses\_urb_get_isoch_pipe_transfer_path_delays.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 70B74088-C537-4104-A535-F41A24BB72A5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, C, D, E, F, G, H, I, L, N, O, P, R, S, T, U, Y, _, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], buses._urb_get_isoch_pipe_transfer_path_delays, usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

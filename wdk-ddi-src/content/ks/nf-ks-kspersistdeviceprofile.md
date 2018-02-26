@@ -7,7 +7,7 @@ old-location: stream\kspersistdeviceprofile.htm
 old-project: stream
 ms.assetid: 4EC3E99B-C73C-4EAC-9EBD-BB45ABFCE8EC
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, K, KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], P, c, e, f, i, ks/KsPersistDeviceProfile, l, o, r, s, stream.kspersistdeviceprofile, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

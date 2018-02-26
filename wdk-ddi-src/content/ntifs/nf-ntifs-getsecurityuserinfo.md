@@ -135,11 +135,11 @@ This function obtains information about a logon <a href="http://go.microsoft.com
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-mapsecurityerror.md">MapSecurityError</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-mapsecurityerror.md">MapSecurityError</a>
 
 
 

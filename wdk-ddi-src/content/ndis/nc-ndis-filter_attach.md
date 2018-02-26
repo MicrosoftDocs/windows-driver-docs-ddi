@@ -268,15 +268,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
 
 
 

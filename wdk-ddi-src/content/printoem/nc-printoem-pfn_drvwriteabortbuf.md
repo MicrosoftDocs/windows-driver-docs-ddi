@@ -7,7 +7,7 @@ old-location: print\drvwriteabortbuf.htm
 old-project: print
 ms.assetid: a5fe5d9a-c5af-4445-bfd6-caf55555997c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: DrvWriteAbortBuf, DrvWriteAbortBuf callback function [Print Devices], PFN_DrvWriteAbortBuf, print.drvwriteabortbuf, print_obsoletefunctions_016b6fea-c0ac-47ad-8834-5681e2f4de3d.xml, printoem/DrvWriteAbortBuf
 ms.prod: windows-hardware
 ms.technology: windows-devices

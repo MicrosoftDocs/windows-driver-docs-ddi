@@ -291,11 +291,7 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569792">OID_RECEIVE_FILTER_PARAMETERS</a>
 
 
 
@@ -308,7 +304,11 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569792">OID_RECEIVE_FILTER_PARAMETERS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

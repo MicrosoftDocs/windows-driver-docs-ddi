@@ -275,7 +275,7 @@ The
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_ofdm_phy_attributes.md">DOT11_OFDM_PHY_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
 
 
 
@@ -283,7 +283,33 @@ The
 
 
 
+<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_ofdm_phy_attributes.md">DOT11_OFDM_PHY_ATTRIBUTES</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_supported_data_rates_value_v2.md">
+   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
@@ -295,37 +321,11 @@ The
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\windot11\ns-windot11-_dot11_supported_data_rates_value_v2.md">
-   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</a>
-
-
-
-<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
-
-
-
-<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
-
-
-
 <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a>
 
 
 
-<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
+<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
 
 
 

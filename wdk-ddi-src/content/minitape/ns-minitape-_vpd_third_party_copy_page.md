@@ -7,7 +7,7 @@ old-location: storage\vpd_third_party_copy_page.htm
 old-project: storage
 ms.assetid: E8D9E05C-26C3-474C-854F-9AD12C8834DF
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PVPD_THIRD_PARTY_COPY_PAGE, ,, A, C, D, E, G, H, I, O, P, PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE structure pointer [Storage Devices], R, T, V, VPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE structure [Storage Devices], Y, _, _VPD_THIRD_PARTY_COPY_PAGE, scsi/PVPD_THIRD_PARTY_COPY_PAGE, scsi/VPD_THIRD_PARTY_COPY_PAGE, storage.vpd_third_party_copy_page"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,5 +115,5 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VPD_THIRD_PARTY_COPY_PAGE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VPD_THIRD_PARTY_COPY_PAGE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

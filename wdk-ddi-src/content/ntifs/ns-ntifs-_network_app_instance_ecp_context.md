@@ -101,11 +101,11 @@ For information about how to use ECPs to associate extra information with a file
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 

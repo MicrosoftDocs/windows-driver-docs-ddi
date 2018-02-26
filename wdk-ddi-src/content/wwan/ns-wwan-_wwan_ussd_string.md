@@ -109,11 +109,11 @@ For USSD notifications, the miniport driver or MB device must encode the USSD st
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a>
 
 
 

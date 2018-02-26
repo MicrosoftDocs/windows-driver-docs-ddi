@@ -90,7 +90,7 @@ The source port of the event notification. If the status indication is not speci
 ### -field NetPnPEvent
 
 A
-     <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a> structure that describes the
+     <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a> structure that describes the
      event.
 
 
@@ -121,7 +121,7 @@ When the operating system issues a system PnP event or a power management event 
 
 The 
     <b>NetPnPEvent</b> member is a 
-    <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a> structure. The 
+    <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a> structure. The 
     <b>NetEvent</b> member of this NET_PNP_EVENT structure specifies an event code that identifies the network
     PnP event, NDIS PnP event, or power management event.
 
@@ -152,7 +152,7 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
 
 
 
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+<a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a>
 
 
 
@@ -160,7 +160,7 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
 
 
 
-<a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a>
+<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
 
 
 

@@ -184,7 +184,7 @@ Then, implement your callback function as follows:
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_disable.md">OnInterruptDisable</a>
+<a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice::CreateInterrupt</a>
 
 
 
@@ -192,7 +192,7 @@ Then, implement your callback function as follows:
 
 
 
-<a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice::CreateInterrupt</a>
+<a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_disable.md">OnInterruptDisable</a>
 
 
 

@@ -120,15 +120,15 @@ When
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_pin_operation.md">WWAN_PIN_OPERATION</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_pin.md">NDIS_WWAN_SET_PIN</a>
 
 
 
 <a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_pin_operation.md">WWAN_PIN_OPERATION</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: pos\posprofiletype.htm
 old-project: pos
 ms.assetid: b0ef1592-f3f3-4ca1-83f8-dc7cb76cda36
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, P, PosProfileType, PosProfileType structure, T, _, _PosProfileType, e, f, i, l, o, p, pointofservicedriverinterface/PosProfileType, pos.posprofiletype, r, s, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

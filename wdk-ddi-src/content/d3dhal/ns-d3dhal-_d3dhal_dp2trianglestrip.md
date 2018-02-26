@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2trianglestrip.htm
 old-project: display
 ms.assetid: dfa4f6c3-b174-4bd5-9729-6d835bb87b6a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPD3DHAL_DP2TRIANGLESTRIP, ,, 2, 3, A, D, D3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP structure [Display Devices], E, G, H, I, L, LPD3DHAL_DP2TRIANGLESTRIP, LPD3DHAL_DP2TRIANGLESTRIP structure pointer [Display Devices], N, P, R, S, T, _, _D3DHAL_DP2TRIANGLESTRIP, d3dhal/D3DHAL_DP2TRIANGLESTRIP, d3dhal/LPD3DHAL_DP2TRIANGLESTRIP, d3dstrct_01322dae-8b16-4631-ac3d-f65c5d31c5a3.xml, display.d3dhal_dp2trianglestrip"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,11 +103,11 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -119,5 +119,5 @@ D3DDP2OP_TRIANGLESTRIP
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TRIANGLESTRIP structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TRIANGLESTRIP structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

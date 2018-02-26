@@ -128,11 +128,11 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 
 
 
-<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxscavengeallfobxs.md">RxScavengeAllFobxs</a>
+
+
+
+<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
 
 
 

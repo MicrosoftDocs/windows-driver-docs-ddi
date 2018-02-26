@@ -186,6 +186,10 @@ if (WdfRequestSend(
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecycleportsynchronously.md">WdfUsbTargetDeviceCyclePortSynchronously</a>
 
 
@@ -199,10 +203,6 @@ if (WdfRequestSend(
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
 
 
 

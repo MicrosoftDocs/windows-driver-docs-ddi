@@ -165,16 +165,16 @@ A
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
+   IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
 <a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
-   IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
 
 
 

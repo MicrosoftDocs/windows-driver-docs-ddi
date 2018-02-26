@@ -245,7 +245,7 @@ The offset of an array of processor masks from the beginning of the <b>NDIS_RECE
 
 ### -field NumberOfProcessorMasks
 
-The number of elements in an array of type <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> representing the processors used in the indirection table
+The number of elements in an array of type <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> representing the processors used in the indirection table
 
 
 ### -field ProcessorMasksEntrySize
@@ -318,16 +318,8 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
 
 
 
@@ -337,7 +329,7 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
+   NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
 
 
@@ -346,8 +338,16 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
+   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 

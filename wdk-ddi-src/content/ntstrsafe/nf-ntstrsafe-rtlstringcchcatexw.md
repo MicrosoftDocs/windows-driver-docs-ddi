@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchcatex.htm
 old-project: kernel
 ms.assetid: 868cde94-b086-47bc-8ffb-7cf21a2960a7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, E, R, RtlStringCchCatEx, RtlStringCchCatEx function [Kernel-Mode Driver Architecture], RtlStringCchCatExA, RtlStringCchCatExW, S, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, W, a, c, g, h, i, kernel.rtlstringcchcatex, l, n, ntstrsafe/RtlStringCchCatEx, ntstrsafe/RtlStringCchCatExA, ntstrsafe/RtlStringCchCatExW, r, safestrings_8766da59-e5d5-4fc8-af93-73b90c4449ab.xml, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -293,10 +293,6 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatexw.md">RtlStringCbCatEx</a>
 
 
@@ -305,9 +301,13 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
- 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCatExW function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCatExW function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

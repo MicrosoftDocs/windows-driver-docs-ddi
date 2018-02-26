@@ -7,7 +7,7 @@ old-location: display\d3d11ddiarg_stream_output_declaration_entry.htm
 old-project: display
 ms.assetid: 336bfc9d-325b-4ff1-8d6b-ec2ef4158cb9
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], E, G, I, L, M, N, O, P, R, S, T, U, UMDisplayDriver_Dx11param_Structs_c3324903-51b0-4679-ad77-b24cb5619bef.xml, Y, _, d3d10umddi/D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, display.d3d11ddiarg_stream_output_declaration_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices

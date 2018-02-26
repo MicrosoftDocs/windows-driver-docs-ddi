@@ -7,7 +7,7 @@ old-location: display\iddcx_opm_requested_information.htm
 old-project: display
 ms.assetid: 0e8c49b2-1c36-432b-aba9-bc6a739ee04d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, D, E, F, I, IDDCX_OPM_REQUESTED_INFORMATION, IDDCX_OPM_REQUESTED_INFORMATION structure [Display Devices], M, N, O, P, Q, R, S, T, U, X, _, display.iddcx_opm_requested_information, iddcx/IDDCX_OPM_REQUESTED_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

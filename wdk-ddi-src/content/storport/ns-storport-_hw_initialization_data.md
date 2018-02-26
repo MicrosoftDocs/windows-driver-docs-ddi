@@ -7,7 +7,7 @@ old-location: storage\hw_initialization_data__storport_.htm
 old-project: storage
 ms.assetid: 54f460da-2dfb-4a9d-9b25-edb90f3bfdd5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PHW_INITIALIZATION_DATA, ,, A, ADDRESS_TYPE_FLAG_BTL8, D, H, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices], I, L, N, O, P, PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, STOR_FEATURE_ATA_PASS_THROUGH, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, STOR_FEATURE_DUMP_POINTERS, STOR_FEATURE_DUMP_RESUME_CAPABLE, STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, STOR_FEATURE_VIRTUAL_MINIPORT, STOR_MAP_ALL_BUFFERS, STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, STOR_MAP_NON_READ_WRITE_BUFFERS, STOR_MAP_NO_BUFFERS, T, W, Z, _, _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], storage.hw_initialization_data__storport_, storport/HW_INITIALIZATION_DATA, storport/PHW_INITIALIZATION_DATA, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -508,6 +508,34 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 ## -see-also
 
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
+
+<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+
+
+
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+
+
+
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+
+
+
+<a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+
+
 <a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
 
 
@@ -516,37 +544,9 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-
-
-
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
-
-
-
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
-
-
-
-<a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
-
-
-
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
-
-
-
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-
-
-
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_HW_INITIALIZATION_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_HW_INITIALIZATION_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

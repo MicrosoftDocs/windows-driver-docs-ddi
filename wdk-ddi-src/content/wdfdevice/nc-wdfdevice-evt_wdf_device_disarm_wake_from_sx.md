@@ -148,11 +148,11 @@ The <b>EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX</b> function type is defined in the Wd
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_wake_from_sx_triggered.md">EvtDeviceWakeFromSxTriggered</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
 
 
 

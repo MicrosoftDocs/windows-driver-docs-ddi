@@ -196,8 +196,32 @@ The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in th
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 
 
@@ -209,6 +233,26 @@ The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in th
 
 
 
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
 
 
@@ -217,51 +261,7 @@ The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in th
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
 
 

@@ -91,7 +91,7 @@ None
 
 
 If an error occurs in the miniport driver's 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine after the 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine after the 
     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
     NdisMRegisterMiniportDriver</a> function returns successfully, the driver must call 
     <b>NdisMDeregisterMiniportDriver</b> before 
@@ -109,7 +109,7 @@ If an error occurs in the miniport driver's
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 

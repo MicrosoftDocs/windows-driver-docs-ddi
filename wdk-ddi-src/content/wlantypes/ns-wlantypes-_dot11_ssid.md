@@ -98,15 +98,12 @@ A
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-start">
+   NDIS_STATUS_DOT11_ASSOCIATION_START</a>
 
 
 
@@ -114,13 +111,16 @@ A
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn305127">
    NDIS_STATUS_DOT11_CONNECTION_START</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-start">
-   NDIS_STATUS_DOT11_ASSOCIATION_START</a>
 
 
 

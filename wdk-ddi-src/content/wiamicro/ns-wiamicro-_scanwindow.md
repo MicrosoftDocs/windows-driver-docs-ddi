@@ -7,7 +7,7 @@ old-location: image\scanwindow.htm
 old-project: image
 ms.assetid: c4b507ac-af32-4949-add0-e19c00e328fe
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PSCANWINDOW, ,, A, C, D, I, MicroDrv_b89f7f9d-a1e6-4a61-83e3-659c6f3a9d13.xml, N, O, P, PSCANWINDOW, PSCANWINDOW structure pointer [Imaging Devices], S, SCANWINDOW, SCANWINDOW structure [Imaging Devices], W, _, _SCANWINDOW, image.scanwindow, wiamicro/PSCANWINDOW, wiamicro/SCANWINDOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

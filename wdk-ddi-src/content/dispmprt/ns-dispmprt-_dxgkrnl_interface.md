@@ -7,7 +7,7 @@ old-location: display\dxgkrnl_interface2.htm
 old-project: display
 ms.assetid: d97d3ec6-aaa5-4f4a-a39f-42c09473b18e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDXGKRNL_INTERFACE, ,, A, C, D, DXGKDDI_INTERFACE_VERSION_VISTA, DXGKDDI_INTERFACE_VERSION_VISTA_SP1, DXGKDDI_INTERFACE_VERSION_VISTA_WIN7, DXGKDDI_INTERFACE_VERSION_WIN8, DXGKRNL_INTERFACE, DXGKRNL_INTERFACE structure [Display Devices], DmStructs_86ab8b5f-f30b-4ad3-ac4d-34fc3a864f27.xml, E, F, G, I, K, L, N, P, PDXGKRNL_INTERFACE, PDXGKRNL_INTERFACE structure pointer [Display Devices], R, T, X, _, _DXGKRNL_INTERFACE, display.dxgkrnl_interface2, dispmprt/DXGKRNL_INTERFACE, dispmprt/PDXGKRNL_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -416,6 +416,10 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
 
 
@@ -424,13 +428,9 @@ Supported starting with Windows 8.1.
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKRNL_INTERFACE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKRNL_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

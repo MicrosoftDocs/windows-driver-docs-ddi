@@ -103,15 +103,7 @@ Callers of
 
 ## -see-also
 
-<a href="..\smclib\nf-smclib-rtlzeromemory.md">RtlZeroMemory</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
 
 
@@ -120,7 +112,15 @@ Callers of
 
 
 
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+
+
+
+<a href="..\scsi\nf-scsi-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

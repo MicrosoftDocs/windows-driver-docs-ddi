@@ -7,7 +7,7 @@ old-location: storage\sm_removepersistentbinding_in.htm
 old-project: storage
 ms.assetid: 47e6a189-4b16-411a-8552-3e6f998516ba
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSM_RemovePersistentBinding_IN, ,, B, I, M, N, P, PSM_RemovePersistentBinding_IN, PSM_RemovePersistentBinding_IN structure pointer [Storage Devices], R, S, SM_RemovePersistentBinding_IN, SM_RemovePersistentBinding_IN structure [Storage Devices], _, _SM_RemovePersistentBinding_IN, d, e, g, hbapiwmi/PSM_RemovePersistentBinding_IN, hbapiwmi/SM_RemovePersistentBinding_IN, i, m, n, o, r, s, storage.sm_removepersistentbinding_in, structs-Fibre_d27cd5dc-07ee-470c-ad0d-239f1d378841.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

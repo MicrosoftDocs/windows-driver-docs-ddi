@@ -265,11 +265,11 @@ All <b>ReservedXX</b> counters must be set to zero by providers and are ignored 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_statistics_info.md">NDIS_NDK_STATISTICS_INFO</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_statistics_info.md">NDIS_NDK_STATISTICS_INFO</a>
 
 
 

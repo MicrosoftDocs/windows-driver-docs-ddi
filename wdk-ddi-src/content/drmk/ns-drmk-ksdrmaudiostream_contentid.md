@@ -80,11 +80,11 @@ Specifies the DRM content rights assigned to the stream. This member is a pointe
 
 ## -see-also
 
-<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
+
+
+<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
 
 
 

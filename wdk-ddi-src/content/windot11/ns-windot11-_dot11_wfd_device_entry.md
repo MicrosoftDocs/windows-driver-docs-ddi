@@ -173,14 +173,6 @@ The length, in bytes, of the IEs at <b>uProbeResponseIEsOffset</b>. This is an e
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451796">OID_DOT11_WFD_ENUM_DEVICE_LIST</a>
-
-
-
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451704">NDIS_STATUS_DOT11_WFD_DISCOVER_COMPLETE</a>
 
 
@@ -190,6 +182,14 @@ The length, in bytes, of the IEs at <b>uProbeResponseIEsOffset</b>. This is an e
 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451796">OID_DOT11_WFD_ENUM_DEVICE_LIST</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
 
 

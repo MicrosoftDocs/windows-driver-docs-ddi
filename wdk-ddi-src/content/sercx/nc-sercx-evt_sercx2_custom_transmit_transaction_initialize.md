@@ -163,7 +163,7 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE</b> function type is de
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
 
@@ -171,7 +171,7 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE</b> function type is de
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 

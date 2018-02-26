@@ -7,7 +7,7 @@ old-location: debugger\addflags.htm
 old-project: debugger
 ms.assetid: 92161111-5e02-4a97-9656-9a297e9ea1af
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, A, AddFlags method [Windows Debugging], AddFlags method [Windows Debugging], IDebugBreakpoint interface, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, AddFlags,IDebugBreakpoint.AddFlags, B, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, D, F, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], AddFlags method, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, IDebugBreakpoint2::AddFlags, IDebugBreakpoint::AddFlags, a, b, d, dbgeng/IDebugBreakpoint2::AddFlags, dbgeng/IDebugBreakpoint::AddFlags, debugger.addflags, e, g, i, k, l, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

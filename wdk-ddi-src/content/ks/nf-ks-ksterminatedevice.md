@@ -7,7 +7,7 @@ old-location: stream\ksterminatedevice.htm
 old-project: stream
 ms.assetid: 3d6ad381-0bd9-47d8-a4dd-e434b62bf5a1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, K, KsTerminateDevice, KsTerminateDevice function [Streaming Media Devices], T, a, avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml, c, e, i, ks/KsTerminateDevice, m, n, r, s, stream.ksterminatedevice, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,15 @@ Normally, AVStream calls <b>KsTerminateDevice</b> upon receipt of a PnP remove d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
+
+
+<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+
+
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -109,15 +117,7 @@ Normally, AVStream calls <b>KsTerminateDevice</b> upon receipt of a PnP remove d
 
 
 
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
-
-
-
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
 
 
@@ -125,5 +125,5 @@ Normally, AVStream calls <b>KsTerminateDevice</b> upon receipt of a PnP remove d
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsTerminateDevice function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsTerminateDevice function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

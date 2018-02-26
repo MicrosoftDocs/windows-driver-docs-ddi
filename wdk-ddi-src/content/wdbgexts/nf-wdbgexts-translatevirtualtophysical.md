@@ -7,7 +7,7 @@ old-location: debugger\translatevirtualtophysical.htm
 old-project: debugger
 ms.assetid: 803f766a-e02f-4b9c-bfe0-6197e0f2855c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , P, T, TranslateVirtualToPhysical, TranslateVirtualToPhysical function [Windows Debugging], V, WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, a, c, debugger.translatevirtualtophysical, e, h, i, l, n, o, r, s, t, u, wdbgexts/TranslateVirtualToPhysical, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

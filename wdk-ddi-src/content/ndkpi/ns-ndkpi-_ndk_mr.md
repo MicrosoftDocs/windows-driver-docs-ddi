@@ -89,15 +89,11 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mr.md">NDK_FN_CREATE_MR</a>
-
-
-
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr_dispatch.md">NDK_MR_DISPATCH</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mr.md">NDK_FN_CREATE_MR</a>
 
 
 
@@ -105,11 +101,15 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_mr_dispatch.md">NDK_MR_DISPATCH</a>
 
 
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
 
 

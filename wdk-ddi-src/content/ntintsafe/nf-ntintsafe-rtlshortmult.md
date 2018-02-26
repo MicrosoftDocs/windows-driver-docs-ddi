@@ -7,7 +7,7 @@ old-location: kernel\rtlshortmult.htm
 old-project: kernel
 ms.assetid: 15DCCCF1-72B1-4944-9BF0-ACAF1DEB9243
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , M, R, RtlShortMult, RtlShortMult function [Kernel-Mode Driver Architecture], S, h, kernel.rtlshortmult, l, ntintsafe/RtlShortMult, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

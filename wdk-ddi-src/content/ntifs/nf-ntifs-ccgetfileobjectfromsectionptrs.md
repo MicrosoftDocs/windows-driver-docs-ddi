@@ -96,11 +96,11 @@ For more information about creating mapped sections and views of memory, see <a 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrsref.md">CcGetFileObjectFromSectionPtrsRef</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 

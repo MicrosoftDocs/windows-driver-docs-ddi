@@ -100,19 +100,19 @@ The miniport typically calls this for each page in the MDL in order to program t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
-
-
-
 <a href="https://msdn.microsoft.com/8126af29-a7ee-4ab7-8902-45b4baf33b9e">IPortWaveRTStream::GetPhysicalPagesCount </a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
 
 

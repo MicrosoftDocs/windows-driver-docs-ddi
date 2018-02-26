@@ -224,7 +224,7 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 
 
-<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 
 
 
@@ -232,15 +232,15 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932150">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-sounddetector_patternheader.md">SOUNDDETECTOR_PATTERNHEADER</a>
 
 
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932150">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>
+
+
+
+<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
 
 
 

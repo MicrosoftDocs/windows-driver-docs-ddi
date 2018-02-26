@@ -134,7 +134,7 @@ Only PMI configuration data that the power meter supports with read/write permis
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
 
 
 
@@ -142,11 +142,11 @@ Only PMI configuration data that the power meter supports with read/write permis
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

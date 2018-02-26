@@ -121,7 +121,7 @@ deviceConfigHdl = WdfUsbTargetDeviceWdmGetConfigurationHandle(UsbDevice);</pre>
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_select_interface.md">_URB_SELECT_INTERFACE</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
@@ -129,7 +129,7 @@ deviceConfigHdl = WdfUsbTargetDeviceWdmGetConfigurationHandle(UsbDevice);</pre>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\usb\ns-usb-_urb_select_interface.md">_URB_SELECT_INTERFACE</a>
 
 
 

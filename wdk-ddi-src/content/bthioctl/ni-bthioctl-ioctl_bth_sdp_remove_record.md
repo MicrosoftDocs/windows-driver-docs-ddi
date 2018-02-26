@@ -181,12 +181,12 @@ If the record to be removed was published using IOCTL_BTH_SDP_SUBMIT_RECORD_WITH
 
 ## -see-also
 
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+
+
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
-
-
-
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
 
 
 

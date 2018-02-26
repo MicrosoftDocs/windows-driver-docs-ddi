@@ -162,7 +162,7 @@ A provider module calls the
 
 A provider module typically calls the 
     <b>NmrRegisterProvider</b> function from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function after it has completed
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function after it has completed
     all other initialization tasks. The call to the 
     <b>NmrRegisterProvider</b> function indicates to the NMR that the provider module is ready to attach to
     any client modules that have registered or will register as clients of the same 
@@ -182,7 +182,7 @@ A provider module typically calls the
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 

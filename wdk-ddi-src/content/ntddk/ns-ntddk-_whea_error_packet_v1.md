@@ -238,6 +238,38 @@ The WHEA_ERROR_PACKET_V1 structure describes the error data that is contained in
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
+
+
+
+<a href="..\ntddk\ne-ntddk-_whea_raw_data_format.md">WHEA_RAW_DATA_FORMAT</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+
+
+
+<a href="..\ntddk\ne-ntddk-_whea_error_type.md">WHEA_ERROR_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">Platform-Specific Hardware Error Driver (PSHED) Plug-Ins</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
 
 
@@ -246,43 +278,7 @@ The WHEA_ERROR_PACKET_V1 structure describes the error data that is contained in
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddk\ne-ntddk-_whea_raw_data_format.md">WHEA_RAW_DATA_FORMAT</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>
-
-
-
-<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
-
-
-
-<a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">Platform-Specific Hardware Error Driver (PSHED) Plug-Ins</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_nmi_error_section.md">WHEA_NMI_ERROR_SECTION</a>
-
-
-
-<a href="..\ntddk\ne-ntddk-_whea_error_type.md">WHEA_ERROR_TYPE</a>
-
-
-
-<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
 
 
@@ -290,7 +286,11 @@ The WHEA_ERROR_PACKET_V1 structure describes the error data that is contained in
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a>
 
 
 

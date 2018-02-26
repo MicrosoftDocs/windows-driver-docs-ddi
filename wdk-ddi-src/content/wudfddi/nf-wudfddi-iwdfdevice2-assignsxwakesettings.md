@@ -79,12 +79,12 @@ A <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-
 
 ### -param UserControlOfWakeSettings [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
 
 
 ### -param Enabled [in]
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
 
 <b>WdfTrue</b> - Waking the system is enabled.
 
@@ -227,11 +227,11 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
 
 
 

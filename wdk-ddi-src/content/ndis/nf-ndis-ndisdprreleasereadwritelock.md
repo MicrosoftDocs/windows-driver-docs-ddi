@@ -119,15 +119,15 @@ A driver must call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisDprAcquireReadWriteLock</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisDprAcquireReadWriteLock</a>
 
 
 

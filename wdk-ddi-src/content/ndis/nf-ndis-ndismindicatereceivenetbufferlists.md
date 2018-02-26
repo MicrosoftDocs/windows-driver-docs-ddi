@@ -247,19 +247,28 @@ The caller of
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+   ProtocolReceiveNetBufferLists</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -268,16 +277,7 @@ The caller of
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
-   ProtocolReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

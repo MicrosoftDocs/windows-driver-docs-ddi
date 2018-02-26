@@ -7,7 +7,7 @@ old-location: display\miracast_session_info.htm
 old-project: display
 ms.assetid: 48F3CB86-5181-4E1E-9E7F-88FB2CD3640A
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, E, F, I, M, MIRACAST_SESSION_INFO, MIRACAST_SESSION_INFO union [Display Devices], N, O, R, S, T, _, display.miracast_session_info, netdispumdddi/MIRACAST_SESSION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

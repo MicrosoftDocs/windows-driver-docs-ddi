@@ -217,6 +217,10 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
+<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/gg159168.aspx">
    OID_DOT11_ENABLED_AUTHENTICATION_ALGORITHM</a>
 
@@ -228,10 +232,6 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
    DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
-
-
-
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
 
 
 

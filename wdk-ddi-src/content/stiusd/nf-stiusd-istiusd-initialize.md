@@ -7,7 +7,7 @@ old-location: image\istiusd_initialize.htm
 old-project: image
 ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, I, IStiUSD, IStiUSD interface [Imaging Devices], Initialize method, IStiUSD::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStiUSD interface, Initialize,IStiUSD.Initialize, S, U, a, e, i, image.istiusd_initialize, l, n, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices

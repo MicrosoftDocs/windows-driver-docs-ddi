@@ -7,7 +7,7 @@ old-location: storage\msiscsi_hbainformation.htm
 old-project: storage
 ms.assetid: ee2951e0-2632-44b0-870d-33d4d48ac8e8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PMSiSCSI_HBAInformation, ,, A, B, C, H, I, M, MSiSCSI_HBAInformation, MSiSCSI_HBAInformation structure [Storage Devices], P, PMSiSCSI_HBAInformation, PMSiSCSI_HBAInformation structure pointer [Storage Devices], S, _, _MSiSCSI_HBAInformation, a, f, i, iscsimgt/MSiSCSI_HBAInformation, iscsimgt/PMSiSCSI_HBAInformation, m, n, o, r, storage.msiscsi_hbainformation, structs-iSCSI_f6de2645-3ba4-444e-97a8-3115eb109a95.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -319,10 +319,6 @@ You must implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
@@ -331,9 +327,13 @@ You must implement this class.
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_HBAInformation structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_HBAInformation structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

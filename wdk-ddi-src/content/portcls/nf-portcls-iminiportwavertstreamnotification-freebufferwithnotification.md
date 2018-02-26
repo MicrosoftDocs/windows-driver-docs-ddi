@@ -102,11 +102,11 @@ The port driver calls this method to free an audio buffer that was allocated wit
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
-
-
-
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
 
 
 

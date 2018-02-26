@@ -75,7 +75,7 @@ Specifies the new power state that Portcls has requested for the device. This pa
 
 ### -param NewSystemState [in]
 
-Specifies the new power state that Portcls has requested for the system. This parameter is an enumeration of type <a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>.
+Specifies the new power state that Portcls has requested for the system. This parameter is an enumeration of type <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>.
 
 
 ## -returns
@@ -100,15 +100,11 @@ For more information about system power states, see <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
+<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
-
-
-
-<a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554397">Managing Power for Individual Devices</a>
 
 
 
@@ -116,7 +112,11 @@ For more information about system power states, see <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554397">Managing Power for Individual Devices</a>
+<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+
+
+
+<a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
 
 
 

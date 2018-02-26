@@ -7,7 +7,7 @@ old-location: debugger\writemsr.htm
 old-project: debugger
 ms.assetid: a88c2c74-ab9a-4d9a-aeb7-d08bfe497da4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , M, W, WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, WriteMsr, WriteMsr function [Windows Debugging], dbgeng/WriteMsr, debugger.writemsr, e, i, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

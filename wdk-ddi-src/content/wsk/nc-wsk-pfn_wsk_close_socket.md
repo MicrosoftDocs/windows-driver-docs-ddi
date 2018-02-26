@@ -187,28 +187,7 @@ For connection-oriented sockets, the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
-   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
 
 
 
@@ -221,7 +200,28 @@ For connection-oriented sockets, the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 

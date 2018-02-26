@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_device_funcs_core_0021.htm
 old-project: display
 ms.assetid: 4E4C3DB3-9C4C-4BBC-82C4-C5C41C0B818C
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, C, D, D3D12DDI_DEVICE_FUNCS_CORE_0021, D3D12DDI_DEVICE_FUNCS_CORE_0021 structure [Display Devices], E, F, I, N, O, R, S, U, V, _, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0021, display.d3d12ddi_device_funcs_core_0021"
 ms.prod: windows-hardware
 ms.technology: windows-devices

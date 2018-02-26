@@ -168,15 +168,15 @@ Before a call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
@@ -188,11 +188,11 @@ Before a call to
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
 
 
 

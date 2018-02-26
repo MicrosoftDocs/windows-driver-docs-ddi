@@ -7,7 +7,7 @@ old-location: stream\ksmergeautomationtables.htm
 old-project: stream
 ms.assetid: ef90f9da-3169-4b49-9ba2-2cab058e5d00
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, K, KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], M, T, a, avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, b, e, g, i, ks/KsMergeAutomationTables, l, m, n, o, r, s, stream.ksmergeautomationtables, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,10 +119,6 @@ Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
-
-
-
 <a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
 
 
@@ -131,9 +127,13 @@ Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d
 
 
 
- 
+<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsMergeAutomationTables function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsMergeAutomationTables function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

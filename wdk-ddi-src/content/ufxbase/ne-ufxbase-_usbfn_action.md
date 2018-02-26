@@ -4,10 +4,10 @@ title: "_USBFN_ACTION"
 author: windows-driver-content
 description: Defines special actions UFX should take when the client driver calls the UfxDevicePortDetectCompleteEx function.
 old-location: buses\usbfn_action.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 9E9AB3E0-EBDC-4EC3-BFBF-C78EE56BD699
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUSBFN_ACTION, ,, A, B, C, F, I, N, O, P, S, T, U, USBFN_ACTION, USBFN_ACTION enumeration [Buses], UsbfnActionDetectProprietaryCharger, UsbfnActionNoCad, UsbfnActionNone, _, _USBFN_ACTION, buses.usbfn_action, ufxbase/USBFN_ACTION, ufxbase/UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNoCad, ufxbase/UsbfnActionNone"
 ms.prod: windows-hardware
 ms.technology: windows-devices

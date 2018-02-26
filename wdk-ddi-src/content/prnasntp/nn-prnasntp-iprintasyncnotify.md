@@ -7,7 +7,7 @@ old-location: print\iprintasyncnotify.htm
 old-project: print
 ms.assetid: 7C12C528-03B2-42B7-A73D-21DF3FEF1505
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], IPrintAsyncNotify interface [Print Devices], described, print.iprintasyncnotify, prnasntp/IPrintAsyncNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -112,11 +112,7 @@ Additional standard status codes may be returned.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager2.md">IPortClsStreamResourceManager2</a>
+<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
 
 
 
@@ -124,7 +120,11 @@ Additional standard status codes may be returned.
 
 
 
-<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
+<a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager2.md">IPortClsStreamResourceManager2</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\hwscsiwmiqueryreginfo.htm
 old-project: storage
 ms.assetid: 416f8629-324f-4698-bbe9-699f5d53011e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,6 +109,10 @@ The miniport driver must not pend or block the SRB. The miniport driver must not
 
 ## -see-also
 
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+
+
+
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
@@ -117,13 +121,9 @@ The miniport driver must not pend or block the SRB. The miniport driver must not
 
 
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PSCSIWMI_QUERY_REGINFO callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PSCSIWMI_QUERY_REGINFO callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

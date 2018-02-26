@@ -7,7 +7,7 @@ old-location: print\iprintclassobjectfactory_getprintclassobject.htm
 old-project: print
 ms.assetid: 96ba0c27-d512-4bca-9053-a753434e461d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, F, G, GetPrintClassObject method [Print Devices], GetPrintClassObject method [Print Devices], IPrintClassObjectFactory interface, GetPrintClassObject,IPrintClassObjectFactory.GetPrintClassObject, I, IPrintClassObjectFactory, IPrintClassObjectFactory interface [Print Devices], GetPrintClassObject method, IPrintClassObjectFactory::GetPrintClassObject, O, P, a, b, c, e, filterpipeline/IPrintClassObjectFactory::GetPrintClassObject, filterpipeline_18eaede9-1064-4387-a30b-2fc2e245e0ca.xml, i, j, l, n, o, print.iprintclassobjectfactory_getprintclassobject, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

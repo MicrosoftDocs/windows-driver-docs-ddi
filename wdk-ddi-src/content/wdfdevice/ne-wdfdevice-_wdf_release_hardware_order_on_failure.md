@@ -103,11 +103,11 @@ If a driver specifies <b>WdfReleaseHardwareOrderOnFailureAfterDescendants</b>, t
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreleasehardwareorderonfailure.md">WdfDeviceInitSetReleaseHardwareOrderOnFailure</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreleasehardwareorderonfailure.md">WdfDeviceInitSetReleaseHardwareOrderOnFailure</a>
 
 
 

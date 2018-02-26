@@ -7,7 +7,7 @@ old-location: stream\streamclassabortoutstandingrequests.htm
 old-project: stream
 ms.assetid: d60ef96b-d145-48e5-be56-7f0bc4d1d0f3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, C, O, R, S, StreamClassAbortOutstandingRequests, StreamClassAbortOutstandingRequests routine [Streaming Media Devices], a, b, d, e, g, i, l, m, n, o, q, r, s, strclass-routines_f0bb32ce-019d-4c2f-90f6-cf6d54e2fb08.xml, stream.streamclassabortoutstandingrequests, strmini/StreamClassAbortOutstandingRequests, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

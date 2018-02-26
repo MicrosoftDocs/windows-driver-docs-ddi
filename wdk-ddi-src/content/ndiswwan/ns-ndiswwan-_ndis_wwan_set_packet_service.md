@@ -129,11 +129,11 @@ A value from the
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_packet_service_action.md">WWAN_PACKET_SERVICE_ACTION</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_packet_service_action.md">WWAN_PACKET_SERVICE_ACTION</a>
 
 
 

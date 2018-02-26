@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchcopyunicodestringex.htm
 old-project: kernel
 ms.assetid: 1118503c-868b-423c-b459-7db32bf5b82b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, E, R, RtlStringCchCopyUnicodeStringEx, RtlStringCchCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], S, U, c, d, e, g, h, i, kernel.rtlstringcchcopyunicodestringex, l, n, ntstrsafe/RtlStringCchCopyUnicodeStringEx, o, p, r, safestrings_fd016973-3ea3-432d-80dc-f23a3821d607.xml, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -233,5 +233,5 @@ For more information about the safe string functions, see <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCopyUnicodeStringEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCopyUnicodeStringEx function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

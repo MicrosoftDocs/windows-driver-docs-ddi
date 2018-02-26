@@ -7,7 +7,7 @@ old-location: storage\scsiportquerysystemtime.htm
 old-project: storage
 ms.assetid: 6f6afe6d-8f57-4c08-97ea-b327622a4e39
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , P, Q, S, ScsiPortQuerySystemTime, ScsiPortQuerySystemTime routine [Storage Devices], T, c, e, i, m, o, r, s, scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, srb/ScsiPortQuerySystemTime, storage.scsiportquerysystemtime, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

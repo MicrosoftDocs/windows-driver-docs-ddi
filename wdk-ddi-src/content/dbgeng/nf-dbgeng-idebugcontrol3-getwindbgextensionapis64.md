@@ -7,7 +7,7 @@ old-location: debugger\getwindbgextensionapis64.htm
 old-project: debugger
 ms.assetid: 01b34b26-2835-4a58-abf3-190da63d25eb
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, 4, 6, :, A, C, D, E, G, GetWindbgExtensionApis64 method [Windows Debugging], GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl interface, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl2 interface, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl3 interface, GetWindbgExtensionApis64,IDebugControl.GetWindbgExtensionApis64, GetWindbgExtensionApis64,IDebugControl2.GetWindbgExtensionApis64, GetWindbgExtensionApis64,IDebugControl3.GetWindbgExtensionApis64, I, IDebugControl, IDebugControl interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl2::GetWindbgExtensionApis64, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl3::GetWindbgExtensionApis64, IDebugControl::GetWindbgExtensionApis64, IDebugControl_51215e32-dcd3-440f-92ee-6ff82ae1c8e6.xml, W, b, d, dbgeng/IDebugControl2::GetWindbgExtensionApis64, dbgeng/IDebugControl3::GetWindbgExtensionApis64, dbgeng/IDebugControl::GetWindbgExtensionApis64, debugger.getwindbgextensionapis64, e, g, i, l, n, o, p, r, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

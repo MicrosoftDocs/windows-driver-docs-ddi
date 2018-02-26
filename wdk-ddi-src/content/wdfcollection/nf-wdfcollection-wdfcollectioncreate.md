@@ -146,7 +146,7 @@ For a code example that uses <b>WdfCollectionCreate</b>, see <a href="..\wdfcoll
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
 
 
 
@@ -154,7 +154,7 @@ For a code example that uses <b>WdfCollectionCreate</b>, see <a href="..\wdfcoll
 
 
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 

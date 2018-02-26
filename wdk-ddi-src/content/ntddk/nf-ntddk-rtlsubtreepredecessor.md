@@ -100,15 +100,15 @@ Callers of <b>RtlSubtreePredecessor</b> must be running at IRQL &lt;= DISPATCH_L
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
 
 
 

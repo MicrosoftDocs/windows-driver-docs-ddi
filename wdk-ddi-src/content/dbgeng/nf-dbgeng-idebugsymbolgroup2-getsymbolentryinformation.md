@@ -7,7 +7,7 @@ old-location: debugger\getsymbolentryinformation2.htm
 old-project: debugger
 ms.assetid: ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, ComOther_b34e6d42-3da1-43bd-954d-0aaf0da5a3a8.xml, D, E, G, GetSymbolEntryInformation method [Windows Debugging], GetSymbolEntryInformation method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolEntryInformation,IDebugSymbolGroup2.GetSymbolEntryInformation, I, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolEntryInformation method, IDebugSymbolGroup2::GetSymbolEntryInformation, S, a, b, dbgeng/IDebugSymbolGroup2::GetSymbolEntryInformation, debugger.getsymbolentryinformation2, e, f, g, i, l, m, n, o, p, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,11 +117,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
@@ -129,7 +125,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
 
 
 
@@ -137,5 +137,5 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup2::GetSymbolEntryInformation method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup2::GetSymbolEntryInformation method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

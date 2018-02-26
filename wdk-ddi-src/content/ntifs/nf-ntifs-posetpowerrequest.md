@@ -7,7 +7,7 @@ old-location: kernel\posetpowerrequest.htm
 old-project: kernel
 ms.assetid: 5670a4dd-3804-4532-8765-2fdffe1c4a0b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , P, PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], R, S, e, kernel.posetpowerrequest, o, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, q, r, s, t, u, w, wdm/PoSetPowerRequest"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ A pointer to a power request object that was created by the <a href="..\wdm\nf-w
 
 ### -param Type [in]
 
-The type of power request. Set this parameter to the following <a href="..\ntpoapi\ne-ntpoapi-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration value:
+The type of power request. Set this parameter to the following <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration value:
 
 <ul>
 <li>
@@ -116,7 +116,7 @@ The <i>Type</i> parameter is set to an unsupported value.
 
 
 
-A driver can call the <b>PoSetPowerRequest</b> routine to request that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> override several types of default power behavior, which are specified as <a href="..\ntpoapi\ne-ntpoapi-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration values. To restore the default behavior, the driver cancels the request by calling the <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a> routine.
+A driver can call the <b>PoSetPowerRequest</b> routine to request that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> override several types of default power behavior, which are specified as <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration values. To restore the default behavior, the driver cancels the request by calling the <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a> routine.
 
 The power manager maintains a count of the active requests for each power request type. The <b>PoSetPowerRequest</b> routine increments the count for the specified power request type by one. The <b>PoClearPowerRequest</b> routine decrements the count by one. A nonzero count indicates that requests from one or more components are active. After the count decrements to zero, the computer reverts to the default behavior for the specified power request type.
 
@@ -125,21 +125,21 @@ The power manager maintains a count of the active requests for each power reques
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
-
-
-
-<a href="..\ntpoapi\ne-ntpoapi-_power_request_type.md">POWER_REQUEST_TYPE</a>
-
-
-
 <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
 
 
 
- 
+<a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoSetPowerRequest routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoSetPowerRequest routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

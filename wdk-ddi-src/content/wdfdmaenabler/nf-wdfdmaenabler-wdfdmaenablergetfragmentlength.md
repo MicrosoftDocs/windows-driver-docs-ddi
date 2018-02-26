@@ -154,11 +154,11 @@ if (mapRegistersAllocated &lt; minimumMapRegisters) {
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a>
-
-
-
 <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a>
 
 
 

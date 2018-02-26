@@ -187,7 +187,7 @@ A special consideration applies when the <i>Object</i> parameter passed to <b>Fl
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-<b>FltCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
+<b>FltCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
 
 The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds if the <i>CallbackData</i> represents a Filter Manager IRP operation, but the IRP in the <i>CallbackData</i> structure is <b>NULL</b>.
 
@@ -196,23 +196,11 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-
-
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
-
-
-
-<b>KeWaitForMultipleObjects</b>
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 
 
@@ -220,7 +208,7 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 
@@ -228,11 +216,23 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 
 
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitforsingleobject.md">FsRtlCancellableWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+
+
+<b>KeWaitForMultipleObjects</b>
 
 
 
@@ -240,7 +240,7 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 
 
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
 
 
 

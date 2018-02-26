@@ -7,8 +7,8 @@ old-location: display\d3dkmtofferallocations.htm
 old-project: display
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , 3, A, D, D3DKMTOfferAllocations, D3DKMTOfferAllocations function [Display Devices], K, M, O, PFND3DKMT_OFFERALLOCATIONS, T, a, c, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations, e, f, i, l, n, o, r, s, t"
+ms.date: 2/24/2018
+ms.keywords: ",  , 3, A, D, D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], K, M, O, PFND3DKMT_OFFERALLOCATIONS, T, a, c, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations, e, f, i, l, n, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -26,19 +26,16 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
+req.lib: NtosKrnl.exe
+req.dll: 
 req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
 apitype:
--	DllExport
+-	UserDefined
 apilocation:
--	Gdi32.dll
--	API-MS-Win-DX-D3DKmt-l1-1-0.dll
--	API-MS-Win-DX-D3DKmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+-	D3dkmthk.h
 apiname:
 -	D3DKMTOfferAllocations
 product: Windows
@@ -146,5 +143,5 @@ Parameters were validated and determined to be incorrect.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTOfferAllocations function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DKMT_OFFERALLOCATIONS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

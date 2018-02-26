@@ -7,7 +7,7 @@ old-location: print\oemptopts.htm
 old-project: print
 ms.assetid: A63C115D-7215-422A-B4F9-C88820FC8168
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *POEMPTOPTS, ,, E, M, O, OEMPTOPTS, OEMPTOPTS enumeration [Print Devices], OEMPT_DEFAULT, OEMPT_NOSHAPSHOT, P, POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], S, T, a, g, prcomoem/OEMPTOPTS, prcomoem/OEMPT_DEFAULT, prcomoem/OEMPT_NOSHAPSHOT, prcomoem/POEMPTOPTS, print.oemptopts, t, tagOEMPTOPTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

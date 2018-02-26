@@ -7,7 +7,7 @@ old-location: display\dxgk_querydisplayidin.htm
 old-project: display
 ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, D, DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN structure [Display Devices], E, G, I, K, L, N, P, Q, R, S, U, X, Y, _, _DXGK_QUERYDISPLAYIDIN, d3dkmddi/DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin"
 ms.prod: windows-hardware
 ms.technology: windows-devices

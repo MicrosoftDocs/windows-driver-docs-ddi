@@ -7,7 +7,7 @@ old-location: debugger\getrunningprocesssystemidbyexecutablename.htm
 old-project: debugger
 ms.assetid: 67e231b4-c693-4824-b895-b7f3085e6f4e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, B, C, D, E, G, GetRunningProcessSystemIdByExecutableName method [Windows Debugging], GetRunningProcessSystemIdByExecutableName method [Windows Debugging], IDebugClient interface, GetRunningProcessSystemIdByExecutableName method [Windows Debugging], IDebugClient2 interface, GetRunningProcessSystemIdByExecutableName method [Windows Debugging], IDebugClient3 interface, GetRunningProcessSystemIdByExecutableName method [Windows Debugging], IDebugClient4 interface, GetRunningProcessSystemIdByExecutableName method [Windows Debugging], IDebugClient5 interface, GetRunningProcessSystemIdByExecutableName,IDebugClient.GetRunningProcessSystemIdByExecutableName, GetRunningProcessSystemIdByExecutableName,IDebugClient2.GetRunningProcessSystemIdByExecutableName, I, IDebugClient, IDebugClient interface [Windows Debugging], GetRunningProcessSystemIdByExecutableName method, IDebugClient2, IDebugClient2 interface [Windows Debugging], GetRunningProcessSystemIdByExecutableName method, IDebugClient2::GetRunningProcessSystemIdByExecutableName, IDebugClient3 interface [Windows Debugging], GetRunningProcessSystemIdByExecutableName method, IDebugClient3::GetRunningProcessSystemIdByExecutableName, IDebugClient4 interface [Windows Debugging], GetRunningProcessSystemIdByExecutableName method, IDebugClient4::GetRunningProcessSystemIdByExecutableName, IDebugClient5 interface [Windows Debugging], GetRunningProcessSystemIdByExecutableName method, IDebugClient5::GetRunningProcessSystemIdByExecutableName, IDebugClient::GetRunningProcessSystemIdByExecutableName, IDebugClient_c7e63b9d-45fe-4125-9fbf-984de939b089.xml, N, P, R, S, a, b, c, d, dbgeng/IDebugClient2::GetRunningProcessSystemIdByExecutableName, dbgeng/IDebugClient3::GetRunningProcessSystemIdByExecutableName, dbgeng/IDebugClient4::GetRunningProcessSystemIdByExecutableName, dbgeng/IDebugClient5::GetRunningProcessSystemIdByExecutableName, dbgeng/IDebugClient::GetRunningProcessSystemIdByExecutableName, debugger.getrunningprocesssystemidbyexecutablename, e, g, i, l, m, n, o, r, s, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -187,31 +187,11 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
 
 
@@ -219,17 +199,37 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetRunningProcessSystemIdByExecutableName method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetRunningProcessSystemIdByExecutableName method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -120,7 +120,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
+<a href="..\wdm\nf-wdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
 
 
 

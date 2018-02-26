@@ -7,7 +7,7 @@ old-location: kernel\mmmaplockedpageswithreservedmapping.htm
 old-project: kernel
 ms.assetid: 3fc01bc5-05eb-482f-b625-67061d26915a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , L, M, MmMapLockedPagesWithReservedMapping, MmMapLockedPagesWithReservedMapping routine [Kernel-Mode Driver Architecture], P, R, W, a, c, d, e, g, h, i, k, k106_32161803-dd44-4a5f-a5c0-da6b1a78982c.xml, kernel.mmmaplockedpageswithreservedmapping, m, n, o, p, r, s, t, v, wdm/MmMapLockedPagesWithReservedMapping"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ A pointer to the MDL that is to be mapped. This MDL must describe physical pages
 
 ### -param CacheType [in]
 
-Specifies the <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value to use to create the mapping.
+Specifies the <a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value to use to create the mapping.
 
 
 ## -returns
@@ -131,27 +131,7 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
-
-
-
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
 
 
 
@@ -159,13 +139,33 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 
 
+<a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmMapLockedPagesWithReservedMapping routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmMapLockedPagesWithReservedMapping routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -85,12 +85,12 @@ The IHV security profile specified by a
 
 ## -see-also
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
-
-
-
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
    DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
+
+
+
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
 
 
 

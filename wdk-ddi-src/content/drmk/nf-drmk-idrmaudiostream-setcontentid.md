@@ -108,7 +108,7 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
 
 
 
@@ -116,19 +116,19 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
 
 
 <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 

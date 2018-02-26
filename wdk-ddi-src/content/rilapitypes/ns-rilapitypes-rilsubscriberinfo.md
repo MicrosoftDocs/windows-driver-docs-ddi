@@ -79,12 +79,12 @@ The size of the structure in bytes.
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilsubscriberinfoparammask.md">RILSUBSCRIBERINFOPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilsubscriberinfoparammask.md">RILSUBSCRIBERINFOPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field raAddress
 
-Phone number of the subscriber line, of type <a href="..\rilapitypes\ne-rilapitypes-riladdresstype.md">RILADDRESSTYPE</a>.
+Phone number of the subscriber line, of type <a href="..\ntddrilapitypes\ne-ntddrilapitypes-riladdresstype.md">RILADDRESSTYPE</a>.
 
 
 ### -field wszDescription
@@ -94,7 +94,7 @@ Text description of the subscriber line.
 
 ### -field dwService
 
-Specifies the service related to the subscriber phone number, of type <a href="..\rilapitypes\ne-rilapitypes-rilsubscriberinfoservice.md">RILSUBSCRIBERINFOSERVICE</a>.
+Specifies the service related to the subscriber phone number, of type <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilsubscriberinfoservice.md">RILSUBSCRIBERINFOSERVICE</a>.
 
 
 ## -see-also

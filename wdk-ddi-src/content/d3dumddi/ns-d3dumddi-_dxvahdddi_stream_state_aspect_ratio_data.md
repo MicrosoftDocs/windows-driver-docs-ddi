@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_stream_state_aspect_ratio_data.htm
 old-project: display
 ms.assetid: 12d33e2d-63d3-4cc8-9b50-5156132b2e72
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DXVA2_Structs_daab6809-2f81-4892-9f56-c57254047627.xml, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure [Display Devices], E, H, I, M, O, P, R, S, T, V, X, _, _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, display.dxvahdddi_stream_state_aspect_ratio_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,5 +107,5 @@ Pixel aspect ratios (0, any value) and (any value, 0) are invalid and causes the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_deallocate_flags_0022.htm
 old-project: display
 ms.assetid: 17E3C01A-0716-4B3C-B4B3-72B055FB40EA
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_DEALLOCATE_FLAGS_0022, D3D12DDI_DEALLOCATE_FLAGS_0022 enumeration [Display Devices], D3D12DDI_DEALLOCATE_FLAGS_0022_ASSUME_NOT_IN_USE, D3D12DDI_DEALLOCATE_FLAGS_0022_NONE, D3D12DDI_DEALLOCATE_FLAGS_0022_SYNCHRONOUS_DESTROY, E, F, G, I, L, O, S, T, _, d3d12umddi/D3D12DDI_DEALLOCATE_FLAGS_0022, d3d12umddi/D3D12DDI_DEALLOCATE_FLAGS_0022_ASSUME_NOT_IN_USE, d3d12umddi/D3D12DDI_DEALLOCATE_FLAGS_0022_NONE, d3d12umddi/D3D12DDI_DEALLOCATE_FLAGS_0022_SYNCHRONOUS_DESTROY, display.d3d12ddi_deallocate_flags_0022"
 ms.prod: windows-hardware
 ms.technology: windows-devices

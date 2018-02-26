@@ -168,11 +168,11 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
 <b>FltGetVolumeName</b>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
 
 
 
@@ -180,11 +180,11 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 
 
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 

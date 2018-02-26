@@ -7,7 +7,7 @@ old-location: kernel\zwsetquotainformationfile.htm
 old-project: kernel
 ms.assetid: 40c7a74c-eace-4d01-8a55-2c3c8bace8fb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , F, I, N, NtSetQuotaInformationFile, Q, S, ZwSetQuotaInformationFile, ZwSetQuotaInformationFile routine [Kernel-Mode Driver Architecture], a, e, f, i, k111_87b6e79e-ecd9-47ff-8f0c-7502fc82b8af.xml, kernel.zwsetquotainformationfile, l, m, n, ntifs/NtSetQuotaInformationFile, ntifs/ZwSetQuotaInformationFile, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -162,7 +162,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
+<a href="..\ntifs\nf-ntifs-zwqueryquotainformationfile.md">ZwQueryQuotaInformationFile</a>
 
 
 
@@ -174,15 +174,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwqueryquotainformationfile.md">ZwQueryQuotaInformationFile</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
 
 
 
@@ -190,7 +182,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 
@@ -198,5 +198,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetQuotaInformationFile routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetQuotaInformationFile routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

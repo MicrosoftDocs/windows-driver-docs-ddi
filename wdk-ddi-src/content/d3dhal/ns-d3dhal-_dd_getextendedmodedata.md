@@ -7,7 +7,7 @@ old-location: display\dd_getextendedmodedata.htm
 old-project: display
 ms.assetid: 50b2a1fd-4214-4ad8-b087-f48c14dbe587
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, D, DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA structure [Display Devices], E, G, M, N, O, T, X, _, _DD_GETEXTENDEDMODEDATA, d3dhal/DD_GETEXTENDEDMODEDATA, d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml, display.dd_getextendedmodedata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,7 +103,7 @@ For more information about D3DDISPLAYMODE, see the DirectX SDK documentation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
 
 
 
@@ -111,7 +111,7 @@ For more information about D3DDISPLAYMODE, see the DirectX SDK documentation.
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 
 
@@ -119,5 +119,5 @@ For more information about D3DDISPLAYMODE, see the DirectX SDK documentation.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_GETEXTENDEDMODEDATA structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_GETEXTENDEDMODEDATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

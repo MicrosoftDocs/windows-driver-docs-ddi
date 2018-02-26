@@ -7,7 +7,7 @@ old-location: stream\ksevent_cameraevent.htm
 old-project: stream
 ms.assetid: FD9483A5-7112-4141-8566-80B8D010366C
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, C, E, K, KSEVENT_CAMERAEVENT, KSEVENT_CAMERAEVENT enumeration [Streaming Media Devices], KSEVENT_PHOTO_SAMPLE_SCANNED, M, N, R, S, T, V, _, ksmedia/KSEVENT_CAMERAEVENT, ksmedia/KSEVENT_PHOTO_SAMPLE_SCANNED, stream.ksevent_cameraevent"
 ms.prod: windows-hardware
 ms.technology: windows-devices

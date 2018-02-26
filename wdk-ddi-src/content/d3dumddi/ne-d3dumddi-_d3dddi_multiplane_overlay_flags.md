@@ -7,7 +7,7 @@ old-location: display\d3dddi_multiplane_overlay_flags.htm
 old-project: display
 ms.assetid: b91d87e8-3f63-45ac-919f-3597957ea497
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, D, D3DDDI_MULTIPLANE_OVERLAY_FLAGS, D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, E, F, G, I, L, M, N, O, P, R, S, T, U, V, Y, _, _D3DDDI_MULTIPLANE_OVERLAY_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, display.d3dddi_multiplane_overlay_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices

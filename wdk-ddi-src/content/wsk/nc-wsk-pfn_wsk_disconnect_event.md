@@ -175,16 +175,20 @@ A WSK application's <i>WskDisconnectEvent</i> event callback function must not w
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 
 <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 
@@ -196,15 +200,11 @@ A WSK application's <i>WskDisconnectEvent</i> event callback function must not w
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 

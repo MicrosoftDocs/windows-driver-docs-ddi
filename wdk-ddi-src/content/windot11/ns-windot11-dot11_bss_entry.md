@@ -241,17 +241,24 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/ms893670.aspx">
-   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 
 
 <a href="..\windot11\ns-windot11-dot11_bss_entry_phy_specific_info.md">
    DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+
+
+
+<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
 
 
 
@@ -263,15 +270,8 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 
 
-<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms893670.aspx">
+   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>
 
 
 

@@ -188,7 +188,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
@@ -196,7 +196,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
@@ -205,7 +205,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
 
 
 
@@ -214,10 +218,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
 
 
 

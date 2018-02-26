@@ -129,11 +129,7 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_ready_info.md">NDIS_WWAN_READY_INFO</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
+<a href="..\wwan\ne-wwan-_wwan_ready_state.md">WWAN_READY_STATE</a>
 
 
 
@@ -141,7 +137,11 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_ready_state.md">WWAN_READY_STATE</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_ready_info.md">NDIS_WWAN_READY_INFO</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
 
 
 

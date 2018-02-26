@@ -164,7 +164,8 @@ For more information about the disassociation operation, see
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+   NDIS_STATUS_DOT11_DISASSOCIATION</a>
 
 
 
@@ -172,8 +173,7 @@ For more information about the disassociation operation, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
-   NDIS_STATUS_DOT11_DISASSOCIATION</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

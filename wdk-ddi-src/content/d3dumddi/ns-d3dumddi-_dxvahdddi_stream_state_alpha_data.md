@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_stream_state_alpha_data.htm
 old-project: display
 ms.assetid: 0cd14f0c-5b7b-443b-ab37-c455b4accacb
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, D, DXVA2_Structs_33a16800-e101-40e7-b776-36161a8a984a.xml, DXVAHDDDI_STREAM_STATE_ALPHA_DATA, DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure [Display Devices], E, H, I, L, M, P, R, S, T, V, X, _, _DXVAHDDDI_STREAM_STATE_ALPHA_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA, display.dxvahdddi_stream_state_alpha_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,5 +113,5 @@ The Ad parameter is set with values from the <a href="..\d3dumddi\ne-d3dumddi-_d
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

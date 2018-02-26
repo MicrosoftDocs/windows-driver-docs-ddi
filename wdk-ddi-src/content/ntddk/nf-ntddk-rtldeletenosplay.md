@@ -102,11 +102,11 @@ Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
 
 
 
@@ -114,7 +114,7 @@ Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 

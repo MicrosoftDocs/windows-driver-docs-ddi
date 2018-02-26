@@ -89,11 +89,11 @@ DirectSound uses this property to implement the <b>IDirectSound3DListener::GetOr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537343">KSPROPERTY_DIRECTSOUND3DLISTENER_ORIENTATION</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537343">KSPROPERTY_DIRECTSOUND3DLISTENER_ORIENTATION</a>
 
 
 

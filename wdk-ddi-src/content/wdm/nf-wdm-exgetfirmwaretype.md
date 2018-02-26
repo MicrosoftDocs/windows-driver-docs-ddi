@@ -7,7 +7,7 @@ old-location: kernel\exgetfirmwaretype.htm
 old-project: kernel
 ms.assetid: b8a420d5-7741-4676-9956-dcf996125c6d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, ExGetFirmwareType, ExGetFirmwareType function [Kernel-Mode Driver Architecture], F, G, T, a, e, i, kernel.exgetfirmwaretype, m, p, r, t, w, wdm/ExGetFirmwareType, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: pos\barcodesymbologydecodelengthtype.htm
 old-project: pos
 ms.assetid: 155D1C71-7935-4512-8AA2-0EB167FCBF5E
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, B, BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, D, DecodeLengthType_AnyLength, DecodeLengthType_Discrete, DecodeLengthType_Range, L, S, T, _, _BarcodeSymbologyDecodeLengthType, a, b, c, d, e, g, h, l, m, n, o, p, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_AnyLength, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_Range, pos.barcodesymbologydecodelengthtype, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -301,15 +301,7 @@ The process to which the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a>
 
 
 
@@ -317,11 +309,19 @@ The process to which the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a>
 
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
 
 

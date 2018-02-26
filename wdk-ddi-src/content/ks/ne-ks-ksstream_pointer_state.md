@@ -7,7 +7,7 @@ old-location: stream\ksstream_pointer_state.htm
 old-project: stream
 ms.assetid: E3DF002D-825C-4DF6-935F-53D73F12FE2E
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, E, I, K, KSSTREAM_POINTER_STATE, KSSTREAM_POINTER_STATE enumeration [Streaming Media Devices], KSSTREAM_POINTER_STATE_LOCKED, KSSTREAM_POINTER_STATE_UNLOCKED, M, N, O, P, R, S, T, _, ks/KSSTREAM_POINTER_STATE, ks/KSSTREAM_POINTER_STATE_LOCKED, ks/KSSTREAM_POINTER_STATE_UNLOCKED, stream.ksstream_pointer_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

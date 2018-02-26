@@ -150,24 +150,7 @@ To register its TCP chimney offload-specific entry points, an offload target cal
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
-
-
-
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
-   MiniportTcpOffloadDisconnect</a>
 
 
 
@@ -181,6 +164,23 @@ To register its TCP chimney offload-specific entry points, an offload target cal
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+   MiniportTcpOffloadDisconnect</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
 
 
 

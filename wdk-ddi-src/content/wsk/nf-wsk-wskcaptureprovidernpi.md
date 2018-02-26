@@ -210,15 +210,15 @@ Callers of the
 
 ## -see-also
 
+<a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
+
+
+
 <a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
 
 
 
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
-
-
-<a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
 
 
 

@@ -120,7 +120,7 @@ For general information about DRM, see <a href="https://msdn.microsoft.com/7ce19
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
 
 
 
@@ -132,19 +132,19 @@ For general information about DRM, see <a href="https://msdn.microsoft.com/7ce19
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
-
-
-
 <a href="..\drmk\ns-drmk-ksp_drmaudiostream_contentid.md">KSP_DRMAUDIOSTREAM_CONTENTID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
-
-
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 
 

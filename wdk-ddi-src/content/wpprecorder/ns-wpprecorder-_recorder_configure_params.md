@@ -7,7 +7,7 @@ old-location: devtest\recorder_configure_params.htm
 old-project: devtest
 ms.assetid: 9D2AB7D0-CD75-4539-9CB8-8CBA33EFE299
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PRECORDER_CONFIGURE_PARAMS, ,, A, C, D, E, F, G, I, M, N, O, P, PRECORDER_CONFIGURE_PARAMS, PRECORDER_CONFIGURE_PARAMS structure pointer [Driver Development Tools], R, RECORDER_CONFIGURE_PARAMS, RECORDER_CONFIGURE_PARAMS structure [Driver Development Tools], S, U, _, _RECORDER_CONFIGURE_PARAMS, devtest.recorder_configure_params, wpprecorder/PRECORDER_CONFIGURE_PARAMS, wpprecorder/RECORDER_CONFIGURE_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dddi_createhwcontextflags.htm
 old-project: display
 ms.assetid: 429A1C54-14F0-4E50-B0D6-BB73FCFD1904
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, C, D, D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices], E, F, G, H, I, L, N, O, R, S, T, W, X, _, _D3DDDI_CREATEHWCONTEXTFLAGS, d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, display.d3dddi_createhwcontextflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices

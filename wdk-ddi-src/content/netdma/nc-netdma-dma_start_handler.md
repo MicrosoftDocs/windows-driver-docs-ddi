@@ -209,7 +209,7 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
 
 
 
@@ -217,11 +217,11 @@ NetDMA calls
 
 
 
+<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+
+
+
 <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
 
 
 

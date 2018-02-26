@@ -294,16 +294,16 @@ The members of this structure are used to record PHY-level statistics for:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
-
-
-
 <a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
    Statistics</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
 
 
 

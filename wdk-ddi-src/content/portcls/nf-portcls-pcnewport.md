@@ -187,15 +187,7 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
-
-
-
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
 
 
@@ -207,11 +199,19 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 
 
+<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
+
+
+
 <a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
 
 
 
 <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
 
 

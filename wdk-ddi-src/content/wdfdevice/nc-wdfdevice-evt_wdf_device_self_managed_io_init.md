@@ -146,7 +146,7 @@ The <b>EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT</b> function type is defined in the W
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_suspend.md">EvtDeviceSelfManagedIoSuspend</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
 
 
 
@@ -154,7 +154,7 @@ The <b>EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT</b> function type is defined in the W
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_suspend.md">EvtDeviceSelfManagedIoSuspend</a>
 
 
 

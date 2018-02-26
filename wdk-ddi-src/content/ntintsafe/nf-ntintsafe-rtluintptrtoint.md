@@ -7,7 +7,7 @@ old-location: kernel\rtluintptrtoint.htm
 old-project: kernel
 ms.assetid: C33B717D-0874-47AB-8503-D6F82F713CBF
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, P, R, RtlUIntPtrToInt, RtlUIntPtrToInt function [Kernel-Mode Driver Architecture], T, U, kernel.rtluintptrtoint, l, n, ntintsafe/RtlUIntPtrToInt, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

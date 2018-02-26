@@ -132,15 +132,11 @@ The buffer allocated by
 
 
 
-<a href="..\wdm\nf-wdm-rtlfreeansistring.md">RtlFreeAnsiString</a>
+<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
 
 
 
@@ -149,11 +145,11 @@ The buffer allocated by
 
 
 
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
+<a href="..\wdm\nf-wdm-rtlfreeansistring.md">RtlFreeAnsiString</a>
 
 
 
@@ -161,15 +157,19 @@ The buffer allocated by
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
+<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
 
 
 

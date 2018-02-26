@@ -174,12 +174,7 @@ An IHV can assign a value for its proprietary PHY types from
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569407">OID_DOT11_RECV_SENSITIVITY_LIST</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
-   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 
 
@@ -187,7 +182,12 @@ An IHV can assign a value for its proprietary PHY types from
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569407">OID_DOT11_RECV_SENSITIVITY_LIST</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
+   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
 
 
 

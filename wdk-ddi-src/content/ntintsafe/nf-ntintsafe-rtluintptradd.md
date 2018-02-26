@@ -7,7 +7,7 @@ old-location: kernel\rtluintptradd.htm
 old-project: kernel
 ms.assetid: 9106CE96-A26F-4358-9668-2C0E331BB793
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, I, P, R, RtlUIntPtrAdd, RtlUIntPtrAdd function [Kernel-Mode Driver Architecture], U, d, kernel.rtluintptradd, l, n, ntintsafe/RtlUIntPtrAdd, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

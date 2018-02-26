@@ -193,11 +193,7 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
 
 
 
@@ -205,7 +201,11 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
+<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
 
 
 

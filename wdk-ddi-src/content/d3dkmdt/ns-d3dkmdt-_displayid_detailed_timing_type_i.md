@@ -7,7 +7,7 @@ old-location: display\displayid_detailed_timing_type_i.htm
 old-project: display
 ms.assetid: 7b3fa3a4-a77a-4c5f-b157-1fbdc3a7be33
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, D, DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, E, G, I, L, M, N, P, S, T, Y, _, _DISPLAYID_DETAILED_TIMING_TYPE_I, d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -189,7 +189,7 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
 
 
 
@@ -197,7 +197,7 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
 
 
 
@@ -205,5 +205,5 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DISPLAYID_DETAILED_TIMING_TYPE_I structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DISPLAYID_DETAILED_TIMING_TYPE_I structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

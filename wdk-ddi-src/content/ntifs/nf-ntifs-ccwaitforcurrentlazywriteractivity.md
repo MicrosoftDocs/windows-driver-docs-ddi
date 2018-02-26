@@ -89,7 +89,7 @@ To prevent deadlock, the caller should release any currently held synchronizatio
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 
 
 
@@ -101,7 +101,7 @@ To prevent deadlock, the caller should release any currently held synchronizatio
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
 
 

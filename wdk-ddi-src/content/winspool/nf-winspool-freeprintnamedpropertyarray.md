@@ -7,7 +7,7 @@ old-location: print\freeprintnamedpropertyarray.htm
 old-project: print
 ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, F, FreePrintNamedPropertyArray, FreePrintNamedPropertyArray function [Print Devices], N, P, a, d, e, i, m, n, o, p, print.freeprintnamedpropertyarray, r, t, winspool/FreePrintNamedPropertyArray, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

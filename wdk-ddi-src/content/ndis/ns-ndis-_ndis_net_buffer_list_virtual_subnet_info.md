@@ -138,15 +138,7 @@ In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
-
-
-
 <a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -154,7 +146,11 @@ In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can 
 
 
 
-<a href="https://msdn.microsoft.com/6BAE348D-B5BA-4B74-8D9B-79B146427D8C">Cloning Packet Traffic</a>
+<a href="https://msdn.microsoft.com/7ABBB3F3-66F5-4651-8A5A-94940F3FD82D">Forwarding Extensions</a>
+
+
+
+<a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
 
 
 
@@ -162,7 +158,11 @@ In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can 
 
 
 
-<a href="https://msdn.microsoft.com/7ABBB3F3-66F5-4651-8A5A-94940F3FD82D">Forwarding Extensions</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/6BAE348D-B5BA-4B74-8D9B-79B146427D8C">Cloning Packet Traffic</a>
 
 
 

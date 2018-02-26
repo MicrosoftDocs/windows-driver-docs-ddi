@@ -7,7 +7,7 @@ old-location: display\d3d11_ddi_shader_min_precision.htm
 old-project: display
 ms.assetid: cf77d6c7-8f42-470a-9e3a-85d95398470b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_DDI_SHADER_MIN_PRECISION, D3D11_DDI_SHADER_MIN_PRECISION enumeration [Display Devices], D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, E, H, I, M, N, O, P, R, S, _, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, display.d3d11_ddi_shader_min_precision"
 ms.prod: windows-hardware
 ms.technology: windows-devices

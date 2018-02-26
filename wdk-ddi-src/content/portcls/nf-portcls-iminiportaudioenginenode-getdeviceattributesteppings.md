@@ -107,11 +107,11 @@ returns an appropriate error code.
 
 
 
-<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
+
+
+
+<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
 
 
 

@@ -201,11 +201,11 @@ The following code example creates a symbolic name string, obtains the <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557023">IWDFDevice::CreateSymbolicLink</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557023">IWDFDevice::CreateSymbolicLink</a>
 
 
 

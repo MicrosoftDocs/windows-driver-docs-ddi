@@ -119,11 +119,11 @@ A filter driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
 
 
 
@@ -131,11 +131,11 @@ A filter driver can call
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 
 

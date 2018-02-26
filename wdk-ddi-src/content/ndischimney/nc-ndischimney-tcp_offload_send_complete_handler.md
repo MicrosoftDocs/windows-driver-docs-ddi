@@ -139,11 +139,15 @@ In response, NDIS calls the overyling driver's
 
 ## -see-also
 
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpsend.md">NdisOffloadTcpSend</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpsend.md">NdisOffloadTcpSend</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 
 
@@ -152,10 +156,6 @@ In response, NDIS calls the overyling driver's
 
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpSendOffload</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 
 

@@ -116,11 +116,11 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 
@@ -128,7 +128,7 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 

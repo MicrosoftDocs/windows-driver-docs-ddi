@@ -145,6 +145,14 @@ When the underlying driver or offload target subsequently completes the receive 
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-tcp_offload_recv_complete_handler.md">
    ProtocolTcpOffloadReceiveComplete</a>
 
@@ -154,20 +162,12 @@ When the underlying driver or offload target subsequently completes the receive 
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
-
-
-
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
    NdisTcpOffloadReceiveComplete</a>
 
 
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

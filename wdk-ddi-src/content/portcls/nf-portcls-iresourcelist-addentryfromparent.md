@@ -76,7 +76,7 @@ Pointer to parent <b>IResourceList</b> object from which the entry is to be take
 
 ### -param Type [in]
 
-Identifies the resource type of the entry that is to be added. For a list of valid resource-type values, see the description of the <b>Type</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
+Identifies the resource type of the entry that is to be added. For a list of valid resource-type values, see the description of the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
 ### -param Index [in]
@@ -136,15 +136,15 @@ The <i>Parent</i> parameter follows the <a href="https://msdn.microsoft.com/e6b1
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

@@ -185,19 +185,19 @@ The handler can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
-
-
-
 <a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
 
 
 
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537695">PCFILTER_NODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
 
 
 

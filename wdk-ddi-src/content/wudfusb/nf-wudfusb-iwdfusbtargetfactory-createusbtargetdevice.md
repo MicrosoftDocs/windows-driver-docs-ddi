@@ -240,6 +240,10 @@ CUmdfHidDevice::OnPrepareHardware(
 
 
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559243">IWDFIoTarget::GetTargetFile</a>
 
 
@@ -249,10 +253,6 @@ CUmdfHidDevice::OnPrepareHardware(
 
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetfactory.md">IWDFUsbTargetFactory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 

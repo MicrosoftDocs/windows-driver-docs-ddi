@@ -122,8 +122,7 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedpushentryslist.md">
-   NdisInterlockedPushEntrySList</a>
+<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
 
 
 
@@ -131,7 +130,8 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedpushentryslist.md">
+   NdisInterlockedPushEntrySList</a>
 
 
 

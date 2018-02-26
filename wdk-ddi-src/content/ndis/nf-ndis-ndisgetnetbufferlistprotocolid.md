@@ -160,12 +160,12 @@ Protocol drivers that create NET_BUFFER_LIST structures should set the protocol 
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/e143c914-cfb0-4c06-9da7-a2f5ef09afe2">
    NdisSetNetBufferListProtocolId</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

@@ -135,10 +135,6 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
 
 
@@ -147,7 +143,7 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 
@@ -156,6 +152,10 @@ If
 
 
 <a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
 
 
 

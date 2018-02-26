@@ -81,11 +81,11 @@ Specifies a structure of type <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_d
 
 ## -see-also
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_blank_payload.md">WINBIO_BLANK_PAYLOAD</a>
-
-
-
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_update_firmware.md">IOCTL_BIOMETRIC_UPDATE_FIRMWARE</a>
+
+
+
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_blank_payload.md">WINBIO_BLANK_PAYLOAD</a>
 
 
 

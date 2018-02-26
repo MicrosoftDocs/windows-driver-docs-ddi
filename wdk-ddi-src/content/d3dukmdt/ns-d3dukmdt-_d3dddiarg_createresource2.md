@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_createresource2.htm
 old-project: display
 ms.assetid: 337874d1-9f9b-429d-a970-60b5d86ac7a2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 2, 3, A, C, D, D3DDDIARG_CREATERESOURCE2, D3DDDIARG_CREATERESOURCE2 structure [Display Devices], E, G, I, O, R, S, T, U, _, _D3DDDIARG_CREATERESOURCE2, d3dukmdt/D3DDDIARG_CREATERESOURCE2, display.d3dddiarg_createresource2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -160,27 +160,7 @@ Orientations other than <b>D3DDDI_ROTATION_IDENTITY</b> are set only when the <b
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_surfaceinfo.md">D3DDDI_SURFACEINFO</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a>
 
 
 
@@ -192,9 +172,29 @@ Orientations other than <b>D3DDDI_ROTATION_IDENTITY</b> are set only when the <b
 
 
 
- 
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_surfaceinfo.md">D3DDDI_SURFACEINFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATERESOURCE2 structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATERESOURCE2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

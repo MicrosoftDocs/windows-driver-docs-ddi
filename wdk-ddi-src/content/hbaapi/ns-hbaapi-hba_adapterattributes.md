@@ -7,7 +7,7 @@ old-location: storage\hba_adapterattributes.htm
 old-project: storage
 ms.assetid: d86a5810-7014-41d5-bd88-3a1bd50032da
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PHBA_ADAPTERATTRIBUTES, ,, A, B, D, E, H, HBA_ADAPTERATTRIBUTES, HBA_ADAPTERATTRIBUTES structure [Storage Devices], HBA_AdapterAttributes, HBA_AdapterAttributes structure [Storage Devices], I, P, PHBA_ADAPTERATTRIBUTES, PHBA_ADAPTERATTRIBUTES structure pointer [Storage Devices], R, S, T, U, _, a, b, d, e, hbaapi/HBA_AdapterAttributes, hbaapi/PHBA_ADAPTERATTRIBUTES, i, p, r, s, storage.hba_adapterattributes, structs-Fibre_364bd5e8-0276-425b-a1f9-9659aabecd19.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -154,5 +154,5 @@ Contains a string not exceeding 256 bytes in length that indicates name of the f
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_AdapterAttributes structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_AdapterAttributes structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

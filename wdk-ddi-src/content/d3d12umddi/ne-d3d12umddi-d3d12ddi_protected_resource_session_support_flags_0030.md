@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-protected-resource-session-support-flags-0030.htm
 old-project: display
 ms.assetid: f313ee29-9ff4-415b-9a0e-900bf751bb88
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030 enumeration [Display Devices], D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_NONE, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_SUPPORTED, E, F, G, I, L, N, O, P, R, S, T, U, _, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_NONE, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_SUPPORTED, display.d3d12ddi-protected-resource-session-support-flags-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices

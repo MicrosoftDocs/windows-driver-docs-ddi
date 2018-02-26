@@ -159,12 +159,7 @@ The IHV Extensions DLL must not call
 
 ## -see-also
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
-   Dot11ExtIhvPerformPreAssociate</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
@@ -173,7 +168,12 @@ The IHV Extensions DLL must not call
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
 
 
 

@@ -86,7 +86,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration.
 
 
 ### -param Pin [in]
@@ -162,23 +162,11 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
 
 
@@ -187,6 +175,18 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
 
 
 

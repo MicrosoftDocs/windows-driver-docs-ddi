@@ -7,7 +7,7 @@ old-location: debugger\getsymboloptions.htm
 old-project: debugger
 ms.assetid: a9da40fa-59b7-4d2b-978f-1785a51eeaed
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, D, G, GetSymbolOptions method [Windows Debugging], GetSymbolOptions method [Windows Debugging], IDebugSymbols interface, GetSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, GetSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, GetSymbolOptions,IDebugSymbols.GetSymbolOptions, GetSymbolOptions,IDebugSymbols2.GetSymbolOptions, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetSymbolOptions method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetSymbolOptions method, IDebugSymbols2::GetSymbolOptions, IDebugSymbols3 interface [Windows Debugging], GetSymbolOptions method, IDebugSymbols3::GetSymbolOptions, IDebugSymbols::GetSymbolOptions, IDebugSymbols_70c05823-d1a1-4769-8584-e191255c4deb.xml, O, S, b, dbgeng/IDebugSymbols2::GetSymbolOptions, dbgeng/IDebugSymbols3::GetSymbolOptions, dbgeng/IDebugSymbols::GetSymbolOptions, debugger.getsymboloptions, e, g, i, l, m, n, o, p, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,11 +113,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -125,11 +121,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
 
 
 
@@ -141,5 +141,5 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetSymbolOptions method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetSymbolOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

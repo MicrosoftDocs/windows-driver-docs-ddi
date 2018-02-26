@@ -172,11 +172,7 @@ Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 
@@ -184,7 +180,11 @@ Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

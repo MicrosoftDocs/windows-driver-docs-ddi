@@ -242,7 +242,28 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 
@@ -251,33 +272,12 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
    NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
-   MiniportFilterResourceRequirements</a>
 
 
 

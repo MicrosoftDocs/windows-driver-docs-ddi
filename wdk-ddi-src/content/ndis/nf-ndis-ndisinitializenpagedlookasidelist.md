@@ -170,7 +170,7 @@ It is more efficient for a driver to allow the
     NdisFreeToNPagedLookasideList</a> functions to manage the allocation and deallocation of entries (see
     the 
     <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and 
-    <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> functions). However, a driver that
+    <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> functions). However, a driver that
     tracks state internally about its memory usage might supply 
     <i>Allocate</i> and 
     <i>Free</i> functions to 
@@ -185,12 +185,7 @@ Callers of
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
 
 
@@ -199,7 +194,12 @@ Callers of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
 
 

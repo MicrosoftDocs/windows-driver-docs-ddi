@@ -103,15 +103,15 @@ The NDK-capable miniport driver is required to fill in the <b>CounterSet</b> mem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451813">OID_NDK_STATISTICS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451813">OID_NDK_STATISTICS</a>
 
 
 

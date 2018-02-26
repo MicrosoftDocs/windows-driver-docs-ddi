@@ -7,7 +7,7 @@ old-location: display\dxgkcbqueryservices.htm
 old-project: display
 ms.assetid: 0ce5df90-2019-4a92-97d6-0218acc8b1e8
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: DXGKCB_QUERY_SERVICES, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ A constant from the <a href="..\dispmprt\ne-dispmprt-dxgk_services.md">DXGK_SERV
 
 ### -param Interface [in, out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that receives the requested interface.
+A pointer to an <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure that receives the requested interface.
 
 
 ## -returns
@@ -179,15 +179,11 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
 
 
 
@@ -195,9 +191,13 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 
 
- 
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_QUERY_SERVICES callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_QUERY_SERVICES callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

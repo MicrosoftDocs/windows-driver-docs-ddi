@@ -160,11 +160,11 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
 
 
 

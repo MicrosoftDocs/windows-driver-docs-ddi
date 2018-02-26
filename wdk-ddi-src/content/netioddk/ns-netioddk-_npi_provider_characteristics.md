@@ -135,16 +135,7 @@ A provider module must make sure that this structure remains valid and resident 
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
-   ProviderCleanupBindingContext</a>
+<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
 
 
@@ -152,7 +143,16 @@ A provider module must make sure that this structure remains valid and resident 
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+
+
+
+<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+   ProviderCleanupBindingContext</a>
 
 
 

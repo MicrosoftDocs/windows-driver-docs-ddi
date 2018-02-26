@@ -7,7 +7,7 @@ old-location: debugger\debug_read_user_minidump_stream.htm
 old-project: debugger
 ms.assetid: 07005D52-E851-4AE8-95D8-ED8E26C43DC6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PDEBUG_READ_USER_MINIDUMP_STREAM, ,, A, B, D, DEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM structure [Windows Debugging], E, G, I, M, N, P, PDEBUG_READ_USER_MINIDUMP_STREAM, PDEBUG_READ_USER_MINIDUMP_STREAM structure pointer [Windows Debugging], R, S, T, U, _, _DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/PDEBUG_READ_USER_MINIDUMP_STREAM, debugger.debug_read_user_minidump_stream"
 ms.prod: windows-hardware
 ms.technology: windows-devices

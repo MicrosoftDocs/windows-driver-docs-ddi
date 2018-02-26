@@ -149,11 +149,11 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO</b> function type is defined in the Se
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+<a href="..\sercx\nf-sercx-sercx2piotransmitpurgefifocomplete.md">SerCx2PioTransmitPurgeFifoComplete</a>
 
 
 
@@ -165,11 +165,11 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO</b> function type is defined in the Se
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitpurgefifocomplete.md">SerCx2PioTransmitPurgeFifoComplete</a>
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
 
 
 

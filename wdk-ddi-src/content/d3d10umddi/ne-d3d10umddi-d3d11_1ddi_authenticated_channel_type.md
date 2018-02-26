@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_authenticated_channel_type.htm
 old-project: display
 ms.assetid: da04ef5d-c3e4-4321-8cc8-e20763c5a7db
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE, D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration [Display Devices], E, H, I, L, N, P, T, U, Y, _, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE, display.d3d11_1ddi_authenticated_channel_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices

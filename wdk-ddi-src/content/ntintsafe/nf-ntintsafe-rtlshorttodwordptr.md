@@ -7,7 +7,7 @@ old-location: kernel\rtlshorttodwordptr.htm
 old-project: kernel
 ms.assetid: 0ABB3DBF-117D-491D-85A3-68E9280CFC6C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, P, R, RtlShortToDWordPtr, RtlShortToDWordPtr function [Kernel-Mode Driver Architecture], S, T, W, d, h, kernel.rtlshorttodwordptr, l, ntintsafe/RtlShortToDWordPtr, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

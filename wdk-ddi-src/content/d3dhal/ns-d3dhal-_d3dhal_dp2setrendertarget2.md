@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2setrendertarget2.htm
 old-project: display
 ms.assetid: 0e7d7093-3b49-4fb1-b7ac-49d366c08ab8
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPD3DHAL_DP2SETRENDERTARGET2, ,, 2, 3, A, D, D3DHAL_DP2SETRENDERTARGET2, D3DHAL_DP2SETRENDERTARGET2 structure [Display Devices], E, G, H, L, LPD3DHAL_DP2SETRENDERTARGET2, LPD3DHAL_DP2SETRENDERTARGET2 structure pointer [Display Devices], N, P, R, S, T, _, _D3DHAL_DP2SETRENDERTARGET2, d3dhal/D3DHAL_DP2SETRENDERTARGET2, d3dhal/LPD3DHAL_DP2SETRENDERTARGET2, d3dstrct_b2b69c9b-94db-4451-b731-fbe90ba059f0.xml, display.d3dhal_dp2setrendertarget2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,5 +92,5 @@ D3DDP2OP_SETRENDERTARGET2
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2SETRENDERTARGET2 structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2SETRENDERTARGET2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

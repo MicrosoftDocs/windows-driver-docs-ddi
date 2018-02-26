@@ -118,15 +118,15 @@ To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX
 
 ## -see-also
 
-<a href="..\ndis\ne-ndis-_ndis_msix_table_config.md">NDIS_MSIX_TABLE_OPERATION</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">NdisMConfigMSIXTableEntry</a>
+
+
+
+<a href="..\ndis\ne-ndis-_ndis_msix_table_config.md">NDIS_MSIX_TABLE_OPERATION</a>
 
 
 

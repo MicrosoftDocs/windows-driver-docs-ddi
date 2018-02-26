@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2indexedlinestrip.htm
 old-project: display
 ms.assetid: 92809162-c39e-4dbb-9ab1-a5b6535d5beb
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPD3DHAL_DP2INDEXEDLINESTRIP, ,, 2, 3, A, D, D3DHAL_DP2INDEXEDLINESTRIP, D3DHAL_DP2INDEXEDLINESTRIP structure [Display Devices], E, H, I, L, LPD3DHAL_DP2INDEXEDLINESTRIP, LPD3DHAL_DP2INDEXEDLINESTRIP structure pointer [Display Devices], N, P, R, S, T, X, _, _D3DHAL_DP2INDEXEDLINESTRIP, d3dhal/D3DHAL_DP2INDEXEDLINESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDLINESTRIP, d3dstrct_ab23071d-9180-48d0-b14c-7c8005652968.xml, display.d3dhal_dp2indexedlinestrip"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,6 +101,10 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 
@@ -109,13 +113,9 @@ D3DDP2OP_INDEXEDLINESTRIP
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2INDEXEDLINESTRIP structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2INDEXEDLINESTRIP structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

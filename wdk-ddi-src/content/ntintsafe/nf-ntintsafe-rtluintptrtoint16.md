@@ -7,7 +7,7 @@ old-location: kernel\rtluintptrtoint16.htm
 old-project: kernel
 ms.assetid: 11FA2777-93AA-4833-8726-4C6E5FADD0B9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , 1, 6, I, P, R, RtlUIntPtrToInt16, RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], T, U, kernel.rtluintptrtoint16, l, n, ntintsafe/RtlUIntPtrToInt16, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

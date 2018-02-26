@@ -235,7 +235,7 @@ To indicate that an interface should be removed from the list of known interface
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -243,19 +243,19 @@ To indicate that an interface should be removed from the list of known interface
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_if_information.md">NET_IF_INFORMATION</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_if_information.md">NET_IF_INFORMATION</a>
 
 
 

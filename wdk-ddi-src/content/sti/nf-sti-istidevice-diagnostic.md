@@ -7,7 +7,7 @@ old-location: image\istidevice_diagnostic.htm
 old-project: image
 ms.assetid: eee5c6d7-17a3-461f-85e0-17f6b7114b19
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices], IStiDevice interface, Diagnostic,IStiDevice.Diagnostic, I, IStiDevice, IStiDevice interface [Imaging Devices], Diagnostic method, IStiDevice::Diagnostic, S, a, c, e, g, i, image.istidevice_diagnostic, n, o, s, sti/IStiDevice::Diagnostic, stifnc_68471629-529f-48c5-bcaf-8be60f5f50c0.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

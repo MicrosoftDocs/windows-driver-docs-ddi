@@ -7,7 +7,7 @@ old-location: display\dxgkddigetnodemetadata.htm
 old-project: display
 ms.assetid: ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: DXGKDDI_GETNODEMETADATA, DxgkDdiGetNodeMetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], d3dkmddi/DxgkDdiGetNodeMetadata, display.dxgkddigetnodemetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,17 +144,17 @@ For more information on how to implement this function, see <a href="https://msd
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a>
 
 
 
- 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_GETNODEMETADATA callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_GETNODEMETADATA callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

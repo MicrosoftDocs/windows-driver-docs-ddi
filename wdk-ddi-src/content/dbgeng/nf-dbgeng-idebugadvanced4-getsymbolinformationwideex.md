@@ -7,7 +7,7 @@ old-location: debugger\getsymbolinformationwideex.htm
 old-project: debugger
 ms.assetid: E862C691-133F-4FA5-A698-09CD5D0E32B3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 4, :, A, D, E, G, GetSymbolInformationWideEx method [Windows Debugging], GetSymbolInformationWideEx method [Windows Debugging], IDebugAdvanced4 interface, GetSymbolInformationWideEx,IDebugAdvanced4.GetSymbolInformationWideEx, I, IDebugAdvanced4, IDebugAdvanced4 interface [Windows Debugging], GetSymbolInformationWideEx method, IDebugAdvanced4::GetSymbolInformationWideEx, S, W, a, b, c, d, dbgeng/IDebugAdvanced4::GetSymbolInformationWideEx, debugger.getsymbolinformationwideex, e, f, g, i, l, m, n, o, r, t, u, v, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

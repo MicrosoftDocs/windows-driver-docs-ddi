@@ -134,11 +134,11 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
 
 
 

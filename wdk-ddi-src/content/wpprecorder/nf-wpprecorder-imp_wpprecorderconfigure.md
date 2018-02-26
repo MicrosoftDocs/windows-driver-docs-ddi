@@ -7,7 +7,7 @@ old-location: devtest\wpprecorderconfigure.htm
 old-project: devtest
 ms.assetid: 995E4606-F987-46A7-8310-28E8E9C7682C
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, R, W, WppRecorderConfigure, _, c, d, devtest.wpprecorderconfigure, e, f, g, i, imp_WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], m, n, o, p, r, u, wpprecorder/imp_WppRecorderConfigure"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -118,7 +118,7 @@ The IRQL at which the device interrupts.
 
 ### -field Mode
 
-A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered.
+A <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered.
 
 
 ### -field Polarity
@@ -156,7 +156,7 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="..\wdfi
 
 
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
+<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
@@ -164,7 +164,7 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="..\wdfi
 
 
 
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
 
 
 

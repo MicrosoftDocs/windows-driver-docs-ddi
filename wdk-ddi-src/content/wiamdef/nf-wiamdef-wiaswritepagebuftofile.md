@@ -7,7 +7,7 @@ old-location: image\wiaswritepagebuftofile.htm
 old-project: image
 ms.assetid: aa04ef8c-5b69-4d7e-8af4-8cbdb680a23a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, F, P, T, W, a, e, f, g, i, image.wiaswritepagebuftofile, l, o, r, s, t, u, w, wiamdef/wiasWritePageBufToFile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, wiasWritePageBufToFile, wiasWritePageBufToFile function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,6 +139,10 @@ This is essentially what you would do if you used the file handle directly. The 
 
 ## -see-also
 
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md">wiasWriteBufToFile</a>
 
 
@@ -147,13 +151,9 @@ This is essentially what you would do if you used the file handle directly. The 
 
 
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiasWritePageBufToFile function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiasWritePageBufToFile function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

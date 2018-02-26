@@ -115,7 +115,7 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement3.md">IAdapterPowerManagement3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>
 
 
 
@@ -123,7 +123,7 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>
+<a href="..\portcls\nn-portcls-iadapterpowermanagement3.md">IAdapterPowerManagement3</a>
 
 
 

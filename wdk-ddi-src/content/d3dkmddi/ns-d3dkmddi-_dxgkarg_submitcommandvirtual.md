@@ -7,7 +7,7 @@ old-location: display\dxgkarg_submitcommandvirtual.htm
 old-project: display
 ms.assetid: 7BBB4BEC-82F1-44B9-A0C2-1073517A4116
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, B, C, D, DXGKARG_SUBMITCOMMANDVIRTUAL, DXGKARG_SUBMITCOMMANDVIRTUAL structure [Display Devices], G, I, K, L, M, N, O, R, S, T, U, V, X, _, _DXGKARG_SUBMITCOMMANDVIRTUAL, d3dkmddi/DXGKARG_SUBMITCOMMANDVIRTUAL, display.dxgkarg_submitcommandvirtual"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,11 +142,15 @@ The zero-based index of the node that the context is created for. Identifies the
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md">DxgkDdiSubmitCommandVirtual</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md">DxgkDdiSubmitCommandVirtual</a>
 
 
 
@@ -158,13 +162,9 @@ The zero-based index of the node that the context is created for. Identifies the
 
 
 
-<a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_SUBMITCOMMANDVIRTUAL structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_SUBMITCOMMANDVIRTUAL structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

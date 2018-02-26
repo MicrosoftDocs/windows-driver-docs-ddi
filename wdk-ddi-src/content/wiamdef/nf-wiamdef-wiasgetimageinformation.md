@@ -7,7 +7,7 @@ old-location: image\wiasgetimageinformation.htm
 old-project: image
 ms.assetid: 457c4b98-313d-4b31-aa6c-fb62fea6fc7d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , G, I, a, e, f, g, i, image.wiasgetimageinformation, m, n, o, r, s, t, w, wiamdef/wiasGetImageInformation, wiasFncs_6603ae74-b0b9-48f4-9fa9-83cdf3edc1d6.xml, wiasGetImageInformation, wiasGetImageInformation function [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,5 +135,5 @@ If WIAS_INIT_CONTEXT is specified in the <i>lFlags</i> parameter, the MINIDRV_TR
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiasGetImageInformation function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiasGetImageInformation function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -115,11 +115,11 @@ For a code example that uses <b>WDF_CHILD_LIST_CONFIG_INIT</b>, see <a href="..\
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
-
-
-
 <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
 
 
 

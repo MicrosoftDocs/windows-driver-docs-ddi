@@ -7,7 +7,7 @@ old-location: display\d3dkmt-setdevicelostsupport.htm
 old-project: display
 ms.assetid: 191ea8ac-6646-44db-88eb-54dc51afef17
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, C, D, D3DKMT_SETDEVICELOSTSUPPORT, D3DKMT_SETDEVICELOSTSUPPORT structure [Display Devices], E, I, K, L, M, O, P, R, S, T, U, V, _, _D3DKMT_SETDEVICELOSTSUPPORT, d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT, display.d3dkmt-setdevicelostsupport"
 ms.prod: windows-hardware
 ms.technology: windows-devices

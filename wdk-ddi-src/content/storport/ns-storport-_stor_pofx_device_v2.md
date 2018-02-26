@@ -7,7 +7,7 @@ old-location: storage\stor_pofx_device_v2.htm
 old-project: storage
 ms.assetid: 1AD3B5E6-CF90-49D2-8FF7-FE309E4331CE
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSTOR_POFX_DEVICE_V2, ,, 2, C, D, E, F, I, O, P, PSTOR_POFX_DEVICE_V2, PSTOR_POFX_DEVICE_V2 structure pointer [Storage Devices], R, S, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2 structure [Storage Devices], T, V, X, _, _STOR_POFX_DEVICE_V2, storage.stor_pofx_device_v2, storport/PSTOR_POFX_DEVICE_V2, storport/STOR_POFX_DEVICE_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -191,15 +191,7 @@ The component for the storage device identified by its <b>Components</b> array i
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
-
-
-
-<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
-
-
-
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
 
 
@@ -207,7 +199,15 @@ The component for the storage device identified by its <b>Components</b> array i
 
 
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
+<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+
+
+
+<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
 
@@ -215,5 +215,5 @@ The component for the storage device identified by its <b>Components</b> array i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_POFX_DEVICE_V2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_POFX_DEVICE_V2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

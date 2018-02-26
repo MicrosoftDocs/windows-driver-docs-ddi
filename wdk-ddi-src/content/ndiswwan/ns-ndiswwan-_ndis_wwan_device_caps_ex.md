@@ -202,10 +202,6 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a>
 
 
@@ -219,6 +215,10 @@ A formatted
 
 
 <a href="https://msdn.microsoft.com/BE664B41-3FE7-4E93-8739-12BD2F0AE5B8">OID_WWAN_DEVICE_CAPS_EX</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

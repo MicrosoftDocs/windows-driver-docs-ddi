@@ -159,7 +159,11 @@ The <b>EVT_WDF_INTERRUPT_DPC</b> function type is defined in the Wdfinterrupt.h 
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
+
+
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptqueuedpcforisr.md">WdfInterruptQueueDpcForIsr</a>
 
 
 
@@ -167,15 +171,11 @@ The <b>EVT_WDF_INTERRUPT_DPC</b> function type is defined in the Wdfinterrupt.h 
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
 
 
 
 <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
-
-
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptqueuedpcforisr.md">WdfInterruptQueueDpcForIsr</a>
 
 
 

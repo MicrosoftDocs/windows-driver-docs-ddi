@@ -7,7 +7,7 @@ old-location: debugger\disassemble.htm
 old-project: debugger
 ms.assetid: a512c846-6896-48ca-a234-b9a30a3bff06
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, :, C, D, Disassemble method [Windows Debugging], Disassemble method [Windows Debugging], IDebugControl interface, Disassemble method [Windows Debugging], IDebugControl2 interface, Disassemble method [Windows Debugging], IDebugControl3 interface, Disassemble,IDebugControl.Disassemble, Disassemble,IDebugControl2.Disassemble, Disassemble,IDebugControl3.Disassemble, I, IDebugControl, IDebugControl interface [Windows Debugging], Disassemble method, IDebugControl2, IDebugControl2 interface [Windows Debugging], Disassemble method, IDebugControl2::Disassemble, IDebugControl3, IDebugControl3 interface [Windows Debugging], Disassemble method, IDebugControl3::Disassemble, IDebugControl::Disassemble, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, a, b, dbgeng/IDebugControl2::Disassemble, dbgeng/IDebugControl3::Disassemble, dbgeng/IDebugControl::Disassemble, debugger.disassemble, e, g, i, l, m, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -158,14 +158,6 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
@@ -174,7 +166,15 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
 
 
@@ -186,5 +186,5 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Disassemble method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Disassemble method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

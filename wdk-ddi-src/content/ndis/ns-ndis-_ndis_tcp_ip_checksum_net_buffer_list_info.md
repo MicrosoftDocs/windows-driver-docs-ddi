@@ -262,15 +262,15 @@ To obtain the <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure, a driv
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/79A37DAB-D9B3-4FA2-8258-05E10BD6E3CB">Indicating Coalesced Segments</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

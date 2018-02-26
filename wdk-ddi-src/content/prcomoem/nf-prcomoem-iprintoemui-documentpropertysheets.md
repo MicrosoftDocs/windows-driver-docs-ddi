@@ -7,7 +7,7 @@ old-location: print\iprintoemui_documentpropertysheets.htm
 old-project: print
 ms.assetid: a8c7eb0d-792f-4a6c-af47-bb4558feb790
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, DocumentPropertySheets method [Print Devices], DocumentPropertySheets method [Print Devices], IPrintOemUI interface, DocumentPropertySheets,IPrintOemUI.DocumentPropertySheets, I, IPrintOemUI, IPrintOemUI interface [Print Devices], DocumentPropertySheets method, IPrintOemUI::DocumentPropertySheets, O, P, S, U, c, e, h, i, m, n, o, p, prcomoem/IPrintOemUI::DocumentPropertySheets, print.iprintoemui_documentpropertysheets, print_unidrv-pscript_ui_a998749c-eb3d-4b54-a69c-c7cdc61930fc.xml, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,11 +121,7 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
 
 
 
@@ -133,7 +129,11 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+
+
+
+<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
 
 
 
@@ -141,5 +141,5 @@ For more information about creating and installing user interface plug-ins, see 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI::DocumentPropertySheets method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI::DocumentPropertySheets method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

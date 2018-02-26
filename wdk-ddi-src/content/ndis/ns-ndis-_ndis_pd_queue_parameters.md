@@ -148,11 +148,11 @@ This structure must be aligned on an 8-byte boundary.
 
 ## -see-also
 
-<a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE_TYPE</a>
-
-
-
 <a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a>
+
+
+
+<a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE_TYPE</a>
 
 
 

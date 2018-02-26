@@ -245,6 +245,23 @@ The offload target must not free resources for the connection on which it has is
 
 
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
+   NdisTcpOffloadDisconnectComplete</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
    NdisAdvanceNetBufferDataStart</a>
 
@@ -254,12 +271,7 @@ The offload target must not free resources for the connection on which it has is
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
-   NdisTcpOffloadDisconnectComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
@@ -267,19 +279,7 @@ The offload target must not free resources for the connection on which it has is
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

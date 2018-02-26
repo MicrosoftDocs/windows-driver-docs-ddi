@@ -103,11 +103,11 @@ This structure is similar to the <a href="..\ksmedia\ns-ksmedia-waveformatextens
 
 ## -see-also
 
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-pchange_bandwidth_allocation.md">ChangeBandwidthAllocation</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
@@ -115,7 +115,7 @@ This structure is similar to the <a href="..\ksmedia\ns-ksmedia-waveformatextens
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 

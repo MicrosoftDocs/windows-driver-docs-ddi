@@ -7,7 +7,7 @@ old-location: storage\get_length_information.htm
 old-project: storage
 ms.assetid: 1c5af24f-fd99-4a64-afd4-aaa8168b1dc5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PGET_LENGTH_INFORMATION, ,, A, E, F, G, GET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION structure [Storage Devices], H, I, L, M, N, O, P, PGET_LENGTH_INFORMATION, PGET_LENGTH_INFORMATION structure pointer [Storage Devices], R, T, _, _GET_LENGTH_INFORMATION, ntdddisk/GET_LENGTH_INFORMATION, ntdddisk/PGET_LENGTH_INFORMATION, storage.get_length_information, structs-disk_6efbf7e7-9fc2-44b0-a9f8-b83219b07a64.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,5 +82,5 @@ Contains the length, in bytes, of a disk, partition, or volume.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GET_LENGTH_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GET_LENGTH_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -98,7 +98,7 @@ Whether the interrupt request from this GPIO pin is level-sensitive or edge-trig
 <li><b>LevelSensitive</b></li>
 <li><b>Latched</b></li>
 </ul>
-For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
+For more information, see <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
 
 
 ### -field Polarity
@@ -112,7 +112,7 @@ Whether the interrupt line from this GPIO pin is active-high or active-low. This
 <li><b>InterruptFallingEdge</b></li>
 <li><b>InterruptActiveBoth</b></li>
 </ul>
-For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
+For more information, see <a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
 
 
 ### -field PullConfiguration
@@ -171,15 +171,7 @@ If none of the system-defined <b>GPIO_PIN_PULL_CONFIGURATION_<i>XXX</i></b> cons
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439377">CLIENT_EnableInterrupt</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
@@ -187,11 +179,19 @@ If none of the system-defined <b>GPIO_PIN_PULL_CONFIGURATION_<i>XXX</i></b> cons
 
 
 
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+<a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439377">CLIENT_EnableInterrupt</a>
 
 
 

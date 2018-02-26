@@ -7,7 +7,7 @@ old-location: display\d3dkmt-standardallocationtype.htm
 old-project: display
 ms.assetid: 7ce6d148-bfe8-4040-a4c1-ccd22fd07307
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_STANDARDALLOCATIONTYPE, D3DKMT_STANDARDALLOCATIONTYPE enumeration [Display Devices], D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, E, I, K, L, M, N, O, P, R, S, T, Y, _, _D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, display.d3dkmt-standardallocationtype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topictype:
 -	APIRef

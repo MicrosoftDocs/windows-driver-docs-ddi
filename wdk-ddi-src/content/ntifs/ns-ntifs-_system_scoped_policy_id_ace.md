@@ -86,7 +86,7 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -98,11 +98,11 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\scsi_pnp_request_block.htm
 old-project: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSCSI_PNP_REQUEST_BLOCK, ,, B, C, E, I, K, L, N, O, P, PSCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], Q, R, S, SCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorFilterResourceRequirements, StorQueryCapabilities, StorQueryResourceRequirements, StorRemoveDevice, StorStartDevice, StorStopDevice, StorSupriseRemoval, T, U, _, _SCSI_PNP_REQUEST_BLOCK, storage.scsi_pnp_request_block, storport/PSCSI_PNP_REQUEST_BLOCK, storport/SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -286,11 +286,11 @@ The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStor
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
-
-
 <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 
 
@@ -302,5 +302,5 @@ The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStor
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PNP_REQUEST_BLOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PNP_REQUEST_BLOCK structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

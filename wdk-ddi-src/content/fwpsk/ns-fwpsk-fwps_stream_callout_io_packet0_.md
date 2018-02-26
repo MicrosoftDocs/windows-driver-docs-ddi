@@ -200,7 +200,7 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 
@@ -208,7 +208,7 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
 
 
 

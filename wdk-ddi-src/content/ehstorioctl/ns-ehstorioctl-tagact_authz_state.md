@@ -7,7 +7,7 @@ old-location: storage\act_authz_state.htm
 old-project: storage
 ms.assetid: 32bb774f-b1eb-4198-8e4c-febcac83153d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PACT_AUTHZ_STATE, ,, A, ACT_AUTHZ_STATE, ACT_AUTHZ_STATE structure [Storage Devices], C, E, H, P, PACT_AUTHZ_STATE, PACT_AUTHZ_STATE structure pointer [Storage Devices], S, T, U, Z, _, a, ehstorioctl/ACT_AUTHZ_STATE, ehstorioctl/PACT_AUTHZ_STATE, g, storage.act_authz_state, structs-silo_5a83edfd-d997-4f63-bbb9-58ec7cab438f.xml, t, tagACT_AUTHZ_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

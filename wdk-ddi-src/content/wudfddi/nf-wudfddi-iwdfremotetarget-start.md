@@ -135,11 +135,11 @@ The following code example restarts a remote I/O target.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
 
 
 

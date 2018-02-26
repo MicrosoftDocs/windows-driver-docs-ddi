@@ -7,7 +7,7 @@ old-location: kernel\rtlshorttoulongptr.htm
 old-project: kernel
 ms.assetid: 0C279063-D5B1-4C82-8C0A-2B39E831BFB3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , L, P, R, RtlShortToULongPtr, RtlShortToULongPtr function [Kernel-Mode Driver Architecture], S, T, U, g, h, kernel.rtlshorttoulongptr, l, n, ntintsafe/RtlShortToULongPtr, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

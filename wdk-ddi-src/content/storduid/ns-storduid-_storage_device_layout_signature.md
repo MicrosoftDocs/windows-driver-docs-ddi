@@ -7,7 +7,7 @@ old-location: storage\storage_device_layout_signature.htm
 old-project: storage
 ms.assetid: 3c433fe5-1782-4a00-aa7b-1558b0f56080
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE, ,, A, C, D, E, G, I, L, N, O, P, PSTORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE structure pointer [Storage Devices], R, S, STORAGE_DEVICE_LAYOUT_SIGNATURE, STORAGE_DEVICE_LAYOUT_SIGNATURE structure [Storage Devices], T, U, V, Y, _, _STORAGE_DEVICE_LAYOUT_SIGNATURE, storage.storage_device_layout_signature, storduid/PSTORAGE_DEVICE_LAYOUT_SIGNATURE, storduid/STORAGE_DEVICE_LAYOUT_SIGNATURE, structs-general_0392587a-aab6-4f49-bb7e-3ebf8acc87bb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,5 +123,5 @@ The device layout signature contributes to the definition of a device unique ide
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_DEVICE_LAYOUT_SIGNATURE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_DEVICE_LAYOUT_SIGNATURE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

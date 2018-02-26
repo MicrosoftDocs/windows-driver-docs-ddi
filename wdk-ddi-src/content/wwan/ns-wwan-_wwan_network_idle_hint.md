@@ -75,11 +75,11 @@ If TRUE, this is a hint that the network interface should utilize mechanisms for
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_network_idle_hint.md">NDIS_WWAN_NETWORK_IDLE_HINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
 
 
 

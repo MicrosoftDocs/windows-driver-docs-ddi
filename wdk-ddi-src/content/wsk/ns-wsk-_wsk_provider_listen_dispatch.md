@@ -132,23 +132,15 @@ A WSK application receives a pointer to a WSK_PROVIDER_LISTEN_DISPATCH structure
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
 <a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
@@ -160,11 +152,19 @@ A WSK application receives a pointer to a WSK_PROVIDER_LISTEN_DISPATCH structure
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 

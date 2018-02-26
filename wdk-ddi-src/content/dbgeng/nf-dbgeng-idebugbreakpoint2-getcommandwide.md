@@ -7,7 +7,7 @@ old-location: debugger\getcommandwide.htm
 old-project: debugger
 ms.assetid: 050a4243-6ad8-4aa4-8ffb-40fe9fc07b51
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, B, C, D, G, GetCommandWide method [Windows Debugging], GetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, GetCommandWide,IDebugBreakpoint2.GetCommandWide, I, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetCommandWide method, IDebugBreakpoint2::GetCommandWide, W, a, b, d, dbgeng/IDebugBreakpoint2::GetCommandWide, debugger.getcommandwide, e, g, i, k, m, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

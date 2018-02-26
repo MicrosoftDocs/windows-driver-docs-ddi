@@ -149,11 +149,15 @@ To write parameters to the registry, an NDIS driver can call the
 
 ## -see-also
 
-<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
+<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
 
 
 <a href="..\ndis\ns-ndis-binary_data.md">BINARY_DATA</a>
+
+
+
+<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
 
 
 
@@ -162,10 +166,6 @@ To write parameters to the registry, an NDIS driver can call the
 
 
 <a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
 
 

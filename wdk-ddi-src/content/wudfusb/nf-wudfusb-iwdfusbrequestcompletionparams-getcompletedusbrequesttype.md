@@ -81,11 +81,11 @@ WDF_USB_REQUEST_TYPE  GetCompletedUsbRequestType();
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
-
-
-
 <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
 
 
 

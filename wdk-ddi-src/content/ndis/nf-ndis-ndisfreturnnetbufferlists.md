@@ -141,10 +141,6 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
@@ -154,6 +150,10 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\scsireadcapacity_out2.htm
 old-project: storage
 ms.assetid: bf295061-42d6-4f2e-a39e-9bac440b0d93
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PScsiReadCapacity_OUT, ,, C, O, P, PScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], R, S, ScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], T, U, _, _ScsiReadCapacity_OUT, a, c, d, e, hbapiwmi/PScsiReadCapacity_OUT, hbapiwmi/ScsiReadCapacity_OUT, i, p, s, storage.scsireadcapacity_out2, structs-Fibre_b362afaf-6cf2-4e2b-9239-11d7fdec3d74.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,17 +113,17 @@ The WMI tool suite generates a declaration of the ScsiReadCapacity_OUT structure
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiReadCapacity_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiReadCapacity_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

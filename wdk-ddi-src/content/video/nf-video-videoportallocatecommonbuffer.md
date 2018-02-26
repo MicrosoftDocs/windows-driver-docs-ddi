@@ -7,7 +7,7 @@ old-location: display\videoportallocatecommonbuffer.htm
 old-project: display
 ms.assetid: 950c2509-688e-4aaa-a12d-4106bb722bbc
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, C, P, V, VideoPortAllocateCommonBuffer, VideoPortAllocateCommonBuffer function [Display Devices], VideoPort_Functions_bd747ea0-7963-4008-a91c-eb5598fc6bdd.xml, a, c, d, display.videoportallocatecommonbuffer, e, f, i, l, m, n, o, r, t, u, video/VideoPortAllocateCommonBuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,14 +123,6 @@ When the buffer is no longer needed, the video miniport driver should release it
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportreleasecommonbuffer.md">VideoPortReleaseCommonBuffer</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
-
-
-
 <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 
 
@@ -139,9 +131,17 @@ When the buffer is no longer needed, the video miniport driver should release it
 
 
 
- 
+<a href="..\video\nf-video-videoportreleasecommonbuffer.md">VideoPortReleaseCommonBuffer</a>
+
+
+
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortAllocateCommonBuffer function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortAllocateCommonBuffer function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -102,6 +102,14 @@ This callback function does not return a value.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_abort.md">MiniportWdiTxAbort</a>
+
+
+
 <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_delete_ind.md">PeerDeleteIndication</a>
 
 
@@ -114,11 +122,7 @@ This callback function does not return a value.
 
 
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_abort_confirm.md">TxAbortConfirm</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
+<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
 
 
@@ -126,15 +130,11 @@ This callback function does not return a value.
 
 
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_abort.md">MiniportWdiTxAbort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
-
-
-
-<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_abort_confirm.md">TxAbortConfirm</a>
 
 
 

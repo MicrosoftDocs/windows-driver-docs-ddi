@@ -4,10 +4,10 @@ title: UdecxUsbDeviceInitSetEndpointsType function
 author: windows-driver-content
 description: Indicates the type of endpoint (simple or dynamic) in the initialization parameters that the client driver uses to create the virtual USB device.
 old-location: buses\udecxusbdeviceinitsetendpointstype.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 44760191-77DD-40A9-AA11-AE8AB55AB307
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, E, I, S, T, U, UdecxUsbDeviceInitSetEndpointsType, UdecxUsbDeviceInitSetEndpointsType function [Buses], b, buses.udecxusbdeviceinitsetendpointstype, c, d, e, i, n, o, p, s, t, udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType, v, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,15 +129,15 @@ Before calling this method, the client driver must have set those pointers by ca
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 
@@ -149,5 +149,5 @@ Before calling this method, the client driver must have set those pointers by ca
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UdecxUsbDeviceInitSetEndpointsType function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UdecxUsbDeviceInitSetEndpointsType function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

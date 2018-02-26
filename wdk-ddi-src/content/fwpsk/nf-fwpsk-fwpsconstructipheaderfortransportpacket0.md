@@ -341,15 +341,11 @@ Call
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543746">AF_INET6</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -358,16 +354,20 @@ Call
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543746">AF_INET6</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportreceiveasync0.md">
    FwpsInjectTransportReceiveAsync0</a>
 
 
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543744">AF_INET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
 
 

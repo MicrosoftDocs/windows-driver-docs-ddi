@@ -174,12 +174,12 @@ This structure is used with
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">
    OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

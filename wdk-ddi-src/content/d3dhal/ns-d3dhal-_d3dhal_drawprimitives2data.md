@@ -7,7 +7,7 @@ old-location: display\d3dhal_drawprimitives2data.htm
 old-project: display
 ms.assetid: d971e866-3049-4722-bfec-ca3364f291fd
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPD3DHAL_DRAWPRIMITIVES2DATA, ,, 2, 3, A, D, D3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], E, H, I, L, LPD3DHAL_DRAWPRIMITIVES2DATA, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], M, P, R, S, T, V, W, _, _D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, display.d3dhal_drawprimitives2data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -485,15 +485,11 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551726">DD_SURFACE_GLOBAL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
 
 
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
 
 
 
@@ -505,9 +501,13 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551726">DD_SURFACE_GLOBAL</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DRAWPRIMITIVES2DATA structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DRAWPRIMITIVES2DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

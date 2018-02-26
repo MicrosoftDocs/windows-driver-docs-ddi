@@ -7,7 +7,7 @@ old-location: stream\ksstreampointerclone.htm
 old-project: stream
 ms.assetid: b51e1c17-e6b5-4108-bfbc-29f1ee06d9f4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, K, KsStreamPointerClone, KsStreamPointerClone function [Streaming Media Devices], P, S, a, avfunc_29a7da58-5321-4c19-83df-c9deab062e78.xml, e, i, ks/KsStreamPointerClone, l, m, n, o, r, s, stream.ksstreampointerclone, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,7 +115,7 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
 
 
@@ -123,11 +123,15 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+
+
+
 <a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
 
 
 
@@ -135,13 +139,9 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsStreamPointerClone function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsStreamPointerClone function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

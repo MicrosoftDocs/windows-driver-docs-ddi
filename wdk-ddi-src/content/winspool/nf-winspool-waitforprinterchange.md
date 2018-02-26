@@ -7,7 +7,7 @@ old-location: print\waitforprinterchange.htm
 old-project: print
 ms.assetid: BD9DD9C4-D736-42DC-A55F-7F299351FA65
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, F, P, W, WaitForPrinterChange, WaitForPrinterChange function [Print Devices], a, e, g, h, i, n, o, print.waitforprinterchange, r, t, winspool/WaitForPrinterChange"
 ms.prod: windows-hardware
 ms.technology: windows-devices

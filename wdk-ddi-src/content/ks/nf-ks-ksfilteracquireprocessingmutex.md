@@ -7,7 +7,7 @@ old-location: stream\ksfilteracquireprocessingmutex.htm
 old-project: stream
 ms.assetid: d4a2fe1a-9a16-45b8-b061-9d1b1398e801
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, F, K, KsFilterAcquireProcessingMutex, KsFilterAcquireProcessingMutex function [Streaming Media Devices], M, P, avfunc_9c0c5db4-4bac-45a6-a61f-94bdcce07fd8.xml, c, e, g, i, ks/KsFilterAcquireProcessingMutex, l, n, o, q, r, s, stream.ksfilteracquireprocessingmutex, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,10 +99,6 @@ A minidriver that must suspend processing for a long period of time should not u
 
 
 
-<a href="..\ks\nf-ks-kspingetandgate.md">KsPinGetAndGate</a>
-
-
-
 <a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
 
 
@@ -115,9 +111,13 @@ A minidriver that must suspend processing for a long period of time should not u
 
 
 
- 
+<a href="..\ks\nf-ks-kspingetandgate.md">KsPinGetAndGate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterAcquireProcessingMutex function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterAcquireProcessingMutex function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

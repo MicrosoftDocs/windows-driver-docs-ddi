@@ -183,7 +183,7 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
 
 
 
@@ -195,7 +195,7 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
 
 
 

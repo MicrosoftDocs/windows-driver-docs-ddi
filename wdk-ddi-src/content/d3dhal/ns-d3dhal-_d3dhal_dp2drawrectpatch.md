@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2drawrectpatch.htm
 old-project: display
 ms.assetid: 892fe11a-4dfd-43cb-8f9a-b148d81a087f
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPD3DHAL_DP2DRAWRECTPATCH, ,, 2, 3, A, C, D, D3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH structure [Display Devices], E, H, L, LPD3DHAL_DP2DRAWRECTPATCH, LPD3DHAL_DP2DRAWRECTPATCH structure pointer [Display Devices], P, R, T, W, _, _D3DHAL_DP2DRAWRECTPATCH, d3dhal/D3DHAL_DP2DRAWRECTPATCH, d3dhal/LPD3DHAL_DP2DRAWRECTPATCH, d3dstrct_beda6033-07b1-4985-8eac-6bb49bcce07e.xml, display.d3dhal_dp2drawrectpatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,6 +113,14 @@ The driver receives notification that cached patch information is be released vi
 
 
 
+D3DDP2OP_DRAWRECTPATCH
+
+
+
+D3DRS_DELETERTPATCH
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawtripatch.md">D3DHAL_DP2DRAWTRIPATCH</a>
 
 
@@ -121,17 +129,9 @@ The driver receives notification that cached patch information is be released vi
 
 
 
-D3DRS_DELETERTPATCH
-
-
-
-D3DDP2OP_DRAWRECTPATCH
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2DRAWRECTPATCH structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2DRAWRECTPATCH structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: stream\ikscontrol_ksevent2.htm
 old-project: stream
 ms.assetid: 9e4b86cf-308f-4d9b-be28-966312dc4e43
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, E, I, IKsControl, IKsControl interface [Streaming Media Devices], KsEvent method, IKsControl::KsEvent, K, KsEvent method [Streaming Media Devices], KsEvent method [Streaming Media Devices], IKsControl interface, KsEvent,IKsControl.KsEvent, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, e, ks/IKsControl::KsEvent, l, n, o, r, s, stream.ikscontrol_ksevent2, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,17 +116,17 @@ To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
-
-
-
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsEvent method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsEvent method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

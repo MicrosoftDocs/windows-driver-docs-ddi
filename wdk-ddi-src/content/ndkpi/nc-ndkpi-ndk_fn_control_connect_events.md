@@ -104,11 +104,11 @@ To restart  the reception of connect event callbacks, the consumer passes FALSE 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_connect_event_callback.md">NDK_FN_CONNECT_EVENT_CALLBACK</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
 
 
 

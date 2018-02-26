@@ -7,7 +7,7 @@ old-location: storage\scsi_power_request_block.htm
 old-project: storage
 ms.assetid: 04981b68-db32-461b-b24b-8b2bf2e53f78
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSCSI_POWER_REQUEST_BLOCK, ,, B, C, E, I, K, L, O, P, PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], Q, R, S, SCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], T, U, W, _, _SCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block, storport/PSCSI_POWER_REQUEST_BLOCK, storport/SCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -224,11 +224,11 @@ The miniport can access the adapter's hardware resources.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
-
-
 <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 
 
@@ -240,5 +240,5 @@ The miniport can access the adapter's hardware resources.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_POWER_REQUEST_BLOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_POWER_REQUEST_BLOCK structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

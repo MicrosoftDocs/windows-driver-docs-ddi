@@ -7,7 +7,7 @@ old-location: print\logjobinfoforbranchoffice.htm
 old-project: print
 ms.assetid: 6D1AB299-2E26-42AF-9613-CA321173080D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, F, I, J, L, LogJobInfoForBranchOffice, LogJobInfoForBranchOffice function [Print Devices], O, a, b, c, e, f, g, h, i, n, o, print.logjobinfoforbranchoffice, r, winsplp/LogJobInfoForBranchOffice"
 ms.prod: windows-hardware
 ms.technology: windows-devices

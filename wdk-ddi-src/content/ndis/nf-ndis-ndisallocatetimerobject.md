@@ -181,7 +181,7 @@ To free a timer object, you must call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 
@@ -189,7 +189,7 @@ To free a timer object, you must call the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 
 

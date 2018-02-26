@@ -95,11 +95,11 @@ The NDIS_LINK_SPEED structure specifies link speeds in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
 
 
 

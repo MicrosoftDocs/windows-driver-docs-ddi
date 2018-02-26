@@ -7,7 +7,7 @@ old-location: storage\scsi_pass_through_direct_ex.htm
 old-project: storage
 ms.assetid: FE699F78-99AC-46E0-9C51-6F69A5C4932C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSCSI_PASS_THROUGH_DIRECT_EX, ,, A, C, D, E, G, H, I, O, P, PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX structure pointer [Storage Devices], R, S, SCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX structure [Storage Devices], T, U, X, _, _SCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/PSCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX, storage.scsi_pass_through_direct_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,7 +135,7 @@ Indicates the interval in seconds that the request can execute before the port d
 
 ### -field StorAddressOffset
 
-The location of the target device's <a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a> address structure, in bytes, from the beginning of this structure.
+The location of the target device's <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a> address structure, in bytes, from the beginning of this structure.
 
 
 ### -field SenseInfoOffset
@@ -181,15 +181,15 @@ The <b>SCSI_PASS_THROUGH_DIRECT_EX</b> structure is used with <a href="..\ntddsc
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
 
 
 
-<a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+<a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
 
 
 
@@ -201,5 +201,5 @@ The <b>SCSI_PASS_THROUGH_DIRECT_EX</b> structure is used with <a href="..\ntddsc
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PASS_THROUGH_DIRECT_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PASS_THROUGH_DIRECT_EX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

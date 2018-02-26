@@ -7,7 +7,7 @@ old-location: display\ioctl_video_query_public_access_ranges.htm
 old-project: display
 ms.assetid: 2ae79e9c-34e4-4862-afd1-be6e808183cf
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_e41d01a5-e889-445e-87cd-948f95ba2810.xml, display.ioctl_video_query_public_access_ranges, ntddvdeo/IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,17 +118,17 @@ If the miniport driver returns an address range or ranges, it sets the <b>Inform
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-
-
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_public_access_ranges.md">VIDEO_PUBLIC_ACCESS_RANGES</a>
 
 
 
- 
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES control code%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -106,7 +106,7 @@ Callers of <b>RtlRealPredecessor</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 
@@ -114,7 +114,7 @@ Callers of <b>RtlRealPredecessor</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
 
 
 

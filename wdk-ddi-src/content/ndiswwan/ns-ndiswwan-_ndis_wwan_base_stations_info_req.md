@@ -126,7 +126,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_STATIONS_INFO_REQ</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -134,11 +134,11 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_
 
 
 
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_STATIONS_INFO_REQ</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

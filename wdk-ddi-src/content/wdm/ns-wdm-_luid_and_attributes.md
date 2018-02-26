@@ -153,7 +153,7 @@ typedef LUID_AND_ATTRIBUTES_ARRAY *PLUID_AND_ATTRIBUTES_ARRAY;
 
 
 
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
 
 
 
@@ -161,7 +161,7 @@ typedef LUID_AND_ATTRIBUTES_ARRAY *PLUID_AND_ATTRIBUTES_ARRAY;
 
 
 
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
 
 
 

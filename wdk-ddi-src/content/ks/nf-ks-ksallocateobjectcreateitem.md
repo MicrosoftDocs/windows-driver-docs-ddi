@@ -7,7 +7,7 @@ old-location: stream\ksallocateobjectcreateitem.htm
 old-project: stream
 ms.assetid: 43c3894c-5568-4cba-80ed-1d4e4388547b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, C, I, K, KsAllocateObjectCreateItem, KsAllocateObjectCreateItem function [Streaming Media Devices], O, a, b, c, e, j, ks/KsAllocateObjectCreateItem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, l, m, o, r, s, stream.ksallocateobjectcreateitem, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,5 +110,5 @@ Returns STATUS_SUCCESS if a new item was allocated and attached. Otherwise, it r
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAllocateObjectCreateItem function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAllocateObjectCreateItem function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

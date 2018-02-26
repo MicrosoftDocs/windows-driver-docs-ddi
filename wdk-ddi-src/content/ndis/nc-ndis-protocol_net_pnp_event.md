@@ -403,6 +403,14 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
+
+
+
 <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
 
@@ -411,15 +419,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
 
 
 

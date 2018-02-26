@@ -7,7 +7,7 @@ old-location: display\dxgk_setvidpnsourceaddress_output_flags.htm
 old-project: display
 ms.assetid: CFEEB41D-050F-4372-AB54-39ABC696C89D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], E, F, G, I, K, L, N, O, P, R, S, T, U, V, X, _, _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, display.dxgk_setvidpnsourceaddress_output_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices

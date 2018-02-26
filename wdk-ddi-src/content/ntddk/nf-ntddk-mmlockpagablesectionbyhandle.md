@@ -7,7 +7,7 @@ old-location: kernel\mmlockpagablesectionbyhandle.htm
 old-project: kernel
 ms.assetid: d2e50d98-1c25-4ed6-98eb-0fb7e71fda55
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , B, H, L, M, MmLockPagableSectionByHandle, MmLockPagableSectionByHandle routine [Kernel-Mode Driver Architecture], P, S, a, b, c, d, e, g, i, k, k106_9c5e1e9c-8382-4082-a3ac-5985224c8b2a.xml, kernel.mmlockpagablesectionbyhandle, l, m, n, ntddk/MmLockPagableSectionByHandle, o, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,11 +106,7 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
 
 
 
@@ -118,11 +114,7 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 
 
-<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 
 
 
@@ -130,9 +122,17 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 
 
- 
+<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmLockPagableSectionByHandle routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmLockPagableSectionByHandle routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

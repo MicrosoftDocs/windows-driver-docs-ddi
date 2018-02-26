@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-crypto-session-transform-output-arguments-0030.ht
 old-project: display
 ms.assetid: a6b33349-cba2-4664-886d-1e007b4dc2f2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030 structure [Display Devices], E, F, G, I, M, N, O, P, R, S, T, U, Y, _, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030, display.d3d12ddi-crypto-session-transform-output-arguments-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices

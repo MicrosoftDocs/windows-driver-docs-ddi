@@ -7,7 +7,7 @@ old-location: storage\getfcptargetmapping_in.htm
 old-project: storage
 ms.assetid: a07a97ea-17f0-4e24-89c5-1b24600ac497
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PGetFcpTargetMapping_IN, ,, F, G, GetFcpTargetMapping_IN, GetFcpTargetMapping_IN structure [Storage Devices], I, M, N, P, PGetFcpTargetMapping_IN, PGetFcpTargetMapping_IN structure pointer [Storage Devices], T, _, _GetFcpTargetMapping_IN, a, c, e, g, hbapiwmi/GetFcpTargetMapping_IN, hbapiwmi/PGetFcpTargetMapping_IN, i, n, p, r, storage.getfcptargetmapping_in, structs-Fibre_1c84c265-fc0a-4d56-bdb9-7a10ef80b707.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,17 +91,17 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_IN structu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetFcpTargetMapping_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetFcpTargetMapping_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

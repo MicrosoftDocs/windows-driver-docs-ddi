@@ -143,15 +143,15 @@ A miniport driver can resume indicating received packets immediately after NDIS 
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
 
 
 

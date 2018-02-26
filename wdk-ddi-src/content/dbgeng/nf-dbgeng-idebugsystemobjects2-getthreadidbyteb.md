@@ -7,7 +7,7 @@ old-location: debugger\getthreadidbyteb.htm
 old-project: debugger
 ms.assetid: 64b98d8b-883b-4a2c-a5de-058bb3b732df
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, B, D, G, GetThreadIdByTeb method [Windows Debugging], GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects interface, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects2 interface, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects3 interface, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects4 interface, GetThreadIdByTeb,IDebugSystemObjects.GetThreadIdByTeb, GetThreadIdByTeb,IDebugSystemObjects2.GetThreadIdByTeb, I, IDebugSystemObjects, IDebugSystemObjects interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects2::GetThreadIdByTeb, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects3::GetThreadIdByTeb, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects4::GetThreadIdByTeb, IDebugSystemObjects::GetThreadIdByTeb, IDebugSystemObjects_6f4062c3-c2ef-43bf-81c6-32103f37e793.xml, O, S, T, a, b, c, d, dbgeng/IDebugSystemObjects2::GetThreadIdByTeb, dbgeng/IDebugSystemObjects3::GetThreadIdByTeb, dbgeng/IDebugSystemObjects4::GetThreadIdByTeb, dbgeng/IDebugSystemObjects::GetThreadIdByTeb, debugger.getthreadidbyteb, e, g, h, j, m, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

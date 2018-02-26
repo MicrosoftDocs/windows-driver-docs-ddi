@@ -7,7 +7,7 @@ old-location: pos\poscxisdeviceowner.htm
 old-project: pos
 ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, D, I, O, P, PosCxIsDeviceOwner, PosCxIsDeviceOwner function, c, e, i, n, o, pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner, r, s, v, w, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

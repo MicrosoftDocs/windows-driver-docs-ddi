@@ -233,11 +233,11 @@ CMyQueue::OnCreateFile(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558939">IWDFFile::RetrieveFileName</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558939">IWDFFile::RetrieveFileName</a>
 
 
 

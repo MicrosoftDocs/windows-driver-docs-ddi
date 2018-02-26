@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_systemerror.htm
 old-project: debugger
 ms.assetid: 651f5207-36c8-4d46-8305-950efb2365bf
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, D, E, I, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], SystemError method, IDebugEventCallbacks::SystemError, S, SystemError method [Windows Debugging], SystemError method [Windows Debugging], IDebugEventCallbacks interface, SystemError,IDebugEventCallbacks.SystemError, a, b, c, dbgeng/IDebugEventCallbacks::SystemError, debugger.idebugeventcallbacks_systemerror, e, g, k, l, m, n, o, r, s, t, u, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

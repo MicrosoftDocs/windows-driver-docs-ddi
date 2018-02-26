@@ -109,11 +109,11 @@ A file system typically calls <b>FsRtlPostPagingFileStackOverflow</b> during a p
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
 
 
@@ -121,7 +121,7 @@ A file system typically calls <b>FsRtlPostPagingFileStackOverflow</b> during a p
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
 
 

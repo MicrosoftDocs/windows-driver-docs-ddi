@@ -100,11 +100,11 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\portcls\nf-portcls-pcregisteradapterpnpmanagement.md">PcRegisterAdapterPnpManagement</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: image\wias_error.htm
 old-project: image
 ms.assetid: e439f130-1b99-4f46-ace5-3456c09a5f67
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, E, I, IWiaLog_5b3e0d61-e0e5-4385-8256-943e437cee9d.xml, O, R, S, W, WIAS_ERROR, WIAS_ERROR macro [Imaging Devices], _, image.wias_error, wiamdef/WIAS_ERROR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,10 +115,6 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
 
 
@@ -127,9 +123,13 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
 
 
- 
+<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_ERROR macro%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_ERROR macro%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

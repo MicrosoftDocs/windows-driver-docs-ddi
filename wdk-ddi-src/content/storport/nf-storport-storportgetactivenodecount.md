@@ -7,7 +7,7 @@ old-location: storage\storportgetactivenodecount.htm
 old-project: storage
 ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, G, N, P, S, StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], c, d, e, i, n, o, r, storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

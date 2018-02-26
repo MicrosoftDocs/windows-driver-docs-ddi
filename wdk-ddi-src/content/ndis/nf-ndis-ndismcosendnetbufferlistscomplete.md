@@ -150,7 +150,11 @@ A miniport driver's call to
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
@@ -159,15 +163,11 @@ A miniport driver's call to
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

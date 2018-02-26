@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_read_serial_number.htm
 old-project: storage
 ms.assetid: 258224d7-adc1-4002-8c90-4487134dbfd7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_AACS_READ_SERIAL_NUMBER, IOCTL_AACS_READ_SERIAL_NUMBER control code [Storage Devices], k307_039c336e-5b51-4a22-83bc-1b28d5ba5a33.xml, ntddcdvd/IOCTL_AACS_READ_SERIAL_NUMBER, storage.ioctl_aacs_read_serial_number
 ms.prod: windows-hardware
 ms.technology: windows-devices

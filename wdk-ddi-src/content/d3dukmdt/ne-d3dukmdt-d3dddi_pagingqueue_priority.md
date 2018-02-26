@@ -7,7 +7,7 @@ old-location: display\d3dddi_pagingqueue_priority.htm
 old-project: display
 ms.assetid: A5CF6601-C0BF-4534-93DD-5FFA4F167CFC
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, D, D3DDDI_PAGINGQUEUE_PRIORITY, D3DDDI_PAGINGQUEUE_PRIORITY enumeration [Display Devices], D3DDDI_PAGINGQUEUE_PRIORITY_ABOVE_NORMAL, D3DDDI_PAGINGQUEUE_PRIORITY_BELOW_NORMAL, D3DDDI_PAGINGQUEUE_PRIORITY_NORMAL, E, G, I, N, O, P, Q, R, T, U, Y, _, d3dukmdt/D3DDDI_PAGINGQUEUE_PRIORITY, d3dukmdt/D3DDDI_PAGINGQUEUE_PRIORITY_ABOVE_NORMAL, d3dukmdt/D3DDDI_PAGINGQUEUE_PRIORITY_BELOW_NORMAL, d3dukmdt/D3DDDI_PAGINGQUEUE_PRIORITY_NORMAL, display.d3dddi_pagingqueue_priority"
 ms.prod: windows-hardware
 ms.technology: windows-devices

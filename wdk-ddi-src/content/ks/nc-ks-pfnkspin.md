@@ -7,7 +7,7 @@ old-location: stream\avstrminipinprocess.htm
 old-project: stream
 ms.assetid: d2315dd9-1643-4b8e-a010-8fccc582ca2b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: AVStrMiniPinConnect, AVStrMiniPinProcess, MyAVStrMiniPin, MyAVStrMiniPin routine [Streaming Media Devices], PFNKSPIN, avstclbk_9c9fb1b9-d592-41de-8190-b8b2808ea35b.xml, ks/MyAVStrMiniPin, stream.avstrminipinprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,15 +120,15 @@ Also see <a href="https://msdn.microsoft.com/04d0d17b-c326-417d-b2e8-58b33420455
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
-
-
-
 <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a890-491c721ec3a7">Pin-Centric Processing</a>
 
 
 
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
 
 
 
@@ -144,5 +144,5 @@ Also see <a href="https://msdn.microsoft.com/04d0d17b-c326-417d-b2e8-58b33420455
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPIN routine%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPIN routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -140,15 +140,15 @@ A filter driver can resume indicating received network data immediately after ND
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg-video-process-input-stream-arguments-0032.htm
 old-project: display
 ms.assetid: b6eafa0c-1b5e-4723-9317-60f1507f12ea
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], E, G, I, M, N, O, P, R, S, T, U, V, _, d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, display.d3d12ddiarg-video-process-input-stream-arguments-0032"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -95,7 +95,7 @@ Following the <b>SidStart</b> member begins a <b>CLAIM_SECURITY_ATTRIBUTE_RELATI
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -107,11 +107,11 @@ Following the <b>SidStart</b> member begins a <b>CLAIM_SECURITY_ATTRIBUTE_RELATI
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
 
 
 

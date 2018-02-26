@@ -105,7 +105,7 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
 
 
 
@@ -113,11 +113,11 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

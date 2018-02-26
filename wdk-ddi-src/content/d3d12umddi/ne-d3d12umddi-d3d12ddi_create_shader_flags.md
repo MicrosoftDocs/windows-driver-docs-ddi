@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_create_shader_flags.htm
 old-project: display
 ms.assetid: 93F27775-3E74-4310-8E09-DCB079436706
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 2, 3, A, C, D, D3D12DDI_CREATE_SHADER_FLAGS, D3D12DDI_CREATE_SHADER_FLAGS enumeration [Display Devices], D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION, D3D12DDI_CREATE_SHADER_FLAG_ENABLE_SHADER_TRACING, D3D12DDI_CREATE_SHADER_FLAG_NONE, E, F, G, H, I, L, R, S, T, _, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAGS, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAG_ENABLE_SHADER_TRACING, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAG_NONE, display.d3d12ddi_create_shader_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices

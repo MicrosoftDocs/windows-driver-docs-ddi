@@ -4,10 +4,10 @@ title: "_UCM_MANAGER_CONFIG"
 author: windows-driver-content
 description: Describes the configuration options for the UCM Manager. An initialized UCM_MANAGER_CONFIG structure is an input parameter value to UcmInitializeDevice.
 old-location: buses\ucm_manager_config.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 2B9539D7-6125-4912-9572-13FA7CA671D9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUCM_MANAGER_CONFIG, ,, A, C, E, F, G, I, M, N, O, P, PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG structure pointer [Buses], R, U, UCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG structure [Buses], _, _UCM_MANAGER_CONFIG, buses.ucm_manager_config, ucmmanager/PUCM_MANAGER_CONFIG, ucmmanager/UCM_MANAGER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,5 +83,5 @@ Size of the <b>UCM_MANAGER_CONFIG</b> structure. Initialize this structure by ca
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UCM_MANAGER_CONFIG structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_MANAGER_CONFIG structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -114,7 +114,7 @@ For more information about this member, see the following Remarks section.
 
 This member is available starting with Windows 8.1 and KMDF version 1.13.
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the framework uses a high resolution timer that has an accuracy of one millisecond.  If the value is <b>WdfFalse</b> or <b>WdfDefault</b>, the framework uses a standard timer that has an accuracy matching the system clock tick interval, which is by default 15.6 milliseconds.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the framework uses a high resolution timer that has an accuracy of one millisecond.  If the value is <b>WdfFalse</b> or <b>WdfDefault</b>, the framework uses a standard timer that has an accuracy matching the system clock tick interval, which is by default 15.6 milliseconds.
 
 <div class="alert"><b>Warning</b>  If you set <b>UseHighResolutionTimer</b> to <b>WdfTrue</b>, you must call <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a> with the <i>DueTime</i> parameter set to a negative value.  Otherwise, the call causes the system to crash.</div>
 <div> </div>
@@ -149,7 +149,7 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
+<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
 
 
 
@@ -157,15 +157,15 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 
 
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
+<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
+
+
+
+<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
 
 
 
 <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
-
-
-
-<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
 
 
 

@@ -325,11 +325,11 @@ Drivers that run on Windows 7 and later versions of Windows and that must interp
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>
-
-
-
 <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>
+
+
+
+<a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>
 
 
 

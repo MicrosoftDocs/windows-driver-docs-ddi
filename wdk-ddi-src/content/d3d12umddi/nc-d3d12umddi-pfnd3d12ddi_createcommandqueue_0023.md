@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createcommandqueue_0023.htm
 old-project: display
 ms.assetid: 1DA52354-2338-4214-8489-B6BFCD6060FB
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: PFND3D12DDI_CREATECOMMANDQUEUE_0023, d3d12umddi/pfnCreateCommandQueue, display.pfnd3d12ddi_createcommandqueue_0023, pfnCreateCommandQueue, pfnCreateCommandQueue callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

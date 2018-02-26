@@ -7,7 +7,7 @@ old-location: kernel\rtlushorttoshort.htm
 old-project: kernel
 ms.assetid: 055B5605-2EBB-4B09-9C21-A8288D0DB3CD
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , R, RtlUShortToShort, RtlUShortToShort function [Kernel-Mode Driver Architecture], S, T, U, h, kernel.rtlushorttoshort, l, ntintsafe/RtlUShortToShort, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

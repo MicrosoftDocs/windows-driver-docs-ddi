@@ -146,11 +146,7 @@ For more information about how to use and create context objects, see <a href="h
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperfilecontext.md">FsRtlLookupPerFileContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperfilecontext.md">FsRtlRemovePerFileContext</a>
 
 
 
@@ -158,7 +154,11 @@ For more information about how to use and create context objects, see <a href="h
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperfilecontext.md">FsRtlRemovePerFileContext</a>
+<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtllookupperfilecontext.md">FsRtlLookupPerFileContext</a>
 
 
 

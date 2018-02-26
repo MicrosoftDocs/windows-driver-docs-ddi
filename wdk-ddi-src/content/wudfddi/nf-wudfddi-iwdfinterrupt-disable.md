@@ -109,11 +109,11 @@ The following code example disables the device interrupt that is associated with
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/605C58C2-9A4F-4185-BB5C-95C9F5180C05">IWDFInterrupt::Enable</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/605C58C2-9A4F-4185-BB5C-95C9F5180C05">IWDFInterrupt::Enable</a>
 
 
 

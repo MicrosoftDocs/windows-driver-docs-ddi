@@ -93,7 +93,7 @@ To retrieve information about the volume associated with a given file, directory
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 

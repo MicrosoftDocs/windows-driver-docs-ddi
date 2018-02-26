@@ -206,11 +206,7 @@ A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_contiguous_dma_buffer.md">AllocateContiguousDmaBuffer</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pchange_bandwidth_allocation.md">ChangeBandwidthAllocation</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
 
 
 
@@ -218,7 +214,11 @@ A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
 
 
@@ -230,11 +230,7 @@ A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</
 
 
 
-<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_converter_format.md">HDAUDIO_CONVERTER_FORMAT</a>
+<a href="..\hdaudio\nc-hdaudio-pchange_bandwidth_allocation.md">ChangeBandwidthAllocation</a>
 
 
 
@@ -242,7 +238,11 @@ A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_contiguous_dma_buffer.md">AllocateContiguousDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_converter_format.md">HDAUDIO_CONVERTER_FORMAT</a>
 
 
 

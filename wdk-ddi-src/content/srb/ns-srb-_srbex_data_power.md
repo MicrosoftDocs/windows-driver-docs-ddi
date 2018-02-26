@@ -7,7 +7,7 @@ old-location: storage\srbex_data_power.htm
 old-project: storage
 ms.assetid: 61F5C316-5214-45A6-B4BA-DEE6A224E811
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSRBEX_DATA_POWER, ,, A, B, D, E, O, P, PSRBEX_DATA_POWER, PSRBEX_DATA_POWER structure pointer [Storage Devices], R, S, SRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices], T, W, X, _, _SRBEX_DATA_POWER, storage.srbex_data_power, storport/PSRBEX_DATA_POWER, storport/SRBEX_DATA_POWER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,17 +109,17 @@ An enumerator value of type <a href="..\storport\ne-storport-pstor_power_action.
 
 
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-
-
-
 <a href="..\storport\ne-storport-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a>
 
 
 
- 
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA_POWER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA_POWER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

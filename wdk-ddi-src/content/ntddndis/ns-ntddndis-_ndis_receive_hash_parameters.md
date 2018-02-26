@@ -195,6 +195,16 @@ The NDIS_RECEIVE_HASH_PARAMETERS structure defines the hash parameters for the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
@@ -203,22 +213,12 @@ The NDIS_RECEIVE_HASH_PARAMETERS structure defines the hash parameters for the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569635">OID_GEN_RECEIVE_HASH</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
+   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\scsi_wmilib_context.htm
 old-project: storage
 ms.assetid: 7886cee8-1142-42e6-8206-84667621ba77
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSCSI_WMILIB_CONTEXT, ,, B, C, E, I, L, M, N, O, P, PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT structure pointer [Storage Devices], S, SCSI_WMILIB_CONTEXT, SCSI_WMILIB_CONTEXT structure [Storage Devices], T, W, X, _, _SCSIWMILIB_CONTEXT, scsiwmi/PSCSI_WMILIB_CONTEXT, scsiwmi/SCSI_WMILIB_CONTEXT, storage.scsi_wmilib_context, structs-scsibus_725dbb64-2d39-493d-b1bf-e056ca31244f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,31 +130,7 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 ## -see-also
 
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_execute_method.md">HwScsiWmiExecuteMethod</a>
-
-
-
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmiguidreginfo.md">SCSIWMIGUIDREGINFO</a>
-
-
-
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
-
-
-
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_set_dataitem.md">HwScsiWmiSetDataItem</a>
-
-
-
 <a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_reginfo.md">HwScsiWmiQueryReginfo</a>
-
-
-
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_function_control.md">HwScsiWmiFunctionControl</a>
-
-
-
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_datablock.md">HwScsiWmiQueryDataBlock</a>
 
 
 
@@ -162,9 +138,33 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 
 
- 
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmiguidreginfo.md">SCSIWMIGUIDREGINFO</a>
+
+
+
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_datablock.md">HwScsiWmiQueryDataBlock</a>
+
+
+
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_function_control.md">HwScsiWmiFunctionControl</a>
+
+
+
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_set_dataitem.md">HwScsiWmiSetDataItem</a>
+
+
+
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_execute_method.md">HwScsiWmiExecuteMethod</a>
+
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_WMILIB_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_WMILIB_CONTEXT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

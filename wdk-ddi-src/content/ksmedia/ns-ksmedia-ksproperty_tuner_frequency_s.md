@@ -7,7 +7,7 @@ old-location: stream\ksproperty_tuner_frequency_s.htm
 old-project: stream
 ms.assetid: 19d2c3cc-69e3-4216-9eb7-32b522fe058b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSPROPERTY_TUNER_FREQUENCY_S, ,, C, E, F, K, KSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S structure [Streaming Media Devices], N, O, P, PKSPROPERTY_TUNER_FREQUENCY_S, PKSPROPERTY_TUNER_FREQUENCY_S structure pointer [Streaming Media Devices], Q, R, S, T, U, Y, _, ksmedia/KSPROPERTY_TUNER_FREQUENCY_S, ksmedia/PKSPROPERTY_TUNER_FREQUENCY_S, stream.ksproperty_tuner_frequency_s, vidcapstruct_7757eed6-a41b-4bcd-ad7b-05aca3b54cd0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,14 +116,6 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-
-
-
 <a href="..\ksmedia\ne-ksmedia-ks_tuner_tuning_flags.md">KS_TUNER_TUNING_FLAGS</a>
 
 
@@ -132,9 +124,17 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_TUNER_FREQUENCY_S structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_TUNER_FREQUENCY_S structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

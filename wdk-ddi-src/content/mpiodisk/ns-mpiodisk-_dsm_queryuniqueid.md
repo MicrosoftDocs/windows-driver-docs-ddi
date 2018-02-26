@@ -7,7 +7,7 @@ old-location: storage\dsm_queryuniqueid.htm
 old-project: storage
 ms.assetid: 023390a1-e878-4f1f-a5c2-1545a6786aaa
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDSM_QueryUniqueId, ,, D, DSM_QueryUniqueId, DSM_QueryUniqueId structure [Storage Devices], I, M, P, PDSM_QueryUniqueId, PDSM_QueryUniqueId structure pointer [Storage Devices], Q, S, U, _, _DSM_QueryUniqueId, d, e, i, mpiodisk/DSM_QueryUniqueId, mpiodisk/PDSM_QueryUniqueId, n, q, r, storage.dsm_queryuniqueid, structs-scsibus_eb6e8cc6-4b6a-468f-a14c-7a11c827ef30.xml, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

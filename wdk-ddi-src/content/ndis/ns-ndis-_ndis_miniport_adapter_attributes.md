@@ -211,32 +211,8 @@ Miniport drivers pass these structures to the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_add_device_registration_attributes.md">
-   NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
-   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
@@ -245,7 +221,31 @@ Miniport drivers pass these structures to the
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_add_device_registration_attributes.md">
+   NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
+   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 

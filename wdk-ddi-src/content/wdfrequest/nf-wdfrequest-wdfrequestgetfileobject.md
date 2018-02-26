@@ -141,11 +141,11 @@ MyEvtIoWrite(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md">WdfDeviceInitSetFileObjectConfig</a>
-
-
-
 <a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WDF_FILEOBJECT_CLASS</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md">WdfDeviceInitSetFileObjectConfig</a>
 
 
 

@@ -148,19 +148,19 @@ An alternative to using a virtual address would be to just pass the MDL on down 
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md">VmbChannelPacketComplete</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md">VmbChannelPacketComplete</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 

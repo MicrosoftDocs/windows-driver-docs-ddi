@@ -7,7 +7,7 @@ old-location: print\drvsplwriteprinter.htm
 old-project: print
 ms.assetid: c42bb90a-3c38-4c0c-b523-10e740a027c4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, DrvSplWritePrinter, DrvSplWritePrinter function [Print Devices], P, S, W, e, i, l, n, p, print.drvsplwriteprinter, print_interface-graphics_a59ea0df-c5d8-4a84-8b57-21dfa4f382c4.xml, r, t, v, winddiui/DrvSplWritePrinter"
 ms.prod: windows-hardware
 ms.technology: windows-devices

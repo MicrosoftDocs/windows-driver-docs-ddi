@@ -473,31 +473,7 @@ A filter driver calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
 
 
 
@@ -505,37 +481,15 @@ A filter driver calls the
 
 
 
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
+<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
-   FilterSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
-   FilterDirectOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
 
 
 
@@ -544,27 +498,11 @@ A filter driver calls the
 
 
 
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
+<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
 
 
 
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="https://msdn.microsoft.com/e2714e67-62ac-4d9a-bec3-971d1c8b5bd8">INF File Settings for Filter Drivers</a>
 
 
 
@@ -573,8 +511,70 @@ A filter driver calls the
 
 
 
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2714e67-62ac-4d9a-bec3-971d1c8b5bd8">INF File Settings for Filter Drivers</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+   FilterDirectOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+   FilterSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
    FilterCancelDirectOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

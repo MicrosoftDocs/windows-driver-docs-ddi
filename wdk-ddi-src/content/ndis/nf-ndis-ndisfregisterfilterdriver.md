@@ -77,7 +77,7 @@ NDIS_STATUS NdisFRegisterFilterDriver(
 ### -param DriverObject [in]
 
 A pointer to an opaque driver object that the filter driver received in its 
-     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter. (For more information, see 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
      Drivers</a>.)
@@ -217,7 +217,7 @@ At least one of the input parameters that the driver passed to
 A filter driver calls the 
     <b>
     NdisFRegisterFilterDriver</b> function from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
     Drivers</a>.
@@ -254,11 +254,8 @@ Filter drivers call the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
+   Drivers</a>
 
 
 
@@ -267,16 +264,19 @@ Filter drivers call the
 
 
 
+<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
-   Drivers</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 

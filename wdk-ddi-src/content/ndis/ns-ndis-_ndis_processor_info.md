@@ -112,11 +112,11 @@ The NDIS_PROCESSOR_INFO structure is used in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_processor_info_ex.md">NDIS_PROCESSOR_INFO_EX</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_processor_info_ex.md">NDIS_PROCESSOR_INFO_EX</a>
 
 
 

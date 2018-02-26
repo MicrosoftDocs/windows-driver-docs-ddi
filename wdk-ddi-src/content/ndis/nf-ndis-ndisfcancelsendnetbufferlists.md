@@ -120,12 +120,13 @@ NDIS returns canceled send data that the filter driver originated to the
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+   FilterSendNetBufferListsComplete</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
    FilterCancelSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -133,13 +134,12 @@ NDIS returns canceled send data that the filter driver originated to the
 
 
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
-   FilterSendNetBufferListsComplete</a>
 
 
 

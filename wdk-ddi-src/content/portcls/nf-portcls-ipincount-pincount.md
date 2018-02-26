@@ -164,10 +164,6 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-
-
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a>
 
 
@@ -176,19 +172,23 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 
 
-<a href="..\portcls\nn-portcls-ipincount.md">IPinCount</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
 
 
 
+<a href="..\portcls\nn-portcls-ipincount.md">IPinCount</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
 
 
 

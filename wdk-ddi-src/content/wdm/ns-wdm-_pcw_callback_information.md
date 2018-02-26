@@ -7,7 +7,7 @@ old-location: devtest\pcw_callback_information.htm
 old-project: devtest
 ms.assetid: cc1882a9-eba7-494c-9047-5c97b1e3c19b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PPCW_CALLBACK_INFORMATION, ,, A, B, C, F, I, K, L, M, N, O, P, PCW_CALLBACK_INFORMATION, PCW_CALLBACK_INFORMATION union [Driver Development Tools], PPCW_CALLBACK_INFORMATION, PPCW_CALLBACK_INFORMATION union pointer [Driver Development Tools], R, T, W, _, _PCW_CALLBACK_INFORMATION, devtest.pcw_callback_information, km_pcw_d44ee92a-c8a0-4da9-8739-cf5443ee2d85.xml, wdm/PCW_CALLBACK_INFORMATION, wdm/PPCW_CALLBACK_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,17 +93,17 @@ The PCW_MASK_INFORMATION structure that identifies the instance of the counter s
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_pcw_mask_information.md">PCW_MASK_INFORMATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pcw_counter_information.md">PCW_COUNTER_INFORMATION</a>
 
 
 
- 
+<a href="..\wdm\ns-wdm-_pcw_mask_information.md">PCW_MASK_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PCW_CALLBACK_INFORMATION union%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PCW_CALLBACK_INFORMATION union%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

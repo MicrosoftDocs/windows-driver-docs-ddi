@@ -86,15 +86,15 @@ Specifies a packet-switched wireless LAN (WLAN) phone call.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callinfo.md">KSTELEPHONY_CALLINFO</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-_tagkstelephony_providerchange.md">KSTELEPHONY_PROVIDERCHANGE</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callcontrol.md">KSTELEPHONY_CALLCONTROL</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callinfo.md">KSTELEPHONY_CALLINFO</a>
 
 
 

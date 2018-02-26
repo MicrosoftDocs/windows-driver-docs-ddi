@@ -188,11 +188,11 @@ The following is an example of querying the network physical name  information o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
 
 
 

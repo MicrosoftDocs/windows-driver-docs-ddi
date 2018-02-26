@@ -115,22 +115,22 @@ The data in the supplied registration packet is invalid.
 
 
 
-A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself with the PSHED. A PSHED plug-in typically calls this function from within either its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function or its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function.
+A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself with the PSHED. A PSHED plug-in typically calls this function from within either its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function or its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function.
 
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 

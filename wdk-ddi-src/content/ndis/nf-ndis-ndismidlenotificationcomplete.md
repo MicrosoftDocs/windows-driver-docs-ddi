@@ -106,19 +106,19 @@ For more information on how miniport drivers complete NDIS selective suspend  id
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_submit_idle_notification.md">IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
 
 
 

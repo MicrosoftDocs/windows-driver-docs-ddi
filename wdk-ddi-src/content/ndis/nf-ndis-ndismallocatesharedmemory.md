@@ -240,15 +240,40 @@ If a miniport driver calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 
+<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
@@ -257,37 +282,12 @@ If a miniport driver calls
 
 
 
-<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
    NdisMAllocateSharedMemoryAsyncEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
-   MiniportSharedMemoryAllocateComplete</a>
 
 
 

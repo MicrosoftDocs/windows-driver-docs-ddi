@@ -210,7 +210,7 @@ A function pointer to the <a href="..\hdaudio\nc-hdaudio-punregister_notificatio
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> IOCTL uses this structure to provide interface information to a client that is querying the HD Audio bus driver for the HD Audio DDI.
 
-The names and definitions of the first five members of the <b>HDAUDIO_BUS_INTERFACE_V2</b> structure (Size, Version, Context, InterfaceReference, and InterfaceDereference) are the same as in the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure. The remaining members are specific to the baseline HD Audio DDI and specify function pointers to the routines in the DDI. 
+The names and definitions of the first five members of the <b>HDAUDIO_BUS_INTERFACE_V2</b> structure (Size, Version, Context, InterfaceReference, and InterfaceDereference) are the same as in the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure. The remaining members are specific to the baseline HD Audio DDI and specify function pointers to the routines in the DDI. 
 
 
 
@@ -221,15 +221,7 @@ The names and definitions of the first five members of the <b>HDAUDIO_BUS_INTERF
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer_with_notification.md">FreeDmaBufferWithNotification</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
@@ -237,15 +229,11 @@ The names and definitions of the first five members of the <b>HDAUDIO_BUS_INTERF
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-pchange_bandwidth_allocation.md">ChangeBandwidthAllocation</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-punregister_notification_event.md">UnregisterNotificationEvent</a>
 
 
 
@@ -253,11 +241,15 @@ The names and definitions of the first five members of the <b>HDAUDIO_BUS_INTERF
 
 
 
-<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
+<a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-punregister_notification_event.md">UnregisterNotificationEvent</a>
+<a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
 
 
@@ -269,7 +261,7 @@ The names and definitions of the first five members of the <b>HDAUDIO_BUS_INTERF
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pget_link_position_register.md">GetLinkPositionRegister</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
 
 
 
@@ -277,15 +269,23 @@ The names and definitions of the first five members of the <b>HDAUDIO_BUS_INTERF
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
+<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+<a href="..\hdaudio\nc-hdaudio-pget_link_position_register.md">GetLinkPositionRegister</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer_with_notification.md">FreeDmaBufferWithNotification</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a>
 
 
 

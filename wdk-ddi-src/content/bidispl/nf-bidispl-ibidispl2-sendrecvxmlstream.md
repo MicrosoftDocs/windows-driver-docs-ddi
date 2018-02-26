@@ -7,7 +7,7 @@ old-location: print\ibidispl2_ibidispl2__sendrecvxmlstream.htm
 old-project: print
 ms.assetid: 2daf99a8-42dc-4739-8e7e-80d3c9a084b7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, B, I, IBidiSpl2, IBidiSpl2 interface [Print Devices], SendRecvXMLStream method, IBidiSpl2::SendRecvXMLStream, L, M, R, S, SendRecvXMLStream method [Print Devices], SendRecvXMLStream method [Print Devices], IBidiSpl2 interface, SendRecvXMLStream,IBidiSpl2.SendRecvXMLStream, X, _win32_IBidiSpl2_SendRecvXMLStream, a, bidispl/IBidiSpl2::SendRecvXMLStream, c, d, e, gdi.ibidispl2_ibidispl2__sendrecvxmlstream, i, l, m, n, p, print.ibidispl2_ibidispl2__sendrecvxmlstream, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -145,6 +145,10 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
@@ -153,13 +157,9 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl2::SendRecvXMLStream method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl2::SendRecvXMLStream method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

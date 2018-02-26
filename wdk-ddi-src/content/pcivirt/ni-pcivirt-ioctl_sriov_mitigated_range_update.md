@@ -7,7 +7,7 @@ old-location: pci\ioctl-sriov-mitigated-range-update.htm
 old-project: PCI
 ms.assetid: f49e6d9e-0b62-4742-9868-1717f8482d9a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE, IOCTL_SRIOV_MITIGATED_RANGE_UPDATE control code [Buses], PCI.ioctl-sriov-mitigated-range-update, pcivirt/IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

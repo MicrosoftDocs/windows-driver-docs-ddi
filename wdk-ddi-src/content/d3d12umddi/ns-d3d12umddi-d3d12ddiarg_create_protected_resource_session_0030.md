@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg-create-protected-resource-session-0030.htm
 old-project: display
 ms.assetid: 0b28ea12-1182-4be6-83f3-850172cc6a89
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0030, D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0030 structure [Display Devices], E, G, I, N, O, P, R, S, T, U, _, d3d12umddi/D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0030, display.d3d12ddiarg-create-protected-resource-session-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices

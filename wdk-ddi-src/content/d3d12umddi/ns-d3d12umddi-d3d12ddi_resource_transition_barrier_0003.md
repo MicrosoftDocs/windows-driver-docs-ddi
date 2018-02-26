@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_resource_transition_barrier_0003.htm
 old-project: display
 ms.assetid: 86E2A0A4-F02C-43E7-8CC1-395B444299A6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, B, C, D, D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003, D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 structure [Display Devices], E, I, N, O, R, S, T, U, _, d3d12umddi/D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003, display.d3d12ddi_resource_transition_barrier_0003"
 ms.prod: windows-hardware
 ms.technology: windows-devices

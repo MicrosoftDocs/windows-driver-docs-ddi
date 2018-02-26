@@ -231,31 +231,15 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
+<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
 
 
 
@@ -263,7 +247,23 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
+<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
 
 
 

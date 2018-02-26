@@ -140,16 +140,12 @@ A call to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
    ProtocolCmActivateVcComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
 
 
@@ -157,7 +153,11 @@ A call to
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
 
 

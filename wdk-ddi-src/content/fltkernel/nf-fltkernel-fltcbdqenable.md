@@ -98,11 +98,7 @@ If the queue is protected by a <a href="https://msdn.microsoft.com/0585fc2a-0d0b
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
 
 
 
@@ -110,19 +106,23 @@ If the queue is protected by a <a href="https://msdn.microsoft.com/0585fc2a-0d0b
 
 
 
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 
 

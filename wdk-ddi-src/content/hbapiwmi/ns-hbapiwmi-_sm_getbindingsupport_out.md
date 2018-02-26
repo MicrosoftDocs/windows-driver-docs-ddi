@@ -7,7 +7,7 @@ old-location: storage\sm_getbindingsupport_out.htm
 old-project: storage
 ms.assetid: 4f45e2ad-19f9-4308-8d63-edf066545e07
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSM_GetBindingSupport_OUT, ,, B, G, M, O, P, PSM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT structure pointer [Storage Devices], S, SM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT structure [Storage Devices], T, U, _, _SM_GetBindingSupport_OUT, d, e, g, hbapiwmi/PSM_GetBindingSupport_OUT, hbapiwmi/SM_GetBindingSupport_OUT, i, n, o, p, r, storage.sm_getbindingsupport_out, structs-Fibre_687416b3-60d9-494f-895b-a23fcb666994.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

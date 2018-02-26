@@ -79,17 +79,17 @@ The size of the structure in bytes.
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riluicclockstateparammask.md">RILUICCLOCKSTATEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-riluicclockstateparammask.md">RILUICCLOCKSTATEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field rilUiccLock
 
-Specifies the lock of type <a href="..\rilapitypes\ns-rilapitypes-riluicclock.md">RILUICCLOCK</a>. 
+Specifies the lock of type <a href="..\ntddrilapitypes\ns-ntddrilapitypes-riluicclock.md">RILUICCLOCK</a>. 
 
 
 ### -field dwLockState
 
-The current state of the lock, a bitmask of <a href="..\rilapitypes\ne-rilapitypes-riluicclockstatelockstate.md">RILUICCLOCKSTATELOCKSTATE</a>.
+The current state of the lock, a bitmask of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-riluicclockstatelockstate.md">RILUICCLOCKSTATELOCKSTATE</a>.
 
 
 ### -field dwVerifyAttemptsLeft

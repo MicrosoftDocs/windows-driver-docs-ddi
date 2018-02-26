@@ -117,22 +117,22 @@ The storage device reported an invalid sector size.
 
 This routine is used by file system drivers to retrieve sector size information from the storage device containing the volume. A file system driver typically maintains the device object sent in <i>RealDevice</i> in its  volume parameter block (VPD) for the storage volume.
 
-Drivers other than file system drivers, can query sector size information using the <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or  <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> routines, or by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a> request and specifying <b>FileFsSectorSizeInformation</b> as the file system information class.
+Drivers other than file system drivers, can query sector size information using the <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or  <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> routines, or by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a> request and specifying <b>FileFsSectorSizeInformation</b> as the file system information class.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_file_fs_sector_size_information.md">FILE_FS_SECTOR_SIZE_INFORMATION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 

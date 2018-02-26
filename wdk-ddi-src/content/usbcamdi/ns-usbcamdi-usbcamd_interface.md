@@ -7,7 +7,7 @@ old-location: stream\usbcamd_interface.htm
 old-project: stream
 ms.assetid: 864dbe8d-2771-4532-8a50-ed1bf5286658
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PUSBCAMD_INTERFACE, ,, A, B, C, D, E, F, I, M, N, P, PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE structure pointer [Streaming Media Devices], R, S, T, U, USBCAMD_INTERFACE, USBCAMD_INTERFACE structure [Streaming Media Devices], _, stream.usbcamd_interface, usbcamdi/PUSBCAMD_INTERFACE, usbcamdi/USBCAMD_INTERFACE, usbcmdpr_113d60d6-c353-468a-9c3d-801c76caf7be.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,19 +117,7 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
 
 
 
@@ -137,11 +125,15 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
 
 
 
@@ -149,9 +141,17 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_INTERFACE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_INTERFACE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

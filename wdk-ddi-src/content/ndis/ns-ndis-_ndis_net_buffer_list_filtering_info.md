@@ -153,6 +153,15 @@ To access the identifier values directly, use the
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568407">
+   NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
@@ -165,17 +174,8 @@ To access the identifier values directly, use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568407">
-   NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568406">
    NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

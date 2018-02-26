@@ -210,7 +210,7 @@ The size of the <i>FileInformation</i> buffer passed to <a href="..\wdm\nf-wdm-z
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
 
 
 
@@ -218,7 +218,7 @@ The size of the <i>FileInformation</i> buffer passed to <a href="..\wdm\nf-wdm-z
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
 
 
 

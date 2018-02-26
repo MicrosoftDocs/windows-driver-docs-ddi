@@ -153,7 +153,7 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
 
 
@@ -161,7 +161,7 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\getsymbolmodule.htm
 old-project: debugger
 ms.assetid: f3774204-86c3-467b-96ba-739f19d300e3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, D, G, GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging], IDebugSymbols interface, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, GetSymbolModule,IDebugSymbols.GetSymbolModule, GetSymbolModule,IDebugSymbols2.GetSymbolModule, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetSymbolModule method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols2::GetSymbolModule, IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols3::GetSymbolModule, IDebugSymbols::GetSymbolModule, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, M, S, b, d, dbgeng/IDebugSymbols2::GetSymbolModule, dbgeng/IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, debugger.getsymbolmodule, e, g, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

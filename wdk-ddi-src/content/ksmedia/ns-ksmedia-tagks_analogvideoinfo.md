@@ -7,7 +7,7 @@ old-location: stream\ks_analogvideoinfo.htm
 old-project: stream
 ms.assetid: a3562a08-c567-4bb5-9de2-aaa561687b88
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKS_ANALOGVIDEOINFO, ,, A, D, E, F, G, I, K, KS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO structure [Streaming Media Devices], L, N, O, P, PKS_ANALOGVIDEOINFO, PKS_ANALOGVIDEOINFO structure pointer [Streaming Media Devices], S, V, _, a, d, e, f, g, i, ksmedia/KS_ANALOGVIDEOINFO, ksmedia/PKS_ANALOGVIDEOINFO, l, n, o, stream.ks_analogvideoinfo, t, tagKS_AnalogVideoInfo, vidcapstruct_1a351d21-929d-4a84-863a-cf590d82c16b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

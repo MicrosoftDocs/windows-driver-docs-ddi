@@ -97,6 +97,10 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
+
+
 <a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 
@@ -105,7 +109,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+<a href="..\wdm\nf-wdm-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
 
 
 
@@ -113,15 +121,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-
-
-
 <a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
 
 
 

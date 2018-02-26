@@ -4,10 +4,10 @@ title: "_USB_BUS_INTERFACE_USBDI_V2"
 author: windows-driver-content
 description: The USB_BUS_INTERFACE_USBDI_V2 structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs.
 old-location: buses\usb_bus_interface_usbdi_v2.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: c7d9f8b1-a18f-4644-aaee-c019692e62a6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUSB_BUS_INTERFACE_USBDI_V2, ,, 2, A, B, C, D, E, F, I, N, P, PUSB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2 structure pointer [Buses], R, S, T, U, USB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2 structure [Buses], V, _, _USB_BUS_INTERFACE_USBDI_V2, buses.usb_bus_interface_usbdi_v2, usbbusif/PUSB_BUS_INTERFACE_USBDI_V2, usbbusif/USB_BUS_INTERFACE_USBDI_V2, usbinterKR_bcb1539a-bd26-421b-b8b3-c135ffe45e57.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,12 +143,12 @@ Contains information that describes the USB bus and the USB bus driver that expo
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
 ### -field GetUSBDIVersion
@@ -206,5 +206,5 @@ The routines in this structure must be callable at IRQL &gt;= DISPATCH_LEVEL.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_BUS_INTERFACE_USBDI_V2 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_BUS_INTERFACE_USBDI_V2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

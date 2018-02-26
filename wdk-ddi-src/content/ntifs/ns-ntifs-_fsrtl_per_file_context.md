@@ -151,19 +151,11 @@ For more information about how to use and create context objects, see <a href="h
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
-
-
-
 <a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
 
 
 
@@ -171,7 +163,15 @@ For more information about how to use and create context objects, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
 
 
 

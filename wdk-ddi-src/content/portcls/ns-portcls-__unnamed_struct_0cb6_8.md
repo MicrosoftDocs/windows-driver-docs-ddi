@@ -107,15 +107,15 @@ For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure 
 
 ## -see-also
 
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565809">KSPROPERTY_TOPOLOGY_NAME</a>
 
 
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
-
-
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
 
 
 

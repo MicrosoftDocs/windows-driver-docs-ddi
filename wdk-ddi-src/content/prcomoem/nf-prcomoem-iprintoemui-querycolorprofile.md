@@ -7,7 +7,7 @@ old-location: print\iprintoemui_querycolorprofile.htm
 old-project: print
 ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, I, IPrintOemUI, IPrintOemUI interface [Print Devices], QueryColorProfile method, IPrintOemUI::QueryColorProfile, O, P, Q, QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices], IPrintOemUI interface, QueryColorProfile,IPrintOemUI.QueryColorProfile, U, e, f, i, l, m, n, o, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

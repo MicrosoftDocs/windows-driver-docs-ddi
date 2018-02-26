@@ -120,15 +120,7 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <b>NDIS_R
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_isolation_entry.md">NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn383690">OID_GEN_ISOLATION_PARAMETERS</a>
 
 
 
@@ -136,7 +128,15 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <b>NDIS_R
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn383690">OID_GEN_ISOLATION_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn383683">NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

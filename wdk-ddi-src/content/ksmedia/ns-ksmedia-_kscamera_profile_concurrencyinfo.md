@@ -7,7 +7,7 @@ old-location: stream\kscamera_profile_concurrencyinfo.htm
 old-project: stream
 ms.assetid: 4E0A9CE6-2FA0-46A5-B478-C088E5FF1BAD
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSCAMERA_PROFILE_CONCURRENCYINFO, ,, A, C, E, F, I, K, KSCAMERA_PROFILE_CONCURRENCYINFO, KSCAMERA_PROFILE_CONCURRENCYINFO structure [Streaming Media Devices], L, M, N, O, P, PKSCAMERA_PROFILE_CONCURRENCYINFO, PKSCAMERA_PROFILE_CONCURRENCYINFO structure pointer [Streaming Media Devices], R, S, U, Y, _, _KSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/KSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/PKSCAMERA_PROFILE_CONCURRENCYINFO, stream.kscamera_profile_concurrencyinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

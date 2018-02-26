@@ -4,10 +4,10 @@ title: "_URB_HEADER"
 author: windows-driver-content
 description: The _URB_HEADER structure is used by USB client drivers to provide basic information about the request being sent to the host controller driver.
 old-location: buses\_urb_header.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: d23b9332-1e9d-4592-9674-3e5d8fc1d11e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, D, E, H, R, U, URB_FUNCTION_ABORT_PIPE, URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER, URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER_USING_CHAINED_MDL, URB_FUNCTION_CLASS_DEVICE, URB_FUNCTION_CLASS_ENDPOINT, URB_FUNCTION_CLASS_INTERFACE, URB_FUNCTION_CLASS_OTHER, URB_FUNCTION_CLEAR_FEATURE_TO_DEVICE, URB_FUNCTION_CLEAR_FEATURE_TO_ENDPOINT, URB_FUNCTION_CLEAR_FEATURE_TO_INTERFACE, URB_FUNCTION_CLEAR_FEATURE_TO_OTHER, URB_FUNCTION_CLOSE_STATIC_STREAMS, URB_FUNCTION_CONTROL_TRANSFER, URB_FUNCTION_CONTROL_TRANSFER_EX, URB_FUNCTION_GET_CONFIGURATION, URB_FUNCTION_GET_CURRENT_FRAME_NUMBER, URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE, URB_FUNCTION_GET_DESCRIPTOR_FROM_ENDPOINT, URB_FUNCTION_GET_DESCRIPTOR_FROM_INTERFACE, URB_FUNCTION_GET_FRAME_LENGTH, URB_FUNCTION_GET_INTERFACE, URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR, URB_FUNCTION_GET_STATUS_FROM_DEVICE, URB_FUNCTION_GET_STATUS_FROM_ENDPOINT, URB_FUNCTION_GET_STATUS_FROM_INTERFACE, URB_FUNCTION_GET_STATUS_FROM_OTHER, URB_FUNCTION_ISOCH_TRANSFER, URB_FUNCTION_ISOCH_TRANSFER_USING_CHAINED_MDL, URB_FUNCTION_OPEN_STATIC_STREAMS, URB_FUNCTION_RELEASE_FRAME_LENGTH_CONTROL, URB_FUNCTION_RESET_PIPE, URB_FUNCTION_SELECT_CONFIGURATION, URB_FUNCTION_SELECT_INTERFACE, URB_FUNCTION_SET_DESCRIPTOR_TO_DEVICE, URB_FUNCTION_SET_DESCRIPTOR_TO_ENDPOINT, URB_FUNCTION_SET_DESCRIPTOR_TO_INTERFACE, URB_FUNCTION_SET_FEATURE_TO_DEVICE, URB_FUNCTION_SET_FEATURE_TO_ENDPOINT, URB_FUNCTION_SET_FEATURE_TO_INTERFACE, URB_FUNCTION_SET_FEATURE_TO_OTHER, URB_FUNCTION_SET_FRAME_LENGTH, URB_FUNCTION_SYNC_CLEAR_STALL, URB_FUNCTION_SYNC_RESET_PIPE, URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL, URB_FUNCTION_TAKE_FRAME_LENGTH_CONTROL, URB_FUNCTION_VENDOR_DEVICE, URB_FUNCTION_VENDOR_ENDPOINT, URB_FUNCTION_VENDOR_INTERFACE, URB_FUNCTION_VENDOR_OTHER, _, _URB_HEADER, _URB_HEADER structure [Buses], buses._urb_header, usb/_URB_HEADER, usbstrct_588f903a-8690-4295-94b0-8b9162ff190e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -468,31 +468,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_os_feature_descriptor_request.md">_URB_OS_FEATURE_DESCRIPTOR_REQUEST</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_control_transfer.md">_URB_CONTROL_TRANSFER</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_control_feature_request.md">_URB_CONTROL_FEATURE_REQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_pipe_request.md">_URB_PIPE_REQUEST</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_get_current_frame_number.md">_URB_GET_CURRENT_FRAME_NUMBER</a>
+<a href="..\usb\ns-usb-_urb_control_get_interface_request.md">_URB_CONTROL_GET_INTERFACE_REQUEST</a>
 
 
 
@@ -500,31 +476,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_control_get_configuration_request.md">_URB_CONTROL_GET_CONFIGURATION_REQUEST</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_control_get_interface_request.md">_URB_CONTROL_GET_INTERFACE_REQUEST</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_control_vendor_or_class_request.md">_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_bulk_or_interrupt_transfer.md">_URB_BULK_OR_INTERRUPT_TRANSFER</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
 
 
 
@@ -532,9 +484,57 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
- 
+<a href="..\usb\ns-usb-_urb_control_get_configuration_request.md">_URB_CONTROL_GET_CONFIGURATION_REQUEST</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_control_feature_request.md">_URB_CONTROL_FEATURE_REQUEST</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
+
+
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_get_current_frame_number.md">_URB_GET_CURRENT_FRAME_NUMBER</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_bulk_or_interrupt_transfer.md">_URB_BULK_OR_INTERRUPT_TRANSFER</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_os_feature_descriptor_request.md">_URB_OS_FEATURE_DESCRIPTOR_REQUEST</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_pipe_request.md">_URB_PIPE_REQUEST</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_control_transfer.md">_URB_CONTROL_TRANSFER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20_URB_HEADER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_HEADER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

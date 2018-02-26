@@ -159,6 +159,15 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
+   NdisCmDispatchIncomingDropParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
    NdisMCmDispatchIncomingCloseCall</a>
 
@@ -168,16 +177,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
-   NdisCmDispatchIncomingDropParty</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: stream\ksobject_create_item.htm
 old-project: stream
 ms.assetid: 9c047a7c-cdfc-47e1-beae-f8f326c187ee
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSOBJECT_CREATE_ITEM, ,, A, B, C, E, I, J, K, KSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM structure [Streaming Media Devices], M, O, P, PKSOBJECT_CREATE_ITEM, PKSOBJECT_CREATE_ITEM structure pointer [Streaming Media Devices], R, S, T, _, ks-struct_d09f00c9-44ef-44fa-b46e-2ab540797a53.xml, ks/KSOBJECT_CREATE_ITEM, ks/PKSOBJECT_CREATE_ITEM, stream.ksobject_create_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,5 +163,5 @@ The minidriver might retrieve this pointer when creating a new object to examine
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSOBJECT_CREATE_ITEM structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSOBJECT_CREATE_ITEM structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

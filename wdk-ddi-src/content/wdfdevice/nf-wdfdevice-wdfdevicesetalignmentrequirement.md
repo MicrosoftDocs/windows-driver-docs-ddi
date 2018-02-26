@@ -142,11 +142,11 @@ WdfDeviceSetAlignmentRequirement(
 
 ## -see-also
 
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetalignmentrequirement.md">WdfDeviceGetAlignmentRequirement</a>
+
+
+
+<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
 
 
 

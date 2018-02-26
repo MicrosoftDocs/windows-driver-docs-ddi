@@ -117,23 +117,23 @@ A miniport driver typically calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
 
 
 
@@ -142,7 +142,7 @@ A miniport driver typically calls
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 

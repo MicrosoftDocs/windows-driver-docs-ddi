@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorlinkinfo.htm
 old-project: display
 ms.assetid: 4A22CC69-F529-4D0B-BF00-877468E29429
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, D, DXGK_MONITORLINKINFO, DXGK_MONITORLINKINFO structure [Display Devices], F, G, I, K, L, M, N, O, PDXGK_MONITORLINKINFO, PDXGK_MONITORLINKINFO structure pointer [Display Devices], R, T, X, _, _DXGK_MONITORLINKINFO, d3dkmddi/DXGK_MONITORLINKINFO, d3dkmddi/PDXGK_MONITORLINKINFO, display.dxgk_monitorlinkinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

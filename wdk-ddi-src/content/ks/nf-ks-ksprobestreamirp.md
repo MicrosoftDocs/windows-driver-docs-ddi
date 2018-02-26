@@ -7,7 +7,7 @@ old-location: stream\ksprobestreamirp.htm
 old-project: stream
 ms.assetid: 25b49781-2676-4b5e-b17b-dcb1bf98b297
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , I, K, KsProbeStreamIrp, KsProbeStreamIrp function [Streaming Media Devices], P, S, a, b, e, ks/KsProbeStreamIrp, ksfunc_0ed25e85-a785-4021-a7b7-59fa6230eff8.xml, m, o, p, r, s, stream.ksprobestreamirp, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

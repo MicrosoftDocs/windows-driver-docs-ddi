@@ -7,7 +7,7 @@ old-location: stream\ksinterface_fileio.htm
 old-project: stream
 ms.assetid: B8965A1A-4EF9-4FCA-8ED0-60F720331AC4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, C, E, F, I, K, KSINTERFACE_FILEIO, KSINTERFACE_FILEIO enumeration [Streaming Media Devices], KSINTERFACE_FILEIO_STREAMING, L, N, O, R, S, T, _, ks/KSINTERFACE_FILEIO, ks/KSINTERFACE_FILEIO_STREAMING, stream.ksinterface_fileio"
 ms.prod: windows-hardware
 ms.technology: windows-devices

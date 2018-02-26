@@ -106,19 +106,19 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\portcls\nn-portcls-iadapterpnpmanagement.md">IAdapterPnpManagement</a>
 
 
 
-<a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
 <a href="..\portcls\nf-portcls-pcunregisteradapterpnpmanagement.md">PcUnregisterAdapterPnpManagement</a>
+
+
+
+<a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>
 
 
 

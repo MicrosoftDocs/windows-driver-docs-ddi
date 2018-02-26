@@ -7,7 +7,7 @@ old-location: print\oemnextband.htm
 old-project: print
 ms.assetid: 547af6b1-63cf-4e61-a357-1a7fdc33e43c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, E, M, N, O, OEMNextBand, OEMNextBand function [Print Devices], a, d, e, n, print.oemnextband, print_unidrv-pscript_rendering_db168f2e-09ab-4c1d-9a68-970af445e128.xml, printoem/OEMNextBand, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\ataportregistrychannelsubkeywrite.htm
 old-project: storage
 ms.assetid: 4072f369-992e-4144-b3b9-1e05bb2127f2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], C, P, R, S, W, a, atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, b, e, g, h, i, irb/AtaPortRegistryChannelSubkeyWrite, k, l, n, o, r, s, storage.ataportregistrychannelsubkeywrite, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -171,15 +171,15 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyWrite</b> either du
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
-
-
-
 <a href="..\irb\nf-irb-ataportregistrychannelsubkeyread.md">AtaPortRegistryChannelSubKeyRead</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 
 
@@ -191,5 +191,5 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyWrite</b> either du
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortRegistryChannelSubKeyWrite routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortRegistryChannelSubKeyWrite routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

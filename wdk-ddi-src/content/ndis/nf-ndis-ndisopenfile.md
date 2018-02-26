@@ -174,7 +174,7 @@ When
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+<a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
 
 
 
@@ -186,7 +186,7 @@ When
 
 
 
-<a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
+<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
 
 
 

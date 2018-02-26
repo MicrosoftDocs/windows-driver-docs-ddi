@@ -7,7 +7,7 @@ old-location: hid\hidp_getusagesex.htm
 old-project: hid
 ms.assetid: c799ecb6-3024-491c-90d5-70e1d21b1baf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, G, H, HidP_GetUsagesEx, HidP_GetUsagesEx routine [Human Input Devices], P, U, _, a, d, e, g, hid.hidp_getusagesex, hidfunc_2a2a6e4a-c966-43d7-8159-115bb6f2376c.xml, hidpi/HidP_GetUsagesEx, i, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -207,31 +207,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_maxusagelistlength.md">HidP_MaxUsageListLength</a>
-
-
-
-<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
-
-
-
-<a href="..\hidpi\ns-hidpi-_usage_and_page.md">USAGE_AND_PAGE</a>
+<a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
 
 
 
 <a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getscaledusagevalue.md">HidP_GetScaledUsageValue</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
 
 
 
@@ -243,7 +223,27 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_maxusagelistlength.md">HidP_MaxUsageListLength</a>
+
+
+
+<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getscaledusagevalue.md">HidP_GetScaledUsageValue</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_usage_and_page.md">USAGE_AND_PAGE</a>
 
 
 
@@ -251,5 +251,5 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetUsagesEx routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetUsagesEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

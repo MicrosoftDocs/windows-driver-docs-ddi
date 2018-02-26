@@ -105,7 +105,7 @@ This property is similar to <a href="https://msdn.microsoft.com/library/windows/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537419">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537423">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
 
 
 
@@ -113,7 +113,7 @@ This property is similar to <a href="https://msdn.microsoft.com/library/windows/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537423">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537419">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
 
 
 

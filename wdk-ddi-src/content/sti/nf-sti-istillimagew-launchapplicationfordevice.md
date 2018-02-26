@@ -7,8 +7,8 @@ old-location: image\istillimage_launchapplicationfordevice.htm
 old-project: image
 ms.assetid: e5bb8d0e-9ae0-42dd-bbd0-c12e3d1e3f40
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, A, D, F, I, IStillImage interface [Imaging Devices], LaunchApplicationForDevice method, IStillImage::LaunchApplicationForDevice, IStillImageW, IStillImageW::LaunchApplicationForDevice, L, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices], IStillImage interface, LaunchApplicationForDevice,IStillImageW.LaunchApplicationForDevice, S, W, a, c, e, g, h, i, image.istillimage_launchapplicationfordevice, l, m, n, o, p, r, sti/IStillImage::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml, t, u, v"
+ms.date: 2/23/2018
+ms.keywords: ",  , ,, ., :, A, D, F, I, IStillImageW, IStillImageW interface [Imaging Devices], LaunchApplicationForDevice method, IStillImageW::LaunchApplicationForDevice, L, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices], IStillImageW interface, LaunchApplicationForDevice,IStillImageW.LaunchApplicationForDevice, S, W, a, c, e, g, h, i, image.istillimage_launchapplicationfordevice, l, m, n, o, p, r, sti/IStillImageW::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	sti.h
 apiname:
--	IStillImage.LaunchApplicationForDevice
+-	IStillImageW.LaunchApplicationForDevice
 product: Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE

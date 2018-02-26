@@ -7,7 +7,7 @@ old-location: kernel\rtlinitstring.htm
 old-project: kernel
 ms.assetid: 954498b6-f611-4c88-99e1-a1812d512866
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, R, RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], S, g, i, k109_c0bd87a9-811c-4312-b2b4-e82bdbfa5b8c.xml, kernel.rtlinitstring, l, n, r, t, wdm/RtlInitString"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,7 +118,7 @@ UNICODE_STRING RTL_CONSTANT_STRING(
 
 <b>RTL_CONSTANT_STRING</b> returns either a string structure or Unicode string structure.
 
-The <b>RTL_CONSTANT_STRING</b> macro replaces the <a href="..\wdm\nf-wdm-rtlinitansistring.md">RtlInitAnsiString</a>, <b>RtlInitString</b>, and <a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a> routines when passing a constant string.
+The <b>RTL_CONSTANT_STRING</b> macro replaces the <a href="..\wdm\nf-wdm-rtlinitansistring.md">RtlInitAnsiString</a>, <b>RtlInitString</b>, and <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a> routines when passing a constant string.
 
 You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
@@ -135,5 +135,5 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlInitString routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlInitString routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

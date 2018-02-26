@@ -78,7 +78,7 @@ A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_p
 
 ### -param IdleCaps [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator.
 
 
 ## -returns

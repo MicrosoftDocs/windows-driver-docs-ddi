@@ -151,16 +151,16 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
    FwpsAleEndpointGetSecurityInfo0</a>
 
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
 
 

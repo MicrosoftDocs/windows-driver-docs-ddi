@@ -7,7 +7,7 @@ old-location: stream\ksproperty_topology.htm
 old-project: stream
 ms.assetid: 9C000B4B-DB21-41E1-9AF0-D3B92EAC070B
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, E, G, K, KSPROPERTY_TOPOLOGY, KSPROPERTY_TOPOLOGY enumeration [Streaming Media Devices], KSPROPERTY_TOPOLOGY_CATEGORIES, KSPROPERTY_TOPOLOGY_CONNECTIONS, KSPROPERTY_TOPOLOGY_NAME, KSPROPERTY_TOPOLOGY_NODES, L, O, P, R, S, T, Y, _, ks/KSPROPERTY_TOPOLOGY, ks/KSPROPERTY_TOPOLOGY_CATEGORIES, ks/KSPROPERTY_TOPOLOGY_CONNECTIONS, ks/KSPROPERTY_TOPOLOGY_NAME, ks/KSPROPERTY_TOPOLOGY_NODES, stream.ksproperty_topology"
 ms.prod: windows-hardware
 ms.technology: windows-devices

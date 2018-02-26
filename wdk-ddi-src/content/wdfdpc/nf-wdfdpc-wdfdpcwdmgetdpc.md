@@ -121,19 +121,19 @@ pWdmDpc = WdfDpcWdmGetDpc(PDevExt-&gt;CompleteWriteDpc);</pre>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
-
-
-
 <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
 
 
 <a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 
 

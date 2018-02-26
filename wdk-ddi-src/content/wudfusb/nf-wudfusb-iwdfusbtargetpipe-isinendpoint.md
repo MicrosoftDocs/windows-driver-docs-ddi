@@ -98,11 +98,11 @@ For a code example of how to use the <b>IsInEndPoint</b> method, see <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
 
 
 

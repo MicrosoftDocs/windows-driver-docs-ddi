@@ -173,11 +173,7 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START</b> function type is defined 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 
@@ -185,11 +181,7 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START</b> function type is defined 
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingoffset.md">WdfDmaTransactionInitializeUsingOffset</a>
-
-
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
 
 
 
@@ -197,7 +189,15 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START</b> function type is defined 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingoffset.md">WdfDmaTransactionInitializeUsingOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
 

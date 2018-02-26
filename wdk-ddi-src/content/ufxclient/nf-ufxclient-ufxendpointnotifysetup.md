@@ -4,10 +4,10 @@ title: UfxEndpointNotifySetup function
 author: windows-driver-content
 description: Notifies UFX when the client driver receives a setup packet from the host.
 old-location: buses\ufxendpointnotifysetup.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 147CE46A-315D-4B75-B345-A7C0B01B2078
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, N, S, U, UfxEndpointNotifySetup, UfxEndpointNotifySetup method [Buses], buses.ufxendpointnotifysetup, d, e, f, i, n, o, p, t, u, ufxclient/UfxEndpointNotifySetup, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -70,7 +70,7 @@ PCM_PARTIAL_RESOURCE_DESCRIPTOR FindTranslatedEntry(
 
 ### -param Type [in]
 
-Identifies the resource type of the entry to find. For a list of valid resource-type values, see the <b>Type</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
+Identifies the resource type of the entry to find. For a list of valid resource-type values, see the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
 ### -param Index [in]
@@ -97,7 +97,7 @@ The <i>Index</i> parameter indicates which occurrence of an entry of the specifi
 
 For each resource type, a macro is defined to call this method. See <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>.
 
-For more information about translated and untranslated (or "raw") resources, see <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+For more information about translated and untranslated (or "raw") resources, see <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 
 
@@ -108,15 +108,15 @@ For more information about translated and untranslated (or "raw") resources, see
 
 
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

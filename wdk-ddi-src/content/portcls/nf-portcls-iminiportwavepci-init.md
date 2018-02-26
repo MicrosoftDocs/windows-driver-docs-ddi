@@ -112,6 +112,14 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
+
+
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
 
 
@@ -120,15 +128,7 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\sub_q_header.htm
 old-project: storage
 ms.assetid: 3ee3657d-acdd-4d3f-9cff-eb4a494429b4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSUB_Q_HEADER, ,, A, B, D, E, H, P, PSUB_Q_HEADER, PSUB_Q_HEADER structure pointer [Storage Devices], Q, R, S, SUB_Q_HEADER, SUB_Q_HEADER structure [Storage Devices], U, _, _SUB_Q_HEADER, ntddcdrm/PSUB_Q_HEADER, ntddcdrm/SUB_Q_HEADER, storage.sub_q_header, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,5 +150,5 @@ Gives the length of Q subchannel data that follows this header structure. The by
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SUB_Q_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SUB_Q_HEADER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

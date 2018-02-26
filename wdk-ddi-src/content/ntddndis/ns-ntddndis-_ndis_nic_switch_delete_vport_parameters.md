@@ -109,11 +109,11 @@ The NDIS_NIC_SWITCH_DELETE_PORT_PARAMETERS structure is used in OID set requests
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451818">OID_NIC_SWITCH_DELETE_VPORT</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451818">OID_NIC_SWITCH_DELETE_VPORT</a>
 
 
 

@@ -130,11 +130,11 @@ Extensible switch extensions can access individual <a href="..\ntddndis\ns-ntddn
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598213">NDIS_SWITCH_NIC_AT_ARRAY_INDEX</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

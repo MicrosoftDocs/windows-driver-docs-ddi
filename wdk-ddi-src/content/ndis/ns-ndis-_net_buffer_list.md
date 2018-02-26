@@ -548,75 +548,8 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
-   NdisAllocateReassembledNetBufferList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568395">NET_BUFFER_LIST_FLAGS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564626">NdisTestNblFlags</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564542">NdisSetNblFlag</a>
-
-
-
-<a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_header.md">NET_BUFFER_LIST_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
-   NET_BUFFER_LIST_CONTEXT_DATA_START</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
-   NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568411">NET_BUFFER_LIST_STATUS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbufferlist.md">NdisGetPoolFromNetBufferList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+   NET_BUFFER_LIST_MINIPORT_RESERVED</a>
 
 
 
@@ -624,8 +557,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
-   NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
+<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
 
 
 
@@ -634,12 +566,76 @@ For more information on how to use net buffers, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561630">NdisClearNblFlag</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+   NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568395">NET_BUFFER_LIST_FLAGS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564620">NdisTestNblFlag</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+   NET_BUFFER_LIST_CONTEXT_DATA_START</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
-   NET_BUFFER_LIST_MINIPORT_RESERVED</a>
+   NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568404">NET_BUFFER_LIST_NEXT_NBL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568394">NET_BUFFER_LIST_FIRST_NB</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_header.md">NET_BUFFER_LIST_HEADER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbufferlist.md">NdisGetPoolFromNetBufferList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564542">NdisSetNblFlag</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
+   NdisAllocateReassembledNetBufferList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564626">NdisTestNblFlags</a>
+
+
+
+<a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a>
 
 
 
@@ -648,24 +644,28 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564620">NdisTestNblFlag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568411">NET_BUFFER_LIST_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568394">NET_BUFFER_LIST_FIRST_NB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561630">NdisClearNblFlag</a>
+<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
    NdisAllocateNetBufferListContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568404">NET_BUFFER_LIST_NEXT_NBL</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
 
 

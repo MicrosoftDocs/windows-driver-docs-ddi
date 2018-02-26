@@ -7,7 +7,7 @@ old-location: display\d3dkmt-addsurfacetoswapchain.htm
 old-project: display
 ms.assetid: f1a2390c-0154-4bd7-954f-ca8725710d61
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_ADDSURFACETOSWAPCHAIN, D3DKMT_ADDSURFACETOSWAPCHAIN structure [Display Devices], E, F, H, I, K, M, N, O, P, R, S, T, U, W, _, _D3DKMT_ADDSURFACETOSWAPCHAIN, d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN, display.d3dkmt-addsurfacetoswapchain"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -224,7 +224,16 @@ The following flags are defined for the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
@@ -237,7 +246,12 @@ The following flags are defined for the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v1.md">
+   NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -246,20 +260,6 @@ The following flags are defined for the
 
 
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v1.md">
-   NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
-   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
 
 
 

@@ -516,11 +516,15 @@ The
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569641">OID_GEN_SUPPORTED_GUIDS</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_request_type.md">NDIS_REQUEST_TYPE</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 
 
@@ -528,11 +532,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569641">OID_GEN_SUPPORTED_GUIDS</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_request_type.md">NDIS_REQUEST_TYPE</a>
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 
 

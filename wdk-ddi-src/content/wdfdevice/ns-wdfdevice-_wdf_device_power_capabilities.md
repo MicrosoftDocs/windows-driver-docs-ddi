@@ -90,32 +90,32 @@ The size, in bytes, of this structure.
 
 ### -field DeviceD1
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device supports device sleeping state D1. For more information about the <b>WDF_TRI_STATE</b> value, see the following Remarks section.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device supports device sleeping state D1. For more information about the <b>WDF_TRI_STATE</b> value, see the following Remarks section.
 
 
 ### -field DeviceD2
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device supports device sleeping state D2. 
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device supports device sleeping state D2. 
 
 
 ### -field WakeFromD0
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D0 state. 
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D0 state. 
 
 
 ### -field WakeFromD1
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D1 state. 
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D1 state. 
 
 
 ### -field WakeFromD2
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D2 state. 
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D2 state. 
 
 
 ### -field WakeFromD3
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D3 state. 
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D3 state. 
 
 
 ### -field DeviceState
@@ -161,7 +161,7 @@ If a driver specifies an <b>IdealDxStateForSx</b> value that represents a higher
 
 The WDF_DEVICE_POWER_CAPABILITIES structure is used as input to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>.
 
-Several members use the <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a> type. For these members, the following rules apply:
+Several members use the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a> type. For these members, the following rules apply:
 
 <ul>
 <li>

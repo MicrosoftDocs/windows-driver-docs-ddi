@@ -89,7 +89,7 @@ Indicates whether to configure the GPIO interrupt pin to be level-sensitive or e
 <li><b>LevelSensitive</b></li>
 <li><b>Latched</b></li>
 </ul>
-For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
+For more information, see <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
 
 
 ### -field Polarity
@@ -103,7 +103,7 @@ Indicates the polarity of the reconfigured GPIO interrupt pin. For a level-sensi
 <li><b>InterruptFallingEdge</b></li>
 <li><b>InterruptActiveBoth</b></li>
 </ul>
-For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
+For more information, see <a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
 
 
 ### -field Flags
@@ -122,6 +122,10 @@ The <i>ReconfigureParameters</i> parameter of the <a href="https://msdn.microsof
 
 ## -see-also
 
+<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
@@ -130,15 +134,11 @@ The <i>ReconfigureParameters</i> parameter of the <a href="https://msdn.microsof
 
 
 
+<a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
-
-
-
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
 
 

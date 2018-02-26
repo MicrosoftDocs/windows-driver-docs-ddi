@@ -105,15 +105,15 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 
 ## -see-also
 
+<a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
 
 
 
 <a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
-
-
-
-<a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
 
 
 

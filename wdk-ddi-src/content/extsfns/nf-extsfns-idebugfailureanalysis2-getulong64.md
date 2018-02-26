@@ -7,7 +7,7 @@ old-location: debugger\idebugfailureanalysis2_getulong64.htm
 old-project: debugger
 ms.assetid: C00C983A-92BA-4E4A-A5AB-918121D14B64
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, 4, 6, :, A, D, F, G, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, GetUlong64,IDebugFailureAnalysis2.GetUlong64, I, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, IDebugFailureAnalysis2::GetUlong, IDebugFailureAnalysis2::GetUlong64, U, a, b, debugger.idebugfailureanalysis2_getulong64, e, extsfns/IDebugFailureAnalysis2::GetUlong, g, i, l, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,14 +106,6 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983410">AddUlong64</a>
-
-
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
@@ -122,9 +114,17 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 
 
- 
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983410">AddUlong64</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::GetUlong method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::GetUlong method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

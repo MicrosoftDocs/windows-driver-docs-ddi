@@ -307,7 +307,7 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
 
 
 
@@ -324,7 +324,7 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
 
 
 

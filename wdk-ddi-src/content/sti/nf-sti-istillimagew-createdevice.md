@@ -7,8 +7,8 @@ old-location: image\istillimage_createdevice.htm
 old-project: image
 ms.assetid: 24491434-1ad2-48fa-85e6-516efbe0550d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices], IStillImage interface, CreateDevice,IStillImageW.CreateDevice, D, I, IStillImage interface [Imaging Devices], CreateDevice method, IStillImage::CreateDevice, IStillImageW, IStillImageW::CreateDevice, S, W, a, c, e, g, i, image.istillimage_createdevice, l, m, r, sti/IStillImage::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml, t, v"
+ms.date: 2/23/2018
+ms.keywords: ",  , ,, ., :, C, CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices], IStillImageW interface, CreateDevice,IStillImageW.CreateDevice, D, I, IStillImageW, IStillImageW interface [Imaging Devices], CreateDevice method, IStillImageW::CreateDevice, S, W, a, c, e, g, i, image.istillimage_createdevice, l, m, r, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	sti.h
 apiname:
--	IStillImage.CreateDevice
+-	IStillImageW.CreateDevice
 product: Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
@@ -151,6 +151,10 @@ If you want to create an aggregate COM object that includes <b>IStiDevice</b>, y
 
 ## -see-also
 
+<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543765">IStiDevice::Release</a>
 
 
@@ -159,5 +163,5 @@ If you want to create an aggregate COM object that includes <b>IStiDevice</b>, y
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStillImage::CreateDevice method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStillImageW::CreateDevice method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

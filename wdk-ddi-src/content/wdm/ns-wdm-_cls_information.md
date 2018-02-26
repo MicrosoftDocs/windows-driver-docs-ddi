@@ -7,7 +7,7 @@ old-location: kernel\clfs_information.htm
 old-project: kernel
 ms.assetid: 7fe392d1-75e4-43b1-a09b-6f47981bef7e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PCLFS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION, ,, A, C, CLFS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], F, I, L, M, N, O, P, PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION, PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, S, T, _, _CLS_INFORMATION, kernel.clfs_information, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, wdm/CLFS_INFORMATION, wdm/CLS_INFORMATION, wdm/PCLFS_INFORMATION, wdm/PCLS_INFORMATION, wdm/PPCLFS_INFORMATION, wdm/PPCLS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -210,17 +210,17 @@ If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>
 
 
 
-<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLS_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLS_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

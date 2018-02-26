@@ -120,11 +120,11 @@ See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
 
 
 

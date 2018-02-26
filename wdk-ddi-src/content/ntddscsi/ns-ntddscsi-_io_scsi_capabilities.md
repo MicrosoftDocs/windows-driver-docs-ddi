@@ -7,7 +7,7 @@ old-location: storage\io_scsi_capabilities.htm
 old-project: storage
 ms.assetid: cc348bc8-137a-4abd-9f0e-4c5fb521428f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PIO_SCSI_CAPABILITIES, ,, A, B, C, E, I, IO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES structure [Storage Devices], L, O, P, PIO_SCSI_CAPABILITIES, PIO_SCSI_CAPABILITIES structure pointer [Storage Devices], S, T, _, _IO_SCSI_CAPABILITIES, ntddscsi/IO_SCSI_CAPABILITIES, ntddscsi/PIO_SCSI_CAPABILITIES, storage.io_scsi_capabilities, structs-scsibus_9329ca36-3fe4-4d9a-a3c7-f63a216244b5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,5 +124,5 @@ When <b>TRUE</b>, indicates that the host adapter uses programmed I/O.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IO_SCSI_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IO_SCSI_CAPABILITIES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

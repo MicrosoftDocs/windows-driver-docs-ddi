@@ -7,7 +7,7 @@ old-location: storage\nvcache_request_block.htm
 old-project: storage
 ms.assetid: 25ca2d81-72a5-47ae-bdfd-0ec63e1ca39a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PNVCACHE_REQUEST_BLOCK, ,, A, B, C, E, H, K, L, N, NVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK structure [Storage Devices], O, P, PNVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], Q, R, S, T, U, V, _, _NVCACHE_REQUEST_BLOCK, ntddscsi/NVCACHE_REQUEST_BLOCK, ntddscsi/PNVCACHE_REQUEST_BLOCK, storage.nvcache_request_block, structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -243,17 +243,17 @@ For more information on function behavior, see section 7.20 of the <a href="http
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
-
-
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_nvcache.md">IOCTL_SCSI_MINIPORT_NVCACHE</a>
 
 
 
- 
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20NVCACHE_REQUEST_BLOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20NVCACHE_REQUEST_BLOCK structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

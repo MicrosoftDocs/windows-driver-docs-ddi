@@ -7,7 +7,7 @@ old-location: stream\mf_mdl_shared_payload_key.htm
 old-project: stream
 ms.assetid: 3EA093AB-1D23-4744-997E-8C7072934628
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PMF_MDL_SHARED_PAYLOAD_KEY, ,, A, D, E, F, H, K, L, M, MF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], O, P, PMF_MDL_SHARED_PAYLOAD_KEY, PMF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], R, S, Y, _, _MF_MDL_SHARED_PAYLOAD_KEY, ks/MF_MDL_SHARED_PAYLOAD_KEY, ks/PMF_MDL_SHARED_PAYLOAD_KEY, stream.mf_mdl_shared_payload_key"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -120,6 +120,10 @@ The <b>WDF_DEVICE_PROPERTY_DATA_INIT</b> function zeros the specified <a href=".
 
 ## -see-also
 
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_property_data.md">WDF_DEVICE_PROPERTY_DATA</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
 
 
@@ -128,19 +132,15 @@ The <b>WDF_DEVICE_PROPERTY_DATA_INIT</b> function zeros the specified <a href=".
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_property_data.md">WDF_DEVICE_PROPERTY_DATA</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
 
 
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
 
 
 

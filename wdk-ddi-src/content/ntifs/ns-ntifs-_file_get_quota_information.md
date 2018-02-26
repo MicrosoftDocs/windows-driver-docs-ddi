@@ -97,7 +97,11 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
 
 
 
@@ -105,15 +109,11 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
 
 
 

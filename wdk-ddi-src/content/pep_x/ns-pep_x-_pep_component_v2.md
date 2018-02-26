@@ -7,7 +7,7 @@ old-location: kernel\pep_component_v2.htm
 old-project: kernel
 ms.assetid: 6C7AB917-1A98-471C-BA6C-B7C6BFF1AC3F
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PPEP_COMPONENT, *PPEP_COMPONENT_V2, ,, 2, C, E, M, N, O, P, PEP_COMPONENT, PEP_COMPONENT_V2, PEP_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_V2, PPEP_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], T, V, _, _PEP_COMPONENT_V2, kernel.pep_component_v2, pepfx/PEP_COMPONENT_V2, pepfx/PPEP_COMPONENT_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,5 +115,5 @@ This structure
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_COMPONENT_V2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_COMPONENT_V2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

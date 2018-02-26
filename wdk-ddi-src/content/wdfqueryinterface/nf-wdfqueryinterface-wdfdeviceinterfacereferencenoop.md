@@ -89,7 +89,7 @@ None
 
 
 
-You can use the <b>WdfDeviceInterfaceReferenceNoOp</b> method's address as the <b>InterfaceReference</b> member of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that is contained in the framework's <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure.
+You can use the <b>WdfDeviceInterfaceReferenceNoOp</b> method's address as the <b>InterfaceReference</b> member of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure that is contained in the framework's <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure.
 
 For more information about interface reference counts and the <b>WdfDeviceInterfaceReferenceNoOp</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Using Driver-Defined Interfaces</a>.
 
@@ -104,7 +104,7 @@ For a code example that uses <b>WdfDeviceInterfaceReferenceNoOp</b>, see <a href
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
 
 
 
@@ -112,7 +112,7 @@ For a code example that uses <b>WdfDeviceInterfaceReferenceNoOp</b>, see <a href
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\cdrom_toc_atip_data.htm
 old-project: storage
 ms.assetid: 4caf59d4-262a-49e3-8b66-9cf29ed5cee5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PCDROM_TOC_ATIP_DATA, ,, A, C, CDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA structure [Storage Devices], D, I, M, O, P, PCDROM_TOC_ATIP_DATA, PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices], R, T, _, _CDROM_TOC_ATIP_DATA, ntddcdrm/CDROM_TOC_ATIP_DATA, ntddcdrm/PCDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,6 +92,10 @@ Contains zero or more ATIP data block descriptors of type <a href="..\ntddcdrm\n
 
 ## -see-also
 
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
+
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
 
 
@@ -100,13 +104,9 @@ Contains zero or more ATIP data block descriptors of type <a href="..\ntddcdrm\n
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_TOC_ATIP_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_TOC_ATIP_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

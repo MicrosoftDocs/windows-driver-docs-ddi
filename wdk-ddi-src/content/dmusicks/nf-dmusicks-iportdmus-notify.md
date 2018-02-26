@@ -122,11 +122,7 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
 
 
 
@@ -134,11 +130,15 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536882">IPortDMus::RegisterServiceGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 

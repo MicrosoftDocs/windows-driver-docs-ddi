@@ -86,11 +86,11 @@ Specifies the duration, in hundreds of nanoseconds, over which the volume curve 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh831855">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
-
-
-
 <a href="..\ksmedia\ne-ksmedia-audio_curve_type.md">AUDIO_CURVE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831855">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
 
 
 

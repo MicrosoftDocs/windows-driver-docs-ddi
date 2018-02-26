@@ -7,7 +7,7 @@ old-location: debugger\setthreadforoperation.htm
 old-project: debugger
 ms.assetid: b5bae644-6c8d-4346-87bd-211efcf27748
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , F, O, S, SetThreadForOperation, SetThreadForOperation function [Windows Debugging], T, WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, a, d, debugger.setthreadforoperation, e, h, i, n, o, p, r, t, wdbgexts/SetThreadForOperation"
 ms.prod: windows-hardware
 ms.technology: windows-devices

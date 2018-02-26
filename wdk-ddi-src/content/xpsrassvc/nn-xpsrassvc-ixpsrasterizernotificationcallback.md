@@ -7,7 +7,7 @@ old-location: print\ixpsrasterizernotificationcallback_interface.htm
 old-project: print
 ms.assetid: 7616b5c7-a21f-4db1-923b-ebf2a039b5ec
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IXpsRasterizerNotificationCallback, IXpsRasterizerNotificationCallback interface [Print Devices], IXpsRasterizerNotificationCallback interface [Print Devices], described, print.ixpsrasterizernotificationcallback_interface, print_xpsrast_fe5791b3-111b-454e-a033-45dfa128d325.xml, xpsrassvc/IXpsRasterizerNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

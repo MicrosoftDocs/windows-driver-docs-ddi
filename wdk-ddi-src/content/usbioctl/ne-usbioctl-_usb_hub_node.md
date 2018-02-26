@@ -4,10 +4,10 @@ title: "_USB_HUB_NODE"
 author: windows-driver-content
 description: The USB_HUB_NODE enumerator indicates whether a device is a hub or a composite device.
 old-location: buses\usb_hub_node.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: fdd69121-2b3c-4394-b67e-c29f43daf113
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, B, D, E, H, N, O, S, U, USB_HUB_NODE, USB_HUB_NODE enumeration [Buses], UsbHub, UsbMIParent, _, _USB_HUB_NODE, buses.usb_hub_node, usbioctl/USB_HUB_NODE, usbioctl/UsbHub, usbioctl/UsbMIParent, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,17 +90,17 @@ Composite devices are devices that have multiple interfaces. Windows loads the U
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
 
 
 
- 
+<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_HUB_NODE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_HUB_NODE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

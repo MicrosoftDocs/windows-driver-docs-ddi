@@ -7,7 +7,7 @@ old-location: stream\transportaudioparms.htm
 old-project: stream
 ms.assetid: 591ef01a-1a89-454a-ab58-a76813a9d4c2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PTRANSPORTAUDIOPARMS, ,, A, D, I, M, N, O, P, PTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], R, S, T, TRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS structure [Streaming Media Devices], U, a, g, ksmedia/PTRANSPORTAUDIOPARMS, ksmedia/TRANSPORTAUDIOPARMS, stream.transportaudioparms, t, tagTRANSPORTAUDIOPARMS, vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: print\oemstartdoc.htm
 old-project: print
 ms.assetid: 67580632-ff9a-4d29-8e4e-c21f04aa4b47
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, E, M, O, OEMStartDoc, OEMStartDoc function [Print Devices], S, a, c, o, print.oemstartdoc, print_unidrv-pscript_rendering_728069a7-4d66-4a83-a1e2-949557157d71.xml, printoem/OEMStartDoc, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

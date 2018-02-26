@@ -7,7 +7,7 @@ old-location: stream\ksproperty_tuner_mode_s.htm
 old-project: stream
 ms.assetid: a3e443e5-1766-4292-a25a-ad673734bac1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSPROPERTY_TUNER_MODE_S, ,, D, E, K, KSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S structure [Streaming Media Devices], M, N, O, P, PKSPROPERTY_TUNER_MODE_S, PKSPROPERTY_TUNER_MODE_S structure pointer [Streaming Media Devices], R, S, T, U, Y, _, ksmedia/KSPROPERTY_TUNER_MODE_S, ksmedia/PKSPROPERTY_TUNER_MODE_S, stream.ksproperty_tuner_mode_s, vidcapstruct_fe1fe8d4-8abd-4db3-8438-ef7dddadfa5c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,11 +138,11 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565862">KSPROPERTY_TUNER_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -154,5 +154,5 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_TUNER_MODE_S structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_TUNER_MODE_S structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -106,11 +106,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
-
-
-
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
 
 
 

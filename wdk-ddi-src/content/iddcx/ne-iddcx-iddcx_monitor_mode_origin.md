@@ -7,7 +7,7 @@ old-location: display\iddcx_monitor_mode_origin.htm
 old-project: display
 ms.assetid: 96aac09b-c6fc-43a7-a6d8-36f642e0f5d7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, D, E, G, I, IDDCX_MONITOR_MODE_ORIGIN, IDDCX_MONITOR_MODE_ORIGIN enumeration [Display Devices], IDDCX_MONITOR_MODE_ORIGIN_DRIVER, IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED, M, N, O, R, T, X, _, display.iddcx_monitor_mode_origin, iddcx/IDDCX_MONITOR_MODE_ORIGIN, iddcx/IDDCX_MONITOR_MODE_ORIGIN_DRIVER, iddcx/IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, iddcx/IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED"
 ms.prod: windows-hardware
 ms.technology: windows-devices

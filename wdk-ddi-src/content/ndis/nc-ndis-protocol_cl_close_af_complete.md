@@ -182,7 +182,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
 
 
 
@@ -194,12 +195,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
-   NdisFreeToNPagedLookasideList</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 

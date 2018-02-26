@@ -219,23 +219,7 @@ Protocol drivers receive status indications at the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569641">OID_GEN_SUPPORTED_GUIDS</a>
+<a href="..\ndis\nf-ndis-ndisfindicatestatus.md">NdisFindicateStatus</a>
 
 
 
@@ -243,23 +227,15 @@ Protocol drivers receive status indications at the
 
 
 
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfindicatestatus.md">NdisFindicateStatus</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_link_state.md">NDIS_LINK_STATE</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 
 
@@ -267,7 +243,31 @@ Protocol drivers receive status indications at the
 
 
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569641">OID_GEN_SUPPORTED_GUIDS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

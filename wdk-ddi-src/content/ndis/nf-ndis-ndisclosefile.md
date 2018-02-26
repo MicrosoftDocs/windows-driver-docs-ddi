@@ -101,10 +101,6 @@ For miniport drivers, calls to this function are valid only during initializatio
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
@@ -114,6 +110,10 @@ For miniport drivers, calls to this function are valid only during initializatio
 
 
 <a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
 
 
 

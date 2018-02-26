@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_setprint.htm
 old-project: debugger
 ms.assetid: ae478779-8ec1-4a50-a37c-3017aca2c912
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, E, EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], SetPrint method, ExtRemoteTyped::SetPrint, P, R, S, SetPrint method [Windows Debugging], SetPrint method [Windows Debugging], ExtRemoteTyped interface, SetPrint,ExtRemoteTyped.SetPrint, T, d, debugger.extremotetyped_setprint, e, i, m, n, o, p, r, t, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,6 +98,10 @@ This method does not return a value.
 
 ## -see-also
 
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+
+
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
 
 
@@ -106,15 +110,11 @@ This method does not return a value.
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
-
-
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(bool)</a>
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
 
 
 
@@ -122,5 +122,5 @@ This method does not return a value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteTyped.SetPrint method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteTyped.SetPrint method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

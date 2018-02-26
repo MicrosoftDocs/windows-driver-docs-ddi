@@ -130,11 +130,11 @@ The <i>QueryTable</i> parameter points to an array of RTL_QUERY_REGISTRY_TABLE s
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
-
-
-
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 
 
 

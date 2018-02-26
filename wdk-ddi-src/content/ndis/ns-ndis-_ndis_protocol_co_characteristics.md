@@ -135,7 +135,11 @@ The protocol driver calls
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+
+
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 
 
 
@@ -152,16 +156,12 @@ The protocol driver calls
 
 
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
    ProtocolCoSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
 
 

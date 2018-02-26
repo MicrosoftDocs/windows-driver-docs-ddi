@@ -88,11 +88,11 @@ Indicates that the sensor is connected by external means, such as through a netw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>
 
 
 

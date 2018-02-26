@@ -321,7 +321,7 @@ To extract an uncompressed fragment from a compressed buffer, use the <a href=".
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+<a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a>
 
 
 
@@ -329,11 +329,11 @@ To extract an uncompressed fragment from a compressed buffer, use the <a href=".
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
 
 
 

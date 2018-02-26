@@ -4,10 +4,10 @@ title: "_UCX_ENDPOINT_CHARACTERISTIC"
 author: windows-driver-content
 description: Stores the characteristics of an endpoint.
 old-location: buses\ucx_endpoint_characteristic.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 4785D94B-271C-4F8E-B95B-87401E32CE42
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUCX_ENDPOINT_CHARACTERISTIC, ,, A, C, D, E, H, I, N, O, P, PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], R, S, T, U, UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], X, _, _UCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,5 +101,5 @@ A <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UCX_ENDPOINT_CHARACTERISTIC structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCX_ENDPOINT_CHARACTERISTIC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

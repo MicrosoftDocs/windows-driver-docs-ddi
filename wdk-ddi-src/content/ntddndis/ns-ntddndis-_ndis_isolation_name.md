@@ -122,11 +122,11 @@ The <b>RoutingDomainName</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndi
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_routing_domain.md">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_routing_domain.md">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a>
 
 
 

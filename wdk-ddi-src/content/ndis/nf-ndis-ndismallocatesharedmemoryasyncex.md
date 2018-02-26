@@ -189,11 +189,12 @@ Any miniport driver that calls
 
 
 
-<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
 
 
@@ -206,12 +207,11 @@ Any miniport driver that calls
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
-   MiniportSharedMemoryAllocateComplete</a>
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
 
 
 

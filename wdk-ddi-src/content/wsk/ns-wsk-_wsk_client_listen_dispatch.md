@@ -113,7 +113,11 @@ A WSK application passes a pointer to a WSK_CLIENT_LISTEN_DISPATCH structure to 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
 
 
@@ -121,11 +125,7 @@ A WSK application passes a pointer to a WSK_CLIENT_LISTEN_DISPATCH structure to 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 

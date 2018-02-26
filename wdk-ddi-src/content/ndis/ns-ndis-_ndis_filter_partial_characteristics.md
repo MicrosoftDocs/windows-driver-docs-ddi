@@ -145,21 +145,30 @@ This structure specifies optional
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
+   NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+   FilterSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
    FilterCancelSendNetBufferLists</a>
 
 
 
 <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
-   NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
 
 
 
@@ -171,16 +180,7 @@ This structure specifies optional
 
 
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
-   FilterSendNetBufferListsComplete</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

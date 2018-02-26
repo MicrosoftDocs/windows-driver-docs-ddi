@@ -96,15 +96,15 @@ For more information about the allocator, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
 
 
 <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+
+
+
+<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
 
 
 

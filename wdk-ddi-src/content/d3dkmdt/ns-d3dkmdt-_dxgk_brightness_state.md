@@ -7,7 +7,7 @@ old-location: display\dxgk_brightness_state.htm
 old-project: display
 ms.assetid: 60896a51-63c9-46fd-96ee-9cdbb72ac30c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, B, D, DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE structure [Display Devices], E, G, H, I, K, N, R, S, T, X, _, _DXGK_BRIGHTNESS_STATE, d3dkmdt/DXGK_BRIGHTNESS_STATE, display.dxgk_brightness_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,5 +112,5 @@ Do not assume that the <b>SmoothBrightness</b> members of <b>DXGK_BRIGHTNESS_STA
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BRIGHTNESS_STATE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BRIGHTNESS_STATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

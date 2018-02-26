@@ -102,11 +102,11 @@ When the <code>RegisterAdapterPowerManagement</code> method registers the power 
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

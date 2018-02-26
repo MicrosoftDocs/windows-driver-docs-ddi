@@ -7,7 +7,7 @@ old-location: stream\ks_seeking_capabilities.htm
 old-project: stream
 ms.assetid: 345ADD1F-2002-4F9C-942C-212CADCF84E5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, B, C, E, G, I, K, KS_SEEKING_CAPABILITIES, KS_SEEKING_CAPABILITIES enumeration [Streaming Media Devices], KS_SEEKING_CanGetCurrentPos, KS_SEEKING_CanGetDuration, KS_SEEKING_CanGetStopPos, KS_SEEKING_CanPlayBackwards, KS_SEEKING_CanSeekAbsolute, KS_SEEKING_CanSeekBackwards, KS_SEEKING_CanSeekForwards, L, N, P, S, T, _, ks/KS_SEEKING_CAPABILITIES, ks/KS_SEEKING_CanGetCurrentPos, ks/KS_SEEKING_CanGetDuration, ks/KS_SEEKING_CanGetStopPos, ks/KS_SEEKING_CanPlayBackwards, ks/KS_SEEKING_CanSeekAbsolute, ks/KS_SEEKING_CanSeekBackwards, ks/KS_SEEKING_CanSeekForwards, stream.ks_seeking_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices

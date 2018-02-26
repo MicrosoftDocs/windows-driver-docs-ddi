@@ -208,7 +208,7 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
 
 
 
@@ -216,11 +216,11 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
 
 
 

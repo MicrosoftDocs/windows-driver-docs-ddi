@@ -138,11 +138,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMini
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
 
 
 

@@ -137,7 +137,15 @@ To set an instance context, call <a href="..\fltkernel\nf-fltkernel-fltsetinstan
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltsetinstancecontext.md">FltSetInstanceContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 
@@ -146,14 +154,6 @@ To set an instance context, call <a href="..\fltkernel\nf-fltkernel-fltsetinstan
 
 
 <a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 
 

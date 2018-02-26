@@ -7,7 +7,7 @@ old-location: debugger\startenumtagged.htm
 old-project: debugger
 ms.assetid: b79b1f09-baff-4071-a209-6fc399c9aef9
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 4, :, D, E, I, IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, S, StartEnumTagged method [Windows Debugging], StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, StartEnumTagged,IDebugDataSpaces3.StartEnumTagged, StartEnumTagged,IDebugDataSpaces4.StartEnumTagged, T, a, b, c, d, dbgeng/IDebugDataSpaces3::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, debugger.startenumtagged, e, g, m, n, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -145,11 +145,11 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmclosecallcomplete.md">NdisMCmCloseCallComplete</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmclosecallcomplete.md">NdisMCmCloseCallComplete</a>
 
 
 

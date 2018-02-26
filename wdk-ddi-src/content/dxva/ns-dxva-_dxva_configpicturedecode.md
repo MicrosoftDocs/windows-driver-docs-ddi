@@ -7,7 +7,7 @@ old-location: display\dxva_configpicturedecode.htm
 old-project: display
 ms.assetid: b36c2901-33ca-4c76-98d0-8dbe6551226b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPDXVA_ConfigPictureDecode, ,, A, C, D, DXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode structure [Display Devices], L, LPDXVA_ConfigPictureDecode, LPDXVA_ConfigPictureDecode structure pointer [Display Devices], P, V, X, _, _DXVA_ConfigPictureDecode, c, d, display.dxva_configpicturedecode, dxva/DXVA_ConfigPictureDecode, dxva/LPDXVA_ConfigPictureDecode, dxvaref_857a5bfe-282a-49c2-8db6-a0fde8e26a61.xml, e, f, g, i, n, o, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -259,11 +259,11 @@ For some types of bitstreams, forcing macroblock control commands within each ma
 
 
 
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
 
 
 
@@ -271,17 +271,17 @@ For some types of bitstreams, forcing macroblock control commands within each ma
 
 
 
+<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_ConfigPictureDecode structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_ConfigPictureDecode structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

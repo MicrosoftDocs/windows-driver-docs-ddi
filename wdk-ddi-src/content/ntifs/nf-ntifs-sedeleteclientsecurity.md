@@ -96,11 +96,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
 
 
 

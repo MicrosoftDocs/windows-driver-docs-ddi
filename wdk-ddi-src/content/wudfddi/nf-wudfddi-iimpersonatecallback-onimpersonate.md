@@ -101,11 +101,11 @@ For more information about how UMDF and UMDF drivers handle impersonation, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
 
 
 

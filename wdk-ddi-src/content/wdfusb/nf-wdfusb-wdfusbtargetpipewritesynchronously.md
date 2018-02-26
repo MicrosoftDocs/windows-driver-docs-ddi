@@ -370,19 +370,19 @@ status = WdfUsbTargetPipeWriteSynchronously(
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
-
-
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipereadsynchronously.md">WdfUsbTargetPipeReadSynchronously</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipereadsynchronously.md">WdfUsbTargetPipeReadSynchronously</a>
 
 
 

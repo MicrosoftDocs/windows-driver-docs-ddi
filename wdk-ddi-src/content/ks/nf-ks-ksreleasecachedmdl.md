@@ -7,7 +7,7 @@ old-location: stream\ksreleasecachedmdl.htm
 old-project: stream
 ms.assetid: 8EDBD8FF-6417-44C0-87C0-14D71FEFA380
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, K, KsReleaseCachedMdl, KsReleaseCachedMdl function [Streaming Media Devices], M, R, a, c, d, e, h, ks/KsReleaseCachedMdl, l, s, stream.ksreleasecachedmdl"
 ms.prod: windows-hardware
 ms.technology: windows-devices

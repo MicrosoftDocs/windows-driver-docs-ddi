@@ -142,15 +142,15 @@ For a code example that contains a call to <b>GPIO_CLX_ProcessAddDevicePostDevic
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439487">GPIO_CLX_ProcessAddDevicePreDeviceCreate</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439487">GPIO_CLX_ProcessAddDevicePreDeviceCreate</a>
 
 
 

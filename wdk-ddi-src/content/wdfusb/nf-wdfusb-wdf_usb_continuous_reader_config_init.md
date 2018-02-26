@@ -119,11 +119,11 @@ For a code example that uses <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b>, see <
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
-
-
-
 <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
+
+
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
 
 
 

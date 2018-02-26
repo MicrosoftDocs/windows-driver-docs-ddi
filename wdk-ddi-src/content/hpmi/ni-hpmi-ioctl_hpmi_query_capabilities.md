@@ -117,10 +117,6 @@ subsequent IOCTL calls.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
@@ -134,6 +130,10 @@ subsequent IOCTL calls.
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

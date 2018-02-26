@@ -130,16 +130,16 @@ The update operation did not succeed. The offload target should continue normal 
 
 ## -see-also
 
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
 <a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 

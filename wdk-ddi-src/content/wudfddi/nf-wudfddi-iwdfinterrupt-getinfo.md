@@ -130,10 +130,6 @@ pInterrupt&gt;GetInfo(&amp;Info);
 
 
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a>
 
 
@@ -143,6 +139,10 @@ pInterrupt&gt;GetInfo(&amp;Info);
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+
+
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
 
 
 

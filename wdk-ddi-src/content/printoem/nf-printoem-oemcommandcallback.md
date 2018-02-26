@@ -7,7 +7,7 @@ old-location: print\oemcommandcallback.htm
 old-project: print
 ms.assetid: 0ac9c56d-f03d-4082-a7df-c21db12c0d74
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, E, M, O, OEMCommandCallback, OEMCommandCallback function [Print Devices], a, b, c, d, k, l, m, n, o, print.oemcommandcallback, print_obsoletefunctions_e59bdbd7-9100-40b3-9e89-6d41cbc85f44.xml, printoem/OEMCommandCallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices

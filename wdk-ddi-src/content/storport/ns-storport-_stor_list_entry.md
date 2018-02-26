@@ -7,7 +7,7 @@ old-location: storage\stor_list_entry.htm
 old-project: storage
 ms.assetid: 41E713D9-9499-40EB-8B21-DDB73362BAE3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSTOR_LIST_ENTRY, ,, E, I, L, N, O, P, PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY structure pointer [Storage Devices], R, S, STOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], T, Y, _, _STOR_LIST_ENTRY, storage.stor_list_entry, storport/PSTOR_LIST_ENTRY, storport/STOR_LIST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,27 +108,15 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
 
 
@@ -140,11 +128,23 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
+<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
 
 
@@ -152,5 +152,5 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_LIST_ENTRY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_LIST_ENTRY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

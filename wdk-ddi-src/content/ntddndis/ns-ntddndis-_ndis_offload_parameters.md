@@ -803,8 +803,7 @@ The preceding members can have one of the following values:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
-   OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>
 
 
 
@@ -812,7 +811,8 @@ The preceding members can have one of the following values:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
+   OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 

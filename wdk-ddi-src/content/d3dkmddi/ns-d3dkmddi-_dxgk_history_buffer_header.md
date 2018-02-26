@@ -7,7 +7,7 @@ old-location: display\dxgk_history_buffer_header.htm
 old-project: display
 ms.assetid: 246EBAFC-EBEB-4B58-83C1-731314CECF2E
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, B, D, DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], E, F, G, H, I, K, O, R, S, T, U, X, Y, _, _DXGK_HISTORY_BUFFER_HEADER, d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, display.dxgk_history_buffer_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,6 +111,10 @@ Only the time stamp portion of the history buffer, along with  the number of tim
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
 
 
@@ -119,13 +123,9 @@ Only the time stamp portion of the history buffer, along with  the number of tim
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_HISTORY_BUFFER_HEADER structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_HISTORY_BUFFER_HEADER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

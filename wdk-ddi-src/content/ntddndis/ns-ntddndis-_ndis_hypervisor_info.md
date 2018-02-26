@@ -128,15 +128,15 @@ NDIS drivers pass this structure to the
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisgethypervisorinfo.md">NdisGetHypervisorInfo Function</a>
 
 
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_hypervisor_partition_type.md">NDIS_HYPERVISOR_PARTITION_TYPE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

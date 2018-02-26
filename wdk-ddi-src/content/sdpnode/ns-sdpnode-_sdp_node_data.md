@@ -243,15 +243,15 @@ The header specifies the type of data. Driver developers can access links to pee
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
 
 

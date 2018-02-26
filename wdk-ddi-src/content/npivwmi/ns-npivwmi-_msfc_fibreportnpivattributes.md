@@ -7,7 +7,7 @@ old-location: storage\msfc_fibreportnpivattributes.htm
 old-project: storage
 ms.assetid: 1641C3A0-E6D9-4E30-9E3C-3C09A14F591F
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PMSFC_FibrePortNPIVAttributes, ,, A, C, F, I, M, MSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], N, P, PMSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], S, V, _, _MSFC_FibrePortNPIVAttributes, b, e, i, npivwmi/MSFC_FibrePortNPIVAttributes, npivwmi/PMSFC_FibrePortNPIVAttributes, o, r, s, storage.msfc_fibreportnpivattributes, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,5 +100,5 @@ An array of virtual ports. The array length is specified in the <b>NumberVirtual
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_FibrePortNPIVAttributes structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_FibrePortNPIVAttributes structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

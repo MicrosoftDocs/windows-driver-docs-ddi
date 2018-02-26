@@ -7,7 +7,7 @@ old-location: print\iprintoemps2_interface.htm
 old-project: print
 ms.assetid: f2fb4176-c366-4cf9-bc17-59cc0c69a32b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IPrintOemPS2, IPrintOemPS2 interface [Print Devices], IPrintOemPS2 interface [Print Devices], described, prcomoem/IPrintOemPS2, print.iprintoemps2_interface, print_unidrv-pscript_rendering_261718f5-d2d9-4032-887d-0faea8b519ad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

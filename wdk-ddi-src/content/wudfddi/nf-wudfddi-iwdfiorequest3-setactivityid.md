@@ -111,11 +111,11 @@ For a code example that uses <b>SetActivityId</b>, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
-
-
-
 <a href="https://msdn.microsoft.com/A90FCF3C-B648-4E97-887E-FCE58D7FA13A">IWDFIoRequest3::RetrieveActivityId</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
 
 
 

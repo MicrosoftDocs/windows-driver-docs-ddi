@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_update_statistics.htm
 old-project: pos
 ms.assetid: 94c8d49a-5136-49f3-a313-74c032502f1f
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, pos.ioctl_point_of_service_update_statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

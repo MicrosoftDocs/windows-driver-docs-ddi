@@ -124,11 +124,11 @@ If the driver calls <b>WdfDeviceWdmDispatchIrpToIoQueue</b> from within a <a hre
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a>
 
 
 

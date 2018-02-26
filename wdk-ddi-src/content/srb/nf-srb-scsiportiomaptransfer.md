@@ -7,7 +7,7 @@ old-location: storage\scsiportiomaptransfer.htm
 old-project: storage
 ms.assetid: 627a2d4c-22c8-48ea-b409-dc246c85a316
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, M, P, S, ScsiPortIoMapTransfer, ScsiPortIoMapTransfer routine [Storage Devices], T, a, c, e, f, i, n, o, p, r, s, scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, srb/ScsiPortIoMapTransfer, storage.scsiportiomaptransfer, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,5 +126,5 @@ After the operating system-specific port driver programs the system DMA controll
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortIoMapTransfer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortIoMapTransfer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

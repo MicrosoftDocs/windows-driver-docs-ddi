@@ -215,11 +215,11 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a> stru
 
 
 
-<a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
 
 
 

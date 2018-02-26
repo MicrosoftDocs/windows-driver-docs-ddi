@@ -7,7 +7,7 @@ old-location: kernel\kegetprocessornumberfromindex.htm
 old-project: kernel
 ms.assetid: a6c9a7fa-8fef-4d6d-aab5-e712c49c0144
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , F, G, I, K, KeGetProcessorNumberFromIndex, KeGetProcessorNumberFromIndex routine [Kernel-Mode Driver Architecture], N, P, b, c, d, e, k105_c0b567bd-4436-4f6a-87a2-86d8b165e2dc.xml, kernel.kegetprocessornumberfromindex, m, n, o, r, s, t, u, wdm/KeGetProcessorNumberFromIndex, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ A systemwide processor index. If a multiprocessor system contains a total of <i>
 
 ### -param ProcNumber [out]
 
-A pointer to a caller-allocated <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a> structure into which the routine writes the group number and group-relative processor number of the processor that is identified by <i>ProcIndex</i>. 
+A pointer to a caller-allocated <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure into which the routine writes the group number and group-relative processor number of the processor that is identified by <i>ProcIndex</i>. 
 
 
 ## -returns
@@ -114,7 +114,7 @@ This routine accepts as input a processor index that identifies the processor ac
 
 For example, if a multiprocessor system contains two groups, and each group contains 64 logical processors, the processor numbers in each group range from 0 to 63, but the systemwide processor indexes range from 0 to 127.
 
-To obtain the total number of active logical processors in the system, call the <a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine.
+To obtain the total number of active logical processors in the system, call the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine.
 
 The <a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a> routine converts a group number and a group-relative processor number to a systemwide processor index.
 
@@ -152,15 +152,15 @@ The constant value ALL_PROCESSOR_GROUPS is defined in Winnt.h and Ntdef.h.
 
 ## -see-also
 
+<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
+
+
+
 <a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
 
 
 
-<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
 
 
 
@@ -168,5 +168,5 @@ The constant value ALL_PROCESSOR_GROUPS is defined in Winnt.h and Ntdef.h.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeGetProcessorNumberFromIndex routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeGetProcessorNumberFromIndex routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

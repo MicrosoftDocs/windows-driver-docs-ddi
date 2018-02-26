@@ -7,7 +7,7 @@ old-location: print\drvsplabort.htm
 old-project: print
 ms.assetid: b40dff76-4330-4527-b1f6-69f625732604
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, D, DrvSplAbort, DrvSplAbort function [Print Devices], S, b, l, o, p, print.drvsplabort, print_interface-graphics_78bb32ad-7688-4ea9-9369-93db9d2eea96.xml, r, t, v, winddiui/DrvSplAbort"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: pci\pci_pm_capability.htm
 old-project: PCI
 ms.assetid: 829d4df0-2dc2-4a1f-9606-3d5f25624252
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PPCI_PM_CAPABILITY, ,, A, B, C, I, L, M, P, PCI.pci_pm_capability, PCI_PM_CAPABILITY, PCI_PM_CAPABILITY structure [Buses], PPCI_PM_CAPABILITY, PPCI_PM_CAPABILITY structure pointer [Buses], T, Y, _, _PCI_PM_CAPABILITY, pci_struct_041a9702-7b1e-43dc-8b8c-0371bc0eac26.xml, wdm/PCI_PM_CAPABILITY, wdm/PPCI_PM_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,6 +137,10 @@ Holds the contents of an optional data register that the device uses to report s
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a>
 
 
@@ -149,13 +153,9 @@ Holds the contents of an optional data register that the device uses to report s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_PM_CAPABILITY structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_PM_CAPABILITY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

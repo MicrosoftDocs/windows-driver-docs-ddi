@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_initialize_extended_io_resource.htm
 old-project: kernel
 ms.assetid: 95464DE1-221A-4053-B124-4CFD44557CD3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, D, E, I, L, N, O, P, PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function [Kernel-Mode Driver Architecture], R, S, T, U, X, Z, _, kernel.pep_acpi_initialize_extended_io_resource, pepfx/PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,7 +49,7 @@ req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ## -description
 
 
-The <b>PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
+The <b>PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pep_x\ns-pep_x-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
 ## -syntax
@@ -83,7 +83,7 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE(
 
 ### -param ResourceUsage [in]
 
-This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
+This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="..\pep_x\ns-pep_x-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
 ### -param Decode [in]
@@ -105,7 +105,7 @@ When set, indicates that the maximum address is fixed.
 
 ### -param ISARanges [in]
 
-This parameter is copied into the <b>TypeSpecificFlags</b> member of the initialized <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
+This parameter is copied into the <b>TypeSpecificFlags</b> member of the initialized <a href="..\pep_x\ns-pep_x-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
 ### -param AddressGranularity [in]
@@ -156,7 +156,7 @@ When false, indicates that this is a dense translation. Otherwise, it is sparse.
 
 ### -param Resource [out]
 
-This is cast to *<a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>.
+This is cast to *<a href="..\pep_x\ns-pep_x-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>.
 
 
 ## -returns
@@ -170,7 +170,7 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>
+<a href="..\pep_x\ns-pep_x-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>
 
 
 
@@ -178,5 +178,5 @@ This function does not return a value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

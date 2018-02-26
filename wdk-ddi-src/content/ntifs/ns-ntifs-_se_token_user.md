@@ -112,11 +112,11 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
 
 
 

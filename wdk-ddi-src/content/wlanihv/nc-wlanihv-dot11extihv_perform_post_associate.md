@@ -168,10 +168,6 @@ For more information about the post-association operation, see
 
 ## -see-also
 
-<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
    Dot11ExtPostAssociateCompletion</a>
 
@@ -183,6 +179,10 @@ For more information about the post-association operation, see
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
 
 
 

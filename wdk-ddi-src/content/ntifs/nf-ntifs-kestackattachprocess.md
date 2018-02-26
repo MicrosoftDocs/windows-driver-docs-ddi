@@ -118,7 +118,7 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
 
 
 
@@ -126,11 +126,11 @@ For more information about using system threads and managing synchronization wit
 
 
 
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+
+
 <a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
@@ -138,15 +138,15 @@ For more information about using system threads and managing synchronization wit
 
 
 
-<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
+<a href="..\ntifs\nf-ntifs-keunstackdetachprocess.md">KeUnstackDetachProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
 
 
 
 <a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-keunstackdetachprocess.md">KeUnstackDetachProcess</a>
 
 
 

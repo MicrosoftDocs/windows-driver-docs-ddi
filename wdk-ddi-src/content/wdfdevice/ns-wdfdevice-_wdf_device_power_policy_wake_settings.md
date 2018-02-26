@@ -87,12 +87,12 @@ A <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-
 
 ### -field UserControlOfWakeSettings
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
 
 
 ### -field Enabled
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
 
 <b>WdfTrue</b> - Waking the system is enabled.
 
@@ -189,27 +189,11 @@ For more information about how to support a device's wake ability, see <a href="
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx_with_reason.md">EvtDeviceArmWakeFromSxWithReason</a>
-
-
-
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>
-
-
-
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceindicatewakestatus.md">WdfDeviceIndicateWakeStatus</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_wake_from_sx_triggered.md">EvtDeviceWakeFromSxTriggered</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md">WdfDeviceAssignSxWakeSettings</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>
 
 
 
@@ -217,7 +201,23 @@ For more information about how to support a device's wake ability, see <a href="
 
 
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceindicatewakestatus.md">WdfDeviceIndicateWakeStatus</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_wake_settings_init.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md">WdfDeviceAssignSxWakeSettings</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx_with_reason.md">EvtDeviceArmWakeFromSxWithReason</a>
 
 
 

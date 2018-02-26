@@ -7,7 +7,7 @@ old-location: image\rangevalue.htm
 old-project: image
 ms.assetid: 18322d1f-9fc9-43f0-925e-616731845792
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PRANGEVALUE, ,, A, E, G, L, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, N, P, PRANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices], R, RANGEVALUE, RANGEVALUE structure [Imaging Devices], U, V, _, _RANGEVALUE, image.rangevalue, wiamicro/PRANGEVALUE, wiamicro/RANGEVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

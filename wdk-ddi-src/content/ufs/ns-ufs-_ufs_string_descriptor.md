@@ -7,7 +7,7 @@ old-location: storage\ufs_string_descriptor.htm
 old-project: storage
 ms.assetid: 1F32DA95-6801-4C48-B3C4-A47C3E1C678B
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUFS_STRING_DESCRIPTOR, ,, C, D, E, F, G, I, N, O, P, PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], R, S, T, U, UFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], _, _UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, ufs/PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

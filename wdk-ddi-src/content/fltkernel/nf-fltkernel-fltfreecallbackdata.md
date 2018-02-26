@@ -97,15 +97,7 @@ The <b>FltFreeCallbackData</b> routine frees any <a href="..\wdm\ns-wdm-_mdl.md"
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
 
 
 
@@ -114,6 +106,14 @@ The <b>FltFreeCallbackData</b> routine frees any <a href="..\wdm\ns-wdm-_mdl.md"
 
 
 <a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
 
 
 

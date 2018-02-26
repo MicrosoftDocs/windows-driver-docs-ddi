@@ -7,7 +7,7 @@ old-location: display\svgahwioportushort.htm
 old-project: display
 ms.assetid: 304656b4-ebbe-4cb1-8735-2e03bec71f9f
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: PDRIVER_IO_PORT_USHORT, SvgaHwIoPortUshort, SvgaHwIoPortUshort callback function [Display Devices], VideoMiniport_Functions_756e549c-fadc-49ae-b356-c94893809e01.xml, display.svgahwioportushort, video/SvgaHwIoPortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,7 +131,11 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
 ## -see-also
 
-<a href="..\video\nc-video-pdriver_io_port_ushort_string.md">SvgaHwIoPortUshortString</a>
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
 
 
 
@@ -139,15 +143,7 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
 
 
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-
-
-
-<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
-
-
-
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+<a href="..\video\nc-video-pdriver_io_port_ushort_string.md">SvgaHwIoPortUshortString</a>
 
 
 
@@ -155,7 +151,11 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
 
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 
 
@@ -163,5 +163,5 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PDRIVER_IO_PORT_USHORT callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PDRIVER_IO_PORT_USHORT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

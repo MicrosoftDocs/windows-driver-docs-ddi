@@ -190,15 +190,7 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
 
 
 
@@ -206,34 +198,7 @@ Callers of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
-   Drivers</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
-   NdisMSynchronizeWithInterruptEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -242,11 +207,12 @@ Callers of
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 
@@ -255,7 +221,41 @@ Callers of
 
 
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
+   NdisInterlockedInsertTailList</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+   NdisMSynchronizeWithInterruptEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 
 

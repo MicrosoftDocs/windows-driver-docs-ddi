@@ -103,15 +103,15 @@ When
 
 ## -see-also
 
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_delete.md">NDIS_WWAN_SMS_DELETE</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_sms_flag.md">WWAN_SMS_FLAG</a>
 
 
 
 <a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_delete.md">NDIS_WWAN_SMS_DELETE</a>
 
 
 

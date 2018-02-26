@@ -167,15 +167,15 @@ The IEs present at <b>uIEsOffset</b>, for the duration of the device discovery, 
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\windot11\ne-windot11-_dot11_wfd_scan_type.md">DOT11_WFD_SCAN_TYPE</a>
 
 
 
 <a href="..\windot11\ne-windot11-_dot11_wfd_discover_type.md">DOT11_WFD_DISCOVER_TYPE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

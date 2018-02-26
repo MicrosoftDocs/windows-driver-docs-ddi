@@ -7,7 +7,7 @@ old-location: kernel\keinitializetimer.htm
 old-project: kernel
 ms.assetid: 97140cf6-9c5a-4fdc-b7c7-10e6d28b9b1b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, K, KeInitializeTimer, KeInitializeTimer routine [Kernel-Mode Driver Architecture], T, a, e, i, k105_ce90de5c-7259-4863-adf1-fe90f288e791.xml, kernel.keinitializetimer, l, m, n, r, t, wdm/KeInitializeTimer, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,15 +103,7 @@ Callers of <b>KeInitializeTimer</b> should be running at IRQL = DISPATCH_LEVEL o
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
-
-
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 
 
@@ -123,17 +115,25 @@ Callers of <b>KeInitializeTimer</b> should be running at IRQL = DISPATCH_LEVEL o
 
 
 
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeInitializeTimer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeInitializeTimer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

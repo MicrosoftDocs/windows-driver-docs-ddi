@@ -7,7 +7,7 @@ old-location: display\d3dddibox.htm
 old-project: display
 ms.assetid: 3CE49C9F-EFFC-4F43-A939-623B28FD5EFB
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, B, D, D3DDDIBOX, D3DDDIBOX structure [Display Devices], I, O, X, _, _D3DDDIBOX, d3dumddi/D3DDDIBOX, display.d3dddibox"
 ms.prod: windows-hardware
 ms.technology: windows-devices

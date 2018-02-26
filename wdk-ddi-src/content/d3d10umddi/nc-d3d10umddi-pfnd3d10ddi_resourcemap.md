@@ -7,7 +7,7 @@ old-location: display\resourcemap.htm
 old-project: display
 ms.assetid: 1310a3f8-02dd-4d35-98ad-4016e57d1eb2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: PFND3D10DDI_RESOURCEMAP, ResourceMap, ResourceMap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_2c1f2d21-4d2c-4e3f-993d-c6af5177e793.xml, d3d10umddi/ResourceMap, display.resourcemap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -411,7 +411,7 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
@@ -423,7 +423,7 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
 
 
 
@@ -431,11 +431,7 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>
 
 
 
@@ -443,9 +439,13 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 
 
- 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_RESOURCEMAP callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_RESOURCEMAP callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

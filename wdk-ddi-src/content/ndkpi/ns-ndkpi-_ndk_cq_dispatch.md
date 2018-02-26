@@ -121,19 +121,11 @@ The <b>NDK_CQ_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_resize_cq.md">NDK_FN_RESIZE_CQ</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_control_cq_interrupt_moderation.md">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_resize_cq.md">NDK_FN_RESIZE_CQ</a>
 
 
 
@@ -141,11 +133,19 @@ The <b>NDK_CQ_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_control_cq_interrupt_moderation.md">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>
 
 
 

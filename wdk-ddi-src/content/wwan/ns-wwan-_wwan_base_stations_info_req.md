@@ -99,7 +99,7 @@ The maximum number of entries of CDMA cells returned in the CDMA measured result
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_base_stations_info_req.md">NDIS_WWAN_BASE_STATIONS_INFO_REQ</a>
 
 
 
@@ -119,11 +119,11 @@ The maximum number of entries of CDMA cells returned in the CDMA measured result
 
 
 
+<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_base_stations_info_req.md">NDIS_WWAN_BASE_STATIONS_INFO_REQ</a>
 
 
 

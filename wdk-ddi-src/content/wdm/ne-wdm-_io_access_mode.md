@@ -7,7 +7,7 @@ old-location: kernel\io_access_mode.htm
 old-project: kernel
 ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, E, I, IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], M, O, RandomAccess, S, SequentialAccess, _, _IO_ACCESS_MODE, kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess"
 ms.prod: windows-hardware
 ms.technology: windows-devices

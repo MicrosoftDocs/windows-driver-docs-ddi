@@ -114,15 +114,11 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
-
-
-
-<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
-
-
-
 <a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
 
 
 
@@ -130,7 +126,11 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
+<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
 
 
 

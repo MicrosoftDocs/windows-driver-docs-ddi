@@ -7,7 +7,7 @@ old-location: print\iprintbidiasyncnotifyregistration.htm
 old-project: print
 ms.assetid: A187FD9F-8A2E-4B98-8CC4-C0AC66D6FB08
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IPrintBidiAsyncNotifyRegistration, IPrintBidiAsyncNotifyRegistration interface [Print Devices], IPrintBidiAsyncNotifyRegistration interface [Print Devices], described, print.iprintbidiasyncnotifyregistration, prnasntp/IPrintBidiAsyncNotifyRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

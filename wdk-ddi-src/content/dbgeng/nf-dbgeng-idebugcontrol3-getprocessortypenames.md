@@ -7,7 +7,7 @@ old-location: debugger\getprocessortypenames.htm
 old-project: debugger
 ms.assetid: cee254a5-7b77-4cab-b02c-69b1f9e3fe02
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, :, C, D, G, GetProcessorTypeNames method [Windows Debugging], GetProcessorTypeNames method [Windows Debugging], IDebugControl interface, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface, GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, GetProcessorTypeNames,IDebugControl.GetProcessorTypeNames, GetProcessorTypeNames,IDebugControl2.GetProcessorTypeNames, GetProcessorTypeNames,IDebugControl3.GetProcessorTypeNames, I, IDebugControl, IDebugControl interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl2::GetProcessorTypeNames, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3::GetProcessorTypeNames, IDebugControl::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, N, P, T, a, b, c, dbgeng/IDebugControl2::GetProcessorTypeNames, dbgeng/IDebugControl3::GetProcessorTypeNames, dbgeng/IDebugControl::GetProcessorTypeNames, debugger.getprocessortypenames, e, g, l, m, n, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -168,17 +168,17 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetProcessorTypeNames method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetProcessorTypeNames method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -102,7 +102,7 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a>
+<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
 
 
 
@@ -110,7 +110,7 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a>
 
 
 

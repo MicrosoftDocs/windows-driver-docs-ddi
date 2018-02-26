@@ -7,7 +7,7 @@ old-location: debugger\setimplicitprocessdataoffset.htm
 old-project: debugger
 ms.assetid: 2a09341d-a580-4817-9103-29d8c36b81e3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, :, D, I, IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], SetImplicitProcessDataOffset method, IDebugSystemObjects2::SetImplicitProcessDataOffset, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], SetImplicitProcessDataOffset method, IDebugSystemObjects3::SetImplicitProcessDataOffset, IDebugSystemObjects4 interface [Windows Debugging], SetImplicitProcessDataOffset method, IDebugSystemObjects4::SetImplicitProcessDataOffset, IDebugSystemObjects_10effa04-b87c-4555-9860-c2d5057a2529.xml, O, P, S, SetImplicitProcessDataOffset method [Windows Debugging], SetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, SetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, SetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, SetImplicitProcessDataOffset,IDebugSystemObjects2.SetImplicitProcessDataOffset, SetImplicitProcessDataOffset,IDebugSystemObjects3.SetImplicitProcessDataOffset, a, b, c, dbgeng/IDebugSystemObjects2::SetImplicitProcessDataOffset, dbgeng/IDebugSystemObjects3::SetImplicitProcessDataOffset, dbgeng/IDebugSystemObjects4::SetImplicitProcessDataOffset, debugger.setimplicitprocessdataoffset, e, f, g, i, j, l, m, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

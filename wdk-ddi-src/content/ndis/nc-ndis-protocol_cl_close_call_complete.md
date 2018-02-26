@@ -203,15 +203,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
 
 
@@ -223,7 +223,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 

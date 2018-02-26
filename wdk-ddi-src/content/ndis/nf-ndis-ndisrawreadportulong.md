@@ -94,11 +94,7 @@ Pointer to a caller-supplied variable in which this function returns a ULONG val
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 
@@ -110,11 +106,15 @@ Pointer to a caller-supplied variable in which this function returns a ULONG val
 
 
 
+<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 

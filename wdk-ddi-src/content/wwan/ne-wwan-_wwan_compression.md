@@ -98,11 +98,11 @@ This enumeration applies only to GSM devices. The MB Service specifies
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
 
 
 

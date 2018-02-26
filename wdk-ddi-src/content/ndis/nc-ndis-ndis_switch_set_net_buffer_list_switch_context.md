@@ -121,15 +121,19 @@ For more information about the extensible switch forwarding context, see <a href
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
+<a href="..\ndis\nc-ndis-ndis_switch_get_net_buffer_list_switch_context.md">GetNetBufferListSwitchContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nc-ndis-ndis_switch_get_net_buffer_list_switch_context.md">GetNetBufferListSwitchContext</a>
 
 
 
@@ -141,15 +145,11 @@ For more information about the extensible switch forwarding context, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
 
 
 

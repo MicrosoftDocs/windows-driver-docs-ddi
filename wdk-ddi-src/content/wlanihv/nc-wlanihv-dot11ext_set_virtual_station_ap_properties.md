@@ -144,17 +144,17 @@ If the IHV Extensions DLL calls
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
-   Dot11ExtIhvPerformPreAssociate</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_ap_property.md">
    DOT11EXT_VIRTUAL_STATION_AP_PROPERTY</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
 
 
 

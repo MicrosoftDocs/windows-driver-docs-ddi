@@ -7,7 +7,7 @@ old-location: storage\storportgetlogicalprocessorrelationship.htm
 old-project: storage
 ms.assetid: 32b92771-7f23-492c-a3b0-b10032c9f80a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , G, L, P, R, S, StorPortGetLogicalProcessorRelationship, StorPortGetLogicalProcessorRelationship routine [Storage Devices], a, c, e, g, h, i, l, n, o, p, r, s, storage.storportgetlogicalprocessorrelationship, storport/StorPortGetLogicalProcessorRelationship, storprt_65b00469-41a4-446b-aaa5-fee877aaff3c.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

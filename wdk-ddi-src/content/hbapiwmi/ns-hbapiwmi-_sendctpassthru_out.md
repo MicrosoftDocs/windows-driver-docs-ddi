@@ -7,7 +7,7 @@ old-location: storage\sendctpassthru_out.htm
 old-project: storage
 ms.assetid: f9340f0d-4f70-4751-b339-de11ee13a469
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSendCTPassThru_OUT, ,, C, O, P, PSendCTPassThru_OUT, PSendCTPassThru_OUT structure pointer [Storage Devices], S, SendCTPassThru_OUT, SendCTPassThru_OUT structure [Storage Devices], T, U, _, _SendCTPassThru_OUT, a, d, e, h, hbapiwmi/PSendCTPassThru_OUT, hbapiwmi/SendCTPassThru_OUT, n, r, s, storage.sendctpassthru_out, structs-Fibre_f795d452-fb3f-4236-a543-d0f80f94c14f.xml, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,5 +109,5 @@ The WMI tool suite generates a declaration of the SendCTPassThru_OUT structure i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendCTPassThru_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendCTPassThru_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -184,6 +184,10 @@ For each call to this function, the callout driver must call
 
 ## -see-also
 
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpspendclassify0.md">FwpsPendClassify0</a>
 
 
@@ -197,10 +201,6 @@ For each call to this function, the callout driver must call
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a>
 
 
 

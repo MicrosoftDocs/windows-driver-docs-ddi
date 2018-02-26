@@ -81,7 +81,7 @@ The size of the structure in bytes.
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilnetworkcodeparammask.md">RILNETWORKCODEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilnetworkcodeparammask.md">RILNETWORKCODEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field dwExecutor

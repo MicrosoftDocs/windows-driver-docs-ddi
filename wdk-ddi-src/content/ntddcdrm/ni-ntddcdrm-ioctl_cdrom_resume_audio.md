@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_resume_audio.htm
 old-project: storage
 ms.assetid: 50bf3cf3-5225-45c9-9f14-bfcd84574a83
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_CDROM_RESUME_AUDIO, IOCTL_CDROM_RESUME_AUDIO control code [Storage Devices], k307_64959ad0-32bd-4b0d-b1a0-2983efcd74fa.xml, ntddcdrm/IOCTL_CDROM_RESUME_AUDIO, storage.ioctl_cdrom_resume_audio
 ms.prod: windows-hardware
 ms.technology: windows-devices

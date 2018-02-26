@@ -146,11 +146,11 @@ status = WdfWmiInstanceRegister(wmiInstance);</pre>
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancederegister.md">WdfWmiInstanceDeregister</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 

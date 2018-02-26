@@ -250,11 +250,11 @@ The <b>Data</b> member of the <a href="..\ntddk\ns-ntddk-_whea_generic_error.md"
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_generic_error_blockstatus.md">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
 
 
 

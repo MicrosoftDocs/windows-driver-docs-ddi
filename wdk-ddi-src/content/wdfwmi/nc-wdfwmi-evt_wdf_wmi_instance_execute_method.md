@@ -177,15 +177,11 @@ The <b>EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD</b> function type is defined in the W
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
@@ -194,6 +190,10 @@ The <b>EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD</b> function type is defined in the W
 
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
+
+
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
 
 
 

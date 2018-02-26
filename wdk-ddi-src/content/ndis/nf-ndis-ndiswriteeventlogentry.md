@@ -205,19 +205,19 @@ The system limits the total size of the optional data supplied to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 

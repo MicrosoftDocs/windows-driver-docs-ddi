@@ -7,7 +7,7 @@ old-location: pos\barcodesymbologyattributesdata.htm
 old-project: pos
 ms.assetid: 0682B3AA-13F5-4686-AD78-D45DA85398B7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, B, BarcodeSymbologyAttributesData, BarcodeSymbologyAttributesData structure, D, S, _, _BarcodeSymbologyAttributesData, a, b, c, d, e, g, i, l, m, o, pointofservicecommontypes/BarcodeSymbologyAttributesData, pos.barcodesymbologyattributesdata, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

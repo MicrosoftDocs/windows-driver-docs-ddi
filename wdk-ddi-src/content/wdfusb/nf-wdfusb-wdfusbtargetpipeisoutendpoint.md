@@ -123,11 +123,11 @@ isOutEndPoint = WdfUsbTargetPipeIsOutEndpoint(usbPipe);</pre>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
 
 
 

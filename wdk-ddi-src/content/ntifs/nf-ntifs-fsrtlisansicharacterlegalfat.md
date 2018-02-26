@@ -94,11 +94,11 @@ Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalhpfs.md">FsRtlIsAnsiCharacterLegalHpfs</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
 
 
 

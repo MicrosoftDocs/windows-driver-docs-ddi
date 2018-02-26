@@ -117,11 +117,11 @@ NDIS calls the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
-
-
-
 <a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
 
 
 

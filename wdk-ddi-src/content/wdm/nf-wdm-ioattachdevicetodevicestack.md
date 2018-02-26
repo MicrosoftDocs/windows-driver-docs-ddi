@@ -7,7 +7,7 @@ old-location: kernel\ioattachdevicetodevicestack.htm
 old-project: kernel
 ms.assetid: 6377f980-dd56-4bef-91e7-7557866132d6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, D, I, IoAttachDeviceToDeviceStack, IoAttachDeviceToDeviceStack routine [Kernel-Mode Driver Architecture], S, T, a, c, e, h, i, k, k104_18c6aeef-4362-49f9-88a3-6d2a970eb0d7.xml, kernel.ioattachdevicetodevicestack, o, t, v, wdm/IoAttachDeviceToDeviceStack"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,6 +113,10 @@ A driver that acquired a pointer to the target device by calling <a href="..\wdm
 
 
 
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 
@@ -121,13 +125,9 @@ A driver that acquired a pointer to the target device by calling <a href="..\wdm
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoAttachDeviceToDeviceStack routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoAttachDeviceToDeviceStack routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

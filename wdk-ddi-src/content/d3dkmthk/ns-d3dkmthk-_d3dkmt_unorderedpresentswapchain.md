@@ -7,7 +7,7 @@ old-location: display\d3dkmt-unorderedpresentswapchain.htm
 old-project: display
 ms.assetid: c8b13348-71a6-4981-8c99-6368fa0f01ff
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_UNORDEREDPRESENTSWAPCHAIN, D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure [Display Devices], E, H, I, K, M, N, O, P, R, S, T, U, W, _, _D3DKMT_UNORDEREDPRESENTSWAPCHAIN, d3dkmthk/D3DKMT_UNORDEREDPRESENTSWAPCHAIN, display.d3dkmt-unorderedpresentswapchain"
 ms.prod: windows-hardware
 ms.technology: windows-devices

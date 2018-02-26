@@ -7,7 +7,7 @@ old-location: print\drvymoveto.htm
 old-project: print
 ms.assetid: 0d8539eb-0b9c-4aae-abbe-bb7ddd6231f5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: DrvYMoveTo, DrvYMoveTo callback function [Print Devices], PFN_DrvYMoveTo, print.drvymoveto, print_obsoletefunctions_90e3798e-8acd-4aad-a3a2-ae8a84934a92.xml, printoem/DrvYMoveTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

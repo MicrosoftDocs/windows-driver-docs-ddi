@@ -7,7 +7,7 @@ old-location: debugger\setcommandwide.htm
 old-project: debugger
 ms.assetid: 3edab087-01e4-4cd4-82d3-38d67962c93c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, B, C, D, I, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, IDebugBreakpoint2::SetCommandWide, S, SetCommandWide method [Windows Debugging], SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, SetCommandWide,IDebugBreakpoint2.SetCommandWide, W, a, b, d, dbgeng/IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide, e, g, i, k, m, n, o, p, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

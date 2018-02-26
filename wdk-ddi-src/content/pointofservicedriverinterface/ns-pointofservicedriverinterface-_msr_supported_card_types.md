@@ -7,7 +7,7 @@ old-location: pos\msr_supported_card_types.htm
 old-project: pos
 ms.assetid: 57818ea9-f60b-4a37-9f42-613fb9cfaf36
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PMSR_SUPPORTED_CARD_TYPES, ,, A, C, D, E, M, MSR_SUPPORTED_CARD_TYPES, MSR_SUPPORTED_CARD_TYPES structure, O, P, PMSR_SUPPORTED_CARD_TYPES, PMSR_SUPPORTED_CARD_TYPES structure pointer, R, S, T, U, Y, _, _MSR_SUPPORTED_CARD_TYPES, pointofservicedriverinterface/MSR_SUPPORTED_CARD_TYPES, pointofservicedriverinterface/PMSR_SUPPORTED_CARD_TYPES, pos.msr_supported_card_types"
 ms.prod: windows-hardware
 ms.technology: windows-devices

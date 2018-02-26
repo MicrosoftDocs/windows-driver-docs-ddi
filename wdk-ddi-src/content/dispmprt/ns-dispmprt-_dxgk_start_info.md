@@ -7,7 +7,7 @@ old-location: display\dxgk_start_info.htm
 old-project: display
 ms.assetid: 4d28bc79-5145-48a0-99e8-3f81b2ec4a05
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDXGK_START_INFO, ,, A, D, DXGK_START_INFO, DXGK_START_INFO structure [Display Devices], DmStructs_c2f6faad-cd05-43ea-ab58-b296bc130e09.xml, F, G, I, K, N, O, P, PDXGK_START_INFO, PDXGK_START_INFO structure pointer [Display Devices], R, S, T, X, _, _DXGK_START_INFO, display.dxgk_start_info, dispmprt/DXGK_START_INFO, dispmprt/PDXGK_START_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

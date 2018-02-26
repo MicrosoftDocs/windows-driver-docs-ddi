@@ -363,7 +363,7 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -371,24 +371,7 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-   FwpsAllocateNetBufferAndNetBufferList0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
 
 
@@ -397,8 +380,7 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-   FwpsAllocateCloneNetBufferList0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
 
 
 
@@ -406,11 +388,29 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+   FwpsAllocateNetBufferAndNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+   FwpsAllocateCloneNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

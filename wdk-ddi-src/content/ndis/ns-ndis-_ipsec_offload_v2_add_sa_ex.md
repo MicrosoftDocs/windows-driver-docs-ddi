@@ -361,31 +361,17 @@ This structure is nearly identical to the previous version,
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">
-   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
    IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
 
 
 
+<a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ipsec_offload_v2_security_association.md">
    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
@@ -396,6 +382,20 @@ This structure is nearly identical to the previous version,
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA_EX</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">
+   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
 
 
 

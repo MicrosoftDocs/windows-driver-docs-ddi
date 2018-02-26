@@ -7,7 +7,7 @@ old-location: kernel\exdeletenpagedlookasidelist.htm
 old-project: kernel
 ms.assetid: c12d4e5f-ec02-405c-91e2-cd5884bb8494
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, E, ExDeleteNPagedLookasideList, ExDeleteNPagedLookasideList routine [Kernel-Mode Driver Architecture], L, N, P, a, d, e, g, i, k, k102_401f2550-ef71-4199-be7f-cdd7652a2c03.xml, kernel.exdeletenpagedlookasidelist, l, o, s, t, wdm/ExDeleteNPagedLookasideList, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,5 +109,5 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExDeleteNPagedLookasideList routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExDeleteNPagedLookasideList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videosample.htm
 old-project: display
 ms.assetid: 20495325-8ef6-4e6d-8f86-edc12537d46f
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, D, DXVA2_Structs_c3a4d002-09dc-4653-a965-9c4f587529d4.xml, DXVADDI_VIDEOSAMPLE, DXVADDI_VIDEOSAMPLE structure [Display Devices], E, I, L, M, O, P, S, V, X, _, _DXVADDI_VIDEOSAMPLE, d3dumddi/DXVADDI_VIDEOSAMPLE, display.dxvaddi_videosample"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,19 +128,19 @@ typedef struct _DXVADDI_VIDEOSAMPLE {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_ayuvsample8.md">DXVADDI_AYUVSAMPLE8</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_ayuvsample8.md">DXVADDI_AYUVSAMPLE8</a>
 
 
 
@@ -152,5 +152,5 @@ typedef struct _DXVADDI_VIDEOSAMPLE {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_VIDEOSAMPLE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_VIDEOSAMPLE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

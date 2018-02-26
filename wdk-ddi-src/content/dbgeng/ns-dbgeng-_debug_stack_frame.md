@@ -7,7 +7,7 @@ old-location: debugger\debug_stack_frame.htm
 old-project: debugger
 ms.assetid: e3ab83cf-96ed-468d-895f-23b90951cfb5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PDEBUG_STACK_FRAME, ,, A, B, C, D, DEBUG_STACK_FRAME, DEBUG_STACK_FRAME structure [Windows Debugging], E, F, G, K, M, P, PDEBUG_STACK_FRAME, PDEBUG_STACK_FRAME structure pointer [Windows Debugging], R, S, Structures_219fad76-6f80-429d-b0ff-0f5443a9263b.xml, T, U, _, _DEBUG_STACK_FRAME, dbgeng/DEBUG_STACK_FRAME, dbgeng/PDEBUG_STACK_FRAME, debugger.debug_stack_frame"
 ms.prod: windows-hardware
 ms.technology: windows-devices

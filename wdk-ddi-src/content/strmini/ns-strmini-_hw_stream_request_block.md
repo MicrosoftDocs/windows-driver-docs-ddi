@@ -7,7 +7,7 @@ old-location: stream\hw_stream_request_block.htm
 old-project: stream
 ms.assetid: e2a19bb1-631d-4160-9980-f3cbeb0b085a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PHW_STREAM_REQUEST_BLOCK, ,, A, B, C, E, H, HW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], K, L, M, O, P, PHW_STREAM_REQUEST_BLOCK, PHW_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], Q, R, S, T, U, W, _, _HW_STREAM_REQUEST_BLOCK, strclass-struct_4b0da124-b08a-49fe-acbc-9457db500b26.xml, stream.hw_stream_request_block, strmini/HW_STREAM_REQUEST_BLOCK, strmini/PHW_STREAM_REQUEST_BLOCK"
 ms.prod: windows-hardware
 ms.technology: windows-devices

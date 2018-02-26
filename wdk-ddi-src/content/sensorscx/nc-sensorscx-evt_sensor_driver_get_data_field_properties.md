@@ -113,7 +113,7 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
-<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957080">Proximity sensor data fields</a>
 
 
 
@@ -121,7 +121,7 @@ This function must be implemented by the driver and is called by the class exten
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957080">Proximity sensor data fields</a>
+<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
 
 
 

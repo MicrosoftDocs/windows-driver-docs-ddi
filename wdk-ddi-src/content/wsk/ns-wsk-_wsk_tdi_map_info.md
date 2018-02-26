@@ -114,11 +114,11 @@ For more information about using TDI transports, see
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_tdi_map.md">WSK_TDI_MAP</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
 
 

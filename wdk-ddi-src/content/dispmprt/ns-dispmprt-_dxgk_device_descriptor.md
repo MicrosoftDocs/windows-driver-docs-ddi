@@ -7,7 +7,7 @@ old-location: display\dxgk_device_descriptor.htm
 old-project: display
 ms.assetid: b6d89426-54d3-4f90-8687-c60e515b4d62
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDXGK_DEVICE_DESCRIPTOR, ,, C, D, DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR structure [Display Devices], DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml, E, G, I, K, O, P, PDXGK_DEVICE_DESCRIPTOR, PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], R, S, T, V, X, _, _DXGK_DEVICE_DESCRIPTOR, display.dxgk_device_descriptor, dispmprt/DXGK_DEVICE_DESCRIPTOR, dispmprt/PDXGK_DEVICE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ The display port driver passes a DXGK_DEVICE_DESCRIPTOR structure to <a href="..
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_generic_descriptor.md">DXGK_GENERIC_DESCRIPTOR</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
 
 
 
@@ -103,7 +103,7 @@ The display port driver passes a DXGK_DEVICE_DESCRIPTOR structure to <a href="..
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgk_generic_descriptor.md">DXGK_GENERIC_DESCRIPTOR</a>
 
 
 
@@ -111,5 +111,5 @@ The display port driver passes a DXGK_DEVICE_DESCRIPTOR structure to <a href="..
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_DEVICE_DESCRIPTOR structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_DEVICE_DESCRIPTOR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

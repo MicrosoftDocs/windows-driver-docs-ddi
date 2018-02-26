@@ -7,7 +7,7 @@ old-location: storage\storportgetoriginalmdl.htm
 old-project: storage
 ms.assetid: 48042e9d-ed83-4326-931d-ded753deb1a7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , G, M, O, P, S, StorPortGetOriginalMdl, StorPortGetOriginalMdl routine [Storage Devices], a, d, e, g, i, l, n, o, r, storage.storportgetoriginalmdl, storport/StorPortGetOriginalMdl, storprt_4617200d-18b4-4ee2-aa43-92fc5f3a7b66.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -162,5 +162,5 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetOriginalMdl routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetOriginalMdl routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

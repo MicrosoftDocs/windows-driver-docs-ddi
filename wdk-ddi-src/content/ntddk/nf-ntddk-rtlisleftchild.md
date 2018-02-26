@@ -87,10 +87,6 @@ Callers of <b>RtlIsLeftChild</b> can be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
 
 
@@ -100,6 +96,10 @@ Callers of <b>RtlIsLeftChild</b> can be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
 
 
 

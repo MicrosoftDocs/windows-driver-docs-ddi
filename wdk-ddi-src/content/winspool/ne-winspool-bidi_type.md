@@ -7,7 +7,7 @@ old-location: print\bidi_type.htm
 old-project: print
 ms.assetid: ebb79ad6-91a1-4bdf-a6f6-7e04ed2358d9
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, B, BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, BIDI_TYPE, BIDI_TYPE enumeration [Print Devices], D, E, I, P, T, Y, _, print.bidi_type, spoolfnc_35a684ef-3bbf-4f33-86e9-b4a3bddbbb51.xml, winspool/BIDI_BLOB, winspool/BIDI_BOOL, winspool/BIDI_ENUM, winspool/BIDI_FLOAT, winspool/BIDI_INT, winspool/BIDI_NULL, winspool/BIDI_STRING, winspool/BIDI_TEXT, winspool/BIDI_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

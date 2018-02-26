@@ -7,7 +7,7 @@ old-location: debugger\stack_src_info.htm
 old-project: debugger
 ms.assetid: F19D5A5C-D9CF-40CC-B344-8F2D862FBF04
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PSTACK_SRC_INFO, ,, A, C, F, I, K, N, O, P, PSTACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], R, S, STACK_SRC_INFO, STACK_SRC_INFO structure [Windows Debugging], T, _, _STACK_SRC_INFO, dbgeng/PSTACK_SRC_INFO, dbgeng/STACK_SRC_INFO, debugger.stack_src_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

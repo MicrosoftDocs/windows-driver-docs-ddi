@@ -270,20 +270,7 @@ The client calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
-   ProtocolClRegisterSapComplete</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
 
 
 
@@ -291,25 +278,8 @@ The client calls
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
-   ProtocolClIncomingCallQoSChange</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
-   ProtocolClModifyCallQoSComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+   ProtocolClDeregisterSapComplete</a>
 
 
 
@@ -325,11 +295,15 @@ The client calls
 
 
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
 
 
 
@@ -338,7 +312,29 @@ The client calls
 
 
 
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+   ProtocolClRegisterSapComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+   ProtocolClModifyCallQoSComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
 
 
 
@@ -346,20 +342,24 @@ The client calls
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
-   ProtocolClDeregisterSapComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
+   ProtocolClIncomingCallQoSChange</a>
 
 
 

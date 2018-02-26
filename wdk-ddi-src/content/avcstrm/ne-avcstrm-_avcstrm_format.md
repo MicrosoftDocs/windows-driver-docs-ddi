@@ -7,7 +7,7 @@ old-location: stream\avcstrm_format.htm
 old-project: stream
 ms.assetid: 4481ec67-55b6-479e-b0b6-5f8ed56a5290
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, AVCSTRM_FORMAT, AVCSTRM_FORMAT enumeration [Streaming Media Devices], AVCSTRM_FORMAT_HDDV_NTSC, AVCSTRM_FORMAT_HDDV_PAL, AVCSTRM_FORMAT_MPEG2TS, AVCSTRM_FORMAT_SDDV_NTSC, AVCSTRM_FORMAT_SDDV_PAL, AVCSTRM_FORMAT_SDLDV_NTSC, AVCSTRM_FORMAT_SDLDV_PAL, C, F, M, O, R, S, T, V, _, _AVCSTRM_FORMAT, avcsref_489c2bf8-1e1f-4feb-91fb-0ba3666ba399.xml, avcstrm/AVCSTRM_FORMAT, avcstrm/AVCSTRM_FORMAT_HDDV_NTSC, avcstrm/AVCSTRM_FORMAT_HDDV_PAL, avcstrm/AVCSTRM_FORMAT_MPEG2TS, avcstrm/AVCSTRM_FORMAT_SDDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDDV_PAL, avcstrm/AVCSTRM_FORMAT_SDLDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDLDV_PAL, stream.avcstrm_format"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,5 +118,5 @@ Specifies the 61883-5 specification for SDL-DVCR data transmission. PAL. This fo
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCSTRM_FORMAT enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCSTRM_FORMAT enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

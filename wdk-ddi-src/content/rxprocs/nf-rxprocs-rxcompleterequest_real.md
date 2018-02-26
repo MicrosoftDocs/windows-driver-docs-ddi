@@ -107,15 +107,23 @@ If a <b>NULL</b> value is passed in for <i>Irp</i>, then <b>RxCompleteRequest_Re
 
 ## -see-also
 
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
-
-
-
 <a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 
@@ -127,19 +135,11 @@ If a <b>NULL</b> value is passed in for <i>Irp</i>, then <b>RxCompleteRequest_Re
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
 
 
 
 <a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: print\getcpsuiuserdata.htm
 old-project: print
 ms.assetid: 2a0a74cd-2dcf-4485-8941-7f205dcecede
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, D, G, GetCPSUIUserData, GetCPSUIUserData function [Print Devices], I, P, S, U, a, compstui/GetCPSUIUserData, cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, e, print.getcpsuiuserdata, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

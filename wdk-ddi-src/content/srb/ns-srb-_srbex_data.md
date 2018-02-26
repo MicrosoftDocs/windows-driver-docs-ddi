@@ -7,7 +7,7 @@ old-location: storage\srbex_data.htm
 old-project: storage
 ms.assetid: 15FB9877-6339-484B-83D5-6AD44EEE1D6E
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSRBEX_DATA, ,, A, B, D, E, P, PSRBEX_DATA, PSRBEX_DATA structure pointer [Storage Devices], R, S, SRBEX_DATA, SRBEX_DATA structure [Storage Devices], SrbExDataTypeBidirectional, SrbExDataTypeIoInfo, SrbExDataTypePnp, SrbExDataTypePower, SrbExDataTypeScsiCdb16, SrbExDataTypeScsiCdb32, SrbExDataTypeScsiCdbVar, SrbExDataTypeUnknown, SrbExDataTypeWmi, T, X, _, _SRBEX_DATA, storage.srbex_data, storport/PSRBEX_DATA, storport/SRBEX_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -270,15 +270,7 @@ The following example code fragment shows how to access the extended data for th
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_srbex_data_power.md">SRBEX_DATA_POWER</a>
-
-
-
-<a href="..\storport\ns-storport-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
-
-
-
-<a href="..\storport\ns-storport-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
+<a href="..\storport\ns-storport-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
 
 
 
@@ -286,7 +278,15 @@ The following example code fragment shows how to access the extended data for th
 
 
 
-<a href="..\storport\ns-storport-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+
+
+
+<a href="..\storport\ns-storport-_srbex_data_power.md">SRBEX_DATA_POWER</a>
+
+
+
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
 
 
 
@@ -298,7 +298,7 @@ The following example code fragment shows how to access the extended data for th
 
 
 
-<a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+<a href="..\storport\ns-storport-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
 
 
 
@@ -306,5 +306,5 @@ The following example code fragment shows how to access the extended data for th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

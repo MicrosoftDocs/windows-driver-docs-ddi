@@ -156,7 +156,7 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
 
 
 
@@ -164,23 +164,7 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_purge.md">EvtSerCxPurge</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx_filecleanup.md">EvtSerCxFileCleanup</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx_receive_cancel.md">EvtSerCxReceiveCancel</a>
+<a href="..\sercx\nc-sercx-evt_sercx_transmit.md">EvtSerCxTransmit</a>
 
 
 
@@ -188,11 +172,11 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
+<a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_control.md">EvtSerCxControl</a>
+<a href="..\sercx\nc-sercx-evt_sercx_purge.md">EvtSerCxPurge</a>
 
 
 
@@ -200,11 +184,11 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 
 
-<a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
+<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
+<a href="..\sercx\nc-sercx-evt_sercx_control.md">EvtSerCxControl</a>
 
 
 
@@ -212,7 +196,23 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_transmit.md">EvtSerCxTransmit</a>
+<a href="..\sercx\nc-sercx-evt_sercx_receive_cancel.md">EvtSerCxReceiveCancel</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx_filecleanup.md">EvtSerCxFileCleanup</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a>
+
+
+
+<a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
 
 
 

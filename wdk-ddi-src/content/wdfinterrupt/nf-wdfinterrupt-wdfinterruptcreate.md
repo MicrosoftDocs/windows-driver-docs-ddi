@@ -271,15 +271,7 @@ status = WdfInterruptCreate(
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
-
-
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_config_init.md">WDF_INTERRUPT_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
 
 
 
@@ -287,7 +279,15 @@ status = WdfInterruptCreate(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_config_init.md">WDF_INTERRUPT_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
 
 
 

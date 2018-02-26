@@ -171,18 +171,6 @@ For more information about creating custom-transmit-transaction objects, see <a 
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
-
-
-
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2_custom_transmit_transaction_config_init.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT</a>
 
 
@@ -191,11 +179,7 @@ For more information about creating custom-transmit-transaction objects, see <a 
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_start.md">EvtSerCx2CustomTransmitTransactionStart</a>
 
 
 
@@ -203,11 +187,27 @@ For more information about creating custom-transmit-transaction objects, see <a 
 
 
 
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_start.md">EvtSerCx2CustomTransmitTransactionStart</a>
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
 
 
 

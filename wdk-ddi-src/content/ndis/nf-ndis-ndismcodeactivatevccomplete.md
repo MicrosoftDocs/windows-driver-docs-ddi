@@ -131,16 +131,16 @@ A call to
 
 
 
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
    ProtocolCmDeactivateVcComplete</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
 
 

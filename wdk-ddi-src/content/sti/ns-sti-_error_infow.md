@@ -7,7 +7,7 @@ old-location: image\sti_error_info.htm
 old-project: image
 ms.assetid: e448ddfc-ae5a-4eb8-a39c-e46771278081
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PSTI_ERROR_INFO, *PSTI_ERROR_INFOW, ,, E, F, I, N, O, P, PSTI_ERROR_INFO, PSTI_ERROR_INFO structure pointer [Imaging Devices], R, S, STI_ERROR_INFO, STI_ERROR_INFO structure [Imaging Devices], STI_ERROR_INFOW, T, W, _, _ERROR_INFOW, image.sti_error_info, sti/PSTI_ERROR_INFO, sti/STI_ERROR_INFO, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

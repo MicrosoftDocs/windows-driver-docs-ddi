@@ -7,7 +7,7 @@ old-location: kernel\iovolumedevicetodosname.htm
 old-project: kernel
 ms.assetid: f860d0ad-f971-4ba7-93fb-20fe8831fc90
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, I, IoVolumeDeviceToDosName, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], N, T, V, a, c, e, i, k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, kernel.iovolumedevicetodosname, l, m, ntddk/IoVolumeDeviceToDosName, o, s, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,7 +121,7 @@ The routine failed to allocate resources required for this operation.
 
 
 
-<b>IoVolumeDeviceToDosName</b> allocates the string buffer pointed to by the <b>Buffer</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the <i>DosName</i> parameter points to. After this buffer is no longer required, a caller of this routine should call the <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> routine to free the buffer.
+<b>IoVolumeDeviceToDosName</b> allocates the string buffer pointed to by the <b>Buffer</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the <i>DosName</i> parameter points to. After this buffer is no longer required, a caller of this routine should call the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine to free the buffer.
 
 Starting with Windows Vista, you must ensure that APCs are <u>not</u> disabled before calling this routine. The <a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a> routine can be used to verify that APCs are not disabled.
 
@@ -130,11 +130,7 @@ Starting with Windows Vista, you must ensure that APCs are <u>not</u> disabled 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
@@ -142,9 +138,13 @@ Starting with Windows Vista, you must ensure that APCs are <u>not</u> disabled 
 
 
 
- 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoVolumeDeviceToDosName routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoVolumeDeviceToDosName routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: print\setjobnamedproperty.htm
 old-project: print
 ms.assetid: 6A03B009-21D4-4CD2-9BB5-36F402118270
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , J, N, P, S, SetJobNamedProperty, SetJobNamedProperty function [Print Devices], a, b, d, e, m, o, p, print.setjobnamedproperty, r, t, winspool/SetJobNamedProperty, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

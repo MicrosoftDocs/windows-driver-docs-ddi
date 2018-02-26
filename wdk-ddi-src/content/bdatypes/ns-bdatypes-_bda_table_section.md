@@ -7,7 +7,7 @@ old-location: stream\bda_table_section.htm
 old-project: stream
 ms.assetid: f7669c36-6bf0-477e-8466-46a3da015cf3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PBDA_TABLE_SECTION, ,, A, B, BDA_TABLE_SECTION, BDA_TABLE_SECTION structure [Streaming Media Devices], C, D, E, I, L, N, O, P, PBDA_TABLE_SECTION, PBDA_TABLE_SECTION structure pointer [Streaming Media Devices], S, T, _, _BDA_TABLE_SECTION, bdaref_cf9fff4a-3ab2-4cf1-9db8-fccd36661cad.xml, bdatypes/BDA_TABLE_SECTION, bdatypes/PBDA_TABLE_SECTION, stream.bda_table_section"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,5 +100,5 @@ Array of table section data.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_TABLE_SECTION structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_TABLE_SECTION structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\scsi_wmi_request_block.htm
 old-project: storage
 ms.assetid: 6dc10c3a-b47e-42c3-a209-34977fb219f1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSCSI_WMI_REQUEST_BLOCK, ,, B, C, E, I, K, L, M, O, P, PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK structure pointer [Storage Devices], Q, R, S, SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK structure [Storage Devices], T, U, W, _, _SCSI_WMI_REQUEST_BLOCK, srb/PSCSI_WMI_REQUEST_BLOCK, srb/SCSI_WMI_REQUEST_BLOCK, storage.scsi_wmi_request_block, structs-scsibus_6188bca6-990b-4471-b8ea-2cd5b2b27d51.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -279,14 +279,6 @@ For information about supporting WMI in miniport drivers, see the <a href="https
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-
-
-
 <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
@@ -295,9 +287,17 @@ For information about supporting WMI in miniport drivers, see the <a href="https
 
 
 
- 
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_WMI_REQUEST_BLOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_WMI_REQUEST_BLOCK structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

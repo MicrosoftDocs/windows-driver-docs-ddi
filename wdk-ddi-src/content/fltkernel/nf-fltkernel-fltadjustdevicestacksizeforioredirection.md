@@ -152,14 +152,6 @@ In the pre-operation callback for every operation that needs redirection, use <a
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowedforoperation.md">FltIsIoRedirectionAllowedForOperation</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
 
@@ -169,6 +161,14 @@ In the pre-operation callback for every operation that needs redirection, use <a
 
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowedforoperation.md">FltIsIoRedirectionAllowedForOperation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a>
 
 
 

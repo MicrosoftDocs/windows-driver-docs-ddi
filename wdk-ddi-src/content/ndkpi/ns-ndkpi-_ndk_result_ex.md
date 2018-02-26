@@ -104,7 +104,7 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
 
 
@@ -112,7 +112,7 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
 
 
 

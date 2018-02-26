@@ -7,7 +7,7 @@ old-location: stream\video_stream_init_parms.htm
 old-project: stream
 ms.assetid: 0FEC5054-8045-4CE5-AA59-AE3D23568308
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *LPVIDEO_STREAM_INIT_PARMS, ,, A, D, E, I, L, LPVIDEO_STREAM_INIT_PARMS, LPVIDEO_STREAM_INIT_PARMS structure pointer [Streaming Media Devices], M, N, O, P, R, S, T, V, VIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS structure [Streaming Media Devices], _, a, d, e, g, i, m, msviddrv/LPVIDEO_STREAM_INIT_PARMS, msviddrv/VIDEO_STREAM_INIT_PARMS, n, o, p, r, s, stream.video_stream_init_parms, t, tag_video_stream_init_parms, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

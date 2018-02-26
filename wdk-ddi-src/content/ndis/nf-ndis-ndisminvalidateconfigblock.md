@@ -178,6 +178,10 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a>
 
 
@@ -187,10 +191,6 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
 
 
 

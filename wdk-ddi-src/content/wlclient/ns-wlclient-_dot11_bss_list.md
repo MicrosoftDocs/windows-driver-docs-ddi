@@ -108,7 +108,13 @@ The 802.11 Beacon and Probe Response frames within the
 
 
 
-<a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 
 
@@ -117,13 +123,7 @@ The 802.11 Beacon and Probe Response frames within the
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
-   Dot11ExtIhvPerformPreAssociate</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
+<a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a>
 
 
 

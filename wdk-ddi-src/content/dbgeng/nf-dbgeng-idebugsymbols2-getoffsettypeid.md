@@ -7,7 +7,7 @@ old-location: debugger\getoffsettypeid.htm
 old-project: debugger
 ms.assetid: cf533f21-90eb-46ec-860f-d12a8d40c430
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, D, G, GetOffsetTypeId method [Windows Debugging], GetOffsetTypeId method [Windows Debugging], IDebugSymbols interface, GetOffsetTypeId method [Windows Debugging], IDebugSymbols2 interface, GetOffsetTypeId method [Windows Debugging], IDebugSymbols3 interface, GetOffsetTypeId,IDebugSymbols.GetOffsetTypeId, GetOffsetTypeId,IDebugSymbols2.GetOffsetTypeId, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols2::GetOffsetTypeId, IDebugSymbols3 interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols3::GetOffsetTypeId, IDebugSymbols::GetOffsetTypeId, IDebugSymbols_3f41981b-8ed2-4828-8bfb-a50b934a65ee.xml, O, S, T, b, d, dbgeng/IDebugSymbols2::GetOffsetTypeId, dbgeng/IDebugSymbols3::GetOffsetTypeId, dbgeng/IDebugSymbols::GetOffsetTypeId, debugger.getoffsettypeid, e, f, g, l, m, o, p, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,7 +125,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
 
 
 
@@ -141,7 +141,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -149,5 +149,5 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetOffsetTypeId method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetOffsetTypeId method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: kernel\silo_monitor_create_callback.htm
 old-project: kernel
 ms.assetid: C26C5162-4BB0-401E-9AF5-AF1D2D8715F9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: CreateCallback, CreateCallback callback function [Kernel-Mode Driver Architecture], SILO_MONITOR_CREATE_CALLBACK, kernel.silo_monitor_create_callback, ntddk/CreateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

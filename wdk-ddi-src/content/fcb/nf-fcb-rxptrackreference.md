@@ -163,7 +163,7 @@ For retail builds, this function does nothing.
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 
@@ -171,19 +171,19 @@ For retail builds, this function does nothing.
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-
-
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 
 
+<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 

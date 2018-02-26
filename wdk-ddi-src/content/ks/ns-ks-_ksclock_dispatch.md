@@ -7,7 +7,7 @@ old-location: stream\ksclock_dispatch.htm
 old-project: stream
 ms.assetid: cc9b7049-7b43-4c66-9d08-93af22d92540
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSCLOCK_DISPATCH, ,, A, C, D, H, I, K, KSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], L, O, P, PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], S, T, _, _KSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml, ks/KSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, stream.ksclock_dispatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,18 +150,6 @@ The function should be prototyped as follows:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
-
-
-
-<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
 
 
@@ -174,9 +162,21 @@ The function should be prototyped as follows:
 
 
 
- 
+<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSCLOCK_DISPATCH structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSCLOCK_DISPATCH structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

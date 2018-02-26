@@ -7,7 +7,7 @@ old-location: kernel\rtluint8tochar.htm
 old-project: kernel
 ms.assetid: 78EAB56F-8E6D-4048-83DC-1B9BC75E08B5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , 8, C, I, R, RtlUInt8ToChar, RtlUInt8ToChar function [Kernel-Mode Driver Architecture], T, U, a, h, kernel.rtluint8tochar, l, n, ntintsafe/RtlUInt8ToChar, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

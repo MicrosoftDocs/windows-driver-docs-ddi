@@ -7,7 +7,7 @@ old-location: kernel\iodecrementkeepalivecount.htm
 old-project: kernel
 ms.assetid: 2A8BC777-291C-4EC4-8EF9-AA78C6295700
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, D, I, IoDecrementKeepAliveCount, IoDecrementKeepAliveCount routine [Kernel-Mode Driver Architecture], K, c, e, i, kernel.iodecrementkeepalivecount, l, m, n, ntddk/IoDecrementKeepAliveCount, o, p, r, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

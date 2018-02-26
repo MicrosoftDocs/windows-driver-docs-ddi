@@ -7,7 +7,7 @@ old-location: image\wiasgetchildrencontexts.htm
 old-project: image
 ms.assetid: a69216f4-1272-488f-8d06-8dc3b6a88452
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, G, a, d, e, h, i, image.wiasgetchildrencontexts, l, n, o, r, s, t, w, wiamdef/wiasGetChildrenContexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiasGetChildrenContexts, wiasGetChildrenContexts function [Imaging Devices], x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

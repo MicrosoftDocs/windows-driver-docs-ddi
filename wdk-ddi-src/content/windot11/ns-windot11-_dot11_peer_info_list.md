@@ -140,11 +140,11 @@ This structure is used with
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_peer_info.md">DOT11_PEER_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569361">OID_DOT11_ENUM_PEER_INFO</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_peer_info.md">DOT11_PEER_INFO</a>
 
 
 

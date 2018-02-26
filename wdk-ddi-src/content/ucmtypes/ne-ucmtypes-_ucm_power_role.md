@@ -4,10 +4,10 @@ title: "_UCM_POWER_ROLE"
 author: windows-driver-content
 description: Defines power roles of USB Type-C connected devices.
 old-location: buses\ucm_power_role.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, C, E, L, M, O, P, R, U, UCM_POWER_ROLE, UCM_POWER_ROLE enumeration [Buses], UcmPowerRoleInvalid, UcmPowerRoleSink, UcmPowerRoleSource, W, _, _UCM_POWER_ROLE, buses.ucm_power_role, ucmtypes/UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, ucmtypes/UcmPowerRoleSink, ucmtypes/UcmPowerRoleSource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,17 +91,17 @@ Indicates the power role is set to source power.
 
 
 
-<a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt187914">UcmConnectorPowerDirectionChanged</a>
 
 
 
- 
+<a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UCM_POWER_ROLE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_POWER_ROLE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

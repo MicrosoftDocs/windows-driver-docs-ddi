@@ -205,12 +205,11 @@ To deregister a DMA provider, a DMA provider driver calls the
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-   NET_DMA_PROVIDER_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 
@@ -219,11 +218,12 @@ To deregister a DMA provider, a DMA provider driver calls the
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
 
 
 

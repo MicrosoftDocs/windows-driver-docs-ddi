@@ -173,19 +173,7 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
 
 
@@ -193,7 +181,19 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 
 

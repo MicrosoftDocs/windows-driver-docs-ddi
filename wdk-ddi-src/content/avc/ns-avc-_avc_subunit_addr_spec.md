@@ -7,7 +7,7 @@ old-location: stream\avc_subunit_addr_spec.htm
 old-project: stream
 ms.assetid: fa9fedc5-cacc-409a-99f5-7103b5424b3c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PAVC_SUBUNIT_ADDR_SPEC, ,, A, AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices], B, C, D, E, I, N, P, PAVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], R, S, T, U, V, _, _AVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, stream.avc_subunit_addr_spec"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,5 +116,5 @@ A Subunit Address encoded according to Section 5.3.3 of the AV/C Digital Interfa
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_SUBUNIT_ADDR_SPEC structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_SUBUNIT_ADDR_SPEC structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

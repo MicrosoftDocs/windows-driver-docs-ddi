@@ -127,15 +127,15 @@ The capability is set.
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
 
 

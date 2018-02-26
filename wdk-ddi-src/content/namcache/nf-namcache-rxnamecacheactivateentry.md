@@ -120,15 +120,7 @@ The <b>RxNameCacheActivateEntry</b> routine assumes that the name cache entry is
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
-
-
-
 <a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
-
-
-
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
 
 
 
@@ -136,11 +128,19 @@ The <b>RxNameCacheActivateEntry</b> routine assumes that the name cache entry is
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
 
 
 
 <a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
 
 
 

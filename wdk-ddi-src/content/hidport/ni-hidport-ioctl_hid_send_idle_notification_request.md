@@ -7,7 +7,7 @@ old-location: hid\ioctl_hid_send_idle_notification_request.htm
 old-project: hid
 ms.assetid: AD653C7C-7C43-4258-98F8-3D9EDB51AE44
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST, IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST control code [Human Input Devices], hid.ioctl_hid_send_idle_notification_request, hidport/IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -128,15 +128,11 @@ hr = m_IWdfDevice3-&gt;CreateWorkItem(&amp;config,
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
-
-
-
 <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
 
 
 
-<a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
+<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
 
 
 
@@ -144,7 +140,11 @@ hr = m_IWdfDevice3-&gt;CreateWorkItem(&amp;config,
 
 
 
-<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
+
+
+<a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
 
 
 

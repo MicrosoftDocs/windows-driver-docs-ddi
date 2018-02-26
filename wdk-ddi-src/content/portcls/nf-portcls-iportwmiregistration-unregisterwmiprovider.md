@@ -85,7 +85,7 @@ The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
 
 
 
@@ -93,7 +93,7 @@ The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
+<a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
 
 
 

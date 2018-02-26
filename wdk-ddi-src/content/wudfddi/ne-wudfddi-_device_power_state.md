@@ -116,11 +116,11 @@ The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="https://m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
 
 
 

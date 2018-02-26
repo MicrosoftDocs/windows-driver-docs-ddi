@@ -7,7 +7,7 @@ old-location: kernel\zwpreprepareenlistment.htm
 old-project: kernel
 ms.assetid: adf2513c-9a0e-4552-baad-010ab243e9dc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, NtPrePrepareEnlistment, P, Z, ZwPrePrepareEnlistment, ZwPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], a, e, i, kernel.zwpreprepareenlistment, ktm_ref_42a63780-131c-4b65-ad22-ec32b713c0fe.xml, l, m, n, p, r, s, t, w, wdm/NtPrePrepareEnlistment, wdm/ZwPrePrepareEnlistment"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -186,15 +186,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
 
-<a href="..\wdm\nf-wdm-tmpreprepareenlistment.md">TmPrePrepareEnlistment</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 
@@ -202,9 +198,13 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
- 
+<a href="..\wdm\nf-wdm-tmpreprepareenlistment.md">TmPrePrepareEnlistment</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwPrePrepareEnlistment routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwPrePrepareEnlistment routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

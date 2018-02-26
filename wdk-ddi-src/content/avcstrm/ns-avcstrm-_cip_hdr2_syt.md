@@ -7,7 +7,7 @@ old-location: stream\cip_hdr2_syt.htm
 old-project: stream
 ms.assetid: e66b721f-4cc0-4d35-9e24-6d7dd4029ea4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PCIP_HDR2_SYT, ,, 2, C, CIP_HDR2_SYT, CIP_HDR2_SYT structure [Streaming Media Devices], D, H, I, P, PCIP_HDR2_SYT, PCIP_HDR2_SYT structure pointer [Streaming Media Devices], R, S, T, Y, _, _CIP_HDR2_SYT, avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, avcstrm/CIP_HDR2_SYT, avcstrm/PCIP_HDR2_SYT, stream.cip_hdr2_syt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,5 +112,5 @@ Must be set to 1:0.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20CIP_HDR2_SYT structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20CIP_HDR2_SYT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

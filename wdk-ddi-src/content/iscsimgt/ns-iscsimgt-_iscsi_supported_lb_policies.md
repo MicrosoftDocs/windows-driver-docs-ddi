@@ -7,7 +7,7 @@ old-location: storage\iscsi_supported_lb_policies.htm
 old-project: storage
 ms.assetid: 053b9f14-7319-4599-886e-3c03c717b348
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PISCSI_Supported_LB_Policies, ,, B, C, I, ISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies structure [Storage Devices], L, P, PISCSI_Supported_LB_Policies, PISCSI_Supported_LB_Policies structure pointer [Storage Devices], S, _, _ISCSI_Supported_LB_Policies, c, d, e, i, iscsimgt/ISCSI_Supported_LB_Policies, iscsimgt/PISCSI_Supported_LB_Policies, l, o, p, r, s, storage.iscsi_supported_lb_policies, structs-iSCSI_4ea7817e-3ec1-46cf-a492-ac327f5d3912.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -172,5 +172,5 @@ Path information as shown in the <a href="..\iscsimgt\ns-iscsimgt-_iscsi_path.md
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_Supported_LB_Policies structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_Supported_LB_Policies structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

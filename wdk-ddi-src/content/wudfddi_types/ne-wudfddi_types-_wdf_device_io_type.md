@@ -137,7 +137,7 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
 
 
 
@@ -145,7 +145,7 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
 
 
 

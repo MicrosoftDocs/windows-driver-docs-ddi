@@ -7,8 +7,8 @@ old-location: debugger\getsymbol.htm
 old-project: debugger
 ms.assetid: bec1b12f-0bf7-4cdd-86fe-baec2316d3c8
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: GetSymbol, GetSymbol function [Windows Debugging], PWINDBG_GET_SYMBOL, WdbgExts_Ref_a892aa24-d1ee-43f4-8fd5-ea8d00aa678a.xml, debugger.getsymbol, wdbgexts/GetSymbol
+ms.date: 2/23/2018
+ms.keywords: GetSymbol, GetSymbol callback function [Windows Debugging], PWINDBG_GET_SYMBOL, WdbgExts_Ref_a892aa24-d1ee-43f4-8fd5-ea8d00aa678a.xml, debugger.getsymbol, wdbgexts/GetSymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -33,7 +33,7 @@ topictype:
 -	APIRef
 -	kbSyntax
 apitype:
--	HeaderDef
+-	UserDefined
 apilocation:
 -	wdbgexts.h
 apiname:
@@ -89,7 +89,7 @@ Specifies the displacement from the beginning of the symbol.
 
 
 
-This function does not return a value.
+This callback function does not return a value.
 
 
 

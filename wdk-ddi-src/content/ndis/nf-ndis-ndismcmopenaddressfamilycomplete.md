@@ -153,12 +153,12 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
+   NdisCmOpenAddressFamilyComplete</a>
 
 
 
@@ -166,8 +166,8 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
-   NdisCmOpenAddressFamilyComplete</a>
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
 
 

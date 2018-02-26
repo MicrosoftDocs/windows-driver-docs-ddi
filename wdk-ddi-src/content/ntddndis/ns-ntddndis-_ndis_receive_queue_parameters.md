@@ -273,15 +273,6 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
 
 
@@ -296,7 +287,16 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 
 

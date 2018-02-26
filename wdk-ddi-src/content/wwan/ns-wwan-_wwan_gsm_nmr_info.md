@@ -129,11 +129,11 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 
@@ -141,7 +141,7 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 

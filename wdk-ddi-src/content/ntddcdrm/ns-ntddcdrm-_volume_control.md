@@ -7,7 +7,7 @@ old-location: storage\volume_control.htm
 old-project: storage
 ms.assetid: 47512360-60fe-43f2-8052-58ca78e36d86
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PVOLUME_CONTROL, ,, C, E, L, M, N, O, P, PVOLUME_CONTROL, PVOLUME_CONTROL structure pointer [Storage Devices], R, T, U, V, VOLUME_CONTROL, VOLUME_CONTROL structure [Storage Devices], _, _VOLUME_CONTROL, ntddcdrm/PVOLUME_CONTROL, ntddcdrm/VOLUME_CONTROL, storage.volume_control, structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,5 +82,5 @@ Pointer to an array of volume values, one for each of the ports, with a maximum 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VOLUME_CONTROL structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VOLUME_CONTROL structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

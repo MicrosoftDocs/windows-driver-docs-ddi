@@ -7,7 +7,7 @@ old-location: print\iprintreadstreamfactory_getstream.htm
 old-project: print
 ms.assetid: 47447f00-a57d-4821-b10e-1b2cf7eaad94
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, F, G, GetStream method [Print Devices], GetStream method [Print Devices], IPrintReadStreamFactory interface, GetStream,IPrintReadStreamFactory.GetStream, I, IPrintReadStreamFactory, IPrintReadStreamFactory interface [Print Devices], GetStream method, IPrintReadStreamFactory::GetStream, P, R, S, a, c, d, e, filterpipeline/IPrintReadStreamFactory::GetStream, filterpipeline_0e4b4a26-da03-4719-bbce-2bb160a882e2.xml, i, m, n, o, print.iprintreadstreamfactory_getstream, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -218,7 +218,15 @@ status = WdfWmiProviderCreate(
 
 ## -see-also
 
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergetdevice.md">WdfWmiProviderGetDevice</a>
 
 
 
@@ -227,14 +235,6 @@ status = WdfWmiProviderCreate(
 
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergetdevice.md">WdfWmiProviderGetDevice</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

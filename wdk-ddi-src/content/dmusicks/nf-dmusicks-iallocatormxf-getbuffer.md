@@ -101,15 +101,15 @@ The size of the buffer can determined by calling <a href="https://msdn.microsoft
 
 ## -see-also
 
+<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536493">IAllocatorMXF::GetBufferSize</a>
 
 
 
 <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
 
 
 

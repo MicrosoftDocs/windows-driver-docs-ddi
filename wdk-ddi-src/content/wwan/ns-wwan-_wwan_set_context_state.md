@@ -260,19 +260,19 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_activation_command.md">WWAN_ACTIVATION_COMMAND</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_context_state.md">NDIS_WWAN_SET_CONTEXT_STATE</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_activation_command.md">WWAN_ACTIVATION_COMMAND</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_context_state.md">NDIS_WWAN_SET_CONTEXT_STATE</a>
 
 
 

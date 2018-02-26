@@ -150,20 +150,20 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
+<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+
+
 <a href="..\wsk\nf-wsk-wskqueryprovidercharacteristics.md">
    WskQueryProviderCharacteristics</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
-
-
-
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
 
 

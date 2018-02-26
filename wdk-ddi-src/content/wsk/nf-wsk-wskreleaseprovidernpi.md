@@ -105,11 +105,11 @@ For each call to
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
 

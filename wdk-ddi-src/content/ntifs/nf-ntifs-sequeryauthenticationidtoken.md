@@ -115,7 +115,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
 
 
 
@@ -123,11 +123,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
-
-
-
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
 
 
 
@@ -135,11 +131,15 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
 
 

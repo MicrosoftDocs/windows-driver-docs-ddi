@@ -149,16 +149,16 @@ NetDMA provider drivers call
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisgetroutineaddress.md">NdisGetRoutineAddress</a>
 
 
 
 <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 

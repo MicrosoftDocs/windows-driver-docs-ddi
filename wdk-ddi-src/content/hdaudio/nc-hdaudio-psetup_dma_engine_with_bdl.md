@@ -330,23 +330,11 @@ The caller must allocate the buffer memory and BDL from the nonpaged pool.
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_buffer_descriptor.md">HDAUDIO_BUFFER_DESCRIPTOR</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
 
 
 
@@ -355,6 +343,18 @@ The caller must allocate the buffer memory and BDL from the nonpaged pool.
 
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
 
 

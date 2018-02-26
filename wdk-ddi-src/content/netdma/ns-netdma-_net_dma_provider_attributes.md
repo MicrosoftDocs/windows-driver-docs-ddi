@@ -142,20 +142,20 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 ## -see-also
 
+<a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
+
+
+
 <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
+<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-
-
-<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
 
 

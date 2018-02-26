@@ -7,7 +7,7 @@ old-location: kernel\zwopentransaction.htm
 old-project: kernel
 ms.assetid: 5ffa50af-24e6-4dab-81cc-6ac26356e9c6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , N, NtOpenTransaction, O, T, ZwOpenTransaction, ZwOpenTransaction routine [Kernel-Mode Driver Architecture], a, c, e, i, kernel.zwopentransaction, ktm_ref_ed0e1a06-e5e2-4328-aeeb-d56a78d6a757.xml, n, o, p, r, s, t, wdm/NtOpenTransaction, wdm/ZwOpenTransaction"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -193,15 +193,23 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
 
 
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
 
 
 
@@ -213,17 +221,9 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwOpenTransaction routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwOpenTransaction routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

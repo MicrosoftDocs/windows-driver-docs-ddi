@@ -7,7 +7,7 @@ old-location: stream\ksvalidatetopologynodecreaterequest.htm
 old-project: stream
 ms.assetid: a7d69bf8-7aa8-46c2-98f9-769ee174757b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, K, KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest function [Streaming Media Devices], N, R, T, V, a, d, e, g, i, ks/KsValidateTopologyNodeCreateRequest, ksfunc_f2b7fc56-1bca-4de5-981b-68364aa96fa7.xml, l, o, p, q, r, s, stream.ksvalidatetopologynodecreaterequest, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

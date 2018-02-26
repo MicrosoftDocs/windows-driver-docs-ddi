@@ -4,10 +4,10 @@ title: IOCTL_USB_GET_DEVICE_CHARACTERISTICS
 author: windows-driver-content
 description: The client driver sends this request to determine general characteristics about a USB device, such as maximum send and receive delays for any request.
 old-location: buses\_ioctl_usb_get_device_characteristics.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: FEEF13FE-E7CF-4513-8E16-B1E46283883C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_USB_GET_DEVICE_CHARACTERISTICS, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control code [Buses], buses._ioctl_usb_get_device_characteristics, usbioctl/ IOCTL_USB_GET_DEVICE_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,10 +116,6 @@ The size of the <a href="..\usbioctl\ns-usbioctl-_usb_device_characteristics.md"
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
@@ -136,9 +132,13 @@ The size of the <a href="..\usbioctl\ns-usbioctl-_usb_device_characteristics.md"
 
 
 
- 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20 IOCTL_USB_GET_DEVICE_CHARACTERISTICS control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20 IOCTL_USB_GET_DEVICE_CHARACTERISTICS control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

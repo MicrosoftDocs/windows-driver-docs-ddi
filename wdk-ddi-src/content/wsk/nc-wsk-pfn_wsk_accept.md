@@ -281,10 +281,6 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
 
@@ -293,20 +289,7 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
-   WSK_CLIENT_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
@@ -314,7 +297,24 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+   WSK_CLIENT_CONNECTION_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 

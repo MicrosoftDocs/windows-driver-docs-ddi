@@ -165,15 +165,15 @@ After receiving a <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536744">IMiniportWaveRTStream::AllocateAudioBuffer</a>
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
 
 
 
 <a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536744">IMiniportWaveRTStream::AllocateAudioBuffer</a>
 
 
 

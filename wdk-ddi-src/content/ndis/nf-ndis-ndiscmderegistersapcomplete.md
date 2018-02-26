@@ -117,16 +117,16 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
    ProtocolClDeregisterSapComplete</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
 
 
 

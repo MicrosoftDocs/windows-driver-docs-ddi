@@ -111,6 +111,10 @@ Typically, an overlying driver calls
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
@@ -121,10 +125,6 @@ Typically, an overlying driver calls
 
 
 <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
 
 
 

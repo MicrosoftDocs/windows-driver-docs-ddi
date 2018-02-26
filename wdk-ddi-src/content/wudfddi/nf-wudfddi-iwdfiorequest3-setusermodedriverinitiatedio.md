@@ -107,15 +107,15 @@ The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdf
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451341">GetUserModeDriverInitiatedIo</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio.md">WdfRequestSetUserModeDriverInitiatedIo</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451341">GetUserModeDriverInitiatedIo</a>
 
 
 

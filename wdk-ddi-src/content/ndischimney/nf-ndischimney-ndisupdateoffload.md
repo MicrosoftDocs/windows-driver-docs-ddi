@@ -125,8 +125,12 @@ From the
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
+   ProtocolUpdateOffloadComplete</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
 
 
 
@@ -135,7 +139,7 @@ From the
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
 
 
@@ -143,12 +147,8 @@ From the
 
 
 
-<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
-   ProtocolUpdateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 

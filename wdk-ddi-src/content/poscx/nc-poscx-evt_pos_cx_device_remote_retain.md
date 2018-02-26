@@ -7,7 +7,7 @@ old-location: pos\evt_pos_cx_device_remote_retain.htm
 old-project: pos
 ms.assetid: 9B23DB23-D995-4737-9302-872F2144823D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RETAIN, EvtPosCxDeviceRemoteRetain, EvtPosCxDeviceRemoteRetain callback function, pos.evt_pos_cx_device_remote_retain, poscx/EvtPosCxDeviceRemoteRetain
 ms.prod: windows-hardware
 ms.technology: windows-devices

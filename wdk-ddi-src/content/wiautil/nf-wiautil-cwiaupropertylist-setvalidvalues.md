@@ -7,7 +7,7 @@ old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
 old-project: image
 ms.assetid: b806e310-4e6d-4258-8dd5-0c9aa35a35f4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], SetValidValues method, CWiauPropertyList::SetValidValues, L, P, S, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices], CWiauPropertyList interface, SetValidValues,CWiauPropertyList.SetValidValues, V, W, a, d, e, i, image.cwiaupropertylist_setvalidvalues_bstr__list_, l, o, p, r, s, t, u, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,5 +131,5 @@ This method does not return a value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20CWiauPropertyList::SetValidValues method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20CWiauPropertyList::SetValidValues method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

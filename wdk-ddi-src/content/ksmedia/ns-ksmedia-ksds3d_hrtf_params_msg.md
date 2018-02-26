@@ -115,11 +115,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537357">KSPROPERTY_HRTF3D_PARAMS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
 
 
 

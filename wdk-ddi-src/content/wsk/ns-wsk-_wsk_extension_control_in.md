@@ -109,15 +109,15 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 
 <a href="..\wsk\ns-wsk-_wsk_extension_control_out.md">WSK_EXTENSION_CONTROL_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
 
 
 

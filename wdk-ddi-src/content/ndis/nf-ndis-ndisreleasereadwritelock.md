@@ -121,15 +121,7 @@ A driver must call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
-
-
-
 <a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisAcquireReadWriteLock</a>
 
 
 
@@ -137,7 +129,15 @@ A driver must call the
 
 
 
+<a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_rw_lock.md">NDIS_RW_LOCK</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisAcquireReadWriteLock</a>
 
 
 

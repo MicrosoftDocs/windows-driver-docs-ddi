@@ -147,12 +147,12 @@ For more information about Native 802.11 operation modes, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-current-operation-mode">
    OID_DOT11_CURRENT_OPERATION_MODE</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
 
 

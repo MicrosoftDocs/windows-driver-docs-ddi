@@ -7,7 +7,7 @@ old-location: storage\dvd_copy_protect_key.htm
 old-project: storage
 ms.assetid: 79f3fdaf-e23a-40ba-a1eb-5428a63cc96a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDVD_COPY_PROTECT_KEY, ,, C, D, DVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY structure [Storage Devices], E, K, O, P, PDVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], R, T, V, Y, _, _DVD_COPY_PROTECT_KEY, ntddcdvd/DVD_COPY_PROTECT_KEY, ntddcdvd/PDVD_COPY_PROTECT_KEY, storage.dvd_copy_protect_key, structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,5 +137,5 @@ Contains the key data that was returned.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_COPY_PROTECT_KEY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_COPY_PROTECT_KEY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

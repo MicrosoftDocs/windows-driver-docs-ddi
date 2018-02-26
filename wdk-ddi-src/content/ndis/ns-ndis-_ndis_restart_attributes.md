@@ -134,7 +134,7 @@ When it restarts a protocol binding, NDIS provides a pointer to an NDIS_RESTART_
     <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
     NET_PNP_EVENT_NOTIFICATION</a> structure, that NDIS passes to 
     <i>ProtocolNetPnPEvent</i>, contains a 
-    <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a> structure. The NET_PNP_EVENT
+    <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a> structure. The NET_PNP_EVENT
     structure specifies 
     <b>NetEventRestart</b> in the 
     <b>NetEvent</b> member and a pointer to the NDIS_PROTOCOL_RESTART_PARAMETERS structure in the 
@@ -155,12 +155,7 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
-   NDIS_RESTART_GENERAL_ATTRIBUTES</a>
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 
 
@@ -169,11 +164,16 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
+   NDIS_PROTOCOL_RESTART_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 
@@ -182,12 +182,12 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
-   NDIS_PROTOCOL_RESTART_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+<a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
+   NDIS_RESTART_GENERAL_ATTRIBUTES</a>
 
 
 

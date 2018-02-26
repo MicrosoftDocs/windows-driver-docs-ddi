@@ -7,7 +7,7 @@ old-location: stream\bda_wmdrm_status.htm
 old-project: stream
 ms.assetid: FEE7B3B2-2433-4772-8E79-C325ECC343FF
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PBDA_WMDRM_STATUS, ,, A, B, BDA_WMDRM_STATUS, BDA_WMDRM_STATUS structure [Streaming Media Devices], D, M, P, PBDA_WMDRM_STATUS, PBDA_WMDRM_STATUS structure pointer [Streaming Media Devices], R, S, T, U, W, _, _BDA_WMDRM_STATUS, bdatypes/BDA_WMDRM_STATUS, bdatypes/PBDA_WMDRM_STATUS, stream.bda_wmdrm_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices

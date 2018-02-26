@@ -7,7 +7,7 @@ old-location: stream\ksmethod_streamallocator.htm
 old-project: stream
 ms.assetid: 2CADC0BF-D8C0-48EC-8206-E1BD61DF4AD7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, C, D, E, H, K, KSMETHOD_STREAMALLOCATOR, KSMETHOD_STREAMALLOCATOR enumeration [Streaming Media Devices], KSMETHOD_STREAMALLOCATOR_ALLOC, KSMETHOD_STREAMALLOCATOR_FREE, L, M, O, R, S, T, _, ks/KSMETHOD_STREAMALLOCATOR, ks/KSMETHOD_STREAMALLOCATOR_ALLOC, ks/KSMETHOD_STREAMALLOCATOR_FREE, stream.ksmethod_streamallocator"
 ms.prod: windows-hardware
 ms.technology: windows-devices

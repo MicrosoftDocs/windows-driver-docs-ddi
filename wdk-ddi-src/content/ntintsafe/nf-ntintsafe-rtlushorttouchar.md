@@ -7,7 +7,7 @@ old-location: kernel\rtlushorttouchar.htm
 old-project: kernel
 ms.assetid: E288541F-9FE4-4CF6-A576-21620A828C5C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, R, RtlUShortToUChar, RtlUShortToUChar function [Kernel-Mode Driver Architecture], S, T, U, a, h, kernel.rtlushorttouchar, l, ntintsafe/RtlUShortToUChar, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

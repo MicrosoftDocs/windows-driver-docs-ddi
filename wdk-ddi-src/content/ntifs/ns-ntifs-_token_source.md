@@ -80,11 +80,7 @@ Specifies a locally unique identifier (LUID) provided by the source component na
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
-
-
-
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 
 
@@ -92,11 +88,15 @@ Specifies a locally unique identifier (LUID) provided by the source component na
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+
+
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 

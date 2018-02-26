@@ -7,7 +7,7 @@ old-location: display\pfnsignalsynchronizationobjectfromcpucb.htm
 old-project: display
 ms.assetid: E6FD5215-09CE-4DC8-B5AB-F65E68E2A884
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB, d3dumddi/pfnSignalSynchronizationObjectFromCpuCb, display.pfnsignalsynchronizationobjectfromcpucb, pfnSignalSynchronizationObjectFromCpuCb, pfnSignalSynchronizationObjectFromCpuCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

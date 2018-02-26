@@ -136,11 +136,7 @@ A driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
 
 
 
@@ -148,11 +144,15 @@ A driver can call
 
 
 
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 
 

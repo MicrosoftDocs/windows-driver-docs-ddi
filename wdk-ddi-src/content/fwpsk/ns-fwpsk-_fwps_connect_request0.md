@@ -202,11 +202,11 @@ This structure acts as a linked list that contains a record of all the changes m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
 
 
@@ -214,7 +214,7 @@ This structure acts as a linked list that contains a record of all the changes m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
 
 
@@ -223,12 +223,12 @@ This structure acts as a linked list that contains a record of all the changes m
 
 
 
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
    FwpsAcquireWritableLayerDataPointer0</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\iscsi_targetportalgroup.htm
 old-project: storage
 ms.assetid: 28f48224-90b8-45f5-b69d-6bb6a34f64e0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PISCSI_TargetPortalGroup, ,, C, G, I, ISCSI_TargetPortalGroup, ISCSI_TargetPortalGroup structure [Storage Devices], P, PISCSI_TargetPortalGroup, PISCSI_TargetPortalGroup structure pointer [Storage Devices], S, T, _, _ISCSI_TargetPortalGroup, a, e, g, iscsidef/ISCSI_TargetPortalGroup, iscsidef/PISCSI_TargetPortalGroup, l, o, p, r, storage.iscsi_targetportalgroup, structs-iSCSI_27b8d554-5021-49d0-837c-302e7ac033ed.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,5 +92,5 @@ A variable-length array of <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_TargetPortalGroup structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_TargetPortalGroup structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

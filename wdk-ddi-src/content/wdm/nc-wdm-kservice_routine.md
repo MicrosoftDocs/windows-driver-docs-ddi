@@ -7,7 +7,7 @@ old-location: kernel\interruptservice.htm
 old-project: kernel
 ms.assetid: ad104d4d-5e7f-4730-b898-71ab467f9379
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: DrvrRtns_ee9bfb68-3d4c-4abf-9d2b-81037c2572d5.xml, InterruptService, InterruptService routine [Kernel-Mode Driver Architecture], KSERVICE_ROUTINE, kernel.interruptservice, wdm/InterruptService
 ms.prod: windows-hardware
 ms.technology: windows-devices

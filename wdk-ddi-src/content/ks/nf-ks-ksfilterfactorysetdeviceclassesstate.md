@@ -7,7 +7,7 @@ old-location: stream\ksfilterfactorysetdeviceclassesstate.htm
 old-project: stream
 ms.assetid: 66515f08-b652-4aa0-8f22-b5ff0a407d6a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, D, F, K, KsFilterFactorySetDeviceClassesState, KsFilterFactorySetDeviceClassesState function [Streaming Media Devices], S, a, avfunc_a88f0816-e755-450f-b8b7-83dee85171f9.xml, c, e, i, ks/KsFilterFactorySetDeviceClassesState, l, o, r, s, stream.ksfilterfactorysetdeviceclassesstate, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

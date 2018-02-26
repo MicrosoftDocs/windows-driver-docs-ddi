@@ -80,7 +80,7 @@ Indicates an impersonation token.
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 
 
@@ -92,7 +92,7 @@ Indicates an impersonation token.
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 

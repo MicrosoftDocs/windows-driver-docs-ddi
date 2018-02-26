@@ -145,12 +145,12 @@ The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_STARTED_PARAME
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-started">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_STARTED</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

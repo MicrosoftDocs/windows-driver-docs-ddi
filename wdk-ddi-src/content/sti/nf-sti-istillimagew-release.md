@@ -7,8 +7,8 @@ old-location: image\istillimage_release.htm
 old-project: image
 ms.assetid: 3c595531-a1b0-48a5-867c-f1e6558e46ff
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IStillImage interface [Imaging Devices], Release method, IStillImage::Release, IStillImageW, IStillImageW::Release, R, Release method [Imaging Devices], Release method [Imaging Devices], IStillImage interface, Release,IStillImageW.Release, S, W, a, e, g, i, image.istillimage_release, l, m, s, sti/IStillImage::Release, stifnc_e1ab4835-ed24-4c92-a879-f57061656825.xml, t"
+ms.date: 2/23/2018
+ms.keywords: ",  , ,, ., :, I, IStillImageW, IStillImageW interface [Imaging Devices], Release method, IStillImageW::Release, R, Release method [Imaging Devices], Release method [Imaging Devices], IStillImageW interface, Release,IStillImageW.Release, S, W, a, e, g, i, image.istillimage_release, l, m, s, sti/IStillImageW::Release, stifnc_e1ab4835-ed24-4c92-a879-f57061656825.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	Sti.h
 apiname:
--	IStillImage.Release
+-	IStillImageW.Release
 product: Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE

@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountmgr_volume_arrival_notification.htm
 old-project: storage
 ms.assetid: 0c27c49e-a06c-4781-9d7f-50f15f9715ac
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION, IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION control code [Storage Devices], k307_7a15b0f1-9be7-476f-936c-225e39ef53c0.xml, mountmgr/IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION, storage.ioctl_mountmgr_volume_arrival_notification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,5 +121,5 @@ The input buffer size, indicated by <b>InputBufferLength</b>, must be large enou
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

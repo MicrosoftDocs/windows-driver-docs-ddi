@@ -7,7 +7,7 @@ old-location: kernel\cmsetcallbackobjectcontext.htm
 old-project: kernel
 ms.assetid: 69e85037-5c60-404a-b251-dc1622c7d818
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, CmSetCallbackObjectContext, CmSetCallbackObjectContext routine [Kernel-Mode Driver Architecture], ConfigMgrRef_86ecc2b5-c790-4414-973d-6d26475b211d.xml, O, S, a, b, c, e, j, k, kernel.cmsetcallbackobjectcontext, l, m, n, o, t, wdm/CmSetCallbackObjectContext, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,19 +121,7 @@ For more information about <b>CmSetCallbackObjectContext</b> and filtering regis
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560959">REG_OPEN_KEY_INFORMATION_V1</a>
-
-
-
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
-
-
-
-<a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560957">REG_OPEN_KEY_INFORMATION</a>
 
 
 
@@ -141,7 +129,15 @@ For more information about <b>CmSetCallbackObjectContext</b> and filtering regis
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560957">REG_OPEN_KEY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560959">REG_OPEN_KEY_INFORMATION_V1</a>
+
+
+
+<a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
 
 
 
@@ -149,9 +145,13 @@ For more information about <b>CmSetCallbackObjectContext</b> and filtering regis
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CmSetCallbackObjectContext routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CmSetCallbackObjectContext routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

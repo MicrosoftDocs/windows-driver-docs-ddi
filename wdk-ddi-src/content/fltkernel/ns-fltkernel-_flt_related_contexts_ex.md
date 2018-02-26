@@ -129,11 +129,11 @@ For more information about using contexts, see the reference entry for <a href="
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontextsex.md">FltReleaseContextsEx</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 
 
@@ -141,7 +141,7 @@ For more information about using contexts, see the reference entry for <a href="
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 

@@ -173,7 +173,12 @@ When the underlying driver or offload target subsequently completes the disconne
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
+   ProtocolTcpOffloadDisconnectComplete</a>
 
 
 
@@ -187,16 +192,11 @@ When the underlying driver or offload target subsequently completes the disconne
 
 
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
-   ProtocolTcpOffloadDisconnectComplete</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

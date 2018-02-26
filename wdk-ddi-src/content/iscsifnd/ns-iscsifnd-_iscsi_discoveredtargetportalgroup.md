@@ -7,7 +7,7 @@ old-location: storage\iscsi_discoveredtargetportalgroup.htm
 old-project: storage
 ms.assetid: 5c90dbc2-f42a-4c04-8c77-0ef3a712416c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PISCSI_DiscoveredTargetPortalGroup, ,, C, D, G, I, ISCSI_DiscoveredTargetPortalGroup, ISCSI_DiscoveredTargetPortalGroup structure [Storage Devices], P, PISCSI_DiscoveredTargetPortalGroup, PISCSI_DiscoveredTargetPortalGroup structure pointer [Storage Devices], S, T, _, _ISCSI_DiscoveredTargetPortalGroup, a, c, d, e, g, i, iscsifnd/ISCSI_DiscoveredTargetPortalGroup, iscsifnd/PISCSI_DiscoveredTargetPortalGroup, l, o, p, r, s, storage.iscsi_discoveredtargetportalgroup, structs-iSCSI_aa46b46a-73cf-4d06-a5ff-9abc5794f965.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,5 +105,5 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_DiscoveredTargetPortalGroup structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_DiscoveredTargetPortalGroup structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

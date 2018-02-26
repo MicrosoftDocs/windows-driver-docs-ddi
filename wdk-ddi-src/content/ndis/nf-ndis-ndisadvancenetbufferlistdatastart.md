@@ -148,16 +148,8 @@ When protocol drivers call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-   NdisAdvanceNetBufferDataStart</a>
-
-
-
-<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+   NdisRetreatNetBufferListDataStart</a>
 
 
 
@@ -165,12 +157,20 @@ When protocol drivers call
 
 
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
-   NdisRetreatNetBufferListDataStart</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

@@ -138,11 +138,11 @@ If the <b>WdfFileObjectCanBeOptional</b> bit flag is set, the framework's verifi
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a>
-
-
-
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a>
 
 
 

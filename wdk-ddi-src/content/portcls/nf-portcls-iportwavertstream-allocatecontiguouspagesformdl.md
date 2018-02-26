@@ -108,15 +108,15 @@ The <code>AllocateContiguousPagesforMdl</code> method allocates memory pages tha
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
 
 
 
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
 
 

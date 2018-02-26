@@ -7,7 +7,7 @@ old-location: pos\poscxremoterequestrelease.htm
 old-project: pos
 ms.assetid: 1755E30C-15F8-41A9-9F4C-26455C92B66A
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, P, PosCxRemoteRequestRelease, PosCxRemoteRequestRelease function, R, a, e, l, m, o, pos.poscxremoterequestrelease, poscx/PosCxRemoteRequestRelease, q, s, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

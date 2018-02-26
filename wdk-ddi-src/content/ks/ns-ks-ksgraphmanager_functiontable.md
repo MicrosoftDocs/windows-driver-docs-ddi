@@ -7,7 +7,7 @@ old-location: stream\ksgraphmanager_functiontable.htm
 old-project: stream
 ms.assetid: F077B970-F146-43BC-BB92-A836C8843890
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, B, C, E, F, G, H, I, K, KSGRAPHMANAGER_FUNCTIONTABLE, KSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], L, M, N, O, P, PKSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], R, S, T, U, _, ks/KSGRAPHMANAGER_FUNCTIONTABLE, ks/PKSGRAPHMANAGER_FUNCTIONTABLE, stream.ksgraphmanager_functiontable"
 ms.prod: windows-hardware
 ms.technology: windows-devices

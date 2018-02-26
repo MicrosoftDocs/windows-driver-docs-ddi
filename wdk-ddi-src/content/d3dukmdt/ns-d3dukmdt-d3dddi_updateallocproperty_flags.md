@@ -7,7 +7,7 @@ old-location: display\d3dddi_updateallocproperty_flags.htm
 old-project: display
 ms.assetid: 377EC824-9D43-40CA-B5CA-A04402852EA3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, C, D, D3DDDI_UPDATEALLOCPROPERTY_FLAGS, D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure [Display Devices], E, F, G, I, L, O, P, PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, PD3DDDI_UPDATEALLOCPROPERTY_FLAGS structure pointer [Display Devices], R, S, T, U, Y, _, d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY_FLAGS, d3dukmdt/PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, display.d3dddi_updateallocproperty_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -184,11 +184,11 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
 
 

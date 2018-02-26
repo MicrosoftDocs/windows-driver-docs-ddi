@@ -303,8 +303,25 @@ The direct OID request interface is similar to the general OID request interface
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
+<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+   ProtocolDirectOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
 
 
 
@@ -317,25 +334,8 @@ The direct OID request interface is similar to the general OID request interface
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
-   ProtocolDirectOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 

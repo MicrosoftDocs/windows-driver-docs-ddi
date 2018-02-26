@@ -104,7 +104,7 @@ Any NDIS intermediate driver that exports both
     <b>NdisIMAssociateMiniport</b> to inform the NDIS library about its miniport upper edge and its protocol
     lower edge. Such an intermediate driver calls 
     <b>NdisIMAssociateMiniport</b> during its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
     Intermediate Drivers</a>.
@@ -118,11 +118,11 @@ Any NDIS intermediate driver that exports both
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 

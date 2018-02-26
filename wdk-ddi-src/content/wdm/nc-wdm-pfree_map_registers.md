@@ -7,7 +7,7 @@ old-location: kernel\freemapregisters.htm
 old-project: kernel
 ms.assetid: 0326229f-cf02-4368-bc32-7fbed118714b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: FreeMapRegisters, FreeMapRegisters callback function [Kernel-Mode Driver Architecture], PFREE_MAP_REGISTERS, kdma_039f59c4-101e-40c2-bf2e-a0faa7c11032.xml, kernel.freemapregisters, wdm/FreeMapRegisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,11 +113,7 @@ When the driver of a bus-master device has completed the current packet-based DM
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 
@@ -125,7 +121,11 @@ When the driver of a bus-master device has completed the current packet-based DM
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
@@ -137,5 +137,5 @@ When the driver of a bus-master device has completed the current packet-based DM
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PFREE_MAP_REGISTERS callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PFREE_MAP_REGISTERS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

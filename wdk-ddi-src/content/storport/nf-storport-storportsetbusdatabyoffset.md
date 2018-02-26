@@ -7,7 +7,7 @@ old-location: storage\storportsetbusdatabyoffset.htm
 old-project: storage
 ms.assetid: ec1db013-b630-421b-8d22-385a2d9b9510
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , B, D, O, P, S, StorPortSetBusDataByOffset, StorPortSetBusDataByOffset routine [Storage Devices], a, e, f, o, r, s, storage.storportsetbusdatabyoffset, storport/StorPortSetBusDataByOffset, storprt_ebb2afc1-b190-4674-8ee7-bd61953565ab.xml, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Pointer to the miniport driver's per-HBA storage area.
 
 ### -param BusDataType [in]
 
-Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of the bus for which configuration information is to be written. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
+Contains a value of type <a href="..\miniport\ne-miniport-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of the bus for which configuration information is to be written. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
 
 
 ### -param SystemIoBusNumber [in]
@@ -133,5 +133,5 @@ Indicates the length, in bytes, of the maximum amount of data to return.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortSetBusDataByOffset routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortSetBusDataByOffset routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

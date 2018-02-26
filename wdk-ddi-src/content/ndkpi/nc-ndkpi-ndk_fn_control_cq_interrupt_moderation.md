@@ -195,11 +195,11 @@ Providers that indicate support for interrupt moderation with the NDK_ADAPTER_FL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 

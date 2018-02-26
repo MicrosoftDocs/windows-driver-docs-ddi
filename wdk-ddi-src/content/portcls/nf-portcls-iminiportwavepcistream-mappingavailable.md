@@ -96,11 +96,11 @@ See the discussion of allocator framing in <a href="https://msdn.microsoft.com/6
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
 
 
 

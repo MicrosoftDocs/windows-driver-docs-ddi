@@ -7,7 +7,7 @@ old-location: storage\scsiinquiry_out.htm
 old-project: storage
 ms.assetid: ac3ec079-61a5-42fe-a1c0-b7626e5f32d2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PScsiInquiry_OUT, ,, I, O, P, PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], S, ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], T, U, _, _ScsiInquiry_OUT, c, i, iscsiop/PScsiInquiry_OUT, iscsiop/ScsiInquiry_OUT, n, q, r, s, storage.scsiinquiry_out, structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,5 +123,5 @@ You must implement this method.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiInquiry_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiInquiry_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

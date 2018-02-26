@@ -113,11 +113,11 @@ Your serial controller driver must use this function to initialize a <a href="..
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-_sercx2_custom_receive_transaction_config.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
+
+
+
+<a href="..\sercx\ns-sercx-_sercx2_custom_receive_transaction_config.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</a>
 
 
 

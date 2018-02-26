@@ -7,7 +7,7 @@ old-location: storage\drive_layout_information_gpt.htm
 old-project: storage
 ms.assetid: d99180e0-d989-470c-b330-23372938ab25
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDRIVE_LAYOUT_INFORMATION_GPT, ,, A, D, DRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT structure [Storage Devices], E, F, G, I, L, M, N, O, P, PDRIVE_LAYOUT_INFORMATION_GPT, PDRIVE_LAYOUT_INFORMATION_GPT structure pointer [Storage Devices], R, T, U, V, Y, _, _DRIVE_LAYOUT_INFORMATION_GPT, ntdddisk/DRIVE_LAYOUT_INFORMATION_GPT, ntdddisk/PDRIVE_LAYOUT_INFORMATION_GPT, storage.drive_layout_information_gpt, structs-disk_eca2e047-5de8-4960-9066-28eb0dfedb95.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ This structure contains the drive layout information that is specific to a drive
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
 
 
@@ -109,7 +109,7 @@ This structure contains the drive layout information that is specific to a drive
 
 
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
 
 
@@ -117,5 +117,5 @@ This structure contains the drive layout information that is specific to a drive
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DRIVE_LAYOUT_INFORMATION_GPT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DRIVE_LAYOUT_INFORMATION_GPT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

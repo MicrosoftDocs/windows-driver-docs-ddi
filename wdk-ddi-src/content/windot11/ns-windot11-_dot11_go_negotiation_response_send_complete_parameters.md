@@ -125,11 +125,11 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451805">OID_DOT11_WFD_SEND_GO_NEGOTIATION_RESPONSE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439776">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451805">OID_DOT11_WFD_SEND_GO_NEGOTIATION_RESPONSE</a>
 
 
 

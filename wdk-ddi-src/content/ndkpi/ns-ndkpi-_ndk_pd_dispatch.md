@@ -125,31 +125,7 @@ The <b>NDK_PD_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mr.md">NDK_FN_CREATE_MR</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_privileged_memory_region_token.md">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp_with_srq.md">NDK_FN_CREATE_QP_WITH_SRQ</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mw.md">NDK_FN_CREATE_MW</a>
 
 
 
@@ -157,7 +133,31 @@ The <b>NDK_PD_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mw.md">NDK_FN_CREATE_MW</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mr.md">NDK_FN_CREATE_MR</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp_with_srq.md">NDK_FN_CREATE_QP_WITH_SRQ</a>
 
 
 

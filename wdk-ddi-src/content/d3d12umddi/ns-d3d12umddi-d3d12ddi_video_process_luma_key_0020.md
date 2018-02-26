@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_luma_key.htm
 old-project: display
 ms.assetid: 79D8C170-A562-45F4-834B-58D8F7490C36
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020, D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020 structure [Display Devices], E, I, K, L, M, O, P, R, S, U, V, Y, _, d3d12umddi/D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020, display.d3d12ddi_video_process_luma_key"
 ms.prod: windows-hardware
 ms.technology: windows-devices

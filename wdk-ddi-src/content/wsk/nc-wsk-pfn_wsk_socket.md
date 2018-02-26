@@ -396,7 +396,11 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
@@ -404,7 +408,7 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
 
 
@@ -417,11 +421,19 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
 
 
 
 <a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 
 
@@ -430,18 +442,6 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
 
 

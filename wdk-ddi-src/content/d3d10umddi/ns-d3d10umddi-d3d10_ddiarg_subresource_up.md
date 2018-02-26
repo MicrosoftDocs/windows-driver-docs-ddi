@@ -7,7 +7,7 @@ old-location: display\d3d10_ddiarg_subresource_up.htm
 old-project: display
 ms.assetid: 035ce56c-b2a0-4ee0-83ce-4a45f05e5ff4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 3, A, B, C, D, D3D10_DDIARG_SUBRESOURCE_UP, D3D10_DDIARG_SUBRESOURCE_UP structure [Display Devices], E, G, I, O, P, R, S, U, UMDisplayDriver_Dx10param_Structs_4bc98700-ad44-4b40-9fc2-b40eeae79626.xml, _, d3d10umddi/D3D10_DDIARG_SUBRESOURCE_UP, display.d3d10_ddiarg_subresource_up"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,5 +94,5 @@ typedef struct D3D10_DDIARG_SUBRESOURCE_UP {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDIARG_SUBRESOURCE_UP structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDIARG_SUBRESOURCE_UP structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

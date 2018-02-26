@@ -137,15 +137,11 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
-
-
-
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
 
 
 
@@ -157,7 +153,11 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
 
 
 

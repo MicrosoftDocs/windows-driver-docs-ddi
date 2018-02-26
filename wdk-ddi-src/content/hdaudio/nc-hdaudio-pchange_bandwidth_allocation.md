@@ -226,7 +226,7 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
 
 
 
@@ -234,7 +234,7 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
@@ -246,7 +246,7 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_converter_format.md">HDAUDIO_CONVERTER_FORMAT</a>
+<a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
 
 
 
@@ -258,7 +258,7 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_converter_format.md">HDAUDIO_CONVERTER_FORMAT</a>
 
 
 

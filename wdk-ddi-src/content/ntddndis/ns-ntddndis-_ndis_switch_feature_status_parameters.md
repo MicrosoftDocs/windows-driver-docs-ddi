@@ -168,7 +168,7 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_custom.md">NDIS_
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598260">OID_SWITCH_FEATURE_STATUS_QUERY</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_feature_status_type.md">NDIS_SWITCH_FEATURE_STATUS_TYPE</a>
 
 
 
@@ -176,11 +176,11 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_custom.md">NDIS_
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598260">OID_SWITCH_FEATURE_STATUS_QUERY</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_feature_status_type.md">NDIS_SWITCH_FEATURE_STATUS_TYPE</a>
 
 
 

@@ -111,7 +111,7 @@ No performance improvement is gained by using the address that is returned by
 
 Typically, an NDIS driver calls 
     <b>NdisGetRoutineAddress</b> in its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
 
 
 
@@ -122,7 +122,7 @@ Typically, an NDIS driver calls
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 

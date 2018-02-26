@@ -100,15 +100,15 @@ The WSK subsystem fills in the contents of the WSK_EXTENSION_CONTROL_OUT structu
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_extension_control_in.md">WSK_EXTENSION_CONTROL_IN</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 

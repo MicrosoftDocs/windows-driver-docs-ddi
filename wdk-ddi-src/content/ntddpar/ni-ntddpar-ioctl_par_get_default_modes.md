@@ -121,7 +121,7 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less th
 
 ## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
+<a href="..\ntddpar\ns-ntddpar-_parclass_negotiation_mask.md">PARCLASS_NEGOTIATION_MASK</a>
 
 
 
@@ -129,7 +129,7 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less th
 
 
 
-<a href="..\ntddpar\ns-ntddpar-_parclass_negotiation_mask.md">PARCLASS_NEGOTIATION_MASK</a>
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
 
 
 

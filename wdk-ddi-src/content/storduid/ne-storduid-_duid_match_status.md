@@ -7,7 +7,7 @@ old-location: storage\duid_match_status.htm
 old-project: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DUID_MATCH_STATUS, DUID_MATCH_STATUS enumeration [Storage Devices], DuidErrorGeneral, DuidErrorInvalidDeviceDescSize, DuidErrorInvalidDeviceIdDescSize, DuidErrorInvalidDuid, DuidErrorInvalidLayoutSigSize, DuidErrorInvalidLayoutSigVersion, DuidErrorMaximum, DuidErrorMissingDuid, DuidErrorVersionMismatch, DuidExactMatch, DuidNoMatch, DuidSubIdMatch, H, I, M, S, T, U, _, _DUID_MATCH_STATUS, storage.duid_match_status, storduid/DUID_MATCH_STATUS, storduid/DuidErrorGeneral, storduid/DuidErrorInvalidDeviceDescSize, storduid/DuidErrorInvalidDeviceIdDescSize, storduid/DuidErrorInvalidDuid, storduid/DuidErrorInvalidLayoutSigSize, storduid/DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorMaximum, storduid/DuidErrorMissingDuid, storduid/DuidErrorVersionMismatch, storduid/DuidExactMatch, storduid/DuidNoMatch, storduid/DuidSubIdMatch, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,5 +157,5 @@ This value delimits the upper limit of the enumeration values in this enumeratio
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DUID_MATCH_STATUS enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DUID_MATCH_STATUS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

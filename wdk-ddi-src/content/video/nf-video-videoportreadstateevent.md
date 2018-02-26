@@ -7,7 +7,7 @@ old-location: display\videoportreadstateevent.htm
 old-project: display
 ms.assetid: b09787b3-aede-4e53-9e22-0e81cf2dadb1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, P, R, S, V, VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices], VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, a, d, display.videoportreadstateevent, e, i, n, o, r, t, v, video/VideoPortReadStateEvent"
 ms.prod: windows-hardware
 ms.technology: windows-devices

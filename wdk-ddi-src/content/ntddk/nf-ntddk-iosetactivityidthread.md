@@ -7,7 +7,7 @@ old-location: kernel\iosetactivityidthread.htm
 old-project: kernel
 ms.assetid: 4C7884AB-C763-4FAF-8799-E0113B3F3AE0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, I, IoSetActivityIdThread, IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], S, T, a, c, d, e, h, i, kernel.iosetactivityidthread, ntddk/IoSetActivityIdThread, o, r, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

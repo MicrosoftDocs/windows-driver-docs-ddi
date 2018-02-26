@@ -116,6 +116,14 @@ In PeerQueueing mode, the TxMgr issues a TxAbort for the peer.  If the <a href="
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_abort.md">MiniportWdiTxAbort</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
@@ -124,11 +132,7 @@ In PeerQueueing mode, the TxMgr issues a TxAbort for the peer.  If the <a href="
 
 
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_peer_delete_confirm.md">MiniportWdiTalTxRxPeerDeleteConfirm</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_abort.md">MiniportWdiTxAbort</a>
+<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
 
 
@@ -136,11 +140,7 @@ In PeerQueueing mode, the TxMgr issues a TxAbort for the peer.  If the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
-
-
-
-<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_peer_delete_confirm.md">MiniportWdiTalTxRxPeerDeleteConfirm</a>
 
 
 

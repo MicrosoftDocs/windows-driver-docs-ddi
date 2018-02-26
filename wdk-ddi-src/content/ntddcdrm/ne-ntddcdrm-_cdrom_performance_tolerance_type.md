@@ -7,7 +7,7 @@ old-location: storage\cdrom_performance_tolerance_type.htm
 old-project: storage
 ms.assetid: 2369582F-D042-474D-9191-F9E7BDD3725E
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PCDROM_PERFORMANCE_TOLERANCE_TYPE, ,, A, C, CDROM_PERFORMANCE_TOLERANCE_TYPE, CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration [Storage Devices], Cdrom10Nominal20Exceptions, D, E, F, L, M, N, O, P, PCDROM_PERFORMANCE_TOLERANCE_TYPE, PCDROM_PERFORMANCE_TOLERANCE_TYPE enumeration pointer [Storage Devices], R, T, Y, _, _CDROM_PERFORMANCE_TOLERANCE_TYPE, ntddcdrm/ Cdrom10Nominal20Exceptions, ntddcdrm/CDROM_PERFORMANCE_TOLERANCE_TYPE, ntddcdrm/PCDROM_PERFORMANCE_TOLERANCE_TYPE, storage.cdrom_performance_tolerance_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,5 +86,5 @@ Specifies that the descriptors returned have a 10% performance tolerance for the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

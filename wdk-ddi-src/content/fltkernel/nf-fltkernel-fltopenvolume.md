@@ -142,7 +142,15 @@ To get detailed information about the volume that a given instance is attached t
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 
 
@@ -154,15 +162,7 @@ To get detailed information about the volume that a given instance is attached t
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
+<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
 
 
 

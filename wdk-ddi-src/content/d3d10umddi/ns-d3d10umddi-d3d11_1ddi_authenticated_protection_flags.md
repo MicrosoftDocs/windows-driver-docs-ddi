@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_authenticated_protection_flags.htm
 old-project: display
 ms.assetid: 687eb573-ea7c-4e8a-80df-65339521ec18
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS, D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS structure [Display Devices], E, F, G, H, I, L, N, O, P, R, S, T, U, _, d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS, display.d3d11_1ddi_authenticated_protection_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices

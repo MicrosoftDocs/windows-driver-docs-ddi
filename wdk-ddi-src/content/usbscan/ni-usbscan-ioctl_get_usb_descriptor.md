@@ -7,7 +7,7 @@ old-location: image\ioctl_get_usb_descriptor.htm
 old-project: image
 ms.assetid: a5490a2a-d406-4029-b8be-446236a936bb
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IOCTL_GET_USB_DESCRIPTOR, IOCTL_GET_USB_DESCRIPTOR control code [Imaging Devices], image.ioctl_get_usb_descriptor, stifnc_9d8ca100-d268-4e51-88fb-925e0a029ece.xml, usbscan/IOCTL_GET_USB_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

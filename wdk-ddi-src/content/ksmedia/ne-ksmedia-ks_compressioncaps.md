@@ -7,7 +7,7 @@ old-location: stream\ks_compressioncaps.htm
 old-project: stream
 ms.assetid: 47781af6-bf14-4b95-bef2-506aadb2d1fb
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, C, K, KS_CompressionCaps, KS_CompressionCaps enumeration [Streaming Media Devices], KS_CompressionCaps_CanBFrame, KS_CompressionCaps_CanCrunch, KS_CompressionCaps_CanKeyFrame, KS_CompressionCaps_CanQuality, KS_CompressionCaps_CanWindow, S, _, a, e, i, ksmedia/KS_CompressionCaps, ksmedia/KS_CompressionCaps_CanBFrame, ksmedia/KS_CompressionCaps_CanCrunch, ksmedia/KS_CompressionCaps_CanKeyFrame, ksmedia/KS_CompressionCaps_CanQuality, ksmedia/KS_CompressionCaps_CanWindow, m, n, o, p, r, s, stream.ks_compressioncaps, vidcapstruct_77c66492-8105-4cf2-a303-7819d83adbb4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,5 +110,5 @@ The video compressor supports a user-specified window size (that is, the number 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_CompressionCaps enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_CompressionCaps enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

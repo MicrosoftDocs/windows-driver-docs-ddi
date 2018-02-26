@@ -7,7 +7,7 @@ old-location: print\drvgetdriversetting.htm
 old-project: print
 ms.assetid: 04473567-42ac-4d99-947d-6ec7b3bde90b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting callback function [Print Devices], PFN_DrvGetDriverSetting, print.drvgetdriversetting, print_obsoletefunctions_655cde75-fc70-4d6c-a7b4-8eb1e068ebd9.xml, printoem/DrvGetDriverSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

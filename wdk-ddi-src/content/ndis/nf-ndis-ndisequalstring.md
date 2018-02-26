@@ -105,15 +105,11 @@ Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-term
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -121,7 +117,11 @@ Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-term
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\pfncreatepagingqueuecb.htm
 old-project: display
 ms.assetid: 99E4CFCF-7A0A-43A9-9E23-B7A9F9375690
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: PFND3DDDI_CREATEPAGINGQUEUECB, d3dumddi/pfnCreatePagingQueueCb, display.pfncreatepagingqueuecb, pfnCreatePagingQueueCb, pfnCreatePagingQueueCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

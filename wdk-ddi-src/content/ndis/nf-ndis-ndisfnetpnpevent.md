@@ -158,19 +158,19 @@ Filter drivers can forward these notifications to overlying drivers. To forward 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
 
 
 

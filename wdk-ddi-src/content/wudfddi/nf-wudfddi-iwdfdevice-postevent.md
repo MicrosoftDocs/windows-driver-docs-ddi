@@ -80,7 +80,7 @@ The GUID for the event. The GUID is determined by the application and the driver
 
 ### -param EventType [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
 
 ### -param pbData [in]
@@ -92,7 +92,7 @@ A pointer to a buffer that contains data that is associated with the event. <b>N
 
 The size, in bytes, of data that <i>pbData</i> points to. Zero is a valid size value if <i>pbData</i> is set to <b>NULL</b>. 
 
-The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The precise upper limit is (0xFFFF - <a href="..\minitape\nf-minitape-field_offset.md">FIELD_OFFSET</a>(<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>, CustomDataBuffer)). 
+The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The precise upper limit is (0xFFFF - <a href="..\scsi\nf-scsi-field_offset.md">FIELD_OFFSET</a>(<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>, CustomDataBuffer)). 
 
 
 ## -returns
@@ -176,15 +176,15 @@ For information about creating device events, see <a href="https://docs.microsof
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
-
-
-
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
 
 
 
-<a href="..\minitape\nf-minitape-field_offset.md">FIELD_OFFSET</a>
+<a href="..\scsi\nf-scsi-field_offset.md">FIELD_OFFSET</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
 
 
 

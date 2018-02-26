@@ -7,7 +7,7 @@ old-location: devtest\wpprecorderlogcreate.htm
 old-project: devtest
 ms.assetid: 103796C6-989F-4FE3-A8E6-4B8F5648E521
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, L, R, W, WppRecorderLogCreate, _, a, c, d, devtest.wpprecorderlogcreate, e, g, i, imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], m, o, p, r, t, wpprecorder/imp_WppRecorderLogCreate"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -100,15 +100,15 @@ Callers of <code>CallSynchronizedRoutine</code> must be running at an IRQL that 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-
-
-
 <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
 
 
 <a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
+
+
+
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 

@@ -128,16 +128,16 @@ The OFFLOAD_SECURITY_ASSOCIATION structure is used with the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
-   OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
+   OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a>
 
 
 

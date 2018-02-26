@@ -234,11 +234,11 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 
 
-<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
+
+
+
+<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
 
 
 

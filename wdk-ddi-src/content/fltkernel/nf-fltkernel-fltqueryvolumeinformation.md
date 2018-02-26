@@ -266,11 +266,7 @@ To get the volume GUID name for a given volume, call <a href="..\fltkernel\nf-fl
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumename.md">FltGetVolumeName</a>
-
-
-
-<b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
+<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
 
 
 
@@ -278,27 +274,11 @@ To get the volume GUID name for a given volume, call <a href="..\fltkernel\nf-fl
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
 
 
 
@@ -310,11 +290,31 @@ To get the volume GUID name for a given volume, call <a href="..\fltkernel\nf-fl
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumename.md">FltGetVolumeName</a>
+
+
+
+<b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
 
 
 

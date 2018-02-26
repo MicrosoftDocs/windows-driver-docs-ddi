@@ -216,24 +216,7 @@ If the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
-
-
-
 <a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
-
-
-<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 
 
@@ -242,6 +225,23 @@ If the
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
+
+<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
 
 
 

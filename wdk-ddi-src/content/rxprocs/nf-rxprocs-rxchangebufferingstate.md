@@ -187,15 +187,15 @@ On exit from <b>RxChangeBufferingState</b>, there is no change in resource owner
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstate.md">RxIndicateChangeOfBufferingState</a>
 
 
 
 <a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen.md">RxIndicateChangeOfBufferingStateForSrvOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
 
 
 

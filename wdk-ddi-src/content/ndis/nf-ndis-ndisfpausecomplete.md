@@ -106,11 +106,11 @@ After a pending pause operation is complete, the driver calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
 
 
 

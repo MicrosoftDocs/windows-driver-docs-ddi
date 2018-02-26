@@ -193,7 +193,7 @@ The <b>EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL</b> function type is defined 
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
@@ -201,7 +201,7 @@ The <b>EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL</b> function type is defined 
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -209,7 +209,7 @@ The <b>EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL</b> function type is defined 
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
 
 

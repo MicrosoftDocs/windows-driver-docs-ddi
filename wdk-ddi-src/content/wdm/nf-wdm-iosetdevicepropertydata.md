@@ -7,7 +7,7 @@ old-location: kernel\iosetdevicepropertydata.htm
 old-project: kernel
 ms.assetid: 8e535a6a-9b17-4ef6-b068-43042a589ac0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, I, IoSetDevicePropertyData, IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], P, S, a, c, e, i, k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, kernel.iosetdevicepropertydata, o, p, r, t, v, wdm/IoSetDevicePropertyData, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,7 +151,7 @@ Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
 
 
 
@@ -159,7 +159,7 @@ Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
 
 
@@ -167,5 +167,5 @@ Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoSetDevicePropertyData routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoSetDevicePropertyData routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

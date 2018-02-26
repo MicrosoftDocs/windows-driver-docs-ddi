@@ -160,11 +160,11 @@ The following code example adds a device (<b>pDeviceObject</b>) to the list of d
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceremovedependentusagedeviceobject.md">WdfDeviceRemoveDependentUsageDeviceObject</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_usage_notification.md">EvtDeviceUsageNotification</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceremovedependentusagedeviceobject.md">WdfDeviceRemoveDependentUsageDeviceObject</a>
 
 
 

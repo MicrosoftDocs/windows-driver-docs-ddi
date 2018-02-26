@@ -7,7 +7,7 @@ old-location: stream\ks_amvpdiminfo.htm
 old-project: stream
 ms.assetid: 5b8126ee-ba47-4eaf-887a-764e17a20e03
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKS_AMVPDIMINFO, ,, A, D, F, I, K, KS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], M, N, O, P, PKS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], S, V, _, a, dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, g, ksmedia/KS_AMVPDIMINFO, ksmedia/PKS_AMVPDIMINFO, stream.ks_amvpdiminfo, t, tagKS_AMVPDIMINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,5 +115,5 @@ This structure is used by the <a href="..\ksmedia\ns-ksmedia-tagks_amvpdatainfo.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_AMVPDIMINFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_AMVPDIMINFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

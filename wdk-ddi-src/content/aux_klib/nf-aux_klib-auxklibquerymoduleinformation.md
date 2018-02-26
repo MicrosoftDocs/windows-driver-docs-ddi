@@ -7,7 +7,7 @@ old-location: kernel\auxklibquerymoduleinformation.htm
 old-project: kernel
 ms.assetid: 5e267d53-4e92-4c94-8a59-93d3c79574dd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, AuxKlibQueryModuleInformation, AuxKlibQueryModuleInformation routine [Kernel-Mode Driver Architecture], I, K, M, Q, a, aux_klib/AuxKlibQueryModuleInformation, aux_klib_555c5806-0b0d-48c1-9c50-b0496fb4e807.xml, b, d, e, f, i, kernel.auxklibquerymoduleinformation, l, m, n, o, r, t, u, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -197,11 +197,11 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
-
-
-
 <a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
+
+
+
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
 
 
@@ -217,5 +217,5 @@ if (!NT_SUCCESS(status)) {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20AuxKlibQueryModuleInformation routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20AuxKlibQueryModuleInformation routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

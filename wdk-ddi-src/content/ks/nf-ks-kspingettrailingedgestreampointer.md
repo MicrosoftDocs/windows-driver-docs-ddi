@@ -7,7 +7,7 @@ old-location: stream\kspingettrailingedgestreampointer.htm
 old-project: stream
 ms.assetid: 763f1f66-4d83-44aa-9db5-206cf6b6f9b1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , E, G, K, KsPinGetTrailingEdgeStreamPointer, KsPinGetTrailingEdgeStreamPointer function [Streaming Media Devices], P, S, T, a, avfunc_3fd3182e-6e4d-4654-9de7-e9cea1086e3e.xml, d, e, g, i, ks/KsPinGetTrailingEdgeStreamPointer, l, m, n, o, r, s, stream.kspingettrailingedgestreampointer, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,26 +121,6 @@ Data frames that reside in the window between the leading edge stream pointer an
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
 
 
@@ -149,9 +129,29 @@ Data frames that reside in the window between the leading edge stream pointer an
 
 
 
- 
+<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetTrailingEdgeStreamPointer function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetTrailingEdgeStreamPointer function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

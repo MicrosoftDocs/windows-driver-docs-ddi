@@ -7,7 +7,7 @@ old-location: kernel\system_power_state.htm
 old-project: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSYSTEM_POWER_STATE, ,, A, E, M, O, P, PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, PowerSystemMaximum, PowerSystemShutdown, PowerSystemSleeping1, PowerSystemSleeping2, PowerSystemSleeping3, PowerSystemUnspecified, PowerSystemWorking, R, S, SYSTEM_POWER_STATE, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], T, W, Y, _, _SYSTEM_POWER_STATE, kernel.system_power_state, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, wdm/PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, wdm/PowerSystemMaximum, wdm/PowerSystemShutdown, wdm/PowerSystemSleeping1, wdm/PowerSystemSleeping2, wdm/PowerSystemSleeping3, wdm/PowerSystemUnspecified, wdm/PowerSystemWorking, wdm/SYSTEM_POWER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,5 +137,5 @@ For more information about power management in general, see <a href="https://msd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SYSTEM_POWER_STATE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SYSTEM_POWER_STATE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

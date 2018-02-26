@@ -7,7 +7,7 @@ old-location: debugger\idebugcontrol5_outputstacktraceex.htm
 old-project: debugger
 ms.assetid: C89203F9-FCCF-4D71-8E8A-9F5F4AE89004
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 5, :, C, D, E, I, IDebugControl5, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, IDebugControl5::OutputStackTraceEx, O, OutputStackTraceEx method [Windows Debugging], OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface, OutputStackTraceEx,IDebugControl5.OutputStackTraceEx, S, T, a, b, c, dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex, e, g, k, l, n, o, p, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -247,6 +247,10 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
 
 
@@ -259,13 +263,9 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl5::OutputStackTraceEx method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl5::OutputStackTraceEx method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

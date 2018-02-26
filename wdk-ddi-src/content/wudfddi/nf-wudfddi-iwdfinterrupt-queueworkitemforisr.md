@@ -92,11 +92,11 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
-
-
-
 <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: kernel\pofxidlecomponent.htm
 old-project: kernel
 ms.assetid: 07282994-5E04-432D-85A6-4677DB2DA84A
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, F, I, P, PoFxIdleComponent, PoFxIdleComponent routine [Kernel-Mode Driver Architecture], d, e, kernel.pofxidlecomponent, l, m, n, o, p, t, wdm/PoFxIdleComponent, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,7 +121,7 @@ The driver can set <i>Flags</i> = 0 to indicate that it does not care whether th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a>
 
 
 
@@ -129,11 +129,11 @@ The driver can set <i>Flags</i> = 0 to indicate that it does not care whether th
 
 
 
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
+
 <a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a>
 
 
 
@@ -145,5 +145,5 @@ The driver can set <i>Flags</i> = 0 to indicate that it does not care whether th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxIdleComponent routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxIdleComponent routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

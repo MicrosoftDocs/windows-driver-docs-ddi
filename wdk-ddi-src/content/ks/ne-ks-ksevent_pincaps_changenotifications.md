@@ -7,7 +7,7 @@ old-location: stream\ksevent_pincaps_changenotifications.htm
 old-project: stream
 ms.assetid: FC46144A-8343-4C1F-8061-4C9DCAB22370
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, C, E, F, G, H, I, K, KSEVENT_PINCAPS_CHANGENOTIFICATIONS, KSEVENT_PINCAPS_CHANGENOTIFICATIONS enumeration [Streaming Media Devices], KSEVENT_PINCAPS_FORMATCHANGE, KSEVENT_PINCAPS_JACKINFOCHANGE, N, O, P, S, T, V, _, ks/KSEVENT_PINCAPS_CHANGENOTIFICATIONS, ks/KSEVENT_PINCAPS_FORMATCHANGE, ks/KSEVENT_PINCAPS_JACKINFOCHANGE, stream.ksevent_pincaps_changenotifications"
 ms.prod: windows-hardware
 ms.technology: windows-devices

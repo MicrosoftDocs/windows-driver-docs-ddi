@@ -135,7 +135,7 @@ The framework can use <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
 <ol>
 <li>
-Allocate additional memory, typically by calling <a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>.
+Allocate additional memory, typically by calling <a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>.
 
 </li>
 <li>
@@ -200,35 +200,7 @@ The <b>EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE</b> function type
 
 ## -see-also
 
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md">EvtChildListIdentificationDescriptionCompare</a>
-
-
-
 <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_copy.md">EvtChildListIdentificationDescriptionCopy</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
-
-
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistgetdevice.md">WdfChildListGetDevice</a>
-
-
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
-
-
-
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
-
-
-
-<a href="..\classpnp\nf-classpnp-exallocatepool.md">ExAllocatePool</a>
 
 
 
@@ -236,7 +208,35 @@ The <b>EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE</b> function type
 
 
 
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
+
+
+
+<a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>
+
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+
+
+
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
+
+
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md">EvtChildListIdentificationDescriptionCompare</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistgetdevice.md">WdfChildListGetDevice</a>
 
 
 

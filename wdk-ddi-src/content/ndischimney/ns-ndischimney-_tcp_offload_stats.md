@@ -183,11 +183,11 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569800">OID_TCP4_OFFLOAD_STATS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569800">OID_TCP4_OFFLOAD_STATS</a>
 
 
 

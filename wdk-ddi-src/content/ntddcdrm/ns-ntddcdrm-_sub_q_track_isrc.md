@@ -7,7 +7,7 @@ old-location: storage\sub_q_track_isrc.htm
 old-project: storage
 ms.assetid: 0439bd46-b009-435d-aab7-efca48a17cb7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSUB_Q_TRACK_ISRC, ,, A, B, C, I, K, P, PSUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC structure pointer [Storage Devices], Q, R, S, SUB_Q_TRACK_ISRC, SUB_Q_TRACK_ISRC structure [Storage Devices], T, U, _, _SUB_Q_TRACK_ISRC, ntddcdrm/PSUB_Q_TRACK_ISRC, ntddcdrm/SUB_Q_TRACK_ISRC, storage.sub_q_track_isrc, structs-CD-ROM_372ebccd-64cd-4f5d-a59c-de75c5ffe112.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,10 +116,6 @@ Contains an array that holds the tracking ISRC data.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
 
 
@@ -132,9 +128,13 @@ Contains an array that holds the tracking ISRC data.
 
 
 
- 
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SUB_Q_TRACK_ISRC structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SUB_Q_TRACK_ISRC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

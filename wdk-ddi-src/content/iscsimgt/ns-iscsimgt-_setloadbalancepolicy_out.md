@@ -7,7 +7,7 @@ old-location: storage\setloadbalancepolicy_out.htm
 old-project: storage
 ms.assetid: 28b54f80-9268-4ccb-ac19-b1b4bfef4192
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSetLoadBalancePolicy_OUT, ,, B, L, O, P, PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT structure pointer [Storage Devices], S, SetLoadBalancePolicy_OUT, SetLoadBalancePolicy_OUT structure [Storage Devices], T, U, _, _SetLoadBalancePolicy_OUT, a, c, d, e, i, iscsimgt/PSetLoadBalancePolicy_OUT, iscsimgt/SetLoadBalancePolicy_OUT, l, n, o, storage.setloadbalancepolicy_out, structs-iSCSI_32a19db4-8102-4e39-b9be-30a8a03d2732.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,17 +83,17 @@ You must implement this class. For a list of possible status qualifiers, see <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SetLoadBalancePolicy_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SetLoadBalancePolicy_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

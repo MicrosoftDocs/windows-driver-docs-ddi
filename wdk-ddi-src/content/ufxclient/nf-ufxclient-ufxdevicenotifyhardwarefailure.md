@@ -4,10 +4,10 @@ title: UfxDeviceNotifyHardwareFailure function
 author: windows-driver-content
 description: Notifies UFX about a non-recoverable hardware failure in the controller.
 old-location: buses\ufxdevicenotifyhardwarefailure.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 2EEA262C-5186-4450-A01D-212278ED710B
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, F, H, N, U, UfxDeviceNotifyHardwareFailure, UfxDeviceNotifyHardwareFailure method [Buses], a, buses.ufxdevicenotifyhardwarefailure, c, d, e, f, i, l, o, r, t, u, ufxclient/UfxDeviceNotifyHardwareFailure, v, w, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

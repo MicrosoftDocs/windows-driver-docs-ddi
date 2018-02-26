@@ -241,7 +241,7 @@ The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at t
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
 
 
 
@@ -249,15 +249,15 @@ The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at t
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
+<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
 
 
 
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
 
 
 

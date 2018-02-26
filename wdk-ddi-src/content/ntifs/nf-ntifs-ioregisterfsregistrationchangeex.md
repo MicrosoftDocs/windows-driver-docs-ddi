@@ -142,7 +142,7 @@ If a file system filter driver calls <b>IoRegisterFsRegistrationChangeEx</b> twi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
 
 
 
@@ -154,7 +154,7 @@ If a file system filter driver calls <b>IoRegisterFsRegistrationChangeEx</b> twi
 
 
 
-<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
 
 
 

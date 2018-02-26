@@ -152,15 +152,7 @@ The following code example shows a segment of a driver's <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
-
-
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
 
 
@@ -168,11 +160,19 @@ The following code example shows a segment of a driver's <a href="https://msdn.m
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize2.md">IWDFDeviceInitialize2</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
 
 
 

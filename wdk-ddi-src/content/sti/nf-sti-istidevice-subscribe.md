@@ -7,7 +7,7 @@ old-location: image\istidevice_subscribe.htm
 old-project: image
 ms.assetid: 6266b311-6846-4615-a686-b68b00001fe7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, I, IStiDevice, IStiDevice interface [Imaging Devices], Subscribe method, IStiDevice::Subscribe, S, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices], IStiDevice interface, Subscribe,IStiDevice.Subscribe, b, c, e, i, image.istidevice_subscribe, r, s, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,6 +106,10 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
 ## -see-also
 
+<a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543773">IStiDevice::UnSubscribe</a>
 
 
@@ -118,5 +122,5 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiDevice::Subscribe method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiDevice::Subscribe method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

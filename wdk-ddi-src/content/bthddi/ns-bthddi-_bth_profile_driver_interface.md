@@ -78,7 +78,7 @@ typedef struct _BTH_PROFILE_DRIVER_INTERFACE {
 A structure that describes the 
      <b>BTH_PROFILE_DRIVER_INTERFACE</b> interface for use by profile drivers. For more information about this
      structure, see 
-     <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
+     <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>.
 
 
 ### -field BthAllocateBrb
@@ -128,15 +128,7 @@ All the members of this structure, other than the
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
-
-
-
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
 
@@ -144,11 +136,19 @@ All the members of this structure, other than the
 
 
 
+<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
+
+
+
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+
+
+
 <a href="..\bthddi\nc-bthddi-pfnbth_free_brb.md">BthFreeBrb</a>
-
-
-
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
 

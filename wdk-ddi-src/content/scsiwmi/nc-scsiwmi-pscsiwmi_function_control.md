@@ -7,7 +7,7 @@ old-location: storage\hwscsiwmifunctioncontrol.htm
 old-project: storage
 ms.assetid: a975e201-9015-4315-830e-4cd7cc5a3bc5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: HwScsiWmiFunctionControl, HwScsiWmiFunctionControl callback function [Storage Devices], PSCSIWMI_FUNCTION_CONTROL, Scsimini_42361f5c-fc45-4883-997e-afa65bc376c4.xml, scsiwmi/HwScsiWmiFunctionControl, storage.hwscsiwmifunctioncontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,15 +123,7 @@ If the SRB is completed in the <b>HwScsiWmiFunctionControl</b> callback, then th
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
-
-
-
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmiguidreginfo.md">SCSIWMIGUIDREGINFO</a>
-
-
-
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 
 
@@ -139,9 +131,17 @@ If the SRB is completed in the <b>HwScsiWmiFunctionControl</b> callback, then th
 
 
 
- 
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PSCSIWMI_FUNCTION_CONTROL callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PSCSIWMI_FUNCTION_CONTROL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

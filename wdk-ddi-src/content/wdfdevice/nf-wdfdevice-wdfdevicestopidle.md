@@ -134,6 +134,10 @@ status = WdfDeviceStopIdle(Device, TRUE);</pre>
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceresumeidle.md">WdfDeviceResumeIdle</a>
+
+
+
 <a href="https://msdn.microsoft.com/25F4EEBB-4733-498C-8704-8E015F81FE06">Debugging Power Reference Leaks in WDF</a>
 
 
@@ -143,10 +147,6 @@ status = WdfDeviceStopIdle(Device, TRUE);</pre>
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn932459">WdfDeviceResumeIdleWithTag</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceresumeidle.md">WdfDeviceResumeIdle</a>
 
 
 

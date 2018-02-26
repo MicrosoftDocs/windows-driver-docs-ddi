@@ -7,7 +7,7 @@ old-location: kernel\iosetsystempartition.htm
 old-project: kernel
 ms.assetid: f1606881-da8b-4034-bbdf-53c75e594032
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, IoSetSystemPartition, IoSetSystemPartition routine [Kernel-Mode Driver Architecture], P, S, a, e, i, k104_b0beef8e-9d45-4125-a722-0a7189876308.xml, kernel.iosetsystempartition, m, n, ntddk/IoSetSystemPartition, o, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

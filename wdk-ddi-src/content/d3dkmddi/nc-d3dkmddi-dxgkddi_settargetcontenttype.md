@@ -7,7 +7,7 @@ old-location: display\dxgkddi_settargetcontenttype.htm
 old-project: display
 ms.assetid: 7639BF7B-6219-4490-953F-80E76CDFBAAA
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: DXGKDDI_SETTARGETCONTENTTYPE, DXGKDDI_SETTARGETCONTENTTYPE callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE, display.dxgkddi_settargetcontenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices

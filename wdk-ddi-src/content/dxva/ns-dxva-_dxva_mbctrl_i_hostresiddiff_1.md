@@ -7,7 +7,7 @@ old-location: display\dxva_mbctrl_i_hostresiddiff_1.htm
 old-project: display
 ms.assetid: e2318d02-f52e-4b5b-86da-04df7b31b7d3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPDXVA_MBctrl_I_HostResidDiff_1, ,, 1, A, B, D, DXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1 structure [Display Devices], H, I, L, M, P, R, V, X, _, _DXVA_MBctrl_I_HostResidDiff_1, c, d, display.dxva_mbctrl_i_hostresiddiff_1, dxva/DXVA_MBctrl_I_HostResidDiff_1, dxvaref_9d7c8453-31ce-4788-908e-ac81c97d97f5.xml, e, f, i, l, o, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -265,7 +265,7 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
+<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
 
 
 
@@ -273,7 +273,7 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 
 
@@ -281,5 +281,5 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_MBctrl_I_HostResidDiff_1 structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_MBctrl_I_HostResidDiff_1 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

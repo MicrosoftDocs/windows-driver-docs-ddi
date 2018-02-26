@@ -158,6 +158,14 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">ProtocolTcpOffloadEvent</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-tcp_offload_receive_indicate_handler.md">
    ProtocolTcpOffloadReceiveIndicate</a>
 
@@ -165,19 +173,6 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
 
 <a href="..\ndischimney\nc-ndischimney-tcp_offload_recv_complete_handler.md">
    ProtocolTcpOffloadReceiveComplete</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
-   ProtocolTcpOffloadSendComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">ProtocolTcpOffloadEvent</a>
 
 
 
@@ -190,7 +185,12 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
 
 
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
+   ProtocolTcpOffloadSendComplete</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_blt_state_background_color_data.htm
 old-project: display
 ms.assetid: 23eaa88a-a3c3-4630-92b0-d76b266a9c45
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, B, C, D, DXVA2_Structs_d4f86ea1-cbdd-48ab-84ca-1bc64ba4c8db.xml, DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA structure [Display Devices], E, G, H, I, K, L, N, O, R, S, T, U, V, X, _, _DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, display.dxvahdddi_blt_state_background_color_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,17 +103,17 @@ The alpha value of the background color is used when the DXVAHDDDI_ALPHA_FILL_MO
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data.md">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
 
 
 
- 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data.md">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

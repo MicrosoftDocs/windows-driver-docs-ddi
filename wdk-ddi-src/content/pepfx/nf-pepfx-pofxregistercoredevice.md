@@ -7,7 +7,7 @@ old-location: kernel\pofxregistercoredevice.htm
 old-project: kernel
 ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, D, F, P, PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], R, c, e, g, i, kernel.pofxregistercoredevice, o, pepfx/PoFxRegisterCoreDevice, r, s, t, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ A string that uniquely identifies the core system resource. This member is a poi
 
 ### -param Device [in]
 
-A pointer to a <a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a> structure that describes the power characteristics of the core system resource.
+A pointer to a <a href="..\pep_x\ns-pep_x-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a> structure that describes the power characteristics of the core system resource.
 
 
 ### -param Handle [out]
@@ -139,7 +139,7 @@ The <b>PoFxRegisterCoreDevice</b> routine should be called at IRQL = PASSIVE_LEV
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
+<a href="..\pep_x\ns-pep_x-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
 
 
 
@@ -151,5 +151,5 @@ The <b>PoFxRegisterCoreDevice</b> routine should be called at IRQL = PASSIVE_LEV
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxRegisterCoreDevice routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxRegisterCoreDevice routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\stor_device_capabilities.htm
 old-project: storage
 ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSTOR_DEVICE_CAPABILITIES, ,, A, B, C, D, E, I, L, O, P, PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], R, S, STOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], T, V, _, _STOR_DEVICE_CAPABILITIES, storage.stor_device_capabilities, storport/PSTOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -160,6 +160,10 @@ Starting with Windows 8, miniports should use the <a href="..\storport\ns-storp
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+
+
 <a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
 
 
@@ -168,13 +172,9 @@ Starting with Windows 8, miniports should use the <a href="..\storport\ns-storp
 
 
 
-<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_DEVICE_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_DEVICE_CAPABILITIES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

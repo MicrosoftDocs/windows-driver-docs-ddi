@@ -189,14 +189,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
 
 
@@ -205,8 +197,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
-   NdisFDirectOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
 
 
 
@@ -215,6 +206,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+   NdisFDirectOidRequestComplete</a>
 
 
 

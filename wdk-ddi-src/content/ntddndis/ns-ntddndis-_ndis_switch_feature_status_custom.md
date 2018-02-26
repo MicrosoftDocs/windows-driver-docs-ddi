@@ -133,11 +133,11 @@ An <b>NDIS_SWITCH_FEATURE_STATUS_CUSTOM</b> structure that contains the feature 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598260">OID_SWITCH_FEATURE_STATUS_QUERY</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_parameters.md">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598260">OID_SWITCH_FEATURE_STATUS_QUERY</a>
 
 
 

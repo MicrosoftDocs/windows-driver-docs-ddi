@@ -151,10 +151,6 @@ typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;</pre>
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
 
 
@@ -164,6 +160,10 @@ typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;</pre>
 
 
 <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
 
 
 

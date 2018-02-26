@@ -128,19 +128,19 @@ A call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -152,7 +152,7 @@ A call to
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 
 

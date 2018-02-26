@@ -4,10 +4,10 @@ title: "_USBFN_BUS_SPEED"
 author: windows-driver-content
 description: The USBFN_BUS_SPEED enumeration defines possible bus speeds.
 old-location: buses\usbfn_bus_speed.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: B97E27A1-0D95-41AA-8FF6-A92F70FBAD28
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUSBFN_BUS_SPEED, ,, B, D, E, F, N, P, S, U, USBFN_BUS_SPEED, USBFN_BUS_SPEED enumeration [Buses], UsbfnBusSpeedFull, UsbfnBusSpeedHigh, UsbfnBusSpeedLow, UsbfnBusSpeedMaximum, UsbfnBusSpeedSuper, _, _USBFN_BUS_SPEED, buses.usbfn_bus_speed, usbfnbase/USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedLow, usbfnbase/UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedSuper"
 ms.prod: windows-hardware
 ms.technology: windows-devices

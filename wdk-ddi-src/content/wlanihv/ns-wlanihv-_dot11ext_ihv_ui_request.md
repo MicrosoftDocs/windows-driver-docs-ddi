@@ -124,16 +124,16 @@ For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to 
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
    Dot11ExtIhvIsUIRequestPending</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
 
 
 

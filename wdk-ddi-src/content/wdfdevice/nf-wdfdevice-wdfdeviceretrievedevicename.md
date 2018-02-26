@@ -158,11 +158,11 @@ if (NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
+
+
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: stream\streamclassscheduletimer.htm
 old-project: stream
 ms.assetid: 83271c19-911b-481a-bc25-c0b3816cf800
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, S, StreamClassScheduleTimer, StreamClassScheduleTimer routine [Streaming Media Devices], T, a, c, d, e, h, i, l, m, r, s, strclass-routines_73f92fc4-e9bf-40af-8dff-9c2e740dba20.xml, stream.streamclassscheduletimer, strmini/StreamClassScheduleTimer, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

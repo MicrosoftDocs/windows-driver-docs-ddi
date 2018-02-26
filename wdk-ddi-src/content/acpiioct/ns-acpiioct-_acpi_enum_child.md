@@ -99,11 +99,11 @@ For information about how to enumerate child objects of a device, see <a href="h
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
-
-
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
 
 
 

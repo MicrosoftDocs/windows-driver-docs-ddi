@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE IOCTL is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_get_device_handle.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 4c2c7b8b-4b4b-4a76-8dac-106c94f347c5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE, IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE control code [Buses], buses.ioctl_internal_usb_get_device_handle, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

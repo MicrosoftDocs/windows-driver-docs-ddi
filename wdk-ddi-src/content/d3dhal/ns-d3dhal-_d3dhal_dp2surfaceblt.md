@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2surfaceblt.htm
 old-project: display
 ms.assetid: 0720635c-77a2-4391-ba75-b276c0d457d5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPD3DHAL_DP2SURFACEBLT, ,, 2, 3, A, B, C, D, D3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT structure [Display Devices], E, F, H, L, LPD3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT structure pointer [Display Devices], P, R, S, T, U, _, _D3DHAL_DP2SURFACEBLT, d3dhal/D3DHAL_DP2SURFACEBLT, d3dhal/LPD3DHAL_DP2SURFACEBLT, d3dstrct_705cb760-39d7-4953-b249-0b9a9358f0df.xml, display.d3dhal_dp2surfaceblt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,14 +125,6 @@ The <b>dwSource</b> or <b>dwDest</b> member specifies the kernel handle to the t
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
 D3DDP2OP_SURFACEBLT
 
 
@@ -141,9 +133,17 @@ D3DDP2OP_BLT
 
 
 
- 
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2SURFACEBLT structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2SURFACEBLT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

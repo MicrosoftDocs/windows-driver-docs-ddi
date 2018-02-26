@@ -100,11 +100,11 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclspnp.md">IPortClsPnp</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536876">IPortClsPower::UnregisterAdapterPowerManagement</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportclspnp.md">IPortClsPnp</a>
 
 
 

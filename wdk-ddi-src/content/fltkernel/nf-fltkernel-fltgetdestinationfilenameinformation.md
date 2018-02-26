@@ -315,11 +315,7 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
 
 
 
@@ -327,39 +323,7 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogettoplevelirp.md">IoGetTopLevelIrp</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
 
 
 
@@ -367,11 +331,47 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogettoplevelirp.md">IoGetTopLevelIrp</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
 
 
 

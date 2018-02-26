@@ -7,7 +7,7 @@ old-location: debugger\getoutputcallbacks.htm
 old-project: debugger
 ms.assetid: 43f27e56-a6aa-4548-9c96-000e53a7eb9a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, :, C, D, G, GetOutputCallbacks method [Windows Debugging], GetOutputCallbacks method [Windows Debugging], IDebugClient interface, GetOutputCallbacks method [Windows Debugging], IDebugClient2 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient3 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient4 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient5 interface, GetOutputCallbacks,IDebugClient.GetOutputCallbacks, GetOutputCallbacks,IDebugClient2.GetOutputCallbacks, GetOutputCallbacks,IDebugClient3.GetOutputCallbacks, I, IDebugClient, IDebugClient interface [Windows Debugging], GetOutputCallbacks method, IDebugClient2, IDebugClient2 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient2::GetOutputCallbacks, IDebugClient3, IDebugClient3 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient3::GetOutputCallbacks, IDebugClient4 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient4::GetOutputCallbacks, IDebugClient5 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient5::GetOutputCallbacks, IDebugClient::GetOutputCallbacks, IDebugClient_693aaf2a-8408-48c4-b7c0-66e7064a6f35.xml, O, a, b, c, dbgeng/IDebugClient2::GetOutputCallbacks, dbgeng/IDebugClient3::GetOutputCallbacks, dbgeng/IDebugClient4::GetOutputCallbacks, dbgeng/IDebugClient5::GetOutputCallbacks, dbgeng/IDebugClient::GetOutputCallbacks, debugger.getoutputcallbacks, e, g, i, k, l, n, p, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,23 +121,7 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
@@ -145,13 +129,29 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetOutputCallbacks method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetOutputCallbacks method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: kernel\mmallocatecontiguousmemory.htm
 old-project: kernel
 ms.assetid: 45d5b640-5983-43cc-9b2e-2f2625dbd57c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, M, MmAllocateContiguousMemory, MmAllocateContiguousMemory routine [Kernel-Mode Driver Architecture], a, c, e, g, i, k106_33fb6610-08f3-4605-9511-72a2ec6fa442.xml, kernel.mmallocatecontiguousmemory, l, m, n, o, r, s, t, u, wdm/MmAllocateContiguousMemory, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,9 @@ The highest valid physical address the caller can use. For example, if a device 
 
 Drivers must not access memory beyond the requested allocation size. For example, developers should not assume that their drivers can safely use memory between the end of their requested allocation and the next page boundary.
 
-Because contiguous physical memory is usually in short supply, it should be used sparingly and only when necessary. A driver that must use contiguous memory should allocate this memory during driver initialization because physical memory is likely to become fragmented over time as the operating system allocates and frees memory. Typically, a driver calls <b>MmAllocateContiguousMemory</b> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine to allocate an internal buffer for long-term use, and frees the buffer just before the driver is unloaded.
+Because contiguous physical memory is usually in short supply, it should be used sparingly and only when necessary. A driver that must use contiguous memory should allocate this memory during driver initialization because physical memory is likely to become fragmented over time as the operating system allocates and frees memory. Typically, a driver calls <b>MmAllocateContiguousMemory</b> from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine to allocate an internal buffer for long-term use, and frees the buffer just before the driver is unloaded.
 
-Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the memory is no longer needed. Call the <a href="..\ntddk\nf-ntddk-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a> routine to free memory that is allocated by <b>MmAllocateContiguousMemory</b>.
+Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the memory is no longer needed. Call the <a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a> routine to free memory that is allocated by <b>MmAllocateContiguousMemory</b>.
 
 <div class="alert"><b>Note</b>  When physical memory is fragmented on a computer that has a large amount of RAM, calls to <b>MmAllocateContiguousMemory</b>, which require the operating system to search for contiguous blocks of memory, can severely degrade performance. This degradation is greatly reduced starting with Windows Vista SP1 and Windows Server 2008, but contiguous memory can still be expensive to allocate. For this reason, drivers should avoid repeated calls to <b>MmAllocateContiguousMemory</b>. Instead, drivers should allocate all required contiguous buffers in their <b>DriverEntry</b> routines and reuse these buffers.<p class="note">Memory that <b>MmAllocateContiguousMemory</b> allocates is uninitialized. A kernel-mode driver must first set this memory to zero if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).
 
@@ -109,15 +109,7 @@ Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the mem
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
 
 
 
@@ -125,7 +117,15 @@ Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the mem
 
 
 
-<a href="..\ntddk\nf-ntddk-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
+
+
+
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
 
 
 
@@ -133,5 +133,5 @@ Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the mem
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmAllocateContiguousMemory routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmAllocateContiguousMemory routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

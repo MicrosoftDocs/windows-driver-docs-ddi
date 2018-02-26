@@ -139,14 +139,6 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlgetgroupsecuritydescriptor.md">RtlGetGroupSecurityDescriptor</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
 
 
@@ -155,7 +147,15 @@ For more information about security and access control, see the Microsoft Window
 
 
 
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlgetgroupsecuritydescriptor.md">RtlGetGroupSecurityDescriptor</a>
 
 
 

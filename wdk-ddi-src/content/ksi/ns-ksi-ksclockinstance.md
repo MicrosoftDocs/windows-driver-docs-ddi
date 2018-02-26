@@ -7,7 +7,7 @@ old-location: stream\ksclockinstance.htm
 old-project: stream
 ms.assetid: DC8A7CE9-7FDE-4FC9-8C71-3F3368E7E5C1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSCLOCKINSTANCE, ,, A, C, E, I, K, KSCLOCKINSTANCE, KSCLOCKINSTANCE structure [Streaming Media Devices], L, N, O, P, PKSCLOCKINSTANCE, PKSCLOCKINSTANCE structure pointer [Streaming Media Devices], S, T, ksi/KSCLOCKINSTANCE, ksi/PKSCLOCKINSTANCE, stream.ksclockinstance"
 ms.prod: windows-hardware
 ms.technology: windows-devices

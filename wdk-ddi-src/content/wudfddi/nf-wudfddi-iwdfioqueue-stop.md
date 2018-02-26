@@ -119,7 +119,7 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
 
 
 
@@ -127,7 +127,7 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

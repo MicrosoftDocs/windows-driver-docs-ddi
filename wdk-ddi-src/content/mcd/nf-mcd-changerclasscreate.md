@@ -2,13 +2,13 @@
 UID: NF:mcd.ChangerClassCreate
 title: ChangerClassCreate function
 author: windows-driver-content
-description: The ChangerClassCreateClose routine is called by a changer minidriver to allow the class driver perform device-independent operations needed to create or close a device.
-old-location: storage\changerclasscreateclose.htm
+description: The ChangerClassCreate routine is called by a changer minidriver to allow the class driver perform device-independent operations needed to create or close a device.
+old-location: storage\changerclasscreate.htm
 old-project: storage
 ms.assetid: 3abaf674-e8a8-42bb-ac31-1ca8f5e148e4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ",  , C, ChangerClassCreate, ChangerClassCreateClose, ChangerClassCreateClose routine [Storage Devices], a, chgrclas_27002d62-809d-48db-a2fc-8603d376f0d2.xml, e, g, h, l, mcd/ChangerClassCreateClose, n, r, s, storage.changerclasscreateclose, t"
+ms.date: 2/24/2018
+ms.keywords: ",  , C, ChangerClassCreate, ChangerClassCreate routine [Storage Devices], a, chgrclas_27002d62-809d-48db-a2fc-8603d376f0d2.xml, e, g, h, l, mcd/ChangerClassCreate, n, r, s, storage.changerclasscreate, storage.changerclasscreateclose, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	mcd.h
 apiname:
--	ChangerClassCreateClose
+-	ChangerClassCreate
 product: Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
@@ -49,14 +49,14 @@ req.typenames: LAMP_INTENSITY_WHITE
 ## -description
 
 
-The <b>ChangerClassCreateClose</b> routine is called by a changer minidriver to allow the class driver perform device-independent operations needed to create or close a device. 
+The <b>ChangerClassCreate</b> routine is called by a changer minidriver to allow the class driver perform device-independent operations needed to create or close a device. 
 
 
 ## -syntax
 
 
 ````
-NTSTATUS ChangerClassCreateClose(
+NTSTATUS ChangerClassCreate(
   _In_ PDEVICE_OBJECT DeviceObject,
   _In_ PIRP           Irp
 );
@@ -82,7 +82,7 @@ Pointer to the I/O request packet (IRP) that initiated the create or close opera
 
 
 
-If the operation succeeds, the <b>ChangerClassCreateClose</b> routine returns STATUS_SUCCESS. Otherwise the routine returns one of the following status values.
+If the operation succeeds, the <b>ChangerClassCreate</b> routine returns STATUS_SUCCESS. Otherwise the routine returns one of the following status values.
 
 <table>
 <tr>

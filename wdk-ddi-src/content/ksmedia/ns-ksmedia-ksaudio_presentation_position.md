@@ -84,11 +84,11 @@ Specifies the value of the performance counter at the time that the audio driver
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450895">KSPROPERTY_AUDIO_PRESENTATION_POSITION</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450895">KSPROPERTY_AUDIO_PRESENTATION_POSITION</a>
 
 
 

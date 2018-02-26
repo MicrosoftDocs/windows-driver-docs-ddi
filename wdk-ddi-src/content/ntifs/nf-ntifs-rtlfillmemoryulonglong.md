@@ -99,15 +99,15 @@ For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine
 
 ## -see-also
 
-<a href="..\smclib\nf-smclib-rtlzeromemory.md">RtlZeroMemory</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlfillmemoryulong.md">RtlFillMemoryUlong</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
+
+
+<a href="..\scsi\nf-scsi-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

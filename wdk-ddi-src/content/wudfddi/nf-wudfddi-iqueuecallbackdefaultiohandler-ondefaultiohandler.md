@@ -101,7 +101,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohan
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 
 
@@ -113,7 +113,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohan
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

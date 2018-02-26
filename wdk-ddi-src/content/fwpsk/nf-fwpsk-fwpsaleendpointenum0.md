@@ -171,17 +171,8 @@ When finished examining endpoint properties, the callout driver must call
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
-   FwpsAleEndpointDestroyEnumHandle0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
-   FwpsAleEndpointSetSecurityInfo0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
+   FwpsAleEndpointCreateEnumHandle0</a>
 
 
 
@@ -190,8 +181,17 @@ When finished examining endpoint properties, the callout driver must call
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
-   FwpsAleEndpointCreateEnumHandle0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
+   FwpsAleEndpointDestroyEnumHandle0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
+   FwpsAleEndpointSetSecurityInfo0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
 
 

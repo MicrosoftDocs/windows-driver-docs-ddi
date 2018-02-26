@@ -7,8 +7,8 @@ old-location: image\istillimage_setdevicevalue.htm
 old-project: image
 ms.assetid: e2ea9c59-cc63-4ced-a225-e0c9667dd574
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, D, I, IStillImage interface [Imaging Devices], SetDeviceValue method, IStillImage::SetDeviceValue, IStillImageW, IStillImageW::SetDeviceValue, S, SetDeviceValue method [Imaging Devices], SetDeviceValue method [Imaging Devices], IStillImage interface, SetDeviceValue,IStillImageW.SetDeviceValue, V, W, a, c, e, g, i, image.istillimage_setdevicevalue, l, m, sti/IStillImage::SetDeviceValue, stifnc_74822300-cad0-43db-80b9-d3f868afcd19.xml, t, u, v"
+ms.date: 2/23/2018
+ms.keywords: ",  , ,, ., :, D, I, IStillImageW, IStillImageW interface [Imaging Devices], SetDeviceValue method, IStillImageW::SetDeviceValue, S, SetDeviceValue method [Imaging Devices], SetDeviceValue method [Imaging Devices], IStillImageW interface, SetDeviceValue,IStillImageW.SetDeviceValue, V, W, a, c, e, g, i, image.istillimage_setdevicevalue, l, m, sti/IStillImageW::SetDeviceValue, stifnc_74822300-cad0-43db-80b9-d3f868afcd19.xml, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	sti.h
 apiname:
--	IStillImage.SetDeviceValue
+-	IStillImageW.SetDeviceValue
 product: Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
@@ -119,6 +119,10 @@ Before calling <b>IStillImage::SetDeviceValue</b>, clients of the <b>IStillImage
 
 ## -see-also
 
+<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543786">IStillImage::GetDeviceValue</a>
 
 
@@ -127,5 +131,5 @@ Before calling <b>IStillImage::SetDeviceValue</b>, clients of the <b>IStillImage
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStillImage::SetDeviceValue method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStillImageW::SetDeviceValue method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

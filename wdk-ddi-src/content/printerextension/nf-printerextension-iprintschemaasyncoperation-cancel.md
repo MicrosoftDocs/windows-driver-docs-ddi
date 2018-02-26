@@ -7,7 +7,7 @@ old-location: print\iprintschemaasyncoperation_cancel.htm
 old-project: print
 ms.assetid: 08DC764B-4410-4D7C-B199-29E38BA09CA6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, A, C, Cancel method [Print Devices], Cancel method [Print Devices], IPrintSchemaAsyncOperation interface, Cancel,IPrintSchemaAsyncOperation.Cancel, I, IPrintSchemaAsyncOperation, IPrintSchemaAsyncOperation interface [Print Devices], Cancel method, IPrintSchemaAsyncOperation::Cancel, O, P, S, a, c, e, h, i, l, m, n, o, p, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,5 +94,5 @@ This method returns an <b>HRESULT</b> value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaAsyncOperation::Cancel method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaAsyncOperation::Cancel method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

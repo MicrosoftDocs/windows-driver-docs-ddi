@@ -94,10 +94,6 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
@@ -106,11 +102,15 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteregisteruchar.md">NdisWriteRegisterUchar</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiswriteregisteruchar.md">NdisWriteRegisterUchar</a>
 
 
 

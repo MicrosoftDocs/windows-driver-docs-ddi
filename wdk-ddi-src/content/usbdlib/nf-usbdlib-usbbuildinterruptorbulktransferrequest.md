@@ -4,10 +4,10 @@ title: UsbBuildInterruptOrBulkTransferRequest macro
 author: windows-driver-content
 description: The UsbBuildInterruptOrBulkTransferRequest macro formats an URB to send or receive data on a bulk pipe, or to receive data from an interrupt pipe.
 old-location: buses\usbbuildinterruptorbulktransferrequest.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 2500fa22-b3f9-419d-9e37-5060b83403fb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , B, I, O, R, T, U, UsbBuildInterruptOrBulkTransferRequest, UsbBuildInterruptOrBulkTransferRequest routine [Buses], a, b, buses.usbbuildinterruptorbulktransferrequest, d, e, f, i, k, l, n, p, q, r, s, t, u, usbdlib/UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,10 +131,6 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
@@ -143,9 +139,13 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UsbBuildInterruptOrBulkTransferRequest routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UsbBuildInterruptOrBulkTransferRequest routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

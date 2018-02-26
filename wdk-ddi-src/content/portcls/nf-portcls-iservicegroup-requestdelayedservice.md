@@ -99,11 +99,11 @@ Before calling <code>RequestDelayedService</code> to request a timer delay, init
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537004">IServiceGroup::SupportDelayedService</a>
-
-
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537004">IServiceGroup::SupportDelayedService</a>
 
 
 

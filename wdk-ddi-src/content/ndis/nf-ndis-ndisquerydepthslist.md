@@ -77,7 +77,7 @@ A pointer to the head of the S-List to be queried, which the caller already init
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
+<a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
 
 
 
@@ -86,7 +86,7 @@ A pointer to the head of the S-List to be queried, which the caller already init
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
 
 
 

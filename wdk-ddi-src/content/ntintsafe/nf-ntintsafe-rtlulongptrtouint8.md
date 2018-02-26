@@ -7,7 +7,7 @@ old-location: kernel\rtlulongptrtouint8.htm
 old-project: kernel
 ms.assetid: 7CAE67CD-44B3-48C0-AB9B-F67404D8FB7C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , 8, I, L, P, R, RtlULongPtrToUInt8, RtlULongPtrToUInt8 function [Kernel-Mode Driver Architecture], T, U, g, kernel.rtlulongptrtouint8, l, n, ntintsafe/RtlULongPtrToUInt8, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

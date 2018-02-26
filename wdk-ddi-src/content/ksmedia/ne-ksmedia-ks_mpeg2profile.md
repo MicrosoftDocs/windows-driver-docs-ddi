@@ -7,7 +7,7 @@ old-location: stream\ks_mpeg2profile.htm
 old-project: stream
 ms.assetid: 1846e6b7-5b98-4850-86d6-ef6a29ce050b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, 2, E, G, K, KS_MPEG2Profile, KS_MPEG2Profile enumeration [Streaming Media Devices], KS_MPEG2Profile_High, KS_MPEG2Profile_Main, KS_MPEG2Profile_SNRScalable, KS_MPEG2Profile_Simple, KS_MPEG2Profile_SpatiallyScalable, M, P, S, _, e, f, i, ksmedia/KS_MPEG2Profile, ksmedia/KS_MPEG2Profile_High, ksmedia/KS_MPEG2Profile_Main, ksmedia/KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile_Simple, ksmedia/KS_MPEG2Profile_SpatiallyScalable, l, o, r, stream.ks_mpeg2profile, vidcapstruct_25932d29-3acc-415e-a13f-f02298c12c1d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,5 +106,5 @@ Similar to <b>KS_MPEG2Profile_Main</b>, with spatial scalability, scalable signa
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_MPEG2Profile enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_MPEG2Profile enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

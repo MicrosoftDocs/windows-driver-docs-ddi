@@ -101,7 +101,7 @@ The <b>ConfigurationType</b> member of the <a href="..\pmi\ns-pmi-_pmi_configura
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
 
 
 
@@ -109,7 +109,7 @@ The <b>ConfigurationType</b> member of the <a href="..\pmi\ns-pmi-_pmi_configura
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 
@@ -117,11 +117,11 @@ The <b>ConfigurationType</b> member of the <a href="..\pmi\ns-pmi-_pmi_configura
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
-
-
-
 <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
+
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
 
 
 

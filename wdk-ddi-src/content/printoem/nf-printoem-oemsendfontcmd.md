@@ -7,7 +7,7 @@ old-location: print\oemsendfontcmd.htm
 old-project: print
 ms.assetid: 4dcc2ec0-6a75-4fc0-800c-c1ce12e3fd6a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, E, F, M, O, OEMSendFontCmd, OEMSendFontCmd function [Print Devices], S, d, e, m, n, o, print.oemsendfontcmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml, printoem/OEMSendFontCmd, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -144,11 +144,11 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+
+
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 

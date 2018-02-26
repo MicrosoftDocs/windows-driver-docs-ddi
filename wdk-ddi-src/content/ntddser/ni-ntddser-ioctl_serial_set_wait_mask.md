@@ -244,14 +244,6 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://m
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
-
-
-
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_wait_mask.md">IOCTL_SERIAL_GET_WAIT_MASK</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
 
 
@@ -265,6 +257,14 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://m
 
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
+
+
+<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_wait_mask.md">IOCTL_SERIAL_GET_WAIT_MASK</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: kernel\obreferenceobjectbypointerwithtag.htm
 old-project: kernel
 ms.assetid: eaa730a8-8ee3-43a7-a18e-094fbac4ba60
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , B, O, ObReferenceObjectByPointerWithTag, ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], P, R, T, W, a, b, c, e, f, g, h, i, j, k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml, kernel.obreferenceobjectbypointerwithtag, n, o, r, t, wdm/ObReferenceObjectByPointerWithTag, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -154,7 +154,15 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
 
 
 
@@ -166,21 +174,13 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ObReferenceObjectByPointerWithTag routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ObReferenceObjectByPointerWithTag routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

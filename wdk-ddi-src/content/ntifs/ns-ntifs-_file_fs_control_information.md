@@ -248,7 +248,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing FileFsControlInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_CONTROL_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing FileFsControlInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_CONTROL_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -272,7 +272,7 @@ Create an IRP with major function code IRP_MJ_SET_VOLUME_INFORMATION.
 </ul>
 FILE_WRITE_DATA access to the volume is required to set this information. 
 
-The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>, <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, or <b>ZwSetVolumeInformationFile</b> must be at least <b>sizeof</b> (FILE_FS_CONTROL_INFORMATION). 
+The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>, <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, or <b>ZwSetVolumeInformationFile</b> must be at least <b>sizeof</b> (FILE_FS_CONTROL_INFORMATION). 
 
 This structure must be aligned on a LONGLONG (8-byte) boundary. 
 
@@ -285,15 +285,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
 
 
 
@@ -301,7 +293,15 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
 
 

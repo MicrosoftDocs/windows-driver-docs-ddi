@@ -7,7 +7,7 @@ old-location: debugger\setradix.htm
 old-project: debugger
 ms.assetid: 7346733d-2ac7-4eee-9f9c-ea6e1ee2ce5d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, D, I, IDebugControl, IDebugControl interface [Windows Debugging], SetRadix method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetRadix method, IDebugControl2::SetRadix, IDebugControl3 interface [Windows Debugging], SetRadix method, IDebugControl3::SetRadix, IDebugControl::SetRadix, IDebugControl_f0462fa8-da93-414b-b4b1-246a50572bb2.xml, R, S, SetRadix method [Windows Debugging], SetRadix method [Windows Debugging], IDebugControl interface, SetRadix method [Windows Debugging], IDebugControl2 interface, SetRadix method [Windows Debugging], IDebugControl3 interface, SetRadix,IDebugControl.SetRadix, SetRadix,IDebugControl2.SetRadix, a, b, d, dbgeng/IDebugControl2::SetRadix, dbgeng/IDebugControl3::SetRadix, dbgeng/IDebugControl::SetRadix, debugger.setradix, e, g, i, l, n, o, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,11 +153,11 @@ For more information about the default radix, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
 
 
 
@@ -165,7 +165,7 @@ For more information about the default radix, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -177,5 +177,5 @@ For more information about the default radix, see <a href="https://msdn.microsof
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetRadix method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetRadix method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

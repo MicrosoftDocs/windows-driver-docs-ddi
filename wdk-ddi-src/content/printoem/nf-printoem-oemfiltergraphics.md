@@ -7,7 +7,7 @@ old-location: print\oemfiltergraphics.htm
 old-project: print
 ms.assetid: 1b81de5a-440a-4209-992e-7f79c047245c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , E, F, G, M, O, OEMFilterGraphics, OEMFilterGraphics function [Print Devices], a, c, e, h, i, l, p, print.oemfiltergraphics, print_obsoletefunctions_fa20bac8-85b3-4ddb-8bf6-1a659f30b3ad.xml, printoem/OEMFilterGraphics, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

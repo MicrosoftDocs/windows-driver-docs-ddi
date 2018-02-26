@@ -153,11 +153,11 @@ The requested alignment requirement is expressed as a power-of-two multiple plus
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
 
 
 

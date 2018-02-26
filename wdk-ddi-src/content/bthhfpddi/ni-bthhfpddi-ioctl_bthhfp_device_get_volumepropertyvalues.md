@@ -119,6 +119,10 @@ This allows the Handsfree proofile (HFP) driver to almost entirely handle the pr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565966(v=vs.85).aspx">KSPROPERTY_VALUES</a>
 
 
@@ -128,10 +132,6 @@ This allows the Handsfree proofile (HFP) driver to almost entirely handle the pr
 
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563473(v=vs.85).aspx">KSNODE_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
 
 

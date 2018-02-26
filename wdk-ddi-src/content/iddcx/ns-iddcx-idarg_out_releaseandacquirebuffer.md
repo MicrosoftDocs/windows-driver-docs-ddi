@@ -7,7 +7,7 @@ old-location: display\idarg_out_releaseandacquirebuffer.htm
 old-project: display
 ms.assetid: d6092c73-b8fb-4f05-97ce-8a6fe67a2b18
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, C, D, E, F, G, I, IDARG_OUT_RELEASEANDACQUIREBUFFER, IDARG_OUT_RELEASEANDACQUIREBUFFER structure [Display Devices], L, N, O, Q, R, S, T, U, _, display.idarg_out_releaseandacquirebuffer, iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

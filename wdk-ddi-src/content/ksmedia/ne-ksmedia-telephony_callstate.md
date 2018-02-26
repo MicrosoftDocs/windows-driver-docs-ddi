@@ -92,11 +92,11 @@ Specifies that the phone call is disabled. This constant is set by the audio dri
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callinfo.md">KSTELEPHONY_CALLINFO</a>
-
-
-
 <a href="..\ksmedia\ne-ksmedia-telephony_providerchangeop.md">TELEPHONY_PROVIDERCHANGEOP</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callinfo.md">KSTELEPHONY_CALLINFO</a>
 
 
 

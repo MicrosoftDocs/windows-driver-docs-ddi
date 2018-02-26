@@ -225,15 +225,15 @@ The <b>WDF_USB_REQUEST_COMPLETION_PARAMS</b> structure is a member of the <a hre
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
+
+
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
 
 
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
 
 
 

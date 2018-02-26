@@ -115,19 +115,7 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md">WDF_PROPERTY_STORE_DISPOSITION</a>
-
-
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>
 
 
 
@@ -135,7 +123,19 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 
 
 

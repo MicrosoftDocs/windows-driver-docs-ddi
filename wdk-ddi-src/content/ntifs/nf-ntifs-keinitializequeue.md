@@ -180,15 +180,11 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
-<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-kerundownqueue.md">KeRundownQueue</a>
+<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
 
 
 
@@ -197,6 +193,10 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 <a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-kerundownqueue.md">KeRundownQueue</a>
 
 
 

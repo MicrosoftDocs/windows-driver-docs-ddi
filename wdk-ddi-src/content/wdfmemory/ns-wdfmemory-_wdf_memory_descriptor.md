@@ -152,11 +152,11 @@ To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call 
 
 ## -see-also
 
-<a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>
-
-
-
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
+<a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>
 
 
 

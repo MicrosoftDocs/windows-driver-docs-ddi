@@ -74,11 +74,11 @@ Specifies a physical address of an OS-dependent size.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetphysicaladdresshigh.md">NdisSetPhysicalAddressHigh</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisgetphysicaladdresslow.md">NdisGetPhysicalAddressLow</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetphysicaladdresshigh.md">NdisSetPhysicalAddressHigh</a>
 
 
 

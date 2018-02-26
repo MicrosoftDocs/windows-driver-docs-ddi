@@ -124,11 +124,11 @@ All pending data transfer IRPs will be completed with STATUS_REQUEST_ABORTED. In
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536623">BRB_SCO_FLUSH_CHANNEL</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

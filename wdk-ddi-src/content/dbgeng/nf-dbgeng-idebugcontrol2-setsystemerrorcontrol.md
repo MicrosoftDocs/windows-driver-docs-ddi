@@ -7,7 +7,7 @@ old-location: debugger\setsystemerrorcontrol.htm
 old-project: debugger
 ms.assetid: 0ff15743-29df-44dc-a18b-ba8f7e49058e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, D, E, I, IDebugControl, IDebugControl interface [Windows Debugging], SetSystemErrorControl method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetSystemErrorControl method, IDebugControl2::SetSystemErrorControl, IDebugControl3 interface [Windows Debugging], SetSystemErrorControl method, IDebugControl3::SetSystemErrorControl, IDebugControl::SetSystemErrorControl, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, S, SetSystemErrorControl method [Windows Debugging], SetSystemErrorControl method [Windows Debugging], IDebugControl interface, SetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, SetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, SetSystemErrorControl,IDebugControl.SetSystemErrorControl, SetSystemErrorControl,IDebugControl2.SetSystemErrorControl, b, dbgeng/IDebugControl2::SetSystemErrorControl, dbgeng/IDebugControl3::SetSystemErrorControl, dbgeng/IDebugControl::SetSystemErrorControl, debugger.setsystemerrorcontrol, e, g, l, m, n, o, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,14 +121,6 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549215">GetSystemErrorControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
@@ -137,13 +129,21 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550768">IDebugEventCallbacks::SystemError</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549215">GetSystemErrorControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetSystemErrorControl method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetSystemErrorControl method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

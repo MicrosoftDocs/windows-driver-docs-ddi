@@ -122,7 +122,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md">SeUnregisterLogonSessionTerminatedRoutine</a>
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
@@ -130,7 +130,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md">SeUnregisterLogonSessionTerminatedRoutine</a>
 
 
 

@@ -105,11 +105,11 @@ For more information about the VT_FILETIME data type, see <a href="http://go.mic
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>
-
-
-
 <a href="..\sensorscx\nf-sensorscx-sensorscxsensordataready.md">SensorsCxSensorDataReady</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>
 
 
 

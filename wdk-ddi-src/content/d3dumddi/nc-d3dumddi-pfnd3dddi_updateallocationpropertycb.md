@@ -7,7 +7,7 @@ old-location: display\pfnupdateallocationpropertycb.htm
 old-project: display
 ms.assetid: 49E4189A-2183-4033-BF17-ADFAC1CF1EF2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB, d3dumddi/pfnUpdateAllocationPropertyCb, display.pfnupdateallocationpropertycb, pfnUpdateAllocationPropertyCb, pfnUpdateAllocationPropertyCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

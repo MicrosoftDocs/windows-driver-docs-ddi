@@ -7,7 +7,7 @@ old-location: stream\iksdatatypehandler_ksqueryextendedsize.htm
 old-project: stream
 ms.assetid: 14d03e6f-d02c-4b39-8f21-b339c65fb036
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, E, H, I, IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], KsQueryExtendedSize method, IKsDataTypeHandler::KsQueryExtendedSize, K, KsQueryExtendedSize method [Streaming Media Devices], KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface, KsQueryExtendedSize,IKsDataTypeHandler.KsQueryExtendedSize, Q, S, T, a, d, e, i, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, l, n, p, r, s, stream.iksdatatypehandler_ksqueryextendedsize, t, u, x, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,17 +92,17 @@ If <b>KsQueryExtendedSize</b> returns zero at <i>ExtendedSize</i>, clients shoul
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559811">IKsDataTypeHandler::KsCompleteIoOperation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559831">IKsDataTypeHandler::KsPrepareIoOperation</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559811">IKsDataTypeHandler::KsCompleteIoOperation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsDataTypeHandler::KsQueryExtendedSize method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsDataTypeHandler::KsQueryExtendedSize method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

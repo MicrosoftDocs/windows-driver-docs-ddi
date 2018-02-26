@@ -77,7 +77,7 @@ NDIS_STATUS NdisMRegisterMiniportDriver(
 ### -param DriverObject [in]
 
 A pointer to an opaque driver object that the miniport driver received in its 
-     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
      Miniport Drivers</a>).
@@ -86,7 +86,7 @@ A pointer to an opaque driver object that the miniport driver received in its
 ### -param RegistryPath [in]
 
 A pointer to an opaque registry path that the miniport driver received in its 
-     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
 
@@ -195,7 +195,7 @@ This is a default error status, returned when none of the preceding errors cause
 
 An NDIS driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information, see 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information, see 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
     Miniport Drivers</a>.
 
@@ -230,7 +230,7 @@ After a driver calls
     <i>MiniportDriverCharacteristics</i> parameter.
 
 If an error occurs in 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> after 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> after 
     <b>NdisMRegisterMiniportDriver</b> returns successfully, the driver must call the 
     <a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
     NdisMDeregisterMiniportDriver</a> function before 
@@ -244,11 +244,20 @@ If an error occurs in
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+   NdisMDeregisterMiniportDriver</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -257,16 +266,7 @@ If an error occurs in
 
 
 
-<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
-   NdisMDeregisterMiniportDriver</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

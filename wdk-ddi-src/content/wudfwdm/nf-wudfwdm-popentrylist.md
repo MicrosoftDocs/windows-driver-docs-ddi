@@ -7,7 +7,7 @@ old-location: kernel\popentrylist.htm
 old-project: kernel
 ms.assetid: b24ec573-4164-4016-a19d-574ebd75ec8f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, L, P, PopEntryList, PopEntryList routine [Kernel-Mode Driver Architecture], i, k109_a5d1634c-e1ab-43ac-ab3f-d0993263f5bb.xml, kernel.popentrylist, n, o, p, r, s, t, wdm/PopEntryList, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ Callers of <b>PopEntryList</b> can be running at any IRQL. If <b>PopEntryList</b
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
+<a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
 
 
 
@@ -109,5 +109,5 @@ Callers of <b>PopEntryList</b> can be running at any IRQL. If <b>PopEntryList</b
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PopEntryList routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PopEntryList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

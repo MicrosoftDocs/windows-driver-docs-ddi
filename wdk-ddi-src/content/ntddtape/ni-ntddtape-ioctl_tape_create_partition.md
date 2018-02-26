@@ -7,7 +7,7 @@ old-location: storage\ioctl_tape_create_partition.htm
 old-project: storage
 ms.assetid: da220281-a08d-4aeb-abb4-471aacb2461a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_TAPE_CREATE_PARTITION, IOCTL_TAPE_CREATE_PARTITION control code [Storage Devices], k307_d1911c51-33f1-4c45-bbf0-ace7714fa53f.xml, ntddtape/IOCTL_TAPE_CREATE_PARTITION, storage.ioctl_tape_create_partition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,17 +111,17 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntddtape\ns-ntddtape-_tape_create_partition.md">TAPE_CREATE_PARTITION</a>
-
-
-
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
- 
+<a href="..\ntddtape\ns-ntddtape-_tape_create_partition.md">TAPE_CREATE_PARTITION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_TAPE_CREATE_PARTITION control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_TAPE_CREATE_PARTITION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

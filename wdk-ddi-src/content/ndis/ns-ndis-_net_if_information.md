@@ -285,14 +285,6 @@ The interface provider should allocate enough memory for the structure and the a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
 
 
@@ -301,15 +293,15 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568750">NET_PHYSICAL_LOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
 
 
 
@@ -318,11 +310,7 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 
@@ -334,11 +322,23 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568750">NET_PHYSICAL_LOCATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
 
 
 

@@ -95,11 +95,11 @@ Your serial controller driver must use this function to initialize a <a href="..
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a>
-
-
-
 <a href="..\sercx\ns-sercx-_sercx2_custom_receive_config.md">SERCX2_CUSTOM_RECEIVE_CONFIG</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a>
 
 
 

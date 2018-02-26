@@ -7,7 +7,7 @@ old-location: storage\ms_smhba_protocolstatistics.htm
 old-project: storage
 ms.assetid: eb992a5e-41fe-4bb3-9f53-785135af8a32
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PMS_SMHBA_PROTOCOLSTATISTICS, ,, A, B, C, H, I, L, M, MS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS structure [Storage Devices], O, P, PMS_SMHBA_PROTOCOLSTATISTICS, PMS_SMHBA_PROTOCOLSTATISTICS structure pointer [Storage Devices], R, S, T, _, _MS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/MS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/PMS_SMHBA_PROTOCOLSTATISTICS, storage.ms_smhba_protocolstatistics, structs-Fibre_c49fbe22-4575-4738-810b-c9b53d5cc40c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

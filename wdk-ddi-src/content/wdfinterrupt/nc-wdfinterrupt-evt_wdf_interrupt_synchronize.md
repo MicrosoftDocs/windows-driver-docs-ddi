@@ -153,11 +153,11 @@ The <b>EVT_WDF_INTERRUPT_SYNCHRONIZE</b> function type is defined in the Wdfinte
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
-
-
-
 <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
+
+
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
 
 
 

@@ -111,12 +111,12 @@ The processor count can change at runtime on SKUs that support hot-add functiona
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
    NdisGroupActiveProcessorCount</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
 
 

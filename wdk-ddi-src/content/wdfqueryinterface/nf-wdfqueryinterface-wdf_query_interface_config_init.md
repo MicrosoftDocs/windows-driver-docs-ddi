@@ -80,7 +80,7 @@ A pointer to the driver's <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wd
 
 ### -param Interface [in]
 
-A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
+A pointer to an <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
 
 
 ### -param InterfaceType [in]
@@ -119,7 +119,7 @@ For a code example that uses <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b>, see <a href
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
 
 
 
@@ -127,7 +127,7 @@ For a code example that uses <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b>, see <a href
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
 
 
 

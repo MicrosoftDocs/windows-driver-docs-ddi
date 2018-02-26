@@ -169,7 +169,8 @@ A callout driver calls the
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
+   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 
@@ -181,12 +182,11 @@ A callout driver calls the
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
-   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 

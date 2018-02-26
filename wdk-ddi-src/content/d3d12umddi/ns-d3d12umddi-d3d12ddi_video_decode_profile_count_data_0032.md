@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-video-decode-profile-count-data-0032.htm
 old-project: display
 ms.assetid: 8398579d-e8cf-4c58-ac74-eeddf2dca23b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032 structure [Display Devices], E, F, I, L, N, O, P, R, T, U, V, _, d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032, display.d3d12ddi-video-decode-profile-count-data-0032"
 ms.prod: windows-hardware
 ms.technology: windows-devices

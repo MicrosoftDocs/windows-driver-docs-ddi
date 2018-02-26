@@ -95,11 +95,11 @@ A KS audio filter can only use <code>DrmDestroyContent</code> to delete a DRM co
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcdestroycontent.md">PcDestroyContent</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536583">IDrmPort::DestroyContent</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcdestroycontent.md">PcDestroyContent</a>
 
 
 
@@ -107,7 +107,7 @@ A KS audio filter can only use <code>DrmDestroyContent</code> to delete a DRM co
 
 
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 
 
@@ -115,7 +115,7 @@ A KS audio filter can only use <code>DrmDestroyContent</code> to delete a DRM co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 

@@ -193,7 +193,7 @@ A miniport driver can set an affinity policy for each resource of type
     for a specific set of processors, the miniport driver also sets a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> mask at the 
     <b>Interrupt.TargetedProcessors</b> member in the 
-    <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure.
+    <a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure.
 
 If an NDIS 6.1 or later miniport driver requires more message interrupt resources, it can add more
     message interrupt resources to the resources list. If the operating system can provide more message
@@ -350,19 +350,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
@@ -370,7 +358,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<b>MiniportStartDevice</b>
 
 
 
@@ -379,8 +375,12 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
 
 
 
@@ -388,16 +388,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<b>MiniportStartDevice</b>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
-   MiniportFilterResourceRequirements</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
 
 

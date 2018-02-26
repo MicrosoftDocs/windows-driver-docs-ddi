@@ -151,15 +151,15 @@ Before NDIS restarts the filter module, it calls the
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
 
 <a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 

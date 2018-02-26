@@ -7,7 +7,7 @@ old-location: debugger\virtualtophysical.htm
 old-project: debugger
 ms.assetid: e0b7bd4c-cb3f-4bc3-8359-241c9a245204
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 4, :, D, I, IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces2::VirtualToPhysical, IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces3::VirtualToPhysical, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces4::VirtualToPhysical, IDebugDataSpaces_56267474-49c4-446c-83eb-3e4eb2e92734.xml, P, S, T, V, VirtualToPhysical method [Windows Debugging], VirtualToPhysical method [Windows Debugging], IDebugDataSpaces2 interface, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces3 interface, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces4 interface, VirtualToPhysical,IDebugDataSpaces2.VirtualToPhysical, VirtualToPhysical,IDebugDataSpaces3.VirtualToPhysical, VirtualToPhysical,IDebugDataSpaces4.VirtualToPhysical, a, b, c, dbgeng/IDebugDataSpaces2::VirtualToPhysical, dbgeng/IDebugDataSpaces3::VirtualToPhysical, dbgeng/IDebugDataSpaces4::VirtualToPhysical, debugger.virtualtophysical, e, g, h, i, l, o, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

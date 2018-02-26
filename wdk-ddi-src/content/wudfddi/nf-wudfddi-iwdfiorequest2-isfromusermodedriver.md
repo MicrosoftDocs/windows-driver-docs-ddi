@@ -98,7 +98,7 @@ For a code example that uses <b>IsFromUserModeDriver</b>, see the example at <a 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>
 
 
 
@@ -106,7 +106,7 @@ For a code example that uses <b>IsFromUserModeDriver</b>, see the example at <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 

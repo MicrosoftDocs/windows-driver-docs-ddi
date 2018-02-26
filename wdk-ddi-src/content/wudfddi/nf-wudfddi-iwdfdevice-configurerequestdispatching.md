@@ -98,7 +98,7 @@ A BOOL value that specifies whether requests of the specified type are queued. <
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
@@ -106,7 +106,7 @@ A BOOL value that specifies whether requests of the specified type are queued. <
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

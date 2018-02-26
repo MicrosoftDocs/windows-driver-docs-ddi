@@ -7,7 +7,7 @@ old-location: image\devicedialogdata2.htm
 old-project: image
 ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, ,, 2, A, C, D, DEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], E, G, I, L, LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], O, P, PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], T, UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, V, a, g, image.devicedialogdata2, t, tagDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,11 +138,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
 
 
 
@@ -150,11 +146,15 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
 
 
 
@@ -162,15 +162,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
 
 
 
@@ -178,13 +170,21 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
 
 
 
- 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20DEVICEDIALOGDATA2 structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20DEVICEDIALOGDATA2 structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

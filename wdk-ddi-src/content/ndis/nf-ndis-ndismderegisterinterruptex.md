@@ -118,7 +118,7 @@ The miniport driver should disable its NIC from generating interrupts before it 
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 
 
@@ -126,16 +126,16 @@ The miniport driver should disable its NIC from generating interrupts before it 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
    NdisMSynchronizeWithInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
 
 
 

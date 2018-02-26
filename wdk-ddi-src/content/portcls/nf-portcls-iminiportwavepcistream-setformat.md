@@ -94,11 +94,11 @@ For information about specifying wave stream formats, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
-
-
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\readmultibytestringvirtualwide.htm
 old-project: debugger
 ms.assetid: 5429b533-1b85-426e-8540-6c72034d42dd
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 4, :, B, D, I, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtualWide method, IDebugDataSpaces4::ReadMultiByteStringVirtualWide, IDebugDataSpaces_c5a99b4a-a468-459e-acc1-f3a4f224f645.xml, M, R, ReadMultiByteStringVirtualWide method [Windows Debugging], ReadMultiByteStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, ReadMultiByteStringVirtualWide,IDebugDataSpaces4.ReadMultiByteStringVirtualWide, S, V, W, a, b, c, d, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtualWide, debugger.readmultibytestringvirtualwide, e, g, i, l, n, p, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,7 +165,7 @@ Note that even if S_OK is returned, the buffer may not have been large enough to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554357">ReadUnicodeStringVirtualWide</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554300">ReadMultiByteStringVirtual</a>
 
 
 
@@ -173,7 +173,7 @@ Note that even if S_OK is returned, the buffer may not have been large enough to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554300">ReadMultiByteStringVirtual</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554357">ReadUnicodeStringVirtualWide</a>
 
 
 
@@ -181,5 +181,5 @@ Note that even if S_OK is returned, the buffer may not have been large enough to
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces4::ReadMultiByteStringVirtualWide method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces4::ReadMultiByteStringVirtualWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

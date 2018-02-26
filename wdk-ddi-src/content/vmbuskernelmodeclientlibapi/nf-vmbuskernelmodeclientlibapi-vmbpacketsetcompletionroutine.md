@@ -102,11 +102,11 @@ This function does not return a value.
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_packet_completion_routine.md">EvtVmbPacketCompletionRoutine</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md">VmbPacketSendWithExternalPfns</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_packet_completion_routine.md">EvtVmbPacketCompletionRoutine</a>
 
 
 

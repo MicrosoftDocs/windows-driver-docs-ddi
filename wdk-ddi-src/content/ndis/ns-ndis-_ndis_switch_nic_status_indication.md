@@ -161,15 +161,15 @@ For guidelines on how to issue NDIS status indications from underlying physical 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_switch_nic_status_indication.md">NDIS_SWITCH_NIC_STATUS_INDICATION</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_switch_nic_status_indication.md">NDIS_SWITCH_NIC_STATUS_INDICATION</a>
 
 
 

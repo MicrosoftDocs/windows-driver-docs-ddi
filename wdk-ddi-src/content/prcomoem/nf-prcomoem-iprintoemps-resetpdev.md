@@ -7,7 +7,7 @@ old-location: print\iprintoemps_resetpdev.htm
 old-project: print
 ms.assetid: 10248026-471a-4419-9c96-3502c24a6e96
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, E, I, IPrintOemPS, IPrintOemPS interface [Print Devices], ResetPDEV method, IPrintOemPS::ResetPDEV, O, P, R, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices], IPrintOemPS interface, ResetPDEV,IPrintOemPS.ResetPDEV, S, V, e, i, m, n, prcomoem/IPrintOemPS::ResetPDEV, print.iprintoemps_resetpdev, print_unidrv-pscript_rendering_d7b128bc-174c-4d06-8ffa-8df31ac22303.xml, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

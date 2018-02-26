@@ -136,15 +136,15 @@ The encoded content that represents the CDMA-based SMS text message.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
 
 
 
 <a href="..\wwan\ne-wwan-_wwan_sms_cdma_lang.md">WWAN_SMS_CDMA_LANG</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
 
 
 

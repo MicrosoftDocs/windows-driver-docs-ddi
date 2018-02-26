@@ -7,7 +7,7 @@ old-location: stream\bda_locktype.htm
 old-project: stream
 ms.assetid: 6119727a-05af-4a70-a321-5f0f2e439b93
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, B, BDA_LockType, BDA_LockType enumeration [Streaming Media Devices], Bda_LockType_Complete, Bda_LockType_DecoderDemod, Bda_LockType_None, Bda_LockType_PLL, D, L, T, _, _BdaLockType, a, bdamedia/BDA_LockType, bdamedia/Bda_LockType_Complete, bdamedia/Bda_LockType_DecoderDemod, bdamedia/Bda_LockType_None, bdamedia/Bda_LockType_PLL, bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml, c, d, e, k, o, p, stream.bda_locktype, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,17 +92,17 @@ To be supplied.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564369">KSPROPERTY_BDA_SIGNAL_LOCK_CAPS</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_LockType enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_LockType enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -192,8 +192,8 @@ The host stack uses the
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
 
 
@@ -205,12 +205,12 @@ The host stack uses the
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 

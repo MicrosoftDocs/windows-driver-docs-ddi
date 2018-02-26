@@ -4,10 +4,10 @@ title: "_USB_PORT_CONNECTOR_PROPERTIES"
 author: windows-driver-content
 description: The USB_PORT_CONNECTOR_PROPERTIES structure is used with the IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request to retrieve information about a port on a particular SuperSpeed hub.
 old-location: buses\usb_port_connector_properties.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 93818067-A7EC-4796-B80F-75ADD6315ADF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUSB_PORT_CONNECTOR_PROPERTIES, ,, B, C, E, I, N, O, P, PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], R, S, T, U, USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], _, _USB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,19 +129,19 @@ To get information about the operating speed of a device attached to a particula
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
 
 
 
@@ -153,5 +153,5 @@ To get information about the operating speed of a device attached to a particula
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_PORT_CONNECTOR_PROPERTIES structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_PORT_CONNECTOR_PROPERTIES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -215,7 +215,7 @@ The
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">Full TCP Offload</a>
 
 
 
@@ -232,11 +232,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">Full TCP Offload</a>
-
-
-
 <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

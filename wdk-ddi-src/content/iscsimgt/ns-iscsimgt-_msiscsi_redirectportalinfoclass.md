@@ -7,7 +7,7 @@ old-location: storage\msiscsi_redirectportalinfoclass.htm
 old-project: storage
 ms.assetid: fcddf029-748b-4300-9f87-a103d961918a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PMSiSCSI_RedirectPortalInfoClass, ,, C, I, M, MSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass structure [Storage Devices], P, PMSiSCSI_RedirectPortalInfoClass, PMSiSCSI_RedirectPortalInfoClass structure pointer [Storage Devices], R, S, _, _MSiSCSI_RedirectPortalInfoClass, a, c, d, e, f, i, iscsimgt/MSiSCSI_RedirectPortalInfoClass, iscsimgt/PMSiSCSI_RedirectPortalInfoClass, l, n, o, r, s, storage.msiscsi_redirectportalinfoclass, structs-iSCSI_211386cb-7e73-40d9-8284-560555fe8201.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

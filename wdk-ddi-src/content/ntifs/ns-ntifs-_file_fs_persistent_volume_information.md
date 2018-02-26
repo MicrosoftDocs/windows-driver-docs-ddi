@@ -234,11 +234,11 @@ The <b>Version</b> member must be set to the current version of 1 for both a que
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545564">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545496">FSCTL_QUERY_PERSISTENT_VOLUME_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545564">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>
 
 
 

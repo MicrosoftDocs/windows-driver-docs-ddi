@@ -159,7 +159,7 @@ The <i>OutInterruptSync</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parame
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
 
 
 
@@ -167,7 +167,7 @@ The <i>OutInterruptSync</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parame
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 

@@ -230,19 +230,27 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sesetsecuritydescriptorinfoex.md">SeSetSecurityDescriptorInfoEx</a>
-
-
-
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 
 
@@ -254,27 +262,19 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
 
 
@@ -282,7 +282,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+<a href="..\ntifs\nf-ntifs-sesetsecuritydescriptorinfoex.md">SeSetSecurityDescriptorInfoEx</a>
 
 
 

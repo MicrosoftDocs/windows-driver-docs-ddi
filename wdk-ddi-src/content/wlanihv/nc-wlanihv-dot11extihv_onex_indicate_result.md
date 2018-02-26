@@ -140,7 +140,7 @@ For more information about using the 802.1X module for authentication, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11_msonex_result_params.md">DOT11_MSONEX_RESULT_PARAMS</a>
 
 
 
@@ -148,16 +148,16 @@ For more information about using the 802.1X module for authentication, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
-   Dot11ExtIhvOneXIndicateResult</a>
-
-
-
-<a href="..\wlanihv\ns-wlanihv-_dot11_msonex_result_params.md">DOT11_MSONEX_RESULT_PARAMS</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+   Dot11ExtIhvOneXIndicateResult</a>
 
 
 

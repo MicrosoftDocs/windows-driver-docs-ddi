@@ -7,8 +7,8 @@ old-location: image\istillimage_initialize.htm
 old-project: image
 ms.assetid: 2410f27f-f880-4870-a86a-2d6000b651fd
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IStillImage interface [Imaging Devices], Initialize method, IStillImage::Initialize, IStillImageW, IStillImageW::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStillImage interface, Initialize,IStillImageW.Initialize, S, W, a, e, g, i, image.istillimage_initialize, l, m, n, sti/IStillImage::Initialize, stifnc_31e54f97-84af-47bf-a1b1-17ab697caef3.xml, t, z"
+ms.date: 2/23/2018
+ms.keywords: ",  , ,, ., :, I, IStillImageW, IStillImageW interface [Imaging Devices], Initialize method, IStillImageW::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStillImageW interface, Initialize,IStillImageW.Initialize, S, W, a, e, g, i, image.istillimage_initialize, l, m, n, sti/IStillImageW::Initialize, stifnc_31e54f97-84af-47bf-a1b1-17ab697caef3.xml, t, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	sti.h
 apiname:
--	IStillImage.Initialize
+-	IStillImageW.Initialize
 product: Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE

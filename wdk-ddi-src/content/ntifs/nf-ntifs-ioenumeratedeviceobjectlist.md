@@ -156,15 +156,7 @@ In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObject
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -172,7 +164,15 @@ In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObject
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
 
 
 

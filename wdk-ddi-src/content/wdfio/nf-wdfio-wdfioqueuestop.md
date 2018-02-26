@@ -143,7 +143,7 @@ WdfIoQueueStop(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestopsynchronously.md">WdfIoQueueStopSynchronously</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
 
 
 
@@ -151,7 +151,7 @@ WdfIoQueueStop(
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuestopsynchronously.md">WdfIoQueueStopSynchronously</a>
 
 
 

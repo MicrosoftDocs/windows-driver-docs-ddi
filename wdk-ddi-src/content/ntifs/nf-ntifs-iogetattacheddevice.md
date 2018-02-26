@@ -104,11 +104,11 @@ Callers of <b>IoGetAttachedDevice</b> must ensure that no device objects are add
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
-
-
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 
 
 

@@ -266,18 +266,6 @@ This macro does not return a value.
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
 
 
@@ -286,7 +274,19 @@ This macro does not return a value.
 
 
 
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+
+
+
 <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 

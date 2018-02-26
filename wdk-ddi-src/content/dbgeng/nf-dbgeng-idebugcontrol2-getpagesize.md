@@ -7,7 +7,7 @@ old-location: debugger\getpagesize.htm
 old-project: debugger
 ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, D, G, GetPageSize method [Windows Debugging], GetPageSize method [Windows Debugging], IDebugControl interface, GetPageSize method [Windows Debugging], IDebugControl2 interface, GetPageSize method [Windows Debugging], IDebugControl3 interface, GetPageSize,IDebugControl.GetPageSize, GetPageSize,IDebugControl2.GetPageSize, I, IDebugControl, IDebugControl interface [Windows Debugging], GetPageSize method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetPageSize method, IDebugControl2::GetPageSize, IDebugControl3 interface [Windows Debugging], GetPageSize method, IDebugControl3::GetPageSize, IDebugControl::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, P, S, a, b, dbgeng/IDebugControl2::GetPageSize, dbgeng/IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, debugger.getpagesize, e, g, i, l, n, o, r, t, u, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices

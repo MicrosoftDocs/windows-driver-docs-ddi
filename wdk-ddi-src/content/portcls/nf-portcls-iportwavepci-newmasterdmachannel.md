@@ -90,7 +90,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
+Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 
 ### -param ResourceList [in, optional]
@@ -167,10 +167,6 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
 <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
 
@@ -179,11 +175,15 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 
-<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
 
 
 

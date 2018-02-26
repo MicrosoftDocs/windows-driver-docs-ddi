@@ -4,10 +4,10 @@ title: UdecxInitializeWdfDeviceInit function
 author: windows-driver-content
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\udecxinitializewdfdeviceinit.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 6FF62F6B-D83D-45DB-BE83-7A6D61A6AC92
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, I, U, UdecxInitializeWdfDeviceInit, UdecxInitializeWdfDeviceInit function [Buses], W, a, buses.udecxinitializewdfdeviceinit, c, d, e, f, i, l, n, t, udecxwdfdevice/UdecxInitializeWdfDeviceInit, v, x, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,15 +101,11 @@ The client driver for the emulated host controller device calls this method in i
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 
@@ -117,9 +113,13 @@ The client driver for the emulated host controller device calls this method in i
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UdecxInitializeWdfDeviceInit function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UdecxInitializeWdfDeviceInit function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

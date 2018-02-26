@@ -7,7 +7,7 @@ old-location: kernel\exfreepoolwithtag.htm
 old-project: kernel
 ms.assetid: ebf404dd-479a-4573-9372-4b777c3cd5e7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, ExFreePoolWithTag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], F, P, T, W, a, e, g, h, i, k102_03ac2997-acff-40b6-a110-718261627130.xml, kernel.exfreepoolwithtag, l, o, r, t, wdm/ExFreePoolWithTag, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,11 +99,7 @@ Callers of <b>ExFreePoolWithTag</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
@@ -111,9 +107,13 @@ Callers of <b>ExFreePoolWithTag</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 
 
- 
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExFreePoolWithTag routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExFreePoolWithTag routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

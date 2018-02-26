@@ -7,7 +7,7 @@ old-location: display\idarg_out_opm_get_random_number.htm
 old-project: display
 ms.assetid: eb5efb8b-2c7b-493e-ba22-a599958b52a5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, D, E, G, I, IDARG_OUT_OPM_GET_RANDOM_NUMBER, IDARG_OUT_OPM_GET_RANDOM_NUMBER structure [Display Devices], M, N, O, P, R, T, U, _, display.idarg_out_opm_get_random_number, iddcx/IDARG_OUT_OPM_GET_RANDOM_NUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

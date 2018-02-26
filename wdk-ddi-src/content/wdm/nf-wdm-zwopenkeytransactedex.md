@@ -7,7 +7,7 @@ old-location: kernel\zwopenkeytransactedex.htm
 old-project: kernel
 ms.assetid: 8e3db1b4-6ee1-40a1-9818-434152fdffd7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, K, O, T, Z, ZwOpenKeyTransactedEx, ZwOpenKeyTransactedEx routine [Kernel-Mode Driver Architecture], a, c, d, e, k111_765ab476-0a2a-4eb4-ba87-387fa49ae118.xml, kernel.zwopenkeytransactedex, n, p, r, s, t, w, wdm/ZwOpenKeyTransactedEx, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -251,6 +251,14 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwcreatekeytransacted.md">ZwCreateKeyTransacted</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
@@ -259,35 +267,7 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 
 
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenkeytransacted.md">ZwOpenKeyTransacted</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatekeytransacted.md">ZwCreateKeyTransacted</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenkeyex.md">ZwOpenKeyEx</a>
 
 
 
@@ -295,7 +275,11 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenkeyex.md">ZwOpenKeyEx</a>
 
 
 
@@ -303,9 +287,25 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 
 
- 
+<a href="..\wdm\nf-wdm-zwopenkeytransacted.md">ZwOpenKeyTransacted</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwOpenKeyTransactedEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwOpenKeyTransactedEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

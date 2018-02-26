@@ -197,37 +197,8 @@ A WSK application can create, bind, and connect a connection-oriented socket in 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">
    WSK_PROVIDER_STREAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
-   WSK_PROVIDER_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect_event.md">WskDisconnectEvent</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
 
 
 
@@ -236,6 +207,35 @@ A WSK application can create, bind, and connect a connection-oriented socket in 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect_event.md">WskDisconnectEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 

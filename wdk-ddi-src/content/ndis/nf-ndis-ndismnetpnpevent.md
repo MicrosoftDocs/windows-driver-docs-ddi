@@ -287,19 +287,19 @@ For all other propagated events, the intermediate driver's
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
 
 

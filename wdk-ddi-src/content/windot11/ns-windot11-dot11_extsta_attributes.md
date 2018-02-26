@@ -570,63 +570,7 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
-
-
-
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
-   Mode</a>
-
-
-
-<a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
-   OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
 
 
 
@@ -635,8 +579,64 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+   OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+
+
+<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+   Mode</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
    OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

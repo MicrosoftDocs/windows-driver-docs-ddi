@@ -7,7 +7,7 @@ old-location: storage\iscsi_sessionstaticinfo.htm
 old-project: storage
 ms.assetid: c652268f-4a31-4ec1-a668-8700cb7f4e1b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PISCSI_SessionStaticInfo, ,, C, I, ISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo structure [Storage Devices], P, PISCSI_SessionStaticInfo, PISCSI_SessionStaticInfo structure pointer [Storage Devices], S, _, _ISCSI_SessionStaticInfo, a, c, e, f, i, iscsimgt/ISCSI_SessionStaticInfo, iscsimgt/PISCSI_SessionStaticInfo, n, o, s, storage.iscsi_sessionstaticinfo, structs-iSCSI_94ec0954-b409-4acf-8935-7c8dc6b0d095.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -220,15 +220,11 @@ A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionsta
 
 ## -see-also
 
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a>
-
-
-
 <a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a>
 
 
 
@@ -236,9 +232,13 @@ A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionsta
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_SessionStaticInfo structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_SessionStaticInfo structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

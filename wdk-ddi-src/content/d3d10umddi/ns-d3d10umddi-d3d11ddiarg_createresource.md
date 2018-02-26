@@ -7,7 +7,7 @@ old-location: display\d3d11ddiarg_createresource.htm
 old-project: display
 ms.assetid: 4cdc5d74-ef53-47aa-91ed-0b71dfe688dc
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11DDIARG_CREATERESOURCE, D3D11DDIARG_CREATERESOURCE structure [Display Devices], E, G, I, O, R, S, T, U, UMDisplayDriver_Dx11param_Structs_86915c01-2d64-42d6-bae0-2a83ba1dda80.xml, _, d3d10umddi/D3D11DDIARG_CREATERESOURCE, display.d3d11ddiarg_createresource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -175,7 +175,7 @@ If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before a
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddiarg_subresource_up.md">D3D10_DDIARG_SUBRESOURCE_UP</a>
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
 
 
 
@@ -183,11 +183,7 @@ If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before a
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
+<a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a>
 
 
 
@@ -195,15 +191,11 @@ If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before a
 
 
 
-<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
-
-
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
 
 
 
@@ -211,17 +203,25 @@ If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before a
 
 
 
-<a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
 
 
 
- 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddiarg_subresource_up.md">D3D10_DDIARG_SUBRESOURCE_UP</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11DDIARG_CREATERESOURCE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11DDIARG_CREATERESOURCE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

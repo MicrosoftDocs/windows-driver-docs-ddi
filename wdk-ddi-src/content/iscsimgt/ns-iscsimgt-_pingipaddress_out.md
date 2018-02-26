@@ -7,7 +7,7 @@ old-location: storage\pingipaddress_out.htm
 old-project: storage
 ms.assetid: 26512dc5-9d3d-4dd5-bce3-37feb64dded8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PPingIPAddress_OUT, ,, A, I, O, P, PPingIPAddress_OUT, PPingIPAddress_OUT structure pointer [Storage Devices], PingIPAddress_OUT, PingIPAddress_OUT structure [Storage Devices], T, U, _, _PingIPAddress_OUT, d, e, g, i, iscsimgt/PPingIPAddress_OUT, iscsimgt/PingIPAddress_OUT, n, r, s, storage.pingipaddress_out, structs-iSCSI_a6cbf3cf-b386-4cab-9193-5b9724e4646e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

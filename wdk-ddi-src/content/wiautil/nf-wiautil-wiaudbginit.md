@@ -7,7 +7,7 @@ old-location: image\wiaudbginit.htm
 old-project: image
 ms.assetid: a9308d66-c8b0-4e0e-8203-e2b3f91b7e27
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, I, a, b, g, i, image.wiaudbginit, n, t, u, w, wiauDbgInit, wiauDbgInit function [Imaging Devices], wiauFncs_0f18edab-cbf7-4012-85ea-93f101343ecb.xml, wiautil/wiauDbgInit"
 ms.prod: windows-hardware
 ms.technology: windows-devices

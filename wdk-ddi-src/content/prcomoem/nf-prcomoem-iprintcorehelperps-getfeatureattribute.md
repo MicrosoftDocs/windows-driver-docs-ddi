@@ -7,7 +7,7 @@ old-location: print\iprintcorehelperps_getfeatureattribute.htm
 old-project: print
 ms.assetid: bf5d9081-20c8-43da-a71f-f089c2885b49
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, A, C, F, G, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS interface, GetFeatureAttribute,IPrintCoreHelperPS.GetFeatureAttribute, H, I, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], GetFeatureAttribute method, IPrintCoreHelperPS::GetFeatureAttribute, P, S, a, b, e, i, l, n, o, p, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -180,7 +180,7 @@ For more information about <b>IPrintCoreHelperPS::GetFeatureAttribute</b>, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552899">IPrintCoreHelperPS::GetGlobalAttribute</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
 
 
 
@@ -188,7 +188,7 @@ For more information about <b>IPrintCoreHelperPS::GetFeatureAttribute</b>, see <
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552899">IPrintCoreHelperPS::GetGlobalAttribute</a>
 
 
 
@@ -196,5 +196,5 @@ For more information about <b>IPrintCoreHelperPS::GetFeatureAttribute</b>, see <
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::GetFeatureAttribute method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::GetFeatureAttribute method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -118,11 +118,7 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
 
 
@@ -130,7 +126,11 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
 
 
 

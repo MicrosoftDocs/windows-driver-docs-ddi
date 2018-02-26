@@ -122,11 +122,11 @@ The <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure is used in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info.md">NDIS_RECEIVE_QUEUE_INFO</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info.md">NDIS_RECEIVE_QUEUE_INFO</a>
 
 
 

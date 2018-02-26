@@ -7,7 +7,7 @@ old-location: kernel\pep_coordinated_idle_state.htm
 old-project: kernel
 ms.assetid: 0B3B53F8-2D1E-430B-9C51-E35465899811
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PPEP_COORDINATED_IDLE_STATE, ,, A, C, D, E, I, L, N, O, P, PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE, PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], R, S, T, _, _PEP_COORDINATED_IDLE_STATE, kernel.pep_coordinated_idle_state, pepfx/PEP_COORDINATED_IDLE_STATE, pepfx/PPEP_COORDINATED_IDLE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Supplies the maximum size of a single dependency.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE structure</a>
+<a href="..\pep_x\ns-pep_x-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE structure</a>
 
 
 
@@ -104,5 +104,5 @@ Supplies the maximum size of a single dependency.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_COORDINATED_IDLE_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_COORDINATED_IDLE_STATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

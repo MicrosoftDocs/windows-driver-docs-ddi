@@ -110,7 +110,7 @@ The default isolation ID that is applied to tagged packets if the <b>AllowUntagg
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -118,7 +118,7 @@ The default isolation ID that is applied to tagged packets if the <b>AllowUntagg
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a>
 
 
 

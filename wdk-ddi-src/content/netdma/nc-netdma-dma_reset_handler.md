@@ -158,11 +158,11 @@ NetDMA calls
 
 
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
-
-
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 
 

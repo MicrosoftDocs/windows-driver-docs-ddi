@@ -157,7 +157,7 @@ An <a href="..\ntddndis\ne-ntddndis-_ndis_nic_switch_vport_state.md">NDIS_NIC_SW
 
 ### -field ProcessorAffinity
 
-A <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> value that specifies the group number and a bitmap of the CPUs that this VPort can be associated with. 
+A <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> value that specifies the group number and a bitmap of the CPUs that this VPort can be associated with. 
 
 This member is valid only for the VPorts attached to the PF. This field is not valid for nondefault VPorts that are attached to a VF. 
 
@@ -199,7 +199,7 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
 
 
 
@@ -207,11 +207,11 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info_array.md">NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
 
 
 

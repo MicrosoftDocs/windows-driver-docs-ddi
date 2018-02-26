@@ -7,7 +7,7 @@ old-location: display\dxgk_opm_interface.htm
 old-project: display
 ms.assetid: 6ae1d9a8-db9a-460d-b258-222a2bd96265
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDXGK_OPM_INTERFACE, ,, A, C, D, DXGK_OPM_INTERFACE, DXGK_OPM_INTERFACE structure [Display Devices], DmStructs_e1644da8-220d-470a-b9b9-f23ba7e1c4f6.xml, E, F, G, I, K, M, N, O, P, PDXGK_OPM_INTERFACE, PDXGK_OPM_INTERFACE structure pointer [Display Devices], R, T, X, _, _DXGK_OPM_INTERFACE, display.dxgk_opm_interface, dispmprt/DXGK_OPM_INTERFACE, dispmprt/PDXGK_OPM_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,12 +97,12 @@ A pointer to a private context block. <b>Context</b> must be set to <b>NULL</b>.
 
 ### -field InterfaceReference
 
-A pointer to an interface reference function that is implemented by the display miniport driver. For more information about the operation of an interface reference function, see the Remarks section of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
+A pointer to an interface reference function that is implemented by the display miniport driver. For more information about the operation of an interface reference function, see the Remarks section of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
 
 
 ### -field InterfaceDereference
 
-A pointer to an interface dereference function that is implemented by the display miniport driver. For more information about the operation of an interface dereference function, see the Remarks section of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
+A pointer to an interface dereference function that is implemented by the display miniport driver. For more information about the operation of an interface dereference function, see the Remarks section of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
 
 
 ### -field DxgkDdiOPMGetCertificateSize
@@ -163,11 +163,7 @@ For more information on how to use this structure with the OPM interface, see <a
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_destroy_protected_output.md">DxgkDdiOPMDestroyProtectedOutput</a>
 
 
 
@@ -175,7 +171,7 @@ For more information on how to use this structure with the OPM interface, see <a
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
 
 
 
@@ -183,23 +179,7 @@ For more information on how to use this structure with the OPM interface, see <a
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_destroy_protected_output.md">DxgkDdiOPMDestroyProtectedOutput</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
 
 
 
@@ -207,9 +187,29 @@ For more information on how to use this structure with the OPM interface, see <a
 
 
 
- 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a>
+
+
+
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_OPM_INTERFACE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_OPM_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

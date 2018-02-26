@@ -7,7 +7,7 @@ old-location: print\iprintoemui_updateexternalfonts.htm
 old-project: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, E, F, I, IPrintOemUI, IPrintOemUI interface [Print Devices], UpdateExternalFonts method, IPrintOemUI::UpdateExternalFonts, O, P, U, UpdateExternalFonts method [Print Devices], UpdateExternalFonts method [Print Devices], IPrintOemUI interface, UpdateExternalFonts,IPrintOemUI.UpdateExternalFonts, a, d, e, i, l, m, n, o, p, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,17 +150,17 @@ Descriptions of cartridge fonts can be copied from the .uff file specified by th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI::UpdateExternalFonts method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI::UpdateExternalFonts method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

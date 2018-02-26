@@ -7,7 +7,7 @@ old-location: display\decodeendframe.htm
 old-project: display
 ms.assetid: 6e8d3280-6ddc-4593-9208-c4f0c9ff254c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: DecodeEndFrame, DecodeEndFrame callback function [Display Devices], PFND3DDDI_DECODEENDFRAME, UserModeDisplayDriver_Functions_c80e307b-2b64-4b43-84c3-cae711e8282f.xml, d3dumddi/DecodeEndFrame, display.decodeendframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,7 +140,7 @@ The <b>DecodeEndFrame</b> function notifies the user-mode display driver that it
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeendframe.md">D3DDDIARG_DECODEENDFRAME</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
@@ -148,7 +148,7 @@ The <b>DecodeEndFrame</b> function notifies the user-mode display driver that it
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeendframe.md">D3DDDIARG_DECODEENDFRAME</a>
 
 
 
@@ -156,5 +156,5 @@ The <b>DecodeEndFrame</b> function notifies the user-mode display driver that it
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_DECODEENDFRAME callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_DECODEENDFRAME callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

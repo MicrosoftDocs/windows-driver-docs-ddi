@@ -7,7 +7,7 @@ old-location: display\dxgk_display_technology.htm
 old-project: display
 ms.assetid: 4612213A-E79F-4C3B-95B4-8C83C0B5FB32
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDXGK_DISPLAY_TECHNOLOGY, ,, A, C, D, DXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], DXGK_DT_INVALID, DXGK_DT_LCD, DXGK_DT_OLED, DXGK_DT_OTHER, E, G, H, I, K, L, N, O, P, PDXGK_DISPLAY_TECHNOLOGY, PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices], S, T, X, Y, _, _DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_INVALID, d3dkmdt/DXGK_DT_LCD, d3dkmdt/DXGK_DT_OLED, d3dkmdt/DXGK_DT_OTHER, d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, display.dxgk_display_technology"
 ms.prod: windows-hardware
 ms.technology: windows-devices

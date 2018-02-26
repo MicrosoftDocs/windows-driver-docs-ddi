@@ -563,15 +563,15 @@ If the function cannot find the well known SID for the <i>SidType</i> specified,
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
 
 
 

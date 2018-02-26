@@ -120,7 +120,7 @@ A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the <a hr
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
+<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
 
 
@@ -128,7 +128,7 @@ A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the <a hr
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
+<a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
 
 
 

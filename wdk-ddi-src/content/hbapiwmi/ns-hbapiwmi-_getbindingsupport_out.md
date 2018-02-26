@@ -7,7 +7,7 @@ old-location: storage\getbindingsupport_out.htm
 old-project: storage
 ms.assetid: cd67b301-a94a-41dd-9c06-e6c674ea9173
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PGetBindingSupport_OUT, ,, B, G, GetBindingSupport_OUT, GetBindingSupport_OUT structure [Storage Devices], O, P, PGetBindingSupport_OUT, PGetBindingSupport_OUT structure pointer [Storage Devices], S, T, U, _, _GetBindingSupport_OUT, d, e, g, hbapiwmi/GetBindingSupport_OUT, hbapiwmi/PGetBindingSupport_OUT, i, n, o, p, r, storage.getbindingsupport_out, structs-Fibre_1db0b747-ead3-461f-a7ab-c8150f92623a.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,5 +97,5 @@ The WMI tool suite generates a declaration of the GetBindingSupport_OUT structur
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetBindingSupport_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetBindingSupport_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -146,6 +146,14 @@ To delete a push lock, call <a href="..\fltkernel\nf-fltkernel-fltdeletepushlock
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltdeletepushlock.md">FltDeletePushLock</a>
 
 
@@ -154,15 +162,7 @@ To delete a push lock, call <a href="..\fltkernel\nf-fltkernel-fltdeletepushlock
 
 
 
-<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>
 
 
 

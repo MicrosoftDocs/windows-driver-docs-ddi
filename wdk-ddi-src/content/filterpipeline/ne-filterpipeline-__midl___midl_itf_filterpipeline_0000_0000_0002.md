@@ -7,7 +7,7 @@ old-location: print\expsfontoptions.htm
 old-project: print
 ms.assetid: 3a92b219-91ee-4c11-b5c1-8e2e0cbff406
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, 0, 2, D, E, EXpsFontOptions, EXpsFontOptions enumeration [Print Devices], F, Font_Normal, Font_Obfusticate, I, L, M, O, X, _, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, e, f, filterpipeline/EXpsFontOptions, filterpipeline/Font_Normal, filterpipeline/Font_Obfusticate, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, i, l, n, o, p, print.expsfontoptions, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

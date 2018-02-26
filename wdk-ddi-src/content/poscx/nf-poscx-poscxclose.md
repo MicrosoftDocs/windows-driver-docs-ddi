@@ -7,7 +7,7 @@ old-location: pos\poscxclose.htm
 old-project: pos
 ms.assetid: 90D097B9-EE7B-49FA-B0F7-6A255D140C06
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, P, PosCxClose, PosCxClose function, e, l, o, pos.poscxclose, poscx/PosCxClose, s, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

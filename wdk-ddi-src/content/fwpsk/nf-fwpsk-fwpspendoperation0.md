@@ -218,8 +218,11 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
 
 
@@ -227,11 +230,8 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 

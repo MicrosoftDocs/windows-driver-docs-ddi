@@ -7,7 +7,7 @@ old-location: kernel\wdmlibiogetaffinityinterrupt.htm
 old-project: kernel
 ms.assetid: E9E80EB4-C20B-4025-957B-32DC6FAE7F38
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, G, I, IoGetAffinityInterrupt, W, WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture], b, d, e, f, i, iointex/IoGetAffinityInterrupt, iointex/WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt, l, m, n, o, p, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A pointer to an interrupt object. This parameter points to a <a href="https://ms
 
 ### -param GroupAffinity [out]
 
-A pointer to a caller-allocated buffer into which the routine writes a <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> structure that specifies the group affinity of the interrupt object that <i>InterruptObject</i> points to. This buffer must be large enough to contain the structure.
+A pointer to a caller-allocated buffer into which the routine writes a <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> structure that specifies the group affinity of the interrupt object that <i>InterruptObject</i> points to. This buffer must be large enough to contain the structure.
 
 
 ## -returns
@@ -130,7 +130,7 @@ In Windows 7, <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">Wdml
 
 
 
-<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 
@@ -146,5 +146,5 @@ In Windows 7, <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">Wdml
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WdmlibIoGetAffinityInterrupt function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WdmlibIoGetAffinityInterrupt function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

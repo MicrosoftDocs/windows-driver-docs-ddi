@@ -7,7 +7,7 @@ old-location: print\iprintschematicket_getfeature.htm
 old-project: print
 ms.assetid: 2E65BDF2-9539-402B-AF19-8CBC84F9C018
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, F, G, GetFeature method [Print Devices], GetFeature method [Print Devices], IPrintSchemaTicket interface, GetFeature,IPrintSchemaTicket.GetFeature, I, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], GetFeature method, IPrintSchemaTicket::GetFeature, P, S, T, a, c, e, h, i, k, m, n, print.iprintschematicket_getfeature, printerextension/IPrintSchemaTicket::GetFeature, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,10 +118,6 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
-<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 
@@ -130,9 +126,13 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
- 
+<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaTicket::GetFeature method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaTicket::GetFeature method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

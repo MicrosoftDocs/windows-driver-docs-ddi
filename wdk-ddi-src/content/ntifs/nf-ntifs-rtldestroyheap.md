@@ -94,11 +94,11 @@ Processes can call <b>RtlDestroyHeap</b> without first calling <b>RtlFreeHeap</b
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
 
 
 

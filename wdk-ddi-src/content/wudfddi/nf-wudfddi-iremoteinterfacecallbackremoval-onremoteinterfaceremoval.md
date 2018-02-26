@@ -99,15 +99,15 @@ For more information about a driver's <b>OnRemoteInterfaceRemoval</b> event call
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackremoval.md">IRemoteInterfaceCallbackRemoval</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556889">IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackremoval.md">IRemoteInterfaceCallbackRemoval</a>
 
 
 

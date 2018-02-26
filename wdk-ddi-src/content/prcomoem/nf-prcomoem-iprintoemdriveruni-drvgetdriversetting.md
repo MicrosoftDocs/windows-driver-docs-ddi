@@ -7,7 +7,7 @@ old-location: print\iprintoemdriveruni_drvgetdriversetting.htm
 old-project: print
 ms.assetid: 29ccd7e6-60eb-4a8e-9a71-9fbed4b2bdcf
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices], IPrintOemDriverUni interface, DrvGetDriverSetting,IPrintOemDriverUni.DrvGetDriverSetting, G, I, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverUni::DrvGetDriverSetting, O, P, S, U, e, g, i, m, n, prcomoem/IPrintOemDriverUni::DrvGetDriverSetting, print.iprintoemdriveruni_drvgetdriversetting, print_unidrv-pscript_rendering_7fd3ea86-8473-4499-a860-318a66d7838b.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -137,6 +137,10 @@ An NDIS_STATUS code indicating the status of the move operation for this entry. 
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID request interface in NDIS 6.80</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">Receive Side Scaling Version 2 (RSSv2)</a>
 
 
@@ -146,10 +150,6 @@ An NDIS_STATUS code indicating the status of the move operation for this entry. 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_rss_set_indirection_entries.md">NDIS_RSS_SET_INDIRECTION_ENTRIES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID request interface in NDIS 6.80</a>
 
 
 

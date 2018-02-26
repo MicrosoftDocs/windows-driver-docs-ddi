@@ -7,7 +7,7 @@ old-location: print\iprintcorehelperuni2_getnamedcommand.htm
 old-project: print
 ms.assetid: A9C9C69E-8C89-4131-996F-A48AD9E9D244
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, G, GetNamedCommand method [Print Devices], GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface, GetNamedCommand,IPrintCoreHelperUni2.GetNamedCommand, H, I, IPrintCoreHelperUni2, IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method, IPrintCoreHelperUni2::GetNamedCommand, N, P, U, a, d, e, i, l, m, n, o, p, prcomoem/IPrintCoreHelperUni2::GetNamedCommand, print.iprintcorehelperuni2_getnamedcommand, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,5 +133,5 @@ The <b>GetNamedCommand</b> method will not return commands containing references
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni2::GetNamedCommand method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni2::GetNamedCommand method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -154,11 +154,11 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
-
-
-
 <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_open_type.md">WDF_IO_TARGET_OPEN_TYPE</a>
+
+
+
+<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
 
 
 

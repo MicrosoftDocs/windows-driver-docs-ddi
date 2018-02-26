@@ -111,11 +111,11 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
 
 
 

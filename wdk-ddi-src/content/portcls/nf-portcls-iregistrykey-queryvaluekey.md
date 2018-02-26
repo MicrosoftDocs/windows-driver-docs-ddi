@@ -160,7 +160,7 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
@@ -168,11 +168,7 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
@@ -180,7 +176,11 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+
+
+
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\storportasyncnotificationdetected.htm
 old-project: storage
 ms.assetid: 558F652C-6D1A-4BAF-9C2C-3F4FE24651D2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, D, N, P, RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS, RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS, S, StorPortAsyncNotificationDetected, StorPortAsyncNotificationDetected routine [Storage Devices], a, c, d, e, f, i, n, o, r, s, storage.storportasyncnotificationdetected, storport/StorPortAsyncNotificationDetected, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

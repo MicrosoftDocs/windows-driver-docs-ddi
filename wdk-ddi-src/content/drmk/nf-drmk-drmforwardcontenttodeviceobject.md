@@ -215,7 +215,7 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 
 
-<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
 
 
 
@@ -223,7 +223,7 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
+<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
 
 
 
@@ -231,11 +231,11 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 
 
-<a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
+
+
+<a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
 
 
 

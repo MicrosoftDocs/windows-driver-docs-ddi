@@ -7,7 +7,7 @@ old-location: storage\scsiportgetdevicebase.htm
 old-project: storage
 ms.assetid: d8d14818-4b84-4c65-a29e-2cd97e8bfbe9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , B, D, G, P, S, ScsiPortGetDeviceBase, ScsiPortGetDeviceBase routine [Storage Devices], a, c, e, i, o, r, s, scsiprt_2924bfb1-e5a0-4533-afd7-65d2d7962b46.xml, srb/ScsiPortGetDeviceBase, storage.scsiportgetdevicebase, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,15 +163,15 @@ The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-
-
-
 <a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
+<a href="..\storport\ns-storport-_access_range.md">ACCESS_RANGE</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 
 
 
@@ -183,7 +183,7 @@ The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 
 
-<a href="..\storport\ns-storport-_access_range.md">ACCESS_RANGE</a>
+<a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
 
 
 
@@ -191,5 +191,5 @@ The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortGetDeviceBase routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortGetDeviceBase routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

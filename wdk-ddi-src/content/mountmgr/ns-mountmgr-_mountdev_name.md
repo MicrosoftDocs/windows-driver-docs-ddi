@@ -7,7 +7,7 @@ old-location: storage\mountdev_name.htm
 old-project: storage
 ms.assetid: 26f5e98d-0709-403a-abcf-776c117d4f38
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PMOUNTDEV_NAME, ,, A, D, E, M, MOUNTDEV_NAME, MOUNTDEV_NAME structure [Storage Devices], N, O, P, PMOUNTDEV_NAME, PMOUNTDEV_NAME structure pointer [Storage Devices], T, U, V, _, _MOUNTDEV_NAME, mountmgr/MOUNTDEV_NAME, mountmgr/PMOUNTDEV_NAME, storage.mountdev_name, structs-mntmgr_b7eec4f5-e4fc-4931-82e5-c6ac5cd4b48f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,17 +84,17 @@ Contains a variable-sized array of wide characters that holds the name of the de
 
 
 
-<a href="..\mountdev\ni-mountdev-ioctl_mountdev_link_created.md">IOCTL_MOUNTDEV_LINK_CREATED</a>
-
-
-
 <a href="..\mountmgr\ni-mountmgr-ioctl_mountdev_query_device_name.md">IOCTL_MOUNTDEV_QUERY_DEVICE_NAME</a>
 
 
 
- 
+<a href="..\mountdev\ni-mountdev-ioctl_mountdev_link_created.md">IOCTL_MOUNTDEV_LINK_CREATED</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MOUNTDEV_NAME structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MOUNTDEV_NAME structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

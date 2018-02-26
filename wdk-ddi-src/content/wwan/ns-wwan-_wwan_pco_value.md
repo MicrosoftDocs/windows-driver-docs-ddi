@@ -108,15 +108,15 @@ The following figure shows  	a full PCO structure as defined in the 3G TS24.008 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_pco_type.md">WWAN_PCO_TYPE</a>
 
 
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pco_status.md">NDIS_WWAN_PCO_STATUS</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
 
 
 

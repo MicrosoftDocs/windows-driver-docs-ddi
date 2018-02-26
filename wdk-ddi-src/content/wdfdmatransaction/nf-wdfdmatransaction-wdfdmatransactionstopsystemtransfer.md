@@ -294,11 +294,11 @@ MyRequestCancel(
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncancel.md">WdfDmaTransactionCancel</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncancel.md">WdfDmaTransactionCancel</a>
 
 
 

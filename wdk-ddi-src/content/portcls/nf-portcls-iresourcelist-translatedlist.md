@@ -76,7 +76,7 @@ PCM_RESOURCE_LIST TranslatedList(
 
 
 
-<code>TranslatedList</code> returns a pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. This pointer remains valid until the resource list object is deleted.
+<code>TranslatedList</code> returns a pointer to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. This pointer remains valid until the resource list object is deleted.
 
 
 
@@ -87,7 +87,7 @@ PCM_RESOURCE_LIST TranslatedList(
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 

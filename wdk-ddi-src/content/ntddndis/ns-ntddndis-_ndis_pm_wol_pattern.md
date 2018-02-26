@@ -355,7 +355,11 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569772">OID_PM_WOL_PATTERN_LIST</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a>
 
 
 
@@ -363,15 +367,11 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569772">OID_PM_WOL_PATTERN_LIST</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569764">OID_PM_ADD_WOL_PATTERN</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a>
 
 
 

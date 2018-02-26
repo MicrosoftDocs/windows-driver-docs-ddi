@@ -7,7 +7,7 @@ old-location: print\expscompressionoptions.htm
 old-project: print
 ms.assetid: 7df53803-4e01-4d00-b7a4-2f2d1dde5ad8
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, 0, 1, C, Compression_Fast, Compression_Normal, Compression_NotCompressed, Compression_Small, D, E, EXpsCompressionOptions, EXpsCompressionOptions enumeration [Print Devices], I, L, M, O, X, _, __MIDL___MIDL_itf_filterpipeline_0000_0000_0001, e, f, filterpipeline/Compression_Fast, filterpipeline/Compression_Normal, filterpipeline/Compression_NotCompressed, filterpipeline/Compression_Small, filterpipeline/EXpsCompressionOptions, filterpipeline_eb934659-a4bd-4063-b0a7-f4011998c0ec.xml, i, l, m, n, o, p, print.expscompressionoptions, r, s, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

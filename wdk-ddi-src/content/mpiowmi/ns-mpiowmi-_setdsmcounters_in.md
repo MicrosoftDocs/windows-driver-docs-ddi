@@ -7,7 +7,7 @@ old-location: storage\setdsmcounters_in.htm
 old-project: storage
 ms.assetid: fb8cebec-0cf8-4649-8b91-cd4f9935fac9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSetDSMCounters_IN, ,, C, D, I, M, N, P, PSetDSMCounters_IN, PSetDSMCounters_IN structure pointer [Storage Devices], S, SetDSMCounters_IN, SetDSMCounters_IN structure [Storage Devices], _, _SetDSMCounters_IN, e, mpiowmi/PSetDSMCounters_IN, mpiowmi/SetDSMCounters_IN, n, o, r, s, storage.setdsmcounters_in, structs-scsibus_683362cd-cba9-41b8-9e46-9cf6a22fbbf5.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

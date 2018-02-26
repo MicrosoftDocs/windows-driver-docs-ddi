@@ -135,11 +135,11 @@ For more information about how <b>Flush</b> works, see the <a href="https://msdn
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540227">WinUsb_FlushPipe</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540227">WinUsb_FlushPipe</a>
 
 
 

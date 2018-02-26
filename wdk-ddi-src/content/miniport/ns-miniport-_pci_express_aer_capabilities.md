@@ -7,7 +7,7 @@ old-location: pci\pci_express_aer_capabilities.htm
 old-project: PCI
 ms.assetid: 7cb25991-4e82-4da2-9d1f-fadc035b25a3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PPCI_EXPRESS_AER_CAPABILITIES, ,, A, B, C, E, I, L, P, PCI.pci_express_aer_capabilities, PCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES union pointer [Buses], R, S, T, X, _, _PCI_EXPRESS_AER_CAPABILITIES, pci_struct_e316ea91-d32a-4726-ba80-8fc6bd8e3163.xml, wdm/PCI_EXPRESS_AER_CAPABILITIES, wdm/PPCI_EXPRESS_AER_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,5 +144,5 @@ A PCI_EXPRESS_AER_CAPABILITIES structure is contained in the <a href="https://ms
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_AER_CAPABILITIES union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_AER_CAPABILITIES union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

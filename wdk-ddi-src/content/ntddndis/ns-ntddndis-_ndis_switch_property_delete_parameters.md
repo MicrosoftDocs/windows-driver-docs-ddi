@@ -129,11 +129,11 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_property_type.md">NDIS_SWITCH_PROPERTY_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598281">OID_SWITCH_PROPERTY_DELETE</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_property_type.md">NDIS_SWITCH_PROPERTY_TYPE</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlint8toulonglong.htm
 old-project: kernel
 ms.assetid: C840CDA4-36C8-4D7C-88EB-19292429C45C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , 8, I, L, R, RtlInt8ToULongLong, RtlInt8ToULongLong function [Kernel-Mode Driver Architecture], T, U, g, kernel.rtlint8toulonglong, l, n, ntintsafe/RtlInt8ToULongLong, o, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

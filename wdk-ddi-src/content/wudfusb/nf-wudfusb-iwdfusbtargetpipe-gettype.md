@@ -92,11 +92,11 @@ For a code example of how to use the <b>GetType</b> method, see <a href="https:/
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560403">IWDFUsbTargetPipe::GetInformation</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 

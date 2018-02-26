@@ -7,7 +7,7 @@ old-location: image\istidevice_rawwritecommand.htm
 old-project: image
 ms.assetid: 6260fd33-96b3-43d7-a7eb-35322247076b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, D, I, IStiDevice, IStiDevice interface [Imaging Devices], RawWriteCommand method, IStiDevice::RawWriteCommand, R, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices], IStiDevice interface, RawWriteCommand,IStiDevice.RawWriteCommand, S, W, a, c, d, e, i, image.istidevice_rawwritecommand, m, n, o, r, sti/IStiDevice::RawWriteCommand, stifnc_07c4667c-956f-4396-bc59-0bcbf21103a8.xml, t, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices

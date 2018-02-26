@@ -7,7 +7,7 @@ old-location: storage\storportgetphysicaladdress.htm
 old-project: storage
 ms.assetid: 2b39a6e4-2e11-4b4e-9218-92336629ae80
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, G, P, S, StorPortGetPhysicalAddress, StorPortGetPhysicalAddress routine [Storage Devices], a, c, d, e, h, i, l, o, r, s, storage.storportgetphysicaladdress, storport/StorPortGetPhysicalAddress, storprt_fea6d754-844c-4ee9-8153-97f2f0e9ee80.xml, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,10 +129,6 @@ The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
-
-
-
 <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
@@ -141,9 +137,13 @@ The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 
 
- 
+<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetPhysicalAddress routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetPhysicalAddress routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

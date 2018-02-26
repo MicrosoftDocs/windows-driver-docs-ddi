@@ -148,7 +148,11 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+
+
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 
 
@@ -164,19 +168,15 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
 <a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
 
 
 
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
-
-
-
 <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+
+
+
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 

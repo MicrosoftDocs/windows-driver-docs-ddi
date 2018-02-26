@@ -116,15 +116,15 @@ The
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisretrieveulong.md">NdisRetrieveUlong</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 

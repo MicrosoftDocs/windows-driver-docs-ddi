@@ -220,11 +220,11 @@ A miniport driver calls the
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -232,16 +232,8 @@ A miniport driver calls the
 
 
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
-   MiniportDisableMessageInterrupt</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_enable_interrupt.md">MiniportEnableInterruptEx</a>
+<a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
+   MiniportEnableMessageInterrupt</a>
 
 
 
@@ -253,16 +245,24 @@ A miniport driver calls the
 
 
 
+<a href="..\ndis\nc-ndis-miniport_enable_interrupt.md">MiniportEnableInterruptEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
 
 
 
+<a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
+   MiniportDisableMessageInterrupt</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
-   MiniportEnableMessageInterrupt</a>
 
 
 

@@ -118,11 +118,11 @@ The following code example deregisters a specified instance of a WMI data provid
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstanceregister.md">WdfWmiInstanceRegister</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 

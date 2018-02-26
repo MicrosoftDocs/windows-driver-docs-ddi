@@ -91,11 +91,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
 
 
 

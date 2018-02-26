@@ -74,7 +74,7 @@ An identifier value for the WIM file data source to suspend.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
 
 
 
@@ -82,7 +82,7 @@ An identifier value for the WIM file data source to suspend.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
 
 
 

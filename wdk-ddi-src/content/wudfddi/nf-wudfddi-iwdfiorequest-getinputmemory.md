@@ -117,11 +117,11 @@ For a code example of how to use the <b>GetInputMemory</b> method, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
 
 

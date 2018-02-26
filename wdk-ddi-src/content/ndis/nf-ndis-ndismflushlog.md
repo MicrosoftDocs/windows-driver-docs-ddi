@@ -97,19 +97,19 @@ The driver must release any spin lock it is holding before calling
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
 
 
 
+<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
 
 

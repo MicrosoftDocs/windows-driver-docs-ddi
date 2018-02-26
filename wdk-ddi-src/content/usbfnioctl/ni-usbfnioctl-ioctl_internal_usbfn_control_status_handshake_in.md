@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN
 author: windows-driver-content
 description: The class driver sends this request to send a zero-length control status handshake on endpoint 0 in the IN direction.
 old-location: buses\_ioctl_internal_usbfn_control_status_handshake_in.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 5839C1A8-6638-4A42-B7C1-168071C99800
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN control code [Buses], buses._ioctl_internal_usbfn_control_status_handshake_in, usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices

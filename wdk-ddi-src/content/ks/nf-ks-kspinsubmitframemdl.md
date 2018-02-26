@@ -7,7 +7,7 @@ old-location: stream\kspinsubmitframemdl.htm
 old-project: stream
 ms.assetid: 8033c0a9-86dd-4d54-b93e-66c926cae952
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , F, K, KsPinSubmitFrameMdl, KsPinSubmitFrameMdl function [Streaming Media Devices], M, P, S, a, avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, b, d, e, i, ks/KsPinSubmitFrameMdl, l, m, n, r, s, stream.kspinsubmitframemdl, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,5 +123,5 @@ The difference between this function and <a href="..\ks\nf-ks-kspinsubmitframe.m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinSubmitFrameMdl function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinSubmitFrameMdl function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

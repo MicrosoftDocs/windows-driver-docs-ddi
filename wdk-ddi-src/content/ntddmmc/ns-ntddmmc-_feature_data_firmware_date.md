@@ -7,7 +7,7 @@ old-location: storage\feature_data_firmware_date.htm
 old-project: storage
 ms.assetid: 1f6c6a37-9510-47bc-b507-b3fd7477b432
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PFEATURE_DATA_FIRMWARE_DATE, ,, A, D, E, F, FEATURE_DATA_FIRMWARE_DATE, FEATURE_DATA_FIRMWARE_DATE structure [Storage Devices], I, M, P, PFEATURE_DATA_FIRMWARE_DATE, PFEATURE_DATA_FIRMWARE_DATE structure pointer [Storage Devices], R, T, U, W, _, _FEATURE_DATA_FIRMWARE_DATE, ntddmmc/FEATURE_DATA_FIRMWARE_DATE, ntddmmc/PFEATURE_DATA_FIRMWARE_DATE, storage.feature_data_firmware_date, structs-CD-ROM_5e7edafb-823d-4e78-a601-a8f29c62ee4e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,5 +133,5 @@ The structure holds the date information associated with the feature named "Firm
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_FIRMWARE_DATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_FIRMWARE_DATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -996,19 +996,19 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_sim_class.md">WWAN_SIM_CLASS</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_device_type.md">WWAN_DEVICE_TYPE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_CELLULAR_CLASS</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_sim_class.md">WWAN_SIM_CLASS</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_CELLULAR_CLASS</a>
 
 
 

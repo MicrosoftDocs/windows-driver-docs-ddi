@@ -96,6 +96,10 @@ A pointer to the RX_CONTEXT structure for this request.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxmapsystembuffer.md">RxMapSystemBuffer</a>
 
 
@@ -109,10 +113,6 @@ A pointer to the RX_CONTEXT structure for this request.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 

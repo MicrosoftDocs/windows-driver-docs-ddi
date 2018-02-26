@@ -7,7 +7,7 @@ old-location: print\iprintcoreui2_getoptionattribute.htm
 old-project: print
 ms.assetid: cf5420fb-3414-47a7-a53d-3d109589b64d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, A, C, G, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices], IPrintCoreUI2 interface, GetOptionAttribute,IPrintCoreUI2.GetOptionAttribute, I, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetOptionAttribute method, IPrintCoreUI2::GetOptionAttribute, O, P, U, b, e, i, n, o, p, prcomoem/IPrintCoreUI2::GetOptionAttribute, print.iprintcoreui2_getoptionattribute, print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml, r, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -205,7 +205,11 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>
 
 
 
@@ -217,11 +221,7 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
 
 
 
@@ -229,5 +229,5 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::GetOptionAttribute method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::GetOptionAttribute method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

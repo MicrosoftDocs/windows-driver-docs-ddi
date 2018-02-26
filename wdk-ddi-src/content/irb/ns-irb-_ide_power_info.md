@@ -7,7 +7,7 @@ old-location: storage\power_change_info.htm
 old-project: storage
 ms.assetid: 10f6c449-f0f8-4261-825e-127c477c06eb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PIDE_POWER_INFO, ,, D, E, F, I, IDE_POWER_INFO, IDE_POWER_INFO structure [Storage Devices], N, O, P, PIDE_POWER_INFO, PIDE_POWER_INFO structure pointer [Storage Devices], POWER_CHANGE_INFO, POWER_CHANGE_INFO structure [Storage Devices], R, W, _, _IDE_POWER_INFO, irb/IDE_POWER_INFO, irb/PIDE_POWER_INFO, storage.power_change_info, structs-ATA_b4b67f22-359b-4c12-ad21-7de1c39a8259.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,17 +80,17 @@ Contains an enumeration value of type IDE_POWER_STATE that indicates the power s
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
-
-
-
 <a href="..\irb\ne-irb-ide_power_state.md">IDE_POWER_STATE</a>
 
 
 
- 
+<a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20POWER_CHANGE_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20POWER_CHANGE_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -345,12 +345,12 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff547647">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
 
 

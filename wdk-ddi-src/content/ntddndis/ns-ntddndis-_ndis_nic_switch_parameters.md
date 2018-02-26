@@ -173,6 +173,14 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
 
 
@@ -182,14 +190,6 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451823">OID_NIC_SWITCH_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
 
 

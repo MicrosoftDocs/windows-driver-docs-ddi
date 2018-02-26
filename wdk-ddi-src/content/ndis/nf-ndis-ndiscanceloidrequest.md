@@ -109,15 +109,15 @@ Protocol drivers call this function to cancel a previously issued request. The r
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 

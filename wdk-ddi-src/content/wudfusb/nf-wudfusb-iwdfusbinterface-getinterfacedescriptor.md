@@ -97,11 +97,11 @@ For a code example of how to use the <b>GetInterfaceDescriptor</b> method, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560381">IWDFUsbTargetDevice::RetrieveUsbInterface</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560381">IWDFUsbTargetDevice::RetrieveUsbInterface</a>
 
 
 

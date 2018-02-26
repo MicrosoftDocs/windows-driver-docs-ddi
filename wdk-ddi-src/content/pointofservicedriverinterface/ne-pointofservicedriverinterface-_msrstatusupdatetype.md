@@ -7,7 +7,7 @@ old-location: pos\msrstatusupdatetype.htm
 old-project: pos
 ms.assetid: f7e055ac-df7c-4993-b7aa-f455c4548d5e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, M, MsrStatusUpdateType, MsrStatusUpdateType enumeration, MsrStatusUpdateType_Authenticated, MsrStatusUpdateType_Extended, MsrStatusUpdateType_Off, MsrStatusUpdateType_OffOrOffline, MsrStatusUpdateType_Offline, MsrStatusUpdateType_Online, MsrStatusUpdateType_Unauthenticated, S, T, U, _, _MsrStatusUpdateType, a, d, e, p, pointofservicedriverinterface/MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType_Authenticated, pointofservicedriverinterface/MsrStatusUpdateType_Extended, pointofservicedriverinterface/MsrStatusUpdateType_Off, pointofservicedriverinterface/MsrStatusUpdateType_OffOrOffline, pointofservicedriverinterface/MsrStatusUpdateType_Offline, pointofservicedriverinterface/MsrStatusUpdateType_Online, pointofservicedriverinterface/MsrStatusUpdateType_Unauthenticated, pos.msrstatusupdatetype, r, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

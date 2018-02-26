@@ -81,7 +81,7 @@ A handle returned from one of the following functions:
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-<b>Windows 8 and Windows Server 2012 and later:  </b>If the read/write lock is being allocated in <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> before any NDIS handle is available, the caller may pass a NULL value for this parameter.
+<b>Windows 8 and Windows Server 2012 and later:  </b>If the read/write lock is being allocated in <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> before any NDIS handle is available, the caller may pass a NULL value for this parameter.
 
 
 ## -returns
@@ -152,23 +152,11 @@ You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a hr
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548114">Introduction to Spin Locks</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -176,15 +164,7 @@ You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a hr
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552270">NDIS Extensions (Ndiskd.dll)</a>
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
 
 
@@ -196,11 +176,31 @@ You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a hr
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreerwlock.md">NdisFreeRWLock</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreerwlock.md">NdisFreeRWLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552270">NDIS Extensions (Ndiskd.dll)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548114">Introduction to Spin Locks</a>
 
 
 

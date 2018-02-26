@@ -160,10 +160,6 @@ The driver cannot use a lock to protect resources from read or write access that
 
 
 
-<a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
 
 
@@ -173,15 +169,11 @@ The driver cannot use a lock to protect resources from read or write access that
 
 
 
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
 
 
 
@@ -190,6 +182,14 @@ The driver cannot use a lock to protect resources from read or write access that
 
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
+
+
+
+<a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
 
 
 

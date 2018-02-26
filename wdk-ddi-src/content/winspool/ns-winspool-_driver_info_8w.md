@@ -7,7 +7,7 @@ old-location: print\driver_info_8.htm
 old-project: print
 ms.assetid: 95f62d57-300a-4179-868b-f14f29c58b4d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *LPDRIVER_INFO_8A, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8A, *PDRIVER_INFO_8W, ,, 8, D, DRIVER_INFO_8, DRIVER_INFO_8 structure [Print Devices], DRIVER_INFO_8A, DRIVER_INFO_8W, E, F, I, L, LPDRIVER_INFO_8, LPDRIVER_INFO_8 structure pointer [Print Devices], N, O, P, PDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], R, V, W, _, _DRIVER_INFO_8A, _DRIVER_INFO_8W, print.driver_info_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, winspool/DRIVER_INFO_8, winspool/LPDRIVER_INFO_8, winspool/PDRIVER_INFO_8"
 ms.prod: windows-hardware
 ms.technology: windows-devices

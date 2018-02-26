@@ -7,7 +7,7 @@ old-location: stream\usbcamd_debug_logentry.htm
 old-project: stream
 ms.assetid: a718cf3e-8359-4560-a88e-dd7789b61be6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, B, C, D, E, L, M, S, U, USBCAMD_Debug_LogEntry, USBCAMD_Debug_LogEntry function [Streaming Media Devices], _, b, e, g, n, o, r, stream.usbcamd_debug_logentry, t, u, usbcamdi/USBCAMD_Debug_LogEntry, usbcmdpr_6f6f6419-d845-4488-bd8d-70efa67357fa.xml, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

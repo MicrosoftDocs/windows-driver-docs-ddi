@@ -7,7 +7,7 @@ old-location: storage\port_configuration_information__scsi_.htm
 old-project: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PPORT_CONFIGURATION_INFORMATION, ,, A, C, F, G, I, M, N, O, P, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], R, T, U, _, _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], srb/PPORT_CONFIGURATION_INFORMATION, srb/_PORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -407,7 +407,11 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+<a href="..\storport\ns-storport-_access_range.md">ACCESS_RANGE</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
@@ -415,15 +419,11 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 
 
-<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 
 
 
-<a href="..\storport\ns-storport-_access_range.md">ACCESS_RANGE</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
 
 
 
@@ -435,7 +435,7 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
 
 
 
@@ -443,5 +443,5 @@ This means that if the miniport driver needs additional space in either the LUN 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_PORT_CONFIGURATION_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_PORT_CONFIGURATION_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

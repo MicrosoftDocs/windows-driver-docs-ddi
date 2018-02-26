@@ -7,7 +7,7 @@ old-location: print\gdigetdevmodeforpage.htm
 old-project: print
 ms.assetid: 3410e8b1-820f-4892-8d26-d803e3f943da
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, F, G, GdiGetDevmodeForPage, GdiGetDevmodeForPage function [Print Devices], P, a, d, e, g, gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, i, m, o, print.gdigetdevmodeforpage, r, t, v, winppi/GdiGetDevmodeForPage"
 ms.prod: windows-hardware
 ms.technology: windows-devices

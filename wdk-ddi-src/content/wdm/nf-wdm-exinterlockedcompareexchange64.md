@@ -7,7 +7,7 @@ old-location: kernel\exinterlockedcompareexchange64.htm
 old-project: kernel
 ms.assetid: 7d13ca70-e05a-49e0-8dd8-5ab47b4d8169
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , 4, 6, C, E, ExInterlockedCompareExchange64, ExInterlockedCompareExchange64 routine [Kernel-Mode Driver Architecture], I, a, c, d, e, g, h, k, k102_424c24f9-3965-40fd-b02b-f9bf1f7df4ec.xml, kernel.exinterlockedcompareexchange64, l, m, n, o, p, r, t, wdm/ExInterlockedCompareExchange64, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,15 +113,15 @@ Callers of <b>ExInterlockedCompareExchange64</b> can be running at any IRQL. The
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+<a href="..\miniport\nf-miniport-interlockedexchange.md">InterlockedExchange</a>
 
 
 
-<a href="..\wdm\nf-wdm-interlockedexchangeadd.md">InterlockedExchangeAdd</a>
+<a href="..\miniport\nf-miniport-interlockedcompareexchange.md">InterlockedCompareExchange</a>
 
 
 
-<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+<a href="..\miniport\nf-miniport-interlockedexchangeadd.md">InterlockedExchangeAdd</a>
 
 
 
@@ -129,5 +129,5 @@ Callers of <b>ExInterlockedCompareExchange64</b> can be running at any IRQL. The
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedCompareExchange64 routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedCompareExchange64 routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

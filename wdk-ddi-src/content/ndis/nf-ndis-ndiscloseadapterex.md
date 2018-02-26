@@ -154,6 +154,14 @@ As soon as the driver calls
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
@@ -162,16 +170,8 @@ As soon as the driver calls
 
 
 
-<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
    ProtocolCloseAdapterCompleteEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\getoffsetbynamewide.htm
 old-project: debugger
 ms.assetid: 576193fc-756f-40fb-abdd-65c088687cb5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, :, B, D, G, GetOffsetByNameWide method [Windows Debugging], GetOffsetByNameWide method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByNameWide,IDebugSymbols3.GetOffsetByNameWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetOffsetByNameWide method, IDebugSymbols3::GetOffsetByNameWide, N, O, S, W, a, b, d, dbgeng/IDebugSymbols3::GetOffsetByNameWide, debugger.getoffsetbynamewide, e, f, g, i, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -145,17 +145,17 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547183">GetNameByOffset</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetOffsetByNameWide method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetOffsetByNameWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

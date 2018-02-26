@@ -7,7 +7,7 @@ old-location: display\ioctl_video_set_child_state_configuration.htm
 old-project: display
 ms.assetid: ae70c0e5-0ce0-4e44-983c-9bc0f9a1f600
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control code [Display Devices], Video_IOCTLs_bd76ef78-623a-4f72-b0fd-1ac70b211a98.xml, display.ioctl_video_set_child_state_configuration, ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,17 +128,17 @@ The miniport driver sets the <b>Status</b> member to NO_ERROR if it is capable o
 
 
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
-
-
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_get_child_state.md">IOCTL_VIDEO_GET_CHILD_STATE</a>
 
 
 
- 
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control code%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

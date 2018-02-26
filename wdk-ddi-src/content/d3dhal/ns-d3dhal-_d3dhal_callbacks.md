@@ -7,7 +7,7 @@ old-location: display\d3dhal_callbacks.htm
 old-project: display
 ms.assetid: 3b045732-a41f-47e7-9835-41e3ef54f14c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPD3DHAL_CALLBACKS, ,, 3, A, B, C, D, D3DHAL_CALLBACKS, D3DHAL_CALLBACKS structure [Display Devices], H, K, L, LPD3DHAL_CALLBACKS, LPD3DHAL_CALLBACKS structure pointer [Display Devices], P, S, _, _D3DHAL_CALLBACKS, d3dhal/D3DHAL_CALLBACKS, d3dhal/LPD3DHAL_CALLBACKS, d3dstrct_2dc02d2c-6ae9-4f2e-9cb3-470926980537.xml, display.d3dhal_callbacks"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -289,6 +289,10 @@ Texture management is now handled though opcodes that are managed in the driver'
 
 ## -see-also
 
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a>
 
 
@@ -297,7 +301,7 @@ Texture management is now handled though opcodes that are managed in the driver'
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
 
 
 
@@ -309,13 +313,9 @@ Texture management is now handled though opcodes that are managed in the driver'
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_CALLBACKS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_CALLBACKS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

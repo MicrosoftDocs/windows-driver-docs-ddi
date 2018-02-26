@@ -121,11 +121,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcom
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
 
 
 

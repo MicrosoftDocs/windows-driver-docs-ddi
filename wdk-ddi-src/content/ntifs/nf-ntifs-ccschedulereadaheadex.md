@@ -116,6 +116,14 @@ None
 
 
 
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
 
@@ -129,14 +137,6 @@ None
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
 
 

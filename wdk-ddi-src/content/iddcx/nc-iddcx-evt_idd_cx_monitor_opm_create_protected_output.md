@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_create_protected_output.htm
 old-project: display
 ms.assetid: 16c6fda5-c2e1-4ee4-80f7-e970b1da0e01
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT, EvtIddCxMonitorOpmCreateProtectedOutput, EvtIddCxMonitorOpmCreateProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_create_protected_output, iddcx/EvtIddCxMonitorOpmCreateProtectedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

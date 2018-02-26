@@ -136,20 +136,20 @@ By building and sending a <b>BRB_L2CA_UPDATE_CHANNEL</b> request, profile driver
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536620">BRB_L2CA_UPDATE_CHANNEL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536620">BRB_L2CA_UPDATE_CHANNEL</a>
 
 
 

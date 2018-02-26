@@ -112,10 +112,6 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551032">PCOMPLETE_LOCK_IRP_ROUTINE</a>
 
 
@@ -124,15 +120,19 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.m
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializefilelock.md">FsRtlUninitializeFileLock</a>
+<a href="..\ntifs\nf-ntifs-fsrtlfastlock.md">FsRtlFastLock</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-fsrtlaretherecurrentfilelocks.md">FsRtlAreThereCurrentFileLocks</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
 
 
 
@@ -144,11 +144,11 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.m
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlfastlock.md">FsRtlFastLock</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializefilelock.md">FsRtlUninitializeFileLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
 
 
 

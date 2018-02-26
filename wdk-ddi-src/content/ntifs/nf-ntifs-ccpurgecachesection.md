@@ -125,6 +125,10 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
 
@@ -134,10 +138,6 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
 
 
 

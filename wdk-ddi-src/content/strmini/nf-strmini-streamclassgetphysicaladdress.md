@@ -7,7 +7,7 @@ old-location: stream\streamclassgetphysicaladdress.htm
 old-project: stream
 ms.assetid: 5a8e7130-00e7-4bff-8939-7cfcc1a2b9aa
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , A, C, G, P, S, StreamClassGetPhysicalAddress, StreamClassGetPhysicalAddress routine [Streaming Media Devices], a, c, d, e, h, i, l, m, r, s, strclass-routines_e8d5c2ab-3cfa-4bb7-b4f7-e57908c2c6f8.xml, stream.streamclassgetphysicaladdress, strmini/StreamClassGetPhysicalAddress, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

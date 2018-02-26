@@ -7,7 +7,7 @@ old-location: kernel\zwrecoverenlistment.htm
 old-project: kernel
 ms.assetid: 0f34d2d1-bb3a-4529-9ced-d9bed998c4ce
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, N, NtRecoverEnlistment, R, ZwRecoverEnlistment, ZwRecoverEnlistment routine [Kernel-Mode Driver Architecture], c, e, i, kernel.zwrecoverenlistment, ktm_ref_0a6564fb-c6d1-4b4b-a278-a1d78395c1b4.xml, l, m, n, o, r, s, t, v, wdm/NtRecoverEnlistment, wdm/ZwRecoverEnlistment"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -171,15 +171,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmrecoverenlistment.md">TmRecoverEnlistment</a>
 
 
 
@@ -191,7 +187,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-tmrecoverenlistment.md">TmRecoverEnlistment</a>
+<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
 
@@ -199,5 +199,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwRecoverEnlistment routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwRecoverEnlistment routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

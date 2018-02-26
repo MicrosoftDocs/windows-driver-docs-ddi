@@ -308,10 +308,6 @@ If the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
@@ -329,6 +325,10 @@ If the
 
 
 <a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a>
 
 
 

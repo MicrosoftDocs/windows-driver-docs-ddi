@@ -183,15 +183,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
 
 
@@ -200,6 +196,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
 
 
 

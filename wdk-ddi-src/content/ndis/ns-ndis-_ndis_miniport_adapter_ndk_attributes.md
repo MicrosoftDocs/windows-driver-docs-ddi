@@ -104,7 +104,7 @@ To report its NDK capabilities, the miniport adapter stores an  <b>NDIS_MINIPORT
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_attributes.md">NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a>
 
 
 
@@ -116,7 +116,7 @@ To report its NDK capabilities, the miniport adapter stores an  <b>NDIS_MINIPORT
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -124,7 +124,7 @@ To report its NDK capabilities, the miniport adapter stores an  <b>NDIS_MINIPORT
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_attributes.md">NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 

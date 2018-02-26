@@ -376,31 +376,12 @@ For more information on the 4 chimney offload structures, see
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
-   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
-   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
-   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
    NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
@@ -409,20 +390,20 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
+   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -431,7 +412,8 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+   ProtocolOpenAdapterCompleteEx</a>
 
 
 
@@ -439,12 +421,30 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
-   ProtocolOpenAdapterCompleteEx</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 

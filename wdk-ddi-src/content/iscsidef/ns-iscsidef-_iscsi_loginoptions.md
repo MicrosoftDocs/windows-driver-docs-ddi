@@ -7,7 +7,7 @@ old-location: storage\iscsi_loginoptions.htm
 old-project: storage
 ms.assetid: 2440999a-e10c-4a27-b076-a0b640c2ca7f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PISCSI_LoginOptions, ,, C, I, ISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices], L, O, P, PISCSI_LoginOptions, PISCSI_LoginOptions structure pointer [Storage Devices], S, _, _ISCSI_LoginOptions, g, i, iscsidef/ISCSI_LoginOptions, iscsidef/PISCSI_LoginOptions, n, o, p, s, storage.iscsi_loginoptions, structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -288,5 +288,5 @@ A <a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a> va
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_LoginOptions structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_LoginOptions structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

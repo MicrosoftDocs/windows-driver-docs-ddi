@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_aes_ctr_iv.htm
 old-project: display
 ms.assetid: 56228a1d-ca3b-4bd4-850c-af736e91494c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_AES_CTR_IV, D3D11_1DDI_AES_CTR_IV structure [Display Devices], E, I, R, S, T, V, _, d3d10umddi/D3D11_1DDI_AES_CTR_IV, display.d3d11_1ddi_aes_ctr_iv"
 ms.prod: windows-hardware
 ms.technology: windows-devices

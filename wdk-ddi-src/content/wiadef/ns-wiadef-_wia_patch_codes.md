@@ -7,7 +7,7 @@ old-location: image\wia_patch_codes.htm
 old-project: image
 ms.assetid: CFD2403B-DDD4-4318-9084-1B3E3462FBDC
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, C, D, E, H, I, O, P, S, T, W, WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices], _, _WIA_PATCH_CODES, image.wia_patch_codes, wiadef/WIA_PATCH_CODES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

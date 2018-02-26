@@ -106,7 +106,7 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWavweCyclic</a>
 
 
 
@@ -114,7 +114,7 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follo
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWavweCyclic</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
 
 
 

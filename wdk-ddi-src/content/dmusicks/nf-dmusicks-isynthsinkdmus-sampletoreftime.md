@@ -107,11 +107,11 @@ The calculation of reference time from sample time to reference time depends on 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536526">IDirectMusicSynthSink::SampleToRefTime</a>
-
-
-
 <a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536526">IDirectMusicSynthSink::SampleToRefTime</a>
 
 
 

@@ -195,15 +195,15 @@ The miniport driver must not attempt to free the default port.
 
 
 
-<a href="https://msdn.microsoft.com/a9edf83f-9226-4c75-a04e-1879a05df24c">Default NDIS Port</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
 
 
 <a href="https://msdn.microsoft.com/ae7b608d-6105-4fdc-b805-0f0101d7c218">Freeing an NDIS Port</a>
+
+
+
+<a href="https://msdn.microsoft.com/a9edf83f-9226-4c75-a04e-1879a05df24c">Default NDIS Port</a>
 
 
 

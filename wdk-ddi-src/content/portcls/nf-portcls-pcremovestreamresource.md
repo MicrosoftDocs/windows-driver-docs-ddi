@@ -123,11 +123,11 @@ Audio drivers that only run in Windows 10 can use  <a href="..\portcls\nf-portcl
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
-
-
-
 <a href="..\portcls\ne-portcls-_pcstreamresourcetype.md">PcStreamResourceType</a>
+
+
+
+<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
 
 

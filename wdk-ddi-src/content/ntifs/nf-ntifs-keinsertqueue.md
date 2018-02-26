@@ -104,11 +104,7 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-keinsertheadqueue.md">KeInsertHeadQueue</a>
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 
 
@@ -116,11 +112,15 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+<a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
 
 
 
 <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-keinsertheadqueue.md">KeInsertHeadQueue</a>
 
 
 

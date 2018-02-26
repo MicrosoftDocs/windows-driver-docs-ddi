@@ -7,7 +7,7 @@ old-location: print\drvsplendpage.htm
 old-project: print
 ms.assetid: 09c3db82-7890-48c8-a91f-3d1f3f01ef84
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, DrvSplEndPage, DrvSplEndPage function [Print Devices], E, P, S, a, d, e, g, l, n, p, print.drvsplendpage, print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, r, v, winddiui/DrvSplEndPage"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -74,11 +74,11 @@ Pointer to a SID structure representing a group that will become the primary gro
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 
 
@@ -86,7 +86,7 @@ Pointer to a SID structure representing a group that will become the primary gro
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 

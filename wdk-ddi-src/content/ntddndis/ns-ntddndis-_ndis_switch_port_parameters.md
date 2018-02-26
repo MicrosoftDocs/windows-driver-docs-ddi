@@ -175,19 +175,15 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598279">OID_SWITCH_PORT_TEARDOWN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598272">OID_SWITCH_PORT_CREATE</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_type.md">NDIS_SWITCH_PORT_TYPE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598273">OID_SWITCH_PORT_DELETE</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_state.md">NDIS_SWITCH_PORT_STATE</a>
 
 
 
@@ -195,15 +191,19 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598273">OID_SWITCH_PORT_DELETE</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_type.md">NDIS_SWITCH_PORT_TYPE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -215,11 +215,11 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_state.md">NDIS_SWITCH_PORT_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598279">OID_SWITCH_PORT_TEARDOWN</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598272">OID_SWITCH_PORT_CREATE</a>
 
 
 

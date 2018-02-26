@@ -7,7 +7,7 @@ old-location: debugger\attachprocess.htm
 old-project: debugger
 ms.assetid: 0787da49-23e0-43e3-bb32-1221db32a449
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 4, :, A, AttachProcess method [Windows Debugging], AttachProcess method [Windows Debugging], IDebugClient interface, AttachProcess method [Windows Debugging], IDebugClient2 interface, AttachProcess method [Windows Debugging], IDebugClient3 interface, AttachProcess method [Windows Debugging], IDebugClient4 interface, AttachProcess method [Windows Debugging], IDebugClient5 interface, AttachProcess,IDebugClient.AttachProcess, AttachProcess,IDebugClient2.AttachProcess, AttachProcess,IDebugClient3.AttachProcess, AttachProcess,IDebugClient4.AttachProcess, C, D, I, IDebugClient, IDebugClient interface [Windows Debugging], AttachProcess method, IDebugClient2, IDebugClient2 interface [Windows Debugging], AttachProcess method, IDebugClient2::AttachProcess, IDebugClient3, IDebugClient3 interface [Windows Debugging], AttachProcess method, IDebugClient3::AttachProcess, IDebugClient4, IDebugClient4 interface [Windows Debugging], AttachProcess method, IDebugClient4::AttachProcess, IDebugClient5 interface [Windows Debugging], AttachProcess method, IDebugClient5::AttachProcess, IDebugClient::AttachProcess, IDebugClient_032236c1-3072-4226-919b-3f6f95635a20.xml, P, a, b, c, dbgeng/IDebugClient2::AttachProcess, dbgeng/IDebugClient3::AttachProcess, dbgeng/IDebugClient4::AttachProcess, dbgeng/IDebugClient5::AttachProcess, dbgeng/IDebugClient::AttachProcess, debugger.attachprocess, e, g, h, i, l, n, o, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -203,39 +203,11 @@ If this flag is set, then the flags DEBUG_ATTACH_NONINVASIVE and DEBUG_ATTACH_EX
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
-
-
-
-<a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>
 
 
 
@@ -251,11 +223,35 @@ If this flag is set, then the flags DEBUG_ATTACH_NONINVASIVE and DEBUG_ATTACH_EX
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
 
 
@@ -267,9 +263,13 @@ If this flag is set, then the flags DEBUG_ATTACH_NONINVASIVE and DEBUG_ATTACH_EX
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::AttachProcess method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::AttachProcess method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: stream\bda_gdds_datatype.htm
 old-project: stream
 ms.assetid: D2E6A110-EC0F-4753-BAF1-7A9F84ECDD35
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *P_BDA_GDDS_DATATYPE, ,, A, B, BDA_GDDS_DATATYPE, BDA_GDDS_DATATYPE structure [Streaming Media Devices], D, E, G, P, P_BDA_GDDS_DATATYPE, P_BDA_GDDS_DATATYPE structure pointer [Streaming Media Devices], S, T, Y, _, _BDA_GDDS_DATATYPE, bdatypes/BDA_GDDS_DATATYPE, bdatypes/P_BDA_GDDS_DATATYPE, stream.bda_gdds_datatype"
 ms.prod: windows-hardware
 ms.technology: windows-devices

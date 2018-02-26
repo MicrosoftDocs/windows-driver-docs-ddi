@@ -4,10 +4,10 @@ title: UfxEndpointInitSetEventCallbacks function
 author: windows-driver-content
 description: Initialize a UFXENDPOINT_INIT structure.
 old-location: buses\ufxendpointinitseteventcallbacks.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: D3D8D948-400A-47A0-98E9-ECF5643DB5D2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, E, I, S, U, UfxEndpointInitSetEventCallbacks, UfxEndpointInitSetEventCallbacks method [Buses], a, b, buses.ufxendpointinitseteventcallbacks, c, d, e, f, i, k, l, n, o, p, s, t, ufxclient/UfxEndpointInitSetEventCallbacks, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

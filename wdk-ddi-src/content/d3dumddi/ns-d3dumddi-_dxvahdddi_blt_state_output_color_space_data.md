@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_blt_state_output_color_space_data.htm
 old-project: display
 ms.assetid: 411246a5-9486-4194-9fb1-4ec0ba1dd47b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, B, C, D, DXVA2_Structs_87da73df-e65e-4c01-8294-1201215a8d7c.xml, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Display Devices], E, H, I, L, O, P, R, S, T, U, V, X, _, _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, display.dxvahdddi_blt_state_output_color_space_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,17 +149,17 @@ RGB output can be out of [0.0, 1.0] range ([0, 255], when 8-bit presentation is 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_nominal_range.md">DXVAHDDDI_NOMINAL_RANGE</a>
 
 
 
- 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -128,19 +128,19 @@ The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
-
-
-
 <a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
 
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
 
 
 

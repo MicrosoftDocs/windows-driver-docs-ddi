@@ -109,11 +109,7 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
 
 
 
@@ -121,7 +117,11 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 

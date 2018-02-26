@@ -112,11 +112,11 @@ The following code example stops a remote I/O target.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560280">IWDFRemoteTarget::Start</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
 
 

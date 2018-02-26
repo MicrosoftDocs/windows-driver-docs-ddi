@@ -112,11 +112,11 @@ When multiple data-classes are set as preferred, miniport drivers are expected r
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_register_state.md">NDIS_WWAN_SET_REGISTER_STATE</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_register_action.md">WWAN_REGISTER_ACTION</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_register_state.md">NDIS_WWAN_SET_REGISTER_STATE</a>
 
 
 

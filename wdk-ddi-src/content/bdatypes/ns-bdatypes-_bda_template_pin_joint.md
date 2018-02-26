@@ -7,7 +7,7 @@ old-location: stream\bda_template_pin_joint.htm
 old-project: stream
 ms.assetid: 83df4c9e-7122-4087-9d03-98f2eeed4ec4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PBDA_TEMPLATE_PIN_JOINT, ,, A, B, BDA_TEMPLATE_PIN_JOINT, BDA_TEMPLATE_PIN_JOINT structure [Streaming Media Devices], D, E, I, J, L, M, N, O, P, PBDA_TEMPLATE_PIN_JOINT, PBDA_TEMPLATE_PIN_JOINT structure pointer [Streaming Media Devices], T, _, _BDA_TEMPLATE_PIN_JOINT, bdaref_d1704bcd-5d90-4fa2-b675-509f31737dd4.xml, bdatypes/BDA_TEMPLATE_PIN_JOINT, bdatypes/PBDA_TEMPLATE_PIN_JOINT, stream.bda_template_pin_joint"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,5 +92,5 @@ Maximum number of possible instances of the joint in the template topology.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_TEMPLATE_PIN_JOINT structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_TEMPLATE_PIN_JOINT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

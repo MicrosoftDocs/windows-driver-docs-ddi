@@ -219,15 +219,15 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 
 
+<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
+
+
+
 <a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
 
 
 

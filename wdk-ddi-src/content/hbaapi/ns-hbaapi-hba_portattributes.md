@@ -7,7 +7,7 @@ old-location: storage\hba_portattributes.htm
 old-project: storage
 ms.assetid: 7628c68b-b851-4b41-a86b-aa54e7cd6ddf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PHBA_PORTATTRIBUTES, ,, A, B, E, H, HBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES structure [Storage Devices], HBA_PortAttributes, HBA_PortAttributes structure [Storage Devices], I, O, P, PHBA_PORTATTRIBUTES, PHBA_PORTATTRIBUTES structure pointer [Storage Devices], R, S, T, U, _, b, e, hbaapi/HBA_PortAttributes, hbaapi/PHBA_PORTATTRIBUTES, i, o, r, s, storage.hba_portattributes, structs-Fibre_86dd88a9-06cc-4e24-a665-f4fa240795fb.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -439,17 +439,17 @@ The HBA_PortAttributes structure serves a purpose very similar to the MSFC_HBAPo
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getportattributesbywwn.md">HBA_GetPortAttributesByWWN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 
 
 
- 
+<a href="..\hbaapi\nf-hbaapi-hba_getportattributesbywwn.md">HBA_GetPortAttributesByWWN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_PortAttributes structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_PortAttributes structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

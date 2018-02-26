@@ -7,7 +7,7 @@ old-location: print\ifixeddocument_geturi.htm
 old-project: print
 ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, F, G, GetUri method [Print Devices], GetUri method [Print Devices], IFixedDocument interface, GetUri,IFixedDocument.GetUri, I, IFixedDocument, IFixedDocument interface [Print Devices], GetUri method, IFixedDocument::GetUri, U, c, d, e, filterpipeline/IFixedDocument::GetUri, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, i, m, n, o, print.ifixeddocument_geturi, r, t, u, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

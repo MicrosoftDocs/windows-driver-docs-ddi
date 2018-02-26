@@ -7,7 +7,7 @@ old-location: display\dxgkarg_createperiodicframenotification.htm
 old-project: display
 ms.assetid: 455C3FBD-2E0D-4CD7-B753-E53ED58A7F6F
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION, ,, A, C, D, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], E, F, G, I, K, M, N, O, P, R, T, U, X, _, _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION, display.dxgkarg_createperiodicframenotification"
 ms.prod: windows-hardware
 ms.technology: windows-devices

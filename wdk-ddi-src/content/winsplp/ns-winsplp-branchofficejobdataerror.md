@@ -7,7 +7,7 @@ old-location: print\branchofficejobdataerror.htm
 old-project: print
 ms.assetid: 947C508E-2EB9-451D-AA8D-DCDDE27DEBE6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PBranchOfficeJobDataError, ,, B, BranchOfficeJobDataError, BranchOfficeJobDataError structure [Print Devices], D, E, J, O, P, PBranchOfficeJobDataError, PBranchOfficeJobDataError structure pointer [Print Devices], a, b, c, e, f, h, i, n, o, print.branchofficejobdataerror, r, t, winsplp/BranchOfficeJobDataError, winsplp/PBranchOfficeJobDataError"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: image\wias_endorser_value.htm
 old-project: image
 ms.assetid: 54395899-c35d-4251-9e9d-ec2128b28c67
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PWIAS_ENDORSER_VALUE, ,, A, D, E, I, L, N, O, P, PWIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE structure pointer [Imaging Devices], R, S, U, V, W, WIAS_ENDORSER_VALUE, WIAS_ENDORSER_VALUE structure [Imaging Devices], _, _WIAS_ENDORSER_VALUE, image.wias_endorser_value, wiamindr_lh/PWIAS_ENDORSER_VALUE, wiamindr_lh/WIAS_ENDORSER_VALUE, wiastrct_b6e376e1-ecfd-4988-b752-3d81755cf990.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,17 +90,17 @@ This structure is used indirectly by the <a href="..\wiamdef\nf-wiamdef-wiaspars
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiasparseendorserstring.md">wiasParseEndorserString</a>
 
 
 
- 
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_ENDORSER_VALUE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_ENDORSER_VALUE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

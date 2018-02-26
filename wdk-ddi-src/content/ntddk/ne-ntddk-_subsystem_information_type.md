@@ -7,7 +7,7 @@ old-location: kernel\subsystem_information_type.htm
 old-project: kernel
 ms.assetid: B1E334BF-AAB3-410D-8D10-A750E8459E42
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSUBSYSTEM_INFORMATION_TYPE, ,, A, B, E, F, I, M, MaxSubsystemInformationType, N, O, P, R, S, SUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], SubsystemInformationTypeWSL, SubsystemInformationTypeWin32, T, U, Y, _, _SUBSYSTEM_INFORMATION_TYPE, kernel.subsystem_information_type, ntddk/MaxSubsystemInformationType, ntddk/SUBSYSTEM_INFORMATION_TYPE, ntddk/SubsystemInformationTypeWSL, ntddk/SubsystemInformationTypeWin32"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,5 +105,5 @@ Reserved.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SUBSYSTEM_INFORMATION_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SUBSYSTEM_INFORMATION_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_monitordescriptorset_interface_pfnacquirenextdescript
 old-project: display
 ms.assetid: 34d048df-d4a1-4ef5-b917-791f35de9e3a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO, VidPnFunctions_ae273fb1-032c-4d22-86ef-849a4650c82e.xml, d3dkmddi/pfnAcquireNextDescriptorInfo, display.dxgk_monitordescriptorset_interface_pfnacquirenextdescriptorinfo, pfnAcquireNextDescriptorInfo, pfnAcquireNextDescriptorInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

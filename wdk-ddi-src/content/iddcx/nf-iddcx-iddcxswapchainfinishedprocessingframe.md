@@ -7,7 +7,7 @@ old-location: display\iddcxswapchainfinishedprocessingframe.htm
 old-project: display
 ms.assetid: 46c4a592-b3d4-479d-b5db-06202b5be290
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, F, I, IddCxSwapChainFinishedProcessingFrame, IddCxSwapChainFinishedProcessingFrame method [Display Devices], P, S, a, c, d, display.iddcxswapchainfinishedprocessingframe, e, g, h, i, iddcx/IddCxSwapChainFinishedProcessingFrame, m, n, o, p, r, s, w, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

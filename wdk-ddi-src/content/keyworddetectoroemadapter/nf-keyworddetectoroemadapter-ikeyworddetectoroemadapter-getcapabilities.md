@@ -177,11 +177,7 @@ The OEMDLL must have internal user independent models for the keywords and langu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
-
-
-
-<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957506">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>
 
 
 
@@ -201,11 +197,15 @@ The OEMDLL must have internal user independent models for the keywords and langu
 
 
 
+<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
+
+
+
 <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957506">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>
+<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
 
 
 

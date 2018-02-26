@@ -7,7 +7,7 @@ old-location: kernel\exinterlockedpushentryslist.htm
 old-project: kernel
 ms.assetid: 4bff45b5-c295-444d-82ea-59cfd6c37551
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, ExInterlockedPushEntrySList, ExInterlockedPushEntrySList routine [Kernel-Mode Driver Architecture], I, L, P, S, c, d, e, h, i, k, k102_53da8507-cae3-4a71-9c59-49676a8b7a95.xml, kernel.exinterlockedpushentryslist, l, n, o, r, s, t, u, wdm/ExInterlockedPushEntrySList, x, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,7 +110,7 @@ The <b>ExInterlockedPushEntrySList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
 
 
 
@@ -118,7 +118,7 @@ The <b>ExInterlockedPushEntrySList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
 
 
 
@@ -134,5 +134,5 @@ The <b>ExInterlockedPushEntrySList</b> routine can be called at any IRQL. The st
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedPushEntrySList routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedPushEntrySList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

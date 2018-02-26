@@ -7,7 +7,7 @@ old-location: pci\sriov_mitigated_ranges_input.htm
 old-project: PCI
 ms.assetid: 40b81630-997f-4427-8d02-5004de6fc943
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSRIOV_MITIGATED_RANGES_INPUT, ,, A, D, E, G, I, M, N, O, P, PCI.sriov_mitigated_ranges_input, R, S, SRIOV_MITIGATED_RANGES_INPUT, SRIOV_MITIGATED_RANGES_INPUT structure [Buses], T, U, V, _, _SRIOV_MITIGATED_RANGES_INPUT, pcivirt/SRIOV_MITIGATED_RANGES_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

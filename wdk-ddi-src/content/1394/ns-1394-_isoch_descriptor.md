@@ -317,7 +317,11 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537147">GET_LOCAL_HOST_INFO2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
 
 
 
@@ -329,15 +333,11 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537147">GET_LOCAL_HOST_INFO2</a>
 
 
 

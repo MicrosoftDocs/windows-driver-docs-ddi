@@ -206,15 +206,15 @@ MyEvtDevicePrepareHardware(
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetnuminterfaces.md">WdfUsbTargetDeviceGetNumInterfaces</a>
 
 
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

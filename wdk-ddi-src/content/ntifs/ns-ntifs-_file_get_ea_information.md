@@ -97,11 +97,11 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
 
 

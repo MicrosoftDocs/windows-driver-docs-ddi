@@ -191,15 +191,15 @@ If both
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+
+
+
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 
 <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
 
 
 

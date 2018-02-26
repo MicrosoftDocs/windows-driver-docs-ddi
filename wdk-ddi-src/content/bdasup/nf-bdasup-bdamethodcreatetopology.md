@@ -7,7 +7,7 @@ old-location: stream\bdamethodcreatetopology.htm
 old-project: stream
 ms.assetid: 1f0e8fdc-ae3d-4f5e-b047-b3b7bf73d389
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, BdaMethodCreateTopology, BdaMethodCreateTopology function [Streaming Media Devices], C, M, T, a, bdaref_3e082bad-4178-430a-aca0-3af6324a0aa2.xml, bdasup/BdaMethodCreateTopology, d, e, g, h, l, o, p, r, stream.bdamethodcreatetopology, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,19 +112,19 @@ If a BDA minidriver must create the template topology between two filter pins wi
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdacreatetopology.md">BdaCreateTopology</a>
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdacreatetopology.md">BdaCreateTopology</a>
 
 
 
@@ -136,5 +136,5 @@ If a BDA minidriver must create the template topology between two filter pins wi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaMethodCreateTopology function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaMethodCreateTopology function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

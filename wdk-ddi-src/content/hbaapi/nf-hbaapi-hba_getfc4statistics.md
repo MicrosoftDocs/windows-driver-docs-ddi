@@ -7,7 +7,7 @@ old-location: storage\hba_getfc4statistics.htm
 old-project: storage
 ms.assetid: 9c86c753-dddf-488d-b332-4b79602c454a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , 4, A, B, C, F, G, H, HBA_GetFC4Statistics, HBA_GetFC4Statistics routine [Storage Devices], S, _, a, c, e, fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml, hbaapi/HBA_GetFC4Statistics, i, s, storage.hba_getfc4statistics, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -168,6 +168,10 @@ Statistics counters in <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
@@ -176,13 +180,9 @@ Statistics counters in <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetFC4Statistics routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetFC4Statistics routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

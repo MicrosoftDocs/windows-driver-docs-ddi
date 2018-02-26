@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-crypto-session-transform-support-flags-0030.htm
 old-project: display
 ms.assetid: 9b8fea62-9947-42ce-acb6-1736ac6e3d86
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030 enumeration [Display Devices], D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_NONE, D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_SUPPORTED, E, F, G, I, L, M, N, O, P, R, S, T, U, Y, _, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_NONE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_SUPPORTED, display.d3d12ddi-crypto-session-transform-support-flags-0030"
 ms.prod: windows-hardware
 ms.technology: windows-devices

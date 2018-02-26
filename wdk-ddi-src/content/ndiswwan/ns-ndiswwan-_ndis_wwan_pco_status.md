@@ -242,6 +242,14 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a> stru
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-pco-status">NDIS_STATUS_WWAN_PCO_STATUS</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
 
 
@@ -250,15 +258,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a> stru
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-pco-status">NDIS_STATUS_WWAN_PCO_STATUS</a>
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pco">OID_WWAN_PCO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: print\iprintwritestream.htm
 old-project: print
 ms.assetid: b76a58fb-fbd4-4afe-83dc-582242b53e05
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IPrintWriteStream, IPrintWriteStream interface [Print Devices], IPrintWriteStream interface [Print Devices], described, filterpipeline/IPrintWriteStream, filterpipeline_edf6ac16-09e1-433a-8f41-50ba308dc7a7.xml, print.iprintwritestream
 ms.prod: windows-hardware
 ms.technology: windows-devices

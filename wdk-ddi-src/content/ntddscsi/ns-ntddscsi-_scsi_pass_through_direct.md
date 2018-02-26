@@ -7,7 +7,7 @@ old-location: storage\scsi_pass_through_direct.htm
 old-project: storage
 ms.assetid: 306babe7-393f-4b4a-9d8a-4c973cb3eaa2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSCSI_PASS_THROUGH_DIRECT, ,, A, C, D, E, G, H, I, O, P, PSCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT structure pointer [Storage Devices], R, S, SCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT structure [Storage Devices], T, U, _, _SCSI_PASS_THROUGH_DIRECT, ntddscsi/PSCSI_PASS_THROUGH_DIRECT, ntddscsi/SCSI_PASS_THROUGH_DIRECT, storage.scsi_pass_through_direct, structs-scsibus_64c46eef-e5bc-4e81-a479-2bdbd93605e7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,15 +163,15 @@ The members of SCSI_PASS_THROUGH_DIRECT correspond roughly to the members of a <
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
-
-
-
 <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
 
 
 
@@ -183,5 +183,5 @@ The members of SCSI_PASS_THROUGH_DIRECT correspond roughly to the members of a <
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PASS_THROUGH_DIRECT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PASS_THROUGH_DIRECT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

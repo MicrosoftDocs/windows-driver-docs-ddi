@@ -111,11 +111,7 @@ If <b>STATUS_NOT_SUPPORTED</b> is returned by <b>FltRegisterForDataScan</b>, a m
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlcreatesectionfordatascan.md">FsRtlCreateSectionForDataScan</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -123,7 +119,11 @@ If <b>STATUS_NOT_SUPPORTED</b> is returned by <b>FltRegisterForDataScan</b>, a m
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtlcreatesectionfordatascan.md">FsRtlCreateSectionForDataScan</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
 
 
 

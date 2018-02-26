@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_query_device_control_resources.htm
 old-project: kernel
 ms.assetid: 7DBDC5A7-1BF4-41B6-A72E-1B53CAC06823
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PPEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, ,, A, C, D, E, I, L, N, O, P, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], Q, R, S, T, U, V, Y, _, _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_query_device_control_resources, pepfx/PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,7 +110,7 @@ If the input value specified in the <b>BiosResourcesSize</b> member is less than
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186687">PEP_NOTIFY_ACPI_QUERY_DEVICE_CONTROL_RESOURCES</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
 
 
 
@@ -118,7 +118,7 @@ If the input value specified in the <b>BiosResourcesSize</b> member is less than
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186687">PEP_NOTIFY_ACPI_QUERY_DEVICE_CONTROL_RESOURCES</a>
 
 
 
@@ -126,5 +126,5 @@ If the input value specified in the <b>BiosResourcesSize</b> member is less than
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

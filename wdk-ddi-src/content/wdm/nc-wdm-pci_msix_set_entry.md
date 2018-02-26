@@ -7,7 +7,7 @@ old-location: kernel\settableentry.htm
 old-project: kernel
 ms.assetid: A8F2A43B-CAEF-4EE6-AB3F-1DF5A9D3F7A5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: PCI_MSIX_SET_ENTRY, SetTableEntry, SetTableEntry routine [Kernel-Mode Driver Architecture], drvr_interface_93258cbb-54ac-4992-9fed-57248d997245.xml, kernel.msixsettableentry, kernel.settableentry, wdm/SetTableEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,11 +138,11 @@ By default, the operating system assigns the index of the table entry as the mes
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pci_msix_table_config_interface.md">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
@@ -154,5 +154,5 @@ By default, the operating system assigns the index of the table entry as the mes
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PCI_MSIX_SET_ENTRY routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PCI_MSIX_SET_ENTRY routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

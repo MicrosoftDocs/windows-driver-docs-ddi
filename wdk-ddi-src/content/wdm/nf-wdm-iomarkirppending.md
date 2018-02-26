@@ -7,7 +7,7 @@ old-location: kernel\iomarkirppending.htm
 old-project: kernel
 ms.assetid: 424d5ebd-c871-40d8-b5b7-3a4a04fe60fa
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, IoMarkIrpPending, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], M, P, a, d, e, g, i, k, k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml, kernel.iomarkirppending, n, o, p, r, wdm/IoMarkIrpPending"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
 
 
 
@@ -113,7 +113,7 @@ If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
 
@@ -129,5 +129,5 @@ If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardwar
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoMarkIrpPending routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoMarkIrpPending routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

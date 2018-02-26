@@ -7,7 +7,7 @@ old-location: stream\iksnotifyevent_ksnotifyevent.htm
 old-project: stream
 ms.assetid: c0813b1a-402e-46ba-8d81-e31cdcbbb8dd
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, E, I, IKsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], KsNotifyEvent method, IKsNotifyEvent::KsNotifyEvent, K, KsNotifyEvent method [Streaming Media Devices], KsNotifyEvent method [Streaming Media Devices], IKsNotifyEvent interface, KsNotifyEvent,IKsNotifyEvent.KsNotifyEvent, N, e, f, i, ksproxy/IKsNotifyEvent::KsNotifyEvent, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, n, o, s, stream.iksnotifyevent_ksnotifyevent, t, v, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,5 +105,5 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsNotifyEvent::KsNotifyEvent method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsNotifyEvent::KsNotifyEvent method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

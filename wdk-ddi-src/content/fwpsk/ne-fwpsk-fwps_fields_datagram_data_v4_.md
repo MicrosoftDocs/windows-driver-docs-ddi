@@ -208,11 +208,11 @@ These macros are used to access the following IPV4 data fields:
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+
+
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 

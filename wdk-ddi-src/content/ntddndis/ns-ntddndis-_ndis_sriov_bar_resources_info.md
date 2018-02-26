@@ -103,7 +103,7 @@ A USHORT value that specifies the BAR index on the VF. This value is the offset 
 
 ### -field BarResourcesOffset
 
-A ULONG value that specifies the offset, in units of bytes, from the beginning of this structure to a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
+A ULONG value that specifies the offset, in units of bytes, from the beginning of this structure to a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
 ## -remarks
@@ -121,11 +121,11 @@ The <b>NDIS_SRIOV_BAR_RESOURCES_INFO</b> structure is used in OID method request
 
 
 
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451852">OID_SRIOV_BAR_RESOURCES</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

@@ -190,7 +190,20 @@ The driver must subsequently call the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisgetdevicereservedextension.md">
+   NdisGetDeviceReservedExtension</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -199,19 +212,6 @@ The driver must subsequently call the
 
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgetdevicereservedextension.md">
-   NdisGetDeviceReservedExtension</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a>
 
 
 

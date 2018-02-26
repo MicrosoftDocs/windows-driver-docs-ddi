@@ -226,11 +226,11 @@ Profile drivers should not modify any of the members of the BRB_HEADER structure
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
-
-
-
 <a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
 

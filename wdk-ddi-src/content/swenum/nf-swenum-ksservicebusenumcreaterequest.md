@@ -7,7 +7,7 @@ old-location: stream\ksservicebusenumcreaterequest.htm
 old-project: stream
 ms.assetid: 23a2dd4d-ea30-4646-a4c3-bc90ad60933d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, C, E, K, KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices], R, S, a, c, e, i, ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, m, n, q, r, s, stream.ksservicebusenumcreaterequest, swenum/KsServiceBusEnumCreateRequest, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,5 +110,5 @@ Returns STATUS_SUCCESS if successful. Otherwise. it returns STATUS_OBJECT_NAME_N
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsServiceBusEnumCreateRequest function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsServiceBusEnumCreateRequest function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: debugger\request.htm
 old-project: debugger
 ms.assetid: efb3c93c-5405-418b-a063-afa8e5e9e59a
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, :, A, D, I, IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], Request method, IDebugAdvanced2::Request, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], Request method, IDebugAdvanced3::Request, IDebugAdvanced_8fbf249e-5550-42c0-b16d-d42aaa4de660.xml, R, Request method [Windows Debugging], Request method [Windows Debugging], IDebugAdvanced2 interface, Request method [Windows Debugging], IDebugAdvanced3 interface, Request,IDebugAdvanced2.Request, Request,IDebugAdvanced3.Request, a, b, c, d, dbgeng/IDebugAdvanced2::Request, dbgeng/IDebugAdvanced3::Request, debugger.request, e, g, n, q, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -321,7 +321,11 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541561">DEBUG_REQUEST_GET_CAPTURED_EVENT_CODE_OFFSET</a>
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541553">DEBUG_REQUEST_GET_ADDITIONAL_CREATE_OPTIONS</a>
 
 
 
@@ -329,7 +333,15 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541597">DEBUG_REQUEST_SOURCE_PATH_HAS_SOURCE_SERVER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541592">DEBUG_REQUEST_SET_LOCAL_IMPLICIT_COMMAND_LINE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541572">DEBUG_REQUEST_READ_CAPTURED_EVENT_CODE_STREAM</a>
 
 
 
@@ -337,11 +349,23 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541597">DEBUG_REQUEST_SOURCE_PATH_HAS_SOURCE_SERVER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541586">DEBUG_REQUEST_SET_ADDITIONAL_CREATE_OPTIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541602">DEBUG_REQUEST_TARGET_CAN_DETACH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541561">DEBUG_REQUEST_GET_CAPTURED_EVENT_CODE_OFFSET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541606">DEBUG_REQUEST_TARGET_EXCEPTION_CONTEXT</a>
 
 
 
@@ -353,33 +377,9 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541602">DEBUG_REQUEST_TARGET_CAN_DETACH</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541572">DEBUG_REQUEST_READ_CAPTURED_EVENT_CODE_STREAM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541586">DEBUG_REQUEST_SET_ADDITIONAL_CREATE_OPTIONS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541553">DEBUG_REQUEST_GET_ADDITIONAL_CREATE_OPTIONS</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541606">DEBUG_REQUEST_TARGET_EXCEPTION_CONTEXT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced2::Request method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced2::Request method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -76,7 +76,7 @@ HRESULT AssignS0IdleSettings(
 
 ### -param IdleCaps [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself after it is set to a low-power state, while the system remains in its working (S0) state.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself after it is set to a low-power state, while the system remains in its working (S0) state.
 
 
 ### -param DxState [in]
@@ -91,12 +91,12 @@ The amount of time, in milliseconds, that the device will remain idle before the
 
 ### -param UserControlOfIdleSettings [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_user_control.md">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_user_control.md">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
 
 
 ### -param Enabled [in]
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device will be powered down if it remains idle and while the system power is at S0. This member can have one of the following values:
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device will be powered down if it remains idle and while the system power is at S0. This member can have one of the following values:
 
 <b>WdfTrue</b> - Powering down is enabled.
 
@@ -262,11 +262,11 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
-
-
 <a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 

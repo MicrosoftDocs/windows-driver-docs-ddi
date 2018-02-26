@@ -307,11 +307,15 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
 
 
 
@@ -319,11 +323,15 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -332,15 +340,7 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 

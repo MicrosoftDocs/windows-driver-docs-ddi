@@ -107,7 +107,7 @@ A driver must call the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
 
 
 
@@ -115,7 +115,7 @@ A driver must call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
 
 
 

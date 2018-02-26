@@ -75,11 +75,11 @@ The passthrough action specified by the host. For more info, see <a href="..\wwa
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_uicc_reset.md">NDIS_WWAN_SET_UICC_RESET</a>
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_uicc_reset.md">NDIS_WWAN_SET_UICC_RESET</a>
 
 
 

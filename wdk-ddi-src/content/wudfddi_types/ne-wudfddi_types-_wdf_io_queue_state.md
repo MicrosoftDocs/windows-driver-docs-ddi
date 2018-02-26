@@ -110,7 +110,7 @@ If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
 
 
 
@@ -118,7 +118,7 @@ If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspe
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
 
 
 

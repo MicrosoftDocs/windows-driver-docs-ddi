@@ -143,11 +143,7 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
 
 
@@ -159,7 +155,11 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 
 
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
 
 
 

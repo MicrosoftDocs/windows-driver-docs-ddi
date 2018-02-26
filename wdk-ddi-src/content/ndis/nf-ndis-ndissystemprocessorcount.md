@@ -90,7 +90,7 @@ An NDIS driver can call the
     NdisSystemActiveProcessorCount</a> function.
 
 <b>NdisSystemProcessorCount</b> is similar to the 
-    <a href="..\ntddk\nf-ntddk-kequerymaximumprocessorcount.md">
+    <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">
     KeQueryMaximumProcessorCount</a> function.
 
 The value that 
@@ -114,12 +114,11 @@ If you are not optimizing and if the data structures that result from using the 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisgroupmaxprocessorcount.md">NdisGroupMaxProcessorCount</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
-   NdisSystemActiveProcessorCount</a>
 
 
 
@@ -128,7 +127,8 @@ If you are not optimizing and if the data structures that result from using the 
 
 
 
-<a href="..\ntddk\nf-ntddk-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
+<a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
+   NdisSystemActiveProcessorCount</a>
 
 
 

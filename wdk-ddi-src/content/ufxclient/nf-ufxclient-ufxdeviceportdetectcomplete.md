@@ -4,10 +4,10 @@ title: UfxDevicePortDetectComplete function
 author: windows-driver-content
 description: Notifies UFX about the port type that was detected.
 old-location: buses\ufxdeviceportdetectcomplete.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: D5F65152-54CD-45FA-99CE-F5B4DF444BB8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, D, P, U, UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses], buses.ufxdeviceportdetectcomplete, c, e, f, i, l, m, o, p, r, t, ufxclient/UfxDevicePortDetectComplete, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -176,6 +176,10 @@ The operation failed because the device does not support this OID.
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-modem-reset-operations">MB modem reset operations</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a>
 
 
@@ -185,10 +189,6 @@ The operation failed because the device does not support this OID.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-device-reset-status">NDIS_STATUS_WWAN_DEVICE_RESET_STATUS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-modem-reset-operations">MB modem reset operations</a>
 
 
 

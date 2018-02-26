@@ -318,12 +318,11 @@ A WSK application's <i>WskReceiveEvent</i> event callback function must not wait
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
-   WSK_CLIENT_CONNECTION_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
 
 
@@ -331,7 +330,12 @@ A WSK application's <i>WskReceiveEvent</i> event callback function must not wait
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+   WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
 
@@ -343,15 +347,11 @@ A WSK application's <i>WskReceiveEvent</i> event callback function must not wait
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 

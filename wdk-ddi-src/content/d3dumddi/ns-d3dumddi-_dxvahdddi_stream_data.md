@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_stream_data.htm
 old-project: display
 ms.assetid: 3b8fc849-8794-4dab-af28-a1c0dfd859d3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, D, DXVA2_Structs_d7fc6fd4-0b17-49b3-bb42-0e0c8f3cc124.xml, DXVAHDDDI_STREAM_DATA, DXVAHDDDI_STREAM_DATA structure [Display Devices], E, H, I, M, R, S, T, V, X, _, _DXVAHDDDI_STREAM_DATA, d3dumddi/DXVAHDDDI_STREAM_DATA, display.dxvahdddi_stream_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -351,27 +351,7 @@ DRV: Weave [0(A0)+0(A1)] = A
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
-
-
-
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_output_rate.md">DXVAHDDDI_OUTPUT_RATE</a>
 
 
 
@@ -379,9 +359,29 @@ DRV: Weave [0(A0)+0(A1)] = A
 
 
 
- 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
+
+
+
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_output_rate.md">DXVAHDDDI_OUTPUT_RATE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_DATA structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

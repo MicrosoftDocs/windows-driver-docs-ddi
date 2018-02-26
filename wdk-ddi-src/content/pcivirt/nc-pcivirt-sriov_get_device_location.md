@@ -7,7 +7,7 @@ old-location: pci\sriov_get_device_location.htm
 old-project: PCI
 ms.assetid: 705b52e3-f695-4c58-9ae2-5a806f1e2140
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: "*PSRIOV_GET_DEVICE_LOCATION, *PSRIOV_GET_DEVICE_LOCATION callback function pointer [Buses], PCI.sriov_get_device_location, SRIOV_GET_DEVICE_LOCATION, SriovGetDeviceLocation, SriovGetDeviceLocation callback function [Buses], pcivirt/SriovGetDeviceLocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices

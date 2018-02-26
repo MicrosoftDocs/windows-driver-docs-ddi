@@ -128,15 +128,15 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 
 
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 
 

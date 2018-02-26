@@ -84,7 +84,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 
 ### -param PoolType [in]
 
-Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
+Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 
 ### -param DeviceDescription [in]
@@ -139,7 +139,7 @@ The <i>OutDmaChannel</i> and <i>OuterUnknown </i>parameters follow the <a href="
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 
 
@@ -147,7 +147,7 @@ The <i>OutDmaChannel</i> and <i>OuterUnknown </i>parameters follow the <a href="
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

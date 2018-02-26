@@ -7,7 +7,7 @@ old-location: display\d3dkmt_queryadapterinfo.htm
 old-project: display
 ms.assetid: 2bc9afc3-2fcf-4f62-85d4-67f824733904
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, D, D3DKMT_QUERYADAPTERINFO, D3DKMT_QUERYADAPTERINFO structure [Display Devices], E, F, I, K, KMTQUERYADAPTERINFOTYPE, M, N, O, OpenGL_Structs_10a338e9-c5a8-44e0-9ad7-87d5a3ab742e.xml, P, Q, R, T, U, Y, _, _D3DKMT_QUERYADAPTERINFO, d3dkmthk/D3DKMT_QUERYADAPTERINFO, display.d3dkmt_queryadapterinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -340,7 +340,19 @@ Supported starting with  Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umdfilenameinfo.md">D3DKMT_UMDFILENAMEINFO</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_currentdisplaymode.md">D3DKMT_CURRENTDISPLAYMODE</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umd_driver_version.md">D3DKMT_UMD_DRIVER_VERSION</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adaptertype.md">D3DKMT_ADAPTERTYPE</a>
 
 
 
@@ -348,7 +360,15 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md">D3DKMT_SEGMENTSIZEINFO</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_directflip_support.md">D3DKMT_DIRECTFLIP_SUPPORT</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a>
 
 
 
@@ -360,11 +380,7 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md">D3DKMT_SEGMENTSIZEINFO</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openglinfo.md">D3DKMT_OPENGLINFO</a>
+<a href="..\d3dkmthk\ne-d3dkmthk-_qai_driverversion.md">D3DKMT_DRIVERVERSION</a>
 
 
 
@@ -372,35 +388,19 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_qai_driverversion.md">D3DKMT_DRIVERVERSION</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_directflip_support.md">D3DKMT_DIRECTFLIP_SUPPORT</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_currentdisplaymode.md">D3DKMT_CURRENTDISPLAYMODE</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapteraddress.md">D3DKMT_ADAPTERADDRESS</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umd_driver_version.md">D3DKMT_UMD_DRIVER_VERSION</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openglinfo.md">D3DKMT_OPENGLINFO</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umdfilenameinfo.md">D3DKMT_UMDFILENAMEINFO</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adaptertype.md">D3DKMT_ADAPTERTYPE</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
 
 
 
@@ -408,5 +408,5 @@ Supported starting with  Windows 8.1.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_QUERYADAPTERINFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_QUERYADAPTERINFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -427,11 +427,11 @@ Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can desc
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksaudio_channel_config.md">KSAUDIO_CHANNEL_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\getfieldoffset2.htm
 old-project: debugger
 ms.assetid: 4081ddf9-673d-4df6-8698-726a70d32c03
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, F, G, GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging], IDebugSymbols interface, GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, GetFieldOffset,IDebugSymbols.GetFieldOffset, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetFieldOffset method, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method, IDebugSymbols2::GetFieldOffset, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, IDebugSymbols3::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, O, S, b, d, dbgeng/IDebugSymbols2::GetFieldOffset, dbgeng/IDebugSymbols3::GetFieldOffset, dbgeng/IDebugSymbols::GetFieldOffset, debugger.getfieldoffset2, e, f, g, i, l, m, o, s, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

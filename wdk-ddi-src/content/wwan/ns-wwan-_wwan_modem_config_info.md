@@ -81,14 +81,6 @@ The modem's configuration mode. For a list of defined values, see <a href="..\ww
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_modem_config_mode.md">WWAN_MODEM_CONFIG_MODE</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_modem_config_info.md">NDIS_WWAN_MODEM_CONFIG_INFO</a>
 
 
@@ -98,6 +90,14 @@ The modem's configuration mode. For a list of defined values, see <a href="..\ww
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-config-info">OID_WWAN_MODEM_CONFIG_INFO</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_modem_config_mode.md">WWAN_MODEM_CONFIG_MODE</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a>
 
 
 

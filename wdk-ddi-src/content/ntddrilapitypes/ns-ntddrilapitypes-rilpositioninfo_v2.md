@@ -89,27 +89,27 @@ The size of the structure in bytes.
 
 ### -field dwSystemType
 
-Indicates the system type or types for which serving cell information is valid, a bitmask of one or more <a href="..\rilapitypes\ne-rilapitypes-rilsystemtype.md">RILSYSTEMTYPE</a> values. For example, on an SVLTE system, this could be <code>RIL_SYSTEMTYPE_LTE|RIL_SYSTEMTYPE_1XRTT</code>, indicating that both the CDMA cell information (including serving cell(s)) in <b>rc2kMRL</b> and <b>stLTEServingCellInfo</b> are valid.
+Indicates the system type or types for which serving cell information is valid, a bitmask of one or more <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilsystemtype.md">RILSYSTEMTYPE</a> values. For example, on an SVLTE system, this could be <code>RIL_SYSTEMTYPE_LTE|RIL_SYSTEMTYPE_1XRTT</code>, indicating that both the CDMA cell information (including serving cell(s)) in <b>rc2kMRL</b> and <b>stLTEServingCellInfo</b> are valid.
 
 
 ### -field stGSMServingCellInfo
 
-GSM serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfogsm.md">RILPOSITIONINFOGSM</a> struct.
+GSM serving cell information, a <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilpositioninfogsm.md">RILPOSITIONINFOGSM</a> struct.
 
 
 ### -field stUMTSServingCellInfo
 
-UMTS serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfoumts.md">RILPOSITIONINFOUMTS</a> struct.
+UMTS serving cell information, a <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilpositioninfoumts.md">RILPOSITIONINFOUMTS</a> struct.
 
 
 ### -field stTDSCDMAServingCellInfo
 
-TD-SCDMA serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfotdscdma.md">RILPOSITIONINFOTDSCDMA</a> struct. This field is not present in <a href="https://msdn.microsoft.com/library/windows/hardware/dn931134">RILPOSITIONINFO_V1</a>.
+TD-SCDMA serving cell information, a <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilpositioninfotdscdma.md">RILPOSITIONINFOTDSCDMA</a> struct. This field is not present in <a href="https://msdn.microsoft.com/library/windows/hardware/dn931134">RILPOSITIONINFO_V1</a>.
 
 
 ### -field stLTEServingCellInfo
 
-LTE serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfolte.md">RILPOSITIONINFOLTE</a> struct.
+LTE serving cell information, a <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilpositioninfolte.md">RILPOSITIONINFOLTE</a> struct.
 
 
 ### -field dwCntGSMNMR
@@ -119,7 +119,7 @@ The number of GSM network measurement reports in <b>rgNMR</b>.
 
 ### -field rgNMR
 
-GSM network measurement reports, an array of <a href="..\rilapitypes\ns-rilapitypes-rilgsmnmr.md">RILGSMNMR</a> structs.
+GSM network measurement reports, an array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilgsmnmr.md">RILGSMNMR</a> structs.
 
 
 ### -field dwCntUMTSMRL
@@ -149,7 +149,7 @@ The number of entries in the EUTRAN (LTE) measured results list <b>reMRL</b>.
 
 ### -field reMRL
 
-E-UTRAN (LTE) measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rileutramrl.md">RILEUTRAMRL</a> structs.
+E-UTRAN (LTE) measured results list, an array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rileutramrl.md">RILEUTRAMRL</a> structs.
 
 
 ### -field dwCntC2KMRL
@@ -159,17 +159,17 @@ The number of entries in the cdma2000 measured results list <b>rc2kMRL</b>.
 
 ### -field rc2kMRL
 
-The cdma2000 measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilc2kmrl.md">RILC2KMRL</a> structs.
+The cdma2000 measured results list, an array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilc2kmrl.md">RILC2KMRL</a> structs.
 
 
 #### - RILUMTSMRL
 
-UMTS measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilumtsmrl.md">RILUMTSMRL</a> structs.
+UMTS measured results list, an array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilumtsmrl.md">RILUMTSMRL</a> structs.
 
 
 #### - RILTDSCDMAMRL
 
-TD-SCDMA measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-riltdscdmamrl.md">RILTDSCDMAMRL</a> structs. This field is not present in RILPOSITIONINFO_V1.
+TD-SCDMA measured results list, an array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-riltdscdmamrl.md">RILTDSCDMAMRL</a> structs. This field is not present in RILPOSITIONINFO_V1.
 
 
 ## -see-also

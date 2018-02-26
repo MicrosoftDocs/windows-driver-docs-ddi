@@ -249,11 +249,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
 
 
 

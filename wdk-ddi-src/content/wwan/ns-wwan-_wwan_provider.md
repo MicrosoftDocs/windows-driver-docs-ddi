@@ -250,7 +250,7 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
 
 
@@ -258,11 +258,11 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 
 
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+
+
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
 
 

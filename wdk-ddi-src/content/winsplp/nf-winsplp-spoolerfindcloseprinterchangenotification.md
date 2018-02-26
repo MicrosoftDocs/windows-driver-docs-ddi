@@ -7,7 +7,7 @@ old-location: print\spoolerfindcloseprinterchangenotification.htm
 old-project: print
 ms.assetid: 13C65DAB-04BA-4B19-B810-B484F7C1C4DA
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , C, F, N, P, S, SpoolerFindClosePrinterChangeNotification, SpoolerFindClosePrinterChangeNotification function [Print Devices], a, c, d, e, f, g, h, i, l, n, o, p, print.spoolerfindcloseprinterchangenotification, r, s, t, winsplp/SpoolerFindClosePrinterChangeNotification"
 ms.prod: windows-hardware
 ms.technology: windows-devices

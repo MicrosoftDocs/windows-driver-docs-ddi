@@ -187,11 +187,6 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-   NET_DMA_PROVIDER_CHARACTERISTICS</a>
-
-
-
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
@@ -201,6 +196,11 @@ NetDMA calls
 
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_cpu_affinity.md">NET_DMA_CHANNEL_CPU_AFFINITY</a>
+
+
+
+<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 

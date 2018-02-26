@@ -7,7 +7,7 @@ old-location: storage\msiscsi_querylbpolicy.htm
 old-project: storage
 ms.assetid: da45810a-12f2-4242-8428-a1717ecf8af3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PMSiSCSI_QueryLBPolicy, ,, B, C, I, L, M, MSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy structure [Storage Devices], P, PMSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], Q, S, _, _MSiSCSI_QueryLBPolicy, c, e, i, iscsimgt/MSiSCSI_QueryLBPolicy, iscsimgt/PMSiSCSI_QueryLBPolicy, l, o, r, storage.msiscsi_querylbpolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,6 +101,10 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 ## -see-also
 
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
@@ -109,13 +113,9 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 
 
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_QueryLBPolicy structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_QueryLBPolicy structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

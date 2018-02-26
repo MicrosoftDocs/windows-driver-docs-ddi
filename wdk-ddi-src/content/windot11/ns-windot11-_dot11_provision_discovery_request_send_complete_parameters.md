@@ -131,11 +131,11 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/69490609-60CB-426F-8ED7-F8B35CDFCE2A">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_REQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439783">NDIS_STATUS_DOT11_WFD_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE</a>
+
+
+
+<a href="https://msdn.microsoft.com/69490609-60CB-426F-8ED7-F8B35CDFCE2A">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_REQUEST</a>
 
 
 

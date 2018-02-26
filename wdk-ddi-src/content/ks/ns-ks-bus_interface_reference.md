@@ -7,7 +7,7 @@ old-location: stream\bus_interface_reference.htm
 old-project: stream
 ms.assetid: 17c2c46c-ff79-4c80-82c9-c49b18426789
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PBUS_INTERFACE_REFERENCE, ,, A, B, BUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE structure [Streaming Media Devices], C, E, F, I, N, P, PBUS_INTERFACE_REFERENCE, PBUS_INTERFACE_REFERENCE structure pointer [Streaming Media Devices], R, S, T, U, _, ks-struct_815b7147-1ae1-48d2-bae3-3efce2613b53.xml, ks/BUS_INTERFACE_REFERENCE, ks/PBUS_INTERFACE_REFERENCE, stream.bus_interface_reference"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ typedef struct {
 
 ### -field Interface
 
-Specifies the exported <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
+Specifies the exported <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>.
 
 
 ### -field ReferenceDeviceObject

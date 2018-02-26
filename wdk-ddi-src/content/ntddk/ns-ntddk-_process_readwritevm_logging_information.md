@@ -7,7 +7,7 @@ old-location: kernel\process_readwritevm_logging_information.htm
 old-project: kernel
 ms.assetid: F1C769FD-D05F-4C23-A91E-FAEE8EA029EC
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PPROCESS_READWRITEVM_LOGGING_INFORMATION, ,, A, C, D, E, F, G, I, L, M, N, O, P, PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION union pointer [Kernel-Mode Driver Architecture], PROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION union [Kernel-Mode Driver Architecture], R, S, T, V, W, _, _PROCESS_READWRITEVM_LOGGING_INFORMATION, kernel.process_readwritevm_logging_information, ntddk/PPROCESS_READWRITEVM_LOGGING_INFORMATION, ntddk/PROCESS_READWRITEVM_LOGGING_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\wnode_all_data.htm
 old-project: kernel
 ms.assetid: 15582270-6cc4-43d4-b9e6-dceab3bc092d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PWNODE_ALL_DATA, ,, A, D, E, L, N, O, P, PWNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], T, W, WNODE_ALL_DATA, WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], _, a, g, kernel.wnode_all_data, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml, t, tagWNODE_ALL_DATA, wmistr/PWNODE_ALL_DATA, wmistr/WNODE_ALL_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,7 +156,7 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 
@@ -164,7 +164,7 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
 
 
 
@@ -172,5 +172,5 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_ALL_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_ALL_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

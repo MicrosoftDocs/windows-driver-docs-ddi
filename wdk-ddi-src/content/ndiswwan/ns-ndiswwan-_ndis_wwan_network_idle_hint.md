@@ -107,7 +107,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_network_idle_hint.md">WWAN_NETWORK_ID
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -115,7 +115,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_network_idle_hint.md">WWAN_NETWORK_ID
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
 
 
 

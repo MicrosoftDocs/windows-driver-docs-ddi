@@ -7,7 +7,7 @@ old-location: storage\hba_portstatistics.htm
 old-project: storage
 ms.assetid: 3a0d6633-b4a6-4864-96ae-4f91de11daa1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PHBA_PORTSTATISTICS, *PSMHBA_FCPHYSTATISTICS, ,, A, B, C, F, H, HBA_PORTSTATISTICS, HBA_PORTSTATISTICS structure [Storage Devices], HBA_PortStatistics, HBA_PortStatistics structure [Storage Devices], I, M, O, P, PHBA_PORTSTATISTICS, PHBA_PORTSTATISTICS structure pointer [Storage Devices], R, S, SMHBA_FCPHYSTATISTICS, T, Y, _, a, c, hbaapi/HBA_PortStatistics, hbaapi/PHBA_PORTSTATISTICS, i, o, r, s, storage.hba_portstatistics, structs-Fibre_4c6c7237-af5e-415a-a7db-db594b1a5968.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,5 +166,5 @@ Reports the value of the invalid CRC count field of the link error status block 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_PortStatistics structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_PortStatistics structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

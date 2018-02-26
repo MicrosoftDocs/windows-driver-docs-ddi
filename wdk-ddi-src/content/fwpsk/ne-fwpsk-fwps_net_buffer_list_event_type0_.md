@@ -222,8 +222,12 @@ The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
-        FwpsNetBufferListRemoveContext0</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">
+  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
 
 
 
@@ -232,12 +236,8 @@ The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">
-  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+        FwpsNetBufferListRemoveContext0</a>
 
 
 

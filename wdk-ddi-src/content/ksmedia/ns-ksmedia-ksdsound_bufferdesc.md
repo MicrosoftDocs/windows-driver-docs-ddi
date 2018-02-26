@@ -161,6 +161,14 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
 
 
@@ -169,15 +177,11 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537190">KSNODETYPE_SRC</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
 
 
 
@@ -185,11 +189,7 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537190">KSNODETYPE_SRC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
 
 
 

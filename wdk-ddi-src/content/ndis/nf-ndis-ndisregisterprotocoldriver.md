@@ -181,7 +181,7 @@ Some members of the structure at the
 
 A protocol driver calls the 
     <b>NdisRegisterProtocolDriver</b> function from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
     <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS
     Protocol Drivers</a>.

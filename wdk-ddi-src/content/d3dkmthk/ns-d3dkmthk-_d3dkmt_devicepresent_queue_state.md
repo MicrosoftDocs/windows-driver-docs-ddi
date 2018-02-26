@@ -7,7 +7,7 @@ old-location: display\d3dkmt_devicepresent_queue_state.htm
 old-project: display
 ms.assetid: 0DB9F0ED-D0A9-4A8A-8E27-BC50DEDB0BD5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_DEVICEPRESENT_QUEUE_STATE, D3DKMT_DEVICEPRESENT_QUEUE_STATE structure [Display Devices], E, I, K, M, N, P, Q, R, S, T, U, V, _, _D3DKMT_DEVICEPRESENT_QUEUE_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE, display.d3dkmt_devicepresent_queue_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

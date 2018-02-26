@@ -7,7 +7,7 @@ old-location: stream\kodeviceinitialize.htm
 old-project: stream
 ms.assetid: 68ae87c5-7d71-4e85-8052-4e5c422340fb
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, I, K, KoDeviceInitialize, KoDeviceInitialize function [Streaming Media Devices], a, c, e, i, kcom/KoDeviceInitialize, ksfunc_1d3ad49e-d34c-4341-ab30-45c8e96e8b3e.xml, l, n, o, stream.kodeviceinitialize, t, v, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices

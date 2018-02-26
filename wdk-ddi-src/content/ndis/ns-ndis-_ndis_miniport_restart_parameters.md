@@ -106,11 +106,11 @@ To define miniport adapter restart parameters, NDIS passes a pointer to an
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
 
 

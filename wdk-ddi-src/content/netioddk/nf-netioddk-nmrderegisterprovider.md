@@ -161,15 +161,11 @@ A provider module typically calls the
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
-
-
-
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
 
 
@@ -177,7 +173,11 @@ A provider module typically calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
 
 
 

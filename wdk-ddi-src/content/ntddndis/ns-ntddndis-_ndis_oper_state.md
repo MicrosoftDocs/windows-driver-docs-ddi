@@ -144,10 +144,6 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568746">NET_IF_OPER_STATUS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
@@ -157,6 +153,10 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568746">NET_IF_OPER_STATUS</a>
 
 
 

@@ -151,11 +151,11 @@ The <b>NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS</b> structure is used with OID reque
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
 
 
 

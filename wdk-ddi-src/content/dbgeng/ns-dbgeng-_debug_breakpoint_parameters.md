@@ -7,7 +7,7 @@ old-location: debugger\debug_breakpoint_parameters.htm
 old-project: debugger
 ms.assetid: e5c87c1c-8195-4476-84bc-5f18ad83d149
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PDEBUG_BREAKPOINT_PARAMETERS, ,, A, B, D, DEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS structure [Windows Debugging], E, G, I, K, M, N, O, P, PDEBUG_BREAKPOINT_PARAMETERS, PDEBUG_BREAKPOINT_PARAMETERS structure pointer [Windows Debugging], R, S, Structures_ad5f0e1f-7d6f-498d-80a0-1275ca3cb016.xml, T, U, _, _DEBUG_BREAKPOINT_PARAMETERS, dbgeng/DEBUG_BREAKPOINT_PARAMETERS, dbgeng/PDEBUG_BREAKPOINT_PARAMETERS, debugger.debug_breakpoint_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices

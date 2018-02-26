@@ -226,11 +226,11 @@ For the case of an implicit bind, the local address and port information might n
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+
+
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 

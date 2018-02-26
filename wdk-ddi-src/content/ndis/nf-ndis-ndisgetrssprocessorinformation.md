@@ -174,16 +174,16 @@ RSS-capable miniport drivers that support MSI-X call
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
    MiniportFilterResourceRequirements</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

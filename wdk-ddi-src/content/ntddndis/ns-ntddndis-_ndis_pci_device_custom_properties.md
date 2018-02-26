@@ -201,7 +201,8 @@ Some high performance miniport adapters can adjust the hardware configuration an
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
+   OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
 
 
 
@@ -210,8 +211,7 @@ Some high performance miniport adapters can adjust the hardware configuration an
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
-   OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 

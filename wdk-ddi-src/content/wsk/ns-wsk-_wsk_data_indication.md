@@ -105,11 +105,11 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
 
 

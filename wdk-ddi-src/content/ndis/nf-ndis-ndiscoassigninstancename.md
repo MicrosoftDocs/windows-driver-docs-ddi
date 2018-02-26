@@ -189,6 +189,10 @@ The caller is responsible for freeing the buffer containing the returned instanc
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
 
@@ -197,15 +201,11 @@ The caller is responsible for freeing the buffer containing the returned instanc
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVC</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

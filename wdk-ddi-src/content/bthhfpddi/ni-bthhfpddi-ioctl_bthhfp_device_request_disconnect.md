@@ -119,7 +119,7 @@ The audio driver sends this request from its handler for the <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh706181">KSPROPERTY_ONESHOT_DISCONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
 
 
@@ -127,7 +127,7 @@ The audio driver sends this request from its handler for the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh706181">KSPROPERTY_ONESHOT_DISCONNECT</a>
 
 
 

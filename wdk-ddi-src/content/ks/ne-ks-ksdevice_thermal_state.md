@@ -7,7 +7,7 @@ old-location: stream\ksdevice_thermal_state.htm
 old-project: stream
 ms.assetid: 37425A71-D242-4E4B-9EE8-57207A022459
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, A, C, D, E, H, I, K, KSDEVICE_THERMAL_STATE, KSDEVICE_THERMAL_STATE enumeration [Streaming Media Devices], KSDEVICE_THERMAL_STATE_HIGH, KSDEVICE_THERMAL_STATE_LOW, L, M, R, S, T, V, _, ks/KSDEVICE_THERMAL_STATE, ks/KSDEVICE_THERMAL_STATE_HIGH, ks/KSDEVICE_THERMAL_STATE_LOW, stream.ksdevice_thermal_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -120,15 +120,15 @@ To allocate and initialize a timer object, NDIS drivers call the
 
 
 
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 
 
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 
 

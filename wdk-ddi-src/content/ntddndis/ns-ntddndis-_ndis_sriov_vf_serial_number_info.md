@@ -105,11 +105,11 @@ The virtualization stack uses the serial number to map the VF network adapter in
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451909">OID_SRIOV_VF_SERIAL_NUMBER</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451909">OID_SRIOV_VF_SERIAL_NUMBER</a>
 
 
 

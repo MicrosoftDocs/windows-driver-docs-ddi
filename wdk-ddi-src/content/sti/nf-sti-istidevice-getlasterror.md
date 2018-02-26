@@ -7,7 +7,7 @@ old-location: image\istidevice_getlasterror.htm
 old-project: image
 ms.assetid: 20ad609d-454a-4d43-a58e-184cbb8e8da7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, E, G, GetLastError method [Imaging Devices], GetLastError method [Imaging Devices], IStiDevice interface, GetLastError,IStiDevice.GetLastError, I, IStiDevice, IStiDevice interface [Imaging Devices], GetLastError method, IStiDevice::GetLastError, L, S, a, c, e, i, image.istidevice_getlasterror, o, r, s, sti/IStiDevice::GetLastError, stifnc_9c8050a1-8e9a-4b24-a461-bc567602900d.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

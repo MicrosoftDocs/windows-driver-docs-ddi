@@ -7,7 +7,7 @@ old-location: display\dxgk_backlight_optimization_level.htm
 old-project: display
 ms.assetid: 8ad096bb-0012-40fc-a038-2f25d6a59b43
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, B, C, D, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], DxgkBacklightOptimizationDesktop, DxgkBacklightOptimizationDimmed, DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationEDR, E, G, H, I, K, L, M, N, O, P, T, V, X, Z, _, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDisable, d3dkmdt/DxgkBacklightOptimizationDynamic, d3dkmdt/DxgkBacklightOptimizationEDR, display.dxgk_backlight_optimization_level"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,5 +125,5 @@ For more information on usage scenarios involving <b>DXGK_BACKLIGHT_OPTIMIZATION
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

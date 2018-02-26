@@ -104,15 +104,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_operation_mode.md">WDI_OPERATION_MODE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn925949">OID_WDI_TASK_CREATE_PORT</a>
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_operation_mode.md">WDI_OPERATION_MODE</a>
 
 
 
@@ -120,11 +116,15 @@ This callback function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925949">OID_WDI_TASK_CREATE_PORT</a>
 
 
 

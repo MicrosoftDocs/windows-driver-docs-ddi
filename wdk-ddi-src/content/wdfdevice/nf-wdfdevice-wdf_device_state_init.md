@@ -88,7 +88,7 @@ None
 
 
 
-The <b>WDF_DEVICE_STATE_INIT</b> function initializes all of the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_state.md">WDF_DEVICE_STATE</a> structure's <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed members to <b>WdfUseDefault</b>.
+The <b>WDF_DEVICE_STATE_INIT</b> function initializes all of the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_state.md">WDF_DEVICE_STATE</a> structure's <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed members to <b>WdfUseDefault</b>.
 
 
 #### Examples

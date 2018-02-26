@@ -225,7 +225,7 @@ For more information about context reference counting, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 
 
@@ -241,7 +241,7 @@ For more information about context reference counting, see <a href="https://msdn
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 

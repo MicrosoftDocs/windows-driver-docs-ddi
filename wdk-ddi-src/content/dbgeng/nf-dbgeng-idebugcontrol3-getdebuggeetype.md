@@ -7,7 +7,7 @@ old-location: debugger\getdebuggeetype.htm
 old-project: debugger
 ms.assetid: 86f236fa-73f8-4071-b6da-6de2d276cbff
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 3, :, C, D, G, GetDebuggeeType method [Windows Debugging], GetDebuggeeType method [Windows Debugging], IDebugControl interface, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, GetDebuggeeType,IDebugControl.GetDebuggeeType, GetDebuggeeType,IDebugControl2.GetDebuggeeType, GetDebuggeeType,IDebugControl3.GetDebuggeeType, I, IDebugControl, IDebugControl interface [Windows Debugging], GetDebuggeeType method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, IDebugControl2::GetDebuggeeType, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, IDebugControl3::GetDebuggeeType, IDebugControl::GetDebuggeeType, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, T, b, dbgeng/IDebugControl2::GetDebuggeeType, dbgeng/IDebugControl3::GetDebuggeeType, dbgeng/IDebugControl::GetDebuggeeType, debugger.getdebuggeetype, e, g, l, n, o, p, r, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -239,16 +239,16 @@ The offload target copies the entry points from the chimney-specific structure i
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_ndis_tcp_offload_event_handlers.md">
    NDIS_TCP_OFFLOAD_EVENT_HANDLERS</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -174,15 +174,11 @@ It is not necessary to call <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinDa
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
 
@@ -195,6 +191,10 @@ It is not necessary to call <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinDa
 
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 

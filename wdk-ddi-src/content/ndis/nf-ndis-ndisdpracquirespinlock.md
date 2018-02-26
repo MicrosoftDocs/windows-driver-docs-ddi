@@ -139,7 +139,7 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 
@@ -151,7 +151,7 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
 
 
 

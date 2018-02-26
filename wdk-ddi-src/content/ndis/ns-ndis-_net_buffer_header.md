@@ -91,11 +91,11 @@ NDIS maintains the information in the NET_BUFFER_HEADER union.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
 
 
 

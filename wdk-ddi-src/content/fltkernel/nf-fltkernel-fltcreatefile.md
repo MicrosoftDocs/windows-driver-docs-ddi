@@ -376,7 +376,7 @@ Is a set of flags that controls the file object attributes. If the caller is run
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateFile</b>, the <b>Information</b> member contains one of the following values.
+A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateFile</b>, the <b>Information</b> member contains one of the following values.
 
 FILE_CREATED
 
@@ -1058,75 +1058,7 @@ SYNCHRONIZE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 
@@ -1135,6 +1067,74 @@ SYNCHRONIZE
 
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: stream\bda_ethernet_address_list.htm
 old-project: stream
 ms.assetid: 2985A0EC-4B5F-43FA-A2E9-487877A3C9A0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PBDA_ETHERNET_ADDRESS_LIST, ,, A, B, BDA_ETHERNET_ADDRESS_LIST, BDA_ETHERNET_ADDRESS_LIST structure [Streaming Media Devices], D, E, H, I, L, N, P, PBDA_ETHERNET_ADDRESS_LIST, PBDA_ETHERNET_ADDRESS_LIST structure pointer [Streaming Media Devices], R, S, T, _, _BDA_ETHERNET_ADDRESS_LIST, bdatypes/BDA_ETHERNET_ADDRESS_LIST, bdatypes/PBDA_ETHERNET_ADDRESS_LIST, stream.bda_ethernet_address_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices

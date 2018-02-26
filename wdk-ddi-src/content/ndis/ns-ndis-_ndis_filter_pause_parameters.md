@@ -105,11 +105,11 @@ To define filter module pause parameters, NDIS passes a pointer to an NDIS_FILTE
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
 
 
 

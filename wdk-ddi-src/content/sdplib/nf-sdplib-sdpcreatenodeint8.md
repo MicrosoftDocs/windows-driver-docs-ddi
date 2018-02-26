@@ -124,11 +124,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
-
-
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
 
 
@@ -136,7 +132,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
 
 

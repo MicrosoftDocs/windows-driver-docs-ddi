@@ -160,19 +160,19 @@ NDIS 6.20 and later miniport drivers call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
 
 
 

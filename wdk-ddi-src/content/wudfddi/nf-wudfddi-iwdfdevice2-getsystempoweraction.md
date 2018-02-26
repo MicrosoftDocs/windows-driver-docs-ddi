@@ -74,7 +74,7 @@ POWER_ACTION GetSystemPowerAction();
 
 
 
-<b>GetSystemPowerAction</b> returns a <a href="..\ntpoapi\ne-ntpoapi-ppower_action.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
+<b>GetSystemPowerAction</b> returns a <a href="..\wdm\ne-wdm-ppower_action.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
 
 
 

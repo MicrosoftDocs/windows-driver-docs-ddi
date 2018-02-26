@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreateallocation2.htm
 old-project: display
 ms.assetid: 416DE730-44A6-4BA3-BFC2-C11A179AD422
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , 2, 3, A, C, D, D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 function [Display Devices], K, M, PFND3DKMT_CREATEALLOCATION2, T, a, c, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2, e, i, l, n, o, r, t"
+ms.date: 2/24/2018
+ms.keywords: ",  , 2, 3, A, C, D, D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 callback function [Display Devices], K, M, PFND3DKMT_CREATEALLOCATION2, T, a, c, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2, e, i, l, n, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -26,19 +26,16 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
+req.lib: NtosKrnl.exe
+req.dll: 
 req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
 apitype:
--	DllExport
+-	UserDefined
 apilocation:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+-	d3dkmthk.h
 apiname:
 -	D3DKMTCreateAllocation2
 product: Windows

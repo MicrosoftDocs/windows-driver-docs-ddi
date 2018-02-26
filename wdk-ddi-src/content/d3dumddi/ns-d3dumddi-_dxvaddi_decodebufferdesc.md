@@ -7,7 +7,7 @@ old-location: display\dxvaddi_decodebufferdesc.htm
 old-project: display
 ms.assetid: 809b4cf8-e4c5-4cb6-b58f-8b6b98111361
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, B, C, D, DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, DXVADDI_DECODEBUFFERDESC, DXVADDI_DECODEBUFFERDESC structure [Display Devices], E, F, I, O, R, S, U, V, X, _, _DXVADDI_DECODEBUFFERDESC, d3dumddi/DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -253,6 +253,10 @@ Because Microsoft DirectX Video Acceleration (VA) version 2.0 uses Microsoft Dir
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_hw_iv.md">DXVADDI_PVP_HW_IV</a>
 
 
@@ -265,13 +269,9 @@ Because Microsoft DirectX Video Acceleration (VA) version 2.0 uses Microsoft Dir
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_DECODEBUFFERDESC structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_DECODEBUFFERDESC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

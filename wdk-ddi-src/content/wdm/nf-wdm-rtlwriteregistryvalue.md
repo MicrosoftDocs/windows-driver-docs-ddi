@@ -7,7 +7,7 @@ old-location: kernel\rtlwriteregistryvalue.htm
 old-project: kernel
 ms.assetid: 97bcd205-ffc0-4645-87d4-659651ed579a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , R, RtlWriteRegistryValue, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], V, W, a, e, g, i, k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, kernel.rtlwriteregistryvalue, l, r, s, t, u, wdm/RtlWriteRegistryValue, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -211,11 +211,11 @@ If the specified key does not exist, the routine attempts to create the key. For
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 
 
 
@@ -227,7 +227,7 @@ If the specified key does not exist, the routine attempts to create the key. For
 
 
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 
 
@@ -235,7 +235,7 @@ If the specified key does not exist, the routine attempts to create the key. For
 
 
 
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
 
 
 
@@ -243,5 +243,5 @@ If the specified key does not exist, the routine attempts to create the key. For
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlWriteRegistryValue routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlWriteRegistryValue routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

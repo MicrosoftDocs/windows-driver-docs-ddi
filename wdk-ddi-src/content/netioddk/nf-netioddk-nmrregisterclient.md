@@ -162,7 +162,7 @@ A client module calls the
 
 A client module typically calls the 
     <b>NmrRegisterClient</b> function from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function after it has completed
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function after it has completed
     all other initialization tasks. The call to the 
     <b>NmrRegisterClient</b> function indicates to the NMR that the client module is ready to attach to any
     provider modules that have registered or will register as providers of the same 
@@ -178,11 +178,11 @@ A client module typically calls the
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
 <a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 

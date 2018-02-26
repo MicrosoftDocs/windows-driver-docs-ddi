@@ -150,11 +150,11 @@ For a code example of how to use the<b>RetrieveUsbPipeObject</b> method, see <a 
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 

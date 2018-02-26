@@ -613,7 +613,7 @@ The
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
 
 
 
@@ -622,11 +622,12 @@ The
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
 
 
@@ -634,8 +635,7 @@ The
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
 
 
@@ -643,7 +643,7 @@ The
 
 
 
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
 
 
 

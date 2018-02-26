@@ -7,8 +7,8 @@ old-location: image\istillimage_registerlaunchapplication.htm
 old-project: image
 ms.assetid: b76f2f3d-46ff-4a85-b3b2-1924946fa45d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, A, I, IStillImage interface [Imaging Devices], RegisterLaunchApplication method, IStillImage::RegisterLaunchApplication, IStillImageW, IStillImageW::RegisterLaunchApplication, L, R, RegisterLaunchApplication method [Imaging Devices], RegisterLaunchApplication method [Imaging Devices], IStillImage interface, RegisterLaunchApplication,IStillImageW.RegisterLaunchApplication, S, W, a, c, e, g, h, i, image.istillimage_registerlaunchapplication, l, m, n, o, p, r, s, sti/IStillImage::RegisterLaunchApplication, stifnc_606c7e24-38e2-450e-a9d5-3d7018ccf9b9.xml, t, u"
+ms.date: 2/23/2018
+ms.keywords: ",  , ,, ., :, A, I, IStillImageW, IStillImageW interface [Imaging Devices], RegisterLaunchApplication method, IStillImageW::RegisterLaunchApplication, L, R, RegisterLaunchApplication method [Imaging Devices], RegisterLaunchApplication method [Imaging Devices], IStillImageW interface, RegisterLaunchApplication,IStillImageW.RegisterLaunchApplication, S, W, a, c, e, g, h, i, image.istillimage_registerlaunchapplication, l, m, n, o, p, r, s, sti/IStillImageW::RegisterLaunchApplication, stifnc_606c7e24-38e2-450e-a9d5-3d7018ccf9b9.xml, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	sti.h
 apiname:
--	IStillImage.RegisterLaunchApplication
+-	IStillImageW.RegisterLaunchApplication
 product: Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE

@@ -96,11 +96,11 @@ None
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
 
 
@@ -108,7 +108,7 @@ None
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
 
 

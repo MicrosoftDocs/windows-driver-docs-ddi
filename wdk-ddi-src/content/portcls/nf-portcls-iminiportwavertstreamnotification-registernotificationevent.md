@@ -96,11 +96,11 @@ For more information about the behavior of the KSPROPERTY_RTAUDIO_REGISTER_NOTIF
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
 
 
 

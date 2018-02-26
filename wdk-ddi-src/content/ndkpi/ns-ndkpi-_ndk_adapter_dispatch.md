@@ -131,19 +131,7 @@ The <b>NDK_ADAPTER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-nd
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_shared_endpoint.md">NDK_FN_CREATE_SHARED_ENDPOINT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a>
 
 
 
@@ -151,7 +139,19 @@ The <b>NDK_ADAPTER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-nd
 
 
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_shared_endpoint.md">NDK_FN_CREATE_SHARED_ENDPOINT</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_pd.md">NDK_FN_CREATE_PD</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_adapter_info.md">NDK_FN_QUERY_ADAPTER_INFO</a>
 
 
 
@@ -159,15 +159,15 @@ The <b>NDK_ADAPTER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-nd
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_adapter_info.md">NDK_FN_QUERY_ADAPTER_INFO</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a>
 
 
 

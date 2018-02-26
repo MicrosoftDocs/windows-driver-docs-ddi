@@ -7,7 +7,7 @@ old-location: kernel\rtlssizetmult.htm
 old-project: kernel
 ms.assetid: 43FFE47F-C8A3-49B4-B61A-3EAF3841037D
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, I, M, R, RtlSSIZETMult, RtlSSIZETMult function [Kernel-Mode Driver Architecture], S, T, Z, kernel.rtlssizetmult, l, ntintsafe/RtlSSIZETMult, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

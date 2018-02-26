@@ -7,7 +7,7 @@ old-location: display\dxgk_recommendfunctionalvidpn_reason.htm
 old-project: display
 ms.assetid: 75dda423-8d5a-4b11-a187-d6703601a366
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration [Display Devices], DXGK_RFVR_FIRMWARE, DXGK_RFVR_HOTKEY, DXGK_RFVR_UNINITIALIZED, DXGK_RFVR_USERMODE, DmEnums_bb915c39-0ecd-4b15-8030-6a144173dc90.xml, E, F, G, I, K, L, M, N, O, P, R, S, T, U, V, X, _, _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RFVR_FIRMWARE, d3dkmddi/DXGK_RFVR_HOTKEY, d3dkmddi/DXGK_RFVR_UNINITIALIZED, d3dkmddi/DXGK_RFVR_USERMODE, display.dxgk_recommendfunctionalvidpn_reason"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,5 +109,5 @@ The <b>RequestReason</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

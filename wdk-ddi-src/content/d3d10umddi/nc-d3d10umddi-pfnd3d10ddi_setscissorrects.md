@@ -7,7 +7,7 @@ old-location: display\setscissorrects.htm
 old-project: display
 ms.assetid: ef61f50b-a82b-43df-865f-2f9d9ca906d4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: PFND3D10DDI_SETSCISSORRECTS, SetScissorRects, SetScissorRects callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1eec8b9-134e-4066-9f31-d1693e0c4b66.xml, d3d10umddi/SetScissorRects, display.setscissorrects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,6 +157,10 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
@@ -165,13 +169,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_SETSCISSORRECTS callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_SETSCISSORRECTS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\storportgetsystemportnumber.htm
 old-project: storage
 ms.assetid: D1205C85-6F23-4D08-A146-2FA8C00FD6E9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , G, N, P, S, StorPortGetSystemPortNumber, StorPortGetSystemPortNumber routine [Storage Devices], b, e, m, o, r, s, storage.storportgetsystemportnumber, storport/StorPortGetSystemPortNumber, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Address [in, out]
 
-A pointer to a storage address structure formatted as <a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>. On return, the <b>Port</b> member of this structure will contain the port value assigned to the adapter.
+A pointer to a storage address structure formatted as <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>. On return, the <b>Port</b> member of this structure will contain the port value assigned to the adapter.
 
 
 ## -returns
@@ -137,18 +137,18 @@ The <b>Type</b> member of <i>Address</i> is not <b>STOR_ADDRESS_TYPE_BTL8</b>.
 
 
 
-The address structure pointed to by <i>Address</i> is allocated and formatted as <a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>. The <b>Type</b> member of <i>Address</i> must be set to <b>STOR_ADDRESS_TYPE_BTL8</b> and the <b>Length</b> member <i>Address</i> must be greater than or equal to <b>STOR_ADDR_BTL8_ADDRESS_LENGTH</b>.
+The address structure pointed to by <i>Address</i> is allocated and formatted as <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>. The <b>Type</b> member of <i>Address</i> must be set to <b>STOR_ADDRESS_TYPE_BTL8</b> and the <b>Length</b> member <i>Address</i> must be greater than or equal to <b>STOR_ADDR_BTL8_ADDRESS_LENGTH</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
 
 
-<a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+<a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
 
 
 
@@ -156,5 +156,5 @@ The address structure pointed to by <i>Address</i> is allocated and formatted as
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetSystemPortNumber routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetSystemPortNumber routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

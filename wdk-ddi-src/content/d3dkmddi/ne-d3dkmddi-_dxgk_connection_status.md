@@ -7,7 +7,7 @@ old-location: display\dxgk_connection_status.htm
 old-project: display
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDXGK_CONNECTION_STATUS, ,, A, C, ConnectionStatusUninitialized, D, DXGK_CONNECTION_STATUS, DXGK_CONNECTION_STATUS enumeration [Display Devices], E, G, I, K, LinkConfigurationFailed, LinkConfigurationStarted, LinkConfigurationSucceeded, MonitorStatusConnected, MonitorStatusDisconnected, MonitorStatusUnknown, N, O, P, S, T, TargetStatusConnected, TargetStatusDisconnected, TargetStatusJoined, U, X, _, _DXGK_CONNECTION_STATUS, d3dkmddi/ConnectionStatusUninitialized, d3dkmddi/DXGK_CONNECTION_STATUS, d3dkmddi/LinkConfigurationFailed, d3dkmddi/LinkConfigurationStarted, d3dkmddi/LinkConfigurationSucceeded, d3dkmddi/MonitorStatusConnected, d3dkmddi/MonitorStatusDisconnected, d3dkmddi/MonitorStatusUnknown, d3dkmddi/TargetStatusConnected, d3dkmddi/TargetStatusDisconnected, d3dkmddi/TargetStatusJoined, display.dxgk_connection_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices

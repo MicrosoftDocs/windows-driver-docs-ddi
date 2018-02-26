@@ -7,7 +7,7 @@ old-location: debugger\field_info.htm
 old-project: debugger
 ms.assetid: 627b14dc-9b13-464c-ba23-6e91bef2b940
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PFIELD_INFO, ,, D, E, F, FIELD_INFO, FIELD_INFO structure [Windows Debugging], I, L, N, O, P, PFIELD_INFO, PFIELD_INFO structure pointer [Windows Debugging], WdbgExts_Ref_4c79e59a-cd12-4ad9-affb-b7f0bd7689fb.xml, _, _FIELD_INFO, debugger.field_info, wdbgexts/FIELD_INFO, wdbgexts/PFIELD_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -221,15 +221,11 @@ When calling the <a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SY
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SYMBOL_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540429">DBG_DUMP_FIELD_XXX</a>
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-psym_dump_field_callback.md">PSYM_DUMP_FIELD_CALLBACK</a>
+<a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SYMBOL_INFO</a>
 
 
 
@@ -237,9 +233,13 @@ When calling the <a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SY
 
 
 
- 
+<a href="..\wdbgexts\nc-wdbgexts-psym_dump_field_callback.md">PSYM_DUMP_FIELD_CALLBACK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20FIELD_INFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20FIELD_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

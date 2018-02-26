@@ -76,7 +76,7 @@ NDIS_STATUS NdisMRegisterWdiMiniportDriver(
 ### -param DriverObject [in]
 
 A pointer to an opaque driver object that the miniport driver received in its 
-     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
      Miniport Drivers</a>).
@@ -85,7 +85,7 @@ A pointer to an opaque driver object that the miniport driver received in its
 ### -param RegistryPath [in]
 
 A pointer to an opaque registry path that the miniport driver received in its 
-     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
 
@@ -212,11 +212,11 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
-
-
-
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
 
 
 

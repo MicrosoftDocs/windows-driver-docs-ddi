@@ -7,7 +7,7 @@ old-location: debugger\setoffset.htm
 old-project: debugger
 ms.assetid: 25898500-f16e-4838-854f-5eb299727e2b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, B, ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, D, I, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetOffset method, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint2::SetOffset, IDebugBreakpoint::SetOffset, O, S, SetOffset method [Windows Debugging], SetOffset method [Windows Debugging], IDebugBreakpoint interface, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, SetOffset,IDebugBreakpoint.SetOffset, a, b, dbgeng/IDebugBreakpoint2::SetOffset, dbgeng/IDebugBreakpoint::SetOffset, debugger.setoffset, e, f, g, i, k, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

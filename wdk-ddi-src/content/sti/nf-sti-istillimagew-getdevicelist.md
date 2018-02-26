@@ -7,8 +7,8 @@ old-location: image\istillimage_getdevicelist.htm
 old-project: image
 ms.assetid: 43c8a5d2-7f34-4b68-b316-020049e98444
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, D, G, GetDeviceList method [Imaging Devices], GetDeviceList method [Imaging Devices], IStillImage interface, GetDeviceList,IStillImageW.GetDeviceList, I, IStillImage interface [Imaging Devices], GetDeviceList method, IStillImage::GetDeviceList, IStillImageW, IStillImageW::GetDeviceList, L, S, W, a, c, e, g, i, image.istillimage_getdevicelist, l, m, s, sti/IStillImage::GetDeviceList, stifnc_eb4712d7-33b5-40d3-87f9-6f5eef639039.xml, t, v"
+ms.date: 2/23/2018
+ms.keywords: ",  , ,, ., :, D, G, GetDeviceList method [Imaging Devices], GetDeviceList method [Imaging Devices], IStillImageW interface, GetDeviceList,IStillImageW.GetDeviceList, I, IStillImageW, IStillImageW interface [Imaging Devices], GetDeviceList method, IStillImageW::GetDeviceList, L, S, W, a, c, e, g, i, image.istillimage_getdevicelist, l, m, s, sti/IStillImageW::GetDeviceList, stifnc_eb4712d7-33b5-40d3-87f9-6f5eef639039.xml, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	sti.h
 apiname:
--	IStillImage.GetDeviceList
+-	IStillImageW.GetDeviceList
 product: Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
@@ -115,6 +115,10 @@ When the caller has finished using the array of STI_DEVICE_INFORMATION structure
 
 ## -see-also
 
+<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543782">IStillImage::GetDeviceInfo</a>
 
 
@@ -123,5 +127,5 @@ When the caller has finished using the array of STI_DEVICE_INFORMATION structure
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStillImage::GetDeviceList method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStillImageW::GetDeviceList method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

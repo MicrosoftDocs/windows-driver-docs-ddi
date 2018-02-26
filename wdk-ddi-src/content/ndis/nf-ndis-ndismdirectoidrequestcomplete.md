@@ -128,12 +128,13 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+   ProtocolDirectOidRequestComplete</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
    FilterDirectOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -141,12 +142,11 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
-   ProtocolDirectOidRequestComplete</a>
 
 
 

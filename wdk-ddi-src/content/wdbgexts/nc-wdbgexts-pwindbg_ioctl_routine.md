@@ -7,7 +7,7 @@ old-location: debugger\ioctl.htm
 old-project: debugger
 ms.assetid: fe35d032-fa34-44a7-9e61-dcb1ca2a2e85
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: Ioctl, Ioctl callback function [Windows Debugging], PWINDBG_IOCTL_ROUTINE, WdbgExts_Ref_fa1f5367-924d-478c-a3cb-ca08bf8dde2f.xml, debugger.ioctl, wdbgexts/Ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices

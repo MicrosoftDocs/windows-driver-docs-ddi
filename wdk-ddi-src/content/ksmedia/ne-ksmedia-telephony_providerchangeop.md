@@ -86,11 +86,11 @@ Specifies that single-radio voice call continuity (SRVCC) is being canceled, and
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-telephony_callstate.md">TELEPHONY_CALLSTATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt169876">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a>
+
+
+
+<a href="..\ksmedia\ne-ksmedia-telephony_callstate.md">TELEPHONY_CALLSTATE</a>
 
 
 

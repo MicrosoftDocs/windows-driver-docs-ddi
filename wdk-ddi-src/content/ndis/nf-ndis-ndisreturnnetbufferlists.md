@@ -127,11 +127,12 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+   ProtocolReceiveNetBufferLists</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -140,12 +141,11 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 
 
-<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
-   ProtocolReceiveNetBufferLists</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

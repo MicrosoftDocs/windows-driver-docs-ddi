@@ -7,7 +7,7 @@ old-location: display\iddcxswapchainsetdevice.htm
 old-project: display
 ms.assetid: f1e96d8a-910e-4808-b9a3-e8c530158872
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, D, I, IddCxSwapChainSetDevice, IddCxSwapChainSetDevice method [Display Devices], S, a, c, d, display.iddcxswapchainsetdevice, e, h, i, iddcx/IddCxSwapChainSetDevice, n, p, t, v, w, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

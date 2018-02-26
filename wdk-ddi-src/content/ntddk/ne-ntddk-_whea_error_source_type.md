@@ -163,11 +163,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 

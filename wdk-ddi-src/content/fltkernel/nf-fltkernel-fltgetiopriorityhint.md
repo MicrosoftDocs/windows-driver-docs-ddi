@@ -108,15 +108,7 @@ If these <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetiopriorityhintfromfileobject.md">FltGetIoPriorityHintFromFileObject</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsetiopriorityhintintocallbackdata.md">FltSetIoPriorityHintIntoCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetiopriorityhintintofileobject.md">FltSetIoPriorityHintIntoFileObject</a>
 
 
 
@@ -124,11 +116,7 @@ If these <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltapplypriorityinfothread.md">FltApplyPriorityInfoThread</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsetiopriorityhintintofileobject.md">FltSetIoPriorityHintIntoFileObject</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetiopriorityhintintocallbackdata.md">FltSetIoPriorityHintIntoCallbackData</a>
 
 
 
@@ -136,7 +124,15 @@ If these <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_
 
 
 
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetiopriorityhintfromthread.md">FltGetIoPriorityHintFromThread</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltapplypriorityinfothread.md">FltApplyPriorityInfoThread</a>
 
 
 
@@ -145,6 +141,10 @@ If these <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_
 
 
 <a href="..\fltkernel\nf-fltkernel-fltsetiopriorityhintintothread.md">FltSetIoPriorityHintIntoThread</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetiopriorityhintfromfileobject.md">FltGetIoPriorityHintFromFileObject</a>
 
 
 

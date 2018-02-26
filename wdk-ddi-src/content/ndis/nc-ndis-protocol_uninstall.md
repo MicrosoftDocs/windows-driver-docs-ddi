@@ -109,7 +109,7 @@ In response to a user request to uninstall a protocol driver, NDIS calls a proto
     driver exported. Until all such handles are closed, the I/O manager will not call the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine that the protocol driver registered in
     the driver object passed to its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. After all the handles are
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. After all the handles are
     closed, 
     <i>ProtocolUninstall</i> can call 
     <a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a> to delete
@@ -162,15 +162,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
 
 
 
@@ -178,16 +171,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
-   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
 
 
 
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 

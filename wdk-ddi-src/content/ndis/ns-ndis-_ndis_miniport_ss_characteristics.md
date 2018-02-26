@@ -128,6 +128,14 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
@@ -137,14 +145,6 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 
 <a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

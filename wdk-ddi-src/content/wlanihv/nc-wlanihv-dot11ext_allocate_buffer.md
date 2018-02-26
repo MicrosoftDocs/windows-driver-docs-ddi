@@ -155,12 +155,12 @@ In this situation, the DLL must free the memory buffer by calling
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
    Dot11ExtIhvCreateDiscoveryProfiles</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
 
 

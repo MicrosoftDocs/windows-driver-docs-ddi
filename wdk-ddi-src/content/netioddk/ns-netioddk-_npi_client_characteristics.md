@@ -135,7 +135,15 @@ A client module must make sure that this structure remains valid and resident in
 
 ## -see-also
 
+<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
+
+
+
 <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
 
 
 
@@ -144,14 +152,6 @@ A client module must make sure that this structure remains valid and resident in
 
 
 <a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
 
 

@@ -146,11 +146,11 @@ For more information about backchannel communication within the single root I/O 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451918">OID_SRIOV_WRITE_VF_CONFIG_BLOCK</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451918">OID_SRIOV_WRITE_VF_CONFIG_BLOCK</a>
 
 
 

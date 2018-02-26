@@ -188,15 +188,15 @@ The <i>Parameters</i> parameter of the <a href="..\ndis\nf-ndis-ndisallocatenetb
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a>
 
 
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a>
 
 
 

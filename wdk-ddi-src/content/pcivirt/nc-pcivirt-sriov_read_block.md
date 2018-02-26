@@ -7,7 +7,7 @@ old-location: pci\sriov_read_block.htm
 old-project: PCI
 ms.assetid: af0d3465-2854-47d9-a6a4-06f510229a59
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: "*PSRIOV_READ_BLOCK, *PSRIOV_READ_BLOCK callback function pointer [Buses], PCI.sriov_read_block, SRIOV_READ_BLOCK, SriovReadBlock, SriovReadBlock callback function [Buses], pcivirt/SriovReadBlock"
 ms.prod: windows-hardware
 ms.technology: windows-devices

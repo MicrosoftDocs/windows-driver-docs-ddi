@@ -130,7 +130,7 @@ To register a minifilter driver with the Filter Manager, call <a href="..\fltker
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 
 
@@ -138,7 +138,7 @@ To register a minifilter driver with the Filter Manager, call <a href="..\fltker
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 

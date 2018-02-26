@@ -87,15 +87,15 @@ The USSD string that accompanies the event.
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_ussd_event_type.md">WWAN_USSD_EVENT_TYPE</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_ussd_session_state.md">WWAN_USSD_SESSION_STATE</a>
 
 
 
 <a href="..\wwan\ns-wwan-_wwan_ussd_string.md">WWAN_USSD_STRING</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_ussd_event_type.md">WWAN_USSD_EVENT_TYPE</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\pfncreatecontextvirtualcb.htm
 old-project: display
 ms.assetid: 7787FEDF-E18C-4120-A073-A13933856F57
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: PFND3DDDI_CREATECONTEXTVIRTUALCB, d3dumddi/pfnCreateContextVirtualCb, display.pfncreatecontextvirtualcb, pfnCreateContextVirtualCb, pfnCreateContextVirtualCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

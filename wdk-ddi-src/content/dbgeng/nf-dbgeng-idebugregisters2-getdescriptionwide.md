@@ -7,7 +7,7 @@ old-location: debugger\getdescriptionwide.htm
 old-project: debugger
 ms.assetid: e599d960-aefb-4b68-8149-7e93150d90d5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, D, G, GetDescriptionWide method [Windows Debugging], GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, GetDescriptionWide,IDebugRegisters2.GetDescriptionWide, I, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetDescriptionWide method, IDebugRegisters2::GetDescriptionWide, R, W, b, c, d, dbgeng/IDebugRegisters2::GetDescriptionWide, debugger.getdescriptionwide, e, g, i, n, o, p, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

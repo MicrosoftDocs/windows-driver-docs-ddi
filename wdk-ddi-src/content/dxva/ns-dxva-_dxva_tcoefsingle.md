@@ -7,7 +7,7 @@ old-location: display\dxva_tcoefsingle.htm
 old-project: display
 ms.assetid: 665a9819-d319-414d-9a31-ee565b293197
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *LPDXVA_TCoefSingle, ,, A, C, D, DXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices], L, LPDXVA_TCoefSingle, LPDXVA_TCoefSingle structure pointer [Display Devices], P, S, T, V, X, _, _DXVA_TCoefSingle, display.dxva_tcoefsingle, dxva/DXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml, e, f, g, i, l, n, o"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,11 +117,11 @@ The DXVA_TCoefSingle structure is used whenever the <i>HostResidDiff</i> flag (b
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 
 
@@ -133,5 +133,5 @@ The DXVA_TCoefSingle structure is used whenever the <i>HostResidDiff</i> flag (b
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_TCoefSingle structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_TCoefSingle structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

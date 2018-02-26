@@ -7,7 +7,7 @@ old-location: stream\ksremoveitemfromobjectbag.htm
 old-project: stream
 ms.assetid: 8644b5eb-e038-4cdb-b461-d643ff929736
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, F, I, K, KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag function [Streaming Media Devices], O, R, a, avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, b, c, e, g, j, ks/KsRemoveItemFromObjectBag, m, o, r, s, stream.ksremoveitemfromobjectbag, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,7 +121,7 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
 
 
 
@@ -129,11 +129,11 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 
 
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
-
-
-
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
+
+
+
+<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
 
 
 
@@ -145,5 +145,5 @@ Note that the mutex associated with the bag must be held. For more  information,
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsRemoveItemFromObjectBag function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsRemoveItemFromObjectBag function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

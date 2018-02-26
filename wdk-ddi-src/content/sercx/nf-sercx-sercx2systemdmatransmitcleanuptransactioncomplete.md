@@ -97,7 +97,7 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cleanup_transaction.md">EvtSerCx2SystemDmaTransmitCleanupTransaction</a>
+<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
 
 
 
@@ -105,7 +105,7 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cleanup_transaction.md">EvtSerCx2SystemDmaTransmitCleanupTransaction</a>
 
 
 

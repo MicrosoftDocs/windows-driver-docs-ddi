@@ -7,7 +7,7 @@ old-location: kernel\psgetsilocontext.htm
 old-project: kernel
 ms.assetid: 08C795F2-64F9-4EFE-AA25-3B2FCB31D062
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, G, P, PsGetSiloContext, PsGetSiloContext routine [Kernel-Mode Driver Architecture], S, e, i, kernel.psgetsilocontext, l, n, ntddk/PsGetSiloContext, o, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices

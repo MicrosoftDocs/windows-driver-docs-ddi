@@ -176,7 +176,7 @@ NDIS calls
     <i>MiniportInitializeEx</i> entry point by calling the 
     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
     NdisMRegisterMiniportDriver</a> function from the 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. NDIS can call 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. NDIS can call 
     <i>MiniportInitializeEx</i> after 
     <b>DriverEntry</b> returns. For more information, see 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
@@ -438,36 +438,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
-   NdisMSynchronizeWithInterruptEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 
 
@@ -476,7 +455,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
 
 
 
@@ -484,11 +479,24 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+   NdisMSynchronizeWithInterruptEx</a>
 
 
 
@@ -500,19 +508,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
@@ -520,38 +520,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
 
 
 
@@ -560,11 +533,46 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 
@@ -573,23 +581,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
-
-
-
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
 
 
 

@@ -364,7 +364,47 @@ A protocol driver calls the
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+   ProtocolDirectOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+   ProtocolOpenAdapterCompleteEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+   ProtocolSendNetBufferListsComplete</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+   ProtocolReceiveNetBufferLists</a>
 
 
 
@@ -378,46 +418,6 @@ A protocol driver calls the
 
 <a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
    ProtocolCloseAdapterCompleteEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
-   ProtocolSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
-   ProtocolReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
-   ProtocolDirectOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
-   ProtocolOpenAdapterCompleteEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 
 

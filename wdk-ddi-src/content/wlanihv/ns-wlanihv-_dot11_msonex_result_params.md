@@ -121,11 +121,11 @@ A pointer to a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569846">ONEX_REASON_CODE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569845">ONEX_AUTH_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569846">ONEX_REASON_CODE</a>
 
 
 

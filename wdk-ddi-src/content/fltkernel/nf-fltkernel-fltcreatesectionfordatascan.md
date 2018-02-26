@@ -417,11 +417,27 @@ For overview  information on creating mapped sections and views of memory, see <
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_section_conflict_notification_callback.md">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfordatascan.md">FltRegisterForDataScan</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_section_conflict_notification_callback.md">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a>
 
 
 
@@ -430,22 +446,6 @@ For overview  information on creating mapped sections and views of memory, see <
 
 
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltregisterfordatascan.md">FltRegisterForDataScan</a>
 
 
 

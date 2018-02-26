@@ -4,10 +4,10 @@ title: EVT_UFX_DEVICE_CONTROLLER_RESET
 author: windows-driver-content
 description: The client driver's implementation to reset the function controller to its initial state.
 old-location: buses\evt_ufx_device_controller_reset.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 37CE6358-68F8-49E2-8B3E-126D5D135ADF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: EVT_UFX_DEVICE_CONTROLLER_RESET, EvtUfxDeviceControllerReset, EvtUfxDeviceControllerReset callback function [Buses], PFN_UFX_DEVICE_CONTROLLER_RESET, PFN_UFX_DEVICE_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ufx_device_controller_reset, ufxclient/EvtUfxDeviceControllerReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,5 +126,5 @@ The client driver indicates completion of this event by calling the <a href="..\
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20EVT_UFX_DEVICE_CONTROLLER_RESET callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UFX_DEVICE_CONTROLLER_RESET callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

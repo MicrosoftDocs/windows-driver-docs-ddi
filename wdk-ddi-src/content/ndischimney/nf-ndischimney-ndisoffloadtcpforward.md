@@ -147,6 +147,19 @@ When the underlying driver or offload target subsequently completes the forward 
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+   NdisTcpOffloadForwardComplete</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
@@ -156,20 +169,7 @@ When the underlying driver or offload target subsequently completes the forward 
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
-   NdisTcpOffloadForwardComplete</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

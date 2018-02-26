@@ -4,10 +4,10 @@ title: "_USB_HUB_CAPABILITIES"
 author: windows-driver-content
 description: The USB_HUB_CAPABILITIES structure has been deprecated. Use USB_HUB_CAPABILITIES_EX instead.
 old-location: buses\usb_hub_capabilities.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: a87f747f-474d-401d-9757-0820680e5c8e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUSB_HUB_CAPABILITIES, ,, A, B, C, E, H, I, L, P, PUSB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES structure pointer [Buses], S, T, U, USB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES structure [Buses], _, _USB_HUB_CAPABILITIES, buses.usb_hub_capabilities, usbioctl/PUSB_HUB_CAPABILITIES, usbioctl/USB_HUB_CAPABILITIES, usbstrct_b82d8bad-3ed4-40d1-a6c1-7ac416ebf157.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,15 +75,15 @@ If <b>TRUE</b>, the hub is capable of running at high speed.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities.md">IOCTL_USB_GET_HUB_CAPABILITIES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities.md">IOCTL_USB_GET_HUB_CAPABILITIES</a>
 
 
 
@@ -95,5 +95,5 @@ If <b>TRUE</b>, the hub is capable of running at high speed.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_HUB_CAPABILITIES structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_HUB_CAPABILITIES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

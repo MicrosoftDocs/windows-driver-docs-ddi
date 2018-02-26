@@ -89,11 +89,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetcharacteristics.md">WdfDeviceSetCharacteristics</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetcharacteristics.md">WdfDeviceSetCharacteristics</a>
 
 
 

@@ -145,8 +145,7 @@ The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info_array.md">
-   NDIS_RECEIVE_FILTER_INFO_ARRAY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -154,7 +153,8 @@ The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info_array.md">
+   NDIS_RECEIVE_FILTER_INFO_ARRAY</a>
 
 
 

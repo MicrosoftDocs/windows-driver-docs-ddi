@@ -170,26 +170,6 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchFilterEngineReorder
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
 
@@ -198,7 +178,27 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchFilterEngineReorder
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
 
 
 

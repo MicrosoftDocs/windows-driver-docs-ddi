@@ -171,7 +171,8 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
 
 
 
@@ -183,13 +184,12 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 
 
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
    NdisMAllocateSharedMemoryAsyncEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
-   MiniportSharedMemoryAllocateComplete</a>
 
 
 

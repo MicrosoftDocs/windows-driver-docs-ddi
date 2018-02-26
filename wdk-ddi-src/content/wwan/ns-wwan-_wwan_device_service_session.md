@@ -91,11 +91,11 @@ The session ID for the device service session.
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_device_service_session_state.md">WWAN_DEVICE_SERVICE_SESSION_STATE</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_set_service_session.md">NDIS_WWAN_SET_DEVICE_SERVICE_SESSION</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_device_service_session_state.md">WWAN_DEVICE_SERVICE_SESSION_STATE</a>
 
 
 

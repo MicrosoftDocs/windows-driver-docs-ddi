@@ -158,15 +158,16 @@ If
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
+<a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+   NdisMCmNotifyCloseAddressFamily</a>
 
 
 
@@ -175,8 +176,7 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
-   NdisMCmNotifyCloseAddressFamily</a>
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 

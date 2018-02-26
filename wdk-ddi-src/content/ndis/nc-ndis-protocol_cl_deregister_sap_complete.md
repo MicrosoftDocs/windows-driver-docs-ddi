@@ -190,15 +190,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 
 
@@ -206,7 +198,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 
 
@@ -214,8 +215,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
-   NdisFreeToNPagedLookasideList</a>
+<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
 
 
 

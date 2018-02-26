@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_video_output_technology.htm
 old-project: display
 ms.assetid: 5a0876a0-5c27-47aa-9215-1b2bd8612306
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, C, D, D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumeration [Display Devices], D3DKMDT_VOT_BNC, D3DKMDT_VOT_COMPONENT_VIDEO, D3DKMDT_VOT_COMPOSITE_VIDEO, D3DKMDT_VOT_DISPLAYPORT_EMBEDDED, D3DKMDT_VOT_DISPLAYPORT_EXTERNAL, D3DKMDT_VOT_DVI, D3DKMDT_VOT_D_JPN, D3DKMDT_VOT_HD15, D3DKMDT_VOT_HDMI, D3DKMDT_VOT_INTERNAL, D3DKMDT_VOT_LVDS, D3DKMDT_VOT_MIRACAST, D3DKMDT_VOT_OTHER, D3DKMDT_VOT_RCA_3COMPONENT, D3DKMDT_VOT_RF, D3DKMDT_VOT_SDI, D3DKMDT_VOT_SDTVDONGLE, D3DKMDT_VOT_SVIDEO, D3DKMDT_VOT_SVIDEO_4PIN, D3DKMDT_VOT_SVIDEO_7PIN, D3DKMDT_VOT_UDI_EMBEDDED, D3DKMDT_VOT_UDI_EXTERNAL, D3DKMDT_VOT_UNINITIALIZED, DmEnums_c4d89369-4b10-4033-9bb6-218904fc5c5a.xml, E, G, H, I, K, L, M, N, O, P, T, U, V, Y, _, _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, d3dkmdt/D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, d3dkmdt/D3DKMDT_VOT_BNC, d3dkmdt/D3DKMDT_VOT_COMPONENT_VIDEO, d3dkmdt/D3DKMDT_VOT_COMPOSITE_VIDEO, d3dkmdt/D3DKMDT_VOT_DISPLAYPORT_EMBEDDED, d3dkmdt/D3DKMDT_VOT_DISPLAYPORT_EXTERNAL, d3dkmdt/D3DKMDT_VOT_DVI, d3dkmdt/D3DKMDT_VOT_D_JPN, d3dkmdt/D3DKMDT_VOT_HD15, d3dkmdt/D3DKMDT_VOT_HDMI, d3dkmdt/D3DKMDT_VOT_INTERNAL, d3dkmdt/D3DKMDT_VOT_LVDS, d3dkmdt/D3DKMDT_VOT_MIRACAST, d3dkmdt/D3DKMDT_VOT_OTHER, d3dkmdt/D3DKMDT_VOT_RCA_3COMPONENT, d3dkmdt/D3DKMDT_VOT_RF, d3dkmdt/D3DKMDT_VOT_SDI, d3dkmdt/D3DKMDT_VOT_SDTVDONGLE, d3dkmdt/D3DKMDT_VOT_SVIDEO, d3dkmdt/D3DKMDT_VOT_SVIDEO_4PIN, d3dkmdt/D3DKMDT_VOT_SVIDEO_7PIN, d3dkmdt/D3DKMDT_VOT_UDI_EMBEDDED, d3dkmdt/D3DKMDT_VOT_UDI_EXTERNAL, d3dkmdt/D3DKMDT_VOT_UNINITIALIZED, display.d3dkmdt_video_output_technology"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -224,17 +224,17 @@ The <b>ChildCapabilities</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
-
-
 <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
 
 
 
- 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

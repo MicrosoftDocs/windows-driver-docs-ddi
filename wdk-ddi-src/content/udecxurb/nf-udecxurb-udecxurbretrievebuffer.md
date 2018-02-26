@@ -4,10 +4,10 @@ title: UdecxUrbRetrieveBuffer function
 author: windows-driver-content
 description: Retrieves the transfer buffer of an URB from the specified framework request object sent to the endpoint queue.
 old-location: buses\udecxurbretrievebuffer.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: C2AE51AE-EEB6-49BB-A6E4-BBCE6A25C905
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , B, R, U, UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses], b, buses.udecxurbretrievebuffer, c, d, e, f, i, r, t, u, udecxurb/UdecxUrbRetrieveBuffer, v, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,11 +128,11 @@ The transfer buffer MDL was not valid.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
 <a href="..\udecxurb\nf-udecxurb-udecxurbsetbytescompleted.md">UdecxUrbSetBytesCompleted</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -144,5 +144,5 @@ The transfer buffer MDL was not valid.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UdecxUrbRetrieveBuffer function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UdecxUrbRetrieveBuffer function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

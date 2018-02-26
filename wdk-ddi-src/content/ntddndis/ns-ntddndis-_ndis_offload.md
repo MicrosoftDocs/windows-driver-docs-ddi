@@ -226,15 +226,20 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/043A09F9-7D5D-4401-9645-19FDBD614659">Determining the RSC Capabilities of a Network Adapter</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_ip_checksum_offload.md">NDIS_TCP_IP_CHECKSUM_OFFLOAD</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/task-offload">TCP/IP Task Offload</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
@@ -243,25 +248,11 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/043A09F9-7D5D-4401-9645-19FDBD614659">Determining the RSC Capabilities of a Network Adapter</a>
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v1.md">NDIS_IPSEC_OFFLOAD_V1</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v1.md">
-   NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
-   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_ip_checksum_offload.md">NDIS_TCP_IP_CHECKSUM_OFFLOAD</a>
 
 
 
@@ -269,15 +260,23 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v1.md">NDIS_IPSEC_OFFLOAD_V1</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569762">OID_OFFLOAD_ENCAPSULATION</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 
@@ -286,19 +285,20 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v1.md">
+   NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/task-offload">TCP/IP Task Offload</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 

@@ -144,15 +144,7 @@ File system filter drivers typically call <b>IoGetDiskDeviceObject</b> for a fil
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -160,7 +152,15 @@ File system filter drivers typically call <b>IoGetDiskDeviceObject</b> for a fil
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
 
 
 

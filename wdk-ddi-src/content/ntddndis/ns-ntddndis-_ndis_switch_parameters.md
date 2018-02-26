@@ -115,7 +115,7 @@ A UINT32 value that specifies the number of ports configured on the extensible s
 
 ### -field IsActive
 
-A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration. 
+A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="..\ndis\ns-ndis-_net_pnp_event.md">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration. 
 
 
 ## -remarks
@@ -156,15 +156,15 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/44B59154-C5CA-42F0-A972-021833E29D81">_STRING</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_pnp_event.md">NetEventSwitchActivate</a>
 
 
 
@@ -172,11 +172,7 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_lifetime_event_callback0.md">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
-
-
-
-<a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NetEventSwitchActivate</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">IF_COUNTEDFWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
 
 
 
@@ -184,15 +180,19 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_lifetime_event_callback0.md">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
+
+
+
+<a href="https://msdn.microsoft.com/44B59154-C5CA-42F0-A972-021833E29D81">_STRING</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_save_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">IF_COUNTEDFWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
 
 
 

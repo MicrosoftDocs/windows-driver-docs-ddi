@@ -7,7 +7,7 @@ old-location: kernel\rtluintsub.htm
 old-project: kernel
 ms.assetid: 0886578A-C1CF-4A48-86A3-407A0C16ADEC
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, R, RtlUIntSub, RtlUIntSub function [Kernel-Mode Driver Architecture], S, U, b, kernel.rtluintsub, l, n, ntintsafe/RtlUIntSub, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

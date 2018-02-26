@@ -7,7 +7,7 @@ old-location: print\iprintoemps_enabledriver.htm
 old-project: print
 ms.assetid: 12e65e91-f540-49fd-a723-c6b93708b166
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, D, E, EnableDriver method [Print Devices], EnableDriver method [Print Devices], IPrintOemPS interface, EnableDriver,IPrintOemPS.EnableDriver, I, IPrintOemPS, IPrintOemPS interface [Print Devices], EnableDriver method, IPrintOemPS::EnableDriver, O, P, S, a, b, e, i, l, m, n, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

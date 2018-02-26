@@ -148,12 +148,12 @@ The NDIS_SHARED_MEMORY_USAGE enumeration is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
    NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
 
 
 

@@ -211,11 +211,15 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info_array.md">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
 
 
 
@@ -224,15 +228,11 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info_array.md">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
 
 
 

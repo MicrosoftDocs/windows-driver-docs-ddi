@@ -7,7 +7,7 @@ old-location: display\iddcx_target_mode.htm
 old-project: display
 ms.assetid: 10bb23fa-ff1e-4bda-ba64-59a19da5f87e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, D, E, G, I, IDDCX_TARGET_MODE, IDDCX_TARGET_MODE structure [Display Devices], M, O, R, T, X, _, display.iddcx_target_mode, iddcx/IDDCX_TARGET_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

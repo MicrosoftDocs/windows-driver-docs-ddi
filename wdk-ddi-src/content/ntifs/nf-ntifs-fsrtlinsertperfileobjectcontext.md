@@ -145,11 +145,7 @@ After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperfileobjectcontext.md">FsRtlRemovePerFileObjectContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
 
 
 
@@ -157,7 +153,11 @@ After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperfileobjectcontext.md">FsRtlRemovePerFileObjectContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
 
 
 

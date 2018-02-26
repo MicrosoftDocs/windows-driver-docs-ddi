@@ -7,7 +7,7 @@ old-location: print\iprintreadstream_readbytes.htm
 old-project: print
 ms.assetid: 41ba600d-8b89-4e07-950a-a2518c2572a6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, B, I, IPrintReadStream, IPrintReadStream interface [Print Devices], ReadBytes method, IPrintReadStream::ReadBytes, P, R, ReadBytes method [Print Devices], ReadBytes method [Print Devices], IPrintReadStream interface, ReadBytes,IPrintReadStream.ReadBytes, S, a, d, e, filterpipeline/IPrintReadStream::ReadBytes, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, i, m, n, print.iprintreadstream_readbytes, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

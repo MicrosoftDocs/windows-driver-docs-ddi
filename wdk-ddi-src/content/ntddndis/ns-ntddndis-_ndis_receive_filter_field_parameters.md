@@ -433,19 +433,11 @@ If a VLAN tag is present in the received packet, the network adapter must remove
 
 ## -see-also
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_arp_header_field.md">NDIS_ARP_HEADER_FIELD</a>
+
+
+
 <a href="..\ntddndis\ne-ntddndis-_ndis_mac_packet_type.md">NDIS_MAC_PACKET_TYPE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_ipv4_header_field.md">NDIS_IPV4_HEADER_FIELD</a>
 
 
 
@@ -453,11 +445,11 @@ If a VLAN tag is present in the received packet, the network adapter must remove
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_mac_header_field.md">NDIS_MAC_HEADER_FIELD</a>
-
-
-
 <a href="..\ntddndis\ne-ntddndis-_ndis_receive_filter_test.md">NDIS_RECEIVE_FILTER_TEST</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_mac_header_field.md">NDIS_MAC_HEADER_FIELD</a>
 
 
 
@@ -469,12 +461,20 @@ If a VLAN tag is present in the received packet, the network adapter must remove
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_arp_header_field.md">NDIS_ARP_HEADER_FIELD</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_parameters.md">
    NDIS_RECEIVE_FILTER_PARAMETERS</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_ipv4_header_field.md">NDIS_IPV4_HEADER_FIELD</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

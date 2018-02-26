@@ -290,11 +290,7 @@ If the driver successfully registers the DMA channel, it must later call the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
 
 
 
@@ -302,7 +298,11 @@ If the driver successfully registers the DMA channel, it must later call the
 
 
 
-<a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

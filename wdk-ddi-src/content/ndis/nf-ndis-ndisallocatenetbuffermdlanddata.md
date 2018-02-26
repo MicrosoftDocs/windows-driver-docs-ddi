@@ -113,11 +113,11 @@ To free the NET_BUFFER and associated information, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
 
 
 

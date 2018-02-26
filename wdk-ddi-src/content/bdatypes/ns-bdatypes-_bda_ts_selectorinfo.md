@@ -7,7 +7,7 @@ old-location: stream\bda_ts_selectorinfo.htm
 old-project: stream
 ms.assetid: 34F10EDD-C196-4022-8D03-45A005F17F5F
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PBDA_TS_SELECTORINFO, ,, A, B, BDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO structure [Streaming Media Devices], C, D, E, F, I, L, N, O, P, PBDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO structure pointer [Streaming Media Devices], R, S, T, _, _BDA_TS_SELECTORINFO, bdatypes/BDA_TS_SELECTORINFO, bdatypes/PBDA_TS_SELECTORINFO, stream.bda_ts_selectorinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

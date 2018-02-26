@@ -7,7 +7,7 @@ old-location: display\dxgkarg_getpostcompositioncaps.htm
 old-project: display
 ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, ,, A, C, D, DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], E, G, I, K, M, N, O, P, R, S, T, U, X, _, _DXGKARG_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -219,15 +219,15 @@ The <i>OutRegistryKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 
 

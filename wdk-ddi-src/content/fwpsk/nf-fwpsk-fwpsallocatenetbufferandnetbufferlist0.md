@@ -193,19 +193,16 @@ After the data described by the new <a href="..\ndis\ns-ndis-_net_buffer_list.md
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
 
 
 
@@ -214,8 +211,11 @@ After the data described by the new <a href="..\ndis\ns-ndis-_net_buffer_list.md
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
 
 

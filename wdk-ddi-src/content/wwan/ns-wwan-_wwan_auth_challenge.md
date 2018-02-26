@@ -103,11 +103,7 @@ The challenge that uses the AKA' authentication method. If <b>AuthMethod</b> is 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_akap_challenge.md">WWAN_AUTH_AKAP_CHALLENGE</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_auth_aka_challenge.md">WWAN_AUTH_AKA_CHALLENGE</a>
+<a href="..\wwan\ns-wwan-_wwan_auth_sim_challenge.md">WWAN_AUTH_SIM_CHALLENGE</a>
 
 
 
@@ -115,7 +111,11 @@ The challenge that uses the AKA' authentication method. If <b>AuthMethod</b> is 
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_sim_challenge.md">WWAN_AUTH_SIM_CHALLENGE</a>
+<a href="..\wwan\ns-wwan-_wwan_auth_aka_challenge.md">WWAN_AUTH_AKA_CHALLENGE</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_auth_akap_challenge.md">WWAN_AUTH_AKAP_CHALLENGE</a>
 
 
 

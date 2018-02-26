@@ -7,7 +7,7 @@ old-location: kernel\zwquerysymboliclinkobject.htm
 old-project: kernel
 ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , L, NtQuerySymbolicLinkObject, O, Q, S, Z, ZwQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], b, c, e, i, j, k, k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, l, m, n, o, r, t, u, w, wdm/NtQuerySymbolicLinkObject, wdm/ZwQuerySymbolicLinkObject, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,5 +124,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQuerySymbolicLinkObject routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQuerySymbolicLinkObject routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\sm_setpersistentbinding_in.htm
 old-project: storage
 ms.assetid: 33a8c609-aa65-4629-b4ee-3723e614d400
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSM_SetPersistentBinding_IN, ,, B, I, M, N, P, PSM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN structure pointer [Storage Devices], S, SM_SetPersistentBinding_IN, SM_SetPersistentBinding_IN structure [Storage Devices], _, _SM_SetPersistentBinding_IN, d, e, g, hbapiwmi/PSM_SetPersistentBinding_IN, hbapiwmi/SM_SetPersistentBinding_IN, i, n, r, s, storage.sm_setpersistentbinding_in, structs-Fibre_9af25c8f-f9de-482d-8103-f372405d7771.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

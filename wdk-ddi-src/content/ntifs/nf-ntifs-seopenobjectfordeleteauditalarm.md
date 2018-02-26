@@ -144,11 +144,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
 
 
@@ -160,19 +160,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
 
 
 
@@ -180,7 +168,19 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
+
+
+
+<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
 
 
 

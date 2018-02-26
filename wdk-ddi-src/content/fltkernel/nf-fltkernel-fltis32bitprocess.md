@@ -120,7 +120,7 @@ To determine whether a callback data structure represents a file system filter (
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
 
 
 
@@ -128,11 +128,11 @@ To determine whether a callback data structure represents a file system filter (
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
 
 
 

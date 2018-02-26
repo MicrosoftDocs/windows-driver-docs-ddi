@@ -7,7 +7,7 @@ old-location: print\iprintpipelinepropertybag_getproperty.htm
 old-project: print
 ms.assetid: 10a5ada8-98ab-4e1c-a4b5-2f6d60674952
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, B, G, GetProperty method [Print Devices], GetProperty method [Print Devices], IPrintPipelinePropertyBag interface, GetProperty,IPrintPipelinePropertyBag.GetProperty, I, IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], GetProperty method, IPrintPipelinePropertyBag::GetProperty, P, a, e, filterpipeline/IPrintPipelinePropertyBag::GetProperty, filterpipeline_6a2e804b-b8dd-4e20-a71a-7817181b825c.xml, g, i, l, n, o, p, print.iprintpipelinepropertybag_getproperty, r, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

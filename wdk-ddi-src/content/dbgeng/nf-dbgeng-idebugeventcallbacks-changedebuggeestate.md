@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_changedebuggeestate.htm
 old-project: debugger
 ms.assetid: 157a420a-18ad-46cf-ae93-603e9226ee4f
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface, ChangeDebuggeeState,IDebugEventCallbacks.ChangeDebuggeeState, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, D, E, I, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacks::ChangeDebuggeeState, S, a, b, c, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, debugger.idebugeventcallbacks_changedebuggeestate, e, g, h, k, l, n, s, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices

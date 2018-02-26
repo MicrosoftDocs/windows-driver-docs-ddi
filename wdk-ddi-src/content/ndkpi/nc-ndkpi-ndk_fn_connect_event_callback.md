@@ -104,11 +104,11 @@ The NDK consumer specified the <i>NdkConnectEventCallback</i> function  in the <
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
 
 
 

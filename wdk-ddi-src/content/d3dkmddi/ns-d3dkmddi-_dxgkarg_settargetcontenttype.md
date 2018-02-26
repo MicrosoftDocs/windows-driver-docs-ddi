@@ -7,7 +7,7 @@ old-location: display\dxgkarg_settargetcontenttype.htm
 old-project: display
 ms.assetid: BD849954-97CC-4314-B375-22829B0CEE86
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DXGKARG_SETTARGETCONTENTTYPE, DXGKARG_SETTARGETCONTENTTYPE structure [Display Devices], E, G, K, N, O, P, PDXGKARG_SETTARGETCONTENTTYPE, PDXGKARG_SETTARGETCONTENTTYPE structure pointer [Display Devices], R, S, T, X, Y, _, _DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/PDXGKARG_SETTARGETCONTENTTYPE, display.dxgkarg_settargetcontenttype"
 ms.prod: windows-hardware
 ms.technology: windows-devices

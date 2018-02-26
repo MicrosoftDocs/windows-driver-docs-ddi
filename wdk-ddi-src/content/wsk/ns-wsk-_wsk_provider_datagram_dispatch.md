@@ -146,23 +146,7 @@ A WSK application receives a pointer to a WSK_PROVIDER_DATAGRAM_DISPATCH structu
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
@@ -170,19 +154,35 @@ A WSK application receives a pointer to a WSK_PROVIDER_DATAGRAM_DISPATCH structu
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 

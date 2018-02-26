@@ -156,11 +156,11 @@ The <b>RetrievePowerPolicy</b> method generates a UMDF request and synchronously
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560385">IWDFUsbTargetDevice::SetPowerPolicy</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540275">WinUsb_GetPowerPolicy</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560385">IWDFUsbTargetDevice::SetPowerPolicy</a>
 
 
 

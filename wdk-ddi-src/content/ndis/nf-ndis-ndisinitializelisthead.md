@@ -104,11 +104,6 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
-   NdisInterlockedRemoveHeadList</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
@@ -117,13 +112,18 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
-   NdisInterlockedInsertHeadList</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+   NdisInterlockedRemoveHeadList</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
+   NdisInterlockedInsertHeadList</a>
 
 
 

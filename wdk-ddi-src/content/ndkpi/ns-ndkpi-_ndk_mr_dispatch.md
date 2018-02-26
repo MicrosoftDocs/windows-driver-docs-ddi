@@ -119,23 +119,11 @@ The <b>NDK_MR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mr.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MR</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_token_from_mr.md">NDK_FN_GET_LOCAL_TOKEN_FROM_MR</a>
 
 
 
@@ -147,7 +135,19 @@ The <b>NDK_MR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_token_from_mr.md">NDK_FN_GET_LOCAL_TOKEN_FROM_MR</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mr.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MR</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
 
 
 

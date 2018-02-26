@@ -208,11 +208,11 @@ A light-weight filter may dynamically insert or remove itself from the send or r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 

@@ -96,11 +96,11 @@ Valid enumeration values were exceeded.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
 
 

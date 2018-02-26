@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setpriority.htm
 old-project: display
 ms.assetid: d3dd52de-6d28-4d71-9b64-ba79e17bd9ee
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, D, D3DDDIARG_SETPRIORITY, D3DDDIARG_SETPRIORITY structure [Display Devices], E, G, I, O, P, R, S, T, UMDisplayDriver_param_Structs_e416cff1-5cad-4488-a3e2-ea0b42a7cd81.xml, Y, _, _D3DDDIARG_SETPRIORITY, d3dumddi/D3DDDIARG_SETPRIORITY, display.d3dddiarg_setpriority"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,5 +99,5 @@ The priority level at which a texture is set determines its eviction order from 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_SETPRIORITY structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_SETPRIORITY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

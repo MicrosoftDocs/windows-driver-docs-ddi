@@ -7,7 +7,7 @@ old-location: kernel\device_description.htm
 old-project: kernel
 ms.assetid: 7f0c7d72-9fe6-4cc1-8028-fd64cdee5d85
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PDEVICE_DESCRIPTION, ,, C, D, DEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION, DEVICE_DESCRIPTION_VERSION1, DEVICE_DESCRIPTION_VERSION2, DEVICE_DESCRIPTION_VERSION3, E, I, N, O, P, PDEVICE_DESCRIPTION, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], R, S, T, V, _, _DEVICE_DESCRIPTION, kernel.device_description, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, wdm/DEVICE_DESCRIPTION, wdm/PDEVICE_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -185,12 +185,12 @@ The system-assigned bus number for the I/O bus. This member is not used by WDM d
 
 ### -field DmaChannel
 
-The number of the DMA channel to which a subordinate device is assigned. The device driver obtains this channel number from the resource list that it receives in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request that starts the device. For more information about this number, see the description of the <b>Dma.Channel</b> member in <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+The number of the DMA channel to which a subordinate device is assigned. The device driver obtains this channel number from the resource list that it receives in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request that starts the device. For more information about this number, see the description of the <b>Dma.Channel</b> member in <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 
 ### -field InterfaceType
 
-The interface type of the I/O bus to use for DMA. Set this member to the <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a> enumeration value that indicates the interface type. For more information, see the Remarks section.
+The interface type of the I/O bus to use for DMA. Set this member to the <a href="..\miniport\ne-miniport-_interface_type.md">INTERFACE_TYPE</a> enumeration value that indicates the interface type. For more information, see the Remarks section.
 
 
 ### -field DmaWidth
@@ -239,7 +239,7 @@ Not used.
 
 This member is used only if <b>Version</b> = DEVICE_DESCRIPTION_VERSION3.
 
-For a subordinate DMA device, <b>DmaRequestLine</b> specifies the request line on the DMA controller to which the device is connected. The device driver obtains the number of this request line from the resource list it receives in the <b>IRP_MN_START_DEVICE</b> request that starts the device. For more information about the request line number, see the description of the <b>u.DmaV3.RequestLine</b> member in <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+For a subordinate DMA device, <b>DmaRequestLine</b> specifies the request line on the DMA controller to which the device is connected. The device driver obtains the number of this request line from the resource list it receives in the <b>IRP_MN_START_DEVICE</b> request that starts the device. For more information about the request line number, see the description of the <b>u.DmaV3.RequestLine</b> member in <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 For a bus-master DMA device, the <b>DmaRequestLine</b> value is not used.
 
@@ -248,7 +248,7 @@ For a bus-master DMA device, the <b>DmaRequestLine</b> value is not used.
 
 This member is used only if <b>Version</b> = DEVICE_DESCRIPTION_VERSION3.
 
-For a subordinate DMA device, <b>DeviceAddress</b> is the memory-mapped address of the data register on the device that is used as the source or destination for a DMA transfer. This data register is located at a known, device-specific offset from the device start address. The width of this register is specified by the <b>DmaWidth</b> member. The device driver obtains the device start address from the resource list it receives in the <b>IRP_MN_START_DEVICE</b> request that starts the device. For more information about this address, see the description of the <b>u.Memory.Start</b> member in <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+For a subordinate DMA device, <b>DeviceAddress</b> is the memory-mapped address of the data register on the device that is used as the source or destination for a DMA transfer. This data register is located at a known, device-specific offset from the device start address. The width of this register is specified by the <b>DmaWidth</b> member. The device driver obtains the device start address from the resource list it receives in the <b>IRP_MN_START_DEVICE</b> request that starts the device. For more information about this address, see the description of the <b>u.Memory.Start</b> member in <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 For a bus-master DMA device, the <b>DeviceAddress</b> member is not used.
 
@@ -263,7 +263,7 @@ To allocate resources for a DMA controller, the I/O manager needs information ab
 
 Before calling <b>IoGetDmaAdapter</b>, the driver should first zero-initialize the entire <b>DEVICE_DESCRIPTION</b> structure, then fill in selected members to describe the device.
 
-The <b>InterfaceType</b> member specifies the type of bus interface that will be used for DMA. If you set <b>InterfaceType</b> to <b>InterfaceTypeUndefined</b>, <b>IoGetDmaAdapter</b> queries the PDO to determine the correct interface type for your device. Or, you can specify an explicit interface type, such as <b>Internal</b>, <b>Isa</b>, <b>Eisa</b>, or <b>PCIBus</b>. For more information, see the list of supported interface types in <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>.
+The <b>InterfaceType</b> member specifies the type of bus interface that will be used for DMA. If you set <b>InterfaceType</b> to <b>InterfaceTypeUndefined</b>, <b>IoGetDmaAdapter</b> queries the PDO to determine the correct interface type for your device. Or, you can specify an explicit interface type, such as <b>Internal</b>, <b>Isa</b>, <b>Eisa</b>, or <b>PCIBus</b>. For more information, see the list of supported interface types in <a href="..\miniport\ne-miniport-_interface_type.md">INTERFACE_TYPE</a>.
 
 If the <b>ScatterGather</b> member is set to <b>TRUE</b> and the <b>InterfaceType</b> member is set to <b>PCIBus</b>, the <b>Dma32BitAddresses</b> member is ignored and <b>IoGetDmaAdapter</b> assumes that the device supports 32-bit DMA addresses.
 
@@ -278,7 +278,15 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\miniport\ne-miniport-_interface_type.md">INTERFACE_TYPE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
@@ -286,11 +294,7 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-
-
-
-<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 
@@ -298,13 +302,9 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_DESCRIPTION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_DESCRIPTION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

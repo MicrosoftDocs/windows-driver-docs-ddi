@@ -7,7 +7,7 @@ old-location: stream\ksdevicegetouterunknown.htm
 old-project: stream
 ms.assetid: a63cdc50-6bbb-4bff-8536-0bf31fed01de
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, G, K, KsDeviceGetOuterUnknown, KsDeviceGetOuterUnknown function [Streaming Media Devices], O, U, avfunc_c1b85ab7-92b9-4c7c-a9c8-0cf1f9e93458.xml, c, e, i, k, ks/KsDeviceGetOuterUnknown, n, o, r, s, stream.ksdevicegetouterunknown, t, u, v, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,6 +92,14 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.m
 
 ## -see-also
 
+<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+
+
 <a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
 
 
@@ -108,17 +116,9 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.m
 
 
 
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
-
-
-
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDeviceGetOuterUnknown function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDeviceGetOuterUnknown function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: stream\ksframetime.htm
 old-project: stream
 ms.assetid: 0e3beb72-2b00-41be-a7b4-341bcf065e92
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PKSFRAMETIME, ,, A, E, F, I, K, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], M, P, PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], R, S, T, ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME, ks/PKSFRAMETIME, stream.ksframetime"
 ms.prod: windows-hardware
 ms.technology: windows-devices

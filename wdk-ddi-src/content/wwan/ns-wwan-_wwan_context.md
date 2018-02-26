@@ -129,11 +129,8 @@ Authentication type to use for the PDP activation.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_context_type.md">WWAN_CONTEXT_TYPE</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_provisioned_context.md">
+   NDIS_WWAN_SET_PROVISIONED_CONTEXT</a>
 
 
 
@@ -141,8 +138,11 @@ Authentication type to use for the PDP activation.
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_provisioned_context.md">
-   NDIS_WWAN_SET_PROVISIONED_CONTEXT</a>
+<a href="..\wwan\ne-wwan-_wwan_context_type.md">WWAN_CONTEXT_TYPE</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
 
 
 

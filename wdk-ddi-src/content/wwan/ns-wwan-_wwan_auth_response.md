@@ -112,7 +112,7 @@ The <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_akap_response.md">WWAN_AUTH_AKAP_RESPONSE</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a>
 
 
 
@@ -128,7 +128,7 @@ The <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a>
+<a href="..\wwan\ns-wwan-_wwan_auth_akap_response.md">WWAN_AUTH_AKAP_RESPONSE</a>
 
 
 

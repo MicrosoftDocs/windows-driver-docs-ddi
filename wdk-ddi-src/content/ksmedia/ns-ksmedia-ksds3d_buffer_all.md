@@ -149,11 +149,11 @@ The members of this structure are similar to those defined for the DS3DBUFFER st
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537315">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
 
 
 

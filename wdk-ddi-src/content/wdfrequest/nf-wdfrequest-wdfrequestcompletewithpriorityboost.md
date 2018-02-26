@@ -167,15 +167,15 @@ The following code example shows how the example at <a href="..\wdfrequest\nf-wd
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 
 

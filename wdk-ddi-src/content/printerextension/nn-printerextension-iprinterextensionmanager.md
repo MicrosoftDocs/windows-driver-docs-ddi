@@ -7,7 +7,7 @@ old-location: print\iprinterextensionmanager_interface.htm
 old-project: print
 ms.assetid: 918AE3F6-2AC4-42AD-9581-E87AD7E79BAD
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: IPrinterExtensionManager, IPrinterExtensionManager interface [Print Devices], IPrinterExtensionManager interface [Print Devices], described, print.iprinterextensionmanager_interface, printerextension/IPrinterExtensionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

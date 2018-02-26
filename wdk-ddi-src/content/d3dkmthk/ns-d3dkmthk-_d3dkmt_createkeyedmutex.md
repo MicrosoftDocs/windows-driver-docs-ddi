@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createkeyedmutex.htm
 old-project: display
 ms.assetid: ab028faf-d3f7-4267-81c7-7ababe845667
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CREATEKEYEDMUTEX, D3DKMT_CREATEKEYEDMUTEX structure [Display Devices], E, K, M, OpenGL_Structs_6ab1fe5f-9963-46ab-946d-689d74c70d11.xml, R, T, U, X, Y, _, _D3DKMT_CREATEKEYEDMUTEX, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX, display.d3dkmt_createkeyedmutex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,5 +94,5 @@ typedef struct _D3DKMT_CREATEKEYEDMUTEX {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_CREATEKEYEDMUTEX structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_CREATEKEYEDMUTEX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

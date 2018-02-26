@@ -7,7 +7,7 @@ old-location: kernel\nlstableinfo.htm
 old-project: kernel
 ms.assetid: B9E64163-B338-49C9-8167-C36B110AB710
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PNLSTABLEINFO, ,, A, B, E, F, I, L, N, NLSTABLEINFO, NLSTABLEINFO structure [Kernel-Mode Driver Architecture], O, P, PNLSTABLEINFO, PNLSTABLEINFO structure pointer [Kernel-Mode Driver Architecture], S, T, _, _NLSTABLEINFO, kernel.nlstableinfo, ntnls/NLSTABLEINFO, ntnls/PNLSTABLEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

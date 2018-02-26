@@ -186,11 +186,11 @@ An error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
 
 
@@ -198,7 +198,7 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 

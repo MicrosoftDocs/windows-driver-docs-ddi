@@ -236,8 +236,7 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+<a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
 
 
 
@@ -245,12 +244,13 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+
+
+
 <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
    DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
 
 
 

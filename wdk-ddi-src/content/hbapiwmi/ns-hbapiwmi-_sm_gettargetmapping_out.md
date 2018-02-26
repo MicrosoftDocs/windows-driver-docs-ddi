@@ -7,7 +7,7 @@ old-location: storage\sm_gettargetmapping_out.htm
 old-project: storage
 ms.assetid: 164379fa-15fb-4ab7-9cf8-8403f92d7a42
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PSM_GetTargetMapping_OUT, ,, G, M, O, P, PSM_GetTargetMapping_OUT, PSM_GetTargetMapping_OUT structure pointer [Storage Devices], S, SM_GetTargetMapping_OUT, SM_GetTargetMapping_OUT structure [Storage Devices], T, U, _, _SM_GetTargetMapping_OUT, a, e, g, hbapiwmi/PSM_GetTargetMapping_OUT, hbapiwmi/SM_GetTargetMapping_OUT, i, n, p, r, storage.sm_gettargetmapping_out, structs-Fibre_fd5726b9-b4fe-470a-9e43-65148a60808b.xml, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

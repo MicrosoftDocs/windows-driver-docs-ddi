@@ -7,7 +7,7 @@ old-location: print\iprinterextensioncontext_printschematicket.htm
 old-project: print
 ms.assetid: B217DE53-23B9-46BA-8B35-DA869EB9DBDA
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, E, I, IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], PrintSchemaTicket property, IPrinterExtensionContext.PrintSchemaTicket, IPrinterExtensionContext::get_PrintSchemaTicket, P, PrintSchemaTicket property [Print Devices], PrintSchemaTicket property [Print Devices], IPrinterExtensionContext interface, S, T, _, a, c, e, g, get_PrintSchemaTicket, get_PrintSchemaTicket,IPrinterExtensionContext.get_PrintSchemaTicket, h, i, k, m, n, o, print.iprinterextensioncontext_printschematicket, printerextension/IPrinterExtensionContext::PrintSchemaTicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket, r, s, t, x"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,17 +71,17 @@ HRESULT get_PrintSchemaTicket(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
- 
+<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionContext::PrintSchemaTicket property%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionContext::PrintSchemaTicket property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

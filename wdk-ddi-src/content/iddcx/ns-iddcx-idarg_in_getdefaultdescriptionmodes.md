@@ -7,7 +7,7 @@ old-location: display\idarg_in_getdefaultdescriptionmodes.htm
 old-project: display
 ms.assetid: 4d0a1f81-efc0-40aa-9dde-b9cac64afb8b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, C, D, E, F, G, I, IDARG_IN_GETDEFAULTDESCRIPTIONMODES, IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], L, M, N, O, P, R, S, T, U, _, display.idarg_in_getdefaultdescriptionmodes, iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

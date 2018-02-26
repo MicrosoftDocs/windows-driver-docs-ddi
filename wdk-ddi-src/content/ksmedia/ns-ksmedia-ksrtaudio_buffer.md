@@ -81,7 +81,7 @@ Specifies the buffer size, in bytes. The driver sets this member to the actual s
 
 ### -field CallMemoryBarrier
 
-Specifies a flag based on cache type of the allocated buffer. The driver sets this flag to <b>TRUE</b> if the cache type is <b>MmWriteCombined</b>; otherwise, the flag should be set to <b>FALSE</b>. For more information about <b>MmWriteCombined</b>, see <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE </a>,
+Specifies a flag based on cache type of the allocated buffer. The driver sets this flag to <b>TRUE</b> if the cache type is <b>MmWriteCombined</b>; otherwise, the flag should be set to <b>FALSE</b>. For more information about <b>MmWriteCombined</b>, see <a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE </a>,
 
 
 ## -remarks
@@ -99,11 +99,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPRO
 
 
 
+<a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPROPERTY_RTAUDIO_BUFFER</a>
-
-
-
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 

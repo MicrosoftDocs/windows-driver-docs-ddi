@@ -7,7 +7,7 @@ old-location: kernel\ob_post_duplicate_handle_information.htm
 old-project: kernel
 ms.assetid: 780ace20-bb88-47fe-b504-dd6a5e903840
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *POB_POST_DUPLICATE_HANDLE_INFORMATION, ,, A, B, C, D, E, F, H, I, L, M, N, O, OB_POST_DUPLICATE_HANDLE_INFORMATION, OB_POST_DUPLICATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], P, POB_POST_DUPLICATE_HANDLE_INFORMATION, POB_POST_DUPLICATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, S, T, U, _, _OB_POST_DUPLICATE_HANDLE_INFORMATION, kernel.ob_post_duplicate_handle_information, kstruct_c_7b277d55-5e47-4b6d-a77b-9f10decc3dbd.xml, wdm/OB_POST_DUPLICATE_HANDLE_INFORMATION, wdm/POB_POST_DUPLICATE_HANDLE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,17 +75,17 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_POST_DUPLICATE_HANDLE_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_POST_DUPLICATE_HANDLE_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

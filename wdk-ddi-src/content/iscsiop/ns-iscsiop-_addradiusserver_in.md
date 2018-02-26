@@ -7,7 +7,7 @@ old-location: storage\addradiusserver_in.htm
 old-project: storage
 ms.assetid: 7b7b9f3b-df33-4886-bd22-23429cb05ea7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PAddRADIUSServer_IN, ,, A, AddRADIUSServer_IN, AddRADIUSServer_IN structure [Storage Devices], D, I, N, P, PAddRADIUSServer_IN, PAddRADIUSServer_IN structure pointer [Storage Devices], R, S, U, _, _AddRADIUSServer_IN, d, e, iscsiop/AddRADIUSServer_IN, iscsiop/PAddRADIUSServer_IN, r, storage.addradiusserver_in, structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,15 +83,15 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 
 <a href="..\iscsiop\ns-iscsiop-_addradiusserver_out.md">AddRADIUSServer_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
 
 
 
@@ -103,5 +103,5 @@ It is optional that you implement this method.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddRADIUSServer_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddRADIUSServer_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

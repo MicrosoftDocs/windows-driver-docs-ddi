@@ -134,19 +134,19 @@ NDIS performs the <b>NET_BUFFER_LIST</b> and <a href="..\ndis\ns-ndis-_net_buffe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439945">NET_BUFFER_LIST_DUP_ACK_COUNT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439944">NET_BUFFER_LIST_COALESCED_SEG_COUNT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439945">NET_BUFFER_LIST_DUP_ACK_COUNT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 
 

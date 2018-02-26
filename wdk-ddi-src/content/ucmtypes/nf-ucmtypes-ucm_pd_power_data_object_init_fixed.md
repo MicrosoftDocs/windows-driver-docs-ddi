@@ -4,10 +4,10 @@ title: UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function
 author: windows-driver-content
 description: Initializes a to the UCM_PD_POWER_DATA_OBJECT for a Fixed Supply type Power Data Object.
 old-location: buses\ucm_pd_power_data_object_init_fixed.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: AC51EA77-7F5B-42DE-B366-7BCE46AA5097
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, C, D, E, F, I, J, M, N, O, P, R, T, U, UCM_PD_POWER_DATA_OBJECT_INIT_FIXED, UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function [Buses], W, X, _, buses.ucm_pd_power_data_object_init_fixed, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,5 +103,5 @@ This function initializes the structure and sets Power Data Object as a Fixed Su
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

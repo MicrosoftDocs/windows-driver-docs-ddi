@@ -152,11 +152,11 @@ In most cases, drivers that run on Windows Vista and later versions of Windows u
 
 
 
-<a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_network_open_ecp_context.md">NETWORK_OPEN_ECP_CONTEXT</a>
+
+
+
+<a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>
 
 
 

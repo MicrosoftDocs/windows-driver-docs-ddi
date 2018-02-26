@@ -7,7 +7,7 @@ old-location: storage\feature_data_timeout.htm
 old-project: storage
 ms.assetid: 0699dcc3-ab43-436e-b7d3-09898e4d823c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PFEATURE_DATA_TIMEOUT, ,, A, D, E, F, FEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT structure [Storage Devices], I, M, O, P, PFEATURE_DATA_TIMEOUT, PFEATURE_DATA_TIMEOUT structure pointer [Storage Devices], R, T, U, _, _FEATURE_DATA_TIMEOUT, ntddmmc/FEATURE_DATA_TIMEOUT, ntddmmc/PFEATURE_DATA_TIMEOUT, storage.feature_data_timeout, structs-CD-ROM_2de49c50-b26e-42c0-b637-40f752b59891.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,17 +101,17 @@ When queried, devices supporting this feature must return the information indica
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-
-
-
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
- 
+<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_TIMEOUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_TIMEOUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

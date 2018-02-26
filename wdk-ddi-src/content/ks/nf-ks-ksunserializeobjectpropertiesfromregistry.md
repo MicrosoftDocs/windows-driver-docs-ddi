@@ -7,7 +7,7 @@ old-location: stream\ksunserializeobjectpropertiesfromregistry.htm
 old-project: stream
 ms.assetid: e08ddef7-5942-4943-9dbe-9658279892f0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , F, K, KsUnserializeObjectPropertiesFromRegistry, KsUnserializeObjectPropertiesFromRegistry function [Streaming Media Devices], O, P, R, U, a, b, c, e, g, i, j, ks/KsUnserializeObjectPropertiesFromRegistry, ksfunc_09710ce5-9236-47cc-84b2-4ced36aa654b.xml, l, m, n, o, p, r, s, stream.ksunserializeobjectpropertiesfromregistry, t, y, z"
 ms.prod: windows-hardware
 ms.technology: windows-devices

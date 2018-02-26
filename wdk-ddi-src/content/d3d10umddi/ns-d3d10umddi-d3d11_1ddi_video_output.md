@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_output.htm
 old-project: display
 ms.assetid: e82ab7bf-9585-4c8b-9e1f-2082e2c530b1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 1, 3, D, D3D11_1DDI_VIDEO_OUTPUT, D3D11_1DDI_VIDEO_OUTPUT structure [Display Devices], E, I, O, P, T, U, V, _, d3d10umddi/D3D11_1DDI_VIDEO_OUTPUT, display.d3d11_1ddi_video_output"
 ms.prod: windows-hardware
 ms.technology: windows-devices

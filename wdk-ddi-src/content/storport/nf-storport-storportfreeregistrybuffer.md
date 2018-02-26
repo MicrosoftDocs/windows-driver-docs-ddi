@@ -7,7 +7,7 @@ old-location: storage\storportfreeregistrybuffer.htm
 old-project: storage
 ms.assetid: 19e6bf4a-8951-44a6-ac04-f286d8979e40
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , B, F, P, R, S, StorPortFreeRegistryBuffer, StorPortFreeRegistryBuffer routine [Storage Devices], e, f, g, i, o, r, s, storage.storportfreeregistrybuffer, storport/StorPortFreeRegistryBuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml, t, u, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,5 +108,5 @@ The <b>StorPortFreeRegistryBuffer</b> routine frees the buffer that was allocate
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortFreeRegistryBuffer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortFreeRegistryBuffer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

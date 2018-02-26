@@ -165,11 +165,11 @@ The provider should not use the freed NET_LUID index or the associated NET_LUID 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">NdisIfAllocateNetLuidIndex</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">NdisIfAllocateNetLuidIndex</a>
 
 
 

@@ -221,11 +221,11 @@ CMyDevice::ConfigureUsbIoTargets(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
 
 
 

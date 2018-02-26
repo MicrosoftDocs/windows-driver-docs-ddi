@@ -127,7 +127,7 @@ The offset, in bytes, from the beginning of the buffer pointed to by the <b>Info
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a>
 
 
 
@@ -135,11 +135,11 @@ The offset, in bytes, from the beginning of the buffer pointed to by the <b>Info
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598256">NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_name.md">NDIS_ISOLATION_NAME</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -147,7 +147,7 @@ The offset, in bytes, from the beginning of the buffer pointed to by the <b>Info
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_name.md">NDIS_ISOLATION_NAME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598256">NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY</a>
 
 
 

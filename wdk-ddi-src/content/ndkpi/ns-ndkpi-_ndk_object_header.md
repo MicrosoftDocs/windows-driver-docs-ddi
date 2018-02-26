@@ -117,23 +117,7 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header_reserved_block.md">NDK_OBJECT_HEADER_RESERVED_BLOCK</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a>
-
-
-
-<a href="..\ndkpi\ne-ndkpi-_ndk_object_type.md">NDK_OBJECT_TYPE</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
 
 
@@ -145,7 +129,7 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
 
 
@@ -153,15 +137,27 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header_reserved_block.md">NDK_OBJECT_HEADER_RESERVED_BLOCK</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+<a href="..\ndkpi\ne-ndkpi-_ndk_object_type.md">NDK_OBJECT_TYPE</a>
 
 
 
@@ -169,11 +165,7 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
 
 
 
@@ -181,7 +173,15 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
 
 
 

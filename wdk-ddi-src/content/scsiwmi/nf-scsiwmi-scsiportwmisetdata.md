@@ -7,7 +7,7 @@ old-location: storage\scsiportwmisetdata.htm
 old-project: storage
 ms.assetid: eb4578c9-48e5-4113-ba58-a3d71052f782
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , D, P, S, ScsiPortWmiSetData, ScsiPortWmiSetData routine [Storage Devices], W, a, c, e, i, m, o, r, s, scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml, scsiwmi/ScsiPortWmiSetData, storage.scsiportwmisetdata, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,6 +139,10 @@ The memory allocated for the request context must remain valid until after the m
 
 ## -see-also
 
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
+
+
+
 <a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
 
@@ -147,13 +151,9 @@ The memory allocated for the request context must remain valid until after the m
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiSetData routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiSetData routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -75,7 +75,7 @@ Pointer to the memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) 
 
 ### -param CacheType [in]
 
-Specifies the cache type. Set this parameter to one of the following <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumeration values: <b>MmNonCached</b>, <b>MmCached</b>, or <b>MmWriteCombined</b>.
+Specifies the cache type. Set this parameter to one of the following <a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumeration values: <b>MmNonCached</b>, <b>MmCached</b>, or <b>MmWriteCombined</b>.
 
 
 ## -returns
@@ -108,7 +108,7 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>
 
 
 
@@ -116,11 +116,11 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>
+<a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
 
 

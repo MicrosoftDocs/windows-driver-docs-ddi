@@ -113,15 +113,11 @@ One of the parameters passed to the <b>RxRegisterMinirdr</b> routine indicates w
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
 
 
 
@@ -129,7 +125,11 @@ One of the parameters passed to the <b>RxRegisterMinirdr</b> routine indicates w
 
 
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
 
 
 

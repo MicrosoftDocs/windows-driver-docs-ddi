@@ -97,11 +97,11 @@ For information about when the framework calls <b>OnCloseFile</b>, see <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-ifilecallbackclose.md">IFileCallbackClose</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 

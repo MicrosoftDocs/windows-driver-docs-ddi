@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_post_composition.htm
 old-project: display
 ms.assetid: 71D57E42-C1E7-4A0E-80B3-DD39388552C5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices], E, G, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, _, _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, display.dxgk_multiplane_overlay_post_composition"
 ms.prod: windows-hardware
 ms.technology: windows-devices

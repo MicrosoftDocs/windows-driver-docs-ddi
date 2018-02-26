@@ -189,7 +189,8 @@ A WSK application receives a pointer to a WSK_PROVIDER_STREAM_DISPATCH structure
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">
+    WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
@@ -197,8 +198,7 @@ A WSK application receives a pointer to a WSK_PROVIDER_STREAM_DISPATCH structure
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">
-    WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 

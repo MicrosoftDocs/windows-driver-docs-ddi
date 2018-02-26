@@ -113,11 +113,11 @@ For a code example that uses <b>WdfChildListEndIteration</b>, see <a href="..\wd
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
-
-
-
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
 
 
 
@@ -125,7 +125,7 @@ For a code example that uses <b>WdfChildListEndIteration</b>, see <a href="..\wd
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
 
 
 

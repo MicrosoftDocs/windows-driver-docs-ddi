@@ -147,7 +147,7 @@ A single preoperation or postoperation callback routine can be used to process m
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 
 
@@ -155,7 +155,7 @@ A single preoperation or postoperation callback routine can be used to process m
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 

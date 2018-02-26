@@ -138,12 +138,12 @@ An error occurred.
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
    FwpsAleEndpointSetSecurityInfo0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
 
 
 

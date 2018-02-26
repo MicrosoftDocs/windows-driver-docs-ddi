@@ -74,11 +74,11 @@ Codec ID structure version 1.
 
 ## -see-also
 
-<a href="..\bthhfpddi\ns-bthhfpddi-_hfp_bypass_codec_id_v1.md">HFP_BYPASS_CODEC_ID_V1</a>
-
-
-
 <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id.md">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
+
+
+
+<a href="..\bthhfpddi\ns-bthhfpddi-_hfp_bypass_codec_id_v1.md">HFP_BYPASS_CODEC_ID_V1</a>
 
 
 

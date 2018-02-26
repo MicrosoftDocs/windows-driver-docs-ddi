@@ -215,7 +215,7 @@ For background information about audio properties, see <a href="https://msdn.mic
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -223,7 +223,7 @@ For background information about audio properties, see <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
 
 
 

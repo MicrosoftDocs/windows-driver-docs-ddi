@@ -105,15 +105,15 @@ The <b>NDK_SRQ_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-
 
 
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_modify_srq.md">NDK_FN_MODIFY_SRQ</a>
 
 
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 

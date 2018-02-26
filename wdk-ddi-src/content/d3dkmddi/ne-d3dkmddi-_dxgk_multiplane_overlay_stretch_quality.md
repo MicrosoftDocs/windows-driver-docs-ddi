@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_stretch_quality.htm
 old-project: display
 ms.assetid: 5C995970-59E4-46AD-84CD-0B5675949308
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, C, D, DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration [Display Devices], DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR, DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH, E, G, H, I, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y, _, _DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH, display.dxgk_multiplane_overlay_stretch_quality"
 ms.prod: windows-hardware
 ms.technology: windows-devices

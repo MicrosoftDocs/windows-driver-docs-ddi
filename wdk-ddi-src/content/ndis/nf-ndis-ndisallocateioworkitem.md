@@ -144,6 +144,10 @@ In general, a driver must free the work item before the driver unloads.
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
 
 
@@ -152,15 +156,7 @@ In general, a driver must free the work item before the driver unloads.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a>
 
 
 
@@ -176,7 +172,11 @@ In general, a driver must free the work item before the driver unloads.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a>
+<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

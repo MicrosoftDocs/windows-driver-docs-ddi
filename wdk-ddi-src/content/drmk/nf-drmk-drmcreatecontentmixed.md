@@ -115,7 +115,7 @@ After a KS audio filter finishes using a content ID that it created using <code>
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
 
 
 
@@ -123,15 +123,15 @@ After a KS audio filter finishes using a content ID that it created using <code>
 
 
 
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
+
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+<a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>
 
 
 

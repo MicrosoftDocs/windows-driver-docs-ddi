@@ -144,11 +144,11 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetdevicetoverify.md">IoGetDeviceToVerify</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iogetdevicetoverify.md">IoGetDeviceToVerify</a>
 
 
 

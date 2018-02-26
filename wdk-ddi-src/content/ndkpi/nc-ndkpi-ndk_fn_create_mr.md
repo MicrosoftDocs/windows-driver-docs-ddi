@@ -184,11 +184,11 @@ The <i>NdkCreateMr</i> function creates an NDK memory region (MR) object that ca
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
 
 

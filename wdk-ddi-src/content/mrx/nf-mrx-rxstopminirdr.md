@@ -161,15 +161,11 @@ The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxSt
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
-
-
 <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
 
 
 
@@ -177,11 +173,15 @@ The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxSt
 
 
 
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
+
+
 <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
+<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
 
 
 

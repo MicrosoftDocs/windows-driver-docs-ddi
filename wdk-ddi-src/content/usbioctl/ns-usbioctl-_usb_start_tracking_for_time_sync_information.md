@@ -4,10 +4,10 @@ title: "_USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION"
 author: windows-driver-content
 description: The input and output buffer for the IOCTL_USB_START_TRACKING_FOR_TIME_SYNC request.
 old-location: buses\usb_start_tracking_for_time_sync_information.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 2C82743C-2675-4196-839D-885EE17B2A7A
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, ,, A, B, C, E, F, G, I, K, M, N, O, P, PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], R, S, T, U, USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION structure [Buses], Y, _, _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, buses.usb_start_tracking_for_time_sync_information, usbioctl/PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, usbioctl/USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,5 +91,5 @@ On input, the caller must specify whether the initial startup latency of up to 2
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

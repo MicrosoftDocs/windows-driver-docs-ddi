@@ -7,7 +7,7 @@ old-location: hid\ioctl_internal_keyboard_connect.htm
 old-project: hid
 ms.assetid: 90014194-e790-4b23-9f3d-f5879dd94063
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_INTERNAL_KEYBOARD_CONNECT, IOCTL_INTERNAL_KEYBOARD_CONNECT control code [Human Input Devices], hid.ioctl_internal_keyboard_connect, kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT, kfilref_b9a87851-bbc4-4567-a459-9e647d6d3315.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,7 +170,7 @@ Kbfiltr is already connected (the filter driver supports only one connect reques
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/02815805-47cf-454c-8117-f5686a855e25">KeyboardClassServiceCallback</a>
+<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
 
 
 
@@ -178,7 +178,7 @@ Kbfiltr is already connected (the filter driver supports only one connect reques
 
 
 
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
+<a href="https://msdn.microsoft.com/02815805-47cf-454c-8117-f5686a855e25">KeyboardClassServiceCallback</a>
 
 
 
@@ -186,5 +186,5 @@ Kbfiltr is already connected (the filter driver supports only one connect reques
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_INTERNAL_KEYBOARD_CONNECT control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_INTERNAL_KEYBOARD_CONNECT control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -135,18 +135,6 @@ Miniport drivers that support MSI-X and will change the interrupt affinity for e
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
@@ -155,12 +143,24 @@ Miniport drivers that support MSI-X and will change the interrupt affinity for e
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
    MiniportFilterResourceRequirements</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
 
 

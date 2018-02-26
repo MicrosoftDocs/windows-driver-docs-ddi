@@ -4,10 +4,10 @@ title: "_ROOTHUB_20PORT_INFO"
 author: windows-driver-content
 description: Provides information about a USB 2.0 root hub port. This structure is passed by UCX in the EVT_UCX_ROOTHUB_GET_20PORT_INFO callback function.
 old-location: buses\_roothub_20port_info.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: AA71D015-B047-497C-A9E1-32E5E73AD0C2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PROOTHUB_20PORT_INFO, ,, 0, 2, B, F, H, I, N, O, P, P_ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO structure pointer [Buses], R, ROOTHUB_20PORT_INFO, ROOTHUB_20PORT_INFO structure [Buses], T, U, _, _ROOTHUB_20PORT_INFO, buses._roothub_20port_info, ucxroothub/P_ROOTHUB_20PORT_INFO, ucxroothub/_ROOTHUB_20PORT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

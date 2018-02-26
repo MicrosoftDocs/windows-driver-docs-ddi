@@ -7,7 +7,7 @@ old-location: kernel\pscreatesystemthread.htm
 old-project: kernel
 ms.assetid: 4f6bfae4-8515-4fc4-aab3-9e16dbeda6da
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, P, PsCreateSystemThread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], S, T, a, d, e, h, k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, kernel.pscreatesystemthread, m, r, s, t, wdm/PsCreateSystemThread, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,11 +151,7 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
 
 
@@ -163,11 +159,7 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
-<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 
@@ -175,9 +167,17 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsCreateSystemThread routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsCreateSystemThread routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\format_parameters.htm
 old-project: storage
 ms.assetid: 9c92e010-35d7-40ff-8025-51e945861b9c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , *, *PFORMAT_PARAMETERS, ,, A, E, F, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], M, O, P, PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], R, S, T, _, _FORMAT_PARAMETERS, ntdddisk/FORMAT_PARAMETERS, ntdddisk/PFORMAT_PARAMETERS, storage.format_parameters, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,5 +110,5 @@ Indicates the number of the head where the formatting should end.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FORMAT_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FORMAT_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

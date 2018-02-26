@@ -125,7 +125,31 @@ For more information about reparse points and reparse point tags, see the Window
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
 
 
 
@@ -133,11 +157,15 @@ For more information about reparse points and reparse point tags, see the Window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
 
 
 
@@ -146,34 +174,6 @@ For more information about reparse points and reparse point tags, see the Window
 
 
 <a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
 
 
 

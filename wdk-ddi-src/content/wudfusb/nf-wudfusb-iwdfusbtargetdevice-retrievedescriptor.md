@@ -217,11 +217,11 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540257">WinUsb_GetDescriptor</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540257">WinUsb_GetDescriptor</a>
 
 
 

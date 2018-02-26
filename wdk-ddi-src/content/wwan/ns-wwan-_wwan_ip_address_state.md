@@ -129,11 +129,11 @@ The number of entries in the <b>DnsTable</b> array.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_ipaddress_entry.md">WWAN_IPADDRESS_ENTRY</a>
+
+
+
+<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
 
 
 

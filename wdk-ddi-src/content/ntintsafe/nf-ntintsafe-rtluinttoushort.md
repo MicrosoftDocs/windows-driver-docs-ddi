@@ -7,7 +7,7 @@ old-location: kernel\rtluinttoushort.htm
 old-project: kernel
 ms.assetid: 3A9DB44E-ABAB-4808-9322-8ADA5AD39F75
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , I, R, RtlUIntToUShort, RtlUIntToUShort function [Kernel-Mode Driver Architecture], S, T, U, h, kernel.rtluinttoushort, l, n, ntintsafe/RtlUIntToUShort, o, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

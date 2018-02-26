@@ -7,7 +7,7 @@ old-location: kernel\kederegisternmicallback.htm
 old-project: kernel
 ms.assetid: 45022490-8130-449c-8ec9-380be0a3a03d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , C, D, K, KeDeregisterNmiCallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture], N, a, b, c, e, g, i, k, k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, kernel.kederegisternmicallback, l, m, r, s, t, wdm/KeDeregisterNmiCallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,5 +92,5 @@ The <b>KeDeregisterNmiCallback</b> routine returns STATUS_SUCCESS if the callbac
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeDeregisterNmiCallback routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeDeregisterNmiCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

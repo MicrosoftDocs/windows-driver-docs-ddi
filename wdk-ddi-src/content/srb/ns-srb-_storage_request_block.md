@@ -7,7 +7,7 @@ old-location: storage\storage_request_block.htm
 old-project: storage
 ms.assetid: 67A5077D-B1AD-49B7-B024-D139E375483F
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, A, B, C, E, G, K, L, O, P, PSTORAGE_REQUEST_BLOCK, PSTORAGE_REQUEST_BLOCK structure pointer [Storage Devices], Q, R, S, SRB_FLAGS_ADAPTER_CACHE_ENABLE, SRB_FLAGS_ALLOCATED_FROM_ZONE, SRB_FLAGS_BYPASS_FROZEN_QUEUE, SRB_FLAGS_BYPASS_LOCKED_QUEUE, SRB_FLAGS_D3_PROCESSING, SRB_FLAGS_DATA_IN, SRB_FLAGS_DATA_OUT, SRB_FLAGS_DISABLE_AUTOSENSE, SRB_FLAGS_DISABLE_DISCONNECT, SRB_FLAGS_DISABLE_SYNCH_TRANSFER, SRB_FLAGS_FREE_SENSE_BUFFER, SRB_FLAGS_IS_ACTIVE, SRB_FLAGS_NO_DATA_TRANSFER, SRB_FLAGS_NO_KEEP_AWAKE, SRB_FLAGS_NO_QUEUE_FREEZE, SRB_FLAGS_QUEUE_ACTION_ENABLE, SRB_FLAGS_SGLIST_FROM_POOL, SRB_FLAGS_UNSPECIFIED_DIRECTION, SRB_FUNCTION_ABORT_COMMAND, SRB_FUNCTION_CRYPTO_OPERATION, SRB_FUNCTION_DUMP_POINTERS, SRB_FUNCTION_EXECUTE_SCSI, SRB_FUNCTION_FLUSH, SRB_FUNCTION_FREE_DUMP_POINTERS, SRB_FUNCTION_IO_CONTROL, SRB_FUNCTION_LOCK_QUEUE, SRB_FUNCTION_PNP, SRB_FUNCTION_POWER, SRB_FUNCTION_QUIESCE_DEVICE, SRB_FUNCTION_RECEIVE_EVENT, SRB_FUNCTION_RELEASE_RECOVERY, SRB_FUNCTION_RESET_BUS, SRB_FUNCTION_RESET_DEVICE, SRB_FUNCTION_RESET_LOGICAL_UNIT, SRB_FUNCTION_SHUTDOWN, SRB_FUNCTION_TERMINATE_IO, SRB_FUNCTION_UNLOCK_QUEUE, SRB_FUNCTION_WMI, SRB_STATUS_ABORTED, SRB_STATUS_ABORT_FAILED, SRB_STATUS_AUTOSENSE_VALID, SRB_STATUS_BAD_FUNCTION, SRB_STATUS_BAD_SRB_BLOCK_LENGTH, SRB_STATUS_BUSY, SRB_STATUS_BUS_RESET, SRB_STATUS_COMMAND_TIMEOUT, SRB_STATUS_DATA_OVERRUN, SRB_STATUS_ERROR, SRB_STATUS_ERROR_RECOVERY, SRB_STATUS_INTERNAL_ERROR, SRB_STATUS_INVALID_LUN, SRB_STATUS_INVALID_PATH_ID, SRB_STATUS_INVALID_REQUEST, SRB_STATUS_INVALID_TARGET_ID, SRB_STATUS_LINK_DOWN, SRB_STATUS_MESSAGE_REJECTED, SRB_STATUS_NOT_POWERED, SRB_STATUS_NO_DEVICE, SRB_STATUS_NO_HBA, SRB_STATUS_PARITY_ERROR, SRB_STATUS_PENDING, SRB_STATUS_PHASE_SEQUENCE_FAILURE, SRB_STATUS_QUEUE_FROZEN, SRB_STATUS_REQUEST_FLUSHED, SRB_STATUS_REQUEST_SENSE_FAILED, SRB_STATUS_SELECTION_TIMEOUT, SRB_STATUS_SUCCESS, SRB_STATUS_TIMEOUT, SRB_STATUS_UNEXPECTED_BUS_FREE, STORAGE_REQUEST_BLOCK, STORAGE_REQUEST_BLOCK structure [Storage Devices], T, U, _, _STORAGE_REQUEST_BLOCK, storage.storage_request_block, storport/PSTORAGE_REQUEST_BLOCK, storport/STORAGE_REQUEST_BLOCK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -530,13 +530,13 @@ This flag is irrelevant to miniport drivers.
 
 #### SRB_FLAGS_ALLOCATED_FROM_ZONE
 
-This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
+This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
 
 
 
 #### SRB_FLAGS_SGLIST_FROM_POOL
 
-This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
+This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
 
 
 
@@ -606,7 +606,7 @@ A guard area to protect against drivers that interpret this structure as <a href
 
 ### -field AddressOffset
 
-The offset of the storage request address from the beginning of this structure. This offset locates a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure that contains the address for the request.
+The offset of the storage request address from the beginning of this structure. This offset locates a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure that contains the address for the request.
 
 
 ### -field NumSrbExData
@@ -991,12 +991,12 @@ This flag is irrelevant to miniport drivers.
 
 ##### - SrbFlags.SRB_FLAGS_ALLOCATED_FROM_ZONE
 
-This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
+This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
 
 
 ##### - SrbFlags.SRB_FLAGS_SGLIST_FROM_POOL
 
-This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
+This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
 
 
 ##### - SrbFlags.SRB_FLAGS_BYPASS_LOCKED_QUEUE
@@ -1032,24 +1032,24 @@ Starting in Windows 8, an extended  SRB type is supported with the use of the <
 
 If <b>NumSrbExData</b> &gt; 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="..\storport\ns-storport-_srbex_data.md">SRBEX_DATA</a> structure containing the extended data block.
 
-The target device address for the SRB is in a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
+The target device address for the SRB is in a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
 
 
 
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
+
+
 <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
-<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_REQUEST_BLOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_REQUEST_BLOCK structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

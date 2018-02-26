@@ -7,7 +7,7 @@ old-location: display\createresource2.htm
 old-project: display
 ms.assetid: a8326707-cffc-4a20-ad3d-c7862661f513
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: CreateResource2, CreateResource2 callback function [Display Devices], PFND3DDDI_CREATERESOURCE2, d3dumddi/CreateResource2, display.createresource2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -193,11 +193,7 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource2.md">D3DDDIARG_CREATERESOURCE2</a>
 
 
 
@@ -205,11 +201,7 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource2.md">D3DDDIARG_CREATERESOURCE2</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
 
 
 
@@ -217,7 +209,11 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settexture.md">SetTexture</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
 
 
@@ -225,7 +221,11 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settexture.md">SetTexture</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a>
 
 
 
@@ -233,5 +233,5 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CREATERESOURCE2 callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CREATERESOURCE2 callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

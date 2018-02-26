@@ -129,15 +129,15 @@ To get an opaque pointer for the corresponding volume for a given device object,
 
 
 
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-iogetdeviceattachmentbaseref.md">IoGetDeviceAttachmentBaseRef</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumefromdeviceobject.md">FltGetVolumeFromDeviceObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

@@ -144,15 +144,15 @@ The <b>EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION</b> function type is define
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2pioreceiveinitializetransactioncomplete.md">SerCx2PioReceiveInitializeTransactionComplete</a>
 
 
 
 <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
 
 

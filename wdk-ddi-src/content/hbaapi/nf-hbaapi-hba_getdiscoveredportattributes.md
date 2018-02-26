@@ -7,7 +7,7 @@ old-location: storage\hba_getdiscoveredportattributes.htm
 old-project: storage
 ms.assetid: 64c6ed50-a4b9-4a8c-b38c-b2fcdf5ccee9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , A, B, D, G, H, HBA_GetDiscoveredPortAttributes, HBA_GetDiscoveredPortAttributes routine [Storage Devices], P, _, b, c, d, e, fibreHBA_rtns_3f74a187-728d-4534-8ad8-29e1a9b0add5.xml, hbaapi/HBA_GetDiscoveredPortAttributes, i, o, r, s, storage.hba_getdiscoveredportattributes, t, u, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,17 +126,17 @@ The <b>HBA_GetDiscoveredPortAttributes</b> library routine corresponds to the <a
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 
 
 
- 
+<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetDiscoveredPortAttributes routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetDiscoveredPortAttributes routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

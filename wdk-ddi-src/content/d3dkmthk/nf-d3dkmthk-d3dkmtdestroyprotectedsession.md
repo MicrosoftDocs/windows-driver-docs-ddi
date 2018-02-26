@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroyprotectedsession.htm
 old-project: display
 ms.assetid: e27ab1db-647d-447c-b79d-2553aa088398
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , 3, D, D3DKMTDestroyProtectedSession, D3DKMTDestroyProtectedSession method [Display Devices], K, M, P, S, T, c, d, d3dkmthk/D3DKMTDestroyProtectedSession, display.d3dkmtdestroyprotectedsession, e, i, n, o, r, s, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices

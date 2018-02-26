@@ -101,13 +101,13 @@ A callout driver passes a pointer to an FWPS_PACKET_LIST_INFORMATION0 structure 
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
-   FwpsGetPacketListSecurityInformation0</a>
-
-
-
 <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_fwp_information0_.md">
    FWPS_PACKET_LIST_FWP_INFORMATION0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
+   FwpsGetPacketListSecurityInformation0</a>
 
 
 

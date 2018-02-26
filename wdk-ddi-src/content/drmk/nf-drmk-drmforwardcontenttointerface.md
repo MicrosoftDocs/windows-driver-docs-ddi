@@ -148,15 +148,7 @@ The <i>pUnknown</i> parameter follows the <a href="https://msdn.microsoft.com/e6
 
 
 
-<a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536586">IDrmPort::ForwardContentToInterface</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+<a href="..\portcls\nf-portcls-pcforwardcontenttointerface.md">PcForwardContentToInterface</a>
 
 
 
@@ -164,11 +156,19 @@ The <i>pUnknown</i> parameter follows the <a href="https://msdn.microsoft.com/e6
 
 
 
-<a href="..\portcls\nf-portcls-pcforwardcontenttointerface.md">PcForwardContentToInterface</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+
+
+
+<a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536586">IDrmPort::ForwardContentToInterface</a>
 
 
 

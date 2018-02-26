@@ -138,15 +138,16 @@ The client should consider the given
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+   ProtocolClDeregisterSapComplete</a>
 
 
 
@@ -154,8 +155,7 @@ The client should consider the given
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
-   ProtocolClDeregisterSapComplete</a>
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 

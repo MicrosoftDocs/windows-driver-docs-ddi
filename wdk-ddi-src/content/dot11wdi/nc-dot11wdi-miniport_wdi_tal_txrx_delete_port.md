@@ -108,11 +108,11 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn925950">OID_WDI_TASK_DELETE_PORT</a>
-
-
-
 <a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925950">OID_WDI_TASK_DELETE_PORT</a>
 
 
 

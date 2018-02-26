@@ -7,7 +7,7 @@ old-location: kernel\rtlssizetsub.htm
 old-project: kernel
 ms.assetid: 6EFDD7BF-B347-4E02-905E-01F0F155DB6F
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , E, I, R, RtlSSIZETSub, RtlSSIZETSub function [Kernel-Mode Driver Architecture], S, T, Z, b, kernel.rtlssizetsub, l, ntintsafe/RtlSSIZETSub, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices

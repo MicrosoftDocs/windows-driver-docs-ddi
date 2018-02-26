@@ -292,33 +292,7 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbuffer.md">NdisGetPoolFromNetBuffer</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-   NdisRetreatNetBufferDataStart</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
-
-
-
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
 
 
 
@@ -327,16 +301,16 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
-   NdisRetreatNetBufferListDataStart</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+   NdisRetreatNetBufferDataStart</a>
 
 
 
@@ -344,15 +318,38 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+   NdisRetreatNetBufferListDataStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
 
 
 
@@ -364,16 +361,19 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
+<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbuffer.md">NdisGetPoolFromNetBuffer</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
-   NdisMSendNetBufferListsComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
 
 
 

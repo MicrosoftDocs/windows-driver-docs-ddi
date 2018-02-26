@@ -449,8 +449,15 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/responding-to-the-reception-of-a-fin-or-rst-segment">Responding to
-     the Reception of a FIN or RST Segment</a>
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">ProtocolTcpOffloadEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/98b22b7f-8881-4029-9558-d5d94bb7878e">Indicating TCP Chimney-Specific Events</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
 
 
 
@@ -459,11 +466,12 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">ProtocolTcpOffloadEvent</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/responding-to-the-reception-of-a-fin-or-rst-segment">Responding to
+     the Reception of a FIN or RST Segment</a>
 
 
 
@@ -473,14 +481,6 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
    NdisTcpOffloadReceiveComplete</a>
-
-
-
-<a href="https://msdn.microsoft.com/98b22b7f-8881-4029-9558-d5d94bb7878e">Indicating TCP Chimney-Specific Events</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
 
 
 

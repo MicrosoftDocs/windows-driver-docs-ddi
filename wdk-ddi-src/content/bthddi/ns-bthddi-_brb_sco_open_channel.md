@@ -456,7 +456,15 @@ The profile driver specifies whether the connection should be accepted by storin
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
 
 
 
@@ -468,15 +476,7 @@ The profile driver specifies whether the connection should be accepted by storin
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 
 

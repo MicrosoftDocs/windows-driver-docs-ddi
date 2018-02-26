@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_output_stream.htm
 old-project: display
 ms.assetid: D6C510B3-D578-41D0-9D52-131F2B61161D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 structure [Display Devices], E, I, M, O, P, R, S, T, U, V, _, d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, display.d3d12ddi_video_process_output_stream"
 ms.prod: windows-hardware
 ms.technology: windows-devices

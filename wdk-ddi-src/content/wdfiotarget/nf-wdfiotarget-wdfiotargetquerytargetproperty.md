@@ -201,7 +201,11 @@ status = WdfIoTargetQueryTargetProperty(
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetallocandquerytargetproperty.md">WdfIoTargetAllocAndQueryTargetProperty</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
 
 
@@ -209,11 +213,7 @@ status = WdfIoTargetQueryTargetProperty(
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetallocandquerytargetproperty.md">WdfIoTargetAllocAndQueryTargetProperty</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 

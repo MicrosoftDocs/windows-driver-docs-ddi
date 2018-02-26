@@ -134,11 +134,11 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_signal_state.md">WWAN_SIGNAL_STATE</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_signal_state.md">WWAN_SIGNAL_STATE</a>
 
 
 

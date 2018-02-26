@@ -7,7 +7,7 @@ old-location: print\pscript5_private_devmode.htm
 old-project: print
 ms.assetid: e2ae002b-2bc9-4e5e-b9b6-bb76849c2cba
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PPSCRIPT5_PRIVATE_DEVMODE, ,, 5, A, C, D, E, I, M, O, P, PPSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE structure pointer [Print Devices], PSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE structure [Print Devices], R, S, T, V, _, _PSCRIPT5_PRIVATE_DEVMODE, print.pscript5_private_devmode, print_unidrv-pscript_ui_4dd76ed6-3e60-43dd-a50b-05561574602a.xml, printoem/PPSCRIPT5_PRIVATE_DEVMODE, printoem/PSCRIPT5_PRIVATE_DEVMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,5 +143,5 @@ Verify that the private portion of your plug-in's DEVMODEW structure begins with
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PSCRIPT5_PRIVATE_DEVMODE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PSCRIPT5_PRIVATE_DEVMODE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

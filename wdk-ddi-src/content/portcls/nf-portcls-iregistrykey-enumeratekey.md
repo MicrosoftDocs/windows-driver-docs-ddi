@@ -151,7 +151,7 @@ Indicates that no more subkeys are available (subkey index is larger than or equ
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
 
 
@@ -159,15 +159,15 @@ Indicates that no more subkeys are available (subkey index is larger than or equ
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-
-
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 
 

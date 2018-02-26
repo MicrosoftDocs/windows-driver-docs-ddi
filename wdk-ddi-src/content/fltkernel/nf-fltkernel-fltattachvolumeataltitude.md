@@ -213,15 +213,15 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
 
 
 
@@ -233,11 +233,11 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
 
 
 

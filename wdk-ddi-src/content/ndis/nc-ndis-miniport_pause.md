@@ -322,12 +322,24 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pause_parameters.md">
+   NDIS_MINIPORT_PAUSE_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 
@@ -336,40 +348,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_pause_parameters.md">
-   NDIS_MINIPORT_PAUSE_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 
 
@@ -378,16 +358,36 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismpausecomplete.md">NdisMPauseComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
    MiniportDevicePnPEventNotify</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismpausecomplete.md">NdisMPauseComplete</a>
 
 
 

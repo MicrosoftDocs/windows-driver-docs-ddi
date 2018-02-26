@@ -111,11 +111,7 @@ For example, a peripheral device driver might open a logical connection to a GPI
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439505">GPIO_CONNECT_IO_PINS_MODE</a>
 
 
 
@@ -123,7 +119,11 @@ For example, a peripheral device driver might open a logical connection to a GPI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439505">GPIO_CONNECT_IO_PINS_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 

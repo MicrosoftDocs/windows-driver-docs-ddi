@@ -104,12 +104,12 @@ The SMS message format that should be used for the unsolicited indication of new
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_sms_configuration.md">
    NDIS_WWAN_SET_SMS_CONFIGURATION</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
 
 
 

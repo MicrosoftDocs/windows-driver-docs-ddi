@@ -7,7 +7,7 @@ old-location: image\iwiaimagefilter_filterpreviewimage.htm
 old-project: image
 ms.assetid: 92e4ea13-156b-4d5e-8268-ddb45f6d7b50
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, F, FilterPreviewImage method [Imaging Devices], FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface, FilterPreviewImage,IWiaImageFilter.FilterPreviewImage, I, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], FilterPreviewImage method, IWiaImageFilter::FilterPreviewImage, P, W, a, e, g, i, image.iwiaimagefilter_filterpreviewimage, l, m, r, t, v, w, wia_lh/IWiaImageFilter::FilterPreviewImage"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -82,7 +82,7 @@ The number of subscribers.
 
 ### -field rsiInfo
 
-Array of <a href="..\rilapitypes\ns-rilapitypes-rilsubscriberinfo.md">RILSUBSCRIBERINFO</a>, each of which specifies a phone number assigned to the user as defined below. Although statically declared as a one-element array, the actual length is dwNumSubscribers.
+Array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilsubscriberinfo.md">RILSUBSCRIBERINFO</a>, each of which specifies a phone number assigned to the user as defined below. Although statically declared as a one-element array, the actual length is dwNumSubscribers.
 
 
 ## -see-also

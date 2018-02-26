@@ -7,7 +7,7 @@ old-location: stream\iksqualityforwarder_ksflushclient.htm
 old-project: stream
 ms.assetid: 0a1b5094-4abd-4d57-8d8c-b385fb0d46de
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, C, F, I, IKsQualityForwarder, IKsQualityForwarder interface [Streaming Media Devices], KsFlushClient method, IKsQualityForwarder::KsFlushClient, K, KsFlushClient method [Streaming Media Devices], KsFlushClient method [Streaming Media Devices], IKsQualityForwarder interface, KsFlushClient,IKsQualityForwarder.KsFlushClient, Q, a, d, e, h, i, ksproxy/IKsQualityForwarder::KsFlushClient, ksproxy_af5e225b-27b2-4b5a-a06a-1308bf5dfecd.xml, l, n, o, r, s, stream.iksqualityforwarder_ksflushclient, t, u, w, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,5 +91,5 @@ None
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsQualityForwarder::KsFlushClient method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsQualityForwarder::KsFlushClient method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

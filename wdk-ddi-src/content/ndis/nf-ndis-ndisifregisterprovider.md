@@ -173,7 +173,7 @@ NDIS drivers call the
     <b>NdisIfRegisterProvider</b> function once during initialization to register as an NDIS interface
     provider. For example, the driver can call 
     <b>NdisIfRegisterProvider</b> from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. An interface provider is a
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. An interface provider is a
     software component that manages network interfaces to support the MIB (
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>).
 
@@ -210,15 +210,15 @@ A component that is no longer an interface provider can call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
 
 
 

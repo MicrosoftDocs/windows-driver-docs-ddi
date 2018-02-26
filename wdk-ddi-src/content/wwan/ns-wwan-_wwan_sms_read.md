@@ -92,7 +92,7 @@ Represents the filter upon which the miniport driver should retrieve the message
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_read.md">NDIS_WWAN_SMS_READ</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
 
 
 
@@ -100,7 +100,7 @@ Represents the filter upon which the miniport driver should retrieve the message
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_read.md">NDIS_WWAN_SMS_READ</a>
 
 
 

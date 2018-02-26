@@ -149,7 +149,7 @@ A call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
@@ -157,7 +157,11 @@ A call to
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 
 
@@ -167,10 +171,6 @@ A call to
 
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 
 

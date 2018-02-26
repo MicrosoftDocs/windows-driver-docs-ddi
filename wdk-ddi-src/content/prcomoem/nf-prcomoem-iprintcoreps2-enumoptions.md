@@ -7,7 +7,7 @@ old-location: print\iprintcoreps2_enumoptions.htm
 old-project: print
 ms.assetid: 2a861450-0bc5-432b-bf5d-9a9761c22ea1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, C, E, EnumOptions method [Print Devices], EnumOptions method [Print Devices], IPrintCorePS2 interface, EnumOptions,IPrintCorePS2.EnumOptions, I, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], EnumOptions method, IPrintCorePS2::EnumOptions, O, P, S, e, i, m, n, o, p, prcomoem/IPrintCorePS2::EnumOptions, print.iprintcoreps2_enumoptions, print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -200,11 +200,11 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
+
+
+
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
 
 
@@ -216,5 +216,5 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCorePS2::EnumOptions method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCorePS2::EnumOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

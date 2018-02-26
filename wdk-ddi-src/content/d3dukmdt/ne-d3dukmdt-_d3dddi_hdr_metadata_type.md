@@ -7,7 +7,7 @@ old-location: display\d3dddi_hdr_metadata_type.htm
 old-project: display
 ms.assetid: C30C34BF-F67D-4838-B337-9EF0D85B27DA
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 3, A, D, D3DDDI_HDR_METADATA_TYPE, D3DDDI_HDR_METADATA_TYPE enumeration [Display Devices], D3DDDI_HDR_METADATA_TYPE_HDR10, D3DDDI_HDR_METADATA_TYPE_NONE, E, H, I, M, P, R, T, Y, _, _D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_HDR10, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_NONE, display.d3dddi_hdr_metadata_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices

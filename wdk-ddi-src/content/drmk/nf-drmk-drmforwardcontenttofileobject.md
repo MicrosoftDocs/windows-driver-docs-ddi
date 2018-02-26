@@ -126,7 +126,7 @@ The <code>DrmForwardContentToFileObject</code> function authenticates the KS aud
 
 
 
-<a href="..\portcls\nf-portcls-pcforwardcontenttofileobject.md">PcForwardContentToFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536584">IDrmPort::ForwardContentToFileObject</a>
 
 
 
@@ -134,7 +134,7 @@ The <code>DrmForwardContentToFileObject</code> function authenticates the KS aud
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536584">IDrmPort::ForwardContentToFileObject</a>
+<a href="..\portcls\nf-portcls-pcforwardcontenttofileobject.md">PcForwardContentToFileObject</a>
 
 
 

@@ -88,7 +88,7 @@ NTSTATUS NewStream(
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration values.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration values.
 
 
 ### -param PinID
@@ -226,39 +226,7 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
-
-
-
-<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
-
-
-
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
-
-
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a>
+<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
 
 
 
@@ -266,7 +234,39 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 
 
-<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
+<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
+
+
+
+<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
+
+
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a>
 
 
 

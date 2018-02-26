@@ -106,7 +106,7 @@ To cancel a timer, call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 
 
@@ -114,7 +114,7 @@ To cancel a timer, call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 

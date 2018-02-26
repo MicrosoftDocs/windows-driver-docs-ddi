@@ -7,7 +7,7 @@ old-location: print\iprintschemaoption_selected.htm
 old-project: print
 ms.assetid: 639D25DC-027F-4B53-AD7B-B26011B66171
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., :, I, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], Selected property, IPrintSchemaOption.Selected, IPrintSchemaOption::get_Selected, O, P, S, Selected property [Print Devices], Selected property [Print Devices], IPrintSchemaOption interface, _, a, c, d, e, g, get_Selected, get_Selected,IPrintSchemaOption.get_Selected, h, i, l, m, n, o, p, print.iprintschemaoption_selected, printerextension/IPrintSchemaOption::Selected, printerextension/IPrintSchemaOption::get_Selected, r, t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,5 +79,5 @@ HRESULT get_Selected(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaOption::Selected property%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaOption::Selected property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

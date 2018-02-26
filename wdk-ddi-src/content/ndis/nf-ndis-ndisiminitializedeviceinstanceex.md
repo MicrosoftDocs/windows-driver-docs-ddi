@@ -214,11 +214,7 @@ After NDIS calls an intermediate driver's
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -226,21 +222,11 @@ After NDIS calls an intermediate driver's
 
 
 
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
-   NdisIMDeInitializeDeviceInstance</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
 
 
 
@@ -249,11 +235,12 @@ After NDIS calls an intermediate driver's
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
 
 
 
@@ -263,6 +250,19 @@ After NDIS calls an intermediate driver's
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
+   NdisIMDeInitializeDeviceInstance</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

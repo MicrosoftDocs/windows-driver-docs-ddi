@@ -164,11 +164,11 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL</b> function type is 
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: stream\bda_wmdrmtuner_pidprotection.htm
 old-project: stream
 ms.assetid: EA2590B0-7EF0-4E5E-A270-A13047BE0F2C
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , *, *PBDA_WMDRMTUNER_PIDPROTECTION, ,, A, B, BDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION structure [Streaming Media Devices], C, D, E, I, M, N, O, P, PBDA_WMDRMTUNER_PIDPROTECTION, PBDA_WMDRMTUNER_PIDPROTECTION structure pointer [Streaming Media Devices], R, T, U, W, _, _BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/PBDA_WMDRMTUNER_PIDPROTECTION, stream.bda_wmdrmtuner_pidprotection"
 ms.prod: windows-hardware
 ms.technology: windows-devices

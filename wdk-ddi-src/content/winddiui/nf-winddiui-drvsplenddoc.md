@@ -7,7 +7,7 @@ old-location: print\drvsplenddoc.htm
 old-project: print
 ms.assetid: 7972fd88-ca99-4a42-8476-754b26eb118c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , D, DrvSplEndDoc, DrvSplEndDoc function [Print Devices], E, S, c, d, l, n, o, p, print.drvsplenddoc, print_interface-graphics_13e407aa-2d2a-4ec5-b3ab-bcb6fa745039.xml, r, v, winddiui/DrvSplEndDoc"
 ms.prod: windows-hardware
 ms.technology: windows-devices

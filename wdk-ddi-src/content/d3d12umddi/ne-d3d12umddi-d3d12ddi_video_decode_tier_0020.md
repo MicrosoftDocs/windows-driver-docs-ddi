@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_tier.htm
 old-project: display
 ms.assetid: CC4B83A3-1F57-493F-840F-F0F799B631E6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, 0, 1, 2, 3, C, D, D3D12DDI_VIDEO_DECODE_TIER_0020, D3D12DDI_VIDEO_DECODE_TIER_0020 enumeration [Display Devices], D3D12DDI_VIDEO_DECODE_TIER_0020_1, D3D12DDI_VIDEO_DECODE_TIER_0020_2, D3D12DDI_VIDEO_DECODE_TIER_0020_3, D3D12DDI_VIDEO_DECODE_TIER_0020_NOT_SUPPORTED, E, I, O, R, T, V, _, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_1, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_2, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_3, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_NOT_SUPPORTED, display.d3d12ddi_video_decode_tier"
 ms.prod: windows-hardware
 ms.technology: windows-devices

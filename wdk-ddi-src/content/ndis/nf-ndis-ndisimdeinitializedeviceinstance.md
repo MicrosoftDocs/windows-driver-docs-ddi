@@ -113,12 +113,12 @@ The call to
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
    NdisIMInitializeDeviceInstanceEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 

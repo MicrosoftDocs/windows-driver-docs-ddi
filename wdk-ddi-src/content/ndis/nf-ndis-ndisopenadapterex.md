@@ -240,16 +240,16 @@ After the open operation completes successfully, the caller can use the value th
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+   ProtocolOpenAdapterCompleteEx</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_open_parameters.md">NDIS_OPEN_PARAMETERS</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
-   ProtocolOpenAdapterCompleteEx</a>
 
 
 

@@ -94,15 +94,7 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536709">IMiniportMidi::Init</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
@@ -110,7 +102,15 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536709">IMiniportMidi::Init</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 

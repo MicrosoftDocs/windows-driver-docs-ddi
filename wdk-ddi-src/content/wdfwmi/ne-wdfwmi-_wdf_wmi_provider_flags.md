@@ -104,7 +104,11 @@ The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="..\wdfwmi\
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergettracinghandle.md">WdfWmiProviderGetTracingHandle</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 
 
 
@@ -112,19 +116,15 @@ The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="..\wdfwmi\
 
 
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergettracinghandle.md">WdfWmiProviderGetTracingHandle</a>
+
+
+
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
-
-
-
 <a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WdfWmiInstanceControl</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 
 
 

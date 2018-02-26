@@ -7,7 +7,7 @@ old-location: stream\bdacreatetopology.htm
 old-project: stream
 ms.assetid: 855ef77c-2a85-4c8c-b8e3-c4aaa0d2a089
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , B, BdaCreateTopology, BdaCreateTopology function [Streaming Media Devices], C, T, a, bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, bdasup/BdaCreateTopology, d, e, g, l, o, p, r, stream.bdacreatetopology, t, y"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,15 +107,11 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
 
 
 
@@ -123,9 +119,13 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.
 
 
 
- 
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaCreateTopology function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaCreateTopology function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

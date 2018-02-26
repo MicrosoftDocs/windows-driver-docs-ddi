@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountdev_query_unique_id.htm
 old-project: storage
 ms.assetid: 866b9383-d73d-4be1-a4de-b78c9558c3ce
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/24/2018
 ms.keywords: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control code [Storage Devices], k307_5dd8b350-65b5-4f59-b96f-cae11fe7fb5b.xml, mountdev/IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, storage.ioctl_mountdev_query_unique_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,17 +115,17 @@ The <b>Information</b> field is set to FIELD_OFFSET(<a href="..\mountdev\ns-moun
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560443">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>
-
-
-
 <a href="..\mountdev\ns-mountdev-_mountdev_unique_id.md">MOUNTDEV_UNIQUE_ID</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560443">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

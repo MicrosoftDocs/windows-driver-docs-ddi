@@ -7,7 +7,7 @@ old-location: debugger\getvalue.htm
 old-project: debugger
 ms.assetid: 227d7b4f-bf94-4763-bb1f-32efbc087bb1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/23/2018
 ms.keywords: ",  , ,, ., 2, :, D, G, GetValue method [Windows Debugging], GetValue method [Windows Debugging], IDebugRegisters interface, GetValue method [Windows Debugging], IDebugRegisters2 interface, GetValue,IDebugRegisters.GetValue, GetValue,IDebugRegisters2.GetValue, I, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetValue method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetValue method, IDebugRegisters2::GetValue, IDebugRegisters::GetValue, IDebugRegisters_f3e89ca1-7516-476e-8c85-560d8f28f0a8.xml, R, V, a, b, dbgeng/IDebugRegisters2::GetValue, dbgeng/IDebugRegisters::GetValue, debugger.getvalue, e, g, i, l, r, s, t, u"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,7 +146,7 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
 
 
 
@@ -154,7 +154,7 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
 
 
 
@@ -162,5 +162,5 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::GetValue method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::GetValue method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

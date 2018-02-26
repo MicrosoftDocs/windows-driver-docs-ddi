@@ -298,55 +298,11 @@ An MCM driver cannot set the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
-   ProtocolCmActivateVcComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
-   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
-   NdisCmRegisterAddressFamilyEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
-   ProtocolCmIncomingCallComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
 
 
 
@@ -358,20 +314,11 @@ An MCM driver cannot set the
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
-   ProtocolCmDeactivateVcComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
 
 
@@ -379,11 +326,15 @@ An MCM driver cannot set the
 
 
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
 
 
@@ -392,6 +343,55 @@ An MCM driver cannot set the
 
 
 <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+   ProtocolCmActivateVcComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+   NdisCmRegisterAddressFamilyEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+   ProtocolCmIncomingCallComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+   ProtocolCmDeactivateVcComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

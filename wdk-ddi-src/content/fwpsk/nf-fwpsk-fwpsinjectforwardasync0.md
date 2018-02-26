@@ -275,11 +275,7 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
 
 
@@ -288,12 +284,16 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
    FwpsAllocateNetBufferAndNetBufferList0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
 
 
@@ -302,11 +302,11 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

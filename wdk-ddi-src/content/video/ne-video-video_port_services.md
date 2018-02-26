@@ -7,7 +7,7 @@ old-location: display\video_port_services.htm
 old-project: display
 ms.assetid: 3ca53536-e847-4c11-a28d-e046e8a392de
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/24/2018
 ms.keywords: ",  , ,, C, D, E, I, O, P, R, S, T, V, VIDEO_PORT_SERVICES, VIDEO_PORT_SERVICES enumeration [Display Devices], VideoPortServicesAGP, VideoPortServicesDebugReport, VideoPortServicesHeadless, VideoPortServicesI2C, VideoPortServicesInt10, VideoPortServicesWCMemoryProtection, Video_Structs_f2ede654-971a-4700-a911-8063a2a03ffe.xml, _, display.video_port_services, video/VIDEO_PORT_SERVICES, video/VideoPortServicesAGP, video/VideoPortServicesDebugReport, video/VideoPortServicesHeadless, video/VideoPortServicesI2C, video/VideoPortServicesInt10, video/VideoPortServicesWCMemoryProtection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,6 +130,10 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551792">Debug Report Functions Implemented by the Video Port Driver</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538227">AGP Functions Implemented by the Video Port Driver</a>
 
 
@@ -138,13 +142,9 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551792">Debug Report Functions Implemented by the Video Port Driver</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_SERVICES enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_SERVICES enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

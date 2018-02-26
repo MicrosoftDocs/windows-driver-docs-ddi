@@ -93,15 +93,15 @@ A unique 64-bit number that identifies the modem. This is required to distinguis
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
+
+
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sys_caps_info.md">NDIS_WWAN_SYS_CAPS_INFO</a>
 
 
 
 <a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
 
 
 

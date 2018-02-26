@@ -683,7 +683,7 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
 
 
@@ -691,7 +691,15 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
 
 
 
@@ -704,15 +712,7 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>
 
 
 
