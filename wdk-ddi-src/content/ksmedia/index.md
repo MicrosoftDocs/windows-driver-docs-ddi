@@ -2,7 +2,7 @@
 UID: NA:ksmedia
 ms.assetid: 8877c4ae-aa0c-3131-b21b-33fa24797743
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,10 +13,10 @@ ms.topic: portal
 
 
 
-This header is used by Streaming media devices, Audio, Display. For more information, see
+This header is used by Display, Streaming media devices, Audio. For more information, see
+- [Display](../_display/index.md)
 - [Streaming media devices](../_stream/index.md)
 - [Audio](../_audio/index.md)
-- [Display](../_display/index.md)
 
 Ksmedia.h contain these programming interfaces:
 

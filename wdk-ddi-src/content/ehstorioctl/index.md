@@ -2,7 +2,7 @@
 UID: NA:ehstorioctl
 ms.assetid: a7992c39-d4a1-309f-bf0a-231350d779cf
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:wiamicro
 ms.assetid: 6e3ffcb6-f08e-3947-9774-2adf8c435369
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

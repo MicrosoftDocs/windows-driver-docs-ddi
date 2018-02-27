@@ -2,7 +2,7 @@
 UID: NA:rilapi
 ms.assetid: 116743fe-9c7e-3dc4-bcad-a68b4eba9491
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

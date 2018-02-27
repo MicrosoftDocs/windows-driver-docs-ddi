@@ -2,7 +2,7 @@
 UID: TP:pci
 ms.assetid: 8ff09fc0-6843-3e40-9d39-7509ce88abbc
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

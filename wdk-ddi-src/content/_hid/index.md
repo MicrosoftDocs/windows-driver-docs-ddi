@@ -2,7 +2,7 @@
 UID: TP:hid
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:ntddpcm
 ms.assetid: 4c1a57f9-d840-38ed-bb42-d0f3a4965439
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

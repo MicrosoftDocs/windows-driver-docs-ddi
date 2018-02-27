@@ -2,7 +2,7 @@
 UID: NA:spbcx
 ms.assetid: 6b009b60-06dc-3225-88b1-4c355dadc70e
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

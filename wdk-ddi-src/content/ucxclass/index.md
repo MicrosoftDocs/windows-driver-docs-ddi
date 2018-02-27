@@ -2,7 +2,7 @@
 UID: NA:ucxclass
 ms.assetid: dbaa665f-bdcf-3bfc-946e-cfe851a0bcac
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

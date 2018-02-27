@@ -2,7 +2,7 @@
 UID: TP:smartcrd
 ms.assetid: 1f409c41-e10c-39aa-8408-18629cc1c604
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

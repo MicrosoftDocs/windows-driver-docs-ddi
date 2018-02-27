@@ -2,7 +2,7 @@
 UID: TP:usbref
 ms.assetid: 3ef75da3-dd0a-3f40-b741-d6c381f1ed78
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

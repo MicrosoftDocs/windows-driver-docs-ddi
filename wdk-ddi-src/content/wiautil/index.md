@@ -2,7 +2,7 @@
 UID: NA:wiautil
 ms.assetid: 772a15b8-8c34-3cf7-8c3b-dca823285720
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

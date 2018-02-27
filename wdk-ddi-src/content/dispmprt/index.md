@@ -2,7 +2,7 @@
 UID: NA:dispmprt
 ms.assetid: c88cfcf2-97ac-371a-9a81-20a09d36eb77
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

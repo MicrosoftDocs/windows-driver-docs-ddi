@@ -2,7 +2,7 @@
 UID: NA:engextcpp
 ms.assetid: 4849a6b1-830f-3826-8f7f-f7451944fa5f
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

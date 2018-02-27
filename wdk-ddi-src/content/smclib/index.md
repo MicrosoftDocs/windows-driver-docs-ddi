@@ -2,7 +2,7 @@
 UID: NA:smclib
 ms.assetid: 48cd2b63-634e-3de2-8512-b526fb95a434
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,9 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, Smart Card Reader Devices. For more information, see
-- [Windows kernel](../_kernel/index.md)
+This header is used by Smart Card Reader Devices, Windows kernel. For more information, see
 - [Smart Card Reader Devices](../_smartcrd/index.md)
+- [Windows kernel](../_kernel/index.md)
 
 Smclib.h contain these programming interfaces:
 

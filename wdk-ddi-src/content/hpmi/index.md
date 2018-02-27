@@ -2,7 +2,7 @@
 UID: NA:hpmi
 ms.assetid: 1a35262f-16ca-31c9-be91-054656a4cb25
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:ntddscsi
 ms.assetid: 77408c2c-0fca-30f4-a739-547207f848ef
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

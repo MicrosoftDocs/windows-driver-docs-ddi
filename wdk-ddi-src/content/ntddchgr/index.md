@@ -2,7 +2,7 @@
 UID: NA:ntddchgr
 ms.assetid: f1bab14a-b109-3e0f-8bfb-f85c148fc4a9
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:drmk
 ms.assetid: d0869a59-50dc-35f9-a3cc-2e955c1a9812
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

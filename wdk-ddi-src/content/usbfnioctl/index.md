@@ -2,7 +2,7 @@
 UID: NA:usbfnioctl
 ms.assetid: 346c06db-ae00-3b42-a05a-d786904c5f0f
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

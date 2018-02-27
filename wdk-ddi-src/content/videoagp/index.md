@@ -2,7 +2,7 @@
 UID: NA:videoagp
 ms.assetid: 0fc9df98-c623-3890-a8d0-1ec564589343
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

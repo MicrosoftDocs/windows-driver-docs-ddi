@@ -2,7 +2,7 @@
 UID: NA:wdfrequest
 ms.assetid: 10b9bec4-c13d-3d81-bf4f-3a6c11fa28b5
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

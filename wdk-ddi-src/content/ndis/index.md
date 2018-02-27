@@ -2,7 +2,7 @@
 UID: NA:ndis
 ms.assetid: e28f0b17-202f-367c-9cdd-eb5880617eca
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

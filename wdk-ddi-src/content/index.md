@@ -2,7 +2,7 @@
 UID: TP:_windowsdriverandtechnologies
 ms.assetid: 36bb2d05-4309-397e-916f-f7f16d601876
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

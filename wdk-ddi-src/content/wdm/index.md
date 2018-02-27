@@ -2,7 +2,7 @@
 UID: NA:wdm
 ms.assetid: 8462c1fe-6be6-3c3a-88f8-fb7aba330515
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,14 +13,14 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, Installable file system, PCI, Driver test tools, Windows Driver Framework, Battery, Benchmark. For more information, see
+This header is used by Windows kernel, Installable file system, PCI, Driver test tools, Benchmark, Windows Driver Framework, Battery. For more information, see
 - [Windows kernel](../_kernel/index.md)
 - [Installable file system](../_ifsk/index.md)
 - [PCI](../_PCI/index.md)
 - [Driver test tools](../_devtest/index.md)
+- [Benchmark](../_Benchmark/index.md)
 - [Windows Driver Framework](../_wdf/index.md)
 - [Battery](../_battery/index.md)
-- [Benchmark](../_Benchmark/index.md)
 
 Wdm.h contain these programming interfaces:
 

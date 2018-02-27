@@ -2,7 +2,7 @@
 UID: NA:miniport
 ms.assetid: a0a0b4a0-7bc0-3610-8f94-30f1e1e1cc06
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,9 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by PCI, Windows kernel, Windows Driver Framework, Display. For more information, see
-- [PCI](../_PCI/index.md)
+This header is used by Windows kernel, PCI, Windows Driver Framework, Display. For more information, see
 - [Windows kernel](../_kernel/index.md)
+- [PCI](../_PCI/index.md)
 - [Windows Driver Framework](../_wdf/index.md)
 - [Display](../_display/index.md)
 

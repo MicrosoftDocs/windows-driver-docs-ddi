@@ -2,7 +2,7 @@
 UID: NA:storport
 ms.assetid: 366530f2-be44-3f7d-92e4-e74a385c6480
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

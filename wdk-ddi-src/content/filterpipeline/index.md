@@ -2,7 +2,7 @@
 UID: NA:filterpipeline
 ms.assetid: 434b4bef-ac82-3eee-8cc8-8fbfd4bad71c
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

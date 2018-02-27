@@ -2,7 +2,7 @@
 UID: NA:prcomoem
 ms.assetid: 0458b097-7680-3460-8cbd-f14ad4279a69
 ms.author: windowsdriverdev
-ms.date: 02/26/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
