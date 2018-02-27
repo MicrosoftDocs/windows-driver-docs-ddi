@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsAllocateDefaultClockEx
 product: Windows
 targetos: Windows
@@ -129,15 +129,11 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
+<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
-
-
-
-<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
 
 
 
@@ -146,6 +142,10 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
 
 
 

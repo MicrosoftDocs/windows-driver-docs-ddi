@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	kbdmou.h
-apiname:
+api_name:
 -	IOCTL_INTERNAL_KEYBOARD_CONNECT
 product: Windows
 targetos: Windows
@@ -170,11 +170,11 @@ The request completed successfully.
 
 ## -see-also
 
-<a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA (Kbdclass)</a>
-
-
-
 <a href="https://msdn.microsoft.com/02815805-47cf-454c-8117-f5686a855e25">KeyboardClassServiceCallback</a>
+
+
+
+<a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA (Kbdclass)</a>
 
 
 

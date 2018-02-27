@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces.SearchVirtual
 -	IDebugDataSpaces2.SearchVirtual
 -	IDebugDataSpaces3.SearchVirtual
@@ -163,7 +163,7 @@ For additional options, including the ability to restrict the search to writable
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554755">SearchVirtual2</a>
 
 
 
@@ -171,7 +171,7 @@ For additional options, including the ability to restrict the search to writable
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 
 
@@ -179,7 +179,7 @@ For additional options, including the ability to restrict the search to writable
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554755">SearchVirtual2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname:
+api_name:
 -	StorPortReadPortBufferUchar
 product: Windows
 targetos: Windows
@@ -127,11 +127,11 @@ For more information, see the <a href="..\storport\nf-storport-scsiportreadportb
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>
-
-
-
 <a href="..\storport\nf-storport-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
+
+
+
+<a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>
 
 
 

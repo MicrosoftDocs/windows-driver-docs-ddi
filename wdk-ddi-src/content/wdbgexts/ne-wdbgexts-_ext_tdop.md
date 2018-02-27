@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	WdbgExts.h
-apiname:
+api_name:
 -	EXT_TDOP
 product: Windows
 targetos: Windows
@@ -191,15 +191,15 @@ Does not specify an operation. Instead, it represents the number of suboperation
 
 ## -see-also
 
+<a href="..\wdbgexts\ns-wdbgexts-_ext_typed_data.md">EXT_TYPED_DATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
-
-
-
-<a href="..\wdbgexts\ns-wdbgexts-_ext_typed_data.md">EXT_TYPED_DATA</a>
 
 
 

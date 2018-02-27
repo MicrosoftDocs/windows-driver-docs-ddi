@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Mcd.lib
 -	Mcd.dll
-apiname:
+api_name:
 -	ChangerClassInitialize
 product: Windows
 targetos: Windows

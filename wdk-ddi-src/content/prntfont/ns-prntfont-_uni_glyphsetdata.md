@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	prntfont.h
-apiname:
+api_name:
 -	UNI_GLYPHSETDATA
 product: Windows
 targetos: Windows
@@ -148,11 +148,11 @@ A UNI_GLYPHSETDATA structure must be the first structure contained in a .gtt fil
 
 
 
-<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dukmdt.h
-apiname:
+api_name:
 -	DXGK_MIRACAST_CHUNK_INFO
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ The encode bit rate, in kilobits per second, that the display miniport driver re
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_dxgk_miracast_chunk_type.md">DXGK_MIRACAST_CHUNK_TYPE</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_id.md">DXGK_MIRACAST_CHUNK_ID</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_dxgk_miracast_chunk_type.md">DXGK_MIRACAST_CHUNK_TYPE</a>
 
 
 

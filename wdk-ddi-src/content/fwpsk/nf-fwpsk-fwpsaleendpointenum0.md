@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname:
+api_name:
 -	FwpsAleEndpointEnum0
 product: Windows
 targetos: Windows
@@ -171,6 +171,15 @@ When finished examining endpoint properties, the callout driver must call
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
+   FwpsAleEndpointSetSecurityInfo0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
    FwpsAleEndpointGetSecurityInfo0</a>
 
@@ -183,15 +192,6 @@ When finished examining endpoint properties, the callout driver must call
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
    FwpsAleEndpointDestroyEnumHandle0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
-   FwpsAleEndpointSetSecurityInfo0</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	drmk.h
-apiname:
+api_name:
 -	DRMRIGHTS
 product: Windows
 targetos: Windows
@@ -266,19 +266,7 @@ This macro does not return a value.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
 
 
 
@@ -286,7 +274,19 @@ This macro does not return a value.
 
 
 
+<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+
+
 <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
 
 
 

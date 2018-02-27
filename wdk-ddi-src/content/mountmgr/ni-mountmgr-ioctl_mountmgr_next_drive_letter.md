@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Mountmgr.h
-apiname:
+api_name:
 -	IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Usb.h
-apiname:
+api_name:
 -	_URB_OPEN_STATIC_STREAMS
 product: Windows
 targetos: Windows
@@ -129,6 +129,10 @@ When the client driver is finished using the streams, the driver can close all s
 
 ## -see-also
 
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
 
 
@@ -138,10 +142,6 @@ When the client driver is finished using the streams, the driver can close all s
 
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 

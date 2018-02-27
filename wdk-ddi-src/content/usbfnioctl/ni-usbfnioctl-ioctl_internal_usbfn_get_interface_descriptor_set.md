@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbfnioctl.h
-apiname:
+api_name:
 -	IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET
 product: Windows
 targetos: Windows
@@ -121,11 +121,11 @@ If the length of the entire descriptor set is greater than the  specified output
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a>
-
-
-
 <a href="..\usbfnbase\ns-usbfnbase-_usbfn_interface_info.md">USBFN_INTERFACE_INFO</a>
+
+
+
+<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	KeywordDetectorOemAdapter.h
-apiname:
+api_name:
 -	KEYWORDID
 product: Windows
 targetos: Windows

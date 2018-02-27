@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	netdma.h
-apiname:
+api_name:
 -	NET_DMA_PROVIDER_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -142,7 +142,7 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
+<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
 
 
@@ -151,11 +151,11 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 
 
+<a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-
-
-<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
 
 

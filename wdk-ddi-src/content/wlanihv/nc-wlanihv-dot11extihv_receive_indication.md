@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtIhvReceiveIndication
 product: Windows
 targetos: Windows
@@ -129,7 +129,8 @@ When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567399">
+   NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</a>
 
 
 
@@ -137,8 +138,7 @@ When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567399">
-   NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

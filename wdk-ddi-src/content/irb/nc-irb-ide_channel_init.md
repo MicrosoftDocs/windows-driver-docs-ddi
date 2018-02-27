@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	irb.h
-apiname:
+api_name:
 -	AtaChannelInitRoutine
 product: Windows
 targetos: Windows
@@ -134,11 +134,11 @@ The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using contr
 
 
 
-<a href="..\irb\ns-irb-_ide_controller_interface.md">IDE_CONTROLLER_INTERFACE</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a>
+
+
+
+<a href="..\irb\ns-irb-_ide_controller_interface.md">IDE_CONTROLLER_INTERFACE</a>
 
 
 

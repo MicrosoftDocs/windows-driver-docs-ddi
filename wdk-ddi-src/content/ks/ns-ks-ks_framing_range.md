@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KS_FRAMING_RANGE
 product: Windows
 targetos: Windows
@@ -95,15 +95,15 @@ When specifying the <b>Stepping</b> member, ensure that the value does not excee
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
-
-
-
 <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
 
 
 
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+
+
+<a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
 
 
 

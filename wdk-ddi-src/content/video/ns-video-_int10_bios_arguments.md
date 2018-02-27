@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	INT10_BIOS_ARGUMENTS
 product: Windows
 targetos: Windows
@@ -118,11 +118,11 @@ The first seven members of the INT10_BIOS_ARGUMENTS structure are identical to t
 
 ## -see-also
 
-<a href="..\video\nc-video-pint10_call_bios.md">Int10CallBios</a>
-
-
-
 <a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
+
+
+
+<a href="..\video\nc-video-pint10_call_bios.md">Int10CallBios</a>
 
 
 

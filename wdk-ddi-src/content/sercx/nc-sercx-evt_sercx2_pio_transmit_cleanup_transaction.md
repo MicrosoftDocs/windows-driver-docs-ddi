@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	2.0\Sercx.h
-apiname:
+api_name:
 -	EvtSerCx2PioTransmitCleanupTransaction
 product: Windows
 targetos: Windows
@@ -137,7 +137,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION</b> function type is defined 
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcleanuptransactioncomplete.md">SerCx2PioTransmitCleanupTransactionComplete</a>
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
 
 
 
@@ -145,7 +145,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION</b> function type is defined 
 
 
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+<a href="..\sercx\nf-sercx-sercx2piotransmitcleanuptransactioncomplete.md">SerCx2PioTransmitCleanupTransactionComplete</a>
 
 
 

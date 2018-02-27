@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pepfx.h
-apiname:
+api_name:
 -	PEP_PERF_STATE
 product: Windows
 targetos: Windows
@@ -91,11 +91,11 @@ Device drivers use the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_perf_state.md">PO_F
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_po_fx_perf_state.md">PO_FX_PERF_STATE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
 
 
 

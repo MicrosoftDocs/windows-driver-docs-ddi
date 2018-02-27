@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	WinSpool.drv
-apiname:
+api_name:
 -	UpdatePrintDeviceObject
 product: Windows
 targetos: Windows

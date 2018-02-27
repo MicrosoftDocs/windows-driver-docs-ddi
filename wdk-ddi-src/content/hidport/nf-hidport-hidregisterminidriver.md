@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Hid.lib
 -	Hid.dll
-apiname:
+api_name:
 -	HidRegisterMinidriver
 product: Windows
 targetos: Windows

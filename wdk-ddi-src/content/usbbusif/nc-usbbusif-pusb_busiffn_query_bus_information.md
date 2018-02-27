@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "< = DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	usbbusif.h
-apiname:
+api_name:
 -	QueryBusInformation
 product: Windows
 targetos: Windows
@@ -172,15 +172,15 @@ The function definition that is provided on this reference page is an example ro
 
 ## -see-also
 
+<a href="..\usbbusif\ns-usbbusif-_usb_bus_information_level_0.md">USB_BUS_INFORMATION_LEVEL_0</a>
+
+
+
 <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a>
 
 
 
 <a href="..\usbbusif\ns-usbbusif-_usb_bus_information_level_1.md">USB_BUS_INFORMATION_LEVEL_1</a>
-
-
-
-<a href="..\usbbusif\ns-usbbusif-_usb_bus_information_level_0.md">USB_BUS_INFORMATION_LEVEL_0</a>
 
 
 

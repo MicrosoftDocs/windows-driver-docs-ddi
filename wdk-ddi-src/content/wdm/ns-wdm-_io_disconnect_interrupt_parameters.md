@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	IO_DISCONNECT_INTERRUPT_PARAMETERS
 product: Windows
 targetos: Windows
@@ -181,7 +181,7 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRU
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
 
 
 
@@ -189,7 +189,7 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRU
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 

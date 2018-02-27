@@ -2,7 +2,7 @@
 UID: TP:wdf
 ms.assetid: cf4c7959-f8f4-3342-82e9-ced7b9f1b959
 ms.author: windowsdriverdev
-ms.date: 01/18/18
+ms.date: 02/26/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,6 +16,7 @@ Overview of the Windows Driver Framework technology.
 
 To develop Windows Driver Framework, you need these headers:
 
+ * [miniport.h](..\miniport\index.md)
  * [ntpoapi.h](..\ntpoapi\index.md)
  * [wdfchildlist.h](..\wdfchildlist\index.md)
  * [wdfcollection.h](..\wdfcollection\index.md)
@@ -52,1268 +53,4182 @@ To develop Windows Driver Framework, you need these headers:
  * [wdfverifier.h](..\wdfverifier\index.md)
  * [wdfwmi.h](..\wdfwmi\index.md)
  * [wdfworkitem.h](..\wdfworkitem\index.md)
+ * [wdm.h](..\wdm\index.md)
  * [wudfddi.h](..\wudfddi\index.md)
  * [wudfddi_hwaccess.h](..\wudfddi_hwaccess\index.md)
  * [wudfddi_types.h](..\wudfddi_types\index.md)
  * [wudfdevice.h](..\wudfdevice\index.md)
  * [wudfinterrupt.h](..\wudfinterrupt\index.md)
  * [wudfusb.h](..\wudfusb\index.md)
+ * [wudfwdm.h](..\wudfwdm\index.md)
  * [wudfworkitem.h](..\wudfworkitem\index.md)
 
 For the programming guide, see [Windows Driver Framework](https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf).
 
-## Functions
+The following table lists all of the Windows Driver Frameworks (WDF) callbacks, methods, and macros, and their availability in KMDF and UMDF version 2.
 
-| Title   | Description   |
-| ---- |:---- |
-| [READ_PORT_BUFFER_UCHAR function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_port_buffer_uchar.md) | The READ_PORT_BUFFER_UCHAR function reads a number of bytes from the specified port address into a buffer. |
-| [READ_PORT_BUFFER_ULONG function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_port_buffer_ulong.md) | The READ_PORT_BUFFER_ULONG function reads a number of ULONG values from the specified port address into a buffer. |
-| [READ_PORT_BUFFER_USHORT function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_port_buffer_ushort.md) | The READ_PORT_BUFFER_USHORT function reads a number of USHORT values from the specified port address into a buffer. |
-| [READ_PORT_UCHAR function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_port_uchar.md) | The READ_PORT_UCHAR function reads a byte from the specified port address. |
-| [READ_PORT_ULONG function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_port_ulong.md) | The READ_PORT_ULONG function reads a ULONG value from the specified port address. |
-| [READ_PORT_USHORT function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_port_ushort.md) | The READ_PORT_USHORT function reads a USHORT value from the specified port address. |
-| [READ_REGISTER_BUFFER_UCHAR function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_register_buffer_uchar.md) | The READ_REGISTER_BUFFER_UCHAR function reads a number of bytes from the specified register address into a buffer. |
-| [READ_REGISTER_BUFFER_ULONG function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_register_buffer_ulong.md) | The READ_REGISTER_BUFFER_ULONG function reads a number of ULONG values from the specified register address into a buffer. |
-| [READ_REGISTER_BUFFER_ULONG64 function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_register_buffer_ulong64.md) | The READ_REGISTER_BUFFER_ULONG64 function reads a number of ULONG64 values from the specified register address into a buffer. |
-| [READ_REGISTER_BUFFER_USHORT function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_register_buffer_ushort.md) | The READ_REGISTER_BUFFER_USHORT function reads a number of USHORT values from the specified register address into a buffer. |
-| [READ_REGISTER_UCHAR function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_register_uchar.md) | The READ_REGISTER_UCHAR function reads a byte from the specified register address. |
-| [READ_REGISTER_ULONG function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_register_ulong.md) | The READ_REGISTER_ULONG function reads a ULONG value from the specified register address. |
-| [READ_REGISTER_ULONG64 function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_register_ulong64.md) | The READ_REGISTER_ULONG64 function reads a ULONG64 value from the specified register address. |
-| [READ_REGISTER_USHORT function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-read_register_ushort.md) | The READ_REGISTER_USHORT function reads a USHORT value from the specified register address. |
-| [WDF_ABS_TIMEOUT_IN_MS function](..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_ms.md) | The WDF_ABS_TIMEOUT_IN_MS function converts a specified number of milliseconds to an absolute time value. |
-| [WDF_ABS_TIMEOUT_IN_SEC function](..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_sec.md) | The WDF_ABS_TIMEOUT_IN_SEC function converts a specified number of seconds to an absolute time value. |
-| [WDF_ABS_TIMEOUT_IN_US function](..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_us.md) | The WDF_ABS_TIMEOUT_IN_US function converts a specified number of microseconds to an absolute time value. |
-| [WDF_ALIGN_SIZE_DOWN function](..\wdfcore\nf-wdfcore-wdf_align_size_down.md) | The WDF_ALIGN_SIZE_DOWN function returns the next-lower buffer size that is aligned to a specified alignment offset. |
-| [WDF_ALIGN_SIZE_UP function](..\wdfcore\nf-wdfcore-wdf_align_size_up.md) | The WDF_ALIGN_SIZE_UP function returns the next-higher buffer size that is aligned to a specified alignment offset. |
-| [WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function](..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md) | The WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function initializes a WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure. |
-| [WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function](..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md) | The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function initializes a WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure. |
-| [WDF_CHILD_LIST_CONFIG_INIT function](..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md) | The WDF_CHILD_LIST_CONFIG_INIT function initializes a WDF_CHILD_LIST_CONFIG structure. |
-| [WDF_CHILD_LIST_ITERATOR_INIT function](..\wdfchildlist\nf-wdfchildlist-wdf_child_list_iterator_init.md) | The WDF_CHILD_LIST_ITERATOR_INIT function initializes a WDF_CHILD_LIST_ITERATOR structure. |
-| [WDF_CHILD_RETRIEVE_INFO_INIT function](..\wdfchildlist\nf-wdfchildlist-wdf_child_retrieve_info_init.md) | The WDF_CHILD_RETRIEVE_INFO_INIT function initializes a WDF_CHILD_RETRIEVE_INFO structure. |
-| [WDF_COINSTALLER_INSTALL_OPTIONS_INIT function](..\wdfinstaller\nf-wdfinstaller-wdf_coinstaller_install_options_init.md) | The WDF_COINSTALLER_INSTALL_OPTIONS_INIT function initializes a WDF_COINSTALLER_INSTALL_OPTIONS structure. |
-| [WDF_COMMON_BUFFER_CONFIG_INIT function](..\wdfcommonbuffer\nf-wdfcommonbuffer-wdf_common_buffer_config_init.md) | The WDF_COMMON_BUFFER_CONFIG_INIT function initializes a WDF_COMMON_BUFFER_CONFIG structure. |
-| [WDF_COMPANION_EVENT_CALLBACKS_INIT function](..\wdfcompanion\nf-wdfcompanion-wdf_companion_event_callbacks_init.md) | For internal use only. |
-| [WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function](..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md) | The WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function initializes a driver's WDF_DEVICE_INTERFACE_PROPERTY_DATA structure. |
-| [WDF_DEVICE_PNP_CAPABILITIES_INIT function](..\wdfdevice\nf-wdfdevice-wdf_device_pnp_capabilities_init.md) | The WDF_DEVICE_PNP_CAPABILITIES_INIT function initializes a WDF_DEVICE_PNP_CAPABILITIES structure. |
-| [WDF_DEVICE_POWER_CAPABILITIES_INIT function](..\wdfdevice\nf-wdfdevice-wdf_device_power_capabilities_init.md) | The WDF_DEVICE_POWER_CAPABILITIES_INIT function initializes a WDF_DEVICE_POWER_CAPABILITIES structure. |
-| [WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function](..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_idle_settings_init.md) | The WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function initializes a driver's WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure. |
-| [WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function](..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_wake_settings_init.md) | The WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function initializes a driver's WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure. |
-| [WDF_DEVICE_PROPERTY_DATA_INIT function](..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md) | The WDF_DEVICE_PROPERTY_DATA_INIT function initializes a driver's WDF_DEVICE_PROPERTY_DATA structure. |
-| [WDF_DEVICE_STATE_INIT function](..\wdfdevice\nf-wdfdevice-wdf_device_state_init.md) | The WDF_DEVICE_STATE_INIT function initializes a driver's WDF_DEVICE_STATE structure. |
-| [WDF_DMA_ENABLER_CONFIG_INIT function](..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md) | The WDF_DMA_ENABLER_CONFIG_INIT function initializes a driver's WDF_DMA_ENABLER_CONFIG structure. |
-| [WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function](..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md) | The WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function initializes a driver's WDF_DMA_SYSTEM_PROFILE_CONFIG structure. |
-| [WDF_DPC_CONFIG_INIT function](..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md) | The WDF_DPC_CONFIG_INIT function initializes a driver's WDF_DPC_CONFIG structure. |
-| [WDF_DRIVER_CONFIG_INIT function](..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md) | The WDF_DRIVER_CONFIG_INIT function initializes a driver's WDF_DRIVER_CONFIG structure. |
-| [WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function](..\wdfdriver\nf-wdfdriver-wdf_driver_version_available_params_init.md) | The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes a WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure. |
-| [WDF_FDO_EVENT_CALLBACKS_INIT function](..\wdffdo\nf-wdffdo-wdf_fdo_event_callbacks_init.md) | The WDF_FDO_EVENT_CALLBACKS_INIT function initializes a WDF_FDO_EVENT_CALLBACKS structure. |
-| [WDF_FILEOBJECT_CONFIG_INIT function](..\wdfdevice\nf-wdfdevice-wdf_fileobject_config_init.md) | The WDF_FILEOBJECT_CONFIG_INIT function initializes a driver's WDF_FILEOBJECT_CONFIG structure. |
-| [WDF_INTERRUPT_CONFIG_INIT function](..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_config_init.md) | The WDF_INTERRUPT_CONFIG_INIT function initializes a WDF_INTERRUPT_CONFIG structure. |
-| [WDF_INTERRUPT_EXTENDED_POLICY_INIT function](..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_extended_policy_init.md) | The WDF_INTERRUPT_EXTENDED_POLICY_INIT function initializes a WDF_INTERRUPT_EXTENDED_POLICY structure. |
-| [WDF_INTERRUPT_EXTENDED_POLICY_INIT function](..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md) | The WDF_INTERRUPT_EXTENDED_POLICY_INIT function initializes a WDF_INTERRUPT_EXTENDED_POLICY structure. |
-| [WDF_INTERRUPT_INFO_INIT function](..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_info_init.md) | The WDF_INTERRUPT_INFO_INIT function initializes a WDF_INTERRUPT_INFO structure. |
-| [WDF_INTERRUPT_INFO_INIT function](..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md) | The WDF_INTERRUPT_INFO_INIT function initializes a WDF_INTERRUPT_INFO structure. |
-| [WDF_IO_QUEUE_CONFIG_INIT function](..\wdfio\nf-wdfio-wdf_io_queue_config_init.md) | The WDF_IO_QUEUE_CONFIG_INIT function initializes a driver's WDF_IO_QUEUE_CONFIG structure. |
-| [WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function](..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md) | The WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function initializes a driver's WDF_IO_QUEUE_CONFIG structure. |
-| [WDF_IO_QUEUE_DRAINED function](..\wdfio\nf-wdfio-wdf_io_queue_drained.md) | The WDF_IO_QUEUE_DRAINED function returns TRUE if the I/O queue's state indicates that the queue is drained. |
-| [WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function](..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_default_init.md) | The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function initializes a driver's WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure. |
-| [WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function](..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_examine_init.md) | The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function initializes a driver's WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure. |
-| [WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT function](..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_pagingio_init.md) | The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT function initializes a driver's WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure. |
-| [WDF_IO_QUEUE_IDLE function](..\wdfio\nf-wdfio-wdf_io_queue_idle.md) | The WDF_IO_QUEUE_IDLE function returns TRUE if an I/O queue's state indicates that the queue is drained. |
-| [WDF_IO_QUEUE_PURGED function](..\wdfio\nf-wdfio-wdf_io_queue_purged.md) | The WDF_IO_QUEUE_PURGED function returns TRUE if an I/O queue's state indicates that the queue is drained. |
-| [WDF_IO_QUEUE_READY function](..\wdfio\nf-wdfio-wdf_io_queue_ready.md) | The WDF_IO_QUEUE_READY function returns TRUE if an I/O queue's state indicates that the queue is drained. |
-| [WDF_IO_QUEUE_STOPPED function](..\wdfio\nf-wdfio-wdf_io_queue_stopped.md) | The WDF_IO_QUEUE_STOPPED function returns TRUE if an I/O queue's state indicates that the queue is stopped. |
-| [WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function](..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_create_by_name.md) | The WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so the driver can open an I/O target by specifying the name of the device, file, or device interface. |
-| [WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE function](..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_existing_device.md) | The WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so that the driver can open a remote I/O target by specifying a Windows Driver Model (WDM) device object. |
-| [WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function](..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md) | The WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so the driver can open an I/O target by specifying a filename. |
-| [WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function](..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_name.md) | The WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so the driver can open an I/O target by specifying the name of the device, file, or device interface. |
-| [WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN function](..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_reopen.md) | The WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so the driver can reopen a remote I/O target. |
-| [WDF_IO_TYPE_CONFIG_INIT function](..\wdfdevice\nf-wdfdevice-wdf_io_type_config_init.md) | The WDF_IO_TYPE_CONFIG_INIT function initializes a driver's WDF_IO_TYPE_CONFIG structure. |
-| [WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function](..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md) | The WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function initializes a WDF_MEMORY_DESCRIPTOR structure so that it describes a specified buffer. |
-| [WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function](..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_handle.md) | The WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function initializes a WDF_MEMORY_DESCRIPTOR structure so that it describes a specified framework memory object. |
-| [WDF_MEMORY_DESCRIPTOR_INIT_MDL function](..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_mdl.md) | The WDF_MEMORY_DESCRIPTOR_INIT_MDL function initializes a WDF_MEMORY_DESCRIPTOR structure so that it describes a specified memory descriptor list (MDL). |
-| [WDF_OBJECT_ATTRIBUTES_INIT function](..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md) | The WDF_OBJECT_ATTRIBUTES_INIT function initializes a driver's WDF_OBJECT_ATTRIBUTES structure. |
-| [WDF_PDO_EVENT_CALLBACKS_INIT function](..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md) | The WDF_PDO_EVENT_CALLBACKS_INIT function initializes a WDF_PDO_EVENT_CALLBACKS structure. |
-| [WDF_PNPPOWER_EVENT_CALLBACKS_INIT function](..\wdfdevice\nf-wdfdevice-wdf_pnppower_event_callbacks_init.md) | The WDF_PNPPOWER_EVENT_CALLBACKS_INIT function initializes a driver's WDF_PNPPOWER_EVENT_CALLBACKS structure. |
-| [WDF_POWER_FRAMEWORK_SETTINGS_INIT function](..\wdfdevice\nf-wdfdevice-wdf_power_framework_settings_init.md) | The WDF_POWER_FRAMEWORK_SETTINGS_INIT function initializes a WDF_POWER_FRAMEWORK_SETTINGS structure. |
-| [WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function](..\wdfdevice\nf-wdfdevice-wdf_power_policy_event_callbacks_init.md) | The WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function initializes a driver's WDF_POWER_POLICY_EVENT_CALLBACKS structure. |
-| [WDF_QUERY_INTERFACE_CONFIG_INIT function](..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md) | The WDF_QUERY_INTERFACE_CONFIG_INIT function initializes a driver's WDF_QUERY_INTERFACE_CONFIG structure. |
-| [WDF_READ_PORT_BUFFER_UCHAR function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_port_buffer_uchar.md) | The WDF_READ_PORT_BUFFER_UCHAR function reads a number of bytes from the specified port address into a buffer. |
-| [WDF_READ_PORT_BUFFER_ULONG function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_port_buffer_ulong.md) | The WDF_READ_PORT_BUFFER_ULONG function reads a number of ULONG values from the specified port address into a buffer. |
-| [WDF_READ_PORT_BUFFER_USHORT function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_port_buffer_ushort.md) | The WDF_READ_PORT_BUFFER_USHORT function reads a number of USHORT values from the specified port address into a buffer. |
-| [WDF_READ_PORT_UCHAR function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_port_uchar.md) | The WDF_READ_PORT_UCHAR function reads a byte from the specified port address. |
-| [WDF_READ_PORT_ULONG function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_port_ulong.md) | The WDF_READ_PORT_ULONG function reads a ULONG value from the specified port address. |
-| [WDF_READ_PORT_USHORT function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_port_ushort.md) | The WDF_READ_PORT_USHORT function reads a USHORT value from the specified port address. |
-| [WDF_READ_REGISTER_BUFFER_UCHAR function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_register_buffer_uchar.md) | The WDF_READ_REGISTER_BUFFER_UCHAR function reads a number of bytes from the specified register address into a buffer. |
-| [WDF_READ_REGISTER_BUFFER_ULONG function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_register_buffer_ulong.md) | The WDF_READ_REGISTER_BUFFER_ULONG function reads a number of ULONG values from the specified register address into a buffer. |
-| [WDF_READ_REGISTER_BUFFER_ULONG64 function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_register_buffer_ulong64.md) | The WDF_READ_REGISTER_BUFFER_ULONG64 function reads a number of ULONG64 values from the specified register address into a buffer. |
-| [WDF_READ_REGISTER_BUFFER_USHORT function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_register_buffer_ushort.md) | The WDF_READ_REGISTER_BUFFER_USHORT function reads a number of USHORT values from the specified register address into a buffer. |
-| [WDF_READ_REGISTER_UCHAR function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_register_uchar.md) | The WDF_READ_REGISTER_UCHAR function reads a byte from the specified register address. |
-| [WDF_READ_REGISTER_ULONG function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_register_ulong.md) | The WDF_READ_REGISTER_ULONG function reads a ULONG value from the specified register address. |
-| [WDF_READ_REGISTER_ULONG64 function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_register_ulong64.md) | The WDF_READ_REGISTER_ULONG64 function reads a ULONG64 value from the specified register address. |
-| [WDF_READ_REGISTER_USHORT function](..\wdfhwaccess\nf-wdfhwaccess-wdf_read_register_ushort.md) | The WDF_READ_REGISTER_USHORT function reads a USHORT value from the specified register address. |
-| [WDF_REL_TIMEOUT_IN_MS function](..\wdfcore\nf-wdfcore-wdf_rel_timeout_in_ms.md) | The WDF_REL_TIMEOUT_IN_MS function converts a specified number of milliseconds to a relative time value. |
-| [WDF_REL_TIMEOUT_IN_SEC function](..\wdfcore\nf-wdfcore-wdf_rel_timeout_in_sec.md) | The WDF_REL_TIMEOUT_IN_SEC function converts a specified number of seconds to a relative time value. |
-| [WDF_REL_TIMEOUT_IN_US function](..\wdfcore\nf-wdfcore-wdf_rel_timeout_in_us.md) | The WDF_REL_TIMEOUT_IN_US function converts a specified number of microseconds to a relative time value. |
-| [WDF_REMOVE_LOCK_OPTIONS_INIT function](..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md) | The WDF_REMOVE_LOCK_OPTIONS_INIT function initializes a WDF_REMOVE_LOCK_OPTIONS structure. |
-| [WDF_REQUEST_COMPLETION_PARAMS_INIT function](..\wdfrequest\nf-wdfrequest-wdf_request_completion_params_init.md) | The WDF_REQUEST_COMPLETION_PARAMS_INIT function initializes a WDF_REQUEST_COMPLETION_PARAMS structure. |
-| [WDF_REQUEST_FORWARD_OPTIONS_INIT function](..\wdfrequest\nf-wdfrequest-wdf_request_forward_options_init.md) | The WDF_REQUEST_FORWARD_OPTIONS_INIT function initializes a WDF_REQUEST_FORWARD_OPTIONS structure. |
-| [WDF_REQUEST_PARAMETERS_INIT function](..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md) | The WDF_REQUEST_PARAMETERS_INIT function initializes a WDF_REQUEST_PARAMETERS structure. |
-| [WDF_REQUEST_REUSE_PARAMS_INIT function](..\wdfrequest\nf-wdfrequest-wdf_request_reuse_params_init.md) | The WDF_REQUEST_REUSE_PARAMS_INIT function initializes a driver's WDF_REQUEST_REUSE_PARAMS structure. |
-| [WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function](..\wdfrequest\nf-wdfrequest-wdf_request_reuse_params_set_new_irp.md) | The WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function sets a new IRP in a driver's WDF_REQUEST_REUSE_PARAMS structure. |
-| [WDF_REQUEST_SEND_OPTIONS_INIT function](..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md) | The WDF_REQUEST_SEND_OPTIONS_INIT function initializes a driver's WDF_REQUEST_SEND_OPTIONS structure. |
-| [WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function](..\wdfrequest\nf-wdfrequest-wdf_request_send_options_set_timeout.md) | The WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function sets a time-out value in a driver's WDF_REQUEST_SEND_OPTIONS structure. |
-| [WDF_TASK_QUEUE_CONFIG_INIT function](..\wdfcompanion\nf-wdfcompanion-wdf_task_queue_config_init.md) | For internal use only. |
-| [WDF_TASK_SEND_OPTIONS_INIT function](..\wdfcompaniontarget\nf-wdfcompaniontarget-wdf_task_send_options_init.md) | For internal use only. |
-| [WDF_TIMER_CONFIG_INIT function](..\wdftimer\nf-wdftimer-wdf_timer_config_init.md) | The WDF_TIMER_CONFIG_INIT function initializes a WDF_TIMER_CONFIG structure for a timer that will use a single due time. |
-| [WDF_TIMER_CONFIG_INIT_PERIODIC function](..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md) | The WDF_TIMER_CONFIG_INIT_PERIODIC function initializes a WDF_TIMER_CONFIG structure for a periodic timer. |
-| [WDF_USB_CONTINUOUS_READER_CONFIG_INIT function](..\wdfusb\nf-wdfusb-wdf_usb_continuous_reader_config_init.md) | The WDF_USB_CONTINUOUS_READER_CONFIG_INIT function initializes a WDF_USB_CONTINUOUS_READER_CONFIG structure. |
-| [WDF_USB_CONTROL_SETUP_PACKET_INIT function](..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md) | The WDF_USB_CONTROL_SETUP_PACKET_INIT function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a standard USB control transfer. |
-| [WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function](..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_class.md) | The WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a device class-specific USB control transfer. |
-| [WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function](..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_feature.md) | The WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a USB control transfer that sets or clears a device feature. |
-| [WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function](..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md) | The WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a USB control transfer that obtains device status. |
-| [WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR function](..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md) | The WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a vendor-specific USB control transfer. |
-| [WDF_USB_DEVICE_CREATE_CONFIG_INIT function](..\wdfusb\nf-wdfusb-wdf_usb_device_create_config_init.md) | The WDF_USB_DEVICE_CREATE_CONFIG_INIT function initializes a WDF_USB_DEVICE_CREATE_CONFIG structure. |
-| [WDF_USB_DEVICE_INFORMATION_INIT function](..\wdfusb\nf-wdfusb-wdf_usb_device_information_init.md) | The WDF_USB_DEVICE_INFORMATION_INIT function initializes a driver's WDF_USB_DEVICE_INFORMATION structure. |
-| [WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function](..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_deconfig.md) | The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function initializes a WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure so that a driver can deconfigure a USB device. |
-| [WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS function](..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_interfaces_descriptors.md) | The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS function initializes a WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure so that a driver can specify a configuration by using USB descriptors. |
-| [WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function](..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md) | The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function initializes a WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure so that a driver can configure a device to use multiple interfaces. |
-| [WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE function](..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_single_interface.md) | The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE function initializes a WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure so that a driver can configure a device to use a single, specified interface. |
-| [WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function](..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_urb.md) | The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function initializes a WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure so that a driver can specify a configuration by using a URB. |
-| [WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR function](..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_descriptor.md) | The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR function initializes a WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure so that a driver can select a USB interface by specifying an interface descriptor. |
-| [WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function](..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md) | The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function initializes a WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure so that a driver can select a USB interface by specifying a handle to an interface object and an alternate setting for the interface. |
-| [WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function](..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_urb.md) | The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function initializes a WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure so that a driver can select a USB interface by specifying a URB. |
-| [WDF_USB_PIPE_DIRECTION_IN function](..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_in.md) | The WDF_USB_PIPE_DIRECTION_IN function determines whether a specified USB endpoint is an input endpoint. |
-| [WDF_USB_PIPE_DIRECTION_OUT function](..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md) | The WDF_USB_PIPE_DIRECTION_OUT function determines whether a specified USB endpoint is an output endpoint. |
-| [WDF_USB_PIPE_INFORMATION_INIT function](..\wdfusb\nf-wdfusb-wdf_usb_pipe_information_init.md) | The WDF_USB_PIPE_INFORMATION_INIT function initializes a WDF_USB_PIPE_INFORMATION structure. |
-| [WDF_WMI_BUFFER_APPEND_STRING function](..\wdfwmi\nf-wdfwmi-wdf_wmi_buffer_append_string.md) | The WDF_WMI_BUFFER_APPEND_STRING function copies a specified Unicode string into a specified buffer in the format that WMI requires. |
-| [WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function](..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider.md) | The WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function initializes a WDF_WMI_INSTANCE_CONFIG structure and stores a specified handle to a WMI provider object. |
-| [WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function](..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider_config.md) | The WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function initializes a WDF_WMI_INSTANCE_CONFIG structure and stores a pointer to a specified WDF_WMI_PROVIDER_CONFIG structure. |
-| [WDF_WMI_PROVIDER_CONFIG_INIT function](..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md) | The WDF_WMI_PROVIDER_CONFIG_INIT function initializes a WDF_WMI_PROVIDER_CONFIG structure. |
-| [WDF_WORKITEM_CONFIG_INIT function](..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md) | The WDF_WORKITEM_CONFIG_INIT function initializes a driver's WDF_WORKITEM_CONFIG structure. |
-| [WDF_WRITE_PORT_BUFFER_UCHAR function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_port_buffer_uchar.md) | The WDF_WRITE_PORT_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified port. |
-| [WDF_WRITE_PORT_BUFFER_ULONG function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_port_buffer_ulong.md) | The WDF_WRITE_PORT_BUFFER_ULONG function writes a number of ULONG values from a buffer to the specified port address. |
-| [WDF_WRITE_PORT_BUFFER_USHORT function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_port_buffer_ushort.md) | The WDF_WRITE_PORT_BUFFER_USHORT function writes a number of USHORT values from a buffer to the specified port address. |
-| [WDF_WRITE_PORT_UCHAR function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_port_uchar.md) | The WDF_WRITE_PORT_UCHAR function writes a byte to the specified port address. |
-| [WDF_WRITE_PORT_ULONG function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_port_ulong.md) | The WDF_WRITE_PORT_ULONG function writes a ULONG value to the specified port address. |
-| [WDF_WRITE_PORT_USHORT function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_port_ushort.md) | The WDF_WRITE_PORT_USHORT function writes a USHORT value to the specified port address. |
-| [WDF_WRITE_REGISTER_BUFFER_UCHAR function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_register_buffer_uchar.md) | The WDF_WRITE_REGISTER_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified register. |
-| [WDF_WRITE_REGISTER_BUFFER_ULONG function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_register_buffer_ulong.md) | The WDF_WRITE_REGISTER_BUFFER_ULONG function writes a number of ULONG values from a buffer to the specified register. |
-| [WDF_WRITE_REGISTER_BUFFER_ULONG64 function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_register_buffer_ulong64.md) | The WDF_WRITE_REGISTER_BUFFER_ULONG64 function writes a number of ULONG64 values from a buffer to the specified register. |
-| [WDF_WRITE_REGISTER_BUFFER_USHORT function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_register_buffer_ushort.md) | The WDF_WRITE_REGISTER_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified register. |
-| [WDF_WRITE_REGISTER_UCHAR function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_register_uchar.md) | The WDF_WRITE_REGISTER_UCHAR routine writes a byte to the specified address. |
-| [WDF_WRITE_REGISTER_ULONG function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_register_ulong.md) | The WDF_WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address. |
-| [WDF_WRITE_REGISTER_ULONG64 function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_register_ulong64.md) | The WDF_WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address. |
-| [WDF_WRITE_REGISTER_USHORT function](..\wdfhwaccess\nf-wdfhwaccess-wdf_write_register_ushort.md) | The WDF_WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address. |
-| [WRITE_PORT_BUFFER_UCHAR function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_port_buffer_uchar.md) | The WRITE_PORT_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified port. |
-| [WRITE_PORT_BUFFER_ULONG function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_port_buffer_ulong.md) | The WRITE_PORT_BUFFER_ULONG function writes a number of ULONG values from a buffer to the specified port address. |
-| [WRITE_PORT_BUFFER_USHORT function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_port_buffer_ushort.md) | The WRITE_PORT_BUFFER_USHORT function writes a number of USHORT values from a buffer to the specified port address. |
-| [WRITE_PORT_UCHAR function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_port_uchar.md) | The WRITE_PORT_UCHAR function writes a byte to the specified port address. |
-| [WRITE_PORT_ULONG function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_port_ulong.md) | The WRITE_PORT_ULONG function writes a ULONG value to the specified port address. |
-| [WRITE_PORT_USHORT function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_port_ushort.md) | The WRITE_PORT_USHORT function writes a USHORT value to the specified port address. |
-| [WRITE_REGISTER_BUFFER_UCHAR function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_register_buffer_uchar.md) | The WRITE_REGISTER_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified register. |
-| [WRITE_REGISTER_BUFFER_ULONG function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_register_buffer_ulong.md) | The WRITE_REGISTER_BUFFER_ULONG function writes a number of ULONG values from a buffer to the specified register. |
-| [WRITE_REGISTER_BUFFER_ULONG64 function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_register_buffer_ulong64.md) | The WRITE_REGISTER_BUFFER_ULONG64 function writes a number of ULONG64 values from a buffer to the specified register. |
-| [WRITE_REGISTER_BUFFER_USHORT function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_register_buffer_ushort.md) | The WRITE_REGISTER_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified register. |
-| [WRITE_REGISTER_UCHAR function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_register_uchar.md) | The WRITE_REGISTER_UCHAR routine writes a byte to the specified address. |
-| [WRITE_REGISTER_ULONG function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_register_ulong.md) | The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address. |
-| [WRITE_REGISTER_ULONG64 function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_register_ulong64.md) | The WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address. |
-| [WRITE_REGISTER_USHORT function](..\wudfddi_hwaccess\nf-wudfddi_hwaccess-write_register_ushort.md) | The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address. |
-| [WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function](..\wudfdevice\nf-wudfdevice-wudf_device_power_policy_idle_settings_init.md) | The WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function initializes a driver's WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure. |
-| [WUDF_INTERRUPT_CONFIG_INIT function](..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md) | The WUDF_INTERRUPT_CONFIG_INIT function initializes a WUDF_INTERRUPT_CONFIG structure. |
-| [WUDF_WORKITEM_CONFIG_INIT function](..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md) | The WUDF_WORKITEM_CONFIG_INIT macro initializes a driver's WUDF_WORKITEM_CONFIG structure. |
-| [WdfChildListAddOrUpdateChildDescriptionAsPresent function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md) | The WdfChildListAddOrUpdateChildDescriptionAsPresent method adds a new child description to a list of children or updates an existing child description. |
-| [WdfChildListBeginIteration function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md) | The WdfChildListBeginIteration method prepares the framework for retrieving items from a specified child list. |
-| [WdfChildListBeginScan function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md) | The WdfChildListBeginScan method prepares a specified list of child devices so the driver can update the information in the list. |
-| [WdfChildListCreate function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md) | The WdfChildListCreate method creates a child list for a specified parent device. |
-| [WdfChildListEndIteration function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistenditeration.md) | The WdfChildListEndIteration method processes modifications to a specified child list. |
-| [WdfChildListEndScan function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md) | The WdfChildListEndScan method processes modifications to a specified child list. |
-| [WdfChildListGetDevice function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistgetdevice.md) | The WdfChildListGetDevice method returns a handle to the framework device object that represents the parent device of a specified child list. |
-| [WdfChildListRequestChildEject function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistrequestchildeject.md) | The WdfChildListRequestChildEject method informs the framework that a specified device is about to be ejected from its docking station. |
-| [WdfChildListRetrieveAddressDescription function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrieveaddressdescription.md) | The WdfChildListRetrieveAddressDescription method locates a child device that has a specified identification description and retrieves the device's address description. |
-| [WdfChildListRetrieveNextDevice function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md) | The WdfChildListRetrieveNextDevice method traverses a specified child list and retrieves the next child device that matches specified criteria. |
-| [WdfChildListRetrievePdo function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievepdo.md) | The WdfChildListRetrievePdo method returns a handle to the framework device object that is associated with a specified child description in a child list. |
-| [WdfChildListUpdateAllChildDescriptionsAsPresent function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistupdateallchilddescriptionsaspresent.md) | The WdfChildListUpdateAllChildDescriptionsAsPresent method informs the framework that all of the child devices in a specified child list are plugged in and available. |
-| [WdfChildListUpdateChildDescriptionAsMissing function](..\wdfchildlist\nf-wdfchildlist-wdfchildlistupdatechilddescriptionasmissing.md) | The WdfChildListUpdateChildDescriptionAsMissing method informs the framework that a specified child device is currently unplugged or otherwise unavailable. |
-| [WdfCmResourceListAppendDescriptor function](..\wdfresource\nf-wdfresource-wdfcmresourcelistappenddescriptor.md) | The WdfCmResourceListAppendDescriptor method adds a resource descriptor to the end of a specified resource list. |
-| [WdfCmResourceListGetCount function](..\wdfresource\nf-wdfresource-wdfcmresourcelistgetcount.md) | The WdfCmResourceListGetCount method returns the number of resource descriptors that are contained in a specified resource list. |
-| [WdfCmResourceListGetDescriptor function](..\wdfresource\nf-wdfresource-wdfcmresourcelistgetdescriptor.md) | The WdfCmResourceListGetDescriptor method returns a pointer to a resource descriptor that is contained in a specified resource list. |
-| [WdfCmResourceListInsertDescriptor function](..\wdfresource\nf-wdfresource-wdfcmresourcelistinsertdescriptor.md) | The WdfCmResourceListInsertDescriptor method inserts a resource descriptor into a specified resource list. |
-| [WdfCmResourceListRemove function](..\wdfresource\nf-wdfresource-wdfcmresourcelistremove.md) | The WdfCmResourceListRemove method removes a resource descriptor from a specified resource list. |
-| [WdfCmResourceListRemoveByDescriptor function](..\wdfresource\nf-wdfresource-wdfcmresourcelistremovebydescriptor.md) | The WdfCmResourceListRemoveByDescriptor method removes a specified resource descriptor from a specified resource list. |
-| [WdfCollectionAdd function](..\wdfcollection\nf-wdfcollection-wdfcollectionadd.md) | The WdfCollectionAdd method adds a specified framework object to an object collection. |
-| [WdfCollectionCreate function](..\wdfcollection\nf-wdfcollection-wdfcollectioncreate.md) | The WdfCollectionCreate method creates a framework collection object. |
-| [WdfCollectionGetCount function](..\wdfcollection\nf-wdfcollection-wdfcollectiongetcount.md) | The WdfCollectionGetCount method returns the number of objects that are currently in an object collection. |
-| [WdfCollectionGetFirstItem function](..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md) | The WdfCollectionGetFirstItem method returns a handle to the first object that is in an object collection. |
-| [WdfCollectionGetItem function](..\wdfcollection\nf-wdfcollection-wdfcollectiongetitem.md) | The WdfCollectionGetItem method returns a handle to the object that is contained in a specified object collection and associated with a specified index value. |
-| [WdfCollectionGetLastItem function](..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md) | The WdfCollectionGetLastItem method returns a handle to the last object that is in an object collection. |
-| [WdfCollectionRemove function](..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md) | The WdfCollectionRemove method removes an object from a specified object collection. |
-| [WdfCollectionRemoveItem function](..\wdfcollection\nf-wdfcollection-wdfcollectionremoveitem.md) | The WdfCollectionRemoveItem method removes a specified object from an object collection, based on a specified index value. |
-| [WdfCommonBufferCreate function](..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md) | The WdfCommonBufferCreate method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously. |
-| [WdfCommonBufferCreateWithConfig function](..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreatewithconfig.md) | The WdfCommonBufferCreateWithConfig method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously, and the method also specifies buffer configuration information. |
-| [WdfCommonBufferGetAlignedLogicalAddress function](..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md) | The WdfCommonBufferGetAlignedLogicalAddress method returns the logical address that is associated with a specified common buffer. |
-| [WdfCommonBufferGetAlignedVirtualAddress function](..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md) | The WdfCommonBufferGetAlignedVirtualAddress method returns the virtual address that is associated with a specified common buffer. |
-| [WdfCommonBufferGetLength function](..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetlength.md) | The WdfCommonBufferGetLength method returns the length of a specified common buffer. |
-| [WdfCompanionCreate function](..\wdfcompanion\nf-wdfcompanion-wdfcompanioncreate.md) | For internal use only. |
-| [WdfCompanionCreateTaskQueue function](..\wdfcompanion\nf-wdfcompanion-wdfcompanioncreatetaskqueue.md) | For internal use only. |
-| [WdfCompanionTargetSendTaskSynchronously function](..\wdfcompaniontarget\nf-wdfcompaniontarget-wdfcompaniontargetsendtasksynchronously.md) | For internal use only. |
-| [WdfCompanionTargetWdmGetCompanionProcess function](..\wdfcompaniontarget\nf-wdfcompaniontarget-wdfcompaniontargetwdmgetcompanionprocess.md) | For internal use only. |
-| [WdfCompanionWdmGetSecureDeviceHandle function](..\wdfcompanion\nf-wdfcompanion-wdfcompanionwdmgetsecuredevicehandle.md) | For internal use only. |
-| [WdfControlDeviceInitAllocate function](..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md) | The WdfControlDeviceInitAllocate method allocates a WDFDEVICE_INIT structure that a driver uses when creating a new control device object. |
-| [WdfControlDeviceInitSetShutdownNotification function](..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md) | The WdfControlDeviceInitSetShutdownNotification method sets shutdown notification information for a control device object. |
-| [WdfControlFinishInitializing function](..\wdfcontrol\nf-wdfcontrol-wdfcontrolfinishinitializing.md) | The WdfControlFinishInitializing method informs the framework that a driver has finished initializing a specified control device object. |
-| [WdfDevStateIsNP function](..\wdfdevice\nf-wdfdevice-wdfdevstateisnp.md) | The WdfDevStateIsNP method returns a Boolean value that indicates whether a specified power state or power policy state is a nonpageable state. |
-| [WdfDevStateNormalize function](..\wdfdevice\nf-wdfdevice-wdfdevstatenormalize.md) | The WdfDevStateNormalize method removes extra bits from a specified framework state machine value so that the driver can use the value as an index into an array of machine states. |
-| [WdfDeviceAddDependentUsageDeviceObject function](..\wdfdevice\nf-wdfdevice-wdfdeviceadddependentusagedeviceobject.md) | The WdfDeviceAddDependentUsageDeviceObject method indicates that a specified device depends on another device when the specified device is used to store special files. |
-| [WdfDeviceAddQueryInterface function](..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md) | The WdfDeviceAddQueryInterface method creates a driver-defined interface that other drivers can query and use. |
-| [WdfDeviceAddRemovalRelationsPhysicalDevice function](..\wdfdevice\nf-wdfdevice-wdfdeviceaddremovalrelationsphysicaldevice.md) | The WdfDeviceAddRemovalRelationsPhysicalDevice method indicates that a specified device must be removed when another specified device is removed. |
-| [WdfDeviceAllocAndQueryInterfaceProperty function](..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md) | The WdfDeviceAllocAndQueryInterfaceProperty method allocates a buffer and retrieves a specified device interface property. |
-| [WdfDeviceAllocAndQueryProperty function](..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md) | The WdfDeviceAllocAndQueryProperty method allocates a buffer and retrieves a specified device property. |
-| [WdfDeviceAllocAndQueryPropertyEx function](..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md) | The WdfDeviceAllocAndQueryPropertyEx method allocates a buffer and retrieves a specified device property. |
-| [WdfDeviceAssignInterfaceProperty function](..\wdfdevice\nf-wdfdevice-wdfdeviceassigninterfaceproperty.md) | The WdfDeviceAssignInterfaceProperty method modifies the current value of a device interface property. |
-| [WdfDeviceAssignMofResourceName function](..\wdfdevice\nf-wdfdevice-wdfdeviceassignmofresourcename.md) | The WdfDeviceAssignMofResourceName method registers a MOF resource name for a specified device. |
-| [WdfDeviceAssignProperty function](..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md) | The WdfDeviceAssignProperty method modifies the current setting of a device property. |
-| [WdfDeviceAssignS0IdleSettings function](..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md) | The WdfDeviceAssignS0IdleSettings method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state. |
-| [WdfDeviceAssignSxWakeSettings function](..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md) | The WdfDeviceAssignSxWakeSettings method provides driver-supplied information about a device's ability to trigger a wake signal while both the device and the system are in a low-power state. |
-| [WdfDeviceClearRemovalRelationsDevices function](..\wdfdevice\nf-wdfdevice-wdfdeviceclearremovalrelationsdevices.md) | The WdfDeviceClearRemovalRelationsDevices method removes all devices from the list of devices that must be removed when a specified device is removed. |
-| [WdfDeviceConfigureRequestDispatching function](..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md) | The WdfDeviceConfigureRequestDispatching method causes the framework to queue a specified type of I/O requests to a specified I/O queue. |
-| [WdfDeviceConfigureWdmIrpDispatchCallback function](..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurewdmirpdispatchcallback.md) | The WdfDeviceConfigureWdmIrpDispatchCallback method registers a driver's EvtDeviceWdmIrpDispatch callback function. |
-| [WdfDeviceCreate function](..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md) | The WdfDeviceCreate method creates a framework device object. |
-| [WdfDeviceCreateDeviceInterface function](..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md) | The WdfDeviceCreateDeviceInterface method creates a device interface for a specified device. |
-| [WdfDeviceCreateSymbolicLink function](..\wdfdevice\nf-wdfdevice-wdfdevicecreatesymboliclink.md) | The WdfDeviceCreateSymbolicLink method creates a symbolic link to a specified device. |
-| [WdfDeviceEnqueueRequest function](..\wdfdevice\nf-wdfdevice-wdfdeviceenqueuerequest.md) | The WdfDeviceEnqueueRequest method delivers a specified I/O request to the framework, so that the framework can subsequently add the request to one of the I/O queues that the driver has created for the specified device. |
-| [WdfDeviceGetAlignmentRequirement function](..\wdfdevice\nf-wdfdevice-wdfdevicegetalignmentrequirement.md) | The WdfDeviceGetAlignmentRequirement method retrieves a device's address alignment requirement for memory transfer operations. |
-| [WdfDeviceGetCharacteristics function](..\wdfdevice\nf-wdfdevice-wdfdevicegetcharacteristics.md) | The WdfDeviceGetCharacteristics method returns device characteristics for a specified device. |
-| [WdfDeviceGetDefaultQueue function](..\wdfdevice\nf-wdfdevice-wdfdevicegetdefaultqueue.md) | The WdfDeviceGetDefaultQueue method returns a handle to a device's default I/O queue. |
-| [WdfDeviceGetDevicePnpState function](..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepnpstate.md) | The WdfDeviceGetDevicePnpState method returns the current state of the framework's Plug and Play state machine for a specified device. |
-| [WdfDeviceGetDevicePowerPolicyState function](..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerpolicystate.md) | The WdfDeviceGetDevicePowerPolicyState method returns the current state of the framework's power policy state machine, for a specified device. |
-| [WdfDeviceGetDevicePowerState function](..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerstate.md) | The WdfDeviceGetDevicePowerState method returns the current state of the framework's power state machine, for a specified device. |
-| [WdfDeviceGetDeviceStackIoType function](..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicestackiotype.md) | The WdfDeviceGetDeviceStackIoType method retrieves the buffer access methods that the framework is using for a device. |
-| [WdfDeviceGetDeviceState function](..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicestate.md) | The WdfDeviceGetDeviceState method retrieves the device state for a specified device. |
-| [WdfDeviceGetDriver function](..\wdfdevice\nf-wdfdevice-wdfdevicegetdriver.md) | The WdfDeviceGetDriver method returns a handle to the framework driver object that is associated with a specified framework device object. |
-| [WdfDeviceGetFileObject function](..\wdfdevice\nf-wdfdevice-wdfdevicegetfileobject.md) | The WdfDeviceGetFileObject method returns a handle to the framework file object that is associated with a specified WDM file object. |
-| [WdfDeviceGetHardwareRegisterMappedAddress function](..\wdfdevice\nf-wdfdevice-wdfdevicegethardwareregistermappedaddress.md) | A driver calls WdfDeviceGetHardwareRegisterMappedAddress to get the user-mode mapped address of the memory resource it mapped previously using WdfDeviceMapIoSpace. |
-| [WdfDeviceGetIoTarget function](..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md) | The WdfDeviceGetIoTarget method returns a handle to a function or filter driver's local I/O target, for a specified device. |
-| [WdfDeviceGetSystemPowerAction function](..\wdfdevice\nf-wdfdevice-wdfdevicegetsystempoweraction.md) | The WdfDeviceGetSystemPowerAction method returns the system power action, if any, that is currently occurring for the computer. |
-| [WdfDeviceIndicateWakeStatus function](..\wdfdevice\nf-wdfdevice-wdfdeviceindicatewakestatus.md) | The WdfDeviceIndicateWakeStatus method informs the framework that the calling bus driver has stopped waiting for a specified device to trigger a wake signal on the bus. |
-| [WdfDeviceInitAssignName function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md) | The WdfDeviceInitAssignName method assigns a device name to a device's device object. |
-| [WdfDeviceInitAssignSDDLString function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md) | The WdfDeviceInitAssignSDDLString method assigns a security setting for a device. |
-| [WdfDeviceInitAssignWdmIrpPreprocessCallback function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback.md) | The WdfDeviceInitAssignWdmIrpPreprocessCallback method registers a callback function to handle an IRP major function code and, optionally, one or more minor function codes that are associated with the major function code. |
-| [WdfDeviceInitFree function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitfree.md) | The WdfDeviceInitFree method deallocates a WDFDEVICE_INIT structure. |
-| [WdfDeviceInitRegisterPnpStateChangeCallback function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpnpstatechangecallback.md) | The WdfDeviceInitRegisterPnpStateChangeCallback method registers a driver-supplied event callback function that the framework calls when a device's Plug and Play state machine changes state. |
-| [WdfDeviceInitRegisterPowerPolicyStateChangeCallback function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpowerpolicystatechangecallback.md) | The WdfDeviceInitRegisterPowerPolicyStateChangeCallback method registers a driver-supplied event callback function that the framework calls when a device's power policy state machine changes state. |
-| [WdfDeviceInitRegisterPowerStateChangeCallback function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpowerstatechangecallback.md) | The WdfDeviceInitRegisterPowerStateChangeCallback method registers a driver-supplied event callback function that the framework calls when a device's power state machine changes state. |
-| [WdfDeviceInitSetCharacteristics function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md) | The WdfDeviceInitSetCharacteristics method sets device characteristics for a specified device. |
-| [WdfDeviceInitSetCompanionEventCallbacks function](..\wdfcompanion\nf-wdfcompanion-wdfdeviceinitsetcompanioneventcallbacks.md) | For internal use only. |
-| [WdfDeviceInitSetDeviceClass function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetdeviceclass.md) | The WdfDeviceInitSetDeviceClass method specifies a GUID that identifies the device's device setup class. |
-| [WdfDeviceInitSetDeviceType function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetdevicetype.md) | The WdfDeviceInitSetDeviceType method sets the device type for a specified device. |
-| [WdfDeviceInitSetExclusive function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetexclusive.md) | The WdfDeviceInitSetExclusive method indicates whether a specified device is an exclusive device. |
-| [WdfDeviceInitSetFileObjectConfig function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md) | The WdfDeviceInitSetFileObjectConfig method registers event callback functions and sets configuration information for the driver's framework file objects. |
-| [WdfDeviceInitSetIoInCallerContextCallback function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetioincallercontextcallback.md) | The WdfDeviceInitSetIoInCallerContextCallback method registers a driver's EvtIoInCallerContext event callback function. |
-| [WdfDeviceInitSetIoType function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md) | The WdfDeviceInitSetIoType method sets the method or preference for how a driver will access the data buffers that are included in read and write requests for a specified device. |
-| [WdfDeviceInitSetIoTypeEx function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md) | The WdfDeviceInitSetIoTypeEx method sets the method or preference for how a driver will access the data buffers that are included in read and write requests, as well as device I/O control requests, for a specified device. |
-| [WdfDeviceInitSetPnpPowerEventCallbacks function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md) | The WdfDeviceInitSetPnpPowerEventCallbacks method registers a driver's Plug and Play and power management event callback functions. |
-| [WdfDeviceInitSetPowerInrush function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerinrush.md) | The WdfDeviceInitSetPowerInrush method informs the power manager that the specified device requires an inrush of current when it starts. |
-| [WdfDeviceInitSetPowerNotPageable function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md) | The WdfDeviceInitSetPowerNotPageable method informs the power manager that the driver will not access pageable data while the system is transitioning between a sleeping state and the working (S0) state. |
-| [WdfDeviceInitSetPowerPageable function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpageable.md) | The WdfDeviceInitSetPowerPageable method informs the power manager that the driver must be able to access pageable data while the system is transitioning between a sleeping state and the working (S0) state. |
-| [WdfDeviceInitSetPowerPolicyEventCallbacks function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpolicyeventcallbacks.md) | The WdfDeviceInitSetPowerPolicyEventCallbacks method registers a driver's power policy event callback functions. |
-| [WdfDeviceInitSetPowerPolicyOwnership function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpolicyownership.md) | The WdfDeviceInitSetPowerPolicyOwnership method establishes whether the calling driver is, or is not, the power policy owner for a specified device. |
-| [WdfDeviceInitSetReleaseHardwareOrderOnFailure function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreleasehardwareorderonfailure.md) | The WdfDeviceInitSetReleaseHardwareOrderOnFailure method specifies whether the framework calls the driver's EvtDeviceReleaseHardware callback function immediately after device failure, or waits until all child devices have been removed. |
-| [WdfDeviceInitSetRemoveLockOptions function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md) | The WdfDeviceInitSetRemoveLockOptions method causes the framework to acquire a remove lock before delivering an IRP of any type to the driver. |
-| [WdfDeviceInitSetRequestAttributes function](..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md) | The WdfDeviceInitSetRequestAttributes method sets object attributes that will be used for all of the framework request objects that the framework delivers to the driver from the device's I/O queues. |
-| [WdfDeviceInterfaceDereferenceNoOp function](..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md) | The WdfDeviceInterfaceDereferenceNoOp method can be used for driver-defined interfaces that do not require reference counts. |
-| [WdfDeviceInterfaceReferenceNoOp function](..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md) | The WdfDeviceInterfaceReferenceNoOp method can be used for driver-defined interfaces that do not require reference counts. |
-| [WdfDeviceMapIoSpace function](..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md) | The WdfDeviceMapIoSpace function maps the given physical address range to system address space and returns a pseudo base address. |
-| [WdfDeviceMiniportCreate function](..\wdfminiport\nf-wdfminiport-wdfdeviceminiportcreate.md) | The WdfDeviceMiniportCreate method creates a framework device object that a miniport driver can use. |
-| [WdfDeviceOpenDevicemapKey function](..\wdfdevice\nf-wdfdevice-wdfdeviceopendevicemapkey.md) | The WdfDeviceOpenDevicemapKey method opens the DEVICEMAP key and creates a framework registry-key object that represents the registry key. |
-| [WdfDeviceOpenRegistryKey function](..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md) | The WdfDeviceOpenRegistryKey method opens a device's hardware key or a driver's software key in the registry and creates a framework registry-key object that represents the registry key. |
-| [WdfDevicePostEvent function](..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md) | The WdfDevicePostEvent method asynchronously notifies applications that are waiting for the specified event from a driver. |
-| [WdfDeviceQueryInterfaceProperty function](..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md) | The WdfDeviceQueryInterfaceProperty method retrieves a specified device interface property. |
-| [WdfDeviceQueryProperty function](..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md) | The WdfDeviceQueryProperty method retrieves a specified device property. |
-| [WdfDeviceQueryPropertyEx function](..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md) | The WdfDeviceQueryPropertyEx method retrieves a specified device property. |
-| [WdfDeviceReadFromHardware function](..\wdfdevice\nf-wdfdevice-wdfdevicereadfromhardware.md) | The WdfDeviceReadFromHardware method is used internally by the framework. Do not use. |
-| [WdfDeviceRemoveDependentUsageDeviceObject function](..\wdfdevice\nf-wdfdevice-wdfdeviceremovedependentusagedeviceobject.md) | The WdfDeviceRemoveDependentUsageDeviceObject method indicates that a specified device no longer depends on another device when the specified device is used to store special files. |
-| [WdfDeviceRemoveRemovalRelationsPhysicalDevice function](..\wdfdevice\nf-wdfdevice-wdfdeviceremoveremovalrelationsphysicaldevice.md) | The WdfDeviceRemoveRemovalRelationsPhysicalDevice method removes a specified device from the list of devices that must be removed when another specified device is removed. |
-| [WdfDeviceRetrieveCompanionTarget function](..\wdfdevice\nf-wdfdevice-wdfdeviceretrievecompaniontarget.md) | For internal use only. |
-| [WdfDeviceRetrieveDeviceInterfaceString function](..\wdfdevice\nf-wdfdevice-wdfdeviceretrievedeviceinterfacestring.md) | The WdfDeviceRetrieveDeviceInterfaceString method retrieves the symbolic link name that the operating system assigned to a device interface that the driver registered for a specified device. |
-| [WdfDeviceRetrieveDeviceName function](..\wdfdevice\nf-wdfdevice-wdfdeviceretrievedevicename.md) | The WdfDeviceRetrieveDeviceName method returns the device name for a specified device. |
-| [WdfDeviceSetAlignmentRequirement function](..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md) | The WdfDeviceSetAlignmentRequirement method registers the driver's preferred address alignment for the data buffers that the device uses during memory transfer operations. |
-| [WdfDeviceSetBusInformationForChildren function](..\wdfdevice\nf-wdfdevice-wdfdevicesetbusinformationforchildren.md) | The WdfDeviceSetBusInformationForChildren method sets information about a bus that a bus driver supports. This information is available to the bus's child devices. |
-| [WdfDeviceSetCharacteristics function](..\wdfdevice\nf-wdfdevice-wdfdevicesetcharacteristics.md) | The WdfDeviceSetCharacteristics method sets device characteristics for a specified device. |
-| [WdfDeviceSetDeviceInterfaceState function](..\wdfdevice\nf-wdfdevice-wdfdevicesetdeviceinterfacestate.md) | The WdfDeviceSetDeviceInterfaceState method enables or disables a device interface for a specified device. |
-| [WdfDeviceSetDeviceState function](..\wdfdevice\nf-wdfdevice-wdfdevicesetdevicestate.md) | The WdfDeviceSetDeviceState method sets the device state for a specified device. |
-| [WdfDeviceSetFailed function](..\wdfdevice\nf-wdfdevice-wdfdevicesetfailed.md) | The WdfDeviceSetFailed method informs the framework that the driver encountered a hardware or software error that is associated with a specified device. |
-| [WdfDeviceSetPnpCapabilities function](..\wdfdevice\nf-wdfdevice-wdfdevicesetpnpcapabilities.md) | The WdfDeviceSetPnpCapabilities method reports a device's Plug and Play capabilities. |
-| [WdfDeviceSetPowerCapabilities function](..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md) | The WdfDeviceSetPowerCapabilities method reports a device's power capabilities. |
-| [WdfDeviceSetSpecialFileSupport function](..\wdfdevice\nf-wdfdevice-wdfdevicesetspecialfilesupport.md) | The WdfDeviceSetSpecialFileSupport method enables or disables a function driver's support for special files, for the specified device. |
-| [WdfDeviceSetStaticStopRemove function](..\wdfdevice\nf-wdfdevice-wdfdevicesetstaticstopremove.md) | The WdfDeviceSetStaticStopRemove method informs the framework whether a device can be stopped and removed. |
-| [WdfDeviceUnmapIoSpace function](..\wdfdevice\nf-wdfdevice-wdfdeviceunmapiospace.md) | The WdfDeviceUnmapIoSpace function unmaps a specified range of physical addresses previously mapped by the WdfDeviceMapIoSpace function. |
-| [WdfDeviceWdmAssignPowerFrameworkSettings function](..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md) | The WdfDeviceWdmAssignPowerFrameworkSettings method registers power management framework (PoFx) settings for single-component devices. |
-| [WdfDeviceWdmDispatchIrp function](..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md) | The WdfDeviceWdmDispatchIrp method returns a dispatched IRP to the framework from EvtDeviceWdmIrpDispatch. |
-| [WdfDeviceWdmDispatchIrpToIoQueue function](..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md) | The WdfDeviceWdmDispatchIrpToIoQueue method forwards the IRP to a specified I/O queue. |
-| [WdfDeviceWdmDispatchPreprocessedIrp function](..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp.md) | The WdfDeviceWdmDispatchPreprocessedIrp method returns a preprocessed IRP to the framework. |
-| [WdfDeviceWdmGetAttachedDevice function](..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetattacheddevice.md) | The WdfDeviceWdmGetAttachedDevice method returns the next-lower WDM device object in the device stack. |
-| [WdfDeviceWdmGetDeviceObject function](..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md) | The WdfDeviceWdmGetDeviceObject method returns the Windows Driver Model (WDM) device object that is associated with a specified framework device object. |
-| [WdfDeviceWdmGetPhysicalDevice function](..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetphysicaldevice.md) | The WdfDeviceWdmGetPhysicalDevice method retrieves the physical device's WDM PDO from the device stack. |
-| [WdfDeviceWriteToHardware function](..\wdfdevice\nf-wdfdevice-wdfdevicewritetohardware.md) | The WdfDeviceWriteToHardware method is used internally by the framework. Do not use. |
-| [WdfDmaEnablerConfigureSystemProfile function](..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md) | The WdfDmaEnablerConfigureSystemProfile method configures the hardware-specific settings for a system-mode DMA enabler and completes the resource initialization. |
-| [WdfDmaEnablerCreate function](..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md) | The WdfDmaEnablerCreate method creates a DMA enabler object. |
-| [WdfDmaEnablerGetFragmentLength function](..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetfragmentlength.md) | The WdfDmaEnablerGetFragmentLength method returns the maximum transfer length that the operating system supports for a single DMA transfer. |
-| [WdfDmaEnablerGetMaximumLength function](..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md) | The WdfDmaEnablerGetMaximumLength method returns the maximum transfer length, for a single DMA transfer, that a device supports. |
-| [WdfDmaEnablerGetMaximumScatterGatherElements function](..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumscattergatherelements.md) | The WdfDmaEnablerGetMaximumScatterGatherElements method returns the maximum number of scatter/gather elements that the device and driver support, for a specified DMA enabler object. |
-| [WdfDmaEnablerSetMaximumScatterGatherElements function](..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md) | The WdfDmaEnablerSetMaximumScatterGatherElements method sets the maximum number of scatter/gather elements that a device supports, for a specified DMA enabler object. |
-| [WdfDmaEnablerWdmGetDmaAdapter function](..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerwdmgetdmaadapter.md) | The WdfDmaEnablerWdmGetDmaAdapter method returns a pointer to a WDM DMA_ADAPTER structure that is associated with a DMA enabler object. |
-| [WdfDmaTransactionAllocateResources function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md) | The WdfDmaTransactionAllocateResources method reserves a single-packet or system-mode DMA enabler for exclusive (and repeated) use with the specified transaction object. |
-| [WdfDmaTransactionCancel function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncancel.md) | The WdfDmaTransactionCancel method attempts to cancel a DMA transaction that is waiting for the allocation of map registers. |
-| [WdfDmaTransactionCreate function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md) | The WdfDmaTransactionCreate method creates a DMA transaction. |
-| [WdfDmaTransactionDmaCompleted function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md) | The WdfDmaTransactionDmaCompleted method notifies the framework that a device's DMA transfer operation is completed. |
-| [WdfDmaTransactionDmaCompletedFinal function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedfinal.md) | The WdfDmaTransactionDmaCompletedFinal method notifies the framework that a device's DMA transfer operation has completed with an underrun condition and supplies the length of the completed transfer. |
-| [WdfDmaTransactionDmaCompletedWithLength function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md) | The WdfDmaTransactionDmaCompletedWithLength method notifies the framework that a device's DMA transfer operation is complete and supplies the length of the completed transfer. |
-| [WdfDmaTransactionExecute function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md) | The WdfDmaTransactionExecute method begins the execution of a specified DMA transaction. |
-| [WdfDmaTransactionFreeResources function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md) | The WdfDmaTransactionFreeResources method releases DMA resources that the driver previously allocated by calling WdfDmaTransactionAllocateResources. |
-| [WdfDmaTransactionGetBytesTransferred function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongetbytestransferred.md) | The WdfDmaTransactionGetBytesTransferred method returns the total number of bytes that have been transferred for a specified DMA transaction. |
-| [WdfDmaTransactionGetCurrentDmaTransferLength function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongetcurrentdmatransferlength.md) | The WdfDmaTransactionGetCurrentDmaTransferLength method returns the size of the current DMA transfer. |
-| [WdfDmaTransactionGetDevice function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongetdevice.md) | The WdfDmaTransactionGetDevice method returns a handle to the framework device object that is associated with a specified DMA transaction. |
-| [WdfDmaTransactionGetRequest function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongetrequest.md) | The WdfDmaTransactionGetRequest method retrieves a handle to the framework request object that is associated with a specified DMA transaction. |
-| [WdfDmaTransactionGetTransferInfo function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongettransferinfo.md) | The WdfDmaTransactionGetTransferInfo method returns the number of map registers and scatter/gather list entries required for an initialized DMA transaction. |
-| [WdfDmaTransactionInitialize function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md) | The WdfDmaTransactionInitialize method initializes a specified DMA transaction. |
-| [WdfDmaTransactionInitializeUsingOffset function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingoffset.md) | The WdfDmaTransactionInitializeUsingOffset method initializes a specified DMA transaction by using a byte offset into an MDL chain. |
-| [WdfDmaTransactionInitializeUsingRequest function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md) | The WdfDmaTransactionInitializeUsingRequest method initializes a specified DMA transaction by using the parameters of a specified I/O request. |
-| [WdfDmaTransactionRelease function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md) | The WdfDmaTransactionRelease method terminates a specified DMA transaction without deleting the associated DMA transaction object. |
-| [WdfDmaTransactionSetChannelConfigurationCallback function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetchannelconfigurationcallback.md) | The WdfDmaTransactionSetChannelConfigurationCallback method registers a channel configuration event callback function for a system-mode DMA transaction. |
-| [WdfDmaTransactionSetDeviceAddressOffset function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetdeviceaddressoffset.md) | The WdfDmaTransactionSetDeviceAddressOffset method specifies the offset of the register that the system DMA controller will access when performing the DMA operation. |
-| [WdfDmaTransactionSetImmediateExecution function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetimmediateexecution.md) | The WdfDmaTransactionSetImmediateExecution method marks the specified DMA transaction so that calls to WdfDmaTransactionExecute and WdfDmaTransactionAllocateResources initiate the transaction immediately or fail. |
-| [WdfDmaTransactionSetMaximumLength function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetmaximumlength.md) | The WdfDmaTransactionSetMaximumLength method sets the maximum length for the DMA transfers that are associated with a specified DMA transaction. |
-| [WdfDmaTransactionSetSingleTransferRequirement function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetsingletransferrequirement.md) | The WdfDmaTransactionSetSingleTransferRequirement method specifies that a DMA transaction must complete in a single transfer. |
-| [WdfDmaTransactionSetTransferCompleteCallback function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsettransfercompletecallback.md) | The WdfDmaTransactionSetTransferCompleteCallback method registers a transfer completion event callback function for a system-mode DMA transaction. |
-| [WdfDmaTransactionStopSystemTransfer function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionstopsystemtransfer.md) | The WdfDmaTransactionStopSystemTransfer method attempts to stop a system-mode DMA transfer after the framework has called EvtProgramDma. |
-| [WdfDmaTransactionWdmGetTransferContext function](..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionwdmgettransfercontext.md) | The WdfDmaTransactionWdmGetTransferContext method retrieves the WDM transfer context that is associated with a DMA transaction. |
-| [WdfDpcCancel function](..\wdfdpc\nf-wdfdpc-wdfdpccancel.md) | The WdfDpcCancel method attempts to cancel the execution of a DPC object's scheduled EvtDpcFunc callback function. |
-| [WdfDpcCreate function](..\wdfdpc\nf-wdfdpc-wdfdpccreate.md) | The WdfDpcCreate method creates a framework DPC object and registers an EvtDpcFunc callback function. |
-| [WdfDpcEnqueue function](..\wdfdpc\nf-wdfdpc-wdfdpcenqueue.md) | The WdfDpcEnqueue method schedules the execution of a DPC object's EvtDpcFunc callback function. |
-| [WdfDpcGetParentObject function](..\wdfdpc\nf-wdfdpc-wdfdpcgetparentobject.md) | The WdfDpcGetParentObject method returns the parent object of a specified DPC object. |
-| [WdfDpcWdmGetDpc function](..\wdfdpc\nf-wdfdpc-wdfdpcwdmgetdpc.md) | The WdfDpcWdmGetDpc method returns a pointer to the KDPC structure that is associated with a specified framework DPC object. |
-| [WdfDriverCreate function](..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md) | The WdfDriverCreate method creates a framework driver object for the calling driver. |
-| [WdfDriverGetRegistryPath function](..\wdfdriver\nf-wdfdriver-wdfdrivergetregistrypath.md) | The WdfDriverGetRegistryPath method retrieves the path to the driver's registry key in the registry's Services tree. |
-| [WdfDriverIsVersionAvailable function](..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md) | The WdfDriverIsVersionAvailable method returns a Boolean value that indicates whether the driver is running with a specified version of the Kernel-Mode Driver Framework library. |
-| [WdfDriverMiniportUnload function](..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md) | The WdfDriverMiniportUnload method deletes a specified miniport driver's framework driver object. |
-| [WdfDriverOpenParametersRegistryKey function](..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md) | The WdfDriverOpenParametersRegistryKey method opens the driver's Parameters registry key and retrieves a handle to a framework registry-key object that represents the key. |
-| [WdfDriverRegisterTraceInfo function](..\wdfdriver\nf-wdfdriver-wdfdriverregistertraceinfo.md) | The WdfDriverRegisterTraceInfo method is reserved for internal use only. |
-| [WdfDriverRetrieveVersionString function](..\wdfdriver\nf-wdfdriver-wdfdriverretrieveversionstring.md) | The WdfDriverRetrieveVersionString method retrieves a Unicode string that identifies the version of the Kernel-Mode Driver Framework that the driver is running with. |
-| [WdfDriverWdmGetDriverObject function](..\wdfdriver\nf-wdfdriver-wdfdriverwdmgetdriverobject.md) | The WdfDriverWdmGetDriverObject method retrieves a pointer to the Windows Driver Model (WDM) driver object that is associated with a specified framework driver object. |
-| [WdfFdoAddStaticChild function](..\wdffdo\nf-wdffdo-wdffdoaddstaticchild.md) | The WdfFdoAddStaticChild method adds a specified device to a function driver's list of child devices that have been identified by static enumeration. |
-| [WdfFdoGetDefaultChildList function](..\wdffdo\nf-wdffdo-wdffdogetdefaultchildlist.md) | The WdfFdoGetDefaultChildList method returns a handle to a specified device's default child list. |
-| [WdfFdoInitAllocAndQueryProperty function](..\wdffdo\nf-wdffdo-wdffdoinitallocandqueryproperty.md) | The WdfFdoInitAllocAndQueryProperty method allocates a buffer and retrieves a specified device property. |
-| [WdfFdoInitAllocAndQueryPropertyEx function](..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md) | The WdfFdoInitAllocAndQueryPropertyEx method allocates a buffer and retrieves a specified device property. |
-| [WdfFdoInitOpenRegistryKey function](..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md) | The WdfFdoInitOpenRegistryKey method opens a device's hardware key or a driver's software key in the registry and creates a framework registry-key object that represents the registry key. |
-| [WdfFdoInitQueryProperty function](..\wdffdo\nf-wdffdo-wdffdoinitqueryproperty.md) | The WdfFdoInitQueryProperty method retrieves a specified device property. |
-| [WdfFdoInitQueryPropertyEx function](..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md) | The WdfFdoInitQueryPropertyEx method retrieves a specified device property. |
-| [WdfFdoInitSetDefaultChildListConfig function](..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md) | The WdfFdoInitSetDefaultChildListConfig method configures a bus driver's default child list. |
-| [WdfFdoInitSetEventCallbacks function](..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md) | The WdfFdoInitSetEventCallbacks method registers a framework-based function driver's event callback functions, for a specified device. |
-| [WdfFdoInitSetFilter function](..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md) | The WdfFdoInitSetFilter method identifies the calling driver as an upper-level or lower-level filter driver, for a specified device. |
-| [WdfFdoInitWdmGetPhysicalDevice function](..\wdffdo\nf-wdffdo-wdffdoinitwdmgetphysicaldevice.md) | The WdfFdoInitWdmGetPhysicalDevice method retrieves a device's WDM physical device object (PDO). |
-| [WdfFdoLockStaticChildListForIteration function](..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md) | The WdfFdoLockStaticChildListForIteration method prepares the framework for retrieving items from the static child list that belongs to a specified parent device. |
-| [WdfFdoQueryForInterface function](..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md) | The WdfFdoQueryForInterface method obtains access to another driver's GUID-identified interface. |
-| [WdfFdoRetrieveNextStaticChild function](..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md) | The WdfFdoRetrieveNextStaticChild method retrieves a handle to the next framework device object in a list of child devices. |
-| [WdfFdoUnlockStaticChildListFromIteration function](..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md) | The WdfFdoUnlockStaticChildListFromIteration method unlocks the list of child devices for a specified device and processes any changes to the list that the driver made while the list was locked. |
-| [WdfFileObjectGetDevice function](..\wdffileobject\nf-wdffileobject-wdffileobjectgetdevice.md) | The WdfFileObjectGetDevice method returns the framework device object that is associated with a specified framework file object. |
-| [WdfFileObjectGetFileName function](..\wdffileobject\nf-wdffileobject-wdffileobjectgetfilename.md) | The WdfFileObjectGetFileName method returns the file name that a specified framework file object contains. |
-| [WdfFileObjectGetFlags function](..\wdffileobject\nf-wdffileobject-wdffileobjectgetflags.md) | The WdfFileObjectGetFlags method returns the flags that a specified framework file object contains. |
-| [WdfFileObjectGetInitiatorProcessId function](..\wdffileobject\nf-wdffileobject-wdffileobjectgetinitiatorprocessid.md) | The WdfFileObjectGetInitiatorProcessId function retrieves the initiator process ID that is associated with a specified framework file object. |
-| [WdfFileObjectGetRelatedFileObject function](..\wdffileobject\nf-wdffileobject-wdffileobjectgetrelatedfileobject.md) | The WdfFileObjectGetRelatedFileObject method retrieves the related file object to a framework file object. |
-| [WdfFileObjectWdmGetFileObject function](..\wdffileobject\nf-wdffileobject-wdffileobjectwdmgetfileobject.md) | The WdfFileObjectWdmGetFileObject method returns the Windows Driver Model (WDM) file object that is associated with a specified framework file object. |
-| [WdfGetDriver function](..\wdfdriver\nf-wdfdriver-wdfgetdriver.md) | The WdfGetDriver method returns a handle to the framework driver object that represents the calling driver. |
-| [WdfGetTriageInfo function](..\wdfverifier\nf-wdfverifier-wdfgettriageinfo.md) | The WdfGetTriageInfo method is reserved for internal use only. |
-| [WdfInterruptCreate function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md) | The WdfInterruptCreate method creates a framework interrupt object. |
-| [WdfInterruptDisable function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptdisable.md) | The WdfInterruptDisable method disables a specified device interrupt by calling the driver's EvtInterruptDisable callback function. |
-| [WdfInterruptEnable function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptenable.md) | The WdfInterruptEnable method enables a specified device interrupt by calling the driver's EvtInterruptEnable callback function. |
-| [WdfInterruptGetDevice function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetdevice.md) | The WdfInterruptGetDevice method returns a handle to the framework device object that is associated with a specified framework interrupt object. |
-| [WdfInterruptGetInfo function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md) | The WdfInterruptGetInfo method retrieves information about a specified interrupt. |
-| [WdfInterruptQueueDpcForIsr function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptqueuedpcforisr.md) | The WdfInterruptQueueDpcForIsr method queues a framework interrupt object's EvtInterruptDpc callback function for execution. |
-| [WdfInterruptQueueWorkItemForIsr function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptqueueworkitemforisr.md) | The WdfInterruptQueueWorkItemForIsr method queues a framework interrupt object's EvtInterruptWorkItem callback function for execution. |
-| [WdfInterruptReportActive function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptreportactive.md) | The WdfInterruptReportActive informs the system that the interrupt is active and the driver is ready to process interrupt requests on the associated lines. |
-| [WdfInterruptReportInactive function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptreportinactive.md) | The WdfInterruptReportInactive method informs the system that the interrupt is no longer active and the driver is not expecting interrupt requests on the associated lines. |
-| [WdfInterruptSetExtendedPolicy function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md) | The WdfInterruptSetExtendedPolicy method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt. |
-| [WdfInterruptSetPolicy function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md) | The WdfInterruptSetPolicy method specifies the interrupt priority, processor affinity, and affinity policy for a specified interrupt. |
-| [WdfInterruptSynchronize function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsynchronize.md) | The WdfInterruptSynchronize method executes a specified callback function at the device's DIRQL while holding an interrupt object's spin lock. |
-| [WdfInterruptTryToAcquireLock function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md) | The WdfInterruptTryToAcquireLock method attempts to acquire an interrupt object's passive lock. |
-| [WdfInterruptWdmGetInterrupt function](..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptwdmgetinterrupt.md) | The WdfInterruptWdmGetInterrupt method returns a pointer to the WDM interrupt object that is associated with a specified framework interrupt object. |
-| [WdfIoQueueAssignForwardProgressPolicy function](..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md) | The WdfIoQueueAssignForwardProgressPolicy method enables the framework's ability to guarantee forward progress for a specified I/O queue. |
-| [WdfIoQueueCreate function](..\wdfio\nf-wdfio-wdfioqueuecreate.md) | The WdfIoQueueCreate method creates and configures an I/O queue for a specified device. |
-| [WdfIoQueueDrain function](..\wdfio\nf-wdfio-wdfioqueuedrain.md) | The WdfIoQueueDrain method causes the framework to stop queuing I/O requests to an I/O queue, while allowing already-queued requests to be delivered and processed. |
-| [WdfIoQueueDrainSynchronously function](..\wdfio\nf-wdfio-wdfioqueuedrainsynchronously.md) | The WdfIoQueueDrainSynchronously method causes the framework to stop queuing I/O requests to an I/O queue, while allowing already-queued requests to be delivered and processed. The method returns after all requests are completed or canceled. |
-| [WdfIoQueueFindRequest function](..\wdfio\nf-wdfio-wdfioqueuefindrequest.md) | The WdfIoQueueFindRequest method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant ownership of the request to the driver. |
-| [WdfIoQueueGetDevice function](..\wdfio\nf-wdfio-wdfioqueuegetdevice.md) | The WdfIoQueueGetDevice method returns a handle to the framework device object that a specified I/O queue belongs to. |
-| [WdfIoQueueGetState function](..\wdfio\nf-wdfio-wdfioqueuegetstate.md) | The WdfIoQueueGetState method returns the status of a specified I/O queue. |
-| [WdfIoQueuePurge function](..\wdfio\nf-wdfio-wdfioqueuepurge.md) | The WdfIoQueuePurge method causes the framework to stop queuing I/O requests to an I/O queue and to cancel unprocessed requests. |
-| [WdfIoQueuePurgeSynchronously function](..\wdfio\nf-wdfio-wdfioqueuepurgesynchronously.md) | The WdfIoQueuePurgeSynchronously method causes the framework to stop queuing I/O requests to an I/O queue and to cancel unprocessed requests and driver-owned cancellable requests. |
-| [WdfIoQueueReadyNotify function](..\wdfio\nf-wdfio-wdfioqueuereadynotify.md) | The WdfIoQueueReadyNotify method registers (or deregisters) an event callback function that the framework calls each time a specified I/O queue that was previously empty receives one or more I/O requests. |
-| [WdfIoQueueRetrieveFoundRequest function](..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md) | The WdfIoQueueRetrieveFoundRequest method delivers a specified request to the driver, so that the driver can process the request. |
-| [WdfIoQueueRetrieveNextRequest function](..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md) | The WdfIoQueueRetrieveNextRequest method retrieves the next available I/O request from a specified I/O queue. |
-| [WdfIoQueueRetrieveRequestByFileObject function](..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md) | The WdfIoQueueRetrieveRequestByFileObject method retrieves the next available I/O request, from a specified I/O queue, that is associated with a specified file object. |
-| [WdfIoQueueStart function](..\wdfio\nf-wdfio-wdfioqueuestart.md) | The WdfIoQueueStart method enables an I/O queue to start receiving and delivering new I/O requests. |
-| [WdfIoQueueStop function](..\wdfio\nf-wdfio-wdfioqueuestop.md) | The WdfIoQueueStop method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. |
-| [WdfIoQueueStopAndPurge function](..\wdfio\nf-wdfio-wdfioqueuestopandpurge.md) | The WdfIoQueueStopAndPurge method prevents an I/O queue from delivering new requests and cancels existing unprocessed requests and driver-owned cancellable requests, but the queue receives and stores new requests. |
-| [WdfIoQueueStopAndPurgeSynchronously function](..\wdfio\nf-wdfio-wdfioqueuestopandpurgesynchronously.md) | The WdfIoQueueStopAndPurgeSynchronously method prevents an I/O queue from delivering new I/O requests and causes the framework to cancel existing unprocessed requests and driver-owned cancellable requests, but the queue receives and stores new requests. |
-| [WdfIoQueueStopSynchronously function](..\wdfio\nf-wdfio-wdfioqueuestopsynchronously.md) | The WdfIoQueueStopSynchronously method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed. |
-| [WdfIoResourceListAppendDescriptor function](..\wdfresource\nf-wdfresource-wdfioresourcelistappenddescriptor.md) | The WdfIoResourceListAppendDescriptor method adds a resource descriptor to the end of a resource requirements list's logical configuration. |
-| [WdfIoResourceListCreate function](..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md) | The WdfIoResourceListCreate method creates an empty logical configuration, which can be populated and added to a resource requirements list. |
-| [WdfIoResourceListGetCount function](..\wdfresource\nf-wdfresource-wdfioresourcelistgetcount.md) | The WdfIoResourceListGetCount method returns the number of resource descriptors that are contained in a resource requirements list's logical configuration. |
-| [WdfIoResourceListGetDescriptor function](..\wdfresource\nf-wdfresource-wdfioresourcelistgetdescriptor.md) | The WdfIoResourceListGetDescriptor method returns a pointer to a resource descriptor that is contained in a resource requirements list's logical configuration. |
-| [WdfIoResourceListInsertDescriptor function](..\wdfresource\nf-wdfresource-wdfioresourcelistinsertdescriptor.md) | The WdfIoResourceListInsertDescriptor method inserts a resource descriptor into a resource requirements list's logical configuration. |
-| [WdfIoResourceListRemove function](..\wdfresource\nf-wdfresource-wdfioresourcelistremove.md) | The WdfIoResourceListRemove method removes a resource descriptor from a resource requirements list's logical configuration. |
-| [WdfIoResourceListRemoveByDescriptor function](..\wdfresource\nf-wdfresource-wdfioresourcelistremovebydescriptor.md) | The WdfIoResourceListRemoveByDescriptor method removes a resource descriptor from a resource requirement list's logical configuration. |
-| [WdfIoResourceListUpdateDescriptor function](..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md) | The WdfIoResourceListUpdateDescriptor method updates a resource descriptor in a resource requirements list's logical configuration. |
-| [WdfIoResourceRequirementsListAppendIoResList function](..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistappendioreslist.md) | The WdfIoResourceRequirementsListAppendIoResList method adds a logical configuration to the end of a resource requirements list. |
-| [WdfIoResourceRequirementsListGetCount function](..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md) | The WdfIoResourceRequirementsListGetCount method returns the number of logical configurations that are contained in a resource requirements list. |
-| [WdfIoResourceRequirementsListGetIoResList function](..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetioreslist.md) | The WdfIoResourceRequirementsListGetIoResList method returns a handle to the framework resource-range-list object that represents a specified logical configuration in a specified resource requirements list. |
-| [WdfIoResourceRequirementsListInsertIoResList function](..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistinsertioreslist.md) | The WdfIoResourceRequirementsListInsertIoResList method inserts a logical configuration into a resource requirements list. |
-| [WdfIoResourceRequirementsListRemove function](..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremove.md) | The WdfIoResourceRequirementsListRemove method removes a logical configuration from a resource requirements list. |
-| [WdfIoResourceRequirementsListRemoveByIoResList function](..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremovebyioreslist.md) | The WdfIoResourceRequirementsListRemoveByIoResList method removes a logical configuration from a resource requirements list. |
-| [WdfIoResourceRequirementsListSetInterfaceType function](..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistsetinterfacetype.md) | The WdfIoResourceRequirementsListSetInterfaceType method assigns a bus type to a resource requirements list. |
-| [WdfIoResourceRequirementsListSetSlotNumber function](..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistsetslotnumber.md) | The WdfIoResourceRequirementsListSetSlotNumber method assigns a slot number to a resource requirements list. |
-| [WdfIoTargetAllocAndQueryTargetProperty function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetallocandquerytargetproperty.md) | The WdfIoTargetAllocAndQueryTargetProperty method allocates a buffer and retrieves a specified device property for a specified I/O target. |
-| [WdfIoTargetClose function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetclose.md) | The WdfIoTargetClose method closes a specified remote I/O target. |
-| [WdfIoTargetCloseForQueryRemove function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md) | The WdfIoTargetCloseForQueryRemove method temporarily closes a specified remote I/O target because the target device might soon be removed. |
-| [WdfIoTargetCreate function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md) | The WdfIoTargetCreate method creates a remote I/O target for a specified device. |
-| [WdfIoTargetFormatRequestForInternalIoctl function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforinternalioctl.md) | The WdfIoTargetFormatRequestForInternalIoctl method builds an internal device control request for an I/O target but does not send the request. |
-| [WdfIoTargetFormatRequestForInternalIoctlOthers function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforinternalioctlothers.md) | The WdfIoTargetFormatRequestForInternalIoctlOthers method builds a non-standard internal device control request for an I/O target but does not send the request. |
-| [WdfIoTargetFormatRequestForIoctl function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforioctl.md) | The WdfIoTargetFormatRequestForIoctl method builds a device control request for an I/O target but does not send the request. |
-| [WdfIoTargetFormatRequestForRead function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforread.md) | The WdfIoTargetFormatRequestForRead method builds a read request for an I/O target but does not send the request. |
-| [WdfIoTargetFormatRequestForWrite function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforwrite.md) | The WdfIoTargetFormatRequestForWrite method builds a write request for an I/O target but does not send the request. |
-| [WdfIoTargetGetDevice function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetgetdevice.md) | The WdfIoTargetGetDevice method returns a handle to the framework device object that is the parent of the specified local or remote I/O target. |
-| [WdfIoTargetGetState function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetgetstate.md) | The WdfIoTargetGetState method returns state information for a local or remote I/O target. |
-| [WdfIoTargetOpen function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md) | The WdfIoTargetOpen method opens a remote I/O target so the driver can send I/O requests to it. |
-| [WdfIoTargetPurge function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md) | The WdfIoTargetPurge method cancels all I/O requests queued to a local, remote, or specialized I/O target and prevents any new I/O requests from being queued. |
-| [WdfIoTargetQueryForInterface function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetqueryforinterface.md) | The WdfIoTargetQueryForInterface method obtains access to the GUID-identified, driver-defined interface of a remote I/O target. |
-| [WdfIoTargetQueryTargetProperty function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetquerytargetproperty.md) | The WdfIoTargetQueryTargetProperty method retrieves a specified device property for a specified I/O target. |
-| [WdfIoTargetSendInternalIoctlOthersSynchronously function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md) | The WdfIoTargetSendInternalIoctlOthersSynchronously method builds a non-standard internal device control request and sends it synchronously to an I/O target. |
-| [WdfIoTargetSendInternalIoctlSynchronously function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md) | The WdfIoTargetSendInternalIoctlSynchronously method builds an internal device control request and sends it synchronously to an I/O target. |
-| [WdfIoTargetSendIoctlSynchronously function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md) | The WdfIoTargetSendIoctlSynchronously method builds a device control request and sends it synchronously to an I/O target. |
-| [WdfIoTargetSendReadSynchronously function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendreadsynchronously.md) | The WdfIoTargetSendReadSynchronously method builds a read request and sends it synchronously to an I/O target. |
-| [WdfIoTargetSendWriteSynchronously function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendwritesynchronously.md) | The WdfIoTargetSendWriteSynchronously method builds a write request and sends it synchronously to an I/O target. |
-| [WdfIoTargetStart function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md) | The WdfIoTargetStart method starts sending queued requests to a local or remote I/O target. |
-| [WdfIoTargetStop function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md) | The WdfIoTargetStop method stops sending queued requests to a local or remote I/O target. |
-| [WdfIoTargetWdmGetTargetDeviceObject function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetdeviceobject.md) | The WdfIoTargetWdmGetTargetDeviceObject method returns a pointer to the Windows Driver Model (WDM) device object that is associated with a specified local or remote I/O target. |
-| [WdfIoTargetWdmGetTargetFileHandle function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md) | The WdfIoTargetWdmGetTargetFileHandle method returns a handle to the file that is associated with a specified remote I/O target. |
-| [WdfIoTargetWdmGetTargetFileObject function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfileobject.md) | The WdfIoTargetWdmGetTargetFileObject method returns a pointer to the Windows Driver Model (WDM) file object that is associated with a specified remote I/O target. |
-| [WdfIoTargetWdmGetTargetPhysicalDevice function](..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetphysicaldevice.md) | The WdfIoTargetWdmGetTargetPhysicalDevice method returns a pointer to the Windows Driver Model (WDM) physical device object (PDO) that represents a remote I/O target's device. |
-| [WdfLookasideListCreate function](..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md) | The WdfLookasideListCreate method creates a lookaside-list object, from which the driver can obtain memory objects. |
-| [WdfMemoryAssignBuffer function](..\wdfmemory\nf-wdfmemory-wdfmemoryassignbuffer.md) | The WdfMemoryAssignBuffer method assigns a specified buffer to a memory object that a driver created by calling WdfMemoryCreatePreallocated. |
-| [WdfMemoryCopyFromBuffer function](..\wdfmemory\nf-wdfmemory-wdfmemorycopyfrombuffer.md) | The WdfMemoryCopyFromBuffer method copies the contents of a specified source buffer into a specified memory object's buffer. |
-| [WdfMemoryCopyToBuffer function](..\wdfmemory\nf-wdfmemory-wdfmemorycopytobuffer.md) | The WdfMemoryCopyToBuffer method copies the contents of a specified memory object's buffer into a specified destination buffer. |
-| [WdfMemoryCreate function](..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md) | The WdfMemoryCreate method creates a framework memory object and allocates a memory buffer of a specified size. |
-| [WdfMemoryCreateFromLookaside function](..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md) | The WdfMemoryCreateFromLookaside method creates a framework memory object and obtains a memory buffer from a specified lookaside list. |
-| [WdfMemoryCreatePreallocated function](..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md) | The WdfMemoryCreatePreallocated method creates a framework memory object for a driver-supplied memory buffer. |
-| [WdfMemoryGetBuffer function](..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md) | The WdfMemoryGetBuffer method returns a pointer to the buffer that is associated with a specified memory object. |
-| [WdfObjectAllocateContext function](..\wdfobject\nf-wdfobject-wdfobjectallocatecontext.md) | The WdfObjectAllocateContext method allocates context space for a specified framework object. |
-| [WdfObjectContextGetObject function](..\wdfobject\nf-wdfobject-wdfobjectcontextgetobject.md) | The WdfObjectContextGetObject method returns a handle to the framework object that a specified context space belongs to. |
-| [WdfObjectCreate function](..\wdfobject\nf-wdfobject-wdfobjectcreate.md) | The WdfObjectCreate method creates a general framework object. |
-| [WdfObjectDelete function](..\wdfobject\nf-wdfobject-wdfobjectdelete.md) | The WdfObjectDelete method deletes a framework object and its child objects. |
-| [WdfObjectDereferenceActual function](..\wdfobject\nf-wdfobject-wdfobjectdereferenceactual.md) | The WdfObjectDereferenceActual method decrements the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference. |
-| [WdfObjectGetTypedContextWorker function](..\wdfobject\nf-wdfobject-wdfobjectgettypedcontextworker.md) | The WdfObjectGetTypedContextWorker method is reserved for internal use only. Use the WdfObjectGetTypedContext macro instead. |
-| [WdfObjectQuery function](..\wdfobject\nf-wdfobject-wdfobjectquery.md) | The WdfObjectQuery method is not implemented. |
-| [WdfObjectReferenceActual function](..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md) | The WdfObjectReferenceActual method increments the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference. |
-| [WdfPdoAddEjectionRelationsPhysicalDevice function](..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md) | The WdfPdoAddEjectionRelationsPhysicalDevice method indicates that a specified device is ejected when another specified device is ejected. |
-| [WdfPdoClearEjectionRelationsDevices function](..\wdfpdo\nf-wdfpdo-wdfpdoclearejectionrelationsdevices.md) | The WdfPdoClearEjectionRelationsDevices method removes all devices from the list of devices that must be ejected when a specified device is ejected. |
-| [WdfPdoGetParent function](..\wdfpdo\nf-wdfpdo-wdfpdogetparent.md) | The WdfPdoGetParent method returns a handle to the framework device object that represents the parent device of a specified device. |
-| [WdfPdoInitAddCompatibleID function](..\wdfpdo\nf-wdfpdo-wdfpdoinitaddcompatibleid.md) | The WdfPdoInitAddCompatibleID method adds a compatible ID to the list of compatible IDs for a child device. |
-| [WdfPdoInitAddDeviceText function](..\wdfpdo\nf-wdfpdo-wdfpdoinitadddevicetext.md) | The WdfPdoInitAddDeviceText method adds a device description and device location to a device, for a specified locale. |
-| [WdfPdoInitAddHardwareID function](..\wdfpdo\nf-wdfpdo-wdfpdoinitaddhardwareid.md) | The WdfPdoInitAddHardwareID method adds a hardware ID to the list of hardware IDs for a child device. |
-| [WdfPdoInitAllocate function](..\wdfpdo\nf-wdfpdo-wdfpdoinitallocate.md) | The WdfPdoInitAllocate method allocates a WDFDEVICE_INIT structure for a framework-based bus driver, which the bus driver uses when reporting a new device. |
-| [WdfPdoInitAllowForwardingRequestToParent function](..\wdfpdo\nf-wdfpdo-wdfpdoinitallowforwardingrequesttoparent.md) | The WdfPdoInitAllowForwardingRequestToParent method enables a driver's ability to call WdfRequestForwardToParentDeviceIoQueue. |
-| [WdfPdoInitAssignContainerID function](..\wdfpdo\nf-wdfpdo-wdfpdoinitassigncontainerid.md) | The WdfPdoInitAssignContainerID method updates the container ID for a child device. |
-| [WdfPdoInitAssignDeviceID function](..\wdfpdo\nf-wdfpdo-wdfpdoinitassigndeviceid.md) | The WdfPdoInitAssignDeviceID method updates the device ID for a child device. |
-| [WdfPdoInitAssignInstanceID function](..\wdfpdo\nf-wdfpdo-wdfpdoinitassigninstanceid.md) | The WdfPdoInitAssignInstanceID method updates the instance ID for a child device. |
-| [WdfPdoInitAssignRawDevice function](..\wdfpdo\nf-wdfpdo-wdfpdoinitassignrawdevice.md) | The WdfPdoInitAssignRawDevice method indicates that the calling driver can support a specified device in raw mode. |
-| [WdfPdoInitSetDefaultLocale function](..\wdfpdo\nf-wdfpdo-wdfpdoinitsetdefaultlocale.md) | The WdfPdoInitSetDefaultLocale method sets a device's default locale. |
-| [WdfPdoInitSetEventCallbacks function](..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md) | The WdfPdoInitSetEventCallbacks method registers a bus driver's event callback functions. |
-| [WdfPdoMarkMissing function](..\wdfpdo\nf-wdfpdo-wdfpdomarkmissing.md) | The WdfPdoMarkMissing method informs the framework that a device is no longer accessible. |
-| [WdfPdoRemoveEjectionRelationsPhysicalDevice function](..\wdfpdo\nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice.md) | The WdfPdoRemoveEjectionRelationsPhysicalDevice method removes a specified device from the list of devices that must be ejected when another specified device is ejected. |
-| [WdfPdoRequestEject function](..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md) | The WdfPdoRequestEject method informs the framework that a specified device is about to be ejected from its docking station. |
-| [WdfPdoRetrieveAddressDescription function](..\wdfpdo\nf-wdfpdo-wdfpdoretrieveaddressdescription.md) | The WdfPdoRetrieveAddressDescription method retrieves the address description that is associated with a specified framework device object. |
-| [WdfPdoRetrieveIdentificationDescription function](..\wdfpdo\nf-wdfpdo-wdfpdoretrieveidentificationdescription.md) | The WdfPdoRetrieveIdentificationDescription method retrieves the identification description that is associated with a specified framework device object. |
-| [WdfPdoUpdateAddressDescription function](..\wdfpdo\nf-wdfpdo-wdfpdoupdateaddressdescription.md) | The WdfPdoUpdateAddressDescription method updates the address description that is associated with a specified framework device object. |
-| [WdfPostDeviceInstall function](..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceinstall.md) | The co-installer's WdfPostDeviceInstall function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has created the driver's kernel-mode service. |
-| [WdfPostDeviceRemove function](..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceremove.md) | The co-installer's WdfPostDeviceRemove function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has deleted the driver's kernel-mode service. |
-| [WdfPreDeviceInstall function](..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md) | The co-installer's WdfPreDeviceInstall function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service. |
-| [WdfPreDeviceInstallEx function](..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstallex.md) | The co-installer's WdfPreDeviceInstallEx function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service. |
-| [WdfPreDeviceRemove function](..\wdfinstaller\nf-wdfinstaller-wdfpredeviceremove.md) | The co-installer's WdfPreDeviceRemove function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer deletes the driver's kernel-mode service. |
-| [WdfRegistryAssignMemory function](..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md) | The WdfRegistryAssignMemory method assigns data that is contained in a specified memory buffer to a specified value name in the registry. |
-| [WdfRegistryAssignMultiString function](..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md) | The WdfRegistryAssignMultiString method assigns a set of strings to a specified value name in the registry. The strings are contained in a specified collection of framework string objects. |
-| [WdfRegistryAssignString function](..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md) | The WdfRegistryAssignString method assigns a string to a specified value name in the registry. The string is contained in a specified framework string object. |
-| [WdfRegistryAssignULong function](..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md) | The WdfRegistryAssignULong method assigns a specified unsigned long word value to a specified value name in the registry. |
-| [WdfRegistryAssignUnicodeString function](..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md) | The WdfRegistryAssignUnicodeString method assigns a specified Unicode string to a specified value name in the registry. |
-| [WdfRegistryAssignValue function](..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md) | The WdfRegistryAssignValue method assigns specified data to a specified value name in the registry. |
-| [WdfRegistryClose function](..\wdfregistry\nf-wdfregistry-wdfregistryclose.md) | The WdfRegistryClose method closes the registry key that is associated with a specified framework registry-key object and then deletes the registry-key object. |
-| [WdfRegistryCreateKey function](..\wdfregistry\nf-wdfregistry-wdfregistrycreatekey.md) | The WdfRegistryCreateKey method creates and opens a specified registry key, or just opens the key if it already exists, and creates a framework registry-key object that represents the registry key. |
-| [WdfRegistryOpenKey function](..\wdfregistry\nf-wdfregistry-wdfregistryopenkey.md) | The WdfRegistryOpenKey method opens a specified registry key and creates a framework registry-key object that represents the registry key. |
-| [WdfRegistryQueryMemory function](..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md) | The WdfRegistryQueryMemory method retrieves the data that is currently assigned to a specified registry value, stores the data in a framework-allocated buffer, and creates a framework memory object to represent the buffer. |
-| [WdfRegistryQueryMultiString function](..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md) | The WdfRegistryQueryMultiString method retrieves the strings that are currently assigned to a specified multi-string registry value, creates a framework string object for each string, and adds each string object to a specified object collection. |
-| [WdfRegistryQueryString function](..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md) | The WdfRegistryQueryString method retrieves the string data that is currently assigned to a specified registry string value and assigns the string to a specified framework string object. |
-| [WdfRegistryQueryULong function](..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md) | The WdfRegistryQueryULong method retrieves the unsigned long word (REG_DWORD) data that is currently assigned to a specified registry value and copies the data to a specified location. |
-| [WdfRegistryQueryUnicodeString function](..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md) | The WdfRegistryQueryUnicodeString method retrieves the string data that is currently assigned to a specified registry string value and copies the string to a specified UNICODE_STRING structure. |
-| [WdfRegistryQueryValue function](..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md) | The WdfRegistryQueryValue method retrieves the data that is currently assigned to a specified registry value. |
-| [WdfRegistryRemoveKey function](..\wdfregistry\nf-wdfregistry-wdfregistryremovekey.md) | The WdfRegistryRemoveKey method removes the registry key that is associated with a specified framework registry-key object and then deletes the registry-key object. |
-| [WdfRegistryRemoveValue function](..\wdfregistry\nf-wdfregistry-wdfregistryremovevalue.md) | The WdfRegistryRemoveValue method removes a specified value and its data from a specified registry key. |
-| [WdfRegistryWdmGetHandle function](..\wdfregistry\nf-wdfregistry-wdfregistrywdmgethandle.md) | The WdfRegistryWdmGetHandle method returns a Windows Driver Model (WDM) handle to the registry key that a specified framework registry-key object represents. |
-| [WdfRequestAllocateTimer function](..\wdfrequest\nf-wdfrequest-wdfrequestallocatetimer.md) | The WdfRequestAllocateTimer method allocates a timer for a specified I/O request. |
-| [WdfRequestCancelSentRequest function](..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md) | The WdfRequestCancelSentRequest method attempts to cancel an I/O request that the caller previously submitted to an I/O target. |
-| [WdfRequestChangeTarget function](..\wdfrequest\nf-wdfrequest-wdfrequestchangetarget.md) | The WdfRequestChangeTarget method verifies that a specified I/O request can be sent to a specified I/O target. |
-| [WdfRequestComplete function](..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md) | The WdfRequestComplete method completes a specified I/O request and supplies a completion status. |
-| [WdfRequestCompleteWithInformation function](..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md) | The WdfRequestCompleteWithInformation method stores completion information and then completes a specified I/O request with a supplied completion status. |
-| [WdfRequestCompleteWithPriorityBoost function](..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithpriorityboost.md) | The WdfRequestCompleteWithPriorityBoost method completes a specified I/O request and supplies a completion status. It also specifies a value that the system can use to boost the run-time priority of the thread that requested the I/O operation. |
-| [WdfRequestCreate function](..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md) | The WdfRequestCreate method creates an empty framework request object. |
-| [WdfRequestCreateFromIrp function](..\wdfrequest\nf-wdfrequest-wdfrequestcreatefromirp.md) | The WdfRequestCreateFromIrp method creates a framework request object from a specified WDM IRP. |
-| [WdfRequestFormatRequestUsingCurrentType function](..\wdfrequest\nf-wdfrequest-wdfrequestformatrequestusingcurrenttype.md) | The WdfRequestFormatRequestUsingCurrentType method formats a specified I/O request so that the driver can forward it, unmodified, to the driver's local I/O target. |
-| [WdfRequestForwardToIoQueue function](..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md) | The WdfRequestForwardToIoQueue method requeues an I/O request to one of the calling driver's I/O queues. |
-| [WdfRequestForwardToParentDeviceIoQueue function](..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md) | The WdfRequestForwardToParentDeviceIoQueue method requeues an I/O request from a child device's I/O queue to a specified I/O queue of the child's parent device. |
-| [WdfRequestGetCompletionParams function](..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md) | The WdfRequestGetCompletionParams method retrieves the I/O completion parameters that are associated with a specified framework request object. |
-| [WdfRequestGetEffectiveIoType function](..\wdfrequest\nf-wdfrequest-wdfrequestgeteffectiveiotype.md) | The WdfRequestGetEffectiveIoType method returns the buffer access method that UMDF is using for the data buffers of the specified I/O request. |
-| [WdfRequestGetFileObject function](..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md) | The WdfRequestGetFileObject method retrieves the framework file object that is associated with a specified I/O request. |
-| [WdfRequestGetInformation function](..\wdfrequest\nf-wdfrequest-wdfrequestgetinformation.md) | The WdfRequestGetInformation method returns completion status information for a specified I/O request. |
-| [WdfRequestGetIoQueue function](..\wdfrequest\nf-wdfrequest-wdfrequestgetioqueue.md) | The WdfRequestGetIoQueue method returns a handle to the framework queue object from which a specified I/O request was delivered. |
-| [WdfRequestGetParameters function](..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md) | The WdfRequestGetParameters method retrieves the parameters that are associated with a specified framework request object. |
-| [WdfRequestGetRequestorMode function](..\wdfrequest\nf-wdfrequest-wdfrequestgetrequestormode.md) | The WdfRequestGetRequestorMode method returns the processor access mode of the originator of a specified I/O request. |
-| [WdfRequestGetRequestorProcessId function](..\wdfrequest\nf-wdfrequest-wdfrequestgetrequestorprocessid.md) | The WdfRequestGetRequestorProcessId method retrieves the identifier of the process that sent an I/O request. |
-| [WdfRequestGetStatus function](..\wdfrequest\nf-wdfrequest-wdfrequestgetstatus.md) | The WdfRequestGetStatus method returns the status of an I/O request. |
-| [WdfRequestGetUserModeDriverInitiatedIo function](..\wdfrequest\nf-wdfrequest-wdfrequestgetusermodedriverinitiatedio.md) | The WdfRequestGetUserModeDriverInitiatedIo method determines whether an I/O request is marked as initiated by a UMDF driver. |
-| [WdfRequestImpersonate function](..\wdfrequest\nf-wdfrequest-wdfrequestimpersonate.md) | The WdfRequestImpersonate method registers a driver-supplied event callback function that the framework should call for impersonation. |
-| [WdfRequestIsCanceled function](..\wdfrequest\nf-wdfrequest-wdfrequestiscanceled.md) | The WdfRequestIsCanceled method determines whether the I/O manager has attempted to cancel a specified I/O request. |
-| [WdfRequestIsFrom32BitProcess function](..\wdfrequest\nf-wdfrequest-wdfrequestisfrom32bitprocess.md) | The WdfRequestIsFrom32BitProcess method checks whether the originator of a specified I/O request is a 32-bit user-mode application. |
-| [WdfRequestIsFromUserModeDriver function](..\wdfrequest\nf-wdfrequest-wdfrequestisfromusermodedriver.md) | The WdfRequestIsFromUserModeDriver method indicates whether an I/O request came from a user-mode driver or an application. |
-| [WdfRequestIsReserved function](..\wdfrequest\nf-wdfrequest-wdfrequestisreserved.md) | The WdfRequestIsReserved method determines whether a specified request object is one that the framework reserved to support guaranteed forward progress during low-memory situations. |
-| [WdfRequestMarkCancelable function](..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md) | The WdfRequestMarkCancelable method enables cancellation of a specified I/O request. |
-| [WdfRequestMarkCancelableEx function](..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md) | The WdfRequestMarkCancelableEx method enables cancellation of a specified I/O request. |
-| [WdfRequestProbeAndLockUserBufferForRead function](..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md) | The WdfRequestProbeAndLockUserBufferForRead method verifies that an I/O request's user-mode buffer is readable, and then it locks the buffer's physical memory pages so drivers in the driver stack can read the buffer. |
-| [WdfRequestProbeAndLockUserBufferForWrite function](..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforwrite.md) | The WdfRequestProbeAndLockUserBufferForWrite method verifies that an I/O request's user-mode buffer is writeable, and then it locks the buffer's physical memory pages so drivers in the driver stack can write into the buffer. |
-| [WdfRequestRequeue function](..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md) | The WdfRequestRequeue method returns an I/O request to the head of the I/O queue from which it was delivered to the driver. |
-| [WdfRequestRetrieveActivityId function](..\wdfrequest\nf-wdfrequest-wdfrequestretrieveactivityid.md) | The WdfRequestRetrieveActivityId method retrieves the current activity identifier associated with an I/O request. |
-| [WdfRequestRetrieveInputBuffer function](..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md) | The WdfRequestRetrieveInputBuffer method retrieves an I/O request's input buffer. |
-| [WdfRequestRetrieveInputMemory function](..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md) | The WdfRequestRetrieveInputMemory method retrieves a handle to a framework memory object that represents an I/O request's input buffer. |
-| [WdfRequestRetrieveInputWdmMdl function](..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputwdmmdl.md) | The WdfRequestRetrieveInputWdmMdl method retrieves a memory descriptor list (MDL) that represents an I/O request's input buffer. |
-| [WdfRequestRetrieveOutputBuffer function](..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md) | The WdfRequestRetrieveOutputBuffer method retrieves an I/O request's output buffer. |
-| [WdfRequestRetrieveOutputMemory function](..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md) | The WdfRequestRetrieveOutputMemory method retrieves a handle to a framework memory object that represents an I/O request's output buffer. |
-| [WdfRequestRetrieveOutputWdmMdl function](..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputwdmmdl.md) | The WdfRequestRetrieveOutputWdmMdl method retrieves a memory descriptor list (MDL) that represents an I/O request's output buffer. |
-| [WdfRequestRetrieveUnsafeUserInputBuffer function](..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuserinputbuffer.md) | The WdfRequestRetrieveUnsafeUserInputBuffer method retrieves an I/O request's input buffer, if the request's technique for accessing data buffers is neither buffered nor direct I/O. |
-| [WdfRequestRetrieveUnsafeUserOutputBuffer function](..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer.md) | The WdfRequestRetrieveUnsafeUserOutputBuffer method retrieves an I/O request's output buffer, if the request's technique for accessing data buffers is neither buffered nor direct I/O. |
-| [WdfRequestReuse function](..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md) | The WdfRequestReuse method reinitializes a framework request object so that it can be reused. |
-| [WdfRequestSend function](..\wdfrequest\nf-wdfrequest-wdfrequestsend.md) | The WdfRequestSend method sends a specified I/O request to a specified I/O target. |
-| [WdfRequestSetActivityId function](..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md) | The WdfRequestSetActivityId method associates an activity identifier with an I/O request. |
-| [WdfRequestSetCompletionRoutine function](..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md) | The WdfRequestSetCompletionRoutine method registers or deregisters a completion routine for the specified framework request object. |
-| [WdfRequestSetInformation function](..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md) | The WdfRequestSetInformation method sets completion status information for a specified I/O request. |
-| [WdfRequestSetUserModeDriverInitiatedIo function](..\wdfrequest\nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio.md) | The WdfRequestSetUserModeDriverInitiatedIo method indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver. |
-| [WdfRequestStopAcknowledge function](..\wdfrequest\nf-wdfrequest-wdfrequeststopacknowledge.md) | The WdfRequestStopAcknowledge method informs the framework that the driver has stopped processing a specified I/O request. |
-| [WdfRequestUnmarkCancelable function](..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md) | The WdfRequestUnmarkCancelable method disables cancellation of a specified I/O request. |
-| [WdfRequestWdmFormatUsingStackLocation function](..\wdfrequest\nf-wdfrequest-wdfrequestwdmformatusingstacklocation.md) | The WdfRequestWdmFormatUsingStackLocation method formats an I/O request by copying the contents of a specified WDM I/O stack location structure to the next stack location in the request. |
-| [WdfRequestWdmGetIrp function](..\wdfrequest\nf-wdfrequest-wdfrequestwdmgetirp.md) | The WdfRequestWdmGetIrp method returns the WDM IRP structure that is associated with a specified framework request object. |
-| [WdfSpinLockCreate function](..\wdfsync\nf-wdfsync-wdfspinlockcreate.md) | The WdfSpinLockCreate method creates a framework spin-lock object. |
-| [WdfStringCreate function](..\wdfstring\nf-wdfstring-wdfstringcreate.md) | The WdfStringCreate method creates a framework string object and optionally assigns a specified Unicode string to the object. |
-| [WdfStringGetUnicodeString function](..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md) | The WdfStringGetUnicodeString method retrieves the Unicode string that is assigned to a specified framework string object. |
-| [WdfTimerCreate function](..\wdftimer\nf-wdftimer-wdftimercreate.md) | The WdfTimerCreate method creates a framework timer object. |
-| [WdfTimerGetParentObject function](..\wdftimer\nf-wdftimer-wdftimergetparentobject.md) | The WdfTimerGetParentObject method returns a handle to the parent object of a specified framework timer object. |
-| [WdfTimerStart function](..\wdftimer\nf-wdftimer-wdftimerstart.md) | The WdfTimerStart method starts a timer's clock. |
-| [WdfTimerStop function](..\wdftimer\nf-wdftimer-wdftimerstop.md) | The WdfTimerStop method stops a timer's clock. |
-| [WdfUsbInterfaceGetConfiguredPipe function](..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md) | The WdfUsbInterfaceGetConfiguredPipe method returns a handle to the framework pipe object that is associated with a specified USB device interface and pipe index. Optionally, the method also returns information about the pipe. |
-| [WdfUsbInterfaceGetConfiguredSettingIndex function](..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredsettingindex.md) | The WdfUsbInterfaceGetConfiguredSettingIndex method returns the alternate setting index that is currently selected for a specified USB device interface. |
-| [WdfUsbInterfaceGetDescriptor function](..\wdfusb\nf-wdfusb-wdfusbinterfacegetdescriptor.md) | The WdfUsbInterfaceGetDescriptor method retrieves the USB interface descriptor that is associated with a specified alternate setting of a specified USB interface. |
-| [WdfUsbInterfaceGetEndpointInformation function](..\wdfusb\nf-wdfusb-wdfusbinterfacegetendpointinformation.md) | The WdfUsbInterfaceGetEndpointInformation method retrieves information about a specified USB device endpoint and its associated pipe. |
-| [WdfUsbInterfaceGetInterfaceNumber function](..\wdfusb\nf-wdfusb-wdfusbinterfacegetinterfacenumber.md) | The WdfUsbInterfaceGetInterfaceNumber method returns the interface number of a specified USB interface object. |
-| [WdfUsbInterfaceGetNumConfiguredPipes function](..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md) | The WdfUsbInterfaceGetNumConfiguredPipes method returns the number of pipes that are configured for a specified USB device interface. |
-| [WdfUsbInterfaceGetNumEndpoints function](..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumendpoints.md) | The WdfUsbInterfaceGetNumEndpoints method returns the number of endpoints that are associated with a specified alternate setting of a specified USB interface. |
-| [WdfUsbInterfaceGetNumSettings function](..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumsettings.md) | The WdfUsbInterfaceGetNumSettings method returns the number of alternate settings that a specified USB interface supports. |
-| [WdfUsbInterfaceSelectSetting function](..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md) | The WdfUsbInterfaceSelectSetting method selects a specified alternate setting for a specified USB interface. |
-| [WdfUsbTargetDeviceAllocAndQueryString function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md) | The WdfUsbTargetDeviceAllocAndQueryString method allocates a buffer, then it retrieves the Unicode string that is associated with a specified USB device and descriptor index value. |
-| [WdfUsbTargetDeviceCreate function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreate.md) | The WdfUsbTargetDeviceCreate method creates a framework USB device object for a specified framework device object and opens the USB device for I/O operations. |
-| [WdfUsbTargetDeviceCreateIsochUrb function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateisochurb.md) | The WdfUsbTargetDeviceCreateIsochUrb method allocates an isochronous USB request block (URB). |
-| [WdfUsbTargetDeviceCreateUrb function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateurb.md) | The WdfUsbTargetDeviceCreateUrb method allocates a USB request block (URB). |
-| [WdfUsbTargetDeviceCreateWithParameters function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md) | The WdfUsbTargetDeviceCreateWithParameters method creates a framework USB device object for a specified framework device object and opens the USB device for I/O operations. |
-| [WdfUsbTargetDeviceCyclePortSynchronously function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicecycleportsynchronously.md) | The WdfUsbTargetDeviceCyclePortSynchronously method power-cycles the USB port to which a specified device is attached. |
-| [WdfUsbTargetDeviceFormatRequestForControlTransfer function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer.md) | The WdfUsbTargetDeviceFormatRequestForControlTransfer method builds a USB control transfer request, but it does not send the request. |
-| [WdfUsbTargetDeviceFormatRequestForCyclePort function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforcycleport.md) | The WdfUsbTargetDeviceFormatRequestForCyclePort method builds a power-cycle request for the port to which a specified device is attached, but it does not send the request. |
-| [WdfUsbTargetDeviceFormatRequestForString function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforstring.md) | The WdfUsbTargetDeviceFormatRequestForString method builds a request for the USB string descriptor that is associated with a USB device's string index value. |
-| [WdfUsbTargetDeviceFormatRequestForUrb function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforurb.md) | The WdfUsbTargetDeviceFormatRequestForUrb method builds an USB request for a specified USB device, using request parameters that are described by a URB, but it does not send the request. |
-| [WdfUsbTargetDeviceGetDeviceDescriptor function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetdevicedescriptor.md) | The WdfUsbTargetDeviceGetDeviceDescriptor method retrieves the USB device descriptor for the USB device that is associated with a specified framework USB device object. |
-| [WdfUsbTargetDeviceGetInterface function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md) | The WdfUsbTargetDeviceGetInterface method returns a handle to the framework USB interface object that is associated with a specified interface index. |
-| [WdfUsbTargetDeviceGetIoTarget function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md) | The WdfUsbTargetDeviceGetIoTarget method returns a handle to the I/O target object that is associated with a specified USB device. |
-| [WdfUsbTargetDeviceGetNumInterfaces function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetnuminterfaces.md) | The WdfUsbTargetDeviceGetNumInterfaces method returns the number of USB device interfaces that are supported by a specified USB device. |
-| [WdfUsbTargetDeviceIsConnectedSynchronous function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceisconnectedsynchronous.md) | The WdfUsbTargetDeviceIsConnectedSynchronous method determines if the specified USB device is connected. |
-| [WdfUsbTargetDeviceQueryString function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicequerystring.md) | The WdfUsbTargetDeviceQueryString method retrieves the Unicode string that is associated with a specified USB device and descriptor index value. |
-| [WdfUsbTargetDeviceQueryUsbCapability function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicequeryusbcapability.md) | The WdfUsbTargetDeviceQueryUsbCapability method determines whether the host controller and USB driver stack support a specific capability. |
-| [WdfUsbTargetDeviceResetPortSynchronously function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceresetportsynchronously.md) | The WdfUsbTargetDeviceResetPortSynchronously method resets the USB port that is associated with the specified USB device. |
-| [WdfUsbTargetDeviceRetrieveConfigDescriptor function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveconfigdescriptor.md) | The WdfUsbTargetDeviceRetrieveConfigDescriptor method retrieves the USB configuration descriptor for the USB device that is associated with a specified framework USB device object. |
-| [WdfUsbTargetDeviceRetrieveCurrentFrameNumber function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrievecurrentframenumber.md) | The WdfUsbTargetDeviceRetrieveCurrentFrameNumber method retrieves the current USB frame number. |
-| [WdfUsbTargetDeviceRetrieveInformation function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md) | The WdfUsbTargetDeviceRetrieveInformation method retrieves information about the USB device that is associated with a specified framework USB device object. |
-| [WdfUsbTargetDeviceSelectConfig function](..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md) | The WdfUsbTargetDeviceSelectConfig method selects a USB configuration for a device, or it deconfigures the device. |
-| [WdfUsbTargetDeviceSendControlTransferSynchronously function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously.md) | The WdfUsbTargetDeviceSendControlTransferSynchronously method builds a USB control transfer request and sends it synchronously to an I/O target. |
-| [WdfUsbTargetDeviceSendUrbSynchronously function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendurbsynchronously.md) | The WdfUsbTargetDeviceSendUrbSynchronously method sends a USB request synchronously to a specified USB device, using request parameters that are described by a URB. |
-| [WdfUsbTargetDeviceWdmGetConfigurationHandle function](..\wdfusb\nf-wdfusb-wdfusbtargetdevicewdmgetconfigurationhandle.md) | The WdfUsbTargetDeviceWdmGetConfigurationHandle method returns the USBD_CONFIGURATION_HANDLE-typed handle that is associated with the current configuration of a specified USB device. |
-| [WdfUsbTargetPipeAbortSynchronously function](..\wdfusb\nf-wdfusb-wdfusbtargetpipeabortsynchronously.md) | The WdfUsbTargetPipeAbortSynchronously method builds an abort request and sends it synchronously to a specified USB pipe. |
-| [WdfUsbTargetPipeConfigContinuousReader function](..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md) | The WdfUsbTargetPipeConfigContinuousReader method configures the framework to continuously read from a specified USB pipe. |
-| [WdfUsbTargetPipeFormatRequestForAbort function](..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequestforabort.md) | The WdfUsbTargetPipeFormatRequestForAbort method builds an abort request for a specified USB pipe, but it does not send the request. |
-| [WdfUsbTargetPipeFormatRequestForRead function](..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequestforread.md) | The WdfUsbTargetPipeFormatRequestForRead method builds a read request for a USB input pipe, but it does not send the request. |
-| [WdfUsbTargetPipeFormatRequestForReset function](..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequestforreset.md) | The WdfUsbTargetPipeFormatRequestForReset method builds a reset request for a specified USB pipe, but it does not send the request. |
-| [WdfUsbTargetPipeFormatRequestForUrb function](..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequestforurb.md) | The WdfUsbTargetPipeFormatRequestForUrb method builds an USB request for a specified USB pipe, using request parameters that a specified URB describes, but it does not send the request. |
-| [WdfUsbTargetPipeFormatRequestForWrite function](..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequestforwrite.md) | The WdfUsbTargetPipeFormatRequestForWrite method builds a write request for a USB output pipe, but it does not send the request. |
-| [WdfUsbTargetPipeGetInformation function](..\wdfusb\nf-wdfusb-wdfusbtargetpipegetinformation.md) | The WdfUsbTargetPipeGetInformation method retrieves information about a USB pipe and its endpoint. |
-| [WdfUsbTargetPipeGetIoTarget function](..\wdfusb\nf-wdfusb-wdfusbtargetpipegetiotarget.md) | The WdfUsbTargetPipeGetIoTarget method returns a handle to the I/O target object that is associated with a specified USB pipe. |
-| [WdfUsbTargetPipeGetType function](..\wdfusb\nf-wdfusb-wdfusbtargetpipegettype.md) | The WdfUsbTargetPipeGetType method returns the type of a specified USB pipe. |
-| [WdfUsbTargetPipeIsInEndpoint function](..\wdfusb\nf-wdfusb-wdfusbtargetpipeisinendpoint.md) | The WdfUsbTargetPipeIsInEndpoint method determines whether a specified USB pipe is connected to an input endpoint. |
-| [WdfUsbTargetPipeIsOutEndpoint function](..\wdfusb\nf-wdfusb-wdfusbtargetpipeisoutendpoint.md) | The WdfUsbTargetPipeIsOutEndpoint method determines whether a specified USB pipe is connected to an output endpoint. |
-| [WdfUsbTargetPipeReadSynchronously function](..\wdfusb\nf-wdfusb-wdfusbtargetpipereadsynchronously.md) | The WdfUsbTargetPipeReadSynchronously method builds a read request and sends it synchronously to a specified USB input pipe. |
-| [WdfUsbTargetPipeResetSynchronously function](..\wdfusb\nf-wdfusb-wdfusbtargetpiperesetsynchronously.md) | The WdfUsbTargetPipeResetSynchronously method builds a reset request and sends it synchronously to a specified USB pipe. |
-| [WdfUsbTargetPipeSendUrbSynchronously function](..\wdfusb\nf-wdfusb-wdfusbtargetpipesendurbsynchronously.md) | The WdfUsbTargetPipeSendUrbSynchronously method builds an USB request for a specified USB pipe, using request parameters that a specified URB describes. |
-| [WdfUsbTargetPipeSetNoMaximumPacketSizeCheck function](..\wdfusb\nf-wdfusb-wdfusbtargetpipesetnomaximumpacketsizecheck.md) | The WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method disables the framework's test of whether the size of a driver's read buffer is a multiple of a USB pipe's maximum packet size. |
-| [WdfUsbTargetPipeWdmGetPipeHandle function](..\wdfusb\nf-wdfusb-wdfusbtargetpipewdmgetpipehandle.md) | The WdfUsbTargetPipeWdmGetPipeHandle method returns the USBD_PIPE_HANDLE-typed handle that is associated with a specified framework pipe object. |
-| [WdfUsbTargetPipeWriteSynchronously function](..\wdfusb\nf-wdfusb-wdfusbtargetpipewritesynchronously.md) | The WdfUsbTargetPipeWriteSynchronously method builds a write request and sends it synchronously to a specified USB output pipe. |
-| [WdfVerifierDbgBreakPoint function](..\wdfverifier\nf-wdfverifier-wdfverifierdbgbreakpoint.md) | The WdfVerifierDbgBreakPoint function breaks into a kernel debugger, if a debugger is running. |
-| [WdfVerifierKeBugCheck function](..\wdfverifier\nf-wdfverifier-wdfverifierkebugcheck.md) | The WdfVerifierKeBugCheck function creates a bug check. |
-| [WdfWaitLockAcquire function](..\wdfsync\nf-wdfsync-wdfwaitlockacquire.md) | The WdfWaitLockAcquire method acquires a specified wait lock. |
-| [WdfWaitLockCreate function](..\wdfsync\nf-wdfsync-wdfwaitlockcreate.md) | The WdfWaitLockCreate method creates a framework wait-lock object. |
-| [WdfWdmDeviceGetWdfDeviceHandle function](..\wdfdevice\nf-wdfdevice-wdfwdmdevicegetwdfdevicehandle.md) | The WdfWdmDeviceGetWdfDeviceHandle method returns a handle to the framework device object that is associated with a specified WDM device object. |
-| [WdfWdmDriverGetWdfDriverHandle function](..\wdfdriver\nf-wdfdriver-wdfwdmdrivergetwdfdriverhandle.md) | The WdfWdmDriverGetWdfDriverHandle method returns a handle to the framework driver object that is associated with a specified Windows Driver Model (WDM) driver object. |
-| [WdfWmiInstanceCreate function](..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md) | The WdfWmiInstanceCreate method creates a WMI instance object that represents an instance of a WMI data provider. |
-| [WdfWmiInstanceDeregister function](..\wdfwmi\nf-wdfwmi-wdfwmiinstancederegister.md) | The WdfWmiInstanceDeregister method deregisters a specified instance of a WMI data provider from the system's WMI service. |
-| [WdfWmiInstanceFireEvent function](..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md) | The WdfWmiInstanceFireEvent method sends a WMI event to WMI clients that have registered to receive event notification. |
-| [WdfWmiInstanceGetDevice function](..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetdevice.md) | The WdfWmiInstanceGetDevice method returns a handle to the framework device object that is associated with a specified WMI instance object. |
-| [WdfWmiInstanceGetProvider function](..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md) | The WdfWmiInstanceGetProvider method returns a handle to the WMI provider object that is the parent object of a specified WMI instance object. |
-| [WdfWmiInstanceRegister function](..\wdfwmi\nf-wdfwmi-wdfwmiinstanceregister.md) | The WdfWmiInstanceRegister method registers a specified instance of a WMI data provider with the system's WMI service. |
-| [WdfWmiProviderCreate function](..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md) | The WdfWmiProviderCreate method creates a WMI provider object that represents a WMI data block. |
-| [WdfWmiProviderGetDevice function](..\wdfwmi\nf-wdfwmi-wdfwmiprovidergetdevice.md) | The WdfWmiProviderGetDevice method returns a handle to the framework device object that is the parent of a specified WMI provider object. |
-| [WdfWmiProviderGetTracingHandle function](..\wdfwmi\nf-wdfwmi-wdfwmiprovidergettracinghandle.md) | The WdfWmiProviderGetTracingHandle method returns a handle to the event logger of a WPP software tracing session. |
-| [WdfWmiProviderIsEnabled function](..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md) | The WdfWmiProviderIsEnabled method determines if either data collection or event notification is enabled for a specified WMI data provider. |
-| [WdfWorkItemCreate function](..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md) | The WdfWorkItemCreate method creates a framework work-item object, which can subsequently be added to the system's work-item queue. |
-| [WdfWorkItemEnqueue function](..\wdfworkitem\nf-wdfworkitem-wdfworkitemenqueue.md) | The WdfWorkItemEnqueue method adds a specified framework work-item object to the system's work-item queue. |
-| [WdfWorkItemFlush function](..\wdfworkitem\nf-wdfworkitem-wdfworkitemflush.md) | The WdfWorkItemFlush method returns after a specified work item has been serviced. |
-| [WdfWorkItemGetParentObject function](..\wdfworkitem\nf-wdfworkitem-wdfworkitemgetparentobject.md) | The WdfWorkItemGetParentObject method returns the framework object that a specified work item is associated with. |
+For a list of framework objects and mode availability, see Summary of Framework Objects.
 
-## Callback functions
+<table>
+<tr>
+<th>Name</th>
+<th>Minimum KMDF Version</th>
+<th>Minimum UMDF Version</th>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistaddressdescriptioncleanup"><i>EvtChildListAddressDescriptionCleanup</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistaddressdescriptioncopy"><i>EvtChildListAddressDescriptionCopy</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistaddressdescriptionduplicate"><i>EvtChildListAddressDescriptionDuplicate</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistcreatedevice"><i>EvtChildListCreateDevice</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistdevicereenumerated"><i>EvtChildListDeviceReenumerated</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistidentificationdescriptioncleanup"><i>EvtChildListIdentificationDescriptionCleanup</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistidentificationdescriptioncompare"><i>EvtChildListIdentificationDescriptionCompare</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistidentificationdescriptioncopy"><i>EvtChildListIdentificationDescriptionCopy</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistidentificationdescriptionduplicate"><i>EvtChildListIdentificationDescriptionDuplicate</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtchildlistscanforchildren"><i>EvtChildListScanForChildren</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtcleanupcallback"><i>EvtCleanupCallback</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evt_wdf_companion_post_d0_exit"><i>EvtCompanionPostD0Exit</i></mshelp:link>
+</td>
+<td></td>
+<td>2.23</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evt_wdf_companion_post_release_hardware"><i>EvtCompanionPostReleaseHardware</i></mshelp:link>
+</td>
+<td></td>
+<td>2.23</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evt_wdf_companion_pre_d0_entry"><i>EvtCompanionPreD0Entry</i></mshelp:link>
+</td>
+<td></td>
+<td>2.23</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evt_wdf_companion_pre_prepare_hardware"><i>EvtCompanionPrePrepareHardware</i></mshelp:link>
+</td>
+<td></td>
+<td>2.23</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdestroycallback"><i>EvtDestroyCallback</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicearmwakefroms0"><i>EvtDeviceArmWakeFromS0</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicearmwakefromsx"><i>EvtDeviceArmWakeFromSx</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicearmwakefromsxwithreason"><i>EvtDeviceArmWakeFromSxWithReason</i></mshelp:link>
+</td>
+<td>1.7</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviced0entry"><i>EvtDeviceD0Entry</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviced0entrypostinterruptsenabled"><i>EvtDeviceD0EntryPostInterruptsEnabled</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviced0exit"><i>EvtDeviceD0Exit</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviced0exitpreinterruptsdisabled"><i>EvtDeviceD0ExitPreInterruptsDisabled</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicedisablewakeatbus"><i>EvtDeviceDisableWakeAtBus</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicedisarmwakefroms0"><i>EvtDeviceDisarmWakeFromS0</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicedisarmwakefromsx"><i>EvtDeviceDisarmWakeFromSx</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceeject"><i>EvtDeviceEject</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceenablewakeatbus"><i>EvtDeviceEnableWakeAtBus</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicefilecreate"><i>EvtDeviceFileCreate</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicefilteraddresourcerequirements"><i>EvtDeviceFilterAddResourceRequirements</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicefilterremoveresourcerequirements"><i>EvtDeviceFilterRemoveResourceRequirements</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicepnpstatechange"><i>EvtDevicePnpStateChange</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicepowerpolicystatechange"><i>EvtDevicePowerPolicyStateChange</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicepowerstatechange"><i>EvtDevicePowerStateChange</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicepreparehardware"><i>EvtDevicePrepareHardware</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceprocessqueryinterfacerequest"><i>EvtDeviceProcessQueryInterfaceRequest</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicequeryremove"><i>EvtDeviceQueryRemove</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicequerystop"><i>EvtDeviceQueryStop</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicerelationsquery"><i>EvtDeviceRelationsQuery</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicereleasehardware"><i>EvtDeviceReleaseHardware</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceremoveaddedresources"><i>EvtDeviceRemoveAddedResources</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicereportedmissing"><i>EvtDeviceReportedMissing</i></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceresourcerequirementsquery"><i>EvtDeviceResourceRequirementsQuery</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceresourcesquery"><i>EvtDeviceResourcesQuery</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagediocleanup"><i>EvtDeviceSelfManagedIoCleanup</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagedioflush"><i>EvtDeviceSelfManagedIoFlush</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagedioinit"><i>EvtDeviceSelfManagedIoInit</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagediorestart"><i>EvtDeviceSelfManagedIoRestart</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagediosuspend"><i>EvtDeviceSelfManagedIoSuspend</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicesetlock"><i>EvtDeviceSetLock</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceshutdownnotification"><i>EvtDeviceShutdownNotification</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicesurpriseremoval"><i>EvtDeviceSurpriseRemoval</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceusagenotification"><i>EvtDeviceUsageNotification</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdeviceusagenotificationex"><i>EvtDeviceUsageNotificationEx</i></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicewakefroms0triggered"><i>EvtDeviceWakeFromS0Triggered</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicewakefromsxtriggered"><i>EvtDeviceWakeFromSxTriggered</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicewdmirpdispatch"><i>EvtDeviceWdmIrpDispatch</i></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.17</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicewdmirppreprocess"><i>EvtDeviceWdmIrpPreprocess</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicewdmpostpofxregisterdevice"><i>EvtDeviceWdmPostPoFxRegisterDevice</i></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdevicewdmprepofxunregisterdevice"><i>EvtDeviceWdmPrePoFxUnregisterDevice</i></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerdisable"><i>EvtDmaEnablerDisable</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerenable"><i>EvtDmaEnablerEnable</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerfill"><i>EvtDmaEnablerFill</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerflush"><i>EvtDmaEnablerFlush</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerselfmanagediostart"><i>EvtDmaEnablerSelfManagedIoStart</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerselfmanagediostop"><i>EvtDmaEnablerSelfManagedIoStop</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdmatransactionconfiguredmachannel"><i>EvtDmaTransactionConfigureDmaChannel</i></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdmatransactiondmatransfercomplete"><i>EvtDmaTransactionDmaTransferComplete</i></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdpcfunc"><i>EvtDpcFunc</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdriverdeviceadd"><i>EvtDriverDeviceAdd</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtdriverunload"><i>EvtDriverUnload</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtfilecleanup"><i>EvtFileCleanup</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtfileclose"><i>EvtFileClose</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtinterruptdisable"><i>EvtInterruptDisable</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtinterruptdpc"><i>EvtInterruptDpc</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtinterruptenable"><i>EvtInterruptEnable</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtinterruptisr"><i>EvtInterruptIsr</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtinterruptsynchronize"><i>EvtInterruptSynchronize</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtinterruptworkitem"><i>EvtInterruptWorkItem</i></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtioallocaterequestresources"><i>EvtIoAllocateRequestResources</i></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtioallocateresourcesforreservedrequest"><i>EvtIoAllocateResourcesForReservedRequest</i></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiocanceledonqueue"><i>EvtIoCanceledOnQueue</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiodefault"><i>EvtIoDefault</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiodevicecontrol"><i>EvtIoDeviceControl</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtioincallercontext"><i>EvtIoInCallerContext</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiointernaldevicecontrol"><i>EvtIoInternalDeviceControl</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtioqueuestate"><i>EvtIoQueueState</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtioread"><i>EvtIoRead</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtioresume"><i>EvtIoResume</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiostop"><i>EvtIoStop</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiotargetqueryremove"><i>EvtIoTargetQueryRemove</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiotargetremovecanceled"><i>EvtIoTargetRemoveCanceled</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiotargetremovecomplete"><i>EvtIoTargetRemoveComplete</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiowdmirpforforwardprogress"><i>EvtIoWdmIrpForForwardProgress</i></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtiowrite"><i>EvtIoWrite</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtprogramdma"><i>EvtProgramDma</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtrequestcancel"><i>EvtRequestCancel</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtrequestimpersonate"><i>EvtRequestImpersonate</i></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtreservedma"><i>EvtReserveDma</i></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evt_wdf_task_queue_task_execute_sync"><i>EvtTaskQueueTaskExecuteSync</i></mshelp:link>
+</td>
+<td></td>
+<td>2.23</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evttimerfunc"><i>EvtTimerFunc</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtusbtargetpipereadcomplete"><i>EvtUsbTargetPipeReadComplete</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtusbtargetpipereadersfailed"><i>EvtUsbTargetPipeReadersFailed</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtwmiinstanceexecutemethod"><i>EvtWmiInstanceExecuteMethod</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtwmiinstancequeryinstance"><i>EvtWmiInstanceQueryInstance</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtwmiinstancesetinstance"><i>EvtWmiInstanceSetInstance</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtwmiinstancesetitem"><i>EvtWmiInstanceSetItem</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtwmiproviderfunctioncontrol"><i>EvtWmiProviderFunctionControl</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.evtworkitem"><i>EvtWorkItem</i></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistaddorupdatechilddescriptionaspresent"><b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistbeginiteration"><b>WdfChildListBeginIteration</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistbeginscan"><b>WdfChildListBeginScan</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistcreate"><b>WdfChildListCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistenditeration"><b>WdfChildListEndIteration</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistendscan"><b>WdfChildListEndScan</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistgetdevice"><b>WdfChildListGetDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistrequestchildeject"><b>WdfChildListRequestChildEject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistretrieveaddressdescription"><b>WdfChildListRetrieveAddressDescription</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistretrievenextdevice"><b>WdfChildListRetrieveNextDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistretrievepdo"><b>WdfChildListRetrievePdo</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistupdateallchilddescriptionsaspresent"><b>WdfChildListUpdateAllChildDescriptionsAsPresent</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfchildlistupdatechilddescriptionasmissing"><b>WdfChildListUpdateChildDescriptionAsMissing</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistappenddescriptor"><b>WdfCmResourceListAppendDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistgetcount"><b>WdfCmResourceListGetCount</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistgetdescriptor"><b>WdfCmResourceListGetDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistinsertdescriptor"><b>WdfCmResourceListInsertDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistremove"><b>WdfCmResourceListRemove</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistremovebydescriptor"><b>WdfCmResourceListRemoveByDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcollectionadd"><b>WdfCollectionAdd</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcollectioncreate"><b>WdfCollectionCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcollectiongetcount"><b>WdfCollectionGetCount</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcollectiongetfirstitem"><b>WdfCollectionGetFirstItem</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcollectiongetitem"><b>WdfCollectionGetItem</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcollectiongetlastitem"><b>WdfCollectionGetLastItem</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcollectionremove"><b>WdfCollectionRemove</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcollectionremoveitem"><b>WdfCollectionRemoveItem</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffercreate"><b>WdfCommonBufferCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffercreatewithconfig"><b>WdfCommonBufferCreateWithConfig</b></mshelp:link>
+</td>
+<td>1.1</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffergetalignedlogicaladdress"><b>WdfCommonBufferGetAlignedLogicalAddress</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffergetalignedvirtualaddress"><b>WdfCommonBufferGetAlignedVirtualAddress</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffergetlength"><b>WdfCommonBufferGetLength</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcompanioncreate"><b>WdfCompanionCreate</b></mshelp:link>
+</td>
+<td></td>
+<td>2.23</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcompanioncreatetaskqueue"><b>WdfCompanionCreateTaskQueue</b></mshelp:link>
+</td>
+<td></td>
+<td>2.23</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcompaniontargetsendtasksynchronously"><b>WdfCompanionTargetSendTaskSynchronously</b></mshelp:link>
+</td>
+<td>1.23</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcompaniontargetwdmgetcompanionprocess"><b>WdfCompanionTargetWdmGetCompanionProcess</b></mshelp:link>
+</td>
+<td>1.23</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcompanionwdmgetsecuredevicehandle"><b>WdfCompanionWdmGetSecureDeviceHandle</b></mshelp:link>
+</td>
+<td></td>
+<td>2.23</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcontroldeviceinitallocate"><b>WdfControlDeviceInitAllocate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcontroldeviceinitsetshutdownnotification"><b>WdfControlDeviceInitSetShutdownNotification</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfcontrolfinishinitializing"><b>WdfControlFinishInitializing</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceadddependentusagedeviceobject"><b>WdfDeviceAddDependentUsageDeviceObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceaddqueryinterface"><b>WdfDeviceAddQueryInterface</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceaddremovalrelationsphysicaldevice"><b>WdfDeviceAddRemovalRelationsPhysicalDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceallocandqueryinterfaceproperty"><b>WdfDeviceAllocAndQueryInterfaceProperty</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceallocandqueryproperty"><b>WdfDeviceAllocAndQueryProperty</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceallocandquerypropertyex"><b>WdfDeviceAllocAndQueryPropertyEx</b></mshelp:link>
+</td>
+<td>1.13</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassigninterfaceproperty"><b>WdfDeviceAssignInterfaceProperty</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassignmofresourcename"><b>WdfDeviceAssignMofResourceName</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassignproperty"><b>WdfDeviceAssignProperty</b></mshelp:link>
+</td>
+<td>1.13</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassigns0idlesettings"><b>WdfDeviceAssignS0IdleSettings</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassignsxwakesettings"><b>WdfDeviceAssignSxWakeSettings</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceclearremovalrelationsdevices"><b>WdfDeviceClearRemovalRelationsDevices</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceconfigurerequestdispatching"><b>WdfDeviceConfigureRequestDispatching</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceconfigurewdmirpdispatchcallback"><b>WdfDeviceConfigureWdmIrpDispatchCallback</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.17</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicecreate"><b>WdfDeviceCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicecreatedeviceinterface"><b>WdfDeviceCreateDeviceInterface</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicecreatesymboliclink"><b>WdfDeviceCreateSymbolicLink</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceenqueuerequest"><b>WdfDeviceEnqueueRequest</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetalignmentrequirement"><b>WdfDeviceGetAlignmentRequirement</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetcharacteristics"><b>WdfDeviceGetCharacteristics</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdefaultqueue"><b>WdfDeviceGetDefaultQueue</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicepnpstate"><b>WdfDeviceGetDevicePnpState</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicepowerpolicystate"><b>WdfDeviceGetDevicePowerPolicyState</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicepowerstate"><b>WdfDeviceGetDevicePowerState</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicestackiotype"><b>WdfDeviceGetDeviceStackIoType</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicestate"><b>WdfDeviceGetDeviceState</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdriver"><b>WdfDeviceGetDriver</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetfileobject"><b>WdfDeviceGetFileObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegethardwareregistermappedaddress"><b>WdfDeviceGetHardwareRegisterMappedAddress</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetiotarget"><b>WdfDeviceGetIoTarget</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetsystempoweraction"><b>WdfDeviceGetSystemPowerAction</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceindicatewakestatus"><b>WdfDeviceIndicateWakeStatus</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitassignname"><b>WdfDeviceInitAssignName</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitassignsddlstring"><b>WdfDeviceInitAssignSDDLString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitassignwdmirppreprocesscallback"><b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitfree"><b>WdfDeviceInitFree</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitregisterpnpstatechangecallback"><b>WdfDeviceInitRegisterPnpStateChangeCallback</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitregisterpowerpolicystatechangecallback"><b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitregisterpowerstatechangecallback"><b>WdfDeviceInitRegisterPowerStateChangeCallback</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetcharacteristics"><b>WdfDeviceInitSetCharacteristics</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetdeviceclass"><b>WdfDeviceInitSetDeviceClass</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetdevicetype"><b>WdfDeviceInitSetDeviceType</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetexclusive"><b>WdfDeviceInitSetExclusive</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetfileobjectconfig"><b>WdfDeviceInitSetFileObjectConfig</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetioincallercontextcallback"><b>WdfDeviceInitSetIoInCallerContextCallback</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetiotype"><b>WdfDeviceInitSetIoType</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetiotypeex"><b>WdfDeviceInitSetIoTypeEx</b></mshelp:link>
+</td>
+<td>1.13</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpnppowereventcallbacks"><b>WdfDeviceInitSetPnpPowerEventCallbacks</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowerinrush"><b>WdfDeviceInitSetPowerInrush</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowernotpageable"><b>WdfDeviceInitSetPowerNotPageable</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowerpageable"><b>WdfDeviceInitSetPowerPageable</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowerpolicyeventcallbacks"><b>WdfDeviceInitSetPowerPolicyEventCallbacks</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowerpolicyownership"><b>WdfDeviceInitSetPowerPolicyOwnership</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetreleasehardwareorderonfailure"><b>WdfDeviceInitSetReleaseHardwareOrderOnFailure</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetremovelockoptions"><b>WdfDeviceInitSetRemoveLockOptions</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetrequestattributes"><b>WdfDeviceInitSetRequestAttributes</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinterfacedereferencenoop"><b>WdfDeviceInterfaceDereferenceNoOp</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinterfacereferencenoop"><b>WdfDeviceInterfaceReferenceNoOp</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicemapiospace"><b>WdfDeviceMapIoSpace</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceminiportcreate"><b>WdfDeviceMiniportCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceopendevicemapkey"><b>WdfDeviceOpenDevicemapKey</b></mshelp:link>
+</td>
+<td>1.15</td>
+<td>2.15</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceopenregistrykey"><b>WdfDeviceOpenRegistryKey</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicepostevent"><b>WdfDevicePostEvent</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicequeryinterfaceproperty"><b>WdfDeviceQueryInterfaceProperty</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicequeryproperty"><b>WdfDeviceQueryProperty</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicequerypropertyex"><b>WdfDeviceQueryPropertyEx</b></mshelp:link>
+</td>
+<td>1.13</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicereadfromhardware"><b>WdfDeviceReadFromHardware</b></mshelp:link>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceremovedependentusagedeviceobject"><b>WdfDeviceRemoveDependentUsageDeviceObject</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceremoveremovalrelationsphysicaldevice"><b>WdfDeviceRemoveRemovalRelationsPhysicalDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceresumeidle"><b>WdfDeviceResumeIdle</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceresumeidlewithtag"><b>WdfDeviceResumeIdleWithTag</b></mshelp:link>
+</td>
+<td>1.15</td>
+<td>2.15</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceretrievedeviceinterfacestring"><b>WdfDeviceRetrieveDeviceInterfaceString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceretrievedevicename"><b>WdfDeviceRetrieveDeviceName</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetalignmentrequirement"><b>WdfDeviceSetAlignmentRequirement</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetbusinformationforchildren"><b>WdfDeviceSetBusInformationForChildren</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetcharacteristics"><b>WdfDeviceSetCharacteristics</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetdeviceinterfacestate"><b>WdfDeviceSetDeviceInterfaceState</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetdevicestate"><b>WdfDeviceSetDeviceState</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetfailed"><b>WdfDeviceSetFailed</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetpnpcapabilities"><b>WdfDeviceSetPnpCapabilities</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetpowercapabilities"><b>WdfDeviceSetPowerCapabilities</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetspecialfilesupport"><b>WdfDeviceSetSpecialFileSupport</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetstaticstopremove"><b>WdfDeviceSetStaticStopRemove</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicestopidle"><b>WdfDeviceStopIdle</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicestopidlewithtag"><b>WdfDeviceStopIdleWithTag</b></mshelp:link>
+</td>
+<td>1.15</td>
+<td>2.15</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdeviceunmapiospace"><b>WdfDeviceUnmapIoSpace</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmassignpowerframeworksettings"><b>WdfDeviceWdmAssignPowerFrameworkSettings</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmdispatchirp"><b>WdfDeviceWdmDispatchIrp</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.17</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmdispatchirptoioqueue"><b>WdfDeviceWdmDispatchIrpToIoQueue</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.17</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmdispatchpreprocessedirp"><b>WdfDeviceWdmDispatchPreprocessedIrp</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmgetattacheddevice"><b>WdfDeviceWdmGetAttachedDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmgetdeviceobject"><b>WdfDeviceWdmGetDeviceObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmgetphysicaldevice"><b>WdfDeviceWdmGetPhysicalDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevicewritetohardware"><b>WdfDeviceWriteToHardware</b></mshelp:link>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevstateisnp"><b>WdfDevStateIsNP</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdevstatenormalize"><b>WdfDevStateNormalize</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablerconfiguresystemprofile"><b>WdfDmaEnablerConfigureSystemProfile</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablercreate"><b>WdfDmaEnablerCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablergetfragmentlength"><b>WdfDmaEnablerGetFragmentLength</b></mshelp:link>
+</td>
+<td>1.1</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablergetmaximumlength"><b>WdfDmaEnablerGetMaximumLength</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablergetmaximumscattergatherelements"><b>WdfDmaEnablerGetMaximumScatterGatherElements</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablersetmaximumscattergatherelements"><b>WdfDmaEnablerSetMaximumScatterGatherElements</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablerwdmgetdmaadapter"><b>WdfDmaEnablerWdmGetDmaAdapter</b></mshelp:link>
+</td>
+<td>1.5</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionallocateresources"><b>WdfDmaTransactionAllocateResources</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioncancel"><b>WdfDmaTransactionCancel</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioncreate"><b>WdfDmaTransactionCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiondmacompleted"><b>WdfDmaTransactionDmaCompleted</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiondmacompletedfinal"><b>WdfDmaTransactionDmaCompletedFinal</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiondmacompletedwithlength"><b>WdfDmaTransactionDmaCompletedWithLength</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionexecute"><b>WdfDmaTransactionExecute</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionfreeresources"><b>WdfDmaTransactionFreeResources</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongetbytestransferred"><b>WdfDmaTransactionGetBytesTransferred</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongetcurrentdmatransferlength"><b>WdfDmaTransactionGetCurrentDmaTransferLength</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongetdevice"><b>WdfDmaTransactionGetDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongetrequest"><b>WdfDmaTransactionGetRequest</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongettransferinfo"><b>WdfDmaTransactionGetTransferInfo</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioninitialize"><b>WdfDmaTransactionInitialize</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioninitializeusingoffset"><b>WdfDmaTransactionInitializeUsingOffset</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioninitializeusingrequest"><b>WdfDmaTransactionInitializeUsingRequest</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionrelease"><b>WdfDmaTransactionRelease</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetchannelconfigurationcallback"><b>WdfDmaTransactionSetChannelConfigurationCallback</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetdeviceaddressoffset"><b>WdfDmaTransactionSetDeviceAddressOffset</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetimmediateexecution"><b>WdfDmaTransactionSetImmediateExecution</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetmaximumlength"><b>WdfDmaTransactionSetMaximumLength</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetsingletransferrequirement"><b>WdfDmaTransactionSetSingleTransferRequirement</b></mshelp:link>
+</td>
+<td>1.19</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsettransfercompletecallback"><b>WdfDmaTransactionSetTransferCompleteCallback</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionstopsystemtransfer"><b>WdfDmaTransactionStopSystemTransfer</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionwdmgettransfercontext"><b>WdfDmaTransactionWdmGetTransferContext</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdpccancel"><b>WdfDpcCancel</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdpccreate"><b>WdfDpcCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdpcenqueue"><b>WdfDpcEnqueue</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdpcgetparentobject"><b>WdfDpcGetParentObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdpcwdmgetdpc"><b>WdfDpcWdmGetDpc</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdrivercreate"><b>WdfDriverCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdrivergetregistrypath"><b>WdfDriverGetRegistryPath</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdriverisversionavailable"><b>WdfDriverIsVersionAvailable</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdriverminiportunload"><b>WdfDriverMiniportUnload</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdriveropenparametersregistrykey"><b>WdfDriverOpenParametersRegistryKey</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdriverregistertraceinfo"><b>WdfDriverRegisterTraceInfo</b></mshelp:link>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdriverretrieveversionstring"><b>WdfDriverRetrieveVersionString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfdriverwdmgetdriverobject"><b>WdfDriverWdmGetDriverObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoaddstaticchild"><b>WdfFdoAddStaticChild</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdogetdefaultchildlist"><b>WdfFdoGetDefaultChildList</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoinitallocandqueryproperty"><b>WdfFdoInitAllocAndQueryProperty</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoinitallocandquerypropertyex"><b>WdfFdoInitAllocAndQueryPropertyEx</b></mshelp:link>
+</td>
+<td>1.13</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoinitopenregistrykey"><b>WdfFdoInitOpenRegistryKey</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoinitqueryproperty"><b>WdfFdoInitQueryProperty</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoinitquerypropertyex"><b>WdfFdoInitQueryPropertyEx</b></mshelp:link>
+</td>
+<td>1.13</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoinitsetdefaultchildlistconfig"><b>WdfFdoInitSetDefaultChildListConfig</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoinitseteventcallbacks"><b>WdfFdoInitSetEventCallbacks</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoinitsetfilter"><b>WdfFdoInitSetFilter</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoinitwdmgetphysicaldevice"><b>WdfFdoInitWdmGetPhysicalDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdolockstaticchildlistforiteration"><b>WdfFdoLockStaticChildListForIteration</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoqueryforinterface"><b>WdfFdoQueryForInterface</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdoretrievenextstaticchild"><b>WdfFdoRetrieveNextStaticChild</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffdounlockstaticchildlistfromiteration"><b>WdfFdoUnlockStaticChildListFromIteration</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetdevice"><b>WdfFileObjectGetDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetfilename"><b>WdfFileObjectGetFileName</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetflags"><b>WdfFileObjectGetFlags</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetinitiatorprocessid"><b>WdfFileObjectGetInitiatorProcessId</b></mshelp:link>
+</td>
+<td>1.21
+            </td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetrelatedfileobject"><b>WdfFileObjectGetRelatedFileObject</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdffileobjectwdmgetfileobject"><b>WdfFileObjectWdmGetFileObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfgetdriver"><b>WdfGetDriver</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfgettriageinfo"><b>WdfGetTriageInfo</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptacquirelock"><b>WdfInterruptAcquireLock</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptcreate"><b>WdfInterruptCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptdisable"><b>WdfInterruptDisable</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptenable"><b>WdfInterruptEnable</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptgetdevice"><b>WdfInterruptGetDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptgetinfo"><b>WdfInterruptGetInfo</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptqueuedpcforisr"><b>WdfInterruptQueueDpcForIsr</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptqueueworkitemforisr"><b>WdfInterruptQueueWorkItemForIsr</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptreleaselock"><b>WdfInterruptReleaseLock</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptreportactive"><b>WdfInterruptReportActive</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptreportinactive"><b>WdfInterruptReportInactive</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptsetextendedpolicy"><b>WdfInterruptSetExtendedPolicy</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptsetpolicy"><b>WdfInterruptSetPolicy</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptsynchronize"><b>WdfInterruptSynchronize</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterrupttrytoacquirelock"><b>WdfInterruptTryToAcquireLock</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfinterruptwdmgetinterrupt"><b>WdfInterruptWdmGetInterrupt</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueueassignforwardprogresspolicy"><b>WdfIoQueueAssignForwardProgressPolicy</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuecreate"><b>WdfIoQueueCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuedrain"><b>WdfIoQueueDrain</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuedrainsynchronously"><b>WdfIoQueueDrainSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuefindrequest"><b>WdfIoQueueFindRequest</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuegetdevice"><b>WdfIoQueueGetDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuegetstate"><b>WdfIoQueueGetState</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuepurge"><b>WdfIoQueuePurge</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuepurgesynchronously"><b>WdfIoQueuePurgeSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuereadynotify"><b>WdfIoQueueReadyNotify</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueueretrievefoundrequest"><b>WdfIoQueueRetrieveFoundRequest</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueueretrievenextrequest"><b>WdfIoQueueRetrieveNextRequest</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueueretrieverequestbyfileobject"><b>WdfIoQueueRetrieveRequestByFileObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestart"><b>WdfIoQueueStart</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestop"><b>WdfIoQueueStop</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestopandpurge"><b>WdfIoQueueStopAndPurge</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestopandpurgesynchronously"><b>WdfIoQueueStopAndPurgeSynchronously</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestopsynchronously"><b>WdfIoQueueStopSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistappenddescriptor"><b>WdfIoResourceListAppendDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistcreate"><b>WdfIoResourceListCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistgetcount"><b>WdfIoResourceListGetCount</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistgetdescriptor"><b>WdfIoResourceListGetDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistinsertdescriptor"><b>WdfIoResourceListInsertDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistremove"><b>WdfIoResourceListRemove</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistremovebydescriptor"><b>WdfIoResourceListRemoveByDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistupdatedescriptor"><b>WdfIoResourceListUpdateDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistappendioreslist"><b>WdfIoResourceRequirementsListAppendIoResList</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistgetcount"><b>WdfIoResourceRequirementsListGetCount</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistgetioreslist"><b>WdfIoResourceRequirementsListGetIoResList</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistinsertioreslist"><b>WdfIoResourceRequirementsListInsertIoResList</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistremove"><b>WdfIoResourceRequirementsListRemove</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistremovebyioreslist"><b>WdfIoResourceRequirementsListRemoveByIoResList</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistsetinterfacetype"><b>WdfIoResourceRequirementsListSetInterfaceType</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistsetslotnumber"><b>WdfIoResourceRequirementsListSetSlotNumber</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetallocandquerytargetproperty"><b>WdfIoTargetAllocAndQueryTargetProperty</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetclose"><b>WdfIoTargetClose</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetcloseforqueryremove"><b>WdfIoTargetCloseForQueryRemove</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetcreate"><b>WdfIoTargetCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforinternalioctl"><b>WdfIoTargetFormatRequestForInternalIoctl</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforinternalioctlothers"><b>WdfIoTargetFormatRequestForInternalIoctlOthers</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforioctl"><b>WdfIoTargetFormatRequestForIoctl</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforread"><b>WdfIoTargetFormatRequestForRead</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforwrite"><b>WdfIoTargetFormatRequestForWrite</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetgetdevice"><b>WdfIoTargetGetDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetgetstate"><b>WdfIoTargetGetState</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetopen"><b>WdfIoTargetOpen</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetpurge"><b>WdfIoTargetPurge</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetqueryforinterface"><b>WdfIoTargetQueryForInterface</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetquerytargetproperty"><b>WdfIoTargetQueryTargetProperty</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendinternalioctlotherssynchronously"><b>WdfIoTargetSendInternalIoctlOthersSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendinternalioctlsynchronously"><b>WdfIoTargetSendInternalIoctlSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendioctlsynchronously"><b>WdfIoTargetSendIoctlSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendreadsynchronously"><b>WdfIoTargetSendReadSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendwritesynchronously"><b>WdfIoTargetSendWriteSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetstart"><b>WdfIoTargetStart</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetstop"><b>WdfIoTargetStop</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetwdmgettargetdeviceobject"><b>WdfIoTargetWdmGetTargetDeviceObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetwdmgettargetfilehandle"><b>WdfIoTargetWdmGetTargetFileHandle</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.15</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetwdmgettargetfileobject"><b>WdfIoTargetWdmGetTargetFileObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfiotargetwdmgettargetphysicaldevice"><b>WdfIoTargetWdmGetTargetPhysicalDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdflookasidelistcreate"><b>WdfLookasideListCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfmemoryassignbuffer"><b>WdfMemoryAssignBuffer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfmemorycopyfrombuffer"><b>WdfMemoryCopyFromBuffer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfmemorycopytobuffer"><b>WdfMemoryCopyToBuffer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfmemorycreate"><b>WdfMemoryCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfmemorycreatefromlookaside"><b>WdfMemoryCreateFromLookaside</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfmemorycreatepreallocated"><b>WdfMemoryCreatePreallocated</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfmemorygetbuffer"><b>WdfMemoryGetBuffer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectacquirelock"><b>WdfObjectAcquireLock</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectaddcustomtype"><b>WdfObjectAddCustomType</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectaddcustomtypewithdata"><b>WdfObjectAddCustomTypeWithData</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectallocatecontext"><b>WdfObjectAllocateContext</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectcontextgetobject"><b>WdfObjectContextGetObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectcreate"><b>WdfObjectCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectdelete"><b>WdfObjectDelete</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectdereference"><b>WdfObjectDereference</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectdereferenceactual"><b>WdfObjectDereferenceActual</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectdereferencewithtag"><b>WdfObjectDereferenceWithTag</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectgetcustomtypedata"><b>WdfObjectGetCustomTypeData</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectgettypedcontext"><b>WdfObjectGetTypedContext</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectgettypedcontextworker"><b>WdfObjectGetTypedContextWorker</b></mshelp:link>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectiscustomtype"><b>WdfObjectIsCustomType</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectquery"><b>WdfObjectQuery</b></mshelp:link>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectreference"><b>WdfObjectReference</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectreferenceactual"><b>WdfObjectReferenceActual</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectreferencewithtag"><b>WdfObjectReferenceWithTag</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfobjectreleaselock"><b>WdfObjectReleaseLock</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoaddejectionrelationsphysicaldevice"><b>WdfPdoAddEjectionRelationsPhysicalDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoclearejectionrelationsdevices"><b>WdfPdoClearEjectionRelationsDevices</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdogetparent"><b>WdfPdoGetParent</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitaddcompatibleid"><b>WdfPdoInitAddCompatibleID</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitadddevicetext"><b>WdfPdoInitAddDeviceText</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitaddhardwareid"><b>WdfPdoInitAddHardwareID</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitallocate"><b>WdfPdoInitAllocate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitallowforwardingrequesttoparent"><b>WdfPdoInitAllowForwardingRequestToParent</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitassigncontainerid"><b>WdfPdoInitAssignContainerID</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitassigndeviceid"><b>WdfPdoInitAssignDeviceID</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitassigninstanceid"><b>WdfPdoInitAssignInstanceID</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitassignrawdevice"><b>WdfPdoInitAssignRawDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitsetdefaultlocale"><b>WdfPdoInitSetDefaultLocale</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitseteventcallbacks"><b>WdfPdoInitSetEventCallbacks</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdomarkmissing"><b>WdfPdoMarkMissing</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoremoveejectionrelationsphysicaldevice"><b>WdfPdoRemoveEjectionRelationsPhysicalDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdorequesteject"><b>WdfPdoRequestEject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoretrieveaddressdescription"><b>WdfPdoRetrieveAddressDescription</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoretrieveidentificationdescription"><b>WdfPdoRetrieveIdentificationDescription</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpdoupdateaddressdescription"><b>WdfPdoUpdateAddressDescription</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpostdeviceinstall"><b>WdfPostDeviceInstall</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpostdeviceremove"><b>WdfPostDeviceRemove</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpredeviceinstall"><b>WdfPreDeviceInstall</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpredeviceinstallex"><b>WdfPreDeviceInstallEx</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfpredeviceremove"><b>WdfPreDeviceRemove</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignmemory"><b>WdfRegistryAssignMemory</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignmultistring"><b>WdfRegistryAssignMultiString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignstring"><b>WdfRegistryAssignString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignulong"><b>WdfRegistryAssignULong</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignunicodestring"><b>WdfRegistryAssignUnicodeString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignvalue"><b>WdfRegistryAssignValue</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryclose"><b>WdfRegistryClose</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistrycreatekey"><b>WdfRegistryCreateKey</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryopenkey"><b>WdfRegistryOpenKey</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryquerymemory"><b>WdfRegistryQueryMemory</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryquerymultistring"><b>WdfRegistryQueryMultiString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryquerystring"><b>WdfRegistryQueryString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryqueryulong"><b>WdfRegistryQueryULong</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryqueryunicodestring"><b>WdfRegistryQueryUnicodeString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryqueryvalue"><b>WdfRegistryQueryValue</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryremovekey"><b>WdfRegistryRemoveKey</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistryremovevalue"><b>WdfRegistryRemoveValue</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfregistrywdmgethandle"><b>WdfRegistryWdmGetHandle</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestallocatetimer"><b>WdfRequestAllocateTimer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestcancelsentrequest"><b>WdfRequestCancelSentRequest</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestchangetarget"><b>WdfRequestChangeTarget</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestcomplete"><b>WdfRequestComplete</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestcompletewithinformation"><b>WdfRequestCompleteWithInformation</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestcompletewithpriorityboost"><b>WdfRequestCompleteWithPriorityBoost</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestcreate"><b>WdfRequestCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestcreatefromirp"><b>WdfRequestCreateFromIrp</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestformatrequestusingcurrenttype"><b>WdfRequestFormatRequestUsingCurrentType</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestforwardtoioqueue"><b>WdfRequestForwardToIoQueue</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestforwardtoparentdeviceioqueue"><b>WdfRequestForwardToParentDeviceIoQueue</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetcompletionparams"><b>WdfRequestGetCompletionParams</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgeteffectiveiotype"><b>WdfRequestGetEffectiveIoType</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetfileobject"><b>WdfRequestGetFileObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetinformation"><b>WdfRequestGetInformation</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetioqueue"><b>WdfRequestGetIoQueue</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetparameters"><b>WdfRequestGetParameters</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetrequestormode"><b>WdfRequestGetRequestorMode</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetrequestorprocessid"><b>WdfRequestGetRequestorProcessId</b></mshelp:link>
+</td>
+<td>1.21
+            </td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetstatus"><b>WdfRequestGetStatus</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetusermodeinitiatedio"><b>WdfRequestGetUserModeDriverInitiatedIo</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestimpersonate"><b>WdfRequestImpersonate</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestiscanceled"><b>WdfRequestIsCanceled</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestisfrom32bitprocess"><b>WdfRequestIsFrom32BitProcess</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestisfromusermodedriver"><b>WdfRequestIsFromUserModeDriver</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestisreserved"><b>WdfRequestIsReserved</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestmarkcancelable"><b>WdfRequestMarkCancelable</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestmarkcancelableex"><b>WdfRequestMarkCancelableEx</b></mshelp:link>
+</td>
+<td>1.9</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestprobeandlockuserbufferforread"><b>WdfRequestProbeAndLockUserBufferForRead</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestprobeandlockuserbufferforwrite"><b>WdfRequestProbeAndLockUserBufferForWrite</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestrequeue"><b>WdfRequestRequeue</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveactivityid"><b>WdfRequestRetrieveActivityId</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveinputbuffer"><b>WdfRequestRetrieveInputBuffer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveinputmemory"><b>WdfRequestRetrieveInputMemory</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveinputwdmmdl"><b>WdfRequestRetrieveInputWdmMdl</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveoutputbuffer"><b>WdfRequestRetrieveOutputBuffer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveoutputmemory"><b>WdfRequestRetrieveOutputMemory</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveoutputwdmmdl"><b>WdfRequestRetrieveOutputWdmMdl</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveunsafeuserinputbuffer"><b>WdfRequestRetrieveUnsafeUserInputBuffer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveunsafeuseroutputbuffer"><b>WdfRequestRetrieveUnsafeUserOutputBuffer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestreuse"><b>WdfRequestReuse</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestsend"><b>WdfRequestSend</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestsetactivityid"><b>WdfRequestSetActivityId</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestsetcompletionroutine"><b>WdfRequestSetCompletionRoutine</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestsetinformation"><b>WdfRequestSetInformation</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestsetusermodedriverinitiatedio"><b>WdfRequestSetUserModeDriverInitiatedIo</b></mshelp:link>
+</td>
+<td></td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequeststopacknowledge"><b>WdfRequestStopAcknowledge</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestunmarkcancelable"><b>WdfRequestUnmarkCancelable</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestwdmformatusingstacklocation"><b>WdfRequestWdmFormatUsingStackLocation</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfrequestwdmgetirp"><b>WdfRequestWdmGetIrp</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfspinlockacquire"><b>WdfSpinLockAcquire</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfspinlockcreate"><b>WdfSpinLockCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfspinlockrelease"><b>WdfSpinLockRelease</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfstringcreate"><b>WdfStringCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfstringgetunicodestring"><b>WdfStringGetUnicodeString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdftimercreate"><b>WdfTimerCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdftimergetparentobject"><b>WdfTimerGetParentObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdftimerstart"><b>WdfTimerStart</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdftimerstop"><b>WdfTimerStop</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetconfiguredpipe"><b>WdfUsbInterfaceGetConfiguredPipe</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetconfiguredsettingindex"><b>WdfUsbInterfaceGetConfiguredSettingIndex</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetdescriptor"><b>WdfUsbInterfaceGetDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetendpointinformation"><b>WdfUsbInterfaceGetEndpointInformation</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetinterfacenumber"><b>WdfUsbInterfaceGetInterfaceNumber</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetnumconfiguredpipes"><b>WdfUsbInterfaceGetNumConfiguredPipes</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetnumendpoints"><b>WdfUsbInterfaceGetNumEndpoints</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetnumsettings"><b>WdfUsbInterfaceGetNumSettings</b></mshelp:link>
+</td>
+<td>1.5</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfaceselectsetting"><b>WdfUsbInterfaceSelectSetting</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceallocandquerystring"><b>WdfUsbTargetDeviceAllocAndQueryString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecreate"><b>WdfUsbTargetDeviceCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecreateisochurb"><b>WdfUsbTargetDeviceCreateIsochUrb</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecreateurb"><b>WdfUsbTargetDeviceCreateUrb</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecreatewithparameters"><b>WdfUsbTargetDeviceCreateWithParameters</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecycleportsynchronously"><b>WdfUsbTargetDeviceCyclePortSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceformatrequestforcontroltransfer"><b>WdfUsbTargetDeviceFormatRequestForControlTransfer</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceformatrequestforcycleport"><b>WdfUsbTargetDeviceFormatRequestForCyclePort</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceformatrequestforstring"><b>WdfUsbTargetDeviceFormatRequestForString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceformatrequestforurb"><b>WdfUsbTargetDeviceFormatRequestForUrb</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicegetdevicedescriptor"><b>WdfUsbTargetDeviceGetDeviceDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicegetinterface"><b>WdfUsbTargetDeviceGetInterface</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicegetiotarget"><b>WdfUsbTargetDeviceGetIoTarget</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicegetnuminterfaces"><b>WdfUsbTargetDeviceGetNumInterfaces</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceisconnectedsynchronous"><b>WdfUsbTargetDeviceIsConnectedSynchronous</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicequerystring"><b>WdfUsbTargetDeviceQueryString</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicequeryusbcapability"><b>WdfUsbTargetDeviceQueryUsbCapability</b></mshelp:link>
+</td>
+<td>1.11</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceresetportsynchronously"><b>WdfUsbTargetDeviceResetPortSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceretrieveconfigdescriptor"><b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceretrievecurrentframenumber"><b>WdfUsbTargetDeviceRetrieveCurrentFrameNumber</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceretrieveinformation"><b>WdfUsbTargetDeviceRetrieveInformation</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceselectconfig"><b>WdfUsbTargetDeviceSelectConfig</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceselectconfigtype"><b>WdfUsbTargetDeviceSelectConfigType</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceselectsettingtype"><b>WdfUsbTargetDeviceSelectSettingType</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicesendcontroltransfersynchronously"><b>WdfUsbTargetDeviceSendControlTransferSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicesendurbsynchronously"><b>WdfUsbTargetDeviceSendUrbSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicewdmgetconfigurationhandle"><b>WdfUsbTargetDeviceWdmGetConfigurationHandle</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeabortsynchronously"><b>WdfUsbTargetPipeAbortSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeconfigcontinuousreader"><b>WdfUsbTargetPipeConfigContinuousReader</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforabort"><b>WdfUsbTargetPipeFormatRequestForAbort</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforread"><b>WdfUsbTargetPipeFormatRequestForRead</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforreset"><b>WdfUsbTargetPipeFormatRequestForReset</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforurb"><b>WdfUsbTargetPipeFormatRequestForUrb</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforwrite"><b>WdfUsbTargetPipeFormatRequestForWrite</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipegetinformation"><b>WdfUsbTargetPipeGetInformation</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipegetiotarget"><b>WdfUsbTargetPipeGetIoTarget</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipegettype"><b>WdfUsbTargetPipeGetType</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeisinendpoint"><b>WdfUsbTargetPipeIsInEndpoint</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeisoutendpoint"><b>WdfUsbTargetPipeIsOutEndpoint</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipereadsynchronously"><b>WdfUsbTargetPipeReadSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpiperesetsynchronously"><b>WdfUsbTargetPipeResetSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipesendurbsynchronously"><b>WdfUsbTargetPipeSendUrbSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipesetnomaximumpacketsizecheck"><b>WdfUsbTargetPipeSetNoMaximumPacketSizeCheck</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipewdmgetpipehandle"><b>WdfUsbTargetPipeWdmGetPipeHandle</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipewritesynchronously"><b>WdfUsbTargetPipeWriteSynchronously</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfverifierdbgbreakpoint"><b>WdfVerifierDbgBreakPoint</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfverifierkebugcheck"><b>WdfVerifierKeBugCheck</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwaitlockacquire"><b>WdfWaitLockAcquire</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwaitlockcreate"><b>WdfWaitLockCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwaitlockrelease"><b>WdfWaitLockRelease</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwdmdevicegetwdfdevicehandle"><b>WdfWdmDeviceGetWdfDeviceHandle</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwdmdrivergetwdfdriverhandle"><b>WdfWdmDriverGetWdfDriverHandle</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancecreate"><b>WdfWmiInstanceCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancederegister"><b>WdfWmiInstanceDeregister</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancefireevent"><b>WdfWmiInstanceFireEvent</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancegetdevice"><b>WdfWmiInstanceGetDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancegetprovider"><b>WdfWmiInstanceGetProvider</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstanceregister"><b>WdfWmiInstanceRegister</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiprovidercreate"><b>WdfWmiProviderCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiprovidergetdevice"><b>WdfWmiProviderGetDevice</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiprovidergettracinghandle"><b>WdfWmiProviderGetTracingHandle</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfwmiproviderisenabled"><b>WdfWmiProviderIsEnabled</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfworkitemcreate"><b>WdfWorkItemCreate</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfworkitemenqueue"><b>WdfWorkItemEnqueue</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfworkitemflush"><b>WdfWorkItemFlush</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>
+<mshelp:link tabindex="0" keywords="wdf.wdfworkitemgetparentobject"><b>WdfWorkItemGetParentObject</b></mshelp:link>
+</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+</table>
 
-| Title   | Description   |
-| ---- |:---- |
-| [EVT_WDFDEVICE_WDM_IRP_DISPATCH callback](..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md) | A driver's EvtDeviceWdmIrpDispatch event callback function receives an IRP before the framework processes the IRP. |
-| [EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback](..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md) | A driver's EvtDeviceWdmIrpPreprocess event callback function receives an IRP before the framework processes the IRP. |
-| [EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback](..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md) | The EvtDeviceWdmPostPoFxRegisterDevice callback function performs device-specific operations after the framework has registered with the power framework. |
-| [EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE callback](..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md) | The EvtDeviceWdmPrePoFxUnregisterDevice callback function performs device-specific operations before the framework deletes a specified registration with the power framework. |
-| [EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_CLEANUP callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_cleanup.md) | A driver's EvtChildListAddressDescriptionCleanup event callback function frees any memory allocations for an address description that the driver's EvtChildListAddressDescriptionDuplicate callback function allocated. |
-| [EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_copy.md) | A driver's EvtChildListAddressDescriptionCopy event callback function copies a child address description from one specified location to another. |
-| [EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_duplicate.md) | A driver's EvtChildListAddressDescriptionDuplicate event callback function duplicates a child address description. |
-| [EVT_WDF_CHILD_LIST_CREATE_DEVICE callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md) | A bus driver'sEvtChildListCreateDevice event callback function creates a framework device object for a new device that has been dynamically enumerated. |
-| [EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_device_reenumerated.md) | A driver's EvtChildListDeviceReenumerated event callback function enables the driver to approve or cancel a reenumeration of a specified device. |
-| [EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_cleanup.md) | A driver's EvtChildListIdentificationDescriptionCleanup event callback function frees any memory allocations for an identification description that the driver's EvtChildListIdentificationDescriptionDuplicate callback function allocated. |
-| [EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md) | A driver's EvtChildListIdentificationDescriptionCompare event callback function compares one child identification description with another. |
-| [EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_copy.md) | A driver's EvtChildListIdentificationDescriptionCopy event callback function copies a child identification description from one specified location to another. |
-| [EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_duplicate.md) | A driver's EvtChildListIdentificationDescriptionDuplicate event callback function duplicates a child identification description. |
-| [EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN callback](..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_scan_for_children.md) | A driver's EvtChildListScanForChildren event callback function must report all of the child devices that are present. |
-| [EVT_WDF_COMPANION_POST_D0_EXIT callback](..\wdfcompanion\nc-wdfcompanion-evt_wdf_companion_post_d0_exit.md) | For internal use only. |
-| [EVT_WDF_COMPANION_POST_RELEASE_HARDWARE callback](..\wdfcompanion\nc-wdfcompanion-evt_wdf_companion_post_release_hardware.md) | For internal use only. |
-| [EVT_WDF_COMPANION_PRE_D0_ENTRY callback](..\wdfcompanion\nc-wdfcompanion-evt_wdf_companion_pre_d0_entry.md) | For internal use only. |
-| [EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback](..\wdfcompanion\nc-wdfcompanion-evt_wdf_companion_pre_prepare_hardware.md) | For internal use only. |
-| [EVT_WDF_DEVICE_ARM_WAKE_FROM_S0 callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md) | A driver's EvtDeviceArmWakeFromS0 event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0). |
-| [EVT_WDF_DEVICE_ARM_WAKE_FROM_SX callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md) | A driver's EvtDeviceArmWakeFromSx event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state. |
-| [EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx_with_reason.md) | A driver's EvtDeviceArmWakeFromSxWithReason event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state. |
-| [EVT_WDF_DEVICE_D0_ENTRY callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md) | A driver's EvtDeviceD0Entry event callback function performs operations that are needed when the driver's device enters the D0 power state. |
-| [EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry_post_interrupts_enabled.md) | A driver's EvtDeviceD0EntryPostInterruptsEnabled event callback function performs device-specific operations that are required after the driver has enabled the device's hardware interrupts. |
-| [EVT_WDF_DEVICE_D0_EXIT callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md) | A driver's EvtDeviceD0Exit event callback function performs operations that are needed when the driver's device leaves the D0 power state. |
-| [EVT_WDF_DEVICE_D0_EXIT_PRE_INTERRUPTS_DISABLED callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit_pre_interrupts_disabled.md) | A driver's EvtDeviceD0ExitPreInterruptsDisabled event callback function performs device-specific operations that are required before the driver disables the device's hardware interrupts. |
-| [EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS callback](..\wdfpdo\nc-wdfpdo-evt_wdf_device_disable_wake_at_bus.md) | A bus driver's EvtDeviceDisableWakeAtBus event callback function performs bus-level operations that disable the ability of one of the bus's devices to trigger a wake-up signal on the bus. |
-| [EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0 callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_disarm_wake_from_s0.md) | A driver's EvtDeviceDisarmWakeFromS0 event callback function disarms (that is, disables) a device's ability to trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0). |
-| [EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_disarm_wake_from_sx.md) | A driver's EvtDeviceDisarmWakeFromSx event callback function disarms (that is, disables) a device's ability to trigger a wake signal while the device and system are in low-power states. |
-| [EVT_WDF_DEVICE_EJECT callback](..\wdfpdo\nc-wdfpdo-evt_wdf_device_eject.md) | A driver's EvtDeviceEject event callback function handles operations that are necessary to eject a device from its docking station. |
-| [EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS callback](..\wdfpdo\nc-wdfpdo-evt_wdf_device_enable_wake_at_bus.md) | A bus driver's EvtDeviceEnableWakeAtBus event callback function performs bus-level operations that enable one of the bus's devices to trigger a wake-up signal on the bus. |
-| [EVT_WDF_DEVICE_FILE_CREATE callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md) | A driver's EvtDeviceFileCreate callback function handles operations that must be performed when an application requests access to a device. |
-| [EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_pnp_state_change_notification.md) | A driver's EvtDevicePnpStateChange event callback function informs the driver that a device's Plug and Play (PnP) state machine is moving from one state to another. |
-| [EVT_WDF_DEVICE_POWER_POLICY_STATE_CHANGE_NOTIFICATION callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_power_policy_state_change_notification.md) | A driver's EvtDevicePowerPolicyStateChange event callback function informs the driver that a device's power policy state machine is moving from one state to another. |
-| [EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_power_state_change_notification.md) | A driver's EvtDevicePowerStateChange event callback function informs the driver that a device's power state machine is moving from one state to another. |
-| [EVT_WDF_DEVICE_PREPARE_HARDWARE callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md) | A driver's EvtDevicePrepareHardware event callback function performs any operations that are needed to make a device accessible to the driver. |
-| [EVT_WDF_DEVICE_QUERY_REMOVE callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_query_remove.md) | A driver's EvtDeviceQueryRemove event callback function determines whether a specified device can be stopped and removed. |
-| [EVT_WDF_DEVICE_QUERY_STOP callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_query_stop.md) | A driver's EvtDeviceQueryStop event callback function determines whether a specified device can be stopped so that the PnP manager can redistribute system hardware resources. |
-| [EVT_WDF_DEVICE_RELATIONS_QUERY callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_relations_query.md) | A driver's EvtDeviceRelationsQuery event callback reports changes in the relationships among devices that are supported by the driver. |
-| [EVT_WDF_DEVICE_RELEASE_HARDWARE callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md) | A driver's EvtDeviceReleaseHardware event callback function performs operations that are needed when a device is no longer accessible. |
-| [EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback](..\wdffdo\nc-wdffdo-evt_wdf_device_remove_added_resources.md) | A driver's EvtDeviceRemoveAddedResources event callback function removes hardware resources that the driver's EvtDeviceFilterAddResourceRequirements callback function added. |
-| [EVT_WDF_DEVICE_REPORTED_MISSING callback](..\wdfpdo\nc-wdfpdo-evt_wdf_device_reported_missing.md) | A bus driver's EvtDeviceReportedMissing event callback function informs the driver that the framework has reported the physical device object (PDO) missing to the Plug and Play manager. |
-| [EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback](..\wdfpdo\nc-wdfpdo-evt_wdf_device_resource_requirements_query.md) | A bus driver's EvtDeviceResourceRequirementsQuery event callback function creates a resource requirements list that represents the device's required hardware resources. |
-| [EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md) | A driver's EvtDeviceSelfManagedIoCleanup event callback function handles deallocation activity for the device's self-managed I/O operations, after a device has been removed. |
-| [EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_flush.md) | A driver's EvtDeviceSelfManagedIoFlush event callback function handles flush activity for the device's self-managed I/O operations. |
-| [EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_init.md) | A driver's EvtDeviceSelfManagedIoInit event callback function initializes and starts the device's self-managed I/O operations. |
-| [EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_restart.md) | A driver's EvtDeviceSelfManagedIoRestart event callback function restarts a device's self-managed I/O operations. |
-| [EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_suspend.md) | A driver's EvtDeviceSelfManagedIoSuspend event callback function suspends a device's self-managed I/O operations. |
-| [EVT_WDF_DEVICE_SET_LOCK callback](..\wdfpdo\nc-wdfpdo-evt_wdf_device_set_lock.md) | A driver's EvtDeviceSetLock event callback function locks the specified device so that it cannot be ejected, or unlocks the device so that it can be ejected. |
-| [EVT_WDF_DEVICE_SURPRISE_REMOVAL callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_surprise_removal.md) | A driver's EvtDeviceSurpriseRemoval event callback function performs any operations that are needed after a device has been unexpectedly removed from the system or after a driver reports that the device has failed. |
-| [EVT_WDF_DEVICE_USAGE_NOTIFICATION callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_usage_notification.md) | A driver's EvtDeviceUsageNotification event callback function informs the driver when a device is being used for special files. |
-| [EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_usage_notification_ex.md) | A driver's EvtDeviceUsageNotificationEx event callback function determines whether a device can support a special file type. |
-| [EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_wake_from_s0_triggered.md) | A driver's EvtDeviceWakeFromS0Triggered event callback function informs the driver that its device, which had previously entered a low-power device state while the system power state remained at S0, might have triggered a wake signal. |
-| [EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED callback](..\wdfdevice\nc-wdfdevice-evt_wdf_device_wake_from_sx_triggered.md) | A driver's EvtDeviceWakeFromSxTriggered event callback function informs the driver that its device, which had previously entered a low-power device state because system power was reduced, might have triggered a wake signal. |
-| [EVT_WDF_DMA_ENABLER_DISABLE callback](..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_disable.md) | A driver's EvtDmaEnablerDisable event callback function disables a device's DMA capability before the device leaves its working (D0) state. |
-| [EVT_WDF_DMA_ENABLER_ENABLE callback](..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_enable.md) | A driver's EvtDmaEnablerEnable event callback function enables a device's DMA capability after the device enters its working (D0) state. |
-| [EVT_WDF_DMA_ENABLER_FILL callback](..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_fill.md) | A driver's EvtDmaEnablerFill event callback function allocates a device's DMA buffers. |
-| [EVT_WDF_DMA_ENABLER_FLUSH callback](..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_flush.md) | A driver's EvtDmaEnablerFlush event callback function deallocates a device's DMA buffers. |
-| [EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START callback](..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_start.md) | A driver's EvtDmaEnablerSelfManagedIoStart event callback function starts a DMA device's self-managed I/O operations. |
-| [EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback](..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_stop.md) | A driver's EvtDmaEnablerSelfManagedIoStop event callback function stops a DMA device's self-managed I/O operations. |
-| [EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback](..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel.md) | A driver's EvtDmaTransactionConfigureDmaChannel event callback function configures the DMA adapter for a system-mode DMA enabler. |
-| [EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback](..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete.md) | A driver's EvtDmaTransactionDmaTransferComplete event callback function is called when the system-mode controller has completed the current DMA transfer. |
-| [EVT_WDF_DRIVER_DEVICE_ADD callback](..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md) | A driver's EvtDriverDeviceAdd event callback function performs device initialization operations when the Plug and Play (PnP) manager reports the existence of a device. |
-| [EVT_WDF_DRIVER_UNLOAD callback](..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md) | A driver's EvtDriverUnload event callback function performs operations that must take place before the driver is unloaded. |
-| [EVT_WDF_FILE_CLEANUP callback](..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md) | A driver's EvtFileCleanup callback function handles operations that must be performed when an application is closing all accesses to a device. |
-| [EVT_WDF_FILE_CLOSE callback](..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md) | A driver's EvtFileClose callback function handles operations that must be performed when all of an application's accesses to a device have been closed. |
-| [EVT_WDF_INTERRUPT_DISABLE callback](..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md) | A driver's EvtInterruptDisable event callback function disables a specified hardware interrupt. |
-| [EVT_WDF_INTERRUPT_DPC callback](..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md) | A driver's EvtInterruptDpc event callback function processes interrupt information that the driver's EvtInterruptIsr callback function has stored. |
-| [EVT_WDF_INTERRUPT_ENABLE callback](..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md) | A driver's EvtInterruptEnable event callback function enables a specified hardware interrupt. |
-| [EVT_WDF_INTERRUPT_ISR callback](..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md) | A driver's EvtInterruptIsr event callback function services a hardware interrupt. |
-| [EVT_WDF_INTERRUPT_SYNCHRONIZE callback](..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md) | A driver's EvtInterruptSynchronize event callback function performs operations that must be synchronized with an EvtInterruptIsr callback function. |
-| [EVT_WDF_INTERRUPT_WORKITEM callback](..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_workitem.md) | A driver's EvtInterruptWorkItem event callback function processes interrupt information that the driver's EvtInterruptIsr callback function has stored. |
-| [EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES callback](..\wdfio\nc-wdfio-evt_wdf_io_allocate_request_resources.md) | A driver's EvtIoAllocateRequestResources callback function allocates request-specific resources that the driver requires to process the specified request. |
-| [EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST callback](..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md) | A driver's EvtIoAllocateResourcesForReservedRequest callback function allocates request-specific resources that the driver can use to process an I/O request in the future. |
-| [EVT_WDF_IO_IN_CALLER_CONTEXT callback](..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md) | A driver's EvtIoInCallerContext event callback function preprocesses an I/O request before the framework places it into an I/O queue. |
-| [EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback](..\wdfio\nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue.md) | A driver's EvtIoCanceledOnQueue event callback function informs the driver that it must complete an I/O request that the framework has removed from an I/O queue. |
-| [EVT_WDF_IO_QUEUE_IO_DEFAULT callback](..\wdfio\nc-wdfio-evt_wdf_io_queue_io_default.md) | A driver's EvtIoDefault event callback function processes a specified I/O request. |
-| [EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL callback](..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md) | A driver's EvtIoDeviceControl event callback function processes a specified device I/O control request. |
-| [EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL callback](..\wdfio\nc-wdfio-evt_wdf_io_queue_io_internal_device_control.md) | A driver's EvtIoInternalDeviceControl event callback function processes an I/O request that contains an internal device I/O control code (IOCTL). |
-| [EVT_WDF_IO_QUEUE_IO_READ callback](..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md) | A driver's EvtIoRead event callback function processes a specified read request. |
-| [EVT_WDF_IO_QUEUE_IO_RESUME callback](..\wdfio\nc-wdfio-evt_wdf_io_queue_io_resume.md) | A driver's EvtIoResume event callback function resumes processing a specified I/O request after the underlying device returns to its working (D0) power state. |
-| [EVT_WDF_IO_QUEUE_IO_STOP callback](..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md) | A driver's EvtIoStop event callback function completes, requeues, or suspends processing of a specified request because the request's I/O queue is being stopped. |
-| [EVT_WDF_IO_QUEUE_IO_WRITE callback](..\wdfio\nc-wdfio-evt_wdf_io_queue_io_write.md) | A driver's EvtIoWrite event callback function processes a specified write request. |
-| [EVT_WDF_IO_QUEUE_STATE callback](..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md) | A driver's EvtIoQueueState event callback function delivers queue state information to the driver. |
-| [EVT_WDF_IO_TARGET_QUERY_REMOVE callback](..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md) | A driver's EvtIoTargetQueryRemove event callback function indicates whether the framework can safely remove a specified remote I/O target's device. |
-| [EVT_WDF_IO_TARGET_REMOVE_CANCELED callback](..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_canceled.md) | A driver's EvtIoTargetRemoveCanceled event callback function performs operations when the removal of a specified remote I/O target is canceled. |
-| [EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback](..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_complete.md) | A driver's EvtIoTargetRemoveComplete event callback function performs operations when the removal of a specified remote I/O target is complete. |
-| [EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback](..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md) | A driver's EvtIoWdmIrpForForwardProgress callback function examines an I/O request packet (IRP) and determines whether to use a reserved request object to process the I/O request or to fail the I/O request. |
-| [EVT_WDF_OBJECT_CONTEXT_CLEANUP callback](..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md) | A driver's EvtCleanupCallback event callback function removes the driver's references on an object so that the object can be deleted. |
-| [EVT_WDF_OBJECT_CONTEXT_DESTROY callback](..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md) | A driver's EvtDestroyCallback event callback function performs operations that are associated with the deletion of a framework object. |
-| [EVT_WDF_REQUEST_CANCEL callback](..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md) | A driver's EvtRequestCancel event callback function handles operations that must be performed when an I/O request is canceled. |
-| [EVT_WDF_REQUEST_COMPLETION_ROUTINE callback](..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md) | A driver's CompletionRoutine event callback function executes when another driver completes a specified I/O request. |
-| [EVT_WDF_REQUEST_IMPERSONATE callback](..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md) | A driver's EvtRequestImpersonate event callback function performs tasks at the requested impersonation level, such as opening a protected file. |
-| [EVT_WDF_RESERVE_DMA callback](..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_reserve_dma.md) | The EvtReserveDma event callback function is called when the framework has reserved resources to execute and release a transaction. Reserved resources include map registers and the WDM DMA adapter's lock. |
-| [EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback](..\wdfcompanion\nc-wdfcompanion-evt_wdf_task_queue_task_execute_sync.md) | For internal use only. |
-| [EVT_WDF_USB_READERS_FAILED callback](..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md) | A driver's EvtUsbTargetPipeReadersFailed event callback function informs the driver that a continuous reader has reported an error while processing a read request. |
-| [EVT_WDF_USB_READER_COMPLETION_ROUTINE callback](..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md) | A driver's EvtUsbTargetPipeReadComplete event callback function informs the driver that a continuous reader has successfully completed a read request. |
-| [EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD callback](..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md) | A driver's EvtWmiInstanceExecuteMethod callback function executes a specified method that the driver provides for a WMI data provider's instance. |
-| [EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE callback](..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md) | A driver's EvtWmiInstanceQueryInstance callback function copies a WMI provider's instance data into a buffer for delivery to a WMI client. |
-| [EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback](..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md) | A driver's EvtWmiInstanceSetInstance callback function sets all of a WMI data provider's instance data to values that a WMI client supplies. |
-| [EVT_WDF_WMI_INSTANCE_SET_ITEM callback](..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md) | A driver's EvtWmiInstanceSetItem callback function sets a single item of a WMI data provider's instance data to a value that a WMI client supplies. |
-| [EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL callback](..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md) | A driver's EvtWmiProviderFunctionControl callback function enables and disables the driver's support for collecting data and sending events for a specified WMI data provider. |
-| [PFN_WDFINTERRUPTACQUIRELOCK callback](..\wdfinterrupt\nc-wdfinterrupt-pfn_wdfinterruptacquirelock.md) | The WdfInterruptAcquireLock method begins a code sequence that executes at the device's device interrupt request level (DIRQL) while holding an interrupt object's spin lock. |
-| [PFN_WDFINTERRUPTRELEASELOCK callback](..\wdfinterrupt\nc-wdfinterrupt-pfn_wdfinterruptreleaselock.md) | The WdfInterruptReleaseLock method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock. |
-| [PFN_WDFOBJECTACQUIRELOCK callback](..\wdfsync\nc-wdfsync-pfn_wdfobjectacquirelock.md) | The WdfObjectAcquireLock method acquires an object's synchronization lock. |
-| [PFN_WDFOBJECTRELEASELOCK callback](..\wdfsync\nc-wdfsync-pfn_wdfobjectreleaselock.md) | The WdfObjectReleaseLock method releases an object's synchronization lock. |
-| [WUDF_INTERRUPT_DISABLE callback](..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_disable.md) | A driver's OnInterruptDisable event callback function disables a specified hardware interrupt. |
-| [WUDF_INTERRUPT_ENABLE callback](..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_enable.md) | A driver's OnInterruptEnable event callback function enables a specified hardware interrupt. |
-| [WUDF_INTERRUPT_ISR callback](..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_isr.md) | A driver's OnInterruptIsr event callback function services a hardware interrupt. |
-| [WUDF_INTERRUPT_WORKITEM callback](..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md) | A driver's OnInterruptWorkItem event callback function processes interrupt information that the driver's OnInterruptIsr callback function has stored. |
-| [WUDF_WORKITEM_FUNCTION callback](..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md) | A driver's OnWorkItem event callback function performs the work that is associated with a specified work item. |
+Send comments about this topic to Microsoft
 
-## Structures
-
-| Title   | Description   |
-| ---- |:---- |
-| [UMDF_VERSION_DATA structure](..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md) | The UMDF_VERSION_DATA structure describes a version of the framework. |
-| [_UMDF_IO_TARGET_OPEN_PARAMS structure](..\wudfddi\ns-wudfddi-_umdf_io_target_open_params.md) | The UMDF_IO_TARGET_OPEN_PARAMS structure contains file-open parameters. |
-| [_WDFMEMORY_OFFSET structure](..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md) | The WDFMEMORY_OFFSET structure identifies a subsection of a memory object's buffer. |
-| [_WDFMEMORY_OFFSET structure](..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md) | The WDFMEMORY_OFFSET structure describes the location and size of information that is accessed within a memory block. |
-| [_WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure](..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md) | The WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure is a header structure that must be the first member of every address description structure. |
-| [_WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure](..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md) | The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure is a header structure that must be the first member of every identification description structure. |
-| [_WDF_CHILD_LIST_CONFIG structure](..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md) | The WDF_CHILD_LIST_CONFIG structure contains configuration information for a list of child devices. |
-| [_WDF_CHILD_LIST_ITERATOR structure](..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md) | The WDF_CHILD_LIST_ITERATOR structure identifies the type of child devices that the framework will retrieve when a driver calls WdfChildListRetrieveNextDevice. |
-| [_WDF_CHILD_RETRIEVE_INFO structure](..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md) | The WDF_CHILD_RETRIEVE_INFO structure contains information about a child device that is obtained by calling WdfChildListRetrieveNextDevice or WdfChildListRetrievePdo. |
-| [_WDF_COINSTALLER_INSTALL_OPTIONS structure](..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md) | The WDF_COINSTALLER_INSTALL_OPTIONS structure contains installation options that a framework-based driver's installer can specify to the framework's co-installer. |
-| [_WDF_COMMON_BUFFER_CONFIG structure](..\wdfcommonbuffer\ns-wdfcommonbuffer-_wdf_common_buffer_config.md) | The WDF_COMMON_BUFFER_CONFIG structure contains configuration information for a common buffer. |
-| [_WDF_COMPANION_EVENT_CALLBACKS structure](..\wdfcompanion\ns-wdfcompanion-_wdf_companion_event_callbacks.md) | For internal use only. |
-| [_WDF_DEVICE_INTERFACE_PROPERTY_DATA structure](..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md) | The WDF_DEVICE_INTERFACE_PROPERTY_DATA structure describes a device interface property. |
-| [_WDF_DEVICE_PNP_CAPABILITIES structure](..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_capabilities.md) | The WDF_DEVICE_PNP_CAPABILITIES structure describes a device's Plug and Play capabilities. |
-| [_WDF_DEVICE_PNP_NOTIFICATION_DATA structure](..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md) | The WDF_DEVICE_PNP_NOTIFICATION_DATA structure describes a state change within a device's Plug and Play state machine. |
-| [_WDF_DEVICE_POWER_CAPABILITIES structure](..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md) | The WDF_DEVICE_POWER_CAPABILITIES structure describes a device's power capabilities. |
-| [_WDF_DEVICE_POWER_NOTIFICATION_DATA structure](..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md) | The WDF_DEVICE_POWER_NOTIFICATION_DATA structure describes a state change within a device's power state machine. |
-| [_WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure](..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md) | The WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure contains driver-supplied information that the framework uses when a device is idle and the system is in the system working state (S0). |
-| [_WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure](..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md) | The WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure describes a state change within a device's power policy state machine. |
-| [_WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure](..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md) | The WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure contains driver-supplied information about a device's ability to wake itself and the system, when both are in a low-power state. |
-| [_WDF_DEVICE_PROPERTY_DATA structure](..\wdfdevice\ns-wdfdevice-_wdf_device_property_data.md) | The WDF_DEVICE_PROPERTY_DATA structure describes a device property. |
-| [_WDF_DEVICE_STATE structure](..\wdfdevice\ns-wdfdevice-_wdf_device_state.md) | The WDF_DEVICE_STATE structure specifies a device's Plug and Play state. |
-| [_WDF_DMA_ENABLER_CONFIG structure](..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md) | The WDF_DMA_ENABLER_CONFIG structure supplies characteristics for a DMA enabler object. |
-| [_WDF_DMA_SYSTEM_PROFILE_CONFIG structure](..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_system_profile_config.md) | The WDF_DMA_SYSTEM_PROFILE_CONFIG structure describes the hardware-specific settings related to a system-mode DMA enabler. |
-| [_WDF_DPC_CONFIG structure](..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md) | The WDF_DPC_CONFIG structure contains configuration information for a DPC object. |
-| [_WDF_DRIVER_CONFIG structure](..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md) | The WDF_DRIVER_CONFIG structure is an input parameter to WdfDriverCreate. |
-| [_WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure](..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md) | The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure specifies major and minor version numbers for the Kernel-Mode Driver Framework's library. |
-| [_WDF_FDO_EVENT_CALLBACKS structure](..\wdffdo\ns-wdffdo-_wdf_fdo_event_callbacks.md) | The WDF_FDO_EVENT_CALLBACKS structure contains pointers to a function driver's PnP event callback functions. |
-| [_WDF_FILEOBJECT_CONFIG structure](..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md) | The WDF_FILEOBJECT_CONFIG structure contains configuration information of a driver's framework file objects. |
-| [_WDF_INTERRUPT_CONFIG structure](..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md) | The WDF_INTERRUPT_CONFIG structure contains configuration information for a device interrupt. |
-| [_WDF_INTERRUPT_EXTENDED_POLICY structure](..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_extended_policy.md) | The WDF_INTERRUPT_EXTENDED_POLICY structure contains information about an interrupt's policy, priority, affinity, and group. |
-| [_WDF_INTERRUPT_EXTENDED_POLICY structure](..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md) | The WDF_INTERRUPT_EXTENDED_POLICY structure contains information about an interrupt's policy, priority, affinity, and group. |
-| [_WDF_INTERRUPT_INFO structure](..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_info.md) | The WDF_INTERRUPT_INFO structure contains information about a device's interrupt resource. |
-| [_WDF_INTERRUPT_INFO structure](..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md) | The WDF_INTERRUPT_INFO structure contains information about a device's interrupt resource. |
-| [_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS structure](..\wdfio\ns-wdfio-_wdf_io_forward_progress_reserved_policy_settings.md) | The WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS structure contains information about specific actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists. |
-| [_WDF_IO_QUEUE_CONFIG structure](..\wdfio\ns-wdfio-_wdf_io_queue_config.md) | The WDF_IO_QUEUE_CONFIG structure contains configuration information for a framework queue object. |
-| [_WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure](..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md) | The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure contains driver-supplied information that the framework uses to enable guaranteed forward progress for an I/O queue. |
-| [_WDF_IO_TARGET_OPEN_PARAMS structure](..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md) | The WDF_IO_TARGET_OPEN_PARAMS structure contains parameters that the WdfIoTargetOpen method uses. |
-| [_WDF_IO_TYPE_CONFIG structure](..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md) | The WDF_IO_TYPE_CONFIG structure specifies the driver's preferred buffer access method for read and write requests, and for device I/O control requests. |
-| [_WDF_MEMORY_DESCRIPTOR structure](..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md) | The WDF_MEMORY_DESCRIPTOR structure describes a memory buffer. |
-| [_WDF_OBJECT_ATTRIBUTES structure](..\wdfobject\ns-wdfobject-_wdf_object_attributes.md) | The WDF_OBJECT_ATTRIBUTES structure describes attributes that can be associated with any framework object. |
-| [_WDF_OBJECT_CONTEXT_TYPE_INFO structure](..\wdfobject\ns-wdfobject-_wdf_object_context_type_info.md) | The WDF_OBJECT_CONTEXT_TYPE_INFO structure describes a framework object's driver-defined context memory. |
-| [_WDF_PDO_EVENT_CALLBACKS structure](..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md) | The WDF_PDO_EVENT_CALLBACKS structure is the dispatch table for a bus driver's event callback functions. |
-| [_WDF_PNPPOWER_EVENT_CALLBACKS structure](..\wdfdevice\ns-wdfdevice-_wdf_pnppower_event_callbacks.md) | The WDF_PNPPOWER_EVENT_CALLBACKS structure contains pointers to a driver's Plug and Play and power event callback functions. |
-| [_WDF_POWER_FRAMEWORK_SETTINGS structure](..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md) | The WDF_POWER_FRAMEWORK_SETTINGS structure describes power management framework (PoFx) settings for single-component devices. |
-| [_WDF_POWER_POLICY_EVENT_CALLBACKS structure](..\wdfdevice\ns-wdfdevice-_wdf_power_policy_event_callbacks.md) | The WDF_POWER_POLICY_EVENT_CALLBACKS structure contains pointers to a driver's power policy event callback functions. |
-| [_WDF_PROPERTY_STORE_ROOT structure](..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md) | The WDF_PROPERTY_STORE_ROOT structure contains information that identifies a UMDF property store. |
-| [_WDF_QUERY_INTERFACE_CONFIG structure](..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md) | The WDF_QUERY_INTERFACE_CONFIG structure describes a driver-defined interface. |
-| [_WDF_REMOVE_LOCK_OPTIONS structure](..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md) | The WDF_REMOVE_LOCK_OPTIONS structure specifies options for acquiring a remove lock before delivering an IRP to the driver. |
-| [_WDF_REQUEST_COMPLETION_PARAMS structure](..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md) | The WDF_REQUEST_COMPLETION_PARAMS structure contains parameters that are associated with the completion of an I/O request. |
-| [_WDF_REQUEST_FORWARD_OPTIONS structure](..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options.md) | The WDF_REQUEST_FORWARD_OPTIONS structure contains options for requeuing an I/O request from a child device's I/O queue to the parent device's I/O queue. |
-| [_WDF_REQUEST_PARAMETERS structure](..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md) | The WDF_REQUEST_PARAMETERS structure receives parameters that are associated with an I/O request. |
-| [_WDF_REQUEST_REUSE_PARAMS structure](..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md) | The WDF_REQUEST_REUSE_PARAMS structure specifies information that is associated with a reused I/O request. |
-| [_WDF_REQUEST_SEND_OPTIONS structure](..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md) | The WDF_REQUEST_SEND_OPTIONS structure specifies options that are associated with sending an I/O request to an I/O target. |
-| [_WDF_TASK_QUEUE_CONFIG structure](..\wdfcompanion\ns-wdfcompanion-_wdf_task_queue_config.md) | For internal use only. |
-| [_WDF_TASK_SEND_OPTIONS structure](..\wdfcompaniontarget\ns-wdfcompaniontarget-_wdf_task_send_options.md) | For internal use only. |
-| [_WDF_TIMER_CONFIG structure](..\wdftimer\ns-wdftimer-_wdf_timer_config.md) | The WDF_TIMER_CONFIG structure contains configuration information for a framework timer object. |
-| [_WDF_USB_CONTINUOUS_READER_CONFIG structure](..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md) | The WDF_USB_CONTINUOUS_READER_CONFIG structure contains information that the framework uses to configure a continuous reader for a USB pipe. |
-| [_WDF_USB_CONTROL_SETUP_PACKET structure](..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md) | The WDF_USB_CONTROL_SETUP_PACKET structure describes a setup packet for a USB control transfer. |
-| [_WDF_USB_DEVICE_CREATE_CONFIG structure](..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md) | The WDF_USB_DEVICE_CREATE_CONFIG structure contains information that the framework uses to configure a framework USB device object. |
-| [_WDF_USB_DEVICE_INFORMATION structure](..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md) | The WDF_USB_DEVICE_INFORMATION structure contains version and capability information for a USB device. |
-| [_WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure](..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md) | The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure specifies USB device configuration parameters. |
-| [_WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure](..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md) | The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure contains selection information for a USB interface. |
-| [_WDF_USB_INTERFACE_SETTING_PAIR structure](..\wdfusb\ns-wdfusb-_wdf_usb_interface_setting_pair.md) | The WDF_USB_INTERFACE_SETTING_PAIR structure specifies an alternate setting for a specified USB interface. |
-| [_WDF_USB_PIPE_INFORMATION structure](..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md) | The WDF_USB_PIPE_INFORMATION structure contains information about a USB pipe and its endpoint. |
-| [_WDF_USB_REQUEST_COMPLETION_PARAMS structure](..\wdfusb\ns-wdfusb-_wdf_usb_request_completion_params.md) | The WDF_USB_REQUEST_COMPLETION_PARAMS structure contains parameters that are associated with the completion of an I/O request for a USB device. |
-| [_WDF_WMI_INSTANCE_CONFIG structure](..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md) | The WDF_WMI_INSTANCE_CONFIG structure contains configuration information for an instance of a WMI data provider. |
-| [_WDF_WMI_PROVIDER_CONFIG structure](..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md) | The WDF_WMI_PROVIDER_CONFIG structure contains configuration information for a driver's WMI data block. |
-| [_WDF_WORKITEM_CONFIG structure](..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md) | The WDF_WORKITEM_CONFIG structure contains information that is associated with a work item. |
-| [_WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure](..\wudfddi_types\ns-wudfddi_types-_wudf_device_power_policy_idle_settings.md) | The WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure contains driver-supplied information that the framework uses when a device is idle and the system is in the system working state (S0). |
-| [_WUDF_INTERRUPT_CONFIG structure](..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md) | The WUDF_INTERRUPT_CONFIG structure contains configuration information for a device interrupt. |
-| [_WUDF_WORKITEM_CONFIG structure](..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md) | The WUDF_WORKITEM_CONFIG structure contains information that is associated with a work item. |
-
-## Enumerations
-
-| Title   | Description   |
-| ---- |:---- |
-| [*PPOWER_ACTION enumeration](..\ntpoapi\ne-ntpoapi-ppower_action.md) | The POWER_ACTION enumeration identifies the system power actions that can occur on a computer. |
-| [_DEVICE_POWER_STATE enumeration](..\wudfddi\ne-wudfddi-_device_power_state.md) | The DEVICE_POWER_STATE enumeration identifies the device power states that a device can enter. |
-| [_SECURITY_IMPERSONATION_LEVEL enumeration](..\wudfddi\ne-wudfddi-_security_impersonation_level.md) | The SECURITY_IMPERSONATION_LEVEL enumeration contains values that identify security impersonation levels. |
-| [_WDF_CALLBACK_CONSTRAINT enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_callback_constraint.md) | WDF_CALLBACK_CONSTRAINT enumeration |
-| [_WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS enumeration](..\wdfchildlist\ne-wdfchildlist-_wdf_child_list_retrieve_device_status.md) | The WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS enumeration defines device status values that the framework stores in a driver's WDF_CHILD_RETRIEVE_INFO structure. |
-| [_WDF_DEVICE_FAILED_ACTION enumeration](..\wdfdevice\ne-wdfdevice-_wdf_device_failed_action.md) | The WDF_DEVICE_FAILED_ACTION enumeration identifies the action that the framework will take when a driver reports an unrecoverable software or hardware failure. |
-| [_WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_device_hwaccess_target_size.md) | The WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration is used internally by the framework. Do not use. |
-| [_WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_device_hwaccess_target_size.md) | The WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration is used internally by the framework. Do not use. |
-| [_WDF_DEVICE_HWACCESS_TARGET_TYPE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_device_hwaccess_target_type.md) | The WDF_DEVICE_HWACCESS_TARGET_TYPE enumeration is used internally by the framework. Do not use. |
-| [_WDF_DEVICE_HWACCESS_TARGET_TYPE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_device_hwaccess_target_type.md) | The WDF_DEVICE_HWACCESS_TARGET_TYPE enumeration is used internally by the framework. Do not use. |
-| [_WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md) | The WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration is used to specify when UMDF makes an I/O request's buffers available to the driver. |
-| [_WDF_DEVICE_IO_TYPE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_device_io_type.md) | The WDF_DEVICE_IO_TYPE enumeration is used to specify a method for accessing data buffers. |
-| [_WDF_DEVICE_IO_TYPE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md) | The WDF_DEVICE_IO_TYPE enumeration is used to specify a method for accessing data buffers. |
-| [_WDF_DEVICE_PNP_STATE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md) | The WDF_DEVICE_PNP_STATE enumeration identifies all of the states that the framework's Plug and Play state machine can enter. |
-| [_WDF_DEVICE_POWER_POLICY_STATE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_device_power_policy_state.md) | The WDF_DEVICE_POWER_POLICY_STATE enumeration identifies all of the states that the framework's power policy state machine can enter. |
-| [_WDF_DEVICE_POWER_STATE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_device_power_state.md) | The WDF_DEVICE_POWER_STATE enumeration identifies all of the states that the framework's power state machine can enter. |
-| [_WDF_DEVICE_SHUTDOWN_FLAGS enumeration](..\wdfcontrol\ne-wdfcontrol-_wdf_device_shutdown_flags.md) | The WDF_DEVICE_SHUTDOWN_FLAGS enumeration defines flags that identify types of shutdown notifications that a driver can receive. |
-| [_WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS enumeration](..\wdfdevice\ne-wdfdevice-_wdf_dispatch_irp_to_io_queue_flags.md) | The WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS enumeration type defines flags that the driver can specify when it calls WdfDeviceWdmDispatchIrpToIoQueue. |
-| [_WDF_DMA_DIRECTION enumeration](..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md) | The WDF_DMA_DIRECTION enumeration defines the direction of a DMA transfer. |
-| [_WDF_DMA_ENABLER_CONFIG_FLAGS enumeration](..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_enabler_config_flags.md) | The WDF_DMA_ENABLER_CONFIG_FLAGS enumeration type defines flags that are used in a driver's WDF_DMA_ENABLER_CONFIG structure. |
-| [_WDF_DMA_PROFILE enumeration](..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_profile.md) | The WDF_DMA_PROFILE enumeration identifies the types of bus-master or system-mode DMA operations that devices can support. |
-| [_WDF_DRIVER_INIT_FLAGS enumeration](..\wdfdriver\ne-wdfdriver-_wdf_driver_init_flags.md) | The WDF_DRIVER_INIT_FLAGS enumeration specifies driver initialization flags. |
-| [_WDF_EVENT_TYPE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_event_type.md) | The WDF_EVENT_TYPE enumeration specifies. |
-| [_WDF_EVENT_TYPE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md) | The WDF_EVENT_TYPE enumeration specifies. |
-| [_WDF_EXECUTION_LEVEL enumeration](..\wdfobject\ne-wdfobject-_wdf_execution_level.md) | The WDF_EXECUTION_LEVEL enumeration type specifies the maximum IRQL at which the framework will call the event callback functions that a driver has supplied for a framework object. |
-| [_WDF_FILEOBJECT_CLASS enumeration](..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md) | The WDF_FILEOBJECT_CLASS enumeration defines values that identify whether a driver requires a framework file object to represent a file that an application or another driver is attempting to create or open. |
-| [_WDF_FILE_INFORMATION_CLASS enumeration](..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md) | The WDF_FILE_INFORMATION_CLASS enumeration identifies the types of file information that a driver can obtain or set. |
-| [_WDF_FILE_INFORMATION_CLASS enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md) | The WDF_FILE_INFORMATION_CLASS enumeration identifies the types of file information that a driver can obtain or set. |
-| [_WDF_INTERRUPT_POLARITY enumeration](..\wdfinterrupt\ne-wdfinterrupt-_wdf_interrupt_polarity.md) | The WDF_INTERRUPT_POLARITY enumeration type is used to specify an interrupt signal's polarity. |
-| [_WDF_INTERRUPT_POLARITY enumeration](..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md) | The WDF_INTERRUPT_POLARITY enumeration type is used to specify an interrupt signal's polarity. |
-| [_WDF_INTERRUPT_POLICY enumeration](..\wdfinterrupt\ne-wdfinterrupt-_wdf_interrupt_policy.md) | The WDF_INTERRUPT_POLICY enumeration type identifies the affinity policies that the PnP manager can use when it assigns a device's interrupts to the processors of a multiprocessor system. |
-| [_WDF_INTERRUPT_POLICY enumeration](..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md) | The WDF_INTERRUPT_POLICY enumeration type identifies the affinity policies that the Plug and Play (PnP) manager can use when it assigns a device's interrupts to the processors of a multiprocessor system. |
-| [_WDF_INTERRUPT_PRIORITY enumeration](..\wdfinterrupt\ne-wdfinterrupt-_wdf_interrupt_priority.md) | The WDF_INTERRUPT_PRIORITY enumeration type identifies relative priorities for device interrupts. |
-| [_WDF_INTERRUPT_PRIORITY enumeration](..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md) | The WDF_INTERRUPT_PRIORITY enumeration type identifies relative priorities for device interrupts. |
-| [_WDF_IO_FORWARD_PROGRESS_ACTION enumeration](..\wdfio\ne-wdfio-_wdf_io_forward_progress_action.md) | The WDF_IO_FORWARD_PROGRESS_ACTION enumeration identifies actions that the framework can take for an I/O request packet (IRP) that your driver examines during a low-memory situation. |
-| [_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration](..\wdfio\ne-wdfio-_wdf_io_forward_progress_reserved_policy.md) | The WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration identifies actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists. |
-| [_WDF_IO_QUEUE_DISPATCH_TYPE enumeration](..\wdfio\ne-wdfio-_wdf_io_queue_dispatch_type.md) | The WDF_IO_QUEUE_DISPATCH_TYPE enumeration type identifies the request dispatching methods that can be associated with a framework queue object. |
-| [_WDF_IO_QUEUE_DISPATCH_TYPE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md) | The WDF_IO_QUEUE_DISPATCH_TYPE enumeration contains values that identify how a driver must receive requests from an I/O queue. |
-| [_WDF_IO_QUEUE_STATE enumeration](..\wdfio\ne-wdfio-_wdf_io_queue_state.md) | The WDF_IO_QUEUE_STATE enumeration type identifies the status of a framework queue object. The enumerators are used as bit masks. |
-| [_WDF_IO_QUEUE_STATE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md) | The WDF_IO_QUEUE_STATE enumeration contains values that identify the state of an I/O queue. |
-| [_WDF_IO_TARGET_OPEN_TYPE enumeration](..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_open_type.md) | The WDF_IO_TARGET_OPEN_TYPE enumeration specifies how a driver identifies a remote I/O target when the driver calls WdfIoTargetOpen. |
-| [_WDF_IO_TARGET_PURGE_IO_ACTION enumeration](..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_purge_io_action.md) | The WDF_IO_TARGET_PURGE_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls WdfIoTargetPurge to purge an I/O target. |
-| [_WDF_IO_TARGET_SENT_IO_ACTION enumeration](..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_sent_io_action.md) | The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls WdfIoTargetStop to stop an I/O target. |
-| [_WDF_IO_TARGET_SENT_IO_ACTION enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md) | The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls IWDFIoTargetStateManagement |
-| [_WDF_IO_TARGET_STATE enumeration](..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md) | The WDF_IO_TARGET_STATE enumeration specifies the states that an I/O target can be in. |
-| [_WDF_IO_TARGET_STATE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md) | The WDF_IO_TARGET_STATE enumeration specifies the states that an I/O target can be in. |
-| [_WDF_KPROCESSOR_MODE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_kprocessor_mode.md) | The WDF_KPROCESSOR_MODE enumeration type identifies the processor modes in which a thread can execute. |
-| [_WDF_MEMORY_DESCRIPTOR_TYPE enumeration](..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md) | The WDF_MEMORY_DESCRIPTOR_TYPE enumeration identifies the types of memory descriptions that a WDF_MEMORY_DESCRIPTOR structure can specify. |
-| [_WDF_PNP_CAPABILITY enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md) | The WDF_PNP_CAPABILITY enumeration contains values that identify Plug and Play (PnP) capabilities for a device. |
-| [_WDF_PNP_STATE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md) | The WDF_PNP_STATE enumeration contains values that identify the status of Plug and Play (PnP) for a device. |
-| [_WDF_POWER_DEVICE_STATE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_power_device_state.md) | The WDF_POWER_DEVICE_STATE enumeration identifies the device power states that a device might support. |
-| [_WDF_POWER_DEVICE_STATE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md) | The WDF_POWER_DEVICE_STATE enumeration contains values that identify the power state that a device might support. |
-| [_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration](..\wdfdevice\ne-wdfdevice-_wdf_power_policy_idle_timeout_constants.md) | The WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration is reserved for internal use. |
-| [_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_idle_timeout_constants.md) | The WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration is reserved for internal use. |
-| [_WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_power_policy_idle_timeout_type.md) | The WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration identifies how the idle timeout for a device is determined. |
-| [_WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration](..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities.md) | The WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration identifies the capabilities that a device can support when it enters a low-power state while it is idling. |
-| [_WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_capabilities.md) | The WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration identifies the capabilities that a device can support when it enters a low-power state while it is idling. |
-| [_WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration](..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_user_control.md) | The WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration identifies whether a user can control a device's behavior when the device is idle and the system is in its working (S0) state. |
-| [_WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_user_control.md) | The WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration identifies whether a user can control a device's behavior when the device is idle and the system is in its working (S0) state. |
-| [_WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration](..\wdfdevice\ne-wdfdevice-_wdf_power_policy_sx_wake_user_control.md) | The WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration identifies whether a user can control a device's ability to wake the system from a low system power state. |
-| [_WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md) | The WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration identifies whether a user can control a device's ability to wake the system from a low system power state. |
-| [_WDF_PROPERTY_STORE_DISPOSITION enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md) | The WDF_PROPERTY_STORE_DISPOSITION enumeration contains values that indicate whether a registry value was created or already existed when a driver obtained a property store interface. |
-| [_WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md) | The WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration contains values that indicate whether UMDF should create a registry key if the key does not already exist. |
-| [_WDF_PROPERTY_STORE_ROOT_CLASS enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md) | The WDF_PROPERTY_STORE_ROOT_CLASS enumeration identifies the registry keys that UMDF property stores represent. |
-| [_WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_release_hardware_order_on_failure.md) | The WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration specifies when the framework calls a driver's EvtDeviceReleaseHardware callback function. |
-| [_WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration](..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md) | The WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration type defines flags that are used in a driver's WDF_REMOVE_LOCK_OPTIONS structure. |
-| [_WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration](..\wdfrequest\ne-wdfrequest-_wdf_request_forward_options_flags.md) | The WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration type defines flags that are used in a driver's WDF_REQUEST_FORWARD_OPTIONS structure. |
-| [_WDF_REQUEST_REUSE_FLAGS enumeration](..\wdfrequest\ne-wdfrequest-_wdf_request_reuse_flags.md) | The WDF_REQUEST_REUSE_FLAGS enumeration type defines flags that are used in a driver's WDF_REQUEST_REUSE_PARAMS structure. |
-| [_WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration](..\wdfrequest\ne-wdfrequest-_wdf_request_send_options_flags.md) | The WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration type defines flags that are used in a driver's WDF_REQUEST_SEND_OPTIONS structure. |
-| [_WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md) | The WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration type defines flags that a driver can specify when it calls IWDFIoRequest |
-| [_WDF_REQUEST_STOP_ACTION_FLAGS enumeration](..\wdfrequest\ne-wdfrequest-_wdf_request_stop_action_flags.md) | The WDF_REQUEST_STOP_ACTION_FLAGS enumeration type defines flags that the framework passes to a driver's EvtIoStop callback function. |
-| [_WDF_REQUEST_STOP_ACTION_FLAGS enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_request_stop_action_flags.md) | The WDF_REQUEST_STOP_ACTION_FLAGS enumeration contains values that identify the state of a stop action request in a call to the driver's IQueueCallbackIoStop |
-| [_WDF_REQUEST_TYPE enumeration](..\wdfrequest\ne-wdfrequest-_wdf_request_type.md) | The WDF_REQUEST_TYPE enumeration type identifies types of requests that a framework request object might contain. |
-| [_WDF_REQUEST_TYPE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md) | The WDF_REQUEST_TYPE enumeration identifies the types of I/O requests that a UMDF request object can represent. |
-| [_WDF_RETRIEVE_CHILD_FLAGS enumeration](..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md) | The WDF_RETRIEVE_CHILD_FLAGS enumeration defines flags that a driver can set before calling WdfChildListBeginIteration. |
-| [_WDF_SPECIAL_FILE_TYPE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_special_file_type.md) | The WDF_SPECIAL_FILE_TYPE enumeration identifies special file types that a device can support. |
-| [_WDF_STATE_NOTIFICATION_TYPE enumeration](..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md) | The WDF_STATE_NOTIFICATION_TYPE enumeration identifies the type of Plug and Play, power, or power policy notification that a framework-based driver will receive. |
-| [_WDF_SYNCHRONIZATION_SCOPE enumeration](..\wdfobject\ne-wdfobject-_wdf_synchronization_scope.md) | The WDF_SYNCHRONIZATION_SCOPE enumeration type specifies how the framework will synchronize execution of an object's event callback functions. |
-| [_WDF_TASK_QUEUE_DISPATCH_TYPE enumeration](..\wdfcompanion\ne-wdfcompanion-_wdf_task_queue_dispatch_type.md) | For internal use only. |
-| [_WDF_TASK_SEND_OPTIONS_FLAGS enumeration](..\wdfcompaniontarget\ne-wdfcompaniontarget-_wdf_task_send_options_flags.md) | For internal use only. |
-| [_WDF_TRI_STATE enumeration](..\wdftypes\ne-wdftypes-_wdf_tri_state.md) | The WDF_TRI_STATE enumeration type defines three values that the framework uses for some structure members and function parameters. |
-| [_WDF_TRI_STATE enumeration](..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md) | The WDF_TRI_STATE enumeration type defines three values that the framework uses for some structure members and function parameters. |
-| [_WDF_USB_BMREQUEST_DIRECTION enumeration](..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md) | The WDF_USB_BMREQUEST_DIRECTION enumeration identifies the data transfer direction for a USB control transfer. |
-| [_WDF_USB_BMREQUEST_RECIPIENT enumeration](..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md) | The WDF_USB_BMREQUEST_RECIPIENT enumeration identifies the data transfer recipient for a USB control transfer. |
-| [_WDF_USB_BMREQUEST_TYPE enumeration](..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_type.md) | The WDF_USB_BMREQUEST_TYPE enumeration identifies the data transfer type for a USB control transfer. |
-| [_WDF_USB_DEVICE_TRAITS enumeration](..\wdfusb\ne-wdfusb-_wdf_usb_device_traits.md) | The WDF_USB_DEVICE_TRAITS enumeration identifies USB device traits. |
-| [_WDF_USB_PIPE_TYPE enumeration](..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md) | The WDF_USB_PIPE_TYPE enumeration identifies the types of USB pipes. |
-| [_WDF_USB_REQUEST_TYPE enumeration](..\wdfusb\ne-wdfusb-_wdf_usb_request_type.md) | The WDF_USB_REQUEST_TYPE enumeration identifies the types of USB requests that a framework-based driver can send to a USB I/O target. |
-| [_WDF_USB_REQUEST_TYPE enumeration](..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md) | The WDF_USB_REQUEST_TYPE enumeration contains values that identify a type of USB request object. |
-| [_WDF_WMI_PROVIDER_CONTROL enumeration](..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md) | The WDF_WMI_PROVIDER_CONTROL enumeration defines the type of control functions that a WMI data provider can support. |
-| [_WDF_WMI_PROVIDER_FLAGS enumeration](..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_flags.md) | The WDF_WMI_PROVIDER_FLAGS enumeration defines configuration flags for a driver's WMI data provider. |
-| [_WdfUsbTargetDeviceSelectConfigType enumeration](..\wdfusb\ne-wdfusb-_wdfusbtargetdeviceselectconfigtype.md) | The WdfUsbTargetDeviceSelectConfigType enumeration defines types of configuration operations for USB devices. |
-| [_WdfUsbTargetDeviceSelectSettingType enumeration](..\wdfusb\ne-wdfusb-_wdfusbtargetdeviceselectsettingtype.md) | The WdfUsbTargetDeviceSelectSettingType enumeration defines techniques for specifying an alternate setting for a USB interface. |
-| [__MIDL___MIDL_itf_wudfddi_0000_0000_0001 enumeration](..\wudfddi\ne-wudfddi-__midl___midl_itf_wudfddi_0000_0000_0001.md) | The POWER_ACTION enumeration identifies the system power actions that can occur on a computer. |
-
-## Interfaces
-
-| Title   | Description   |
-| ---- |:---- |
-| [IDriverEntry interface](..\wudfddi\nn-wudfddi-idriverentry.md) | The IDriverEntry interface exposes the user-mode driver's main entry and exit points. |
-| [IFileCallbackCleanup interface](..\wudfddi\nn-wudfddi-ifilecallbackcleanup.md) | The framework can notify a driver when the driver should perform a cleanup operation. |
-| [IFileCallbackClose interface](..\wudfddi\nn-wudfddi-ifilecallbackclose.md) | The framework can notify a driver when the driver should perform a close operation. The driver can handle the notification by registering the IFileCallbackClose interface. |
-| [IImpersonateCallback interface](..\wudfddi\nn-wudfddi-iimpersonatecallback.md) | The IImpersonateCallback interface contains a method that handles impersonation. |
-| [IObjectCleanup interface](..\wudfddi\nn-wudfddi-iobjectcleanup.md) | Any driver that stores a reference-counted COM interface to a WDF object must support the IObjectCleanup interface to prevent interface leakage. Note that drivers, in general, are not required to hold references to WDF objects. |
-| [IPnpCallback interface](..\wudfddi\nn-wudfddi-ipnpcallback.md) | The IPnpCallback interface is a Plug and Play (PnP) and power management (PM) interface. |
-| [IPnpCallbackHardware interface](..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md) | The IPnpCallbackHardware interface is a Plug and Play (PnP) and power management (PM) interface. |
-| [IPnpCallbackHardware2 interface](..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md) | The IPnpCallbackHardware2 interface exposes callback methods related to hardware. |
-| [IPnpCallbackHardwareInterrupt interface](..\wudfddi\nn-wudfddi-ipnpcallbackhardwareinterrupt.md) | The IPnpCallbackHardwareInterrupt interface supports interrupt-related Plug and Play and power management callback methods. |
-| [IPnpCallbackRemoteInterfaceNotification interface](..\wudfddi\nn-wudfddi-ipnpcallbackremoteinterfacenotification.md) | A driver's IPnpCallbackRemoteInterfaceNotification interface provides a callback function that the framework calls to notify the driver when a device interface becomes available. |
-| [IPnpCallbackSelfManagedIo interface](..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md) | The IPnpCallbackSelfManagedIo interface is a Plug and Play (PnP) and power management (PM) interface. |
-| [IPowerPolicyCallbackWakeFromS0 interface](..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefroms0.md) | A driver's IPowerPolicyCallbackWakeFromS0 interface provides callback functions that the framework calls to notify the driver about wake events. |
-| [IPowerPolicyCallbackWakeFromSx interface](..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefromsx.md) | A driver's IPowerPolicyCallbackWakeFromSx interface provides callback functions that the framework calls to notify the driver about wake events. These events are related to a device's ability to wake both itself and the system from a low-power state. |
-| [IQueueCallbackCreate interface](..\wudfddi\nn-wudfddi-iqueuecallbackcreate.md) | An I/O queue notifies a driver when an open file request is available for the driver. |
-| [IQueueCallbackDefaultIoHandler interface](..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohandler.md) | The IQueueCallbackDefaultIoHandler interface contains a method that handles I/O requests that no other method is registered to handle. |
-| [IQueueCallbackDeviceIoControl interface](..\wudfddi\nn-wudfddi-iqueuecallbackdeviceiocontrol.md) | An I/O queue object notifies a driver when a device I/O control request is available for the driver. |
-| [IQueueCallbackIoCanceledOnQueue interface](..\wudfddi\nn-wudfddi-iqueuecallbackiocanceledonqueue.md) | The IQueueCallbackIoCanceledOnQueue interface is optional. Your driver can provide this interface if you want UMDF to notify the driver when an I/O request is canceled while it is in the driver's I/O queue. |
-| [IQueueCallbackIoResume interface](..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md) | The IQueueCallbackIoResume interface contains a method that resumes the processing of an I/O request from a queue. |
-| [IQueueCallbackIoStop interface](..\wudfddi\nn-wudfddi-iqueuecallbackiostop.md) | The IQueueCallbackIoStop interface contains a method that stops the processing of an I/O request from a queue. |
-| [IQueueCallbackRead interface](..\wudfddi\nn-wudfddi-iqueuecallbackread.md) | An I/O queue notifies a driver when a read request is available for the driver. |
-| [IQueueCallbackStateChange interface](..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md) | An I/O queue object raises an event when it changes state. A driver can consume the event by registering the IQueueCallbackStateChange interface. |
-| [IQueueCallbackWrite interface](..\wudfddi\nn-wudfddi-iqueuecallbackwrite.md) | An I/O queue object notifies a driver when a write request is available for the driver. |
-| [IRemoteInterfaceCallbackEvent interface](..\wudfddi\nn-wudfddi-iremoteinterfacecallbackevent.md) | The IRemoteInterfaceCallbackEvent interface provides a callback function that the framework calls to notify the driver about device events that are associated with a device interface. |
-| [IRemoteInterfaceCallbackRemoval interface](..\wudfddi\nn-wudfddi-iremoteinterfacecallbackremoval.md) | The IRemoteInterfaceCallbackRemoval provides a callback function that the framework calls to notify the driver about the removal of a device interface. |
-| [IRemoteTargetCallbackRemoval interface](..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md) | The IRemoteTargetCallbackRemoval interface provides callback functions that the framework calls to notify the driver about events that are associated with the removal of a remote I/O target. |
-| [IRequestCallbackCancel interface](..\wudfddi\nn-wudfddi-irequestcallbackcancel.md) | A driver is notified when an I/O request that the driver is currently processing is to be canceled. |
-| [IRequestCallbackRequestCompletion interface](..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md) | A driver implements the IRequestCallbackRequestCompletion interface to complete a request object. |
-| [IUsbTargetPipeContinuousReaderCallbackReadComplete interface](..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md) | IUsbTargetPipeContinuousReaderCallbackReadComplete is a driver-supplied interface. |
-| [IUsbTargetPipeContinuousReaderCallbackReadersFailed interface](..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed.md) | IUsbTargetPipeContinuousReaderCallbackReadersFailed is a driver-supplied interface. |
-| [IWDFCmResourceList interface](..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md) | This interface represents a list of hardware resources for a device. |
-| [IWDFDevice interface](..\wudfddi\nn-wudfddi-iwdfdevice.md) | The IWDFDevice interface exposes a device object, which is a representation of a device on the system. |
-| [IWDFDevice2 interface](..\wudfddi\nn-wudfddi-iwdfdevice2.md) | Drivers obtain the IWDFDevice2 interface by calling IWDFDevice |
-| [IWDFDevice3 interface](..\wudfddi\nn-wudfddi-iwdfdevice3.md) | To obtain the IWDFDevice3 interface, drivers call IWDFDevice |
-| [IWDFDeviceInitialize interface](..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md) | The IWDFDeviceInitialize interface is a helper interface that the framework supplies as an input parameter to the driver's IDriverEntry |
-| [IWDFDeviceInitialize2 interface](..\wudfddi\nn-wudfddi-iwdfdeviceinitialize2.md) | The IWDFDeviceInitialize2 interface is a helper interface that allows a driver to specify a preferred buffer retrieval mode and buffer access method. |
-| [IWDFDriver interface](..\wudfddi\nn-wudfddi-iwdfdriver.md) | The IWDFDriver interface exposes the framework driver object that represents the driver image that is loaded in the host process. |
-| [IWDFDriverCreatedFile interface](..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md) | The IWDFDriverCreatedFile interface exposes a UMDF driver-created-file object for the driver to use. |
-| [IWDFFile interface](..\wudfddi\nn-wudfddi-iwdffile.md) | The IWDFFile interface exposes the file object that represents the HANDLE that is returned by the Microsoft Win32 CreateFile function. |
-| [IWDFFile2 interface](..\wudfddi\nn-wudfddi-iwdffile2.md) | Drivers obtain the IWDFFile2 interface by calling IWDFFile |
-| [IWDFFile3 interface](..\wudfddi\nn-wudfddi-iwdffile3.md) | Drivers obtain the IWDFFile3 interface by calling IWDFFile |
-| [IWDFFileHandleTargetFactory interface](..\wudfddi\nn-wudfddi-iwdffilehandletargetfactory.md) | The IWDFFileHandleTargetFactory interface is a factory interface that is used to create a file-handle-based target device object. |
-| [IWDFInterrupt interface](..\wudfddi\nn-wudfddi-iwdfinterrupt.md) | This interface exposes an interrupt object. |
-| [IWDFIoQueue interface](..\wudfddi\nn-wudfddi-iwdfioqueue.md) | The IWDFIoQueue interface exposes an I/O queue object. |
-| [IWDFIoRequest interface](..\wudfddi\nn-wudfddi-iwdfiorequest.md) | The IWDFIoRequest interface exposes an I/O request object. |
-| [IWDFIoRequest2 interface](..\wudfddi\nn-wudfddi-iwdfiorequest2.md) | To obtain the IWDFIoRequest2 interface, drivers call IWDFIoRequest |
-| [IWDFIoRequest3 interface](..\wudfddi\nn-wudfddi-iwdfiorequest3.md) | To obtain the IWDFIoRequest3 interface, drivers call IWDFIoRequest |
-| [IWDFIoRequestCompletionParams interface](..\wudfddi\nn-wudfddi-iwdfiorequestcompletionparams.md) | The IWDFIoRequestCompletionParams interface exposes methods that drivers can use to obtain completion information about an I/O request. Drivers can call these methods after a synchronous or asynchronous I/O operation completes. |
-| [IWDFIoTarget interface](..\wudfddi\nn-wudfddi-iwdfiotarget.md) | The IWDFIoTarget interface exposes the I/O target object that typically represents a lower driver in the stack. |
-| [IWDFIoTarget2 interface](..\wudfddi\nn-wudfddi-iwdfiotarget2.md) | To obtain the IWDFIoTarget2 interface, drivers call IWDFIoTarget |
-| [IWDFIoTargetStateManagement interface](..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md) | The IWDFIoTargetStateManagement interface exposes methods that manage and monitor the state of an I/O target object. |
-| [IWDFMemory interface](..\wudfddi\nn-wudfddi-iwdfmemory.md) | The IWDFMemory interface exposes the framework memory object that provides access to a memory block. |
-| [IWDFNamedPropertyStore interface](..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md) | The IWDFNamedPropertyStore interface exposes a property-store object. |
-| [IWDFNamedPropertyStore2 interface](..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md) | Drivers obtain the IWDFNamedPropertyStore2 interface by calling IWDFPropertyStoreFactory |
-| [IWDFObject interface](..\wudfddi\nn-wudfddi-iwdfobject.md) | The IWDFObject interface exposes the framework base object that provides the basic functionality common across all framework object types. All framework objects are derived from this root object. |
-| [IWDFPropertyStoreFactory interface](..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md) | The IWDFPropertyStoreFactory interface is a factory interface that is used to create a property store interface. |
-| [IWDFRemoteInterface interface](..\wudfddi\nn-wudfddi-iwdfremoteinterface.md) | UMDF drivers receive a pointer to this interface by calling the IWDFDevice2 |
-| [IWDFRemoteInterfaceInitialize interface](..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md) | UMDF-based drivers receive the IWDFRemoteInterfaceInitialize interface as input to an IPnpCallbackRemoteInterfaceNotification |
-| [IWDFRemoteTarget interface](..\wudfddi\nn-wudfddi-iwdfremotetarget.md) | To obtain the IWDFRemoteTarget interface, drivers call IWDFDevice2 |
-| [IWDFRequestCompletionParams interface](..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md) | The IWDFRequestCompletionParams interface exposes methods that drivers can use to obtain completion information about an I/O request. Drivers can call these methods after a synchronous or an asynchronous I/O operation completes. |
-| [IWDFUnifiedPropertyStore interface](..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md) | The IWDFUnifiedPropertyStore interface exposes a unified property store. |
-| [IWDFUnifiedPropertyStoreFactory interface](..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md) | The IWDFUnifiedPropertyStoreFactory interface is a factory interface that is used to create a unified property store interface. |
-| [IWDFUsbInterface interface](..\wudfusb\nn-wudfusb-iwdfusbinterface.md) | The IWDFUsbInterface interface exposes a USB interface that a USB device exposes. |
-| [IWDFUsbRequestCompletionParams interface](..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md) | The IWDFUsbRequestCompletionParams interface exposes the parameters object for the completion of a USB request object. The parameters object is primarily required for asynchronous I/O and layered drivers. |
-| [IWDFUsbTargetDevice interface](..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md) | The IWDFUsbTargetDevice interface exposes a USB device I/O target object. |
-| [IWDFUsbTargetFactory interface](..\wudfusb\nn-wudfusb-iwdfusbtargetfactory.md) | The IWDFUsbTargetFactory interface is a factory interface that is used to create a USB target device object. |
-| [IWDFUsbTargetPipe interface](..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md) | The IWDFUsbTargetPipe interface exposes a USB pipe (endpoint), which is also an I/O target. |
-| [IWDFUsbTargetPipe2 interface](..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md) | The IWDFUsbTargetPipe2 interface exposes a USB pipe (endpoint), which is also an I/O target. |
-| [IWDFWorkItem interface](..\wudfddi\nn-wudfddi-iwdfworkitem.md) | This interface exposes a work item object. |
-
-## Macros
-
-| Title   | Description   |
-| ---- |:---- |
-| [WDF_GET_CONTEXT_TYPE_INFO macro](..\wdfobject\nf-wdfobject-wdf_get_context_type_info.md) | This macro is reserved for internal use only. |
-| [WDF_TYPE_NAME_POINTER_TYPE macro](..\wdfobject\nf-wdfobject-wdf_type_name_pointer_type.md) | This macro is reserved for internal use only. |
-| [WDF_TYPE_NAME_TO_TYPE_INFO macro](..\wdfobject\nf-wdfobject-wdf_type_name_to_type_info.md) | This macro is reserved for internal use only. |
-| [WdfDeviceResumeIdle macro](..\wdfdevice\nf-wdfdevice-wdfdeviceresumeidle.md) | The WdfDeviceResumeIdle method informs the framework that the specified device is not in use and can be placed in a device low-power state if it remains idle. |
-| [WdfDeviceStopIdle macro](..\wdfdevice\nf-wdfdevice-wdfdevicestopidle.md) | The WdfDeviceStopIdle method informs the framework that the specified device must be placed in its working (D0) power state. |
-
-## Methods
-
-| Title   | Description   |
-| ---- |:---- |
-| [IDriverEntry::OnDeinitialize method](..\wudfddi\nf-wudfddi-idriverentry-ondeinitialize.md) | The OnDeinitialize method performs any operations that are necessary before a system unloads a driver. |
-| [IDriverEntry::OnDeviceAdd method](..\wudfddi\nf-wudfddi-idriverentry-ondeviceadd.md) | The OnDeviceAdd method adds a new device to a system. |
-| [IDriverEntry::OnInitialize method](..\wudfddi\nf-wudfddi-idriverentry-oninitialize.md) | The OnInitialize method performs any operations that are necessary to initialize a driver. |
-| [IFileCallbackCleanup::OnCleanupFile method](..\wudfddi\nf-wudfddi-ifilecallbackcleanup-oncleanupfile.md) | The OnCleanupFile method cancels all I/O requests that a driver has pending in the framework queue. |
-| [IFileCallbackClose::OnCloseFile method](..\wudfddi\nf-wudfddi-ifilecallbackclose-onclosefile.md) | The OnCloseFile method is called when the last reference count on a file object goes down to zero and before the file object is released. |
-| [IImpersonateCallback::OnImpersonate method](..\wudfddi\nf-wudfddi-iimpersonatecallback-onimpersonate.md) | The OnImpersonate method handles impersonation. |
-| [IObjectCleanup::OnCleanup method](..\wudfddi\nf-wudfddi-iobjectcleanup-oncleanup.md) | The OnCleanup method releases any references to a WDF object to prevent interface leakage. |
-| [IPnpCallback::OnD0Entry method](..\wudfddi\nf-wudfddi-ipnpcallback-ond0entry.md) | The OnD0Entry method notifies a driver when a device enters the D0 power state so that the driver can perform necessary operations, such as enabling the device. |
-| [IPnpCallback::OnD0Exit method](..\wudfddi\nf-wudfddi-ipnpcallback-ond0exit.md) | The OnD0Exit method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations, such as disabling the device. |
-| [IPnpCallback::OnQueryRemove method](..\wudfddi\nf-wudfddi-ipnpcallback-onqueryremove.md) | The OnQueryRemove method notifies a driver before a device is removed from a computer. |
-| [IPnpCallback::OnQueryStop method](..\wudfddi\nf-wudfddi-ipnpcallback-onquerystop.md) | The OnQueryStop method notifies a driver before a device is stopped. |
-| [IPnpCallback::OnSurpriseRemoval method](..\wudfddi\nf-wudfddi-ipnpcallback-onsurpriseremoval.md) | The OnSurpriseRemoval method notifies a driver after a device is removed from a computer unexpectedly so that the driver can perform necessary operations. |
-| [IPnpCallbackHardware2::OnPrepareHardware method](..\wudfddi\nf-wudfddi-ipnpcallbackhardware2-onpreparehardware.md) | The OnPrepareHardware method performs any operations that are needed to make a device accessible to the driver. |
-| [IPnpCallbackHardware2::OnReleaseHardware method](..\wudfddi\nf-wudfddi-ipnpcallbackhardware2-onreleasehardware.md) | The OnReleaseHardware method performs operations that are needed when a device is no longer accessible. |
-| [IPnpCallbackHardware::OnPrepareHardware method](..\wudfddi\nf-wudfddi-ipnpcallbackhardware-onpreparehardware.md) | The OnPrepareHardware method notifies a driver to make the specified hardware accessible. |
-| [IPnpCallbackHardware::OnReleaseHardware method](..\wudfddi\nf-wudfddi-ipnpcallbackhardware-onreleasehardware.md) | The OnReleaseHardware method notifies a driver to perform operations that are necessary when the specified hardware is no longer accessible. |
-| [IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled method](..\wudfddi\nf-wudfddi-ipnpcallbackhardwareinterrupt-ond0entrypostinterruptsenabled.md) | A driver's OnD0EntryPostInterruptsEnabled event callback function performs device-specific operations that are required when the driver enables the device's hardware interrupts. |
-| [IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled method](..\wudfddi\nf-wudfddi-ipnpcallbackhardwareinterrupt-ond0exitpreinterruptsdisabled.md) | A driver's OnD0ExitPreInterruptsDisabled event callback function performs device-specific operations that are required before the driver disables the device's hardware interrupts. |
-| [IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival method](..\wudfddi\nf-wudfddi-ipnpcallbackremoteinterfacenotification-onremoteinterfacearrival.md) | A driver's OnRemoteInterfaceArrival event callback function informs the driver when a device interface is available. |
-| [IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup method](..\wudfddi\nf-wudfddi-ipnpcallbackselfmanagedio-onselfmanagediocleanup.md) | The OnSelfManagedIoCleanup method releases memory for a device's self-managed I/O operations, after the device is removed. |
-| [IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush method](..\wudfddi\nf-wudfddi-ipnpcallbackselfmanagedio-onselfmanagedioflush.md) | The OnSelfManagedIoFlush method flushes the device for a device's self-managed I/O operations. |
-| [IPnpCallbackSelfManagedIo::OnSelfManagedIoInit method](..\wudfddi\nf-wudfddi-ipnpcallbackselfmanagedio-onselfmanagedioinit.md) | The OnSelfManagedIoInit method initializes a device's self-managed I/O operations. |
-| [IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart method](..\wudfddi\nf-wudfddi-ipnpcallbackselfmanagedio-onselfmanagediorestart.md) | The OnSelfManagedIoRestart method restarts a device's self-managed I/O operations. |
-| [IPnpCallbackSelfManagedIo::OnSelfManagedIoStop method](..\wudfddi\nf-wudfddi-ipnpcallbackselfmanagedio-onselfmanagediostop.md) | The OnSelfManagedIoStop method is not used in the current version of the UMDF. |
-| [IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend method](..\wudfddi\nf-wudfddi-ipnpcallbackselfmanagedio-onselfmanagediosuspend.md) | The OnSelfManagedIoSuspend method suspends a device's self-managed I/O operations. |
-| [IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0 method](..\wudfddi\nf-wudfddi-ipowerpolicycallbackwakefroms0-onarmwakefroms0.md) | A driver's OnArmWakeFromS0 callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0). |
-| [IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0 method](..\wudfddi\nf-wudfddi-ipowerpolicycallbackwakefroms0-ondisarmwakefroms0.md) | A driver's OnDisarmWakeFromS0 event callback function disarms (that is, disables) a device's ability to trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0). |
-| [IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered method](..\wudfddi\nf-wudfddi-ipowerpolicycallbackwakefroms0-onwakefroms0triggered.md) | A driver's OnWakeFromS0Triggered event callback function informs the driver that its device, which had previously entered a low-power device state while the system power state remained at S0, might have triggered a wake signal. |
-| [IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx method](..\wudfddi\nf-wudfddi-ipowerpolicycallbackwakefromsx-onarmwakefromsx.md) | A driver's OnArmWakeFromSx event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state. |
-| [IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx method](..\wudfddi\nf-wudfddi-ipowerpolicycallbackwakefromsx-ondisarmwakefromsx.md) | A driver's OnDisarmWakeFromSx event callback function disarms (that is, disables) a device's ability to trigger a wake signal while the device and system are in low-power states. |
-| [IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered method](..\wudfddi\nf-wudfddi-ipowerpolicycallbackwakefromsx-onwakefromsxtriggered.md) | A driver's OnWakeFromSxTriggered event callback function informs the driver that its device, which had previously entered a low-power device state because system power was reduced, might have triggered a wake signal. |
-| [IQueueCallbackCreate::OnCreateFile method](..\wudfddi\nf-wudfddi-iqueuecallbackcreate-oncreatefile.md) | The OnCreateFile method is called to handle an open file request when an application opens a device through the Microsoft Win32 CreateFile function. |
-| [IQueueCallbackDefaultIoHandler::OnDefaultIoHandler method](..\wudfddi\nf-wudfddi-iqueuecallbackdefaultiohandler-ondefaultiohandler.md) | The OnDefaultIoHandler method handles I/O requests that no other method is registered to handle. |
-| [IQueueCallbackDeviceIoControl::OnDeviceIoControl method](..\wudfddi\nf-wudfddi-iqueuecallbackdeviceiocontrol-ondeviceiocontrol.md) | The OnDeviceIoControl method is called to handle a device I/O control request when an application performs a specific operation on a device through the Microsoft Win32 OnDeviceIoControl function. |
-| [IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue method](..\wudfddi\nf-wudfddi-iqueuecallbackiocanceledonqueue-oniocanceledonqueue.md) | A driver's OnIoCanceledOnQueue event callback function informs the driver that an I/O request was canceled while it was in an I/O queue. |
-| [IQueueCallbackIoResume::OnIoResume method](..\wudfddi\nf-wudfddi-iqueuecallbackioresume-onioresume.md) | The OnIoResume method resumes the processing of the specified I/O request from the specified queue. |
-| [IQueueCallbackIoStop::OnIoStop method](..\wudfddi\nf-wudfddi-iqueuecallbackiostop-oniostop.md) | The OnIoStop callback function stops the processing of the specified I/O request from the specified queue. |
-| [IQueueCallbackRead::OnRead method](..\wudfddi\nf-wudfddi-iqueuecallbackread-onread.md) | The OnRead method is called to handle a read request when an application reads information from a device through the Microsoft Win32 ReadFile or ReadFileEx function. |
-| [IQueueCallbackStateChange::OnStateChange method](..\wudfddi\nf-wudfddi-iqueuecallbackstatechange-onstatechange.md) | The OnStateChange method is called when the state of the I/O queue object changes. |
-| [IQueueCallbackWrite::OnWrite method](..\wudfddi\nf-wudfddi-iqueuecallbackwrite-onwrite.md) | The OnWrite method is called to handle a write request when an application writes information to a device through the Microsoft Win32 WriteFile or WriteFileEx function. |
-| [IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent method](..\wudfddi\nf-wudfddi-iremoteinterfacecallbackevent-onremoteinterfaceevent.md) | A UMDF-based driver's OnRemoteInterfaceEvent event callback function handles device events that are associated with a device interface. |
-| [IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval method](..\wudfddi\nf-wudfddi-iremoteinterfacecallbackremoval-onremoteinterfaceremoval.md) | A UMDF-based driver's OnRemoteInterfaceRemoval event callback function notifies the driver that it cannot use a device interface because the interface has been removed. |
-| [IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove method](..\wudfddi\nf-wudfddi-iremotetargetcallbackremoval-onremotetargetqueryremove.md) | A UMDF-based driver's OnRemoteTargetQueryRemove event callback function determines whether a remote I/O target's device can be stopped and removed. |
-| [IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled method](..\wudfddi\nf-wudfddi-iremotetargetcallbackremoval-onremotetargetremovecanceled.md) | A UMDF-based driver's OnRemoteTargetRemoveCanceled event callback function performs operations that are necessary when the operating system cancels the removal of a remote I/O target's device. |
-| [IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete method](..\wudfddi\nf-wudfddi-iremotetargetcallbackremoval-onremotetargetremovecomplete.md) | A UMDF-based driver's OnRemoteTargetRemoveComplete event callback function performs operations that are necessary after the operating system completes the removal of a remote I/O target's device. |
-| [IRequestCallbackCancel::OnCancel method](..\wudfddi\nf-wudfddi-irequestcallbackcancel-oncancel.md) | The OnCancel method is called when an application cancels an I/O operation through the Microsoft Win32 CancelIo, CancelIoEx, or CancelSynchronousIo function. |
-| [IRequestCallbackRequestCompletion::OnCompletion method](..\wudfddi\nf-wudfddi-irequestcallbackrequestcompletion-oncompletion.md) | The OnCompletion method completes the specified request. |
-| [IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion method](..\wudfusb\nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete-onreadercompletion.md) | A driver's OnReaderCompletion event callback function informs the driver that a continuous reader has successfully completed a read request. |
-| [IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure method](..\wudfusb\nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed-onreaderfailure.md) | A driver's OnReaderFailure event callback function informs the driver that a continuous reader has reported an error while processing a read request. |
-| [IWDFCmResourceList::GetCount method](..\wudfddi\nf-wudfddi-iwdfcmresourcelist-getcount.md) | The GetCount method returns the number of resource descriptors that are contained in this interface's resource list. |
-| [IWDFCmResourceList::GetDescriptor method](..\wudfddi\nf-wudfddi-iwdfcmresourcelist-getdescriptor.md) | The GetDescriptor method returns a pointer to a resource descriptor that is contained in this interface's resource list. |
-| [IWDFDevice2::AssignS0IdleSettings method](..\wudfddi\nf-wudfddi-iwdfdevice2-assigns0idlesettings.md) | The AssignS0IdleSettings method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state. |
-| [IWDFDevice2::AssignSxWakeSettings method](..\wudfddi\nf-wudfddi-iwdfdevice2-assignsxwakesettings.md) | The AssignSxWakeSettings method provides driver-supplied information about a device's ability to trigger a wake signal while both the device and the system are in a low-power state. |
-| [IWDFDevice2::CreateRemoteInterface method](..\wudfddi\nf-wudfddi-iwdfdevice2-createremoteinterface.md) | The CreateRemoteInterface method creates a remote interface object that represents a device interface. |
-| [IWDFDevice2::CreateRemoteTarget method](..\wudfddi\nf-wudfddi-iwdfdevice2-createremotetarget.md) | The CreateRemoteTarget method creates a remote target object that represents a remote I/O target. |
-| [IWDFDevice2::CreateSymbolicLinkWithReferenceString method](..\wudfddi\nf-wudfddi-iwdfdevice2-createsymboliclinkwithreferencestring.md) | TheCreateSymbolicLinkWithReferenceString method creates a symbolic link name, and optionally, a reference string, for a device. |
-| [IWDFDevice2::GetDeviceStackIoTypePreference method](..\wudfddi\nf-wudfddi-iwdfdevice2-getdevicestackiotypepreference.md) | The GetDeviceStackIoTypePreference method retrieves the buffer access methods that the framework is using for a device. |
-| [IWDFDevice2::GetSystemPowerAction method](..\wudfddi\nf-wudfddi-iwdfdevice2-getsystempoweraction.md) | The GetSystemPowerAction method returns the system power action, if any, that is currently occurring for the computer. |
-| [IWDFDevice2::RegisterRemoteInterfaceNotification method](..\wudfddi\nf-wudfddi-iwdfdevice2-registerremoteinterfacenotification.md) | The RegisterRemoteInterfaceNotification method registers a driver to receive a notification when a specified device interface becomes available. |
-| [IWDFDevice2::ResumeIdle method](..\wudfddi\nf-wudfddi-iwdfdevice2-resumeidle.md) | The ResumeIdle method informs the framework that the device is not in use and can be placed in a device low-power state if it remains idle. |
-| [IWDFDevice2::StopIdle method](..\wudfddi\nf-wudfddi-iwdfdevice2-stopidle.md) | The StopIdle method informs the framework that the device must be placed in its working (D0) power state. |
-| [IWDFDevice3::AssignS0IdleSettingsEx method](..\wudfddi\nf-wudfddi-iwdfdevice3-assigns0idlesettingsex.md) | The AssignS0IdleSettingsEx method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state. |
-| [IWDFDevice3::CreateInterrupt method](..\wudfddi\nf-wudfddi-iwdfdevice3-createinterrupt.md) | The CreateInterrupt method creates a framework interrupt object. |
-| [IWDFDevice3::CreateWorkItem method](..\wudfddi\nf-wudfddi-iwdfdevice3-createworkitem.md) | The CreateWorkItem method creates a framework work-item object, which can subsequently be added to the framework’s work-item queue. |
-| [IWDFDevice3::GetHardwareRegisterMappedAddress method](..\wudfddi\nf-wudfddi-iwdfdevice3-gethardwareregistermappedaddress.md) | A driver calls GetHardwareRegisterMappedAddress to get the user-mode mapped address of the memory resource it earlier mapped using MapIoSpace. |
-| [IWDFDevice3::MapIoSpace method](..\wudfddi\nf-wudfddi-iwdfdevice3-mapiospace.md) | The MapIoSpace method maps the given physical address range to system address space and returns a pseudo base address. |
-| [IWDFDevice3::ReadFromHardware method](..\wudfddi\nf-wudfddi-iwdfdevice3-readfromhardware.md) | The ReadFromHardware method is used internally by the framework. Do not use. |
-| [IWDFDevice3::UnmapIoSpace method](..\wudfddi\nf-wudfddi-iwdfdevice3-unmapiospace.md) | The UnmapIoSpace method unmaps a specified range of physical addresses previously mapped by MapIoSpace method. |
-| [IWDFDevice3::WriteToHardware method](..\wudfddi\nf-wudfddi-iwdfdevice3-writetohardware.md) | The WriteToHardware method is used internally by the framework. Do not use. |
-| [IWDFDevice::AssignDeviceInterfaceState method](..\wudfddi\nf-wudfddi-iwdfdevice-assigndeviceinterfacestate.md) | The AssignDeviceInterfaceState method enables or disables the specified device interface instance for a device. |
-| [IWDFDevice::CommitPnpState method](..\wudfddi\nf-wudfddi-iwdfdevice-commitpnpstate.md) | The CommitPnpState method commits the state of the Plug and Play (PnP) property (that is, turns on, turns off, or sets to the default state) that the IWDFDevice |
-| [IWDFDevice::ConfigureRequestDispatching method](..\wudfddi\nf-wudfddi-iwdfdevice-configurerequestdispatching.md) | The ConfigureRequestDispatching method configures the queuing of I/O requests of the specified type to the specified I/O queue. |
-| [IWDFDevice::CreateDeviceInterface method](..\wudfddi\nf-wudfddi-iwdfdevice-createdeviceinterface.md) | The CreateDeviceInterface method creates an instance of a device interface class. |
-| [IWDFDevice::CreateIoQueue method](..\wudfddi\nf-wudfddi-iwdfdevice-createioqueue.md) | The CreateIoQueue method configures the default I/O queue that is associated with a device or creates a secondary I/O queue for the device. |
-| [IWDFDevice::CreateRequest method](..\wudfddi\nf-wudfddi-iwdfdevice-createrequest.md) | The CreateRequest method creates an unformatted request object. |
-| [IWDFDevice::CreateSymbolicLink method](..\wudfddi\nf-wudfddi-iwdfdevice-createsymboliclink.md) | The CreateSymbolicLink method creates a symbolic link for the device. |
-| [IWDFDevice::CreateWdfFile method](..\wudfddi\nf-wudfddi-iwdfdevice-createwdffile.md) | The CreateWdfFile method creates a file object for a driver to use. |
-| [IWDFDevice::GetDefaultIoQueue method](..\wudfddi\nf-wudfddi-iwdfdevice-getdefaultioqueue.md) | The GetDefaultIoQueue method retrieves the interface of the default I/O queue for a device. |
-| [IWDFDevice::GetDefaultIoTarget method](..\wudfddi\nf-wudfddi-iwdfdevice-getdefaultiotarget.md) | The GetDefaultIoTarget method retrieves the interface of the default I/O target for a device instance. |
-| [IWDFDevice::GetDriver method](..\wudfddi\nf-wudfddi-iwdfdevice-getdriver.md) | The GetDriver method retrieves the interface to the parent driver object of a device instance. |
-| [IWDFDevice::GetPnpState method](..\wudfddi\nf-wudfddi-iwdfdevice-getpnpstate.md) | The GetPnpState method determines whether the given Plug and Play (PnP) property of a device is on or off (or set to the default state). |
-| [IWDFDevice::PostEvent method](..\wudfddi\nf-wudfddi-iwdfdevice-postevent.md) | The PostEvent method asynchronously notifies applications that are waiting for the specified event from a driver. |
-| [IWDFDevice::RetrieveDeviceInstanceId method](..\wudfddi\nf-wudfddi-iwdfdevice-retrievedeviceinstanceid.md) | The RetrieveDeviceInstanceId method retrieves the identifier of an instance of a device. |
-| [IWDFDevice::RetrieveDeviceName method](..\wudfddi\nf-wudfddi-iwdfdevice-retrievedevicename.md) | The RetrieveDeviceName method retrieves the name of an underlying kernel-mode device. |
-| [IWDFDevice::RetrieveDevicePropertyStore method](..\wudfddi\nf-wudfddi-iwdfdevice-retrievedevicepropertystore.md) | The RetrieveDevicePropertyStore method retrieves a property store interface that drivers can use to access the registry. |
-| [IWDFDevice::SetPnpState method](..\wudfddi\nf-wudfddi-iwdfdevice-setpnpstate.md) | The SetPnpState method turns on or off (or sets to the default state) the specified Plug and Play (PnP) property of a device. |
-| [IWDFDeviceInitialize2::SetIoTypePreference method](..\wudfddi\nf-wudfddi-iwdfdeviceinitialize2-setiotypepreference.md) | The SetIoTypePreference method specifies your preferences for how UMDF and the driver access the data buffers of a device's I/O requests. |
-| [IWDFDeviceInitialize::AutoForwardCreateCleanupClose method](..\wudfddi\nf-wudfddi-iwdfdeviceinitialize-autoforwardcreatecleanupclose.md) | The AutoForwardCreateCleanupClose method controls when create, cleanup, and close notifications are forwarded to the next lower driver in the device stack. |
-| [IWDFDeviceInitialize::GetPnpCapability method](..\wudfddi\nf-wudfddi-iwdfdeviceinitialize-getpnpcapability.md) | The GetPnpCapability method determines the state of the specified Plug and Play (PnP) capability. |
-| [IWDFDeviceInitialize::RetrieveDeviceInstanceId method](..\wudfddi\nf-wudfddi-iwdfdeviceinitialize-retrievedeviceinstanceid.md) | The RetrieveDeviceInstanceId method retrieves the identifier of an instance of a device. |
-| [IWDFDeviceInitialize::RetrieveDevicePropertyStore method](..\wudfddi\nf-wudfddi-iwdfdeviceinitialize-retrievedevicepropertystore.md) | The RetrieveDevicePropertyStore method retrieves a device property store that clients can read and write device properties through. |
-| [IWDFDeviceInitialize::SetFilter method](..\wudfddi\nf-wudfddi-iwdfdeviceinitialize-setfilter.md) | The SetFilter method sets the property that enables a device as a filter device. |
-| [IWDFDeviceInitialize::SetLockingConstraint method](..\wudfddi\nf-wudfddi-iwdfdeviceinitialize-setlockingconstraint.md) | The SetLockingConstraint method sets the synchronization (or locking) model for callback functions into the driver. |
-| [IWDFDeviceInitialize::SetPnpCapability method](..\wudfddi\nf-wudfddi-iwdfdeviceinitialize-setpnpcapability.md) | The SetPnpCapability method sets the specified Plug and Play (PnP) capability of a device to the specified state. |
-| [IWDFDeviceInitialize::SetPowerPolicyOwnership method](..\wudfddi\nf-wudfddi-iwdfdeviceinitialize-setpowerpolicyownership.md) | The SetPowerPolicyOwnership method sets the ownership of the power policy to a driver or removes ownership from the driver. |
-| [IWDFDriver::CreateDevice method](..\wudfddi\nf-wudfddi-iwdfdriver-createdevice.md) | The CreateDevice method configures and creates a new framework device object. |
-| [IWDFDriver::CreatePreallocatedWdfMemory method](..\wudfddi\nf-wudfddi-iwdfdriver-createpreallocatedwdfmemory.md) | The CreatePreallocatedWdfMemory method creates a framework memory object for the specified buffer. |
-| [IWDFDriver::CreateWdfMemory method](..\wudfddi\nf-wudfddi-iwdfdriver-createwdfmemory.md) | The CreateWdfMemory method creates a framework memory object and allocates, for the memory object, a data buffer of the specified nonzero size. |
-| [IWDFDriver::CreateWdfObject method](..\wudfddi\nf-wudfddi-iwdfdriver-createwdfobject.md) | The CreateWdfObject method creates a custom (or user) WDF object from a parent WDF object. |
-| [IWDFDriver::IsVersionAvailable method](..\wudfddi\nf-wudfddi-iwdfdriver-isversionavailable.md) | The IsVersionAvailable method determines whether the specified version of the framework is available. |
-| [IWDFDriver::RetrieveVersionString method](..\wudfddi\nf-wudfddi-iwdfdriver-retrieveversionstring.md) | The RetrieveVersionString method retrieves the version of the framework. |
-| [IWDFDriverCreatedFile::Close method](..\wudfddi\nf-wudfddi-iwdfdrivercreatedfile-close.md) | The Close method closes an instance of a UMDF driver-created-file object that was created by calling the IWDFDevice |
-| [IWDFFile2::GetRelatedFileObject method](..\wudfddi\nf-wudfddi-iwdffile2-getrelatedfileobject.md) | The GetRelatedFileObject method retrieves the IWDFFile interface of a related file object, which is a file object that has a technology-specific relationship with another file object. |
-| [IWDFFile2::RetrieveCountedFileName method](..\wudfddi\nf-wudfddi-iwdffile2-retrievecountedfilename.md) | The RetrieveCountedFileName method retrieves the full counted file name for a file that is associated with a device. |
-| [IWDFFile3::GetInitiatorProcessId method](..\wudfddi\nf-wudfddi-iwdffile3-getinitiatorprocessid.md) | The GetInitiatorProcessId method retrieves the initiator process ID associated with an IWDFFile interface. |
-| [IWDFFile::GetDevice method](..\wudfddi\nf-wudfddi-iwdffile-getdevice.md) | The GetDevice method returns the interface to the device object that a file object is associated with. |
-| [IWDFFile::RetrieveFileName method](..\wudfddi\nf-wudfddi-iwdffile-retrievefilename.md) | The RetrieveFileName method retrieves the full name of the file that is associated with the underlying kernel-mode device. |
-| [IWDFFileHandleTargetFactory::CreateFileHandleTarget method](..\wudfddi\nf-wudfddi-iwdffilehandletargetfactory-createfilehandletarget.md) | The CreateFileHandleTarget method creates a file-handle-based I/O target object. |
-| [IWDFInterrupt::AcquireInterruptLock method](..\wudfddi\nf-wudfddi-iwdfinterrupt-acquireinterruptlock.md) | The AcquireInterruptLock method begins a code sequence that executes while holding an interrupt object's lock. |
-| [IWDFInterrupt::Disable method](..\wudfddi\nf-wudfddi-iwdfinterrupt-disable.md) | The Disable method disables a specified device interrupt by calling the driver's OnInterruptDisable callback function. |
-| [IWDFInterrupt::Enable method](..\wudfddi\nf-wudfddi-iwdfinterrupt-enable.md) | The Enable method enables a specified device interrupt by calling the driver's OnInterruptEnable callback function. |
-| [IWDFInterrupt::GetDevice method](..\wudfddi\nf-wudfddi-iwdfinterrupt-getdevice.md) | The GetDevice method returns the framework device object interface for this interrupt object. |
-| [IWDFInterrupt::GetInfo method](..\wudfddi\nf-wudfddi-iwdfinterrupt-getinfo.md) | The GetInfo method retrieves information about a specified interrupt. |
-| [IWDFInterrupt::QueueWorkItemForIsr method](..\wudfddi\nf-wudfddi-iwdfinterrupt-queueworkitemforisr.md) | The QueueWorkItemForIsr method queues a work item to process interrupt-related work outside of the interrupt service routine. |
-| [IWDFInterrupt::ReleaseInterruptLock method](..\wudfddi\nf-wudfddi-iwdfinterrupt-releaseinterruptlock.md) | The ReleaseInterruptLock method ends a code sequence that executes while holding an interrupt object's lock. |
-| [IWDFInterrupt::SetExtendedPolicy method](..\wudfddi\nf-wudfddi-iwdfinterrupt-setextendedpolicy.md) | The SetExtendedPolicy method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt. |
-| [IWDFInterrupt::SetPolicy method](..\wudfddi\nf-wudfddi-iwdfinterrupt-setpolicy.md) | The SetPolicy method specifies the interrupt priority, processor affinity, and affinity policy for a specified interrupt. |
-| [IWDFInterrupt::TryToAcquireInterruptLock method](..\wudfddi\nf-wudfddi-iwdfinterrupt-trytoacquireinterruptlock.md) | The TryToAcquireInterruptLock method acquires the interrupt lock if no other thread has already acquired it. |
-| [IWDFIoQueue::ConfigureRequestDispatching method](..\wudfddi\nf-wudfddi-iwdfioqueue-configurerequestdispatching.md) | The ConfigureRequestDispatching method configures the queuing of I/O requests of the given type. |
-| [IWDFIoQueue::Drain method](..\wudfddi\nf-wudfddi-iwdfioqueue-drain.md) | The Drain method directs the queue to reject new incoming I/O requests and allow already-queued requests to be delivered to the driver for processing. |
-| [IWDFIoQueue::DrainSynchronously method](..\wudfddi\nf-wudfddi-iwdfioqueue-drainsynchronously.md) | The DrainSynchronously method directs the queue to reject new incoming I/O requests and allows already-queued requests to be delivered to the driver for processing. This method returns after all requests are completed or canceled. |
-| [IWDFIoQueue::GetDevice method](..\wudfddi\nf-wudfddi-iwdfioqueue-getdevice.md) | The GetDevice method retrieves the interface to the device that owns the I/O queue. |
-| [IWDFIoQueue::GetState method](..\wudfddi\nf-wudfddi-iwdfioqueue-getstate.md) | The GetState method retrieves the state of an I/O queue. |
-| [IWDFIoQueue::Purge method](..\wudfddi\nf-wudfddi-iwdfioqueue-purge.md) | The Purge method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests. |
-| [IWDFIoQueue::PurgeSynchronously method](..\wudfddi\nf-wudfddi-iwdfioqueue-purgesynchronously.md) | The PurgeSynchronously method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests. The method returns after all outstanding requests are canceled. |
-| [IWDFIoQueue::RetrieveNextRequest method](..\wudfddi\nf-wudfddi-iwdfioqueue-retrievenextrequest.md) | The RetrieveNextRequest method retrieves the next I/O request from an I/O queue. |
-| [IWDFIoQueue::RetrieveNextRequestByFileObject method](..\wudfddi\nf-wudfddi-iwdfioqueue-retrievenextrequestbyfileobject.md) | The RetrieveNextRequestByFileObject method retrieves from an I/O queue the next I/O request whose file object matches the specified file object. |
-| [IWDFIoQueue::Start method](..\wudfddi\nf-wudfddi-iwdfioqueue-start.md) | The Start method enables an I/O queue to start receiving new I/O requests and delivering them to a driver. |
-| [IWDFIoQueue::Stop method](..\wudfddi\nf-wudfddi-iwdfioqueue-stop.md) | The Stop method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. |
-| [IWDFIoQueue::StopSynchronously method](..\wudfddi\nf-wudfddi-iwdfioqueue-stopsynchronously.md) | The StopSynchronously method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed. |
-| [IWDFIoRequest2::GetCreateParametersEx method](..\wudfddi\nf-wudfddi-iwdfiorequest2-getcreateparametersex.md) | The GetCreateParametersEx method retrieves file creation parameters that are associated with a file that is being created or opened. |
-| [IWDFIoRequest2::GetEffectiveIoType method](..\wudfddi\nf-wudfddi-iwdfiorequest2-geteffectiveiotype.md) | The GetEffectiveIoType method returns the buffer access method that UMDF is using for the data buffers of the I/O request that the IWDFIoRequest2 interface represents. |
-| [IWDFIoRequest2::GetQueryInformationParameters method](..\wudfddi\nf-wudfddi-iwdfiorequest2-getqueryinformationparameters.md) | The GetQueryInformationParameters method retrieves parameters that are associated with a WdfRequestQueryInformation-typed I/O request. |
-| [IWDFIoRequest2::GetRequestorMode method](..\wudfddi\nf-wudfddi-iwdfiorequest2-getrequestormode.md) | The GetRequestorMode method indicates whether an I/O request came from a kernel-mode driver or a user-mode component (either an application or a user-mode driver). |
-| [IWDFIoRequest2::GetSetInformationParameters method](..\wudfddi\nf-wudfddi-iwdfiorequest2-getsetinformationparameters.md) | The GetSetInformationParameters method retrieves parameters that are associated with a WdfRequestSetInformation-typed I/O request. |
-| [IWDFIoRequest2::GetStatus method](..\wudfddi\nf-wudfddi-iwdfiorequest2-getstatus.md) | The GetStatus method returns the status of an I/O request. |
-| [IWDFIoRequest2::IsCanceled method](..\wudfddi\nf-wudfddi-iwdfiorequest2-iscanceled.md) | The IsCanceled method determines whether the I/O manager has attempted to cancel an I/O request. |
-| [IWDFIoRequest2::IsFromUserModeDriver method](..\wudfddi\nf-wudfddi-iwdfiorequest2-isfromusermodedriver.md) | The IsFromUserModeDriver method indicates whether an I/O request came from a user-mode driver or an application. |
-| [IWDFIoRequest2::Requeue method](..\wudfddi\nf-wudfddi-iwdfiorequest2-requeue.md) | The Requeue method returns an I/O request to the head of the I/O queue from which it was delivered to the driver. |
-| [IWDFIoRequest2::RetrieveInputBuffer method](..\wudfddi\nf-wudfddi-iwdfiorequest2-retrieveinputbuffer.md) | The RequestRetrieveInputBuffer method retrieves an I/O request's input buffer. |
-| [IWDFIoRequest2::RetrieveInputMemory method](..\wudfddi\nf-wudfddi-iwdfiorequest2-retrieveinputmemory.md) | The RetrieveInputMemory method retrieves the IWDFMemory interface of a framework memory object that represents an I/O request's input buffer. |
-| [IWDFIoRequest2::RetrieveOutputBuffer method](..\wudfddi\nf-wudfddi-iwdfiorequest2-retrieveoutputbuffer.md) | The RequestRetrieveOutputBuffer method retrieves an I/O request's output buffer. |
-| [IWDFIoRequest2::RetrieveOutputMemory method](..\wudfddi\nf-wudfddi-iwdfiorequest2-retrieveoutputmemory.md) | The RetrieveOutputMemory method retrieves the IWDFMemory interface of a framework memory object that represents an I/O request's output buffer. |
-| [IWDFIoRequest2::Reuse method](..\wudfddi\nf-wudfddi-iwdfiorequest2-reuse.md) | The Reuse method reinitializes a framework request object so that it can be reused. |
-| [IWDFIoRequest2::StopAcknowledge method](..\wudfddi\nf-wudfddi-iwdfiorequest2-stopacknowledge.md) | The StopAcknowledge method informs the framework that the driver has stopped processing a specified I/O request. |
-| [IWDFIoRequest3::GetUserModeDriverInitiatedIo method](..\wudfddi\nf-wudfddi-iwdfiorequest3-getusermodedriverinitiatedio.md) | The GetUserModeDriverInitiatedIo method determines whether an I/O request is marked as initiated by a UMDF driver. |
-| [IWDFIoRequest3::RetrieveActivityId method](..\wudfddi\nf-wudfddi-iwdfiorequest3-retrieveactivityid.md) | The RetrieveActivityId method retrieves the current activity identifier associated with an I/O request. |
-| [IWDFIoRequest3::SetActivityId method](..\wudfddi\nf-wudfddi-iwdfiorequest3-setactivityid.md) | The SetActivityId method associates an activity identifier with an I/O request. |
-| [IWDFIoRequest3::SetUserModeDriverInitiatedIo method](..\wudfddi\nf-wudfddi-iwdfiorequest3-setusermodedriverinitiatedio.md) | The SetUserModeDriverInitiatedIo method indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver. |
-| [IWDFIoRequest::CancelSentRequest method](..\wudfddi\nf-wudfddi-iwdfiorequest-cancelsentrequest.md) | The CancelSentRequest method attempts to cancel the I/O request that the driver previously submitted to an I/O target. |
-| [IWDFIoRequest::Complete method](..\wudfddi\nf-wudfddi-iwdfiorequest-complete.md) | The Complete method completes an I/O request. |
-| [IWDFIoRequest::CompleteWithInformation method](..\wudfddi\nf-wudfddi-iwdfiorequest-completewithinformation.md) | The CompleteWithInformation method completes a request with the supplied information. |
-| [IWDFIoRequest::FormatUsingCurrentType method](..\wudfddi\nf-wudfddi-iwdfiorequest-formatusingcurrenttype.md) | The FormatUsingCurrentType method formats an I/O request so that the driver can forward it, unmodified, to the next-lower driver. |
-| [IWDFIoRequest::ForwardToIoQueue method](..\wudfddi\nf-wudfddi-iwdfiorequest-forwardtoioqueue.md) | The ForwardToIoQueue method forwards (that is, requeues) an I/O request to one of the calling driver's I/O queues. |
-| [IWDFIoRequest::GetCompletionParams method](..\wudfddi\nf-wudfddi-iwdfiorequest-getcompletionparams.md) | The GetCompletionParams method retrieves the parameters object for the completion of an I/O request object. |
-| [IWDFIoRequest::GetCreateParameters method](..\wudfddi\nf-wudfddi-iwdfiorequest-getcreateparameters.md) | The GetCreateParameters method retrieves the request parameters for a create-type request. |
-| [IWDFIoRequest::GetDeviceIoControlParameters method](..\wudfddi\nf-wudfddi-iwdfiorequest-getdeviceiocontrolparameters.md) | The GetDeviceIoControlParameters method retrieves the request parameters for a device I/O control-type request. |
-| [IWDFIoRequest::GetFileObject method](..\wudfddi\nf-wudfddi-iwdfiorequest-getfileobject.md) | The GetFileObject method retrieves a pointer to the IWDFFile interface that is associated with an I/O request. |
-| [IWDFIoRequest::GetInputMemory method](..\wudfddi\nf-wudfddi-iwdfiorequest-getinputmemory.md) | The GetInputMemory method retrieves the memory object that represents the input buffer in an I/O request. |
-| [IWDFIoRequest::GetIoQueue method](..\wudfddi\nf-wudfddi-iwdfiorequest-getioqueue.md) | The GetIoQueue method retrieves the I/O queue object that is associated with an I/O request. |
-| [IWDFIoRequest::GetOutputMemory method](..\wudfddi\nf-wudfddi-iwdfiorequest-getoutputmemory.md) | The GetOutputMemory method retrieves the memory object that represents the output buffer for an I/O request. |
-| [IWDFIoRequest::GetReadParameters method](..\wudfddi\nf-wudfddi-iwdfiorequest-getreadparameters.md) | The GetReadParameters method retrieves the request parameters for a read-type request. |
-| [IWDFIoRequest::GetRequestorProcessId method](..\wudfddi\nf-wudfddi-iwdfiorequest-getrequestorprocessid.md) | The GetRequestorProcessId method retrieves the identifier of the process that sent an I/O request. |
-| [IWDFIoRequest::GetType method](..\wudfddi\nf-wudfddi-iwdfiorequest-gettype.md) | The GetType method retrieves the type of operation that a request contains. |
-| [IWDFIoRequest::GetWriteParameters method](..\wudfddi\nf-wudfddi-iwdfiorequest-getwriteparameters.md) | The GetWriteParameters method retrieves the request parameters for a write-type request. |
-| [IWDFIoRequest::Impersonate method](..\wudfddi\nf-wudfddi-iwdfiorequest-impersonate.md) | The Impersonate method registers the interface for the method that the framework should call for impersonation. |
-| [IWDFIoRequest::IsFrom32BitProcess method](..\wudfddi\nf-wudfddi-iwdfiorequest-isfrom32bitprocess.md) | The IsFrom32BitProcess method determines whether a request originated from a 32-bit process. |
-| [IWDFIoRequest::MarkCancelable method](..\wudfddi\nf-wudfddi-iwdfiorequest-markcancelable.md) | The MarkCancelable method enables the canceling of the I/O request. |
-| [IWDFIoRequest::Send method](..\wudfddi\nf-wudfddi-iwdfiorequest-send.md) | The Send method sends a request to the specified I/O target. |
-| [IWDFIoRequest::SetCompletionCallback method](..\wudfddi\nf-wudfddi-iwdfiorequest-setcompletioncallback.md) | The SetCompletionCallback method registers the interface for the OnCompletion method that the framework should call when an I/O request completes. |
-| [IWDFIoRequest::SetInformation method](..\wudfddi\nf-wudfddi-iwdfiorequest-setinformation.md) | The SetInformation method sets the size of information for a request. |
-| [IWDFIoRequest::UnmarkCancelable method](..\wudfddi\nf-wudfddi-iwdfiorequest-unmarkcancelable.md) | The UnmarkCancelable method disables the canceling of an I/O request. |
-| [IWDFIoRequestCompletionParams::GetIoctlParameters method](..\wudfddi\nf-wudfddi-iwdfiorequestcompletionparams-getioctlparameters.md) | The GetIoctlParameters method retrieves parameters that are associated with the completion of a device I/O control request. |
-| [IWDFIoRequestCompletionParams::GetReadParameters method](..\wudfddi\nf-wudfddi-iwdfiorequestcompletionparams-getreadparameters.md) | The GetReadParameters method retrieves parameters that are associated with the completion of a read request. |
-| [IWDFIoRequestCompletionParams::GetWriteParameters method](..\wudfddi\nf-wudfddi-iwdfiorequestcompletionparams-getwriteparameters.md) | The GetWriteParameters method retrieves parameters that are associated with the completion of a write request. |
-| [IWDFIoTarget2::FormatRequestForFlush method](..\wudfddi\nf-wudfddi-iwdfiotarget2-formatrequestforflush.md) | The FormatRequestForFlush method builds an I/O request for a flush operation but does not send the request to an I/O target. |
-| [IWDFIoTarget2::FormatRequestForQueryInformation method](..\wudfddi\nf-wudfddi-iwdfiotarget2-formatrequestforqueryinformation.md) | The FormatRequestForQueryInformation method formats an I/O request to obtain information about a file, but it does not send the request to an I/O target. |
-| [IWDFIoTarget2::FormatRequestForSetInformation method](..\wudfddi\nf-wudfddi-iwdfiotarget2-formatrequestforsetinformation.md) | The FormatRequestForSetInformation method formats an I/O request to set information about a file, but it does not send the request to an I/O target. |
-| [IWDFIoTarget::CancelSentRequestsForFile method](..\wudfddi\nf-wudfddi-iwdfiotarget-cancelsentrequestsforfile.md) | The CancelSentRequestsForFile method cancels all I/O requests that have been sent on behalf of the specified file object. |
-| [IWDFIoTarget::FormatRequestForIoctl method](..\wudfddi\nf-wudfddi-iwdfiotarget-formatrequestforioctl.md) | The FormatRequestForIoctl method formats an I/O request object for an I/O control operation. |
-| [IWDFIoTarget::FormatRequestForRead method](..\wudfddi\nf-wudfddi-iwdfiotarget-formatrequestforread.md) | The FormatRequestForRead method formats an I/O request object for a read operation. |
-| [IWDFIoTarget::FormatRequestForWrite method](..\wudfddi\nf-wudfddi-iwdfiotarget-formatrequestforwrite.md) | The FormatRequestForWrite method formats an I/O request object for a write operation. |
-| [IWDFIoTarget::GetTargetFile method](..\wudfddi\nf-wudfddi-iwdfiotarget-gettargetfile.md) | The GetTargetFile method retrieves the framework file object that is associated with the I/O target object. |
-| [IWDFIoTargetStateManagement::GetState method](..\wudfddi\nf-wudfddi-iwdfiotargetstatemanagement-getstate.md) | The GetState method returns the current state of a local I/O target. |
-| [IWDFIoTargetStateManagement::Remove method](..\wudfddi\nf-wudfddi-iwdfiotargetstatemanagement-remove.md) | The Remove method removes a local I/O target. |
-| [IWDFIoTargetStateManagement::Start method](..\wudfddi\nf-wudfddi-iwdfiotargetstatemanagement-start.md) | The Start method starts sending queued requests to a local I/O target. |
-| [IWDFIoTargetStateManagement::Stop method](..\wudfddi\nf-wudfddi-iwdfiotargetstatemanagement-stop.md) | The Stop method stops sending queued requests to a local I/O target. |
-| [IWDFMemory::CopyFromBuffer method](..\wudfddi\nf-wudfddi-iwdfmemory-copyfrombuffer.md) | The CopyFromBuffer method safely copies data from the specified source buffer to a memory object. |
-| [IWDFMemory::CopyFromMemory method](..\wudfddi\nf-wudfddi-iwdfmemory-copyfrommemory.md) | The CopyFromMemory method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause. |
-| [IWDFMemory::CopyToBuffer method](..\wudfddi\nf-wudfddi-iwdfmemory-copytobuffer.md) | The CopyToBuffer method safely copies data from a memory object to the specified target buffer. |
-| [IWDFMemory::GetDataBuffer method](..\wudfddi\nf-wudfddi-iwdfmemory-getdatabuffer.md) | The GetDataBuffer method retrieves the data buffer that is associated with a memory object. |
-| [IWDFMemory::GetSize method](..\wudfddi\nf-wudfddi-iwdfmemory-getsize.md) | The GetSize method retrieves the size of the data buffer that is associated with a memory object. |
-| [IWDFMemory::SetBuffer method](..\wudfddi\nf-wudfddi-iwdfmemory-setbuffer.md) | The SetBuffer method assigns a specified buffer to a memory object that a driver created by calling IWDFDriver |
-| [IWDFNamedPropertyStore2::DeleteNamedValue method](..\wudfddi\nf-wudfddi-iwdfnamedpropertystore2-deletenamedvalue.md) | The DeleteNamedValue method deletes a value name from the registry. |
-| [IWDFNamedPropertyStore::GetNameAt method](..\wudfddi\nf-wudfddi-iwdfnamedpropertystore-getnameat.md) | The GetNameAt method retrieves the name of a property. |
-| [IWDFNamedPropertyStore::GetNameCount method](..\wudfddi\nf-wudfddi-iwdfnamedpropertystore-getnamecount.md) | The GetNameCount method retrieves the number of properties in a property store. |
-| [IWDFNamedPropertyStore::GetNamedValue method](..\wudfddi\nf-wudfddi-iwdfnamedpropertystore-getnamedvalue.md) | The GetNamedValue method retrieves the value of a property. |
-| [IWDFNamedPropertyStore::SetNamedValue method](..\wudfddi\nf-wudfddi-iwdfnamedpropertystore-setnamedvalue.md) | The SetNamedValue method sets the value of a property. |
-| [IWDFObject::AcquireLock method](..\wudfddi\nf-wudfddi-iwdfobject-acquirelock.md) | The AcquireLock method prevents the framework from calling methods of interfaces that a driver registered. |
-| [IWDFObject::AssignContext method](..\wudfddi\nf-wudfddi-iwdfobject-assigncontext.md) | The AssignContext method registers a context and a driver-supplied cleanup callback function for the object. |
-| [IWDFObject::DeleteWdfObject method](..\wudfddi\nf-wudfddi-iwdfobject-deletewdfobject.md) | The DeleteWdfObject method deletes a previously created Microsoft Windows Driver Frameworks (WDF) object. |
-| [IWDFObject::ReleaseLock method](..\wudfddi\nf-wudfddi-iwdfobject-releaselock.md) | The ReleaseLock method allows the framework to call methods of interfaces that are registered by the driver that the framework previously prevented from calling because the driver called the IWDFObject |
-| [IWDFObject::RetrieveContext method](..\wudfddi\nf-wudfddi-iwdfobject-retrievecontext.md) | The RetrieveContext method retrieves a context that was previously registered through the IWDFObject |
-| [IWDFPropertyStoreFactory::RetrieveDevicePropertyStore method](..\wudfddi\nf-wudfddi-iwdfpropertystorefactory-retrievedevicepropertystore.md) | The RetrieveDevicePropertyStore method retrieves a property store interface that drivers can use to access the registry. |
-| [IWDFRemoteInterfaceInitialize::GetInterfaceGuid method](..\wudfddi\nf-wudfddi-iwdfremoteinterfaceinitialize-getinterfaceguid.md) | The GetInterfaceGuid method retrieves the GUID that identifies a device interface. |
-| [IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink method](..\wudfddi\nf-wudfddi-iwdfremoteinterfaceinitialize-retrievesymboliclink.md) | The RetrieveSymbolicLink method retrieves the symbolic link name that the operating system assigned to a device interface. |
-| [IWDFRemoteTarget::Close method](..\wudfddi\nf-wudfddi-iwdfremotetarget-close.md) | The Close method closes a remote I/O target. |
-| [IWDFRemoteTarget::CloseForQueryRemove method](..\wudfddi\nf-wudfddi-iwdfremotetarget-closeforqueryremove.md) | The CloseForQueryRemove method closes a remote I/O target because the operating system might allow the device to be removed. |
-| [IWDFRemoteTarget::GetState method](..\wudfddi\nf-wudfddi-iwdfremotetarget-getstate.md) | The GetState method returns the current state of a remote I/O target. |
-| [IWDFRemoteTarget::OpenFileByName method](..\wudfddi\nf-wudfddi-iwdfremotetarget-openfilebyname.md) | The OpenFileByName method opens a remote I/O target that is a file. |
-| [IWDFRemoteTarget::OpenRemoteInterface method](..\wudfddi\nf-wudfddi-iwdfremotetarget-openremoteinterface.md) | The OpenRemoteInterface method opens a device interface so that the driver can send I/O requests to it. |
-| [IWDFRemoteTarget::Reopen method](..\wudfddi\nf-wudfddi-iwdfremotetarget-reopen.md) | The Reopen method reopens a remote I/O target after it has been temporarily closed. |
-| [IWDFRemoteTarget::Start method](..\wudfddi\nf-wudfddi-iwdfremotetarget-start.md) | The IWDFRemoteTarget |
-| [IWDFRemoteTarget::Stop method](..\wudfddi\nf-wudfddi-iwdfremotetarget-stop.md) | The Stop method temporarily stops a remote I/O target. |
-| [IWDFRequestCompletionParams::GetCompletedRequestType method](..\wudfddi\nf-wudfddi-iwdfrequestcompletionparams-getcompletedrequesttype.md) | The GetCompletedRequestType method retrieves the type of operation that the request to be completed contains. |
-| [IWDFRequestCompletionParams::GetCompletionStatus method](..\wudfddi\nf-wudfddi-iwdfrequestcompletionparams-getcompletionstatus.md) | The GetCompletionStatus method retrieves the completion status of an I/O request. |
-| [IWDFRequestCompletionParams::GetInformation method](..\wudfddi\nf-wudfddi-iwdfrequestcompletionparams-getinformation.md) | The GetInformation method retrieves information that is associated with the completion of an I/O request. |
-| [IWDFUnifiedPropertyStore::GetPropertyData method](..\wudfddi\nf-wudfddi-iwdfunifiedpropertystore-getpropertydata.md) | The GetPropertyData method retrieves the current setting for a device property. |
-| [IWDFUnifiedPropertyStore::SetPropertyData method](..\wudfddi\nf-wudfddi-iwdfunifiedpropertystore-setpropertydata.md) | The SetPropertyData method modifies the current setting of a device property. |
-| [IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore method](..\wudfddi\nf-wudfddi-iwdfunifiedpropertystorefactory-retrieveunifieddevicepropertystore.md) | The RetrieveUnifiedDevicePropertyStore method retrieves a unified property store interface. |
-| [IWDFUsbInterface::GetConfiguredSettingIndex method](..\wudfusb\nf-wudfusb-iwdfusbinterface-getconfiguredsettingindex.md) | The GetConfiguredSettingIndex method retrieves the current setting index for a USB interface. |
-| [IWDFUsbInterface::GetInterfaceDescriptor method](..\wudfusb\nf-wudfusb-iwdfusbinterface-getinterfacedescriptor.md) | The GetInterfaceDescriptor method retrieves a descriptor for a USB interface. |
-| [IWDFUsbInterface::GetInterfaceNumber method](..\wudfusb\nf-wudfusb-iwdfusbinterface-getinterfacenumber.md) | The GetInterfaceNumber method retrieves the index of a USB interface. |
-| [IWDFUsbInterface::GetNumEndPoints method](..\wudfusb\nf-wudfusb-iwdfusbinterface-getnumendpoints.md) | The GetNumEndPoints method retrieves the number of endpoints (pipes) on a USB interface. |
-| [IWDFUsbInterface::GetWinUsbHandle method](..\wudfusb\nf-wudfusb-iwdfusbinterface-getwinusbhandle.md) | The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a USB interface. |
-| [IWDFUsbInterface::RetrieveUsbPipeObject method](..\wudfusb\nf-wudfusb-iwdfusbinterface-retrieveusbpipeobject.md) | The RetrieveUsbPipeObject method retrieves a USB pipe object for the specified pipe index. |
-| [IWDFUsbInterface::SelectSetting method](..\wudfusb\nf-wudfusb-iwdfusbinterface-selectsetting.md) | The SelectSetting method selects the specified alternate setting on a USB interface. |
-| [IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType method](..\wudfusb\nf-wudfusb-iwdfusbrequestcompletionparams-getcompletedusbrequesttype.md) | The GetCompletedUsbRequestType method retrieves the type of operation that the request to be completed contains. |
-| [IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters method](..\wudfusb\nf-wudfusb-iwdfusbrequestcompletionparams-getdevicecontroltransferparameters.md) | The GetDeviceControlTransferParameters method retrieves parameters that are associated with the completion of a device I/O control request. |
-| [IWDFUsbRequestCompletionParams::GetPipeReadParameters method](..\wudfusb\nf-wudfusb-iwdfusbrequestcompletionparams-getpipereadparameters.md) | The GetPipeReadParameters method retrieves parameters that are associated with the completion of a read request. |
-| [IWDFUsbRequestCompletionParams::GetPipeWriteParameters method](..\wudfusb\nf-wudfusb-iwdfusbrequestcompletionparams-getpipewriteparameters.md) | The GetPipeWriteParameters method retrieves parameters that are associated with the completion of a write request. |
-| [IWDFUsbTargetDevice::FormatRequestForControlTransfer method](..\wudfusb\nf-wudfusb-iwdfusbtargetdevice-formatrequestforcontroltransfer.md) | The FormatRequestForControlTransfer method formats an I/O request object for a USB control transfer. |
-| [IWDFUsbTargetDevice::GetNumInterfaces method](..\wudfusb\nf-wudfusb-iwdfusbtargetdevice-getnuminterfaces.md) | The GetNumInterfaces method retrieves the number of USB interfaces for the USB device. |
-| [IWDFUsbTargetDevice::GetWinUsbHandle method](..\wudfusb\nf-wudfusb-iwdfusbtargetdevice-getwinusbhandle.md) | The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a I/O target device object. |
-| [IWDFUsbTargetDevice::RetrieveDescriptor method](..\wudfusb\nf-wudfusb-iwdfusbtargetdevice-retrievedescriptor.md) | The RetrieveDescriptor method retrieves a USB descriptor, which can describe a device, configuration, or string. |
-| [IWDFUsbTargetDevice::RetrieveDeviceInformation method](..\wudfusb\nf-wudfusb-iwdfusbtargetdevice-retrievedeviceinformation.md) | The RetrieveDeviceInformation method retrieves device information of the specified type. |
-| [IWDFUsbTargetDevice::RetrievePowerPolicy method](..\wudfusb\nf-wudfusb-iwdfusbtargetdevice-retrievepowerpolicy.md) | The RetrievePowerPolicy method retrieves a WinUsb power policy. |
-| [IWDFUsbTargetDevice::RetrieveUsbInterface method](..\wudfusb\nf-wudfusb-iwdfusbtargetdevice-retrieveusbinterface.md) | The RetrieveUsbInterface method retrieves the specified USB interface for a USB device. |
-| [IWDFUsbTargetDevice::SetPowerPolicy method](..\wudfusb\nf-wudfusb-iwdfusbtargetdevice-setpowerpolicy.md) | The SetPowerPolicy method sets the WinUsb power policy. |
-| [IWDFUsbTargetFactory::CreateUsbTargetDevice method](..\wudfusb\nf-wudfusb-iwdfusbtargetfactory-createusbtargetdevice.md) | The CreateUsbTargetDevice method creates a USB device object that is also an I/O target. |
-| [IWDFUsbTargetPipe2::ConfigureContinuousReader method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe2-configurecontinuousreader.md) | The ConfigureContinuousReader method configures the framework to continuously read from a USB pipe. |
-| [IWDFUsbTargetPipe::Abort method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe-abort.md) | The Abort method aborts all pending transfers on a USB pipe. |
-| [IWDFUsbTargetPipe::Flush method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe-flush.md) | The Flush method discards any data that WinUsb saved when the device returned more data than the client requested. |
-| [IWDFUsbTargetPipe::GetInformation method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe-getinformation.md) | The GetInformation method retrieves information about a USB pipe (endpoint). |
-| [IWDFUsbTargetPipe::GetType method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe-gettype.md) | The GetType method retrieves the type of a USB pipe. |
-| [IWDFUsbTargetPipe::IsInEndPoint method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe-isinendpoint.md) | The IsInEndPoint method determines whether a USB pipe (endpoint) is an IN pipe. |
-| [IWDFUsbTargetPipe::IsOutEndPoint method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe-isoutendpoint.md) | The IsOutEndPoint method determines whether a USB pipe (endpoint) is an OUT pipe. |
-| [IWDFUsbTargetPipe::Reset method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe-reset.md) | The Reset method resets the data toggle and clears the stall condition on a USB pipe. |
-| [IWDFUsbTargetPipe::RetrievePipePolicy method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy.md) | The RetrievePipePolicy method retrieves a WinUsb pipe policy. |
-| [IWDFUsbTargetPipe::SetPipePolicy method](..\wudfusb\nf-wudfusb-iwdfusbtargetpipe-setpipepolicy.md) | The SetPipePolicy method sets the WinUsb pipe policy. |
-| [IWDFWorkItem::Enqueue method](..\wudfddi\nf-wudfddi-iwdfworkitem-enqueue.md) | The Enqueue method adds this interface's framework work-item object to the system's work-item queue. |
-| [IWDFWorkItem::Flush method](..\wudfddi\nf-wudfddi-iwdfworkitem-flush.md) | The Flush method returns after this interface's work item has been serviced. |
-| [IWDFWorkItem::GetParentObject method](..\wudfddi\nf-wudfddi-iwdfworkitem-getparentobject.md) | The GetParentObject method returns the parent framework object of this interface's work item. |

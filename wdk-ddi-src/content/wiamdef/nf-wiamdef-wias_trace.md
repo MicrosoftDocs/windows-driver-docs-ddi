@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamdef.h
-apiname:
+api_name:
 -	WIAS_TRACE
 product: Windows
 targetos: Windows
@@ -113,15 +113,15 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
 ## -see-also
 
+<a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
+
+
+
 <a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
 
 
 
 <a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
 
 
 

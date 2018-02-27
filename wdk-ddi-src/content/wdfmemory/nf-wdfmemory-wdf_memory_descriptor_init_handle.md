@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfmemory.h
-apiname:
+api_name:
 -	WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
 product: Windows
 targetos: Windows

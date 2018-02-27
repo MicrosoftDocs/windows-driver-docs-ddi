@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Dispmprt.h
-apiname:
+api_name:
 -	DXGK_SPB_INTERFACE
 product: Windows
 targetos: Windows
@@ -408,7 +408,7 @@ A pointer to a variable that receives the final completion status and informatio
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a>
 
 
 
@@ -416,15 +416,15 @@ A pointer to a variable that receives the final completion status and informatio
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
 
 
 

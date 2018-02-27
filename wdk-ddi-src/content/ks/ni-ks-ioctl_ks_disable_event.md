@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	IOCTL_KS_DISABLE_EVENT
 product: Windows
 targetos: Windows
@@ -110,15 +110,7 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-
-
-
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
+<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
 
 
 
@@ -126,11 +118,15 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 
 
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
 
 
 
-<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
 
 
 
@@ -139,6 +135,10 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+
+
+<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
 
 
 

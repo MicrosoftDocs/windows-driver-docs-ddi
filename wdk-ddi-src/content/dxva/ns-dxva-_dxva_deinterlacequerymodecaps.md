@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxva.h
-apiname:
+api_name:
 -	DXVA_DeinterlaceQueryModeCaps
 product: Windows
 targetos: Windows
@@ -95,15 +95,15 @@ The driver receives the DXVA_DeinterlaceQueryModeCaps structure with all members
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_deinterlacequeryavailablemodes.md">DXVA_DeinterlaceQueryAvailableModes</a>
 
 
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
 
 
 

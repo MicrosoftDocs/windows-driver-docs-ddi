@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KsFilterFactoryGetDevice
 product: Windows
 targetos: Windows
@@ -94,11 +94,11 @@ For more information about the AVStream object hierarchy, see  <a href="https://
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
-
-
-
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3d10umddi.h
-apiname:
+api_name:
 -	D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
 product: Windows
 targetos: Windows
@@ -92,7 +92,7 @@ If <b>TRUE</b>, non-contiguous blocks of video memory may be accessible to the C
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_bus_type.md">D3D11_1DDI_BUS_TYPE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel(D3D11_1)</a>
 
 
 
@@ -100,7 +100,7 @@ If <b>TRUE</b>, non-contiguous blocks of video memory may be accessible to the C
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel(D3D11_1)</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_bus_type.md">D3D11_1DDI_BUS_TYPE</a>
 
 
 

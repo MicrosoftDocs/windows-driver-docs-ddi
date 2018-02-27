@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	avc.h
-apiname:
+api_name:
 -	IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO
 product: Windows
 targetos: Windows
@@ -193,7 +193,7 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 
 
-<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
+<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
 
 
 
@@ -201,7 +201,7 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
+<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
 
 
 

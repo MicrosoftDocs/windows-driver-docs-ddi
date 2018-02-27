@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wmidata.h
-apiname:
+api_name:
 -	WMI_CHANGER_PROBLEM_DEVICE_ERROR
 product: Windows
 targetos: Windows

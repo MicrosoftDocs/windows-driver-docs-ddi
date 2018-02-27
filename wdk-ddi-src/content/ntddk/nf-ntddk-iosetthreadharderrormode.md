@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoSetThreadHardErrorMode
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ If hard errors are disabled for a given thread, calls to <b>IoRaiseHardError</b>
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioraiseharderror.md">IoRaiseHardError</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	irb.h
-apiname:
+api_name:
 -	IdeHwInterrupt
 product: Windows
 targetos: Windows
@@ -141,11 +141,11 @@ The worker routine must clear the interrupt on the HBA before it returns <b>TRUE
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportcompleteallactiverequests.md">AtaPortCompleteAllActiveRequests</a>
-
-
-
 <a href="..\irb\nf-irb-ataportdevicebusy.md">AtaPortDeviceBusy</a>
+
+
+
+<a href="..\irb\nf-irb-ataportcompleteallactiverequests.md">AtaPortCompleteAllActiveRequests</a>
 
 
 

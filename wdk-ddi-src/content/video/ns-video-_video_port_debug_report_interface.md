@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	VIDEO_PORT_DEBUG_REPORT_INTERFACE
 product: Windows
 targetos: Windows
@@ -327,15 +327,11 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -344,6 +340,10 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
+
+
+
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
 
 

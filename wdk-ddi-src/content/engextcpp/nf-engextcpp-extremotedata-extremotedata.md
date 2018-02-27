@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtRemoteData.ExtRemoteData
 product: Windows
 targetos: Windows
@@ -80,11 +80,15 @@ The constructor is called by the <a href="https://msdn.microsoft.com/a335f881-7b
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData::ExtRemoteData (Offset, Bytes)</a>
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>
 
 
 
 <a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 
 
@@ -96,11 +100,7 @@ The constructor is called by the <a href="https://msdn.microsoft.com/a335f881-7b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData::ExtRemoteData (Offset, Bytes)</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	scsi.h
-apiname:
+api_name:
 -	VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
 product: Windows
 targetos: Windows

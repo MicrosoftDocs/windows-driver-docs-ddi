@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wudfusb.h
-apiname:
+api_name:
 -	IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
 product: Windows
 targetos: Windows

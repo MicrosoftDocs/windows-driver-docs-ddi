@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wiautil.h
-apiname:
+api_name:
 -	wiauDbgHelper2
 product: Windows
 targetos: Windows
@@ -127,6 +127,14 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 
 ## -see-also
 
+<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+
+
+
 <a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 
@@ -135,19 +143,11 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+<a href="..\wiautil\nf-wiautil-wiaudbghelper.md">wiauDbgHelper</a>
 
 
 
 <a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbghelper.md">wiauDbgHelper</a>
 
 
 

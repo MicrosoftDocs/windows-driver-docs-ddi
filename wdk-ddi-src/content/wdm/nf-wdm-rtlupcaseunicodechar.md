@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname:
+api_name:
 -	RtlUpcaseUnicodeChar
 product: Windows
 targetos: Windows
@@ -85,11 +85,11 @@ Specifies the character to convert.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlupperchar.md">RtlUpperChar</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlupcaseunicodestring.md">RtlUpcaseUnicodeString</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlupperchar.md">RtlUpperChar</a>
 
 
 

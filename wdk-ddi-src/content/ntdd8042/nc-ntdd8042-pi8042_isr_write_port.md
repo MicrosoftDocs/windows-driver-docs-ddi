@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ntdd8042.h
-apiname:
+api_name:
 -	I8042IsrWritePort
 product: Windows
 targetos: Windows
@@ -107,15 +107,15 @@ The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I
 
 ## -see-also
 
+<b>IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</b>
+
+
+
 <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
 
 
 
 <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
-
-
-
-<b>IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</b>
 
 
 

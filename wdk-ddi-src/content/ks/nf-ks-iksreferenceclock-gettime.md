@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	IKsReferenceClock.GetTime
 product: Windows
 targetos: Windows

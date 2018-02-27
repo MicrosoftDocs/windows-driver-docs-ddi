@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	srb.h
-apiname:
+api_name:
 -	(*PHW_INITIALIZE)
 product: Windows
 targetos: Windows
@@ -97,11 +97,11 @@ For more information about the miniport driver initialization routine that is us
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
-
-
-
 <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
+
+<a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
 
 
 

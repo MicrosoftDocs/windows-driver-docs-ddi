@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level. (See Remarks section.)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortEvents.GenerateEventList
 product: Windows
 targetos: Windows
@@ -124,7 +124,7 @@ Although callers of <code>GenerateEventList</code> can be running at any IRQL, t
 
 ## -see-also
 
-<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
+<a href="..\portcls\nn-portcls-iportevents.md">IPortEvents</a>
 
 
 
@@ -132,7 +132,7 @@ Although callers of <code>GenerateEventList</code> can be running at any IRQL, t
 
 
 
-<a href="..\portcls\nn-portcls-iportevents.md">IPortEvents</a>
+<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
 
 
 

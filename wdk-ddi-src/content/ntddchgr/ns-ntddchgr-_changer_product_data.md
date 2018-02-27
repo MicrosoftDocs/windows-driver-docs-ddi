@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddchgr.h
-apiname:
+api_name:
 -	CHANGER_PRODUCT_DATA
 product: Windows
 targetos: Windows
@@ -98,7 +98,7 @@ Specifies the device type of the changer. This member must be MEDIUM_CHANGER.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
 
 
 
@@ -106,7 +106,7 @@ Specifies the device type of the changer. This member must be MEDIUM_CHANGER.
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
+<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
 
 
 

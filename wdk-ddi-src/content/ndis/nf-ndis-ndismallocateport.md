@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisMAllocatePort
 product: Windows
 targetos: Windows
@@ -183,15 +183,15 @@ After a port is no longer required, the miniport driver should call the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/39c77921-5841-40f5-90ba-0fba89b3b55e">Allocating an NDIS Port</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/39c77921-5841-40f5-90ba-0fba89b3b55e">Allocating an NDIS Port</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a>
 
 
 
@@ -199,7 +199,7 @@ After a port is no longer required, the miniport driver should call the
 
 
 
-<a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
 
 

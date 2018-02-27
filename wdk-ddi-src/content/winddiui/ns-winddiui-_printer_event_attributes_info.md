@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winddiui.h
-apiname:
+api_name:
 -	PRINTER_EVENT_ATTRIBUTES_INFO
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ Because this structure might become larger in future operating system versions, 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554182">IPrintOemUI::PrinterEvent</a>
+
+
+
+<a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
 
 
 

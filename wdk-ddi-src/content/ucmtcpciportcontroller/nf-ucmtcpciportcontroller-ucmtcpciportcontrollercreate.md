@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ucmtcpcicxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ucmtcpcicxstub.lib
 -	ucmtcpcicxstub.dll
-apiname:
+api_name:
 -	UcmTcpciPortControllerCreate
 product: Windows
 targetos: Windows
@@ -139,11 +139,11 @@ Invalid size for the structure pointed to by <i>Config</i> or <i> Config-&gt;Cap
 
 
 
-<a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a>
-
-
-
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EVT_WDF_DRIVER_DEVICE_ADD</a>
+
+
+
+<a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a>
 
 
 

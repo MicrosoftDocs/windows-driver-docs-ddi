@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	sti.h
-apiname:
+api_name:
 -	IStillImageW.GetDeviceValue
 product: Windows
 targetos: Windows
@@ -121,11 +121,11 @@ Before calling <b>IStillImage::GetDeviceValue</b>, clients of the <b>IStillImage
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543801">IStillImage::SetDeviceValue</a>
+
+
+
+<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
 
 
 

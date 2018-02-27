@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiautil.h
-apiname:
+api_name:
 -	wiauRegGetDword
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550178">wiauRegGetStr</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550179">wiauRegOpenData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550178">wiauRegGetStr</a>
 
 
 

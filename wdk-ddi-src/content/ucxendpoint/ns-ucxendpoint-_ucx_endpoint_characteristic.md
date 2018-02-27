@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ucxendpoint.h
-apiname:
+api_name:
 -	UCX_ENDPOINT_CHARACTERISTIC
 product: Windows
 targetos: Windows
@@ -89,11 +89,11 @@ A <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.m
 
 ## -see-also
 
-<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_characteristic.md">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a>
-
-
-
 <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.md">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
+
+
+
+<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_characteristic.md">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Usbdlib.h
-apiname:
+api_name:
 -	REQUEST_REMOTE_WAKE_NOTIFICATION
 product: Windows
 targetos: Windows

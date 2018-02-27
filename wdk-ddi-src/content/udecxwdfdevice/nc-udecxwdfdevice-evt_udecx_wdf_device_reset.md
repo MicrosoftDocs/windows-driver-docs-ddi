@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	UdecxWdfDevice.h
-apiname:
+api_name:
 -	EvtUdecxWdfDeviceReset
 product: Windows
 targetos: Windows

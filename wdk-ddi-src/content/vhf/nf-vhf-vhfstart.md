@@ -29,15 +29,15 @@ req.type-library:
 req.lib: VhfKm.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	VhfKm.lib
 -	VhfKm.dll
-apiname:
+api_name:
 -	VhfStart
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	netdma.h
-apiname:
+api_name:
 -	NET_DMA_CHANNEL_PARAMETERS
 product: Windows
 targetos: Windows
@@ -241,7 +241,7 @@ The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at t
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 
 
@@ -249,15 +249,15 @@ The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at t
 
 
 
-<a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
-
-
-
 <a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
 
 
 

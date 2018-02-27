@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KStrHandler
 product: Windows
 targetos: Windows
@@ -153,11 +153,11 @@ The handler declaration used for <i>KStrMethodHandler</i> and <i>KStrSupportHand
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+
+
+
 <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
-
-
-
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 
 
@@ -165,7 +165,7 @@ The handler declaration used for <i>KStrMethodHandler</i> and <i>KStrSupportHand
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 
 

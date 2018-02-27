@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname:
+api_name:
 -	ScsiPortFlushDma
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ Only miniport drivers of subordinate HBAs that use a system DMA controller call 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportiomaptransfer.md">ScsiPortIoMapTransfer</a>
-
-
-
 <a href="..\srb\nc-srb-phw_dma_started.md">HwScsiDmaStarted</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportiomaptransfer.md">ScsiPortIoMapTransfer</a>
 
 
 

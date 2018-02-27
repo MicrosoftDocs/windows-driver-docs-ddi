@@ -2,6 +2,7 @@
 ## [Mcd.h](index.md)
 ### [ChangerAdditionalExtensionSize function](../mcd/nf-mcd-changeradditionalextensionsize.md)
 ### [ChangerClassAllocatePool function](../mcd/nf-mcd-changerclassallocatepool.md)
+### [ChangerClassCreate function](../mcd/nf-mcd-changerclasscreate.md)
 ### [ChangerClassDebugPrint function](../mcd/nf-mcd-changerclassdebugprint.md)
 ### [ChangerClassDeviceControl function](../mcd/nf-mcd-changerclassdevicecontrol.md)
 ### [ChangerClassFreePool function](../mcd/nf-mcd-changerclassfreepool.md)
@@ -21,4 +22,5 @@
 ### [ChangerReinitializeUnit function](../mcd/nf-mcd-changerreinitializeunit.md)
 ### [ChangerSetAccess function](../mcd/nf-mcd-changersetaccess.md)
 ### [ChangerSetPosition function](../mcd/nf-mcd-changersetposition.md)
+### [DriverEntry function](../mcd/nf-mcd-driverentry.md)
 ### [_MCD_INIT_DATA structure](../mcd/ns-mcd-_mcd_init_data.md)

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dkmdt.h
-apiname:
+api_name:
 -	DXGK_RENDER_PIPELINE_STAGE
 product: Windows
 targetos: Windows

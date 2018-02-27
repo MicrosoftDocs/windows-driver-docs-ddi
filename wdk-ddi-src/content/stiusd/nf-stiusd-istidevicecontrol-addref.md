@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Stiusd.h
-apiname:
+api_name:
 -	IStiDeviceControl.AddRef
 product: Windows
 targetos: Windows
@@ -90,11 +90,11 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istidevicecontrol.md">IStiDeviceControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543725">IStiDeviceControl::Release</a>
+
+
+
+<a href="..\stiusd\nn-stiusd-istidevicecontrol.md">IStiDeviceControl</a>
 
 
 

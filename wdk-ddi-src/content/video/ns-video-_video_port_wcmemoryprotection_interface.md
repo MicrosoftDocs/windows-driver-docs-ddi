@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
 product: Windows
 targetos: Windows
@@ -111,6 +111,10 @@ Pointer to the video port driver's <a href="..\video\nc-video-restore_wc_memory.
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
 <a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a>
 
 
@@ -120,10 +124,6 @@ Pointer to the video port driver's <a href="..\video\nc-video-restore_wc_memory.
 
 
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 

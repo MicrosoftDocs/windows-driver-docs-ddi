@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ksmedia.h
-apiname:
+api_name:
 -	KSDS3D_HRTF_INIT_MSG
 product: Windows
 targetos: Windows
@@ -139,7 +139,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537355">KSPROPERTY_HRTF3D_INITIALIZE</a>
+<a href="..\ksmedia\ns-ksmedia-ksds3d_hrtf_params_msg.md">KSDS3D_HRTF_PARAMS_MSG</a>
 
 
 
@@ -147,7 +147,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksds3d_hrtf_params_msg.md">KSDS3D_HRTF_PARAMS_MSG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537355">KSPROPERTY_HRTF3D_INITIALIZE</a>
 
 
 

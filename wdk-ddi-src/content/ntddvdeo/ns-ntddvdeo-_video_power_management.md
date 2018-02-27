@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvdeo.h
-apiname:
+api_name:
 -	VIDEO_POWER_MANAGEMENT
 product: Windows
 targetos: Windows
@@ -131,11 +131,11 @@ A driver will always enter all other power states from the <b>VideoPowerOn</b> s
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
 
 
 

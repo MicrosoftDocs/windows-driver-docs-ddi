@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 product: Windows
 targetos: Windows
@@ -74,11 +74,11 @@ typedef struct _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroysynchronizationobject.md">D3DKMTDestroySynchronizationObject</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a>
 
 
 

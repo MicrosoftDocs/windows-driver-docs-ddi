@@ -21,6 +21,7 @@
 ### [_USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure](../usbsidebandaudio/ns-usbsidebandaudio-_usbsidebandaudio_endpoint_descriptor.md)
 ### [_USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES structure](../usbsidebandaudio/ns-usbsidebandaudio-_usbsidebandaudio_ep_shadow_resources.md)
 ### [_USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION structure](../usbsidebandaudio/ns-usbsidebandaudio-_usbsidebandaudio_ep_shadow_resources_function.md)
+### [_USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_PARAMS structure](../usbsidebandaudio/ns-usbsidebandaudio-_usbsidebandaudio_ep_shadow_resources_params.md)
 ### [_USBSIDEBANDAUDIO_MUTE_PARAMS structure](../usbsidebandaudio/ns-usbsidebandaudio-_usbsidebandaudio_mute_params.md)
 ### [_USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure](../usbsidebandaudio/ns-usbsidebandaudio-_usbsidebandaudio_sidetone_descriptor.md)
 ### [_USBSIDEBANDAUDIO_SIDETONE_PARAMS structure](../usbsidebandaudio/ns-usbsidebandaudio-_usbsidebandaudio_sidetone_params.md)

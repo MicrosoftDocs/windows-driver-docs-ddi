@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeQueryTimeIncrement
 product: Windows
 targetos: Windows
@@ -88,11 +88,11 @@ At startup time, the operating system determines the time increment to use for t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
 
 
 

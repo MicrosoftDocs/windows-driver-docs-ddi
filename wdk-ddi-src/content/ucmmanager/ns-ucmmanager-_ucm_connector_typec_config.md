@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ucmmanager.h
-apiname:
+api_name:
 -	UCM_CONNECTOR_TYPEC_CONFIG
 product: Windows
 targetos: Windows

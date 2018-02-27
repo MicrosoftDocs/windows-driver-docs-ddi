@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfinterfaces.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wdtfinterfaces.h
-apiname:
+api_name:
 -	IWDTFSimpleIOStressActions2
 product: Windows
 targetos: Windows

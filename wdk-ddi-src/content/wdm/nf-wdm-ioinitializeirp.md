@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoInitializeIrp
 product: Windows
 targetos: Windows
@@ -111,19 +111,7 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
-
-
-
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosizeofirp.md">IoSizeOfIrp</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -131,11 +119,15 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
 <a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 
@@ -144,6 +136,14 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 <a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosizeofirp.md">IoSizeOfIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 
 

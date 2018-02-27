@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SMS_CONFIGURATION
 product: Windows
 targetos: Windows
@@ -122,11 +122,11 @@ Miniport drivers need to fill in this data structure only when processing
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_configuration.md">NDIS_WWAN_SMS_CONFIGURATION</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
 
 
 

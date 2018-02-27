@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Pshed.dll
-apiname:
+api_name:
 -	PshedRegisterPlugin
 product: Windows
 targetos: Windows
@@ -122,7 +122,7 @@ A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself
 
 ## -see-also
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 
@@ -130,7 +130,7 @@ A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	fwpsk.h
-apiname:
+api_name:
 -	FWPS_NET_BUFFER_LIST_EVENT_TYPE0
 product: Windows
 targetos: Windows
@@ -222,6 +222,15 @@ The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+     FwpsAllocateCloneNetBufferList0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
         FwpsNetBufferListRemoveContext0</a>
 
@@ -229,15 +238,6 @@ The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 
 <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">
   FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-     FwpsAllocateCloneNetBufferList0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

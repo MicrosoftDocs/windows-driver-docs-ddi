@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdpc.h
-apiname:
+api_name:
 -	WDF_DPC_CONFIG
 product: Windows
 targetos: Windows
@@ -112,15 +112,15 @@ For more information about handling interrupts in framework-based drivers, see <
 
 
 
+<a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 
 
 <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
-
-
-
-<a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a>
 
 
 

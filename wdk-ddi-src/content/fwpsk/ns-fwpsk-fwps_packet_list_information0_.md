@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	fwpsk.h
-apiname:
+api_name:
 -	FWPS_PACKET_LIST_INFORMATION0
 product: Windows
 targetos: Windows
@@ -96,6 +96,11 @@ A callout driver passes a pointer to an FWPS_PACKET_LIST_INFORMATION0 structure 
 
 ## -see-also
 
+<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_fwp_information0_.md">
+   FWPS_PACKET_LIST_FWP_INFORMATION0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
    FwpsGetPacketListSecurityInformation0</a>
 
@@ -103,11 +108,6 @@ A callout driver passes a pointer to an FWPS_PACKET_LIST_INFORMATION0 structure 
 
 <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_fwp_information0_.md">
-   FWPS_PACKET_LIST_FWP_INFORMATION0</a>
 
 
 

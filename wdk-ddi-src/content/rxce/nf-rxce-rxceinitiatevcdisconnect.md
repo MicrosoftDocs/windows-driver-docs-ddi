@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxce.h
-apiname:
+api_name:
 -	RxCeInitiateVCDisconnect
 product: Windows
 targetos: Windows
@@ -123,11 +123,11 @@ The <i>pVc</i> parameter passed to this routine was invalid.
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
-
-
-
 <a href="..\rxce\nf-rxce-rxcebuildvc.md">RxCeBuildVC</a>
+
+
+
+<a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
 
 
 

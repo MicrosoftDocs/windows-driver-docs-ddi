@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	DXVAHDDDI_STREAM_STATE
 product: Windows
 targetos: Windows
@@ -187,19 +187,7 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_aspect_ratio_data.md">DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_luma_key_data.md">DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_destination_rect_data.md">DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_palette_data.md">DXVAHDDDI_STREAM_STATE_PALETTE_DATA</a>
 
 
 
@@ -207,11 +195,19 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_source_rect_data.md">DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_alpha_data.md">DXVAHDDDI_STREAM_STATE_ALPHA_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_input_color_space_data.md">DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a>
 
 
 
@@ -223,11 +219,15 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_input_color_space_data.md">DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_filter_data.md">DXVAHDDDI_STREAM_STATE_FILTER_DATA</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_palette_data.md">DXVAHDDDI_STREAM_STATE_PALETTE_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_luma_key_data.md">DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_aspect_ratio_data.md">DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA</a>
 
 
 
@@ -235,11 +235,11 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_destination_rect_data.md">DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_filter_data.md">DXVAHDDDI_STREAM_STATE_FILTER_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_alpha_data.md">DXVAHDDDI_STREAM_STATE_ALPHA_DATA</a>
 
 
 

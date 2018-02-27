@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	IDebugControl4.AddBreakpoint2
 product: Windows
 targetos: Windows
@@ -172,19 +172,19 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>
 
 
 

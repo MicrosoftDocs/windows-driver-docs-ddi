@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsAllocateDefaultClock
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ When the clock is no longer needed, the driver must call <a href="..\ks\nf-ks-ks
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
-
-
-
 <a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
+
+
+
+<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
 
 
 

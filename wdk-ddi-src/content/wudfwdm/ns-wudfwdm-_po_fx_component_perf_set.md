@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	PO_FX_COMPONENT_PERF_SET
 product: Windows
 targetos: Windows
@@ -148,11 +148,11 @@ Most drivers are expected to define a single set of performance states per compo
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortSetBytesUsed
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ None
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetbytesused.md">VideoPortGetBytesUsed</a>
-
-
-
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
+
+
+<a href="..\video\nf-video-videoportgetbytesused.md">VideoPortGetBytesUsed</a>
 
 
 

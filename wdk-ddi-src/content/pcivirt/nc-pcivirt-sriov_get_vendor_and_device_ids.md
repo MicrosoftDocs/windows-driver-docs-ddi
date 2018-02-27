@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Pcivirt.h
-apiname:
+api_name:
 -	*PSRIOV_GET_VENDOR_AND_DEVICE_IDS
 product: Windows
 targetos: Windows

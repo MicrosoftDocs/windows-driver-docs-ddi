@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	DxgkDdiSetBrightness
 product: Windows
 targetos: Windows
@@ -121,11 +121,11 @@ The monitor driver interprets brightness hot-key notifications from the Advanced
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_display_brightness.md">IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Dispmprt.h
-apiname:
+api_name:
 -	DxgkDdiMiracastIoControl
 product: Windows
 targetos: Windows
@@ -153,7 +153,11 @@ The threading and synchronization level for this function is set by how the user
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -161,15 +165,11 @@ The threading and synchronization level for this function is set by how the user
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
-
-
-
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
 
 
 

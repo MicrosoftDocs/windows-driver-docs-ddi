@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortGetAccessRanges
 product: Windows
 targetos: Windows
@@ -156,7 +156,11 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportsetbusdata.md">VideoPortSetBusData</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+
+
+<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
 
 
 
@@ -168,11 +172,7 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 
 
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
-
-
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
 
 
@@ -180,15 +180,15 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 
 
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
+<a href="..\video\nf-video-videoportsetbusdata.md">VideoPortSetBusData</a>
 
 
 

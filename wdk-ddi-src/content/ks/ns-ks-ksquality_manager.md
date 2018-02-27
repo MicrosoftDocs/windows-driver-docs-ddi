@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSQUALITY_MANAGER
 product: Windows
 targetos: Windows
@@ -80,11 +80,11 @@ Specifies the context parameter to use when reporting quality problems. The cont
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565750">KSPROPERTY_STREAM_QUALITY</a>
+
+
+
+<a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a>
 
 
 

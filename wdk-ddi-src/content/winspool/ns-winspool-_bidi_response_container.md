@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winspool.h
-apiname:
+api_name:
 -	BIDI_RESPONSE_CONTAINER
 product: Windows
 targetos: Windows
@@ -104,11 +104,11 @@ The spooler's <a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
+
+
+
+<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
 
 
 

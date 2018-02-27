@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Hbaapi.dll
-apiname:
+api_name:
 -	HBA_GetPersistentBindingV2
 product: Windows
 targetos: Windows
@@ -176,11 +176,7 @@ This routine is similar to the <a href="..\hbaapi\nf-hbaapi-hba_getfcppersistent
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry2.md">HBA_FCPBindingEntry2</a>
+<a href="..\hbaapi\nf-hbaapi-hba_getfcppersistentbinding.md">HBA_GetFcpPersistentBinding</a>
 
 
 
@@ -188,7 +184,11 @@ This routine is similar to the <a href="..\hbaapi\nf-hbaapi-hba_getfcppersistent
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_getfcppersistentbinding.md">HBA_GetFcpPersistentBinding</a>
+<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry2.md">HBA_FCPBindingEntry2</a>
+
+
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 

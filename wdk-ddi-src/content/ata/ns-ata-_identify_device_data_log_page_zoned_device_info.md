@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ata.h
-apiname:
+api_name:
 -	IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 product: Windows
 targetos: Windows

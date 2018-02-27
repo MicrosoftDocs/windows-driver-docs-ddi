@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	ExInterlockedCompareExchange64
 product: Windows
 targetos: Windows
@@ -113,15 +113,15 @@ Callers of <b>ExInterlockedCompareExchange64</b> can be running at any IRQL. The
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+
+
+
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 
 <a href="..\wdm\nf-wdm-interlockedexchangeadd.md">InterlockedExchangeAdd</a>
-
-
-
-<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
 
 
 

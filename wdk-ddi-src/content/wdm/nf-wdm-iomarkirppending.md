@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	IoMarkIrpPending
 product: Windows
 targetos: Windows
@@ -105,15 +105,11 @@ If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
 
 
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
 
 
 
@@ -122,6 +118,10 @@ If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 

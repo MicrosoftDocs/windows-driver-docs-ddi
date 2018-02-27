@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Wiaservc.dll
-apiname:
+api_name:
 -	wiasDebugTrace
 product: Windows
 targetos: Windows
@@ -113,11 +113,11 @@ To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Trac
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 

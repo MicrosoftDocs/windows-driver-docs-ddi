@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
 product: Windows
 targetos: Windows
@@ -128,11 +128,11 @@ A device driver's callback function that receives these notifications must not m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
-
-
-
 <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
 
 
 

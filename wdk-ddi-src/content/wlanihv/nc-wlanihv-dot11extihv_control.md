@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtIhvControl
 product: Windows
 targetos: Windows

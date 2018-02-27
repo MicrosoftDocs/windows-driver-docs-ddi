@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	FA_ENTRY
 product: Windows
 targetos: Windows
@@ -90,7 +90,7 @@ The size of the <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B9
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 
@@ -98,7 +98,7 @@ The size of the <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B9
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 

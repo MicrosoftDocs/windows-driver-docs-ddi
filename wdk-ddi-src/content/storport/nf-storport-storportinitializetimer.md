@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortInitializeTimer
 product: Windows
 targetos: Windows
@@ -169,7 +169,11 @@ Starting with Windows 8, there is no maximum timers limitation.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
+
+
+
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 
 
@@ -177,11 +181,7 @@ Starting with Windows 8, there is no maximum timers limitation.
 
 
 
-<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
-
-
-
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
 
 
 

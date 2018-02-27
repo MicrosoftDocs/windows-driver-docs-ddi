@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSGATE
 product: Windows
 targetos: Windows
@@ -92,15 +92,15 @@ All of the manipulations of <b>Count</b> are done using interlocked functions to
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+
+
+
 <a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
 
 
 
 <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 
 

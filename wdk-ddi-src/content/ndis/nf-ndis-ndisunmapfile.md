@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisUnmapFile
 product: Windows
 targetos: Windows
@@ -101,7 +101,7 @@ To reduce resource usage, a miniport driver should always call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
 
 
 
@@ -109,11 +109,11 @@ To reduce resource usage, a miniport driver should always call
 
 
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
 
 
 

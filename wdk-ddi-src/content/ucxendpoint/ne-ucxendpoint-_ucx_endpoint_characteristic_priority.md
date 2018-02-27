@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ucxendpoint.h
-apiname:
+api_name:
 -	UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY
 product: Windows
 targetos: Windows

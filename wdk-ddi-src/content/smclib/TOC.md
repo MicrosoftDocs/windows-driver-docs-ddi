@@ -10,3 +10,6 @@
 ### [_T0_DATA structure](../smclib/ns-smclib-_t0_data.md)
 ### [_T1_DATA structure](../smclib/ns-smclib-_t1_data.md)
 ### [_VENDOR_ATTR structure](../smclib/ns-smclib-_vendor_attr.md)
+# [Windows kernel](../_kernel/index.md)
+## [Smclib.h](index.md)
+### [RtlZeroMemory macro](../smclib/nf-smclib-rtlzeromemory.md)

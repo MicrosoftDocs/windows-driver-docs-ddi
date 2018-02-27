@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntdll.lib
 req.dll: Ntdll.dll
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Ntdll.dll
-apiname:
+api_name:
 -	RtlEqualPrefixSid
 product: Windows
 targetos: Windows
@@ -104,10 +104,6 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
 
 
@@ -117,6 +113,10 @@ For more information about security and access control, see the documentation on
 
 
 <a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 
 

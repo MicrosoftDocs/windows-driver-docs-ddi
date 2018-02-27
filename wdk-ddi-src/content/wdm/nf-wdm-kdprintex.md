@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib (See DbgPrintEx.)
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KdPrintEx
 product: Windows
 targetos: Windows
@@ -149,15 +149,15 @@ This routine is defined in ntddk.h and ndis.h; component filter IDs are defined 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
+
+
+
 <a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
 
 
 
 <a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
 
 
 

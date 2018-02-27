@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	fltmgr.sys
-apiname:
+api_name:
 -	FltQueryEaFile
 product: Windows
 targetos: Windows
@@ -178,11 +178,11 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
 
 
 
@@ -190,7 +190,7 @@ The instance or volume is being torn down. This is an error code.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
 
 

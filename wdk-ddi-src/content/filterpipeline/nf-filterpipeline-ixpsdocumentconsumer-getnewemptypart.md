@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	filterpipeline.h
-apiname:
+api_name:
 -	IXpsDocumentConsumer.GetNewEmptyPart
 product: Windows
 targetos: Windows
@@ -154,19 +154,11 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
+<a href="..\filterpipeline\nn-filterpipeline-ifixeddocument.md">IFixedDocument</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
-
-
-
-<a href="..\filterpipeline\nn-filterpipeline-ipartfont.md">IPartFont</a>
-
-
-
-<a href="..\filterpipeline\nn-filterpipeline-ipartthumbnail.md">IPartThumbnail</a>
+<a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
 
 
 
@@ -174,15 +166,23 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 
 
+<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-ipartthumbnail.md">IPartThumbnail</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-ipartfont.md">IPartFont</a>
+
+
+
 <a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixeddocument.md">IFixedDocument</a>
-
-
-
-<a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
+<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	stiusd.h
-apiname:
+api_name:
 -	IStiUSD.RawWriteCommand
 product: Windows
 targetos: Windows
@@ -107,11 +107,11 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543762">IStiDevice::RawWriteCommand</a>
-
-
-
 <a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543762">IStiDevice::RawWriteCommand</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ntddk.h
 req.dll: 
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	RtlLeftChild
 product: Windows
 targetos: Windows
@@ -87,19 +87,19 @@ Callers of <b>RtlLeftChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if t
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 

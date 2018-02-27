@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Comments section.)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	EtwWrite
 product: Windows
 targetos: Windows
@@ -193,7 +193,7 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 
-<a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
 
 
 
@@ -201,7 +201,7 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
+<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
 
 
 
@@ -209,11 +209,11 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 
+<a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
+
+
+
 <a href="..\wdm\nf-wdm-etwunregister.md">EtwUnregister</a>
-
-
-
-<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ucxendpoint.h
-apiname:
+api_name:
 -	PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
 product: Windows
 targetos: Windows

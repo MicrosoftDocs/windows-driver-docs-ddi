@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSMETHOD_ITEM
 product: Windows
 targetos: Windows
@@ -179,15 +179,15 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567206">KStrSupportHandler</a>
+
+
+
+<a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
 
 
 

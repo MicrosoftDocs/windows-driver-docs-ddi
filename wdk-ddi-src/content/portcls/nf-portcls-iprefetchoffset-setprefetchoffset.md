@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPreFetchOffset.SetPreFetchOffset
 product: Windows
 targetos: Windows
@@ -108,7 +108,7 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_position.md">KSAUDIO_POSITION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536727">IMiniportWavePciStream::GetPosition</a>
 
 
 
@@ -116,15 +116,15 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 
 
-<a href="..\portcls\nn-portcls-iprefetchoffset.md">IPreFetchOffset</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536727">IMiniportWavePciStream::GetPosition</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksaudio_position.md">KSAUDIO_POSITION</a>
+
+
+
+<a href="..\portcls\nn-portcls-iprefetchoffset.md">IPreFetchOffset</a>
 
 
 

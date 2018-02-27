@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni.FilterGraphics
 product: Windows
 targetos: Windows
@@ -210,7 +210,15 @@ For more information about customizing Unidrv's rendering operations, see <a hre
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a>
+
+
+
 <a href="..\printoem\nf-printoem-oemfiltergraphics.md">OEMFilterGraphics</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 
@@ -219,14 +227,6 @@ For more information about customizing Unidrv's rendering operations, see <a hre
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 

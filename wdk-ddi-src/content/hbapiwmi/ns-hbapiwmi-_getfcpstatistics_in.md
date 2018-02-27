@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	GetFCPStatistics_IN
 product: Windows
 targetos: Windows
@@ -83,11 +83,11 @@ The WMI tool suite generates a declaration of the GetFCPStatistics_IN structure 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
-
-
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBAScsiID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
 
 
 

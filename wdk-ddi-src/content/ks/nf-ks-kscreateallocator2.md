@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ks.h
-apiname:
+api_name:
 -	KsCreateAllocator2
 product: Windows
 targetos: Windows
@@ -106,15 +106,15 @@ This is a new version of the <a href="..\ks\nf-ks-kscreateallocator.md">KsCreate
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
-
-
-
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 
 
 <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
+
+
+
+<a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
 
 
 

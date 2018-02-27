@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: IRQL <= DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	storport.lib
 -	storport.dll
-apiname:
+api_name:
 -	StorPortPoFxActivateComponent
 product: Windows
 targetos: Windows
@@ -203,7 +203,7 @@ Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequ
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
 
@@ -211,7 +211,7 @@ Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequ
 
 
 
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
 
 
 

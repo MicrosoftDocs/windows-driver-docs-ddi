@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisSetTimerObject
 product: Windows
 targetos: Windows
@@ -151,7 +151,8 @@ To cancel a timer, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+<a href="..\ndis\nf-ndis-ndissetcoalescabletimerobject.md">
+   NdisSetCoalescableTimerObject</a>
 
 
 
@@ -159,7 +160,7 @@ To cancel a timer, call the
 
 
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 
 
@@ -171,8 +172,7 @@ To cancel a timer, call the
 
 
 
-<a href="..\ndis\nf-ndis-ndissetcoalescabletimerobject.md">
-   NdisSetCoalescableTimerObject</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 
 

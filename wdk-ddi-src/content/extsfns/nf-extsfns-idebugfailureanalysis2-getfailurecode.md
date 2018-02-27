@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	IDebugFailureAnalysis2.GetFailureCode
 product: Windows
 targetos: Windows
@@ -87,11 +87,11 @@ When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562112">
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983415">GetFailureClass</a>
+
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -99,11 +99,11 @@ When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562112">
 
 
 
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983417">GetFailureType</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983415">GetFailureClass</a>
 
 
 

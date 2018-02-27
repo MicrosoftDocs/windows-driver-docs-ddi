@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	sti.h
-apiname:
+api_name:
 -	IStiDevice.RawReadData
 product: Windows
 targetos: Windows
@@ -109,11 +109,11 @@ A call to <b>IStiDevice::RawReadData</b> must be preceded by a call to <a href="
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543758">IStiDevice::RawReadCommand</a>
+
+
+
+<a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
 
 
 

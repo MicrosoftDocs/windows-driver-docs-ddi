@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsGetDevice
 product: Windows
 targetos: Windows
@@ -95,15 +95,7 @@ Minidrivers typically do not call this function directly. There are a number of 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetdevice.md">KsFilterGetDevice</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-
-
-<a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>
+<a href="..\ks\nf-ks-ksfilterfactorygetdevice.md">KsFilterFactoryGetDevice</a>
 
 
 
@@ -115,11 +107,19 @@ Minidrivers typically do not call this function directly. There are a number of 
 
 
 
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
+
+<a href="..\ks\nf-ks-ksfiltergetdevice.md">KsFilterGetDevice</a>
+
+
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterfactorygetdevice.md">KsFilterFactoryGetDevice</a>
+<a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>
 
 
 

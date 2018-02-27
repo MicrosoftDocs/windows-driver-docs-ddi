@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib; OneCoreUAP.lib on Windows 10
 req.dll: NtDll.dll (user mode); Kernel32.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtDll.dll
 -	Kernel32.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-rtlsupport-l1-1-0.dll
 -	API-MS-Win-Core-rtlsupport-l1-2-0.dll
-apiname:
+api_name:
 -	RtlCompareMemory
 product: Windows
 targetos: Windows

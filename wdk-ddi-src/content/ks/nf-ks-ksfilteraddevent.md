@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KsFilterAddEvent
 product: Windows
 targetos: Windows
@@ -102,11 +102,11 @@ This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">
 
 
 
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
-
-
-
 <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
 
 

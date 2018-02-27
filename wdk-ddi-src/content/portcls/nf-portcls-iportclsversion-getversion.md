@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortClsVersion.GetVersion
 product: Windows
 targetos: Windows
@@ -316,11 +316,11 @@ The version numbers in the preceding table are listed in roughly chronological o
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportclsversion.md">IPortClsVersion</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
 
 
 

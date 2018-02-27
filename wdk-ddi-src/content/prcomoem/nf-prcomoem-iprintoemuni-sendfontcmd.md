@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni.SendFontCmd
 product: Windows
 targetos: Windows
@@ -166,11 +166,19 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a>
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
 
 
 <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+
+
+
+<a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 
@@ -179,14 +187,6 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	windot11.h
-apiname:
+api_name:
 -	DOT11_BSS_ENTRY
 product: Windows
 targetos: Windows
@@ -241,24 +241,6 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_bss_entry_phy_specific_info.md">
-   DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms893670.aspx">
-   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
-
-
-
 <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
 
 
@@ -271,7 +253,25 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/ms893670.aspx">
+   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>
+
+
+
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_bss_entry_phy_specific_info.md">
+   DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
 
 
 

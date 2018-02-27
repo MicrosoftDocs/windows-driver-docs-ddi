@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsFilterFactoryAddCreateItem
 product: Windows
 targetos: Windows
@@ -113,7 +113,7 @@ For more information, see <a href="https://msdn.microsoft.com/666d6efb-93ec-43f3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocateobjectcreateitem.md">KsAllocateObjectCreateItem</a>
+<a href="..\ks\nf-ks-ksfreeobjectcreateitem.md">KsFreeObjectCreateItem</a>
 
 
 
@@ -121,11 +121,11 @@ For more information, see <a href="https://msdn.microsoft.com/666d6efb-93ec-43f3
 
 
 
-<a href="..\ks\nf-ks-ksaddobjectcreateitemtoobjectheader.md">KsAddObjectCreateItemToObjectHeader</a>
-
-
-
 <a href="..\ks\nf-ks-ksqueryobjectcreateitem.md">KsQueryObjectCreateItem</a>
+
+
+
+<a href="..\ks\nf-ks-ksaddobjectcreateitemtoobjectheader.md">KsAddObjectCreateItemToObjectHeader</a>
 
 
 
@@ -133,7 +133,7 @@ For more information, see <a href="https://msdn.microsoft.com/666d6efb-93ec-43f3
 
 
 
-<a href="..\ks\nf-ks-ksfreeobjectcreateitem.md">KsFreeObjectCreateItem</a>
+<a href="..\ks\nf-ks-ksallocateobjectcreateitem.md">KsAllocateObjectCreateItem</a>
 
 
 

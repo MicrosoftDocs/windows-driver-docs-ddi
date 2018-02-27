@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	MmAllocatePagesForMdl
 product: Windows
 targetos: Windows
@@ -153,6 +153,10 @@ In Windows 2000 and later versions of Windows, the maximum amount of memory that
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
+
+
+
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
@@ -162,10 +166,6 @@ In Windows 2000 and later versions of Windows, the maximum amount of memory that
 
 
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
 
 
 

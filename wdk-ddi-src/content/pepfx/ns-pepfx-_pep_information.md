@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pepfx.h
-apiname:
+api_name:
 -	PEP_INFORMATION
 product: Windows
 targetos: Windows
@@ -113,7 +113,11 @@ The <i>PepInformation</i> parameter to the <a href="..\pepfx\nf-pepfx-pofxregist
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186625">AcceptAcpiNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
+
+
+
+<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
 
 
 
@@ -121,11 +125,7 @@ The <i>PepInformation</i> parameter to the <a href="..\pepfx\nf-pepfx-pofxregist
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
-
-
-
-<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186625">AcceptAcpiNotification</a>
 
 
 

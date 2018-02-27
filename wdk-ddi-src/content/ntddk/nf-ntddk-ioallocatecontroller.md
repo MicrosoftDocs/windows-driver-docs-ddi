@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoAllocateController
 product: Windows
 targetos: Windows
@@ -112,6 +112,10 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">Contr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
 
 
@@ -121,10 +125,6 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">Contr
 
 
 <a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
 
 
 

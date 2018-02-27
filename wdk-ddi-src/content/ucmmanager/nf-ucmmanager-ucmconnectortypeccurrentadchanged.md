@@ -29,15 +29,15 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	UcmCxstub.lib
 -	UcmCxstub.dll
-apiname:
+api_name:
 -	UcmConnectorTypeCCurrentAdChanged
 product: Windows
 targetos: Windows
@@ -100,7 +100,7 @@ When using a Type-C connector for charging, the partner connector sends a curren
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
+<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypeccurrentadchanged.md">UcmConnectorTypeCCurrentAdChanged</a>
 
 
 
@@ -108,7 +108,7 @@ When using a Type-C connector for charging, the partner connector sends a curren
 
 
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypeccurrentadchanged.md">UcmConnectorTypeCCurrentAdChanged</a>
+<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 
 

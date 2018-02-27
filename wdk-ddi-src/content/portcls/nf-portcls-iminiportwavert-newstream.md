@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IMiniportWaveRT.NewStream
 product: Windows
 targetos: Windows
@@ -134,11 +134,11 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
-
-
-
-IMiniportWaveRTStream
 
 
 
@@ -146,7 +146,7 @@ IMiniportWaveRTStream
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+IMiniportWaveRTStream
 
 
 

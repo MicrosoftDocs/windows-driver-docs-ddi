@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wlclient.h
-apiname:
+api_name:
 -	DOT11_BSS_LIST
 product: Windows
 targetos: Windows
@@ -112,6 +112,11 @@ The 802.11 Beacon and Probe Response frames within the
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
    Dot11ExtIhvPerformPreAssociate</a>
 
@@ -119,11 +124,6 @@ The 802.11 Beacon and Probe Response frames within the
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
    Dot11ExtIhvCreateDiscoveryProfiles</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
 
 
 

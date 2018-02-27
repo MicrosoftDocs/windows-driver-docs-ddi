@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iscsicfg.h
-apiname:
+api_name:
 -	MSiSCSI_NICConfig
 product: Windows
 targetos: Windows
@@ -113,11 +113,11 @@ Initiators should register each instance of the MSiSCSI_NICConfig class by using
 
 ## -see-also
 
-<a href="..\iscsicfg\ne-iscsicfg-piscsi_nic_linkstate.md">ISCSI_NIC_LINKSTATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>
+
+
+
+<a href="..\iscsicfg\ne-iscsicfg-piscsi_nic_linkstate.md">ISCSI_NIC_LINKSTATE</a>
 
 
 

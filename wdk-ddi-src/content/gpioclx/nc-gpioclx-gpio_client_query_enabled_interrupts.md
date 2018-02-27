@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Gpioclx.h
-apiname:
+api_name:
 -	CLIENT_QueryEnabledInterrupts
 product: Windows
 targetos: Windows
@@ -149,6 +149,10 @@ The GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS function type is defined in the Gpioclx
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265185">GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
@@ -157,15 +161,11 @@ The GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS function type is defined in the Gpioclx
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265185">GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 

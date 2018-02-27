@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntdddisk.h
-apiname:
+api_name:
 -	IOCTL_DISK_RESET_SNAPSHOT_INFO
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hidclass.h
-apiname:
+api_name:
 -	HID_COLLECTION_INFORMATION
 product: Windows
 targetos: Windows
@@ -113,7 +113,7 @@ Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_get_co
 
 ## -see-also
 
-<a href="..\hidclass\ns-hidclass-_hid_collection_information.md">HID_COLLECTION_INFORMATION</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
 
 
 
@@ -121,7 +121,7 @@ Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_get_co
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
+<a href="..\hidclass\ns-hidclass-_hid_collection_information.md">HID_COLLECTION_INFORMATION</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KsGateInitializeAnd
 product: Windows
 targetos: Windows
@@ -100,7 +100,11 @@ The next gate (following <i>AndGate</i>) must be an OR gate, whether it is speci
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 
@@ -108,15 +112,11 @@ The next gate (following <i>AndGate</i>) must be an OR gate, whether it is speci
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
 
 
 
 <a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 

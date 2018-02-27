@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddpar.h
-apiname:
+api_name:
 -	PAR_SET_INFORMATION
 product: Windows
 targetos: Windows
@@ -83,7 +83,7 @@ This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_set_info
 
 ## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a>
+<a href="..\ntddpar\ns-ntddpar-_par_query_information.md">PAR_QUERY_INFORMATION</a>
 
 
 
@@ -91,7 +91,7 @@ This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_set_info
 
 
 
-<a href="..\ntddpar\ns-ntddpar-_par_query_information.md">PAR_QUERY_INFORMATION</a>
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a>
 
 
 

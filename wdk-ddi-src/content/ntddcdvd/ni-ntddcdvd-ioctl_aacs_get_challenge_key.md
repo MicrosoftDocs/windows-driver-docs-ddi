@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddcdvd.h
-apiname:
+api_name:
 -	IOCTL_AACS_GET_CHALLENGE_KEY
 product: Windows
 targetos: Windows

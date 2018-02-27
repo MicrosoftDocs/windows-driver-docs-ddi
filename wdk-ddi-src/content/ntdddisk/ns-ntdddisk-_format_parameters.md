@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntdddisk.h
-apiname:
+api_name:
 -	FORMAT_PARAMETERS
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ Indicates the number of the head where the formatting should end.
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>
+
+
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
 
 
 

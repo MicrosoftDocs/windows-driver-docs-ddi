@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddmmc.h
-apiname:
+api_name:
 -	FEATURE_DATA_DVD_PLUS_R
 product: Windows
 targetos: Windows

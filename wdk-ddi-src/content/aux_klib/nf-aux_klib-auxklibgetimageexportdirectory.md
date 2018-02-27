@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Aux_Klib.lib
 -	Aux_Klib.dll
-apiname:
+api_name:
 -	AuxKlibGetImageExportDirectory
 product: Windows
 targetos: Windows

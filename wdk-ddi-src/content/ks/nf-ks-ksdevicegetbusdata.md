@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsDeviceGetBusData
 product: Windows
 targetos: Windows
@@ -119,11 +119,11 @@ To ensure compatibility, minidriver writers may want to restrict use of <b>KsDev
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdevicesetbusdata.md">KsDeviceSetBusData</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\ks\nf-ks-ksdevicesetbusdata.md">KsDeviceSetBusData</a>
 
 
 

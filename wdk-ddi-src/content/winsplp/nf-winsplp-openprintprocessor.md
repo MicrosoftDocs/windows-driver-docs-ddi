@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Nwprint.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Nwprint.lib
 -	Nwprint.dll
-apiname:
+api_name:
 -	OpenPrintProcessor
 product: Windows
 targetos: Windows
@@ -106,7 +106,7 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 
 
-<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+<a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a>
 
 
 
@@ -114,7 +114,7 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 
 
-<a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a>
+<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
 
 
 

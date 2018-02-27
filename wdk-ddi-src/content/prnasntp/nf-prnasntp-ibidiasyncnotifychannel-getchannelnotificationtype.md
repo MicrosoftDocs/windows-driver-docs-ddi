@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prnasntp.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Prnasntp.h
-apiname:
+api_name:
 -	IBidiAsyncNotifyChannel.GetChannelNotificationType
 product: Windows
 targetos: Windows

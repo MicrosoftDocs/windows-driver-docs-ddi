@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Pmi.h
-apiname:
+api_name:
 -	IOCTL_PMI_REGISTER_EVENT_NOTIFY
 product: Windows
 targetos: Windows
@@ -153,19 +153,19 @@ For more information about the <a href="https://msdn.microsoft.com/80a96083-4de9
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
-
-
-
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
 
 
 

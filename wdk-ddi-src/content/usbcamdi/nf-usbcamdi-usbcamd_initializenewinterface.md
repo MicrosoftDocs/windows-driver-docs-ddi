@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	usbcamd2.lib
 -	usbcamd2.dll
-apiname:
+api_name:
 -	USBCAMD_InitializeNewInterface
 product: Windows
 targetos: Windows
@@ -162,11 +162,11 @@ The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera 
 
 ## -see-also
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568185">SRB_INITIALIZE_DEVICE</a>
+
+
+
+<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
 
 
 

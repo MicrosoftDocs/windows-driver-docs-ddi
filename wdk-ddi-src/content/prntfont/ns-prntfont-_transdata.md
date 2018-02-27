@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	prntfont.h
-apiname:
+api_name:
 -	TRANSDATA
 product: Windows
 targetos: Windows
@@ -248,11 +248,11 @@ A .gtt file's TRANSDATA structure array, which contains glyph mapping informatio
 
 
 
-<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
 
 
 

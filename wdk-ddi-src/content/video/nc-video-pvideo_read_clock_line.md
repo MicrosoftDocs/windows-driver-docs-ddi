@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	ReadClockLine
 product: Windows
 targetos: Windows
@@ -96,7 +96,7 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
+<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
 
 
 
@@ -104,7 +104,7 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 
 
-<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
 
 
@@ -112,11 +112,11 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 
 
-<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+
+
+<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
 
 
 

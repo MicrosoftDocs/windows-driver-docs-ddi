@@ -2,7 +2,7 @@
 UID: TP:_windowsdriverandtechnologies
 ms.assetid: 36bb2d05-4309-397e-916f-f7f16d601876
 ms.author: windowsdriverdev
-ms.date: 01/18/18
+ms.date: 02/26/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,7 @@ Welcome to the DDI Ref. This site contains documentation for the following techn
 * [Storage](_storage/index.md)
 * [Streaming media devices](_stream/index.md)
 * [Universal Serial Bus (USB)](_usbref/index.md)
+* [Windows Device Testing Framework (WDTF)](_dtf/index.md)
 * [Windows Driver Framework](_wdf/index.md)
 * [Windows Hardware Error Architecture (WHEA)](_whea/index.md)
 * [Windows kernel](_kernel/index.md)

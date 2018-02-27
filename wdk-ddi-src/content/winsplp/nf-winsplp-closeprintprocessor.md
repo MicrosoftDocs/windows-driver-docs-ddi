@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Nwprint.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Nwprint.lib
 -	Nwprint.dll
-apiname:
+api_name:
 -	ClosePrintProcessor
 product: Windows
 targetos: Windows

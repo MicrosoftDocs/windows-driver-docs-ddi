@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtRemoteTyped.GetFieldOffset
 product: Windows
 targetos: Windows
@@ -83,15 +83,15 @@ The name of the member whose offset is requested.  Sub-members can be specified 
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
 <a href="..\wdbgexts\nf-wdbgexts-getfieldoffset.md">GetFieldOffset</a>
 
 
 
 <b>IDebugSymbols::GetFieldOffset</b>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 
 

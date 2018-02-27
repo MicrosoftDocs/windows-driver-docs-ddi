@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni3.DownloadPattern
 product: Windows
 targetos: Windows
@@ -107,11 +107,11 @@ You should implement this method if you want your rendering plug-in, rather than
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556273">DrvRealizeBrush</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemuni3.md">IPrintOemUni3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556273">DrvRealizeBrush</a>
 
 
 

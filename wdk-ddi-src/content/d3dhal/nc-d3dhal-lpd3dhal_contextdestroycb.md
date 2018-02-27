@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3dContextDestroy
 product: Windows
 targetos: Windows
@@ -134,7 +134,7 @@ If the driver cached the pointer to the <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a>
 
 
 
@@ -142,11 +142,11 @@ If the driver cached the pointer to the <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a>
 
 
 

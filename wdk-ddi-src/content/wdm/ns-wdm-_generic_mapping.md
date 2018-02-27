@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	GENERIC_MAPPING
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ For more information about generic access rights, see the reference page for <b>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlmapgenericmask.md">RtlMapGenericMask</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlmapgenericmask.md">RtlMapGenericMask</a>
 
 
 

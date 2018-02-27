@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSystemObjects.GetCurrentThreadDataOffset
 -	IDebugSystemObjects2.GetCurrentThreadDataOffset
 -	IDebugSystemObjects3.GetCurrentThreadDataOffset

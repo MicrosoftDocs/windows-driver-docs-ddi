@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DHAL_DP2SETPALETTE
 product: Windows
 targetos: Windows
@@ -243,7 +243,7 @@ The number of D3DHAL_DP2SETPALETTE structures to follow is specified by the <b>w
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_SETPALETTE
 
 
 
@@ -251,7 +251,7 @@ The number of D3DHAL_DP2SETPALETTE structures to follow is specified by the <b>w
 
 
 
-D3DDP2OP_SETPALETTE
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

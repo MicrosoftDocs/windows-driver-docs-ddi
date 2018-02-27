@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	OBJECT_INFORMATION_CLASS
 product: Windows
 targetos: Windows
@@ -80,11 +80,11 @@ A <a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryobject.md">ZwQueryObject</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryobject.md">ZwQueryObject</a>
 
 
 

@@ -67,6 +67,7 @@
 ### [RILEMERGENCYNUMBERCATEGORY enumeration](../rilapitypes/ne-rilapitypes-rilemergencynumbercategory.md)
 ### [RILEMERGENCYNUMBERPARAMMASK enumeration](../rilapitypes/ne-rilapitypes-rilemergencynumberparammask.md)
 ### [RILEQUIPMENTSTATE enumeration](../rilapitypes/ne-rilapitypes-rilequipmentstate.md)
+### [RILERRORCODES enumeration](../rilapitypes/ne-rilapitypes-rilerrorcodes.md)
 ### [RILERRORDETAILSPARAMMASK enumeration](../rilapitypes/ne-rilapitypes-rilerrordetailsparammask.md)
 ### [RILEUTRAMRLPARAMMASK enumeration](../rilapitypes/ne-rilapitypes-rileutramrlparammask.md)
 ### [RILEVDOKIND enumeration](../rilapitypes/ne-rilapitypes-rilevdokind.md)

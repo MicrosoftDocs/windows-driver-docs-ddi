@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbbusif.h
-apiname:
+api_name:
 -	USBC_DEVICE_CONFIGURATION_INTERFACE_V1
 product: Windows
 targetos: Windows
@@ -117,15 +117,15 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3cf4e9f2-ea33-491f-94af-62d2afacc899">Customizing Enumeration of Interface Collections for Composite Devices</a>
-
-
-
 <a href="..\usbbusif\nc-usbbusif-usbc_start_device_callback.md">USBC_START_DEVICE_CALLBACK</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/3cf4e9f2-ea33-491f-94af-62d2afacc899">Customizing Enumeration of Interface Collections for Composite Devices</a>
 
 
 

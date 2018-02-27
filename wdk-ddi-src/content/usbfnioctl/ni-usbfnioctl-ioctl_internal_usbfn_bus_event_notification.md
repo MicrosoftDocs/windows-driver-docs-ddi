@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbfnioctl.h
-apiname:
+api_name:
 -	IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 product: Windows
 targetos: Windows
@@ -120,11 +120,11 @@ UFX completes this request in response to an event on the bus. It is recommended
 
 ## -see-also
 
-<a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>
-
-
-
 <a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_NOTIFICATION</a>
+
+
+
+<a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>
 
 
 

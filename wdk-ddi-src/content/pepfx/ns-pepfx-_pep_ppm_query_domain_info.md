@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Pepfx.h
-apiname:
+api_name:
 -	PEP_PPM_QUERY_DOMAIN_INFO
 product: Windows
 targetos: Windows

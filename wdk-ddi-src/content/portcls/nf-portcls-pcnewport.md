@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname:
+api_name:
 -	PcNewPort
 product: Windows
 targetos: Windows
@@ -191,15 +191,15 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 
 
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+
+
+
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
-
-
-
-<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
 
 
 
@@ -207,11 +207,11 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 
 
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	WriteControlSpace
 product: Windows
 targetos: Windows
@@ -111,11 +111,11 @@ This function can only be called in kernel-mode debugging.
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace64.md">ReadControlSpace64</a>
-
-
-
 <a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace.md">ReadControlSpace</a>
+
+
+
+<a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace64.md">ReadControlSpace64</a>
 
 
 

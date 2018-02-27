@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Fwpkclnt.lib
 -	Fwpkclnt.dll
-apiname:
+api_name:
 -	FwpsStreamContinue0
 product: Windows
 targetos: Windows
@@ -169,7 +169,7 @@ A callout driver calls the
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 
 
@@ -177,8 +177,7 @@ A callout driver calls the
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
-   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -186,7 +185,8 @@ A callout driver calls the
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
+   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 

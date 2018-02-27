@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Tape.lib
 -	Tape.dll
-apiname:
+api_name:
 -	TapeClassAllocateSrbBuffer
 product: Windows
 targetos: Windows

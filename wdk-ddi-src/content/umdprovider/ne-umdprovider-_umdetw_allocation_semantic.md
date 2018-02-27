@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	umdprovider.h
-apiname:
+api_name:
 -	UMDETW_ALLOCATION_SEMANTIC
 product: Windows
 targetos: Windows

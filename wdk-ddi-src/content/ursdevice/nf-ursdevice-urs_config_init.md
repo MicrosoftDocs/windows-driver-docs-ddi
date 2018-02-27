@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ursdevice.h
-apiname:
+api_name:
 -	URS_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
-
-
-
 <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
+
+
+
+<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Nfccxstub.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	nfccxstub.lib
 -	nfccxstub.dll
-apiname:
+api_name:
 -	NFC_CX_CLIENT_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -90,11 +90,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 

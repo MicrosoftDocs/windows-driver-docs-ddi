@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	GetCurrentProcessAddr
 product: Windows
 targetos: Windows
@@ -111,11 +111,11 @@ For details on the KPROCESS and PEB structures, see <i>Microsoft Windows Interna
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>
-
-
-
 <a href="..\wdbgexts\nf-wdbgexts-getpebaddress.md">GetPebAddress</a>
+
+
+
+<a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>
 
 
 

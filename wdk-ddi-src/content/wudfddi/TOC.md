@@ -2,6 +2,8 @@
 ## [Wudfddi.h](index.md)
 ### [_DEVICE_POWER_STATE enumeration](../wudfddi/ne-wudfddi-_device_power_state.md)
 ### [_SECURITY_IMPERSONATION_LEVEL enumeration](../wudfddi/ne-wudfddi-_security_impersonation_level.md)
+### [_WDF_INTERRUPT_POLICY enumeration](../wudfddi/ne-wudfddi-_wdf_interrupt_policy.md)
+### [_WDF_INTERRUPT_PRIORITY enumeration](../wudfddi/ne-wudfddi-_wdf_interrupt_priority.md)
 ### [__MIDL___MIDL_itf_wudfddi_0000_0000_0001 enumeration](../wudfddi/ne-wudfddi-__midl___midl_itf_wudfddi_0000_0000_0001.md)
 ### [IDriverEntry::OnDeinitialize method](../wudfddi/nf-wudfddi-idriverentry-ondeinitialize.md)
 ### [IDriverEntry::OnDeviceAdd method](../wudfddi/nf-wudfddi-idriverentry-ondeviceadd.md)

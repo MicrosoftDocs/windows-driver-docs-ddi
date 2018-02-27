@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	IOCTL_KS_ENABLE_EVENT
 product: Windows
 targetos: Windows
@@ -119,15 +119,7 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-
-
-
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
+<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
 
 
 
@@ -135,11 +127,15 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 
 
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
 
 
 
-<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
 
 
 
@@ -148,6 +144,10 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+
+
+<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
 
 
 

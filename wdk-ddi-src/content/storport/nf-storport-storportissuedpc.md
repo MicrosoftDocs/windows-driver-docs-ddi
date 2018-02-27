@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortIssueDpc
 product: Windows
 targetos: Windows
@@ -113,15 +113,15 @@ If a miniport driver has multiple work-items that must be performed by the same 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
-
-
-
 <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
 
 
 
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
 
 
 

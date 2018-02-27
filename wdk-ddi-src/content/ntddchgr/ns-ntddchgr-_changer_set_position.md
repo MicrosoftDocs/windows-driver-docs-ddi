@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddchgr.h
-apiname:
+api_name:
 -	CHANGER_SET_POSITION
 product: Windows
 targetos: Windows
@@ -86,11 +86,7 @@ Indicates, when <b>TRUE</b>, that the <b>Transport</b> should be flipped. When <
 
 ## -see-also
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
 
 
 
@@ -98,7 +94,11 @@ Indicates, when <b>TRUE</b>, that the <b>Transport</b> should be flipped. When <
 
 
 
-<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>
 
 
 

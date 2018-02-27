@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddscsi.h
-apiname:
+api_name:
 -	IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX
 product: Windows
 targetos: Windows
@@ -139,11 +139,11 @@ The <b>Information</b> field is set to the number of bytes returned in the outpu
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_mpio_pass_through_path_direct_ex.md">MPIO_PASS_THROUGH_PATH_DIRECT_EX</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_mpio_pass_through_path_direct_ex.md">MPIO_PASS_THROUGH_PATH_DIRECT_EX</a>
 
 
 

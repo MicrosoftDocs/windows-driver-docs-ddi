@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_MODEM_CONFIG_INFO
 product: Windows
 targetos: Windows
@@ -81,15 +81,7 @@ The modem's configuration mode. For a list of defined values, see <a href="..\ww
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-config-info">OID_WWAN_MODEM_CONFIG_INFO</a>
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-modem-config-info">NDIS_STATUS_WWAN_MODEM_CONFIG_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a>
 
 
 
@@ -97,7 +89,15 @@ The modem's configuration mode. For a list of defined values, see <a href="..\ww
 
 
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-config-info">OID_WWAN_MODEM_CONFIG_INFO</a>
+
+
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_modem_config_info.md">NDIS_WWAN_MODEM_CONFIG_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a>
 
 
 

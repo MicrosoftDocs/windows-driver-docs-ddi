@@ -2,7 +2,7 @@
 UID: TP:ifsk
 ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
 ms.author: windowsdriverdev
-ms.date: 01/18/18
+ms.date: 02/26/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -27,6 +27,7 @@ To develop Installable file system, you need these headers:
  * [ntddk.h](..\ntddk\index.md)
  * [ntifs.h](..\ntifs\index.md)
  * [prefix.h](..\prefix\index.md)
+ * [rx.h](..\rx\index.md)
  * [rxce.h](..\rxce\index.md)
  * [rxcontx.h](..\rxcontx\index.md)
  * [rxlog.h](..\rxlog\index.md)
@@ -421,6 +422,7 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [FsRtlIsPagingFile function](..\ntifs\nf-ntifs-fsrtlispagingfile.md) | The FsRtlIsPagingFile routine determines whether a given file is a paging file. |
 | [FsRtlIsSystemPagingFile function](..\ntifs\nf-ntifs-fsrtlissystempagingfile.md) | The FsRtlIsSystemPagingFile routine determines whether a given file is currently a system paging file. |
 | [FsRtlIsTotalDeviceFailure function](..\ntddk\nf-ntddk-fsrtlistotaldevicefailure.md) | The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred. |
+| [FsRtlIsTotalDeviceFailure function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlistotaldevicefailure.md) | The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred. |
 | [FsRtlIssueDeviceIoControl function](..\ntifs\nf-ntifs-fsrtlissuedeviceiocontrol.md) | The FsRtlIssueDeviceIoControl routine sends a synchronous device I/O control request to a target device object. |
 | [FsRtlLogCcFlushError function](..\ntifs\nf-ntifs-fsrtllogccflusherror.md) | The FsRtlLogCcFlushError routine logs a lost delayed-write error and displays a dialog box to the user. |
 | [FsRtlLookupLargeMcbEntry function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry~r6.md) | Given a virtual block number (VBN) and a map control block (MCB), the FsRtlLookupLargeMcbEntry routine searches the MCB for mapping information corresponding to the specified VBN. |
@@ -525,6 +527,7 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [IoGetRequestorSessionId function](..\ntifs\nf-ntifs-iogetrequestorsessionid.md) | The IoGetRequestorSessionId routine returns the session ID for the process that originally requested a given I/O operation. |
 | [IoGetSiloParameters function](..\ntddk\nf-ntddk-iogetsiloparameters.md) | This routine indicates if a file is within a Container context. |
 | [IoGetTopLevelIrp function](..\ntifs\nf-ntifs-iogettoplevelirp.md) | The IoGetTopLevelIrp routine returns the value of the TopLevelIrp field of the current thread. |
+| [IoGetTopLevelIrp function](..\wdm\nf-wdm-iogettoplevelirp.md) | The IoGetTopLevelIrp routine returns the value of the TopLevelIrp field of the current thread. |
 | [IoGetTransactionParameterBlock function](..\ntddk\nf-ntddk-iogettransactionparameterblock.md) | The IoGetTransactionParameterBlock routine returns the transaction parameter block for a transacted file operation. |
 | [IoInitializeDriverCreateContext function](..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md) | The IoInitializeDriverCreateContext routine initializes a caller-allocated variable of type IO_DRIVER_CREATE_CONTEXT. |
 | [IoInitializePriorityInfo function](..\ntifs\nf-ntifs-ioinitializepriorityinfo.md) | The IoInitializePriorityInfo routine initializes a structure of type IO_PRIORITY_INFO. |
@@ -549,6 +552,7 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [IoSetFileOrigin function](..\ntddk\nf-ntddk-iosetfileorigin.md) | The IoSetFileOrigin routine specifies whether a given file object is for a remote create request. |
 | [IoSetInformation function](..\ntifs\nf-ntifs-iosetinformation.md) | Reserved for system use. |
 | [IoSetTopLevelIrp function](..\ntifs\nf-ntifs-iosettoplevelirp.md) | The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread. |
+| [IoSetTopLevelIrp function](..\wdm\nf-wdm-iosettoplevelirp.md) | The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread. |
 | [IoSynchronousPageWrite function](..\ntifs\nf-ntifs-iosynchronouspagewrite.md) | Reserved for system use. |
 | [IoThreadToProcess function](..\ntifs\nf-ntifs-iothreadtoprocess.md) | The IoThreadToProcess routine returns a pointer to the process for the specified thread. |
 | [IoUnregisterFileSystem function](..\ntifs\nf-ntifs-iounregisterfilesystem.md) | The IoUnregisterFileSystem routine removes a file system's control device object from the global file system queue. |
@@ -643,7 +647,6 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [RtlEqualPrefixSid function](..\ntifs\nf-ntifs-rtlequalprefixsid.md) | The RtlEqualPrefixSid routine determines whether two security-identifier (SID) prefixes are equal. An SID prefix is the entire SID except for the last subauthority value. |
 | [RtlEqualSid function](..\ntifs\nf-ntifs-rtlequalsid.md) | The RtlEqualSid routine determines whether two security identifier (SID) values are equal. Two SIDs must match exactly to be considered equal. |
 | [RtlFillMemoryUlong function](..\ntifs\nf-ntifs-rtlfillmemoryulong.md) | The RtlFillMemoryUlong routine fills the specified range of memory with one or more repetitions of a ULONG value. |
-| [RtlFillMemoryUlonglong function](..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md) | The RtlFillMemoryUlonglong routine fills a given range of memory with one or more repetitions of a given ULONGLONG value. |
 | [RtlFindUnicodePrefix function](..\ntifs\nf-ntifs-rtlfindunicodeprefix.md) | The RtlFindUnicodePrefix routine searches for the best match for a given Unicode file name in a prefix table. |
 | [RtlFlushNonVolatileMemory function](..\ntddk\nf-ntddk-rtlflushnonvolatilememory.md) | The routine RtlFlushNonVolatileMemory optimally flushes the given non-volatile memory region. |
 | [RtlFlushNonVolatileMemoryRanges function](..\ntddk\nf-ntddk-rtlflushnonvolatilememoryranges.md) | The routine RtlFlushNonVolatileMemoryRanges optimally flushes the given non-volatile memory regions. |
@@ -848,6 +851,7 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [SeAuditingFileOrGlobalEvents function](..\ntifs\nf-ntifs-seauditingfileorglobalevents.md) | The SeAuditingFileOrGlobalEvents routine determines whether file or global events are currently being audited. |
 | [SeAuditingHardLinkEvents function](..\ntifs\nf-ntifs-seauditinghardlinkevents.md) | Reserved for system use. |
 | [SeCaptureSubjectContext function](..\ntifs\nf-ntifs-secapturesubjectcontext.md) | The SeCaptureSubjectContext routine captures the security context of the calling thread for access validation and auditing. |
+| [SeCaptureSubjectContext function](..\wdm\nf-wdm-secapturesubjectcontext.md) | The SeCaptureSubjectContext routine captures the security context of the calling thread for access validation and auditing. |
 | [SeCreateClientSecurity function](..\ntifs\nf-ntifs-secreateclientsecurity.md) | The SeCreateClientSecurity routine initializes a security client context structure with the information needed to call SeImpersonateClientEx. |
 | [SeCreateClientSecurityFromSubjectContext function](..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md) | The SeCreateClientSecurityFromSubjectContext routine retrieves the access token for a security subject context and uses the result to initialize a security client context with the information needed to call SeImpersonateClientEx. |
 | [SeDeleteObjectAuditAlarm function](..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md) | The SeDeleteObjectAuditAlarm routine generates audit and alarm messages for an object that is marked for deletion. |
@@ -855,6 +859,7 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [SeImpersonateClient function](..\ntifs\nf-ntifs-seimpersonateclient.md) | Obsolete. |
 | [SeImpersonateClientEx function](..\ntifs\nf-ntifs-seimpersonateclientex.md) | The SeImpersonateClientEx routine causes a thread to impersonate a user. |
 | [SeLockSubjectContext function](..\ntifs\nf-ntifs-selocksubjectcontext.md) | The SeLockSubjectContext routine locks the primary and impersonation tokens of a captured subject context. |
+| [SeLockSubjectContext function](..\wdm\nf-wdm-selocksubjectcontext.md) | The SeLockSubjectContext routine locks the primary and impersonation tokens of a captured subject context. |
 | [SeMarkLogonSessionForTerminationNotification function](..\ntifs\nf-ntifs-semarklogonsessionforterminationnotification.md) | The SeMarkLogonSessionForTerminationNotification routine marks a logon session so that the caller's registered callback routine is called when the logon session terminates. |
 | [SeOpenObjectAuditAlarm function](..\ntifs\nf-ntifs-seopenobjectauditalarm.md) | The SeOpenObjectAuditAlarm routine generates audit and alarm messages when an attempt is made to open an object. |
 | [SeOpenObjectForDeleteAuditAlarm function](..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md) | The SeOpenObjectForDeleteAuditAlarm routine generates audit and alarm messages when an attempt is made to open an object for deletion. |
@@ -865,6 +870,7 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [SeQuerySessionIdToken function](..\ntifs\nf-ntifs-sequerysessionidtoken.md) | Reserved for system use. |
 | [SeRegisterLogonSessionTerminatedRoutine function](..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md) | The SeRegisterLogonSessionTerminatedRoutine routine registers a callback routine to be called when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted. |
 | [SeReleaseSubjectContext function](..\ntifs\nf-ntifs-sereleasesubjectcontext.md) | The SeReleaseSubjectContext routine releases a subject security context captured by an earlier call to SeCaptureSubjectContext. |
+| [SeReleaseSubjectContext function](..\wdm\nf-wdm-sereleasesubjectcontext.md) | The SeReleaseSubjectContext routine releases a subject security context captured by an earlier call to SeCaptureSubjectContext. |
 | [SeSetAccessStateGenericMapping function](..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md) | The SeSetAccessStateGenericMapping routine sets the generic mapping field of an ACCESS_STATE structure. |
 | [SeSetSecurityDescriptorInfo function](..\ntifs\nf-ntifs-sesetsecuritydescriptorinfo.md) | The SeSetSecurityDescriptorInfo routine sets an object's security descriptor. |
 | [SeSetSecurityDescriptorInfoEx function](..\ntifs\nf-ntifs-sesetsecuritydescriptorinfoex.md) | The SeSetSecurityDescriptorInfoEx routine modifies an object's security descriptor and specifies whether the object supports automatic inheritance of access control entries (ACE). |
@@ -876,6 +882,7 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [SeTokenSetNoChildProcessRestricted function](..\ntifs\nf-ntifs-setokensetnochildprocessrestricted.md) | The SeTokenSetNoChildProcessRestricted routine sets the TOKEN_AUDIT_NO_CHILD_PROCESS or TOKEN_AUDIT_NO_CHILD_PROCESS flags in the token. |
 | [SeTokenType function](..\ntifs\nf-ntifs-setokentype.md) | Reserved for system use. |
 | [SeUnlockSubjectContext function](..\ntifs\nf-ntifs-seunlocksubjectcontext.md) | The SeUnlockSubjectContext routine unlocks the tokens of a captured subject context that were locked by a call to SeLockSubjectContext. |
+| [SeUnlockSubjectContext function](..\wdm\nf-wdm-seunlocksubjectcontext.md) | The SeUnlockSubjectContext routine unlocks the tokens of a captured subject context that were locked by a call to SeLockSubjectContext. |
 | [SeUnregisterLogonSessionTerminatedRoutine function](..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md) | The SeUnregisterLogonSessionTerminatedRoutine routine unregisters a callback routine that was registered by an earlier call to SeRegisterLogonSessionTerminatedRoutine. |
 | [SecLookupAccountName function](..\ntifs\nf-ntifs-seclookupaccountname.md) | SecLookupAccountName accepts an account as input and retrieves a security identifier (SID) for the account and the name of the domain on which the account was found. |
 | [SecLookupAccountSid function](..\ntifs\nf-ntifs-seclookupaccountsid.md) | SecLookupAccountSid accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found. |
@@ -883,9 +890,9 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [SecMakeSPN function](..\ntifs\nf-ntifs-secmakespn.md) | SecMakeSPN creates a service provider name string that can be used when communicating with specific security service providers. |
 | [SecMakeSPNEx function](..\ntifs\nf-ntifs-secmakespnex.md) | SecMakeSPNEx creates a service provider name string that can be used when communicating with specific security service providers. |
 | [SecMakeSPNEx2 function](..\ntifs\nf-ntifs-secmakespnex2.md) | SecMakeSPNEx2 creates a service provider name string that can be used when it communicates with specific security service providers. |
-| [_RxLog function](..\rxlog\nf-rxlog-_rxlog.md) | _RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled. |
+| [_RxLog function](..\rxlog\nf-rxlog-_rxlog.md) | "_RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled." |
 | [__RxFillAndInstallFastIoDispatch function](..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md) | RxFillAndInstallFastIoDispatch fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed. |
-| [__RxSynchronizeBlockingOperations function](..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md) | __RxSynchronizeBlockingOperations synchronizes blocking I/O requests to the same work queue. |
+| [__RxSynchronizeBlockingOperations function](..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md) | "__RxSynchronizeBlockingOperations synchronizes blocking I/O requests to the same work queue." |
 
 ## Callback functions
 
@@ -1152,9 +1159,11 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [FsRtlSupportsPerFileContexts macro](..\ntifs\nf-ntifs-fsrtlsupportsperfilecontexts.md) | The FsRtlSupportsPerFileContexts macro checks if per file context information is supported by the file system that is associated with a specified FILE_OBJECT. |
 | [FsRtlTestAnsiCharacter macro](..\ntifs\nf-ntifs-fsrtltestansicharacter.md) | The FsRtlTestAnsiCharacter macro determines whether an ANSI or double-byte character set (DBCS) character meets the specified criteria. |
 | [IoIsFileOpenedExclusively macro](..\ntifs\nf-ntifs-ioisfileopenedexclusively.md) | Reserved for system use. |
+| [IoSetTopLevelIrp macro](..\rx\nf-rx-iosettoplevelirp.md) | The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread. |
 | [IsReparseTagMicrosoft macro](..\ntifs\nf-ntifs-isreparsetagmicrosoft.md) | The IsReparseTagMicrosoft macro determines whether a reparse point tag indicates a Microsoft reparse point. |
 | [IsReparseTagNameSurrogate macro](..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md) | The IsReparseTagNameSurrogate macro determines whether a tag's associated reparse point is a surrogate for another named entity, such as a volume mount point. |
 | [IsReparseTagValid macro](..\ntifs\nf-ntifs-isreparsetagvalid.md) | Reserved for system use. |
+| [RtlFillMemoryUlonglong macro](..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md) | The RtlFillMemoryUlonglong routine fills a given range of memory with one or more repetitions of a given ULONGLONG value. |
 | [RtlIsLeftChild macro](..\ntddk\nf-ntddk-rtlisleftchild.md) | The RtlIsLeftChild routine determines whether a given splay link is the left child of a node in a splay link tree. |
 | [RtlIsRightChild macro](..\ntddk\nf-ntddk-rtlisrightchild.md) | The RtlIsRightChild routine determines whether a given splay link is the right child of a node in a splay link tree. |
 | [RtlIsRoot macro](..\ntddk\nf-ntddk-rtlisroot.md) | The RtlIsRoot routine determines whether the specified node is the root node of a splay link tree. |

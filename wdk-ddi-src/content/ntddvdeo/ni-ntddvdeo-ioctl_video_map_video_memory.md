@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddvdeo.h
-apiname:
+api_name:
 -	IOCTL_VIDEO_MAP_VIDEO_MEMORY
 product: Windows
 targetos: Windows
@@ -120,7 +120,11 @@ If the miniport driver successfully maps the memory, it sets the <b>Information<
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
+
+<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
 
 
 
@@ -128,11 +132,7 @@ If the miniport driver successfully maps the memory, it sets the <b>Information<
 
 
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-
-
-
-<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
 
 
 

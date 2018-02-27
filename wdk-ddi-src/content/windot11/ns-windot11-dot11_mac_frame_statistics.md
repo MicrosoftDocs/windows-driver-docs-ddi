@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	windot11.h
-apiname:
+api_name:
 -	DOT11_MAC_FRAME_STATISTICS
 product: Windows
 targetos: Windows
@@ -214,20 +214,20 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
-
-
-
-<a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-mac-statistics">Extensible Station MAC
    Statistics</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>
 
 
 

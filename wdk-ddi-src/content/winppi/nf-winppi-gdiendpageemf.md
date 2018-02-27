@@ -29,16 +29,16 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname:
+api_name:
 -	GdiEndPageEMF
 product: Windows
 targetos: Windows
@@ -129,11 +129,11 @@ For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab4
 
 ## -see-also
 
-<a href="..\winppi\nf-winppi-gdiplaypageemf.md">GdiPlayPageEMF</a>
-
-
-
 <a href="..\winppi\nf-winppi-gdistartpageemf.md">GdiStartPageEMF</a>
+
+
+
+<a href="..\winppi\nf-winppi-gdiplaypageemf.md">GdiPlayPageEMF</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Procgrp.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Procgrp.lib
 -	Procgrp.dll
-apiname:
+api_name:
 -	WdmlibProcgrpInitialize
 product: Windows
 targetos: Windows

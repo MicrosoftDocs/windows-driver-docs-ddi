@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddser.h
-apiname:
+api_name:
 -	IOCTL_SERIAL_GET_TIMEOUTS
 product: Windows
 targetos: Windows

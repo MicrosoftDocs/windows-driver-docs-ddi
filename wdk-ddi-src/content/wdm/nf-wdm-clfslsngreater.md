@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname:
+api_name:
 -	ClfsLsnGreater
 product: Windows
 targetos: Windows
@@ -104,15 +104,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfslsnnull.md">ClfsLsnNull</a>
+
+
+
 <a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
 
 
 
 <a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfslsnnull.md">ClfsLsnNull</a>
 
 
 

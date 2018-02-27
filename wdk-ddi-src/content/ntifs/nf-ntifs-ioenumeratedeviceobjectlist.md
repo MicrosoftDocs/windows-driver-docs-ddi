@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoEnumerateDeviceObjectList
 product: Windows
 targetos: Windows
@@ -156,14 +156,6 @@ In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObject
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 
 
@@ -172,7 +164,15 @@ In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObject
 
 
 
+<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
 
 
 

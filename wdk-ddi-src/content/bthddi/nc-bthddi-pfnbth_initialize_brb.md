@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	BthInitializeBrb
 product: Windows
 targetos: Windows
@@ -116,11 +116,11 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
-
-
-
 <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
+
+
+<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
 
 

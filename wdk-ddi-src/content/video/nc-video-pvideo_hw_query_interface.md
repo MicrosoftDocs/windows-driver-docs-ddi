@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	HwVidQueryInterface
 product: Windows
 targetos: Windows
@@ -136,7 +136,7 @@ A child device is enumerated by <a href="..\video\nc-video-pvideo_hw_get_child_d
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportacquiredevicelock.md">VideoPortAcquireDeviceLock</a>
+<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
 
 
 
@@ -144,11 +144,11 @@ A child device is enumerated by <a href="..\video\nc-video-pvideo_hw_get_child_d
 
 
 
+<a href="..\video\nf-video-videoportacquiredevicelock.md">VideoPortAcquireDeviceLock</a>
+
+
+
 <a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
-
-
-
-<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	D3D10_DDI_QUERY_DATA_SO_STATISTICS
 product: Windows
 targetos: Windows
@@ -91,7 +91,7 @@ The driver associates a D3D10_DDI_QUERY_DATA_SO_STATISTICS structure with the D3
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
 
 
 
@@ -99,7 +99,7 @@ The driver associates a D3D10_DDI_QUERY_DATA_SO_STATISTICS structure with the D3
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
 
 
 

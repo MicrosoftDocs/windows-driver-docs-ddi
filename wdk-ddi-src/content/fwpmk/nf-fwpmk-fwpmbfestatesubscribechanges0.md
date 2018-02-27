@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname:
+api_name:
 -	FwpmBfeStateSubscribeChanges0
 product: Windows
 targetos: Windows
@@ -232,16 +232,16 @@ A callout driver must deregister the callback function by calling the
 
 ## -see-also
 
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
+   FwpmBfeStateUnsubscribeChanges0</a>
+
+
+
 <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
 
 
 
 <a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
-
-
-
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
-   FwpmBfeStateUnsubscribeChanges0</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbfnioctl.h
-apiname:
+api_name:
 -	IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
 product: Windows
 targetos: Windows

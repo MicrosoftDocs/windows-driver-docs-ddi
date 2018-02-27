@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	storport.lib
 -	storport.dll
-apiname:
+api_name:
 -	StorPortPoFxSetComponentResidency
 product: Windows
 targetos: Windows

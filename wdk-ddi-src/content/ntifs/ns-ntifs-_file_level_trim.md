@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	FILE_LEVEL_TRIM
 product: Windows
 targetos: Windows
@@ -86,11 +86,11 @@ Array of trim ranges for a file.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_level_trim_range.md">FILE_LEVEL_TRIM_RANGE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451098">FSCTL_FILE_LEVEL_TRIM</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_level_trim_range.md">FILE_LEVEL_TRIM_RANGE</a>
 
 
 

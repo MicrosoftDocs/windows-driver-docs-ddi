@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthhfpddi.h
-apiname:
+api_name:
 -	BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortCreateSpinLock
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ This routine must be called before an initial call to <a href="..\video\nf-video
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
-
-
-
 <a href="..\video\nf-video-videoportdeletespinlock.md">VideoPortDeleteSpinLock</a>
+
+
+
+<a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
 
 
 

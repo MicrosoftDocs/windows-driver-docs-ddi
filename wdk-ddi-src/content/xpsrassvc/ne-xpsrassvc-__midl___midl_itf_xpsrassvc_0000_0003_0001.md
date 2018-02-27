@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Xpsrassvc.h
-apiname:
+api_name:
 -	XPSRAS_PIXEL_FORMAT
 product: Windows
 targetos: Windows
@@ -96,7 +96,7 @@ For more information about rasterizing XPS documents, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/00F1C6B7-9AD8-4E42-B433-4BD73E85CFA3">IXpsRasterizationFactory1::CreateRasterizer1</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
 
 
@@ -104,7 +104,7 @@ For more information about rasterizing XPS documents, see <a href="https://msdn.
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+<a href="https://msdn.microsoft.com/00F1C6B7-9AD8-4E42-B433-4BD73E85CFA3">IXpsRasterizationFactory1::CreateRasterizer1</a>
 
 
 

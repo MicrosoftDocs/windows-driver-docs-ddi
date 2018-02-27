@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	RtlCompareUnicodeString
 product: Windows
 targetos: Windows
@@ -137,11 +137,11 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlcomparestring.md">RtlCompareString</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlcomparestring.md">RtlCompareString</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	IOCTL_KS_RESET_STATE
 product: Windows
 targetos: Windows
@@ -124,11 +124,7 @@ When the reset state is terminated, the pin can again accept new data and pass d
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556354">AVStrMiniPinReset</a>
+<a href="..\ks\nc-ks-pfnksfiltervoid.md">AVStrMiniFilterReset</a>
 
 
 
@@ -136,7 +132,11 @@ When the reset state is terminated, the pin can again accept new data and pass d
 
 
 
-<a href="..\ks\nc-ks-pfnksfiltervoid.md">AVStrMiniFilterReset</a>
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556354">AVStrMiniPinReset</a>
 
 
 

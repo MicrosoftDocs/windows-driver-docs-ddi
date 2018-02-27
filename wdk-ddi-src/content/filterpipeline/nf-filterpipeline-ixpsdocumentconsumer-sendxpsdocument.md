@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	filterpipeline.h
-apiname:
+api_name:
 -	IXpsDocumentConsumer.SendXpsDocument
 product: Windows
 targetos: Windows
@@ -94,11 +94,11 @@ Only one XpsDocument interface can be sent. The <code>SendXpsDocument</code> met
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
-
-
-
 <a href="..\filterpipeline\nn-filterpipeline-ixpsdocument.md">IXpsDocument</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
 
 
 

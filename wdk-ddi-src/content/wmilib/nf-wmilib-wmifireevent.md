@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wmilib.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Wmilib.lib
 -	Wmilib.dll
-apiname:
+api_name:
 -	WmiFireEvent
 product: Windows
 targetos: Windows
@@ -124,7 +124,7 @@ For more information about event tracing, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 
@@ -132,7 +132,7 @@ For more information about event tracing, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
 
 
 

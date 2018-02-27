@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	DbgEng.h
-apiname:
+api_name:
 -	DEBUG_SYMBOL_ENTRY
 product: Windows
 targetos: Windows
@@ -140,11 +140,11 @@ Set to zero.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/02fe418f-1793-4585-9891-1274a4ddba74">IdebugSymbols3::GetSymbolEntryInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d">IdebugSymbolGroup2::GetSymbolEntryInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/02fe418f-1793-4585-9891-1274a4ddba74">IdebugSymbols3::GetSymbolEntryInformation</a>
 
 
 

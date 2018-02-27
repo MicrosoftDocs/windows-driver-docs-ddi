@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: ">= PASSIVE_LEVEL (See Remarks section)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	usbcamd2.lib
 -	usbcamd2.dll
-apiname:
+api_name:
 -	USBCAMD_ControlVendorCommand
 product: Windows
 targetos: Windows

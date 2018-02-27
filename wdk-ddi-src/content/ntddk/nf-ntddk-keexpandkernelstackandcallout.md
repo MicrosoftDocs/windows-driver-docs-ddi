@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeExpandKernelStackAndCallout
 product: Windows
 targetos: Windows
@@ -108,7 +108,7 @@ The calling thread must not call the <a href="..\wdm\nf-wdm-psterminatesystemthr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545494">ExpandedStackCall</a>
+<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
 
 
@@ -116,7 +116,7 @@ The calling thread must not call the <a href="..\wdm\nf-wdm-psterminatesystemthr
 
 
 
-<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545494">ExpandedStackCall</a>
 
 
 

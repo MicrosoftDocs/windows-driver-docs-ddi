@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSMETHOD_SET_IRP_STORAGE
 product: Windows
 targetos: Windows
@@ -86,10 +86,6 @@ The macro is defined as follows:
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
@@ -99,6 +95,10 @@ The macro is defined as follows:
 
 
 <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib; Ntdll.lib
 req.dll: Ntoskrnl.exe; Ntdll.dll
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Ntoskrnl.exe
 -	Ntdll.dll
-apiname:
+api_name:
 -	RtlDowncaseUnicodeChar
 product: Windows
 targetos: Windows

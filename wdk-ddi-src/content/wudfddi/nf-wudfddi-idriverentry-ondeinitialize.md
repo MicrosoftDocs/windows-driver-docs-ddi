@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wudfddi.h
-apiname:
+api_name:
 -	IDriverEntry.OnDeinitialize
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ The framework creates a new driver object for each driver that is loaded in the 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
 
 
 

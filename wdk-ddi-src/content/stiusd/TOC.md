@@ -23,4 +23,6 @@
 ### [IStiUSD::RawWriteData method](../stiusd/nf-stiusd-istiusd-rawwritedata.md)
 ### [IStiUSD::SetNotificationHandle method](../stiusd/nf-stiusd-istiusd-setnotificationhandle.md)
 ### [IStiUSD::UnLockDevice method](../stiusd/nf-stiusd-istiusd-unlockdevice.md)
+### [IStiDeviceControl interface](../stiusd/nn-stiusd-istidevicecontrol.md)
+### [IStiUSD interface](../stiusd/nn-stiusd-istiusd.md)
 ### [_STI_USD_CAPS structure](../stiusd/ns-stiusd-_sti_usd_caps.md)

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces3.GetNextTagged
 -	IDebugDataSpaces4.GetNextTagged
 product: Windows
@@ -126,7 +126,7 @@ There are no more blocks of tagged data available in this enumeration.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 
@@ -134,11 +134,11 @@ There are no more blocks of tagged data available in this enumeration.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554336">ReadTagged</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 

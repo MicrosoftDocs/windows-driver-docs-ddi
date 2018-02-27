@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortQueueWorkItem
 product: Windows
 targetos: Windows
@@ -158,11 +158,11 @@ The work item was successfully queued.
 
 
 
-<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
-
-
-
 <a href="..\storport\nc-storport-hw_workitem.md">HwStorWorkItem</a>
+
+
+
+<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
 
 
 

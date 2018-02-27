@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wiautil.h
-apiname:
+api_name:
 -	CWiauFormatConverter.ConvertToBmp
 product: Windows
 targetos: Windows
@@ -131,11 +131,7 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
-
-
-
-<a href="..\wiautil\ne-wiautil-skip_amount.md">SKIP_AMOUNT</a>
+<a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a>
 
 
 
@@ -143,7 +139,11 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 
 
-<a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a>
+<a href="..\wiautil\ne-wiautil-skip_amount.md">SKIP_AMOUNT</a>
+
+
+
+<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
 
 
 

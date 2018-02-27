@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	IDebugFailureAnalysis2.GetUlong
 product: Windows
 targetos: Windows
@@ -102,11 +102,15 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983409">AddUlong</a>
+
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983425">SetUlong</a>
 
 
 
@@ -114,11 +118,7 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983409">AddUlong</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983425">SetUlong</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 

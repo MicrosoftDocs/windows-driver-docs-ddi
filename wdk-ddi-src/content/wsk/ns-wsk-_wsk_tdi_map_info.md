@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wsk.h
-apiname:
+api_name:
 -	WSK_TDI_MAP_INFO
 product: Windows
 targetos: Windows
@@ -114,11 +114,11 @@ For more information about using TDI transports, see
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_tdi_map.md">WSK_TDI_MAP</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_tdi_map.md">WSK_TDI_MAP</a>
 
 
 

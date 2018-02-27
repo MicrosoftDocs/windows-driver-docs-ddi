@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Hal.dll
-apiname:
+api_name:
 -	HalAllocateHardwareCounters
 product: Windows
 targetos: Windows
@@ -155,11 +155,11 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a>
 
 
 

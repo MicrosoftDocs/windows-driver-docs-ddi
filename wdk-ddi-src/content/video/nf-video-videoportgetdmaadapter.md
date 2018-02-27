@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortGetDmaAdapter
 product: Windows
 targetos: Windows
@@ -119,10 +119,6 @@ This structure is available in Windows XP and later.
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
-
-
-
 <a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
 
 
@@ -132,6 +128,10 @@ This structure is available in Windows XP and later.
 
 
 <a href="..\video\ns-video-_vp_device_description.md">VP_DEVICE_DESCRIPTION</a>
+
+
+
+<a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
 
 
 

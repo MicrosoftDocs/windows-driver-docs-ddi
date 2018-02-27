@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	GetPebAddress
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ In kernel-mode debugging, if <i>CurrentThread</i> is <b>NULL</b>, the PEB for th
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>
-
-
-
 <a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a>
+
+
+
+<a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>
 
 
 

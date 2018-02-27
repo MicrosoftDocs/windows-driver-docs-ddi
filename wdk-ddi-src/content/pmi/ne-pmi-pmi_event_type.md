@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pmi.h
-apiname:
+api_name:
 -	PMI_EVENT_TYPE
 product: Windows
 targetos: Windows
@@ -113,11 +113,11 @@ The <b>EventType</b> member of the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVE
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
 
 
 

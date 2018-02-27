@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	netdma.h
-apiname:
+api_name:
 -	NET_DMA_PROVIDER_CHARACTERISTICS
 product: Windows
 targetos: Windows
@@ -215,19 +215,31 @@ The DMA provider driver supplies a NET_DMA_PROVIDER_CHARACTERISTICS structure at
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
-
-
-
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
 
 
 
@@ -240,23 +252,11 @@ The DMA provider driver supplies a NET_DMA_PROVIDER_CHARACTERISTICS structure at
 
 
 
+<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
+
+
+
 <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 
 

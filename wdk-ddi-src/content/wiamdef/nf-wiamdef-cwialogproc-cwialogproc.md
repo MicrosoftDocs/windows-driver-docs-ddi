@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wiamdef.h
-apiname:
+api_name:
 -	CWiaLogProc.CWiaLogProc
 product: Windows
 targetos: Windows

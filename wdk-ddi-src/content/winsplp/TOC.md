@@ -70,6 +70,8 @@
 ### [BranchOfficeLogOfflineFileFull structure](../winsplp/ns-winsplp-branchofficelogofflinefilefull.md)
 ### [MESSAGEBOX_PARAMS structure](../winsplp/ns-winsplp-messagebox_params.md)
 ### [SHOWUIPARAMS structure](../winsplp/ns-winsplp-showuiparams.md)
+### [_ATTRIBUTE_INFO_3 structure](../winsplp/ns-winsplp-_attribute_info_3.md)
+### [_ATTRIBUTE_INFO_4 structure](../winsplp/ns-winsplp-_attribute_info_4.md)
 ### [_MONITOR structure](../winsplp/ns-winsplp-_monitor.md)
 ### [_MONITOR2 structure](../winsplp/ns-winsplp-_monitor2.md)
 ### [_MONITOREX structure](../winsplp/ns-winsplp-_monitorex.md)

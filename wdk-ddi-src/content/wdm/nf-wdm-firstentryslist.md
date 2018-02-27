@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	FirstEntrySList
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ Unlike other sequenced singly linked list routines, the <b>FirstEntrySList</b> r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a>
-
-
-
 <a href="..\wdm\ns-wdm-_slist_entry.md">SLIST_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a>
 
 
 

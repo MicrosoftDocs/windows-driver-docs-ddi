@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfiotarget.h
 -	wudfddi_types.h
-apiname:
+api_name:
 -	WDF_IO_TARGET_STATE
 product: Windows
 targetos: Windows

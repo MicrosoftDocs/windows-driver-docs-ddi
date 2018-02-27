@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	EventHandler
 product: Windows
 targetos: Windows
@@ -115,11 +115,11 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 ## -see-also
 
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
-
-
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a>
 
 
 
@@ -127,7 +127,7 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 
 
-<a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a>
 
 
 
@@ -135,11 +135,11 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
-
-
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
+
+
+
+<a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
 
 
 

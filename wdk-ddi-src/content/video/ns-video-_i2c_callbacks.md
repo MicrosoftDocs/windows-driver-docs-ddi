@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	I2C_CALLBACKS
 product: Windows
 targetos: Windows
@@ -93,6 +93,10 @@ A pointer to the <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLi
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
 
@@ -102,10 +106,6 @@ A pointer to the <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLi
 
 
 <a href="..\video\ns-video-_ddc_control.md">DDC_CONTROL</a>
-
-
-
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
 
 

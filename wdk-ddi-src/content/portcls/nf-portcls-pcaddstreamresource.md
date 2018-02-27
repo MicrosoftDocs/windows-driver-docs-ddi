@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: NA
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NA
-apiname:
+api_name:
 -	PcAddStreamResource
 product: Windows
 targetos: Windows
@@ -127,11 +127,11 @@ Audio drivers that only run in Windows 10 can use  <b>PcAddStreamResource</b> an
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcremovestreamresource.md">PcRemoveStreamResource</a>
-
-
-
 <a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcremovestreamresource.md">PcRemoveStreamResource</a>
 
 
 

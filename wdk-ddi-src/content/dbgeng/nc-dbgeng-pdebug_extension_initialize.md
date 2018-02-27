@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	DebugExtensionInitialize
 product: Windows
 targetos: Windows
@@ -141,11 +141,11 @@ There may or may not be a session active when this function is called, so the ex
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
-
-
-
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
+
+
+
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
 
 
 

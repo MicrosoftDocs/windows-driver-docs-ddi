@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisMCreateLog
 product: Windows
 targetos: Windows
@@ -169,6 +169,10 @@ Whatever size of log file is allocated, subsequent calls to
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
 
@@ -178,10 +182,6 @@ Whatever size of log file is allocated, subsequent calls to
 
 
 <a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
 
 
 

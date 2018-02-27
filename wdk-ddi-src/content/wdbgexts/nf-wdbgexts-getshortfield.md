@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	GetShortField
 product: Windows
 targetos: Windows
@@ -280,11 +280,11 @@ If this macro succeeds, it returns the value zero.  If it fails because the call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553539">ReadField</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550953">InitTypeRead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553539">ReadField</a>
 
 
 

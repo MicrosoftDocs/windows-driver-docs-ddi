@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoStartTimer
 product: Windows
 targetos: Windows
@@ -92,19 +92,19 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
-
-
 <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 

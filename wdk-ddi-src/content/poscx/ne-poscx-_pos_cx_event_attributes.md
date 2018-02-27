@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	poscx.h
-apiname:
+api_name:
 -	POS_CX_EVENT_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ Control level priority delivered in FIFO to ALL open handles on the driver.
 
 ## -see-also
 
-<a href="..\poscx\ne-poscx-_pos_cx_event_dest.md">POS_CX_EVENT_DEST</a>
-
-
-
 <a href="..\poscx\ne-poscx-_pos_cx_event_priority.md">POS_CX_EVENT_PRIORITY</a>
+
+
+
+<a href="..\poscx\ne-poscx-_pos_cx_event_dest.md">POS_CX_EVENT_DEST</a>
 
 
 

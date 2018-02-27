@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndisndk.h
-apiname:
+api_name:
 -	NDIS_OPEN_NDK_ADAPTER_PARAMETERS
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ To open an NDK adapter, NDIS calls the <a href="..\ndisndk\nc-ndisndk-open_ndk_a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
-
-
-
 <a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
 
 
 

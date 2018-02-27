@@ -176,3 +176,7 @@
 ### [_VP_DEVICE_DESCRIPTION structure](../video/ns-video-_vp_device_description.md)
 ### [_VP_SCATTER_GATHER_ELEMENT structure](../video/ns-video-_vp_scatter_gather_element.md)
 ### [_VP_SCATTER_GATHER_LIST structure](../video/ns-video-_vp_scatter_gather_list.md)
+# [Networking drivers for Windows Vista and later](../_netvista/index.md)
+## [Video.h](index.md)
+### [BOOLEAN function](../video/nf-video-_video_port_debug_report_interface-boolean.md)
+### [VOID function](../video/nf-video-_video_port_debug_report_interface-void.md)

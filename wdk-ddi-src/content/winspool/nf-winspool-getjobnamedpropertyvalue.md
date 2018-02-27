@@ -29,15 +29,15 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: Spoolss.dll; WinSpool.drv
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	spoolss.dll
 -	WinSpool.drv
-apiname:
+api_name:
 -	GetJobNamedPropertyValue
 product: Windows
 targetos: Windows

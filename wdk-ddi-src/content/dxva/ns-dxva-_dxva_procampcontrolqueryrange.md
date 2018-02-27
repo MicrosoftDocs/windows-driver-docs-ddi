@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxva.h
-apiname:
+api_name:
 -	DXVA_ProcAmpControlQueryRange
 product: Windows
 targetos: Windows
@@ -86,11 +86,11 @@ Specifies a <a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a> stru
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winddiui.h
-apiname:
+api_name:
 -	DOCUMENTPROPERTYHEADER
 product: Windows
 targetos: Windows
@@ -240,15 +240,15 @@ The input value in the <b>cbOut</b> member is not necessarily equal to the size 
 
 ## -see-also
 
+<a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a>
+
+
+
 <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
-
-
-
-<a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a>
 
 
 

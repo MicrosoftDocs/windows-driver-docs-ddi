@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ptpusd.h
-apiname:
+api_name:
 -	PTP_VENDOR_DATA_OUT
 product: Windows
 targetos: Windows

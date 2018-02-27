@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	oemrilapitypes.h
-apiname:
+api_name:
 -	RIL_DEVSPECIFIC_CMD
 product: Windows
 targetos: Windows

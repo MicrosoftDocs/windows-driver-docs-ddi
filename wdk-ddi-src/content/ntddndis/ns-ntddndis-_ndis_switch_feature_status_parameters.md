@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddndis.h
-apiname:
+api_name:
 -	NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
 product: Windows
 targetos: Windows
@@ -168,11 +168,11 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_custom.md">NDIS_
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598260">OID_SWITCH_FEATURE_STATUS_QUERY</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_custom.md">NDIS_SWITCH_FEATURE_STATUS_CUSTOM</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -180,7 +180,7 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_custom.md">NDIS_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598260">OID_SWITCH_FEATURE_STATUS_QUERY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	stiusd.h
-apiname:
+api_name:
 -	IStiUSD.GetCapabilities
 product: Windows
 targetos: Windows
@@ -100,11 +100,11 @@ The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capabil
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543745">IStiDevice::GetCapabilities</a>
-
-
-
 <a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543745">IStiDevice::GetCapabilities</a>
 
 
 

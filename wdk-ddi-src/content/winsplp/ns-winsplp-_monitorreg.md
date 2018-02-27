@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winsplp.h
-apiname:
+api_name:
 -	MONITORREG
 product: Windows
 targetos: Windows
@@ -302,11 +302,11 @@ The spooler registry functions use HANDLE and PHANDLE parameter types instead of
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
 
 
 

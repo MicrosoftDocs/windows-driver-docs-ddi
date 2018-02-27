@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Stiusd.h
-apiname:
+api_name:
 -	IStiUSD.UnLockDevice
 product: Windows
 targetos: Windows
@@ -88,11 +88,11 @@ If a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>
+
+
+
+<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
 
 
 

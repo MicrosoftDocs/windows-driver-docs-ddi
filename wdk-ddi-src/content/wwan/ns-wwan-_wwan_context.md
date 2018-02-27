@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_CONTEXT
 product: Windows
 targetos: Windows
@@ -129,11 +129,7 @@ Authentication type to use for the PDP activation.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
+<a href="..\wwan\ne-wwan-_wwan_context_type.md">WWAN_CONTEXT_TYPE</a>
 
 
 
@@ -142,7 +138,11 @@ Authentication type to use for the PDP activation.
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_context_type.md">WWAN_CONTEXT_TYPE</a>
+<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
 
 
 

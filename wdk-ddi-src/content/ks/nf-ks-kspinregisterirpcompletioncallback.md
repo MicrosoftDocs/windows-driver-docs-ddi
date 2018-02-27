@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsPinRegisterIrpCompletionCallback
 product: Windows
 targetos: Windows
@@ -105,15 +105,15 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-
-
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+<a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
 
 
 
 <a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 
 
@@ -125,7 +125,7 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 
 
-<a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 
 

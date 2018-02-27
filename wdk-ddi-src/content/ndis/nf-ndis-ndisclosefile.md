@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisCloseFile
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ For miniport drivers, calls to this function are valid only during initializatio
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -113,7 +113,7 @@ For miniport drivers, calls to this function are valid only during initializatio
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

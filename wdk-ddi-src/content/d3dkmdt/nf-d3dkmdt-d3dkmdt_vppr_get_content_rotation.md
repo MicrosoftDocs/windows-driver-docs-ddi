@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dkmdt.h
-apiname:
+api_name:
 -	D3DKMDT_VPPR_GET_CONTENT_ROTATION
 product: Windows
 targetos: Windows
@@ -239,7 +239,11 @@ Here's an example of how this function can provide your driver with the info it 
 
 ## -see-also
 
-<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_content_rotation_part.md">D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART</a>
+<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_offset_rotation.md">D3DKMDT_VPPR_GET_OFFSET_ROTATION</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentflags.md">DXGK_PRESENTFLAGS</a>
 
 
 
@@ -247,11 +251,7 @@ Here's an example of how this function can provide your driver with the info it 
 
 
 
-<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_offset_rotation.md">D3DKMDT_VPPR_GET_OFFSET_ROTATION</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentflags.md">DXGK_PRESENTFLAGS</a>
+<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_content_rotation_part.md">D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART</a>
 
 
 

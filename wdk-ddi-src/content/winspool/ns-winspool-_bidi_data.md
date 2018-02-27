@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winspool.h
-apiname:
+api_name:
 -	BIDI_DATA
 product: Windows
 targetos: Windows
@@ -124,11 +124,11 @@ The <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
-
-
-
 <a href="..\winspool\ns-winspool-_binary_container.md">BINARY_CONTAINER</a>
+
+
+
+<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
 
 
 

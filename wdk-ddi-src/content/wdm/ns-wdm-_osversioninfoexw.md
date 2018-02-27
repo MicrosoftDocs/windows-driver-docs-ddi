@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	RTL_OSVERSIONINFOEXW
 product: Windows
 targetos: Windows
@@ -607,7 +607,7 @@ Not applicable
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
 
 
@@ -615,7 +615,7 @@ Not applicable
 
 
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
 
 

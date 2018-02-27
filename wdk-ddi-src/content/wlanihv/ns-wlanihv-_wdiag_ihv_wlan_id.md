@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	WDIAG_IHV_WLAN_ID
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ An error reason code, when available.
 
 ## -see-also
 
-<a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
-
-
-
 <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+
+
+
+<a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
 
 
 

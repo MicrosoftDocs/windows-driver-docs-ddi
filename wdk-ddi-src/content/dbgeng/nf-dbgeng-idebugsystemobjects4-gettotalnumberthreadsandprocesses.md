@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses
 -	IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
 product: Windows
@@ -136,11 +136,11 @@ If no target is found, all the values are set to zero.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
 
 
 

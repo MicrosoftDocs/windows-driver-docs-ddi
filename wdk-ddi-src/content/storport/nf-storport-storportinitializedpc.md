@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortInitializeDpc
 product: Windows
 targetos: Windows
@@ -124,11 +124,11 @@ This routine is implemented using inline function definitions, so that miniport 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
-
-
-
 <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
 
 
 

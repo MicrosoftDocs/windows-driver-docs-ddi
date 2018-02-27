@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
+api_name:
 -	GETINFO_GLYPHBITMAP
 product: Windows
 targetos: Windows
@@ -98,15 +98,15 @@ The value that a rendering plug-in specifies for the <b>hGlyph</b> member must h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566819">GLYPHDATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554241">IPrintOemUni::DownloadCharGlyph</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566819">GLYPHDATA</a>
 
 
 

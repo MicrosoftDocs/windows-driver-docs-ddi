@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname:
+api_name:
 -	IKsPinEx
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKs
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
-
-
-
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
 
 
 

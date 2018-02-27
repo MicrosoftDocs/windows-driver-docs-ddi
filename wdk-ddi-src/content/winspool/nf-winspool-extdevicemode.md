@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Winspool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	WinSpool.drv
-apiname:
+api_name:
 -	ExtDeviceMode
 product: Windows
 targetos: Windows

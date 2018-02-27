@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	IDebugFailureAnalysis2.GetFailureType
 product: Windows
 targetos: Windows
@@ -78,11 +78,11 @@ This method returns a value in the <a href="..\extsfns\ne-extsfns-_debug_failure
 
 ## -see-also
 
+<b>GetFailureClass</b>
+
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -90,7 +90,7 @@ This method returns a value in the <a href="..\extsfns\ne-extsfns-_debug_failure
 
 
 
-<b>GetFailureClass</b>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 

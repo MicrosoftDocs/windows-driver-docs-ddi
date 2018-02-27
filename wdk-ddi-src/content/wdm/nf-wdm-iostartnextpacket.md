@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoStartNextPacket
 product: Windows
 targetos: Windows
@@ -111,7 +111,7 @@ Callers of <b>IoStartNextPacket</b> must be running at IRQL = DISPATCH_LEVEL. Us
 
 
 
-<a href="..\wdm\nf-wdm-iosetstartioattributes.md">IoSetStartIoAttributes</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -119,7 +119,7 @@ Callers of <b>IoStartNextPacket</b> must be running at IRQL = DISPATCH_LEVEL. Us
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\nf-wdm-iosetstartioattributes.md">IoSetStartIoAttributes</a>
 
 
 

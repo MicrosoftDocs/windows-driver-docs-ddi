@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DHAL_DP2RESPONSEQUERY
 product: Windows
 targetos: Windows
@@ -112,11 +112,15 @@ The runtime parses the returned response buffer and updates its internal data st
 
 ## -see-also
 
-D3DDP2OP_RESPONSEQUERY
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2issuequery.md">D3DHAL_DP2ISSUEQUERY</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2response.md">D3DHAL_DP2RESPONSE</a>
 
 
 
@@ -128,19 +132,15 @@ D3DDP2OP_RESPONSEQUERY
 
 
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2issuequery.md">D3DHAL_DP2ISSUEQUERY</a>
+
+
+
 D3DDP2OP_ISSUEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2response.md">D3DHAL_DP2RESPONSE</a>
+D3DDP2OP_RESPONSEQUERY
 
 
 

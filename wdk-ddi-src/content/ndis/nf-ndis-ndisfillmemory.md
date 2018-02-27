@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	NdisFillMemory
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ Callers of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlequalmemory.md">RtlEqualMemory</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlequalmemory.md">RtlEqualMemory</a>
 
 
 

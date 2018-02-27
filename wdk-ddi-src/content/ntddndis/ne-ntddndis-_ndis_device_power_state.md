@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddndis.h
-apiname:
+api_name:
 -	NDIS_DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
@@ -136,10 +136,6 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 ## -see-also
 
-<a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
 
 
@@ -148,7 +144,15 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters.md">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
 
 
 
@@ -156,11 +160,7 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
+<a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a>
 
 
 

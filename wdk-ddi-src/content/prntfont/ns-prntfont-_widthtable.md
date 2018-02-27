@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	prntfont.h
-apiname:
+api_name:
 -	WIDTHTABLE
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ A .ufm file's WIDTHTABLE structure, which describes character widths, is accesse
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_widthrun.md">WIDTHRUN</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
 
 
 

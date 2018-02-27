@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Ntdll.lib (user mode); NtosKrnl.lib (kernel mode); OneCoreUAP.lib on Windows 10
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtDll.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-XState-l1-1-0.dll
 -	API-MS-Win-Core-XState-l1-1-1.dll
 -	API-MS-Win-Core-XState-L1-1-2.dll
-apiname:
+api_name:
 -	RtlGetEnabledExtendedFeatures
 product: Windows
 targetos: Windows

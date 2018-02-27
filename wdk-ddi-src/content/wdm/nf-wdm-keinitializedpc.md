@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeInitializeDpc
 product: Windows
 targetos: Windows
@@ -107,6 +107,10 @@ Storage for the DPC object must be resident: in the device extension of a driver
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
 
 
@@ -116,10 +120,6 @@ Storage for the DPC object must be resident: in the device extension of a driver
 
 
 <a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 
 
